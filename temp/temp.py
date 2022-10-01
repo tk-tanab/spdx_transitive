@@ -5,22 +5,24 @@ import spdx
 import os
 import shutil
 
-package_name = "xxd"
+package_name = "x   xd"
 
-os.mkdir(package_name)
-os.chdir(package_name)
-dpkg_L_list = subprocess.run(
-    ["dpkg", "-L", package_name], capture_output=True, text=True
-).stdout.splitlines()
-for value in dpkg_L_list:
-    if os.path.isdir(value):
-        dirname = "." + value
-        os.makedirs(dirname, exist_ok=True)
-    else:
-        shutil.copy2(value, dirname)
+print(package_name[1:].strip())
 
-subprocess.run(
-    ["scancode", "-clpi", "./", "--spdx-tv", "output.tag"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT
-)
+# os.mkdir(package_name)
+# os.chdir(package_name)
+# dpkg_L_list = subprocess.run(
+#     ["dpkg", "-L", package_name], capture_output=True, text=True
+# ).stdout.splitlines()
+# for value in dpkg_L_list:
+#     if os.path.isdir(value):
+#         dirname = "." + value
+#         os.makedirs(dirname, exist_ok=True)
+#     else:
+#         shutil.copy2(value, dirname)
 
-print("Success!!")
+# subprocess.run(
+#     ["scancode", "-clpi", "./", "--spdx-tv", "output.tag"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT
+# )
+
+# print("Success!!")

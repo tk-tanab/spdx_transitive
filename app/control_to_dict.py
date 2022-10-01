@@ -1,4 +1,3 @@
-import json
 import re
 from typing import Tuple
 
@@ -14,7 +13,8 @@ def split_fv(line, control_lines) -> Tuple[str, str]:
         Tuple[str, str]: field, value
     """
     field, value = line.split(": ", 1)
-    # valueが<text>すなわち複数行にまたがれる形式だった場合
+    # valueが複数行にまたがれる形式だった場合
+    # <text></text>で包む
     if field == "Description":
         value = "<text>" + value
         for text in control_lines[control_lines.index(line) + 1 :]:

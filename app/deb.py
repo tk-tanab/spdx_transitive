@@ -3,8 +3,7 @@ import shutil
 import subprocess
 import os
 import control_to_dict
-from macpath import dirname
-
+import tv_to_dict
 class spdx_deb:
 
     main_package: str = "" # SPDXを生成するルートのパッケージ
@@ -114,20 +113,27 @@ class spdx_deb:
         
         # 作業用ディレクトリの作成
         os.mkdir(package_name)
-        os.chdir(package_name)
+
         dpkg_L_list = subprocess.run(
             ["dpkg", "-L", package_name], capture_output=True, text=True
         ).stdout.splitlines()
         for value in dpkg_L_list:
             if os.path.isdir(value):
-                dirname = "." + value
+                dirname = package_name + value
                 os.makedirs(dirname)
             else:
                 shutil.copy2(value, dirname)
 
+        output = package_name + "/output.tag"
         subprocess.run(
-            ["scancode", "-clpi", "./", "--spdx-tv", "output.tag"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT
+            ["scancode", "-clpi", "./", "--spdx-tv", output], stdout=subprocess.PIPE, stderr=subprocess.STDOUT
         )
+
+        spdx_dict = tv_to_dict.tv_to_dict(output)
+
+        shutil.rmtree(package_name)
+
+        
 
 
 
