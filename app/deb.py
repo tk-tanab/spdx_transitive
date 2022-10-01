@@ -1,4 +1,3 @@
-from genericpath import isdir
 import shutil
 import subprocess
 import os
@@ -71,11 +70,15 @@ class spdx_deb:
             print("That SPDX already exists")
             return
 
-        self.make_spdx_transitive(self.main_package)
+        os.makedirs("JSON")
+        namespace_dict = {}
+        self.make_spdx_transitive(self.main_package, namespace_dict)
+        # shutil.rmtree("JSON")
+
         os.chdir(cwd)
 
 
-    def make_spdx_transitive(self, package_name: str) -> bool:
+    def make_spdx_transitive(self, package_name: str, namespace_dict: dict[str, str]) -> bool:
         """
         DebianパッケージのSPDXを推移的に生成
 
@@ -108,7 +111,7 @@ class spdx_deb:
         # パッケージが存在するがバージョン的に依存していないものはどうする？(未実装)
         # 依存関係にあるものを洗い出す
         for depend_package in control_dict["Depends"]:
-            if not self.make_spdx_transitive(depend_package):
+            if not self.make_spdx_transitive(depend_package, namespace_dict):
                 control_dict["Depends"].remove(depend_package)
         
         # 作業用ディレクトリの作成
@@ -130,10 +133,15 @@ class spdx_deb:
         )
 
         spdx_dict = tv_to_dict.tv_to_dict(output)
+        # ファイルパスを整形
+        for file_list in spdx_dict["File"]:
+            file_list["FileName"] = file_list["FileName"][0].replace(("./" + package_name), '', 1)
 
         shutil.rmtree(package_name)
 
+        namespace_dict[package_name] = spdx_dict["Document Information"][0]["DocumentNamespace"]
         
+
 
 
 

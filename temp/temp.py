@@ -4,10 +4,14 @@ import scancode
 import spdx
 import os
 import shutil
+import uuid
 
 package_name = "x   xd"
 
-print(package_name[1:].strip())
+with open('output.tag', 'rb') as file:
+    # ファイルを読み取る
+    fileData = file.read()
+print(fileData)
 
 # os.mkdir(package_name)
 # os.chdir(package_name)
