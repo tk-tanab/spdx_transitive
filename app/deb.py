@@ -3,7 +3,9 @@ import subprocess
 import os
 import control_to_dict
 import tv_to_dict
-class spdx_deb:
+import merge_tv_control
+import json
+class Spdx_Deb:
 
     main_package: str = "" # SPDXを生成するルートのパッケージ
     package_version: str = "" # main_packageのバージョン
@@ -71,14 +73,14 @@ class spdx_deb:
             return
 
         os.makedirs("JSON")
-        namespace_dict = {}
-        self.make_spdx_transitive(self.main_package, namespace_dict)
+        space_ref_dict = {}
+        self.make_spdx_transitive(self.main_package, space_ref_dict)
         # shutil.rmtree("JSON")
 
         os.chdir(cwd)
 
 
-    def make_spdx_transitive(self, package_name: str, namespace_dict: dict[str, str]) -> bool:
+    def make_spdx_transitive(self, package_name: str, space_ref_dict: dict[str, str]) -> bool:
         """
         DebianパッケージのSPDXを推移的に生成
 
@@ -104,14 +106,14 @@ class spdx_deb:
             if ("Version: " + package_version + "\n") in control:
                 control_dict = control_to_dict.control_to_dict(control)
                 break
-            else:
-                # 該当するバージョンが見つからないときの処理
-                print("Version:", package_version, "does not exist")
+        else:
+            # 該当するバージョンが見つからないときの処理
+            print(package_name + " Version:", package_version, "does not exist")
 
         # パッケージが存在するがバージョン的に依存していないものはどうする？(未実装)
         # 依存関係にあるものを洗い出す
         for depend_package in control_dict["Depends"]:
-            if not self.make_spdx_transitive(depend_package, namespace_dict):
+            if not self.make_spdx_transitive(depend_package, space_ref_dict):
                 control_dict["Depends"].remove(depend_package)
         
         # 作業用ディレクトリの作成
@@ -123,7 +125,7 @@ class spdx_deb:
         for value in dpkg_L_list:
             if os.path.isdir(value):
                 dirname = package_name + value
-                os.makedirs(dirname)
+                os.makedirs(dirname, exist_ok=True)
             else:
                 shutil.copy2(value, dirname)
 
@@ -139,8 +141,19 @@ class spdx_deb:
 
         shutil.rmtree(package_name)
 
-        namespace_dict[package_name] = spdx_dict["Document Information"][0]["DocumentNamespace"]
+        merge_tv_control.merge_tv_control(spdx_dict, control_dict, space_ref_dict)
+
+        space_ref_dict[package_name] = [spdx_dict["Document Information"][0]["DocumentNamespace"][0], spdx_dict["Package"][0]["SPDXID"][0]]
+
+        spdx_json = package_name + ".json"
+        with open(spdx_json, mode="w", encoding="utf-8") as f:
+            json.dump(spdx_dict, f, indent=4)
+
+        print(package_name)
+
+        return True
         
+
 
 
 

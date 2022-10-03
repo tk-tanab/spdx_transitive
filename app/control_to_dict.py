@@ -68,7 +68,7 @@ def control_to_dict(control_text: str) -> dict[str, list[str]]:
             make_dict(field, value, control_dict)
 
     # 依存関係系をまとめる
-    for k in control_dict.keys():
+    for k in list(control_dict.keys()):
         if k in ["Suggests", "Pre-Depends", "Reccomends"]:
             control_dict["Depends"] += control_dict.pop(k)
 

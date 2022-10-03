@@ -11,6 +11,7 @@ def split_tv(line, line_iter) -> Tuple[str, str]:
     Returns:
         Tuple[str, str]: field, value
     """
+
     tag, value = line.split(": ", 1)
     # valueが<text>複数行にまたがれる形式だった場合
     # iterを読み進める
@@ -53,7 +54,7 @@ def tv_to_dict(spdx_tv: str) -> dict[str, list[dict[str, list[str]]]]:
             else:
                 spdx_dict[info_name] = [new_elem_dict]
         # tag, valueの行の扱い(空行を除く)
-        elif not line.strip():
+        elif line.strip():
             tag, value = split_tv(line, lines_iter)
             if tag in new_elem_dict:
                 new_elem_dict[tag].append(value)
