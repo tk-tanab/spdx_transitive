@@ -1,0 +1,408 @@
+{
+    "Document Information": [
+        {
+            "SPDXVersion": [
+                "SPDX-2.2"
+            ],
+            "DataLicense": [
+                "CC0-1.0"
+            ],
+            "DocumentNamespace": [
+                "http://spdx.org/spdxdocs/gcc-12-base_12-20220319-1ubuntu1-45a70d57-59a7-5160-a4df-1a914f4dd7cd"
+            ],
+            "DocumentName": [
+                "gcc-12-base_12-20220319-1ubuntu1"
+            ],
+            "LicenseListVersion": [
+                "3.17"
+            ],
+            "SPDXID": [
+                "SPDXRef-DOCUMENT"
+            ],
+            "DocumentComment": [
+                "<text>Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.</text>"
+            ],
+            "ExternalDocumentRef": []
+        }
+    ],
+    "Creation Info": [
+        {
+            "Creator": [
+                "Tool: scancode-toolkit 31.1.1"
+            ],
+            "Created": [
+                "2022-10-03T13:38:35Z"
+            ]
+        }
+    ],
+    "Package": [
+        {
+            "SPDXID": [
+                "SPDXRef-gcc-12-base"
+            ],
+            "PackageDownloadLocation": [
+                "NOASSERTION"
+            ],
+            "PackageVerificationCode": [
+                "9906ac3a76674587759d8c0bf3870465865bdb13"
+            ],
+            "PackageLicenseDeclared": [
+                "NOASSERTION"
+            ],
+            "PackageLicenseConcluded": [
+                "NOASSERTION"
+            ],
+            "PackageLicenseInfoFromFiles": [
+                "Artistic-1.0-Perl",
+                "BSD-2-Clause",
+                "BSD-3-Clause",
+                "BSD-4-Clause-UC",
+                "GCC-exception-3.1",
+                "GFDL-1.2-only",
+                "GFDL-1.3-or-later",
+                "GPL-1.0-only",
+                "GPL-1.0-or-later",
+                "GPL-2.0-only",
+                "GPL-2.0-or-later",
+                "GPL-3.0-only",
+                "GPL-3.0-or-later",
+                "LGPL-2.0-only",
+                "LGPL-2.0-or-later",
+                "LGPL-2.1-only",
+                "LGPL-2.1-or-later",
+                "LGPL-3.0-only",
+                "LGPL-3.0-or-later",
+                "MIT",
+                "NCSA",
+                "Spencer-94",
+                "Zlib",
+                "LicenseRef-scancode-amd-historical",
+                "LicenseRef-scancode-bsla",
+                "LicenseRef-scancode-bsla-no-advert",
+                "LicenseRef-scancode-cygwin-exception-lgpl-3.0-plus",
+                "LicenseRef-scancode-d-zlib",
+                "LicenseRef-scancode-flex-2.5",
+                "LicenseRef-scancode-gnu-emacs-gpl-1988",
+                "LicenseRef-scancode-intel-osl-1993",
+                "LicenseRef-scancode-newlib-historical",
+                "LicenseRef-scancode-nilsson-historical",
+                "LicenseRef-scancode-osf-1990",
+                "LicenseRef-scancode-other-copyleft",
+                "LicenseRef-scancode-other-permissive",
+                "LicenseRef-scancode-public-domain",
+                "LicenseRef-scancode-sunpro",
+                "LicenseRef-scancode-unicode",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-x11-hanson",
+                "LicenseRef-scancode-x11-lucent"
+            ],
+            "PackageCopyrightText": [
+                "<text>(c) 1995-2004 Jean-loup Gailly and Mark Adler\n(c) Copyright 1986 HEWLETT-PACKARD COMPANY\n(c) Copyright 1992 Eric Backus\n(c) UNIX System Laboratories, Inc.\nCopyright (c) 1981, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994 The Regents of the University of California\nCopyright (c) 1982, 1986, 1989, 1991, 1993, 1994 The Regents of the University of California\nCopyright (c) 1984,2000 S.L. Moshier\nCopyright (c) 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019\nCopyright (c) 1987, 1988, 2000 Regents of the University of California\nCopyright (c) 1988, 1990, 1993 Regents of the University of California\nCopyright (c) 1990 The Regents of the University of California\nCopyright (c) 1990-1999, 2000, 2001 Free Software Foundation, Inc.\nCopyright (c) 1991 DJ Delorie\nCopyright (c) 1991 by AT&T.\nCopyright (c) 1991-2013 Unicode, Inc.\nCopyright (c) 1993 C.W. Sandmann\nCopyright (c) 1993 Intel Corporation\nCopyright (c) 1993 by Sun Microsystems, Inc.\nCopyright (c) 1994, 1997, 2001, 2002, 2003, 2004 Red Hat Incorporated\nCopyright (c) 1996 Xavier Leroy (Xavier.Leroy@inria.fr)\nCopyright (c) 1996-2003 Red Hat, Inc.\nCopyright (c) 1997 by Andrey A. Chernov, Moscow, Russia\nCopyright (c) 1997, 1999 Free Software Foundation, Inc.\nCopyright (c) 1997, 1999, 2002, 2004 Free Software Foundation, Inc.\nCopyright (c) 1997-2002 FreeBSD Project\nCopyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>\nCopyright (c) 1999 Citrus Project\nCopyright (c) 1999 Kungliga Tekniska Hgskolan (Royal Institute of Technology, Stockholm, Sweden)\nCopyright (c) 1999, 2000 Konstantin Chuguev\nCopyright (c) 1999, 2000, 2001, 2002 Stephane Carrez (stcarrez@nerim.fr)\nCopyright (c) 1999-2010 by Digital Mars\nCopyright (c) 2000, 2001 Alexey Zelkin <phantom@FreeBSD.org>\nCopyright (c) 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2012, 2013 Free Software Foundation, Inc.\nCopyright (c) 2001 Christopher G. Demetriou\nCopyright (c) 2001 Hans-Peter Nilsson\nCopyright (c) 2001 Mike Barcroft <mike@FreeBSD.org>\nCopyright (c) 2001 Stephen L. Moshier <moshier@na-net.ornl.gov>\nCopyright (c) 2001-2018 Free Software Foundation, Inc.\nCopyright (c) 2001-2019 Free Software Foundation, Inc.\nCopyright (c) 2001-2019 Free Software Foundation, Inc. Mix\nCopyright (c) 2002-2019 Free Software Foundation, Inc.\nCopyright (c) 2003, Artem B. Bityuckiy, SoftMine Corporation\nCopyright (c) 2004-2005 by Digital Mars, www.digitalmars.com\nCopyright (c) 2004-2007 David Friedman\nCopyright (c) 2005-2015 Free Software Foundation, Inc. Mix\nCopyright (c) 2009 Free Software Foundation, Inc. <http://fsf.org/>\nCopyright (c) 2009 The Go Authors\nCopyright (c) 2009-2019 by the LLVM contributors\nCopyright (c) 2010 Free Software Foundation, Inc.\nCopyright (c) 2014-2019 Free Software Foundation, Inc.\nCopyright 1984, 1991 by Stephen L. Moshier Adapted\nCopyright 1989, 1990 Advanced Micro Devices, Inc.\nCopyright 1992, 1993, 1994 Henry Spencer\nCopyright 2001 Red Hat, Inc.\nCopyright 2001 by Stephen L. Moshier <moshier@na-net.ornl.gov>\nCopyright 2002 SuperH, Inc.\nVincenzo Ampolo, Michael Parrot, Iain Buclaw, (c) 2009, 2010\n</text>"
+            ],
+            "PackageName": [
+                "gcc-12-base"
+            ],
+            "PackageVersion": [
+                "12-20220319-1ubuntu1"
+            ],
+            "PackageComment": [
+                "<text>GCC - GNU \u30b3\u30f3\u30d1\u30a4\u30e9\u30b3\u30ec\u30af\u30b7\u30e7\u30f3 (\u57fa\u672c\u30d1\u30c3\u30b1\u30fc\u30b8)\n \u672c\u30d1\u30c3\u30b1\u30fc\u30b8\u306b\u306f GNU Compiler Collection (GCC) \u306b\u542b\u307e\u308c\u308b\u3059\u3079\u3066\u306e\u8a00\u8a9e\u3068 \u30e9\u30a4\u30d6\u30e9\u30ea\u306b\u5171\u901a\u306e\u30d5\u30a1\u30a4\u30eb\u304c\u542b\u307e\u308c\u307e\u3059\u3002</text>"
+            ]
+        }
+    ],
+    "Relationships": [
+        {
+            "Relationships": [
+                "SPDXRef-DOCUMENT DESCRIBES SPDXRef-gcc-12-base"
+            ]
+        }
+    ],
+    "Extracted Licenses": [
+        {
+            "LicenseID": [
+                "LicenseRef-scancode-amd-historical",
+                "LicenseRef-scancode-amd-historical",
+                "LicenseRef-scancode-bsla",
+                "LicenseRef-scancode-bsla-no-advert",
+                "LicenseRef-scancode-cygwin-exception-lgpl-3.0-plus",
+                "LicenseRef-scancode-d-zlib",
+                "LicenseRef-scancode-flex-2.5",
+                "LicenseRef-scancode-gnu-emacs-gpl-1988",
+                "LicenseRef-scancode-intel-osl-1993",
+                "LicenseRef-scancode-newlib-historical",
+                "LicenseRef-scancode-nilsson-historical",
+                "LicenseRef-scancode-osf-1990",
+                "LicenseRef-scancode-osf-1990",
+                "LicenseRef-scancode-other-copyleft",
+                "LicenseRef-scancode-other-permissive",
+                "LicenseRef-scancode-public-domain",
+                "LicenseRef-scancode-sunpro",
+                "LicenseRef-scancode-sunpro",
+                "LicenseRef-scancode-unicode",
+                "LicenseRef-scancode-unicode",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-x11-hanson",
+                "LicenseRef-scancode-x11-lucent"
+            ],
+            "LicenseName": [
+                "AMD Historical License",
+                "AMD Historical License",
+                "Berkeley Software License Agreement",
+                "Berkeley Software License Agreement with no advertizing",
+                "Cygwin exception to LGPL 3.0 or later",
+                "Digital Mars Zlib",
+                "Flex License v2.5",
+                "GNU emacs General Public License 1988",
+                "Intel Open Source License 1993",
+                "Newlib Historical License",
+                "Nilsson Historical License",
+                "OSF 1990 License",
+                "OSF 1990 License",
+                "Other Copyleft Licenses",
+                "Other Permissive Licenses",
+                "Public Domain",
+                "SunPro Attribution License",
+                "SunPro Attribution License",
+                "Unicode Inc License Agreement",
+                "Unicode Inc License Agreement",
+                "Unknown License file reference",
+                "Unknown License file reference",
+                "Unknown License file reference",
+                "Unknown License file reference",
+                "Unknown License file reference",
+                "X11-Style (David R. Hanson)",
+                "X11-Style (Lucent)"
+            ],
+            "LicenseComment": [
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/amd-historical.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/amd-historical.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsla.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsla-no-advert.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/cygwin-exception-lgpl-3.0-plus.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/d-zlib.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/flex-2.5.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/gnu-emacs-gpl-1988.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/intel-osl-1993.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/newlib-historical.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/nilsson-historical.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/osf-1990.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/osf-1990.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/sunpro.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/sunpro.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-hanson.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-lucent.yml\n</text>"
+            ],
+            "ExtractedText": [
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/amd-historical.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/amd-historical.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsla.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsla-no-advert.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/cygwin-exception-lgpl-3.0-plus.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/d-zlib.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/flex-2.5.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/gnu-emacs-gpl-1988.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/intel-osl-1993.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/newlib-historical.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/nilsson-historical.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/osf-1990.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/osf-1990.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/sunpro.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/sunpro.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-hanson.yml\n</text>",
+                "<text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-lucent.yml\n</text>"
+            ]
+        }
+    ],
+    "File": [
+        {
+            "FileName": "./xxd_2:8.2.3995-1ubuntu2/gcc-12-base/usr/share/doc/gcc-12-base/README.Debian.amd64.gz",
+            "SPDXID": [
+                "SPDXRef-10"
+            ],
+            "FileChecksum": [
+                "SHA1: 865207c4608e44b076e6ea10fe0b5f58a0b244ce"
+            ],
+            "LicenseConcluded": [
+                "NOASSERTION"
+            ],
+            "LicenseInfoInFile": [
+                "NONE"
+            ],
+            "FileCopyrightText": [
+                "NONE"
+            ]
+        },
+        {
+            "FileName": "./xxd_2:8.2.3995-1ubuntu2/gcc-12-base/usr/share/doc/gcc-12-base/TODO.Debian",
+            "SPDXID": [
+                "SPDXRef-11"
+            ],
+            "FileChecksum": [
+                "SHA1: 98cf44e59ce96c1e737613d13cdc8944060cd662"
+            ],
+            "LicenseConcluded": [
+                "NOASSERTION"
+            ],
+            "LicenseInfoInFile": [
+                "NONE"
+            ],
+            "FileCopyrightText": [
+                "NONE"
+            ]
+        },
+        {
+            "FileName": "./xxd_2:8.2.3995-1ubuntu2/gcc-12-base/usr/share/doc/gcc-12-base/changelog.Debian.gz",
+            "SPDXID": [
+                "SPDXRef-8"
+            ],
+            "FileChecksum": [
+                "SHA1: 591ef59462a3f098c7befc1a3e7f26bdc6450990"
+            ],
+            "LicenseConcluded": [
+                "NOASSERTION"
+            ],
+            "LicenseInfoInFile": [
+                "NONE"
+            ],
+            "FileCopyrightText": [
+                "NONE"
+            ]
+        },
+        {
+            "FileName": "./xxd_2:8.2.3995-1ubuntu2/gcc-12-base/usr/share/doc/gcc-12-base/copyright",
+            "SPDXID": [
+                "SPDXRef-9"
+            ],
+            "FileChecksum": [
+                "SHA1: 1e3101e727f5e80dad6482faddeef7d4165bcf46"
+            ],
+            "LicenseConcluded": [
+                "NOASSERTION"
+            ],
+            "LicenseInfoInFile": [
+                "Artistic-1.0-Perl",
+                "BSD-2-Clause",
+                "BSD-2-Clause",
+                "BSD-2-Clause",
+                "BSD-2-Clause",
+                "BSD-2-Clause",
+                "BSD-2-Clause",
+                "BSD-2-Clause",
+                "BSD-3-Clause",
+                "BSD-3-Clause",
+                "BSD-3-Clause",
+                "BSD-3-Clause",
+                "BSD-3-Clause",
+                "BSD-3-Clause",
+                "BSD-3-Clause",
+                "BSD-4-Clause-UC",
+                "BSD-4-Clause-UC",
+                "BSD-4-Clause-UC",
+                "GCC-exception-3.1",
+                "GCC-exception-3.1",
+                "GCC-exception-3.1",
+                "GCC-exception-3.1",
+                "GCC-exception-3.1",
+                "GCC-exception-3.1",
+                "GFDL-1.2-only",
+                "GFDL-1.3-or-later",
+                "GPL-1.0-only",
+                "GPL-1.0-or-later",
+                "GPL-2.0-only",
+                "GPL-2.0-or-later",
+                "GPL-2.0-or-later",
+                "GPL-3.0-only",
+                "GPL-3.0-only",
+                "GPL-3.0-only",
+                "GPL-3.0-only",
+                "GPL-3.0-only",
+                "GPL-3.0-or-later",
+                "GPL-3.0-or-later",
+                "GPL-3.0-or-later",
+                "GPL-3.0-or-later",
+                "GPL-3.0-or-later",
+                "GPL-3.0-or-later",
+                "LGPL-2.0-only",
+                "LGPL-2.0-or-later",
+                "LGPL-2.0-or-later",
+                "LGPL-2.0-or-later",
+                "LGPL-2.0-or-later",
+                "LGPL-2.0-or-later",
+                "LGPL-2.1-only",
+                "LGPL-2.1-only",
+                "LGPL-2.1-only",
+                "LGPL-2.1-or-later",
+                "LGPL-2.1-or-later",
+                "LGPL-2.1-or-later",
+                "LGPL-2.1-or-later",
+                "LGPL-2.1-or-later",
+                "LGPL-2.1-or-later",
+                "LGPL-2.1-or-later",
+                "LGPL-2.1-or-later",
+                "LGPL-2.1-or-later",
+                "LGPL-3.0-only",
+                "LGPL-3.0-only",
+                "LGPL-3.0-or-later",
+                "MIT",
+                "MIT",
+                "NCSA",
+                "Spencer-94",
+                "Zlib",
+                "LicenseRef-scancode-amd-historical",
+                "LicenseRef-scancode-amd-historical",
+                "LicenseRef-scancode-bsla",
+                "LicenseRef-scancode-bsla-no-advert",
+                "LicenseRef-scancode-cygwin-exception-lgpl-3.0-plus",
+                "LicenseRef-scancode-d-zlib",
+                "LicenseRef-scancode-flex-2.5",
+                "LicenseRef-scancode-gnu-emacs-gpl-1988",
+                "LicenseRef-scancode-intel-osl-1993",
+                "LicenseRef-scancode-newlib-historical",
+                "LicenseRef-scancode-nilsson-historical",
+                "LicenseRef-scancode-osf-1990",
+                "LicenseRef-scancode-osf-1990",
+                "LicenseRef-scancode-other-copyleft",
+                "LicenseRef-scancode-other-permissive",
+                "LicenseRef-scancode-public-domain",
+                "LicenseRef-scancode-sunpro",
+                "LicenseRef-scancode-sunpro",
+                "LicenseRef-scancode-unicode",
+                "LicenseRef-scancode-unicode",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-unknown-license-reference",
+                "LicenseRef-scancode-x11-hanson",
+                "LicenseRef-scancode-x11-lucent"
+            ],
+            "FileCopyrightText": [
+                "<text>Copyright (c) 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019\nCopyright (c) 2009-2019 by the LLVM contributors\nCopyright (c) 1996-2003 Red Hat, Inc.\nCopyright (c) 2009 Free Software Foundation, Inc. <http://fsf.org/>\nCopyright (c) 2010 Free Software Foundation, Inc.\nCopyright 2001 by Stephen L. Moshier <moshier@na-net.ornl.gov>\nCopyright (c) 2001 Stephen L. Moshier <moshier@na-net.ornl.gov>\nCopyright (c) 1997, 1999 Free Software Foundation, Inc.\nCopyright (c) 1997, 1999, 2002, 2004 Free Software Foundation, Inc.\nCopyright 1984, 1991 by Stephen L. Moshier Adapted\nCopyright (c) 1993 by Sun Microsystems, Inc.\nCopyright (c) 2009 The Go Authors\nCopyright (c) 2004-2007 David Friedman\nVincenzo Ampolo, Michael Parrot, Iain Buclaw, (c) 2009, 2010\nCopyright (c) 1999-2010 by Digital Mars\n(c) 1995-2004 Jean-loup Gailly and Mark Adler\nCopyright (c) 2004-2005 by Digital Mars, www.digitalmars.com\nCopyright (c) 2001-2019 Free Software Foundation, Inc.\nCopyright (c) 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2012, 2013 Free Software Foundation, Inc.\nCopyright (c) 2002-2019 Free Software Foundation, Inc.\nCopyright (c) 2001-2019 Free Software Foundation, Inc.\nCopyright (c) 2001-2019 Free Software Foundation, Inc.\nCopyright (c) 2005-2015 Free Software Foundation, Inc. Mix\nCopyright (c) 2001-2018 Free Software Foundation, Inc.\nCopyright (c) 2001-2019 Free Software Foundation, Inc. Mix\nCopyright (c) 2002-2019 Free Software Foundation, Inc.\nCopyright (c) 1990 The Regents of the University of California\nCopyright (c) 1990 The Regents of the University of California\nCopyright (c) 1981, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994 The Regents of the University of California\nCopyright (c) 1988, 1990, 1993 Regents of the University of California\nCopyright (c) 1982, 1986, 1989, 1991, 1993, 1994 The Regents of the University of California\n(c) UNIX System Laboratories, Inc.\nCopyright (c) 1987, 1988, 2000 Regents of the University of California\nCopyright 2001 Red Hat, Inc.\nCopyright (c) 1991 by AT&T.\nCopyright 1989, 1990 Advanced Micro Devices, Inc.\nCopyright (c) 1993 C.W. Sandmann\n(c) Copyright 1992 Eric Backus\nCopyright (c) 1993 by Sun Microsystems, Inc.\n(c) Copyright 1986 HEWLETT-PACKARD COMPANY\nCopyright (c) 2001 Hans-Peter Nilsson\nCopyright (c) 1999, 2000, 2001, 2002 Stephane Carrez (stcarrez@nerim.fr)\nCopyright (c) 2001 Christopher G. Demetriou\nCopyright 2002 SuperH, Inc.\nCopyright (c) 1999 Kungliga Tekniska Hgskolan (Royal Institute of Technology, Stockholm, Sweden)\nCopyright (c) 2000, 2001 Alexey Zelkin <phantom@FreeBSD.org>\nCopyright (c) 1997 by Andrey A. Chernov, Moscow, Russia\nCopyright (c) 1997-2002 FreeBSD Project\nCopyright (c) 1984,2000 S.L. Moshier\nCopyright (c) 1999 Citrus Project\nCopyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>\nCopyright (c) 1991 DJ Delorie\nCopyright (c) 1990-1999, 2000, 2001 Free Software Foundation, Inc.\nCopyright (c) 1996 Xavier Leroy (Xavier.Leroy@inria.fr)\nCopyright (c) 1993 Intel Corporation\n(c) Copyright 1986 HEWLETT-PACKARD COMPANY\nCopyright 1992, 1993, 1994 Henry Spencer\nCopyright (c) 2001 Mike Barcroft <mike@FreeBSD.org>\nCopyright (c) 1999, 2000 Konstantin Chuguev\nCopyright (c) 2003, Artem B. Bityuckiy, SoftMine Corporation\nCopyright (c) 1994, 1997, 2001, 2002, 2003, 2004 Red Hat Incorporated\nCopyright (c) 1991-2013 Unicode, Inc.\nCopyright (c) 2014-2019 Free Software Foundation, Inc.\n</text>"
+            ]
+        }
+    ]
+}

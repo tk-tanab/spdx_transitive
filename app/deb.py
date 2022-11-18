@@ -1,3 +1,4 @@
+from pprint import pprint
 import shutil
 import subprocess
 import os
@@ -90,8 +91,9 @@ class Spdx_Deb:
         Returns:
             bool: SPDXを生成したか
         """
+        print(package_name, "enter")
         # 既に存在しているとき
-        if os.path.exists(package_name + ".spdx"):
+        if os.path.exists(package_name + ".json"):
             return True
 
         package_showlist = subprocess.run(
@@ -105,6 +107,7 @@ class Spdx_Deb:
         for control in package_showlist:
             if ("Version: " + package_version + "\n") in control:
                 control_dict = control_to_dict.control_to_dict(control)
+                print(control_dict["Depends"])
                 break
         else:
             # 該当するバージョンが見つからないときの処理
@@ -112,10 +115,13 @@ class Spdx_Deb:
 
         # パッケージが存在するがバージョン的に依存していないものはどうする？(未実装)
         # 依存関係にあるものを洗い出す
-        for depend_package in control_dict["Depends"]:
+        for depend_package in list(control_dict["Depends"]):
             if not self.make_spdx_transitive(depend_package, space_ref_dict):
                 control_dict["Depends"].remove(depend_package)
         
+        print(package_name, "start")
+        
+
         # 作業用ディレクトリの作成
         os.mkdir(package_name)
 
@@ -141,6 +147,8 @@ class Spdx_Deb:
 
         shutil.rmtree(package_name)
 
+        print(package_name, "tv_to_dict")
+
         merge_tv_control.merge_tv_control(spdx_dict, control_dict, space_ref_dict)
 
         space_ref_dict[package_name] = [spdx_dict["Document Information"][0]["DocumentNamespace"][0], spdx_dict["Package"][0]["SPDXID"][0]]
@@ -149,7 +157,7 @@ class Spdx_Deb:
         with open(spdx_json, mode="w", encoding="utf-8") as f:
             json.dump(spdx_dict, f, indent=4)
 
-        print(package_name)
+        print(package_name, "finish")
 
         return True
         
