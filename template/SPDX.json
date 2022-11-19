@@ -1,16 +1,20 @@
 {
-    "Document": [
+    "Document Information": [
         {
+            "SPDXVersion": [],
+            "DataLicense": [],
             "DocumentNamespace": [],
             "DocumentName": [],
-            "SPDXID": []
+            "SPDXID": [],
+            "LicenseListVersion": [],
+            "DocumentComment": [],
+            "Relationship" :[]
         }
     ],
-    "Creation": [
+    "Creation Info": [
         {
             "Creator": [],
-            "Created": [],
-            "LicenseListVersion": []
+            "Created": []
         }
     ],
     "Package": [
@@ -20,20 +24,33 @@
             "PackageFileName": [],
             "SPDXID": [],
             "PackageDownloadLocation": [],
+            "PackageVerificationCode": [],
             "PackageLicenseConcluded": [],
             "PackageLicenseDeclared": [],
-            "PackageLicenseComments": [],
+            "PackageLicenseInfoFromFiles": [],
             "PackageCopyrightText": [],
-            "FilesAnalyzed": [
-                "false"
-            ],
             "PackageHomePage": [],
-            "PackageComment": []
-        },
-        {
+            "PackageComment": [],
             "Relationship": []
         }
     ],
-    "File": [],
-    "License": []
+    "File": [
+        {
+            "FileName": [],
+            "SPDXID": [],
+            "FileChecksum": [],
+            "LicenseConcluded": [],
+            "LicenseInfoInFile": [],
+            "FileCopyrightText": [],
+            "Relationship": []
+        }
+    ],
+    "Extracted Licenses": [
+        {
+            "LicenseID": [],
+            "LicenseName": [],
+            "LicenseComment": [],
+            "ExtractedText": []
+        }
+    ]
 }
