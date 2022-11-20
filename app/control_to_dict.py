@@ -39,7 +39,7 @@ def make_dict(field, value, control_dict):
     # 仮想パッケージの扱いどうしよう？showpkgでProvidesは確認できるが。。(未実装)
     # パッケージ群のvalueをリスト化・整形して辞書に入力
     if field in ["Depends", "Suggests", "Pre-Depends", "Reccomends", "Enhances", "Breaks", "Conflicts", "Build-Depends", "Build-Depends-Indep", "Build-Conflicts", "Build-Conflicts-Indep"]:
-        control_dict[field] = [i for i in re.split(",| |[|]|\(.*?\)", value) if i]
+        control_dict[field] = [i for i in re.split(",| ", value) if i]
     else:
         control_dict[field] = [value]
 
