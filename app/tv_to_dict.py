@@ -1,6 +1,7 @@
 from typing import Tuple
+from pprint import pprint
 
-def split_tv(line, line_iter) -> Tuple[str, str]:
+def split_tv(line: str, line_iter) -> Tuple[str, str]:
     """
     文字列をfield, valueに分割
 
@@ -39,19 +40,23 @@ def tv_to_dict(spdx_tv: str) -> dict[str, list[dict[str, list[str]]]]:
     # iterにするのはtextとfieldの見分けがつかないため、
     # 条件でtextを読み飛ばすことができず、iterを送るしかないから
     with open(spdx_tv, mode="r", encoding="utf-8") as f:
-        lines_strip = [s.strip("\n") for s in f.readlines()]
+        lines_strip = [s.strip() for s in f.read().strip().splitlines()]
         lines_iter = iter(lines_strip)
 
-    spdx_dict = {}
+    spdx_dict: dict[str, list[dict[str, list[str]]]] = {}
 
     for line in lines_iter:
         # infomationは新たな要素の書き出し
         if line.startswith("#"):
             info_name = line[1:].strip()
-            new_elem_dict = {}
-            if info_name in spdx_dict:
-                spdx_dict[info_name].append(new_elem_dict)
-            else:
+
+            if info_name == "Creation Info":
+                info_name = "Creation Information"
+            elif info_name == "Extracted Licenses":
+                info_name = "Extracted License"
+            
+            if info_name not in spdx_dict:
+                new_elem_dict = {}
                 spdx_dict[info_name] = [new_elem_dict]
         # tag, valueの行の扱い(空行を除く)
         elif line.strip():
@@ -60,6 +65,14 @@ def tv_to_dict(spdx_tv: str) -> dict[str, list[dict[str, list[str]]]]:
                 new_elem_dict[tag].append(value)
             else:
                 new_elem_dict[tag] = [value]
+        # 空行の扱い
+        elif new_elem_dict:
+            new_elem_dict = {}
+            spdx_dict[info_name].append(new_elem_dict)
 
     else:
+        for info_dict_list in spdx_dict.values():
+            if (last_dict:= info_dict_list.pop()) != {}:
+                info_dict_list.append(last_dict)
+
         return spdx_dict

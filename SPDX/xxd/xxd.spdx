@@ -1,9 +1,9 @@
-# Document Information
+## Document Information
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/xxd-c1c7eca4-3e20-42f3-a12a-2d38f73e1672
-DocumentName: SPDX Document created by ScanCode Toolkit
+DocumentNamespace: http://spdx.org/spdxdocs/xxd_2:8.2.3995-1ubuntu2.1-2dba26a7-ddc3-515e-969e-03446bd0305e
+DocumentName: xxd_2:8.2.3995-1ubuntu2.1
 LicenseListVersion: 3.17
 SPDXID: SPDXRef-DOCUMENT
 DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
@@ -12,18 +12,21 @@ ScanCode should be considered or used as legal advice. Consult an Attorney
 for any legal advice.
 ScanCode is a free software code scanning tool from nexB Inc. and others.
 Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xxd
 
 
-# Creation Info
+## Creation Information
 
 Creator: Tool: scancode-toolkit 31.1.1
-Created: 2022-11-19T15:55:19Z
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-19T16:16:17Z
 
 
-# Package
+## Package
 
 PackageName: xxd
-SPDXID: SPDXRef-001
+SPDXID: SPDXRef-xxd
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 278bc03b9db21691f3f704d02d5c63ba5069db1c
 PackageLicenseDeclared: NOASSERTION
@@ -76,42 +79,44 @@ Copyright 2021 Matthew T. Ihlenfield
 Copyright Andy Cedilnik <andy.cedilnik@kitware.com> Karthik Krishnan <kartik.krishnan@kitware.com> Dimitri Merejkowsky <d.merej@gmail.com>
 Copyright Eric Pruitt <eric.pruitt@gmail.com>
 </text>
+PackageVersion: 2:8.2.3995-1ubuntu2.1
+PackageHomePage: https://www.vim.org/
+PackageComment: <text>tool to make (or reverse) a hex dump
+ xxd creates a hex dump of a given file or standard input.  It can also convert
+ a hex dump back to its original binary form.</text>
 
 
-# File
+## File
 
-FileName: ./xxd/usr/bin/xxd
-SPDXID: SPDXRef-4
+FileName: /usr/bin/xxd
+SPDXID: SPDXRef-xxd_file_0
 FileChecksum: SHA1: 986cf34ce57bd28c2c630b8e96fdd6acb02d85a6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
 FileCopyrightText: NONE
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_0
 
 
-# File
-
-FileName: ./xxd/usr/share/doc/xxd/NEWS.Debian.gz
-SPDXID: SPDXRef-10
+FileName: /usr/share/doc/xxd/NEWS.Debian.gz
+SPDXID: SPDXRef-xxd_file_1
 FileChecksum: SHA1: f97f880a6098ac08e2bec2c4914d8fb23e957fd9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
 FileCopyrightText: NONE
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_1
 
 
-# File
-
-FileName: ./xxd/usr/share/doc/xxd/changelog.Debian.gz
-SPDXID: SPDXRef-8
+FileName: /usr/share/doc/xxd/changelog.Debian.gz
+SPDXID: SPDXRef-xxd_file_2
 FileChecksum: SHA1: e10b8ccda0c01cdc1c1f94a7459fd5365f47b96a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
 FileCopyrightText: NONE
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_2
 
 
-# File
-
-FileName: ./xxd/usr/share/doc/xxd/copyright
-SPDXID: SPDXRef-9
+FileName: /usr/share/doc/xxd/copyright
+SPDXID: SPDXRef-xxd_file_3
 FileChecksum: SHA1: 16d957e97eced581fa6b490ddb420e21422c2cf7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Apache-2.0
@@ -199,77 +204,64 @@ Copyright 2010 Google Inc.
 Copyright 2014-2020 Apple Inc. and the Swift project
 Copyright 2021 Matthew T. Ihlenfield
 </text>
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_3
 
 
-# File
-
-FileName: ./xxd/usr/share/man/fr/man1/xxd.1.gz
-SPDXID: SPDXRef-14
+FileName: /usr/share/man/fr/man1/xxd.1.gz
+SPDXID: SPDXRef-xxd_file_4
 FileChecksum: SHA1: df8d2b171c052db16eb38010a3a589a8ffc665e5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
 FileCopyrightText: NONE
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_4
 
 
-# File
-
-FileName: ./xxd/usr/share/man/it/man1/xxd.1.gz
-SPDXID: SPDXRef-17
+FileName: /usr/share/man/it/man1/xxd.1.gz
+SPDXID: SPDXRef-xxd_file_5
 FileChecksum: SHA1: 38350a3e057f9f240f539be0148e46dece35b314
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
 FileCopyrightText: NONE
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_5
 
 
-# File
-
-FileName: ./xxd/usr/share/man/ja/man1/xxd.1.gz
-SPDXID: SPDXRef-20
+FileName: /usr/share/man/ja/man1/xxd.1.gz
+SPDXID: SPDXRef-xxd_file_6
 FileChecksum: SHA1: 15b11323210a9a98ffcb0642fec46b362130efb1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
 FileCopyrightText: NONE
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_6
 
 
-# File
-
-FileName: ./xxd/usr/share/man/man1/xxd.1.gz
-SPDXID: SPDXRef-22
+FileName: /usr/share/man/man1/xxd.1.gz
+SPDXID: SPDXRef-xxd_file_7
 FileChecksum: SHA1: aaba8c4e46840b5c0d45703d75cec142bc408fad
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
 FileCopyrightText: NONE
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_7
 
 
-# File
-
-FileName: ./xxd/usr/share/man/pl/man1/xxd.1.gz
-SPDXID: SPDXRef-25
+FileName: /usr/share/man/pl/man1/xxd.1.gz
+SPDXID: SPDXRef-xxd_file_8
 FileChecksum: SHA1: a6f4605b381b4c38c14166d58fbe49779c85feaf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
 FileCopyrightText: NONE
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_8
 
 
-# File
-
-FileName: ./xxd/usr/share/man/ru/man1/xxd.1.gz
-SPDXID: SPDXRef-28
+FileName: /usr/share/man/ru/man1/xxd.1.gz
+SPDXID: SPDXRef-xxd_file_9
 FileChecksum: SHA1: b3ba865047b454e2f29c53f0e957085e60f53db3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
 FileCopyrightText: NONE
+Relationship: SPDXRef-xxd CONTAINS SPDXRef-xxd_file_9
 
 
-# Extracted Licenses
-
-LicenseID: LicenseRef-scancode-other-permissive
-LicenseName: Other Permissive Licenses
-LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
-</text>
-ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
-</text>
-
+## Extracted License
 
 LicenseID: LicenseRef-scancode-other-permissive
 LicenseName: Other Permissive Licenses
@@ -284,14 +276,6 @@ LicenseName: Proprietary License
 LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
 </text>
 ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
-</text>
-
-
-LicenseID: LicenseRef-scancode-public-domain
-LicenseName: Public Domain
-LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
-</text>
-ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
 </text>
 
 

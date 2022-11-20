@@ -15,7 +15,7 @@ def split_fv(line, control_lines) -> Tuple[str, str]:
     field, value = line.split(": ", 1)
     # valueが複数行にまたがれる形式だった場合
     # <text></text>で包む
-    if control_lines[control_lines.index(line) + 1][0].isspace():
+    if field == "Description":
         value = "<text>" + value
         for text in control_lines[control_lines.index(line) + 1 :]:
             if text[0].isspace():
