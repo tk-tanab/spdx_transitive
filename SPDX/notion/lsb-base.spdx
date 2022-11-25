@@ -1,0 +1,102 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-6ef5297e-0416-5777-bbdc-9fe35de4d86e
+DocumentName: lsb-base_11.1.0ubuntu4
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lsb-base
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:07:28Z
+
+
+## Package
+
+PackageName: lsb-base
+PackageVersion: 11.1.0ubuntu4
+SPDXID: SPDXRef-lsb-base
+PackageVerificationCode: 10c3abc5c2ed46c8e2c9eac017f646b3d015cbe5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://wiki.linuxfoundation.org/lsb/start
+PackageComment: <text>Linux Standard Base init script functionality
+ The Linux Standard Base (http://www.linuxbase.org/) is a standard
+ core system that third-party applications written for Linux can
+ depend upon.
+ .
+ This package only includes the init-functions shell library, which
+ may be used by other packages' initialization scripts for console
+ logging and other purposes.</text>
+
+
+## File
+
+FileName: /lib/lsb/init-functions
+SPDXID: SPDXRef-lsb-base_file_0
+FileChecksum: f42e62f9dea1d881a5eef072d8d0b5beb8c5c47d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lsb-base CONTAINS SPDXRef-lsb-base_file_0
+
+
+FileName: /lib/lsb/init-functions.d/00-verbose
+SPDXID: SPDXRef-lsb-base_file_1
+FileChecksum: f68e7de6dbf8f57bd3d015b3ef24991a135e79e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lsb-base CONTAINS SPDXRef-lsb-base_file_1
+
+
+FileName: /lib/lsb/init-functions.d/50-ubuntu-logging
+SPDXID: SPDXRef-lsb-base_file_2
+FileChecksum: d5d867a56cefeaaf05776b1a4d236765b3100b7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lsb-base CONTAINS SPDXRef-lsb-base_file_2
+
+
+FileName: /usr/share/doc/lsb-base/NEWS.Debian.gz
+SPDXID: SPDXRef-lsb-base_file_3
+FileChecksum: 4008abd5bbec9d21b84cd7cba89223bc2c6b3e0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lsb-base CONTAINS SPDXRef-lsb-base_file_3
+
+
+FileName: /usr/share/doc/lsb-base/README.Debian.gz
+SPDXID: SPDXRef-lsb-base_file_4
+FileChecksum: 0b61e70770d883bd5345906041eb9f305ddde801
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lsb-base CONTAINS SPDXRef-lsb-base_file_4
+
+
+FileName: /usr/share/doc/lsb-base/changelog.gz
+SPDXID: SPDXRef-lsb-base_file_5
+FileChecksum: bf7030392336262916853f8daabb3961109dd33f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lsb-base CONTAINS SPDXRef-lsb-base_file_5
+
+
+FileName: /usr/share/doc/lsb-base/copyright
+SPDXID: SPDXRef-lsb-base_file_6
+FileChecksum: 60d58837f87b10f27167c3ab21d3f61c91645c69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lsb-base CONTAINS SPDXRef-lsb-base_file_6
+
+
+## Extracted License
+

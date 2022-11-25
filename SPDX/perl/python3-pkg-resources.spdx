@@ -1,0 +1,47 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-pkg-resources_59.6.0-1.2
+DocumentNamespace: http://spdx.org/spdxdocs/python3-pkg-resources_59.6.0-1.2-c1290c91-569b-5eb0-9733-8dd5d963a2fc
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-pkg-resources
+ExternalDocumentRef: DocumentRef-python3-distutils http://spdx.org/spdxdocs/python3-distutils_3.10.6-1~22.04-d7712c87-00b4-59bb-b630-63b3b9f4f344 SHA1: 5c38b3084ef51696c03f8b8ea8c877e0445ca546
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-pkg-resources
+PackageVersion: 59.6.0-1.2
+SPDXID: SPDXRef-python3-pkg-resources
+PackageHomePage: https://pypi.python.org/pypi/setuptools
+PackageComment: <text>Package Discovery and Resource Access using pkg_resources
+ The pkg_resources module provides an API for Python libraries to
+ access their resource files, and for extensible applications and
+ frameworks to automatically discover plugins.  It also provides
+ runtime support for using C extensions that are inside zipfile-format
+ eggs, support for merging packages that have separately-distributed
+ modules or subpackages, and APIs for managing Python's current
+ "working set" of active packages.</text>
+Relationship: SPDXRef-python3-pkg-resources DEPENDS_ON SPDXRef-python3-setuptools
+
+
+PackageName: python3-setuptools
+PackageVersion: 59.6.0-1.2
+SPDXID: SPDXRef-python3-setuptools
+PackageHomePage: https://pypi.python.org/pypi/setuptools
+PackageComment: <text>Python3 Distutils Enhancements
+ Extensions to the python-distutils for large or complex distributions.</text>
+Relationship: SPDXRef-python3-setuptools DEPENDS_ON SPDXRef-python3-pkg-resources
+Relationship: SPDXRef-python3-setuptools DEPENDS_ON DocumentRef-python3-distutils:SPDXRef-python3-distutils
+
+
+## File
+
+## Extracted License
+

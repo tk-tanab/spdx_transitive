@@ -1,0 +1,29 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: ubuntu-keyring_2021.03.26
+DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-49555058-8017-59aa-979e-19a6657ab278
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-keyring
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: ubuntu-keyring
+PackageVersion: 2021.03.26
+SPDXID: SPDXRef-ubuntu-keyring
+PackageComment: <text>GnuPG keys of the Ubuntu archive
+ The Ubuntu project digitally signs its Release files. This package
+ contains the archive keys used for that.</text>
+
+
+## File
+
+## Extracted License
+

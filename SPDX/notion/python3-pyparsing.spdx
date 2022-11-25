@@ -1,0 +1,100 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-pyparsing_2.4.7-1-1ff70976-532a-5726-aab8-280d8136e27d
+DocumentName: python3-pyparsing_2.4.7-1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-pyparsing
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:09:25Z
+
+
+## Package
+
+PackageName: python3-pyparsing
+PackageVersion: 2.4.7-1
+SPDXID: SPDXRef-python3-pyparsing
+PackageVerificationCode: 737c3b64ad8f26dcb47d73bf14a59c5300466499
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://github.com/pyparsing/pyparsing/
+PackageComment: <text>alternative to creating and executing simple grammars - Python 3.x
+ The parsing module is an alternative approach to creating and
+ executing simple grammars, vs. the traditional lex/yacc approach, or
+ the use of regular expressions.  The parsing module provides a
+ library of classes that client code uses to construct the grammar
+ directly in Python code.
+ .
+ Here's an example:
+ .
+  from pyparsing import Word, alphas
+  greet = Word(alphas) + "," + Word(alphas) + "!"
+  hello = "Hello, World!"
+  print hello, "->", greet.parseString(hello)
+ .
+ This package contains the Python 3.x version of python-pyparsing.</text>
+
+
+## File
+
+FileName: /usr/lib/python3/dist-packages/pyparsing-2.4.7.egg-info/PKG-INFO
+SPDXID: SPDXRef-python3-pyparsing_file_0
+FileChecksum: 71343ac3838aa6fbfddb9ebc6f365502f1b8943e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pyparsing CONTAINS SPDXRef-python3-pyparsing_file_0
+
+
+FileName: /usr/lib/python3/dist-packages/pyparsing-2.4.7.egg-info/dependency_links.txt
+SPDXID: SPDXRef-python3-pyparsing_file_1
+FileChecksum: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pyparsing CONTAINS SPDXRef-python3-pyparsing_file_1
+
+
+FileName: /usr/lib/python3/dist-packages/pyparsing-2.4.7.egg-info/top_level.txt
+SPDXID: SPDXRef-python3-pyparsing_file_2
+FileChecksum: 56ffb219db3892a4f98740b5be0a4f5ad12d651e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pyparsing CONTAINS SPDXRef-python3-pyparsing_file_2
+
+
+FileName: /usr/lib/python3/dist-packages/pyparsing.py
+SPDXID: SPDXRef-python3-pyparsing_file_3
+FileChecksum: db7af87781f6a2aa4e5f6c1af8609c2203f68868
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pyparsing CONTAINS SPDXRef-python3-pyparsing_file_3
+
+
+FileName: /usr/share/doc/python3-pyparsing/changelog.Debian.gz
+SPDXID: SPDXRef-python3-pyparsing_file_4
+FileChecksum: 57fd5fda65ae02bba6dabb0e417f670f218d0943
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pyparsing CONTAINS SPDXRef-python3-pyparsing_file_4
+
+
+FileName: /usr/share/doc/python3-pyparsing/copyright
+SPDXID: SPDXRef-python3-pyparsing_file_5
+FileChecksum: 07f7b5a4521ea0acdf985f696289e40b6a8a3a57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pyparsing CONTAINS SPDXRef-python3-pyparsing_file_5
+
+
+## Extracted License
+

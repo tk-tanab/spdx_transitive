@@ -1,0 +1,76 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/media-types_7.0.0-ff8d5f17-897c-5dd4-961e-b5de42000073
+DocumentName: media-types_7.0.0
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-media-types
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:07:52Z
+
+
+## Package
+
+PackageName: media-types
+PackageVersion: 7.0.0
+SPDXID: SPDXRef-media-types
+PackageVerificationCode: 17814a119cd65042bb23fb6e8b67424c6fe214f9
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageComment: <text>List of standard media types and their usual file extension
+ This package installs the configuration file /etc/mime.types, that lists
+ standard media types (originally known as "MIME" types) and their usual file
+ extension.  This provides a simple way for programs to have a first guess at a
+ file's content.  On standard Debian desktop systems, one will also find more
+ sophisticated tools, for instance provided by the "file" and "xdg-utils"
+ packages.
+ .
+ The /etc/mime.types file is compiled by hand using mostly information provided
+ by the Internet Assigned Numbers Authority (IANA).</text>
+
+
+## File
+
+FileName: /etc/mime.types
+SPDXID: SPDXRef-media-types_file_0
+FileChecksum: a5267969ca29d1db27fabff03e18be3e9db30465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types_file_0
+
+
+FileName: /usr/share/bug/media-types/presubj
+SPDXID: SPDXRef-media-types_file_1
+FileChecksum: 5dc79c4a4df9a76a5ef448a4ffc212c1f22f2df5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types_file_1
+
+
+FileName: /usr/share/doc/media-types/changelog.gz
+SPDXID: SPDXRef-media-types_file_2
+FileChecksum: 8c471505f2003ccc20b1f6e362bb2ac3f222673e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types_file_2
+
+
+FileName: /usr/share/doc/media-types/copyright
+SPDXID: SPDXRef-media-types_file_3
+FileChecksum: 122ec71bc0ee27107fe8c40b8f5b4976dcd558d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types_file_3
+
+
+## Extracted License
+

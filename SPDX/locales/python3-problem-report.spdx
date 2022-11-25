@@ -1,0 +1,34 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-problem-report_2.20.11-0ubuntu82.1
+DocumentNamespace: http://spdx.org/spdxdocs/python3-problem-report_2.20.11-0ubuntu82.1-a765e557-6937-557b-93f1-331070a3e7b3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-problem-report
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-problem-report
+PackageVersion: 2.20.11-0ubuntu82.1
+SPDXID: SPDXRef-python3-problem-report
+PackageHomePage: https://wiki.ubuntu.com/Apport
+PackageComment: <text>Python 3 library to handle problem reports
+ This Python library provides an interface for creating, modifying,
+ and accessing standardized problem reports for program and kernel
+ crashes and packaging bugs.
+ .
+ These problem reports use standard Debian control format syntax
+ (RFC822).</text>
+
+
+## File
+
+## Extracted License
+

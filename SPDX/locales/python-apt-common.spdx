@@ -1,0 +1,32 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python-apt-common_2.3.0ubuntu2.1
+DocumentNamespace: http://spdx.org/spdxdocs/python-apt-common_2.3.0ubuntu2.1-82867612-7de8-503b-8755-c7416894e85e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python-apt-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python-apt-common
+PackageVersion: 2.3.0ubuntu2.1
+SPDXID: SPDXRef-python-apt-common
+PackageComment: <text>Python interface to libapt-pkg (locales)
+ The apt_pkg Python interface will provide full access to the internal
+ libapt-pkg structures allowing Python programs to easily perform a
+ variety of functions.
+ .
+ This package contains locales.</text>
+
+
+## File
+
+## Extracted License
+

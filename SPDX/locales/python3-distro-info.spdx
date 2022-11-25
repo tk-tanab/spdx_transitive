@@ -1,0 +1,34 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-distro-info_1.1build1
+DocumentNamespace: http://spdx.org/spdxdocs/python3-distro-info_1.1build1-404919ef-c180-5289-8dba-e7d1ebc2d478
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-distro-info
+ExternalDocumentRef: DocumentRef-distro-info-data http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-5f141f0a-f966-5d9e-adf1-c7d92e02ef12 SHA1: a0567793dce31f028964f352f50248192751ca6f
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-distro-info
+PackageVersion: 1.1build1
+SPDXID: SPDXRef-python3-distro-info
+PackageComment: <text>information about distributions' releases (Python 3 module)
+ Information about all releases of Debian and Ubuntu.
+ .
+ This package contains a Python 3 module for parsing the data in
+ distro-info-data. There is also a command line interface in the distro-info
+ package.</text>
+Relationship: SPDXRef-python3-distro-info DEPENDS_ON DocumentRef-distro-info-data:SPDXRef-distro-info-data
+
+
+## File
+
+## Extracted License
+

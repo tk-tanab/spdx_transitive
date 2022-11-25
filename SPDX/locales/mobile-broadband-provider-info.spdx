@@ -1,0 +1,35 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: mobile-broadband-provider-info_20220315-1
+DocumentNamespace: http://spdx.org/spdxdocs/mobile-broadband-provider-info_20220315-1-460fffeb-e1b4-5cc6-ac6b-37d1559396e4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mobile-broadband-provider-info
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: mobile-broadband-provider-info
+PackageVersion: 20220315-1
+SPDXID: SPDXRef-mobile-broadband-provider-info
+PackageHomePage: https://wiki.gnome.org/Projects/NetworkManager/MobileBroadband/ServiceProviders
+PackageComment: <text>database of mobile broadband service providers
+ This package contains a database of provider-specific settings of mobile
+ broadband providers in different countries. Its functioning through Network
+ Manager makes it easy for users to choose their mobile broadband service
+ provider.
+ .
+ The database contains information relevant to mobile networks access point
+ usage, such as APN (access point name), username, password, etc.</text>
+
+
+## File
+
+## Extracted License
+

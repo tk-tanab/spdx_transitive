@@ -1,0 +1,34 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: gnome-session-common_42.0-1ubuntu2
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-session-common_42.0-1ubuntu2-0ddbac48-9942-556b-879d-ca3982aaee0e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-session-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: gnome-session-common
+PackageVersion: 42.0-1ubuntu2
+SPDXID: SPDXRef-gnome-session-common
+PackageComment: <text>GNOME Session Manager - common files
+ The GNOME Session Manager is in charge of starting the core components
+ of the GNOME desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the translations, data files and startup scripts
+ which are common to the GNOME and GNOME fallback sessions.</text>
+
+
+## File
+
+## Extracted License
+

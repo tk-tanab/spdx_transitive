@@ -1,0 +1,540 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-chardet_4.0.0-1-c5fdf6f2-c2d0-5f7b-b63d-1a90cd3e6fe2
+DocumentName: python3-chardet_4.0.0-1
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-python3-pkg-resources http://spdx.org/spdxdocs/python3-pkg-resources_59.6.0-1.2-b9f05cd8-abeb-5e7f-aa31-8329ade0fd98 SHA1: 33ca30e376785fbf43468a1cdb64be6040252fb5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-chardet
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:08:58Z
+
+
+## Package
+
+PackageName: python3-chardet
+PackageVersion: 4.0.0-1
+SPDXID: SPDXRef-python3-chardet
+PackageVerificationCode: 28df3143d15a9d0256b918f68decdbbabc378bef
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://github.com/chardet/chardet
+PackageComment: <text>universal character encoding detector for Python3
+ Chardet takes a sequence of bytes in an unknown character encoding, and
+ attempts to determine the encoding.
+ .
+ Supported encodings:
+  * ASCII, UTF-8, UTF-16 (2 variants), UTF-32 (4 variants)
+  * Big5, GB2312, EUC-TW, HZ-GB-2312, ISO-2022-CN (Traditional and Simplified
+    Chinese)
+  * EUC-JP, SHIFT_JIS, ISO-2022-JP (Japanese)
+  * EUC-KR, ISO-2022-KR (Korean)
+  * KOI8-R, MacCyrillic, IBM855, IBM866, ISO-8859-5, windows-1251 (Cyrillic)
+  * ISO-8859-2, windows-1250 (Hungarian)
+  * ISO-8859-5, windows-1251 (Bulgarian)
+  * windows-1252 (English)
+  * ISO-8859-7, windows-1253 (Greek)
+  * ISO-8859-8, windows-1255 (Visual and Logical Hebrew)
+  * TIS-620 (Thai)
+ .
+ This library is a port of the auto-detection code in Mozilla.
+ .
+ This package contains the Python 3 version of the library.</text>
+Relationship: SPDXRef-python3-chardet DEPENDS_ON DocumentRef-python3-pkg-resources:SPDXRef-python3-pkg-resources
+
+
+## File
+
+FileName: /usr/bin/chardetect
+SPDXID: SPDXRef-python3-chardet_file_0
+FileChecksum: ccf3f0135bc4bebfb2efc2690bfa0f7e81e0516b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_0
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/__init__.py
+SPDXID: SPDXRef-python3-chardet_file_1
+FileChecksum: 528941e0635b972612867cedb7c1de455e307416
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_1
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/big5freq.py
+SPDXID: SPDXRef-python3-chardet_file_2
+FileChecksum: 4028bd63b9eb6c3225fc61b7e8733528ee80fd87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_2
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/big5prober.py
+SPDXID: SPDXRef-python3-chardet_file_3
+FileChecksum: 5297df2758b6be575459e08565b07382eb6d52ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_3
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/chardistribution.py
+SPDXID: SPDXRef-python3-chardet_file_4
+FileChecksum: db44178e9a4908f7256c85a75a7374fb57bf868f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_4
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/charsetgroupprober.py
+SPDXID: SPDXRef-python3-chardet_file_5
+FileChecksum: 10e9716409d7710fa9c3950b485c8a14576a7ee0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_5
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/charsetprober.py
+SPDXID: SPDXRef-python3-chardet_file_6
+FileChecksum: 4cac3f02d5fdaa8776b49966206247acd3bd151e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_6
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/cli/__init__.py
+SPDXID: SPDXRef-python3-chardet_file_7
+FileChecksum: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_7
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/cli/chardetect.py
+SPDXID: SPDXRef-python3-chardet_file_8
+FileChecksum: cf118af9f5bd309964839fe3dd147790c65a4ba6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_8
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/codingstatemachine.py
+SPDXID: SPDXRef-python3-chardet_file_9
+FileChecksum: 3e2b59c552b7e985f2efee068aba34a0c7938409
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_9
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/compat.py
+SPDXID: SPDXRef-python3-chardet_file_10
+FileChecksum: f229b8b6c252a0eca565cc8601abf090ae0ef818
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_10
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/cp949prober.py
+SPDXID: SPDXRef-python3-chardet_file_11
+FileChecksum: 5e1e40b592ab5badaebee6d1cb845f34475bbeed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_11
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/enums.py
+SPDXID: SPDXRef-python3-chardet_file_12
+FileChecksum: 2eaf9cadc33cd208a4a0378158a07fea397f6a91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_12
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/escprober.py
+SPDXID: SPDXRef-python3-chardet_file_13
+FileChecksum: 3f5c243f912e8e14df288f356403a5d920159b3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_13
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/escsm.py
+SPDXID: SPDXRef-python3-chardet_file_14
+FileChecksum: b6ae3d309926b691e6e8be5df7e9ec7e22ddaf62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_14
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/eucjpprober.py
+SPDXID: SPDXRef-python3-chardet_file_15
+FileChecksum: f583d01ea725d06785a47be5aa47a9586cb4e843
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_15
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/euckrfreq.py
+SPDXID: SPDXRef-python3-chardet_file_16
+FileChecksum: f92f0b57596ec180fb1505d3b3b966f07d61dfaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_16
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/euckrprober.py
+SPDXID: SPDXRef-python3-chardet_file_17
+FileChecksum: 17a570ba185bf5bac0b670932d3ea74376e19f7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_17
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/euctwfreq.py
+SPDXID: SPDXRef-python3-chardet_file_18
+FileChecksum: 1fe6190636462e94488b056a56770c84d48f3370
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_18
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/euctwprober.py
+SPDXID: SPDXRef-python3-chardet_file_19
+FileChecksum: f6ecd5d34962a5b81b71bdc40b140d553a0c120e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_19
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/gb2312freq.py
+SPDXID: SPDXRef-python3-chardet_file_20
+FileChecksum: bf8051def4af0bf4b04ad3c997a64a356d2efecb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_20
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/gb2312prober.py
+SPDXID: SPDXRef-python3-chardet_file_21
+FileChecksum: bc2518f812eef5713556d847b933230c00bb22d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_21
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/hebrewprober.py
+SPDXID: SPDXRef-python3-chardet_file_22
+FileChecksum: 07093ca2075f52d3d07b399a52f4a7491928fb1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_22
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/jisfreq.py
+SPDXID: SPDXRef-python3-chardet_file_23
+FileChecksum: 12a38ac0c60c3f5a8756a9e03ee74a22c9b481c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_23
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/jpcntx.py
+SPDXID: SPDXRef-python3-chardet_file_24
+FileChecksum: b6332d34d3820c06e07eb31ab68a22b5365882aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_24
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/langbulgarianmodel.py
+SPDXID: SPDXRef-python3-chardet_file_25
+FileChecksum: ab01c692bac446348c1b6e1aeb8c41c76460c6d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_25
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/langgreekmodel.py
+SPDXID: SPDXRef-python3-chardet_file_26
+FileChecksum: c59bc42593f0b922b73f7a0179403f203cea46b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_26
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/langhebrewmodel.py
+SPDXID: SPDXRef-python3-chardet_file_27
+FileChecksum: e072a2e9bc510374083c9cb9e3fe460d6a22b91f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_27
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/langhungarianmodel.py
+SPDXID: SPDXRef-python3-chardet_file_28
+FileChecksum: 3c0556aa1ef370a83f3f456be839f315cc0acb1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_28
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/langrussianmodel.py
+SPDXID: SPDXRef-python3-chardet_file_29
+FileChecksum: fec8f5ffd0cce37d324a22985d2d27be29b42e4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_29
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/langthaimodel.py
+SPDXID: SPDXRef-python3-chardet_file_30
+FileChecksum: 66e0b9bd502d1a6f43c47f80a3a2c07dcefb14e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_30
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/langturkishmodel.py
+SPDXID: SPDXRef-python3-chardet_file_31
+FileChecksum: 0fb32965a1d35867f116a2212f827532a7e1a653
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_31
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/latin1prober.py
+SPDXID: SPDXRef-python3-chardet_file_32
+FileChecksum: 18aafa5d34c519c51823a7a4737dd07f79e11db9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_32
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/mbcharsetprober.py
+SPDXID: SPDXRef-python3-chardet_file_33
+FileChecksum: eeb555bef8b05f40c0aa6d81bf2b323b875fc653
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_33
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/mbcsgroupprober.py
+SPDXID: SPDXRef-python3-chardet_file_34
+FileChecksum: 9e6d7d608f78dd6ae8d09bfc9d46e41c7f287bb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_34
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/mbcssm.py
+SPDXID: SPDXRef-python3-chardet_file_35
+FileChecksum: 0501c978d8b4bdb0883f06f604139896aa3634bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_35
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/metadata/__init__.py
+SPDXID: SPDXRef-python3-chardet_file_36
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_36
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/metadata/languages.py
+SPDXID: SPDXRef-python3-chardet_file_37
+FileChecksum: 4beba4de69bab37063e4d564ab9fe9b58bb316e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_37
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/sbcharsetprober.py
+SPDXID: SPDXRef-python3-chardet_file_38
+FileChecksum: 06bb9ea3b9d4e4a3949ef6fde06c9385fb2a8509
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_38
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/sbcsgroupprober.py
+SPDXID: SPDXRef-python3-chardet_file_39
+FileChecksum: 723635ec45b1dbde8c60bc5d10992e6cc9a1fc6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_39
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/sjisprober.py
+SPDXID: SPDXRef-python3-chardet_file_40
+FileChecksum: ac5fa06ef33a62e12d3f676223f2ba443410ad08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_40
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/universaldetector.py
+SPDXID: SPDXRef-python3-chardet_file_41
+FileChecksum: 5adb8b49698ec14f762292a97ab110670bca4d7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_41
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/utf8prober.py
+SPDXID: SPDXRef-python3-chardet_file_42
+FileChecksum: 35ef3bb735c68e457746e85e7c410ceb2ada711a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_42
+
+
+FileName: /usr/lib/python3/dist-packages/chardet/version.py
+SPDXID: SPDXRef-python3-chardet_file_43
+FileChecksum: 3b960a058e546f057a0f7f389d14bb1a63e78190
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_43
+
+
+FileName: /usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/PKG-INFO
+SPDXID: SPDXRef-python3-chardet_file_44
+FileChecksum: 45fe379d69437706a3402e5462d833bedfa36f37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_44
+
+
+FileName: /usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/dependency_links.txt
+SPDXID: SPDXRef-python3-chardet_file_45
+FileChecksum: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_45
+
+
+FileName: /usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/entry_points.txt
+SPDXID: SPDXRef-python3-chardet_file_46
+FileChecksum: 529fc858fdfda889eaa5eafc9cb699c4305b19d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_46
+
+
+FileName: /usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/top_level.txt
+SPDXID: SPDXRef-python3-chardet_file_47
+FileChecksum: ad425bf5119ce57a37e3fa126db0d4dcacb05013
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_47
+
+
+FileName: /usr/share/doc/python3-chardet/NEWS.Debian.gz
+SPDXID: SPDXRef-python3-chardet_file_48
+FileChecksum: e1422ff955de90d3f4f841b0e563dd113dbf7b4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_48
+
+
+FileName: /usr/share/doc/python3-chardet/changelog.Debian.gz
+SPDXID: SPDXRef-python3-chardet_file_49
+FileChecksum: bb4572faf0678c63e732c8ecd22c8af064f7f47f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_49
+
+
+FileName: /usr/share/doc/python3-chardet/copyright
+SPDXID: SPDXRef-python3-chardet_file_50
+FileChecksum: d237ba4e92bb17cf64da333b18320908167aa88d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_50
+
+
+FileName: /usr/share/man/man1/chardet.1.gz
+SPDXID: SPDXRef-python3-chardet_file_51
+FileChecksum: 7de0cc99f7b6ec08e43b3149986cd15515a22a28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_51
+
+
+FileName: /usr/bin/chardet
+SPDXID: SPDXRef-python3-chardet_file_52
+FileChecksum: ccf3f0135bc4bebfb2efc2690bfa0f7e81e0516b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_52
+
+
+FileName: /usr/share/man/man1/chardetect.1.gz
+SPDXID: SPDXRef-python3-chardet_file_53
+FileChecksum: 7de0cc99f7b6ec08e43b3149986cd15515a22a28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-chardet CONTAINS SPDXRef-python3-chardet_file_53
+
+
+## Extracted License
+

@@ -1,0 +1,35 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libfile-basedir-perl_0.09-1
+DocumentNamespace: http://spdx.org/spdxdocs/libfile-basedir-perl_0.09-1-13393da7-0ab1-5b21-8bd0-c9f3e4438275
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libfile-basedir-perl
+ExternalDocumentRef: DocumentRef-libipc-system-simple-perl http://spdx.org/spdxdocs/libipc-system-simple-perl_1.30-1-c1c1e89f-b468-5117-8eb7-2843aacd63c7 SHA1: 652674df5e91cebbedbe6148e8fa291ccceec911
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libfile-basedir-perl
+PackageVersion: 0.09-1
+SPDXID: SPDXRef-libfile-basedir-perl
+PackageHomePage: https://metacpan.org/release/File-BaseDir
+PackageComment: <text>Perl module to use the freedesktop basedir specification
+ The File::BaseDir module can be used to find directories and files as
+ specified by the XDG Base Directory Specification. It takes care of
+ defaults and uses File::Spec to make the output platform specific.
+ .
+ For this module the XDG basedir specification 0.6 was used.</text>
+Relationship: SPDXRef-libfile-basedir-perl DEPENDS_ON DocumentRef-libipc-system-simple-perl:SPDXRef-libipc-system-simple-perl
+
+
+## File
+
+## Extracted License
+

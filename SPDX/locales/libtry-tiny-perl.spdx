@@ -1,0 +1,34 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libtry-tiny-perl_0.31-1
+DocumentNamespace: http://spdx.org/spdxdocs/libtry-tiny-perl_0.31-1-23f6ea98-be29-563e-8ee5-a983a797f800
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libtry-tiny-perl
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libtry-tiny-perl
+PackageVersion: 0.31-1
+SPDXID: SPDXRef-libtry-tiny-perl
+PackageHomePage: https://metacpan.org/release/Try-Tiny
+PackageComment: <text>module providing minimalistic try/catch
+ Try::Tiny is a Perl module that provides bare bones try/catch statements. It
+ is designed to eliminate common mistakes with eval blocks, and NOTHING else.
+ .
+ The main focus of this module is to provide simple and reliable error
+ handling for those having a hard time installing TryCatch, but who still want
+ to write correct eval blocks without 5 lines of boilerplate each time.</text>
+
+
+## File
+
+## Extracted License
+

@@ -1,0 +1,275 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-wadllib_1.3.6-1-d7c27fb7-d58e-5731-9a59-4b9ba660855c
+DocumentName: python3-wadllib_1.3.6-1
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-python3-lazr.uri http://spdx.org/spdxdocs/python3-lazr.uri_1.0.6-2-668df969-ee0d-56a4-ba5c-0be62c4ebcdb SHA1: 65825900f7b70cf901c16ea29f7f45be6e7b29cd
+ExternalDocumentRef: DocumentRef-python3-pkg-resources http://spdx.org/spdxdocs/python3-pkg-resources_59.6.0-1.2-b9f05cd8-abeb-5e7f-aa31-8329ade0fd98 SHA1: 33ca30e376785fbf43468a1cdb64be6040252fb5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-wadllib
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:09:26Z
+
+
+## Package
+
+PackageName: python3-wadllib
+PackageVersion: 1.3.6-1
+SPDXID: SPDXRef-python3-wadllib
+PackageVerificationCode: 0e5757589450115518f4a6b85db0f96b392ed9d2
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://launchpad.net/wadllib
+PackageComment: <text>Python 3 library for navigating WADL files
+ The Web Application Description Language (WADL) is an XML vocabulary for
+ describing the capabilities of HTTP resources. wadllib can be used in
+ conjunction with an HTTP library to navigate and manipulate those resources.
+ .
+ This package provides wadllib for Python 3.x.</text>
+Relationship: SPDXRef-python3-wadllib DEPENDS_ON DocumentRef-python3-lazr.uri:SPDXRef-python3-lazr.uri
+Relationship: SPDXRef-python3-wadllib DEPENDS_ON DocumentRef-python3-pkg-resources:SPDXRef-python3-pkg-resources
+
+
+## File
+
+FileName: /usr/lib/python3/dist-packages/wadllib/__init__.py
+SPDXID: SPDXRef-python3-wadllib_file_0
+FileChecksum: 2e506acdf33b0b64ddd0385ce82715834da68836
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_0
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/application.py
+SPDXID: SPDXRef-python3-wadllib_file_1
+FileChecksum: d4880bd366406278bb9beec306b3fe46b59f77e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_1
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/docs/Makefile
+SPDXID: SPDXRef-python3-wadllib_file_2
+FileChecksum: 88fd5ea7ac09dcbe779a429c0bc19f757f59ca37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_2
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/docs/NEWS.rst
+SPDXID: SPDXRef-python3-wadllib_file_3
+FileChecksum: 342f2c6d542553c12433fc27387ecd2215e93225
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_3
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/docs/index.rst
+SPDXID: SPDXRef-python3-wadllib_file_4
+FileChecksum: 550942ecb2f62f85d16b745454ed22d9b846d142
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_4
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/iso_strptime.py
+SPDXID: SPDXRef-python3-wadllib_file_5
+FileChecksum: 7e94fcccb94896ba070e1c4d56d13202b4f4ee9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_5
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/__init__.py
+SPDXID: SPDXRef-python3-wadllib_file_6
+FileChecksum: cfd559be60a1e758ed655dd86dda03f8dd033ef1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_6
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/__init__.py
+SPDXID: SPDXRef-python3-wadllib_file_7
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_7
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/data-types-wadl.xml
+SPDXID: SPDXRef-python3-wadllib_file_8
+FileChecksum: f6bf622e63c30a34482ceb327991fd1ab17006d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_8
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/launchpad-wadl.xml
+SPDXID: SPDXRef-python3-wadllib_file_9
+FileChecksum: 309699904d5d79823eaa487e800dfa3e2be47dd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_9
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/links-wadl.xml
+SPDXID: SPDXRef-python3-wadllib_file_10
+FileChecksum: a8bd8985f9b5a6481be02c062ef0fdb023a102d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_10
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/multipart-binary-wadl.xml
+SPDXID: SPDXRef-python3-wadllib_file_11
+FileChecksum: 67b27b937b49af246ec1326d3a8b343b29dded85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_11
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/options-wadl.xml
+SPDXID: SPDXRef-python3-wadllib_file_12
+FileChecksum: f9492273dd6781e05500e92887ae77c14400db3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_12
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/person-limi.json
+SPDXID: SPDXRef-python3-wadllib_file_13
+FileChecksum: 1c8453309235b3048f80533ff02158ebbd05a470
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_13
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/personset-page2.json
+SPDXID: SPDXRef-python3-wadllib_file_14
+FileChecksum: 769a8d1edc0e5c5133e692ede172bfe33c2f6c5c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_14
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/personset.json
+SPDXID: SPDXRef-python3-wadllib_file_15
+FileChecksum: 1b0e540bad15ff44bdbad4e9ab7af695c8883efb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_15
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/data/root.json
+SPDXID: SPDXRef-python3-wadllib_file_16
+FileChecksum: 3f9472527cec4c9711c46b60dd2ad58d39a3312b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_16
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib/tests/test_docs.py
+SPDXID: SPDXRef-python3-wadllib_file_17
+FileChecksum: 71a812bab988a2a8c2e42d856c407eafd11e3cfc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_17
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib-1.3.6.egg-info/PKG-INFO
+SPDXID: SPDXRef-python3-wadllib_file_18
+FileChecksum: 521bd1be5197627a1974d57d9ab8d69bc880249f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_18
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib-1.3.6.egg-info/dependency_links.txt
+SPDXID: SPDXRef-python3-wadllib_file_19
+FileChecksum: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_19
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib-1.3.6.egg-info/not-zip-safe
+SPDXID: SPDXRef-python3-wadllib_file_20
+FileChecksum: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_20
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib-1.3.6.egg-info/requires.txt
+SPDXID: SPDXRef-python3-wadllib_file_21
+FileChecksum: 641411ec3a9b79f828741f46131d59886b82f240
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_21
+
+
+FileName: /usr/lib/python3/dist-packages/wadllib-1.3.6.egg-info/top_level.txt
+SPDXID: SPDXRef-python3-wadllib_file_22
+FileChecksum: 06da75791594dbcaa00abb5564d030327eca67fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_22
+
+
+FileName: /usr/share/doc/python3-wadllib/README.rst
+SPDXID: SPDXRef-python3-wadllib_file_23
+FileChecksum: 202d906473ce644b09d3d8f23ed1d3094852bdcb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_23
+
+
+FileName: /usr/share/doc/python3-wadllib/changelog.Debian.gz
+SPDXID: SPDXRef-python3-wadllib_file_24
+FileChecksum: 9bcc35961af5d05ee5168058b1592cace92e0a8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_24
+
+
+FileName: /usr/share/doc/python3-wadllib/copyright
+SPDXID: SPDXRef-python3-wadllib_file_25
+FileChecksum: 407270300498766b1f28ed019f56615f0489bb83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wadllib CONTAINS SPDXRef-python3-wadllib_file_25
+
+
+## Extracted License
+

@@ -1,0 +1,36 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: liblouis-data_3.20.0-2ubuntu0.1
+DocumentNamespace: http://spdx.org/spdxdocs/liblouis-data_3.20.0-2ubuntu0.1-79ce54b0-4576-5d42-b6ba-6b7ed5f33259
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-liblouis-data
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: liblouis-data
+PackageVersion: 3.20.0-2ubuntu0.1
+SPDXID: SPDXRef-liblouis-data
+PackageHomePage: http://liblouis.org/
+PackageComment: <text>Braille translation library - data
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).  New languages can easily be added through
+ tables that support a rule- or dictionary based approach. Included are also
+ tools for testing and debugging tables.
+ .
+ This package contains runtime data.</text>
+
+
+## File
+
+## Extracted License
+

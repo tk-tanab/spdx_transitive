@@ -1,0 +1,432 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-jeepney_0.7.1-3-8b386674-e260-56f8-a0af-87b474703949
+DocumentName: python3-jeepney_0.7.1-3
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-jeepney
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:09:26Z
+
+
+## Package
+
+PackageName: python3-jeepney
+PackageVersion: 0.7.1-3
+SPDXID: SPDXRef-python3-jeepney
+PackageVerificationCode: 62a378ef9da41d609d094aa22bf54ca7968da48e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://gitlab.com/takluyver/jeepney
+PackageComment: <text>pure Python D-Bus interface
+ Jeepney is a pure Python implementation of D-Bus messaging. It has an
+ I/O-free core, and integration modules for different event loops.
+ .
+ D-Bus is an inter-process communication system, mainly used in Linux.</text>
+
+
+## File
+
+FileName: /usr/lib/python3/dist-packages/jeepney/__init__.py
+SPDXID: SPDXRef-python3-jeepney_file_0
+FileChecksum: 50c5520cf37312fa5ac69e5dba887c1bc5a15097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_0
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/auth.py
+SPDXID: SPDXRef-python3-jeepney_file_1
+FileChecksum: 0c6dc5ec5bfdd7d6fc69c94922047d586aec3019
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_1
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/bindgen.py
+SPDXID: SPDXRef-python3-jeepney_file_2
+FileChecksum: 4b7128a5b9ead06d0ec725e46d65398ac9d85501
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_2
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/bus.py
+SPDXID: SPDXRef-python3-jeepney_file_3
+FileChecksum: e5a39b7d7daaed38088cbde1c6c65d2f5d862327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_3
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/bus_messages.py
+SPDXID: SPDXRef-python3-jeepney_file_4
+FileChecksum: ed4cf69062697bae25d9bca93b682a6f5915a09d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_4
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/fds.py
+SPDXID: SPDXRef-python3-jeepney_file_5
+FileChecksum: 17be9fd931c73a92ee30f4869ffec2e4ce347b51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_5
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/integrate/__init__.py
+SPDXID: SPDXRef-python3-jeepney_file_6
+FileChecksum: 739114a982f0233498900dd591f2a1bac0787123
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_6
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/integrate/asyncio.py
+SPDXID: SPDXRef-python3-jeepney_file_7
+FileChecksum: d49436c8802d531f93abbac494f65049d77bdbe8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_7
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/integrate/blocking.py
+SPDXID: SPDXRef-python3-jeepney_file_8
+FileChecksum: 8daae95daf52f7cfffa1de64a4ffc0c5d065c71e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_8
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/integrate/tests/__init__.py
+SPDXID: SPDXRef-python3-jeepney_file_9
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_9
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/integrate/tests/test_asyncio.py
+SPDXID: SPDXRef-python3-jeepney_file_10
+FileChecksum: b954ceda4881074d46ebe1c9bfd5a343389895aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_10
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/integrate/tornado.py
+SPDXID: SPDXRef-python3-jeepney_file_11
+FileChecksum: a76ab9481d53e024c3accb6ee3fead833d0d5780
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_11
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/__init__.py
+SPDXID: SPDXRef-python3-jeepney_file_12
+FileChecksum: 1f6330a91340ed2ebabf2b4fecd949e3380b5de9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_12
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/asyncio.py
+SPDXID: SPDXRef-python3-jeepney_file_13
+FileChecksum: 577e541eb7904a3da493ba72f43a369e47df10f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_13
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/blocking.py
+SPDXID: SPDXRef-python3-jeepney_file_14
+FileChecksum: 6bb057733770a30324ec31ba0d17c63e9c0e4ac8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_14
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/common.py
+SPDXID: SPDXRef-python3-jeepney_file_15
+FileChecksum: c372e1c540a811c3d7941166db7a95fcc50dac8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_15
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/tests/__init__.py
+SPDXID: SPDXRef-python3-jeepney_file_16
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_16
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/tests/conftest.py
+SPDXID: SPDXRef-python3-jeepney_file_17
+FileChecksum: 6c7fcef401bc2c998e4687b1f61d6936b7f9dff4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_17
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/tests/test_asyncio.py
+SPDXID: SPDXRef-python3-jeepney_file_18
+FileChecksum: 548132c66ae17719c235cfbf0657a27973bda5e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_18
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/tests/test_blocking.py
+SPDXID: SPDXRef-python3-jeepney_file_19
+FileChecksum: 02db4f770cd8760ea01fe2ba65cafa587513d483
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_19
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/tests/test_threading.py
+SPDXID: SPDXRef-python3-jeepney_file_20
+FileChecksum: f6dcb9619af69c9c3787b1945d9472a3f74e7765
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_20
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/tests/test_trio.py
+SPDXID: SPDXRef-python3-jeepney_file_21
+FileChecksum: a813c3fad89db0068357514329f11adcb49e457a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_21
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/tests/utils.py
+SPDXID: SPDXRef-python3-jeepney_file_22
+FileChecksum: a949b54040169af085d989db82d44c61d9140c67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_22
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/threading.py
+SPDXID: SPDXRef-python3-jeepney_file_23
+FileChecksum: 1adc2f67d81e1d3132b449d08c76be5d29978dab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_23
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/tornado.py
+SPDXID: SPDXRef-python3-jeepney_file_24
+FileChecksum: 278d59aae7e6a087f803b03983e825a52bc4b2f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_24
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/io/trio.py
+SPDXID: SPDXRef-python3-jeepney_file_25
+FileChecksum: 9fce7c2919ff6dfc7f2f696409f3fa7cd4202499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_25
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/low_level.py
+SPDXID: SPDXRef-python3-jeepney_file_26
+FileChecksum: fd4ca06ec25eb947361a64e22e33c58798cace0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_26
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/routing.py
+SPDXID: SPDXRef-python3-jeepney_file_27
+FileChecksum: 66ed05d174b504e5ba7009a1c6a2db218b325452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_27
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/tests/__init__.py
+SPDXID: SPDXRef-python3-jeepney_file_28
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_28
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/tests/secrets_introspect.xml
+SPDXID: SPDXRef-python3-jeepney_file_29
+FileChecksum: 28bd8dc6d75dca0f00a6ffde118826830a237349
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_29
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/tests/test_auth.py
+SPDXID: SPDXRef-python3-jeepney_file_30
+FileChecksum: 4b84b86191842abbc55f2a81ede249657f2e2800
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_30
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/tests/test_bindgen.py
+SPDXID: SPDXRef-python3-jeepney_file_31
+FileChecksum: 1cba6ac176435425444a97593675fd82b34fe3c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_31
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/tests/test_bus.py
+SPDXID: SPDXRef-python3-jeepney_file_32
+FileChecksum: 36c48c07de53fffe1bf1e22026e1a532232383d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_32
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/tests/test_bus_messages.py
+SPDXID: SPDXRef-python3-jeepney_file_33
+FileChecksum: d15d6303d52a693c24ee88645200a1ec1fb35231
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_33
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/tests/test_fds.py
+SPDXID: SPDXRef-python3-jeepney_file_34
+FileChecksum: d8b4f58b9bf9d7467d2b160818741bcc70d34f03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_34
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/tests/test_low_level.py
+SPDXID: SPDXRef-python3-jeepney_file_35
+FileChecksum: c5c57b7e3ca9c8b181225c0629f094b1bf16d211
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_35
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/tests/test_routing.py
+SPDXID: SPDXRef-python3-jeepney_file_36
+FileChecksum: 60869087896309eedd0e661d0784c1ce5082aef1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_36
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney/wrappers.py
+SPDXID: SPDXRef-python3-jeepney_file_37
+FileChecksum: b223e6c9baf8bbe6534a71f79cf1886931dca6f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_37
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney-0.7.1.dist-info/INSTALLER
+SPDXID: SPDXRef-python3-jeepney_file_38
+FileChecksum: b3dd1f1606e650f957a201559ff4892bfe793d89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_38
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney-0.7.1.dist-info/METADATA
+SPDXID: SPDXRef-python3-jeepney_file_39
+FileChecksum: de8562980dfe7c78a4018d32927ffcedcd8c9474
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_39
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney-0.7.1.dist-info/RECORD
+SPDXID: SPDXRef-python3-jeepney_file_40
+FileChecksum: c4bf74db6051019927485e40465383ddb84f0586
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_40
+
+
+FileName: /usr/lib/python3/dist-packages/jeepney-0.7.1.dist-info/REQUESTED
+SPDXID: SPDXRef-python3-jeepney_file_41
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_41
+
+
+FileName: /usr/share/doc/python3-jeepney/changelog.Debian.gz
+SPDXID: SPDXRef-python3-jeepney_file_42
+FileChecksum: 66a37ae224ca910c6fd585f63064c3d1d957cb3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_42
+
+
+FileName: /usr/share/doc/python3-jeepney/copyright
+SPDXID: SPDXRef-python3-jeepney_file_43
+FileChecksum: 2ff83e626199d9b0f1eab6655bbb6b17028bfeb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-jeepney CONTAINS SPDXRef-python3-jeepney_file_43
+
+
+## Extracted License
+

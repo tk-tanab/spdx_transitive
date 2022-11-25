@@ -1,0 +1,34 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-zipp_1.0.0-3
+DocumentNamespace: http://spdx.org/spdxdocs/python3-zipp_1.0.0-3-dd17521d-d698-54c2-9014-25dd1d80bcbe
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-zipp
+ExternalDocumentRef: DocumentRef-python3-more-itertools http://spdx.org/spdxdocs/python3-more-itertools_8.10.0-2-e606eb3d-e8be-5326-aa5f-d849c0e75b45 SHA1: 207922911d8c42d67c88750f34217d7bccafee1c
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-zipp
+PackageVersion: 1.0.0-3
+SPDXID: SPDXRef-python3-zipp
+PackageHomePage: https://github.com/jaraco/zipp
+PackageComment: <text>pathlib-compatible Zipfile object wrapper - Python 3.x
+ A backport of the Path object to older versions of Python.
+ It's pathlib-compatible interface for zip files using zipfile object inside.
+ .
+ This package contains Python 3.x module.</text>
+Relationship: SPDXRef-python3-zipp DEPENDS_ON DocumentRef-python3-more-itertools:SPDXRef-python3-more-itertools
+
+
+## File
+
+## Extracted License
+

@@ -1,0 +1,74 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/libpwquality-common_1.4.4-1build2-4da9011a-f1a9-536a-a595-226ba7b8eb02
+DocumentName: libpwquality-common_1.4.4-1build2
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpwquality-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:08:43Z
+
+
+## Package
+
+PackageName: libpwquality-common
+PackageVersion: 1.4.4-1build2
+SPDXID: SPDXRef-libpwquality-common
+PackageVerificationCode: 33fcf328b1fd6a744b83143fbe3406e18f0ce3f4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://github.com/libpwquality/libpwquality
+PackageComment: <text>library for password quality checking and generation (data files)
+ libpwquality's purpose is to provide common functions for password
+ quality checking and also scoring them based on their apparent randomness. The
+ library also provides a function for generating random passwords with good
+ pronounceability.
+ .
+ This package contains the configuration file and man page for libpwquality.</text>
+
+
+## File
+
+FileName: /etc/security/pwquality.conf
+SPDXID: SPDXRef-libpwquality-common_file_0
+FileChecksum: cad6399944f0f5459270952d971fa2dbec80e5d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common_file_0
+
+
+FileName: /usr/share/doc/libpwquality-common/changelog.Debian.gz
+SPDXID: SPDXRef-libpwquality-common_file_1
+FileChecksum: f5fdda4fe6afe0f7ebefc86106e90484db9cf4e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common_file_1
+
+
+FileName: /usr/share/doc/libpwquality-common/copyright
+SPDXID: SPDXRef-libpwquality-common_file_2
+FileChecksum: 6fd29174313518f92a714f0fd148bb15a6ee914f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common_file_2
+
+
+FileName: /usr/share/man/man5/pwquality.conf.5.gz
+SPDXID: SPDXRef-libpwquality-common_file_3
+FileChecksum: d64bf85779440d1c1a974328ca5171ae4d9263ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common_file_3
+
+
+## Extracted License
+

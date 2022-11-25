@@ -1,0 +1,40 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libencode-locale-perl_1.05-1.1
+DocumentNamespace: http://spdx.org/spdxdocs/libencode-locale-perl_1.05-1.1-91795935-d4c6-5405-acc2-043f376418db
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libencode-locale-perl
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libencode-locale-perl
+PackageVersion: 1.05-1.1
+SPDXID: SPDXRef-libencode-locale-perl
+PackageHomePage: https://metacpan.org/release/Encode-Locale
+PackageComment: <text>utility to determine the locale encoding
+ In many applications it's wise to let Perl use Unicode for the strings it
+ processes. Most of the interfaces Perl has to the outside world are still byte
+ based. Programs therefore need to decode byte strings that enter the program
+ from the outside and encode them again on the way out.
+ .
+ The POSIX locale system is used to specify both the language conventions
+ requested by the user and the preferred character set to consume and output.
+ The Encode::Locale module looks up the charset and encoding (called a CODESET
+ in the locale jargon) and arranges for the Encode module to know this encoding
+ under the name "locale". It means bytes obtained from the environment can be
+ converted to Unicode strings by calling Encode::encode(locale => $bytes) and
+ converted back again with Encode::decode(locale => $string).</text>
+
+
+## File
+
+## Extracted License
+

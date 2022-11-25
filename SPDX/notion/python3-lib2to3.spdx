@@ -1,0 +1,1413 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-lib2to3_3.10.6-1~22.04-42a513a6-595e-5c5c-8bf0-cc76e697cc6a
+DocumentName: python3-lib2to3_3.10.6-1~22.04
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-lib2to3
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:08:56Z
+
+
+## Package
+
+PackageName: python3-lib2to3
+PackageVersion: 3.10.6-1~22.04
+SPDXID: SPDXRef-python3-lib2to3
+PackageVerificationCode: cde58e7f012e952ef26410c1087fbd343c2829c4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageComment: <text>Interactive high-level object-oriented language (lib2to3)
+ Python is a high-level, interactive, object-oriented language. It
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the lib2to3 library, a Python2 to Python3 converter.</text>
+
+
+## File
+
+FileName: /usr/lib/python3.10/lib2to3/Grammar.txt
+SPDXID: SPDXRef-python3-lib2to3_file_0
+FileChecksum: 8614a1c350b849496b04fc33502e10045b1e79b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_0
+
+
+FileName: /usr/lib/python3.10/lib2to3/PatternGrammar.txt
+SPDXID: SPDXRef-python3-lib2to3_file_1
+FileChecksum: 041737c50fea84e67817c63b81e0d1e336fe2465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_1
+
+
+FileName: /usr/lib/python3.10/lib2to3/__init__.py
+SPDXID: SPDXRef-python3-lib2to3_file_2
+FileChecksum: 09b99cd16f41c4c6b0d8b6d2745ac6638d294bc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_2
+
+
+FileName: /usr/lib/python3.10/lib2to3/__main__.py
+SPDXID: SPDXRef-python3-lib2to3_file_3
+FileChecksum: 24bf6bd1146263219a31faab70577e6d1511c907
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_3
+
+
+FileName: /usr/lib/python3.10/lib2to3/btm_matcher.py
+SPDXID: SPDXRef-python3-lib2to3_file_4
+FileChecksum: 2ccfa78c1b24cb9a367970a2008a3c8bf75465cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_4
+
+
+FileName: /usr/lib/python3.10/lib2to3/btm_utils.py
+SPDXID: SPDXRef-python3-lib2to3_file_5
+FileChecksum: 549d3894ed1bf4f800717fb2c4d7fbeac0cbc972
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_5
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixer_base.py
+SPDXID: SPDXRef-python3-lib2to3_file_6
+FileChecksum: 0dba1ed0d534c23414a704874e87ca12c3cc5693
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_6
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixer_util.py
+SPDXID: SPDXRef-python3-lib2to3_file_7
+FileChecksum: 7600233f3d62599a227b704e29669275f7942d1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_7
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/__init__.py
+SPDXID: SPDXRef-python3-lib2to3_file_8
+FileChecksum: cf12053424c6424239b2be611606585142816d88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_8
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_apply.py
+SPDXID: SPDXRef-python3-lib2to3_file_9
+FileChecksum: 81a663428651afef40407e289f7fca1a6c9b146c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_9
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_asserts.py
+SPDXID: SPDXRef-python3-lib2to3_file_10
+FileChecksum: 3be2c866a7acf50b59977ee1b4ea0df9d32948c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_10
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_basestring.py
+SPDXID: SPDXRef-python3-lib2to3_file_11
+FileChecksum: 05c3b3de60da8cae09845ae9076cdbe2d83db630
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_11
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_buffer.py
+SPDXID: SPDXRef-python3-lib2to3_file_12
+FileChecksum: bd7e84b749949818520960a60c069b14a07ad9f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_12
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_dict.py
+SPDXID: SPDXRef-python3-lib2to3_file_13
+FileChecksum: 7dea81c915bd56b12e5b03233e60e0ec000acec9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_13
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_except.py
+SPDXID: SPDXRef-python3-lib2to3_file_14
+FileChecksum: fd09dc9aeb57f0ab2d94f6f394ec59a2b39cc980
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_14
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_exec.py
+SPDXID: SPDXRef-python3-lib2to3_file_15
+FileChecksum: d68559ecdcb0f5a8ace562c94c7e59f1cd7cd8c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_15
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_execfile.py
+SPDXID: SPDXRef-python3-lib2to3_file_16
+FileChecksum: 16e26b450675744d3c6738addf0f62dcca021852
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_16
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_exitfunc.py
+SPDXID: SPDXRef-python3-lib2to3_file_17
+FileChecksum: 0110a3ae7804e330f03a4c8c3103c94f04d2ca6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_17
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_filter.py
+SPDXID: SPDXRef-python3-lib2to3_file_18
+FileChecksum: 54018563ab623939ffe1ed76de7c076c8b64ceac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_18
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_funcattrs.py
+SPDXID: SPDXRef-python3-lib2to3_file_19
+FileChecksum: 671cc8bdaca5bf67e2739a777a1be27615278902
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_19
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_future.py
+SPDXID: SPDXRef-python3-lib2to3_file_20
+FileChecksum: 92b43a4f7cc43900573bd1cd317fa0eb92e1a4cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_20
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_getcwdu.py
+SPDXID: SPDXRef-python3-lib2to3_file_21
+FileChecksum: a077b2b857a3c096d04ae59a11ee460a3e2a16d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_21
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_has_key.py
+SPDXID: SPDXRef-python3-lib2to3_file_22
+FileChecksum: 1d7317f5f9fca8092a838ddfd5a51fc0442d4e16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_22
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_idioms.py
+SPDXID: SPDXRef-python3-lib2to3_file_23
+FileChecksum: ed07a3fcb7e7128404203f82073932fc61e68db3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_23
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_import.py
+SPDXID: SPDXRef-python3-lib2to3_file_24
+FileChecksum: fa7b2cc9dd2c6f97305931d056ee98c727b47ad9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_24
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_imports.py
+SPDXID: SPDXRef-python3-lib2to3_file_25
+FileChecksum: 2accf89745e31cc133175f41e620608318a0f3f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_25
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_imports2.py
+SPDXID: SPDXRef-python3-lib2to3_file_26
+FileChecksum: b1546c31d65a0fdf1cba2558f459230333aa5d42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_26
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_input.py
+SPDXID: SPDXRef-python3-lib2to3_file_27
+FileChecksum: 9395ac41c25566ef892f0c1f10bf8275c88923c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_27
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_intern.py
+SPDXID: SPDXRef-python3-lib2to3_file_28
+FileChecksum: 161161240893e41a5503071d430298ddfb172c2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_28
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_isinstance.py
+SPDXID: SPDXRef-python3-lib2to3_file_29
+FileChecksum: 5e72a14bd4ef6d1919235e60409a7505a67af470
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_29
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_itertools.py
+SPDXID: SPDXRef-python3-lib2to3_file_30
+FileChecksum: b6a71293a175ccfec40f49d63aee7746fa39a5a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_30
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_itertools_imports.py
+SPDXID: SPDXRef-python3-lib2to3_file_31
+FileChecksum: c2766cbab8dc72397a463d57c2b986793cdd6998
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_31
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_long.py
+SPDXID: SPDXRef-python3-lib2to3_file_32
+FileChecksum: 96f6c633626189e635cc263538b37bfe596ffe3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_32
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_map.py
+SPDXID: SPDXRef-python3-lib2to3_file_33
+FileChecksum: fb6f3377ca2e7b2806ae71e60ced052efb6d580f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_33
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_metaclass.py
+SPDXID: SPDXRef-python3-lib2to3_file_34
+FileChecksum: bcaa2ad9c505bc671efc0ff87ef63213c80acccf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_34
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_methodattrs.py
+SPDXID: SPDXRef-python3-lib2to3_file_35
+FileChecksum: 880e091dc04447f78c2aa3c1b043e7c53262e361
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_35
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_ne.py
+SPDXID: SPDXRef-python3-lib2to3_file_36
+FileChecksum: 84ff5854ef888e378986127b1c7b9769ca1fe5f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_36
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_next.py
+SPDXID: SPDXRef-python3-lib2to3_file_37
+FileChecksum: ed1e940b439f55f4a14f06c37af2de77d7b65197
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_37
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_nonzero.py
+SPDXID: SPDXRef-python3-lib2to3_file_38
+FileChecksum: 0cd5084eae8bef23b51525ab9385b54f24e2e9f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_38
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_numliterals.py
+SPDXID: SPDXRef-python3-lib2to3_file_39
+FileChecksum: 4d10701b64e0d0e2e7919ef45022ab38942a9b1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_39
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_operator.py
+SPDXID: SPDXRef-python3-lib2to3_file_40
+FileChecksum: 803251f1b6d74def450e49ad13c666ef89dd9539
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_40
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_paren.py
+SPDXID: SPDXRef-python3-lib2to3_file_41
+FileChecksum: 2fb695124f12ff6f9cbe1116a5f9f399aa3c3e4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_41
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_print.py
+SPDXID: SPDXRef-python3-lib2to3_file_42
+FileChecksum: 415a3d7d0d7613d84e0fa755021c8675456e8b77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_42
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_raise.py
+SPDXID: SPDXRef-python3-lib2to3_file_43
+FileChecksum: 3611bfaf1671d55579630cff285af56404b4b2b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_43
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_raw_input.py
+SPDXID: SPDXRef-python3-lib2to3_file_44
+FileChecksum: b53cba8885a090cd0c950b20024921a776bbdeab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_44
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_reduce.py
+SPDXID: SPDXRef-python3-lib2to3_file_45
+FileChecksum: 756815a32930f441e1f563ca8104149f729e5a5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_45
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_reload.py
+SPDXID: SPDXRef-python3-lib2to3_file_46
+FileChecksum: ed8fa112a74684ac56293ad0ac05524f4b21115e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_46
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_renames.py
+SPDXID: SPDXRef-python3-lib2to3_file_47
+FileChecksum: a3305a069be070046d07d1f16270646e569d538e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_47
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_repr.py
+SPDXID: SPDXRef-python3-lib2to3_file_48
+FileChecksum: e410da942eeff17367804957e7af97a746f2836d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_48
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_set_literal.py
+SPDXID: SPDXRef-python3-lib2to3_file_49
+FileChecksum: 4716e108a9821393e766bc596f03164a06df0022
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_49
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_standarderror.py
+SPDXID: SPDXRef-python3-lib2to3_file_50
+FileChecksum: 5175db798385220e34378b6ce75a791d7d89db54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_50
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_sys_exc.py
+SPDXID: SPDXRef-python3-lib2to3_file_51
+FileChecksum: 45c83311d908ff9b160363509ae61c6775cfbd28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_51
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_throw.py
+SPDXID: SPDXRef-python3-lib2to3_file_52
+FileChecksum: ac7928928fa6216f0bbcba491f8bd2728a9ef83f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_52
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_tuple_params.py
+SPDXID: SPDXRef-python3-lib2to3_file_53
+FileChecksum: d8bcedf69f96668c2950b1c3fa72b5c39a348eb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_53
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_types.py
+SPDXID: SPDXRef-python3-lib2to3_file_54
+FileChecksum: 37aead1ce45799894608022347eb0ff8e2dfd3af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_54
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_unicode.py
+SPDXID: SPDXRef-python3-lib2to3_file_55
+FileChecksum: d6ee07f23e4c4f7b9065f8007427f7c0d8843843
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_55
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_urllib.py
+SPDXID: SPDXRef-python3-lib2to3_file_56
+FileChecksum: 58ade4e7f952d5d03c668b1ddfdb3abf6bdc86cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_56
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_ws_comma.py
+SPDXID: SPDXRef-python3-lib2to3_file_57
+FileChecksum: b1ac079484385c1c5b3f6ffcdcb5f18d777588fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_57
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_xrange.py
+SPDXID: SPDXRef-python3-lib2to3_file_58
+FileChecksum: 0c4377e00ebdccbed7d83177b8ef92c89ce6af99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_58
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_xreadlines.py
+SPDXID: SPDXRef-python3-lib2to3_file_59
+FileChecksum: ff0c48dabffab6123b118a430a1d0b1681cbf45b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_59
+
+
+FileName: /usr/lib/python3.10/lib2to3/fixes/fix_zip.py
+SPDXID: SPDXRef-python3-lib2to3_file_60
+FileChecksum: 89836bd2ec45a7fd3f79ee2e0f133f65bb769087
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_60
+
+
+FileName: /usr/lib/python3.10/lib2to3/main.py
+SPDXID: SPDXRef-python3-lib2to3_file_61
+FileChecksum: 063b393409ac3313c676acdf29948a0dcb18ed5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_61
+
+
+FileName: /usr/lib/python3.10/lib2to3/patcomp.py
+SPDXID: SPDXRef-python3-lib2to3_file_62
+FileChecksum: 34783a00b148c290beab9ce3da6cf7914e585dd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_62
+
+
+FileName: /usr/lib/python3.10/lib2to3/pgen2/__init__.py
+SPDXID: SPDXRef-python3-lib2to3_file_63
+FileChecksum: d64142dd1f5b20e029735b14b4530a4ec98a9a64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_63
+
+
+FileName: /usr/lib/python3.10/lib2to3/pgen2/conv.py
+SPDXID: SPDXRef-python3-lib2to3_file_64
+FileChecksum: 244077c78414e2cc0d611e819bb49900b7032968
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_64
+
+
+FileName: /usr/lib/python3.10/lib2to3/pgen2/driver.py
+SPDXID: SPDXRef-python3-lib2to3_file_65
+FileChecksum: 93d9b40eb01be752269498f537c5cd09e56ec224
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_65
+
+
+FileName: /usr/lib/python3.10/lib2to3/pgen2/grammar.py
+SPDXID: SPDXRef-python3-lib2to3_file_66
+FileChecksum: 40f4635e6166556b2b69e51f3bd754b5a36ec230
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_66
+
+
+FileName: /usr/lib/python3.10/lib2to3/pgen2/literals.py
+SPDXID: SPDXRef-python3-lib2to3_file_67
+FileChecksum: 1f5d614f3c3e6caff8f2f6f6e7bb28095e3f6d90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_67
+
+
+FileName: /usr/lib/python3.10/lib2to3/pgen2/parse.py
+SPDXID: SPDXRef-python3-lib2to3_file_68
+FileChecksum: d60fb305c7714f1cdacca83c273a689cfd59909e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_68
+
+
+FileName: /usr/lib/python3.10/lib2to3/pgen2/pgen.py
+SPDXID: SPDXRef-python3-lib2to3_file_69
+FileChecksum: 628046e567729b9d0c2ec148263cdb8d49e2db09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_69
+
+
+FileName: /usr/lib/python3.10/lib2to3/pgen2/token.py
+SPDXID: SPDXRef-python3-lib2to3_file_70
+FileChecksum: db7ff4b207beccd7a6f4d8f1e76bdcfcf05f57dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_70
+
+
+FileName: /usr/lib/python3.10/lib2to3/pgen2/tokenize.py
+SPDXID: SPDXRef-python3-lib2to3_file_71
+FileChecksum: fc4439e167187392a39ba31a924db75f2c226cdd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_71
+
+
+FileName: /usr/lib/python3.10/lib2to3/pygram.py
+SPDXID: SPDXRef-python3-lib2to3_file_72
+FileChecksum: ebceec7515f0c0fba92893563dc807991ad738e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_72
+
+
+FileName: /usr/lib/python3.10/lib2to3/pytree.py
+SPDXID: SPDXRef-python3-lib2to3_file_73
+FileChecksum: 8e79b98a7349027ea044d48e883452e59da9c455
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_73
+
+
+FileName: /usr/lib/python3.10/lib2to3/refactor.py
+SPDXID: SPDXRef-python3-lib2to3_file_74
+FileChecksum: 4187bc31a5e9fb68a028fe8a7753a128a1666ff2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_74
+
+
+FileName: /usr/lib/python3.11/lib2to3/Grammar.txt
+SPDXID: SPDXRef-python3-lib2to3_file_75
+FileChecksum: 8614a1c350b849496b04fc33502e10045b1e79b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_75
+
+
+FileName: /usr/lib/python3.11/lib2to3/PatternGrammar.txt
+SPDXID: SPDXRef-python3-lib2to3_file_76
+FileChecksum: 041737c50fea84e67817c63b81e0d1e336fe2465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_76
+
+
+FileName: /usr/lib/python3.11/lib2to3/__init__.py
+SPDXID: SPDXRef-python3-lib2to3_file_77
+FileChecksum: 1159a9d5a164c866360e3b4b0bc527350541cdc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_77
+
+
+FileName: /usr/lib/python3.11/lib2to3/__main__.py
+SPDXID: SPDXRef-python3-lib2to3_file_78
+FileChecksum: 24bf6bd1146263219a31faab70577e6d1511c907
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_78
+
+
+FileName: /usr/lib/python3.11/lib2to3/btm_matcher.py
+SPDXID: SPDXRef-python3-lib2to3_file_79
+FileChecksum: 2ccfa78c1b24cb9a367970a2008a3c8bf75465cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_79
+
+
+FileName: /usr/lib/python3.11/lib2to3/btm_utils.py
+SPDXID: SPDXRef-python3-lib2to3_file_80
+FileChecksum: 3969c841260e6bc9637553c5fa689412bc5b0ee9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_80
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixer_base.py
+SPDXID: SPDXRef-python3-lib2to3_file_81
+FileChecksum: 0dba1ed0d534c23414a704874e87ca12c3cc5693
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_81
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixer_util.py
+SPDXID: SPDXRef-python3-lib2to3_file_82
+FileChecksum: 7600233f3d62599a227b704e29669275f7942d1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_82
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/__init__.py
+SPDXID: SPDXRef-python3-lib2to3_file_83
+FileChecksum: cf12053424c6424239b2be611606585142816d88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_83
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_apply.py
+SPDXID: SPDXRef-python3-lib2to3_file_84
+FileChecksum: 81a663428651afef40407e289f7fca1a6c9b146c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_84
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_asserts.py
+SPDXID: SPDXRef-python3-lib2to3_file_85
+FileChecksum: 3be2c866a7acf50b59977ee1b4ea0df9d32948c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_85
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_basestring.py
+SPDXID: SPDXRef-python3-lib2to3_file_86
+FileChecksum: 05c3b3de60da8cae09845ae9076cdbe2d83db630
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_86
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_buffer.py
+SPDXID: SPDXRef-python3-lib2to3_file_87
+FileChecksum: bd7e84b749949818520960a60c069b14a07ad9f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_87
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_dict.py
+SPDXID: SPDXRef-python3-lib2to3_file_88
+FileChecksum: 7dea81c915bd56b12e5b03233e60e0ec000acec9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_88
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_except.py
+SPDXID: SPDXRef-python3-lib2to3_file_89
+FileChecksum: fd09dc9aeb57f0ab2d94f6f394ec59a2b39cc980
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_89
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_exec.py
+SPDXID: SPDXRef-python3-lib2to3_file_90
+FileChecksum: d68559ecdcb0f5a8ace562c94c7e59f1cd7cd8c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_90
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_execfile.py
+SPDXID: SPDXRef-python3-lib2to3_file_91
+FileChecksum: 16e26b450675744d3c6738addf0f62dcca021852
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_91
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_exitfunc.py
+SPDXID: SPDXRef-python3-lib2to3_file_92
+FileChecksum: 0110a3ae7804e330f03a4c8c3103c94f04d2ca6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_92
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_filter.py
+SPDXID: SPDXRef-python3-lib2to3_file_93
+FileChecksum: 54018563ab623939ffe1ed76de7c076c8b64ceac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_93
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_funcattrs.py
+SPDXID: SPDXRef-python3-lib2to3_file_94
+FileChecksum: 671cc8bdaca5bf67e2739a777a1be27615278902
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_94
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_future.py
+SPDXID: SPDXRef-python3-lib2to3_file_95
+FileChecksum: 92b43a4f7cc43900573bd1cd317fa0eb92e1a4cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_95
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_getcwdu.py
+SPDXID: SPDXRef-python3-lib2to3_file_96
+FileChecksum: a077b2b857a3c096d04ae59a11ee460a3e2a16d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_96
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_has_key.py
+SPDXID: SPDXRef-python3-lib2to3_file_97
+FileChecksum: 1d7317f5f9fca8092a838ddfd5a51fc0442d4e16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_97
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_idioms.py
+SPDXID: SPDXRef-python3-lib2to3_file_98
+FileChecksum: ed07a3fcb7e7128404203f82073932fc61e68db3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_98
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_import.py
+SPDXID: SPDXRef-python3-lib2to3_file_99
+FileChecksum: fa7b2cc9dd2c6f97305931d056ee98c727b47ad9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_99
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_imports.py
+SPDXID: SPDXRef-python3-lib2to3_file_100
+FileChecksum: 2accf89745e31cc133175f41e620608318a0f3f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_100
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_imports2.py
+SPDXID: SPDXRef-python3-lib2to3_file_101
+FileChecksum: b1546c31d65a0fdf1cba2558f459230333aa5d42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_101
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_input.py
+SPDXID: SPDXRef-python3-lib2to3_file_102
+FileChecksum: 9395ac41c25566ef892f0c1f10bf8275c88923c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_102
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_intern.py
+SPDXID: SPDXRef-python3-lib2to3_file_103
+FileChecksum: 161161240893e41a5503071d430298ddfb172c2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_103
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_isinstance.py
+SPDXID: SPDXRef-python3-lib2to3_file_104
+FileChecksum: 5e72a14bd4ef6d1919235e60409a7505a67af470
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_104
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_itertools.py
+SPDXID: SPDXRef-python3-lib2to3_file_105
+FileChecksum: b6a71293a175ccfec40f49d63aee7746fa39a5a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_105
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_itertools_imports.py
+SPDXID: SPDXRef-python3-lib2to3_file_106
+FileChecksum: c2766cbab8dc72397a463d57c2b986793cdd6998
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_106
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_long.py
+SPDXID: SPDXRef-python3-lib2to3_file_107
+FileChecksum: 96f6c633626189e635cc263538b37bfe596ffe3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_107
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_map.py
+SPDXID: SPDXRef-python3-lib2to3_file_108
+FileChecksum: fb6f3377ca2e7b2806ae71e60ced052efb6d580f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_108
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_metaclass.py
+SPDXID: SPDXRef-python3-lib2to3_file_109
+FileChecksum: bcaa2ad9c505bc671efc0ff87ef63213c80acccf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_109
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_methodattrs.py
+SPDXID: SPDXRef-python3-lib2to3_file_110
+FileChecksum: 880e091dc04447f78c2aa3c1b043e7c53262e361
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_110
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_ne.py
+SPDXID: SPDXRef-python3-lib2to3_file_111
+FileChecksum: 84ff5854ef888e378986127b1c7b9769ca1fe5f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_111
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_next.py
+SPDXID: SPDXRef-python3-lib2to3_file_112
+FileChecksum: ed1e940b439f55f4a14f06c37af2de77d7b65197
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_112
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_nonzero.py
+SPDXID: SPDXRef-python3-lib2to3_file_113
+FileChecksum: 0cd5084eae8bef23b51525ab9385b54f24e2e9f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_113
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_numliterals.py
+SPDXID: SPDXRef-python3-lib2to3_file_114
+FileChecksum: 4d10701b64e0d0e2e7919ef45022ab38942a9b1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_114
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_operator.py
+SPDXID: SPDXRef-python3-lib2to3_file_115
+FileChecksum: 803251f1b6d74def450e49ad13c666ef89dd9539
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_115
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_paren.py
+SPDXID: SPDXRef-python3-lib2to3_file_116
+FileChecksum: 2fb695124f12ff6f9cbe1116a5f9f399aa3c3e4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_116
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_print.py
+SPDXID: SPDXRef-python3-lib2to3_file_117
+FileChecksum: 415a3d7d0d7613d84e0fa755021c8675456e8b77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_117
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_raise.py
+SPDXID: SPDXRef-python3-lib2to3_file_118
+FileChecksum: 3611bfaf1671d55579630cff285af56404b4b2b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_118
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_raw_input.py
+SPDXID: SPDXRef-python3-lib2to3_file_119
+FileChecksum: b53cba8885a090cd0c950b20024921a776bbdeab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_119
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_reduce.py
+SPDXID: SPDXRef-python3-lib2to3_file_120
+FileChecksum: 756815a32930f441e1f563ca8104149f729e5a5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_120
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_reload.py
+SPDXID: SPDXRef-python3-lib2to3_file_121
+FileChecksum: ed8fa112a74684ac56293ad0ac05524f4b21115e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_121
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_renames.py
+SPDXID: SPDXRef-python3-lib2to3_file_122
+FileChecksum: a3305a069be070046d07d1f16270646e569d538e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_122
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_repr.py
+SPDXID: SPDXRef-python3-lib2to3_file_123
+FileChecksum: e410da942eeff17367804957e7af97a746f2836d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_123
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_set_literal.py
+SPDXID: SPDXRef-python3-lib2to3_file_124
+FileChecksum: 4716e108a9821393e766bc596f03164a06df0022
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_124
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_standarderror.py
+SPDXID: SPDXRef-python3-lib2to3_file_125
+FileChecksum: 5175db798385220e34378b6ce75a791d7d89db54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_125
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_sys_exc.py
+SPDXID: SPDXRef-python3-lib2to3_file_126
+FileChecksum: 45c83311d908ff9b160363509ae61c6775cfbd28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_126
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_throw.py
+SPDXID: SPDXRef-python3-lib2to3_file_127
+FileChecksum: ac7928928fa6216f0bbcba491f8bd2728a9ef83f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_127
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_tuple_params.py
+SPDXID: SPDXRef-python3-lib2to3_file_128
+FileChecksum: d8bcedf69f96668c2950b1c3fa72b5c39a348eb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_128
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_types.py
+SPDXID: SPDXRef-python3-lib2to3_file_129
+FileChecksum: 37aead1ce45799894608022347eb0ff8e2dfd3af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_129
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_unicode.py
+SPDXID: SPDXRef-python3-lib2to3_file_130
+FileChecksum: d6ee07f23e4c4f7b9065f8007427f7c0d8843843
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_130
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_urllib.py
+SPDXID: SPDXRef-python3-lib2to3_file_131
+FileChecksum: 58ade4e7f952d5d03c668b1ddfdb3abf6bdc86cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_131
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_ws_comma.py
+SPDXID: SPDXRef-python3-lib2to3_file_132
+FileChecksum: b1ac079484385c1c5b3f6ffcdcb5f18d777588fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_132
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_xrange.py
+SPDXID: SPDXRef-python3-lib2to3_file_133
+FileChecksum: 0c4377e00ebdccbed7d83177b8ef92c89ce6af99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_133
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_xreadlines.py
+SPDXID: SPDXRef-python3-lib2to3_file_134
+FileChecksum: ff0c48dabffab6123b118a430a1d0b1681cbf45b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_134
+
+
+FileName: /usr/lib/python3.11/lib2to3/fixes/fix_zip.py
+SPDXID: SPDXRef-python3-lib2to3_file_135
+FileChecksum: 89836bd2ec45a7fd3f79ee2e0f133f65bb769087
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_135
+
+
+FileName: /usr/lib/python3.11/lib2to3/main.py
+SPDXID: SPDXRef-python3-lib2to3_file_136
+FileChecksum: 063b393409ac3313c676acdf29948a0dcb18ed5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_136
+
+
+FileName: /usr/lib/python3.11/lib2to3/patcomp.py
+SPDXID: SPDXRef-python3-lib2to3_file_137
+FileChecksum: 34783a00b148c290beab9ce3da6cf7914e585dd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_137
+
+
+FileName: /usr/lib/python3.11/lib2to3/pgen2/__init__.py
+SPDXID: SPDXRef-python3-lib2to3_file_138
+FileChecksum: d64142dd1f5b20e029735b14b4530a4ec98a9a64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_138
+
+
+FileName: /usr/lib/python3.11/lib2to3/pgen2/conv.py
+SPDXID: SPDXRef-python3-lib2to3_file_139
+FileChecksum: 244077c78414e2cc0d611e819bb49900b7032968
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_139
+
+
+FileName: /usr/lib/python3.11/lib2to3/pgen2/driver.py
+SPDXID: SPDXRef-python3-lib2to3_file_140
+FileChecksum: 93d9b40eb01be752269498f537c5cd09e56ec224
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_140
+
+
+FileName: /usr/lib/python3.11/lib2to3/pgen2/grammar.py
+SPDXID: SPDXRef-python3-lib2to3_file_141
+FileChecksum: a4b7850a01ff4df91f408d83516f6786f10936ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_141
+
+
+FileName: /usr/lib/python3.11/lib2to3/pgen2/literals.py
+SPDXID: SPDXRef-python3-lib2to3_file_142
+FileChecksum: 1f5d614f3c3e6caff8f2f6f6e7bb28095e3f6d90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_142
+
+
+FileName: /usr/lib/python3.11/lib2to3/pgen2/parse.py
+SPDXID: SPDXRef-python3-lib2to3_file_143
+FileChecksum: d60fb305c7714f1cdacca83c273a689cfd59909e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_143
+
+
+FileName: /usr/lib/python3.11/lib2to3/pgen2/pgen.py
+SPDXID: SPDXRef-python3-lib2to3_file_144
+FileChecksum: 628046e567729b9d0c2ec148263cdb8d49e2db09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_144
+
+
+FileName: /usr/lib/python3.11/lib2to3/pgen2/token.py
+SPDXID: SPDXRef-python3-lib2to3_file_145
+FileChecksum: db7ff4b207beccd7a6f4d8f1e76bdcfcf05f57dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_145
+
+
+FileName: /usr/lib/python3.11/lib2to3/pgen2/tokenize.py
+SPDXID: SPDXRef-python3-lib2to3_file_146
+FileChecksum: fc4439e167187392a39ba31a924db75f2c226cdd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_146
+
+
+FileName: /usr/lib/python3.11/lib2to3/pygram.py
+SPDXID: SPDXRef-python3-lib2to3_file_147
+FileChecksum: ebceec7515f0c0fba92893563dc807991ad738e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_147
+
+
+FileName: /usr/lib/python3.11/lib2to3/pytree.py
+SPDXID: SPDXRef-python3-lib2to3_file_148
+FileChecksum: 8e79b98a7349027ea044d48e883452e59da9c455
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_148
+
+
+FileName: /usr/lib/python3.11/lib2to3/refactor.py
+SPDXID: SPDXRef-python3-lib2to3_file_149
+FileChecksum: 4187bc31a5e9fb68a028fe8a7753a128a1666ff2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_149
+
+
+FileName: /usr/share/doc/python3-lib2to3/changelog.Debian.gz
+SPDXID: SPDXRef-python3-lib2to3_file_150
+FileChecksum: 5bec6fcba78e12897904dd3b5b51506b0eccae8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_150
+
+
+FileName: /usr/share/doc/python3-lib2to3/copyright
+SPDXID: SPDXRef-python3-lib2to3_file_151
+FileChecksum: a733b9f00e163522d83a99fb3ab0dbab9fba203b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_151
+
+
+FileName: /usr/share/lintian/overrides/python3-lib2to3
+SPDXID: SPDXRef-python3-lib2to3_file_152
+FileChecksum: f29ef85fe361b21899f314d3d01e3b4aa6df04b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-lib2to3 CONTAINS SPDXRef-python3-lib2to3_file_152
+
+
+## Extracted License
+

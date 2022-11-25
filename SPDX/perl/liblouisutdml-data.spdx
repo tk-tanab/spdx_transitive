@@ -1,0 +1,36 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: liblouisutdml-data_2.10.0-4
+DocumentNamespace: http://spdx.org/spdxdocs/liblouisutdml-data_2.10.0-4-951aaa95-bd76-5ec0-a80c-1bd93145026e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-liblouisutdml-data
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: liblouisutdml-data
+PackageVersion: 2.10.0-4
+SPDXID: SPDXRef-liblouisutdml-data
+PackageHomePage: http://liblouis.org/
+PackageComment: <text>Braille UTDML translation library - data
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified
+ Tactile Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains runtime data.</text>
+
+
+## File
+
+## Extracted License
+

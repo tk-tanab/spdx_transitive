@@ -1,0 +1,35 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: lsb-base_11.1.0ubuntu4
+DocumentNamespace: http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-8991c034-6cdd-58a6-af52-7e140f7f9461
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lsb-base
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: lsb-base
+PackageVersion: 11.1.0ubuntu4
+SPDXID: SPDXRef-lsb-base
+PackageHomePage: https://wiki.linuxfoundation.org/lsb/start
+PackageComment: <text>Linux Standard Base init script functionality
+ The Linux Standard Base (http://www.linuxbase.org/) is a standard
+ core system that third-party applications written for Linux can
+ depend upon.
+ .
+ This package only includes the init-functions shell library, which
+ may be used by other packages' initialization scripts for console
+ logging and other purposes.</text>
+
+
+## File
+
+## Extracted License
+

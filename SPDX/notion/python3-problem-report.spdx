@@ -1,0 +1,65 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-problem-report_2.20.11-0ubuntu82.1-1421d71f-25d6-551a-9127-53ff44922d3b
+DocumentName: python3-problem-report_2.20.11-0ubuntu82.1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-problem-report
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:09:25Z
+
+
+## Package
+
+PackageName: python3-problem-report
+PackageVersion: 2.20.11-0ubuntu82.1
+SPDXID: SPDXRef-python3-problem-report
+PackageVerificationCode: edc357ef7a5e01fd9ed4381c85f66a0e61e9ef47
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://wiki.ubuntu.com/Apport
+PackageComment: <text>Python 3 library to handle problem reports
+ This Python library provides an interface for creating, modifying,
+ and accessing standardized problem reports for program and kernel
+ crashes and packaging bugs.
+ .
+ These problem reports use standard Debian control format syntax
+ (RFC822).</text>
+
+
+## File
+
+FileName: /usr/lib/python3/dist-packages/problem_report.py
+SPDXID: SPDXRef-python3-problem-report_file_0
+FileChecksum: 7df4f27338f7ec74240033c0fcc37c73701b504c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-problem-report CONTAINS SPDXRef-python3-problem-report_file_0
+
+
+FileName: /usr/share/doc/python3-problem-report/changelog.Debian.gz
+SPDXID: SPDXRef-python3-problem-report_file_1
+FileChecksum: 624b27ecf9203ae5cdfdde9f62b04e43e11e62db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-problem-report CONTAINS SPDXRef-python3-problem-report_file_1
+
+
+FileName: /usr/share/doc/python3-problem-report/copyright
+SPDXID: SPDXRef-python3-problem-report_file_2
+FileChecksum: 8595a0622c4215e376e85c6e862907be030b82e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-problem-report CONTAINS SPDXRef-python3-problem-report_file_2
+
+
+## Extracted License
+

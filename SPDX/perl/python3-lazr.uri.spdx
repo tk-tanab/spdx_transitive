@@ -1,0 +1,38 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-lazr.uri_1.0.6-2
+DocumentNamespace: http://spdx.org/spdxdocs/python3-lazr.uri_1.0.6-2-9ef31639-4c67-5aba-93b7-b69659d5c3b9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-lazr.uri
+ExternalDocumentRef: DocumentRef-python3-importlib-metadata http://spdx.org/spdxdocs/python3-importlib-metadata_4.6.4-1-83200e34-f127-5781-98a6-e448d581fa35 SHA1: 6fd552b30185698789275d6030eba3ec049dfa42
+ExternalDocumentRef: DocumentRef-python3-pkg-resources http://spdx.org/spdxdocs/python3-pkg-resources_59.6.0-1.2-c1290c91-569b-5eb0-9733-8dd5d963a2fc SHA1: 55fbd14aa2c538d7779be8bad2902fc5eca3c485
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-lazr.uri
+PackageVersion: 1.0.6-2
+SPDXID: SPDXRef-python3-lazr.uri
+PackageHomePage: https://launchpad.net/lazr.uri
+PackageComment: <text>library for parsing, manipulating, and generating URIs
+ A self-contained, easily reusable, Python library for parsing,
+ manipulating and generating URIs. With it you can extract parts
+ of a URL, compare URIs to see if one contains another, search for
+ URIs in text, and many other things.
+ .
+ This package contains the library for Python 3.x.</text>
+Relationship: SPDXRef-python3-lazr.uri DEPENDS_ON DocumentRef-python3-importlib-metadata:SPDXRef-python3-importlib-metadata
+Relationship: SPDXRef-python3-lazr.uri DEPENDS_ON DocumentRef-python3-pkg-resources:SPDXRef-python3-pkg-resources
+
+
+## File
+
+## Extracted License
+

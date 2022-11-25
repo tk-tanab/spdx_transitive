@@ -1,0 +1,65 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/gir1.2-gdesktopenums-3.0_42.0-1ubuntu1-9ea3292d-3728-5f37-8bd2-8ddff90f754f
+DocumentName: gir1.2-gdesktopenums-3.0_42.0-1ubuntu1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gir1.2-gdesktopenums-3.0
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:09:17Z
+
+
+## Package
+
+PackageName: gir1.2-gdesktopenums-3.0
+PackageVersion: 42.0-1ubuntu1
+SPDXID: SPDXRef-gir1.2-gdesktopenums-3.0
+PackageVerificationCode: 52e228d1a523bb1db4c92807a7f7fc6ce2f518da
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://www.gnome.org/
+PackageComment: <text>GObject introspection for GSettings desktop-wide schemas
+ gsettings-desktop-schemas contains a collection of GSettings schemas for
+ settings shared by various components of a desktop.
+ .
+ This package contains introspection data for GSettings desktop-wide schemas. It
+ can be used by packages using the GIRepository format to generate
+ dynamic bindings.</text>
+
+
+## File
+
+FileName: /usr/lib/x86_64-linux-gnu/girepository-1.0/GDesktopEnums-3.0.typelib
+SPDXID: SPDXRef-gir1.2-gdesktopenums-3.0_file_0
+FileChecksum: f811cf54ef04af9e3dc6fec30c950f99401c6bbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gir1.2-gdesktopenums-3.0 CONTAINS SPDXRef-gir1.2-gdesktopenums-3.0_file_0
+
+
+FileName: /usr/share/doc/gir1.2-gdesktopenums-3.0/changelog.Debian.gz
+SPDXID: SPDXRef-gir1.2-gdesktopenums-3.0_file_1
+FileChecksum: 0488d693cfb0496354ceb5ba8302cb7e48cb9920
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gir1.2-gdesktopenums-3.0 CONTAINS SPDXRef-gir1.2-gdesktopenums-3.0_file_1
+
+
+FileName: /usr/share/doc/gir1.2-gdesktopenums-3.0/copyright
+SPDXID: SPDXRef-gir1.2-gdesktopenums-3.0_file_2
+FileChecksum: 36978f0041fe1adebf103dd3f40638770c0e50e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gir1.2-gdesktopenums-3.0 CONTAINS SPDXRef-gir1.2-gdesktopenums-3.0_file_2
+
+
+## Extracted License
+

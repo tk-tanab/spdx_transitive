@@ -1,0 +1,34 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libaudit-common_1:3.0.7-1build1
+DocumentNamespace: http://spdx.org/spdxdocs/libaudit-common_1:3.0.7-1build1-e3834399-a38d-516e-845c-e35045b472db
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libaudit-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libaudit-common
+PackageVersion: 1:3.0.7-1build1
+SPDXID: SPDXRef-libaudit-common
+PackageHomePage: https://people.redhat.com/sgrubb/audit/
+PackageComment: <text>Dynamic library for security auditing - common files
+ The audit-libs package contains the dynamic libraries needed for
+ applications to use the audit framework. It is used to monitor systems for
+ security related events.
+ .
+ This package contains the libaudit.conf configuration file and the associated
+ manpage.</text>
+
+
+## File
+
+## Extracted License
+

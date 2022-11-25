@@ -1,0 +1,59 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: mime-support_3.66
+DocumentNamespace: http://spdx.org/spdxdocs/mime-support_3.66-7431a714-56cd-5eaa-8aed-a3f01d70021b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mime-support
+ExternalDocumentRef: DocumentRef-media-types http://spdx.org/spdxdocs/media-types_7.0.0-1b31c490-227c-5fb0-b214-b51ce86d0130 SHA1: 66b5046922cc9a7e2394a3c6dfaab6cbfba3038d
+ExternalDocumentRef: DocumentRef-media-types http://spdx.org/spdxdocs/media-types_7.0.0-1b31c490-227c-5fb0-b214-b51ce86d0130 SHA1: 66b5046922cc9a7e2394a3c6dfaab6cbfba3038d
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: mime-support
+PackageVersion: 3.66
+SPDXID: SPDXRef-mime-support
+PackageComment: <text>transitional package
+ This is a transitional package. It will be possible to remove it
+ safely once its dependency chain has adjusted to depend on mailcap
+ or media-types directly.</text>
+Relationship: SPDXRef-mime-support DEPENDS_ON SPDXRef-mailcap
+Relationship: SPDXRef-mime-support DEPENDS_ON DocumentRef-media-types:SPDXRef-media-types
+
+
+PackageName: mailcap
+PackageVersion: 3.70+nmu1ubuntu1
+SPDXID: SPDXRef-mailcap
+PackageComment: <text>Debian's mailcap system, and support programs
+ The mailcap system associates media types with programs that can handle them,
+ using system and user configuration files.  A file's media type is determined
+ by its extension or by running the "file" command if available.
+ .
+ Other packages register their programs as viewers/editors/composers/etc by
+ placing mailcap entry files or FreeDesktop menu entries in predetermined
+ directories monitored by this package's dpkg triggers.
+ .
+ This package provides a "run-mailcap" program to open arbitrary files, and in
+ addition the "see", "edit", "compose", and "print" aliases to display, alter,
+ create, and print (respectively).
+ .
+ This package also provides the "debian-view" utility to handle Debian packages
+ interactively.</text>
+Relationship: SPDXRef-mailcap DEPENDS_ON SPDXRef-perl
+Relationship: SPDXRef-mailcap DEPENDS_ON DocumentRef-media-types:SPDXRef-media-types
+Relationship: SPDXRef-mailcap DEPENDS_ON SPDXRef-bzip2
+Relationship: SPDXRef-mailcap DEPENDS_ON SPDXRef-file
+Relationship: SPDXRef-mailcap DEPENDS_ON SPDXRef-xz-utils
+
+
+## File
+
+## Extracted License
+

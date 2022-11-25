@@ -1,0 +1,165 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/liberror-perl_0.17029-1-544c295a-3fba-5fdd-a926-7bc9bd4e716b
+DocumentName: liberror-perl_0.17029-1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-liberror-perl
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:10:09Z
+
+
+## Package
+
+PackageName: liberror-perl
+PackageVersion: 0.17029-1
+SPDXID: SPDXRef-liberror-perl
+PackageVerificationCode: 03bd7838378e8e3f67c2fdb3abde64f964fcdedd
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://metacpan.org/release/Error
+PackageComment: <text>Perl module for error/exception handling in an OO-ish way
+ The Error module provides two interfaces.  Firstly "Error" provides a
+ procedural interface to exception handling. Secondly "Error" is a base class
+ for errors/exceptions that can either be thrown, for subsequent catch, or can
+ simply be recorded.
+ .
+ Errors in the class "Error" should not be thrown directly, but the user
+ should throw errors from a sub-class of "Error".
+ .
+ Warning: Using the "Error" module is no longer recommended due to the
+ black-magical nature of its syntactic sugar, which often tends to break. Its
+ maintainers have stopped actively writing code that uses it, and discourage
+ people from doing so.
+ .
+ Recommended alternatives are Exception::Class (libexception-class-perl),
+ Error::Exception (not packaged), TryCatch (libtrycatch-perl), and Try::Tiny
+ (libtry-tiny-perl).</text>
+
+
+## File
+
+FileName: /usr/share/doc/liberror-perl/changelog.Debian.gz
+SPDXID: SPDXRef-liberror-perl_file_0
+FileChecksum: 8d2d1c8c030081162569be03b0ed8b6c89e60b8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_0
+
+
+FileName: /usr/share/doc/liberror-perl/copyright
+SPDXID: SPDXRef-liberror-perl_file_1
+FileChecksum: 5ab525f78b6ebc403d64ed42f4d04621a29a6bdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_1
+
+
+FileName: /usr/share/doc/liberror-perl/examples/example.pl
+SPDXID: SPDXRef-liberror-perl_file_2
+FileChecksum: f82312ad46d09a2a2f22543f17635fd9fb464049
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_2
+
+
+FileName: /usr/share/doc/liberror-perl/examples/next-in-loop/Error.pm-eval.pl
+SPDXID: SPDXRef-liberror-perl_file_3
+FileChecksum: 9a6c51b9dc5e45ed692649bca834e43b1e775f06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_3
+
+
+FileName: /usr/share/doc/liberror-perl/examples/next-in-loop/Error.pm-next-label.pl
+SPDXID: SPDXRef-liberror-perl_file_4
+FileChecksum: 5096e59df81dd1b603dadddc1421208ec1174e1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_4
+
+
+FileName: /usr/share/doc/liberror-perl/examples/next-in-loop/Error.pm-next-out-of-catch.pl
+SPDXID: SPDXRef-liberror-perl_file_5
+FileChecksum: d62ccf60e0fdb6d2a8dd1dd183acbf3289aff0f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_5
+
+
+FileName: /usr/share/doc/liberror-perl/examples/next-in-loop/Error.pm-next.pl
+SPDXID: SPDXRef-liberror-perl_file_6
+FileChecksum: 2ba21a2bd9fa3f82ee59cca80f53c1c403d787c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_6
+
+
+FileName: /usr/share/doc/liberror-perl/examples/next-in-loop/README
+SPDXID: SPDXRef-liberror-perl_file_7
+FileChecksum: 706f5e3fdcf6aba31f938973d0ca78ba11d25341
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_7
+
+
+FileName: /usr/share/doc/liberror-perl/examples/warndie.pl
+SPDXID: SPDXRef-liberror-perl_file_8
+FileChecksum: 1a766edd6d63ee8168ae4b8aebb305c8a1d59a0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_8
+
+
+FileName: /usr/share/man/man3/Error.3pm.gz
+SPDXID: SPDXRef-liberror-perl_file_9
+FileChecksum: 019abdb89f015bd967e369023eb6fb386cac19e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_9
+
+
+FileName: /usr/share/man/man3/Error::Simple.3pm.gz
+SPDXID: SPDXRef-liberror-perl_file_10
+FileChecksum: 421ca36dc307e2629897c2f6a3b1b133af656959
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_10
+
+
+FileName: /usr/share/perl5/Error/Simple.pm
+SPDXID: SPDXRef-liberror-perl_file_11
+FileChecksum: a0f50af90c7089367bf4b40e6f6dc5a598bf1666
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_11
+
+
+FileName: /usr/share/perl5/Error.pm
+SPDXID: SPDXRef-liberror-perl_file_12
+FileChecksum: b6f65db0ba2788b3d30c921d0693d0d6c24c1c41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liberror-perl CONTAINS SPDXRef-liberror-perl_file_12
+
+
+## Extracted License
+

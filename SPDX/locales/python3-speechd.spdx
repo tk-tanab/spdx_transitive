@@ -1,0 +1,42 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-speechd_0.11.1-1ubuntu2
+DocumentNamespace: http://spdx.org/spdxdocs/python3-speechd_0.11.1-1ubuntu2-3d2380ee-cd53-558d-872b-84ac53a3692e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-speechd
+ExternalDocumentRef: DocumentRef-python3-xdg http://spdx.org/spdxdocs/python3-xdg_0.27-2-1cb763b1-d127-5b50-879a-dcc3f89cea86 SHA1: a101a6ec53ff7b51cd6a6450672818560140039b
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-speechd
+PackageVersion: 0.11.1-1ubuntu2
+SPDXID: SPDXRef-python3-speechd
+PackageHomePage: http://devel.freebsoft.org/speechd
+PackageComment: <text>Python interface to Speech Dispatcher
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a Python library for communication with Speech
+ Dispatcher.</text>
+Relationship: SPDXRef-python3-speechd DEPENDS_ON DocumentRef-python3-xdg:SPDXRef-python3-xdg
+
+
+## File
+
+## Extracted License
+

@@ -54,7 +54,7 @@ def add_vrp_dict(vrp_names: str, p_name: str, vrp_dict: dict[str, list[list[str]
             vrp_dict[vrp_name_split[0]] = ([[p_name] + vrp_name_split[1:]])
 
 if __name__ == "__main__":
-    package_name = "xxd"
+    package_name = "notion"
     auth_name = "Taketo"
 
     pv_dict: dict[str, str] = {} # {p_name: version}
@@ -76,8 +76,8 @@ if __name__ == "__main__":
         sys.exit()
 
     # 実行
-    deb_class = deb_spdx.Deb_Spdx()
-    deb_class.run(package_name, auth_name, [])
+    deb_class = deb_spdx.Deb_Spdx(pv_dict, vrp_dict, package_name, auth_name, [])
+    deb_class.run()
 
     os.chdir(cwd)
 

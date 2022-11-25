@@ -1,0 +1,38 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libpipewire-0.3-common_0.3.48-1ubuntu2
+DocumentNamespace: http://spdx.org/spdxdocs/libpipewire-0.3-common_0.3.48-1ubuntu2-f35e4b60-32ae-54bd-91a0-5e67e84002f5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpipewire-0.3-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libpipewire-0.3-common
+PackageVersion: 0.3.48-1ubuntu2
+SPDXID: SPDXRef-libpipewire-0.3-common
+PackageHomePage: https://pipewire.org/
+PackageComment: <text>libraries for the PipeWire multimedia server - common files
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of video (such as from a capture devices or
+    application provided streams) and multiplexing this with clients.
+  - Accessing sources of video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package is needed for the runtime libraries to display messages in
+ languages other than English.</text>
+
+
+## File
+
+## Extracted License
+

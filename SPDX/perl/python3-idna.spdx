@@ -1,0 +1,38 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-idna_3.3-1
+DocumentNamespace: http://spdx.org/spdxdocs/python3-idna_3.3-1-92dad57c-b237-5d89-8d81-c3b4f656a125
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-idna
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-idna
+PackageVersion: 3.3-1
+SPDXID: SPDXRef-python3-idna
+PackageHomePage: https://github.com/kjd/idna
+PackageComment: <text>Python IDNA2008 (RFC 5891) handling (Python 3)
+ A library to support the Internationalised Domain Names in Applications (IDNA)
+ protocol as specified in RFC 5891. This version of the protocol is often
+ referred to as “IDNA2008” and can produce different results from the earlier
+ standard from 2003.
+ .
+ The library is also intended to act as a suitable drop-in replacement for the
+ “encodings.idna” module that comes with the Python standard library but
+ currently only supports the older 2003 specification.
+ .
+ This package contains the module for Python 3.</text>
+
+
+## File
+
+## Extracted License
+

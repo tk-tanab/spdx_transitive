@@ -1,0 +1,38 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libgspell-1-common_1.9.1-4
+DocumentNamespace: http://spdx.org/spdxdocs/libgspell-1-common_1.9.1-4-5486adf4-4282-5c54-aa19-2b16c748acb0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgspell-1-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libgspell-1-common
+PackageVersion: 1.9.1-4
+SPDXID: SPDXRef-libgspell-1-common
+PackageHomePage: https://wiki.gnome.org/Projects/gspell
+PackageComment: <text>libgspell architecture-independent files
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+ .
+ This package contains the architecture independent files
+ like translation of messages.</text>
+
+
+## File
+
+## Extracted License
+

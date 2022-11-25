@@ -1,0 +1,39 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: git-man_1:2.34.1-1ubuntu1.5
+DocumentNamespace: http://spdx.org/spdxdocs/git-man_1:2.34.1-1ubuntu1.5-505b4979-244a-51f0-b3a8-cc2e6d7879a7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-git-man
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: git-man
+PackageVersion: 1:2.34.1-1ubuntu1.5
+SPDXID: SPDXRef-git-man
+PackageHomePage: https://git-scm.com/
+PackageComment: <text>fast, scalable, distributed revision control system (manual pages)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides reference documentation for use by the 'man'
+ utility and the 'git help' command.</text>
+
+
+## File
+
+## Extracted License
+

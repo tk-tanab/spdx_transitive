@@ -1,0 +1,92 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-distro-info_1.1build1-38a4e41c-7f39-51f3-9f52-abed9a1042c3
+DocumentName: python3-distro-info_1.1build1
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-distro-info-data http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-78ba860a-9241-5f39-999c-572dc4dbc544 SHA1: 8720c95bd78c9db3050ffb61a9287a3562936a68
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-distro-info
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:09:30Z
+
+
+## Package
+
+PackageName: python3-distro-info
+PackageVersion: 1.1build1
+SPDXID: SPDXRef-python3-distro-info
+PackageVerificationCode: 160841089d79e089dc04677765fdf21ee107b05e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageComment: <text>information about distributions' releases (Python 3 module)
+ Information about all releases of Debian and Ubuntu.
+ .
+ This package contains a Python 3 module for parsing the data in
+ distro-info-data. There is also a command line interface in the distro-info
+ package.</text>
+Relationship: SPDXRef-python3-distro-info DEPENDS_ON DocumentRef-distro-info-data:SPDXRef-distro-info-data
+
+
+## File
+
+FileName: /usr/lib/python3/dist-packages/distro_info-1.1build1.egg-info/PKG-INFO
+SPDXID: SPDXRef-python3-distro-info_file_0
+FileChecksum: 3b2d39820df1b1dc68bcac45c53ff2868c116df7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-distro-info CONTAINS SPDXRef-python3-distro-info_file_0
+
+
+FileName: /usr/lib/python3/dist-packages/distro_info-1.1build1.egg-info/dependency_links.txt
+SPDXID: SPDXRef-python3-distro-info_file_1
+FileChecksum: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-distro-info CONTAINS SPDXRef-python3-distro-info_file_1
+
+
+FileName: /usr/lib/python3/dist-packages/distro_info-1.1build1.egg-info/top_level.txt
+SPDXID: SPDXRef-python3-distro-info_file_2
+FileChecksum: e71e50e5913e1d516a9acbf177bfbd2f3f20d460
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-distro-info CONTAINS SPDXRef-python3-distro-info_file_2
+
+
+FileName: /usr/lib/python3/dist-packages/distro_info.py
+SPDXID: SPDXRef-python3-distro-info_file_3
+FileChecksum: ae9e858ef92d501c4d2da0e13ad222f2217fc7d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-distro-info CONTAINS SPDXRef-python3-distro-info_file_3
+
+
+FileName: /usr/share/doc/python3-distro-info/changelog.gz
+SPDXID: SPDXRef-python3-distro-info_file_4
+FileChecksum: 2a8bbeba5286101a7a45cb7878b72ce8c719fe6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-distro-info CONTAINS SPDXRef-python3-distro-info_file_4
+
+
+FileName: /usr/share/doc/python3-distro-info/copyright
+SPDXID: SPDXRef-python3-distro-info_file_5
+FileChecksum: c3a88eb121aba74da1cb758fdd79e1e80d024ea5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-distro-info CONTAINS SPDXRef-python3-distro-info_file_5
+
+
+## Extracted License
+

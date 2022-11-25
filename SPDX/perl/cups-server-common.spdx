@@ -1,0 +1,34 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: cups-server-common_2.4.1op1-1ubuntu4.1
+DocumentNamespace: http://spdx.org/spdxdocs/cups-server-common_2.4.1op1-1ubuntu4.1-4a2dcead-ca0b-5438-aee0-f6bae80f4207
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cups-server-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: cups-server-common
+PackageVersion: 2.4.1op1-1ubuntu4.1
+SPDXID: SPDXRef-cups-server-common
+PackageHomePage: https://github.com/OpenPrinting/cups/
+PackageComment: <text>Common UNIX Printing System(tm) - server common files
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides common files for CUPS server.</text>
+
+
+## File
+
+## Extracted License
+

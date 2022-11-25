@@ -1,0 +1,35 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: iso-codes_4.9.0-1
+DocumentNamespace: http://spdx.org/spdxdocs/iso-codes_4.9.0-1-1eb56693-8027-5199-b90e-d7a9b62f09f4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-iso-codes
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: iso-codes
+PackageVersion: 4.9.0-1
+SPDXID: SPDXRef-iso-codes
+PackageHomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+PackageComment: <text>ISO language, territory, currency, script codes and their translations
+ This package provides the ISO 639, ISO 639-3, and ISO 639-5 language
+ code lists, the ISO 4217 currency code list, the ISO 3166 territory
+ code list, the ISO 3166-2 sub-territory list, and the ISO 15924
+ script code list as JSON files.
+ .
+ More importantly, it also provides their translations to be used by
+ other programs.</text>
+
+
+## File
+
+## Extracted License
+

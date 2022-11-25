@@ -1,0 +1,52 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: docbook-xml_4.5-11
+DocumentNamespace: http://spdx.org/spdxdocs/docbook-xml_4.5-11-db010489-f4fc-5505-9bdb-50c0af2f1dbd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-docbook-xml
+ExternalDocumentRef: DocumentRef-sgml-data http://spdx.org/spdxdocs/sgml-data_2.0.11+nmu1-39aaeb43-14c4-5986-b1f6-e454644989d5 SHA1: 75e548f94dfe5e1db1e6ac85b2d9d36461fa2c10
+ExternalDocumentRef: DocumentRef-sgml-data http://spdx.org/spdxdocs/sgml-data_2.0.11+nmu1-39aaeb43-14c4-5986-b1f6-e454644989d5 SHA1: 75e548f94dfe5e1db1e6ac85b2d9d36461fa2c10
+ExternalDocumentRef: DocumentRef-sgml-data http://spdx.org/spdxdocs/sgml-data_2.0.11+nmu1-39aaeb43-14c4-5986-b1f6-e454644989d5 SHA1: 75e548f94dfe5e1db1e6ac85b2d9d36461fa2c10
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: docbook-xml
+PackageVersion: 4.5-11
+SPDXID: SPDXRef-docbook-xml
+PackageHomePage: https://docbook.org/schemas/4x.html
+PackageComment: <text>standard XML documentation system for software and systems
+ DocBook is an XML document type definition (DTD).  That is, it
+ contains the "DocBook" document structure.  This is used by authors
+ or editors writing documents in the DocBook XML format.  DocBook was
+ designed for books, articles, or reference documentation about
+ technical matters or software.  It has emerged as an open, standard
+ DTD in the software industry, and is the documentation system of
+ choice for many free software projects.
+ .
+ This package contains the XML DTD for DocBook, which describes the
+ formal structure for documents following this format.  If you wish to
+ author DocBook documents using SGML rather than XML, use the
+ 'docbook' package.  You will need other packages in order to edit
+ (psgml), validate (opensp, libxml2-utils) or format (docbook-xsl,
+ docbook-dsssl) DocBook documents.
+ .
+ This package ships with the latest DocBook 4.5 XML DTD, as well as a
+ selected set of legacy DTDs for use with older documents, including
+ 4.0, 4.1.2, 4.2, 4.3 and 4.4.</text>
+Relationship: SPDXRef-docbook-xml DEPENDS_ON DocumentRef-sgml-data:SPDXRef-sgml-data
+Relationship: SPDXRef-docbook-xml DEPENDS_ON DocumentRef-sgml-data:SPDXRef-sgml-data
+Relationship: SPDXRef-docbook-xml DEPENDS_ON DocumentRef-sgml-data:SPDXRef-sgml-data
+
+
+## File
+
+## Extracted License
+

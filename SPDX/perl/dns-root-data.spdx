@@ -1,0 +1,34 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: dns-root-data_2021011101
+DocumentNamespace: http://spdx.org/spdxdocs/dns-root-data_2021011101-48d358d1-2bde-5008-8089-fc38aea45cbb
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dns-root-data
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: dns-root-data
+PackageVersion: 2021011101
+SPDXID: SPDXRef-dns-root-data
+PackageHomePage: https://data.iana.org/root-anchors/
+PackageComment: <text>DNS root data including root zone and DNSSEC key
+ This package contains various root zone related data as published
+ by IANA to be used by various DNS software as a common source
+ of DNS root zone data, namely:
+ .
+  * Root Hints (root.hints)
+  * Root Trust Anchors (root.key, root.ds)</text>
+
+
+## File
+
+## Extracted License
+

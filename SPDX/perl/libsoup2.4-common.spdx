@@ -1,0 +1,33 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libsoup2.4-common_2.74.2-3
+DocumentNamespace: http://spdx.org/spdxdocs/libsoup2.4-common_2.74.2-3-2d177f55-7212-5d48-934c-e4c37fb1c96d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsoup2.4-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libsoup2.4-common
+PackageVersion: 2.74.2-3
+SPDXID: SPDXRef-libsoup2.4-common
+PackageHomePage: https://wiki.gnome.org/Projects/libsoup
+PackageComment: <text>HTTP library implementation in C -- Common files
+ It was originally part of a SOAP (Simple Object Access Protocol)
+ implementation called Soup, but the SOAP and non-SOAP parts have now been
+ split into separate packages.
+ .
+ This package contains architecture-independent files such as translations.</text>
+
+
+## File
+
+## Extracted License
+

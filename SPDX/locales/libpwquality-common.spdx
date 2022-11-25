@@ -1,0 +1,34 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libpwquality-common_1.4.4-1build2
+DocumentNamespace: http://spdx.org/spdxdocs/libpwquality-common_1.4.4-1build2-091ae9ab-1248-55bd-8e06-002878ee8e1a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpwquality-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libpwquality-common
+PackageVersion: 1.4.4-1build2
+SPDXID: SPDXRef-libpwquality-common
+PackageHomePage: https://github.com/libpwquality/libpwquality
+PackageComment: <text>library for password quality checking and generation (data files)
+ libpwquality's purpose is to provide common functions for password
+ quality checking and also scoring them based on their apparent randomness. The
+ library also provides a function for generating random passwords with good
+ pronounceability.
+ .
+ This package contains the configuration file and man page for libpwquality.</text>
+
+
+## File
+
+## Extracted License
+

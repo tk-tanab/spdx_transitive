@@ -1,0 +1,35 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: wireless-regdb_2022.06.06-0ubuntu1~22.04.1
+DocumentNamespace: http://spdx.org/spdxdocs/wireless-regdb_2022.06.06-0ubuntu1~22.04.1-c6a1866e-800b-5a7c-9bd6-5d67c2608b80
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-wireless-regdb
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: wireless-regdb
+PackageVersion: 2022.06.06-0ubuntu1~22.04.1
+SPDXID: SPDXRef-wireless-regdb
+PackageHomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb
+PackageComment: <text>wireless regulatory database
+ This package contains the wireless regulatory database used by the Central
+ Regulatory Database Agent (CRDA) to configure wireless devices to operate
+ within the radio spectrum allowed in the local jurisdiction.
+ .
+ This regulatory information is provided with no warranty either expressed or
+ implied. Only Linux drivers which use cfg80211 framework can make use of the
+ regulatory database and CRDA.</text>
+
+
+## File
+
+## Extracted License
+

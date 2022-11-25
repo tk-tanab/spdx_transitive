@@ -1,0 +1,32 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libklibc_2.0.10-4
+DocumentNamespace: http://spdx.org/spdxdocs/libklibc_2.0.10-4-93f7c40b-7dda-523e-a50c-ebbde53fe67c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libklibc
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libklibc
+PackageVersion: 2.0.10-4
+SPDXID: SPDXRef-libklibc
+PackageHomePage: https://git.kernel.org/cgit/libs/klibc/klibc.git
+PackageComment: <text>minimal libc subset for use with initramfs
+ klibc is intended to be a minimalistic libc subset for use with
+ initramfs.  It is deliberately written for small size, minimal
+ entanglement, and portability, not speed.  It is definitely a work in
+ progress, and a lot of things are still missing.</text>
+
+
+## File
+
+## Extracted License
+

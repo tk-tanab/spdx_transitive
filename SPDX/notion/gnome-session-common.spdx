@@ -1,0 +1,263 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-session-common_42.0-1ubuntu2-63717da7-c558-5a0e-9d4e-0b48b0ee2d14
+DocumentName: gnome-session-common_42.0-1ubuntu2
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-session-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:09:22Z
+
+
+## Package
+
+PackageName: gnome-session-common
+PackageVersion: 42.0-1ubuntu2
+SPDXID: SPDXRef-gnome-session-common
+PackageVerificationCode: ee4455eec1f32a0ea452a134b095787563aed40b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageComment: <text>GNOME Session Manager - common files
+ The GNOME Session Manager is in charge of starting the core components
+ of the GNOME desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the translations, data files and startup scripts
+ which are common to the GNOME and GNOME fallback sessions.</text>
+
+
+## File
+
+FileName: /etc/X11/Xsession.d/55gnome-session_gnomerc
+SPDXID: SPDXRef-gnome-session-common_file_0
+FileChecksum: 67cce920e44762c385281f93f8b7965ad0dd96db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_0
+
+
+FileName: /etc/profile.d/gnome-session_gnomerc.sh
+SPDXID: SPDXRef-gnome-session-common_file_1
+FileChecksum: dd3badd859714e64ddcd499c8ca7d075c2c19012
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_1
+
+
+FileName: /etc/profile.d/xdg_dirs_desktop_session.sh
+SPDXID: SPDXRef-gnome-session-common_file_2
+FileChecksum: 7f984b766238224d88800b9af482536f1eadc659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_2
+
+
+FileName: /usr/lib/systemd/user/gnome-launched-.scope.d/override.conf
+SPDXID: SPDXRef-gnome-session-common_file_3
+FileChecksum: 93a93ce3147f06ccd3635b7c1866918b9aa0e0b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_3
+
+
+FileName: /usr/lib/systemd/user/gnome-session-failed.service
+SPDXID: SPDXRef-gnome-session-common_file_4
+FileChecksum: 57402ddded3e52b9d62e373973d59eb817872bc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_4
+
+
+FileName: /usr/lib/systemd/user/gnome-session-failed.target
+SPDXID: SPDXRef-gnome-session-common_file_5
+FileChecksum: d42a053e84bd5d6b74f53ba5cca38ac82c8a39c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_5
+
+
+FileName: /usr/lib/systemd/user/gnome-session-initialized.target
+SPDXID: SPDXRef-gnome-session-common_file_6
+FileChecksum: c59f6f72cb19fdad9d4fad0b5c05f996e9b3f676
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_6
+
+
+FileName: /usr/lib/systemd/user/gnome-session-manager.target
+SPDXID: SPDXRef-gnome-session-common_file_7
+FileChecksum: 68c935d4d5ed7fb566da97627b5fdd1ed7b76687
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_7
+
+
+FileName: /usr/lib/systemd/user/gnome-session-manager@.service
+SPDXID: SPDXRef-gnome-session-common_file_8
+FileChecksum: 4ce1f24eba3c88aa741b8820fc2f26d472a06ccf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_8
+
+
+FileName: /usr/lib/systemd/user/gnome-session-monitor.service
+SPDXID: SPDXRef-gnome-session-common_file_9
+FileChecksum: fba9edb86dc03afc16a91b4d65d50feaaea4096f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_9
+
+
+FileName: /usr/lib/systemd/user/gnome-session-pre.target
+SPDXID: SPDXRef-gnome-session-common_file_10
+FileChecksum: 233200692f3246cba4d248e913c62d714c1e4a28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_10
+
+
+FileName: /usr/lib/systemd/user/gnome-session-restart-dbus.service
+SPDXID: SPDXRef-gnome-session-common_file_11
+FileChecksum: 925dcd38d797da79ec99f0ac40775cac308d1127
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_11
+
+
+FileName: /usr/lib/systemd/user/gnome-session-shutdown.target
+SPDXID: SPDXRef-gnome-session-common_file_12
+FileChecksum: 5dcdd2cc764d59916bd924f21abfb51403b3c442
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_12
+
+
+FileName: /usr/lib/systemd/user/gnome-session-signal-init.service
+SPDXID: SPDXRef-gnome-session-common_file_13
+FileChecksum: 0bc2805d588a0c6368d23a62948b3fdea78da9cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_13
+
+
+FileName: /usr/lib/systemd/user/gnome-session-wayland.target
+SPDXID: SPDXRef-gnome-session-common_file_14
+FileChecksum: 6465b519c63dc220a4c23a3595715b88ece42909
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_14
+
+
+FileName: /usr/lib/systemd/user/gnome-session-wayland@.target
+SPDXID: SPDXRef-gnome-session-common_file_15
+FileChecksum: ba58a49bbdf44ca63a30bd34f225c515bcb8d6e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_15
+
+
+FileName: /usr/lib/systemd/user/gnome-session-x11-services-ready.target
+SPDXID: SPDXRef-gnome-session-common_file_16
+FileChecksum: e4f7177b6785cec5d2da64aa4129e68fb7fb10ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_16
+
+
+FileName: /usr/lib/systemd/user/gnome-session-x11-services.target
+SPDXID: SPDXRef-gnome-session-common_file_17
+FileChecksum: 2f28431b3441a940d177017b5b0ff719ee8e92a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_17
+
+
+FileName: /usr/lib/systemd/user/gnome-session-x11.target
+SPDXID: SPDXRef-gnome-session-common_file_18
+FileChecksum: 539d30ea6f6bb7280615c5a0ed00b0cd108be238
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_18
+
+
+FileName: /usr/lib/systemd/user/gnome-session-x11@.target
+SPDXID: SPDXRef-gnome-session-common_file_19
+FileChecksum: 793f3e104fb08c0b1739a349ca2a848332bd5a66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_19
+
+
+FileName: /usr/lib/systemd/user/gnome-session.target
+SPDXID: SPDXRef-gnome-session-common_file_20
+FileChecksum: cabd66c83d0ac2a06afcca00e5a305a6d8358479
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_20
+
+
+FileName: /usr/lib/systemd/user/gnome-session@.target
+SPDXID: SPDXRef-gnome-session-common_file_21
+FileChecksum: 0be0c433fe3d84bece1ee9c7f886d095bab30463
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_21
+
+
+FileName: /usr/share/applications/gnome-mimeapps.list
+SPDXID: SPDXRef-gnome-session-common_file_22
+FileChecksum: 12eb651f9c322181a94681bff3b4b3197f838d99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_22
+
+
+FileName: /usr/share/doc/gnome-session-common/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-session-common_file_23
+FileChecksum: 1f4062194c2e7b57152a71389b0ad13b38898727
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_23
+
+
+FileName: /usr/share/doc/gnome-session-common/copyright
+SPDXID: SPDXRef-gnome-session-common_file_24
+FileChecksum: 32e753a728e61c1399c1d0472b8f694eadedfe87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-session-common CONTAINS SPDXRef-gnome-session-common_file_24
+
+
+## Extracted License
+

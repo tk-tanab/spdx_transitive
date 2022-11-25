@@ -1,0 +1,1467 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-pkg-resources_59.6.0-1.2-b9f05cd8-abeb-5e7f-aa31-8329ade0fd98
+DocumentName: python3-pkg-resources_59.6.0-1.2
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-python3-distutils http://spdx.org/spdxdocs/python3-distutils_3.10.6-1~22.04-e6c66b34-dc3a-57a7-9b98-292d673cc576 SHA1: a68321a310979a86e6d12199985cc3d43bfdeccd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-pkg-resources
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:08:55Z
+
+
+## Package
+
+PackageName: python3-pkg-resources
+PackageVersion: 59.6.0-1.2
+SPDXID: SPDXRef-python3-pkg-resources
+PackageVerificationCode: b2894899d4fe6a1332d549577c04806447eb9465
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://pypi.python.org/pypi/setuptools
+PackageComment: <text>Package Discovery and Resource Access using pkg_resources
+ The pkg_resources module provides an API for Python libraries to
+ access their resource files, and for extensible applications and
+ frameworks to automatically discover plugins.  It also provides
+ runtime support for using C extensions that are inside zipfile-format
+ eggs, support for merging packages that have separately-distributed
+ modules or subpackages, and APIs for managing Python's current
+ "working set" of active packages.</text>
+Relationship: SPDXRef-python3-pkg-resources DEPENDS_ON SPDXRef-python3-setuptools
+
+
+PackageName: python3-setuptools
+PackageVersion: 59.6.0-1.2
+SPDXID: SPDXRef-python3-setuptools
+PackageVerificationCode: 6cf4754e41f52c9380219b615877f4be12419d4b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://pypi.python.org/pypi/setuptools
+PackageComment: <text>Python3 Distutils Enhancements
+ Extensions to the python-distutils for large or complex distributions.</text>
+Relationship: SPDXRef-python3-setuptools DEPENDS_ON SPDXRef-python3-pkg-resources
+Relationship: SPDXRef-python3-setuptools DEPENDS_ON DocumentRef-python3-distutils:SPDXRef-python3-distutils
+
+
+## File
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/__init__.py
+SPDXID: SPDXRef-python3-pkg-resources_file_0
+FileChecksum: 25a82fdd3531d866b01cc0a4a1890d78d97db680
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_0
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/__init__.py
+SPDXID: SPDXRef-python3-pkg-resources_file_1
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_1
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/appdirs.py
+SPDXID: SPDXRef-python3-pkg-resources_file_2
+FileChecksum: b2210670fd12e935f2e38eec166f62e389ee9c8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_2
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/__about__.py
+SPDXID: SPDXRef-python3-pkg-resources_file_3
+FileChecksum: 7bcf23eda6ad70d9df0793b6cc88b77dedb9a160
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_3
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/__init__.py
+SPDXID: SPDXRef-python3-pkg-resources_file_4
+FileChecksum: 9501323e7783213ab6c7c8e8fd05cd95d7a76ba1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_4
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/_manylinux.py
+SPDXID: SPDXRef-python3-pkg-resources_file_5
+FileChecksum: 0ff6c9ceb0819aef9d68cee59d7942fa0544661f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_5
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/_musllinux.py
+SPDXID: SPDXRef-python3-pkg-resources_file_6
+FileChecksum: c9ff7069ad7d69fc51c47fcd80593efb2827b9b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_6
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/_structures.py
+SPDXID: SPDXRef-python3-pkg-resources_file_7
+FileChecksum: b411ce863f505b856bda823eb93049c18aeaaab1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_7
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/markers.py
+SPDXID: SPDXRef-python3-pkg-resources_file_8
+FileChecksum: 60048be6cdf17dcee602644f59862e5bc36a1f87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_8
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py
+SPDXID: SPDXRef-python3-pkg-resources_file_9
+FileChecksum: 41e9c9a41abc9fe2f040a246ac45bebbcd4ba5a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_9
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/specifiers.py
+SPDXID: SPDXRef-python3-pkg-resources_file_10
+FileChecksum: 30ee58de3f90d99bd551efcf043d538128026a2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_10
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/tags.py
+SPDXID: SPDXRef-python3-pkg-resources_file_11
+FileChecksum: b00092346a20b7fb36b321080e72e54071ace773
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_11
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/utils.py
+SPDXID: SPDXRef-python3-pkg-resources_file_12
+FileChecksum: 5979c6b8353210e327b4689a66207c56a7c8e3d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_12
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py
+SPDXID: SPDXRef-python3-pkg-resources_file_13
+FileChecksum: 161edb467745642554aff7ee33a3eb69ff9e7287
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_13
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py
+SPDXID: SPDXRef-python3-pkg-resources_file_14
+FileChecksum: 6823808a8e61fd3e3ec722ef45ad6cf1b4bd9aa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_14
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py
+SPDXID: SPDXRef-python3-pkg-resources_file_15
+FileChecksum: a9c417521055d7e9820011ce19d36d5eee798b9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_15
+
+
+FileName: /usr/lib/python3/dist-packages/pkg_resources/tests/data/my-test-package-source/setup.py
+SPDXID: SPDXRef-python3-pkg-resources_file_16
+FileChecksum: 89214b618edada3ef66c62be792bc9425ba9fac8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_16
+
+
+FileName: /usr/share/doc/python3-pkg-resources/changelog.Debian.gz
+SPDXID: SPDXRef-python3-pkg-resources_file_17
+FileChecksum: b789875e7f6af5ec0049f81555e9a020f95f95b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_17
+
+
+FileName: /usr/share/doc/python3-pkg-resources/copyright
+SPDXID: SPDXRef-python3-pkg-resources_file_18
+FileChecksum: e0bdf5c256cf40680306fd6e023d1a091c1c914c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_18
+
+
+FileName: /usr/share/doc/python3-pkg-resources/pkg_resources.rst.gz
+SPDXID: SPDXRef-python3-pkg-resources_file_19
+FileChecksum: 21f565e905ed9cd68500c94c3946b00cc8f40a07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-pkg-resources CONTAINS SPDXRef-python3-pkg-resources_file_19
+
+
+FileName: /usr/lib/python3/dist-packages/_distutils_hack/__init__.py
+SPDXID: SPDXRef-python3-setuptools_file_0
+FileChecksum: 0954dc9fc760d736b60fa3e482a11697770574df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_0
+
+
+FileName: /usr/lib/python3/dist-packages/_distutils_hack/override.py
+SPDXID: SPDXRef-python3-setuptools_file_1
+FileChecksum: 358f87c599947263e8adf079cb2131a522876af8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_1
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/__init__.py
+SPDXID: SPDXRef-python3-setuptools_file_2
+FileChecksum: 75fa76b1a50c8f937cb5f3290ece162981a92837
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_2
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_deprecation_warning.py
+SPDXID: SPDXRef-python3-setuptools_file_3
+FileChecksum: 9f554ff229a777b55816e0b8b39070efbe8df585
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_3
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/__init__.py
+SPDXID: SPDXRef-python3-setuptools_file_4
+FileChecksum: 82f8f95c0b85223ae5e794c99d07c6c96fe1baaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_4
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/_msvccompiler.py
+SPDXID: SPDXRef-python3-setuptools_file_5
+FileChecksum: d0d49a174cd398762f136f9093da044eedcc30ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_5
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/archive_util.py
+SPDXID: SPDXRef-python3-setuptools_file_6
+FileChecksum: f53d27f3a87fd977b0d4c36ffb1bcc54f9623ded
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_6
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/bcppcompiler.py
+SPDXID: SPDXRef-python3-setuptools_file_7
+FileChecksum: da29da11bb7c906828f2a9e0e5492923742c0b78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_7
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/ccompiler.py
+SPDXID: SPDXRef-python3-setuptools_file_8
+FileChecksum: a5c0b837f4a689b16f162d55d1d1cb0261d46c44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_8
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py
+SPDXID: SPDXRef-python3-setuptools_file_9
+FileChecksum: b70cf256fd895b9e953d6cc983036ed0d771f0d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_9
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/__init__.py
+SPDXID: SPDXRef-python3-setuptools_file_10
+FileChecksum: 8dcceb3a590954c7d6ac051b1e88f9aaa045e80f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_10
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/bdist.py
+SPDXID: SPDXRef-python3-setuptools_file_11
+FileChecksum: 9827874f4ab3843e00f8ff6c5bb47ee5a0a16cb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_11
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/bdist_dumb.py
+SPDXID: SPDXRef-python3-setuptools_file_12
+FileChecksum: 9067e50bbb909fcad9a7e0795772715870ff0c8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_12
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/bdist_msi.py
+SPDXID: SPDXRef-python3-setuptools_file_13
+FileChecksum: fcc6095aba65c6de244619ca0c300608ffaf3c9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_13
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/bdist_rpm.py
+SPDXID: SPDXRef-python3-setuptools_file_14
+FileChecksum: 35e9a086836bd1dff16167afe747e20e6758c692
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_14
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/bdist_wininst.py
+SPDXID: SPDXRef-python3-setuptools_file_15
+FileChecksum: d3a6fe42ee575966f0c6e3af7949c56d615fc600
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_15
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/build.py
+SPDXID: SPDXRef-python3-setuptools_file_16
+FileChecksum: 859db0d4b895a125982ecf31a30380d0a4a37afb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_16
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/build_clib.py
+SPDXID: SPDXRef-python3-setuptools_file_17
+FileChecksum: 40ae72b8e5ee3b031fce4b3446282e9c0e24ffff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_17
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/build_ext.py
+SPDXID: SPDXRef-python3-setuptools_file_18
+FileChecksum: e7a2967553439ad240b483108942d3048ef3e94c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_18
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/build_py.py
+SPDXID: SPDXRef-python3-setuptools_file_19
+FileChecksum: ec20ddd9b9a72bbf9fda39744e9bb5f74a4d8228
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_19
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/build_scripts.py
+SPDXID: SPDXRef-python3-setuptools_file_20
+FileChecksum: 4ca639865d20bc8c28ad5041592f4dbf72ef4a03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_20
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/check.py
+SPDXID: SPDXRef-python3-setuptools_file_21
+FileChecksum: ce7a7bd6427593393b903d7ac7a2d72e55345696
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_21
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/clean.py
+SPDXID: SPDXRef-python3-setuptools_file_22
+FileChecksum: 08b65432e0111d58a220b02de0e4491bb426540e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_22
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/config.py
+SPDXID: SPDXRef-python3-setuptools_file_23
+FileChecksum: 7ce46f0e8990867ebde596c7556952ef4d3373e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_23
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/install.py
+SPDXID: SPDXRef-python3-setuptools_file_24
+FileChecksum: aef91a0e2611d34ac466646ce24f3cb81e9b55a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_24
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/install_data.py
+SPDXID: SPDXRef-python3-setuptools_file_25
+FileChecksum: 6887eb868c295cbcbf28c74fc48606018e92519b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_25
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/install_egg_info.py
+SPDXID: SPDXRef-python3-setuptools_file_26
+FileChecksum: 27d5773bd5c3e229011ba29a56edfe75f8edb048
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_26
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/install_headers.py
+SPDXID: SPDXRef-python3-setuptools_file_27
+FileChecksum: 497130a66a1d5cb4e762cfd18224838b0a235273
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_27
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/install_lib.py
+SPDXID: SPDXRef-python3-setuptools_file_28
+FileChecksum: 047f374bd66514ffcc00de2ce700c5b09c399f3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_28
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/install_scripts.py
+SPDXID: SPDXRef-python3-setuptools_file_29
+FileChecksum: fc2f19ad40acffb7261a257de02bc799375d3c28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_29
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/py37compat.py
+SPDXID: SPDXRef-python3-setuptools_file_30
+FileChecksum: fc896058644ccb406524c86373d854f033d0bf35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_30
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/register.py
+SPDXID: SPDXRef-python3-setuptools_file_31
+FileChecksum: d2cae77bfa9716331e7dfce998b95d70fcad3865
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_31
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/sdist.py
+SPDXID: SPDXRef-python3-setuptools_file_32
+FileChecksum: c511e6b0bef527a736cc3cc59df78ecd371a2ee0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_32
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/command/upload.py
+SPDXID: SPDXRef-python3-setuptools_file_33
+FileChecksum: 11d5208ec4e3cc0aeda3c2dce24067ceeed66298
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_33
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/config.py
+SPDXID: SPDXRef-python3-setuptools_file_34
+FileChecksum: dc5759f954d082a6f9609119646336a0532e90f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_34
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/core.py
+SPDXID: SPDXRef-python3-setuptools_file_35
+FileChecksum: eabcb498e56bed8274ca706a9c7b0a713558d3f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_35
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/cygwinccompiler.py
+SPDXID: SPDXRef-python3-setuptools_file_36
+FileChecksum: 99c78697706decdcefd54f4a4facae806e054f3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_36
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/debug.py
+SPDXID: SPDXRef-python3-setuptools_file_37
+FileChecksum: 366246d9ab8f12833b1b2765fade51bb635d49ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_37
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/dep_util.py
+SPDXID: SPDXRef-python3-setuptools_file_38
+FileChecksum: c880ad7d47a80032848486533199c76bb73020b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_38
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/dir_util.py
+SPDXID: SPDXRef-python3-setuptools_file_39
+FileChecksum: 69936257af5d2df8d491e0e9b4b6ee39239aec37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_39
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py
+SPDXID: SPDXRef-python3-setuptools_file_40
+FileChecksum: e657d449c39edfb96d084c8c7fd33a998be12469
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_40
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/errors.py
+SPDXID: SPDXRef-python3-setuptools_file_41
+FileChecksum: 5d7da9e6f97603574aab1262cfe0ae5bcc293327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_41
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/extension.py
+SPDXID: SPDXRef-python3-setuptools_file_42
+FileChecksum: 5bfcc0c3866986329999398956fc88dbf62cb16b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_42
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/fancy_getopt.py
+SPDXID: SPDXRef-python3-setuptools_file_43
+FileChecksum: 36c5d8dd08f0e5b86865110fc93116e1019ac118
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_43
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/file_util.py
+SPDXID: SPDXRef-python3-setuptools_file_44
+FileChecksum: d5eb38c55ac9bf9385790082dc1cddcdeeb67f9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_44
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/filelist.py
+SPDXID: SPDXRef-python3-setuptools_file_45
+FileChecksum: 35815e75fbf407ef4af14c9204fb9178c9f8a626
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_45
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/log.py
+SPDXID: SPDXRef-python3-setuptools_file_46
+FileChecksum: 616d8f2a221c3bb746fd4f245dd24fd3589090bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_46
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/msvc9compiler.py
+SPDXID: SPDXRef-python3-setuptools_file_47
+FileChecksum: cd07aba695f158363c1b45f1c0c285e1978111af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_47
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/msvccompiler.py
+SPDXID: SPDXRef-python3-setuptools_file_48
+FileChecksum: ae3b444fd5234cf990793e894ddc578e08fe7360
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_48
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/py35compat.py
+SPDXID: SPDXRef-python3-setuptools_file_49
+FileChecksum: 7af444e482f548df27e4cc127b31a9cce3d55845
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_49
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/py38compat.py
+SPDXID: SPDXRef-python3-setuptools_file_50
+FileChecksum: 1e9589fb7e3512f4cabec2edb5e26f991de9170f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_50
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/spawn.py
+SPDXID: SPDXRef-python3-setuptools_file_51
+FileChecksum: ee465cc5e0e65fe2cecd9c93b1d570c5fd2ff9dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_51
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/sysconfig.py
+SPDXID: SPDXRef-python3-setuptools_file_52
+FileChecksum: bf5d0e8912eae7836f4d68566d314a1f0e32c648
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_52
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/text_file.py
+SPDXID: SPDXRef-python3-setuptools_file_53
+FileChecksum: 93df1b99dbbb819b59b14b9a68faa08f80306c31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_53
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/unixccompiler.py
+SPDXID: SPDXRef-python3-setuptools_file_54
+FileChecksum: 0018e1223aaa4d737584639f19056fae7a06d603
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_54
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/util.py
+SPDXID: SPDXRef-python3-setuptools_file_55
+FileChecksum: 32291d95956d6af9de1797b66b9087ca4d736bc3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_55
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/version.py
+SPDXID: SPDXRef-python3-setuptools_file_56
+FileChecksum: f8e1d4e2fb50651cd6dacb9f9a2c70abd840f71f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_56
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_distutils/versionpredicate.py
+SPDXID: SPDXRef-python3-setuptools_file_57
+FileChecksum: 32c80cd4871e30e3554efbf57220f291292483be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_57
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_imp.py
+SPDXID: SPDXRef-python3-setuptools_file_58
+FileChecksum: a8c207ea7a2e076b68169c6b41a767fa3c02a0e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_58
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/__init__.py
+SPDXID: SPDXRef-python3-setuptools_file_59
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_59
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/more_itertools/__init__.py
+SPDXID: SPDXRef-python3-setuptools_file_60
+FileChecksum: 63002b807e58f38fe53cbfc603ae72280e38009b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_60
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/more_itertools/more.py
+SPDXID: SPDXRef-python3-setuptools_file_61
+FileChecksum: 90f55ac50b9cc5e1e793f4859a14bd21c0c9181e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_61
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/more_itertools/recipes.py
+SPDXID: SPDXRef-python3-setuptools_file_62
+FileChecksum: 8e9e687648cd83e7d298ea05f013c9712eefcbc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_62
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/ordered_set.py
+SPDXID: SPDXRef-python3-setuptools_file_63
+FileChecksum: e036fb43b3fdb55291bb33008b375b4d9465c09c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_63
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/__about__.py
+SPDXID: SPDXRef-python3-setuptools_file_64
+FileChecksum: 7bcf23eda6ad70d9df0793b6cc88b77dedb9a160
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_64
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/__init__.py
+SPDXID: SPDXRef-python3-setuptools_file_65
+FileChecksum: 9501323e7783213ab6c7c8e8fd05cd95d7a76ba1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_65
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/_manylinux.py
+SPDXID: SPDXRef-python3-setuptools_file_66
+FileChecksum: 0ff6c9ceb0819aef9d68cee59d7942fa0544661f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_66
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/_musllinux.py
+SPDXID: SPDXRef-python3-setuptools_file_67
+FileChecksum: c9ff7069ad7d69fc51c47fcd80593efb2827b9b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_67
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/_structures.py
+SPDXID: SPDXRef-python3-setuptools_file_68
+FileChecksum: b411ce863f505b856bda823eb93049c18aeaaab1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_68
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/markers.py
+SPDXID: SPDXRef-python3-setuptools_file_69
+FileChecksum: b5a87b9408091d4bed267143b4961607215ba0b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_69
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/requirements.py
+SPDXID: SPDXRef-python3-setuptools_file_70
+FileChecksum: ebfdc8c170f5903e68ec77abc56e03a9ccabea0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_70
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/specifiers.py
+SPDXID: SPDXRef-python3-setuptools_file_71
+FileChecksum: 30ee58de3f90d99bd551efcf043d538128026a2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_71
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/tags.py
+SPDXID: SPDXRef-python3-setuptools_file_72
+FileChecksum: b00092346a20b7fb36b321080e72e54071ace773
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_72
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/utils.py
+SPDXID: SPDXRef-python3-setuptools_file_73
+FileChecksum: 5979c6b8353210e327b4689a66207c56a7c8e3d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_73
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/packaging/version.py
+SPDXID: SPDXRef-python3-setuptools_file_74
+FileChecksum: 161edb467745642554aff7ee33a3eb69ff9e7287
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_74
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/_vendor/pyparsing.py
+SPDXID: SPDXRef-python3-setuptools_file_75
+FileChecksum: 6823808a8e61fd3e3ec722ef45ad6cf1b4bd9aa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_75
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/archive_util.py
+SPDXID: SPDXRef-python3-setuptools_file_76
+FileChecksum: cd27a005b3ed9ff6c94628cb7a8c6b6da69301fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_76
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/build_meta.py
+SPDXID: SPDXRef-python3-setuptools_file_77
+FileChecksum: 224a686bed904608dd8e82715af6e858f4b6ec09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_77
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/__init__.py
+SPDXID: SPDXRef-python3-setuptools_file_78
+FileChecksum: d4a60caa27aac25ce29f565863f7a205aa594428
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_78
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/alias.py
+SPDXID: SPDXRef-python3-setuptools_file_79
+FileChecksum: a5482569a34e9045e6a00b50fba5107271230316
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_79
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/bdist_egg.py
+SPDXID: SPDXRef-python3-setuptools_file_80
+FileChecksum: 295e70f5a17bd6f52eb3483ade230f39a455d02c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_80
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/bdist_rpm.py
+SPDXID: SPDXRef-python3-setuptools_file_81
+FileChecksum: 4925a723a099591becca6a66bc2aa5ef2eea2764
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_81
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/build_clib.py
+SPDXID: SPDXRef-python3-setuptools_file_82
+FileChecksum: d8414c9ac5c0109e1e863b887caa72b3b075dfa6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_82
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/build_ext.py
+SPDXID: SPDXRef-python3-setuptools_file_83
+FileChecksum: 137eb6d20f4720b9c16969fcf6ee3c26f1cdc38d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_83
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/build_py.py
+SPDXID: SPDXRef-python3-setuptools_file_84
+FileChecksum: eeb3b461b281d4489a89444910580dd6dde802aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_84
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/develop.py
+SPDXID: SPDXRef-python3-setuptools_file_85
+FileChecksum: d4aa6a26e66ee7fbe2bcf1d8cdab76445909db61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_85
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/dist_info.py
+SPDXID: SPDXRef-python3-setuptools_file_86
+FileChecksum: 07abe0249cb9763a24efc7055af7f6fa18fb1915
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_86
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/easy_install.py
+SPDXID: SPDXRef-python3-setuptools_file_87
+FileChecksum: a0f930b022309cece2e423da8fa2b9a5bdaff010
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_87
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/egg_info.py
+SPDXID: SPDXRef-python3-setuptools_file_88
+FileChecksum: a7c2e904474d4fd336236350b2cae4122794977d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_88
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/install.py
+SPDXID: SPDXRef-python3-setuptools_file_89
+FileChecksum: 7b54918931452dfa4fc8a2334c6a75a882546df2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_89
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/install_egg_info.py
+SPDXID: SPDXRef-python3-setuptools_file_90
+FileChecksum: f07e06c69baeb9c5b1fad624a4a878573b168f6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_90
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/install_lib.py
+SPDXID: SPDXRef-python3-setuptools_file_91
+FileChecksum: 48b09f6e61272572c7718b97ac43c7c67b1b251e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_91
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/install_scripts.py
+SPDXID: SPDXRef-python3-setuptools_file_92
+FileChecksum: 874510e0fc563bee6d447d4c52daa1bb2112d487
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_92
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/launcher manifest.xml
+SPDXID: SPDXRef-python3-setuptools_file_93
+FileChecksum: 403ee9b5c7a834a1b3905a87a4c6318e68609996
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_93
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/py36compat.py
+SPDXID: SPDXRef-python3-setuptools_file_94
+FileChecksum: 8933413be98bbeabdc068d7f7c492e62723e7fcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_94
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/register.py
+SPDXID: SPDXRef-python3-setuptools_file_95
+FileChecksum: 50972f4e50b1f2a414fd028b22fdf16754b59c14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_95
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/rotate.py
+SPDXID: SPDXRef-python3-setuptools_file_96
+FileChecksum: de8e175dc3729c35b755e21fdf02e9196972f79e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_96
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/saveopts.py
+SPDXID: SPDXRef-python3-setuptools_file_97
+FileChecksum: aa2fc2b16c59ec6688923535442cbf1ecf52d235
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_97
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/sdist.py
+SPDXID: SPDXRef-python3-setuptools_file_98
+FileChecksum: ded30fd320682af4fd446b428a4b29fb6966cd91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_98
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/setopt.py
+SPDXID: SPDXRef-python3-setuptools_file_99
+FileChecksum: 8cf021886cd68c8d4f4deb87fefd3f593a290af3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_99
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/test.py
+SPDXID: SPDXRef-python3-setuptools_file_100
+FileChecksum: 9e0c48d6385009d38ab99a793923aab6081145db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_100
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/upload.py
+SPDXID: SPDXRef-python3-setuptools_file_101
+FileChecksum: bda85f9dc7b71594ab2bc0f2930a70c669e27786
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_101
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/command/upload_docs.py
+SPDXID: SPDXRef-python3-setuptools_file_102
+FileChecksum: b83d62d2903cae4f65093d098120f1b7037f3c23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_102
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/config.py
+SPDXID: SPDXRef-python3-setuptools_file_103
+FileChecksum: 492b3602c4c91a29e8f914bf7a2fb3b043565c9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_103
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/dep_util.py
+SPDXID: SPDXRef-python3-setuptools_file_104
+FileChecksum: 19d6fa8bfd46d56d0f06acb86d6eca40f6935071
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_104
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/depends.py
+SPDXID: SPDXRef-python3-setuptools_file_105
+FileChecksum: 40f6e14ab664e22cfa4167bd17b1854e1a5bacb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_105
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/dist.py
+SPDXID: SPDXRef-python3-setuptools_file_106
+FileChecksum: 0da9068ccbb2fbc0d6851dfee573b41694cb53a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_106
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/errors.py
+SPDXID: SPDXRef-python3-setuptools_file_107
+FileChecksum: 4178904260f66da1ec471f8b303c091f90091d25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_107
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/extension.py
+SPDXID: SPDXRef-python3-setuptools_file_108
+FileChecksum: e41419fce1fd3554fb6f076b8555b70d653c9299
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_108
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/extern/__init__.py
+SPDXID: SPDXRef-python3-setuptools_file_109
+FileChecksum: 0ab64869e89c6509602a48ac10ad142c7d2a2c2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_109
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/glob.py
+SPDXID: SPDXRef-python3-setuptools_file_110
+FileChecksum: 95491284dac9ea4878bd546182efd2face1841c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_110
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/installer.py
+SPDXID: SPDXRef-python3-setuptools_file_111
+FileChecksum: a4dbb2094666c6a7d073ad1a2065fa63ae7ce8c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_111
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/launch.py
+SPDXID: SPDXRef-python3-setuptools_file_112
+FileChecksum: 782306700e0c400cfc574d3837e669b90b69d78e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_112
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/monkey.py
+SPDXID: SPDXRef-python3-setuptools_file_113
+FileChecksum: 63551b145e376ac3e89dc7b0d39e7474b14fd055
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_113
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/msvc.py
+SPDXID: SPDXRef-python3-setuptools_file_114
+FileChecksum: 3ba1b12dadac1a4ec2910f9777e65f1c6d61957c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_114
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/namespaces.py
+SPDXID: SPDXRef-python3-setuptools_file_115
+FileChecksum: 1e476e210066950d20e85b2282342ee6eeb394f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_115
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/package_index.py
+SPDXID: SPDXRef-python3-setuptools_file_116
+FileChecksum: 58a43e1780568ddfb8920e76650973f2d1d332e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_116
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/py34compat.py
+SPDXID: SPDXRef-python3-setuptools_file_117
+FileChecksum: 4fe2e414add89a8140913b50d59e93d8d667e89d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_117
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/sandbox.py
+SPDXID: SPDXRef-python3-setuptools_file_118
+FileChecksum: abd5dafee4a43ed1bbfa9699af02194a028341a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_118
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/script (dev).tmpl
+SPDXID: SPDXRef-python3-setuptools_file_119
+FileChecksum: 982302a6a5664f02c8cc87407dc7f2f5b5fbd825
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_119
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/script.tmpl
+SPDXID: SPDXRef-python3-setuptools_file_120
+FileChecksum: fa9b9f2e89357c8597490720b623d3b875136773
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_120
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/unicode_utils.py
+SPDXID: SPDXRef-python3-setuptools_file_121
+FileChecksum: db0c1c9900f14acad89db32481e30a4bd4a38c69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_121
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/version.py
+SPDXID: SPDXRef-python3-setuptools_file_122
+FileChecksum: c48d73bb3510c68a51b30e14860e522f0e4e35d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_122
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/wheel.py
+SPDXID: SPDXRef-python3-setuptools_file_123
+FileChecksum: 1864eeffb42a5c3c07e818e49eeeded3402b6cfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_123
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools/windows_support.py
+SPDXID: SPDXRef-python3-setuptools_file_124
+FileChecksum: 340f8131f230de0c5584dabe2745f2745337ae50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_124
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/PKG-INFO
+SPDXID: SPDXRef-python3-setuptools_file_125
+FileChecksum: 5be08cae41dd59de552f7aa2ae2cbcb8861f81c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_125
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/dependency_links.txt
+SPDXID: SPDXRef-python3-setuptools_file_126
+FileChecksum: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_126
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/entry_points.txt
+SPDXID: SPDXRef-python3-setuptools_file_127
+FileChecksum: e339be8333da128c7e1bcf193bd8d61d511de75d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_127
+
+
+FileName: /usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/top_level.txt
+SPDXID: SPDXRef-python3-setuptools_file_128
+FileChecksum: e160b96d6536e5da8a116a8410b5f6ca7c86b8ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_128
+
+
+FileName: /usr/share/doc/python3-setuptools/build_meta.rst
+SPDXID: SPDXRef-python3-setuptools_file_129
+FileChecksum: 6c265c813308ea4f0cb3818ac4fe541618cee609
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_129
+
+
+FileName: /usr/share/doc/python3-setuptools/copyright
+SPDXID: SPDXRef-python3-setuptools_file_130
+FileChecksum: e0bdf5c256cf40680306fd6e023d1a091c1c914c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_130
+
+
+FileName: /usr/share/doc/python3-setuptools/history.rst
+SPDXID: SPDXRef-python3-setuptools_file_131
+FileChecksum: 1358c0fdc220af226fdda3eb1d26c071e8f95e9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_131
+
+
+FileName: /usr/share/doc/python3-setuptools/index.rst
+SPDXID: SPDXRef-python3-setuptools_file_132
+FileChecksum: e4de43f1a47b6811882b2790ca9fcd8071bfa5f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_132
+
+
+FileName: /usr/share/doc/python3-setuptools/python 2 sunset.rst
+SPDXID: SPDXRef-python3-setuptools_file_133
+FileChecksum: 08011ce6efbcb75e3d1ded51a62e5b6f8d8bd2c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_133
+
+
+FileName: /usr/share/doc/python3-setuptools/roadmap.rst
+SPDXID: SPDXRef-python3-setuptools_file_134
+FileChecksum: b2c30c4537698c89bfcf38e56954f3ab7710aa5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_134
+
+
+FileName: /usr/share/doc/python3-setuptools/setuptools.rst.gz
+SPDXID: SPDXRef-python3-setuptools_file_135
+FileChecksum: 0919688161d146954e7fa36e934e260190227447
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_135
+
+
+FileName: /usr/share/doc/python3-setuptools/changelog.Debian.gz
+SPDXID: SPDXRef-python3-setuptools_file_136
+FileChecksum: b789875e7f6af5ec0049f81555e9a020f95f95b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-setuptools CONTAINS SPDXRef-python3-setuptools_file_136
+
+
+## Extracted License
+

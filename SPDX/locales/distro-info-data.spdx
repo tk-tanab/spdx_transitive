@@ -1,0 +1,33 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: distro-info-data_0.52ubuntu0.2
+DocumentNamespace: http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-5f141f0a-f966-5d9e-adf1-c7d92e02ef12
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-distro-info-data
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: distro-info-data
+PackageVersion: 0.52ubuntu0.2
+SPDXID: SPDXRef-distro-info-data
+PackageComment: <text>information about the distributions' releases (data files)
+ Information about all releases of Debian and Ubuntu. The distro-info script
+ will give you the codename for e.g. the latest stable release of your
+ distribution. To get information about a specific distribution there are the
+ debian-distro-info and the ubuntu-distro-info scripts.
+ .
+ This package contains the data files.</text>
+
+
+## File
+
+## Extracted License
+

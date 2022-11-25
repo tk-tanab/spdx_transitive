@@ -1,0 +1,51 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: fonts-urw-base35_20200910-1
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-urw-base35_20200910-1-e4a2ab06-5292-5d4c-bda2-75b76c87848a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-urw-base35
+ExternalDocumentRef: DocumentRef-fonts-freefont-ttf http://spdx.org/spdxdocs/fonts-freefont-ttf_20120503-10build1-2f216939-6f6a-5b6f-8337-77545b879586 SHA1: d348e4f42ead2d1398504dda79c437f441041a66
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: fonts-urw-base35
+PackageVersion: 20200910-1
+SPDXID: SPDXRef-fonts-urw-base35
+PackageHomePage: https://github.com/ArtifexSoftware/urw-base35-fonts
+PackageComment: <text>font set metric-compatible with the 35 PostScript Level 2 Base Fonts
+ A commercial-quality set of PostScript Type 1 fonts, metric-compatible
+ with the 35 PostScript Language Level 2 Base Fonts. This package contains
+ outlines in .t1 format and metrics in .afm format of the following fonts:
+ .
+  C059
+  D050000L
+  Nimbus Mono PS
+  Nimbus Roman
+  Nimbus Sans
+  Nimbus Sans Narrow
+  P052
+  Standard Symbols PS
+  URW Bookman
+  URW Gothic
+  Z003
+ .
+ Extensive remakes of these fonts in the OpenType format are available in the
+ GUST TeX Gyre collection in the fonts-texgyre package. The Cyrillic glyphs
+ added to the now obsolete urwcyr fork of these fonts have been merged into
+ the GNU FreeFont collection available in the fonts-freefont-otf or
+ fonts-freefont-ttf packages.</text>
+Relationship: SPDXRef-fonts-urw-base35 DEPENDS_ON DocumentRef-fonts-freefont-ttf:SPDXRef-fonts-freefont-ttf
+
+
+## File
+
+## Extracted License
+

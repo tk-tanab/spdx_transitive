@@ -1,0 +1,209 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/cups-common_2.4.1op1-1ubuntu4.1-044aa48a-9169-501f-b918-7aeecf9e37c9
+DocumentName: cups-common_2.4.1op1-1ubuntu4.1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cups-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:07:42Z
+
+
+## Package
+
+PackageName: cups-common
+PackageVersion: 2.4.1op1-1ubuntu4.1
+SPDXID: SPDXRef-cups-common
+PackageVerificationCode: 32684161adb2127507c4f7985f276f5818f6f73f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://github.com/OpenPrinting/cups/
+PackageComment: <text>Common UNIX Printing System(tm) - common files
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides common files for CUPS server and client packages.</text>
+
+
+## File
+
+FileName: /usr/share/cups/drv/sample.drv
+SPDXID: SPDXRef-cups-common_file_0
+FileChecksum: e105b8d3eb0d4a7374cebcb192ba48dc71b57dfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_0
+
+
+FileName: /usr/share/cups/locale/ca/cups_ca.po
+SPDXID: SPDXRef-cups-common_file_1
+FileChecksum: aacd071c53c08a657f67e8b607f247e46558b9ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_1
+
+
+FileName: /usr/share/cups/locale/cs/cups_cs.po
+SPDXID: SPDXRef-cups-common_file_2
+FileChecksum: 08a8874b37e85b72acf176dff53cd85e97874dd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_2
+
+
+FileName: /usr/share/cups/locale/da/cups_da.po
+SPDXID: SPDXRef-cups-common_file_3
+FileChecksum: dffbfb3cbe353ac955f57ff66c0157d1c5c275ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_3
+
+
+FileName: /usr/share/cups/locale/de/cups_de.po
+SPDXID: SPDXRef-cups-common_file_4
+FileChecksum: 0848ca29ae77225986b3b7d6eb675da8a04bf108
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_4
+
+
+FileName: /usr/share/cups/locale/en/cups_en.po
+SPDXID: SPDXRef-cups-common_file_5
+FileChecksum: 9319548a16277cd8bc892d64cb156f9fc315a890
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_5
+
+
+FileName: /usr/share/cups/locale/es/cups_es.po
+SPDXID: SPDXRef-cups-common_file_6
+FileChecksum: 8d1852dd142a3689786438d7a84b99f777147d4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_6
+
+
+FileName: /usr/share/cups/locale/fr/cups_fr.po
+SPDXID: SPDXRef-cups-common_file_7
+FileChecksum: 07756423b8096e012817fb939948005b8e0eca9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_7
+
+
+FileName: /usr/share/cups/locale/it/cups_it.po
+SPDXID: SPDXRef-cups-common_file_8
+FileChecksum: ad38ef283cf889e21aa8810a155f790ab5ad9471
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_8
+
+
+FileName: /usr/share/cups/locale/ja/cups_ja.po
+SPDXID: SPDXRef-cups-common_file_9
+FileChecksum: 536835a11d519eec6303b859e2b3cf637d516405
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_9
+
+
+FileName: /usr/share/cups/locale/pt_BR/cups_pt_BR.po
+SPDXID: SPDXRef-cups-common_file_10
+FileChecksum: 96b1087e422b15ab758a553963d29415e00c00c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_10
+
+
+FileName: /usr/share/cups/locale/ru/cups_ru.po
+SPDXID: SPDXRef-cups-common_file_11
+FileChecksum: 9b1d2c657294b4453b886adba123d4a9dc5f2911
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_11
+
+
+FileName: /usr/share/cups/locale/zh_CN/cups_zh_CN.po
+SPDXID: SPDXRef-cups-common_file_12
+FileChecksum: dcdeae8ca2fbe51013e538d9424ab60d2304db40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_12
+
+
+FileName: /usr/share/cups/ppdc/font.defs
+SPDXID: SPDXRef-cups-common_file_13
+FileChecksum: b9b780ca6d4c8931497f21676b4befad1fe914f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_13
+
+
+FileName: /usr/share/cups/ppdc/media.defs
+SPDXID: SPDXRef-cups-common_file_14
+FileChecksum: da016c06a16f03fca4c099a8f1caffce77554371
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_14
+
+
+FileName: /usr/share/cups/ppdc/raster.defs
+SPDXID: SPDXRef-cups-common_file_15
+FileChecksum: 5bb0c42381839110a037be7ba2c274f884fdc48d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_15
+
+
+FileName: /usr/share/doc/cups-common/changelog.Debian.gz
+SPDXID: SPDXRef-cups-common_file_16
+FileChecksum: b78d6f1ec959732d1850f670c339cc83560d7af8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_16
+
+
+FileName: /usr/share/doc/cups-common/copyright
+SPDXID: SPDXRef-cups-common_file_17
+FileChecksum: 98463b35bdc4a9d2b47889b3b23068ec3905f91a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_17
+
+
+FileName: /usr/share/lintian/overrides/cups-common
+SPDXID: SPDXRef-cups-common_file_18
+FileChecksum: d205bbdeb04a94cef047f22c239b56d1d02eee11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cups-common CONTAINS SPDXRef-cups-common_file_18
+
+
+## Extracted License
+

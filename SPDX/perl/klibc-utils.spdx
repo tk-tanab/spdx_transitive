@@ -1,0 +1,35 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: klibc-utils_2.0.10-4
+DocumentNamespace: http://spdx.org/spdxdocs/klibc-utils_2.0.10-4-b71c4ab5-7b0d-5bf0-979f-dec58aa8406b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-klibc-utils
+ExternalDocumentRef: DocumentRef-libklibc http://spdx.org/spdxdocs/libklibc_2.0.10-4-93f7c40b-7dda-523e-a50c-ebbde53fe67c SHA1: 28dd67315bf2ecabed202f6d73f3f7b6094479a6
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: klibc-utils
+PackageVersion: 2.0.10-4
+SPDXID: SPDXRef-klibc-utils
+PackageHomePage: https://git.kernel.org/cgit/libs/klibc/klibc.git
+PackageComment: <text>small utilities built with klibc for early boot
+ This package contains a collection of programs that are linked
+ against klibc. These duplicate some of the functionality of a
+ regular Linux toolset, but are typically much smaller than their
+ full-function counterparts.  They are intended for inclusion in
+ initramfs images and embedded systems.</text>
+Relationship: SPDXRef-klibc-utils DEPENDS_ON DocumentRef-libklibc:SPDXRef-libklibc
+
+
+## File
+
+## Extracted License
+

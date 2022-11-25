@@ -1,0 +1,253 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/sensible-utils_0.0.17-5da097ef-13a7-5f40-88a4-c33ba0a3ba49
+DocumentName: sensible-utils_0.0.17
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-sensible-utils
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:07:27Z
+
+
+## Package
+
+PackageName: sensible-utils
+PackageVersion: 0.0.17
+SPDXID: SPDXRef-sensible-utils
+PackageVerificationCode: 21f8652ba84e10f0701feea572844deffa4f4f77
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageComment: <text>Utilities for sensible alternative selection
+ This package provides a number of small utilities which are used
+ by programs to sensibly select and spawn an appropriate browser,
+ editor, or pager.
+ .
+ The specific utilities included are: sensible-browser sensible-editor
+ sensible-pager</text>
+
+
+## File
+
+FileName: /usr/bin/select-editor
+SPDXID: SPDXRef-sensible-utils_file_0
+FileChecksum: 03f2593d27290ca57afca5a52bd895f607f2d811
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_0
+
+
+FileName: /usr/bin/sensible-browser
+SPDXID: SPDXRef-sensible-utils_file_1
+FileChecksum: 7b1de4581c88998257e1519fee8ac8c024e63e9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_1
+
+
+FileName: /usr/bin/sensible-editor
+SPDXID: SPDXRef-sensible-utils_file_2
+FileChecksum: 8c8ae114583730295296f977f1cca9e3c674981f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_2
+
+
+FileName: /usr/bin/sensible-pager
+SPDXID: SPDXRef-sensible-utils_file_3
+FileChecksum: bb86bb5bc8a56c2fc02cb2fb7d6883ca094d9248
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_3
+
+
+FileName: /usr/lib/mime/packages/sensible-utils
+SPDXID: SPDXRef-sensible-utils_file_4
+FileChecksum: c005921566f0ec4e26f31e1176e9a5443e05b2e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_4
+
+
+FileName: /usr/share/doc/sensible-utils/changelog.gz
+SPDXID: SPDXRef-sensible-utils_file_5
+FileChecksum: 7b5783f9c66c8235dc983f73fcdb8be96f75084e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_5
+
+
+FileName: /usr/share/doc/sensible-utils/copyright
+SPDXID: SPDXRef-sensible-utils_file_6
+FileChecksum: fe93dd00cf340a70aec23219b55369bca4f931fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_6
+
+
+FileName: /usr/share/man/de/man1/select-editor.1.gz
+SPDXID: SPDXRef-sensible-utils_file_7
+FileChecksum: b91a32746bb147a065c67e03e549bd0f8f47a301
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_7
+
+
+FileName: /usr/share/man/de/man1/sensible-browser.1.gz
+SPDXID: SPDXRef-sensible-utils_file_8
+FileChecksum: 03fe995e2c24e5fe9def734a4b70fe56617d8edf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_8
+
+
+FileName: /usr/share/man/de/man1/sensible-editor.1.gz
+SPDXID: SPDXRef-sensible-utils_file_9
+FileChecksum: 02e7ab1f12d92c292e43c510c8aaaeb45d881aac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_9
+
+
+FileName: /usr/share/man/de/man1/sensible-pager.1.gz
+SPDXID: SPDXRef-sensible-utils_file_10
+FileChecksum: bc1ced9b49cdfd3125afc409c7dcbe4ba4394e45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_10
+
+
+FileName: /usr/share/man/fr/man1/select-editor.1.gz
+SPDXID: SPDXRef-sensible-utils_file_11
+FileChecksum: 9757986974773d7cd8d8439cba442aebdea7c98d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_11
+
+
+FileName: /usr/share/man/fr/man1/sensible-browser.1.gz
+SPDXID: SPDXRef-sensible-utils_file_12
+FileChecksum: 72ea7e31d2a4d331a3f3bb432b25b2a397bfbc5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_12
+
+
+FileName: /usr/share/man/fr/man1/sensible-editor.1.gz
+SPDXID: SPDXRef-sensible-utils_file_13
+FileChecksum: cc6f6e678a5fe04181fea3af280b274bb31da37d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_13
+
+
+FileName: /usr/share/man/fr/man1/sensible-pager.1.gz
+SPDXID: SPDXRef-sensible-utils_file_14
+FileChecksum: ecdf20e02ffbc405e14e5a035bd4f48f5f3e3a50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_14
+
+
+FileName: /usr/share/man/man1/select-editor.1.gz
+SPDXID: SPDXRef-sensible-utils_file_15
+FileChecksum: b5aa2fe1765feb67827865111778e3833552aab7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_15
+
+
+FileName: /usr/share/man/man1/sensible-browser.1.gz
+SPDXID: SPDXRef-sensible-utils_file_16
+FileChecksum: 910070c4a14a9d800838004a245868ed3e874b39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_16
+
+
+FileName: /usr/share/man/man1/sensible-editor.1.gz
+SPDXID: SPDXRef-sensible-utils_file_17
+FileChecksum: 5d613cb533cb38d1f2db4a3937bfe293f8bfaa76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_17
+
+
+FileName: /usr/share/man/man1/sensible-pager.1.gz
+SPDXID: SPDXRef-sensible-utils_file_18
+FileChecksum: ec0cd070d651e2d1097f67bf2e6af6ddd79ef5ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_18
+
+
+FileName: /usr/share/man/pt/man1/select-editor.1.gz
+SPDXID: SPDXRef-sensible-utils_file_19
+FileChecksum: d7fdce3afbd0b9c1a7370afeea254962a3968bdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_19
+
+
+FileName: /usr/share/man/pt/man1/sensible-browser.1.gz
+SPDXID: SPDXRef-sensible-utils_file_20
+FileChecksum: 42d5e6dfc1ef9648e09f1ee604c2c68f141532e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_20
+
+
+FileName: /usr/share/man/pt/man1/sensible-editor.1.gz
+SPDXID: SPDXRef-sensible-utils_file_21
+FileChecksum: 15c18fa7fb3abd62d0df1458cb472b030a1e3e01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_21
+
+
+FileName: /usr/share/man/pt/man1/sensible-pager.1.gz
+SPDXID: SPDXRef-sensible-utils_file_22
+FileChecksum: 13bf7a1b4643fbc955069b81dd0a94b728777a3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_22
+
+
+FileName: /usr/share/sensible-utils/bin/gettext
+SPDXID: SPDXRef-sensible-utils_file_23
+FileChecksum: bab983feb1a5463968d7caea85b6765f49ea643b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sensible-utils CONTAINS SPDXRef-sensible-utils_file_23
+
+
+## Extracted License
+

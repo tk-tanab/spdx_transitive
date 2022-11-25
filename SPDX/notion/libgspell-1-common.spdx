@@ -1,0 +1,60 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/libgspell-1-common_1.9.1-4-c2216816-aa00-54a1-a112-45c50308d809
+DocumentName: libgspell-1-common_1.9.1-4
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgspell-1-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:08:10Z
+
+
+## Package
+
+PackageName: libgspell-1-common
+PackageVersion: 1.9.1-4
+SPDXID: SPDXRef-libgspell-1-common
+PackageVerificationCode: cef0373bd54c9bdab8b81a8ed8200f8ee88a3ba2
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://wiki.gnome.org/Projects/gspell
+PackageComment: <text>libgspell architecture-independent files
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+ .
+ This package contains the architecture independent files
+ like translation of messages.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libgspell-1-common/changelog.Debian.gz
+SPDXID: SPDXRef-libgspell-1-common_file_0
+FileChecksum: 49d4da3a0eadbd9916a8b5c0c2c72bbd60456d56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgspell-1-common CONTAINS SPDXRef-libgspell-1-common_file_0
+
+
+FileName: /usr/share/doc/libgspell-1-common/copyright
+SPDXID: SPDXRef-libgspell-1-common_file_1
+FileChecksum: d512c7a954743d1fb1da2a250e7fc2228a5b6c62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgspell-1-common CONTAINS SPDXRef-libgspell-1-common_file_1
+
+
+## Extracted License
+

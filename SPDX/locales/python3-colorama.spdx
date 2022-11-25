@@ -1,0 +1,38 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-colorama_0.4.4-1
+DocumentNamespace: http://spdx.org/spdxdocs/python3-colorama_0.4.4-1-f9ded78c-ca66-51ee-80c9-fe7f8d7da78f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-colorama
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-colorama
+PackageVersion: 0.4.4-1
+SPDXID: SPDXRef-python3-colorama
+PackageHomePage: https://github.com/tartley/colorama
+PackageComment: <text>Cross-platform colored terminal text in Python - Python 3.x
+ Python-colorama provides a simple cross-platform API to print colored terminal
+ text from Python applications.
+ .
+ ANSI escape character sequences are commonly used to produce colored terminal
+ text on Unix. Colorama provides some shortcuts to generate these sequences.
+ .
+ This has the happy side-effect that existing applications or libraries which
+ already use ANSI sequences to produce colored output on Linux.
+ .
+ This package provides the module for Python 3.</text>
+
+
+## File
+
+## Extracted License
+

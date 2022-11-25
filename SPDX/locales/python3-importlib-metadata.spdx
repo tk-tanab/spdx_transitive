@@ -1,0 +1,35 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-importlib-metadata_4.6.4-1
+DocumentNamespace: http://spdx.org/spdxdocs/python3-importlib-metadata_4.6.4-1-83200e34-f127-5781-98a6-e448d581fa35
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-importlib-metadata
+ExternalDocumentRef: DocumentRef-python3-zipp http://spdx.org/spdxdocs/python3-zipp_1.0.0-3-dd17521d-d698-54c2-9014-25dd1d80bcbe SHA1: 2c45748caa43f80151094c06109216ebe9a694ec
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-importlib-metadata
+PackageVersion: 4.6.4-1
+SPDXID: SPDXRef-python3-importlib-metadata
+PackageHomePage: https://github.com/python/importlib_metadata
+PackageComment: <text>library to access the metadata for a Python package - Python 3.x
+ Provides an API for accessing an installed package’s metadata, such as its
+ entry points or its top-level name. This functionality intends to replace
+ most uses of pkg_resources entry point API and metadata API.
+ .
+ This package contains Python 3.x module.</text>
+Relationship: SPDXRef-python3-importlib-metadata DEPENDS_ON DocumentRef-python3-zipp:SPDXRef-python3-zipp
+
+
+## File
+
+## Extracted License
+

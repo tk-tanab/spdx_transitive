@@ -1,0 +1,63 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libgs9-common_9.55.0~dfsg1-0ubuntu5.1
+DocumentNamespace: http://spdx.org/spdxdocs/libgs9-common_9.55.0~dfsg1-0ubuntu5.1-25870fe0-06d4-5ca3-b374-0f8938d66164
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgs9-common
+ExternalDocumentRef: DocumentRef-fonts-urw-base35 http://spdx.org/spdxdocs/fonts-urw-base35_20200910-1-e4a2ab06-5292-5d4c-bda2-75b76c87848a SHA1: 93cfb2663f1eeabb5537c61d2cd0c36c300a7283
+ExternalDocumentRef: DocumentRef-fonts-noto-mono http://spdx.org/spdxdocs/fonts-noto-mono_20201225-1build1-785a297e-b437-5bc2-a2b9-0f3e4e265ebb SHA1: 29e43c15c8a3674dfe2dc9e3cfb7c2ce6703bd89
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: libgs9-common
+PackageVersion: 9.55.0~dfsg1-0ubuntu5.1
+SPDXID: SPDXRef-libgs9-common
+PackageHomePage: https://www.ghostscript.com/
+PackageComment: <text>interpreter for the PostScript language and for PDF - common files
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package provides common architecture-independent files needed by
+ the GPL Ghostscript library.
+ .
+ By default, GPL Ghostscript uses a font from the fonts-droid package to
+ approximate glyphs in PDFs for which the requested CJK TrueType font
+ is missing.  If the fonts-droid package is not installed, these glyphs
+ will be rendered as bullets.</text>
+Relationship: SPDXRef-libgs9-common DEPENDS_ON DocumentRef-fonts-urw-base35:SPDXRef-fonts-urw-base35
+Relationship: SPDXRef-libgs9-common DEPENDS_ON SPDXRef-fonts-droid-fallback
+
+
+PackageName: fonts-droid-fallback
+PackageVersion: 1:6.0.1r16-1.1build1
+SPDXID: SPDXRef-fonts-droid-fallback
+PackageHomePage: https://android.googlesource.com/platform/frameworks/base/
+PackageComment: <text>handheld device font with extensive style and language support (fallback)
+ This package provides DroidSans Fallback variants, Fallback and
+ FallbackFull.
+ .
+ Each contains extensive character set coverage including
+ Western Europe, Eastern/Central Europe, Baltic, Cyrillic, Greek and
+ Turkish support. The Droid Sans regular font also includes support for
+ Arabic, Simplified and Traditional Chinese, Hebrew, Japanese, Korean and
+ Thai.
+ .
+ Droid was designed by Ascender's Steve Matteson and hinted to provide
+ optimal quality for screen text.</text>
+Relationship: SPDXRef-fonts-droid-fallback DEPENDS_ON SPDXRef-dpkg
+Relationship: SPDXRef-fonts-droid-fallback DEPENDS_ON DocumentRef-fonts-noto-mono:SPDXRef-fonts-noto-mono
+
+
+## File
+
+## Extracted License
+

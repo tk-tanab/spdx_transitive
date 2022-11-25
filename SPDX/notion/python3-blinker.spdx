@@ -1,0 +1,102 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-blinker_1.4+dfsg1-0.4-3ba897e7-5c1a-53eb-9b26-b9cc3385a6e7
+DocumentName: python3-blinker_1.4+dfsg1-0.4
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-blinker
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:09:26Z
+
+
+## Package
+
+PackageName: python3-blinker
+PackageVersion: 1.4+dfsg1-0.4
+SPDXID: SPDXRef-python3-blinker
+PackageVerificationCode: 6f5ddd6ad9b107b1d4e385dcc05daf6af9ac834d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://pythonhosted.org/blinker/
+PackageComment: <text>fast, simple object-to-object and broadcast signaling library
+ Blinker provides a fast dispatching system that allows any number of
+ interested parties to subscribe to events, or "signals".
+ .
+ Signal receivers can subscribe to specific senders or receive signals
+ sent by any sender.
+ .
+ This package contains the Python 3 version.</text>
+
+
+## File
+
+FileName: /usr/lib/python3/dist-packages/blinker/__init__.py
+SPDXID: SPDXRef-python3-blinker_file_0
+FileChecksum: f3a53296ea5e1c0f04c3dea28482019c0d513ca6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-blinker CONTAINS SPDXRef-python3-blinker_file_0
+
+
+FileName: /usr/lib/python3/dist-packages/blinker/_saferef.py
+SPDXID: SPDXRef-python3-blinker_file_1
+FileChecksum: 105050ae2c92dc098d53c1a7c8db0635b10355e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-blinker CONTAINS SPDXRef-python3-blinker_file_1
+
+
+FileName: /usr/lib/python3/dist-packages/blinker/_utilities.py
+SPDXID: SPDXRef-python3-blinker_file_2
+FileChecksum: 7eb850373b6d75702c0f72d5cb5efea7448ad37c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-blinker CONTAINS SPDXRef-python3-blinker_file_2
+
+
+FileName: /usr/lib/python3/dist-packages/blinker/base.py
+SPDXID: SPDXRef-python3-blinker_file_3
+FileChecksum: 82544fe5f1c08c20723bc140ed25a4359e8504e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-blinker CONTAINS SPDXRef-python3-blinker_file_3
+
+
+FileName: /usr/lib/python3/dist-packages/blinker-1.4.egg-info
+SPDXID: SPDXRef-python3-blinker_file_4
+FileChecksum: 4f8b0e21d878a995080673f819d905aaf50440df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-blinker CONTAINS SPDXRef-python3-blinker_file_4
+
+
+FileName: /usr/share/doc/python3-blinker/changelog.Debian.gz
+SPDXID: SPDXRef-python3-blinker_file_5
+FileChecksum: 3c622adad5c5f33bf90d45b4a224a20e28995794
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-blinker CONTAINS SPDXRef-python3-blinker_file_5
+
+
+FileName: /usr/share/doc/python3-blinker/copyright
+SPDXID: SPDXRef-python3-blinker_file_6
+FileChecksum: 5ea585f5e3a0ad22eaae1626a762b10a50ade7c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-blinker CONTAINS SPDXRef-python3-blinker_file_6
+
+
+## Extracted License
+

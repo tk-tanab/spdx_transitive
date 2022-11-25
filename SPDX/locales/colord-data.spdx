@@ -1,0 +1,35 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: colord-data_1.4.6-1
+DocumentNamespace: http://spdx.org/spdxdocs/colord-data_1.4.6-1-ee593333-d0c7-568b-b535-8f8f8219babf
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-colord-data
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: colord-data
+PackageVersion: 1.4.6-1
+SPDXID: SPDXRef-colord-data
+PackageHomePage: http://www.freedesktop.org/software/colord/
+PackageComment: <text>system service to manage device colour profiles -- data files
+ colord is a system service that makes it easy to manage, install and generate
+ colour profiles to accurately colour manage input and output devices.
+ .
+ It provides a D-Bus API for system frameworks to query, a persistent data
+ store, and a mechanism for session applications to set system policy.
+ .
+ This package contains data for the colord system daemon.</text>
+
+
+## File
+
+## Extracted License
+

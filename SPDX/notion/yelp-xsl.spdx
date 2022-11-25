@@ -1,0 +1,709 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/yelp-xsl_42.0-1-a7fc60ed-8539-58be-ba6c-db09a013b879
+DocumentName: yelp-xsl_42.0-1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-yelp-xsl
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:08:46Z
+
+
+## Package
+
+PackageName: yelp-xsl
+PackageVersion: 42.0-1
+SPDXID: SPDXRef-yelp-xsl
+PackageVerificationCode: 41cb30d935f4aa7208802bfa642c00f3560bca10
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://wiki.gnome.org/Apps/Yelp
+PackageComment: <text>XSL stylesheets for the yelp help browser
+ Yelp-xsl contains XSL stylesheets that are used by the yelp help browser
+ to format DocBook and Mallard documents.</text>
+
+
+## File
+
+FileName: /usr/share/doc/yelp-xsl/AUTHORS
+SPDXID: SPDXRef-yelp-xsl_file_0
+FileChecksum: c37b9df6feb274a64226f957576701d80e75f995
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_0
+
+
+FileName: /usr/share/doc/yelp-xsl/NEWS.gz
+SPDXID: SPDXRef-yelp-xsl_file_1
+FileChecksum: 44b228bd34bf14196093bd14f9e5dab7f136188e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_1
+
+
+FileName: /usr/share/doc/yelp-xsl/README
+SPDXID: SPDXRef-yelp-xsl_file_2
+FileChecksum: 8c128075c129828d28ac7e59aa47cb9d6a3cdcd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_2
+
+
+FileName: /usr/share/doc/yelp-xsl/changelog.Debian.gz
+SPDXID: SPDXRef-yelp-xsl_file_3
+FileChecksum: 8e509fbd36fd1f858edef60627b872d5f1a5f0cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_3
+
+
+FileName: /usr/share/doc/yelp-xsl/copyright
+SPDXID: SPDXRef-yelp-xsl_file_4
+FileChecksum: 6a294c32279463ba5d629baaa703b2482c2878ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_4
+
+
+FileName: /usr/share/pkgconfig/yelp-xsl.pc
+SPDXID: SPDXRef-yelp-xsl_file_5
+FileChecksum: 6e6e614aba1735ebb1196c9aa92c93051c0b32cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_5
+
+
+FileName: /usr/share/yelp-xsl/js/highlight.pack.js
+SPDXID: SPDXRef-yelp-xsl_file_6
+FileChecksum: ab5aa3aa0e5f24802699b035b645ea3a78575902
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_6
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/color.xsl
+SPDXID: SPDXRef-yelp-xsl_file_7
+FileChecksum: da2ba8ff40ec1c0f5945022dd91232f47974ecb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_7
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/css/core.css.tmpl
+SPDXID: SPDXRef-yelp-xsl_file_8
+FileChecksum: 998064c96828888a0bf89ae91a988472cb076d99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_8
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/css/docbook.css.tmpl
+SPDXID: SPDXRef-yelp-xsl_file_9
+FileChecksum: d3b9281742b57a4ef00503c5e086ee299fe6c4da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_9
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/css/elements.css.tmpl
+SPDXID: SPDXRef-yelp-xsl_file_10
+FileChecksum: c732f5deba1017fadcf92f04c7eddae52e19a0bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_10
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/css/mallard-editor.css.tmpl
+SPDXID: SPDXRef-yelp-xsl_file_11
+FileChecksum: ade7efa350992609ab170cb0fc823eaabbf942e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_11
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/css/mallard.css.tmpl
+SPDXID: SPDXRef-yelp-xsl_file_12
+FileChecksum: c7edd680f5ce1748121911b94bcefc82376735a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_12
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/css/syntax.css.tmpl
+SPDXID: SPDXRef-yelp-xsl_file_13
+FileChecksum: 48ac9d962eb21bede359fac6d148823ca0271bf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_13
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/domains/yelp-xsl.xml
+SPDXID: SPDXRef-yelp-xsl_file_14
+FileChecksum: b6f1e8a93dff195a64a2e701fdcc74abb421ed63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_14
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/html.xsl
+SPDXID: SPDXRef-yelp-xsl_file_15
+FileChecksum: 4e14586bc8da452e5361ba8b68e634f88be8d734
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_15
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/icons/yelp-note-advanced.svg
+SPDXID: SPDXRef-yelp-xsl_file_16
+FileChecksum: b3196e1f74771ebbf8c2a16a2d6515105a2126cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_16
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/icons/yelp-note-bug.svg
+SPDXID: SPDXRef-yelp-xsl_file_17
+FileChecksum: 726d4e3f927ab0d5e08de7caa4ab5fdd93455fb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_17
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/icons/yelp-note-important.svg
+SPDXID: SPDXRef-yelp-xsl_file_18
+FileChecksum: e18fc78f4f9520488e22843b0f00f34e11e34b8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_18
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/icons/yelp-note-note.svg
+SPDXID: SPDXRef-yelp-xsl_file_19
+FileChecksum: eca47502ba80f65648f3b86ed15407cfc8450158
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_19
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/icons/yelp-note-package.svg
+SPDXID: SPDXRef-yelp-xsl_file_20
+FileChecksum: a3ccb9646521fe8b986e09c726e907264e72c6c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_20
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/icons/yelp-note-tip.svg
+SPDXID: SPDXRef-yelp-xsl_file_21
+FileChecksum: 79af01f04ec959ec45521c8d7c81b1c9b53e965d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_21
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/icons/yelp-note-warning.svg
+SPDXID: SPDXRef-yelp-xsl_file_22
+FileChecksum: 33024812a8fc725fb34427a397b3da4eb350f77e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_22
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/icons.xsl
+SPDXID: SPDXRef-yelp-xsl_file_23
+FileChecksum: 19d0e26b6f6f09c3f540746bc16cf5043c150548
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_23
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/l10n-numbers.xsl
+SPDXID: SPDXRef-yelp-xsl_file_24
+FileChecksum: 9f3d273f2a9faa237e17460af0ad5aba1ce5974d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_24
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/l10n.xsl
+SPDXID: SPDXRef-yelp-xsl_file_25
+FileChecksum: 6819867e3828cdb9fd831ca652760c72e1d42fd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_25
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/tmpl.xsl
+SPDXID: SPDXRef-yelp-xsl_file_26
+FileChecksum: 92c985724577b5b850ce8af570a484defc495724
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_26
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/ttml.xsl
+SPDXID: SPDXRef-yelp-xsl_file_27
+FileChecksum: 974c8922355ed18928ff3ad3c506417cf48aec8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_27
+
+
+FileName: /usr/share/yelp-xsl/xslt/common/utils.xsl
+SPDXID: SPDXRef-yelp-xsl_file_28
+FileChecksum: f862605b0aba11d455d5579096326effb82d0ffe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_28
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/common/db-chunk.xsl
+SPDXID: SPDXRef-yelp-xsl_file_29
+FileChecksum: e27d7022a1edfe7c162492c33cfebfd1a1097971
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_29
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/common/db-common.xsl
+SPDXID: SPDXRef-yelp-xsl_file_30
+FileChecksum: 4ba408cfdbfdec3df870cc2ff225d1d325d018c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_30
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/common/db-profile.xsl
+SPDXID: SPDXRef-yelp-xsl_file_31
+FileChecksum: 7b8467dc0dc8aad98ecaca101267d2f5fadc9b80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_31
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/common/db-selectors.mod
+SPDXID: SPDXRef-yelp-xsl_file_32
+FileChecksum: cd122ee705775e72983cd34c90717ded0be1cd9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_32
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/common/db-title.xsl
+SPDXID: SPDXRef-yelp-xsl_file_33
+FileChecksum: 16bd85c3c5ae0034b708725e00815729f9fc036f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_33
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/common/db-xref.xsl
+SPDXID: SPDXRef-yelp-xsl_file_34
+FileChecksum: f730867237156cc5616e43a9e5e5cfcdc7fe84fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_34
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-bibliography.xsl
+SPDXID: SPDXRef-yelp-xsl_file_35
+FileChecksum: 9b49100b8e3b9b616f82129f61dc966bec21532c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_35
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-block.xsl
+SPDXID: SPDXRef-yelp-xsl_file_36
+FileChecksum: 462c6cbeccd31d27122a54ac02d9816055558b94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_36
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-callout.xsl
+SPDXID: SPDXRef-yelp-xsl_file_37
+FileChecksum: 60957b1ebb3eaabc0c292c94536d514f4bcb585d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_37
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-classsynopsis.xsl
+SPDXID: SPDXRef-yelp-xsl_file_38
+FileChecksum: 74605982765fcd509fc07a9a9d46179acb45a569
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_38
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-cmdsynopsis.xsl
+SPDXID: SPDXRef-yelp-xsl_file_39
+FileChecksum: 5d967b0aa2b02846367e483d18b0074a5594f648
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_39
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-division.xsl
+SPDXID: SPDXRef-yelp-xsl_file_40
+FileChecksum: 56c9e5366c4d11489707e1db0decd7a43ac18995
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_40
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-ebnf.xsl
+SPDXID: SPDXRef-yelp-xsl_file_41
+FileChecksum: c1bbe143cd001335db16d6e61724de981a81fb3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_41
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-footnote.xsl
+SPDXID: SPDXRef-yelp-xsl_file_42
+FileChecksum: c44e6cabd153400adb94fc538cefc74b86dadef6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_42
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-funcsynopsis.xsl
+SPDXID: SPDXRef-yelp-xsl_file_43
+FileChecksum: 9f310a59c7fcf58380f283cd767438bfb6ef0446
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_43
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-index.xsl
+SPDXID: SPDXRef-yelp-xsl_file_44
+FileChecksum: 10f22cbf540d4dc3574ed4b9416eab2d5daa0f5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_44
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-inline.xsl
+SPDXID: SPDXRef-yelp-xsl_file_45
+FileChecksum: 38b992e26822d98a8740846800046b416ed9536f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_45
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-links.xsl
+SPDXID: SPDXRef-yelp-xsl_file_46
+FileChecksum: 82f727e00c9a7ae877115fe51b220e5416ed3ea4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_46
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-list.xsl
+SPDXID: SPDXRef-yelp-xsl_file_47
+FileChecksum: e08585357121c1a51f7e528d9fc88e1d5e9ea923
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_47
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-math.xsl
+SPDXID: SPDXRef-yelp-xsl_file_48
+FileChecksum: 72b66132bbe0cda9993cbb1ef5e5648d8084720b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_48
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-media.xsl
+SPDXID: SPDXRef-yelp-xsl_file_49
+FileChecksum: f033d79e2783ebc51865ac756a53d7787ae7c515
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_49
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-refentry.xsl
+SPDXID: SPDXRef-yelp-xsl_file_50
+FileChecksum: 9f5625092014ca2e8d02f28e811a7faad036b357
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_50
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-suppressed.xsl
+SPDXID: SPDXRef-yelp-xsl_file_51
+FileChecksum: d44720078a39b02c659f7d2f5b8e198cf6f7cc61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_51
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-table.xsl
+SPDXID: SPDXRef-yelp-xsl_file_52
+FileChecksum: 64562ddf542f1d2923ae7b814abc70c343e6418a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_52
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html-xref.xsl
+SPDXID: SPDXRef-yelp-xsl_file_53
+FileChecksum: dc33c5bb17382806b882695414160503eb3a21ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_53
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2html.xsl
+SPDXID: SPDXRef-yelp-xsl_file_54
+FileChecksum: 87201f7b12702d5f8bc8ede2bfa1a796a9418a46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_54
+
+
+FileName: /usr/share/yelp-xsl/xslt/docbook/html/db2xhtml.xsl
+SPDXID: SPDXRef-yelp-xsl_file_55
+FileChecksum: 57af8cbd6fb71c08dfb0d3a964752575e0e2dcb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_55
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/cache/mal-cache.xsl
+SPDXID: SPDXRef-yelp-xsl_file_56
+FileChecksum: 5413dc70c02c4724275a212c3ccda8f8fa5d00dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_56
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/common/mal-gloss.xsl
+SPDXID: SPDXRef-yelp-xsl_file_57
+FileChecksum: 11926ca481a3d7b3060e90dcd94daa03ae5fbd42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_57
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/common/mal-if.xsl
+SPDXID: SPDXRef-yelp-xsl_file_58
+FileChecksum: beb18aece89716b9d07e50ba4e199c2d185eb5db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_58
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/common/mal-link.xsl
+SPDXID: SPDXRef-yelp-xsl_file_59
+FileChecksum: 558165b94c320c98752814e647460167578be321
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_59
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/common/mal-sort.xsl
+SPDXID: SPDXRef-yelp-xsl_file_60
+FileChecksum: 74dfb3e4a1742fc9c6ac61ffdb38f3d14f3717ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_60
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-api.xsl
+SPDXID: SPDXRef-yelp-xsl_file_61
+FileChecksum: 5a8b916c473c60c877d6f75e3585de906a2821d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_61
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-block.xsl
+SPDXID: SPDXRef-yelp-xsl_file_62
+FileChecksum: 338c5951c3830dc7dc3e433375464915e091da2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_62
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-gloss.xsl
+SPDXID: SPDXRef-yelp-xsl_file_63
+FileChecksum: 14d664a7440055eb97495da6149aceef07425e61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_63
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-inline.xsl
+SPDXID: SPDXRef-yelp-xsl_file_64
+FileChecksum: 056edc74a3894c2b0a142050338fb039e2dca48c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_64
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-links.xsl
+SPDXID: SPDXRef-yelp-xsl_file_65
+FileChecksum: 837d64fa184296bd9732e3289fed05c753a91126
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_65
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-list.xsl
+SPDXID: SPDXRef-yelp-xsl_file_66
+FileChecksum: 1ec5a062374abc943230ed71c3f84842b87c7d30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_66
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-math.xsl
+SPDXID: SPDXRef-yelp-xsl_file_67
+FileChecksum: e1a17334b25567d7b045b8492bcd67f89e1e863a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_67
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-media.xsl
+SPDXID: SPDXRef-yelp-xsl_file_68
+FileChecksum: 823b6721fd11d62cd28371dfd619338a1b0f0fb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_68
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-page.xsl
+SPDXID: SPDXRef-yelp-xsl_file_69
+FileChecksum: cbf6bf286283becd54215d31d22b20f31597d838
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_69
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-svg.xsl
+SPDXID: SPDXRef-yelp-xsl_file_70
+FileChecksum: 135bf7b284dd9fea3c6ebcce99e55a7081eed5b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_70
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-table.xsl
+SPDXID: SPDXRef-yelp-xsl_file_71
+FileChecksum: f6cd900e614781126b16be893532aee128715680
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_71
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html-ui.xsl
+SPDXID: SPDXRef-yelp-xsl_file_72
+FileChecksum: 1cf18b29652e1fc25149fc347a780f966f1e1cf5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_72
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2html.xsl
+SPDXID: SPDXRef-yelp-xsl_file_73
+FileChecksum: 5c972e71c5e37632c64339fff2a8a4f3224af9bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_73
+
+
+FileName: /usr/share/yelp-xsl/xslt/mallard/html/mal2xhtml.xsl
+SPDXID: SPDXRef-yelp-xsl_file_74
+FileChecksum: d2a1a46ece3e4c8b10085924dcdcbbf3ee84f415
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yelp-xsl CONTAINS SPDXRef-yelp-xsl_file_74
+
+
+## Extracted License
+

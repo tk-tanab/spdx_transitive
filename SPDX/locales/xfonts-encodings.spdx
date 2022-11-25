@@ -1,0 +1,30 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: xfonts-encodings_1:1.0.5-0ubuntu2
+DocumentNamespace: http://spdx.org/spdxdocs/xfonts-encodings_1:1.0.5-0ubuntu2-d5292b65-626f-5ae4-af40-02fdbcebd0eb
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xfonts-encodings
+ExternalDocumentRef: DocumentRef-x11-common http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-f9a376cd-91d5-5ff9-aa2e-5bf267fe6c1b SHA1: f873fc997eda08af659cc03f14318ddfa84ff04c
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: xfonts-encodings
+PackageVersion: 1:1.0.5-0ubuntu2
+SPDXID: SPDXRef-xfonts-encodings
+PackageComment: <text>Encodings for X.Org fonts
+ This package contains the encodings that map to specific characters.</text>
+Relationship: SPDXRef-xfonts-encodings DEPENDS_ON DocumentRef-x11-common:SPDXRef-x11-common
+
+
+## File
+
+## Extracted License
+

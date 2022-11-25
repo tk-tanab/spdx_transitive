@@ -1,0 +1,50 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-chardet_4.0.0-1
+DocumentNamespace: http://spdx.org/spdxdocs/python3-chardet_4.0.0-1-03eebed8-835a-5128-8b60-7f5fb1b0f201
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-chardet
+ExternalDocumentRef: DocumentRef-python3-pkg-resources http://spdx.org/spdxdocs/python3-pkg-resources_59.6.0-1.2-c1290c91-569b-5eb0-9733-8dd5d963a2fc SHA1: 55fbd14aa2c538d7779be8bad2902fc5eca3c485
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-chardet
+PackageVersion: 4.0.0-1
+SPDXID: SPDXRef-python3-chardet
+PackageHomePage: https://github.com/chardet/chardet
+PackageComment: <text>universal character encoding detector for Python3
+ Chardet takes a sequence of bytes in an unknown character encoding, and
+ attempts to determine the encoding.
+ .
+ Supported encodings:
+  * ASCII, UTF-8, UTF-16 (2 variants), UTF-32 (4 variants)
+  * Big5, GB2312, EUC-TW, HZ-GB-2312, ISO-2022-CN (Traditional and Simplified
+    Chinese)
+  * EUC-JP, SHIFT_JIS, ISO-2022-JP (Japanese)
+  * EUC-KR, ISO-2022-KR (Korean)
+  * KOI8-R, MacCyrillic, IBM855, IBM866, ISO-8859-5, windows-1251 (Cyrillic)
+  * ISO-8859-2, windows-1250 (Hungarian)
+  * ISO-8859-5, windows-1251 (Bulgarian)
+  * windows-1252 (English)
+  * ISO-8859-7, windows-1253 (Greek)
+  * ISO-8859-8, windows-1255 (Visual and Logical Hebrew)
+  * TIS-620 (Thai)
+ .
+ This library is a port of the auto-detection code in Mozilla.
+ .
+ This package contains the Python 3 version of the library.</text>
+Relationship: SPDXRef-python3-chardet DEPENDS_ON DocumentRef-python3-pkg-resources:SPDXRef-python3-pkg-resources
+
+
+## File
+
+## Extracted License
+

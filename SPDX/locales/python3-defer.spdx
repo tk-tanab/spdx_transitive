@@ -1,0 +1,37 @@
+## Document Information
+
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: python3-defer_1.0.6-2.1ubuntu1
+DocumentNamespace: http://spdx.org/spdxdocs/python3-defer_1.0.6-2.1ubuntu1-98ba1dce-b44a-5161-ac2f-96b8d615eb02
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-defer
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 11/21
+
+
+## Package
+
+PackageName: python3-defer
+PackageVersion: 1.0.6-2.1ubuntu1
+SPDXID: SPDXRef-python3-defer
+PackageHomePage: https://launchpad.net/python-defer
+PackageComment: <text>Small framework for asynchronous programming (Python 3)
+ The defer module provides an easy way to write asynchrouns Python 3 programs.
+ It is greatly inspired by Twisted's defer, but hasn't got any external
+ dependencies.
+ .
+ Furthermore it features decorators to write asynchronous D-Bus servers and
+ clients.
+ .
+ At first defer was part of aptdaemon, but moved to a separate project in
+ August of 2010.</text>
+
+
+## File
+
+## Extracted License
+

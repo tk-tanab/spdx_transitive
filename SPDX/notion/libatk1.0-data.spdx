@@ -1,0 +1,56 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/libatk1.0-data_2.36.0-3build1-dbccd3a9-cacd-52d8-adbc-e8c0a7462692
+DocumentName: libatk1.0-data_2.36.0-3build1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libatk1.0-data
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:07:38Z
+
+
+## Package
+
+PackageName: libatk1.0-data
+PackageVersion: 2.36.0-3build1
+SPDXID: SPDXRef-libatk1.0-data
+PackageVerificationCode: 58f5acc46654629913d849fb633e28338bbd9894
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://wiki.gnome.org/Accessibility
+PackageComment: <text>Common files for the ATK accessibility toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This contains the common files which the runtime libraries need.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libatk1.0-data/changelog.Debian.gz
+SPDXID: SPDXRef-libatk1.0-data_file_0
+FileChecksum: b177445f25a420b5762c5c213a42fd2426343087
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libatk1.0-data CONTAINS SPDXRef-libatk1.0-data_file_0
+
+
+FileName: /usr/share/doc/libatk1.0-data/copyright
+SPDXID: SPDXRef-libatk1.0-data_file_1
+FileChecksum: 382b5007cfaa8924fff3012256f20d7e23d66d4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libatk1.0-data CONTAINS SPDXRef-libatk1.0-data_file_1
+
+
+## Extracted License
+

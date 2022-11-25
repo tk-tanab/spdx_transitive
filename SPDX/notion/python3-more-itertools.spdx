@@ -1,0 +1,155 @@
+## Document Information
+
+DocumentNamespace: http://spdx.org/spdxdocs/python3-more-itertools_8.10.0-2-a1bba629-197b-5d6b-85e2-ca27b7bad391
+DocumentName: python3-more-itertools_8.10.0-2
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-more-itertools
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-11-25T18:09:26Z
+
+
+## Package
+
+PackageName: python3-more-itertools
+PackageVersion: 8.10.0-2
+SPDXID: SPDXRef-python3-more-itertools
+PackageVerificationCode: 5f046789e8782afc907837d15840bdc5b817b4e5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageHomePage: https://github.com/more-itertools/more-itertools/
+PackageComment: <text>library with routines for operating on iterables, beyond itertools (Python 3)
+ Python's itertools library is a gem - you can compose elegant solutions
+ for a variety of problems with the functions it provides.
+ More-itertools collects additional building blocks, recipes,
+ and routines for working with Python iterables.
+ .
+ This package contains the module for Python 3.</text>
+
+
+## File
+
+FileName: /usr/lib/python3/dist-packages/more_itertools/__init__.py
+SPDXID: SPDXRef-python3-more-itertools_file_0
+FileChecksum: c33024a261b32c645bf371ddef55258b2e569dec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_0
+
+
+FileName: /usr/lib/python3/dist-packages/more_itertools/__init__.pyi
+SPDXID: SPDXRef-python3-more-itertools_file_1
+FileChecksum: 9c8024d961a266875e5c2f71c85f4d7843e86e4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_1
+
+
+FileName: /usr/lib/python3/dist-packages/more_itertools/more.py
+SPDXID: SPDXRef-python3-more-itertools_file_2
+FileChecksum: 41d0545ecc11350a7e7d3e4e4345109b79f8ca2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_2
+
+
+FileName: /usr/lib/python3/dist-packages/more_itertools/more.pyi
+SPDXID: SPDXRef-python3-more-itertools_file_3
+FileChecksum: c9a2afbcf7610fc2109625254362f8ca7c4fe35c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_3
+
+
+FileName: /usr/lib/python3/dist-packages/more_itertools/py.typed
+SPDXID: SPDXRef-python3-more-itertools_file_4
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_4
+
+
+FileName: /usr/lib/python3/dist-packages/more_itertools/recipes.py
+SPDXID: SPDXRef-python3-more-itertools_file_5
+FileChecksum: d4484e9d4b577d9a6a849c58ca56430fa24cf59a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_5
+
+
+FileName: /usr/lib/python3/dist-packages/more_itertools/recipes.pyi
+SPDXID: SPDXRef-python3-more-itertools_file_6
+FileChecksum: 320ed6a220114d61bf8434f7212d327596b746ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_6
+
+
+FileName: /usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/PKG-INFO
+SPDXID: SPDXRef-python3-more-itertools_file_7
+FileChecksum: ecf8920b8de0db35e022d3489864c9964d3276e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_7
+
+
+FileName: /usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/dependency_links.txt
+SPDXID: SPDXRef-python3-more-itertools_file_8
+FileChecksum: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_8
+
+
+FileName: /usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/top_level.txt
+SPDXID: SPDXRef-python3-more-itertools_file_9
+FileChecksum: 77bf2a555e877dae3cd2ab541e48ce46ca5c836d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_9
+
+
+FileName: /usr/share/doc/python3-more-itertools/README.rst.gz
+SPDXID: SPDXRef-python3-more-itertools_file_10
+FileChecksum: 624d2bcb0209e5143381b1d7a628fcc5254570d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_10
+
+
+FileName: /usr/share/doc/python3-more-itertools/changelog.Debian.gz
+SPDXID: SPDXRef-python3-more-itertools_file_11
+FileChecksum: a2c1f2a5ec6595b0218c22c6ff634be3cc8d3063
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_11
+
+
+FileName: /usr/share/doc/python3-more-itertools/copyright
+SPDXID: SPDXRef-python3-more-itertools_file_12
+FileChecksum: 950744732f9e98dfb184cb439a8de03c1b948c1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-more-itertools CONTAINS SPDXRef-python3-more-itertools_file_12
+
+
+## Extracted License
+
