@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/powermgmt-base_1.36-1c627c10-3da9-5174-9093-2896bcc50b30
 DocumentName: powermgmt-base_1.36
-DocumentNamespace: http://spdx.org/spdxdocs/powermgmt-base_1.36-418f1bc8-fb58-5868-9c8d-8a8417072884
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-powermgmt-base
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:21:19Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: powermgmt-base
 PackageVersion: 1.36
 SPDXID: SPDXRef-powermgmt-base
+PackageVerificationCode: 4ff1a1da2e58f1b2aa9feb2a5ba10dd8212bb254
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>common utils for power management
  This package ships "on_ac_power" which lets you determine whether
  the system is powered from battery or an abundant supply.  It's
@@ -27,6 +31,60 @@ PackageComment: <text>common utils for power management
 
 
 ## File
+
+FileName: /sbin/on_ac_power
+SPDXID: SPDXRef-powermgmt-base_file_0
+FileChecksum: 892fd8f6073792dd64d9d33d400aba4fb1113d91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base_file_0
+
+
+FileName: /usr/share/doc/powermgmt-base/changelog.gz
+SPDXID: SPDXRef-powermgmt-base_file_1
+FileChecksum: ee0e216906c699adf7a3a7a08f668aa3f4d09ba3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base_file_1
+
+
+FileName: /usr/share/doc/powermgmt-base/copyright
+SPDXID: SPDXRef-powermgmt-base_file_2
+FileChecksum: 620e0696a074b3ba56cd8cca42a4edcc46db0ceb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base_file_2
+
+
+FileName: /usr/share/doc/powermgmt-base/power_supply.txt
+SPDXID: SPDXRef-powermgmt-base_file_3
+FileChecksum: 79f3d71aea53ee9ef8d562f416fee9dccd29ccbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base_file_3
+
+
+FileName: /usr/share/man/man1/on_ac_power.1.gz
+SPDXID: SPDXRef-powermgmt-base_file_4
+FileChecksum: 473326c431e71eb7b11fd62cd9ca12bfbc57db44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base_file_4
+
+
+FileName: /usr/bin/on_ac_power
+SPDXID: SPDXRef-powermgmt-base_file_5
+FileChecksum: 892fd8f6073792dd64d9d33d400aba4fb1113d91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base_file_5
+
 
 ## Extracted License
 

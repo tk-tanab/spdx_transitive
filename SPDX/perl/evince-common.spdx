@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/evince-common_42.3-0ubuntu2-67a2d320-dd63-5bea-ba0c-c435f26c3e8a
 DocumentName: evince-common_42.3-0ubuntu2
-DocumentNamespace: http://spdx.org/spdxdocs/evince-common_42.3-0ubuntu2-f496b7ff-5f38-54b8-a68a-60ff4b9e8d9a
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-evince-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:57Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: evince-common
 PackageVersion: 42.3-0ubuntu2
 SPDXID: SPDXRef-evince-common
+PackageVerificationCode: da11d87e7960c8a0e305b217d40d022089f448f9
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Apps/Evince
 PackageComment: <text>Document (PostScript, PDF) viewer - common files
  Evince is a simple multi-page document viewer.  It can display and print
@@ -31,6 +35,4470 @@ PackageComment: <text>Document (PostScript, PDF) viewer - common files
 
 
 ## File
+
+FileName: /usr/share/doc/evince-common/changelog.Debian.gz
+SPDXID: SPDXRef-evince-common_file_0
+FileChecksum: ac53892b5940b4a4781fb64f0d57790db2553823
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_0
+
+
+FileName: /usr/share/doc/evince-common/copyright
+SPDXID: SPDXRef-evince-common_file_1
+FileChecksum: a00f4047052db02c7e317b983bba6d229d71341b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_1
+
+
+FileName: /usr/share/evince/hand-open.png
+SPDXID: SPDXRef-evince-common_file_2
+FileChecksum: b9aa23bf1f3b7eed38d5700c6ceb57ce50082a45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_2
+
+
+FileName: /usr/share/evince/icons/hicolor/16x16/actions/object-rotate-left.png
+SPDXID: SPDXRef-evince-common_file_3
+FileChecksum: d2556196324a6e04f1d25395e0acb453a07c806b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_3
+
+
+FileName: /usr/share/evince/icons/hicolor/16x16/actions/object-rotate-right.png
+SPDXID: SPDXRef-evince-common_file_4
+FileChecksum: 300f313f3254794e7d6c31e5800f5d3be9bbc7a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_4
+
+
+FileName: /usr/share/evince/icons/hicolor/16x16/actions/view-page-continuous.png
+SPDXID: SPDXRef-evince-common_file_5
+FileChecksum: 6d859b56bf87d7e7f72520a4a0dee35e46484aa3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_5
+
+
+FileName: /usr/share/evince/icons/hicolor/16x16/actions/view-page-facing.png
+SPDXID: SPDXRef-evince-common_file_6
+FileChecksum: c64006ab4296377042d21139c5827f2aa9725c5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_6
+
+
+FileName: /usr/share/evince/icons/hicolor/16x16/actions/zoom-fit-height.png
+SPDXID: SPDXRef-evince-common_file_7
+FileChecksum: ada9dbf2ed6f844c9574386e904aa2b61451f024
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_7
+
+
+FileName: /usr/share/evince/icons/hicolor/16x16/actions/zoom-fit-width.png
+SPDXID: SPDXRef-evince-common_file_8
+FileChecksum: f21f137860f1b58b7ab73c556cb7654af07c8420
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_8
+
+
+FileName: /usr/share/evince/icons/hicolor/16x16/actions/zoom.png
+SPDXID: SPDXRef-evince-common_file_9
+FileChecksum: 6fd3e72594498e0f2a5fdc7fd01f986a72e3acc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_9
+
+
+FileName: /usr/share/evince/icons/hicolor/16x16/mimetypes/x-office-presentation.png
+SPDXID: SPDXRef-evince-common_file_10
+FileChecksum: 77e9985d4026040bfde57b84e7f5c15620dec5e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_10
+
+
+FileName: /usr/share/evince/icons/hicolor/22x22/actions/object-rotate-left.png
+SPDXID: SPDXRef-evince-common_file_11
+FileChecksum: a57b17add0455fd109fdcb767c1b21b019857aea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_11
+
+
+FileName: /usr/share/evince/icons/hicolor/22x22/actions/object-rotate-right.png
+SPDXID: SPDXRef-evince-common_file_12
+FileChecksum: 6a2cb543f9c49045b51cea528c0f510194961e76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_12
+
+
+FileName: /usr/share/evince/icons/hicolor/22x22/actions/view-page-continuous.png
+SPDXID: SPDXRef-evince-common_file_13
+FileChecksum: 40daa8a43b2ab928c65e52e3fb395a5b192533e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_13
+
+
+FileName: /usr/share/evince/icons/hicolor/22x22/actions/view-page-facing.png
+SPDXID: SPDXRef-evince-common_file_14
+FileChecksum: 6949134cf4494cecb0b992110a50d7a8d2fd302c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_14
+
+
+FileName: /usr/share/evince/icons/hicolor/22x22/actions/zoom-fit-page.png
+SPDXID: SPDXRef-evince-common_file_15
+FileChecksum: 4706da06f65d4002c53c12d472d98f6250590038
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_15
+
+
+FileName: /usr/share/evince/icons/hicolor/22x22/actions/zoom-fit-width.png
+SPDXID: SPDXRef-evince-common_file_16
+FileChecksum: ba8345b43e1308a3519f7f598b025ba96fd89ba6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_16
+
+
+FileName: /usr/share/evince/icons/hicolor/22x22/actions/zoom.png
+SPDXID: SPDXRef-evince-common_file_17
+FileChecksum: 6fe0c94a2cb0be603673b75c853ce04889904f71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_17
+
+
+FileName: /usr/share/evince/icons/hicolor/22x22/mimetypes/x-office-presentation.png
+SPDXID: SPDXRef-evince-common_file_18
+FileChecksum: 3baf15a7ba790271de0beaee9636fbc3ffcce6b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_18
+
+
+FileName: /usr/share/evince/icons/hicolor/24x24/actions/object-rotate-left.png
+SPDXID: SPDXRef-evince-common_file_19
+FileChecksum: a0d69756dcef9bea322f5741ca4dafd1f4c92af3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_19
+
+
+FileName: /usr/share/evince/icons/hicolor/24x24/actions/object-rotate-right.png
+SPDXID: SPDXRef-evince-common_file_20
+FileChecksum: cf02ded752665c38df0f4d302ccfadd2e123adbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_20
+
+
+FileName: /usr/share/evince/icons/hicolor/24x24/actions/stock_filters-invert.png
+SPDXID: SPDXRef-evince-common_file_21
+FileChecksum: 70e6ef612d3495e39d951369703abef189a338ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_21
+
+
+FileName: /usr/share/evince/icons/hicolor/24x24/actions/view-page-continuous.png
+SPDXID: SPDXRef-evince-common_file_22
+FileChecksum: 3a9cd35f2fdf798465a46d509534947e71caa0fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_22
+
+
+FileName: /usr/share/evince/icons/hicolor/24x24/actions/view-page-facing.png
+SPDXID: SPDXRef-evince-common_file_23
+FileChecksum: 5063ae6ae2745887a2ba014f3564b58b8a7bc607
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_23
+
+
+FileName: /usr/share/evince/icons/hicolor/24x24/actions/zoom-fit-height.png
+SPDXID: SPDXRef-evince-common_file_24
+FileChecksum: 13f4b121c04f1bd358beb7d8b24c5c7e046c3ea1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_24
+
+
+FileName: /usr/share/evince/icons/hicolor/24x24/actions/zoom-fit-width.png
+SPDXID: SPDXRef-evince-common_file_25
+FileChecksum: 1d2f3de513b2c93609e7d546c006c23320dd442b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_25
+
+
+FileName: /usr/share/evince/icons/hicolor/24x24/actions/zoom.png
+SPDXID: SPDXRef-evince-common_file_26
+FileChecksum: a668e4fb265fd8184189c500f7553e4d3673857e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_26
+
+
+FileName: /usr/share/evince/icons/hicolor/24x24/mimetypes/x-office-presentation.png
+SPDXID: SPDXRef-evince-common_file_27
+FileChecksum: 787c51c5f38072ba8831f867db6e3fae6652086e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_27
+
+
+FileName: /usr/share/evince/icons/hicolor/32x32/actions/object-rotate-left.png
+SPDXID: SPDXRef-evince-common_file_28
+FileChecksum: 314a5b1b571b5c92f1e08aabaa6709f775956177
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_28
+
+
+FileName: /usr/share/evince/icons/hicolor/32x32/actions/object-rotate-right.png
+SPDXID: SPDXRef-evince-common_file_29
+FileChecksum: 5d8242ffaa832ecd9553d6ddaf8b4ca55cf79856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_29
+
+
+FileName: /usr/share/evince/icons/hicolor/32x32/actions/view-page-continuous.png
+SPDXID: SPDXRef-evince-common_file_30
+FileChecksum: 5b2670066fe9ac418ca8ef76cf3c9b975a54b024
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_30
+
+
+FileName: /usr/share/evince/icons/hicolor/32x32/actions/view-page-facing.png
+SPDXID: SPDXRef-evince-common_file_31
+FileChecksum: d68871efac28c61be04229ad680ae679a5b63abe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_31
+
+
+FileName: /usr/share/evince/icons/hicolor/32x32/mimetypes/x-office-presentation.png
+SPDXID: SPDXRef-evince-common_file_32
+FileChecksum: 637626622aa7a83ed7bda1e9f1b7ca2d87f04e09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_32
+
+
+FileName: /usr/share/evince/icons/hicolor/48x48/actions/close.png
+SPDXID: SPDXRef-evince-common_file_33
+FileChecksum: 6da818b029a8754685846e56d65b467e638ed1d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_33
+
+
+FileName: /usr/share/evince/icons/hicolor/48x48/actions/resize-se.png
+SPDXID: SPDXRef-evince-common_file_34
+FileChecksum: 7819e2d077c897233d4244625038285955d017ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_34
+
+
+FileName: /usr/share/evince/icons/hicolor/48x48/actions/resize-sw.png
+SPDXID: SPDXRef-evince-common_file_35
+FileChecksum: 79bcbfd94b504e5a0823b3e7c117062d7e93afab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_35
+
+
+FileName: /usr/share/evince/icons/hicolor/48x48/actions/view-page-continuous.png
+SPDXID: SPDXRef-evince-common_file_36
+FileChecksum: 821cb39768f07324f048db22ae1741dbd738bbe4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_36
+
+
+FileName: /usr/share/evince/icons/hicolor/48x48/actions/view-page-facing.png
+SPDXID: SPDXRef-evince-common_file_37
+FileChecksum: 0d249f1653a2851dfcd0b5856528511fd5513014
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_37
+
+
+FileName: /usr/share/evince/icons/hicolor/scalable/actions/annotations-squiggly-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_38
+FileChecksum: 112bb7b0164b15e046c52743f4b4029161d4662c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_38
+
+
+FileName: /usr/share/evince/icons/hicolor/scalable/actions/annotations-text-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_39
+FileChecksum: dbfbf485c0fdfdff2b84af77361d4e055fe46413
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_39
+
+
+FileName: /usr/share/evince/icons/hicolor/scalable/actions/find-unsupported-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_40
+FileChecksum: 013e2c994868a97a548961ac184577504c50044c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_40
+
+
+FileName: /usr/share/evince/icons/hicolor/scalable/actions/object-rotate-left.svg
+SPDXID: SPDXRef-evince-common_file_41
+FileChecksum: 50bf217c3657b02d96bc7063d9c3221f679bab8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_41
+
+
+FileName: /usr/share/evince/icons/hicolor/scalable/actions/object-rotate-right.svg
+SPDXID: SPDXRef-evince-common_file_42
+FileChecksum: 9850c6dec65a3df45d54acb9eaefad44dc62a0e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_42
+
+
+FileName: /usr/share/evince/icons/hicolor/scalable/actions/outline-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_43
+FileChecksum: 7276dabb052a7ded4456fa9c4298e5bc9c25a960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_43
+
+
+FileName: /usr/share/evince/icons/hicolor/scalable/actions/view-sidebar-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_44
+FileChecksum: 0dd282b4720ac94b664f36382da07e4c1a2214bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_44
+
+
+FileName: /usr/share/evince/icons/hicolor/scalable/actions/visible-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_45
+FileChecksum: 47b3c042df8e8c947ba8b185e13729e60731c2a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_45
+
+
+FileName: /usr/share/evince/icons/hicolor/scalable/mimetypes/x-office-presentation.svg
+SPDXID: SPDXRef-evince-common_file_46
+FileChecksum: 309101831435090dbd18ef1f7b41a691547e52b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_46
+
+
+FileName: /usr/share/help/C/evince/annotation-properties.page
+SPDXID: SPDXRef-evince-common_file_47
+FileChecksum: 4abac75f80a557323ebf25a27c7735023bc79c8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_47
+
+
+FileName: /usr/share/help/C/evince/annotations-delete.page
+SPDXID: SPDXRef-evince-common_file_48
+FileChecksum: e543d14b60c989335ef2acb0983c3aa10c949c07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_48
+
+
+FileName: /usr/share/help/C/evince/annotations-disabled.page
+SPDXID: SPDXRef-evince-common_file_49
+FileChecksum: 442cdb0c27acadf4f80e8f419aaf3821067cb343
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_49
+
+
+FileName: /usr/share/help/C/evince/annotations-navigate.page
+SPDXID: SPDXRef-evince-common_file_50
+FileChecksum: 39a487c2fbbac5c2a9c5f0545c4aa0de36e16473
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_50
+
+
+FileName: /usr/share/help/C/evince/annotations-save.page
+SPDXID: SPDXRef-evince-common_file_51
+FileChecksum: 3a3e603cc033fc0725ef66fa6c4c3db9967e0520
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_51
+
+
+FileName: /usr/share/help/C/evince/annotations.page
+SPDXID: SPDXRef-evince-common_file_52
+FileChecksum: 82a25e3bca65063be934cb25073073610130c1e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_52
+
+
+FileName: /usr/share/help/C/evince/bookmarks.page
+SPDXID: SPDXRef-evince-common_file_53
+FileChecksum: c546db17d7bd222bd4456323aa9c04ddbc28fda0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_53
+
+
+FileName: /usr/share/help/C/evince/bug-filing.page
+SPDXID: SPDXRef-evince-common_file_54
+FileChecksum: dd1ba2f7093fc8f50f48b7b87b65e3729e1c4ba2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_54
+
+
+FileName: /usr/share/help/C/evince/commandline.page
+SPDXID: SPDXRef-evince-common_file_55
+FileChecksum: ffa6a622013598ec730113cd53ccb7132d666cb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_55
+
+
+FileName: /usr/share/help/C/evince/convertPostScript.page
+SPDXID: SPDXRef-evince-common_file_56
+FileChecksum: 1b09c4d0617b61f1708f78ced899f010169c6f42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_56
+
+
+FileName: /usr/share/help/C/evince/convertSVG.page
+SPDXID: SPDXRef-evince-common_file_57
+FileChecksum: 7a935c4ab07214fc561ae68361844bff7b653034
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_57
+
+
+FileName: /usr/share/help/C/evince/convertpdf.page
+SPDXID: SPDXRef-evince-common_file_58
+FileChecksum: 6ddef308e4cc41e5264e77feeb5b22364fd5fd6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_58
+
+
+FileName: /usr/share/help/C/evince/default-settings.page
+SPDXID: SPDXRef-evince-common_file_59
+FileChecksum: d397df8d0606b377629d05992cb603f0e9fd7713
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_59
+
+
+FileName: /usr/share/help/C/evince/develop.page
+SPDXID: SPDXRef-evince-common_file_60
+FileChecksum: 7cbb1e0b49b9663c40e2cafedf5d1e704eb3aec8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_60
+
+
+FileName: /usr/share/help/C/evince/documentation.page
+SPDXID: SPDXRef-evince-common_file_61
+FileChecksum: 4dd53d9b4355b356e57aab08bd28df183e22f585
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_61
+
+
+FileName: /usr/share/help/C/evince/duplex-10pages.page
+SPDXID: SPDXRef-evince-common_file_62
+FileChecksum: 08cad9515a213c5127c3c68e842df9d68d99c5c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_62
+
+
+FileName: /usr/share/help/C/evince/duplex-11pages.page
+SPDXID: SPDXRef-evince-common_file_63
+FileChecksum: 1675a94445bfa9f87670bf3db61dc981ae88a2a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_63
+
+
+FileName: /usr/share/help/C/evince/duplex-12pages.page
+SPDXID: SPDXRef-evince-common_file_64
+FileChecksum: c95bae6f6e4ebf4a806349d40ff83767d864979f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_64
+
+
+FileName: /usr/share/help/C/evince/duplex-13pages.page
+SPDXID: SPDXRef-evince-common_file_65
+FileChecksum: 0ac0a9f4001b02b92068a3b43635948d27d1d9c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_65
+
+
+FileName: /usr/share/help/C/evince/duplex-14pages.page
+SPDXID: SPDXRef-evince-common_file_66
+FileChecksum: 6ac93a39f50e7ba525c6a528df7df22393e99401
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_66
+
+
+FileName: /usr/share/help/C/evince/duplex-15pages.page
+SPDXID: SPDXRef-evince-common_file_67
+FileChecksum: a85f367007cbb3be0e5eb95da11cfb2f2b9bd4c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_67
+
+
+FileName: /usr/share/help/C/evince/duplex-16pages.page
+SPDXID: SPDXRef-evince-common_file_68
+FileChecksum: 4e72f7c68593354a2acfe66cdfbaf9168327f7af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_68
+
+
+FileName: /usr/share/help/C/evince/duplex-3pages.page
+SPDXID: SPDXRef-evince-common_file_69
+FileChecksum: 29faab2754e5fdbe0f35e2ec0a225e3eb5c9c133
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_69
+
+
+FileName: /usr/share/help/C/evince/duplex-4pages.page
+SPDXID: SPDXRef-evince-common_file_70
+FileChecksum: e0c3e04455a9512f28ffae21fdf0c2851d6a017a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_70
+
+
+FileName: /usr/share/help/C/evince/duplex-5pages.page
+SPDXID: SPDXRef-evince-common_file_71
+FileChecksum: 05c1665e38142f382948ae2d7903816b54ee5319
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_71
+
+
+FileName: /usr/share/help/C/evince/duplex-6pages.page
+SPDXID: SPDXRef-evince-common_file_72
+FileChecksum: a0a256e64880733cf4789a29e07d9330de020ce6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_72
+
+
+FileName: /usr/share/help/C/evince/duplex-7pages.page
+SPDXID: SPDXRef-evince-common_file_73
+FileChecksum: 456894fde77d7684c338602b5b8dabb9d2c9d23f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_73
+
+
+FileName: /usr/share/help/C/evince/duplex-8pages.page
+SPDXID: SPDXRef-evince-common_file_74
+FileChecksum: 2633480ed9619b93bc3d2b8645ed09853eea1760
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_74
+
+
+FileName: /usr/share/help/C/evince/duplex-9pages.page
+SPDXID: SPDXRef-evince-common_file_75
+FileChecksum: 2f396503f11ee801b069483b40af607d61b265a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_75
+
+
+FileName: /usr/share/help/C/evince/duplex-npages.page
+SPDXID: SPDXRef-evince-common_file_76
+FileChecksum: d25c08131da916287d47a3aeb785a44896a535cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_76
+
+
+FileName: /usr/share/help/C/evince/editing.page
+SPDXID: SPDXRef-evince-common_file_77
+FileChecksum: 583c9e6ec2fcf00f5249bd111759112f673b3cdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_77
+
+
+FileName: /usr/share/help/C/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_78
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_78
+
+
+FileName: /usr/share/help/C/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_79
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_79
+
+
+FileName: /usr/share/help/C/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_80
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_80
+
+
+FileName: /usr/share/help/C/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_81
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_81
+
+
+FileName: /usr/share/help/C/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_82
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_82
+
+
+FileName: /usr/share/help/C/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_83
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_83
+
+
+FileName: /usr/share/help/C/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_84
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_84
+
+
+FileName: /usr/share/help/C/evince/finding.page
+SPDXID: SPDXRef-evince-common_file_85
+FileChecksum: e17ad700f0290a8a6caba03270d1270bd626e0d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_85
+
+
+FileName: /usr/share/help/C/evince/formats.page
+SPDXID: SPDXRef-evince-common_file_86
+FileChecksum: 07377161bfb307ad2537866fca4ff320bf68cfb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_86
+
+
+FileName: /usr/share/help/C/evince/forms-saving.page
+SPDXID: SPDXRef-evince-common_file_87
+FileChecksum: 2b58875396521e88c51242eff9327ed5ca54144e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_87
+
+
+FileName: /usr/share/help/C/evince/forms.page
+SPDXID: SPDXRef-evince-common_file_88
+FileChecksum: d0336b07cf420a90752f49fb368b7d229a4136e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_88
+
+
+FileName: /usr/share/help/C/evince/headerbar.page
+SPDXID: SPDXRef-evince-common_file_89
+FileChecksum: e6e9d4cd12c51e1e0e2acb92eaf3d007b4df1ed3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_89
+
+
+FileName: /usr/share/help/C/evince/index.page
+SPDXID: SPDXRef-evince-common_file_90
+FileChecksum: b1a6c053088d36b6f89afc230eade5dddc1aba0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_90
+
+
+FileName: /usr/share/help/C/evince/introduction.page
+SPDXID: SPDXRef-evince-common_file_91
+FileChecksum: 5af76bb1bdc99a03ee69eeb3b471264df25d9f8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_91
+
+
+FileName: /usr/share/help/C/evince/invert-colors.page
+SPDXID: SPDXRef-evince-common_file_92
+FileChecksum: b74aa13427d6bc903f0b656341629113ca3bd97e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_92
+
+
+FileName: /usr/share/help/C/evince/legal-unported.xml
+SPDXID: SPDXRef-evince-common_file_93
+FileChecksum: 36904afd6103363dc80cd1d968acf92d77c8d0cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_93
+
+
+FileName: /usr/share/help/C/evince/legal.xml
+SPDXID: SPDXRef-evince-common_file_94
+FileChecksum: cb94c0d3d1a465a8e9cc38e623140987f90a1136
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_94
+
+
+FileName: /usr/share/help/C/evince/license.page
+SPDXID: SPDXRef-evince-common_file_95
+FileChecksum: 99449fd3e6417f1f32dbe2a5b252880badb25704
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_95
+
+
+FileName: /usr/share/help/C/evince/movingaround.page
+SPDXID: SPDXRef-evince-common_file_96
+FileChecksum: 1b8390af627142b1aadd5435a0a90997eeda5ad0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_96
+
+
+FileName: /usr/share/help/C/evince/noprint.page
+SPDXID: SPDXRef-evince-common_file_97
+FileChecksum: c02de1c1e7bd834d5b040b98d33ecd04257e5a2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_97
+
+
+FileName: /usr/share/help/C/evince/openerror.page
+SPDXID: SPDXRef-evince-common_file_98
+FileChecksum: c6473ac02b97590013cc1778e2b6c6a6daaceb03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_98
+
+
+FileName: /usr/share/help/C/evince/opening.page
+SPDXID: SPDXRef-evince-common_file_99
+FileChecksum: 7802f9a62e17722700cdaba80c6829c9ae8e15ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_99
+
+
+FileName: /usr/share/help/C/evince/password.page
+SPDXID: SPDXRef-evince-common_file_100
+FileChecksum: 2d710ba0fd8d5f69ce8592586d12e142338967eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_100
+
+
+FileName: /usr/share/help/C/evince/presentations.page
+SPDXID: SPDXRef-evince-common_file_101
+FileChecksum: 39c75fcb2ac2514ddca65358f3aab2f022792c09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_101
+
+
+FileName: /usr/share/help/C/evince/print-2sided.page
+SPDXID: SPDXRef-evince-common_file_102
+FileChecksum: aa76849de6d60b94192f51d591d5efe592264017
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_102
+
+
+FileName: /usr/share/help/C/evince/print-booklet.page
+SPDXID: SPDXRef-evince-common_file_103
+FileChecksum: c340dd17ec571b4880ebeb41b5b45f168d961636
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_103
+
+
+FileName: /usr/share/help/C/evince/print-differentsize.page
+SPDXID: SPDXRef-evince-common_file_104
+FileChecksum: c822ca327605305e33ace1271eac25562a674ce0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_104
+
+
+FileName: /usr/share/help/C/evince/print-order.page
+SPDXID: SPDXRef-evince-common_file_105
+FileChecksum: c0a2206095fe8cc5bf2650501fd779a0375ae20f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_105
+
+
+FileName: /usr/share/help/C/evince/print-pagescaling.page
+SPDXID: SPDXRef-evince-common_file_106
+FileChecksum: fadc1ba8852b2b6e7e491df849f95253cf57a8d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_106
+
+
+FileName: /usr/share/help/C/evince/print-select.page
+SPDXID: SPDXRef-evince-common_file_107
+FileChecksum: 1a3e68862ebf1a0710872b07d12eb3a63090174b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_107
+
+
+FileName: /usr/share/help/C/evince/printing.page
+SPDXID: SPDXRef-evince-common_file_108
+FileChecksum: 56cf2f0b0a716bf329b875a5461556c2c0feec96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_108
+
+
+FileName: /usr/share/help/C/evince/reload.page
+SPDXID: SPDXRef-evince-common_file_109
+FileChecksum: 1defeaa6498b6dc5bed53ddb4c7e4c76f8b7582a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_109
+
+
+FileName: /usr/share/help/C/evince/singlesided-13-16pages.page
+SPDXID: SPDXRef-evince-common_file_110
+FileChecksum: da61abeb24f8e44a697a36fdb3fc4815f2690575
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_110
+
+
+FileName: /usr/share/help/C/evince/singlesided-17-20pages.page
+SPDXID: SPDXRef-evince-common_file_111
+FileChecksum: ab77f4afff7db72e443e2885df67611d7e426a3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_111
+
+
+FileName: /usr/share/help/C/evince/singlesided-3-4pages.page
+SPDXID: SPDXRef-evince-common_file_112
+FileChecksum: 88452a60dadbbeb2b7922ff8e79c71d136ccd08d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_112
+
+
+FileName: /usr/share/help/C/evince/singlesided-5-8pages.page
+SPDXID: SPDXRef-evince-common_file_113
+FileChecksum: bf58a11155fb321974de5a66b0a7e45d8eaea5ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_113
+
+
+FileName: /usr/share/help/C/evince/singlesided-9-12pages.page
+SPDXID: SPDXRef-evince-common_file_114
+FileChecksum: 66591f7ed538fa27deb0ce4791e36bd78e602aec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_114
+
+
+FileName: /usr/share/help/C/evince/singlesided-npages.page
+SPDXID: SPDXRef-evince-common_file_115
+FileChecksum: f787052ceadd49deb1a9927f3bfdf17311cd7c6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_115
+
+
+FileName: /usr/share/help/C/evince/synctex-beamer.page
+SPDXID: SPDXRef-evince-common_file_116
+FileChecksum: 2f819f585e6122c736b15d96de7c1fe43fbd3dcb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_116
+
+
+FileName: /usr/share/help/C/evince/synctex-compile.page
+SPDXID: SPDXRef-evince-common_file_117
+FileChecksum: 174ed3b7f6e9ddf89fd07b57f8bc66658d515f10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_117
+
+
+FileName: /usr/share/help/C/evince/synctex-editors.page
+SPDXID: SPDXRef-evince-common_file_118
+FileChecksum: 7bd96d1665f8c35fc893dcb4a0cb9b15d6d76a79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_118
+
+
+FileName: /usr/share/help/C/evince/synctex-search.page
+SPDXID: SPDXRef-evince-common_file_119
+FileChecksum: dc09b1a7e5666b1fba5fc18215ef041e4335732e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_119
+
+
+FileName: /usr/share/help/C/evince/synctex-support.page
+SPDXID: SPDXRef-evince-common_file_120
+FileChecksum: bd0c18e069cb87416d2d10e2e4bd0f0bcac8097c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_120
+
+
+FileName: /usr/share/help/C/evince/synctex.page
+SPDXID: SPDXRef-evince-common_file_121
+FileChecksum: e3dd93681c5292d18a2d6c3fa7fd33585579b0a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_121
+
+
+FileName: /usr/share/help/C/evince/textselection.page
+SPDXID: SPDXRef-evince-common_file_122
+FileChecksum: 5a188b108d2a7b87ca1ce1fe506e72f4c33f754a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_122
+
+
+FileName: /usr/share/help/C/evince/translate.page
+SPDXID: SPDXRef-evince-common_file_123
+FileChecksum: e75d479136ad35d3df8971169e086193a5093b4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_123
+
+
+FileName: /usr/share/lintian/overrides/evince-common
+SPDXID: SPDXRef-evince-common_file_124
+FileChecksum: 8ace4ecc7625c012e552e0a81c70b7573d6a4529
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_124
+
+
+FileName: /usr/share/help/bg/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_125
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_125
+
+
+FileName: /usr/share/help/bg/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_126
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_126
+
+
+FileName: /usr/share/help/bg/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_127
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_127
+
+
+FileName: /usr/share/help/bg/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_128
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_128
+
+
+FileName: /usr/share/help/bg/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_129
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_129
+
+
+FileName: /usr/share/help/bg/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_130
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_130
+
+
+FileName: /usr/share/help/bg/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_131
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_131
+
+
+FileName: /usr/share/help/ca/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_132
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_132
+
+
+FileName: /usr/share/help/ca/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_133
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_133
+
+
+FileName: /usr/share/help/ca/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_134
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_134
+
+
+FileName: /usr/share/help/ca/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_135
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_135
+
+
+FileName: /usr/share/help/ca/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_136
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_136
+
+
+FileName: /usr/share/help/ca/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_137
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_137
+
+
+FileName: /usr/share/help/ca/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_138
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_138
+
+
+FileName: /usr/share/help/cs/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_139
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_139
+
+
+FileName: /usr/share/help/cs/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_140
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_140
+
+
+FileName: /usr/share/help/cs/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_141
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_141
+
+
+FileName: /usr/share/help/cs/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_142
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_142
+
+
+FileName: /usr/share/help/cs/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_143
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_143
+
+
+FileName: /usr/share/help/cs/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_144
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_144
+
+
+FileName: /usr/share/help/cs/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_145
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_145
+
+
+FileName: /usr/share/help/da/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_146
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_146
+
+
+FileName: /usr/share/help/da/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_147
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_147
+
+
+FileName: /usr/share/help/da/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_148
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_148
+
+
+FileName: /usr/share/help/da/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_149
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_149
+
+
+FileName: /usr/share/help/da/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_150
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_150
+
+
+FileName: /usr/share/help/da/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_151
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_151
+
+
+FileName: /usr/share/help/da/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_152
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_152
+
+
+FileName: /usr/share/help/de/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_153
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_153
+
+
+FileName: /usr/share/help/de/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_154
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_154
+
+
+FileName: /usr/share/help/de/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_155
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_155
+
+
+FileName: /usr/share/help/de/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_156
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_156
+
+
+FileName: /usr/share/help/de/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_157
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_157
+
+
+FileName: /usr/share/help/de/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_158
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_158
+
+
+FileName: /usr/share/help/de/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_159
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_159
+
+
+FileName: /usr/share/help/el/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_160
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_160
+
+
+FileName: /usr/share/help/el/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_161
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_161
+
+
+FileName: /usr/share/help/el/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_162
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_162
+
+
+FileName: /usr/share/help/el/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_163
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_163
+
+
+FileName: /usr/share/help/el/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_164
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_164
+
+
+FileName: /usr/share/help/el/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_165
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_165
+
+
+FileName: /usr/share/help/el/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_166
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_166
+
+
+FileName: /usr/share/help/en_GB/evince/annotation-properties.page
+SPDXID: SPDXRef-evince-common_file_167
+FileChecksum: fbb6510248d91e73ef95824c8ff10f4558b9ec5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_167
+
+
+FileName: /usr/share/help/en_GB/evince/annotations-delete.page
+SPDXID: SPDXRef-evince-common_file_168
+FileChecksum: 80824d917f56b02be1b97cec21a93465d6d07a71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_168
+
+
+FileName: /usr/share/help/en_GB/evince/annotations-disabled.page
+SPDXID: SPDXRef-evince-common_file_169
+FileChecksum: 5a2f3f9c60792020cebc12b361711ae4fc874244
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_169
+
+
+FileName: /usr/share/help/en_GB/evince/annotations-navigate.page
+SPDXID: SPDXRef-evince-common_file_170
+FileChecksum: c573eea4b73f38be752c9acc2d80f209577d5b1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_170
+
+
+FileName: /usr/share/help/en_GB/evince/annotations-save.page
+SPDXID: SPDXRef-evince-common_file_171
+FileChecksum: 8e5a1577495613831869b3c557f9b4408e043b8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_171
+
+
+FileName: /usr/share/help/en_GB/evince/annotations.page
+SPDXID: SPDXRef-evince-common_file_172
+FileChecksum: e035d3d608a296d2225fa0dae8a2e54672966956
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_172
+
+
+FileName: /usr/share/help/en_GB/evince/bookmarks.page
+SPDXID: SPDXRef-evince-common_file_173
+FileChecksum: d0bf80ac78679bf7fd6384658141e7a0692eb4f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_173
+
+
+FileName: /usr/share/help/en_GB/evince/bug-filing.page
+SPDXID: SPDXRef-evince-common_file_174
+FileChecksum: ba46d9d5c6694c45de9915c29faf684a6d90fc74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_174
+
+
+FileName: /usr/share/help/en_GB/evince/commandline.page
+SPDXID: SPDXRef-evince-common_file_175
+FileChecksum: 5e2b3e0cc01cd2c813f0624672aa895312de92dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_175
+
+
+FileName: /usr/share/help/en_GB/evince/convertPostScript.page
+SPDXID: SPDXRef-evince-common_file_176
+FileChecksum: f4ac2a95d719b6418bd05a74a2d65cbc127d6a2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_176
+
+
+FileName: /usr/share/help/en_GB/evince/convertSVG.page
+SPDXID: SPDXRef-evince-common_file_177
+FileChecksum: 3f8b6a97fcbbd2de5fd1fea9344e00ddc911d9b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_177
+
+
+FileName: /usr/share/help/en_GB/evince/convertpdf.page
+SPDXID: SPDXRef-evince-common_file_178
+FileChecksum: 6507aaaa16b194cb5d270a54b46d8c2718cf2475
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_178
+
+
+FileName: /usr/share/help/en_GB/evince/default-settings.page
+SPDXID: SPDXRef-evince-common_file_179
+FileChecksum: 62d9fc3a18834185464835b59ea5cfe082901161
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_179
+
+
+FileName: /usr/share/help/en_GB/evince/develop.page
+SPDXID: SPDXRef-evince-common_file_180
+FileChecksum: 74002b7cbc375548ae5b8607dc264cd64fe0d7e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_180
+
+
+FileName: /usr/share/help/en_GB/evince/documentation.page
+SPDXID: SPDXRef-evince-common_file_181
+FileChecksum: 3472e4fa9c37e58e16aa83bd9952bdb88af77349
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_181
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-10pages.page
+SPDXID: SPDXRef-evince-common_file_182
+FileChecksum: 7846f48b22cb946a6964f627bfea73050a5352a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_182
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-11pages.page
+SPDXID: SPDXRef-evince-common_file_183
+FileChecksum: d03d6b9a8ddafbb959f6532be052966402ab5fed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_183
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-12pages.page
+SPDXID: SPDXRef-evince-common_file_184
+FileChecksum: 83dcb8caf62212602df700407a33fe3bccae788c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_184
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-13pages.page
+SPDXID: SPDXRef-evince-common_file_185
+FileChecksum: 9eaaa9657bde4506830cf625225497e1c59a5fb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_185
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-14pages.page
+SPDXID: SPDXRef-evince-common_file_186
+FileChecksum: 46ead659fa2cc7c256539460b670ee59df469d1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_186
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-15pages.page
+SPDXID: SPDXRef-evince-common_file_187
+FileChecksum: 97446cb159e9e067eefa4ec1a9a2d532f6d3213e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_187
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-16pages.page
+SPDXID: SPDXRef-evince-common_file_188
+FileChecksum: 7d39c18c5e078476716df81f4302647c8379af53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_188
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-3pages.page
+SPDXID: SPDXRef-evince-common_file_189
+FileChecksum: 91e7ae79b3c882bfb041f08fda9770ea43fa9d76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_189
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-4pages.page
+SPDXID: SPDXRef-evince-common_file_190
+FileChecksum: 329903bbdf6f234b816aa0315fcc678c48da2e5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_190
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-5pages.page
+SPDXID: SPDXRef-evince-common_file_191
+FileChecksum: 9780033cd85cf5883ff8a07908e9858125b11efa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_191
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-6pages.page
+SPDXID: SPDXRef-evince-common_file_192
+FileChecksum: 0dd718225ab36c8f2b3b948c407db574551b887f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_192
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-7pages.page
+SPDXID: SPDXRef-evince-common_file_193
+FileChecksum: 72ff18bdb2c735a3e67ca8e2691221856207ff22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_193
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-8pages.page
+SPDXID: SPDXRef-evince-common_file_194
+FileChecksum: 4f9a7c81daf975e129e5898e08ddde907a9ecb54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_194
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-9pages.page
+SPDXID: SPDXRef-evince-common_file_195
+FileChecksum: 25bdfd86e71f54ed2c5d6ef7e9f9372ffb9686c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_195
+
+
+FileName: /usr/share/help/en_GB/evince/duplex-npages.page
+SPDXID: SPDXRef-evince-common_file_196
+FileChecksum: d1972c3f4092dc7cb797889f2ba60f4dd41ba0a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_196
+
+
+FileName: /usr/share/help/en_GB/evince/editing.page
+SPDXID: SPDXRef-evince-common_file_197
+FileChecksum: f9262a9f84d647dac8f49fa3e39e42f86d84c5f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_197
+
+
+FileName: /usr/share/help/en_GB/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_198
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_198
+
+
+FileName: /usr/share/help/en_GB/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_199
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_199
+
+
+FileName: /usr/share/help/en_GB/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_200
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_200
+
+
+FileName: /usr/share/help/en_GB/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_201
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_201
+
+
+FileName: /usr/share/help/en_GB/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_202
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_202
+
+
+FileName: /usr/share/help/en_GB/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_203
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_203
+
+
+FileName: /usr/share/help/en_GB/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_204
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_204
+
+
+FileName: /usr/share/help/en_GB/evince/finding.page
+SPDXID: SPDXRef-evince-common_file_205
+FileChecksum: 88411831eee8fe25161bf87d1a07499bbf6961fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_205
+
+
+FileName: /usr/share/help/en_GB/evince/formats.page
+SPDXID: SPDXRef-evince-common_file_206
+FileChecksum: 223d44559688264816cfec1e9001cef3cb628bf2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_206
+
+
+FileName: /usr/share/help/en_GB/evince/forms-saving.page
+SPDXID: SPDXRef-evince-common_file_207
+FileChecksum: 4babba2ddd9d173ac0dea1ff01b6514f65672ec9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_207
+
+
+FileName: /usr/share/help/en_GB/evince/forms.page
+SPDXID: SPDXRef-evince-common_file_208
+FileChecksum: 6916dc32b10713db4d7412b7afe20798a1aa1262
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_208
+
+
+FileName: /usr/share/help/en_GB/evince/headerbar.page
+SPDXID: SPDXRef-evince-common_file_209
+FileChecksum: f16c7e9a30bf91eb2d587a7c3b1b0ec7830e4d45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_209
+
+
+FileName: /usr/share/help/en_GB/evince/index.page
+SPDXID: SPDXRef-evince-common_file_210
+FileChecksum: 56f0bf64f0ee0614096128f09d6000ddcd2869e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_210
+
+
+FileName: /usr/share/help/en_GB/evince/introduction.page
+SPDXID: SPDXRef-evince-common_file_211
+FileChecksum: 6179848c1a4b9e924aed204a37115f5c7d4c92d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_211
+
+
+FileName: /usr/share/help/en_GB/evince/invert-colors.page
+SPDXID: SPDXRef-evince-common_file_212
+FileChecksum: f5971acccc770dce373e3739c567e10ff876fc1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_212
+
+
+FileName: /usr/share/help/en_GB/evince/legal-unported.xml
+SPDXID: SPDXRef-evince-common_file_213
+FileChecksum: 8641d7970068853135be6a1606a677965ce42005
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_213
+
+
+FileName: /usr/share/help/en_GB/evince/legal.xml
+SPDXID: SPDXRef-evince-common_file_214
+FileChecksum: d5342b6641965d9d25d23228fbbd352b38ec8f27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_214
+
+
+FileName: /usr/share/help/en_GB/evince/license.page
+SPDXID: SPDXRef-evince-common_file_215
+FileChecksum: 6f605d2c32967f5e141b8fdbc1c8ac46edf5e4b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_215
+
+
+FileName: /usr/share/help/en_GB/evince/movingaround.page
+SPDXID: SPDXRef-evince-common_file_216
+FileChecksum: 0d33d6450a9843085a313fd0a7d410e530c468ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_216
+
+
+FileName: /usr/share/help/en_GB/evince/noprint.page
+SPDXID: SPDXRef-evince-common_file_217
+FileChecksum: a7a095b758be6640591f3f9122294c6bacc69453
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_217
+
+
+FileName: /usr/share/help/en_GB/evince/openerror.page
+SPDXID: SPDXRef-evince-common_file_218
+FileChecksum: a79870f290e35e1035ac37c6bda78e52c6bb00b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_218
+
+
+FileName: /usr/share/help/en_GB/evince/opening.page
+SPDXID: SPDXRef-evince-common_file_219
+FileChecksum: 0b76582d83b63438a1eedff1ec2fc017dd6f09ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_219
+
+
+FileName: /usr/share/help/en_GB/evince/password.page
+SPDXID: SPDXRef-evince-common_file_220
+FileChecksum: 94436a67ff2fcbf31ac158f8fbb538fd9fb7f680
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_220
+
+
+FileName: /usr/share/help/en_GB/evince/presentations.page
+SPDXID: SPDXRef-evince-common_file_221
+FileChecksum: a35de5045429fd638e08b75148094c4aa1447432
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_221
+
+
+FileName: /usr/share/help/en_GB/evince/print-2sided.page
+SPDXID: SPDXRef-evince-common_file_222
+FileChecksum: 32cbab3f453217a7dabc0ec7974b67d5fa52a292
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_222
+
+
+FileName: /usr/share/help/en_GB/evince/print-booklet.page
+SPDXID: SPDXRef-evince-common_file_223
+FileChecksum: 2d845109ec9b7902a6a93a275f09261beba140e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_223
+
+
+FileName: /usr/share/help/en_GB/evince/print-differentsize.page
+SPDXID: SPDXRef-evince-common_file_224
+FileChecksum: aa0b5e68cb53560b23c054fe3c62e2c5602a2d0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_224
+
+
+FileName: /usr/share/help/en_GB/evince/print-order.page
+SPDXID: SPDXRef-evince-common_file_225
+FileChecksum: b2e9dba0e77eef799810c3801dc665176db7d914
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_225
+
+
+FileName: /usr/share/help/en_GB/evince/print-pagescaling.page
+SPDXID: SPDXRef-evince-common_file_226
+FileChecksum: 75519259752dfa25a4c24e3c5974d136b8159b3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_226
+
+
+FileName: /usr/share/help/en_GB/evince/print-select.page
+SPDXID: SPDXRef-evince-common_file_227
+FileChecksum: b42a62392dabe457156e19c94f3efcc6731b3e6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_227
+
+
+FileName: /usr/share/help/en_GB/evince/printing.page
+SPDXID: SPDXRef-evince-common_file_228
+FileChecksum: eac11dddd52a33016761544257b19f50850c9e53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_228
+
+
+FileName: /usr/share/help/en_GB/evince/reload.page
+SPDXID: SPDXRef-evince-common_file_229
+FileChecksum: 3f2ad792b754e93f4a4e43b01bc49d1307d9bdc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_229
+
+
+FileName: /usr/share/help/en_GB/evince/singlesided-13-16pages.page
+SPDXID: SPDXRef-evince-common_file_230
+FileChecksum: b09727cecda20edb10d7c261343a2c0e851d435e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_230
+
+
+FileName: /usr/share/help/en_GB/evince/singlesided-17-20pages.page
+SPDXID: SPDXRef-evince-common_file_231
+FileChecksum: ab62ba64e6fadbca6c661db79b87e3ef101929c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_231
+
+
+FileName: /usr/share/help/en_GB/evince/singlesided-3-4pages.page
+SPDXID: SPDXRef-evince-common_file_232
+FileChecksum: 2e3aac87b154a4b2e69a8682de84bf870f8e7805
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_232
+
+
+FileName: /usr/share/help/en_GB/evince/singlesided-5-8pages.page
+SPDXID: SPDXRef-evince-common_file_233
+FileChecksum: a375c0da28eb58f6240936a3f84b240614881fca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_233
+
+
+FileName: /usr/share/help/en_GB/evince/singlesided-9-12pages.page
+SPDXID: SPDXRef-evince-common_file_234
+FileChecksum: de36514867dca982370cd59efb7bbf7a148f9646
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_234
+
+
+FileName: /usr/share/help/en_GB/evince/singlesided-npages.page
+SPDXID: SPDXRef-evince-common_file_235
+FileChecksum: 80a1f6c91bcb1e732df8b717eee2b082b376c274
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_235
+
+
+FileName: /usr/share/help/en_GB/evince/synctex-beamer.page
+SPDXID: SPDXRef-evince-common_file_236
+FileChecksum: 036db15c63f98d103aaedf5162d8dd830ed3dbb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_236
+
+
+FileName: /usr/share/help/en_GB/evince/synctex-compile.page
+SPDXID: SPDXRef-evince-common_file_237
+FileChecksum: 31ffe5e99e86dd8b89d618a0040012d415a206d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_237
+
+
+FileName: /usr/share/help/en_GB/evince/synctex-editors.page
+SPDXID: SPDXRef-evince-common_file_238
+FileChecksum: 619683b6333b27dc272ecf9d245839266bf15078
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_238
+
+
+FileName: /usr/share/help/en_GB/evince/synctex-search.page
+SPDXID: SPDXRef-evince-common_file_239
+FileChecksum: 32224e6d87a2e764b22cee4ab17241d9457877ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_239
+
+
+FileName: /usr/share/help/en_GB/evince/synctex-support.page
+SPDXID: SPDXRef-evince-common_file_240
+FileChecksum: 997decad85de9acf3fede229bd0accdee3f47ccf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_240
+
+
+FileName: /usr/share/help/en_GB/evince/synctex.page
+SPDXID: SPDXRef-evince-common_file_241
+FileChecksum: b2339b738d8623d6b3d8f3d3c2716fb50f0d233f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_241
+
+
+FileName: /usr/share/help/en_GB/evince/textselection.page
+SPDXID: SPDXRef-evince-common_file_242
+FileChecksum: 7a68f767c5fbeb055aab9f98b1b6288a2275a0e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_242
+
+
+FileName: /usr/share/help/en_GB/evince/translate.page
+SPDXID: SPDXRef-evince-common_file_243
+FileChecksum: f37dc9c1701f8a517d68d0cb84b9c7ad4dd2cf75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_243
+
+
+FileName: /usr/share/help/es/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_244
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_244
+
+
+FileName: /usr/share/help/es/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_245
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_245
+
+
+FileName: /usr/share/help/es/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_246
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_246
+
+
+FileName: /usr/share/help/es/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_247
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_247
+
+
+FileName: /usr/share/help/es/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_248
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_248
+
+
+FileName: /usr/share/help/es/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_249
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_249
+
+
+FileName: /usr/share/help/es/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_250
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_250
+
+
+FileName: /usr/share/help/eu/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_251
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_251
+
+
+FileName: /usr/share/help/eu/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_252
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_252
+
+
+FileName: /usr/share/help/eu/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_253
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_253
+
+
+FileName: /usr/share/help/eu/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_254
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_254
+
+
+FileName: /usr/share/help/eu/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_255
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_255
+
+
+FileName: /usr/share/help/eu/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_256
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_256
+
+
+FileName: /usr/share/help/eu/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_257
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_257
+
+
+FileName: /usr/share/help/fi/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_258
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_258
+
+
+FileName: /usr/share/help/fi/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_259
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_259
+
+
+FileName: /usr/share/help/fi/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_260
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_260
+
+
+FileName: /usr/share/help/fi/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_261
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_261
+
+
+FileName: /usr/share/help/fi/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_262
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_262
+
+
+FileName: /usr/share/help/fi/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_263
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_263
+
+
+FileName: /usr/share/help/fi/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_264
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_264
+
+
+FileName: /usr/share/help/fr/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_265
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_265
+
+
+FileName: /usr/share/help/fr/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_266
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_266
+
+
+FileName: /usr/share/help/fr/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_267
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_267
+
+
+FileName: /usr/share/help/fr/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_268
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_268
+
+
+FileName: /usr/share/help/fr/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_269
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_269
+
+
+FileName: /usr/share/help/fr/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_270
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_270
+
+
+FileName: /usr/share/help/fr/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_271
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_271
+
+
+FileName: /usr/share/help/gl/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_272
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_272
+
+
+FileName: /usr/share/help/gl/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_273
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_273
+
+
+FileName: /usr/share/help/gl/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_274
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_274
+
+
+FileName: /usr/share/help/gl/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_275
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_275
+
+
+FileName: /usr/share/help/gl/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_276
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_276
+
+
+FileName: /usr/share/help/gl/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_277
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_277
+
+
+FileName: /usr/share/help/gl/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_278
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_278
+
+
+FileName: /usr/share/help/hu/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_279
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_279
+
+
+FileName: /usr/share/help/hu/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_280
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_280
+
+
+FileName: /usr/share/help/hu/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_281
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_281
+
+
+FileName: /usr/share/help/hu/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_282
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_282
+
+
+FileName: /usr/share/help/hu/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_283
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_283
+
+
+FileName: /usr/share/help/hu/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_284
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_284
+
+
+FileName: /usr/share/help/hu/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_285
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_285
+
+
+FileName: /usr/share/help/id/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_286
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_286
+
+
+FileName: /usr/share/help/id/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_287
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_287
+
+
+FileName: /usr/share/help/id/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_288
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_288
+
+
+FileName: /usr/share/help/id/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_289
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_289
+
+
+FileName: /usr/share/help/id/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_290
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_290
+
+
+FileName: /usr/share/help/id/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_291
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_291
+
+
+FileName: /usr/share/help/id/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_292
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_292
+
+
+FileName: /usr/share/help/it/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_293
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_293
+
+
+FileName: /usr/share/help/it/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_294
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_294
+
+
+FileName: /usr/share/help/it/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_295
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_295
+
+
+FileName: /usr/share/help/it/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_296
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_296
+
+
+FileName: /usr/share/help/it/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_297
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_297
+
+
+FileName: /usr/share/help/it/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_298
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_298
+
+
+FileName: /usr/share/help/it/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_299
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_299
+
+
+FileName: /usr/share/help/ja/evince/annotation-properties.page
+SPDXID: SPDXRef-evince-common_file_300
+FileChecksum: 29171ae6389d5a4e70d42aa62c03958a60db9ae4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_300
+
+
+FileName: /usr/share/help/ja/evince/annotations-delete.page
+SPDXID: SPDXRef-evince-common_file_301
+FileChecksum: dc5db26b1e3f05b8c4e76052655f86c185c6d123
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_301
+
+
+FileName: /usr/share/help/ja/evince/annotations-disabled.page
+SPDXID: SPDXRef-evince-common_file_302
+FileChecksum: 15f1c24497a99db0e915b3073a9d2c41470ca223
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_302
+
+
+FileName: /usr/share/help/ja/evince/annotations-navigate.page
+SPDXID: SPDXRef-evince-common_file_303
+FileChecksum: ed536a3f3bfa009c902b92e8f1b976550223551b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_303
+
+
+FileName: /usr/share/help/ja/evince/annotations-save.page
+SPDXID: SPDXRef-evince-common_file_304
+FileChecksum: 6989396a2b481163d43677dcfc828fead9cab709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_304
+
+
+FileName: /usr/share/help/ja/evince/annotations.page
+SPDXID: SPDXRef-evince-common_file_305
+FileChecksum: d7d51c8bb5a756236eeebdc41d1426669728f8a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_305
+
+
+FileName: /usr/share/help/ja/evince/bookmarks.page
+SPDXID: SPDXRef-evince-common_file_306
+FileChecksum: bfc274dff84418b71cf4c285837b0259ce349264
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_306
+
+
+FileName: /usr/share/help/ja/evince/bug-filing.page
+SPDXID: SPDXRef-evince-common_file_307
+FileChecksum: 3acdb0afcf488ad329e654cf7196ffc639c776e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_307
+
+
+FileName: /usr/share/help/ja/evince/commandline.page
+SPDXID: SPDXRef-evince-common_file_308
+FileChecksum: e0e949d600b6cdde53dc051a0a87ec0051be0245
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_308
+
+
+FileName: /usr/share/help/ja/evince/convertPostScript.page
+SPDXID: SPDXRef-evince-common_file_309
+FileChecksum: fc3cad8dba8954ced0189357eb6f0c75900bbf96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_309
+
+
+FileName: /usr/share/help/ja/evince/convertSVG.page
+SPDXID: SPDXRef-evince-common_file_310
+FileChecksum: a92a61468765023a48525c09b7dc406ee69108c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_310
+
+
+FileName: /usr/share/help/ja/evince/convertpdf.page
+SPDXID: SPDXRef-evince-common_file_311
+FileChecksum: 77e639ad49eb46b426871edfb82643bae68b7f7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_311
+
+
+FileName: /usr/share/help/ja/evince/default-settings.page
+SPDXID: SPDXRef-evince-common_file_312
+FileChecksum: f679da45b5ec12bab8a680544b20c288258fbb6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_312
+
+
+FileName: /usr/share/help/ja/evince/develop.page
+SPDXID: SPDXRef-evince-common_file_313
+FileChecksum: d63c341bfb858469327477d9bc29ee4a2f2fd130
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_313
+
+
+FileName: /usr/share/help/ja/evince/documentation.page
+SPDXID: SPDXRef-evince-common_file_314
+FileChecksum: 28f0d308728e1fdb2f4f3a37e5619b9488980586
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_314
+
+
+FileName: /usr/share/help/ja/evince/duplex-10pages.page
+SPDXID: SPDXRef-evince-common_file_315
+FileChecksum: 8ba9600c900285cae170934d6c67a92d1d7edadf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_315
+
+
+FileName: /usr/share/help/ja/evince/duplex-11pages.page
+SPDXID: SPDXRef-evince-common_file_316
+FileChecksum: aa78bdbb819a622fe140c13fd04b26845e72998d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_316
+
+
+FileName: /usr/share/help/ja/evince/duplex-12pages.page
+SPDXID: SPDXRef-evince-common_file_317
+FileChecksum: dd9063ba008deb525370ddea9b766075e1686bc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_317
+
+
+FileName: /usr/share/help/ja/evince/duplex-13pages.page
+SPDXID: SPDXRef-evince-common_file_318
+FileChecksum: 32194070c7a88297c8367c314a084a969a1b778d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_318
+
+
+FileName: /usr/share/help/ja/evince/duplex-14pages.page
+SPDXID: SPDXRef-evince-common_file_319
+FileChecksum: 72e83bbe6b20fa8b6e18790c2cc772a2a8604814
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_319
+
+
+FileName: /usr/share/help/ja/evince/duplex-15pages.page
+SPDXID: SPDXRef-evince-common_file_320
+FileChecksum: db8b5c5a388423e78312cafa85b4ca3a97418dd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_320
+
+
+FileName: /usr/share/help/ja/evince/duplex-16pages.page
+SPDXID: SPDXRef-evince-common_file_321
+FileChecksum: 573232a96809de3b03d87f89464ae8166de68d72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_321
+
+
+FileName: /usr/share/help/ja/evince/duplex-3pages.page
+SPDXID: SPDXRef-evince-common_file_322
+FileChecksum: e2ec8261fb711c614c44d78e150039723c09c784
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_322
+
+
+FileName: /usr/share/help/ja/evince/duplex-4pages.page
+SPDXID: SPDXRef-evince-common_file_323
+FileChecksum: 10e2a0892962754c545d293200318da4b27e0236
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_323
+
+
+FileName: /usr/share/help/ja/evince/duplex-5pages.page
+SPDXID: SPDXRef-evince-common_file_324
+FileChecksum: 1042c8160e03c0ec1022808675d9c6f0c196bdf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_324
+
+
+FileName: /usr/share/help/ja/evince/duplex-6pages.page
+SPDXID: SPDXRef-evince-common_file_325
+FileChecksum: 736d6fbccf9f1bd12f435f88580d5777a36fa89f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_325
+
+
+FileName: /usr/share/help/ja/evince/duplex-7pages.page
+SPDXID: SPDXRef-evince-common_file_326
+FileChecksum: 4a28d805ec304873434935a40de5dcf48e06fc3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_326
+
+
+FileName: /usr/share/help/ja/evince/duplex-8pages.page
+SPDXID: SPDXRef-evince-common_file_327
+FileChecksum: c9542e1459d386859368d908b32c50f2c6f1fa33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_327
+
+
+FileName: /usr/share/help/ja/evince/duplex-9pages.page
+SPDXID: SPDXRef-evince-common_file_328
+FileChecksum: 86950168aea96d04b519c6c8f58ed42c26c9772a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_328
+
+
+FileName: /usr/share/help/ja/evince/duplex-npages.page
+SPDXID: SPDXRef-evince-common_file_329
+FileChecksum: e216b13365ae5cfc3961bc20b3aaacbee0288102
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_329
+
+
+FileName: /usr/share/help/ja/evince/editing.page
+SPDXID: SPDXRef-evince-common_file_330
+FileChecksum: f6c8c4a9ef8ee1e60f0b6cc444a96b5ba55e35c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_330
+
+
+FileName: /usr/share/help/ja/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_331
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_331
+
+
+FileName: /usr/share/help/ja/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_332
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_332
+
+
+FileName: /usr/share/help/ja/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_333
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_333
+
+
+FileName: /usr/share/help/ja/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_334
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_334
+
+
+FileName: /usr/share/help/ja/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_335
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_335
+
+
+FileName: /usr/share/help/ja/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_336
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_336
+
+
+FileName: /usr/share/help/ja/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_337
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_337
+
+
+FileName: /usr/share/help/ja/evince/finding.page
+SPDXID: SPDXRef-evince-common_file_338
+FileChecksum: 1d9a272a80c68cea1f24dda0d92b5ab333cadb1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_338
+
+
+FileName: /usr/share/help/ja/evince/formats.page
+SPDXID: SPDXRef-evince-common_file_339
+FileChecksum: bc74f60a7c055dc16ff5c946512fb371bc7f6a04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_339
+
+
+FileName: /usr/share/help/ja/evince/forms-saving.page
+SPDXID: SPDXRef-evince-common_file_340
+FileChecksum: 4a7687a3e64d10c9b4d4b213f899f952c2c06195
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_340
+
+
+FileName: /usr/share/help/ja/evince/forms.page
+SPDXID: SPDXRef-evince-common_file_341
+FileChecksum: 01a3400d2e2e04ce8377a1cae275f1dfc30d6614
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_341
+
+
+FileName: /usr/share/help/ja/evince/headerbar.page
+SPDXID: SPDXRef-evince-common_file_342
+FileChecksum: a40cf01106aea0d9073e9570418c54bc49d3ead7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_342
+
+
+FileName: /usr/share/help/ja/evince/index.page
+SPDXID: SPDXRef-evince-common_file_343
+FileChecksum: bdf0ae0823b923c161c1cbf2beafa97cdd57d845
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_343
+
+
+FileName: /usr/share/help/ja/evince/introduction.page
+SPDXID: SPDXRef-evince-common_file_344
+FileChecksum: 3f0a3f9f6ae0bdc48b470dace0343459fc837d4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_344
+
+
+FileName: /usr/share/help/ja/evince/invert-colors.page
+SPDXID: SPDXRef-evince-common_file_345
+FileChecksum: cf46dfd172ff711a45680e49ae2a00df1b031b6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_345
+
+
+FileName: /usr/share/help/ja/evince/legal-unported.xml
+SPDXID: SPDXRef-evince-common_file_346
+FileChecksum: f1623fa68caa8ff66eecfaeef3827a356fd61c51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_346
+
+
+FileName: /usr/share/help/ja/evince/legal.xml
+SPDXID: SPDXRef-evince-common_file_347
+FileChecksum: 5f6e2cab6f99b2cb13ed5fa5e80daa6b1a7b56be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_347
+
+
+FileName: /usr/share/help/ja/evince/license.page
+SPDXID: SPDXRef-evince-common_file_348
+FileChecksum: 8878b07d5282f9bf549eb111a670c81a2f501c88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_348
+
+
+FileName: /usr/share/help/ja/evince/movingaround.page
+SPDXID: SPDXRef-evince-common_file_349
+FileChecksum: ec6649b46f44873a89aba4637bbd5bb16ae8f900
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_349
+
+
+FileName: /usr/share/help/ja/evince/noprint.page
+SPDXID: SPDXRef-evince-common_file_350
+FileChecksum: d0a867d128a9a02fd73fe0a880196385e8ac12b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_350
+
+
+FileName: /usr/share/help/ja/evince/openerror.page
+SPDXID: SPDXRef-evince-common_file_351
+FileChecksum: b4b03ba968a2bd752abc293c65a69c9b91d91372
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_351
+
+
+FileName: /usr/share/help/ja/evince/opening.page
+SPDXID: SPDXRef-evince-common_file_352
+FileChecksum: e220888ccc4229dece956b98f833202c0f29e4cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_352
+
+
+FileName: /usr/share/help/ja/evince/password.page
+SPDXID: SPDXRef-evince-common_file_353
+FileChecksum: 3b3e7167342f96245335fb844b42f701c03ca770
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_353
+
+
+FileName: /usr/share/help/ja/evince/presentations.page
+SPDXID: SPDXRef-evince-common_file_354
+FileChecksum: 0a51bffdab21e189a6bdb60eca879bf135144ab9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_354
+
+
+FileName: /usr/share/help/ja/evince/print-2sided.page
+SPDXID: SPDXRef-evince-common_file_355
+FileChecksum: d999fcb7cef21c88f07040f00bb77672ed3d8425
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_355
+
+
+FileName: /usr/share/help/ja/evince/print-booklet.page
+SPDXID: SPDXRef-evince-common_file_356
+FileChecksum: e5ef334d545ed2e0b3da2ce374caa06d99fcb9fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_356
+
+
+FileName: /usr/share/help/ja/evince/print-differentsize.page
+SPDXID: SPDXRef-evince-common_file_357
+FileChecksum: 9607eb901962bf11508988d4352500a68e31cfa4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_357
+
+
+FileName: /usr/share/help/ja/evince/print-order.page
+SPDXID: SPDXRef-evince-common_file_358
+FileChecksum: 284c1c0898349969edd14e1737c238b912ad5291
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_358
+
+
+FileName: /usr/share/help/ja/evince/print-pagescaling.page
+SPDXID: SPDXRef-evince-common_file_359
+FileChecksum: 4758453b437a447ed239579a05acf97bfe5eb558
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_359
+
+
+FileName: /usr/share/help/ja/evince/print-select.page
+SPDXID: SPDXRef-evince-common_file_360
+FileChecksum: defd55bcaed0acefb558943953585da816259c04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_360
+
+
+FileName: /usr/share/help/ja/evince/printing.page
+SPDXID: SPDXRef-evince-common_file_361
+FileChecksum: 0e831bfd910811f376bb2438516a26094a390214
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_361
+
+
+FileName: /usr/share/help/ja/evince/reload.page
+SPDXID: SPDXRef-evince-common_file_362
+FileChecksum: 1fbc34740bb67bd62d8ae6e64ec39e5a5d853efc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_362
+
+
+FileName: /usr/share/help/ja/evince/singlesided-13-16pages.page
+SPDXID: SPDXRef-evince-common_file_363
+FileChecksum: 7ed81af0cffabc1357aced6348c14428c87be19a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_363
+
+
+FileName: /usr/share/help/ja/evince/singlesided-17-20pages.page
+SPDXID: SPDXRef-evince-common_file_364
+FileChecksum: 2af3a2a5b5c72fbf1c9f7d264c429f36618b6dc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_364
+
+
+FileName: /usr/share/help/ja/evince/singlesided-3-4pages.page
+SPDXID: SPDXRef-evince-common_file_365
+FileChecksum: 2d7b40d565d5214858c7a75f695d4e8f145e16db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_365
+
+
+FileName: /usr/share/help/ja/evince/singlesided-5-8pages.page
+SPDXID: SPDXRef-evince-common_file_366
+FileChecksum: fc0565b9be9de93d5ac2dd727317dce1c0c38f09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_366
+
+
+FileName: /usr/share/help/ja/evince/singlesided-9-12pages.page
+SPDXID: SPDXRef-evince-common_file_367
+FileChecksum: 361f85590dc583c520404cca6c899696a3b740c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_367
+
+
+FileName: /usr/share/help/ja/evince/singlesided-npages.page
+SPDXID: SPDXRef-evince-common_file_368
+FileChecksum: 23b9901e11d4685dad2a766ecff322892a5b0aca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_368
+
+
+FileName: /usr/share/help/ja/evince/synctex-beamer.page
+SPDXID: SPDXRef-evince-common_file_369
+FileChecksum: ce27b07037b044d702db015245cedd7bfafb667e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_369
+
+
+FileName: /usr/share/help/ja/evince/synctex-compile.page
+SPDXID: SPDXRef-evince-common_file_370
+FileChecksum: 888d24e251a1533c85d2e5a2afd3aab3b7ee60a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_370
+
+
+FileName: /usr/share/help/ja/evince/synctex-editors.page
+SPDXID: SPDXRef-evince-common_file_371
+FileChecksum: d8df04009cf8702329e73a1f325fd489216a72d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_371
+
+
+FileName: /usr/share/help/ja/evince/synctex-search.page
+SPDXID: SPDXRef-evince-common_file_372
+FileChecksum: 0c86958859aaa29c1afd4be5c646d85e8241d879
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_372
+
+
+FileName: /usr/share/help/ja/evince/synctex-support.page
+SPDXID: SPDXRef-evince-common_file_373
+FileChecksum: 3bdef5370514acf1ec2e29002b704887976083b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_373
+
+
+FileName: /usr/share/help/ja/evince/synctex.page
+SPDXID: SPDXRef-evince-common_file_374
+FileChecksum: 14238a54e1e45bdbf3d18e474e21203ed4912426
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_374
+
+
+FileName: /usr/share/help/ja/evince/textselection.page
+SPDXID: SPDXRef-evince-common_file_375
+FileChecksum: db44567691bf1b46a97a62cec089f5cde03848cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_375
+
+
+FileName: /usr/share/help/ja/evince/translate.page
+SPDXID: SPDXRef-evince-common_file_376
+FileChecksum: 8bd0172fb4fa5b2ef7be16c4b6f46f713a1c904e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_376
+
+
+FileName: /usr/share/help/ko/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_377
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_377
+
+
+FileName: /usr/share/help/ko/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_378
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_378
+
+
+FileName: /usr/share/help/ko/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_379
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_379
+
+
+FileName: /usr/share/help/ko/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_380
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_380
+
+
+FileName: /usr/share/help/ko/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_381
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_381
+
+
+FileName: /usr/share/help/ko/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_382
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_382
+
+
+FileName: /usr/share/help/ko/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_383
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_383
+
+
+FileName: /usr/share/help/lv/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_384
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_384
+
+
+FileName: /usr/share/help/lv/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_385
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_385
+
+
+FileName: /usr/share/help/lv/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_386
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_386
+
+
+FileName: /usr/share/help/lv/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_387
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_387
+
+
+FileName: /usr/share/help/lv/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_388
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_388
+
+
+FileName: /usr/share/help/lv/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_389
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_389
+
+
+FileName: /usr/share/help/lv/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_390
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_390
+
+
+FileName: /usr/share/help/nl/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_391
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_391
+
+
+FileName: /usr/share/help/nl/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_392
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_392
+
+
+FileName: /usr/share/help/nl/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_393
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_393
+
+
+FileName: /usr/share/help/nl/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_394
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_394
+
+
+FileName: /usr/share/help/nl/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_395
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_395
+
+
+FileName: /usr/share/help/nl/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_396
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_396
+
+
+FileName: /usr/share/help/nl/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_397
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_397
+
+
+FileName: /usr/share/help/oc/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_398
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_398
+
+
+FileName: /usr/share/help/oc/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_399
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_399
+
+
+FileName: /usr/share/help/oc/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_400
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_400
+
+
+FileName: /usr/share/help/oc/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_401
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_401
+
+
+FileName: /usr/share/help/oc/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_402
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_402
+
+
+FileName: /usr/share/help/oc/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_403
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_403
+
+
+FileName: /usr/share/help/oc/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_404
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_404
+
+
+FileName: /usr/share/help/pl/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_405
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_405
+
+
+FileName: /usr/share/help/pl/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_406
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_406
+
+
+FileName: /usr/share/help/pl/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_407
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_407
+
+
+FileName: /usr/share/help/pl/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_408
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_408
+
+
+FileName: /usr/share/help/pl/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_409
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_409
+
+
+FileName: /usr/share/help/pl/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_410
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_410
+
+
+FileName: /usr/share/help/pl/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_411
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_411
+
+
+FileName: /usr/share/help/pt_BR/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_412
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_412
+
+
+FileName: /usr/share/help/pt_BR/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_413
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_413
+
+
+FileName: /usr/share/help/pt_BR/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_414
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_414
+
+
+FileName: /usr/share/help/pt_BR/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_415
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_415
+
+
+FileName: /usr/share/help/pt_BR/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_416
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_416
+
+
+FileName: /usr/share/help/pt_BR/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_417
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_417
+
+
+FileName: /usr/share/help/pt_BR/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_418
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_418
+
+
+FileName: /usr/share/help/ro/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_419
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_419
+
+
+FileName: /usr/share/help/ro/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_420
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_420
+
+
+FileName: /usr/share/help/ro/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_421
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_421
+
+
+FileName: /usr/share/help/ro/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_422
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_422
+
+
+FileName: /usr/share/help/ro/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_423
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_423
+
+
+FileName: /usr/share/help/ro/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_424
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_424
+
+
+FileName: /usr/share/help/ro/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_425
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_425
+
+
+FileName: /usr/share/help/ru/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_426
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_426
+
+
+FileName: /usr/share/help/ru/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_427
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_427
+
+
+FileName: /usr/share/help/ru/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_428
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_428
+
+
+FileName: /usr/share/help/ru/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_429
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_429
+
+
+FileName: /usr/share/help/ru/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_430
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_430
+
+
+FileName: /usr/share/help/ru/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_431
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_431
+
+
+FileName: /usr/share/help/ru/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_432
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_432
+
+
+FileName: /usr/share/help/sl/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_433
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_433
+
+
+FileName: /usr/share/help/sl/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_434
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_434
+
+
+FileName: /usr/share/help/sl/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_435
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_435
+
+
+FileName: /usr/share/help/sl/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_436
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_436
+
+
+FileName: /usr/share/help/sl/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_437
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_437
+
+
+FileName: /usr/share/help/sl/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_438
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_438
+
+
+FileName: /usr/share/help/sl/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_439
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_439
+
+
+FileName: /usr/share/help/sr/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_440
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_440
+
+
+FileName: /usr/share/help/sr/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_441
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_441
+
+
+FileName: /usr/share/help/sr/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_442
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_442
+
+
+FileName: /usr/share/help/sr/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_443
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_443
+
+
+FileName: /usr/share/help/sr/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_444
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_444
+
+
+FileName: /usr/share/help/sr/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_445
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_445
+
+
+FileName: /usr/share/help/sr/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_446
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_446
+
+
+FileName: /usr/share/help/sv/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_447
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_447
+
+
+FileName: /usr/share/help/sv/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_448
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_448
+
+
+FileName: /usr/share/help/sv/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_449
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_449
+
+
+FileName: /usr/share/help/sv/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_450
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_450
+
+
+FileName: /usr/share/help/sv/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_451
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_451
+
+
+FileName: /usr/share/help/sv/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_452
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_452
+
+
+FileName: /usr/share/help/sv/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_453
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_453
+
+
+FileName: /usr/share/help/te/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_454
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_454
+
+
+FileName: /usr/share/help/te/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_455
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_455
+
+
+FileName: /usr/share/help/te/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_456
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_456
+
+
+FileName: /usr/share/help/te/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_457
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_457
+
+
+FileName: /usr/share/help/te/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_458
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_458
+
+
+FileName: /usr/share/help/te/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_459
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_459
+
+
+FileName: /usr/share/help/te/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_460
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_460
+
+
+FileName: /usr/share/help/uk/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_461
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_461
+
+
+FileName: /usr/share/help/uk/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_462
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_462
+
+
+FileName: /usr/share/help/uk/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_463
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_463
+
+
+FileName: /usr/share/help/uk/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_464
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_464
+
+
+FileName: /usr/share/help/uk/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_465
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_465
+
+
+FileName: /usr/share/help/uk/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_466
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_466
+
+
+FileName: /usr/share/help/uk/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_467
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_467
+
+
+FileName: /usr/share/help/vi/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_468
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_468
+
+
+FileName: /usr/share/help/vi/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_469
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_469
+
+
+FileName: /usr/share/help/vi/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_470
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_470
+
+
+FileName: /usr/share/help/vi/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_471
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_471
+
+
+FileName: /usr/share/help/vi/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_472
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_472
+
+
+FileName: /usr/share/help/vi/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_473
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_473
+
+
+FileName: /usr/share/help/vi/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_474
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_474
+
+
+FileName: /usr/share/help/zh_CN/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_475
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_475
+
+
+FileName: /usr/share/help/zh_CN/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_476
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_476
+
+
+FileName: /usr/share/help/zh_CN/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_477
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_477
+
+
+FileName: /usr/share/help/zh_CN/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_478
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_478
+
+
+FileName: /usr/share/help/zh_CN/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_479
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_479
+
+
+FileName: /usr/share/help/zh_CN/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_480
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_480
+
+
+FileName: /usr/share/help/zh_CN/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_481
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_481
+
+
+FileName: /usr/share/help/zh_HK/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_482
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_482
+
+
+FileName: /usr/share/help/zh_HK/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_483
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_483
+
+
+FileName: /usr/share/help/zh_HK/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_484
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_484
+
+
+FileName: /usr/share/help/zh_HK/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_485
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_485
+
+
+FileName: /usr/share/help/zh_HK/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_486
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_486
+
+
+FileName: /usr/share/help/zh_HK/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_487
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_487
+
+
+FileName: /usr/share/help/zh_HK/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_488
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_488
+
+
+FileName: /usr/share/help/zh_TW/evince/figures/add-text-annotation.png
+SPDXID: SPDXRef-evince-common_file_489
+FileChecksum: 2e3921da2225229ebb20cea578b666647a048736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_489
+
+
+FileName: /usr/share/help/zh_TW/evince/figures/annotations-nav-to-page.png
+SPDXID: SPDXRef-evince-common_file_490
+FileChecksum: 9b2849f288028db06b8ed8d11ff01d04e997960d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_490
+
+
+FileName: /usr/share/help/zh_TW/evince/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-evince-common_file_491
+FileChecksum: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_491
+
+
+FileName: /usr/share/help/zh_TW/evince/figures/org.gnome.Evince.svg
+SPDXID: SPDXRef-evince-common_file_492
+FileChecksum: c21897952e5e64a374d3ea79bacb31bbd039bd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_492
+
+
+FileName: /usr/share/help/zh_TW/evince/figures/print-select.png
+SPDXID: SPDXRef-evince-common_file_493
+FileChecksum: e3c087428c50d6b9eeff6c0f6c891b73ff9d5955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_493
+
+
+FileName: /usr/share/help/zh_TW/evince/figures/reverse-collate.png
+SPDXID: SPDXRef-evince-common_file_494
+FileChecksum: e2288c267fd4e748e38eee3dad4138343f844e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_494
+
+
+FileName: /usr/share/help/zh_TW/evince/figures/zoom.png
+SPDXID: SPDXRef-evince-common_file_495
+FileChecksum: a23d644c008dd8edf17af854e5883f91f21f5378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-evince-common CONTAINS SPDXRef-evince-common_file_495
+
 
 ## Extracted License
 

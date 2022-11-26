@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libao-common_1.2.2+20180113-1.1ubuntu3-3b0c7737-63a9-5368-b6b6-a649921a6ceb
 DocumentName: libao-common_1.2.2+20180113-1.1ubuntu3
-DocumentNamespace: http://spdx.org/spdxdocs/libao-common_1.2.2+20180113-1.1ubuntu3-9a653ff5-e7fb-5049-a467-d817a8e678d9
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libao-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:21:27Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libao-common
 PackageVersion: 1.2.2+20180113-1.1ubuntu3
 SPDXID: SPDXRef-libao-common
+PackageVerificationCode: 66b587083fe76dcc39f9f485d3433141e5e6a234
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: http://www.xiph.org/ao/
 PackageComment: <text>Cross Platform Audio Output Library (Common files)
  Libao is a cross-platform audio library that allows programs to output audio
@@ -35,6 +39,60 @@ PackageComment: <text>Cross Platform Audio Output Library (Common files)
 
 
 ## File
+
+FileName: /etc/libao.conf
+SPDXID: SPDXRef-libao-common_file_0
+FileChecksum: 623d0eb224f3b166b74813f0a2fe55bfe2839043
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_0
+
+
+FileName: /usr/share/doc/libao-common/README
+SPDXID: SPDXRef-libao-common_file_1
+FileChecksum: 1cbe5e7dfc1e264c5076be2348ee85868513372d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_1
+
+
+FileName: /usr/share/doc/libao-common/TODO
+SPDXID: SPDXRef-libao-common_file_2
+FileChecksum: 8aeeaa5943ff1674ed31fcf543f84e3e5f04435f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_2
+
+
+FileName: /usr/share/doc/libao-common/changelog.Debian.gz
+SPDXID: SPDXRef-libao-common_file_3
+FileChecksum: b5a59559993bcffa8f17dea4bc302ed7eda8aa93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_3
+
+
+FileName: /usr/share/doc/libao-common/copyright
+SPDXID: SPDXRef-libao-common_file_4
+FileChecksum: e8bd7eeedeed079ad1691692f0d2d00cbcab4850
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_4
+
+
+FileName: /usr/share/man/man5/libao.conf.5.gz
+SPDXID: SPDXRef-libao-common_file_5
+FileChecksum: 2ee34f13e963e9b8ff19f50e3b1002da8555b964
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_5
+
 
 ## Extracted License
 

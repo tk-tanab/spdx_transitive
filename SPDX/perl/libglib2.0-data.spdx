@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libglib2.0-data_2.72.1-1-dc9b1334-55f3-5f93-b4ef-c654f58f1fe1
 DocumentName: libglib2.0-data_2.72.1-1
-DocumentNamespace: http://spdx.org/spdxdocs/libglib2.0-data_2.72.1-1-cd9c0a7c-2480-58fa-8c6b-976b95bee14b
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libglib2.0-data
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:39Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libglib2.0-data
 PackageVersion: 2.72.1-1
 SPDXID: SPDXRef-libglib2.0-data
+PackageVerificationCode: 11c6f40fd131a9f740463898c91d981c9933b42d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/GLib
 PackageComment: <text>Common files for GLib library
  GLib is a library containing many useful C routines for things such
@@ -29,6 +33,24 @@ PackageComment: <text>Common files for GLib library
 
 
 ## File
+
+FileName: /usr/share/doc/libglib2.0-data/changelog.Debian.gz
+SPDXID: SPDXRef-libglib2.0-data_file_0
+FileChecksum: 8d2780d596bf249c2e41e33c1674f1af9aa26acd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglib2.0-data CONTAINS SPDXRef-libglib2.0-data_file_0
+
+
+FileName: /usr/share/doc/libglib2.0-data/copyright
+SPDXID: SPDXRef-libglib2.0-data_file_1
+FileChecksum: 39e74288e2fe13a7be6077dbab4604cf159edb06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglib2.0-data CONTAINS SPDXRef-libglib2.0-data_file_1
+
 
 ## Extracted License
 

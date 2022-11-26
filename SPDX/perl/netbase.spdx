@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/netbase_6.3-cb7a4f67-1181-5ebe-8898-c5361dac1baf
 DocumentName: netbase_6.3
-DocumentNamespace: http://spdx.org/spdxdocs/netbase_6.3-120d7aa5-dc50-58eb-ae57-4779f3801fb3
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-netbase
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:20:57Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: netbase
 PackageVersion: 6.3
 SPDXID: SPDXRef-netbase
+PackageVerificationCode: 5878ced280f3c82d5e6910b94c1a88b3c7639e0a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Basic TCP/IP networking system
  This package provides the necessary infrastructure for basic TCP/IP based
  networking.
@@ -27,6 +31,60 @@ PackageComment: <text>Basic TCP/IP networking system
 
 
 ## File
+
+FileName: /etc/ethertypes
+SPDXID: SPDXRef-netbase_file_0
+FileChecksum: 2902538bf5531857042f2b3aff36b076fd384759
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_0
+
+
+FileName: /etc/protocols
+SPDXID: SPDXRef-netbase_file_1
+FileChecksum: a262a5a77be01aad99a98cf20ff28735da3cac37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_1
+
+
+FileName: /etc/rpc
+SPDXID: SPDXRef-netbase_file_2
+FileChecksum: 774b67fdac56d2973e3b1e0e3f32f962dea1b8a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_2
+
+
+FileName: /etc/services
+SPDXID: SPDXRef-netbase_file_3
+FileChecksum: a0d7a229bf049f7fe17e8445226236e4024535d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_3
+
+
+FileName: /usr/share/doc/netbase/changelog.gz
+SPDXID: SPDXRef-netbase_file_4
+FileChecksum: 4bb1c8432f4977688e14456330422c29341e43ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_4
+
+
+FileName: /usr/share/doc/netbase/copyright
+SPDXID: SPDXRef-netbase_file_5
+FileChecksum: 473b4254e3bb9789f056d2ffbf21b5a855813f2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_5
+
 
 ## Extracted License
 

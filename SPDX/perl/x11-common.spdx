@@ -1,17 +1,18 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-1b9e8ca6-ba93-53e3-bc53-8db1bf0d7a0a
 DocumentName: x11-common_1:7.7+23ubuntu2
-DocumentNamespace: http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-f9a376cd-91d5-5ff9-aa2e-5bf267fe6c1b
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-0518ff19-d92c-5612-b8bc-8f644f3286cb SHA1: 842650b26a47de16df460667d63eb8c5ca5f726f
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-x11-common
-ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-8991c034-6cdd-58a6-af52-7e140f7f9461 SHA1: 96a0049f8181432dfffed75daedcc5ab09e83340
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:43Z
 
 
 ## Package
@@ -19,6 +20,9 @@ Created: 11/21
 PackageName: x11-common
 PackageVersion: 1:7.7+23ubuntu2
 SPDXID: SPDXRef-x11-common
+PackageVerificationCode: c516f2e0be6cf7d0f12d402ec103ae64adc187ff
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://www.x.org/
 PackageComment: <text>X Window System (X.Org) infrastructure
  x11-common contains the filesystem infrastructure required for further
@@ -35,6 +39,213 @@ Relationship: SPDXRef-x11-common DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-bas
 
 
 ## File
+
+FileName: /etc/X11/Xreset
+SPDXID: SPDXRef-x11-common_file_0
+FileChecksum: 0609e72223f03a76f5c15cdacec66de57c4612c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_0
+
+
+FileName: /etc/X11/Xreset.d/README
+SPDXID: SPDXRef-x11-common_file_1
+FileChecksum: 8e09303a3a7e5bad91ac598bc091392fea53e04f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_1
+
+
+FileName: /etc/X11/Xresources/x11-common
+SPDXID: SPDXRef-x11-common_file_2
+FileChecksum: 11592619f9b4f923538797e3dd596d2efca2b4c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_2
+
+
+FileName: /etc/X11/Xsession
+SPDXID: SPDXRef-x11-common_file_3
+FileChecksum: 38a27654ea96bdf9cf58471ab44152d7ed64fcab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_3
+
+
+FileName: /etc/X11/Xsession.d/20x11-common_process-args
+SPDXID: SPDXRef-x11-common_file_4
+FileChecksum: 38753fd55bd0604e996d960b3712d6f3d0fbc98a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_4
+
+
+FileName: /etc/X11/Xsession.d/30x11-common_xresources
+SPDXID: SPDXRef-x11-common_file_5
+FileChecksum: 9687b3c65aac965a19ac4dfda3c8691b6d25bc74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_5
+
+
+FileName: /etc/X11/Xsession.d/35x11-common_xhost-local
+SPDXID: SPDXRef-x11-common_file_6
+FileChecksum: d2c60eb591dec4154d4518c9d4eb0afcc642f598
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_6
+
+
+FileName: /etc/X11/Xsession.d/40x11-common_xsessionrc
+SPDXID: SPDXRef-x11-common_file_7
+FileChecksum: 9764791f4a5927ec59d66b2b905d948cfbcd0b22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_7
+
+
+FileName: /etc/X11/Xsession.d/50x11-common_determine-startup
+SPDXID: SPDXRef-x11-common_file_8
+FileChecksum: c34d83d9d4eb035058531cf7675671d21966b4ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_8
+
+
+FileName: /etc/X11/Xsession.d/60x11-common_xdg_path
+SPDXID: SPDXRef-x11-common_file_9
+FileChecksum: e44d2271a1b311d363eecf8aa544d5f5d461c385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_9
+
+
+FileName: /etc/X11/Xsession.d/90x11-common_ssh-agent
+SPDXID: SPDXRef-x11-common_file_10
+FileChecksum: 8f863c269654d82e547d9ed0269b3bab42026283
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_10
+
+
+FileName: /etc/X11/Xsession.d/99x11-common_start
+SPDXID: SPDXRef-x11-common_file_11
+FileChecksum: 80cf4892f40ab67d73862141e4c7de655a5f948d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_11
+
+
+FileName: /etc/X11/Xsession.options
+SPDXID: SPDXRef-x11-common_file_12
+FileChecksum: 7219a84d3f4795cbc9eecca666904f6d2155d3c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_12
+
+
+FileName: /etc/X11/rgb.txt
+SPDXID: SPDXRef-x11-common_file_13
+FileChecksum: 2a3c7ba23dbc3195a203a4cd744c5ce492b0358c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_13
+
+
+FileName: /etc/init.d/x11-common
+SPDXID: SPDXRef-x11-common_file_14
+FileChecksum: 6c93d2ad2ea6c9b412a145a5b9ccb930eb721722
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_14
+
+
+FileName: /usr/share/doc/x11-common/NEWS.Debian.gz
+SPDXID: SPDXRef-x11-common_file_15
+FileChecksum: 519a76bc5fdeec8af7c41a527e96a02a705e54eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_15
+
+
+FileName: /usr/share/doc/x11-common/changelog.gz
+SPDXID: SPDXRef-x11-common_file_16
+FileChecksum: 44f57f6f647901110afcb27792eedbc801628ff2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_16
+
+
+FileName: /usr/share/doc/x11-common/copyright
+SPDXID: SPDXRef-x11-common_file_17
+FileChecksum: 6a501fd278f041f7894451dd05607ca7917322c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_17
+
+
+FileName: /usr/share/lintian/overrides/x11-common
+SPDXID: SPDXRef-x11-common_file_18
+FileChecksum: 67fef52cb03899149fd7946aa5f9c948460b52d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_18
+
+
+FileName: /usr/share/man/man5/Xsession.5.gz
+SPDXID: SPDXRef-x11-common_file_19
+FileChecksum: b076181c36892df03d5d1ac8bd8c576402d282f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_19
+
+
+FileName: /usr/share/man/man5/Xsession.options.5.gz
+SPDXID: SPDXRef-x11-common_file_20
+FileChecksum: eedd5b9d86771b9c1682913dabbfcfdbee8ff722
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_20
+
+
+FileName: /usr/share/man/man5/Xsession.options.d.5.gz
+SPDXID: SPDXRef-x11-common_file_21
+FileChecksum: eedd5b9d86771b9c1682913dabbfcfdbee8ff722
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_21
+
+
+FileName: /usr/share/X11/rgb.txt
+SPDXID: SPDXRef-x11-common_file_22
+FileChecksum: 2a3c7ba23dbc3195a203a4cd744c5ce492b0358c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common_file_22
+
 
 ## Extracted License
 

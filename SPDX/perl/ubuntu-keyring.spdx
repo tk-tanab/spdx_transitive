@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-70094f79-4e8c-5d92-9b7f-755af3a695e9
 DocumentName: ubuntu-keyring_2021.03.26
-DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-49555058-8017-59aa-979e-19a6657ab278
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-keyring
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:21:41Z
 
 
 ## Package
@@ -18,12 +19,96 @@ Created: 11/21
 PackageName: ubuntu-keyring
 PackageVersion: 2021.03.26
 SPDXID: SPDXRef-ubuntu-keyring
+PackageVerificationCode: 4120bdcbc0e13ba6b7e332be44bc000f3c58fa29
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>GnuPG keys of the Ubuntu archive
  The Ubuntu project digitally signs its Release files. This package
  contains the archive keys used for that.</text>
 
 
 ## File
+
+FileName: /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg
+SPDXID: SPDXRef-ubuntu-keyring_file_0
+FileChecksum: f212334cc4b4c3b25b46f08d305d6cb62f74c29c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_0
+
+
+FileName: /etc/apt/trusted.gpg.d/ubuntu-keyring-2018-archive.gpg
+SPDXID: SPDXRef-ubuntu-keyring_file_1
+FileChecksum: b7b6a98064fa3497614f3b33120702a7a509b0ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_1
+
+
+FileName: /usr/share/doc/ubuntu-keyring/changelog.gz
+SPDXID: SPDXRef-ubuntu-keyring_file_2
+FileChecksum: f762c9fcf7ce7c8a6adf55f0ce6bcf478867d2c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_2
+
+
+FileName: /usr/share/doc/ubuntu-keyring/copyright
+SPDXID: SPDXRef-ubuntu-keyring_file_3
+FileChecksum: ab1edcad788e7ce00dba7a044d251d7e1f1d0294
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_3
+
+
+FileName: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+SPDXID: SPDXRef-ubuntu-keyring_file_4
+FileChecksum: 630f322c6d90234b50855d774cad4886b902ff1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_4
+
+
+FileName: /usr/share/keyrings/ubuntu-archive-removed-keys.gpg
+SPDXID: SPDXRef-ubuntu-keyring_file_5
+FileChecksum: 33eb330c0640b1300709bc19f1cd0c9509379038
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_5
+
+
+FileName: /usr/share/keyrings/ubuntu-cloudimage-keyring.gpg
+SPDXID: SPDXRef-ubuntu-keyring_file_6
+FileChecksum: 18c8282ded2973c7439d007e1f82853b913fbda3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_6
+
+
+FileName: /usr/share/keyrings/ubuntu-cloudimage-removed-keys.gpg
+SPDXID: SPDXRef-ubuntu-keyring_file_7
+FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_7
+
+
+FileName: /usr/share/keyrings/ubuntu-master-keyring.gpg
+SPDXID: SPDXRef-ubuntu-keyring_file_8
+FileChecksum: c3f8c88fd1158ec6501a76a69ce409831ef65b0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_8
+
 
 ## Extracted License
 

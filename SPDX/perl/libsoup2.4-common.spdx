@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libsoup2.4-common_2.74.2-3-fe123620-d445-5107-b97d-8f7781dfe653
 DocumentName: libsoup2.4-common_2.74.2-3
-DocumentNamespace: http://spdx.org/spdxdocs/libsoup2.4-common_2.74.2-3-2d177f55-7212-5d48-934c-e4c37fb1c96d
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsoup2.4-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:51Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libsoup2.4-common
 PackageVersion: 2.74.2-3
 SPDXID: SPDXRef-libsoup2.4-common
+PackageVerificationCode: 31f16825ce05349699b74baa09ecf969115c3202
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/libsoup
 PackageComment: <text>HTTP library implementation in C -- Common files
  It was originally part of a SOAP (Simple Object Access Protocol)
@@ -28,6 +32,24 @@ PackageComment: <text>HTTP library implementation in C -- Common files
 
 
 ## File
+
+FileName: /usr/share/doc/libsoup2.4-common/changelog.Debian.gz
+SPDXID: SPDXRef-libsoup2.4-common_file_0
+FileChecksum: 2bd95d6e7b348a26b7b0f4a2809680c183d3d80f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common_file_0
+
+
+FileName: /usr/share/doc/libsoup2.4-common/copyright
+SPDXID: SPDXRef-libsoup2.4-common_file_1
+FileChecksum: c956bc1ac9078453438141c77e3927bd6b3ca0bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common_file_1
+
 
 ## Extracted License
 

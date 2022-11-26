@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libtirpc-common_1.3.2-2ubuntu0.1-2834b64f-2228-5a19-a8a8-f42e66a53ea7
 DocumentName: libtirpc-common_1.3.2-2ubuntu0.1
-DocumentNamespace: http://spdx.org/spdxdocs/libtirpc-common_1.3.2-2ubuntu0.1-9878ec00-ea68-5bfd-889c-c14c0e4cd23d
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libtirpc-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:32Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libtirpc-common
 PackageVersion: 1.3.2-2ubuntu0.1
 SPDXID: SPDXRef-libtirpc-common
+PackageVerificationCode: f97df2fc15dbc0a89da829b5f9ec6a8c2fd1cd78
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: http://sourceforge.net/projects/libtirpc
 PackageComment: <text>transport-independent RPC library - common files
  This package contains a port of Sun's transport-independent RPC library to
@@ -29,6 +33,51 @@ PackageComment: <text>transport-independent RPC library - common files
 
 
 ## File
+
+FileName: /etc/netconfig
+SPDXID: SPDXRef-libtirpc-common_file_0
+FileChecksum: 36852ec5ce61da5aebd8f23ecd2f17434f457367
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtirpc-common CONTAINS SPDXRef-libtirpc-common_file_0
+
+
+FileName: /usr/share/doc/libtirpc-common/NEWS.Debian.gz
+SPDXID: SPDXRef-libtirpc-common_file_1
+FileChecksum: 6de67dd16ee0df89246e174efc97839f7c722893
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtirpc-common CONTAINS SPDXRef-libtirpc-common_file_1
+
+
+FileName: /usr/share/doc/libtirpc-common/changelog.Debian.gz
+SPDXID: SPDXRef-libtirpc-common_file_2
+FileChecksum: 32e3259527f8e2b7d9ff40cd6ed6a82a6b38e3a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtirpc-common CONTAINS SPDXRef-libtirpc-common_file_2
+
+
+FileName: /usr/share/doc/libtirpc-common/copyright
+SPDXID: SPDXRef-libtirpc-common_file_3
+FileChecksum: d3d1543ca5af64ea288daa5984c4710287757409
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtirpc-common CONTAINS SPDXRef-libtirpc-common_file_3
+
+
+FileName: /usr/share/man/man5/netconfig.5.gz
+SPDXID: SPDXRef-libtirpc-common_file_4
+FileChecksum: 21aabdde1d60ce3c4535f80178ec0bbe0116400c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtirpc-common CONTAINS SPDXRef-libtirpc-common_file_4
+
 
 ## Extracted License
 

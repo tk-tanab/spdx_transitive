@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1-3d590332-efab-530d-ac65-2fa91f16ccf2
 DocumentName: libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1
-DocumentNamespace: http://spdx.org/spdxdocs/libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1-4f848c64-01b3-5cc2-a89d-fe0edca72533
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libldap-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:34Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libldap-common
 PackageVersion: 2.5.13+dfsg-0ubuntu0.22.04.1
 SPDXID: SPDXRef-libldap-common
+PackageVerificationCode: 8cb183a7de55aa0ff7e3d06cecfe53162cae37bc
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://www.openldap.org/
 PackageComment: <text>OpenLDAP common files for libraries
  These are common files for the run-time libraries for the OpenLDAP
@@ -25,6 +29,42 @@ PackageComment: <text>OpenLDAP common files for libraries
 
 
 ## File
+
+FileName: /etc/ldap/ldap.conf
+SPDXID: SPDXRef-libldap-common_file_0
+FileChecksum: c1aa84a132bb8bc0546c66a12d37245e5cf55f9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common_file_0
+
+
+FileName: /usr/share/doc/libldap-common/changelog.Debian.gz
+SPDXID: SPDXRef-libldap-common_file_1
+FileChecksum: 7f22dc33ce5bde434902c92a3358933105e76b07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common_file_1
+
+
+FileName: /usr/share/doc/libldap-common/copyright
+SPDXID: SPDXRef-libldap-common_file_2
+FileChecksum: dafbd159d68c2112925600499ef053994190dec0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common_file_2
+
+
+FileName: /usr/share/man/man5/ldap.conf.5.gz
+SPDXID: SPDXRef-libldap-common_file_3
+FileChecksum: 784d6e6a94ff4df729ac54522bc53ff759b970d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common_file_3
+
 
 ## Extracted License
 

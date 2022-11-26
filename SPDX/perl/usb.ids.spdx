@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/usb.ids_2022.04.02-1-ca622f38-1a4f-598a-89e4-226ba1b70c35
 DocumentName: usb.ids_2022.04.02-1
-DocumentNamespace: http://spdx.org/spdxdocs/usb.ids_2022.04.02-1-d3a7aea0-8d8c-5efe-8d3a-acb2d66e95c7
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-usb.ids
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:44Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: usb.ids
 PackageVersion: 2022.04.02-1
 SPDXID: SPDXRef-usb.ids
+PackageVerificationCode: 025b34e2f3389bb909dde0c7352e005d08f65328
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: http://www.linux-usb.org/usb-ids.html
 PackageComment: <text>USB ID Repository
  This package contains the usb.ids file, a public repository of all known
@@ -27,6 +31,42 @@ PackageComment: <text>USB ID Repository
 
 
 ## File
+
+FileName: /usr/share/doc/usb.ids/changelog.Debian.gz
+SPDXID: SPDXRef-usb.ids_file_0
+FileChecksum: e5558130820193d4450c4fca6266138ab39768ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usb.ids CONTAINS SPDXRef-usb.ids_file_0
+
+
+FileName: /usr/share/doc/usb.ids/copyright
+SPDXID: SPDXRef-usb.ids_file_1
+FileChecksum: a552bd306034fbb3c0b295edb9fc66a318786d77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usb.ids CONTAINS SPDXRef-usb.ids_file_1
+
+
+FileName: /var/lib/usbutils/usb.ids
+SPDXID: SPDXRef-usb.ids_file_2
+FileChecksum: 9664dc4ba5dad416ccf83d096712033aacc806bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usb.ids CONTAINS SPDXRef-usb.ids_file_2
+
+
+FileName: /usr/share/misc/usb.ids
+SPDXID: SPDXRef-usb.ids_file_3
+FileChecksum: 9664dc4ba5dad416ccf83d096712033aacc806bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usb.ids CONTAINS SPDXRef-usb.ids_file_3
+
 
 ## Extracted License
 

@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/lto-disabled-list_24-67c02779-7825-5b6d-8e45-01e273759225
 DocumentName: lto-disabled-list_24
-DocumentNamespace: http://spdx.org/spdxdocs/lto-disabled-list_24-d2331f15-839d-5da6-a088-ccd9d0dda4fa
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lto-disabled-list
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:21:47Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: lto-disabled-list
 PackageVersion: 24
 SPDXID: SPDXRef-lto-disabled-list
+PackageVerificationCode: 17dd64e6ebfbae425b2721578340ff561d8bef7e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>list of packages not to build with LTO
  A list of source packages not to build with link time
  optimization (LTO).
@@ -27,6 +31,33 @@ PackageComment: <text>list of packages not to build with LTO
 
 
 ## File
+
+FileName: /usr/share/doc/lto-disabled-list/changelog.gz
+SPDXID: SPDXRef-lto-disabled-list_file_0
+FileChecksum: 5b255ba1806fd94637c2910638c60c4a0331a716
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lto-disabled-list CONTAINS SPDXRef-lto-disabled-list_file_0
+
+
+FileName: /usr/share/doc/lto-disabled-list/copyright
+SPDXID: SPDXRef-lto-disabled-list_file_1
+FileChecksum: 939d726e2a5d5cf8cb8cd3d5a7d560dc089ab104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lto-disabled-list CONTAINS SPDXRef-lto-disabled-list_file_1
+
+
+FileName: /usr/share/lto-disabled-list/lto-disabled-list
+SPDXID: SPDXRef-lto-disabled-list_file_2
+FileChecksum: 7b195f931594ef6d1ed3647fe477c84837d30536
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lto-disabled-list CONTAINS SPDXRef-lto-disabled-list_file_2
+
 
 ## Extracted License
 

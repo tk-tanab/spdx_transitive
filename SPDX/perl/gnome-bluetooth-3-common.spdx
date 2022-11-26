@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-bluetooth-3-common_42.0-5-152e08f6-d700-59ab-8ed0-e637a3372b8a
 DocumentName: gnome-bluetooth-3-common_42.0-5
-DocumentNamespace: http://spdx.org/spdxdocs/gnome-bluetooth-3-common_42.0-5-56deb613-04bd-572e-99aa-27c09a1e311f
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-bluetooth-3-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:21:04Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: gnome-bluetooth-3-common
 PackageVersion: 42.0-5
 SPDXID: SPDXRef-gnome-bluetooth-3-common
+PackageVerificationCode: 2e1a5e06842243b3a99fc083466ab5aaf0f5d0c4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/GnomeBluetooth
 PackageComment: <text>GNOME Bluetooth 3 common files
  This package contains common files for the GNOME Bluetooth tools
@@ -25,6 +29,816 @@ PackageComment: <text>GNOME Bluetooth 3 common files
 
 
 ## File
+
+FileName: /usr/share/doc/gnome-bluetooth-3-common/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_0
+FileChecksum: fcf451e0debfabbfed665241751bdae8265b78eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_0
+
+
+FileName: /usr/share/doc/gnome-bluetooth-3-common/copyright
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_1
+FileChecksum: 36c848744d00f82e1ecbf3de7bb765d45baf8f84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_1
+
+
+FileName: /usr/share/gnome-bluetooth-3.0/pin-code-database.xml
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_2
+FileChecksum: 645e000194cdc4bef222275c32efd87a2dc07903
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_2
+
+
+FileName: /usr/share/locale/af/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_3
+FileChecksum: 473ea8685a1e38b2056671a5173774236bb3415b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_3
+
+
+FileName: /usr/share/locale/an/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_4
+FileChecksum: b280e4a73d202a44af3e6223fd90ae6b5009ea21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_4
+
+
+FileName: /usr/share/locale/ar/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_5
+FileChecksum: 4a30b0c482f4cd90e0a74fd5bba266de86ed2ccd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_5
+
+
+FileName: /usr/share/locale/as/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_6
+FileChecksum: 28758becd6ffea0b0f3828ed53627768b0759028
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_6
+
+
+FileName: /usr/share/locale/ast/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_7
+FileChecksum: 5788273e7c34250e76830c17220a8ecbb4acfaef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_7
+
+
+FileName: /usr/share/locale/be/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_8
+FileChecksum: f1fae14c12edd4129518c1d02a1845416473e3ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_8
+
+
+FileName: /usr/share/locale/bg/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_9
+FileChecksum: 97ab83c2092adbdd88cbade850eff6150e46014a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_9
+
+
+FileName: /usr/share/locale/bn/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_10
+FileChecksum: eb9586e2d765184d1e5f878d2b84e2b5150901ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_10
+
+
+FileName: /usr/share/locale/bn_IN/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_11
+FileChecksum: 684d1ac86d46297f76a50930cc2e3018b692b7a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_11
+
+
+FileName: /usr/share/locale/bs/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_12
+FileChecksum: d1c3c039c61afeb818aa5d0bac068f5988c8dfc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_12
+
+
+FileName: /usr/share/locale/ca/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_13
+FileChecksum: 2da9c0dc294299a42b2f349de51a3b51f6c6384f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_13
+
+
+FileName: /usr/share/locale/ca@valencia/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_14
+FileChecksum: bd651bee3ac05d458ddeb0c36c2296fb2eb4235a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_14
+
+
+FileName: /usr/share/locale/ckb/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_15
+FileChecksum: 94261c56401cfdb1a8c4590a34be45704511b00f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_15
+
+
+FileName: /usr/share/locale/crh/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_16
+FileChecksum: bf213832970050a90de84c11fd51141162268d61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_16
+
+
+FileName: /usr/share/locale/cs/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_17
+FileChecksum: 1ac911e593fd408b513c20c8bb13e20a4e8875b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_17
+
+
+FileName: /usr/share/locale/da/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_18
+FileChecksum: 9eca13c57baba4233c2df88f74b04020900cc7ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_18
+
+
+FileName: /usr/share/locale/de/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_19
+FileChecksum: 7725bc187cedc9cb54fce0112ab99d529ad89f76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_19
+
+
+FileName: /usr/share/locale/el/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_20
+FileChecksum: 45da62be0f21d42ab58737d2e4b1900a8ab590c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_20
+
+
+FileName: /usr/share/locale/en@shaw/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_21
+FileChecksum: 901d577d4b480de6a39c15152fb19ffef325c951
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_21
+
+
+FileName: /usr/share/locale/en_GB/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_22
+FileChecksum: 6384ff6c6fc096c395dfb73bc27e943cda98e2f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_22
+
+
+FileName: /usr/share/locale/eo/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_23
+FileChecksum: c9996436a59bb6e588eb3e8e73e21930ccd30883
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_23
+
+
+FileName: /usr/share/locale/es/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_24
+FileChecksum: c0f69f67912bd57fb5fb0231fe61b9c823f454ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_24
+
+
+FileName: /usr/share/locale/et/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_25
+FileChecksum: c6e55e553622cb7b53e3b1ed31832dc6827ef530
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_25
+
+
+FileName: /usr/share/locale/eu/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_26
+FileChecksum: 05b48eeb83aaff16775aa935d49ea8ed845d336a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_26
+
+
+FileName: /usr/share/locale/fa/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_27
+FileChecksum: a47224662411e1de849b58aeb7c1f632356eb8d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_27
+
+
+FileName: /usr/share/locale/fi/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_28
+FileChecksum: 96160cf0a72c129812a57adc4139f05ff110d6e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_28
+
+
+FileName: /usr/share/locale/fr/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_29
+FileChecksum: e6139fa7598657682295dc0c7c0ae13388b65173
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_29
+
+
+FileName: /usr/share/locale/fur/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_30
+FileChecksum: 73341a4094573e75ab595b01e00bba3457267a12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_30
+
+
+FileName: /usr/share/locale/fy/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_31
+FileChecksum: ce21a26e100e649c48c4a724346493d000ae9d2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_31
+
+
+FileName: /usr/share/locale/ga/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_32
+FileChecksum: 5de7fc26b76b57d8d5e4ff5abfc20ed46cc2a499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_32
+
+
+FileName: /usr/share/locale/gd/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_33
+FileChecksum: 8fe3d6f6cbdfc8581a0832a725e9cfd9bb6cff67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_33
+
+
+FileName: /usr/share/locale/gl/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_34
+FileChecksum: 5566a7cd4f210252a1773a52aebb9f39379558ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_34
+
+
+FileName: /usr/share/locale/gu/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_35
+FileChecksum: 2e77090c5f0c9e3f4b86ae6497a43656a559e94e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_35
+
+
+FileName: /usr/share/locale/he/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_36
+FileChecksum: 5aa774eeb919d2b0fa634c493f6012d42a5ee191
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_36
+
+
+FileName: /usr/share/locale/hi/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_37
+FileChecksum: fd305a0c42403565485a438a6fbcd799e6125f08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_37
+
+
+FileName: /usr/share/locale/hr/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_38
+FileChecksum: 82f9187eb9aedc98f32060e4724111680cfaa3de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_38
+
+
+FileName: /usr/share/locale/hu/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_39
+FileChecksum: e659731f64ce7de4977e27f40a7ace5d59c0a5fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_39
+
+
+FileName: /usr/share/locale/hy/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_40
+FileChecksum: 42e374811c36bec63a5ad378be999caf36f0c2e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_40
+
+
+FileName: /usr/share/locale/id/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_41
+FileChecksum: 12cd35639139ff100e2b20599a4b41b88fb7303c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_41
+
+
+FileName: /usr/share/locale/is/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_42
+FileChecksum: 9e7c3c8ac02b694012e7701324ce221f458822e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_42
+
+
+FileName: /usr/share/locale/it/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_43
+FileChecksum: 1c30f17383a8c476d6cc74bd7b225f46842c7f4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_43
+
+
+FileName: /usr/share/locale/ja/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_44
+FileChecksum: 61ed3e7e6fb024367581d1f1f482389d20f7fb55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_44
+
+
+FileName: /usr/share/locale/ka/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_45
+FileChecksum: b9063f09458c0d97a1ab02f00c779209792a405f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_45
+
+
+FileName: /usr/share/locale/kk/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_46
+FileChecksum: 113164d77d25b8dbeb940ddc224e7bd5a790c375
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_46
+
+
+FileName: /usr/share/locale/km/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_47
+FileChecksum: a2829d28e3993432ccf7ffbb0cf34f33099e0a73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_47
+
+
+FileName: /usr/share/locale/kn/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_48
+FileChecksum: 6c634ba7a6bf2b956e0565656b960b6eace5e1f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_48
+
+
+FileName: /usr/share/locale/ko/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_49
+FileChecksum: ccb4c234ef65d9c7773174fdd0aeb31f21926cc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_49
+
+
+FileName: /usr/share/locale/ku/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_50
+FileChecksum: 07bbc5e13d6412c75a04dc1d898a67d176a70d18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_50
+
+
+FileName: /usr/share/locale/lt/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_51
+FileChecksum: 44d33dbb46b9f354d7f488327695a261ad9b0cae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_51
+
+
+FileName: /usr/share/locale/lv/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_52
+FileChecksum: 62fc5b877d90caad2e4470447bd7851a83e74474
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_52
+
+
+FileName: /usr/share/locale/mai/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_53
+FileChecksum: fd380df5b3c7e806346f7843ccaf7efc4d9ca59b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_53
+
+
+FileName: /usr/share/locale/mjw/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_54
+FileChecksum: 805943627c40cab2a336b10d0a7d256bf1c9bcb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_54
+
+
+FileName: /usr/share/locale/mk/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_55
+FileChecksum: c8af0a29a04b4b716be26071b9e1bfaa80537fae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_55
+
+
+FileName: /usr/share/locale/ml/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_56
+FileChecksum: d6313ae0b088aa53f799f931b1583275a7ba570c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_56
+
+
+FileName: /usr/share/locale/mn/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_57
+FileChecksum: 5f7e19f0f76ee056353a553eacab53cacc579597
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_57
+
+
+FileName: /usr/share/locale/mr/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_58
+FileChecksum: a89cbe6ef02f45166b80e273d747d121ee3b331d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_58
+
+
+FileName: /usr/share/locale/ms/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_59
+FileChecksum: 72dee6bf216accf7b7e1f9756994e6d2e6d211db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_59
+
+
+FileName: /usr/share/locale/nb/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_60
+FileChecksum: 0db63b6d80ac1140b0cea21f4a33794aeed1eb83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_60
+
+
+FileName: /usr/share/locale/ne/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_61
+FileChecksum: cbe4a679bc730bd30ed91614eac1c07323bb463b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_61
+
+
+FileName: /usr/share/locale/nl/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_62
+FileChecksum: 17d30ed21f9a833944a480ef7ed86db30d926a75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_62
+
+
+FileName: /usr/share/locale/nn/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_63
+FileChecksum: b4710f5875b3624121de91489d0ee8ff5af4cb78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_63
+
+
+FileName: /usr/share/locale/oc/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_64
+FileChecksum: d09b1095c631c2dad8d46a450c746c965795b593
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_64
+
+
+FileName: /usr/share/locale/or/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_65
+FileChecksum: 018784928317cfcd069fed4fddc83c1a8836926f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_65
+
+
+FileName: /usr/share/locale/pa/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_66
+FileChecksum: 1ecca2b1cea266956b7ace5717efcd0929351f3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_66
+
+
+FileName: /usr/share/locale/pl/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_67
+FileChecksum: 53c80f07b8131949e90cba5438ce0b502096f846
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_67
+
+
+FileName: /usr/share/locale/pt/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_68
+FileChecksum: db6c6fe3248d5b798e1736a9bbd978426f067dc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_68
+
+
+FileName: /usr/share/locale/pt_BR/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_69
+FileChecksum: 9062baab8f168efd0c6f6b7b66fcfdb838da7462
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_69
+
+
+FileName: /usr/share/locale/ro/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_70
+FileChecksum: 22700e8fbc45f63d9f4197edb81f99a16442632f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_70
+
+
+FileName: /usr/share/locale/ru/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_71
+FileChecksum: 65a66db9420a1ee898cce418035922d7620b05f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_71
+
+
+FileName: /usr/share/locale/sk/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_72
+FileChecksum: 5bb4a7432902aeece09b4ea1fd55e761e2d3fce5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_72
+
+
+FileName: /usr/share/locale/sl/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_73
+FileChecksum: 94e4eebb9af598e080c036d67fa7edce5245501b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_73
+
+
+FileName: /usr/share/locale/sr/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_74
+FileChecksum: a649ff739a9bccbf349f2e0f19ddd89cec08f8c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_74
+
+
+FileName: /usr/share/locale/sr@latin/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_75
+FileChecksum: 456d457790f03791458fd4afda4c4ac75c4f9ce5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_75
+
+
+FileName: /usr/share/locale/sv/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_76
+FileChecksum: 514d14fba502f784eb42fab55b7e4bd87fc8aba4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_76
+
+
+FileName: /usr/share/locale/ta/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_77
+FileChecksum: bb32f3a003d7f95317474bb0a8c5e2a656a889ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_77
+
+
+FileName: /usr/share/locale/te/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_78
+FileChecksum: 8f55e0229ddc941140b57f6c8089bef40aaeee7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_78
+
+
+FileName: /usr/share/locale/tg/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_79
+FileChecksum: 233676dd82a871f6afa0f7c2bf50a172c44e40a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_79
+
+
+FileName: /usr/share/locale/th/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_80
+FileChecksum: f6b4ce7f44eb864a3e6e8d149ae1d20699b3a0f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_80
+
+
+FileName: /usr/share/locale/tr/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_81
+FileChecksum: 8015a2d383bdee7fead6fab8d4ef9e91c0ef5730
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_81
+
+
+FileName: /usr/share/locale/ug/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_82
+FileChecksum: 7a8c071b23501729554c9e1d8392ec01d4192164
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_82
+
+
+FileName: /usr/share/locale/uk/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_83
+FileChecksum: a0c94054a8862860ca19bdd40b452812a4fc4763
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_83
+
+
+FileName: /usr/share/locale/vi/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_84
+FileChecksum: f397c0136adce96ab173988d3c84d151e46ebeea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_84
+
+
+FileName: /usr/share/locale/xh/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_85
+FileChecksum: 96ae8979548f56fc58e6458e8146a1f529f4bc62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_85
+
+
+FileName: /usr/share/locale/zh_CN/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_86
+FileChecksum: 995c93664b11ef064ce9b5cb5b20a3ee9d4c4ddb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_86
+
+
+FileName: /usr/share/locale/zh_HK/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_87
+FileChecksum: 5bef97065439baa3864e4573a1d2f9069d0e71e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_87
+
+
+FileName: /usr/share/locale/zh_TW/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_88
+FileChecksum: b7d65144c46af962ca80329c060ff883c598af69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_88
+
+
+FileName: /usr/share/locale/zu/LC_MESSAGES/gnome-bluetooth-3.0.mo
+SPDXID: SPDXRef-gnome-bluetooth-3-common_file_89
+FileChecksum: 073aa29566a6b0bf215e1104821b42e66c2b6aab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-3-common CONTAINS SPDXRef-gnome-bluetooth-3-common_file_89
+
 
 ## Extracted License
 

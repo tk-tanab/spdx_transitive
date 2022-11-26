@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libgdata-common_0.18.1-2build1-931b01fc-cb47-5c9d-ab9c-584429791fe9
 DocumentName: libgdata-common_0.18.1-2build1
-DocumentNamespace: http://spdx.org/spdxdocs/libgdata-common_0.18.1-2build1-eff1a325-6f9a-545d-8957-b1d6ade68bb2
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdata-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:20:05Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libgdata-common
 PackageVersion: 0.18.1-2build1
 SPDXID: SPDXRef-libgdata-common
+PackageVerificationCode: fad0d6e204da10e32421f8fbdd8c7d980b6d24a5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/libgdata
 PackageComment: <text>Library for accessing GData webservices - common data files
  libgdata is a GLib-based library for accessing online service APIs using
@@ -28,6 +32,24 @@ PackageComment: <text>Library for accessing GData webservices - common data file
 
 
 ## File
+
+FileName: /usr/share/doc/libgdata-common/changelog.Debian.gz
+SPDXID: SPDXRef-libgdata-common_file_0
+FileChecksum: 054c709d7f4f412f371ccee3208702070d58cbec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common_file_0
+
+
+FileName: /usr/share/doc/libgdata-common/copyright
+SPDXID: SPDXRef-libgdata-common_file_1
+FileChecksum: fb043d19b1e1e7fe4236b5d99635eb3983d91463
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common_file_1
+
 
 ## Extracted License
 

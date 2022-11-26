@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libwnck-3-common_40.1-1-29d81917-906a-5917-8551-c4faa256626c
 DocumentName: libwnck-3-common_40.1-1
-DocumentNamespace: http://spdx.org/spdxdocs/libwnck-3-common_40.1-1-adc4dd7c-5a3a-5ad7-9e21-aa8eaaf3ff46
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwnck-3-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:21:13Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libwnck-3-common
 PackageVersion: 40.1-1
 SPDXID: SPDXRef-libwnck-3-common
+PackageVerificationCode: f21ac6b159d24a6c364e02c577eee8e50e8f2aa2
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://gitlab.gnome.org/GNOME/libwnck
 PackageComment: <text>Window Navigator Construction Kit - common files
  A library to use for writing pagers and task lists.
@@ -26,6 +30,33 @@ PackageComment: <text>Window Navigator Construction Kit - common files
 
 
 ## File
+
+FileName: /usr/share/doc/libwnck-3-common/NEWS.gz
+SPDXID: SPDXRef-libwnck-3-common_file_0
+FileChecksum: a04c97b910567c674bf5fe5da2ab40da0a17b5b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common_file_0
+
+
+FileName: /usr/share/doc/libwnck-3-common/changelog.Debian.gz
+SPDXID: SPDXRef-libwnck-3-common_file_1
+FileChecksum: e516f5c163d9fbdf1e65de7b3c2c20d7bb06ebbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common_file_1
+
+
+FileName: /usr/share/doc/libwnck-3-common/copyright
+SPDXID: SPDXRef-libwnck-3-common_file_2
+FileChecksum: 8779a9f92945dfa2afbc26f4f0489321bf01eebc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common_file_2
+
 
 ## Extracted License
 

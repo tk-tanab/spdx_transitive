@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/pci.ids_0.0~2022.01.22-1-81cc04ee-c638-571e-b370-8124b441aeee
 DocumentName: pci.ids_0.0~2022.01.22-1
-DocumentNamespace: http://spdx.org/spdxdocs/pci.ids_0.0~2022.01.22-1-90c321a1-81d1-5b22-aa96-c423d40318c6
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-pci.ids
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:47Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: pci.ids
 PackageVersion: 0.0~2022.01.22-1
 SPDXID: SPDXRef-pci.ids
+PackageVerificationCode: 8c5c9dd86eb582ac8d9a74ac33c58942f1d67122
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://pci-ids.ucw.cz/
 PackageComment: <text>PCI ID Repository
  This package contains the pci.ids file, a public repository of all known
@@ -27,6 +31,33 @@ PackageComment: <text>PCI ID Repository
 
 
 ## File
+
+FileName: /usr/share/doc/pci.ids/changelog.Debian.gz
+SPDXID: SPDXRef-pci.ids_file_0
+FileChecksum: f376072df6364b8f1be16c856cce690d36078a88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids_file_0
+
+
+FileName: /usr/share/doc/pci.ids/copyright
+SPDXID: SPDXRef-pci.ids_file_1
+FileChecksum: 3c62e38955a562c2fddc73a987809aba3a5b4871
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids_file_1
+
+
+FileName: /usr/share/misc/pci.ids
+SPDXID: SPDXRef-pci.ids_file_2
+FileChecksum: 23f1217465519470a24e20d94de595d7831c3bb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids_file_2
+
 
 ## Extracted License
 

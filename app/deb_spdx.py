@@ -1,10 +1,6 @@
-from pprint import pprint
-import shutil
 import subprocess
 import os
 import control_to_dict
-import tv_to_dict
-import json
 import hashlib
 import uuid
 import dict_to_tv
@@ -110,13 +106,14 @@ class Deb_Spdx:
         mutual_list: list[str] = []
         package_dict = self.tv_dict["Package"][0]
         termed_d_list = []
+        not_out_list = []
 
         dori_list = []
         for dp in d_list:
             or_list = dp.split(' | ')
             ori_list = []
             for d in or_list:
-                ori_list.append([i for i in re.split(" |\(|\)|\[.*?\]", d) if i])
+                ori_list.append([i for i in re.split(" |\(|\)|\[.*?\]|:any", d) if i])
             dori_list.append(ori_list)
 
         for ori_list in dori_list:
@@ -146,19 +143,15 @@ class Deb_Spdx:
             if (spdx_p_name:=self.spdx_exists(real_dp_name)):
                 print(real_dp_name, "already exist")
                 self.add_external_ref(spdx_p_name)
-            # 上の階層のパッケージと相互依存になっているとき
-            elif real_dp_name in self.trail_list:
-                # relationship
+            # このパッケージの別の枝(未出力)で調査済みのとき
+            elif real_dp_name in not_out_list:
                 package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name)
-                print("real_dp_nameU", real_dp_name)
+            # 上の階層のパッケージと相互依存になっているとき か すでに上の階層のパッケージの別の枝で調査済みのとき
+            elif real_dp_name in self.trail_list or real_dp_name in self.treated_list:
+                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name)
                 mutual_list.append(real_dp_name)
-            # すでに調査済みのとき
-            elif real_dp_name in self.treated_list:
-                print("treated", real_dp_name)
-                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name)
-                if len(self.trail_list) > 1:
-                    mutual_list.append(self.trail_list[-2])
             else:
+                snap_len_treated = len(self.treated_list)
                 new_spdx = Deb_Spdx(pv_dict, vrp_dict, real_dp_name, self.auth_name, self.trail_list)
                 r_mutual_list = new_spdx.run()
                 print("back", self.package_name)
@@ -168,8 +161,8 @@ class Deb_Spdx:
                     # relationship
                     package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name)
                     self.merge_spdx(new_spdx.return_spdx())
-                    print("real_dp_nameD", real_dp_name)
-                    mutual_list += [p for p in r_mutual_list if p != self.package_name]
+                    not_out_list += self.treated_list[snap_len_treated:]
+                    mutual_list += [p for p in r_mutual_list if (p != self.package_name) and (p not in not_out_list)]
                 # 問題なし
                 else:
                     self.add_external_ref(real_dp_name)
@@ -321,7 +314,7 @@ class Deb_Spdx:
         elif mode == 2:
             self.tv_dict = make_tv_dict.make_tv_dict(package_name, 2)
         else:
-            self.tv_dict = make_tv_dict(package_name, 3)
+            self.tv_dict = make_tv_dict.make_tv_dict(package_name, 3)
 
         self.treated_list.append(package_name)
 

@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libunity-scopes-json-def-desktop_7.1.4+19.04.20190319-6build1-8b08f1f4-d421-5ec9-ac9e-e7687063d8d2
 DocumentName: libunity-scopes-json-def-desktop_7.1.4+19.04.20190319-6build1
-DocumentNamespace: http://spdx.org/spdxdocs/libunity-scopes-json-def-desktop_7.1.4+19.04.20190319-6build1-5fcd8690-6c68-5cef-87d3-e3e25eed7271
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libunity-scopes-json-def-desktop
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:21:20Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libunity-scopes-json-def-desktop
 PackageVersion: 7.1.4+19.04.20190319-6build1
 SPDXID: SPDXRef-libunity-scopes-json-def-desktop
+PackageVerificationCode: 53ce1865beb15227ed77b88797b18e0e46d49c28
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://launchpad.net/libunity
 PackageComment: <text>binding to get places into the launcher - desktop def file
  libunity is a shared library to be able to interact with the launcher
@@ -27,6 +31,33 @@ PackageComment: <text>binding to get places into the launcher - desktop def file
 
 
 ## File
+
+FileName: /usr/share/doc/libunity-scopes-json-def-desktop/changelog.Debian.gz
+SPDXID: SPDXRef-libunity-scopes-json-def-desktop_file_0
+FileChecksum: c0248514acce6f89613adfce8822b401a7fa2a30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libunity-scopes-json-def-desktop CONTAINS SPDXRef-libunity-scopes-json-def-desktop_file_0
+
+
+FileName: /usr/share/doc/libunity-scopes-json-def-desktop/copyright
+SPDXID: SPDXRef-libunity-scopes-json-def-desktop_file_1
+FileChecksum: 487aede6d914b00df083b3964d62e1c34ae36022
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libunity-scopes-json-def-desktop CONTAINS SPDXRef-libunity-scopes-json-def-desktop_file_1
+
+
+FileName: /usr/share/unity/client-scopes.json
+SPDXID: SPDXRef-libunity-scopes-json-def-desktop_file_2
+FileChecksum: fa6717ccbc2e203a1b4ef74c9443f029b067abaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libunity-scopes-json-def-desktop CONTAINS SPDXRef-libunity-scopes-json-def-desktop_file_2
+
 
 ## Extracted License
 

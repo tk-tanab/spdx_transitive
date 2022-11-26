@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libdjvulibre-text_3.5.28-2build2-bc6f2bb9-a368-539c-bd3c-fc8a8012ca51
 DocumentName: libdjvulibre-text_3.5.28-2build2
-DocumentNamespace: http://spdx.org/spdxdocs/libdjvulibre-text_3.5.28-2build2-132db27d-b2be-5a87-81d3-f1b70624d21e
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdjvulibre-text
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:58Z
 
 
 ## Package
@@ -18,12 +19,177 @@ Created: 11/21
 PackageName: libdjvulibre-text
 PackageVersion: 3.5.28-2build2
 SPDXID: SPDXRef-libdjvulibre-text
+PackageVerificationCode: 488f101301f6c10cbd4048b40bf3fb0195e7e4e1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: http://djvu.sourceforge.net/
 PackageComment: <text>Linguistic support files for libdjvulibre
  Runtime linguistic support files for the libdjvulibre library.</text>
 
 
 ## File
+
+FileName: /usr/share/djvu/osi/cs/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_0
+FileChecksum: b23c9b47f073ef8d9b44cb2f35970c28200501bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_0
+
+
+FileName: /usr/share/djvu/osi/de/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_1
+FileChecksum: eb6e097e1dfc2f84a28d0c7bb5b36a00897ac23e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_1
+
+
+FileName: /usr/share/djvu/osi/de/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_2
+FileChecksum: 2014a7ed017190c0f504b076a5794430fe5cbd59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_2
+
+
+FileName: /usr/share/djvu/osi/en/djvutools-reference.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_3
+FileChecksum: fae6bcd5b4c84ca4b29acb975cf497ea6b80229d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_3
+
+
+FileName: /usr/share/djvu/osi/en/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_4
+FileChecksum: f1d3e9f5132000b843805093ead96693afb6d279
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_4
+
+
+FileName: /usr/share/djvu/osi/en/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_5
+FileChecksum: b4fa30ebff895c3aa52b51c8535592be6a0b201d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_5
+
+
+FileName: /usr/share/djvu/osi/fr/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_6
+FileChecksum: 16978f0cfa5daf8e09a4791b7438ece312e75583
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_6
+
+
+FileName: /usr/share/djvu/osi/fr/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_7
+FileChecksum: 2014a7ed017190c0f504b076a5794430fe5cbd59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_7
+
+
+FileName: /usr/share/djvu/osi/ja/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_8
+FileChecksum: c88d05f04fbc4459e9c02a3690f13b60b6ec7057
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_8
+
+
+FileName: /usr/share/djvu/osi/ja/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_9
+FileChecksum: 2014a7ed017190c0f504b076a5794430fe5cbd59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_9
+
+
+FileName: /usr/share/djvu/osi/languages.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_10
+FileChecksum: fc3daa1a31f90e4da4dde2e54066ca3b22c86363
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_10
+
+
+FileName: /usr/share/djvu/osi/zh/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_11
+FileChecksum: 274470f6621b879d06ab0eb6af25fb2da15bdc16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_11
+
+
+FileName: /usr/share/djvu/osi/zh/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text_file_12
+FileChecksum: 2014a7ed017190c0f504b076a5794430fe5cbd59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_12
+
+
+FileName: /usr/share/djvu/pubtext/DjVuMessages.dtd
+SPDXID: SPDXRef-libdjvulibre-text_file_13
+FileChecksum: f109dd6a4138fb310afdfaecc7b7677c72439fda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_13
+
+
+FileName: /usr/share/djvu/pubtext/DjVuOCR.dtd
+SPDXID: SPDXRef-libdjvulibre-text_file_14
+FileChecksum: b235a4e2b97b77014f4706efc2842f8c8a2c9b0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_14
+
+
+FileName: /usr/share/djvu/pubtext/DjVuXML-s.dtd
+SPDXID: SPDXRef-libdjvulibre-text_file_15
+FileChecksum: a96afa9157e6d1b17165869169bf5b749ebfb4b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_15
+
+
+FileName: /usr/share/doc/libdjvulibre-text/changelog.Debian.gz
+SPDXID: SPDXRef-libdjvulibre-text_file_16
+FileChecksum: f30f8d8d027f75b1216fb72451a4676c67a2aae5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_16
+
+
+FileName: /usr/share/doc/libdjvulibre-text/copyright
+SPDXID: SPDXRef-libdjvulibre-text_file_17
+FileChecksum: 91e08e8dd4d6c6f04f66099e2800ae3bc9286b60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text_file_17
+
 
 ## Extracted License
 

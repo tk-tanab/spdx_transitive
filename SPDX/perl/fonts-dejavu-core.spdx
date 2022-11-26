@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-dejavu-core_2.37-2build1-36016b9e-533b-5110-9ea5-34ed1a7f40fc
 DocumentName: fonts-dejavu-core_2.37-2build1
-DocumentNamespace: http://spdx.org/spdxdocs/fonts-dejavu-core_2.37-2build1-bf4edaa2-cc66-5006-8ea7-9829ce3968b5
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-dejavu-core
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:41Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: fonts-dejavu-core
 PackageVersion: 2.37-2build1
 SPDXID: SPDXRef-fonts-dejavu-core
+PackageVerificationCode: 1d14379248c2aaeaee6d5608ebae26881dbfd95d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://dejavu-fonts.github.io/
 PackageComment: <text>Vera font family derivate with additional characters
  DejaVu provides an expanded version of the Vera font family aiming for
@@ -35,6 +39,348 @@ PackageComment: <text>Vera font family derivate with additional characters
 
 
 ## File
+
+FileName: /etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_0
+FileChecksum: 8f24e89783e072b8b2a48a45abe42bfb788e96bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_0
+
+
+FileName: /etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_1
+FileChecksum: ce3810424e1d5107f80d6e5102dd37bd571246f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_1
+
+
+FileName: /etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-serif.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_2
+FileChecksum: 523776cc334a6ff75c3d38bc4cf190d2b191cb85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_2
+
+
+FileName: /etc/fonts/conf.avail/20-unhint-small-dejavu-sans-mono.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_3
+FileChecksum: 5532044b46a1087ca745ba2855550b64d41bb7df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_3
+
+
+FileName: /etc/fonts/conf.avail/20-unhint-small-dejavu-sans.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_4
+FileChecksum: 9f41ab25fb669b3426b9cb23d783da0592e3d9f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_4
+
+
+FileName: /etc/fonts/conf.avail/20-unhint-small-dejavu-serif.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_5
+FileChecksum: ba81bf124a1c01ac8d6571af3d24101145dd5f2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_5
+
+
+FileName: /etc/fonts/conf.avail/57-dejavu-sans-mono.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_6
+FileChecksum: 7f584c8b3b903edaa791006b61a3ff977953d874
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_6
+
+
+FileName: /etc/fonts/conf.avail/57-dejavu-sans.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_7
+FileChecksum: 4c578104fb36572d97a3aeb6f2df430bcff2deac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_7
+
+
+FileName: /etc/fonts/conf.avail/57-dejavu-serif.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_8
+FileChecksum: 44246ad6b147fa1569b8d25027e0dd18e173ad7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_8
+
+
+FileName: /etc/fonts/conf.avail/58-dejavu-lgc-sans-mono.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_9
+FileChecksum: 36f8e6d71ae1db171a27942f714578349cfc4061
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_9
+
+
+FileName: /etc/fonts/conf.avail/58-dejavu-lgc-sans.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_10
+FileChecksum: 9a6f242c5a668ff8d3a898f7e3c89ad9444c5a02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_10
+
+
+FileName: /etc/fonts/conf.avail/58-dejavu-lgc-serif.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_11
+FileChecksum: c80ec771adbdd9dfd1163546fe8cac9f168ea447
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_11
+
+
+FileName: /usr/share/doc/fonts-dejavu-core/AUTHORS
+SPDXID: SPDXRef-fonts-dejavu-core_file_12
+FileChecksum: 91839713b3a1bed6bacf5641c466096280b2ced9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_12
+
+
+FileName: /usr/share/doc/fonts-dejavu-core/BUGS
+SPDXID: SPDXRef-fonts-dejavu-core_file_13
+FileChecksum: 56be66c5b1b045f9b94b71aa44cac9638e286cdb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_13
+
+
+FileName: /usr/share/doc/fonts-dejavu-core/README.md
+SPDXID: SPDXRef-fonts-dejavu-core_file_14
+FileChecksum: d2afa380cf7b4da27e154005488b7623c684f904
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_14
+
+
+FileName: /usr/share/doc/fonts-dejavu-core/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-dejavu-core_file_15
+FileChecksum: 0096a4035082bbc7e8291da58d537f256e2f1e65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_15
+
+
+FileName: /usr/share/doc/fonts-dejavu-core/copyright
+SPDXID: SPDXRef-fonts-dejavu-core_file_16
+FileChecksum: ced4273fc44f83c1820df98cd628781c50b45264
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_16
+
+
+FileName: /usr/share/doc/fonts-dejavu-core/langcover.txt.gz
+SPDXID: SPDXRef-fonts-dejavu-core_file_17
+FileChecksum: f7e344a17f5e0b8d7022171b488e3f3625c6d9ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_17
+
+
+FileName: /usr/share/doc/fonts-dejavu-core/status.txt.gz
+SPDXID: SPDXRef-fonts-dejavu-core_file_18
+FileChecksum: 96e176d17a823462880c021664b5698219dd77d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_18
+
+
+FileName: /usr/share/doc/fonts-dejavu-core/unicover.txt.gz
+SPDXID: SPDXRef-fonts-dejavu-core_file_19
+FileChecksum: 8cd6d4a203ee336ddc5e50e76f7edd14b866e72c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_19
+
+
+FileName: /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+SPDXID: SPDXRef-fonts-dejavu-core_file_20
+FileChecksum: 5e1d6c63fb3ae0ff49706292693cdf28468fefa3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_20
+
+
+FileName: /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+SPDXID: SPDXRef-fonts-dejavu-core_file_21
+FileChecksum: 6b3f672990ebb62d01355cf21fdc63dc191f3cbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_21
+
+
+FileName: /usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf
+SPDXID: SPDXRef-fonts-dejavu-core_file_22
+FileChecksum: c227cb56b8f289a3537c0fce14c65980af302dec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_22
+
+
+FileName: /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+SPDXID: SPDXRef-fonts-dejavu-core_file_23
+FileChecksum: ad35cabe67309f70bd81d90f39170c137eb18327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_23
+
+
+FileName: /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+SPDXID: SPDXRef-fonts-dejavu-core_file_24
+FileChecksum: cc29239bdd50972b8a4b308d5a5a9dabc42897b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_24
+
+
+FileName: /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+SPDXID: SPDXRef-fonts-dejavu-core_file_25
+FileChecksum: f1e720aaf9b3f0cccbf174fabb0afeb10fa216b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_25
+
+
+FileName: /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans-mono.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_26
+FileChecksum: 8f24e89783e072b8b2a48a45abe42bfb788e96bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_26
+
+
+FileName: /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_27
+FileChecksum: ce3810424e1d5107f80d6e5102dd37bd571246f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_27
+
+
+FileName: /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_28
+FileChecksum: 523776cc334a6ff75c3d38bc4cf190d2b191cb85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_28
+
+
+FileName: /etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_29
+FileChecksum: 5532044b46a1087ca745ba2855550b64d41bb7df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_29
+
+
+FileName: /etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_30
+FileChecksum: 9f41ab25fb669b3426b9cb23d783da0592e3d9f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_30
+
+
+FileName: /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_31
+FileChecksum: ba81bf124a1c01ac8d6571af3d24101145dd5f2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_31
+
+
+FileName: /etc/fonts/conf.d/57-dejavu-sans-mono.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_32
+FileChecksum: 7f584c8b3b903edaa791006b61a3ff977953d874
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_32
+
+
+FileName: /etc/fonts/conf.d/57-dejavu-sans.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_33
+FileChecksum: 4c578104fb36572d97a3aeb6f2df430bcff2deac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_33
+
+
+FileName: /etc/fonts/conf.d/57-dejavu-serif.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_34
+FileChecksum: 44246ad6b147fa1569b8d25027e0dd18e173ad7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_34
+
+
+FileName: /etc/fonts/conf.d/58-dejavu-lgc-sans-mono.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_35
+FileChecksum: 36f8e6d71ae1db171a27942f714578349cfc4061
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_35
+
+
+FileName: /etc/fonts/conf.d/58-dejavu-lgc-sans.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_36
+FileChecksum: 9a6f242c5a668ff8d3a898f7e3c89ad9444c5a02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_36
+
+
+FileName: /etc/fonts/conf.d/58-dejavu-lgc-serif.conf
+SPDXID: SPDXRef-fonts-dejavu-core_file_37
+FileChecksum: c80ec771adbdd9dfd1163546fe8cac9f168ea447
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-dejavu-core CONTAINS SPDXRef-fonts-dejavu-core_file_37
+
 
 ## Extracted License
 

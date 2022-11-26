@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libthai-data_0.1.29-1build1-668c1981-4725-5a64-832e-37fd55ef9859
 DocumentName: libthai-data_0.1.29-1build1
-DocumentNamespace: http://spdx.org/spdxdocs/libthai-data_0.1.29-1build1-e2869bcb-828c-5850-900a-43a6c3db3be7
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libthai-data
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:19:42Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libthai-data
 PackageVersion: 0.1.29-1build1
 SPDXID: SPDXRef-libthai-data
+PackageVerificationCode: da8f58dc124036e17c10a476d7c0669f59e180f9
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://linux.thai.net/projects/libthai
 PackageComment: <text>Data files for Thai language support library
  LibThai is a set of Thai language support routines aimed to ease
@@ -29,6 +33,33 @@ PackageComment: <text>Data files for Thai language support library
 
 
 ## File
+
+FileName: /usr/share/doc/libthai-data/changelog.Debian.gz
+SPDXID: SPDXRef-libthai-data_file_0
+FileChecksum: ea673d9d240b14c1cedbc723de6111ab876844ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data_file_0
+
+
+FileName: /usr/share/doc/libthai-data/copyright
+SPDXID: SPDXRef-libthai-data_file_1
+FileChecksum: cfda33c18ae3dc18c64f110b0282ee205162a626
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data_file_1
+
+
+FileName: /usr/share/libthai/thbrk.tri
+SPDXID: SPDXRef-libthai-data_file_2
+FileChecksum: bab1d5c2ce1722f9901bb54f6c6e6bd969f37294
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data_file_2
+
 
 ## Extracted License
 

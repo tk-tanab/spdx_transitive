@@ -1,16 +1,17 @@
 ## Document Information
 
-SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-d5b7f081-a029-5558-8dfd-6699a5484e0c
 DocumentName: libcogl-common_1.22.8-3build1
-DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-aa7d8e8b-8c97-56e0-b3cf-995cce71aac6
+SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcogl-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
+Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 11/21
+Created: 2022-11-26T23:20:30Z
 
 
 ## Package
@@ -18,6 +19,9 @@ Created: 11/21
 PackageName: libcogl-common
 PackageVersion: 1.22.8-3build1
 SPDXID: SPDXRef-libcogl-common
+PackageVerificationCode: be76f974097a22883c40f46a40664cf3a0bd6f47
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Object oriented GL/GLES Abstraction/Utility Layer (common files)
  Cogl is a small open source library for using 3D graphics hardware to draw
  pretty pictures. The API departs from the flat state machine style of
@@ -28,6 +32,33 @@ PackageComment: <text>Object oriented GL/GLES Abstraction/Utility Layer (common 
 
 
 ## File
+
+FileName: /usr/share/cogl/examples-data/crate.jpg
+SPDXID: SPDXRef-libcogl-common_file_0
+FileChecksum: 9f602e60756bff7c33a8c0f7fb8ac5b775328297
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common_file_0
+
+
+FileName: /usr/share/doc/libcogl-common/changelog.Debian.gz
+SPDXID: SPDXRef-libcogl-common_file_1
+FileChecksum: a3b2d319b71b2d01b0f61b3b8ca0189b455b29d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common_file_1
+
+
+FileName: /usr/share/doc/libcogl-common/copyright
+SPDXID: SPDXRef-libcogl-common_file_2
+FileChecksum: a91cb4b6b0d3ccb85b67feafe807d6133ef322c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common_file_2
+
 
 ## Extracted License
 
