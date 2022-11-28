@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libgphoto2-l10n_2.5.27-1build2-e58146a9-66ac-507f-8088-8d84887e13e1
+DocumentNamespace: http://spdx.org/spdxdocs/libgphoto2-l10n_2.5.27-1build2-29d87577-70b6-516e-b8d5-7ae319a0efb5
 DocumentName: libgphoto2-l10n_2.5.27-1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgphoto2-l10n
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgphoto2-l10n
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:02Z
+Created: 2022-11-28T14:25:32Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:02Z
 PackageName: libgphoto2-l10n
 PackageVersion: 2.5.27-1build2
 SPDXID: SPDXRef-libgphoto2-l10n
-PackageVerificationCode: SHA1: b510cf517ea885f88b740fb17cda6fda886fbec0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b510cf517ea885f88b740fb17cda6fda886fbec0
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://github.com/gphoto/libgphoto2/
@@ -33,21 +34,21 @@ PackageComment: <text>gphoto2 digital camera library - localized messages
 ## File
 
 FileName: /usr/share/doc/libgphoto2-l10n/changelog.Debian.gz
-SPDXID: SPDXRef-libgphoto2-l10n_file_0
+SPDXID: SPDXRef-libgphoto2-l10n-file-0
 FileChecksum: SHA1: 6cd29f7bac4891fa7e4c5e55e73b6a6c8cae4189
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n_file_0
+Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n-file-0
 
 
 FileName: /usr/share/doc/libgphoto2-l10n/copyright
-SPDXID: SPDXRef-libgphoto2-l10n_file_1
+SPDXID: SPDXRef-libgphoto2-l10n-file-1
 FileChecksum: SHA1: 90294ca0dc95af917e6c53c54c391dfd07eed286
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n_file_1
+Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n-file-1
 
 
 ## Extracted License

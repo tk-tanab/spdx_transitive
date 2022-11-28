@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/pci.ids_0.0~2022.01.22-1-6ace5e31-572c-50a5-ab8a-82748963e9d3
+DocumentNamespace: http://spdx.org/spdxdocs/pci.ids_0.0~2022.01.22-1-2af12985-98df-55f7-b878-123cbca8b589
 DocumentName: pci.ids_0.0~2022.01.22-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-pci.ids
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-pci.ids
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:04Z
+Created: 2022-11-28T14:25:34Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:04Z
 PackageName: pci.ids
 PackageVersion: 0.0~2022.01.22-1
 SPDXID: SPDXRef-pci.ids
-PackageVerificationCode: SHA1: 8c5c9dd86eb582ac8d9a74ac33c58942f1d67122
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8c5c9dd86eb582ac8d9a74ac33c58942f1d67122
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://pci-ids.ucw.cz/
@@ -32,30 +33,30 @@ PackageComment: <text>PCI ID Repository
 ## File
 
 FileName: /usr/share/doc/pci.ids/changelog.Debian.gz
-SPDXID: SPDXRef-pci.ids_file_0
+SPDXID: SPDXRef-pci.ids-file-0
 FileChecksum: SHA1: f376072df6364b8f1be16c856cce690d36078a88
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids_file_0
+Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids-file-0
 
 
 FileName: /usr/share/doc/pci.ids/copyright
-SPDXID: SPDXRef-pci.ids_file_1
+SPDXID: SPDXRef-pci.ids-file-1
 FileChecksum: SHA1: 3c62e38955a562c2fddc73a987809aba3a5b4871
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids_file_1
+Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids-file-1
 
 
 FileName: /usr/share/misc/pci.ids
-SPDXID: SPDXRef-pci.ids_file_2
+SPDXID: SPDXRef-pci.ids-file-2
 FileChecksum: SHA1: 23f1217465519470a24e20d94de595d7831c3bb4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids_file_2
+Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids-file-2
 
 
 ## Extracted License

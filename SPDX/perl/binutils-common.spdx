@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/binutils-common_2.38-4ubuntu2-d1afec17-3aa0-5a23-8172-e829b2ef3b60
+DocumentNamespace: http://spdx.org/spdxdocs/binutils-common_2.38-4ubuntu2-d2bc429b-31c2-5a52-b500-803449134268
 DocumentName: binutils-common_2.38-4ubuntu2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-binutils-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-binutils-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:24Z
+Created: 2022-11-28T14:25:41Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:24Z
 PackageName: binutils-common
 PackageVersion: 2.38-4ubuntu2
 SPDXID: SPDXRef-binutils-common
-PackageVerificationCode: SHA1: 5290627431f7c1eeac8e650efc4314b988d1a9be
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5290627431f7c1eeac8e650efc4314b988d1a9be
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://www.gnu.org/software/binutils/
@@ -31,291 +32,291 @@ PackageComment: <text>Common files for the GNU assembler, linker and binary util
 ## File
 
 FileName: /usr/share/doc/binutils/NEWS.gz
-SPDXID: SPDXRef-binutils-common_file_0
+SPDXID: SPDXRef-binutils-common-file-0
 FileChecksum: SHA1: 5d23a7b1f4c33f1d68f167719fb8e5686935bb71
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_0
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-0
 
 
 FileName: /usr/share/doc/binutils/README.cross.gz
-SPDXID: SPDXRef-binutils-common_file_1
+SPDXID: SPDXRef-binutils-common-file-1
 FileChecksum: SHA1: c5b00cbbac89db1cef11f2df3e3764f9025425ca
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_1
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-1
 
 
 FileName: /usr/share/doc/binutils/bfd/PORTING.gz
-SPDXID: SPDXRef-binutils-common_file_2
+SPDXID: SPDXRef-binutils-common-file-2
 FileChecksum: SHA1: 6f5e3d28b0e95363b29ccc7447d1bd014e6db786
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_2
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-2
 
 
 FileName: /usr/share/doc/binutils/bfd/TODO.gz
-SPDXID: SPDXRef-binutils-common_file_3
+SPDXID: SPDXRef-binutils-common-file-3
 FileChecksum: SHA1: 39cb7abc4a34b36aec55e6190de25b908e350162
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_3
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-3
 
 
 FileName: /usr/share/doc/binutils/gas/NEWS.gz
-SPDXID: SPDXRef-binutils-common_file_4
+SPDXID: SPDXRef-binutils-common-file-4
 FileChecksum: SHA1: 49faf91d56b276385371a1fa8b5d1d119e124e43
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_4
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-4
 
 
 FileName: /usr/share/doc/binutils/gprof/TEST.gz
-SPDXID: SPDXRef-binutils-common_file_5
+SPDXID: SPDXRef-binutils-common-file-5
 FileChecksum: SHA1: e39ec3361aa5ddf1f5aa50a8cfe59708f79358b2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_5
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-5
 
 
 FileName: /usr/share/doc/binutils/gprof/TODO.gz
-SPDXID: SPDXRef-binutils-common_file_6
+SPDXID: SPDXRef-binutils-common-file-6
 FileChecksum: SHA1: 705935d16d3e71b73760efd1701c882890278e56
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_6
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-6
 
 
 FileName: /usr/share/doc/binutils/gprof/bbconv.pl
-SPDXID: SPDXRef-binutils-common_file_7
+SPDXID: SPDXRef-binutils-common-file-7
 FileChecksum: SHA1: 008c2a5e897155865874961a94bb0b8b4a7dd52d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_7
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-7
 
 
 FileName: /usr/share/doc/binutils/ld/NEWS.gz
-SPDXID: SPDXRef-binutils-common_file_8
+SPDXID: SPDXRef-binutils-common-file-8
 FileChecksum: SHA1: e131c145ecc3aa7a97fe409fe1e5c99c190828bd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_8
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-8
 
 
 FileName: /usr/share/doc/binutils/ld/TODO.gz
-SPDXID: SPDXRef-binutils-common_file_9
+SPDXID: SPDXRef-binutils-common-file-9
 FileChecksum: SHA1: cb5b8f55fd450b254a363fc0cf188e2872ce3a9c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_9
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-9
 
 
 FileName: /usr/share/doc/binutils-common/changelog.Debian.gz
-SPDXID: SPDXRef-binutils-common_file_10
+SPDXID: SPDXRef-binutils-common-file-10
 FileChecksum: SHA1: f3f351f3115a8586b479e7212ac580d6c0015fa6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_10
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-10
 
 
 FileName: /usr/share/doc/binutils-common/copyright
-SPDXID: SPDXRef-binutils-common_file_11
+SPDXID: SPDXRef-binutils-common-file-11
 FileChecksum: SHA1: cba3df4131e8e2cc51c586899dad42f40c5d2189
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_11
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-11
 
 
 FileName: /usr/share/lintian/overrides/binutils-common
-SPDXID: SPDXRef-binutils-common_file_12
+SPDXID: SPDXRef-binutils-common-file-12
 FileChecksum: SHA1: 6151046ba874c42b3cc922b84dbd617c39958126
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_12
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-12
 
 
 FileName: /usr/share/man/man1/addr2line.1.gz
-SPDXID: SPDXRef-binutils-common_file_13
+SPDXID: SPDXRef-binutils-common-file-13
 FileChecksum: SHA1: 2a64167b9a4bb3c059512d895521d3ddf04d0f01
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_13
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-13
 
 
 FileName: /usr/share/man/man1/ar.1.gz
-SPDXID: SPDXRef-binutils-common_file_14
+SPDXID: SPDXRef-binutils-common-file-14
 FileChecksum: SHA1: f533ab1a7602ef49996f74e028f53c3fea844cb9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_14
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-14
 
 
 FileName: /usr/share/man/man1/as.1.gz
-SPDXID: SPDXRef-binutils-common_file_15
+SPDXID: SPDXRef-binutils-common-file-15
 FileChecksum: SHA1: f4d27b6f0604a575936468001a05c6f3d6660f98
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_15
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-15
 
 
 FileName: /usr/share/man/man1/c++filt.1.gz
-SPDXID: SPDXRef-binutils-common_file_16
+SPDXID: SPDXRef-binutils-common-file-16
 FileChecksum: SHA1: 05d5f5270dcf7e55b13dd39879ebbbdab73b4a6c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_16
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-16
 
 
 FileName: /usr/share/man/man1/dwp.1.gz
-SPDXID: SPDXRef-binutils-common_file_17
+SPDXID: SPDXRef-binutils-common-file-17
 FileChecksum: SHA1: d283e982ae7a250bac348e7c6448aa82eafb504d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_17
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-17
 
 
 FileName: /usr/share/man/man1/elfedit.1.gz
-SPDXID: SPDXRef-binutils-common_file_18
+SPDXID: SPDXRef-binutils-common-file-18
 FileChecksum: SHA1: a5416e3eef4a09f357506ab4096750cdc5f2e0d4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_18
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-18
 
 
 FileName: /usr/share/man/man1/gprof.1.gz
-SPDXID: SPDXRef-binutils-common_file_19
+SPDXID: SPDXRef-binutils-common-file-19
 FileChecksum: SHA1: 07b467625c07619d551b808537ae5dce1f911a20
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_19
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-19
 
 
 FileName: /usr/share/man/man1/ld.bfd.1.gz
-SPDXID: SPDXRef-binutils-common_file_20
+SPDXID: SPDXRef-binutils-common-file-20
 FileChecksum: SHA1: 1fb47f38503349fde6b296a8356a7df96fc78bbb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_20
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-20
 
 
 FileName: /usr/share/man/man1/ld.gold.1.gz
-SPDXID: SPDXRef-binutils-common_file_21
+SPDXID: SPDXRef-binutils-common-file-21
 FileChecksum: SHA1: 04163eaa7795d9174c108445604d06ae2815adbb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_21
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-21
 
 
 FileName: /usr/share/man/man1/nm.1.gz
-SPDXID: SPDXRef-binutils-common_file_22
+SPDXID: SPDXRef-binutils-common-file-22
 FileChecksum: SHA1: 82775965fa4ee35b64057d5a808a42fa4f258b19
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_22
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-22
 
 
 FileName: /usr/share/man/man1/objcopy.1.gz
-SPDXID: SPDXRef-binutils-common_file_23
+SPDXID: SPDXRef-binutils-common-file-23
 FileChecksum: SHA1: 207f383fbcc69254694392061dd0a237c2af6113
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_23
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-23
 
 
 FileName: /usr/share/man/man1/objdump.1.gz
-SPDXID: SPDXRef-binutils-common_file_24
+SPDXID: SPDXRef-binutils-common-file-24
 FileChecksum: SHA1: 66fc06973eb6a64eda0fac5d5284e27b8f57f945
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_24
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-24
 
 
 FileName: /usr/share/man/man1/ranlib.1.gz
-SPDXID: SPDXRef-binutils-common_file_25
+SPDXID: SPDXRef-binutils-common-file-25
 FileChecksum: SHA1: 78cb84aa063abccc8f8e7920c230c55a55059503
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_25
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-25
 
 
 FileName: /usr/share/man/man1/readelf.1.gz
-SPDXID: SPDXRef-binutils-common_file_26
+SPDXID: SPDXRef-binutils-common-file-26
 FileChecksum: SHA1: 35f0e4f289320e0819fac87e08cfcaa127b82949
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_26
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-26
 
 
 FileName: /usr/share/man/man1/size.1.gz
-SPDXID: SPDXRef-binutils-common_file_27
+SPDXID: SPDXRef-binutils-common-file-27
 FileChecksum: SHA1: 5193ff322833028c6df34223d4cdeb54fc4b305e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_27
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-27
 
 
 FileName: /usr/share/man/man1/strings.1.gz
-SPDXID: SPDXRef-binutils-common_file_28
+SPDXID: SPDXRef-binutils-common-file-28
 FileChecksum: SHA1: 9524285f9bada7aed4a1c1225b23c59820176dd0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_28
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-28
 
 
 FileName: /usr/share/man/man1/strip.1.gz
-SPDXID: SPDXRef-binutils-common_file_29
+SPDXID: SPDXRef-binutils-common-file-29
 FileChecksum: SHA1: fb2c00c397008a913124de606e522714c05a6496
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_29
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-29
 
 
 FileName: /usr/share/man/man1/gold.1.gz
-SPDXID: SPDXRef-binutils-common_file_30
+SPDXID: SPDXRef-binutils-common-file-30
 FileChecksum: SHA1: 04163eaa7795d9174c108445604d06ae2815adbb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_30
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-30
 
 
 FileName: /usr/share/man/man1/ld.1.gz
-SPDXID: SPDXRef-binutils-common_file_31
+SPDXID: SPDXRef-binutils-common-file-31
 FileChecksum: SHA1: 1fb47f38503349fde6b296a8356a7df96fc78bbb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common_file_31
+Relationship: SPDXRef-binutils-common CONTAINS SPDXRef-binutils-common-file-31
 
 
 ## Extracted License

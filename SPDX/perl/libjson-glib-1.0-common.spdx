@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libjson-glib-1.0-common_1.6.6-1build1-bcb46b20-96a4-5db6-b09c-c10982a3a75a
+DocumentNamespace: http://spdx.org/spdxdocs/libjson-glib-1.0-common_1.6.6-1build1-4162150c-2074-5ae9-9393-1c9f7c52b38d
 DocumentName: libjson-glib-1.0-common_1.6.6-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libjson-glib-1.0-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libjson-glib-1.0-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:08Z
+Created: 2022-11-28T14:25:38Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:08Z
 PackageName: libjson-glib-1.0-common
 PackageVersion: 1.6.6-1build1
 SPDXID: SPDXRef-libjson-glib-1.0-common
-PackageVerificationCode: SHA1: d3b06430caad57e8dbec16d3d6bfe7a6b3fbbe6e
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d3b06430caad57e8dbec16d3d6bfe7a6b3fbbe6e
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/JsonGlib
@@ -35,21 +36,21 @@ PackageComment: <text>GLib JSON manipulation library (common files)
 ## File
 
 FileName: /usr/share/doc/libjson-glib-1.0-common/changelog.Debian.gz
-SPDXID: SPDXRef-libjson-glib-1.0-common_file_0
+SPDXID: SPDXRef-libjson-glib-1.0-common-file-0
 FileChecksum: SHA1: 92cadac94b26be05a006a3dac032809ec1aa8a2e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libjson-glib-1.0-common CONTAINS SPDXRef-libjson-glib-1.0-common_file_0
+Relationship: SPDXRef-libjson-glib-1.0-common CONTAINS SPDXRef-libjson-glib-1.0-common-file-0
 
 
 FileName: /usr/share/doc/libjson-glib-1.0-common/copyright
-SPDXID: SPDXRef-libjson-glib-1.0-common_file_1
+SPDXID: SPDXRef-libjson-glib-1.0-common-file-1
 FileChecksum: SHA1: d53667779e01c18c59649847b013466d0148f0c4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libjson-glib-1.0-common CONTAINS SPDXRef-libjson-glib-1.0-common_file_1
+Relationship: SPDXRef-libjson-glib-1.0-common CONTAINS SPDXRef-libjson-glib-1.0-common-file-1
 
 
 ## Extracted License

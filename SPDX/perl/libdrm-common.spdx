@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libdrm-common_2.4.110-1ubuntu1-4b2d447d-ffa2-5377-89df-1012a67f5ce4
+DocumentNamespace: http://spdx.org/spdxdocs/libdrm-common_2.4.110-1ubuntu1-79fa0a37-8368-5e9b-b6c0-063bcd73695f
 DocumentName: libdrm-common_2.4.110-1ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdrm-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdrm-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:15Z
+Created: 2022-11-28T14:26:10Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:15Z
 PackageName: libdrm-common
 PackageVersion: 2.4.110-1ubuntu1
 SPDXID: SPDXRef-libdrm-common
-PackageVerificationCode: SHA1: 9583b14e39b09d9fb41dead9b397981508a9c0e2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9583b14e39b09d9fb41dead9b397981508a9c0e2
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://cgit.freedesktop.org/mesa/drm/
@@ -35,30 +36,30 @@ PackageComment: <text>Userspace interface to kernel DRM services -- common files
 ## File
 
 FileName: /usr/share/doc/libdrm-common/changelog.Debian.gz
-SPDXID: SPDXRef-libdrm-common_file_0
+SPDXID: SPDXRef-libdrm-common-file-0
 FileChecksum: SHA1: 7db2514538fe8726088a1ff289e94195e4a069ef
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common_file_0
+Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common-file-0
 
 
 FileName: /usr/share/doc/libdrm-common/copyright
-SPDXID: SPDXRef-libdrm-common_file_1
+SPDXID: SPDXRef-libdrm-common-file-1
 FileChecksum: SHA1: 1a2574056261d0729d3626c80712aa6088212720
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common_file_1
+Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common-file-1
 
 
 FileName: /usr/share/libdrm/amdgpu.ids
-SPDXID: SPDXRef-libdrm-common_file_2
+SPDXID: SPDXRef-libdrm-common-file-2
 FileChecksum: SHA1: b2e4f043e0a98d7029cb942a6dd18d8b356e9beb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common_file_2
+Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common-file-2
 
 
 ## Extracted License

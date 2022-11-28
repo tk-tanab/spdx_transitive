@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libao-common_1.2.2+20180113-1.1ubuntu3-6fb07e1b-9941-5278-aa43-897d8ffc4216
+DocumentNamespace: http://spdx.org/spdxdocs/libao-common_1.2.2+20180113-1.1ubuntu3-05c0c226-408c-5701-8570-51fd9ebeaf4d
 DocumentName: libao-common_1.2.2+20180113-1.1ubuntu3
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libao-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libao-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:08:23Z
+Created: 2022-11-28T14:27:17Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:08:23Z
 PackageName: libao-common
 PackageVersion: 1.2.2+20180113-1.1ubuntu3
 SPDXID: SPDXRef-libao-common
-PackageVerificationCode: SHA1: 66b587083fe76dcc39f9f485d3433141e5e6a234
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 66b587083fe76dcc39f9f485d3433141e5e6a234
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: http://www.xiph.org/ao/
@@ -40,57 +41,57 @@ PackageComment: <text>Cross Platform Audio Output Library (Common files)
 ## File
 
 FileName: /etc/libao.conf
-SPDXID: SPDXRef-libao-common_file_0
+SPDXID: SPDXRef-libao-common-file-0
 FileChecksum: SHA1: 623d0eb224f3b166b74813f0a2fe55bfe2839043
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_0
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common-file-0
 
 
 FileName: /usr/share/doc/libao-common/README
-SPDXID: SPDXRef-libao-common_file_1
+SPDXID: SPDXRef-libao-common-file-1
 FileChecksum: SHA1: 1cbe5e7dfc1e264c5076be2348ee85868513372d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_1
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common-file-1
 
 
 FileName: /usr/share/doc/libao-common/TODO
-SPDXID: SPDXRef-libao-common_file_2
+SPDXID: SPDXRef-libao-common-file-2
 FileChecksum: SHA1: 8aeeaa5943ff1674ed31fcf543f84e3e5f04435f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_2
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common-file-2
 
 
 FileName: /usr/share/doc/libao-common/changelog.Debian.gz
-SPDXID: SPDXRef-libao-common_file_3
+SPDXID: SPDXRef-libao-common-file-3
 FileChecksum: SHA1: b5a59559993bcffa8f17dea4bc302ed7eda8aa93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_3
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common-file-3
 
 
 FileName: /usr/share/doc/libao-common/copyright
-SPDXID: SPDXRef-libao-common_file_4
+SPDXID: SPDXRef-libao-common-file-4
 FileChecksum: SHA1: e8bd7eeedeed079ad1691692f0d2d00cbcab4850
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_4
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common-file-4
 
 
 FileName: /usr/share/man/man5/libao.conf.5.gz
-SPDXID: SPDXRef-libao-common_file_5
+SPDXID: SPDXRef-libao-common-file-5
 FileChecksum: SHA1: 2ee34f13e963e9b8ff19f50e3b1002da8555b964
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common_file_5
+Relationship: SPDXRef-libao-common CONTAINS SPDXRef-libao-common-file-5
 
 
 ## Extracted License

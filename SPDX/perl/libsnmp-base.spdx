@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libsnmp-base_5.9.1+dfsg-1ubuntu2.2-a22c7691-fa12-5591-a857-214f5b274089
+DocumentNamespace: http://spdx.org/spdxdocs/libsnmp-base_5.9.1+dfsg-1ubuntu2.2-cc9b5e7e-dce2-54bc-ba67-af14a5a9197b
 DocumentName: libsnmp-base_5.9.1+dfsg-1ubuntu2.2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsnmp-base
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsnmp-base
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:05Z
+Created: 2022-11-28T14:25:35Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:05Z
 PackageName: libsnmp-base
 PackageVersion: 5.9.1+dfsg-1ubuntu2.2
 SPDXID: SPDXRef-libsnmp-base
-PackageVerificationCode: SHA1: 6227869835a1bd2c6f3d27249004db255983326c
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 6227869835a1bd2c6f3d27249004db255983326c
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: http://net-snmp.sourceforge.net/
@@ -39,858 +40,858 @@ PackageComment: <text>SNMP configuration script, MIBs and documentation
 ## File
 
 FileName: /etc/snmp/snmp.conf
-SPDXID: SPDXRef-libsnmp-base_file_0
+SPDXID: SPDXRef-libsnmp-base-file-0
 FileChecksum: SHA1: 37da1220001cd8cd22247aecabece5c5fecc6d49
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_0
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-0
 
 
 FileName: /usr/share/doc/libsnmp-base/FAQ.gz
-SPDXID: SPDXRef-libsnmp-base_file_1
+SPDXID: SPDXRef-libsnmp-base-file-1
 FileChecksum: SHA1: 1ad5cdd671c9dbfaa1bc3b5317270b5a228c8cfa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_1
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-1
 
 
 FileName: /usr/share/doc/libsnmp-base/NEWS.gz
-SPDXID: SPDXRef-libsnmp-base_file_2
+SPDXID: SPDXRef-libsnmp-base-file-2
 FileChecksum: SHA1: be23496209c7599b7b6328a8fe8e0726b9d70c69
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_2
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-2
 
 
 FileName: /usr/share/doc/libsnmp-base/README.gz
-SPDXID: SPDXRef-libsnmp-base_file_3
+SPDXID: SPDXRef-libsnmp-base-file-3
 FileChecksum: SHA1: e8f69662fa39f436ae4b347613f80d36875e3eee
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_3
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-3
 
 
 FileName: /usr/share/doc/libsnmp-base/README.mibs
-SPDXID: SPDXRef-libsnmp-base_file_4
+SPDXID: SPDXRef-libsnmp-base-file-4
 FileChecksum: SHA1: 2c17841363ed605145f0301fbe495fdbdd9ce034
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_4
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-4
 
 
 FileName: /usr/share/doc/libsnmp-base/README.snmpv3
-SPDXID: SPDXRef-libsnmp-base_file_5
+SPDXID: SPDXRef-libsnmp-base-file-5
 FileChecksum: SHA1: 86b0237db9d709ec233a4953a20213f4f05483a1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_5
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-5
 
 
 FileName: /usr/share/doc/libsnmp-base/README.thread.gz
-SPDXID: SPDXRef-libsnmp-base_file_6
+SPDXID: SPDXRef-libsnmp-base-file-6
 FileChecksum: SHA1: 6db3e59fb6dc178cf30fcae7251754688cebef74
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_6
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-6
 
 
 FileName: /usr/share/doc/libsnmp-base/changelog.Debian.gz
-SPDXID: SPDXRef-libsnmp-base_file_7
+SPDXID: SPDXRef-libsnmp-base-file-7
 FileChecksum: SHA1: 809abf63a1fbcc08d1aee592532f44e846bd5230
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_7
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-7
 
 
 FileName: /usr/share/doc/libsnmp-base/copyright
-SPDXID: SPDXRef-libsnmp-base_file_8
+SPDXID: SPDXRef-libsnmp-base-file-8
 FileChecksum: SHA1: 79990ee1c8fa934cd90453f19a08a9c0019f3b39
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_8
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-8
 
 
 FileName: /usr/share/man/man5/mib2c.conf.5.gz
-SPDXID: SPDXRef-libsnmp-base_file_9
+SPDXID: SPDXRef-libsnmp-base-file-9
 FileChecksum: SHA1: 2516895c10358c764a33441adcf5703cffb168d1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_9
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-9
 
 
 FileName: /usr/share/man/man5/snmp.conf.5.gz
-SPDXID: SPDXRef-libsnmp-base_file_10
+SPDXID: SPDXRef-libsnmp-base-file-10
 FileChecksum: SHA1: e64e96acac87e1701067d2fa1fcce29421ef6ae8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_10
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-10
 
 
 FileName: /usr/share/man/man5/snmp_config.5.gz
-SPDXID: SPDXRef-libsnmp-base_file_11
+SPDXID: SPDXRef-libsnmp-base-file-11
 FileChecksum: SHA1: c5754a0607978badd97cc5168da57ab70adf3c2c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_11
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-11
 
 
 FileName: /usr/share/man/man5/snmpd.examples.5.gz
-SPDXID: SPDXRef-libsnmp-base_file_12
+SPDXID: SPDXRef-libsnmp-base-file-12
 FileChecksum: SHA1: 20b800b3691f92af33ac5116e22ee76cf438d06d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_12
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-12
 
 
 FileName: /usr/share/man/man5/snmpd.internal.5.gz
-SPDXID: SPDXRef-libsnmp-base_file_13
+SPDXID: SPDXRef-libsnmp-base-file-13
 FileChecksum: SHA1: 0b4997c4d9a4c536d3c36efc5d908942a20db953
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_13
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-13
 
 
 FileName: /usr/share/man/man5/variables.5.gz
-SPDXID: SPDXRef-libsnmp-base_file_14
+SPDXID: SPDXRef-libsnmp-base-file-14
 FileChecksum: SHA1: b4691af0541025be0c3350913d35029358371657
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_14
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-14
 
 
 FileName: /usr/share/snmp/mib2c-data/default-mfd-top.m2c
-SPDXID: SPDXRef-libsnmp-base_file_15
+SPDXID: SPDXRef-libsnmp-base-file-15
 FileChecksum: SHA1: 4690ecb6f9114bae193da2eef3c0231c08a8666a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_15
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-15
 
 
 FileName: /usr/share/snmp/mib2c-data/details-enums.m2i
-SPDXID: SPDXRef-libsnmp-base_file_16
+SPDXID: SPDXRef-libsnmp-base-file-16
 FileChecksum: SHA1: 8d758211bd61d8081bfe7d50b795407d8130502a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_16
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-16
 
 
 FileName: /usr/share/snmp/mib2c-data/details-node.m2i
-SPDXID: SPDXRef-libsnmp-base_file_17
+SPDXID: SPDXRef-libsnmp-base-file-17
 FileChecksum: SHA1: a943146096aa4153e27ceb8d04b8645bd2449339
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_17
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-17
 
 
 FileName: /usr/share/snmp/mib2c-data/details-table.m2i
-SPDXID: SPDXRef-libsnmp-base_file_18
+SPDXID: SPDXRef-libsnmp-base-file-18
 FileChecksum: SHA1: a24d23729d27bc337f4e417985d466f2850691f3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_18
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-18
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-ctx-copy.m2i
-SPDXID: SPDXRef-libsnmp-base_file_19
+SPDXID: SPDXRef-libsnmp-base-file-19
 FileChecksum: SHA1: fff986f0b15b4f7b33f6830fc4b55757d321612d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_19
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-19
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-ctx-get.m2i
-SPDXID: SPDXRef-libsnmp-base_file_20
+SPDXID: SPDXRef-libsnmp-base-file-20
 FileChecksum: SHA1: 9481a518886a1be98f6b9f82aeea0c1c77e5dc4c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_20
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-20
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-ctx-set.m2i
-SPDXID: SPDXRef-libsnmp-base_file_21
+SPDXID: SPDXRef-libsnmp-base-file-21
 FileChecksum: SHA1: d96bd91dd09b176d0ecf6dab73ee3602e7e7235f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_21
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-21
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-data-allocate.m2i
-SPDXID: SPDXRef-libsnmp-base_file_22
+SPDXID: SPDXRef-libsnmp-base-file-22
 FileChecksum: SHA1: a50a2ee53812edc909c2c69358953f30220ba5d0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_22
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-22
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-data-context.m2i
-SPDXID: SPDXRef-libsnmp-base_file_23
+SPDXID: SPDXRef-libsnmp-base-file-23
 FileChecksum: SHA1: 7d104991ebe81abbeb4ec037f7a117d174219947
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_23
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-23
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-get-U64.m2i
-SPDXID: SPDXRef-libsnmp-base_file_24
+SPDXID: SPDXRef-libsnmp-base-file-24
 FileChecksum: SHA1: 3982e1461e90a30faf28a598b21427175ad5a889
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_24
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-24
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-get-char.m2i
-SPDXID: SPDXRef-libsnmp-base_file_25
+SPDXID: SPDXRef-libsnmp-base-file-25
 FileChecksum: SHA1: 617e7758d876589a5d2c63252721f56ee026f4e0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_25
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-25
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-get-decl-bot.m2i
-SPDXID: SPDXRef-libsnmp-base_file_26
+SPDXID: SPDXRef-libsnmp-base-file-26
 FileChecksum: SHA1: 65996d44a607feddafde0ecbab8d88b72f60c431
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_26
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-26
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-get-decl.m2i
-SPDXID: SPDXRef-libsnmp-base_file_27
+SPDXID: SPDXRef-libsnmp-base-file-27
 FileChecksum: SHA1: 3973d25944125d962c4a6491197919bc48b05e7e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_27
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-27
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-get-long.m2i
-SPDXID: SPDXRef-libsnmp-base_file_28
+SPDXID: SPDXRef-libsnmp-base-file-28
 FileChecksum: SHA1: a70f7d3a4ae925c7b9ee1ec795a5733df96c3b34
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_28
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-28
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-get-oid.m2i
-SPDXID: SPDXRef-libsnmp-base_file_29
+SPDXID: SPDXRef-libsnmp-base-file-29
 FileChecksum: SHA1: 508fb4b7bc7a0f247e126342be8fa24d5f5d75de
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_29
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-29
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-header-bottom.m2i
-SPDXID: SPDXRef-libsnmp-base_file_30
+SPDXID: SPDXRef-libsnmp-base-file-30
 FileChecksum: SHA1: abb841600e2a46593e8ba505870eb0e96e7edb70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_30
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-30
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-header-top.m2i
-SPDXID: SPDXRef-libsnmp-base_file_31
+SPDXID: SPDXRef-libsnmp-base-file-31
 FileChecksum: SHA1: 35e2aa242824a5bf4b4259968b6ccc0ececd1d1d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_31
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-31
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-source-includes.m2i
-SPDXID: SPDXRef-libsnmp-base_file_32
+SPDXID: SPDXRef-libsnmp-base-file-32
 FileChecksum: SHA1: 1548c0f989cd46de12a4989ac85230f7223dd24c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_32
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-32
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-table-constants.m2c
-SPDXID: SPDXRef-libsnmp-base_file_33
+SPDXID: SPDXRef-libsnmp-base-file-33
 FileChecksum: SHA1: 33589f41d6075ef894c477c95eb56d01579a6563
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_33
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-33
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-table-enums.m2c
-SPDXID: SPDXRef-libsnmp-base_file_34
+SPDXID: SPDXRef-libsnmp-base-file-34
 FileChecksum: SHA1: 1401f7d0db0cfcb3003576182267c25771173a93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_34
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-34
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-table-indexes-from-oid.m2i
-SPDXID: SPDXRef-libsnmp-base_file_35
+SPDXID: SPDXRef-libsnmp-base-file-35
 FileChecksum: SHA1: a2eee08a08fa141128675600550402b229872487
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_35
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-35
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-table-indexes-set.m2i
-SPDXID: SPDXRef-libsnmp-base_file_36
+SPDXID: SPDXRef-libsnmp-base-file-36
 FileChecksum: SHA1: eb5ff05397ecfef5e8b6372728541f0fa3917aae
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_36
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-36
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-table-indexes-to-oid.m2i
-SPDXID: SPDXRef-libsnmp-base_file_37
+SPDXID: SPDXRef-libsnmp-base-file-37
 FileChecksum: SHA1: 82525fd192176d0f83cce50ea4c3c96b4f2bc840
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_37
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-37
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-table-indexes-varbind-setup.m2i
-SPDXID: SPDXRef-libsnmp-base_file_38
+SPDXID: SPDXRef-libsnmp-base-file-38
 FileChecksum: SHA1: 8e3359fb7720f065437db017d3fce365e9a503f6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_38
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-38
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-table-indexes.m2i
-SPDXID: SPDXRef-libsnmp-base_file_39
+SPDXID: SPDXRef-libsnmp-base-file-39
 FileChecksum: SHA1: 2cce95144ac6c9096f9ef2f5904638cf5571ccd6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_39
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-39
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-table-oids.m2c
-SPDXID: SPDXRef-libsnmp-base_file_40
+SPDXID: SPDXRef-libsnmp-base-file-40
 FileChecksum: SHA1: 0b82a94200674b6503f95c713495fac56be8644e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_40
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-40
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-value-map-func.m2i
-SPDXID: SPDXRef-libsnmp-base_file_41
+SPDXID: SPDXRef-libsnmp-base-file-41
 FileChecksum: SHA1: 12b08c855d6df19f8ffe0eef206441fca4459ddb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_41
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-41
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-value-map-reverse.m2i
-SPDXID: SPDXRef-libsnmp-base_file_42
+SPDXID: SPDXRef-libsnmp-base-file-42
 FileChecksum: SHA1: d2f17d2fb517ab1360e32df6d894bae680829eff
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_42
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-42
 
 
 FileName: /usr/share/snmp/mib2c-data/generic-value-map.m2i
-SPDXID: SPDXRef-libsnmp-base_file_43
+SPDXID: SPDXRef-libsnmp-base-file-43
 FileChecksum: SHA1: 66086bb6d73d4773c44acfd01285e12d39701f4c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_43
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-43
 
 
 FileName: /usr/share/snmp/mib2c-data/m2c-internal-warning.m2i
-SPDXID: SPDXRef-libsnmp-base_file_44
+SPDXID: SPDXRef-libsnmp-base-file-44
 FileChecksum: SHA1: 98405b4d34cbce025ba55f156e0236df7f649b2e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_44
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-44
 
 
 FileName: /usr/share/snmp/mib2c-data/m2c_setup_enum.m2i
-SPDXID: SPDXRef-libsnmp-base_file_45
+SPDXID: SPDXRef-libsnmp-base-file-45
 FileChecksum: SHA1: ac587a68dacc1e7cfde5006d1d7693cd0717c4fd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_45
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-45
 
 
 FileName: /usr/share/snmp/mib2c-data/m2c_setup_node.m2i
-SPDXID: SPDXRef-libsnmp-base_file_46
+SPDXID: SPDXRef-libsnmp-base-file-46
 FileChecksum: SHA1: 1248f10c79906c2d95f8dcbe0f67dae7bfe762f6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_46
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-46
 
 
 FileName: /usr/share/snmp/mib2c-data/m2c_setup_table.m2i
-SPDXID: SPDXRef-libsnmp-base_file_47
+SPDXID: SPDXRef-libsnmp-base-file-47
 FileChecksum: SHA1: a3e9bd2ca32efb12a60803215a9ed7d3d8107b9e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_47
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-47
 
 
 FileName: /usr/share/snmp/mib2c-data/m2c_table_save_defaults.m2i
-SPDXID: SPDXRef-libsnmp-base_file_48
+SPDXID: SPDXRef-libsnmp-base-file-48
 FileChecksum: SHA1: 9479fc76cac60974d38213bbd7a80abc5bf181e2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_48
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-48
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-access-container-cached-defines.m2i
-SPDXID: SPDXRef-libsnmp-base_file_49
+SPDXID: SPDXRef-libsnmp-base-file-49
 FileChecksum: SHA1: 376ee84054c3ee1c2e7674848df38e88c4da7161
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_49
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-49
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-access-unsorted-external-defines.m2i
-SPDXID: SPDXRef-libsnmp-base_file_50
+SPDXID: SPDXRef-libsnmp-base-file-50
 FileChecksum: SHA1: ca705571843868eb58274e629116aaf68cadc563
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_50
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-50
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-data-access.m2c
-SPDXID: SPDXRef-libsnmp-base_file_51
+SPDXID: SPDXRef-libsnmp-base-file-51
 FileChecksum: SHA1: 2d4414ac642dcd5e2312d60091f3e086a3a37965
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_51
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-51
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-data-get.m2c
-SPDXID: SPDXRef-libsnmp-base_file_52
+SPDXID: SPDXRef-libsnmp-base-file-52
 FileChecksum: SHA1: b148858175f72d68c1db7ab233fa2f57de79f01c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_52
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-52
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-data-set.m2c
-SPDXID: SPDXRef-libsnmp-base_file_53
+SPDXID: SPDXRef-libsnmp-base-file-53
 FileChecksum: SHA1: d0a6ce3475164946a18b8f3a7b2b4f8e6f58e868
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_53
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-53
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-doxygen.m2c
-SPDXID: SPDXRef-libsnmp-base_file_54
+SPDXID: SPDXRef-libsnmp-base-file-54
 FileChecksum: SHA1: 1635971cffbc776be6c454b4f6c5432482c7bd38
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_54
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-54
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-interactive-setup.m2c
-SPDXID: SPDXRef-libsnmp-base_file_55
+SPDXID: SPDXRef-libsnmp-base-file-55
 FileChecksum: SHA1: 410c735715cc0e018939faad6123ce316713e9c2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_55
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-55
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-interface.m2c
-SPDXID: SPDXRef-libsnmp-base_file_56
+SPDXID: SPDXRef-libsnmp-base-file-56
 FileChecksum: SHA1: 2d90c90fce401e4a66f3523901d92ff1404760bb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_56
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-56
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-makefile.m2m
-SPDXID: SPDXRef-libsnmp-base_file_57
+SPDXID: SPDXRef-libsnmp-base-file-57
 FileChecksum: SHA1: 652a45b3695d9dde2226f401a0a88ba4cb344bd2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_57
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-57
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-persistence.m2i
-SPDXID: SPDXRef-libsnmp-base_file_58
+SPDXID: SPDXRef-libsnmp-base-file-58
 FileChecksum: SHA1: 90e9695b12f3541bb413296ddc92dc13b556174f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_58
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-58
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-readme.m2c
-SPDXID: SPDXRef-libsnmp-base_file_59
+SPDXID: SPDXRef-libsnmp-base-file-59
 FileChecksum: SHA1: 1975a2ae6a468da50eb7e16efc5326923020dbb8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_59
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-59
 
 
 FileName: /usr/share/snmp/mib2c-data/mfd-top.m2c
-SPDXID: SPDXRef-libsnmp-base_file_60
+SPDXID: SPDXRef-libsnmp-base-file-60
 FileChecksum: SHA1: 196a4c7deeeec60ece742f87278a72b52233f057
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_60
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-60
 
 
 FileName: /usr/share/snmp/mib2c-data/node-get.m2i
-SPDXID: SPDXRef-libsnmp-base_file_61
+SPDXID: SPDXRef-libsnmp-base-file-61
 FileChecksum: SHA1: 9546cd333cf587012caf763176051005b587890f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_61
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-61
 
 
 FileName: /usr/share/snmp/mib2c-data/node-set.m2i
-SPDXID: SPDXRef-libsnmp-base_file_62
+SPDXID: SPDXRef-libsnmp-base-file-62
 FileChecksum: SHA1: 7bc3be201f8bc8271a9fdb5cd70ee6cd3298c5c2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_62
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-62
 
 
 FileName: /usr/share/snmp/mib2c-data/node-storage.m2i
-SPDXID: SPDXRef-libsnmp-base_file_63
+SPDXID: SPDXRef-libsnmp-base-file-63
 FileChecksum: SHA1: e1ff84416ee8fcd893c9de9a9e066a51083849e0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_63
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-63
 
 
 FileName: /usr/share/snmp/mib2c-data/node-validate.m2i
-SPDXID: SPDXRef-libsnmp-base_file_64
+SPDXID: SPDXRef-libsnmp-base-file-64
 FileChecksum: SHA1: 5babdf746112d6c762ed343dacc4e6a4bc6a4d77
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_64
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-64
 
 
 FileName: /usr/share/snmp/mib2c-data/node-varbind-validate.m2i
-SPDXID: SPDXRef-libsnmp-base_file_65
+SPDXID: SPDXRef-libsnmp-base-file-65
 FileChecksum: SHA1: aec65e95eb05c95cafce9151a29869a86a497f49
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_65
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-65
 
 
 FileName: /usr/share/snmp/mib2c-data/parent-dependencies.m2i
-SPDXID: SPDXRef-libsnmp-base_file_66
+SPDXID: SPDXRef-libsnmp-base-file-66
 FileChecksum: SHA1: a873a4edd54ea22de3877d0863f4009dc7f7f15a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_66
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-66
 
 
 FileName: /usr/share/snmp/mib2c-data/parent-set.m2i
-SPDXID: SPDXRef-libsnmp-base_file_67
+SPDXID: SPDXRef-libsnmp-base-file-67
 FileChecksum: SHA1: c42f316f29f78b32b50fb50d2b8705a2e5e93e88
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_67
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-67
 
 
 FileName: /usr/share/snmp/mib2c-data/subagent.m2c
-SPDXID: SPDXRef-libsnmp-base_file_68
+SPDXID: SPDXRef-libsnmp-base-file-68
 FileChecksum: SHA1: bf47fcde5fe4c3a7493aceca394313994911223a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_68
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-68
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-COUNTER64-get.m2i
-SPDXID: SPDXRef-libsnmp-base_file_69
+SPDXID: SPDXRef-libsnmp-base-file-69
 FileChecksum: SHA1: 307a7615b30eb89433c4c912a96fed9a6c9afce0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_69
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-69
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-DateAndTime-get.m2d
-SPDXID: SPDXRef-libsnmp-base_file_70
+SPDXID: SPDXRef-libsnmp-base-file-70
 FileChecksum: SHA1: c37f865ea65a54db5b7207fd820cb1c77d8ee64f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_70
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-70
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-DateAndTime-get.m2i
-SPDXID: SPDXRef-libsnmp-base_file_71
+SPDXID: SPDXRef-libsnmp-base-file-71
 FileChecksum: SHA1: 9ea4d34dd73c119398ed52f74aad9b9356721cec
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_71
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-71
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-DateAndTime-readme.m2i
-SPDXID: SPDXRef-libsnmp-base_file_72
+SPDXID: SPDXRef-libsnmp-base-file-72
 FileChecksum: SHA1: 7f0eb3c86d109ca1cdc72f7254aff608e839c72e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_72
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-72
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-InetAddress-get.m2i
-SPDXID: SPDXRef-libsnmp-base_file_73
+SPDXID: SPDXRef-libsnmp-base-file-73
 FileChecksum: SHA1: 5fbe51f817adf3666a0af78aa2e3516868ec6fd6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_73
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-73
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-InetAddress-set.m2i
-SPDXID: SPDXRef-libsnmp-base_file_74
+SPDXID: SPDXRef-libsnmp-base-file-74
 FileChecksum: SHA1: f7c51127fdd0c8f5f62a4312d034e9a5ebfcdd3d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_74
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-74
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-InetAddressType-get.m2i
-SPDXID: SPDXRef-libsnmp-base_file_75
+SPDXID: SPDXRef-libsnmp-base-file-75
 FileChecksum: SHA1: 746513b9fd6a5012ffba9cc7d5e47fc38cced3c5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_75
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-75
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-InetAddressType-set.m2i
-SPDXID: SPDXRef-libsnmp-base_file_76
+SPDXID: SPDXRef-libsnmp-base-file-76
 FileChecksum: SHA1: 3889d5446ebf60a21780244ba51feae6d19a9185
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_76
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-76
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-RowStatus-dependencies.m2i
-SPDXID: SPDXRef-libsnmp-base_file_77
+SPDXID: SPDXRef-libsnmp-base-file-77
 FileChecksum: SHA1: 29d901499ba7d0f103ab45c431c3a456a41737ef
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_77
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-77
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-RowStatus-get.m2i
-SPDXID: SPDXRef-libsnmp-base_file_78
+SPDXID: SPDXRef-libsnmp-base-file-78
 FileChecksum: SHA1: b9b7efa5f8ea313cae4a7b10c3eb80426093b9e1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_78
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-78
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-RowStatus-varbind-validate.m2i
-SPDXID: SPDXRef-libsnmp-base_file_79
+SPDXID: SPDXRef-libsnmp-base-file-79
 FileChecksum: SHA1: d6d5e9df523bcddd567c0e0bd215ad9f50319291
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_79
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-79
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-StorageType-dependencies.m2i
-SPDXID: SPDXRef-libsnmp-base_file_80
+SPDXID: SPDXRef-libsnmp-base-file-80
 FileChecksum: SHA1: 2c62148690380f92e6403f3801e734c8888fde1a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_80
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-80
 
 
 FileName: /usr/share/snmp/mib2c-data/syntax-TestAndIncr-get.m2i
-SPDXID: SPDXRef-libsnmp-base_file_81
+SPDXID: SPDXRef-libsnmp-base-file-81
 FileChecksum: SHA1: b48365000f4242de7abb365c4a0861764dd79f4a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_81
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-81
 
 
 FileName: /usr/share/snmp/mibs/LM-SENSORS-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_82
+SPDXID: SPDXRef-libsnmp-base-file-82
 FileChecksum: SHA1: c2d86129fbcfdb923c2d5fd26d30757c1199bd3e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_82
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-82
 
 
 FileName: /usr/share/snmp/mibs/NET-SNMP-AGENT-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_83
+SPDXID: SPDXRef-libsnmp-base-file-83
 FileChecksum: SHA1: 9a3b74cd938b8aeec0cf7d123c7c92c6944a5089
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_83
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-83
 
 
 FileName: /usr/share/snmp/mibs/NET-SNMP-EXAMPLES-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_84
+SPDXID: SPDXRef-libsnmp-base-file-84
 FileChecksum: SHA1: 7dafd8cae8c4f9e0686af9291da1b4db7e295249
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_84
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-84
 
 
 FileName: /usr/share/snmp/mibs/NET-SNMP-EXTEND-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_85
+SPDXID: SPDXRef-libsnmp-base-file-85
 FileChecksum: SHA1: 60f664a29813e645db2582af3c44d9156b5dbc1f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_85
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-85
 
 
 FileName: /usr/share/snmp/mibs/NET-SNMP-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_86
+SPDXID: SPDXRef-libsnmp-base-file-86
 FileChecksum: SHA1: 8242fcb1ce34224ff33cea8dc6a47debcb123d2d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_86
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-86
 
 
 FileName: /usr/share/snmp/mibs/NET-SNMP-PASS-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_87
+SPDXID: SPDXRef-libsnmp-base-file-87
 FileChecksum: SHA1: 33e331e27b9cbc2a927b28a3a9e979a71e57f2a4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_87
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-87
 
 
 FileName: /usr/share/snmp/mibs/NET-SNMP-TC.txt
-SPDXID: SPDXRef-libsnmp-base_file_88
+SPDXID: SPDXRef-libsnmp-base-file-88
 FileChecksum: SHA1: 0d46da98b7ac7531559fef0c801b41dd4d2b9c8e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_88
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-88
 
 
 FileName: /usr/share/snmp/mibs/NET-SNMP-VACM-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_89
+SPDXID: SPDXRef-libsnmp-base-file-89
 FileChecksum: SHA1: ca51ff13d5e4ae8a1765bda925848b8f76283509
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_89
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-89
 
 
 FileName: /usr/share/snmp/mibs/UCD-DEMO-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_90
+SPDXID: SPDXRef-libsnmp-base-file-90
 FileChecksum: SHA1: 775acf1ea14af117bdc1c782e489681919886dcc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_90
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-90
 
 
 FileName: /usr/share/snmp/mibs/UCD-DISKIO-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_91
+SPDXID: SPDXRef-libsnmp-base-file-91
 FileChecksum: SHA1: 8e8eb885510ecd86b55abb98b482a0de77aaf227
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_91
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-91
 
 
 FileName: /usr/share/snmp/mibs/UCD-DLMOD-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_92
+SPDXID: SPDXRef-libsnmp-base-file-92
 FileChecksum: SHA1: 4d834640044e6a5013b0e2fb3288f36ba0c2df47
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_92
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-92
 
 
 FileName: /usr/share/snmp/mibs/UCD-IPFWACC-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_93
+SPDXID: SPDXRef-libsnmp-base-file-93
 FileChecksum: SHA1: 0259abc3dc0ac355df884ed7cc6c799f85a96777
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_93
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-93
 
 
 FileName: /usr/share/snmp/mibs/UCD-SNMP-MIB.txt
-SPDXID: SPDXRef-libsnmp-base_file_94
+SPDXID: SPDXRef-libsnmp-base-file-94
 FileChecksum: SHA1: ad1de5a46e73f9644bdaa66ce10d6e6699ef8f18
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base_file_94
+Relationship: SPDXRef-libsnmp-base CONTAINS SPDXRef-libsnmp-base-file-94
 
 
 ## Extracted License

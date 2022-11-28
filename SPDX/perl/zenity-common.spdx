@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/zenity-common_3.42.1-0ubuntu1-b3d72605-887f-5dde-a1a2-ade74c769601
+DocumentNamespace: http://spdx.org/spdxdocs/zenity-common_3.42.1-0ubuntu1-4d7e829f-660d-52d8-931c-b6429af10835
 DocumentName: zenity-common_3.42.1-0ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zenity-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zenity-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:08:27Z
+Created: 2022-11-28T14:27:25Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:08:27Z
 PackageName: zenity-common
 PackageVersion: 3.42.1-0ubuntu1
 SPDXID: SPDXRef-zenity-common
-PackageVerificationCode: SHA1: 1ede7d6bff329255994984ad1e352bd995405d9b
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1ede7d6bff329255994984ad1e352bd995405d9b
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/Zenity
@@ -35,2829 +36,2829 @@ PackageComment: <text>Display graphical dialog boxes from shell scripts (common 
 ## File
 
 FileName: /usr/share/doc/zenity-common/changelog.Debian.gz
-SPDXID: SPDXRef-zenity-common_file_0
+SPDXID: SPDXRef-zenity-common-file-0
 FileChecksum: SHA1: 60edb92595ce63183fa027d4cbf584c8f5d86048
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_0
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-0
 
 
 FileName: /usr/share/doc/zenity-common/copyright
-SPDXID: SPDXRef-zenity-common_file_1
+SPDXID: SPDXRef-zenity-common-file-1
 FileChecksum: SHA1: a7c0c30e13ae68b663722cb1acde0a245c92ab2e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_1
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-1
 
 
 FileName: /usr/share/help/C/zenity/calendar.page
-SPDXID: SPDXRef-zenity-common_file_2
+SPDXID: SPDXRef-zenity-common-file-2
 FileChecksum: SHA1: 1c1226a30e25ace85a04568c09e97d4a836fa2e9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_2
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-2
 
 
 FileName: /usr/share/help/C/zenity/color-selection.page
-SPDXID: SPDXRef-zenity-common_file_3
+SPDXID: SPDXRef-zenity-common-file-3
 FileChecksum: SHA1: 07e97bc184de5a0c1c207c7a27e82979f73b547d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_3
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-3
 
 
 FileName: /usr/share/help/C/zenity/entry.page
-SPDXID: SPDXRef-zenity-common_file_4
+SPDXID: SPDXRef-zenity-common-file-4
 FileChecksum: SHA1: 256ff3b84d6cb16183137f63e2f7900f20672b6d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_4
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-4
 
 
 FileName: /usr/share/help/C/zenity/error.page
-SPDXID: SPDXRef-zenity-common_file_5
+SPDXID: SPDXRef-zenity-common-file-5
 FileChecksum: SHA1: 485a2fea788ef5577a70d0968ccce2baef52cad9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_5
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-5
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_6
+SPDXID: SPDXRef-zenity-common-file-6
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_6
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-6
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-colorselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_7
+SPDXID: SPDXRef-zenity-common-file-7
 FileChecksum: SHA1: 67b234815bc5b6eb328f8ce9638ad4a412f4f8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_7
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-7
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_8
+SPDXID: SPDXRef-zenity-common-file-8
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_8
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-8
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_9
+SPDXID: SPDXRef-zenity-common-file-9
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_9
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-9
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_10
+SPDXID: SPDXRef-zenity-common-file-10
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_10
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-10
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_11
+SPDXID: SPDXRef-zenity-common-file-11
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_11
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-11
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_12
+SPDXID: SPDXRef-zenity-common-file-12
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_12
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-12
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_13
+SPDXID: SPDXRef-zenity-common-file-13
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_13
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-13
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_14
+SPDXID: SPDXRef-zenity-common-file-14
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_14
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-14
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_15
+SPDXID: SPDXRef-zenity-common-file-15
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_15
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-15
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_16
+SPDXID: SPDXRef-zenity-common-file-16
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_16
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-16
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_17
+SPDXID: SPDXRef-zenity-common-file-17
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_17
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-17
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_18
+SPDXID: SPDXRef-zenity-common-file-18
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_18
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-18
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_19
+SPDXID: SPDXRef-zenity-common-file-19
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_19
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-19
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_20
+SPDXID: SPDXRef-zenity-common-file-20
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_20
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-20
 
 
 FileName: /usr/share/help/C/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_21
+SPDXID: SPDXRef-zenity-common-file-21
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_21
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-21
 
 
 FileName: /usr/share/help/C/zenity/file-selection.page
-SPDXID: SPDXRef-zenity-common_file_22
+SPDXID: SPDXRef-zenity-common-file-22
 FileChecksum: SHA1: eb569fad1047b3725ea90251a8f462c689be005c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_22
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-22
 
 
 FileName: /usr/share/help/C/zenity/forms.page
-SPDXID: SPDXRef-zenity-common_file_23
+SPDXID: SPDXRef-zenity-common-file-23
 FileChecksum: SHA1: 23b1bee0a41c9c74584bf742bb5b0850f2c0932c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_23
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-23
 
 
 FileName: /usr/share/help/C/zenity/index.page
-SPDXID: SPDXRef-zenity-common_file_24
+SPDXID: SPDXRef-zenity-common-file-24
 FileChecksum: SHA1: b7f06822167cafc990431dd669df5c4af8a5bf87
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_24
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-24
 
 
 FileName: /usr/share/help/C/zenity/info.page
-SPDXID: SPDXRef-zenity-common_file_25
+SPDXID: SPDXRef-zenity-common-file-25
 FileChecksum: SHA1: 7a822a356270e59334f038fa7f321c6865b544de
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_25
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-25
 
 
 FileName: /usr/share/help/C/zenity/intro.page
-SPDXID: SPDXRef-zenity-common_file_26
+SPDXID: SPDXRef-zenity-common-file-26
 FileChecksum: SHA1: f83348d8ee72a4e6405500fe4338b39c3657b3cf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_26
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-26
 
 
 FileName: /usr/share/help/C/zenity/legal.xml
-SPDXID: SPDXRef-zenity-common_file_27
+SPDXID: SPDXRef-zenity-common-file-27
 FileChecksum: SHA1: 600cc8090e9269ee1505a68e741636d0c7709dd8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_27
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-27
 
 
 FileName: /usr/share/help/C/zenity/list.page
-SPDXID: SPDXRef-zenity-common_file_28
+SPDXID: SPDXRef-zenity-common-file-28
 FileChecksum: SHA1: 187f1152847559bc35a090ceadb0c2614c9c758c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_28
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-28
 
 
 FileName: /usr/share/help/C/zenity/message.page
-SPDXID: SPDXRef-zenity-common_file_29
+SPDXID: SPDXRef-zenity-common-file-29
 FileChecksum: SHA1: 9ae43e8beb0b669075864884abd8183fdf9a42ba
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_29
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-29
 
 
 FileName: /usr/share/help/C/zenity/notification.page
-SPDXID: SPDXRef-zenity-common_file_30
+SPDXID: SPDXRef-zenity-common-file-30
 FileChecksum: SHA1: 14a31d13735666563d09d21d0f18571a663f1129
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_30
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-30
 
 
 FileName: /usr/share/help/C/zenity/password.page
-SPDXID: SPDXRef-zenity-common_file_31
+SPDXID: SPDXRef-zenity-common-file-31
 FileChecksum: SHA1: 7d12704dde256f71ded0db6d8dd8dd309836c996
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_31
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-31
 
 
 FileName: /usr/share/help/C/zenity/progress.page
-SPDXID: SPDXRef-zenity-common_file_32
+SPDXID: SPDXRef-zenity-common-file-32
 FileChecksum: SHA1: 4c16fc20507554c72a015739e878243fb9ad44df
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_32
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-32
 
 
 FileName: /usr/share/help/C/zenity/question.page
-SPDXID: SPDXRef-zenity-common_file_33
+SPDXID: SPDXRef-zenity-common-file-33
 FileChecksum: SHA1: 94987de03837550988171fa5dc1ce6385eb17de4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_33
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-33
 
 
 FileName: /usr/share/help/C/zenity/scale.page
-SPDXID: SPDXRef-zenity-common_file_34
+SPDXID: SPDXRef-zenity-common-file-34
 FileChecksum: SHA1: 0e820a8abbf8c94b0e71e951a15947fcae496442
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_34
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-34
 
 
 FileName: /usr/share/help/C/zenity/text.page
-SPDXID: SPDXRef-zenity-common_file_35
+SPDXID: SPDXRef-zenity-common-file-35
 FileChecksum: SHA1: 0fb210f07a9374782973dbc7226bb385158abae6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_35
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-35
 
 
 FileName: /usr/share/help/C/zenity/usage.page
-SPDXID: SPDXRef-zenity-common_file_36
+SPDXID: SPDXRef-zenity-common-file-36
 FileChecksum: SHA1: 982babd0347b7a17d786c4babfd6a5e3b57c8048
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_36
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-36
 
 
 FileName: /usr/share/help/C/zenity/warning.page
-SPDXID: SPDXRef-zenity-common_file_37
+SPDXID: SPDXRef-zenity-common-file-37
 FileChecksum: SHA1: f72e3898585126bd6c71cf9dd38ed6611c8e73b9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_37
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-37
 
 
 FileName: /usr/share/zenity/zenity-calendar.png
-SPDXID: SPDXRef-zenity-common_file_38
+SPDXID: SPDXRef-zenity-common-file-38
 FileChecksum: SHA1: 4fec06c0c7f9ea0c4f2ccbc556bce24c917d664d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_38
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-38
 
 
 FileName: /usr/share/zenity/zenity-entry.png
-SPDXID: SPDXRef-zenity-common_file_39
+SPDXID: SPDXRef-zenity-common-file-39
 FileChecksum: SHA1: 1d8af672507b14346a6e58917f4ca0323e64b1e0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_39
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-39
 
 
 FileName: /usr/share/zenity/zenity-file.png
-SPDXID: SPDXRef-zenity-common_file_40
+SPDXID: SPDXRef-zenity-common-file-40
 FileChecksum: SHA1: b6dcb95f82a96bf1eac83dfb8226fded3d4c7023
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_40
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-40
 
 
 FileName: /usr/share/zenity/zenity-list.png
-SPDXID: SPDXRef-zenity-common_file_41
+SPDXID: SPDXRef-zenity-common-file-41
 FileChecksum: SHA1: db89c0913400cf683b649fd30b55d9a166f30170
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_41
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-41
 
 
 FileName: /usr/share/zenity/zenity-notification.png
-SPDXID: SPDXRef-zenity-common_file_42
+SPDXID: SPDXRef-zenity-common-file-42
 FileChecksum: SHA1: 016029702b67ffd5fd1391e9159131062586ef0f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_42
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-42
 
 
 FileName: /usr/share/zenity/zenity-progress.png
-SPDXID: SPDXRef-zenity-common_file_43
+SPDXID: SPDXRef-zenity-common-file-43
 FileChecksum: SHA1: cb3e0f2bf5333c5d276292e2ebe7e9b49d561e80
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_43
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-43
 
 
 FileName: /usr/share/zenity/zenity-scale.png
-SPDXID: SPDXRef-zenity-common_file_44
+SPDXID: SPDXRef-zenity-common-file-44
 FileChecksum: SHA1: 974f0e3c288b766942b95c3abc2694e71d406ff8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_44
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-44
 
 
 FileName: /usr/share/zenity/zenity-text.png
-SPDXID: SPDXRef-zenity-common_file_45
+SPDXID: SPDXRef-zenity-common-file-45
 FileChecksum: SHA1: cf6c7a5a758500ac64c001a66e3b1517e5b7c04e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_45
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-45
 
 
 FileName: /usr/share/zenity/zenity.png
-SPDXID: SPDXRef-zenity-common_file_46
+SPDXID: SPDXRef-zenity-common-file-46
 FileChecksum: SHA1: fc0860af4b8ffe8d08c623c3bd93f4825fdd28c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_46
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-46
 
 
 FileName: /usr/share/zenity/zenity.ui
-SPDXID: SPDXRef-zenity-common_file_47
+SPDXID: SPDXRef-zenity-common-file-47
 FileChecksum: SHA1: a8bca83bcc8dab869f041d213ee46c5f4e1751d6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_47
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-47
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_48
+SPDXID: SPDXRef-zenity-common-file-48
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_48
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-48
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_49
+SPDXID: SPDXRef-zenity-common-file-49
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_49
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-49
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_50
+SPDXID: SPDXRef-zenity-common-file-50
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_50
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-50
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_51
+SPDXID: SPDXRef-zenity-common-file-51
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_51
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-51
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_52
+SPDXID: SPDXRef-zenity-common-file-52
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_52
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-52
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_53
+SPDXID: SPDXRef-zenity-common-file-53
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_53
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-53
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_54
+SPDXID: SPDXRef-zenity-common-file-54
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_54
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-54
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_55
+SPDXID: SPDXRef-zenity-common-file-55
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_55
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-55
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_56
+SPDXID: SPDXRef-zenity-common-file-56
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_56
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-56
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_57
+SPDXID: SPDXRef-zenity-common-file-57
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_57
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-57
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_58
+SPDXID: SPDXRef-zenity-common-file-58
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_58
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-58
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_59
+SPDXID: SPDXRef-zenity-common-file-59
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_59
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-59
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_60
+SPDXID: SPDXRef-zenity-common-file-60
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_60
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-60
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_61
+SPDXID: SPDXRef-zenity-common-file-61
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_61
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-61
 
 
 FileName: /usr/share/help/bg/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_62
+SPDXID: SPDXRef-zenity-common-file-62
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_62
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-62
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_63
+SPDXID: SPDXRef-zenity-common-file-63
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_63
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-63
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_64
+SPDXID: SPDXRef-zenity-common-file-64
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_64
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-64
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_65
+SPDXID: SPDXRef-zenity-common-file-65
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_65
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-65
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_66
+SPDXID: SPDXRef-zenity-common-file-66
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_66
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-66
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_67
+SPDXID: SPDXRef-zenity-common-file-67
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_67
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-67
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_68
+SPDXID: SPDXRef-zenity-common-file-68
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_68
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-68
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_69
+SPDXID: SPDXRef-zenity-common-file-69
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_69
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-69
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_70
+SPDXID: SPDXRef-zenity-common-file-70
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_70
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-70
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_71
+SPDXID: SPDXRef-zenity-common-file-71
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_71
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-71
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_72
+SPDXID: SPDXRef-zenity-common-file-72
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_72
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-72
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_73
+SPDXID: SPDXRef-zenity-common-file-73
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_73
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-73
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_74
+SPDXID: SPDXRef-zenity-common-file-74
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_74
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-74
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_75
+SPDXID: SPDXRef-zenity-common-file-75
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_75
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-75
 
 
 FileName: /usr/share/help/ca/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_76
+SPDXID: SPDXRef-zenity-common-file-76
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_76
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-76
 
 
 FileName: /usr/share/help/cs/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_77
+SPDXID: SPDXRef-zenity-common-file-77
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_77
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-77
 
 
 FileName: /usr/share/help/cs/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_78
+SPDXID: SPDXRef-zenity-common-file-78
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_78
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-78
 
 
 FileName: /usr/share/help/cs/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_79
+SPDXID: SPDXRef-zenity-common-file-79
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_79
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-79
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_80
+SPDXID: SPDXRef-zenity-common-file-80
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_80
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-80
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-colorselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_81
+SPDXID: SPDXRef-zenity-common-file-81
 FileChecksum: SHA1: 67b234815bc5b6eb328f8ce9638ad4a412f4f8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_81
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-81
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_82
+SPDXID: SPDXRef-zenity-common-file-82
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_82
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-82
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_83
+SPDXID: SPDXRef-zenity-common-file-83
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_83
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-83
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_84
+SPDXID: SPDXRef-zenity-common-file-84
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_84
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-84
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_85
+SPDXID: SPDXRef-zenity-common-file-85
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_85
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-85
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_86
+SPDXID: SPDXRef-zenity-common-file-86
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_86
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-86
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_87
+SPDXID: SPDXRef-zenity-common-file-87
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_87
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-87
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_88
+SPDXID: SPDXRef-zenity-common-file-88
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_88
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-88
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_89
+SPDXID: SPDXRef-zenity-common-file-89
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_89
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-89
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_90
+SPDXID: SPDXRef-zenity-common-file-90
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_90
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-90
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_91
+SPDXID: SPDXRef-zenity-common-file-91
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_91
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-91
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_92
+SPDXID: SPDXRef-zenity-common-file-92
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_92
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-92
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_93
+SPDXID: SPDXRef-zenity-common-file-93
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_93
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-93
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_94
+SPDXID: SPDXRef-zenity-common-file-94
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_94
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-94
 
 
 FileName: /usr/share/help/da/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_95
+SPDXID: SPDXRef-zenity-common-file-95
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_95
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-95
 
 
 FileName: /usr/share/help/el/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_96
+SPDXID: SPDXRef-zenity-common-file-96
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_96
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-96
 
 
 FileName: /usr/share/help/el/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_97
+SPDXID: SPDXRef-zenity-common-file-97
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_97
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-97
 
 
 FileName: /usr/share/help/el/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_98
+SPDXID: SPDXRef-zenity-common-file-98
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_98
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-98
 
 
 FileName: /usr/share/help/en_GB/zenity/calendar.page
-SPDXID: SPDXRef-zenity-common_file_99
+SPDXID: SPDXRef-zenity-common-file-99
 FileChecksum: SHA1: e8642596d5357f8784547664406ee8dae75697b5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_99
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-99
 
 
 FileName: /usr/share/help/en_GB/zenity/color-selection.page
-SPDXID: SPDXRef-zenity-common_file_100
+SPDXID: SPDXRef-zenity-common-file-100
 FileChecksum: SHA1: a287ab9daaa489fe427d400d48a26d70b3bc4102
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_100
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-100
 
 
 FileName: /usr/share/help/en_GB/zenity/entry.page
-SPDXID: SPDXRef-zenity-common_file_101
+SPDXID: SPDXRef-zenity-common-file-101
 FileChecksum: SHA1: 0b8bdc50a07134b50db5bc0859540e4a4943dcf2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_101
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-101
 
 
 FileName: /usr/share/help/en_GB/zenity/error.page
-SPDXID: SPDXRef-zenity-common_file_102
+SPDXID: SPDXRef-zenity-common-file-102
 FileChecksum: SHA1: b230746f6856bea3b37b5a2d7fe448571163a5ff
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_102
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-102
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_103
+SPDXID: SPDXRef-zenity-common-file-103
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_103
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-103
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-colorselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_104
+SPDXID: SPDXRef-zenity-common-file-104
 FileChecksum: SHA1: 67b234815bc5b6eb328f8ce9638ad4a412f4f8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_104
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-104
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_105
+SPDXID: SPDXRef-zenity-common-file-105
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_105
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-105
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_106
+SPDXID: SPDXRef-zenity-common-file-106
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_106
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-106
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_107
+SPDXID: SPDXRef-zenity-common-file-107
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_107
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-107
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_108
+SPDXID: SPDXRef-zenity-common-file-108
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_108
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-108
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_109
+SPDXID: SPDXRef-zenity-common-file-109
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_109
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-109
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_110
+SPDXID: SPDXRef-zenity-common-file-110
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_110
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-110
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_111
+SPDXID: SPDXRef-zenity-common-file-111
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_111
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-111
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_112
+SPDXID: SPDXRef-zenity-common-file-112
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_112
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-112
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_113
+SPDXID: SPDXRef-zenity-common-file-113
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_113
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-113
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_114
+SPDXID: SPDXRef-zenity-common-file-114
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_114
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-114
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_115
+SPDXID: SPDXRef-zenity-common-file-115
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_115
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-115
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_116
+SPDXID: SPDXRef-zenity-common-file-116
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_116
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-116
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_117
+SPDXID: SPDXRef-zenity-common-file-117
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_117
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-117
 
 
 FileName: /usr/share/help/en_GB/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_118
+SPDXID: SPDXRef-zenity-common-file-118
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_118
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-118
 
 
 FileName: /usr/share/help/en_GB/zenity/file-selection.page
-SPDXID: SPDXRef-zenity-common_file_119
+SPDXID: SPDXRef-zenity-common-file-119
 FileChecksum: SHA1: 588ba3edcef23bbdd88962fa6f79ddfd5d91a251
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_119
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-119
 
 
 FileName: /usr/share/help/en_GB/zenity/forms.page
-SPDXID: SPDXRef-zenity-common_file_120
+SPDXID: SPDXRef-zenity-common-file-120
 FileChecksum: SHA1: 1fa95e466903f5d28f3cab5d4a7a439f6f5be579
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_120
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-120
 
 
 FileName: /usr/share/help/en_GB/zenity/index.page
-SPDXID: SPDXRef-zenity-common_file_121
+SPDXID: SPDXRef-zenity-common-file-121
 FileChecksum: SHA1: d4cc2996fe6e8907d84ab3f4bdd5cd615263ce9a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_121
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-121
 
 
 FileName: /usr/share/help/en_GB/zenity/info.page
-SPDXID: SPDXRef-zenity-common_file_122
+SPDXID: SPDXRef-zenity-common-file-122
 FileChecksum: SHA1: f11497c67ba00dfc38de59a063ef24cde8a06f4c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_122
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-122
 
 
 FileName: /usr/share/help/en_GB/zenity/intro.page
-SPDXID: SPDXRef-zenity-common_file_123
+SPDXID: SPDXRef-zenity-common-file-123
 FileChecksum: SHA1: 34b8611780cd9effe650ec2af5fff4a7e38e941b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_123
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-123
 
 
 FileName: /usr/share/help/en_GB/zenity/legal.xml
-SPDXID: SPDXRef-zenity-common_file_124
+SPDXID: SPDXRef-zenity-common-file-124
 FileChecksum: SHA1: 8e297e3ecd621294b3c603296e65fc5124a16bc0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_124
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-124
 
 
 FileName: /usr/share/help/en_GB/zenity/list.page
-SPDXID: SPDXRef-zenity-common_file_125
+SPDXID: SPDXRef-zenity-common-file-125
 FileChecksum: SHA1: 6939482395fc7c9f97fc8b5ba876570c49410394
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_125
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-125
 
 
 FileName: /usr/share/help/en_GB/zenity/message.page
-SPDXID: SPDXRef-zenity-common_file_126
+SPDXID: SPDXRef-zenity-common-file-126
 FileChecksum: SHA1: 8ff860f70ef9eb2e508a83e64697c2f52d6bfb92
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_126
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-126
 
 
 FileName: /usr/share/help/en_GB/zenity/notification.page
-SPDXID: SPDXRef-zenity-common_file_127
+SPDXID: SPDXRef-zenity-common-file-127
 FileChecksum: SHA1: 44f69d1a9ce54f1ea4ead46e787abdba096fc8d3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_127
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-127
 
 
 FileName: /usr/share/help/en_GB/zenity/password.page
-SPDXID: SPDXRef-zenity-common_file_128
+SPDXID: SPDXRef-zenity-common-file-128
 FileChecksum: SHA1: 44e5c8af3f2eea0dec3a4e77d3f1f76b58280c1e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_128
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-128
 
 
 FileName: /usr/share/help/en_GB/zenity/progress.page
-SPDXID: SPDXRef-zenity-common_file_129
+SPDXID: SPDXRef-zenity-common-file-129
 FileChecksum: SHA1: 6f605d0193d999bcb670b81a4b5cf7da71f90937
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_129
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-129
 
 
 FileName: /usr/share/help/en_GB/zenity/question.page
-SPDXID: SPDXRef-zenity-common_file_130
+SPDXID: SPDXRef-zenity-common-file-130
 FileChecksum: SHA1: ddea235a2c6a9f37d531b7dbd6f11eb196c389fe
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_130
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-130
 
 
 FileName: /usr/share/help/en_GB/zenity/scale.page
-SPDXID: SPDXRef-zenity-common_file_131
+SPDXID: SPDXRef-zenity-common-file-131
 FileChecksum: SHA1: dd4aae4014f9cfcc358f336385bd8b20b012e006
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_131
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-131
 
 
 FileName: /usr/share/help/en_GB/zenity/text.page
-SPDXID: SPDXRef-zenity-common_file_132
+SPDXID: SPDXRef-zenity-common-file-132
 FileChecksum: SHA1: 15a6db7028c5024c63c16f7f97440d84438f0b68
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_132
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-132
 
 
 FileName: /usr/share/help/en_GB/zenity/usage.page
-SPDXID: SPDXRef-zenity-common_file_133
+SPDXID: SPDXRef-zenity-common-file-133
 FileChecksum: SHA1: 29bb0b973b41db03cbe51144500fd15d1ce5ffeb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_133
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-133
 
 
 FileName: /usr/share/help/en_GB/zenity/warning.page
-SPDXID: SPDXRef-zenity-common_file_134
+SPDXID: SPDXRef-zenity-common-file-134
 FileChecksum: SHA1: 958decd44349dbfc3e38008cdb464bbceacdeb44
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_134
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-134
 
 
 FileName: /usr/share/help/es/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_135
+SPDXID: SPDXRef-zenity-common-file-135
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_135
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-135
 
 
 FileName: /usr/share/help/es/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_136
+SPDXID: SPDXRef-zenity-common-file-136
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_136
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-136
 
 
 FileName: /usr/share/help/es/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_137
+SPDXID: SPDXRef-zenity-common-file-137
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_137
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-137
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_138
+SPDXID: SPDXRef-zenity-common-file-138
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_138
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-138
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_139
+SPDXID: SPDXRef-zenity-common-file-139
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_139
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-139
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_140
+SPDXID: SPDXRef-zenity-common-file-140
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_140
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-140
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_141
+SPDXID: SPDXRef-zenity-common-file-141
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_141
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-141
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_142
+SPDXID: SPDXRef-zenity-common-file-142
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_142
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-142
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_143
+SPDXID: SPDXRef-zenity-common-file-143
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_143
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-143
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_144
+SPDXID: SPDXRef-zenity-common-file-144
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_144
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-144
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_145
+SPDXID: SPDXRef-zenity-common-file-145
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_145
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-145
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_146
+SPDXID: SPDXRef-zenity-common-file-146
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_146
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-146
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_147
+SPDXID: SPDXRef-zenity-common-file-147
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_147
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-147
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_148
+SPDXID: SPDXRef-zenity-common-file-148
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_148
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-148
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_149
+SPDXID: SPDXRef-zenity-common-file-149
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_149
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-149
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_150
+SPDXID: SPDXRef-zenity-common-file-150
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_150
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-150
 
 
 FileName: /usr/share/help/eu/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_151
+SPDXID: SPDXRef-zenity-common-file-151
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_151
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-151
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_152
+SPDXID: SPDXRef-zenity-common-file-152
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_152
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-152
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_153
+SPDXID: SPDXRef-zenity-common-file-153
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_153
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-153
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_154
+SPDXID: SPDXRef-zenity-common-file-154
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_154
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-154
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_155
+SPDXID: SPDXRef-zenity-common-file-155
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_155
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-155
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_156
+SPDXID: SPDXRef-zenity-common-file-156
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_156
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-156
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_157
+SPDXID: SPDXRef-zenity-common-file-157
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_157
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-157
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_158
+SPDXID: SPDXRef-zenity-common-file-158
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_158
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-158
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_159
+SPDXID: SPDXRef-zenity-common-file-159
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_159
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-159
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_160
+SPDXID: SPDXRef-zenity-common-file-160
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_160
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-160
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_161
+SPDXID: SPDXRef-zenity-common-file-161
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_161
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-161
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_162
+SPDXID: SPDXRef-zenity-common-file-162
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_162
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-162
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_163
+SPDXID: SPDXRef-zenity-common-file-163
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_163
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-163
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_164
+SPDXID: SPDXRef-zenity-common-file-164
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_164
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-164
 
 
 FileName: /usr/share/help/fi/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_165
+SPDXID: SPDXRef-zenity-common-file-165
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_165
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-165
 
 
 FileName: /usr/share/help/fr/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_166
+SPDXID: SPDXRef-zenity-common-file-166
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_166
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-166
 
 
 FileName: /usr/share/help/fr/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_167
+SPDXID: SPDXRef-zenity-common-file-167
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_167
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-167
 
 
 FileName: /usr/share/help/fr/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_168
+SPDXID: SPDXRef-zenity-common-file-168
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_168
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-168
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_169
+SPDXID: SPDXRef-zenity-common-file-169
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_169
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-169
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-colorselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_170
+SPDXID: SPDXRef-zenity-common-file-170
 FileChecksum: SHA1: 67b234815bc5b6eb328f8ce9638ad4a412f4f8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_170
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-170
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_171
+SPDXID: SPDXRef-zenity-common-file-171
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_171
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-171
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_172
+SPDXID: SPDXRef-zenity-common-file-172
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_172
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-172
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_173
+SPDXID: SPDXRef-zenity-common-file-173
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_173
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-173
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_174
+SPDXID: SPDXRef-zenity-common-file-174
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_174
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-174
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_175
+SPDXID: SPDXRef-zenity-common-file-175
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_175
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-175
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_176
+SPDXID: SPDXRef-zenity-common-file-176
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_176
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-176
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_177
+SPDXID: SPDXRef-zenity-common-file-177
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_177
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-177
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_178
+SPDXID: SPDXRef-zenity-common-file-178
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_178
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-178
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_179
+SPDXID: SPDXRef-zenity-common-file-179
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_179
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-179
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_180
+SPDXID: SPDXRef-zenity-common-file-180
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_180
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-180
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_181
+SPDXID: SPDXRef-zenity-common-file-181
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_181
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-181
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_182
+SPDXID: SPDXRef-zenity-common-file-182
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_182
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-182
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_183
+SPDXID: SPDXRef-zenity-common-file-183
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_183
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-183
 
 
 FileName: /usr/share/help/gl/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_184
+SPDXID: SPDXRef-zenity-common-file-184
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_184
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-184
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_185
+SPDXID: SPDXRef-zenity-common-file-185
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_185
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-185
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-colorselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_186
+SPDXID: SPDXRef-zenity-common-file-186
 FileChecksum: SHA1: 67b234815bc5b6eb328f8ce9638ad4a412f4f8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_186
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-186
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_187
+SPDXID: SPDXRef-zenity-common-file-187
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_187
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-187
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_188
+SPDXID: SPDXRef-zenity-common-file-188
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_188
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-188
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_189
+SPDXID: SPDXRef-zenity-common-file-189
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_189
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-189
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_190
+SPDXID: SPDXRef-zenity-common-file-190
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_190
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-190
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_191
+SPDXID: SPDXRef-zenity-common-file-191
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_191
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-191
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_192
+SPDXID: SPDXRef-zenity-common-file-192
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_192
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-192
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_193
+SPDXID: SPDXRef-zenity-common-file-193
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_193
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-193
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_194
+SPDXID: SPDXRef-zenity-common-file-194
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_194
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-194
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_195
+SPDXID: SPDXRef-zenity-common-file-195
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_195
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-195
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_196
+SPDXID: SPDXRef-zenity-common-file-196
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_196
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-196
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_197
+SPDXID: SPDXRef-zenity-common-file-197
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_197
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-197
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_198
+SPDXID: SPDXRef-zenity-common-file-198
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_198
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-198
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_199
+SPDXID: SPDXRef-zenity-common-file-199
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_199
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-199
 
 
 FileName: /usr/share/help/hu/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_200
+SPDXID: SPDXRef-zenity-common-file-200
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_200
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-200
 
 
 FileName: /usr/share/help/ja/zenity/calendar.page
-SPDXID: SPDXRef-zenity-common_file_201
+SPDXID: SPDXRef-zenity-common-file-201
 FileChecksum: SHA1: e6a60cdc81316ccd891d2ae09c06489db34e24b7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_201
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-201
 
 
 FileName: /usr/share/help/ja/zenity/color-selection.page
-SPDXID: SPDXRef-zenity-common_file_202
+SPDXID: SPDXRef-zenity-common-file-202
 FileChecksum: SHA1: 9b696bdd815f53e154900ae37d7995388af9cb3d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_202
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-202
 
 
 FileName: /usr/share/help/ja/zenity/entry.page
-SPDXID: SPDXRef-zenity-common_file_203
+SPDXID: SPDXRef-zenity-common-file-203
 FileChecksum: SHA1: 2dece38b3069c03f4275728707dd863bab44f761
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_203
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-203
 
 
 FileName: /usr/share/help/ja/zenity/error.page
-SPDXID: SPDXRef-zenity-common_file_204
+SPDXID: SPDXRef-zenity-common-file-204
 FileChecksum: SHA1: 62a01538e1e909b35f62eea0cfd7432a2e89bae2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_204
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-204
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_205
+SPDXID: SPDXRef-zenity-common-file-205
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_205
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-205
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-colorselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_206
+SPDXID: SPDXRef-zenity-common-file-206
 FileChecksum: SHA1: cee549dd6e7e620a9ed0026f3d531a2370809a46
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_206
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-206
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_207
+SPDXID: SPDXRef-zenity-common-file-207
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_207
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-207
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_208
+SPDXID: SPDXRef-zenity-common-file-208
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_208
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-208
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_209
+SPDXID: SPDXRef-zenity-common-file-209
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_209
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-209
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_210
+SPDXID: SPDXRef-zenity-common-file-210
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_210
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-210
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_211
+SPDXID: SPDXRef-zenity-common-file-211
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_211
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-211
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_212
+SPDXID: SPDXRef-zenity-common-file-212
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_212
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-212
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_213
+SPDXID: SPDXRef-zenity-common-file-213
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_213
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-213
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_214
+SPDXID: SPDXRef-zenity-common-file-214
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_214
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-214
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_215
+SPDXID: SPDXRef-zenity-common-file-215
 FileChecksum: SHA1: 3f1bcf68d16c16701b8cef97167e6311f6714610
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_215
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-215
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_216
+SPDXID: SPDXRef-zenity-common-file-216
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_216
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-216
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_217
+SPDXID: SPDXRef-zenity-common-file-217
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_217
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-217
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_218
+SPDXID: SPDXRef-zenity-common-file-218
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_218
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-218
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_219
+SPDXID: SPDXRef-zenity-common-file-219
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_219
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-219
 
 
 FileName: /usr/share/help/ja/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_220
+SPDXID: SPDXRef-zenity-common-file-220
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_220
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-220
 
 
 FileName: /usr/share/help/ja/zenity/file-selection.page
-SPDXID: SPDXRef-zenity-common_file_221
+SPDXID: SPDXRef-zenity-common-file-221
 FileChecksum: SHA1: 86791812e00a1b4cf19753a8590b43a54f72a979
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_221
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-221
 
 
 FileName: /usr/share/help/ja/zenity/forms.page
-SPDXID: SPDXRef-zenity-common_file_222
+SPDXID: SPDXRef-zenity-common-file-222
 FileChecksum: SHA1: 540bee303f4aa0d4f486d6f04d7e612207b7b983
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_222
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-222
 
 
 FileName: /usr/share/help/ja/zenity/index.page
-SPDXID: SPDXRef-zenity-common_file_223
+SPDXID: SPDXRef-zenity-common-file-223
 FileChecksum: SHA1: 65193ecd7e6dbf18928907e4266ec08c75825e78
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_223
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-223
 
 
 FileName: /usr/share/help/ja/zenity/info.page
-SPDXID: SPDXRef-zenity-common_file_224
+SPDXID: SPDXRef-zenity-common-file-224
 FileChecksum: SHA1: 0d8fe026408ed1d00ddd3a2cfe933cb086e5328b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_224
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-224
 
 
 FileName: /usr/share/help/ja/zenity/intro.page
-SPDXID: SPDXRef-zenity-common_file_225
+SPDXID: SPDXRef-zenity-common-file-225
 FileChecksum: SHA1: a86dac66cbd6c744c471c9885dc0edf740fd4f3c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_225
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-225
 
 
 FileName: /usr/share/help/ja/zenity/legal.xml
-SPDXID: SPDXRef-zenity-common_file_226
+SPDXID: SPDXRef-zenity-common-file-226
 FileChecksum: SHA1: 1153dcc34811b60bba76bd0ed78b4e90230c8fc1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_226
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-226
 
 
 FileName: /usr/share/help/ja/zenity/list.page
-SPDXID: SPDXRef-zenity-common_file_227
+SPDXID: SPDXRef-zenity-common-file-227
 FileChecksum: SHA1: e7c05efcd636e3109ac2f2c9c7e8e5dd4c2f9091
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_227
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-227
 
 
 FileName: /usr/share/help/ja/zenity/message.page
-SPDXID: SPDXRef-zenity-common_file_228
+SPDXID: SPDXRef-zenity-common-file-228
 FileChecksum: SHA1: 32e00cdf3becf690b942aebfec52a43195292e15
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_228
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-228
 
 
 FileName: /usr/share/help/ja/zenity/notification.page
-SPDXID: SPDXRef-zenity-common_file_229
+SPDXID: SPDXRef-zenity-common-file-229
 FileChecksum: SHA1: 83e67a01c3a71541a198368e6d583fa3e20e7cfc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_229
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-229
 
 
 FileName: /usr/share/help/ja/zenity/password.page
-SPDXID: SPDXRef-zenity-common_file_230
+SPDXID: SPDXRef-zenity-common-file-230
 FileChecksum: SHA1: 35f07d78b75bf2efe7abcc74bd47dff01b0c7d6d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_230
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-230
 
 
 FileName: /usr/share/help/ja/zenity/progress.page
-SPDXID: SPDXRef-zenity-common_file_231
+SPDXID: SPDXRef-zenity-common-file-231
 FileChecksum: SHA1: 2d6413e9981dd1531c65e1f23e13a895c8bba59c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_231
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-231
 
 
 FileName: /usr/share/help/ja/zenity/question.page
-SPDXID: SPDXRef-zenity-common_file_232
+SPDXID: SPDXRef-zenity-common-file-232
 FileChecksum: SHA1: 7377b5d86f34bb10e030df6ca688eb05d96360c8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_232
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-232
 
 
 FileName: /usr/share/help/ja/zenity/scale.page
-SPDXID: SPDXRef-zenity-common_file_233
+SPDXID: SPDXRef-zenity-common-file-233
 FileChecksum: SHA1: c0fbd4cb1b5174ebe0b58d82ba1c9f94949747cb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_233
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-233
 
 
 FileName: /usr/share/help/ja/zenity/text.page
-SPDXID: SPDXRef-zenity-common_file_234
+SPDXID: SPDXRef-zenity-common-file-234
 FileChecksum: SHA1: b3a904d3ea4ae0c581cbd60f13a99d2cb426c6a7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_234
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-234
 
 
 FileName: /usr/share/help/ja/zenity/usage.page
-SPDXID: SPDXRef-zenity-common_file_235
+SPDXID: SPDXRef-zenity-common-file-235
 FileChecksum: SHA1: a40d9a72f56bc9db66aa3eb7e26fe891129afeca
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_235
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-235
 
 
 FileName: /usr/share/help/ja/zenity/warning.page
-SPDXID: SPDXRef-zenity-common_file_236
+SPDXID: SPDXRef-zenity-common-file-236
 FileChecksum: SHA1: 2918b6f77306d1772ec92459970ca9c8a7d906a4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_236
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-236
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_237
+SPDXID: SPDXRef-zenity-common-file-237
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_237
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-237
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-colorselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_238
+SPDXID: SPDXRef-zenity-common-file-238
 FileChecksum: SHA1: 67b234815bc5b6eb328f8ce9638ad4a412f4f8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_238
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-238
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_239
+SPDXID: SPDXRef-zenity-common-file-239
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_239
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-239
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_240
+SPDXID: SPDXRef-zenity-common-file-240
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_240
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-240
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_241
+SPDXID: SPDXRef-zenity-common-file-241
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_241
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-241
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_242
+SPDXID: SPDXRef-zenity-common-file-242
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_242
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-242
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_243
+SPDXID: SPDXRef-zenity-common-file-243
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_243
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-243
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_244
+SPDXID: SPDXRef-zenity-common-file-244
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_244
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-244
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_245
+SPDXID: SPDXRef-zenity-common-file-245
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_245
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-245
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_246
+SPDXID: SPDXRef-zenity-common-file-246
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_246
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-246
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_247
+SPDXID: SPDXRef-zenity-common-file-247
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_247
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-247
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_248
+SPDXID: SPDXRef-zenity-common-file-248
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_248
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-248
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_249
+SPDXID: SPDXRef-zenity-common-file-249
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_249
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-249
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_250
+SPDXID: SPDXRef-zenity-common-file-250
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_250
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-250
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_251
+SPDXID: SPDXRef-zenity-common-file-251
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_251
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-251
 
 
 FileName: /usr/share/help/oc/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_252
+SPDXID: SPDXRef-zenity-common-file-252
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_252
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-252
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_253
+SPDXID: SPDXRef-zenity-common-file-253
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_253
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-253
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_254
+SPDXID: SPDXRef-zenity-common-file-254
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_254
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-254
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_255
+SPDXID: SPDXRef-zenity-common-file-255
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_255
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-255
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_256
+SPDXID: SPDXRef-zenity-common-file-256
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_256
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-256
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_257
+SPDXID: SPDXRef-zenity-common-file-257
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_257
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-257
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_258
+SPDXID: SPDXRef-zenity-common-file-258
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_258
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-258
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_259
+SPDXID: SPDXRef-zenity-common-file-259
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_259
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-259
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_260
+SPDXID: SPDXRef-zenity-common-file-260
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_260
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-260
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_261
+SPDXID: SPDXRef-zenity-common-file-261
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_261
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-261
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_262
+SPDXID: SPDXRef-zenity-common-file-262
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_262
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-262
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_263
+SPDXID: SPDXRef-zenity-common-file-263
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_263
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-263
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_264
+SPDXID: SPDXRef-zenity-common-file-264
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_264
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-264
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_265
+SPDXID: SPDXRef-zenity-common-file-265
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_265
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-265
 
 
 FileName: /usr/share/help/ru/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_266
+SPDXID: SPDXRef-zenity-common-file-266
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_266
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-266
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_267
+SPDXID: SPDXRef-zenity-common-file-267
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_267
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-267
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-colorselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_268
+SPDXID: SPDXRef-zenity-common-file-268
 FileChecksum: SHA1: 67b234815bc5b6eb328f8ce9638ad4a412f4f8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_268
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-268
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_269
+SPDXID: SPDXRef-zenity-common-file-269
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_269
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-269
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_270
+SPDXID: SPDXRef-zenity-common-file-270
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_270
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-270
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_271
+SPDXID: SPDXRef-zenity-common-file-271
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_271
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-271
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_272
+SPDXID: SPDXRef-zenity-common-file-272
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_272
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-272
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_273
+SPDXID: SPDXRef-zenity-common-file-273
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_273
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-273
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_274
+SPDXID: SPDXRef-zenity-common-file-274
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_274
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-274
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_275
+SPDXID: SPDXRef-zenity-common-file-275
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_275
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-275
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_276
+SPDXID: SPDXRef-zenity-common-file-276
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_276
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-276
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_277
+SPDXID: SPDXRef-zenity-common-file-277
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_277
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-277
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_278
+SPDXID: SPDXRef-zenity-common-file-278
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_278
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-278
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_279
+SPDXID: SPDXRef-zenity-common-file-279
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_279
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-279
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_280
+SPDXID: SPDXRef-zenity-common-file-280
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_280
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-280
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_281
+SPDXID: SPDXRef-zenity-common-file-281
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_281
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-281
 
 
 FileName: /usr/share/help/sl/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_282
+SPDXID: SPDXRef-zenity-common-file-282
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_282
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-282
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_283
+SPDXID: SPDXRef-zenity-common-file-283
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_283
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-283
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_284
+SPDXID: SPDXRef-zenity-common-file-284
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_284
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-284
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_285
+SPDXID: SPDXRef-zenity-common-file-285
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_285
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-285
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_286
+SPDXID: SPDXRef-zenity-common-file-286
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_286
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-286
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_287
+SPDXID: SPDXRef-zenity-common-file-287
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_287
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-287
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_288
+SPDXID: SPDXRef-zenity-common-file-288
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_288
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-288
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_289
+SPDXID: SPDXRef-zenity-common-file-289
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_289
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-289
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_290
+SPDXID: SPDXRef-zenity-common-file-290
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_290
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-290
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_291
+SPDXID: SPDXRef-zenity-common-file-291
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_291
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-291
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_292
+SPDXID: SPDXRef-zenity-common-file-292
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_292
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-292
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_293
+SPDXID: SPDXRef-zenity-common-file-293
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_293
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-293
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_294
+SPDXID: SPDXRef-zenity-common-file-294
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_294
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-294
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_295
+SPDXID: SPDXRef-zenity-common-file-295
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_295
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-295
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_296
+SPDXID: SPDXRef-zenity-common-file-296
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_296
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-296
 
 
 FileName: /usr/share/help/uk/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_297
+SPDXID: SPDXRef-zenity-common-file-297
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_297
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-297
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-calendar-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_298
+SPDXID: SPDXRef-zenity-common-file-298
 FileChecksum: SHA1: 1763bf8ae6dbff0f67057e0f2cbf10d809cdb456
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_298
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-298
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-colorselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_299
+SPDXID: SPDXRef-zenity-common-file-299
 FileChecksum: SHA1: 67b234815bc5b6eb328f8ce9638ad4a412f4f8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_299
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-299
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-entry-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_300
+SPDXID: SPDXRef-zenity-common-file-300
 FileChecksum: SHA1: 6c40809319604c6ff3d9d658f83c2ca4b2ede954
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_300
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-300
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-error-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_301
+SPDXID: SPDXRef-zenity-common-file-301
 FileChecksum: SHA1: af6746d842a9e98d33eba4aff87732e158abb962
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_301
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-301
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-fileselection-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_302
+SPDXID: SPDXRef-zenity-common-file-302
 FileChecksum: SHA1: fc4c460c0d2071b4ab60eda33b7039ecb8195c8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_302
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-302
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-forms-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_303
+SPDXID: SPDXRef-zenity-common-file-303
 FileChecksum: SHA1: 4b758401febada98881e55692b73d9b4fed4aa70
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_303
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-303
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-information-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_304
+SPDXID: SPDXRef-zenity-common-file-304
 FileChecksum: SHA1: 440fa214330d01ab367f5b78fbd4517c79c4b6a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_304
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-304
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-list-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_305
+SPDXID: SPDXRef-zenity-common-file-305
 FileChecksum: SHA1: 3e4b0240184a07ac6acde8141296947ba32f69cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_305
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-305
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-notification-listen-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_306
+SPDXID: SPDXRef-zenity-common-file-306
 FileChecksum: SHA1: 2157cfe3d0b15c0165f54153dbf6ac7756c86ada
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_306
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-306
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-notification-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_307
+SPDXID: SPDXRef-zenity-common-file-307
 FileChecksum: SHA1: 134bd3c51728c7c9ef7ca1adc8fead5ca37808c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_307
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-307
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-password-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_308
+SPDXID: SPDXRef-zenity-common-file-308
 FileChecksum: SHA1: d802b68d0d729e5d87e8cae7dc3adf4e4edb380c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_308
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-308
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-progress-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_309
+SPDXID: SPDXRef-zenity-common-file-309
 FileChecksum: SHA1: 6220ff191ad87f7ecdc84b87f6b00790ef6dbcc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_309
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-309
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-question-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_310
+SPDXID: SPDXRef-zenity-common-file-310
 FileChecksum: SHA1: 462d9f67643188affba9e92d8250cf561ea5bf8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_310
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-310
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-scale-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_311
+SPDXID: SPDXRef-zenity-common-file-311
 FileChecksum: SHA1: 878a2de8fdf16dc3db32e3717941bba5b5d32a37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_311
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-311
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-text-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_312
+SPDXID: SPDXRef-zenity-common-file-312
 FileChecksum: SHA1: 5c5bb1538c2f3c9ab78a6c67be13499e29d548a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_312
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-312
 
 
 FileName: /usr/share/help/zh_CN/zenity/figures/zenity-warning-screenshot.png
-SPDXID: SPDXRef-zenity-common_file_313
+SPDXID: SPDXRef-zenity-common-file-313
 FileChecksum: SHA1: f60e19bcdb8f4026808cc27d4682345e4dcfe83c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common_file_313
+Relationship: SPDXRef-zenity-common CONTAINS SPDXRef-zenity-common-file-313
 
 
 ## Extracted License

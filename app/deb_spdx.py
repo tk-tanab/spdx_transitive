@@ -64,7 +64,7 @@ class Deb_Spdx:
         package_dict = tv_dict["Package"][0]
         package_dict["PackageName"] = control_dict["Package"]
         package_dict["PackageVersion"] = control_dict["Version"]
-        package_dict["SPDXID"] = ["SPDXRef-" + package_dict["PackageName"][0]]
+        package_dict["SPDXID"] = ["SPDXRef-" + package_dict["PackageName"][0].replace('+', '')]
         if "Homepage" in control_dict:
             package_dict["PackageHomePage"] = control_dict["Homepage"]
         package_dict["PackageComment"] = control_dict["Description"]
@@ -94,7 +94,7 @@ class Deb_Spdx:
         # ファイルパス と SPDXID の修正 と Relationship の追加
         for i, file_dict in enumerate(tv_dict["File"]):
             file_dict["FileName"] = [file_dict["FileName"][0].replace(("./" + package_dict["PackageName"][0]), '', 1)]
-            file_dict["SPDXID"] = ["SPDXRef-" + package_dict["PackageName"][0] + "_file_" + str(i)]
+            file_dict["SPDXID"] = ["SPDXRef-" + package_dict["PackageName"][0] + "-file-" + str(i)]
             file_dict["Relationship"] = [package_dict["SPDXID"][0] + " CONTAINS " + file_dict["SPDXID"][0]]
 
         tv_dict["Extracted License"] = self.rm_license_dup(tv_dict["Extracted License"])

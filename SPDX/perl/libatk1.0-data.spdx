@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libatk1.0-data_2.36.0-3build1-60ca0009-9aa8-5817-bdb5-57dc9d7d27b3
+DocumentNamespace: http://spdx.org/spdxdocs/libatk1.0-data_2.36.0-3build1-ffab9ce9-e895-5dad-bbde-1081fd34d8d2
 DocumentName: libatk1.0-data_2.36.0-3build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libatk1.0-data
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libatk1.0-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:06:59Z
+Created: 2022-11-28T14:25:29Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:06:59Z
 PackageName: libatk1.0-data
 PackageVersion: 2.36.0-3build1
 SPDXID: SPDXRef-libatk1.0-data
-PackageVerificationCode: SHA1: 58f5acc46654629913d849fb633e28338bbd9894
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 58f5acc46654629913d849fb633e28338bbd9894
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Accessibility
@@ -34,21 +35,21 @@ PackageComment: <text>Common files for the ATK accessibility toolkit
 ## File
 
 FileName: /usr/share/doc/libatk1.0-data/changelog.Debian.gz
-SPDXID: SPDXRef-libatk1.0-data_file_0
+SPDXID: SPDXRef-libatk1.0-data-file-0
 FileChecksum: SHA1: b177445f25a420b5762c5c213a42fd2426343087
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libatk1.0-data CONTAINS SPDXRef-libatk1.0-data_file_0
+Relationship: SPDXRef-libatk1.0-data CONTAINS SPDXRef-libatk1.0-data-file-0
 
 
 FileName: /usr/share/doc/libatk1.0-data/copyright
-SPDXID: SPDXRef-libatk1.0-data_file_1
+SPDXID: SPDXRef-libatk1.0-data-file-1
 FileChecksum: SHA1: 382b5007cfaa8924fff3012256f20d7e23d66d4d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libatk1.0-data CONTAINS SPDXRef-libatk1.0-data_file_1
+Relationship: SPDXRef-libatk1.0-data CONTAINS SPDXRef-libatk1.0-data-file-1
 
 
 ## Extracted License

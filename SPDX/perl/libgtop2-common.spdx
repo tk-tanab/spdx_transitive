@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libgtop2-common_2.40.0-2build3-31bb3b0b-7c23-5102-b5d9-e48d67c5d4a6
+DocumentNamespace: http://spdx.org/spdxdocs/libgtop2-common_2.40.0-2build3-79f4a21a-3170-540c-92d3-f8c35e686cb2
 DocumentName: libgtop2-common_2.40.0-2build3
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgtop2-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgtop2-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:27Z
+Created: 2022-11-28T14:26:22Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:27Z
 PackageName: libgtop2-common
 PackageVersion: 2.40.0-2build3
 SPDXID: SPDXRef-libgtop2-common
-PackageVerificationCode: SHA1: 5c7d431ef148619f7ac110dac9b1f347d5535197
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5c7d431ef148619f7ac110dac9b1f347d5535197
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>gtop system monitoring library (common)
@@ -31,21 +32,21 @@ PackageComment: <text>gtop system monitoring library (common)
 ## File
 
 FileName: /usr/share/doc/libgtop2-common/changelog.Debian.gz
-SPDXID: SPDXRef-libgtop2-common_file_0
+SPDXID: SPDXRef-libgtop2-common-file-0
 FileChecksum: SHA1: 0134247b8c44d917b48b90990d13afad3b870ee9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgtop2-common CONTAINS SPDXRef-libgtop2-common_file_0
+Relationship: SPDXRef-libgtop2-common CONTAINS SPDXRef-libgtop2-common-file-0
 
 
 FileName: /usr/share/doc/libgtop2-common/copyright
-SPDXID: SPDXRef-libgtop2-common_file_1
+SPDXID: SPDXRef-libgtop2-common-file-1
 FileChecksum: SHA1: b7ade9fe1e87b169e269dd0d7e9f47c91039b7f1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgtop2-common CONTAINS SPDXRef-libgtop2-common_file_1
+Relationship: SPDXRef-libgtop2-common CONTAINS SPDXRef-libgtop2-common-file-1
 
 
 ## Extracted License

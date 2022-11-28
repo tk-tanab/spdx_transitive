@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.1-ce816719-f63a-5ec7-be75-740c7d5dad31
+DocumentNamespace: http://spdx.org/spdxdocs/libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.1-7d4668b5-58a1-5a0e-862b-0e90896a623b
 DocumentName: libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdk-pixbuf2.0-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdk-pixbuf2.0-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:06:56Z
+Created: 2022-11-28T14:25:25Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:06:56Z
 PackageName: libgdk-pixbuf2.0-common
 PackageVersion: 2.42.8+dfsg-1ubuntu0.1
 SPDXID: SPDXRef-libgdk-pixbuf2.0-common
-PackageVerificationCode: SHA1: 8f2602012b3d2dca2964fd1ed54ce686bd375a43
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8f2602012b3d2dca2964fd1ed54ce686bd375a43
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://www.gtk.org/
@@ -30,21 +31,21 @@ PackageComment: <text>GDK Pixbuf library - data files
 ## File
 
 FileName: /usr/share/doc/libgdk-pixbuf2.0-common/changelog.Debian.gz
-SPDXID: SPDXRef-libgdk-pixbuf2.0-common_file_0
+SPDXID: SPDXRef-libgdk-pixbuf2.0-common-file-0
 FileChecksum: SHA1: f29d6e6935dc23b6a676b97c1b7bab833822e433
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgdk-pixbuf2.0-common CONTAINS SPDXRef-libgdk-pixbuf2.0-common_file_0
+Relationship: SPDXRef-libgdk-pixbuf2.0-common CONTAINS SPDXRef-libgdk-pixbuf2.0-common-file-0
 
 
 FileName: /usr/share/doc/libgdk-pixbuf2.0-common/copyright
-SPDXID: SPDXRef-libgdk-pixbuf2.0-common_file_1
+SPDXID: SPDXRef-libgdk-pixbuf2.0-common-file-1
 FileChecksum: SHA1: 4d6fc22d8c4d5550c853a69f1cf22e000dfa7ebc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgdk-pixbuf2.0-common CONTAINS SPDXRef-libgdk-pixbuf2.0-common_file_1
+Relationship: SPDXRef-libgdk-pixbuf2.0-common CONTAINS SPDXRef-libgdk-pixbuf2.0-common-file-1
 
 
 ## Extracted License

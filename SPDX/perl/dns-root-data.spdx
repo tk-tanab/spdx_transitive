@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/dns-root-data_2021011101-9045b749-81ed-5c3d-9506-13f6b1506034
+DocumentNamespace: http://spdx.org/spdxdocs/dns-root-data_2021011101-4141dffc-11ea-50e6-8881-7200ed90ff05
 DocumentName: dns-root-data_2021011101
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dns-root-data
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dns-root-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:52Z
+Created: 2022-11-28T14:26:45Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:52Z
 PackageName: dns-root-data
 PackageVersion: 2021011101
 SPDXID: SPDXRef-dns-root-data
-PackageVerificationCode: SHA1: c29697a8a52cd0d8c2344904ba4e27203223b96e
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c29697a8a52cd0d8c2344904ba4e27203223b96e
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://data.iana.org/root-anchors/
@@ -34,57 +35,57 @@ PackageComment: <text>DNS root data including root zone and DNSSEC key
 ## File
 
 FileName: /usr/share/dns/root.ds
-SPDXID: SPDXRef-dns-root-data_file_0
+SPDXID: SPDXRef-dns-root-data-file-0
 FileChecksum: SHA1: 1a74c57d9cfeee4244c7931de11252e25cc556fa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data_file_0
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-0
 
 
 FileName: /usr/share/dns/root.hints
-SPDXID: SPDXRef-dns-root-data_file_1
+SPDXID: SPDXRef-dns-root-data-file-1
 FileChecksum: SHA1: 61be0cde43531f927452008d1a2df956b3065491
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data_file_1
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-1
 
 
 FileName: /usr/share/dns/root.hints.sig
-SPDXID: SPDXRef-dns-root-data_file_2
+SPDXID: SPDXRef-dns-root-data-file-2
 FileChecksum: SHA1: 96a16af82d269b0b1e0cfbfab920cda6ff0289e8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data_file_2
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-2
 
 
 FileName: /usr/share/dns/root.key
-SPDXID: SPDXRef-dns-root-data_file_3
+SPDXID: SPDXRef-dns-root-data-file-3
 FileChecksum: SHA1: 3de3d0ee1d608f27a9e990eb10e19d69e4e56e6b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data_file_3
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-3
 
 
 FileName: /usr/share/doc/dns-root-data/changelog.gz
-SPDXID: SPDXRef-dns-root-data_file_4
+SPDXID: SPDXRef-dns-root-data-file-4
 FileChecksum: SHA1: d7d67d2b169b0b23253a55a347e40a0721a13614
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data_file_4
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-4
 
 
 FileName: /usr/share/doc/dns-root-data/copyright
-SPDXID: SPDXRef-dns-root-data_file_5
+SPDXID: SPDXRef-dns-root-data-file-5
 FileChecksum: SHA1: bfd53488acc118c2a1c15bbf8454b47dcedf67de
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data_file_5
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-5
 
 
 ## Extracted License

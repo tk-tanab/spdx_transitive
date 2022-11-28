@@ -36,7 +36,7 @@ def make_tv_dict(package_name, mode):
                 "PackageName": [],
                 "PackageVersion": [],
                 "SPDXID": [],
-                "PackageDownloadLocation": [],
+                "PackageDownloadLocation": ["NOASSERTION"],
                 "PackageVerificationCode": [],
                 "PackageLicenseDeclared": ["NOASSERTION"],
                 "PackageLicenseConcluded": ["NOASSERTION"],
@@ -99,7 +99,7 @@ def make_tv_dict(package_name, mode):
         )
 
         tv_dict = tv_to_dict.tv_to_dict(output)
-        tv_dict["Package"][0].update({"PackageVerificationCode": ["SHA1: " + hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
+        tv_dict["Package"][0].update({"PackageVerificationCode": [hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
         tv_dict["File"] += file_dict_list
         tv_dict["File"][0].update({"FileName": [copyright_filepath]})
 
@@ -130,7 +130,7 @@ def make_tv_dict(package_name, mode):
             hash_list.sort()
 
         tv_dict = template_tv_dict
-        tv_dict["Package"][0].update({"PackageVerificationCode": ["SHA1: " + hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
+        tv_dict["Package"][0].update({"PackageVerificationCode": [hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
         tv_dict["File"] += file_dict_list
 
     elif mode == 2:

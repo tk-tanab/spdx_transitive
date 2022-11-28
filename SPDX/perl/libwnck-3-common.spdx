@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libwnck-3-common_40.1-1-16436920-d22d-5d6d-a451-471b4d1bf92b
+DocumentNamespace: http://spdx.org/spdxdocs/libwnck-3-common_40.1-1-b3c32126-72bc-5f69-8110-ae7a99cdfc55
 DocumentName: libwnck-3-common_40.1-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwnck-3-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwnck-3-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:08:12Z
+Created: 2022-11-28T14:27:01Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:08:12Z
 PackageName: libwnck-3-common
 PackageVersion: 40.1-1
 SPDXID: SPDXRef-libwnck-3-common
-PackageVerificationCode: SHA1: f21ac6b159d24a6c364e02c577eee8e50e8f2aa2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f21ac6b159d24a6c364e02c577eee8e50e8f2aa2
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://gitlab.gnome.org/GNOME/libwnck
@@ -31,30 +32,30 @@ PackageComment: <text>Window Navigator Construction Kit - common files
 ## File
 
 FileName: /usr/share/doc/libwnck-3-common/NEWS.gz
-SPDXID: SPDXRef-libwnck-3-common_file_0
+SPDXID: SPDXRef-libwnck-3-common-file-0
 FileChecksum: SHA1: a04c97b910567c674bf5fe5da2ab40da0a17b5b8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common_file_0
+Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common-file-0
 
 
 FileName: /usr/share/doc/libwnck-3-common/changelog.Debian.gz
-SPDXID: SPDXRef-libwnck-3-common_file_1
+SPDXID: SPDXRef-libwnck-3-common-file-1
 FileChecksum: SHA1: e516f5c163d9fbdf1e65de7b3c2c20d7bb06ebbf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common_file_1
+Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common-file-1
 
 
 FileName: /usr/share/doc/libwnck-3-common/copyright
-SPDXID: SPDXRef-libwnck-3-common_file_2
+SPDXID: SPDXRef-libwnck-3-common-file-2
 FileChecksum: SHA1: 8779a9f92945dfa2afbc26f4f0489321bf01eebc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common_file_2
+Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common-file-2
 
 
 ## Extracted License

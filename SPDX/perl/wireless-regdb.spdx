@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/wireless-regdb_2022.06.06-0ubuntu1~22.04.1-614cb0ba-ffb9-5f30-acf5-57e7a94a97f1
+DocumentNamespace: http://spdx.org/spdxdocs/wireless-regdb_2022.06.06-0ubuntu1~22.04.1-24101dbb-dd5f-5446-a429-5fdc1325b3fb
 DocumentName: wireless-regdb_2022.06.06-0ubuntu1~22.04.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-wireless-regdb
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-wireless-regdb
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:52Z
+Created: 2022-11-28T14:26:46Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:52Z
 PackageName: wireless-regdb
 PackageVersion: 2022.06.06-0ubuntu1~22.04.1
 SPDXID: SPDXRef-wireless-regdb
-PackageVerificationCode: SHA1: 83cc221891aa5f4aa8685d2efa60127e448e5288
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 83cc221891aa5f4aa8685d2efa60127e448e5288
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb
@@ -35,66 +36,66 @@ PackageComment: <text>wireless regulatory database
 ## File
 
 FileName: /lib/crda/regulatory.bin
-SPDXID: SPDXRef-wireless-regdb_file_0
+SPDXID: SPDXRef-wireless-regdb-file-0
 FileChecksum: SHA1: e3681151fff1e7459b2eecfd7b6f7b346ea7e3dc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_0
+Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb-file-0
 
 
 FileName: /lib/firmware/regulatory.db
-SPDXID: SPDXRef-wireless-regdb_file_1
+SPDXID: SPDXRef-wireless-regdb-file-1
 FileChecksum: SHA1: ce1ccebf8d5335e9a60566145d1893b1805f2511
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_1
+Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb-file-1
 
 
 FileName: /lib/firmware/regulatory.db.p7s
-SPDXID: SPDXRef-wireless-regdb_file_2
+SPDXID: SPDXRef-wireless-regdb-file-2
 FileChecksum: SHA1: d00379fe5cd3be825ba6f0081aae9912eb8c7e31
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_2
+Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb-file-2
 
 
 FileName: /usr/share/doc/wireless-regdb/changelog.Debian.gz
-SPDXID: SPDXRef-wireless-regdb_file_3
+SPDXID: SPDXRef-wireless-regdb-file-3
 FileChecksum: SHA1: 0934a09ee13c3349325eab08422e660ea643eab7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_3
+Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb-file-3
 
 
 FileName: /usr/share/doc/wireless-regdb/copyright
-SPDXID: SPDXRef-wireless-regdb_file_4
+SPDXID: SPDXRef-wireless-regdb-file-4
 FileChecksum: SHA1: 712b62ed4640fcfd9f1388de6bc1433ff8826261
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_4
+Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb-file-4
 
 
 FileName: /usr/share/man/man5/regulatory.bin.5.gz
-SPDXID: SPDXRef-wireless-regdb_file_5
+SPDXID: SPDXRef-wireless-regdb-file-5
 FileChecksum: SHA1: efe19181a733a56e36fee16bd21ce23606b83312
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_5
+Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb-file-5
 
 
 FileName: /usr/share/man/man5/regulatory.db.5.gz
-SPDXID: SPDXRef-wireless-regdb_file_6
+SPDXID: SPDXRef-wireless-regdb-file-6
 FileChecksum: SHA1: efe19181a733a56e36fee16bd21ce23606b83312
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_6
+Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb-file-6
 
 
 ## Extracted License

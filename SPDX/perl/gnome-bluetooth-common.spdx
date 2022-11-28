@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/gnome-bluetooth-common_3.34.5-8-ed534bed-3a5d-5fb7-90dc-7f15bae7e51e
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-bluetooth-common_3.34.5-8-b16694a0-518b-5ff1-855c-568f9d447c0d
 DocumentName: gnome-bluetooth-common_3.34.5-8
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-bluetooth-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-bluetooth-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:26Z
+Created: 2022-11-28T14:26:21Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:26Z
 PackageName: gnome-bluetooth-common
 PackageVersion: 3.34.5-8
 SPDXID: SPDXRef-gnome-bluetooth-common
-PackageVerificationCode: SHA1: 96a7b842eb9fe3eb98c6bd31fc00ea50c3057643
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 96a7b842eb9fe3eb98c6bd31fc00ea50c3057643
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/GnomeBluetooth
@@ -30,30 +31,30 @@ PackageComment: <text>GNOME Bluetooth common files
 ## File
 
 FileName: /usr/share/doc/gnome-bluetooth-common/changelog.Debian.gz
-SPDXID: SPDXRef-gnome-bluetooth-common_file_0
+SPDXID: SPDXRef-gnome-bluetooth-common-file-0
 FileChecksum: SHA1: a71c3e3b4154bb4a1262464f9b5c50ce6254e037
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gnome-bluetooth-common CONTAINS SPDXRef-gnome-bluetooth-common_file_0
+Relationship: SPDXRef-gnome-bluetooth-common CONTAINS SPDXRef-gnome-bluetooth-common-file-0
 
 
 FileName: /usr/share/doc/gnome-bluetooth-common/copyright
-SPDXID: SPDXRef-gnome-bluetooth-common_file_1
+SPDXID: SPDXRef-gnome-bluetooth-common-file-1
 FileChecksum: SHA1: 36c848744d00f82e1ecbf3de7bb765d45baf8f84
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gnome-bluetooth-common CONTAINS SPDXRef-gnome-bluetooth-common_file_1
+Relationship: SPDXRef-gnome-bluetooth-common CONTAINS SPDXRef-gnome-bluetooth-common-file-1
 
 
 FileName: /usr/share/gnome-bluetooth/pin-code-database.xml
-SPDXID: SPDXRef-gnome-bluetooth-common_file_2
+SPDXID: SPDXRef-gnome-bluetooth-common-file-2
 FileChecksum: SHA1: 645e000194cdc4bef222275c32efd87a2dc07903
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gnome-bluetooth-common CONTAINS SPDXRef-gnome-bluetooth-common_file_2
+Relationship: SPDXRef-gnome-bluetooth-common CONTAINS SPDXRef-gnome-bluetooth-common-file-2
 
 
 ## Extracted License

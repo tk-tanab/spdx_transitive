@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libsemanage-common_3.3-1build2-2c84087d-f6b7-529d-9409-592dccf14139
+DocumentNamespace: http://spdx.org/spdxdocs/libsemanage-common_3.3-1build2-5273d9f8-e4fb-5a86-bf3a-667bc8d0c225
 DocumentName: libsemanage-common_3.3-1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsemanage-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsemanage-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:06:41Z
+Created: 2022-11-28T14:25:17Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:06:41Z
 PackageName: libsemanage-common
 PackageVersion: 3.3-1build2
 SPDXID: SPDXRef-libsemanage-common
-PackageVerificationCode: SHA1: 1cc70a1a3ab5fc26956ea1efcc0a85314dec3b6e
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1cc70a1a3ab5fc26956ea1efcc0a85314dec3b6e
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://selinuxproject.org
@@ -40,48 +41,48 @@ PackageComment: <text>Common files for SELinux policy management libraries
 ## File
 
 FileName: /etc/selinux/semanage.conf
-SPDXID: SPDXRef-libsemanage-common_file_0
+SPDXID: SPDXRef-libsemanage-common-file-0
 FileChecksum: SHA1: a0a77875fc424ec2897acf5d2a642c325ffeb878
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common_file_0
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-0
 
 
 FileName: /usr/share/doc/libsemanage-common/changelog.Debian.gz
-SPDXID: SPDXRef-libsemanage-common_file_1
+SPDXID: SPDXRef-libsemanage-common-file-1
 FileChecksum: SHA1: 81cd802a62adb4e76d507dca0e9ff3a6faa99a65
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common_file_1
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-1
 
 
 FileName: /usr/share/doc/libsemanage-common/copyright
-SPDXID: SPDXRef-libsemanage-common_file_2
+SPDXID: SPDXRef-libsemanage-common-file-2
 FileChecksum: SHA1: 80f13496ec787fb5b457c6cdd9b0fa4b284865be
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common_file_2
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-2
 
 
 FileName: /usr/share/man/man5/semanage.conf.5.gz
-SPDXID: SPDXRef-libsemanage-common_file_3
+SPDXID: SPDXRef-libsemanage-common-file-3
 FileChecksum: SHA1: cf20d67c8a78d51d47febf0b6dae9fa2bd5a10dd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common_file_3
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-3
 
 
 FileName: /usr/share/man/ru/man5/semanage.conf.5.gz
-SPDXID: SPDXRef-libsemanage-common_file_4
+SPDXID: SPDXRef-libsemanage-common-file-4
 FileChecksum: SHA1: 2b2d8b2d6f76d059e0a23d5f2b071bbfa5d2e655
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common_file_4
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-4
 
 
 ## Extracted License

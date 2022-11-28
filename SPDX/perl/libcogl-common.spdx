@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-0f87b912-a07a-5a80-bd1a-9bead95ce835
+DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-051f71bd-b540-51ec-a907-89ea1094f347
 DocumentName: libcogl-common_1.22.8-3build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcogl-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcogl-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:22Z
+Created: 2022-11-28T14:26:19Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:22Z
 PackageName: libcogl-common
 PackageVersion: 1.22.8-3build1
 SPDXID: SPDXRef-libcogl-common
-PackageVerificationCode: SHA1: be76f974097a22883c40f46a40664cf3a0bd6f47
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: be76f974097a22883c40f46a40664cf3a0bd6f47
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Object oriented GL/GLES Abstraction/Utility Layer (common files)
@@ -33,30 +34,30 @@ PackageComment: <text>Object oriented GL/GLES Abstraction/Utility Layer (common 
 ## File
 
 FileName: /usr/share/cogl/examples-data/crate.jpg
-SPDXID: SPDXRef-libcogl-common_file_0
+SPDXID: SPDXRef-libcogl-common-file-0
 FileChecksum: SHA1: 9f602e60756bff7c33a8c0f7fb8ac5b775328297
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common_file_0
+Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common-file-0
 
 
 FileName: /usr/share/doc/libcogl-common/changelog.Debian.gz
-SPDXID: SPDXRef-libcogl-common_file_1
+SPDXID: SPDXRef-libcogl-common-file-1
 FileChecksum: SHA1: a3b2d319b71b2d01b0f61b3b8ca0189b455b29d4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common_file_1
+Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common-file-1
 
 
 FileName: /usr/share/doc/libcogl-common/copyright
-SPDXID: SPDXRef-libcogl-common_file_2
+SPDXID: SPDXRef-libcogl-common-file-2
 FileChecksum: SHA1: a91cb4b6b0d3ccb85b67feafe807d6133ef322c9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common_file_2
+Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common-file-2
 
 
 ## Extracted License

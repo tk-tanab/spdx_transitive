@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libavahi-common-data_0.8-5ubuntu5-b24ac7a4-eb89-5ec3-a3e6-62d7722a2c7e
+DocumentNamespace: http://spdx.org/spdxdocs/libavahi-common-data_0.8-5ubuntu5-23c30abf-bbdb-5891-a6f8-0a57d784b0f2
 DocumentName: libavahi-common-data_0.8-5ubuntu5
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libavahi-common-data
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libavahi-common-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:01Z
+Created: 2022-11-28T14:25:31Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:01Z
 PackageName: libavahi-common-data
 PackageVersion: 0.8-5ubuntu5
 SPDXID: SPDXRef-libavahi-common-data
-PackageVerificationCode: SHA1: e4faef7dc7ad17a6411708995fa5f96296726e5c
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e4faef7dc7ad17a6411708995fa5f96296726e5c
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: http://avahi.org/
@@ -35,48 +36,48 @@ PackageComment: <text>Avahi common data files
 ## File
 
 FileName: /usr/lib/x86_64-linux-gnu/avahi/service-types.db
-SPDXID: SPDXRef-libavahi-common-data_file_0
+SPDXID: SPDXRef-libavahi-common-data-file-0
 FileChecksum: SHA1: c8d6f66d599fd6c33cfc0286e3c4a4374bf7c365
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data_file_0
+Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data-file-0
 
 
 FileName: /usr/share/doc/libavahi-common-data/NEWS.gz
-SPDXID: SPDXRef-libavahi-common-data_file_1
+SPDXID: SPDXRef-libavahi-common-data-file-1
 FileChecksum: SHA1: a444dd2116e62b99e1166e00bd67805bb1864342
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data_file_1
+Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data-file-1
 
 
 FileName: /usr/share/doc/libavahi-common-data/README
-SPDXID: SPDXRef-libavahi-common-data_file_2
+SPDXID: SPDXRef-libavahi-common-data-file-2
 FileChecksum: SHA1: dddcbde36d221fc0bd5d6ea8b5a0659976e9977c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data_file_2
+Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data-file-2
 
 
 FileName: /usr/share/doc/libavahi-common-data/changelog.Debian.gz
-SPDXID: SPDXRef-libavahi-common-data_file_3
+SPDXID: SPDXRef-libavahi-common-data-file-3
 FileChecksum: SHA1: 62dbd6961c719b42ba029b9e6fcab962a27c8327
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data_file_3
+Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data-file-3
 
 
 FileName: /usr/share/doc/libavahi-common-data/copyright
-SPDXID: SPDXRef-libavahi-common-data_file_4
+SPDXID: SPDXRef-libavahi-common-data-file-4
 FileChecksum: SHA1: 5e66a3bd1382dc3f07940ca881d86fcf5f55c7da
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data_file_4
+Relationship: SPDXRef-libavahi-common-data CONTAINS SPDXRef-libavahi-common-data-file-4
 
 
 ## Extracted License

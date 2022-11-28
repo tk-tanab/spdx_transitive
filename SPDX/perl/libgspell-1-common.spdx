@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libgspell-1-common_1.9.1-4-52c1b3b5-d6f6-5510-946c-88abe517cae3
+DocumentNamespace: http://spdx.org/spdxdocs/libgspell-1-common_1.9.1-4-dfba6aa5-5b22-5111-b746-0d66a70a84f1
 DocumentName: libgspell-1-common_1.9.1-4
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgspell-1-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgspell-1-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:33Z
+Created: 2022-11-28T14:25:57Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:33Z
 PackageName: libgspell-1-common
 PackageVersion: 1.9.1-4
 SPDXID: SPDXRef-libgspell-1-common
-PackageVerificationCode: SHA1: cef0373bd54c9bdab8b81a8ed8200f8ee88a3ba2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: cef0373bd54c9bdab8b81a8ed8200f8ee88a3ba2
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/gspell
@@ -38,21 +39,21 @@ PackageComment: <text>libgspell architecture-independent files
 ## File
 
 FileName: /usr/share/doc/libgspell-1-common/changelog.Debian.gz
-SPDXID: SPDXRef-libgspell-1-common_file_0
+SPDXID: SPDXRef-libgspell-1-common-file-0
 FileChecksum: SHA1: 49d4da3a0eadbd9916a8b5c0c2c72bbd60456d56
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgspell-1-common CONTAINS SPDXRef-libgspell-1-common_file_0
+Relationship: SPDXRef-libgspell-1-common CONTAINS SPDXRef-libgspell-1-common-file-0
 
 
 FileName: /usr/share/doc/libgspell-1-common/copyright
-SPDXID: SPDXRef-libgspell-1-common_file_1
+SPDXID: SPDXRef-libgspell-1-common-file-1
 FileChecksum: SHA1: d512c7a954743d1fb1da2a250e7fc2228a5b6c62
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgspell-1-common CONTAINS SPDXRef-libgspell-1-common_file_1
+Relationship: SPDXRef-libgspell-1-common CONTAINS SPDXRef-libgspell-1-common-file-1
 
 
 ## Extracted License

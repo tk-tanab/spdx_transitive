@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/gnome-desktop3-data_42.4-0ubuntu1-8f3a496d-1a6f-5e49-8d42-0b744a6cd0de
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-desktop3-data_42.4-0ubuntu1-b3bfa57c-8618-527d-9c0e-8937d757ff53
 DocumentName: gnome-desktop3-data_42.4-0ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-desktop3-data
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-desktop3-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:26Z
+Created: 2022-11-28T14:25:59Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:26Z
 PackageName: gnome-desktop3-data
 PackageVersion: 42.4-0ubuntu1
 SPDXID: SPDXRef-gnome-desktop3-data
-PackageVerificationCode: SHA1: 632f92dbd3ee4432a8c4917752cc6c7adcbe39a4
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 632f92dbd3ee4432a8c4917752cc6c7adcbe39a4
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Common files for GNOME desktop apps
@@ -29,57 +30,57 @@ PackageComment: <text>Common files for GNOME desktop apps
 ## File
 
 FileName: /usr/share/doc/gnome-desktop3-data/changelog.Debian.gz
-SPDXID: SPDXRef-gnome-desktop3-data_file_0
+SPDXID: SPDXRef-gnome-desktop3-data-file-0
 FileChecksum: SHA1: 8742a42277b3c33d0428a62936f40456e73cebfc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data_file_0
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-0
 
 
 FileName: /usr/share/doc/gnome-desktop3-data/copyright
-SPDXID: SPDXRef-gnome-desktop3-data_file_1
+SPDXID: SPDXRef-gnome-desktop3-data-file-1
 FileChecksum: SHA1: 0018291ae161bcbbe05f9deb5a6b8fd9654a8724
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data_file_1
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-1
 
 
 FileName: /usr/share/gnome/gnome-version.xml
-SPDXID: SPDXRef-gnome-desktop3-data_file_2
+SPDXID: SPDXRef-gnome-desktop3-data-file-2
 FileChecksum: SHA1: a70973b7b204c8fb26325b0bd73d3320888a4bcc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data_file_2
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-2
 
 
 FileName: /usr/share/help/C/fdl/index.docbook
-SPDXID: SPDXRef-gnome-desktop3-data_file_3
+SPDXID: SPDXRef-gnome-desktop3-data-file-3
 FileChecksum: SHA1: c92290e2ff5c3de7f8d8293f56fb9d06e99b67c2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data_file_3
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-3
 
 
 FileName: /usr/share/help/C/gpl/index.docbook
-SPDXID: SPDXRef-gnome-desktop3-data_file_4
+SPDXID: SPDXRef-gnome-desktop3-data-file-4
 FileChecksum: SHA1: 792cf0184034e0ce68bc0fd2bbac0939f1fd7499
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data_file_4
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-4
 
 
 FileName: /usr/share/help/C/lgpl/index.docbook
-SPDXID: SPDXRef-gnome-desktop3-data_file_5
+SPDXID: SPDXRef-gnome-desktop3-data-file-5
 FileChecksum: SHA1: 033c588f415d74debe6ad0d04c373805e224ebf3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data_file_5
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-5
 
 
 ## Extracted License

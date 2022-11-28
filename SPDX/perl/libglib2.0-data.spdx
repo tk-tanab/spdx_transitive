@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libglib2.0-data_2.72.1-1-0edc3605-4c36-5a26-bb1e-885d490e4fe7
+DocumentNamespace: http://spdx.org/spdxdocs/libglib2.0-data_2.72.1-1-997e0cf0-85e0-5833-ab4c-8f6d9925e047
 DocumentName: libglib2.0-data_2.72.1-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libglib2.0-data
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libglib2.0-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:06:50Z
+Created: 2022-11-28T14:25:25Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:06:50Z
 PackageName: libglib2.0-data
 PackageVersion: 2.72.1-1
 SPDXID: SPDXRef-libglib2.0-data
-PackageVerificationCode: SHA1: 11c6f40fd131a9f740463898c91d981c9933b42d
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 11c6f40fd131a9f740463898c91d981c9933b42d
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/GLib
@@ -34,21 +35,21 @@ PackageComment: <text>Common files for GLib library
 ## File
 
 FileName: /usr/share/doc/libglib2.0-data/changelog.Debian.gz
-SPDXID: SPDXRef-libglib2.0-data_file_0
+SPDXID: SPDXRef-libglib2.0-data-file-0
 FileChecksum: SHA1: 8d2780d596bf249c2e41e33c1674f1af9aa26acd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libglib2.0-data CONTAINS SPDXRef-libglib2.0-data_file_0
+Relationship: SPDXRef-libglib2.0-data CONTAINS SPDXRef-libglib2.0-data-file-0
 
 
 FileName: /usr/share/doc/libglib2.0-data/copyright
-SPDXID: SPDXRef-libglib2.0-data_file_1
+SPDXID: SPDXRef-libglib2.0-data-file-1
 FileChecksum: SHA1: 39e74288e2fe13a7be6077dbab4604cf159edb06
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libglib2.0-data CONTAINS SPDXRef-libglib2.0-data_file_1
+Relationship: SPDXRef-libglib2.0-data CONTAINS SPDXRef-libglib2.0-data-file-1
 
 
 ## Extracted License

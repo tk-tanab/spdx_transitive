@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libsoup2.4-common_2.74.2-3-3052c05b-2c67-5ee2-9bef-fe8d81350cb6
+DocumentNamespace: http://spdx.org/spdxdocs/libsoup2.4-common_2.74.2-3-7aaf80cf-b7ce-5a15-b19b-8cf09af034a2
 DocumentName: libsoup2.4-common_2.74.2-3
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsoup2.4-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsoup2.4-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:08Z
+Created: 2022-11-28T14:25:39Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:08Z
 PackageName: libsoup2.4-common
 PackageVersion: 2.74.2-3
 SPDXID: SPDXRef-libsoup2.4-common
-PackageVerificationCode: SHA1: 31f16825ce05349699b74baa09ecf969115c3202
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 31f16825ce05349699b74baa09ecf969115c3202
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/libsoup
@@ -33,21 +34,21 @@ PackageComment: <text>HTTP library implementation in C -- Common files
 ## File
 
 FileName: /usr/share/doc/libsoup2.4-common/changelog.Debian.gz
-SPDXID: SPDXRef-libsoup2.4-common_file_0
+SPDXID: SPDXRef-libsoup2.4-common-file-0
 FileChecksum: SHA1: 2bd95d6e7b348a26b7b0f4a2809680c183d3d80f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common_file_0
+Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common-file-0
 
 
 FileName: /usr/share/doc/libsoup2.4-common/copyright
-SPDXID: SPDXRef-libsoup2.4-common_file_1
+SPDXID: SPDXRef-libsoup2.4-common-file-1
 FileChecksum: SHA1: c956bc1ac9078453438141c77e3927bd6b3ca0bc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common_file_1
+Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common-file-1
 
 
 ## Extracted License

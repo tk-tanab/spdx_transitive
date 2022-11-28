@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/media-types_7.0.0-fe533aae-7cec-5ef9-adde-0c75b9a44ef5
+DocumentNamespace: http://spdx.org/spdxdocs/media-types_7.0.0-8f93469a-45f1-56ef-94f9-af4216f95cc9
 DocumentName: media-types_7.0.0
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-media-types
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-media-types
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:23Z
+Created: 2022-11-28T14:25:40Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:23Z
 PackageName: media-types
 PackageVersion: 7.0.0
 SPDXID: SPDXRef-media-types
-PackageVerificationCode: SHA1: 17814a119cd65042bb23fb6e8b67424c6fe214f9
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 17814a119cd65042bb23fb6e8b67424c6fe214f9
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>List of standard media types and their usual file extension
@@ -36,39 +37,39 @@ PackageComment: <text>List of standard media types and their usual file extensio
 ## File
 
 FileName: /etc/mime.types
-SPDXID: SPDXRef-media-types_file_0
+SPDXID: SPDXRef-media-types-file-0
 FileChecksum: SHA1: a5267969ca29d1db27fabff03e18be3e9db30465
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types_file_0
+Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types-file-0
 
 
 FileName: /usr/share/bug/media-types/presubj
-SPDXID: SPDXRef-media-types_file_1
+SPDXID: SPDXRef-media-types-file-1
 FileChecksum: SHA1: 5dc79c4a4df9a76a5ef448a4ffc212c1f22f2df5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types_file_1
+Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types-file-1
 
 
 FileName: /usr/share/doc/media-types/changelog.gz
-SPDXID: SPDXRef-media-types_file_2
+SPDXID: SPDXRef-media-types-file-2
 FileChecksum: SHA1: 8c471505f2003ccc20b1f6e362bb2ac3f222673e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types_file_2
+Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types-file-2
 
 
 FileName: /usr/share/doc/media-types/copyright
-SPDXID: SPDXRef-media-types_file_3
+SPDXID: SPDXRef-media-types-file-3
 FileChecksum: SHA1: 122ec71bc0ee27107fe8c40b8f5b4976dcd558d3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types_file_3
+Relationship: SPDXRef-media-types CONTAINS SPDXRef-media-types-file-3
 
 
 ## Extracted License

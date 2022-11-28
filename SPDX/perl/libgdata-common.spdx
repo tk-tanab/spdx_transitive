@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libgdata-common_0.18.1-2build1-c3f18f30-adb5-5ac9-9cfa-b39dcfd632df
+DocumentNamespace: http://spdx.org/spdxdocs/libgdata-common_0.18.1-2build1-966730f5-3a04-5e7c-be3d-8c54be634485
 DocumentName: libgdata-common_0.18.1-2build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdata-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdata-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:07:11Z
+Created: 2022-11-28T14:25:53Z
 
 
 ## Package
@@ -18,7 +18,8 @@ Created: 2022-11-28T14:07:11Z
 PackageName: libgdata-common
 PackageVersion: 0.18.1-2build1
 SPDXID: SPDXRef-libgdata-common
-PackageVerificationCode: SHA1: fad0d6e204da10e32421f8fbdd8c7d980b6d24a5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: fad0d6e204da10e32421f8fbdd8c7d980b6d24a5
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/libgdata
@@ -33,21 +34,21 @@ PackageComment: <text>Library for accessing GData webservices - common data file
 ## File
 
 FileName: /usr/share/doc/libgdata-common/changelog.Debian.gz
-SPDXID: SPDXRef-libgdata-common_file_0
+SPDXID: SPDXRef-libgdata-common-file-0
 FileChecksum: SHA1: 054c709d7f4f412f371ccee3208702070d58cbec
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common_file_0
+Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common-file-0
 
 
 FileName: /usr/share/doc/libgdata-common/copyright
-SPDXID: SPDXRef-libgdata-common_file_1
+SPDXID: SPDXRef-libgdata-common-file-1
 FileChecksum: SHA1: fb043d19b1e1e7fe4236b5d99635eb3983d91463
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common_file_1
+Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common-file-1
 
 
 ## Extracted License
