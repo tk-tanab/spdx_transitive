@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/xorg-docs-core_1:1.7.1-1.2-98df33ee-d5ac-5021-91de-17c388741f85
+DocumentNamespace: http://spdx.org/spdxdocs/xorg-docs-core_1:1.7.1-1.2-aaf2583a-8ef6-5a1d-b52c-7105fb72b543
 DocumentName: xorg-docs-core_1:1.7.1-1.2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xorg-docs-core
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xorg-docs-core
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:59:23Z
+Created: 2022-11-28T14:07:40Z
 
 
 ## Package
@@ -31,7 +31,7 @@ PackageComment: <text>Core documentation for the X.org X Window System
 
 FileName: /usr/share/doc/xorg-docs-core/changelog.Debian.gz
 SPDXID: SPDXRef-xorg-docs-core_file_0
-FileChecksum: c9c72a97de9f254599c44bb0c23e26d70d1c50cc
+FileChecksum: SHA1: c9c72a97de9f254599c44bb0c23e26d70d1c50cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -40,7 +40,7 @@ Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core_file_0
 
 FileName: /usr/share/doc/xorg-docs-core/copyright
 SPDXID: SPDXRef-xorg-docs-core_file_1
-FileChecksum: 8f5f3b002a41727413670ab55e29214b793700db
+FileChecksum: SHA1: 8f5f3b002a41727413670ab55e29214b793700db
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -49,7 +49,7 @@ Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core_file_1
 
 FileName: /usr/share/man/man7/X.7.gz
 SPDXID: SPDXRef-xorg-docs-core_file_2
-FileChecksum: fde1de38d835268395cddc2531f2f8689515b19f
+FileChecksum: SHA1: fde1de38d835268395cddc2531f2f8689515b19f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -58,7 +58,7 @@ Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core_file_2
 
 FileName: /usr/share/man/man7/XConsortium.7.gz
 SPDXID: SPDXRef-xorg-docs-core_file_3
-FileChecksum: 741bea5bbda101b2f09f246649ad432989dfe4db
+FileChecksum: SHA1: 741bea5bbda101b2f09f246649ad432989dfe4db
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -67,7 +67,7 @@ Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core_file_3
 
 FileName: /usr/share/man/man7/XOrgFoundation.7.gz
 SPDXID: SPDXRef-xorg-docs-core_file_4
-FileChecksum: 8fe6323e75c8a395f291d5b7a9a9118c25c4e01a
+FileChecksum: SHA1: 8fe6323e75c8a395f291d5b7a9a9118c25c4e01a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -76,7 +76,7 @@ Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core_file_4
 
 FileName: /usr/share/man/man7/XProjectTeam.7.gz
 SPDXID: SPDXRef-xorg-docs-core_file_5
-FileChecksum: 1edcb3d8295b0a112295e8eaa0aadbefb9375852
+FileChecksum: SHA1: 1edcb3d8295b0a112295e8eaa0aadbefb9375852
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -85,7 +85,7 @@ Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core_file_5
 
 FileName: /usr/share/man/man7/XStandards.7.gz
 SPDXID: SPDXRef-xorg-docs-core_file_6
-FileChecksum: 342ef87f128ca16630b0de8a4b82f100d93d9bac
+FileChecksum: SHA1: 342ef87f128ca16630b0de8a4b82f100d93d9bac
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -94,7 +94,7 @@ Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core_file_6
 
 FileName: /usr/share/man/man7/Xsecurity.7.gz
 SPDXID: SPDXRef-xorg-docs-core_file_7
-FileChecksum: 660f0381d8ab0c91d996676f51e8e85fe9308dfb
+FileChecksum: SHA1: 660f0381d8ab0c91d996676f51e8e85fe9308dfb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

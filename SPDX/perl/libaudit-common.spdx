@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libaudit-common_1:3.0.7-1build1-de719660-9fba-5a28-80ec-0dca0c63f538
+DocumentNamespace: http://spdx.org/spdxdocs/libaudit-common_1:3.0.7-1build1-d3e0670d-55ee-5039-9324-30a4ec1bdd89
 DocumentName: libaudit-common_1:3.0.7-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libaudit-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libaudit-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:02Z
+Created: 2022-11-28T14:06:40Z
 
 
 ## Package
@@ -35,7 +35,7 @@ PackageComment: <text>Dynamic library for security auditing - common files
 
 FileName: /etc/libaudit.conf
 SPDXID: SPDXRef-libaudit-common_file_0
-FileChecksum: f86b14eb6371b0d99b968dabc1b853b99530cb8a
+FileChecksum: SHA1: f86b14eb6371b0d99b968dabc1b853b99530cb8a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -44,7 +44,7 @@ Relationship: SPDXRef-libaudit-common CONTAINS SPDXRef-libaudit-common_file_0
 
 FileName: /usr/share/doc/libaudit-common/changelog.Debian.gz
 SPDXID: SPDXRef-libaudit-common_file_1
-FileChecksum: 8f586f6e206f48f7cc268d8d71d6a932e6e60998
+FileChecksum: SHA1: 8f586f6e206f48f7cc268d8d71d6a932e6e60998
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -53,7 +53,7 @@ Relationship: SPDXRef-libaudit-common CONTAINS SPDXRef-libaudit-common_file_1
 
 FileName: /usr/share/doc/libaudit-common/copyright
 SPDXID: SPDXRef-libaudit-common_file_2
-FileChecksum: 43b07396a7b2eaee1819ac5e0817bcf13b2952f1
+FileChecksum: SHA1: 43b07396a7b2eaee1819ac5e0817bcf13b2952f1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -62,7 +62,7 @@ Relationship: SPDXRef-libaudit-common CONTAINS SPDXRef-libaudit-common_file_2
 
 FileName: /usr/share/man/man5/libaudit.conf.5.gz
 SPDXID: SPDXRef-libaudit-common_file_3
-FileChecksum: 790e37e89749e20bfc337b02b7f036c914fd9f6a
+FileChecksum: SHA1: 790e37e89749e20bfc337b02b7f036c914fd9f6a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

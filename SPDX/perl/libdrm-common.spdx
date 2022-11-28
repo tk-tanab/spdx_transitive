@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libdrm-common_2.4.110-1ubuntu1-53f7a2fa-2369-5320-ad05-3cc6db32a114
+DocumentNamespace: http://spdx.org/spdxdocs/libdrm-common_2.4.110-1ubuntu1-4b2d447d-ffa2-5377-89df-1012a67f5ce4
 DocumentName: libdrm-common_2.4.110-1ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdrm-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdrm-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:59Z
+Created: 2022-11-28T14:07:15Z
 
 
 ## Package
@@ -36,7 +36,7 @@ PackageComment: <text>Userspace interface to kernel DRM services -- common files
 
 FileName: /usr/share/doc/libdrm-common/changelog.Debian.gz
 SPDXID: SPDXRef-libdrm-common_file_0
-FileChecksum: 7db2514538fe8726088a1ff289e94195e4a069ef
+FileChecksum: SHA1: 7db2514538fe8726088a1ff289e94195e4a069ef
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -45,7 +45,7 @@ Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common_file_0
 
 FileName: /usr/share/doc/libdrm-common/copyright
 SPDXID: SPDXRef-libdrm-common_file_1
-FileChecksum: 1a2574056261d0729d3626c80712aa6088212720
+FileChecksum: SHA1: 1a2574056261d0729d3626c80712aa6088212720
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -54,7 +54,7 @@ Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common_file_1
 
 FileName: /usr/share/libdrm/amdgpu.ids
 SPDXID: SPDXRef-libdrm-common_file_2
-FileChecksum: b2e4f043e0a98d7029cb942a6dd18d8b356e9beb
+FileChecksum: SHA1: b2e4f043e0a98d7029cb942a6dd18d8b356e9beb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

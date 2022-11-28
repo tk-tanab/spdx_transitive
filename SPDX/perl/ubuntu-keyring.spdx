@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-cb92ed6a-d12f-5e20-92a8-8093d6f30af8
+DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-8088390a-f847-514a-9bdb-133a798d42d3
 DocumentName: ubuntu-keyring_2021.03.26
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-keyring
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-keyring
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:00:23Z
+Created: 2022-11-28T14:08:59Z
 
 
 ## Package
@@ -30,7 +30,7 @@ PackageComment: <text>GnuPG keys of the Ubuntu archive
 
 FileName: /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg
 SPDXID: SPDXRef-ubuntu-keyring_file_0
-FileChecksum: f212334cc4b4c3b25b46f08d305d6cb62f74c29c
+FileChecksum: SHA1: f212334cc4b4c3b25b46f08d305d6cb62f74c29c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -39,7 +39,7 @@ Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_0
 
 FileName: /etc/apt/trusted.gpg.d/ubuntu-keyring-2018-archive.gpg
 SPDXID: SPDXRef-ubuntu-keyring_file_1
-FileChecksum: b7b6a98064fa3497614f3b33120702a7a509b0ce
+FileChecksum: SHA1: b7b6a98064fa3497614f3b33120702a7a509b0ce
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -48,7 +48,7 @@ Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_1
 
 FileName: /usr/share/doc/ubuntu-keyring/changelog.gz
 SPDXID: SPDXRef-ubuntu-keyring_file_2
-FileChecksum: f762c9fcf7ce7c8a6adf55f0ce6bcf478867d2c5
+FileChecksum: SHA1: f762c9fcf7ce7c8a6adf55f0ce6bcf478867d2c5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -57,7 +57,7 @@ Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_2
 
 FileName: /usr/share/doc/ubuntu-keyring/copyright
 SPDXID: SPDXRef-ubuntu-keyring_file_3
-FileChecksum: ab1edcad788e7ce00dba7a044d251d7e1f1d0294
+FileChecksum: SHA1: ab1edcad788e7ce00dba7a044d251d7e1f1d0294
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -66,7 +66,7 @@ Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_3
 
 FileName: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 SPDXID: SPDXRef-ubuntu-keyring_file_4
-FileChecksum: 630f322c6d90234b50855d774cad4886b902ff1e
+FileChecksum: SHA1: 630f322c6d90234b50855d774cad4886b902ff1e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -75,7 +75,7 @@ Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_4
 
 FileName: /usr/share/keyrings/ubuntu-archive-removed-keys.gpg
 SPDXID: SPDXRef-ubuntu-keyring_file_5
-FileChecksum: 33eb330c0640b1300709bc19f1cd0c9509379038
+FileChecksum: SHA1: 33eb330c0640b1300709bc19f1cd0c9509379038
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -84,7 +84,7 @@ Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_5
 
 FileName: /usr/share/keyrings/ubuntu-cloudimage-keyring.gpg
 SPDXID: SPDXRef-ubuntu-keyring_file_6
-FileChecksum: 18c8282ded2973c7439d007e1f82853b913fbda3
+FileChecksum: SHA1: 18c8282ded2973c7439d007e1f82853b913fbda3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -93,7 +93,7 @@ Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_6
 
 FileName: /usr/share/keyrings/ubuntu-cloudimage-removed-keys.gpg
 SPDXID: SPDXRef-ubuntu-keyring_file_7
-FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -102,7 +102,7 @@ Relationship: SPDXRef-ubuntu-keyring CONTAINS SPDXRef-ubuntu-keyring_file_7
 
 FileName: /usr/share/keyrings/ubuntu-master-keyring.gpg
 SPDXID: SPDXRef-ubuntu-keyring_file_8
-FileChecksum: c3f8c88fd1158ec6501a76a69ce409831ef65b0c
+FileChecksum: SHA1: c3f8c88fd1158ec6501a76a69ce409831ef65b0c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

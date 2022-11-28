@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/python-apt-common_2.3.0ubuntu2.1-7e06344d-413e-5b11-88c8-6942abe197b8
+DocumentNamespace: http://spdx.org/spdxdocs/python-apt-common_2.3.0ubuntu2.1-d97a7973-70c1-5dea-81cb-eaa2ac44633e
 DocumentName: python-apt-common_2.3.0ubuntu2.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python-apt-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python-apt-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:59:24Z
+Created: 2022-11-28T14:07:40Z
 
 
 ## Package
@@ -33,7 +33,7 @@ PackageComment: <text>Python interface to libapt-pkg (locales)
 
 FileName: /usr/share/doc/python-apt-common/changelog.gz
 SPDXID: SPDXRef-python-apt-common_file_0
-FileChecksum: b2c69c2b1a91f33ea4ffd562f7aa5612ec27afe4
+FileChecksum: SHA1: b2c69c2b1a91f33ea4ffd562f7aa5612ec27afe4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -42,7 +42,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/doc/python-apt-common/copyright
 SPDXID: SPDXRef-python-apt-common_file_1
-FileChecksum: fb67cc39dda9f5dbe1d7ce9cce8d508a948825ff
+FileChecksum: SHA1: fb67cc39dda9f5dbe1d7ce9cce8d508a948825ff
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -51,7 +51,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Blankon.info
 SPDXID: SPDXRef-python-apt-common_file_2
-FileChecksum: d11520454e9ea86db83751537324edf5e93846a6
+FileChecksum: SHA1: d11520454e9ea86db83751537324edf5e93846a6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -60,7 +60,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Blankon.mirrors
 SPDXID: SPDXRef-python-apt-common_file_3
-FileChecksum: be888f5e563c9dafe51c7631f1fd0d842ea569b6
+FileChecksum: SHA1: be888f5e563c9dafe51c7631f1fd0d842ea569b6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -69,7 +69,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Debian.info
 SPDXID: SPDXRef-python-apt-common_file_4
-FileChecksum: fd35557bde119160d8f368f786be0496dac4b6c4
+FileChecksum: SHA1: fd35557bde119160d8f368f786be0496dac4b6c4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -78,7 +78,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Debian.mirrors
 SPDXID: SPDXRef-python-apt-common_file_5
-FileChecksum: f3409e45046febfb740862fc530d7b4034de5d07
+FileChecksum: SHA1: f3409e45046febfb740862fc530d7b4034de5d07
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -87,7 +87,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Kali.info
 SPDXID: SPDXRef-python-apt-common_file_6
-FileChecksum: 78f31e093188d45f9ba81042eaab82e288ad30ab
+FileChecksum: SHA1: 78f31e093188d45f9ba81042eaab82e288ad30ab
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -96,7 +96,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Kali.mirrors
 SPDXID: SPDXRef-python-apt-common_file_7
-FileChecksum: ec085f16e4b7bc741ee078be38db37693adb3a75
+FileChecksum: SHA1: ec085f16e4b7bc741ee078be38db37693adb3a75
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -105,7 +105,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Tanglu.info
 SPDXID: SPDXRef-python-apt-common_file_8
-FileChecksum: 3d72c9aaf983c9c1574a64a9c88b51c721f1292f
+FileChecksum: SHA1: 3d72c9aaf983c9c1574a64a9c88b51c721f1292f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -114,7 +114,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Tanglu.mirrors
 SPDXID: SPDXRef-python-apt-common_file_9
-FileChecksum: 38418f2ff6bce530b22296bcedb4023a6adbac36
+FileChecksum: SHA1: 38418f2ff6bce530b22296bcedb4023a6adbac36
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -123,7 +123,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Ubuntu.info
 SPDXID: SPDXRef-python-apt-common_file_10
-FileChecksum: e5e677c98dd093b1e4dec4ee27bc8ef61c62fce3
+FileChecksum: SHA1: e5e677c98dd093b1e4dec4ee27bc8ef61c62fce3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -132,7 +132,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/Ubuntu.mirrors
 SPDXID: SPDXRef-python-apt-common_file_11
-FileChecksum: 36767614a9746f3e4bba230eaa5b3ac530e5398d
+FileChecksum: SHA1: 36767614a9746f3e4bba230eaa5b3ac530e5398d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -141,7 +141,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/gNewSense.info
 SPDXID: SPDXRef-python-apt-common_file_12
-FileChecksum: 3f0038cc866e747052238be6b566b861226eed01
+FileChecksum: SHA1: 3f0038cc866e747052238be6b566b861226eed01
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -150,7 +150,7 @@ Relationship: SPDXRef-python-apt-common CONTAINS SPDXRef-python-apt-common_file_
 
 FileName: /usr/share/python-apt/templates/gNewSense.mirrors
 SPDXID: SPDXRef-python-apt-common_file_13
-FileChecksum: 70bde33e90171dbaae013a185dcaadbe33c09bec
+FileChecksum: SHA1: 70bde33e90171dbaae013a185dcaadbe33c09bec
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

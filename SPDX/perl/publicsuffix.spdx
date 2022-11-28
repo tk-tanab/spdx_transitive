@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/publicsuffix_20211207.1025-1-44d22792-fab0-59c9-8f40-8ccceb861c40
+DocumentNamespace: http://spdx.org/spdxdocs/publicsuffix_20211207.1025-1-2a8bfdf3-6992-54d3-9662-eabdcb5f1579
 DocumentName: publicsuffix_20211207.1025-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-publicsuffix
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-publicsuffix
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:18Z
+Created: 2022-11-28T14:07:01Z
 
 
 ## Package
@@ -34,7 +34,7 @@ PackageComment: <text>accurate, machine-readable list of domain name suffixes
 
 FileName: /usr/share/doc/publicsuffix/README.Debian
 SPDXID: SPDXRef-publicsuffix_file_0
-FileChecksum: fe4f1fccd7943c21c9aea720912e56c18bb35546
+FileChecksum: SHA1: fe4f1fccd7943c21c9aea720912e56c18bb35546
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -43,7 +43,7 @@ Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix_file_0
 
 FileName: /usr/share/doc/publicsuffix/changelog.Debian.gz
 SPDXID: SPDXRef-publicsuffix_file_1
-FileChecksum: 6186d2cc0fec3345fed89f73e1c4a690439f2f63
+FileChecksum: SHA1: 6186d2cc0fec3345fed89f73e1c4a690439f2f63
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -52,7 +52,7 @@ Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix_file_1
 
 FileName: /usr/share/doc/publicsuffix/copyright
 SPDXID: SPDXRef-publicsuffix_file_2
-FileChecksum: 818a5e9932c65571d76713d74ac907c8c34908bb
+FileChecksum: SHA1: 818a5e9932c65571d76713d74ac907c8c34908bb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -61,7 +61,7 @@ Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix_file_2
 
 FileName: /usr/share/doc/publicsuffix/examples/test_psl.txt
 SPDXID: SPDXRef-publicsuffix_file_3
-FileChecksum: d4a377c57d7199946caa4ad3b7e5a249c7aaa558
+FileChecksum: SHA1: d4a377c57d7199946caa4ad3b7e5a249c7aaa558
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -70,7 +70,7 @@ Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix_file_3
 
 FileName: /usr/share/publicsuffix/public_suffix_list.dafsa
 SPDXID: SPDXRef-publicsuffix_file_4
-FileChecksum: 3d0c604cba1a9407b1a18867d3af6533acdbf6fb
+FileChecksum: SHA1: 3d0c604cba1a9407b1a18867d3af6533acdbf6fb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -79,7 +79,7 @@ Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix_file_4
 
 FileName: /usr/share/publicsuffix/public_suffix_list.dat
 SPDXID: SPDXRef-publicsuffix_file_5
-FileChecksum: 80b551fe3a0b850cb78954fc4e2898feb0c57b16
+FileChecksum: SHA1: 80b551fe3a0b850cb78954fc4e2898feb0c57b16
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -88,7 +88,7 @@ Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix_file_5
 
 FileName: /usr/share/publicsuffix/effective_tld_names.dat
 SPDXID: SPDXRef-publicsuffix_file_6
-FileChecksum: 80b551fe3a0b850cb78954fc4e2898feb0c57b16
+FileChecksum: SHA1: 80b551fe3a0b850cb78954fc4e2898feb0c57b16
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

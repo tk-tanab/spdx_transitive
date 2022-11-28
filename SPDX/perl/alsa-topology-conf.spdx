@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/alsa-topology-conf_1.2.5.1-2-7e38490f-ad3f-53c2-96e3-28bf4cfe2e9d
+DocumentNamespace: http://spdx.org/spdxdocs/alsa-topology-conf_1.2.5.1-2-68e7b02d-8963-5388-9a9b-ba7a47a6cf8d
 DocumentName: alsa-topology-conf_1.2.5.1-2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-alsa-topology-conf
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-alsa-topology-conf
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:50Z
+Created: 2022-11-28T14:06:48Z
 
 
 ## Package
@@ -33,7 +33,7 @@ PackageComment: <text>ALSA topology configuration files
 
 FileName: /lib/firmware/skl_hda_dsp_generic-tplg.bin
 SPDXID: SPDXRef-alsa-topology-conf_file_0
-FileChecksum: 3aef419f1d2ddf360b7757214c21cbef7aabadc8
+FileChecksum: SHA1: 3aef419f1d2ddf360b7757214c21cbef7aabadc8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -42,7 +42,7 @@ Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf_fil
 
 FileName: /usr/share/alsa/topology/broadwell/broadwell.conf
 SPDXID: SPDXRef-alsa-topology-conf_file_1
-FileChecksum: 47db22ec655177b3a5e74f1f8a5d2e1c6e51b255
+FileChecksum: SHA1: 47db22ec655177b3a5e74f1f8a5d2e1c6e51b255
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -51,7 +51,7 @@ Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf_fil
 
 FileName: /usr/share/alsa/topology/bxtrt298/bxt_i2s.conf
 SPDXID: SPDXRef-alsa-topology-conf_file_2
-FileChecksum: c1edd71843f2f9d46ef192a2e6625ab3fe93370c
+FileChecksum: SHA1: c1edd71843f2f9d46ef192a2e6625ab3fe93370c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -60,7 +60,7 @@ Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf_fil
 
 FileName: /usr/share/alsa/topology/hda-dsp/skl_hda_dsp_generic-tplg.conf
 SPDXID: SPDXRef-alsa-topology-conf_file_3
-FileChecksum: cd49148aba3d0034016320ba14a9e0172e328239
+FileChecksum: SHA1: cd49148aba3d0034016320ba14a9e0172e328239
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -69,7 +69,7 @@ Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf_fil
 
 FileName: /usr/share/alsa/topology/sklrt286/skl_i2s.conf
 SPDXID: SPDXRef-alsa-topology-conf_file_4
-FileChecksum: 424948ebf4a2fb8b9adc55a432a621e6481dfc79
+FileChecksum: SHA1: 424948ebf4a2fb8b9adc55a432a621e6481dfc79
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -78,7 +78,7 @@ Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf_fil
 
 FileName: /usr/share/doc/alsa-topology-conf/changelog.Debian.gz
 SPDXID: SPDXRef-alsa-topology-conf_file_5
-FileChecksum: f3b7aea7fe925d9e0b1ae5ebcf93d74b1367cdc2
+FileChecksum: SHA1: f3b7aea7fe925d9e0b1ae5ebcf93d74b1367cdc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -87,7 +87,7 @@ Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf_fil
 
 FileName: /usr/share/doc/alsa-topology-conf/copyright
 SPDXID: SPDXRef-alsa-topology-conf_file_6
-FileChecksum: 3d7d58b2bc9cf964ee8e1f5949c8fca0d1264f7d
+FileChecksum: SHA1: 3d7d58b2bc9cf964ee8e1f5949c8fca0d1264f7d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libpipewire-0.3-common_0.3.48-1ubuntu2-e4543c66-312a-5f10-bd78-21ba772e569f
+DocumentNamespace: http://spdx.org/spdxdocs/libpipewire-0.3-common_0.3.48-1ubuntu2-24edaa50-958e-5eeb-96c2-3ea9a957c602
 DocumentName: libpipewire-0.3-common_0.3.48-1ubuntu2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpipewire-0.3-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpipewire-0.3-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:59:07Z
+Created: 2022-11-28T14:07:22Z
 
 
 ## Package
@@ -39,7 +39,7 @@ PackageComment: <text>libraries for the PipeWire multimedia server - common file
 
 FileName: /usr/share/doc/libpipewire-0.3-common/changelog.Debian.gz
 SPDXID: SPDXRef-libpipewire-0.3-common_file_0
-FileChecksum: 500b131cb99a2f2c210ea1a274519540d3c86dbb
+FileChecksum: SHA1: 500b131cb99a2f2c210ea1a274519540d3c86dbb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -48,7 +48,7 @@ Relationship: SPDXRef-libpipewire-0.3-common CONTAINS SPDXRef-libpipewire-0.3-co
 
 FileName: /usr/share/doc/libpipewire-0.3-common/copyright
 SPDXID: SPDXRef-libpipewire-0.3-common_file_1
-FileChecksum: 4babca833b21201659c5a5c0b25b8fd388ec891a
+FileChecksum: SHA1: 4babca833b21201659c5a5c0b25b8fd388ec891a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

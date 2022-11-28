@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/liblouisutdml-data_2.10.0-4-c72aca97-cd51-5736-b76e-febc30556d40
+DocumentNamespace: http://spdx.org/spdxdocs/liblouisutdml-data_2.10.0-4-3f751e56-f9ad-5640-8d04-b58c5f1adbc1
 DocumentName: liblouisutdml-data_2.10.0-4
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-liblouisutdml-data
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-liblouisutdml-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:27Z
+Created: 2022-11-28T14:08:30Z
 
 
 ## Package
@@ -37,7 +37,7 @@ PackageComment: <text>Braille UTDML translation library - data
 
 FileName: /usr/share/doc/liblouisutdml-data/changelog.Debian.gz
 SPDXID: SPDXRef-liblouisutdml-data_file_0
-FileChecksum: 1bc11adf3be3834ba9b10418b1045e7377ceca9a
+FileChecksum: SHA1: 1bc11adf3be3834ba9b10418b1045e7377ceca9a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -46,7 +46,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/doc/liblouisutdml-data/copyright
 SPDXID: SPDXRef-liblouisutdml-data_file_1
-FileChecksum: a2483ee9def8d9a0496076c355cfdf5b1b4917e5
+FileChecksum: SHA1: a2483ee9def8d9a0496076c355cfdf5b1b4917e5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -55,7 +55,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/ThML.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_2
-FileChecksum: 690a678dc0e03351607a6824e331e87a247d4faf
+FileChecksum: SHA1: 690a678dc0e03351607a6824e331e87a247d4faf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -64,7 +64,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/Workbook.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_3
-FileChecksum: da7eb54a297db19360bd358b365517671ec8b106
+FileChecksum: SHA1: da7eb54a297db19360bd358b365517671ec8b106
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -73,7 +73,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/article.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_4
-FileChecksum: c6c0870e5889cf501d147c7bf09ba505ae07063c
+FileChecksum: SHA1: c6c0870e5889cf501d147c7bf09ba505ae07063c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -82,7 +82,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/book.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_5
-FileChecksum: 129d25c49b4aaa684cea193d3d38aba427fec0ad
+FileChecksum: SHA1: 129d25c49b4aaa684cea193d3d38aba427fec0ad
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -91,7 +91,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/brf.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_6
-FileChecksum: ccf5086fcc5c81150f0d716bd08ab6423f34c96d
+FileChecksum: SHA1: ccf5086fcc5c81150f0d716bd08ab6423f34c96d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -100,7 +100,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/chapter.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_7
-FileChecksum: 5411dc232c0bb720d90ab9a239518569aed88093
+FileChecksum: SHA1: 5411dc232c0bb720d90ab9a239518569aed88093
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -109,7 +109,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/doc.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_8
-FileChecksum: 332a9adb739087980e2822847edc567e05e5e8c6
+FileChecksum: SHA1: 332a9adb739087980e2822847edc567e05e5e8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -118,7 +118,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/document-content.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_9
-FileChecksum: 1aeb472ddfa98678f28e221e9a1bdb8765fe96a6
+FileChecksum: SHA1: 1aeb472ddfa98678f28e221e9a1bdb8765fe96a6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -127,7 +127,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/document.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_10
-FileChecksum: b5f3c2215956ad92e862fda0de513a7d5da1a81e
+FileChecksum: SHA1: b5f3c2215956ad92e862fda0de513a7d5da1a81e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -136,7 +136,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/docx.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_11
-FileChecksum: 5ef752bb4dd4ac27629809663c429b43990ee16c
+FileChecksum: SHA1: 5ef752bb4dd4ac27629809663c429b43990ee16c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -145,7 +145,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/dtbook.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_12
-FileChecksum: 4aea9c9688311b14ba5253e2873889dd10f4a187
+FileChecksum: SHA1: 4aea9c9688311b14ba5253e2873889dd10f4a187
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -154,7 +154,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/dtbook3.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_13
-FileChecksum: 6aa833bc4b435b42ac0cf54a039b01aa9fad3191
+FileChecksum: SHA1: 6aa833bc4b435b42ac0cf54a039b01aa9fad3191
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -163,7 +163,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/dtbookutd.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_14
-FileChecksum: 461c3d86905991f4686344530a7b5a86c160dd17
+FileChecksum: SHA1: 461c3d86905991f4686344530a7b5a86c160dd17
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -172,7 +172,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/gutbook.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_15
-FileChecksum: 2f45cc0a959c2ae075c8a6173734d5bc412af1d4
+FileChecksum: SHA1: 2f45cc0a959c2ae075c8a6173734d5bc412af1d4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -181,7 +181,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/html.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_16
-FileChecksum: dac2ff90e7bec21947178df2801bcd931421047b
+FileChecksum: SHA1: dac2ff90e7bec21947178df2801bcd931421047b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -190,7 +190,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/liblouisutdml.ini
 SPDXID: SPDXRef-liblouisutdml-data_file_17
-FileChecksum: b932aac15405e5fdd2c744cf275d9ad7ad6996aa
+FileChecksum: SHA1: b932aac15405e5fdd2c744cf275d9ad7ad6996aa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -199,7 +199,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/marburg.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_18
-FileChecksum: e17129dce1be7add185193221bfc97b0ef1b68e0
+FileChecksum: SHA1: e17129dce1be7add185193221bfc97b0ef1b68e0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -208,7 +208,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/marburg.ctb
 SPDXID: SPDXRef-liblouisutdml-data_file_19
-FileChecksum: f2a2a2f405263012bd7a0b1619ce38b87a27c5bb
+FileChecksum: SHA1: f2a2a2f405263012bd7a0b1619ce38b87a27c5bb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -217,7 +217,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/marburg.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_20
-FileChecksum: 3f44b69213a71ac9e7596e4e64609304699e075e
+FileChecksum: SHA1: 3f44b69213a71ac9e7596e4e64609304699e075e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -226,7 +226,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/marburg_edit.ctb
 SPDXID: SPDXRef-liblouisutdml-data_file_21
-FileChecksum: 38dbe4390d64dd8482934d323b0f36684de66bd3
+FileChecksum: SHA1: 38dbe4390d64dd8482934d323b0f36684de66bd3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -235,7 +235,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/math.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_22
-FileChecksum: c604e5f7cdf00fa955f71eb20c7299546f9d324d
+FileChecksum: SHA1: c604e5f7cdf00fa955f71eb20c7299546f9d324d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -244,7 +244,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/nemeth.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_23
-FileChecksum: 81ecae0e655a7da9f9c9435516983864658f6d38
+FileChecksum: SHA1: 81ecae0e655a7da9f9c9435516983864658f6d38
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -253,7 +253,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/nemeth.ctb
 SPDXID: SPDXRef-liblouisutdml-data_file_24
-FileChecksum: 3e3dc884e4307ac3a466644bd0b1204dde36a4e4
+FileChecksum: SHA1: 3e3dc884e4307ac3a466644bd0b1204dde36a4e4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -262,7 +262,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/nemeth.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_25
-FileChecksum: 214fadf123d0182d70cb45965cc84e85ff5dbd1b
+FileChecksum: SHA1: 214fadf123d0182d70cb45965cc84e85ff5dbd1b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -271,7 +271,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/nemeth_edit.ctb
 SPDXID: SPDXRef-liblouisutdml-data_file_26
-FileChecksum: 262392a07f834c644a255594c5005b014d4dc047
+FileChecksum: SHA1: 262392a07f834c644a255594c5005b014d4dc047
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -280,7 +280,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/nimas.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_27
-FileChecksum: 4901ed0d86fd1d71938daff366116a4981f6f860
+FileChecksum: SHA1: 4901ed0d86fd1d71938daff366116a4981f6f860
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -289,7 +289,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/nimas.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_28
-FileChecksum: cbae009304f48dc2ef008a1ab4b7972b1de1a3ca
+FileChecksum: SHA1: cbae009304f48dc2ef008a1ab4b7972b1de1a3ca
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -298,7 +298,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/package.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_29
-FileChecksum: 188e29d948ff2f5b67525394dda6d9d48a3f85b4
+FileChecksum: SHA1: 188e29d948ff2f5b67525394dda6d9d48a3f85b4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -307,7 +307,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/preface.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_30
-FileChecksum: 5411dc232c0bb720d90ab9a239518569aed88093
+FileChecksum: SHA1: 5411dc232c0bb720d90ab9a239518569aed88093
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -316,7 +316,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/preferences.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_31
-FileChecksum: c01f58d416f30f182a28fcf7e6c29bddfa7c0d5f
+FileChecksum: SHA1: c01f58d416f30f182a28fcf7e6c29bddfa7c0d5f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -325,7 +325,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/sample-utd.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_32
-FileChecksum: 5e5b5fef2e0374e3d0a1a2ea185b763e163d7052
+FileChecksum: SHA1: 5e5b5fef2e0374e3d0a1a2ea185b763e163d7052
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -334,7 +334,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/set.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_33
-FileChecksum: d083000ff0116d6314ba5208b8e148f3a81d1310
+FileChecksum: SHA1: d083000ff0116d6314ba5208b8e148f3a81d1310
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -343,7 +343,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/transinxml.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_34
-FileChecksum: a1953496c8028ccb5c656fadd288c13c926cf91e
+FileChecksum: SHA1: a1953496c8028ccb5c656fadd288c13c926cf91e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -352,7 +352,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/ukmaths.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_35
-FileChecksum: a97e6dfc5c3da717b7e3ecb8d15b5396b1209d5b
+FileChecksum: SHA1: a97e6dfc5c3da717b7e3ecb8d15b5396b1209d5b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -361,7 +361,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/ukmaths.ctb
 SPDXID: SPDXRef-liblouisutdml-data_file_36
-FileChecksum: 0048c7d310878c5c563f8b5a4b0ed83fd57f979b
+FileChecksum: SHA1: 0048c7d310878c5c563f8b5a4b0ed83fd57f979b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -370,7 +370,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/ukmaths.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_37
-FileChecksum: e3fcfc3ed0974edcce43ea6dc8de45f27614c83d
+FileChecksum: SHA1: e3fcfc3ed0974edcce43ea6dc8de45f27614c83d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -379,7 +379,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/ukmaths_edit.ctb
 SPDXID: SPDXRef-liblouisutdml-data_file_38
-FileChecksum: 5798e20f0aa0ec914c8401377603448912a060f4
+FileChecksum: SHA1: 5798e20f0aa0ec914c8401377603448912a060f4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -388,7 +388,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/utd.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_39
-FileChecksum: 785935bc08190306b025bf23c3fc51be438ae44c
+FileChecksum: SHA1: 785935bc08190306b025bf23c3fc51be438ae44c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -397,7 +397,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/viewxml.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_40
-FileChecksum: cdc0f019d995872dbc81d92ab93eecf83eb20d37
+FileChecksum: SHA1: cdc0f019d995872dbc81d92ab93eecf83eb20d37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -406,7 +406,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/viewxml.ctb
 SPDXID: SPDXRef-liblouisutdml-data_file_41
-FileChecksum: fe48e41a23e7f1a1bbbe96a8bf1a48f5e8734bc0
+FileChecksum: SHA1: fe48e41a23e7f1a1bbbe96a8bf1a48f5e8734bc0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -415,7 +415,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/volumes.cfg
 SPDXID: SPDXRef-liblouisutdml-data_file_42
-FileChecksum: 194a4a39e85c9a6f36fd154b3c12a1214601fcd5
+FileChecksum: SHA1: 194a4a39e85c9a6f36fd154b3c12a1214601fcd5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -424,7 +424,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/w_wordDocument.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_43
-FileChecksum: 9c3a0acb14928e166a5d2d847da2b854b551a0f2
+FileChecksum: SHA1: 9c3a0acb14928e166a5d2d847da2b854b551a0f2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -433,7 +433,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/wiskunde.ctb
 SPDXID: SPDXRef-liblouisutdml-data_file_44
-FileChecksum: 664f0106edca28f06367f320085266e1936985fd
+FileChecksum: SHA1: 664f0106edca28f06367f320085266e1936985fd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -442,7 +442,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/wiskunde.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_45
-FileChecksum: 6cc22906d22433f097d779bc4e2380661168c2eb
+FileChecksum: SHA1: 6cc22906d22433f097d779bc4e2380661168c2eb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -451,7 +451,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/wiskunde_edit.ctb
 SPDXID: SPDXRef-liblouisutdml-data_file_46
-FileChecksum: 2f3ac88ea9dcdfdd43d7fd9e1cfbc88141139ca7
+FileChecksum: SHA1: 2f3ac88ea9dcdfdd43d7fd9e1cfbc88141139ca7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -460,7 +460,7 @@ Relationship: SPDXRef-liblouisutdml-data CONTAINS SPDXRef-liblouisutdml-data_fil
 
 FileName: /usr/share/liblouisutdml/lbu_files/wordDocument.sem
 SPDXID: SPDXRef-liblouisutdml-data_file_47
-FileChecksum: 6412bddaa540380ea38f99cbd61527b78a95f429
+FileChecksum: SHA1: 6412bddaa540380ea38f99cbd61527b78a95f429
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

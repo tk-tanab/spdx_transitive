@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/aptdaemon-data_1.1.1+bzr982-0ubuntu39-7fb25108-8448-51d4-91a4-bc10a1b68045
+DocumentNamespace: http://spdx.org/spdxdocs/aptdaemon-data_1.1.1+bzr982-0ubuntu39-b1376632-64ce-57f8-a6bc-5d1e8e877012
 DocumentName: aptdaemon-data_1.1.1+bzr982-0ubuntu39
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-aptdaemon-data
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-aptdaemon-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:59:27Z
+Created: 2022-11-28T14:07:43Z
 
 
 ## Package
@@ -35,7 +35,7 @@ PackageComment: <text>data files for clients
 
 FileName: /usr/share/doc/aptdaemon-data/changelog.Debian.gz
 SPDXID: SPDXRef-aptdaemon-data_file_0
-FileChecksum: 1b6ff46680d0bfd5e6c730707316d3073d6b3c67
+FileChecksum: SHA1: 1b6ff46680d0bfd5e6c730707316d3073d6b3c67
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -44,7 +44,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_0
 
 FileName: /usr/share/doc/aptdaemon-data/copyright
 SPDXID: SPDXRef-aptdaemon-data_file_1
-FileChecksum: 3c7b15941826928b6c0e32a5f5c462bc81ce9614
+FileChecksum: SHA1: 3c7b15941826928b6c0e32a5f5c462bc81ce9614
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -53,7 +53,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_1
 
 FileName: /usr/share/icons/hicolor/16x16/animations/aptdaemon-action-cleaning-up.png
 SPDXID: SPDXRef-aptdaemon-data_file_2
-FileChecksum: 22fad7a1e719c3efafcda238240ec2b4ff901e78
+FileChecksum: SHA1: 22fad7a1e719c3efafcda238240ec2b4ff901e78
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -62,7 +62,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_2
 
 FileName: /usr/share/icons/hicolor/16x16/animations/aptdaemon-action-downloading.png
 SPDXID: SPDXRef-aptdaemon-data_file_3
-FileChecksum: 82b70d8a0f406f3c071d4aa857ec1f638132e457
+FileChecksum: SHA1: 82b70d8a0f406f3c071d4aa857ec1f638132e457
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -71,7 +71,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_3
 
 FileName: /usr/share/icons/hicolor/16x16/animations/aptdaemon-action-installing.png
 SPDXID: SPDXRef-aptdaemon-data_file_4
-FileChecksum: b51131325687cb26d0579413a5e0a4c1fb713c90
+FileChecksum: SHA1: b51131325687cb26d0579413a5e0a4c1fb713c90
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -80,7 +80,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_4
 
 FileName: /usr/share/icons/hicolor/16x16/animations/aptdaemon-action-removing.png
 SPDXID: SPDXRef-aptdaemon-data_file_5
-FileChecksum: 68141eef4ffe411c0d7078013b9f7e2c7159fb04
+FileChecksum: SHA1: 68141eef4ffe411c0d7078013b9f7e2c7159fb04
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -89,7 +89,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_5
 
 FileName: /usr/share/icons/hicolor/16x16/animations/aptdaemon-action-resolving.png
 SPDXID: SPDXRef-aptdaemon-data_file_6
-FileChecksum: 19ff9732bdd432816a9d10de920af8426b99b0f2
+FileChecksum: SHA1: 19ff9732bdd432816a9d10de920af8426b99b0f2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -98,7 +98,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_6
 
 FileName: /usr/share/icons/hicolor/16x16/animations/aptdaemon-action-updating-cache.png
 SPDXID: SPDXRef-aptdaemon-data_file_7
-FileChecksum: 5ea9f4d3cfc4142ea4fa708aeab87dee50d5a7f8
+FileChecksum: SHA1: 5ea9f4d3cfc4142ea4fa708aeab87dee50d5a7f8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -107,7 +107,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_7
 
 FileName: /usr/share/icons/hicolor/16x16/animations/aptdaemon-action-waiting.png
 SPDXID: SPDXRef-aptdaemon-data_file_8
-FileChecksum: c4352ebedfbfc2f086994b827fbe1b807047a59d
+FileChecksum: SHA1: c4352ebedfbfc2f086994b827fbe1b807047a59d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -116,7 +116,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_8
 
 FileName: /usr/share/icons/hicolor/16x16/status/aptdaemon-add.png
 SPDXID: SPDXRef-aptdaemon-data_file_9
-FileChecksum: 08ba05eb031d8d09ae92d7ba6f95f9bc1bda9453
+FileChecksum: SHA1: 08ba05eb031d8d09ae92d7ba6f95f9bc1bda9453
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -125,7 +125,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_9
 
 FileName: /usr/share/icons/hicolor/16x16/status/aptdaemon-cleanup.png
 SPDXID: SPDXRef-aptdaemon-data_file_10
-FileChecksum: 1940e1cb72a6385fab3a82782b661ce18a312587
+FileChecksum: SHA1: 1940e1cb72a6385fab3a82782b661ce18a312587
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -134,7 +134,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_10
 
 FileName: /usr/share/icons/hicolor/16x16/status/aptdaemon-delete.png
 SPDXID: SPDXRef-aptdaemon-data_file_11
-FileChecksum: 849c4185da93c4ac55c59b3472058e1d26e877c1
+FileChecksum: SHA1: 849c4185da93c4ac55c59b3472058e1d26e877c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -143,7 +143,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_11
 
 FileName: /usr/share/icons/hicolor/16x16/status/aptdaemon-download.png
 SPDXID: SPDXRef-aptdaemon-data_file_12
-FileChecksum: 4ea3925e551bdefb33720ea83331807602c79aa3
+FileChecksum: SHA1: 4ea3925e551bdefb33720ea83331807602c79aa3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -152,7 +152,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_12
 
 FileName: /usr/share/icons/hicolor/16x16/status/aptdaemon-resolve.png
 SPDXID: SPDXRef-aptdaemon-data_file_13
-FileChecksum: 9bfeaa06b370acc2dd85daca8fed4e38796d143b
+FileChecksum: SHA1: 9bfeaa06b370acc2dd85daca8fed4e38796d143b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -161,7 +161,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_13
 
 FileName: /usr/share/icons/hicolor/16x16/status/aptdaemon-update-cache.png
 SPDXID: SPDXRef-aptdaemon-data_file_14
-FileChecksum: 2559396818c0e511626cf1d5752f1d23cf5c99bb
+FileChecksum: SHA1: 2559396818c0e511626cf1d5752f1d23cf5c99bb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -170,7 +170,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_14
 
 FileName: /usr/share/icons/hicolor/16x16/status/aptdaemon-upgrade.png
 SPDXID: SPDXRef-aptdaemon-data_file_15
-FileChecksum: 37a229f18ea3c52d9f5713cd4939f75adc8ad4e2
+FileChecksum: SHA1: 37a229f18ea3c52d9f5713cd4939f75adc8ad4e2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -179,7 +179,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_15
 
 FileName: /usr/share/icons/hicolor/16x16/status/aptdaemon-wait.png
 SPDXID: SPDXRef-aptdaemon-data_file_16
-FileChecksum: aa2fbc95a33651fc228920d585458f9612c10757
+FileChecksum: SHA1: aa2fbc95a33651fc228920d585458f9612c10757
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -188,7 +188,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_16
 
 FileName: /usr/share/icons/hicolor/16x16/status/aptdaemon-working.png
 SPDXID: SPDXRef-aptdaemon-data_file_17
-FileChecksum: b99e0378774b4e602c635dd781aad2a97cc425c0
+FileChecksum: SHA1: b99e0378774b4e602c635dd781aad2a97cc425c0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -197,7 +197,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_17
 
 FileName: /usr/share/icons/hicolor/22x22/animations/aptdaemon-action-cleaning-up.png
 SPDXID: SPDXRef-aptdaemon-data_file_18
-FileChecksum: 68230b071449aab2d472d888d291c3d6813c0544
+FileChecksum: SHA1: 68230b071449aab2d472d888d291c3d6813c0544
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -206,7 +206,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_18
 
 FileName: /usr/share/icons/hicolor/22x22/animations/aptdaemon-action-downloading.png
 SPDXID: SPDXRef-aptdaemon-data_file_19
-FileChecksum: 996501ee04adffaf9c3a8e9295fb8e8c08721a39
+FileChecksum: SHA1: 996501ee04adffaf9c3a8e9295fb8e8c08721a39
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -215,7 +215,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_19
 
 FileName: /usr/share/icons/hicolor/22x22/animations/aptdaemon-action-installing.png
 SPDXID: SPDXRef-aptdaemon-data_file_20
-FileChecksum: 79ee3d89425755582d1237de39084fddbd5e297b
+FileChecksum: SHA1: 79ee3d89425755582d1237de39084fddbd5e297b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -224,7 +224,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_20
 
 FileName: /usr/share/icons/hicolor/22x22/animations/aptdaemon-action-removing.png
 SPDXID: SPDXRef-aptdaemon-data_file_21
-FileChecksum: 3b67667cbc61afd61043e26c4fecc47ad1f1b9d0
+FileChecksum: SHA1: 3b67667cbc61afd61043e26c4fecc47ad1f1b9d0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -233,7 +233,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_21
 
 FileName: /usr/share/icons/hicolor/22x22/animations/aptdaemon-action-resolving.png
 SPDXID: SPDXRef-aptdaemon-data_file_22
-FileChecksum: 46d58910ccfc6d86bd8cb9d2e9a631a047188dfd
+FileChecksum: SHA1: 46d58910ccfc6d86bd8cb9d2e9a631a047188dfd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -242,7 +242,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_22
 
 FileName: /usr/share/icons/hicolor/22x22/animations/aptdaemon-action-updating-cache.png
 SPDXID: SPDXRef-aptdaemon-data_file_23
-FileChecksum: c162b1b1e21661c4d57d74830cd8481fac195992
+FileChecksum: SHA1: c162b1b1e21661c4d57d74830cd8481fac195992
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -251,7 +251,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_23
 
 FileName: /usr/share/icons/hicolor/22x22/animations/aptdaemon-action-waiting.png
 SPDXID: SPDXRef-aptdaemon-data_file_24
-FileChecksum: df86ec8586d6cc24e9d74a3cea4be00cd8a0b184
+FileChecksum: SHA1: df86ec8586d6cc24e9d74a3cea4be00cd8a0b184
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -260,7 +260,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_24
 
 FileName: /usr/share/icons/hicolor/22x22/status/aptdaemon-add.png
 SPDXID: SPDXRef-aptdaemon-data_file_25
-FileChecksum: c59736fd6736e2abf285a6fa4a3aeed630167f15
+FileChecksum: SHA1: c59736fd6736e2abf285a6fa4a3aeed630167f15
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -269,7 +269,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_25
 
 FileName: /usr/share/icons/hicolor/22x22/status/aptdaemon-cleanup.png
 SPDXID: SPDXRef-aptdaemon-data_file_26
-FileChecksum: a4f7a3859047ba272001eb144e23c92ad14d66b9
+FileChecksum: SHA1: a4f7a3859047ba272001eb144e23c92ad14d66b9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -278,7 +278,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_26
 
 FileName: /usr/share/icons/hicolor/22x22/status/aptdaemon-delete.png
 SPDXID: SPDXRef-aptdaemon-data_file_27
-FileChecksum: babd869e0740da84cab4e679e3382f5d8b330a93
+FileChecksum: SHA1: babd869e0740da84cab4e679e3382f5d8b330a93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -287,7 +287,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_27
 
 FileName: /usr/share/icons/hicolor/22x22/status/aptdaemon-download.png
 SPDXID: SPDXRef-aptdaemon-data_file_28
-FileChecksum: 7aae3aef06b91ec9a2858e88834ed9dafe702904
+FileChecksum: SHA1: 7aae3aef06b91ec9a2858e88834ed9dafe702904
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -296,7 +296,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_28
 
 FileName: /usr/share/icons/hicolor/22x22/status/aptdaemon-resolve.png
 SPDXID: SPDXRef-aptdaemon-data_file_29
-FileChecksum: 436181639eb0dff0bc77b21aa92148ca0f84e3ac
+FileChecksum: SHA1: 436181639eb0dff0bc77b21aa92148ca0f84e3ac
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -305,7 +305,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_29
 
 FileName: /usr/share/icons/hicolor/22x22/status/aptdaemon-update-cache.png
 SPDXID: SPDXRef-aptdaemon-data_file_30
-FileChecksum: c2a54225b2cc3959bef64eaa5d3fdde59e660d92
+FileChecksum: SHA1: c2a54225b2cc3959bef64eaa5d3fdde59e660d92
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -314,7 +314,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_30
 
 FileName: /usr/share/icons/hicolor/22x22/status/aptdaemon-upgrade.png
 SPDXID: SPDXRef-aptdaemon-data_file_31
-FileChecksum: 902dec29abfa871f71bdd599a8ce8f26e4169adf
+FileChecksum: SHA1: 902dec29abfa871f71bdd599a8ce8f26e4169adf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -323,7 +323,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_31
 
 FileName: /usr/share/icons/hicolor/22x22/status/aptdaemon-wait.png
 SPDXID: SPDXRef-aptdaemon-data_file_32
-FileChecksum: c9ab4a7802897f7aba56f480e4d08fb9100cbb11
+FileChecksum: SHA1: c9ab4a7802897f7aba56f480e4d08fb9100cbb11
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -332,7 +332,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_32
 
 FileName: /usr/share/icons/hicolor/22x22/status/aptdaemon-working.png
 SPDXID: SPDXRef-aptdaemon-data_file_33
-FileChecksum: 592f81b4fa0e43fabbf4ca52780d7d60a05c1fc6
+FileChecksum: SHA1: 592f81b4fa0e43fabbf4ca52780d7d60a05c1fc6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -341,7 +341,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_33
 
 FileName: /usr/share/icons/hicolor/24x24/animations/aptdaemon-action-cleaning-up.png
 SPDXID: SPDXRef-aptdaemon-data_file_34
-FileChecksum: 253f1fe21a7335e36946bfd6a679e05956f1d01c
+FileChecksum: SHA1: 253f1fe21a7335e36946bfd6a679e05956f1d01c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -350,7 +350,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_34
 
 FileName: /usr/share/icons/hicolor/24x24/animations/aptdaemon-action-downloading.png
 SPDXID: SPDXRef-aptdaemon-data_file_35
-FileChecksum: f7b81c6d9ab59d2eb339d78333c74d7091549fdb
+FileChecksum: SHA1: f7b81c6d9ab59d2eb339d78333c74d7091549fdb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -359,7 +359,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_35
 
 FileName: /usr/share/icons/hicolor/24x24/animations/aptdaemon-action-installing.png
 SPDXID: SPDXRef-aptdaemon-data_file_36
-FileChecksum: 463d5b2e60e21c5bf4c560e278094242ecb38c09
+FileChecksum: SHA1: 463d5b2e60e21c5bf4c560e278094242ecb38c09
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -368,7 +368,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_36
 
 FileName: /usr/share/icons/hicolor/24x24/animations/aptdaemon-action-removing.png
 SPDXID: SPDXRef-aptdaemon-data_file_37
-FileChecksum: bc0b50e156923da073fdfdfc5a130e39a8b62c8b
+FileChecksum: SHA1: bc0b50e156923da073fdfdfc5a130e39a8b62c8b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -377,7 +377,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_37
 
 FileName: /usr/share/icons/hicolor/24x24/animations/aptdaemon-action-resolving.png
 SPDXID: SPDXRef-aptdaemon-data_file_38
-FileChecksum: 71e98c6de0f1984e13eb93788be6c2779c431071
+FileChecksum: SHA1: 71e98c6de0f1984e13eb93788be6c2779c431071
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -386,7 +386,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_38
 
 FileName: /usr/share/icons/hicolor/24x24/animations/aptdaemon-action-updating-cache.png
 SPDXID: SPDXRef-aptdaemon-data_file_39
-FileChecksum: 8037d20606e31ecc424498f354af7b71ad8bd01b
+FileChecksum: SHA1: 8037d20606e31ecc424498f354af7b71ad8bd01b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -395,7 +395,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_39
 
 FileName: /usr/share/icons/hicolor/24x24/animations/aptdaemon-action-waiting.png
 SPDXID: SPDXRef-aptdaemon-data_file_40
-FileChecksum: 36621d68c81a95a7e2f92d9607401e7360aea47c
+FileChecksum: SHA1: 36621d68c81a95a7e2f92d9607401e7360aea47c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -404,7 +404,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_40
 
 FileName: /usr/share/icons/hicolor/24x24/status/aptdaemon-add.png
 SPDXID: SPDXRef-aptdaemon-data_file_41
-FileChecksum: 917427ae665e97ed30aac4cfb4d0dfa5604802a7
+FileChecksum: SHA1: 917427ae665e97ed30aac4cfb4d0dfa5604802a7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -413,7 +413,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_41
 
 FileName: /usr/share/icons/hicolor/24x24/status/aptdaemon-cleanup.png
 SPDXID: SPDXRef-aptdaemon-data_file_42
-FileChecksum: 7d9e7bb948c29b013a182198da29db4ed22544eb
+FileChecksum: SHA1: 7d9e7bb948c29b013a182198da29db4ed22544eb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -422,7 +422,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_42
 
 FileName: /usr/share/icons/hicolor/24x24/status/aptdaemon-delete.png
 SPDXID: SPDXRef-aptdaemon-data_file_43
-FileChecksum: 071a61ae2287091bd87abdec3408f001913eeef1
+FileChecksum: SHA1: 071a61ae2287091bd87abdec3408f001913eeef1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -431,7 +431,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_43
 
 FileName: /usr/share/icons/hicolor/24x24/status/aptdaemon-download.png
 SPDXID: SPDXRef-aptdaemon-data_file_44
-FileChecksum: d41b7444c88c66a030960ad37ec0917ab5bf8d4c
+FileChecksum: SHA1: d41b7444c88c66a030960ad37ec0917ab5bf8d4c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -440,7 +440,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_44
 
 FileName: /usr/share/icons/hicolor/24x24/status/aptdaemon-resolve.png
 SPDXID: SPDXRef-aptdaemon-data_file_45
-FileChecksum: a15e6e833425ffebffbd533afe09a0fe35cf2853
+FileChecksum: SHA1: a15e6e833425ffebffbd533afe09a0fe35cf2853
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -449,7 +449,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_45
 
 FileName: /usr/share/icons/hicolor/24x24/status/aptdaemon-update-cache.png
 SPDXID: SPDXRef-aptdaemon-data_file_46
-FileChecksum: af7d8870ee60f8a96fb07fe91993888467f1e3c0
+FileChecksum: SHA1: af7d8870ee60f8a96fb07fe91993888467f1e3c0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -458,7 +458,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_46
 
 FileName: /usr/share/icons/hicolor/24x24/status/aptdaemon-upgrade.png
 SPDXID: SPDXRef-aptdaemon-data_file_47
-FileChecksum: 0b1435f1f7d2615323b84208d25d325aa3b21a7f
+FileChecksum: SHA1: 0b1435f1f7d2615323b84208d25d325aa3b21a7f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -467,7 +467,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_47
 
 FileName: /usr/share/icons/hicolor/24x24/status/aptdaemon-wait.png
 SPDXID: SPDXRef-aptdaemon-data_file_48
-FileChecksum: 3aa345b44d91d63d458103b2b298746b98c8e04d
+FileChecksum: SHA1: 3aa345b44d91d63d458103b2b298746b98c8e04d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -476,7 +476,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_48
 
 FileName: /usr/share/icons/hicolor/24x24/status/aptdaemon-working.png
 SPDXID: SPDXRef-aptdaemon-data_file_49
-FileChecksum: e81aee30bcb5a6ec5d03ba781914b605114f675b
+FileChecksum: SHA1: e81aee30bcb5a6ec5d03ba781914b605114f675b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -485,7 +485,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_49
 
 FileName: /usr/share/icons/hicolor/48x48/animations/aptdaemon-action-cleaning-up.png
 SPDXID: SPDXRef-aptdaemon-data_file_50
-FileChecksum: 121a4f62ef339b211936072756d2766cca385aa0
+FileChecksum: SHA1: 121a4f62ef339b211936072756d2766cca385aa0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -494,7 +494,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_50
 
 FileName: /usr/share/icons/hicolor/48x48/animations/aptdaemon-action-downloading.png
 SPDXID: SPDXRef-aptdaemon-data_file_51
-FileChecksum: 61ed3f407909e5c39ef5a869a5f96c58f533a928
+FileChecksum: SHA1: 61ed3f407909e5c39ef5a869a5f96c58f533a928
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -503,7 +503,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_51
 
 FileName: /usr/share/icons/hicolor/48x48/animations/aptdaemon-action-installing.png
 SPDXID: SPDXRef-aptdaemon-data_file_52
-FileChecksum: a6fa2633b49472761318fe7e0c90df6308ed5063
+FileChecksum: SHA1: a6fa2633b49472761318fe7e0c90df6308ed5063
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -512,7 +512,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_52
 
 FileName: /usr/share/icons/hicolor/48x48/animations/aptdaemon-action-removing.png
 SPDXID: SPDXRef-aptdaemon-data_file_53
-FileChecksum: 9e73ff3aa4d3d486feacd99ce749f127348537c9
+FileChecksum: SHA1: 9e73ff3aa4d3d486feacd99ce749f127348537c9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -521,7 +521,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_53
 
 FileName: /usr/share/icons/hicolor/48x48/animations/aptdaemon-action-resolving.png
 SPDXID: SPDXRef-aptdaemon-data_file_54
-FileChecksum: 9998a49c188cbfc2de0d839dea5cd8d1ff08b498
+FileChecksum: SHA1: 9998a49c188cbfc2de0d839dea5cd8d1ff08b498
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -530,7 +530,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_54
 
 FileName: /usr/share/icons/hicolor/48x48/animations/aptdaemon-action-updating-cache.png
 SPDXID: SPDXRef-aptdaemon-data_file_55
-FileChecksum: 631c73c3a0783d27b27a0405a98067252ad90d4d
+FileChecksum: SHA1: 631c73c3a0783d27b27a0405a98067252ad90d4d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -539,7 +539,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_55
 
 FileName: /usr/share/icons/hicolor/48x48/animations/aptdaemon-action-waiting.png
 SPDXID: SPDXRef-aptdaemon-data_file_56
-FileChecksum: 61bd2d12292ea9b8ecc8c909215aa765ca68d00c
+FileChecksum: SHA1: 61bd2d12292ea9b8ecc8c909215aa765ca68d00c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -548,7 +548,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_56
 
 FileName: /usr/share/icons/hicolor/48x48/status/aptdaemon-add.png
 SPDXID: SPDXRef-aptdaemon-data_file_57
-FileChecksum: 2f1c6efe1e87c161a795b802f399062fc3b371d4
+FileChecksum: SHA1: 2f1c6efe1e87c161a795b802f399062fc3b371d4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -557,7 +557,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_57
 
 FileName: /usr/share/icons/hicolor/48x48/status/aptdaemon-cleanup.png
 SPDXID: SPDXRef-aptdaemon-data_file_58
-FileChecksum: a571a164c03bab479a076e5873be090e4871914c
+FileChecksum: SHA1: a571a164c03bab479a076e5873be090e4871914c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -566,7 +566,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_58
 
 FileName: /usr/share/icons/hicolor/48x48/status/aptdaemon-delete.png
 SPDXID: SPDXRef-aptdaemon-data_file_59
-FileChecksum: ff927f89b4de5b8ea33ece082697e1227ab4477c
+FileChecksum: SHA1: ff927f89b4de5b8ea33ece082697e1227ab4477c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -575,7 +575,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_59
 
 FileName: /usr/share/icons/hicolor/48x48/status/aptdaemon-download.png
 SPDXID: SPDXRef-aptdaemon-data_file_60
-FileChecksum: b22f7046a9a267abd98e8ecffa4a243d1b29f688
+FileChecksum: SHA1: b22f7046a9a267abd98e8ecffa4a243d1b29f688
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -584,7 +584,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_60
 
 FileName: /usr/share/icons/hicolor/48x48/status/aptdaemon-resolve.png
 SPDXID: SPDXRef-aptdaemon-data_file_61
-FileChecksum: 182b31e110a9363427de6a051253a5c3dcfcfc39
+FileChecksum: SHA1: 182b31e110a9363427de6a051253a5c3dcfcfc39
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -593,7 +593,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_61
 
 FileName: /usr/share/icons/hicolor/48x48/status/aptdaemon-update-cache.png
 SPDXID: SPDXRef-aptdaemon-data_file_62
-FileChecksum: cc2e56939326c69082431e545516c2d67f58bc7b
+FileChecksum: SHA1: cc2e56939326c69082431e545516c2d67f58bc7b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -602,7 +602,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_62
 
 FileName: /usr/share/icons/hicolor/48x48/status/aptdaemon-upgrade.png
 SPDXID: SPDXRef-aptdaemon-data_file_63
-FileChecksum: b08b74ad5853397864e556c88703d9a35716bfce
+FileChecksum: SHA1: b08b74ad5853397864e556c88703d9a35716bfce
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -611,7 +611,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_63
 
 FileName: /usr/share/icons/hicolor/48x48/status/aptdaemon-wait.png
 SPDXID: SPDXRef-aptdaemon-data_file_64
-FileChecksum: ea555f1cbc3b465019fa5891fa13dc573892de78
+FileChecksum: SHA1: ea555f1cbc3b465019fa5891fa13dc573892de78
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -620,7 +620,7 @@ Relationship: SPDXRef-aptdaemon-data CONTAINS SPDXRef-aptdaemon-data_file_64
 
 FileName: /usr/share/icons/hicolor/48x48/status/aptdaemon-working.png
 SPDXID: SPDXRef-aptdaemon-data_file_65
-FileChecksum: 63dcd6811631e6311e1391d4e94d469080fc0d2f
+FileChecksum: SHA1: 63dcd6811631e6311e1391d4e94d469080fc0d2f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

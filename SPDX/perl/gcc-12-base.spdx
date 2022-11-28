@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/gcc-12-base_12.1.0-2ubuntu1~22.04-eead7d94-2db8-518a-b0ea-ce648c190bb6
+DocumentNamespace: http://spdx.org/spdxdocs/gcc-12-base_12.1.0-2ubuntu1~22.04-0c014ff1-75ea-5071-a99f-0b9d8dcb3d74
 DocumentName: gcc-12-base_12.1.0-2ubuntu1~22.04
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gcc-12-base
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gcc-12-base
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:02Z
+Created: 2022-11-28T14:06:40Z
 
 
 ## Package
@@ -31,7 +31,7 @@ PackageComment: <text>GCC, the GNU Compiler Collection (base package)
 
 FileName: /usr/share/doc/gcc-12-base/README.Debian.amd64.gz
 SPDXID: SPDXRef-gcc-12-base_file_0
-FileChecksum: 20bc8c0752d904f4029c93bc921bf36bd429a6a4
+FileChecksum: SHA1: 20bc8c0752d904f4029c93bc921bf36bd429a6a4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -40,7 +40,7 @@ Relationship: SPDXRef-gcc-12-base CONTAINS SPDXRef-gcc-12-base_file_0
 
 FileName: /usr/share/doc/gcc-12-base/TODO.Debian
 SPDXID: SPDXRef-gcc-12-base_file_1
-FileChecksum: 98cf44e59ce96c1e737613d13cdc8944060cd662
+FileChecksum: SHA1: 98cf44e59ce96c1e737613d13cdc8944060cd662
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -49,7 +49,7 @@ Relationship: SPDXRef-gcc-12-base CONTAINS SPDXRef-gcc-12-base_file_1
 
 FileName: /usr/share/doc/gcc-12-base/changelog.Debian.gz
 SPDXID: SPDXRef-gcc-12-base_file_2
-FileChecksum: e5a97578252cc47ae0250b574efe22650d5c686f
+FileChecksum: SHA1: e5a97578252cc47ae0250b574efe22650d5c686f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -58,7 +58,7 @@ Relationship: SPDXRef-gcc-12-base CONTAINS SPDXRef-gcc-12-base_file_2
 
 FileName: /usr/share/doc/gcc-12-base/copyright
 SPDXID: SPDXRef-gcc-12-base_file_3
-FileChecksum: 1e3101e727f5e80dad6482faddeef7d4165bcf46
+FileChecksum: SHA1: 1e3101e727f5e80dad6482faddeef7d4165bcf46
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

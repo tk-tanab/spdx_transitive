@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libwacom-common_2.2.0-1-98536be8-fb55-57ab-8698-609159dae61e
+DocumentNamespace: http://spdx.org/spdxdocs/libwacom-common_2.2.0-1-353d819d-5c3d-5b3f-9d43-e72daf5410b4
 DocumentName: libwacom-common_2.2.0-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwacom-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwacom-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:59:09Z
+Created: 2022-11-28T14:07:23Z
 
 
 ## Package
@@ -33,7 +33,7 @@ PackageComment: <text>Wacom model feature query library (common files)
 
 FileName: /lib/udev/hwdb.d/65-libwacom.hwdb
 SPDXID: SPDXRef-libwacom-common_file_0
-FileChecksum: f7966ed6f1916f95792b39d88f20080f8180e37a
+FileChecksum: SHA1: f7966ed6f1916f95792b39d88f20080f8180e37a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -42,7 +42,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_0
 
 FileName: /lib/udev/rules.d/65-libwacom.rules
 SPDXID: SPDXRef-libwacom-common_file_1
-FileChecksum: 74464b126064e3c0f41bb307f5205e2a83353147
+FileChecksum: SHA1: 74464b126064e3c0f41bb307f5205e2a83353147
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -51,7 +51,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_1
 
 FileName: /usr/share/doc/libwacom-common/changelog.Debian.gz
 SPDXID: SPDXRef-libwacom-common_file_2
-FileChecksum: 247ed47b35d78be56cd6ed482b36bf26fa108892
+FileChecksum: SHA1: 247ed47b35d78be56cd6ed482b36bf26fa108892
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -60,7 +60,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_2
 
 FileName: /usr/share/doc/libwacom-common/copyright
 SPDXID: SPDXRef-libwacom-common_file_3
-FileChecksum: 9f4982ada9b4e6a4c9b821f146ce70c563eaf324
+FileChecksum: SHA1: 9f4982ada9b4e6a4c9b821f146ce70c563eaf324
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -69,7 +69,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_3
 
 FileName: /usr/share/libwacom/bamboo-0fg-m-p-alt.tablet
 SPDXID: SPDXRef-libwacom-common_file_4
-FileChecksum: 1619460ae101179074ee5d81dd161112a64b01e3
+FileChecksum: SHA1: 1619460ae101179074ee5d81dd161112a64b01e3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -78,7 +78,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_4
 
 FileName: /usr/share/libwacom/bamboo-0fg-s-p-alt.tablet
 SPDXID: SPDXRef-libwacom-common_file_5
-FileChecksum: 10a6715de1feb96cf4f67262090e4bbe3e4be9b3
+FileChecksum: SHA1: 10a6715de1feb96cf4f67262090e4bbe3e4be9b3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -87,7 +87,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_5
 
 FileName: /usr/share/libwacom/bamboo-0fg-s-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_6
-FileChecksum: 2b4c465c7a1e46852a29049077718fa90fe70111
+FileChecksum: SHA1: 2b4c465c7a1e46852a29049077718fa90fe70111
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -96,7 +96,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_6
 
 FileName: /usr/share/libwacom/bamboo-16fg-m-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_7
-FileChecksum: 5000d55b669f06b84e0eb3c701d6b368d452749c
+FileChecksum: SHA1: 5000d55b669f06b84e0eb3c701d6b368d452749c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -105,7 +105,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_7
 
 FileName: /usr/share/libwacom/bamboo-16fg-s-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_8
-FileChecksum: 8c0ec692f970e65c72785e8425fb45c7b9a0a7c1
+FileChecksum: SHA1: 8c0ec692f970e65c72785e8425fb45c7b9a0a7c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -114,7 +114,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_8
 
 FileName: /usr/share/libwacom/bamboo-16fg-s-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_9
-FileChecksum: 01da2d9eb6620374fe3389a1bae666eb0a6c0a4b
+FileChecksum: SHA1: 01da2d9eb6620374fe3389a1bae666eb0a6c0a4b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -123,7 +123,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_9
 
 FileName: /usr/share/libwacom/bamboo-16fg-s-t.tablet
 SPDXID: SPDXRef-libwacom-common_file_10
-FileChecksum: 579ada13be5d1be7f9600b0f973211714a4fcb09
+FileChecksum: SHA1: 579ada13be5d1be7f9600b0f973211714a4fcb09
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -132,7 +132,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_10
 
 FileName: /usr/share/libwacom/bamboo-2fg-fun-m-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_11
-FileChecksum: 077f2f43bd9eb246539d2b6237690490644ba061
+FileChecksum: SHA1: 077f2f43bd9eb246539d2b6237690490644ba061
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -141,7 +141,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_11
 
 FileName: /usr/share/libwacom/bamboo-2fg-fun-s-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_12
-FileChecksum: b4116ff7d5773dced8eb229ab7f78940db18b957
+FileChecksum: SHA1: b4116ff7d5773dced8eb229ab7f78940db18b957
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -150,7 +150,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_12
 
 FileName: /usr/share/libwacom/bamboo-2fg-m-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_13
-FileChecksum: e58bde7de98ab477a0308b28b9334d42c971e0f4
+FileChecksum: SHA1: e58bde7de98ab477a0308b28b9334d42c971e0f4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -159,7 +159,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_13
 
 FileName: /usr/share/libwacom/bamboo-2fg-s-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_14
-FileChecksum: 69584d86e5a3395c934a5494e015877ca89f92cb
+FileChecksum: SHA1: 69584d86e5a3395c934a5494e015877ca89f92cb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -168,7 +168,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_14
 
 FileName: /usr/share/libwacom/bamboo-2fg-s-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_15
-FileChecksum: 434798dd8523d0e97e5d46ca670ba9577c0ba4a0
+FileChecksum: SHA1: 434798dd8523d0e97e5d46ca670ba9577c0ba4a0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -177,7 +177,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_15
 
 FileName: /usr/share/libwacom/bamboo-2fg-s-t.tablet
 SPDXID: SPDXRef-libwacom-common_file_16
-FileChecksum: 9c6b5329093cfbab4838bc6feb37fb9d7477b94f
+FileChecksum: SHA1: 9c6b5329093cfbab4838bc6feb37fb9d7477b94f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -186,7 +186,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_16
 
 FileName: /usr/share/libwacom/bamboo-4fg-fun-m.tablet
 SPDXID: SPDXRef-libwacom-common_file_17
-FileChecksum: 83dd44d804bf9b26ef2acacb681086e0636060be
+FileChecksum: SHA1: 83dd44d804bf9b26ef2acacb681086e0636060be
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -195,7 +195,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_17
 
 FileName: /usr/share/libwacom/bamboo-4fg-fun-s.tablet
 SPDXID: SPDXRef-libwacom-common_file_18
-FileChecksum: 9c6af5d0de1d4713b134d682fa67f7c07d43a8ad
+FileChecksum: SHA1: 9c6af5d0de1d4713b134d682fa67f7c07d43a8ad
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -204,7 +204,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_18
 
 FileName: /usr/share/libwacom/bamboo-4fg-s-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_19
-FileChecksum: 07d3a20ec7c39ada50946987688c503c246e9218
+FileChecksum: SHA1: 07d3a20ec7c39ada50946987688c503c246e9218
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -213,7 +213,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_19
 
 FileName: /usr/share/libwacom/bamboo-4fg-s-t.tablet
 SPDXID: SPDXRef-libwacom-common_file_20
-FileChecksum: 3b44e45d6b3149770bd982ba39f9c814dd3fef08
+FileChecksum: SHA1: 3b44e45d6b3149770bd982ba39f9c814dd3fef08
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -222,7 +222,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_20
 
 FileName: /usr/share/libwacom/bamboo-4fg-se-m-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_21
-FileChecksum: b5090d84c0046f5c46e157aa87e2577049ee6cd2
+FileChecksum: SHA1: b5090d84c0046f5c46e157aa87e2577049ee6cd2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -231,7 +231,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_21
 
 FileName: /usr/share/libwacom/bamboo-4fg-se-s-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_22
-FileChecksum: 30811ac1aaafbaa2784c038704ca747d934cc750
+FileChecksum: SHA1: 30811ac1aaafbaa2784c038704ca747d934cc750
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -240,7 +240,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_22
 
 FileName: /usr/share/libwacom/bamboo-one-m-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_23
-FileChecksum: 81d07a886c6362197760c0f1d47e031dfbcd5575
+FileChecksum: SHA1: 81d07a886c6362197760c0f1d47e031dfbcd5575
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -249,7 +249,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_23
 
 FileName: /usr/share/libwacom/bamboo-one.tablet
 SPDXID: SPDXRef-libwacom-common_file_24
-FileChecksum: e01c97e60680c5d2894493e3c8fac4cda5908d4b
+FileChecksum: SHA1: e01c97e60680c5d2894493e3c8fac4cda5908d4b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -258,7 +258,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_24
 
 FileName: /usr/share/libwacom/bamboo-pad-wireless.tablet
 SPDXID: SPDXRef-libwacom-common_file_25
-FileChecksum: f6fc40fb206b36502acff2e7fddd0a12ff49c6e9
+FileChecksum: SHA1: f6fc40fb206b36502acff2e7fddd0a12ff49c6e9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -267,7 +267,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_25
 
 FileName: /usr/share/libwacom/bamboo-pad.tablet
 SPDXID: SPDXRef-libwacom-common_file_26
-FileChecksum: f97ea4000fd9a18c121c07ec335f1dfdc1e11a7e
+FileChecksum: SHA1: f97ea4000fd9a18c121c07ec335f1dfdc1e11a7e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -276,7 +276,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_26
 
 FileName: /usr/share/libwacom/cintiq-12wx.tablet
 SPDXID: SPDXRef-libwacom-common_file_27
-FileChecksum: 11b689a65e1b73416bfbcbd3e2e08b5a03c51f20
+FileChecksum: SHA1: 11b689a65e1b73416bfbcbd3e2e08b5a03c51f20
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -285,7 +285,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_27
 
 FileName: /usr/share/libwacom/cintiq-13hd.tablet
 SPDXID: SPDXRef-libwacom-common_file_28
-FileChecksum: 3b9c3422f6834f237fe78c7426946da2ebd580da
+FileChecksum: SHA1: 3b9c3422f6834f237fe78c7426946da2ebd580da
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -294,7 +294,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_28
 
 FileName: /usr/share/libwacom/cintiq-13hdt.tablet
 SPDXID: SPDXRef-libwacom-common_file_29
-FileChecksum: 6c3e7d0c0dd764a948a0aa1ff3660cbb6b58d9b6
+FileChecksum: SHA1: 6c3e7d0c0dd764a948a0aa1ff3660cbb6b58d9b6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -303,7 +303,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_29
 
 FileName: /usr/share/libwacom/cintiq-16-2.tablet
 SPDXID: SPDXRef-libwacom-common_file_30
-FileChecksum: 3c97f910da317635432cca70b13d15ad7e8e2a34
+FileChecksum: SHA1: 3c97f910da317635432cca70b13d15ad7e8e2a34
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -312,7 +312,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_30
 
 FileName: /usr/share/libwacom/cintiq-16.tablet
 SPDXID: SPDXRef-libwacom-common_file_31
-FileChecksum: 9a3fa90bb16333742c7f5cfe8800d77686124bb0
+FileChecksum: SHA1: 9a3fa90bb16333742c7f5cfe8800d77686124bb0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -321,7 +321,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_31
 
 FileName: /usr/share/libwacom/cintiq-20wsx.tablet
 SPDXID: SPDXRef-libwacom-common_file_32
-FileChecksum: 6653f36fff10f4feb2e29c46f6b4b4f18e6bbe40
+FileChecksum: SHA1: 6653f36fff10f4feb2e29c46f6b4b4f18e6bbe40
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -330,7 +330,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_32
 
 FileName: /usr/share/libwacom/cintiq-21ux.tablet
 SPDXID: SPDXRef-libwacom-common_file_33
-FileChecksum: b8a00b865dd7dee8d5d28e0f2f62302c23dd12f1
+FileChecksum: SHA1: b8a00b865dd7dee8d5d28e0f2f62302c23dd12f1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -339,7 +339,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_33
 
 FileName: /usr/share/libwacom/cintiq-21ux2.tablet
 SPDXID: SPDXRef-libwacom-common_file_34
-FileChecksum: db521164188d7a0aec6d216c35d29be0e74cb42f
+FileChecksum: SHA1: db521164188d7a0aec6d216c35d29be0e74cb42f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -348,7 +348,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_34
 
 FileName: /usr/share/libwacom/cintiq-22.tablet
 SPDXID: SPDXRef-libwacom-common_file_35
-FileChecksum: 890ae28e9c6ddae4237e01676163283752c61c55
+FileChecksum: SHA1: 890ae28e9c6ddae4237e01676163283752c61c55
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -357,7 +357,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_35
 
 FileName: /usr/share/libwacom/cintiq-22hd.tablet
 SPDXID: SPDXRef-libwacom-common_file_36
-FileChecksum: bd3f5e05b397b11b3dde6dcd9ae2822baa4a9b09
+FileChecksum: SHA1: bd3f5e05b397b11b3dde6dcd9ae2822baa4a9b09
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -366,7 +366,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_36
 
 FileName: /usr/share/libwacom/cintiq-22hdt.tablet
 SPDXID: SPDXRef-libwacom-common_file_37
-FileChecksum: 317eeeb25ec24eb49fee6f335f381f4e4eb44bdd
+FileChecksum: SHA1: 317eeeb25ec24eb49fee6f335f381f4e4eb44bdd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -375,7 +375,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_37
 
 FileName: /usr/share/libwacom/cintiq-24hd-touch.tablet
 SPDXID: SPDXRef-libwacom-common_file_38
-FileChecksum: a351303fdc3f3b16695032133fad1336b8fa5e46
+FileChecksum: SHA1: a351303fdc3f3b16695032133fad1336b8fa5e46
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -384,7 +384,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_38
 
 FileName: /usr/share/libwacom/cintiq-24hd.tablet
 SPDXID: SPDXRef-libwacom-common_file_39
-FileChecksum: e7b3235dc9a19b52c5b74210369c4b2e201062aa
+FileChecksum: SHA1: e7b3235dc9a19b52c5b74210369c4b2e201062aa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -393,7 +393,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_39
 
 FileName: /usr/share/libwacom/cintiq-27hd.tablet
 SPDXID: SPDXRef-libwacom-common_file_40
-FileChecksum: 7b65d4076adc359d11a95ed58b1d3c556e758d7e
+FileChecksum: SHA1: 7b65d4076adc359d11a95ed58b1d3c556e758d7e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -402,7 +402,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_40
 
 FileName: /usr/share/libwacom/cintiq-27hdt.tablet
 SPDXID: SPDXRef-libwacom-common_file_41
-FileChecksum: 17b8c19ce0cc837a8f848c4e53f6ce4cce5f5561
+FileChecksum: SHA1: 17b8c19ce0cc837a8f848c4e53f6ce4cce5f5561
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -411,7 +411,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_41
 
 FileName: /usr/share/libwacom/cintiq-companion-2.tablet
 SPDXID: SPDXRef-libwacom-common_file_42
-FileChecksum: 93888bbcbf5f6a15fff4b980fa88f6360937dfd2
+FileChecksum: SHA1: 93888bbcbf5f6a15fff4b980fa88f6360937dfd2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -420,7 +420,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_42
 
 FileName: /usr/share/libwacom/cintiq-companion-hybrid.tablet
 SPDXID: SPDXRef-libwacom-common_file_43
-FileChecksum: 319914a477e758096133f4ad5a889ecf6c05ec43
+FileChecksum: SHA1: 319914a477e758096133f4ad5a889ecf6c05ec43
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -429,7 +429,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_43
 
 FileName: /usr/share/libwacom/cintiq-companion.tablet
 SPDXID: SPDXRef-libwacom-common_file_44
-FileChecksum: 5e5ac7d8adf8740aa8d4e0c81eeb27a4f64dd2ba
+FileChecksum: SHA1: 5e5ac7d8adf8740aa8d4e0c81eeb27a4f64dd2ba
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -438,7 +438,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_44
 
 FileName: /usr/share/libwacom/cintiq-pro-13.tablet
 SPDXID: SPDXRef-libwacom-common_file_45
-FileChecksum: 3dfc995ec873114e67372535cb76507765b7723c
+FileChecksum: SHA1: 3dfc995ec873114e67372535cb76507765b7723c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -447,7 +447,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_45
 
 FileName: /usr/share/libwacom/cintiq-pro-16-2.tablet
 SPDXID: SPDXRef-libwacom-common_file_46
-FileChecksum: 2ddfb4c4f66ce156a8dc8507232379b543327e66
+FileChecksum: SHA1: 2ddfb4c4f66ce156a8dc8507232379b543327e66
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -456,7 +456,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_46
 
 FileName: /usr/share/libwacom/cintiq-pro-16.tablet
 SPDXID: SPDXRef-libwacom-common_file_47
-FileChecksum: 208a16e80c73ee52ad490e28f9805588836cbc84
+FileChecksum: SHA1: 208a16e80c73ee52ad490e28f9805588836cbc84
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -465,7 +465,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_47
 
 FileName: /usr/share/libwacom/cintiq-pro-24-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_48
-FileChecksum: 807be547987dc06fab717f8f87ed21e9cb9bd890
+FileChecksum: SHA1: 807be547987dc06fab717f8f87ed21e9cb9bd890
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -474,7 +474,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_48
 
 FileName: /usr/share/libwacom/cintiq-pro-24-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_49
-FileChecksum: 6770a03affa8b89a693cd4c71b49b4bf3196f125
+FileChecksum: SHA1: 6770a03affa8b89a693cd4c71b49b4bf3196f125
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -483,7 +483,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_49
 
 FileName: /usr/share/libwacom/cintiq-pro-32.tablet
 SPDXID: SPDXRef-libwacom-common_file_50
-FileChecksum: 71e3ccd94c49701be7668a6e9412070dedffd441
+FileChecksum: SHA1: 71e3ccd94c49701be7668a6e9412070dedffd441
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -492,7 +492,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_50
 
 FileName: /usr/share/libwacom/dell-canvas-27.tablet
 SPDXID: SPDXRef-libwacom-common_file_51
-FileChecksum: 04f8bf350654711a9dea9a75f7e30753fb607c67
+FileChecksum: SHA1: 04f8bf350654711a9dea9a75f7e30753fb607c67
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -501,7 +501,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_51
 
 FileName: /usr/share/libwacom/dtf-720.tablet
 SPDXID: SPDXRef-libwacom-common_file_52
-FileChecksum: f957935d67cce48500253eadce906340c68af86d
+FileChecksum: SHA1: f957935d67cce48500253eadce906340c68af86d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -510,7 +510,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_52
 
 FileName: /usr/share/libwacom/dth-1152.tablet
 SPDXID: SPDXRef-libwacom-common_file_53
-FileChecksum: 1095b144f39b6d4e13b6f0466f70bef2624c3bbc
+FileChecksum: SHA1: 1095b144f39b6d4e13b6f0466f70bef2624c3bbc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -519,7 +519,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_53
 
 FileName: /usr/share/libwacom/dth-2242.tablet
 SPDXID: SPDXRef-libwacom-common_file_54
-FileChecksum: 2bd5af347b9fa468aa584d365308d7575ac25872
+FileChecksum: SHA1: 2bd5af347b9fa468aa584d365308d7575ac25872
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -528,7 +528,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_54
 
 FileName: /usr/share/libwacom/dth-2452.tablet
 SPDXID: SPDXRef-libwacom-common_file_55
-FileChecksum: a86328aa5f59c602c7f7e20817c2b85bb5919a67
+FileChecksum: SHA1: a86328aa5f59c602c7f7e20817c2b85bb5919a67
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -537,7 +537,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_55
 
 FileName: /usr/share/libwacom/dti-520.tablet
 SPDXID: SPDXRef-libwacom-common_file_56
-FileChecksum: ff3a42b8470243716118230ad5b05d50b0e157ce
+FileChecksum: SHA1: ff3a42b8470243716118230ad5b05d50b0e157ce
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -546,7 +546,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_56
 
 FileName: /usr/share/libwacom/dtk-1651.tablet
 SPDXID: SPDXRef-libwacom-common_file_57
-FileChecksum: ab07a4bc2410a26eee1171bfbd77b4fcf39aa1fa
+FileChecksum: SHA1: ab07a4bc2410a26eee1171bfbd77b4fcf39aa1fa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -555,7 +555,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_57
 
 FileName: /usr/share/libwacom/dtk-1660e-2.tablet
 SPDXID: SPDXRef-libwacom-common_file_58
-FileChecksum: cda891f9274226acebdbdb860ac1ff70044b5aa5
+FileChecksum: SHA1: cda891f9274226acebdbdb860ac1ff70044b5aa5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -564,7 +564,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_58
 
 FileName: /usr/share/libwacom/dtk-1660e.tablet
 SPDXID: SPDXRef-libwacom-common_file_59
-FileChecksum: 82e6e6d73d5b77bd25b02c511bca628b9b4c6fe4
+FileChecksum: SHA1: 82e6e6d73d5b77bd25b02c511bca628b9b4c6fe4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -573,7 +573,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_59
 
 FileName: /usr/share/libwacom/dtk-2241.tablet
 SPDXID: SPDXRef-libwacom-common_file_60
-FileChecksum: 8aba5bc46e9b26f14c6971e403178ed465fb7c67
+FileChecksum: SHA1: 8aba5bc46e9b26f14c6971e403178ed465fb7c67
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -582,7 +582,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_60
 
 FileName: /usr/share/libwacom/dtk-2451.tablet
 SPDXID: SPDXRef-libwacom-common_file_61
-FileChecksum: 7f196f3991ce38e194794c7ba1473b9d4a81e315
+FileChecksum: SHA1: 7f196f3991ce38e194794c7ba1473b9d4a81e315
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -591,7 +591,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_61
 
 FileName: /usr/share/libwacom/dtu-1031.tablet
 SPDXID: SPDXRef-libwacom-common_file_62
-FileChecksum: a27868fe2a7013a966ebffbb8ec1f1d7a2168751
+FileChecksum: SHA1: a27868fe2a7013a966ebffbb8ec1f1d7a2168751
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -600,7 +600,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_62
 
 FileName: /usr/share/libwacom/dtu-1031x.tablet
 SPDXID: SPDXRef-libwacom-common_file_63
-FileChecksum: 80da137512cf32fb093ec9058aa10bf750f6291b
+FileChecksum: SHA1: 80da137512cf32fb093ec9058aa10bf750f6291b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -609,7 +609,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_63
 
 FileName: /usr/share/libwacom/dtu-1141.tablet
 SPDXID: SPDXRef-libwacom-common_file_64
-FileChecksum: d732ceb2c53a932ecee7c5087f082e3c7579b810
+FileChecksum: SHA1: d732ceb2c53a932ecee7c5087f082e3c7579b810
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -618,7 +618,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_64
 
 FileName: /usr/share/libwacom/dtu-1141b.tablet
 SPDXID: SPDXRef-libwacom-common_file_65
-FileChecksum: f5d77ae7c8b4e2a9ac37261583d03c89ca252e21
+FileChecksum: SHA1: f5d77ae7c8b4e2a9ac37261583d03c89ca252e21
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -627,7 +627,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_65
 
 FileName: /usr/share/libwacom/dtu-1631.tablet
 SPDXID: SPDXRef-libwacom-common_file_66
-FileChecksum: 84f138174c9a377c1683b44f07003d6fff55c219
+FileChecksum: SHA1: 84f138174c9a377c1683b44f07003d6fff55c219
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -636,7 +636,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_66
 
 FileName: /usr/share/libwacom/dtu-1931.tablet
 SPDXID: SPDXRef-libwacom-common_file_67
-FileChecksum: f2182840b55fbe5683c4e36d9b50652bdf184174
+FileChecksum: SHA1: f2182840b55fbe5683c4e36d9b50652bdf184174
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -645,7 +645,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_67
 
 FileName: /usr/share/libwacom/dtu-2231.tablet
 SPDXID: SPDXRef-libwacom-common_file_68
-FileChecksum: 6c0b9d4432480acabe4ce35b2814d3a350763fa4
+FileChecksum: SHA1: 6c0b9d4432480acabe4ce35b2814d3a350763fa4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -654,7 +654,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_68
 
 FileName: /usr/share/libwacom/ek-remote.tablet
 SPDXID: SPDXRef-libwacom-common_file_69
-FileChecksum: 1938bda1862c6ccb55820b2e97d0f5257fd52c11
+FileChecksum: SHA1: 1938bda1862c6ccb55820b2e97d0f5257fd52c11
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -663,7 +663,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_69
 
 FileName: /usr/share/libwacom/elan-0732.tablet
 SPDXID: SPDXRef-libwacom-common_file_70
-FileChecksum: 31b3a76c5794e8040eb5227b7003336d6a8ec839
+FileChecksum: SHA1: 31b3a76c5794e8040eb5227b7003336d6a8ec839
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -672,7 +672,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_70
 
 FileName: /usr/share/libwacom/elan-2072.tablet
 SPDXID: SPDXRef-libwacom-common_file_71
-FileChecksum: 7ebfc939cbb9ff0f766ede76e493e2d7aa9e66b3
+FileChecksum: SHA1: 7ebfc939cbb9ff0f766ede76e493e2d7aa9e66b3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -681,7 +681,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_71
 
 FileName: /usr/share/libwacom/elan-22e2.tablet
 SPDXID: SPDXRef-libwacom-common_file_72
-FileChecksum: 1e02708d5a13f3dbec9c4803ece33a50c0c3fe9e
+FileChecksum: SHA1: 1e02708d5a13f3dbec9c4803ece33a50c0c3fe9e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -690,7 +690,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_72
 
 FileName: /usr/share/libwacom/elan-24d8.tablet
 SPDXID: SPDXRef-libwacom-common_file_73
-FileChecksum: fb92a149377ebae5a3fd4ec8d1530a05d4f9a9b0
+FileChecksum: SHA1: fb92a149377ebae5a3fd4ec8d1530a05d4f9a9b0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -699,7 +699,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_73
 
 FileName: /usr/share/libwacom/elan-24db.tablet
 SPDXID: SPDXRef-libwacom-common_file_74
-FileChecksum: 28196b3a7c2f6704732563b4b10803a1c21e3463
+FileChecksum: SHA1: 28196b3a7c2f6704732563b4b10803a1c21e3463
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -708,7 +708,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_74
 
 FileName: /usr/share/libwacom/elan-2513.tablet
 SPDXID: SPDXRef-libwacom-common_file_75
-FileChecksum: 07784e1f6298909d101bec6145b923403f927d91
+FileChecksum: SHA1: 07784e1f6298909d101bec6145b923403f927d91
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -717,7 +717,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_75
 
 FileName: /usr/share/libwacom/elan-2514-alt.tablet
 SPDXID: SPDXRef-libwacom-common_file_76
-FileChecksum: 36fc0aab3b535ab33f8870e192a92122190b9037
+FileChecksum: SHA1: 36fc0aab3b535ab33f8870e192a92122190b9037
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -726,7 +726,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_76
 
 FileName: /usr/share/libwacom/elan-2514-alt2.tablet
 SPDXID: SPDXRef-libwacom-common_file_77
-FileChecksum: aa8fea0bcfc5259325aea5ab7f20fc63b930a5e9
+FileChecksum: SHA1: aa8fea0bcfc5259325aea5ab7f20fc63b930a5e9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -735,7 +735,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_77
 
 FileName: /usr/share/libwacom/elan-2514.tablet
 SPDXID: SPDXRef-libwacom-common_file_78
-FileChecksum: f46f1717502ae6fdfe0de4ef729f9e3af00655d2
+FileChecksum: SHA1: f46f1717502ae6fdfe0de4ef729f9e3af00655d2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -744,7 +744,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_78
 
 FileName: /usr/share/libwacom/elan-2537.tablet
 SPDXID: SPDXRef-libwacom-common_file_79
-FileChecksum: 074a4b721ba141f6272c8b34e3a47f44489ca99a
+FileChecksum: SHA1: 074a4b721ba141f6272c8b34e3a47f44489ca99a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -753,7 +753,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_79
 
 FileName: /usr/share/libwacom/elan-2627.tablet
 SPDXID: SPDXRef-libwacom-common_file_80
-FileChecksum: 48c4e5e589d674198d733200c46aa4937d6bfd95
+FileChecksum: SHA1: 48c4e5e589d674198d733200c46aa4937d6bfd95
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -762,7 +762,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_80
 
 FileName: /usr/share/libwacom/elan-2628.tablet
 SPDXID: SPDXRef-libwacom-common_file_81
-FileChecksum: 96d3eebe0e7eff6a74dee2a1adad8a9537349c33
+FileChecksum: SHA1: 96d3eebe0e7eff6a74dee2a1adad8a9537349c33
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -771,7 +771,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_81
 
 FileName: /usr/share/libwacom/elan-262b.tablet
 SPDXID: SPDXRef-libwacom-common_file_82
-FileChecksum: 6bfe55b08679f1a0180b501826e684ddcb8ac46a
+FileChecksum: SHA1: 6bfe55b08679f1a0180b501826e684ddcb8ac46a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -780,7 +780,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_82
 
 FileName: /usr/share/libwacom/elan-264c.tablet
 SPDXID: SPDXRef-libwacom-common_file_83
-FileChecksum: d39772e5dd137ffae490fa7e86c0253e36054fd9
+FileChecksum: SHA1: d39772e5dd137ffae490fa7e86c0253e36054fd9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -789,7 +789,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_83
 
 FileName: /usr/share/libwacom/elan-29a1.tablet
 SPDXID: SPDXRef-libwacom-common_file_84
-FileChecksum: d69a8205ec66cf460a6f8bc108777f22431483c2
+FileChecksum: SHA1: d69a8205ec66cf460a6f8bc108777f22431483c2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -798,7 +798,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_84
 
 FileName: /usr/share/libwacom/elan-29b6.tablet
 SPDXID: SPDXRef-libwacom-common_file_85
-FileChecksum: addb433c8ed80a587df8615684e3b6852059d14c
+FileChecksum: SHA1: addb433c8ed80a587df8615684e3b6852059d14c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -807,7 +807,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_85
 
 FileName: /usr/share/libwacom/elan-2a70.tablet
 SPDXID: SPDXRef-libwacom-common_file_86
-FileChecksum: 1963aadc9e641c5f13154371e35f4c2fc8cc0a49
+FileChecksum: SHA1: 1963aadc9e641c5f13154371e35f4c2fc8cc0a49
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -816,7 +816,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_86
 
 FileName: /usr/share/libwacom/elan-2ad9.tablet
 SPDXID: SPDXRef-libwacom-common_file_87
-FileChecksum: 5622f7bca20dd4df1e8def6853e92aa3b1d7f108
+FileChecksum: SHA1: 5622f7bca20dd4df1e8def6853e92aa3b1d7f108
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -825,7 +825,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_87
 
 FileName: /usr/share/libwacom/elan-2bb3.tablet
 SPDXID: SPDXRef-libwacom-common_file_88
-FileChecksum: ed663d12ff65e50b65b6980f06499be9c0bea32d
+FileChecksum: SHA1: ed663d12ff65e50b65b6980f06499be9c0bea32d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -834,7 +834,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_88
 
 FileName: /usr/share/libwacom/elan-5515.tablet
 SPDXID: SPDXRef-libwacom-common_file_89
-FileChecksum: f5f1f4fd1e1b216c5217ba3ed1806151eb566180
+FileChecksum: SHA1: f5f1f4fd1e1b216c5217ba3ed1806151eb566180
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -843,7 +843,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_89
 
 FileName: /usr/share/libwacom/gaomon-s620.tablet
 SPDXID: SPDXRef-libwacom-common_file_90
-FileChecksum: c6d445468d25758c438b41651887da36eaa7b878
+FileChecksum: SHA1: c6d445468d25758c438b41651887da36eaa7b878
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -852,7 +852,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_90
 
 FileName: /usr/share/libwacom/generic.tablet
 SPDXID: SPDXRef-libwacom-common_file_91
-FileChecksum: 29f5808b0dc206b09077b46296262b441a033b7e
+FileChecksum: SHA1: 29f5808b0dc206b09077b46296262b441a033b7e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -861,7 +861,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_91
 
 FileName: /usr/share/libwacom/graphire-usb.tablet
 SPDXID: SPDXRef-libwacom-common_file_92
-FileChecksum: 09c1ec4099a763f980434d633bc923f3ae1a5508
+FileChecksum: SHA1: 09c1ec4099a763f980434d633bc923f3ae1a5508
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -870,7 +870,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_92
 
 FileName: /usr/share/libwacom/graphire-wireless-8x6.tablet
 SPDXID: SPDXRef-libwacom-common_file_93
-FileChecksum: 340876073962260fdfa12a31df84332bb5273654
+FileChecksum: SHA1: 340876073962260fdfa12a31df84332bb5273654
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -879,7 +879,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_93
 
 FileName: /usr/share/libwacom/graphire2-4x5.tablet
 SPDXID: SPDXRef-libwacom-common_file_94
-FileChecksum: 5a5ae68b0648a92e88542d1dc5fb1607bce57fe8
+FileChecksum: SHA1: 5a5ae68b0648a92e88542d1dc5fb1607bce57fe8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -888,7 +888,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_94
 
 FileName: /usr/share/libwacom/graphire2-5x7.tablet
 SPDXID: SPDXRef-libwacom-common_file_95
-FileChecksum: 43c1b92acf1877cced7e9dc523d061c758051260
+FileChecksum: SHA1: 43c1b92acf1877cced7e9dc523d061c758051260
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -897,7 +897,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_95
 
 FileName: /usr/share/libwacom/graphire3-4x5.tablet
 SPDXID: SPDXRef-libwacom-common_file_96
-FileChecksum: 4a5a75c49c1da0885c0b425e39186e6d3a8ce600
+FileChecksum: SHA1: 4a5a75c49c1da0885c0b425e39186e6d3a8ce600
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -906,7 +906,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_96
 
 FileName: /usr/share/libwacom/graphire3-6x8.tablet
 SPDXID: SPDXRef-libwacom-common_file_97
-FileChecksum: b4b6dd3810c0d6e9306e706e3302a7208eb7d330
+FileChecksum: SHA1: b4b6dd3810c0d6e9306e706e3302a7208eb7d330
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -915,7 +915,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_97
 
 FileName: /usr/share/libwacom/graphire4-4x5.tablet
 SPDXID: SPDXRef-libwacom-common_file_98
-FileChecksum: 6c93c174d41b6830600676a04871db38250ea382
+FileChecksum: SHA1: 6c93c174d41b6830600676a04871db38250ea382
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -924,7 +924,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_98
 
 FileName: /usr/share/libwacom/graphire4-6x8.tablet
 SPDXID: SPDXRef-libwacom-common_file_99
-FileChecksum: bb6459b3baa6bd49b09c1a03115b2d0e13cf1c3c
+FileChecksum: SHA1: bb6459b3baa6bd49b09c1a03115b2d0e13cf1c3c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -933,7 +933,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_99
 
 FileName: /usr/share/libwacom/hp-pro-tablet-408.tablet
 SPDXID: SPDXRef-libwacom-common_file_100
-FileChecksum: 2ab7404675c2569756f49a156cedd288b57a165c
+FileChecksum: SHA1: 2ab7404675c2569756f49a156cedd288b57a165c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -942,7 +942,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_100
 
 FileName: /usr/share/libwacom/huion-420.tablet
 SPDXID: SPDXRef-libwacom-common_file_101
-FileChecksum: 87a134a2ac2a944942ce6c77dd3fe080d2ac1e49
+FileChecksum: SHA1: 87a134a2ac2a944942ce6c77dd3fe080d2ac1e49
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -951,7 +951,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_101
 
 FileName: /usr/share/libwacom/huion-h420.tablet
 SPDXID: SPDXRef-libwacom-common_file_102
-FileChecksum: 8fc60a635957bafa2aba9b65ec0728bef4ea6372
+FileChecksum: SHA1: 8fc60a635957bafa2aba9b65ec0728bef4ea6372
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -960,7 +960,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_102
 
 FileName: /usr/share/libwacom/huion-h610-pro.tablet
 SPDXID: SPDXRef-libwacom-common_file_103
-FileChecksum: a611c54499e97b8766f4d0e1d60aab331f87575e
+FileChecksum: SHA1: a611c54499e97b8766f4d0e1d60aab331f87575e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -969,7 +969,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_103
 
 FileName: /usr/share/libwacom/huion-h640p.tablet
 SPDXID: SPDXRef-libwacom-common_file_104
-FileChecksum: 8e86dbf743e7c9368a8d97d56328cea3aba12a08
+FileChecksum: SHA1: 8e86dbf743e7c9368a8d97d56328cea3aba12a08
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -978,7 +978,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_104
 
 FileName: /usr/share/libwacom/huion-h950p.tablet
 SPDXID: SPDXRef-libwacom-common_file_105
-FileChecksum: bc6dcea3d6f1eee7b748690a23526062fbc20b7d
+FileChecksum: SHA1: bc6dcea3d6f1eee7b748690a23526062fbc20b7d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -987,7 +987,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_105
 
 FileName: /usr/share/libwacom/huion-new-1060-plus.tablet
 SPDXID: SPDXRef-libwacom-common_file_106
-FileChecksum: 5620570411c5541a81398febd75d31891a8fe8f8
+FileChecksum: SHA1: 5620570411c5541a81398febd75d31891a8fe8f8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -996,7 +996,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_106
 
 FileName: /usr/share/libwacom/intuos-12x12.tablet
 SPDXID: SPDXRef-libwacom-common_file_107
-FileChecksum: 5181f5a8e4736b6b57c8c8706b518431a84d4ee3
+FileChecksum: SHA1: 5181f5a8e4736b6b57c8c8706b518431a84d4ee3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1005,7 +1005,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_107
 
 FileName: /usr/share/libwacom/intuos-12x18.tablet
 SPDXID: SPDXRef-libwacom-common_file_108
-FileChecksum: 17c276c8ccaa995eb9bdcdb07273b10e4374d364
+FileChecksum: SHA1: 17c276c8ccaa995eb9bdcdb07273b10e4374d364
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1014,7 +1014,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_108
 
 FileName: /usr/share/libwacom/intuos-4x5.tablet
 SPDXID: SPDXRef-libwacom-common_file_109
-FileChecksum: 8bd5f9415a620e0654e0d1214e823e5d02657676
+FileChecksum: SHA1: 8bd5f9415a620e0654e0d1214e823e5d02657676
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1023,7 +1023,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_109
 
 FileName: /usr/share/libwacom/intuos-6x8.tablet
 SPDXID: SPDXRef-libwacom-common_file_110
-FileChecksum: c68934f98eb1fbe383facc2958ecbc891ac7dc5d
+FileChecksum: SHA1: c68934f98eb1fbe383facc2958ecbc891ac7dc5d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1032,7 +1032,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_110
 
 FileName: /usr/share/libwacom/intuos-9x12.tablet
 SPDXID: SPDXRef-libwacom-common_file_111
-FileChecksum: 264dc1108ca4cba130458248d12c59d3e94e5408
+FileChecksum: SHA1: 264dc1108ca4cba130458248d12c59d3e94e5408
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1041,7 +1041,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_111
 
 FileName: /usr/share/libwacom/intuos-m-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_112
-FileChecksum: 485dda1554825a2a00e75d6fe525e5b17c305f58
+FileChecksum: SHA1: 485dda1554825a2a00e75d6fe525e5b17c305f58
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1050,7 +1050,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_112
 
 FileName: /usr/share/libwacom/intuos-m-p2.tablet
 SPDXID: SPDXRef-libwacom-common_file_113
-FileChecksum: 2b39c18233dfd72a9741d2607c0e4510ac3521dd
+FileChecksum: SHA1: 2b39c18233dfd72a9741d2607c0e4510ac3521dd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1059,7 +1059,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_113
 
 FileName: /usr/share/libwacom/intuos-m-p3-android.tablet
 SPDXID: SPDXRef-libwacom-common_file_114
-FileChecksum: ca9b01c86338a3b31581fe943104e98a30235401
+FileChecksum: SHA1: ca9b01c86338a3b31581fe943104e98a30235401
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1068,7 +1068,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_114
 
 FileName: /usr/share/libwacom/intuos-m-p3-wl-android.tablet
 SPDXID: SPDXRef-libwacom-common_file_115
-FileChecksum: 7e51489d056e4a48df136b058cd08047acf7e850
+FileChecksum: SHA1: 7e51489d056e4a48df136b058cd08047acf7e850
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1077,7 +1077,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_115
 
 FileName: /usr/share/libwacom/intuos-m-p3-wl.tablet
 SPDXID: SPDXRef-libwacom-common_file_116
-FileChecksum: 29ef663b9f1dd2531d6998cfd08dc9b47fac8f4d
+FileChecksum: SHA1: 29ef663b9f1dd2531d6998cfd08dc9b47fac8f4d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1086,7 +1086,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_116
 
 FileName: /usr/share/libwacom/intuos-m-p3.tablet
 SPDXID: SPDXRef-libwacom-common_file_117
-FileChecksum: 0e304a1e88ca2ac4678f4d6bfa96d40465607860
+FileChecksum: SHA1: 0e304a1e88ca2ac4678f4d6bfa96d40465607860
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1095,7 +1095,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_117
 
 FileName: /usr/share/libwacom/intuos-m-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_118
-FileChecksum: 6386f3a9204a8c4e9300cb9903bd80a42e36f765
+FileChecksum: SHA1: 6386f3a9204a8c4e9300cb9903bd80a42e36f765
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1104,7 +1104,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_118
 
 FileName: /usr/share/libwacom/intuos-m-pt2.tablet
 SPDXID: SPDXRef-libwacom-common_file_119
-FileChecksum: 68e938c86547bfbd8e5655b5dc38cbe04b80b633
+FileChecksum: SHA1: 68e938c86547bfbd8e5655b5dc38cbe04b80b633
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1113,7 +1113,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_119
 
 FileName: /usr/share/libwacom/intuos-pro-2-l.tablet
 SPDXID: SPDXRef-libwacom-common_file_120
-FileChecksum: 7a568437ca04a1e5f1465bfcae081d20a8ed4aea
+FileChecksum: SHA1: 7a568437ca04a1e5f1465bfcae081d20a8ed4aea
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1122,7 +1122,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_120
 
 FileName: /usr/share/libwacom/intuos-pro-2-m.tablet
 SPDXID: SPDXRef-libwacom-common_file_121
-FileChecksum: 4bb42582a59805a4ecd074bc0566cc596287f974
+FileChecksum: SHA1: 4bb42582a59805a4ecd074bc0566cc596287f974
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1131,7 +1131,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_121
 
 FileName: /usr/share/libwacom/intuos-pro-2-s.tablet
 SPDXID: SPDXRef-libwacom-common_file_122
-FileChecksum: ab224363a5a2bcd0d29677520bf72f338a094717
+FileChecksum: SHA1: ab224363a5a2bcd0d29677520bf72f338a094717
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1140,7 +1140,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_122
 
 FileName: /usr/share/libwacom/intuos-pro-l.tablet
 SPDXID: SPDXRef-libwacom-common_file_123
-FileChecksum: 421ce021e2059cea6c06aaa33e144811dc481dfb
+FileChecksum: SHA1: 421ce021e2059cea6c06aaa33e144811dc481dfb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1149,7 +1149,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_123
 
 FileName: /usr/share/libwacom/intuos-pro-m.tablet
 SPDXID: SPDXRef-libwacom-common_file_124
-FileChecksum: edfdcf5a910a244c5c81e6654f086a73f9d1228e
+FileChecksum: SHA1: edfdcf5a910a244c5c81e6654f086a73f9d1228e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1158,7 +1158,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_124
 
 FileName: /usr/share/libwacom/intuos-pro-s.tablet
 SPDXID: SPDXRef-libwacom-common_file_125
-FileChecksum: 525f272fa74cb5dc48495ff4bf5c01be3279bfc0
+FileChecksum: SHA1: 525f272fa74cb5dc48495ff4bf5c01be3279bfc0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1167,7 +1167,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_125
 
 FileName: /usr/share/libwacom/intuos-s-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_126
-FileChecksum: ee04ae7fd5953180a85b8df543397176eba392ee
+FileChecksum: SHA1: ee04ae7fd5953180a85b8df543397176eba392ee
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1176,7 +1176,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_126
 
 FileName: /usr/share/libwacom/intuos-s-p2.tablet
 SPDXID: SPDXRef-libwacom-common_file_127
-FileChecksum: 049b77370f8d37de057f2f4055e397c576959f64
+FileChecksum: SHA1: 049b77370f8d37de057f2f4055e397c576959f64
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1185,7 +1185,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_127
 
 FileName: /usr/share/libwacom/intuos-s-p3-android.tablet
 SPDXID: SPDXRef-libwacom-common_file_128
-FileChecksum: 7633311a5a944483f3967aaa46c68f3995fd215c
+FileChecksum: SHA1: 7633311a5a944483f3967aaa46c68f3995fd215c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1194,7 +1194,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_128
 
 FileName: /usr/share/libwacom/intuos-s-p3-wl-android.tablet
 SPDXID: SPDXRef-libwacom-common_file_129
-FileChecksum: 695666c5841dd3fb27b61a106031cb164b19be45
+FileChecksum: SHA1: 695666c5841dd3fb27b61a106031cb164b19be45
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1203,7 +1203,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_129
 
 FileName: /usr/share/libwacom/intuos-s-p3-wl.tablet
 SPDXID: SPDXRef-libwacom-common_file_130
-FileChecksum: 5a116ffc15ff78e6c0c7a264c3368edf449cd36c
+FileChecksum: SHA1: 5a116ffc15ff78e6c0c7a264c3368edf449cd36c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1212,7 +1212,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_130
 
 FileName: /usr/share/libwacom/intuos-s-p3.tablet
 SPDXID: SPDXRef-libwacom-common_file_131
-FileChecksum: 7234799e2e7d9ee0c4a8eb30c42c030d3d73fbc7
+FileChecksum: SHA1: 7234799e2e7d9ee0c4a8eb30c42c030d3d73fbc7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1221,7 +1221,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_131
 
 FileName: /usr/share/libwacom/intuos-s-pt.tablet
 SPDXID: SPDXRef-libwacom-common_file_132
-FileChecksum: 61f11a7ea5c211b1c6fd912cdfdbaf9e9954adc6
+FileChecksum: SHA1: 61f11a7ea5c211b1c6fd912cdfdbaf9e9954adc6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1230,7 +1230,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_132
 
 FileName: /usr/share/libwacom/intuos-s-pt2.tablet
 SPDXID: SPDXRef-libwacom-common_file_133
-FileChecksum: 9ad869b9b60133f10365c826da511373601dc2f6
+FileChecksum: SHA1: 9ad869b9b60133f10365c826da511373601dc2f6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1239,7 +1239,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_133
 
 FileName: /usr/share/libwacom/intuos2-12x12.tablet
 SPDXID: SPDXRef-libwacom-common_file_134
-FileChecksum: dc3ea2d7292d1973962b9800435e0a88ce01ed97
+FileChecksum: SHA1: dc3ea2d7292d1973962b9800435e0a88ce01ed97
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1248,7 +1248,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_134
 
 FileName: /usr/share/libwacom/intuos2-12x18.tablet
 SPDXID: SPDXRef-libwacom-common_file_135
-FileChecksum: 2da09167e74d2584b1d963334c17afc66fdc293c
+FileChecksum: SHA1: 2da09167e74d2584b1d963334c17afc66fdc293c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1257,7 +1257,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_135
 
 FileName: /usr/share/libwacom/intuos2-4x5.tablet
 SPDXID: SPDXRef-libwacom-common_file_136
-FileChecksum: 207f07439f79886c0148fa976e46085cd20c550a
+FileChecksum: SHA1: 207f07439f79886c0148fa976e46085cd20c550a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1266,7 +1266,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_136
 
 FileName: /usr/share/libwacom/intuos2-6x8.tablet
 SPDXID: SPDXRef-libwacom-common_file_137
-FileChecksum: 58b053d1b1325bb375327418f940bad5dbce189c
+FileChecksum: SHA1: 58b053d1b1325bb375327418f940bad5dbce189c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1275,7 +1275,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_137
 
 FileName: /usr/share/libwacom/intuos2-9x12.tablet
 SPDXID: SPDXRef-libwacom-common_file_138
-FileChecksum: c88d35f8e5a4f3232425342134df357ca4f68826
+FileChecksum: SHA1: c88d35f8e5a4f3232425342134df357ca4f68826
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1284,7 +1284,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_138
 
 FileName: /usr/share/libwacom/intuos3-12x12.tablet
 SPDXID: SPDXRef-libwacom-common_file_139
-FileChecksum: 2deec93b686c090f7a4bb88d4a2137e5e103ad0e
+FileChecksum: SHA1: 2deec93b686c090f7a4bb88d4a2137e5e103ad0e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1293,7 +1293,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_139
 
 FileName: /usr/share/libwacom/intuos3-12x19.tablet
 SPDXID: SPDXRef-libwacom-common_file_140
-FileChecksum: ea764e58a878542f95242a9b5596dc0b5255c52f
+FileChecksum: SHA1: ea764e58a878542f95242a9b5596dc0b5255c52f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1302,7 +1302,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_140
 
 FileName: /usr/share/libwacom/intuos3-4x5.tablet
 SPDXID: SPDXRef-libwacom-common_file_141
-FileChecksum: 8dfbbdb9222b73743a32fc7fd61c8599d7ecba34
+FileChecksum: SHA1: 8dfbbdb9222b73743a32fc7fd61c8599d7ecba34
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1311,7 +1311,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_141
 
 FileName: /usr/share/libwacom/intuos3-4x6.tablet
 SPDXID: SPDXRef-libwacom-common_file_142
-FileChecksum: 00a650a9707bff5628c992f7ed6611c148c69849
+FileChecksum: SHA1: 00a650a9707bff5628c992f7ed6611c148c69849
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1320,7 +1320,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_142
 
 FileName: /usr/share/libwacom/intuos3-6x11.tablet
 SPDXID: SPDXRef-libwacom-common_file_143
-FileChecksum: c01e9661930cf642c7d8234de961caa42df8d7e1
+FileChecksum: SHA1: c01e9661930cf642c7d8234de961caa42df8d7e1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1329,7 +1329,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_143
 
 FileName: /usr/share/libwacom/intuos3-6x8.tablet
 SPDXID: SPDXRef-libwacom-common_file_144
-FileChecksum: 807b292f85ba295166b91ab1a8e6af4dd1a3561b
+FileChecksum: SHA1: 807b292f85ba295166b91ab1a8e6af4dd1a3561b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1338,7 +1338,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_144
 
 FileName: /usr/share/libwacom/intuos3-9x12.tablet
 SPDXID: SPDXRef-libwacom-common_file_145
-FileChecksum: ad52efc0078a7ba6760cc1b6b7abaa3c800e80fd
+FileChecksum: SHA1: ad52efc0078a7ba6760cc1b6b7abaa3c800e80fd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1347,7 +1347,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_145
 
 FileName: /usr/share/libwacom/intuos4-12x19.tablet
 SPDXID: SPDXRef-libwacom-common_file_146
-FileChecksum: 9d1baab78b739a87c9bf323e5dde3811e2f6614e
+FileChecksum: SHA1: 9d1baab78b739a87c9bf323e5dde3811e2f6614e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1356,7 +1356,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_146
 
 FileName: /usr/share/libwacom/intuos4-4x6.tablet
 SPDXID: SPDXRef-libwacom-common_file_147
-FileChecksum: a274d8343a3890c87a3b82a017f99cf23ba8130d
+FileChecksum: SHA1: a274d8343a3890c87a3b82a017f99cf23ba8130d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1365,7 +1365,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_147
 
 FileName: /usr/share/libwacom/intuos4-6x9-wl.tablet
 SPDXID: SPDXRef-libwacom-common_file_148
-FileChecksum: aa2c765db760075623af4c12df1aa6abfae4ca96
+FileChecksum: SHA1: aa2c765db760075623af4c12df1aa6abfae4ca96
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1374,7 +1374,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_148
 
 FileName: /usr/share/libwacom/intuos4-6x9.tablet
 SPDXID: SPDXRef-libwacom-common_file_149
-FileChecksum: 5954fa1271c36d213dc8d26ecfc15bcb9b38cd3d
+FileChecksum: SHA1: 5954fa1271c36d213dc8d26ecfc15bcb9b38cd3d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1383,7 +1383,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_149
 
 FileName: /usr/share/libwacom/intuos4-8x13.tablet
 SPDXID: SPDXRef-libwacom-common_file_150
-FileChecksum: acf674d788aad678582b4281a3b3e86c4f756ddc
+FileChecksum: SHA1: acf674d788aad678582b4281a3b3e86c4f756ddc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1392,7 +1392,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_150
 
 FileName: /usr/share/libwacom/intuos5-m.tablet
 SPDXID: SPDXRef-libwacom-common_file_151
-FileChecksum: bcbb8713870b817325c49fc1f7829626517b2c1e
+FileChecksum: SHA1: bcbb8713870b817325c49fc1f7829626517b2c1e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1401,7 +1401,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_151
 
 FileName: /usr/share/libwacom/intuos5-s.tablet
 SPDXID: SPDXRef-libwacom-common_file_152
-FileChecksum: 131c0b91aba02f5fe0c90f22d1b49a43be54a3df
+FileChecksum: SHA1: 131c0b91aba02f5fe0c90f22d1b49a43be54a3df
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1410,7 +1410,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_152
 
 FileName: /usr/share/libwacom/intuos5-touch-l.tablet
 SPDXID: SPDXRef-libwacom-common_file_153
-FileChecksum: 614585f9ce53fa433718534b82df028fe05228e1
+FileChecksum: SHA1: 614585f9ce53fa433718534b82df028fe05228e1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1419,7 +1419,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_153
 
 FileName: /usr/share/libwacom/intuos5-touch-m.tablet
 SPDXID: SPDXRef-libwacom-common_file_154
-FileChecksum: 9910050e1ddac14f50789eca85ba2c039251e38d
+FileChecksum: SHA1: 9910050e1ddac14f50789eca85ba2c039251e38d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1428,7 +1428,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_154
 
 FileName: /usr/share/libwacom/intuos5-touch-s.tablet
 SPDXID: SPDXRef-libwacom-common_file_155
-FileChecksum: 8fedd6908a7141c11668c1adbcd436c2b18e8441
+FileChecksum: SHA1: 8fedd6908a7141c11668c1adbcd436c2b18e8441
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1437,7 +1437,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_155
 
 FileName: /usr/share/libwacom/isdv4-016c.tablet
 SPDXID: SPDXRef-libwacom-common_file_156
-FileChecksum: 1a832c7d7998a3decaabdc5052701198210b5bf3
+FileChecksum: SHA1: 1a832c7d7998a3decaabdc5052701198210b5bf3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1446,7 +1446,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_156
 
 FileName: /usr/share/libwacom/isdv4-100.tablet
 SPDXID: SPDXRef-libwacom-common_file_157
-FileChecksum: af7aee583fd06e57c48db57aff49a5ac7a2fba5f
+FileChecksum: SHA1: af7aee583fd06e57c48db57aff49a5ac7a2fba5f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1455,7 +1455,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_157
 
 FileName: /usr/share/libwacom/isdv4-101.tablet
 SPDXID: SPDXRef-libwacom-common_file_158
-FileChecksum: b6644008c9f47da360dd3d961ec3f6143399a57a
+FileChecksum: SHA1: b6644008c9f47da360dd3d961ec3f6143399a57a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1464,7 +1464,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_158
 
 FileName: /usr/share/libwacom/isdv4-104.tablet
 SPDXID: SPDXRef-libwacom-common_file_159
-FileChecksum: be3a70b829ad395f5e79dc56921af18592c7ddf2
+FileChecksum: SHA1: be3a70b829ad395f5e79dc56921af18592c7ddf2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1473,7 +1473,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_159
 
 FileName: /usr/share/libwacom/isdv4-10d.tablet
 SPDXID: SPDXRef-libwacom-common_file_160
-FileChecksum: d5f56944d46542b34d18f67fe1288bd6f39a525b
+FileChecksum: SHA1: d5f56944d46542b34d18f67fe1288bd6f39a525b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1482,7 +1482,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_160
 
 FileName: /usr/share/libwacom/isdv4-10e.tablet
 SPDXID: SPDXRef-libwacom-common_file_161
-FileChecksum: 25a3ebc81894350729bb8d305ce3ad5f3c3cc61b
+FileChecksum: SHA1: 25a3ebc81894350729bb8d305ce3ad5f3c3cc61b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1491,7 +1491,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_161
 
 FileName: /usr/share/libwacom/isdv4-10f.tablet
 SPDXID: SPDXRef-libwacom-common_file_162
-FileChecksum: 9569f0357b4a0f74c337c4b594e772b84d36b99a
+FileChecksum: SHA1: 9569f0357b4a0f74c337c4b594e772b84d36b99a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1500,7 +1500,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_162
 
 FileName: /usr/share/libwacom/isdv4-114.tablet
 SPDXID: SPDXRef-libwacom-common_file_163
-FileChecksum: 61a843b8f75aaf240c15340d1ddc3f2f77f57337
+FileChecksum: SHA1: 61a843b8f75aaf240c15340d1ddc3f2f77f57337
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1509,7 +1509,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_163
 
 FileName: /usr/share/libwacom/isdv4-116.tablet
 SPDXID: SPDXRef-libwacom-common_file_164
-FileChecksum: 8331f4bcd768b3a90e1c2f49b3e6b34cf87dd3a5
+FileChecksum: SHA1: 8331f4bcd768b3a90e1c2f49b3e6b34cf87dd3a5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1518,7 +1518,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_164
 
 FileName: /usr/share/libwacom/isdv4-117.tablet
 SPDXID: SPDXRef-libwacom-common_file_165
-FileChecksum: 630d72553009ca3decfe07ff09ffde998db59e07
+FileChecksum: SHA1: 630d72553009ca3decfe07ff09ffde998db59e07
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1527,7 +1527,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_165
 
 FileName: /usr/share/libwacom/isdv4-124.tablet
 SPDXID: SPDXRef-libwacom-common_file_166
-FileChecksum: 70c1458df77a62e34fa502e08f4ed15fc26cca39
+FileChecksum: SHA1: 70c1458df77a62e34fa502e08f4ed15fc26cca39
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1536,7 +1536,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_166
 
 FileName: /usr/share/libwacom/isdv4-12c.tablet
 SPDXID: SPDXRef-libwacom-common_file_167
-FileChecksum: b70f936c40aa4a1a7d4de21d9866eaefd564b5af
+FileChecksum: SHA1: b70f936c40aa4a1a7d4de21d9866eaefd564b5af
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1545,7 +1545,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_167
 
 FileName: /usr/share/libwacom/isdv4-149.tablet
 SPDXID: SPDXRef-libwacom-common_file_168
-FileChecksum: 62f1f2109bf16dbe741669c10520471b0bc22c75
+FileChecksum: SHA1: 62f1f2109bf16dbe741669c10520471b0bc22c75
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1554,7 +1554,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_168
 
 FileName: /usr/share/libwacom/isdv4-2d1f-001e.tablet
 SPDXID: SPDXRef-libwacom-common_file_169
-FileChecksum: e3a99f06d5bea5b5edaece3cbd5d26376f4181c9
+FileChecksum: SHA1: e3a99f06d5bea5b5edaece3cbd5d26376f4181c9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1563,7 +1563,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_169
 
 FileName: /usr/share/libwacom/isdv4-2d1f-002e.tablet
 SPDXID: SPDXRef-libwacom-common_file_170
-FileChecksum: ca402612977e7ad5d67648e207115f9dcb453399
+FileChecksum: SHA1: ca402612977e7ad5d67648e207115f9dcb453399
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1572,7 +1572,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_170
 
 FileName: /usr/share/libwacom/isdv4-2d1f-0095.tablet
 SPDXID: SPDXRef-libwacom-common_file_171
-FileChecksum: d421b6cd4ab59b84da1f9a9888abf1c8641574c3
+FileChecksum: SHA1: d421b6cd4ab59b84da1f9a9888abf1c8641574c3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1581,7 +1581,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_171
 
 FileName: /usr/share/libwacom/isdv4-2d1f-0163.tablet
 SPDXID: SPDXRef-libwacom-common_file_172
-FileChecksum: c2a988abfa5f64c2d6a746211a14adc4c625d9d2
+FileChecksum: SHA1: c2a988abfa5f64c2d6a746211a14adc4c625d9d2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1590,7 +1590,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_172
 
 FileName: /usr/share/libwacom/isdv4-2d1f-524c.tablet
 SPDXID: SPDXRef-libwacom-common_file_173
-FileChecksum: a687119b94e0a03e92df0a84f0d6c19f2fe8bf7c
+FileChecksum: SHA1: a687119b94e0a03e92df0a84f0d6c19f2fe8bf7c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1599,7 +1599,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_173
 
 FileName: /usr/share/libwacom/isdv4-4004.tablet
 SPDXID: SPDXRef-libwacom-common_file_174
-FileChecksum: 209fd92816b9b57f8503b66bcba0e1f5a1d8bcef
+FileChecksum: SHA1: 209fd92816b9b57f8503b66bcba0e1f5a1d8bcef
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1608,7 +1608,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_174
 
 FileName: /usr/share/libwacom/isdv4-4800.tablet
 SPDXID: SPDXRef-libwacom-common_file_175
-FileChecksum: c3ae60d4075b60fe610e209cd6e332091f676d50
+FileChecksum: SHA1: c3ae60d4075b60fe610e209cd6e332091f676d50
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1617,7 +1617,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_175
 
 FileName: /usr/share/libwacom/isdv4-4804.tablet
 SPDXID: SPDXRef-libwacom-common_file_176
-FileChecksum: c8935fd03c32088efcd595c6ef5accc11344b4ea
+FileChecksum: SHA1: c8935fd03c32088efcd595c6ef5accc11344b4ea
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1626,7 +1626,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_176
 
 FileName: /usr/share/libwacom/isdv4-4806.tablet
 SPDXID: SPDXRef-libwacom-common_file_177
-FileChecksum: ccfed3b26e62b71e67f3778d78c02b67839d7c28
+FileChecksum: SHA1: ccfed3b26e62b71e67f3778d78c02b67839d7c28
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1635,7 +1635,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_177
 
 FileName: /usr/share/libwacom/isdv4-4807.tablet
 SPDXID: SPDXRef-libwacom-common_file_178
-FileChecksum: be6f382b9a9729967ec996b94d1141ac58fb18d6
+FileChecksum: SHA1: be6f382b9a9729967ec996b94d1141ac58fb18d6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1644,7 +1644,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_178
 
 FileName: /usr/share/libwacom/isdv4-4809.tablet
 SPDXID: SPDXRef-libwacom-common_file_179
-FileChecksum: 4c8ad611801791fa7e8afd037ad50eb161524153
+FileChecksum: SHA1: 4c8ad611801791fa7e8afd037ad50eb161524153
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1653,7 +1653,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_179
 
 FileName: /usr/share/libwacom/isdv4-4814.tablet
 SPDXID: SPDXRef-libwacom-common_file_180
-FileChecksum: 3152d3249f62184dc0a66ffa5e548628a0636fc8
+FileChecksum: SHA1: 3152d3249f62184dc0a66ffa5e548628a0636fc8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1662,7 +1662,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_180
 
 FileName: /usr/share/libwacom/isdv4-481a.tablet
 SPDXID: SPDXRef-libwacom-common_file_181
-FileChecksum: ce8ae166c0ae7d7e13a81d97fd2d67d18ab41824
+FileChecksum: SHA1: ce8ae166c0ae7d7e13a81d97fd2d67d18ab41824
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1671,7 +1671,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_181
 
 FileName: /usr/share/libwacom/isdv4-4822.tablet
 SPDXID: SPDXRef-libwacom-common_file_182
-FileChecksum: 6e3cf430ae90e24db5da5a89cf187aef29c61e66
+FileChecksum: SHA1: 6e3cf430ae90e24db5da5a89cf187aef29c61e66
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1680,7 +1680,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_182
 
 FileName: /usr/share/libwacom/isdv4-4824.tablet
 SPDXID: SPDXRef-libwacom-common_file_183
-FileChecksum: ba64d7d2c03aca0a7e85e2f00d8e024be06ee125
+FileChecksum: SHA1: ba64d7d2c03aca0a7e85e2f00d8e024be06ee125
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1689,7 +1689,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_183
 
 FileName: /usr/share/libwacom/isdv4-4831.tablet
 SPDXID: SPDXRef-libwacom-common_file_184
-FileChecksum: 09794a6829e10515e37364cccef3f817f77a2f3f
+FileChecksum: SHA1: 09794a6829e10515e37364cccef3f817f77a2f3f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1698,7 +1698,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_184
 
 FileName: /usr/share/libwacom/isdv4-4834.tablet
 SPDXID: SPDXRef-libwacom-common_file_185
-FileChecksum: 5e3d2be130820df14c6baba7ccbd8dd7199f068a
+FileChecksum: SHA1: 5e3d2be130820df14c6baba7ccbd8dd7199f068a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1707,7 +1707,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_185
 
 FileName: /usr/share/libwacom/isdv4-4838.tablet
 SPDXID: SPDXRef-libwacom-common_file_186
-FileChecksum: d3cbbdb0f95067eeeb6cbdbbf29977d9b6f42cac
+FileChecksum: SHA1: d3cbbdb0f95067eeeb6cbdbbf29977d9b6f42cac
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1716,7 +1716,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_186
 
 FileName: /usr/share/libwacom/isdv4-4841.tablet
 SPDXID: SPDXRef-libwacom-common_file_187
-FileChecksum: dd847a45945d8f856909b0e2a5ccd122567c289d
+FileChecksum: SHA1: dd847a45945d8f856909b0e2a5ccd122567c289d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1725,7 +1725,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_187
 
 FileName: /usr/share/libwacom/isdv4-484c.tablet
 SPDXID: SPDXRef-libwacom-common_file_188
-FileChecksum: 2890a588d93a7e524719992ae5d6b9118e15448d
+FileChecksum: SHA1: 2890a588d93a7e524719992ae5d6b9118e15448d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1734,7 +1734,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_188
 
 FileName: /usr/share/libwacom/isdv4-484d.tablet
 SPDXID: SPDXRef-libwacom-common_file_189
-FileChecksum: 737b210022c46890b87b23c953f8589bc995d9b0
+FileChecksum: SHA1: 737b210022c46890b87b23c953f8589bc995d9b0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1743,7 +1743,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_189
 
 FileName: /usr/share/libwacom/isdv4-484e.tablet
 SPDXID: SPDXRef-libwacom-common_file_190
-FileChecksum: e4706ef7bb27d3f888dea02e094b6948df9c2daa
+FileChecksum: SHA1: e4706ef7bb27d3f888dea02e094b6948df9c2daa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1752,7 +1752,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_190
 
 FileName: /usr/share/libwacom/isdv4-4851.tablet
 SPDXID: SPDXRef-libwacom-common_file_191
-FileChecksum: 9e9794cdb971680082ccbf7aa02b87e3226dc0f5
+FileChecksum: SHA1: 9e9794cdb971680082ccbf7aa02b87e3226dc0f5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1761,7 +1761,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_191
 
 FileName: /usr/share/libwacom/isdv4-485e.tablet
 SPDXID: SPDXRef-libwacom-common_file_192
-FileChecksum: 44407fe27ab761b747c38c8953c0190198b1ac97
+FileChecksum: SHA1: 44407fe27ab761b747c38c8953c0190198b1ac97
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1770,7 +1770,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_192
 
 FileName: /usr/share/libwacom/isdv4-4865.tablet
 SPDXID: SPDXRef-libwacom-common_file_193
-FileChecksum: 22bdd38ea15995021dec54f25b5a93e5f2a8f6bc
+FileChecksum: SHA1: 22bdd38ea15995021dec54f25b5a93e5f2a8f6bc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1779,7 +1779,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_193
 
 FileName: /usr/share/libwacom/isdv4-486a.tablet
 SPDXID: SPDXRef-libwacom-common_file_194
-FileChecksum: da1a6ec5ee0dff53d7ec0c715757aec5339a547a
+FileChecksum: SHA1: da1a6ec5ee0dff53d7ec0c715757aec5339a547a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1788,7 +1788,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_194
 
 FileName: /usr/share/libwacom/isdv4-4870.tablet
 SPDXID: SPDXRef-libwacom-common_file_195
-FileChecksum: ea5e30e2fac72458ce54e5555771b4b6aa0f363c
+FileChecksum: SHA1: ea5e30e2fac72458ce54e5555771b4b6aa0f363c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1797,7 +1797,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_195
 
 FileName: /usr/share/libwacom/isdv4-4875.tablet
 SPDXID: SPDXRef-libwacom-common_file_196
-FileChecksum: fc51adb4cf8cd64e100b0964cc5991787151e571
+FileChecksum: SHA1: fc51adb4cf8cd64e100b0964cc5991787151e571
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1806,7 +1806,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_196
 
 FileName: /usr/share/libwacom/isdv4-488f.tablet
 SPDXID: SPDXRef-libwacom-common_file_197
-FileChecksum: 536f2620db9b620c266d882fe0c5c9d2d66667cc
+FileChecksum: SHA1: 536f2620db9b620c266d882fe0c5c9d2d66667cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1815,7 +1815,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_197
 
 FileName: /usr/share/libwacom/isdv4-4898.tablet
 SPDXID: SPDXRef-libwacom-common_file_198
-FileChecksum: 0b6b6fefc805f94d6853571fcf77acca9c7c1c18
+FileChecksum: SHA1: 0b6b6fefc805f94d6853571fcf77acca9c7c1c18
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1824,7 +1824,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_198
 
 FileName: /usr/share/libwacom/isdv4-48c9.tablet
 SPDXID: SPDXRef-libwacom-common_file_199
-FileChecksum: f9a6cede8f229d96e9ebfb257a99d151bf2d9f65
+FileChecksum: SHA1: f9a6cede8f229d96e9ebfb257a99d151bf2d9f65
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1833,7 +1833,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_199
 
 FileName: /usr/share/libwacom/isdv4-48ca.tablet
 SPDXID: SPDXRef-libwacom-common_file_200
-FileChecksum: 7df8ebca858809c70b49b746bb82cdc2788b0900
+FileChecksum: SHA1: 7df8ebca858809c70b49b746bb82cdc2788b0900
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1842,7 +1842,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_200
 
 FileName: /usr/share/libwacom/isdv4-48ce.tablet
 SPDXID: SPDXRef-libwacom-common_file_201
-FileChecksum: e3afb5e2b2dadc53b17d3b230045c3808fa0f060
+FileChecksum: SHA1: e3afb5e2b2dadc53b17d3b230045c3808fa0f060
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1851,7 +1851,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_201
 
 FileName: /usr/share/libwacom/isdv4-48d6.tablet
 SPDXID: SPDXRef-libwacom-common_file_202
-FileChecksum: aaa702d3b06b7af4418191ece94ebeb1eb0d063d
+FileChecksum: SHA1: aaa702d3b06b7af4418191ece94ebeb1eb0d063d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1860,7 +1860,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_202
 
 FileName: /usr/share/libwacom/isdv4-48eb.tablet
 SPDXID: SPDXRef-libwacom-common_file_203
-FileChecksum: bcb135415da93420afa4f52ca9c721a84ea90d77
+FileChecksum: SHA1: bcb135415da93420afa4f52ca9c721a84ea90d77
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1869,7 +1869,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_203
 
 FileName: /usr/share/libwacom/isdv4-48ec.tablet
 SPDXID: SPDXRef-libwacom-common_file_204
-FileChecksum: 04f307daa3594ef878b41c36d4def1fd5b0774cc
+FileChecksum: SHA1: 04f307daa3594ef878b41c36d4def1fd5b0774cc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1878,7 +1878,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_204
 
 FileName: /usr/share/libwacom/isdv4-48ed.tablet
 SPDXID: SPDXRef-libwacom-common_file_205
-FileChecksum: 868f335951b30b76840c4512137dd48a1058b7eb
+FileChecksum: SHA1: 868f335951b30b76840c4512137dd48a1058b7eb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1887,7 +1887,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_205
 
 FileName: /usr/share/libwacom/isdv4-48ee.tablet
 SPDXID: SPDXRef-libwacom-common_file_206
-FileChecksum: 0224351d0fa2b0bcff14c4f014b76670b55014f3
+FileChecksum: SHA1: 0224351d0fa2b0bcff14c4f014b76670b55014f3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1896,7 +1896,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_206
 
 FileName: /usr/share/libwacom/isdv4-48f6.tablet
 SPDXID: SPDXRef-libwacom-common_file_207
-FileChecksum: 39892243e94e9a6466e831b3a55c981f22fb4bce
+FileChecksum: SHA1: 39892243e94e9a6466e831b3a55c981f22fb4bce
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1905,7 +1905,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_207
 
 FileName: /usr/share/libwacom/isdv4-490a.tablet
 SPDXID: SPDXRef-libwacom-common_file_208
-FileChecksum: 3a358f7af9ac4a80bc15e452d51abfe0c332374f
+FileChecksum: SHA1: 3a358f7af9ac4a80bc15e452d51abfe0c332374f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1914,7 +1914,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_208
 
 FileName: /usr/share/libwacom/isdv4-490b.tablet
 SPDXID: SPDXRef-libwacom-common_file_209
-FileChecksum: 7e0e96df41e3917be630180001412e12994741e0
+FileChecksum: SHA1: 7e0e96df41e3917be630180001412e12994741e0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1923,7 +1923,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_209
 
 FileName: /usr/share/libwacom/isdv4-4957.tablet
 SPDXID: SPDXRef-libwacom-common_file_210
-FileChecksum: f37f270b8df3f838eb05be9d9febf2f18aea963c
+FileChecksum: SHA1: f37f270b8df3f838eb05be9d9febf2f18aea963c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1932,7 +1932,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_210
 
 FileName: /usr/share/libwacom/isdv4-495f.tablet
 SPDXID: SPDXRef-libwacom-common_file_211
-FileChecksum: 908c16157eed156c2d41b709277473722a055e37
+FileChecksum: SHA1: 908c16157eed156c2d41b709277473722a055e37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1941,7 +1941,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_211
 
 FileName: /usr/share/libwacom/isdv4-496c.tablet
 SPDXID: SPDXRef-libwacom-common_file_212
-FileChecksum: 8ebe62c2bd2e1921208d399b2a6d4b3142b38846
+FileChecksum: SHA1: 8ebe62c2bd2e1921208d399b2a6d4b3142b38846
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1950,7 +1950,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_212
 
 FileName: /usr/share/libwacom/isdv4-4988.tablet
 SPDXID: SPDXRef-libwacom-common_file_213
-FileChecksum: 3aeda34ef749fd8d60cead8c4e1eee5160a2d0d5
+FileChecksum: SHA1: 3aeda34ef749fd8d60cead8c4e1eee5160a2d0d5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1959,7 +1959,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_213
 
 FileName: /usr/share/libwacom/isdv4-4995.tablet
 SPDXID: SPDXRef-libwacom-common_file_214
-FileChecksum: 2071777de951c291447b09201803d9d3eab30f71
+FileChecksum: SHA1: 2071777de951c291447b09201803d9d3eab30f71
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1968,7 +1968,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_214
 
 FileName: /usr/share/libwacom/isdv4-49a3.tablet
 SPDXID: SPDXRef-libwacom-common_file_215
-FileChecksum: 9a2cc4962d8d32e924d5b9b721d68aa8a2007e01
+FileChecksum: SHA1: 9a2cc4962d8d32e924d5b9b721d68aa8a2007e01
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1977,7 +1977,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_215
 
 FileName: /usr/share/libwacom/isdv4-5000.tablet
 SPDXID: SPDXRef-libwacom-common_file_216
-FileChecksum: beb3358165b184a99d7531f1f41df1d80e98f0e0
+FileChecksum: SHA1: beb3358165b184a99d7531f1f41df1d80e98f0e0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1986,7 +1986,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_216
 
 FileName: /usr/share/libwacom/isdv4-5002.tablet
 SPDXID: SPDXRef-libwacom-common_file_217
-FileChecksum: 48a05f51dce9f2477fa3684d271a2c9917fac6ff
+FileChecksum: SHA1: 48a05f51dce9f2477fa3684d271a2c9917fac6ff
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -1995,7 +1995,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_217
 
 FileName: /usr/share/libwacom/isdv4-5010.tablet
 SPDXID: SPDXRef-libwacom-common_file_218
-FileChecksum: 1d3c62d546fcb88c31612a646b6c54707738e71d
+FileChecksum: SHA1: 1d3c62d546fcb88c31612a646b6c54707738e71d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2004,7 +2004,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_218
 
 FileName: /usr/share/libwacom/isdv4-5013.tablet
 SPDXID: SPDXRef-libwacom-common_file_219
-FileChecksum: 4ee7b5aae87f12af8ee1695483ca852a87571289
+FileChecksum: SHA1: 4ee7b5aae87f12af8ee1695483ca852a87571289
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2013,7 +2013,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_219
 
 FileName: /usr/share/libwacom/isdv4-5014.tablet
 SPDXID: SPDXRef-libwacom-common_file_220
-FileChecksum: 50dac9c45963c493b682ebffa5ab4eecd87fd313
+FileChecksum: SHA1: 50dac9c45963c493b682ebffa5ab4eecd87fd313
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2022,7 +2022,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_220
 
 FileName: /usr/share/libwacom/isdv4-5019.tablet
 SPDXID: SPDXRef-libwacom-common_file_221
-FileChecksum: 898bb55a4ffeccbf6d960e48750837fb8c0221db
+FileChecksum: SHA1: 898bb55a4ffeccbf6d960e48750837fb8c0221db
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2031,7 +2031,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_221
 
 FileName: /usr/share/libwacom/isdv4-502a.tablet
 SPDXID: SPDXRef-libwacom-common_file_222
-FileChecksum: 57b80e136977bed6170c605d058e9a98269800bc
+FileChecksum: SHA1: 57b80e136977bed6170c605d058e9a98269800bc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2040,7 +2040,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_222
 
 FileName: /usr/share/libwacom/isdv4-503e.tablet
 SPDXID: SPDXRef-libwacom-common_file_223
-FileChecksum: 5dd62437dc7070b42010d1c93168584149e194f4
+FileChecksum: SHA1: 5dd62437dc7070b42010d1c93168584149e194f4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2049,7 +2049,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_223
 
 FileName: /usr/share/libwacom/isdv4-503f.tablet
 SPDXID: SPDXRef-libwacom-common_file_224
-FileChecksum: c30e554f256dd46d0564782c9777de344d565183
+FileChecksum: SHA1: c30e554f256dd46d0564782c9777de344d565183
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2058,7 +2058,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_224
 
 FileName: /usr/share/libwacom/isdv4-5040.tablet
 SPDXID: SPDXRef-libwacom-common_file_225
-FileChecksum: cfdaabbb78ffdc595ffaedd611b2670cb45d2f7b
+FileChecksum: SHA1: cfdaabbb78ffdc595ffaedd611b2670cb45d2f7b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2067,7 +2067,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_225
 
 FileName: /usr/share/libwacom/isdv4-5044.tablet
 SPDXID: SPDXRef-libwacom-common_file_226
-FileChecksum: 0a46b0a81f4317354ad6e5c52e77d16de280a524
+FileChecksum: SHA1: 0a46b0a81f4317354ad6e5c52e77d16de280a524
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2076,7 +2076,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_226
 
 FileName: /usr/share/libwacom/isdv4-5048.tablet
 SPDXID: SPDXRef-libwacom-common_file_227
-FileChecksum: 2a5768ef0c92006d4a72fecd9245a60703eb0b7a
+FileChecksum: SHA1: 2a5768ef0c92006d4a72fecd9245a60703eb0b7a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2085,7 +2085,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_227
 
 FileName: /usr/share/libwacom/isdv4-504a.tablet
 SPDXID: SPDXRef-libwacom-common_file_228
-FileChecksum: ea423bece2eb8e78e4d4c65f4430a42cb6ff70ca
+FileChecksum: SHA1: ea423bece2eb8e78e4d4c65f4430a42cb6ff70ca
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2094,7 +2094,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_228
 
 FileName: /usr/share/libwacom/isdv4-504c.tablet
 SPDXID: SPDXRef-libwacom-common_file_229
-FileChecksum: 2484036764ecfa80490d8d3f4fc17ef53f8eb728
+FileChecksum: SHA1: 2484036764ecfa80490d8d3f4fc17ef53f8eb728
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2103,7 +2103,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_229
 
 FileName: /usr/share/libwacom/isdv4-5072.tablet
 SPDXID: SPDXRef-libwacom-common_file_230
-FileChecksum: f16c6dbf4552d18d07f22af3aa479bb652ef231d
+FileChecksum: SHA1: f16c6dbf4552d18d07f22af3aa479bb652ef231d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2112,7 +2112,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_230
 
 FileName: /usr/share/libwacom/isdv4-5090.tablet
 SPDXID: SPDXRef-libwacom-common_file_231
-FileChecksum: f7a49f8d0d8dae42292c40c4072ce81c615133d2
+FileChecksum: SHA1: f7a49f8d0d8dae42292c40c4072ce81c615133d2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2121,7 +2121,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_231
 
 FileName: /usr/share/libwacom/isdv4-5099.tablet
 SPDXID: SPDXRef-libwacom-common_file_232
-FileChecksum: 9d244c51f71e74480c11e3ad12a02c7e316306a4
+FileChecksum: SHA1: 9d244c51f71e74480c11e3ad12a02c7e316306a4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2130,7 +2130,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_232
 
 FileName: /usr/share/libwacom/isdv4-509d.tablet
 SPDXID: SPDXRef-libwacom-common_file_233
-FileChecksum: b990de05171812c741c824c0879d3cf92f82c4b8
+FileChecksum: SHA1: b990de05171812c741c824c0879d3cf92f82c4b8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2139,7 +2139,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_233
 
 FileName: /usr/share/libwacom/isdv4-509f.tablet
 SPDXID: SPDXRef-libwacom-common_file_234
-FileChecksum: f1547ac9a0eb45cb0929c845982678136bf5c452
+FileChecksum: SHA1: f1547ac9a0eb45cb0929c845982678136bf5c452
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2148,7 +2148,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_234
 
 FileName: /usr/share/libwacom/isdv4-50b4.tablet
 SPDXID: SPDXRef-libwacom-common_file_235
-FileChecksum: 5be99f0fabb64660990a89d206254aec0843fbda
+FileChecksum: SHA1: 5be99f0fabb64660990a89d206254aec0843fbda
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2157,7 +2157,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_235
 
 FileName: /usr/share/libwacom/isdv4-50b6.tablet
 SPDXID: SPDXRef-libwacom-common_file_236
-FileChecksum: 1a207e04acd2a07a09bb5eb16074833e9536a12a
+FileChecksum: SHA1: 1a207e04acd2a07a09bb5eb16074833e9536a12a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2166,7 +2166,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_236
 
 FileName: /usr/share/libwacom/isdv4-50b8.tablet
 SPDXID: SPDXRef-libwacom-common_file_237
-FileChecksum: 8bee70218123e522a1f2f14d1dbe712c9b840e94
+FileChecksum: SHA1: 8bee70218123e522a1f2f14d1dbe712c9b840e94
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2175,7 +2175,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_237
 
 FileName: /usr/share/libwacom/isdv4-50db.tablet
 SPDXID: SPDXRef-libwacom-common_file_238
-FileChecksum: 78458c4df43f65de34631388393cc95aa7d94f39
+FileChecksum: SHA1: 78458c4df43f65de34631388393cc95aa7d94f39
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2184,7 +2184,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_238
 
 FileName: /usr/share/libwacom/isdv4-50e9.tablet
 SPDXID: SPDXRef-libwacom-common_file_239
-FileChecksum: 843be5321551029e68397b78a2140ec07438b2b9
+FileChecksum: SHA1: 843be5321551029e68397b78a2140ec07438b2b9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2193,7 +2193,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_239
 
 FileName: /usr/share/libwacom/isdv4-50ef.tablet
 SPDXID: SPDXRef-libwacom-common_file_240
-FileChecksum: 8959314cc73681d3ccf6c46ac5e91d59a907f32e
+FileChecksum: SHA1: 8959314cc73681d3ccf6c46ac5e91d59a907f32e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2202,7 +2202,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_240
 
 FileName: /usr/share/libwacom/isdv4-50f1.tablet
 SPDXID: SPDXRef-libwacom-common_file_241
-FileChecksum: 976258f393d1a0787be5c794c175feaf5ca2443d
+FileChecksum: SHA1: 976258f393d1a0787be5c794c175feaf5ca2443d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2211,7 +2211,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_241
 
 FileName: /usr/share/libwacom/isdv4-50f8.tablet
 SPDXID: SPDXRef-libwacom-common_file_242
-FileChecksum: 8ef5fda4459a7365cfda16e8695e065eb733ed87
+FileChecksum: SHA1: 8ef5fda4459a7365cfda16e8695e065eb733ed87
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2220,7 +2220,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_242
 
 FileName: /usr/share/libwacom/isdv4-50fd.tablet
 SPDXID: SPDXRef-libwacom-common_file_243
-FileChecksum: b2fd4a0269add56d7c4d41f6fbe8f37c1a4ec03e
+FileChecksum: SHA1: b2fd4a0269add56d7c4d41f6fbe8f37c1a4ec03e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2229,7 +2229,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_243
 
 FileName: /usr/share/libwacom/isdv4-50fe.tablet
 SPDXID: SPDXRef-libwacom-common_file_244
-FileChecksum: 7d0e2c100c5758cdd599191a76689e23ffcd11c2
+FileChecksum: SHA1: 7d0e2c100c5758cdd599191a76689e23ffcd11c2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2238,7 +2238,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_244
 
 FileName: /usr/share/libwacom/isdv4-5110.tablet
 SPDXID: SPDXRef-libwacom-common_file_245
-FileChecksum: 7d445c844e7a2e2d29bd327e844140a1605346e3
+FileChecksum: SHA1: 7d445c844e7a2e2d29bd327e844140a1605346e3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2247,7 +2247,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_245
 
 FileName: /usr/share/libwacom/isdv4-5115.tablet
 SPDXID: SPDXRef-libwacom-common_file_246
-FileChecksum: 92091226d1a2e5f6a0a434f016aca556c0aef4a3
+FileChecksum: SHA1: 92091226d1a2e5f6a0a434f016aca556c0aef4a3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2256,7 +2256,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_246
 
 FileName: /usr/share/libwacom/isdv4-511a.tablet
 SPDXID: SPDXRef-libwacom-common_file_247
-FileChecksum: 776c2008175205fb263a2cf927b9ee6ab0055b32
+FileChecksum: SHA1: 776c2008175205fb263a2cf927b9ee6ab0055b32
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2265,7 +2265,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_247
 
 FileName: /usr/share/libwacom/isdv4-5122.tablet
 SPDXID: SPDXRef-libwacom-common_file_248
-FileChecksum: 7e57043a258c84b6088ed48256eb6659bfd1ab44
+FileChecksum: SHA1: 7e57043a258c84b6088ed48256eb6659bfd1ab44
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2274,7 +2274,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_248
 
 FileName: /usr/share/libwacom/isdv4-5128.tablet
 SPDXID: SPDXRef-libwacom-common_file_249
-FileChecksum: 1c1dafaa1cd2f0b9690def05afabe692600ec482
+FileChecksum: SHA1: 1c1dafaa1cd2f0b9690def05afabe692600ec482
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2283,7 +2283,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_249
 
 FileName: /usr/share/libwacom/isdv4-513b.tablet
 SPDXID: SPDXRef-libwacom-common_file_250
-FileChecksum: a6a4a862844e9bb4ca31b5cc28ea7318dfdf35f1
+FileChecksum: SHA1: a6a4a862844e9bb4ca31b5cc28ea7318dfdf35f1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2292,7 +2292,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_250
 
 FileName: /usr/share/libwacom/isdv4-5144.tablet
 SPDXID: SPDXRef-libwacom-common_file_251
-FileChecksum: 0be8ab4a3e4692775fe8704688f971ac5d81b0d6
+FileChecksum: SHA1: 0be8ab4a3e4692775fe8704688f971ac5d81b0d6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2301,7 +2301,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_251
 
 FileName: /usr/share/libwacom/isdv4-5146.tablet
 SPDXID: SPDXRef-libwacom-common_file_252
-FileChecksum: 08447aae74d360a2608cab7369a7958a04e7847e
+FileChecksum: SHA1: 08447aae74d360a2608cab7369a7958a04e7847e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2310,7 +2310,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_252
 
 FileName: /usr/share/libwacom/isdv4-5147.tablet
 SPDXID: SPDXRef-libwacom-common_file_253
-FileChecksum: c3be18981cd8d33825b2a7269800bfc17784e1fa
+FileChecksum: SHA1: c3be18981cd8d33825b2a7269800bfc17784e1fa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2319,7 +2319,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_253
 
 FileName: /usr/share/libwacom/isdv4-5148.tablet
 SPDXID: SPDXRef-libwacom-common_file_254
-FileChecksum: 165d7a451855117acb4656a138295f17655d2fe3
+FileChecksum: SHA1: 165d7a451855117acb4656a138295f17655d2fe3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2328,7 +2328,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_254
 
 FileName: /usr/share/libwacom/isdv4-5150.tablet
 SPDXID: SPDXRef-libwacom-common_file_255
-FileChecksum: b0c16f1315e6cc95ae8e3bb1396bc8e31ee86d80
+FileChecksum: SHA1: b0c16f1315e6cc95ae8e3bb1396bc8e31ee86d80
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2337,7 +2337,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_255
 
 FileName: /usr/share/libwacom/isdv4-5157.tablet
 SPDXID: SPDXRef-libwacom-common_file_256
-FileChecksum: 436209c2f92fc0358f4ee4058ff105bf6cc7fd9a
+FileChecksum: SHA1: 436209c2f92fc0358f4ee4058ff105bf6cc7fd9a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2346,7 +2346,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_256
 
 FileName: /usr/share/libwacom/isdv4-5158.tablet
 SPDXID: SPDXRef-libwacom-common_file_257
-FileChecksum: b2dfc49f1ad4700d93d15820a9aa7728e0c2b8f3
+FileChecksum: SHA1: b2dfc49f1ad4700d93d15820a9aa7728e0c2b8f3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2355,7 +2355,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_257
 
 FileName: /usr/share/libwacom/isdv4-5159.tablet
 SPDXID: SPDXRef-libwacom-common_file_258
-FileChecksum: a29d15783e0ae7444e54d2e865c7e21d29dd5463
+FileChecksum: SHA1: a29d15783e0ae7444e54d2e865c7e21d29dd5463
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2364,7 +2364,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_258
 
 FileName: /usr/share/libwacom/isdv4-515a.tablet
 SPDXID: SPDXRef-libwacom-common_file_259
-FileChecksum: 20987b2da77ea52a148669d10431cca4adb63433
+FileChecksum: SHA1: 20987b2da77ea52a148669d10431cca4adb63433
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2373,7 +2373,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_259
 
 FileName: /usr/share/libwacom/isdv4-5169.tablet
 SPDXID: SPDXRef-libwacom-common_file_260
-FileChecksum: f22cf1513bd218a46f92f22264a8a7193e94c4a2
+FileChecksum: SHA1: f22cf1513bd218a46f92f22264a8a7193e94c4a2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2382,7 +2382,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_260
 
 FileName: /usr/share/libwacom/isdv4-516b.tablet
 SPDXID: SPDXRef-libwacom-common_file_261
-FileChecksum: b3faf2bdcf720d1291001ad15426f349875c8adf
+FileChecksum: SHA1: b3faf2bdcf720d1291001ad15426f349875c8adf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2391,7 +2391,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_261
 
 FileName: /usr/share/libwacom/isdv4-517d.tablet
 SPDXID: SPDXRef-libwacom-common_file_262
-FileChecksum: df4c4239cfe9d05698049c47d8e5f4ef7de79d40
+FileChecksum: SHA1: df4c4239cfe9d05698049c47d8e5f4ef7de79d40
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2400,7 +2400,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_262
 
 FileName: /usr/share/libwacom/isdv4-5196.tablet
 SPDXID: SPDXRef-libwacom-common_file_263
-FileChecksum: f4c117e677bbb00fa9da8b209e59753d9967b3b4
+FileChecksum: SHA1: f4c117e677bbb00fa9da8b209e59753d9967b3b4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2409,7 +2409,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_263
 
 FileName: /usr/share/libwacom/isdv4-51a0.tablet
 SPDXID: SPDXRef-libwacom-common_file_264
-FileChecksum: f6c4f69682cf69ad84a01f519ffe045a994fce9f
+FileChecksum: SHA1: f6c4f69682cf69ad84a01f519ffe045a994fce9f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2418,7 +2418,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_264
 
 FileName: /usr/share/libwacom/isdv4-51af.tablet
 SPDXID: SPDXRef-libwacom-common_file_265
-FileChecksum: 53c31c5bd8c4f87ff2a9b684dd5481c63e230d8d
+FileChecksum: SHA1: 53c31c5bd8c4f87ff2a9b684dd5481c63e230d8d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2427,7 +2427,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_265
 
 FileName: /usr/share/libwacom/isdv4-51b0.tablet
 SPDXID: SPDXRef-libwacom-common_file_266
-FileChecksum: da9642076650915275bed9d35ce76977078be3aa
+FileChecksum: SHA1: da9642076650915275bed9d35ce76977078be3aa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2436,7 +2436,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_266
 
 FileName: /usr/share/libwacom/isdv4-51b1.tablet
 SPDXID: SPDXRef-libwacom-common_file_267
-FileChecksum: 8fd1621beec581c0054593a3f85bcce3f3a18589
+FileChecksum: SHA1: 8fd1621beec581c0054593a3f85bcce3f3a18589
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2445,7 +2445,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_267
 
 FileName: /usr/share/libwacom/isdv4-51b2.tablet
 SPDXID: SPDXRef-libwacom-common_file_268
-FileChecksum: a419fb2ed46252699257448447f432ed4dc0d6ac
+FileChecksum: SHA1: a419fb2ed46252699257448447f432ed4dc0d6ac
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2454,7 +2454,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_268
 
 FileName: /usr/share/libwacom/isdv4-51b3.tablet
 SPDXID: SPDXRef-libwacom-common_file_269
-FileChecksum: cf82caca5ebfc6313a3db15841c6296077105c30
+FileChecksum: SHA1: cf82caca5ebfc6313a3db15841c6296077105c30
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2463,7 +2463,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_269
 
 FileName: /usr/share/libwacom/isdv4-51b6.tablet
 SPDXID: SPDXRef-libwacom-common_file_270
-FileChecksum: c060e0084624d1a9c9552cd57bc36a8b8b1bc2c0
+FileChecksum: SHA1: c060e0084624d1a9c9552cd57bc36a8b8b1bc2c0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2472,7 +2472,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_270
 
 FileName: /usr/share/libwacom/isdv4-51b7.tablet
 SPDXID: SPDXRef-libwacom-common_file_271
-FileChecksum: a271cfd9589899b218aca3f4030310b864197790
+FileChecksum: SHA1: a271cfd9589899b218aca3f4030310b864197790
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2481,7 +2481,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_271
 
 FileName: /usr/share/libwacom/isdv4-51b8.tablet
 SPDXID: SPDXRef-libwacom-common_file_272
-FileChecksum: dc1ba87426af127200c9ee7ccc379d720107c63f
+FileChecksum: SHA1: dc1ba87426af127200c9ee7ccc379d720107c63f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2490,7 +2490,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_272
 
 FileName: /usr/share/libwacom/isdv4-51b9.tablet
 SPDXID: SPDXRef-libwacom-common_file_273
-FileChecksum: fbd04f8c31bb85379379d87db2efe04d82d20633
+FileChecksum: SHA1: fbd04f8c31bb85379379d87db2efe04d82d20633
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2499,7 +2499,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_273
 
 FileName: /usr/share/libwacom/isdv4-51ba.tablet
 SPDXID: SPDXRef-libwacom-common_file_274
-FileChecksum: bb8e21c38ceab87cfa0d7c57fe82e60485d81fa6
+FileChecksum: SHA1: bb8e21c38ceab87cfa0d7c57fe82e60485d81fa6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2508,7 +2508,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_274
 
 FileName: /usr/share/libwacom/isdv4-51bb.tablet
 SPDXID: SPDXRef-libwacom-common_file_275
-FileChecksum: 0836bc435873f3856d2c5c11a229ea7ef4cde1c2
+FileChecksum: SHA1: 0836bc435873f3856d2c5c11a229ea7ef4cde1c2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2517,7 +2517,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_275
 
 FileName: /usr/share/libwacom/isdv4-51bc.tablet
 SPDXID: SPDXRef-libwacom-common_file_276
-FileChecksum: fdd934ef63a7797ea660156d4bf7fd6eb81a1631
+FileChecksum: SHA1: fdd934ef63a7797ea660156d4bf7fd6eb81a1631
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2526,7 +2526,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_276
 
 FileName: /usr/share/libwacom/isdv4-51bd.tablet
 SPDXID: SPDXRef-libwacom-common_file_277
-FileChecksum: 9f3cc6b6fc52d8c935c022639bfb695b1e6e484d
+FileChecksum: SHA1: 9f3cc6b6fc52d8c935c022639bfb695b1e6e484d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2535,7 +2535,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_277
 
 FileName: /usr/share/libwacom/isdv4-51be.tablet
 SPDXID: SPDXRef-libwacom-common_file_278
-FileChecksum: 0ea069aefd343b9ee84228341cea0c718d19df89
+FileChecksum: SHA1: 0ea069aefd343b9ee84228341cea0c718d19df89
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2544,7 +2544,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_278
 
 FileName: /usr/share/libwacom/isdv4-51bf.tablet
 SPDXID: SPDXRef-libwacom-common_file_279
-FileChecksum: e58eb6b0a44c080d4e3966f793d01cd40274927c
+FileChecksum: SHA1: e58eb6b0a44c080d4e3966f793d01cd40274927c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2553,7 +2553,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_279
 
 FileName: /usr/share/libwacom/isdv4-51c4.tablet
 SPDXID: SPDXRef-libwacom-common_file_280
-FileChecksum: 071794f950f35d6bebc57781c4bcc813fb8c9594
+FileChecksum: SHA1: 071794f950f35d6bebc57781c4bcc813fb8c9594
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2562,7 +2562,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_280
 
 FileName: /usr/share/libwacom/isdv4-51c7.tablet
 SPDXID: SPDXRef-libwacom-common_file_281
-FileChecksum: ece7a0f65516235450c3d77a0681728b8cc5b799
+FileChecksum: SHA1: ece7a0f65516235450c3d77a0681728b8cc5b799
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2571,7 +2571,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_281
 
 FileName: /usr/share/libwacom/isdv4-51d0.tablet
 SPDXID: SPDXRef-libwacom-common_file_282
-FileChecksum: 6593f56217bfa1d2f2301ed25eb5a32188fc609b
+FileChecksum: SHA1: 6593f56217bfa1d2f2301ed25eb5a32188fc609b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2580,7 +2580,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_282
 
 FileName: /usr/share/libwacom/isdv4-51e2.tablet
 SPDXID: SPDXRef-libwacom-common_file_283
-FileChecksum: 735d11d280338b55fbeae107246356a296c2708e
+FileChecksum: SHA1: 735d11d280338b55fbeae107246356a296c2708e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2589,7 +2589,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_283
 
 FileName: /usr/share/libwacom/isdv4-51e9.tablet
 SPDXID: SPDXRef-libwacom-common_file_284
-FileChecksum: ecec9d7032c1b8c7683c9d1f1235290c070b4613
+FileChecksum: SHA1: ecec9d7032c1b8c7683c9d1f1235290c070b4613
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2598,7 +2598,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_284
 
 FileName: /usr/share/libwacom/isdv4-51ef.tablet
 SPDXID: SPDXRef-libwacom-common_file_285
-FileChecksum: 96a47bb6d31fb3271e2b8a3db844280f39391dd9
+FileChecksum: SHA1: 96a47bb6d31fb3271e2b8a3db844280f39391dd9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2607,7 +2607,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_285
 
 FileName: /usr/share/libwacom/isdv4-51f5.tablet
 SPDXID: SPDXRef-libwacom-common_file_286
-FileChecksum: 9f1e880d62348c51601ab4f30e6d20cf24b4ec39
+FileChecksum: SHA1: 9f1e880d62348c51601ab4f30e6d20cf24b4ec39
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2616,7 +2616,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_286
 
 FileName: /usr/share/libwacom/isdv4-51f6.tablet
 SPDXID: SPDXRef-libwacom-common_file_287
-FileChecksum: 0b081d36aebc016fdae2b9259c8fbe124b73fb4a
+FileChecksum: SHA1: 0b081d36aebc016fdae2b9259c8fbe124b73fb4a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2625,7 +2625,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_287
 
 FileName: /usr/share/libwacom/isdv4-51f9.tablet
 SPDXID: SPDXRef-libwacom-common_file_288
-FileChecksum: d9498f74a73096253e9452c7ce0696acc85819b3
+FileChecksum: SHA1: d9498f74a73096253e9452c7ce0696acc85819b3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2634,7 +2634,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_288
 
 FileName: /usr/share/libwacom/isdv4-5202.tablet
 SPDXID: SPDXRef-libwacom-common_file_289
-FileChecksum: 4a6f5d8324911a703663d20428935c8582b1fb57
+FileChecksum: SHA1: 4a6f5d8324911a703663d20428935c8582b1fb57
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2643,7 +2643,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_289
 
 FileName: /usr/share/libwacom/isdv4-5204.tablet
 SPDXID: SPDXRef-libwacom-common_file_290
-FileChecksum: 5c49913e727aa79ff25999724f6c19f5fc2f58c3
+FileChecksum: SHA1: 5c49913e727aa79ff25999724f6c19f5fc2f58c3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2652,7 +2652,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_290
 
 FileName: /usr/share/libwacom/isdv4-5215.tablet
 SPDXID: SPDXRef-libwacom-common_file_291
-FileChecksum: 3310cd79a1cd42f053ed8a49ae796d623e6a6011
+FileChecksum: SHA1: 3310cd79a1cd42f053ed8a49ae796d623e6a6011
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2661,7 +2661,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_291
 
 FileName: /usr/share/libwacom/isdv4-5216.tablet
 SPDXID: SPDXRef-libwacom-common_file_292
-FileChecksum: 539c1615f6870156104fd154eefbe2b1b5374353
+FileChecksum: SHA1: 539c1615f6870156104fd154eefbe2b1b5374353
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2670,7 +2670,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_292
 
 FileName: /usr/share/libwacom/isdv4-5218.tablet
 SPDXID: SPDXRef-libwacom-common_file_293
-FileChecksum: e461ac2d4632bd14e6e16b299af23fea2b6d26c1
+FileChecksum: SHA1: e461ac2d4632bd14e6e16b299af23fea2b6d26c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2679,7 +2679,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_293
 
 FileName: /usr/share/libwacom/isdv4-521c.tablet
 SPDXID: SPDXRef-libwacom-common_file_294
-FileChecksum: 56066e30b8018c1b03acd7ac09cecb9f568cb385
+FileChecksum: SHA1: 56066e30b8018c1b03acd7ac09cecb9f568cb385
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2688,7 +2688,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_294
 
 FileName: /usr/share/libwacom/isdv4-521f.tablet
 SPDXID: SPDXRef-libwacom-common_file_295
-FileChecksum: 10ebb68a17a9847d58d30cbcadd3a614277ed953
+FileChecksum: SHA1: 10ebb68a17a9847d58d30cbcadd3a614277ed953
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2697,7 +2697,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_295
 
 FileName: /usr/share/libwacom/isdv4-5220.tablet
 SPDXID: SPDXRef-libwacom-common_file_296
-FileChecksum: f98c710e79642b15333f6851303aeb9b09d691dd
+FileChecksum: SHA1: f98c710e79642b15333f6851303aeb9b09d691dd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2706,7 +2706,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_296
 
 FileName: /usr/share/libwacom/isdv4-5221.tablet
 SPDXID: SPDXRef-libwacom-common_file_297
-FileChecksum: 865e2140840502155d3de3401e050ca32462858e
+FileChecksum: SHA1: 865e2140840502155d3de3401e050ca32462858e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2715,7 +2715,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_297
 
 FileName: /usr/share/libwacom/isdv4-5222.tablet
 SPDXID: SPDXRef-libwacom-common_file_298
-FileChecksum: b0a29a47757504d0cdd832db0e32e2f0cd435f90
+FileChecksum: SHA1: b0a29a47757504d0cdd832db0e32e2f0cd435f90
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2724,7 +2724,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_298
 
 FileName: /usr/share/libwacom/isdv4-5229.tablet
 SPDXID: SPDXRef-libwacom-common_file_299
-FileChecksum: 5665c5b7083d36a9fbb67e4d5a6a63700a3356dc
+FileChecksum: SHA1: 5665c5b7083d36a9fbb67e4d5a6a63700a3356dc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2733,7 +2733,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_299
 
 FileName: /usr/share/libwacom/isdv4-523a.tablet
 SPDXID: SPDXRef-libwacom-common_file_300
-FileChecksum: d4e9e1eb86fe051e6531785e67f5ab6164c124c0
+FileChecksum: SHA1: d4e9e1eb86fe051e6531785e67f5ab6164c124c0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2742,7 +2742,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_300
 
 FileName: /usr/share/libwacom/isdv4-523e.tablet
 SPDXID: SPDXRef-libwacom-common_file_301
-FileChecksum: d8fa8c27545816ae700ddcc3e1f383519787bb3c
+FileChecksum: SHA1: d8fa8c27545816ae700ddcc3e1f383519787bb3c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2751,7 +2751,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_301
 
 FileName: /usr/share/libwacom/isdv4-5256.tablet
 SPDXID: SPDXRef-libwacom-common_file_302
-FileChecksum: 83e790075d732841971ea41ec413b27034bc4ead
+FileChecksum: SHA1: 83e790075d732841971ea41ec413b27034bc4ead
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2760,7 +2760,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_302
 
 FileName: /usr/share/libwacom/isdv4-5276.tablet
 SPDXID: SPDXRef-libwacom-common_file_303
-FileChecksum: efe83024ec2fe03a6c523579a4ed7cf294b02b69
+FileChecksum: SHA1: efe83024ec2fe03a6c523579a4ed7cf294b02b69
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2769,7 +2769,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_303
 
 FileName: /usr/share/libwacom/isdv4-5277.tablet
 SPDXID: SPDXRef-libwacom-common_file_304
-FileChecksum: 8319fc3a9567d4a630cefd1615da10eb0e12f3c6
+FileChecksum: SHA1: 8319fc3a9567d4a630cefd1615da10eb0e12f3c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2778,7 +2778,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_304
 
 FileName: /usr/share/libwacom/isdv4-5278.tablet
 SPDXID: SPDXRef-libwacom-common_file_305
-FileChecksum: 33d713e6351f71610481605d9727ff85b61f3c86
+FileChecksum: SHA1: 33d713e6351f71610481605d9727ff85b61f3c86
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2787,7 +2787,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_305
 
 FileName: /usr/share/libwacom/isdv4-5279.tablet
 SPDXID: SPDXRef-libwacom-common_file_306
-FileChecksum: 81b0883efcad5b57bfef0e0c4d58d087d9d73909
+FileChecksum: SHA1: 81b0883efcad5b57bfef0e0c4d58d087d9d73909
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2796,7 +2796,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_306
 
 FileName: /usr/share/libwacom/isdv4-527a.tablet
 SPDXID: SPDXRef-libwacom-common_file_307
-FileChecksum: 4d4cbba601217133b852a6fda4807921d043707e
+FileChecksum: SHA1: 4d4cbba601217133b852a6fda4807921d043707e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2805,7 +2805,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_307
 
 FileName: /usr/share/libwacom/isdv4-527e.tablet
 SPDXID: SPDXRef-libwacom-common_file_308
-FileChecksum: 02ee1d27f68c50e69aaa99c9b3386cfdba180f23
+FileChecksum: SHA1: 02ee1d27f68c50e69aaa99c9b3386cfdba180f23
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2814,7 +2814,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_308
 
 FileName: /usr/share/libwacom/isdv4-527f.tablet
 SPDXID: SPDXRef-libwacom-common_file_309
-FileChecksum: 35483e3d0561d1648da2d6e8446ac611cf5a63af
+FileChecksum: SHA1: 35483e3d0561d1648da2d6e8446ac611cf5a63af
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2823,7 +2823,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_309
 
 FileName: /usr/share/libwacom/isdv4-5285.tablet
 SPDXID: SPDXRef-libwacom-common_file_310
-FileChecksum: 068796508ee48bbb7359191863f564692a2770fe
+FileChecksum: SHA1: 068796508ee48bbb7359191863f564692a2770fe
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2832,7 +2832,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_310
 
 FileName: /usr/share/libwacom/isdv4-528e.tablet
 SPDXID: SPDXRef-libwacom-common_file_311
-FileChecksum: c333ca6605cfc2ffe814601c574e3e8f9430cfb5
+FileChecksum: SHA1: c333ca6605cfc2ffe814601c574e3e8f9430cfb5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2841,7 +2841,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_311
 
 FileName: /usr/share/libwacom/isdv4-52a2.tablet
 SPDXID: SPDXRef-libwacom-common_file_312
-FileChecksum: f25c1e5385f55166957f083e68b6d06a10cb4f18
+FileChecksum: SHA1: f25c1e5385f55166957f083e68b6d06a10cb4f18
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2850,7 +2850,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_312
 
 FileName: /usr/share/libwacom/isdv4-52b0.tablet
 SPDXID: SPDXRef-libwacom-common_file_313
-FileChecksum: 2a7125a784905c867c0048491f64bf36d43f430b
+FileChecksum: SHA1: 2a7125a784905c867c0048491f64bf36d43f430b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2859,7 +2859,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_313
 
 FileName: /usr/share/libwacom/isdv4-90.tablet
 SPDXID: SPDXRef-libwacom-common_file_314
-FileChecksum: 39b6540268570813be66547cc1b9da8cc885409c
+FileChecksum: SHA1: 39b6540268570813be66547cc1b9da8cc885409c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2868,7 +2868,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_314
 
 FileName: /usr/share/libwacom/isdv4-93.tablet
 SPDXID: SPDXRef-libwacom-common_file_315
-FileChecksum: 21cee6376e110456b2890594157255d35d333eb5
+FileChecksum: SHA1: 21cee6376e110456b2890594157255d35d333eb5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2877,7 +2877,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_315
 
 FileName: /usr/share/libwacom/isdv4-e2.tablet
 SPDXID: SPDXRef-libwacom-common_file_316
-FileChecksum: bc0591f9eaa37e8bb3a50297890853cecfefa1cb
+FileChecksum: SHA1: bc0591f9eaa37e8bb3a50297890853cecfefa1cb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2886,7 +2886,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_316
 
 FileName: /usr/share/libwacom/isdv4-e3.tablet
 SPDXID: SPDXRef-libwacom-common_file_317
-FileChecksum: 43cf9da36bdc98f2828b8524bc2e066ed374a669
+FileChecksum: SHA1: 43cf9da36bdc98f2828b8524bc2e066ed374a669
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2895,7 +2895,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_317
 
 FileName: /usr/share/libwacom/isdv4-e5.tablet
 SPDXID: SPDXRef-libwacom-common_file_318
-FileChecksum: 8b9a1d1801425ee12d10cab57d2e529bdc08c898
+FileChecksum: SHA1: 8b9a1d1801425ee12d10cab57d2e529bdc08c898
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2904,7 +2904,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_318
 
 FileName: /usr/share/libwacom/isdv4-e6.tablet
 SPDXID: SPDXRef-libwacom-common_file_319
-FileChecksum: 303158ea869c3982dc76d07d055dc28df9ae3049
+FileChecksum: SHA1: 303158ea869c3982dc76d07d055dc28df9ae3049
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2913,7 +2913,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_319
 
 FileName: /usr/share/libwacom/isdv4-ec.tablet
 SPDXID: SPDXRef-libwacom-common_file_320
-FileChecksum: 24270feed9c4e1c74c352a1e3af7d82d00630711
+FileChecksum: SHA1: 24270feed9c4e1c74c352a1e3af7d82d00630711
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2922,7 +2922,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_320
 
 FileName: /usr/share/libwacom/isdv4-ed.tablet
 SPDXID: SPDXRef-libwacom-common_file_321
-FileChecksum: f89c1a84238fe79f3739de9e69bc20de82997a2d
+FileChecksum: SHA1: f89c1a84238fe79f3739de9e69bc20de82997a2d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2931,7 +2931,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_321
 
 FileName: /usr/share/libwacom/isdv4-ef.tablet
 SPDXID: SPDXRef-libwacom-common_file_322
-FileChecksum: a0eb1245149f419f2387b0fb01b3ada870d969a0
+FileChecksum: SHA1: a0eb1245149f419f2387b0fb01b3ada870d969a0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2940,7 +2940,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_322
 
 FileName: /usr/share/libwacom/kamvas-pro-13.tablet
 SPDXID: SPDXRef-libwacom-common_file_323
-FileChecksum: 47bc8f6690d04f4b1070f8b84f1a7a494802d254
+FileChecksum: SHA1: 47bc8f6690d04f4b1070f8b84f1a7a494802d254
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2949,7 +2949,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_323
 
 FileName: /usr/share/libwacom/layouts/bamboo-0fg-s-p-alt.svg
 SPDXID: SPDXRef-libwacom-common_file_324
-FileChecksum: ee177418fc9439a9ab501f5fe11464210d2b3b0e
+FileChecksum: SHA1: ee177418fc9439a9ab501f5fe11464210d2b3b0e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2958,7 +2958,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_324
 
 FileName: /usr/share/libwacom/layouts/bamboo-0fg-s-p.svg
 SPDXID: SPDXRef-libwacom-common_file_325
-FileChecksum: 8766d345686d430cc7242bc95689a4d1311efdbe
+FileChecksum: SHA1: 8766d345686d430cc7242bc95689a4d1311efdbe
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2967,7 +2967,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_325
 
 FileName: /usr/share/libwacom/layouts/bamboo-16fg-m-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_326
-FileChecksum: a1e44defd0e5d00e0a88c4e3e94a199ca18c7526
+FileChecksum: SHA1: a1e44defd0e5d00e0a88c4e3e94a199ca18c7526
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2976,7 +2976,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_326
 
 FileName: /usr/share/libwacom/layouts/bamboo-16fg-s-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_327
-FileChecksum: 27a3c3af960c3bab33bc399e2a1ce694ac802285
+FileChecksum: SHA1: 27a3c3af960c3bab33bc399e2a1ce694ac802285
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2985,7 +2985,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_327
 
 FileName: /usr/share/libwacom/layouts/bamboo-16fg-s-t.svg
 SPDXID: SPDXRef-libwacom-common_file_328
-FileChecksum: 9d87ad83314325abc71dbf5bdbeda16c0c688fa6
+FileChecksum: SHA1: 9d87ad83314325abc71dbf5bdbeda16c0c688fa6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -2994,7 +2994,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_328
 
 FileName: /usr/share/libwacom/layouts/bamboo-2fg-fun-m-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_329
-FileChecksum: 3741826990ab39db6cf4677aa46e50ffc8c66852
+FileChecksum: SHA1: 3741826990ab39db6cf4677aa46e50ffc8c66852
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3003,7 +3003,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_329
 
 FileName: /usr/share/libwacom/layouts/bamboo-2fg-fun-s-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_330
-FileChecksum: f82d8202cd9ba41e3743f2242af8013a5dbe52ae
+FileChecksum: SHA1: f82d8202cd9ba41e3743f2242af8013a5dbe52ae
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3012,7 +3012,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_330
 
 FileName: /usr/share/libwacom/layouts/bamboo-2fg-s-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_331
-FileChecksum: e831cf961bd681a36cfafec5255401e339616b7c
+FileChecksum: SHA1: e831cf961bd681a36cfafec5255401e339616b7c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3021,7 +3021,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_331
 
 FileName: /usr/share/libwacom/layouts/bamboo-2fg-s-t.svg
 SPDXID: SPDXRef-libwacom-common_file_332
-FileChecksum: 63cf989b175b230744f1fcb970187c4732d0d28f
+FileChecksum: SHA1: 63cf989b175b230744f1fcb970187c4732d0d28f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3030,7 +3030,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_332
 
 FileName: /usr/share/libwacom/layouts/bamboo-4fg-fun-m-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_333
-FileChecksum: 8e139ffe2fee703a1254f6cc93476a62189ebbc2
+FileChecksum: SHA1: 8e139ffe2fee703a1254f6cc93476a62189ebbc2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3039,7 +3039,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_333
 
 FileName: /usr/share/libwacom/layouts/bamboo-4fg-fun-s-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_334
-FileChecksum: b4b17304729346b711d41bed5fbf00b6806852a7
+FileChecksum: SHA1: b4b17304729346b711d41bed5fbf00b6806852a7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3048,7 +3048,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_334
 
 FileName: /usr/share/libwacom/layouts/bamboo-4fg-s-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_335
-FileChecksum: d7a4d3f03ed8c9f0ca04136f7cda02e8449610b5
+FileChecksum: SHA1: d7a4d3f03ed8c9f0ca04136f7cda02e8449610b5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3057,7 +3057,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_335
 
 FileName: /usr/share/libwacom/layouts/bamboo-4fg-s-t.svg
 SPDXID: SPDXRef-libwacom-common_file_336
-FileChecksum: 6335cf377850346a5c13ae3a63031d6878529bb2
+FileChecksum: SHA1: 6335cf377850346a5c13ae3a63031d6878529bb2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3066,7 +3066,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_336
 
 FileName: /usr/share/libwacom/layouts/bamboo-4fg-se-m-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_337
-FileChecksum: 22ef26aa91d593056794de2d2f090098e92f2306
+FileChecksum: SHA1: 22ef26aa91d593056794de2d2f090098e92f2306
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3075,7 +3075,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_337
 
 FileName: /usr/share/libwacom/layouts/bamboo-4fg-se-s-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_338
-FileChecksum: c6d4c1d21b32dba5fd15f95b1f8498ccd99002e3
+FileChecksum: SHA1: c6d4c1d21b32dba5fd15f95b1f8498ccd99002e3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3084,7 +3084,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_338
 
 FileName: /usr/share/libwacom/layouts/bamboo-pad.svg
 SPDXID: SPDXRef-libwacom-common_file_339
-FileChecksum: ed2a0e1d81b4f32427ef906ef458b5926cbffda0
+FileChecksum: SHA1: ed2a0e1d81b4f32427ef906ef458b5926cbffda0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3093,7 +3093,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_339
 
 FileName: /usr/share/libwacom/layouts/cintiq-12wx.svg
 SPDXID: SPDXRef-libwacom-common_file_340
-FileChecksum: f749a34c8514e1698d2d0b8ac5aa503a91cd3ca9
+FileChecksum: SHA1: f749a34c8514e1698d2d0b8ac5aa503a91cd3ca9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3102,7 +3102,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_340
 
 FileName: /usr/share/libwacom/layouts/cintiq-13hd.svg
 SPDXID: SPDXRef-libwacom-common_file_341
-FileChecksum: 91bd1814d0deed81c7c8109034ad7a6867a26726
+FileChecksum: SHA1: 91bd1814d0deed81c7c8109034ad7a6867a26726
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3111,7 +3111,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_341
 
 FileName: /usr/share/libwacom/layouts/cintiq-20wsx.svg
 SPDXID: SPDXRef-libwacom-common_file_342
-FileChecksum: 516bcd0a8e05875aabdcffc0a213901429666e6f
+FileChecksum: SHA1: 516bcd0a8e05875aabdcffc0a213901429666e6f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3120,7 +3120,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_342
 
 FileName: /usr/share/libwacom/layouts/cintiq-21ux.svg
 SPDXID: SPDXRef-libwacom-common_file_343
-FileChecksum: d238dae512dafe63082c8ab2ad0fb364a3e917d3
+FileChecksum: SHA1: d238dae512dafe63082c8ab2ad0fb364a3e917d3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3129,7 +3129,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_343
 
 FileName: /usr/share/libwacom/layouts/cintiq-21ux2.svg
 SPDXID: SPDXRef-libwacom-common_file_344
-FileChecksum: 07b1fb30eb7cb7e22061140ab9bdafdfb70e0d08
+FileChecksum: SHA1: 07b1fb30eb7cb7e22061140ab9bdafdfb70e0d08
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3138,7 +3138,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_344
 
 FileName: /usr/share/libwacom/layouts/cintiq-22hd.svg
 SPDXID: SPDXRef-libwacom-common_file_345
-FileChecksum: ac89b533c5e2c0a5695d17337133158526b4a0c4
+FileChecksum: SHA1: ac89b533c5e2c0a5695d17337133158526b4a0c4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3147,7 +3147,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_345
 
 FileName: /usr/share/libwacom/layouts/cintiq-24hd.svg
 SPDXID: SPDXRef-libwacom-common_file_346
-FileChecksum: 7a4ce45b49d36cd3dd481a903ea2d2fc6ef24abc
+FileChecksum: SHA1: 7a4ce45b49d36cd3dd481a903ea2d2fc6ef24abc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3156,7 +3156,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_346
 
 FileName: /usr/share/libwacom/layouts/cintiq-companion-2.svg
 SPDXID: SPDXRef-libwacom-common_file_347
-FileChecksum: 464efb98b53e7f72e91d39bddc6056f3a4310116
+FileChecksum: SHA1: 464efb98b53e7f72e91d39bddc6056f3a4310116
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3165,7 +3165,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_347
 
 FileName: /usr/share/libwacom/layouts/cintiq-companion-hybrid.svg
 SPDXID: SPDXRef-libwacom-common_file_348
-FileChecksum: bfbd7b40228a7c9e55606dea8bd08cf261d09c1e
+FileChecksum: SHA1: bfbd7b40228a7c9e55606dea8bd08cf261d09c1e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3174,7 +3174,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_348
 
 FileName: /usr/share/libwacom/layouts/cintiq-companion.svg
 SPDXID: SPDXRef-libwacom-common_file_349
-FileChecksum: ec921688a52b30cef0c502a6ea8a73d4068aeb9c
+FileChecksum: SHA1: ec921688a52b30cef0c502a6ea8a73d4068aeb9c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3183,7 +3183,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_349
 
 FileName: /usr/share/libwacom/layouts/cintiq-pro-16-2.svg
 SPDXID: SPDXRef-libwacom-common_file_350
-FileChecksum: 29cf73450969602d1a92411235774c498a031cd1
+FileChecksum: SHA1: 29cf73450969602d1a92411235774c498a031cd1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3192,7 +3192,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_350
 
 FileName: /usr/share/libwacom/layouts/dth-2242.svg
 SPDXID: SPDXRef-libwacom-common_file_351
-FileChecksum: 05cb7c4bec07d1d6211b3f8be681518a01ca4148
+FileChecksum: SHA1: 05cb7c4bec07d1d6211b3f8be681518a01ca4148
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3201,7 +3201,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_351
 
 FileName: /usr/share/libwacom/layouts/dth-2452.svg
 SPDXID: SPDXRef-libwacom-common_file_352
-FileChecksum: fccfb195e1b06dbea6e54f5aa7785244d17614cd
+FileChecksum: SHA1: fccfb195e1b06dbea6e54f5aa7785244d17614cd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3210,7 +3210,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_352
 
 FileName: /usr/share/libwacom/layouts/dti-520.svg
 SPDXID: SPDXRef-libwacom-common_file_353
-FileChecksum: 0d8af43debace948d64ddd93decaef348c3ed7f1
+FileChecksum: SHA1: 0d8af43debace948d64ddd93decaef348c3ed7f1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3219,7 +3219,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_353
 
 FileName: /usr/share/libwacom/layouts/dtk-1651.svg
 SPDXID: SPDXRef-libwacom-common_file_354
-FileChecksum: e8401410c79a9c6c3dec34bf287f96c6cf5e30e1
+FileChecksum: SHA1: e8401410c79a9c6c3dec34bf287f96c6cf5e30e1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3228,7 +3228,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_354
 
 FileName: /usr/share/libwacom/layouts/dtk-2451.svg
 SPDXID: SPDXRef-libwacom-common_file_355
-FileChecksum: 6bb2228f707a7d3d0bebb24f3898221d00a931a5
+FileChecksum: SHA1: 6bb2228f707a7d3d0bebb24f3898221d00a931a5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3237,7 +3237,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_355
 
 FileName: /usr/share/libwacom/layouts/dtu-1031.svg
 SPDXID: SPDXRef-libwacom-common_file_356
-FileChecksum: c8df686e82f464296aa63ec5618a6ba7554b57a7
+FileChecksum: SHA1: c8df686e82f464296aa63ec5618a6ba7554b57a7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3246,7 +3246,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_356
 
 FileName: /usr/share/libwacom/layouts/dtu-1141.svg
 SPDXID: SPDXRef-libwacom-common_file_357
-FileChecksum: bf5255b35755dd3029691a00d7a9d99439418f37
+FileChecksum: SHA1: bf5255b35755dd3029691a00d7a9d99439418f37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3255,7 +3255,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_357
 
 FileName: /usr/share/libwacom/layouts/dtu-1141b.svg
 SPDXID: SPDXRef-libwacom-common_file_358
-FileChecksum: 6a9887b0a4a23ee1feade50d70537ce9b0d9c917
+FileChecksum: SHA1: 6a9887b0a4a23ee1feade50d70537ce9b0d9c917
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3264,7 +3264,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_358
 
 FileName: /usr/share/libwacom/layouts/ek-remote.svg
 SPDXID: SPDXRef-libwacom-common_file_359
-FileChecksum: 31d12cefa84e8a2f5c031a0745ebce10bac3e34c
+FileChecksum: SHA1: 31d12cefa84e8a2f5c031a0745ebce10bac3e34c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3273,7 +3273,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_359
 
 FileName: /usr/share/libwacom/layouts/gaomon-s620.svg
 SPDXID: SPDXRef-libwacom-common_file_360
-FileChecksum: cbfe4c06c5c470ce146360fcb22e7a941f8513cb
+FileChecksum: SHA1: cbfe4c06c5c470ce146360fcb22e7a941f8513cb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3282,7 +3282,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_360
 
 FileName: /usr/share/libwacom/layouts/graphire-wireless-8x6.svg
 SPDXID: SPDXRef-libwacom-common_file_361
-FileChecksum: 51d2716d262b4b3727397cfa72e2651f7a3143b6
+FileChecksum: SHA1: 51d2716d262b4b3727397cfa72e2651f7a3143b6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3291,7 +3291,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_361
 
 FileName: /usr/share/libwacom/layouts/graphire4-4x5.svg
 SPDXID: SPDXRef-libwacom-common_file_362
-FileChecksum: d4e28139367592c7546d20ae4184543ae9bb428f
+FileChecksum: SHA1: d4e28139367592c7546d20ae4184543ae9bb428f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3300,7 +3300,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_362
 
 FileName: /usr/share/libwacom/layouts/graphire4-6x8.svg
 SPDXID: SPDXRef-libwacom-common_file_363
-FileChecksum: d4e28139367592c7546d20ae4184543ae9bb428f
+FileChecksum: SHA1: d4e28139367592c7546d20ae4184543ae9bb428f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3309,7 +3309,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_363
 
 FileName: /usr/share/libwacom/layouts/huion-h420.svg
 SPDXID: SPDXRef-libwacom-common_file_364
-FileChecksum: 40ecefca930ca576ad1793e9656f95dfa83fc282
+FileChecksum: SHA1: 40ecefca930ca576ad1793e9656f95dfa83fc282
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3318,7 +3318,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_364
 
 FileName: /usr/share/libwacom/layouts/huion-h610-pro.svg
 SPDXID: SPDXRef-libwacom-common_file_365
-FileChecksum: 12eac779fb72718d8e132ca98cd5b20078499487
+FileChecksum: SHA1: 12eac779fb72718d8e132ca98cd5b20078499487
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3327,7 +3327,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_365
 
 FileName: /usr/share/libwacom/layouts/huion-h640p.svg
 SPDXID: SPDXRef-libwacom-common_file_366
-FileChecksum: b53b572b3d39f531de10cf6a551dc59aa97d3d33
+FileChecksum: SHA1: b53b572b3d39f531de10cf6a551dc59aa97d3d33
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3336,7 +3336,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_366
 
 FileName: /usr/share/libwacom/layouts/huion-h950p.svg
 SPDXID: SPDXRef-libwacom-common_file_367
-FileChecksum: 186dd0f99ae6e52e40f0f2096f6804b883f9fb3e
+FileChecksum: SHA1: 186dd0f99ae6e52e40f0f2096f6804b883f9fb3e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3345,7 +3345,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_367
 
 FileName: /usr/share/libwacom/layouts/huion-new-1060-plus.svg
 SPDXID: SPDXRef-libwacom-common_file_368
-FileChecksum: 809d64c75f5e86d6384ddcd1059cc1dd6d1b7bca
+FileChecksum: SHA1: 809d64c75f5e86d6384ddcd1059cc1dd6d1b7bca
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3354,7 +3354,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_368
 
 FileName: /usr/share/libwacom/layouts/intuos-m-p.svg
 SPDXID: SPDXRef-libwacom-common_file_369
-FileChecksum: 3b63ee7d06efc4766510c847ae35e7688ff20532
+FileChecksum: SHA1: 3b63ee7d06efc4766510c847ae35e7688ff20532
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3363,7 +3363,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_369
 
 FileName: /usr/share/libwacom/layouts/intuos-m-p2.svg
 SPDXID: SPDXRef-libwacom-common_file_370
-FileChecksum: 5443afa3877b73053ed79596b568e2c2aa82d736
+FileChecksum: SHA1: 5443afa3877b73053ed79596b568e2c2aa82d736
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3372,7 +3372,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_370
 
 FileName: /usr/share/libwacom/layouts/intuos-m-p3.svg
 SPDXID: SPDXRef-libwacom-common_file_371
-FileChecksum: b4410cde851e59ed4e6895cadecafce7c832889f
+FileChecksum: SHA1: b4410cde851e59ed4e6895cadecafce7c832889f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3381,7 +3381,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_371
 
 FileName: /usr/share/libwacom/layouts/intuos-m-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_372
-FileChecksum: b34cc52285ef26fbd23c3998a5dde0f11845e61f
+FileChecksum: SHA1: b34cc52285ef26fbd23c3998a5dde0f11845e61f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3390,7 +3390,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_372
 
 FileName: /usr/share/libwacom/layouts/intuos-m-pt2.svg
 SPDXID: SPDXRef-libwacom-common_file_373
-FileChecksum: 79e2bd4d1c8f46724c4ae30373108de0a657285f
+FileChecksum: SHA1: 79e2bd4d1c8f46724c4ae30373108de0a657285f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3399,7 +3399,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_373
 
 FileName: /usr/share/libwacom/layouts/intuos-pro-2-l.svg
 SPDXID: SPDXRef-libwacom-common_file_374
-FileChecksum: fab3e762eb0980889a45df3f7ae0587f3c2c2143
+FileChecksum: SHA1: fab3e762eb0980889a45df3f7ae0587f3c2c2143
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3408,7 +3408,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_374
 
 FileName: /usr/share/libwacom/layouts/intuos-pro-2-m.svg
 SPDXID: SPDXRef-libwacom-common_file_375
-FileChecksum: a20e86752f6bc7c99102bee2a02c3bc9e8593364
+FileChecksum: SHA1: a20e86752f6bc7c99102bee2a02c3bc9e8593364
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3417,7 +3417,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_375
 
 FileName: /usr/share/libwacom/layouts/intuos-pro-2-s.svg
 SPDXID: SPDXRef-libwacom-common_file_376
-FileChecksum: 46ddb615c4d113e81cdd50737c2b4355296b2c9e
+FileChecksum: SHA1: 46ddb615c4d113e81cdd50737c2b4355296b2c9e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3426,7 +3426,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_376
 
 FileName: /usr/share/libwacom/layouts/intuos-pro-l.svg
 SPDXID: SPDXRef-libwacom-common_file_377
-FileChecksum: 3e885f7e9c8caf79d341b1df7c3d947ad6c41275
+FileChecksum: SHA1: 3e885f7e9c8caf79d341b1df7c3d947ad6c41275
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3435,7 +3435,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_377
 
 FileName: /usr/share/libwacom/layouts/intuos-pro-m.svg
 SPDXID: SPDXRef-libwacom-common_file_378
-FileChecksum: 9a84c4341380a4746521df72252b7a6e5e56c7f6
+FileChecksum: SHA1: 9a84c4341380a4746521df72252b7a6e5e56c7f6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3444,7 +3444,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_378
 
 FileName: /usr/share/libwacom/layouts/intuos-pro-s.svg
 SPDXID: SPDXRef-libwacom-common_file_379
-FileChecksum: 52a497b0ba06d1ec68d3232d9bcc6a4ef58e8086
+FileChecksum: SHA1: 52a497b0ba06d1ec68d3232d9bcc6a4ef58e8086
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3453,7 +3453,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_379
 
 FileName: /usr/share/libwacom/layouts/intuos-s-p.svg
 SPDXID: SPDXRef-libwacom-common_file_380
-FileChecksum: cf52732c7080372540864f7d6f94008a6cf55689
+FileChecksum: SHA1: cf52732c7080372540864f7d6f94008a6cf55689
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3462,7 +3462,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_380
 
 FileName: /usr/share/libwacom/layouts/intuos-s-p2.svg
 SPDXID: SPDXRef-libwacom-common_file_381
-FileChecksum: 08a2cb05d554503cb5fb71e21769b7cb669606e7
+FileChecksum: SHA1: 08a2cb05d554503cb5fb71e21769b7cb669606e7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3471,7 +3471,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_381
 
 FileName: /usr/share/libwacom/layouts/intuos-s-p3.svg
 SPDXID: SPDXRef-libwacom-common_file_382
-FileChecksum: b4410cde851e59ed4e6895cadecafce7c832889f
+FileChecksum: SHA1: b4410cde851e59ed4e6895cadecafce7c832889f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3480,7 +3480,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_382
 
 FileName: /usr/share/libwacom/layouts/intuos-s-pt.svg
 SPDXID: SPDXRef-libwacom-common_file_383
-FileChecksum: 066cd559f9ba12bdf8ea3b0476bd124711b725b9
+FileChecksum: SHA1: 066cd559f9ba12bdf8ea3b0476bd124711b725b9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3489,7 +3489,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_383
 
 FileName: /usr/share/libwacom/layouts/intuos-s-pt2.svg
 SPDXID: SPDXRef-libwacom-common_file_384
-FileChecksum: 67bbdc8e6fa044092258a3ce5a05f198647424e7
+FileChecksum: SHA1: 67bbdc8e6fa044092258a3ce5a05f198647424e7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3498,7 +3498,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_384
 
 FileName: /usr/share/libwacom/layouts/intuos3-12x12.svg
 SPDXID: SPDXRef-libwacom-common_file_385
-FileChecksum: 3b96ec665b64623353e93b996b8c8e0de7eb2f1d
+FileChecksum: SHA1: 3b96ec665b64623353e93b996b8c8e0de7eb2f1d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3507,7 +3507,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_385
 
 FileName: /usr/share/libwacom/layouts/intuos3-12x19.svg
 SPDXID: SPDXRef-libwacom-common_file_386
-FileChecksum: da465a092459386aec6032932f170bc2d7d706f1
+FileChecksum: SHA1: da465a092459386aec6032932f170bc2d7d706f1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3516,7 +3516,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_386
 
 FileName: /usr/share/libwacom/layouts/intuos3-4x5.svg
 SPDXID: SPDXRef-libwacom-common_file_387
-FileChecksum: 8e0a479b2f1079d44cf381fe9518d8376a9b2aa2
+FileChecksum: SHA1: 8e0a479b2f1079d44cf381fe9518d8376a9b2aa2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3525,7 +3525,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_387
 
 FileName: /usr/share/libwacom/layouts/intuos3-4x6.svg
 SPDXID: SPDXRef-libwacom-common_file_388
-FileChecksum: ee0fc4a258a05416d5e02b454f516e3f3e7a0918
+FileChecksum: SHA1: ee0fc4a258a05416d5e02b454f516e3f3e7a0918
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3534,7 +3534,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_388
 
 FileName: /usr/share/libwacom/layouts/intuos3-6x11.svg
 SPDXID: SPDXRef-libwacom-common_file_389
-FileChecksum: 402e5df404e82d96ceaa13af6dcdb50760f26b68
+FileChecksum: SHA1: 402e5df404e82d96ceaa13af6dcdb50760f26b68
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3543,7 +3543,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_389
 
 FileName: /usr/share/libwacom/layouts/intuos3-6x8.svg
 SPDXID: SPDXRef-libwacom-common_file_390
-FileChecksum: 81f2f680feefd6dfe1842b141b57dbe820e72430
+FileChecksum: SHA1: 81f2f680feefd6dfe1842b141b57dbe820e72430
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3552,7 +3552,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_390
 
 FileName: /usr/share/libwacom/layouts/intuos3-9x12.svg
 SPDXID: SPDXRef-libwacom-common_file_391
-FileChecksum: 70dae1fcef27fbb38f2a25b18ee2d584b56130ec
+FileChecksum: SHA1: 70dae1fcef27fbb38f2a25b18ee2d584b56130ec
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3561,7 +3561,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_391
 
 FileName: /usr/share/libwacom/layouts/intuos4-12x19.svg
 SPDXID: SPDXRef-libwacom-common_file_392
-FileChecksum: 10d158ff94f3c3c7e44ccb31cb8c4e61d0d5e571
+FileChecksum: SHA1: 10d158ff94f3c3c7e44ccb31cb8c4e61d0d5e571
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3570,7 +3570,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_392
 
 FileName: /usr/share/libwacom/layouts/intuos4-4x6.svg
 SPDXID: SPDXRef-libwacom-common_file_393
-FileChecksum: 375fc42b5fde08ac7a5ee4dae2233ae07dcac88e
+FileChecksum: SHA1: 375fc42b5fde08ac7a5ee4dae2233ae07dcac88e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3579,7 +3579,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_393
 
 FileName: /usr/share/libwacom/layouts/intuos4-6x9-wl.svg
 SPDXID: SPDXRef-libwacom-common_file_394
-FileChecksum: 55cb05471cfdddab985d3c12d8b189fa9d500f2d
+FileChecksum: SHA1: 55cb05471cfdddab985d3c12d8b189fa9d500f2d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3588,7 +3588,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_394
 
 FileName: /usr/share/libwacom/layouts/intuos4-6x9.svg
 SPDXID: SPDXRef-libwacom-common_file_395
-FileChecksum: 65b81b351252906281bdd1ba7f334865d75305f5
+FileChecksum: SHA1: 65b81b351252906281bdd1ba7f334865d75305f5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3597,7 +3597,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_395
 
 FileName: /usr/share/libwacom/layouts/intuos4-8x13.svg
 SPDXID: SPDXRef-libwacom-common_file_396
-FileChecksum: 17ab6568eaf81c5ab19b6fc19d4b2b0c5e016b55
+FileChecksum: SHA1: 17ab6568eaf81c5ab19b6fc19d4b2b0c5e016b55
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3606,7 +3606,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_396
 
 FileName: /usr/share/libwacom/layouts/intuos5-l.svg
 SPDXID: SPDXRef-libwacom-common_file_397
-FileChecksum: 12ad2909b5108b7a522450efd85577a6569d5258
+FileChecksum: SHA1: 12ad2909b5108b7a522450efd85577a6569d5258
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3615,7 +3615,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_397
 
 FileName: /usr/share/libwacom/layouts/intuos5-m.svg
 SPDXID: SPDXRef-libwacom-common_file_398
-FileChecksum: 200a727422fdeafcc53d83771f644e57ccb62303
+FileChecksum: SHA1: 200a727422fdeafcc53d83771f644e57ccb62303
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3624,7 +3624,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_398
 
 FileName: /usr/share/libwacom/layouts/intuos5-s.svg
 SPDXID: SPDXRef-libwacom-common_file_399
-FileChecksum: f5759661e3003ed0e55feb0fbb05b6c0f7199f42
+FileChecksum: SHA1: f5759661e3003ed0e55feb0fbb05b6c0f7199f42
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3633,7 +3633,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_399
 
 FileName: /usr/share/libwacom/layouts/kamvas-pro-13.svg
 SPDXID: SPDXRef-libwacom-common_file_400
-FileChecksum: 61a4be0a108097626f0327229724c90ebeaf8121
+FileChecksum: SHA1: 61a4be0a108097626f0327229724c90ebeaf8121
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3642,7 +3642,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_400
 
 FileName: /usr/share/libwacom/layouts/mobilestudio-pro-13.svg
 SPDXID: SPDXRef-libwacom-common_file_401
-FileChecksum: 2a4a3dbfb8307d21e733251273b169724c937a20
+FileChecksum: SHA1: 2a4a3dbfb8307d21e733251273b169724c937a20
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3651,7 +3651,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_401
 
 FileName: /usr/share/libwacom/layouts/mobilestudio-pro-16.svg
 SPDXID: SPDXRef-libwacom-common_file_402
-FileChecksum: eb695cee05666ad575f130ee7e6547ac2b4246dd
+FileChecksum: SHA1: eb695cee05666ad575f130ee7e6547ac2b4246dd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3660,7 +3660,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_402
 
 FileName: /usr/share/libwacom/layouts/xp-pen-star03.svg
 SPDXID: SPDXRef-libwacom-common_file_403
-FileChecksum: 28a3e51d52996bd1309d8670babcd612bf1bb987
+FileChecksum: SHA1: 28a3e51d52996bd1309d8670babcd612bf1bb987
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3669,7 +3669,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_403
 
 FileName: /usr/share/libwacom/letsketch-wp9620.tablet
 SPDXID: SPDXRef-libwacom-common_file_404
-FileChecksum: 8177725c7ddd10f1ddba824ac475152446e2ecec
+FileChecksum: SHA1: 8177725c7ddd10f1ddba824ac475152446e2ecec
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3678,7 +3678,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_404
 
 FileName: /usr/share/libwacom/libwacom.stylus
 SPDXID: SPDXRef-libwacom-common_file_405
-FileChecksum: 7e151c4c2c9298c80e4d7ea04d208e3c480897a7
+FileChecksum: SHA1: 7e151c4c2c9298c80e4d7ea04d208e3c480897a7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3687,7 +3687,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_405
 
 FileName: /usr/share/libwacom/mobilestudio-pro-13-2.tablet
 SPDXID: SPDXRef-libwacom-common_file_406
-FileChecksum: c9adea49dd06261e0a4fc3b267345fda1a06be83
+FileChecksum: SHA1: c9adea49dd06261e0a4fc3b267345fda1a06be83
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3696,7 +3696,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_406
 
 FileName: /usr/share/libwacom/mobilestudio-pro-13.tablet
 SPDXID: SPDXRef-libwacom-common_file_407
-FileChecksum: 9bcab52fa55d372ad89e4a567646614d0a4ff602
+FileChecksum: SHA1: 9bcab52fa55d372ad89e4a567646614d0a4ff602
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3705,7 +3705,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_407
 
 FileName: /usr/share/libwacom/mobilestudio-pro-16-2.tablet
 SPDXID: SPDXRef-libwacom-common_file_408
-FileChecksum: 6686df047747d8e8aeaf23efb71d298b89363f15
+FileChecksum: SHA1: 6686df047747d8e8aeaf23efb71d298b89363f15
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3714,7 +3714,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_408
 
 FileName: /usr/share/libwacom/mobilestudio-pro-16-3.tablet
 SPDXID: SPDXRef-libwacom-common_file_409
-FileChecksum: 15c40b497e9ffd86f5e4642e400fdde1852bd32b
+FileChecksum: SHA1: 15c40b497e9ffd86f5e4642e400fdde1852bd32b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3723,7 +3723,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_409
 
 FileName: /usr/share/libwacom/mobilestudio-pro-16.tablet
 SPDXID: SPDXRef-libwacom-common_file_410
-FileChecksum: 1dbdeff88fafb9aa7e40a583e40f9c48ee3789cb
+FileChecksum: SHA1: 1dbdeff88fafb9aa7e40a583e40f9c48ee3789cb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3732,7 +3732,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_410
 
 FileName: /usr/share/libwacom/n-trig-pen.tablet
 SPDXID: SPDXRef-libwacom-common_file_411
-FileChecksum: e669fee3f7cf7c1e65b73b2e573d1d54657dca7b
+FileChecksum: SHA1: e669fee3f7cf7c1e65b73b2e573d1d54657dca7b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3741,7 +3741,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_411
 
 FileName: /usr/share/libwacom/one-by-wacom-m-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_412
-FileChecksum: 12138cfcfad22868a4b68ac9ac9278ea4edf5ff7
+FileChecksum: SHA1: 12138cfcfad22868a4b68ac9ac9278ea4edf5ff7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3750,7 +3750,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_412
 
 FileName: /usr/share/libwacom/one-by-wacom-m-p2.tablet
 SPDXID: SPDXRef-libwacom-common_file_413
-FileChecksum: a7c63a412ac59edc89293dd98f3f1cc158c13e42
+FileChecksum: SHA1: a7c63a412ac59edc89293dd98f3f1cc158c13e42
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3759,7 +3759,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_413
 
 FileName: /usr/share/libwacom/one-by-wacom-s-p.tablet
 SPDXID: SPDXRef-libwacom-common_file_414
-FileChecksum: 935688bf82fa8e07a8a294f22a2c8192f7cd879d
+FileChecksum: SHA1: 935688bf82fa8e07a8a294f22a2c8192f7cd879d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3768,7 +3768,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_414
 
 FileName: /usr/share/libwacom/one-by-wacom-s-p2.tablet
 SPDXID: SPDXRef-libwacom-common_file_415
-FileChecksum: 0b9415f611dc27e348bc80749ea7cbbeff13cf4a
+FileChecksum: SHA1: 0b9415f611dc27e348bc80749ea7cbbeff13cf4a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3777,7 +3777,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_415
 
 FileName: /usr/share/libwacom/serial-wacf004.tablet
 SPDXID: SPDXRef-libwacom-common_file_416
-FileChecksum: d6be0bd94512575223277e81edcc631d17899cf0
+FileChecksum: SHA1: d6be0bd94512575223277e81edcc631d17899cf0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3786,7 +3786,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_416
 
 FileName: /usr/share/libwacom/surface-go-2.tablet
 SPDXID: SPDXRef-libwacom-common_file_417
-FileChecksum: e728b88b2f1de849a6c47e8f47645c93cc902b15
+FileChecksum: SHA1: e728b88b2f1de849a6c47e8f47645c93cc902b15
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3795,7 +3795,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_417
 
 FileName: /usr/share/libwacom/surface-go.tablet
 SPDXID: SPDXRef-libwacom-common_file_418
-FileChecksum: ca45a1756fe7e75c6bcc8d23783afa9082c06c82
+FileChecksum: SHA1: ca45a1756fe7e75c6bcc8d23783afa9082c06c82
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3804,7 +3804,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_418
 
 FileName: /usr/share/libwacom/volito-4x5.tablet
 SPDXID: SPDXRef-libwacom-common_file_419
-FileChecksum: 2d2d0b7492b6aa3bfcdfe4df7a21310daf4c6ec7
+FileChecksum: SHA1: 2d2d0b7492b6aa3bfcdfe4df7a21310daf4c6ec7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3813,7 +3813,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_419
 
 FileName: /usr/share/libwacom/wacom-one.tablet
 SPDXID: SPDXRef-libwacom-common_file_420
-FileChecksum: 258dd26268e522f4618abf5621d45be885f88cb6
+FileChecksum: SHA1: 258dd26268e522f4618abf5621d45be885f88cb6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3822,7 +3822,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_420
 
 FileName: /usr/share/libwacom/waltop-slim-tablet-12-1.tablet
 SPDXID: SPDXRef-libwacom-common_file_421
-FileChecksum: ecda399873358e7f2cbfff3b06bc8009db3a1839
+FileChecksum: SHA1: ecda399873358e7f2cbfff3b06bc8009db3a1839
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3831,7 +3831,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_421
 
 FileName: /usr/share/libwacom/xp-pen-g430.tablet
 SPDXID: SPDXRef-libwacom-common_file_422
-FileChecksum: 8aaa766cab43b09f232f471996600ffe4247120a
+FileChecksum: SHA1: 8aaa766cab43b09f232f471996600ffe4247120a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3840,7 +3840,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_422
 
 FileName: /usr/share/libwacom/xp-pen-g640.tablet
 SPDXID: SPDXRef-libwacom-common_file_423
-FileChecksum: 0fcc4c27e38acde96c157b1d9c247b9e66f97229
+FileChecksum: SHA1: 0fcc4c27e38acde96c157b1d9c247b9e66f97229
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -3849,7 +3849,7 @@ Relationship: SPDXRef-libwacom-common CONTAINS SPDXRef-libwacom-common_file_423
 
 FileName: /usr/share/libwacom/xp-pen-star03.tablet
 SPDXID: SPDXRef-libwacom-common_file_424
-FileChecksum: ca8192f97edff55973475b7e6f8197a023adb72e
+FileChecksum: SHA1: ca8192f97edff55973475b7e6f8197a023adb72e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

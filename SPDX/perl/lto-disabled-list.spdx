@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/lto-disabled-list_24-f8fc1894-298c-5604-87f9-8c31fb2f8d59
+DocumentNamespace: http://spdx.org/spdxdocs/lto-disabled-list_24-0465f109-a226-5b0e-bedf-b14b4acf0d8b
 DocumentName: lto-disabled-list_24
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lto-disabled-list
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lto-disabled-list
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:00:31Z
+Created: 2022-11-28T14:09:07Z
 
 
 ## Package
@@ -33,7 +33,7 @@ PackageComment: <text>list of packages not to build with LTO
 
 FileName: /usr/share/doc/lto-disabled-list/changelog.gz
 SPDXID: SPDXRef-lto-disabled-list_file_0
-FileChecksum: 5b255ba1806fd94637c2910638c60c4a0331a716
+FileChecksum: SHA1: 5b255ba1806fd94637c2910638c60c4a0331a716
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -42,7 +42,7 @@ Relationship: SPDXRef-lto-disabled-list CONTAINS SPDXRef-lto-disabled-list_file_
 
 FileName: /usr/share/doc/lto-disabled-list/copyright
 SPDXID: SPDXRef-lto-disabled-list_file_1
-FileChecksum: 939d726e2a5d5cf8cb8cd3d5a7d560dc089ab104
+FileChecksum: SHA1: 939d726e2a5d5cf8cb8cd3d5a7d560dc089ab104
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -51,7 +51,7 @@ Relationship: SPDXRef-lto-disabled-list CONTAINS SPDXRef-lto-disabled-list_file_
 
 FileName: /usr/share/lto-disabled-list/lto-disabled-list
 SPDXID: SPDXRef-lto-disabled-list_file_2
-FileChecksum: 7b195f931594ef6d1ed3647fe477c84837d30536
+FileChecksum: SHA1: 7b195f931594ef6d1ed3647fe477c84837d30536
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

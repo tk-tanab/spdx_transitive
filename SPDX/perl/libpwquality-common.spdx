@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libpwquality-common_1.4.4-1build2-349a8cbe-a940-54c0-afb2-6dc93a8f4057
+DocumentNamespace: http://spdx.org/spdxdocs/libpwquality-common_1.4.4-1build2-57eec2cb-9225-5dc1-80e0-f6e434476c2f
 DocumentName: libpwquality-common_1.4.4-1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpwquality-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpwquality-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:59:14Z
+Created: 2022-11-28T14:07:29Z
 
 
 ## Package
@@ -35,7 +35,7 @@ PackageComment: <text>library for password quality checking and generation (data
 
 FileName: /etc/security/pwquality.conf
 SPDXID: SPDXRef-libpwquality-common_file_0
-FileChecksum: cad6399944f0f5459270952d971fa2dbec80e5d4
+FileChecksum: SHA1: cad6399944f0f5459270952d971fa2dbec80e5d4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -44,7 +44,7 @@ Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common_f
 
 FileName: /usr/share/doc/libpwquality-common/changelog.Debian.gz
 SPDXID: SPDXRef-libpwquality-common_file_1
-FileChecksum: f5fdda4fe6afe0f7ebefc86106e90484db9cf4e4
+FileChecksum: SHA1: f5fdda4fe6afe0f7ebefc86106e90484db9cf4e4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -53,7 +53,7 @@ Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common_f
 
 FileName: /usr/share/doc/libpwquality-common/copyright
 SPDXID: SPDXRef-libpwquality-common_file_2
-FileChecksum: 6fd29174313518f92a714f0fd148bb15a6ee914f
+FileChecksum: SHA1: 6fd29174313518f92a714f0fd148bb15a6ee914f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -62,7 +62,7 @@ Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common_f
 
 FileName: /usr/share/man/man5/pwquality.conf.5.gz
 SPDXID: SPDXRef-libpwquality-common_file_3
-FileChecksum: d64bf85779440d1c1a974328ca5171ae4d9263ee
+FileChecksum: SHA1: d64bf85779440d1c1a974328ca5171ae4d9263ee
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

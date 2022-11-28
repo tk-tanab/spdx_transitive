@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/netbase_6.3-c392be82-1599-507c-a6dd-b35d1ec60076
+DocumentNamespace: http://spdx.org/spdxdocs/netbase_6.3-33477d26-709e-5622-b2bc-39bde01b8ed9
 DocumentName: netbase_6.3
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-netbase
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-netbase
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:59:38Z
+Created: 2022-11-28T14:07:52Z
 
 
 ## Package
@@ -33,7 +33,7 @@ PackageComment: <text>Basic TCP/IP networking system
 
 FileName: /etc/ethertypes
 SPDXID: SPDXRef-netbase_file_0
-FileChecksum: 2902538bf5531857042f2b3aff36b076fd384759
+FileChecksum: SHA1: 2902538bf5531857042f2b3aff36b076fd384759
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -42,7 +42,7 @@ Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_0
 
 FileName: /etc/protocols
 SPDXID: SPDXRef-netbase_file_1
-FileChecksum: a262a5a77be01aad99a98cf20ff28735da3cac37
+FileChecksum: SHA1: a262a5a77be01aad99a98cf20ff28735da3cac37
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -51,7 +51,7 @@ Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_1
 
 FileName: /etc/rpc
 SPDXID: SPDXRef-netbase_file_2
-FileChecksum: 774b67fdac56d2973e3b1e0e3f32f962dea1b8a1
+FileChecksum: SHA1: 774b67fdac56d2973e3b1e0e3f32f962dea1b8a1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -60,7 +60,7 @@ Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_2
 
 FileName: /etc/services
 SPDXID: SPDXRef-netbase_file_3
-FileChecksum: a0d7a229bf049f7fe17e8445226236e4024535d0
+FileChecksum: SHA1: a0d7a229bf049f7fe17e8445226236e4024535d0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -69,7 +69,7 @@ Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_3
 
 FileName: /usr/share/doc/netbase/changelog.gz
 SPDXID: SPDXRef-netbase_file_4
-FileChecksum: 4bb1c8432f4977688e14456330422c29341e43ec
+FileChecksum: SHA1: 4bb1c8432f4977688e14456330422c29341e43ec
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -78,7 +78,7 @@ Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase_file_4
 
 FileName: /usr/share/doc/netbase/copyright
 SPDXID: SPDXRef-netbase_file_5
-FileChecksum: 473b4254e3bb9789f056d2ffbf21b5a855813f2a
+FileChecksum: SHA1: 473b4254e3bb9789f056d2ffbf21b5a855813f2a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

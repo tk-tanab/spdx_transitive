@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libsensors-config_1:3.6.0-7ubuntu1-9736ead2-6d54-5b07-97eb-8ab74eefb53f
+DocumentNamespace: http://spdx.org/spdxdocs/libsensors-config_1:3.6.0-7ubuntu1-f55f1b65-57c6-59aa-a6b9-00e847209711
 DocumentName: libsensors-config_1:3.6.0-7ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsensors-config
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsensors-config
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:22Z
+Created: 2022-11-28T14:07:04Z
 
 
 ## Package
@@ -37,7 +37,7 @@ PackageComment: <text>lm-sensors configuration files
 
 FileName: /etc/sensors.d/.placeholder
 SPDXID: SPDXRef-libsensors-config_file_0
-FileChecksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -46,7 +46,7 @@ Relationship: SPDXRef-libsensors-config CONTAINS SPDXRef-libsensors-config_file_
 
 FileName: /etc/sensors3.conf
 SPDXID: SPDXRef-libsensors-config_file_1
-FileChecksum: c58a79526a821d0704faa4bcb7af7dbc5bc1b006
+FileChecksum: SHA1: c58a79526a821d0704faa4bcb7af7dbc5bc1b006
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -55,7 +55,7 @@ Relationship: SPDXRef-libsensors-config CONTAINS SPDXRef-libsensors-config_file_
 
 FileName: /usr/share/doc/libsensors-config/changelog.Debian.gz
 SPDXID: SPDXRef-libsensors-config_file_2
-FileChecksum: 4a5111e6aa8a2ae377ead81fa1bb1e70a94210c5
+FileChecksum: SHA1: 4a5111e6aa8a2ae377ead81fa1bb1e70a94210c5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -64,7 +64,7 @@ Relationship: SPDXRef-libsensors-config CONTAINS SPDXRef-libsensors-config_file_
 
 FileName: /usr/share/doc/libsensors-config/copyright
 SPDXID: SPDXRef-libsensors-config_file_3
-FileChecksum: 82a87f97acd49f46edb8d22a4850cdcf8bc7ad32
+FileChecksum: SHA1: 82a87f97acd49f46edb8d22a4850cdcf8bc7ad32
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/pci.ids_0.0~2022.01.22-1-b8c1f08a-4a82-5515-accc-1d156944ba37
+DocumentNamespace: http://spdx.org/spdxdocs/pci.ids_0.0~2022.01.22-1-6ace5e31-572c-50a5-ab8a-82748963e9d3
 DocumentName: pci.ids_0.0~2022.01.22-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-pci.ids
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-pci.ids
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:21Z
+Created: 2022-11-28T14:07:04Z
 
 
 ## Package
@@ -33,7 +33,7 @@ PackageComment: <text>PCI ID Repository
 
 FileName: /usr/share/doc/pci.ids/changelog.Debian.gz
 SPDXID: SPDXRef-pci.ids_file_0
-FileChecksum: f376072df6364b8f1be16c856cce690d36078a88
+FileChecksum: SHA1: f376072df6364b8f1be16c856cce690d36078a88
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -42,7 +42,7 @@ Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids_file_0
 
 FileName: /usr/share/doc/pci.ids/copyright
 SPDXID: SPDXRef-pci.ids_file_1
-FileChecksum: 3c62e38955a562c2fddc73a987809aba3a5b4871
+FileChecksum: SHA1: 3c62e38955a562c2fddc73a987809aba3a5b4871
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -51,7 +51,7 @@ Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids_file_1
 
 FileName: /usr/share/misc/pci.ids
 SPDXID: SPDXRef-pci.ids_file_2
-FileChecksum: 23f1217465519470a24e20d94de595d7831c3bb4
+FileChecksum: SHA1: 23f1217465519470a24e20d94de595d7831c3bb4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libklibc_2.0.10-4-7151b637-6a7a-5632-ab61-00910c937e82
+DocumentNamespace: http://spdx.org/spdxdocs/libklibc_2.0.10-4-c4cdbe83-dbb4-530e-b0b9-132c24637979
 DocumentName: libklibc_2.0.10-4
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libklibc
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libklibc
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:00:12Z
+Created: 2022-11-28T14:08:25Z
 
 
 ## Package
@@ -33,7 +33,7 @@ PackageComment: <text>minimal libc subset for use with initramfs
 
 FileName: /lib/klibc-K8e6DOmVI9JpyGMLR7qNe5iZeBk.so
 SPDXID: SPDXRef-libklibc_file_0
-FileChecksum: 55e44f05c39bd07a1e4101403d58eba3a38ea88c
+FileChecksum: SHA1: 55e44f05c39bd07a1e4101403d58eba3a38ea88c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -42,7 +42,7 @@ Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc_file_0
 
 FileName: /usr/share/doc/libklibc/README
 SPDXID: SPDXRef-libklibc_file_1
-FileChecksum: 8f0d73ce14f2195a8ef472e243fadec71302f866
+FileChecksum: SHA1: 8f0d73ce14f2195a8ef472e243fadec71302f866
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -51,7 +51,7 @@ Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc_file_1
 
 FileName: /usr/share/doc/libklibc/README.ipconfig.gz
 SPDXID: SPDXRef-libklibc_file_2
-FileChecksum: 506dbd932040b3e3912ff785d42a93ee83e936d8
+FileChecksum: SHA1: 506dbd932040b3e3912ff785d42a93ee83e936d8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -60,7 +60,7 @@ Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc_file_2
 
 FileName: /usr/share/doc/libklibc/README.klibc.arch
 SPDXID: SPDXRef-libklibc_file_3
-FileChecksum: 019ff5b7087d9b4a7733ec989169330d5ceea017
+FileChecksum: SHA1: 019ff5b7087d9b4a7733ec989169330d5ceea017
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -69,7 +69,7 @@ Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc_file_3
 
 FileName: /usr/share/doc/libklibc/README.klibc.gz
 SPDXID: SPDXRef-libklibc_file_4
-FileChecksum: ac5aa3e0db1bf6a4588c9172f15877d2e21ba792
+FileChecksum: SHA1: ac5aa3e0db1bf6a4588c9172f15877d2e21ba792
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -78,7 +78,7 @@ Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc_file_4
 
 FileName: /usr/share/doc/libklibc/changelog.Debian.gz
 SPDXID: SPDXRef-libklibc_file_5
-FileChecksum: dedd471a0180ac44c3bceb5293869f690ce84486
+FileChecksum: SHA1: dedd471a0180ac44c3bceb5293869f690ce84486
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -87,7 +87,7 @@ Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc_file_5
 
 FileName: /usr/share/doc/libklibc/copyright
 SPDXID: SPDXRef-libklibc_file_6
-FileChecksum: 397ad71b65ba63703a942c6507ffd406e6858201
+FileChecksum: SHA1: 397ad71b65ba63703a942c6507ffd406e6858201
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -96,7 +96,7 @@ Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc_file_6
 
 FileName: /usr/share/lintian/overrides/libklibc
 SPDXID: SPDXRef-libklibc_file_7
-FileChecksum: c5d9649d3c1ef93e0b8c13b679b9e6c65d3462f5
+FileChecksum: SHA1: c5d9649d3c1ef93e0b8c13b679b9e6c65d3462f5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

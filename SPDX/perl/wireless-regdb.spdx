@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/wireless-regdb_2022.06.06-0ubuntu1~22.04.1-45e9f993-3204-57c1-a76a-a66c386bed14
+DocumentNamespace: http://spdx.org/spdxdocs/wireless-regdb_2022.06.06-0ubuntu1~22.04.1-614cb0ba-ffb9-5f30-acf5-57e7a94a97f1
 DocumentName: wireless-regdb_2022.06.06-0ubuntu1~22.04.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-wireless-regdb
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-wireless-regdb
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:59:37Z
+Created: 2022-11-28T14:07:52Z
 
 
 ## Package
@@ -36,7 +36,7 @@ PackageComment: <text>wireless regulatory database
 
 FileName: /lib/crda/regulatory.bin
 SPDXID: SPDXRef-wireless-regdb_file_0
-FileChecksum: e3681151fff1e7459b2eecfd7b6f7b346ea7e3dc
+FileChecksum: SHA1: e3681151fff1e7459b2eecfd7b6f7b346ea7e3dc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -45,7 +45,7 @@ Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_0
 
 FileName: /lib/firmware/regulatory.db
 SPDXID: SPDXRef-wireless-regdb_file_1
-FileChecksum: ce1ccebf8d5335e9a60566145d1893b1805f2511
+FileChecksum: SHA1: ce1ccebf8d5335e9a60566145d1893b1805f2511
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -54,7 +54,7 @@ Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_1
 
 FileName: /lib/firmware/regulatory.db.p7s
 SPDXID: SPDXRef-wireless-regdb_file_2
-FileChecksum: d00379fe5cd3be825ba6f0081aae9912eb8c7e31
+FileChecksum: SHA1: d00379fe5cd3be825ba6f0081aae9912eb8c7e31
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -63,7 +63,7 @@ Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_2
 
 FileName: /usr/share/doc/wireless-regdb/changelog.Debian.gz
 SPDXID: SPDXRef-wireless-regdb_file_3
-FileChecksum: 0934a09ee13c3349325eab08422e660ea643eab7
+FileChecksum: SHA1: 0934a09ee13c3349325eab08422e660ea643eab7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -72,7 +72,7 @@ Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_3
 
 FileName: /usr/share/doc/wireless-regdb/copyright
 SPDXID: SPDXRef-wireless-regdb_file_4
-FileChecksum: 712b62ed4640fcfd9f1388de6bc1433ff8826261
+FileChecksum: SHA1: 712b62ed4640fcfd9f1388de6bc1433ff8826261
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -81,7 +81,7 @@ Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_4
 
 FileName: /usr/share/man/man5/regulatory.bin.5.gz
 SPDXID: SPDXRef-wireless-regdb_file_5
-FileChecksum: efe19181a733a56e36fee16bd21ce23606b83312
+FileChecksum: SHA1: efe19181a733a56e36fee16bd21ce23606b83312
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -90,7 +90,7 @@ Relationship: SPDXRef-wireless-regdb CONTAINS SPDXRef-wireless-regdb_file_5
 
 FileName: /usr/share/man/man5/regulatory.db.5.gz
 SPDXID: SPDXRef-wireless-regdb_file_6
-FileChecksum: efe19181a733a56e36fee16bd21ce23606b83312
+FileChecksum: SHA1: efe19181a733a56e36fee16bd21ce23606b83312
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

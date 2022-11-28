@@ -118,7 +118,7 @@ def make_tv_dict(package_name, mode):
                     file_dict = {
                         "FileName": [value],
                         "SPDXID": [],
-                        "FileChecksum": [hash_sha1],
+                        "FileChecksum": ["SHA1: " + hash_sha1],
                         "LicenseConcluded": ["NOASSERTION"],
                         "LicenseInfoInFile": ["NOASSERTION"],
                         "FileCopyrightText": ["NOASSERTION"]

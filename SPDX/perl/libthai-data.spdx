@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libthai-data_0.1.29-1build1-6803a039-3f0f-5c07-89c0-a5fdc7202d3b
+DocumentNamespace: http://spdx.org/spdxdocs/libthai-data_0.1.29-1build1-39f49a2e-d535-51d4-93ca-1a9a03b7d09f
 DocumentName: libthai-data_0.1.29-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libthai-data
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libthai-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:15Z
+Created: 2022-11-28T14:06:59Z
 
 
 ## Package
@@ -35,7 +35,7 @@ PackageComment: <text>Data files for Thai language support library
 
 FileName: /usr/share/doc/libthai-data/changelog.Debian.gz
 SPDXID: SPDXRef-libthai-data_file_0
-FileChecksum: ea673d9d240b14c1cedbc723de6111ab876844ad
+FileChecksum: SHA1: ea673d9d240b14c1cedbc723de6111ab876844ad
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -44,7 +44,7 @@ Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data_file_0
 
 FileName: /usr/share/doc/libthai-data/copyright
 SPDXID: SPDXRef-libthai-data_file_1
-FileChecksum: cfda33c18ae3dc18c64f110b0282ee205162a626
+FileChecksum: SHA1: cfda33c18ae3dc18c64f110b0282ee205162a626
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -53,7 +53,7 @@ Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data_file_1
 
 FileName: /usr/share/libthai/thbrk.tri
 SPDXID: SPDXRef-libthai-data_file_2
-FileChecksum: bab1d5c2ce1722f9901bb54f6c6e6bd969f37294
+FileChecksum: SHA1: bab1d5c2ce1722f9901bb54f6c6e6bd969f37294
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

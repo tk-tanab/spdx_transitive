@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libgdata-common_0.18.1-2build1-6dbc6b0b-e017-57d6-afa3-6d4fcdb9989f
+DocumentNamespace: http://spdx.org/spdxdocs/libgdata-common_0.18.1-2build1-c3f18f30-adb5-5ac9-9cfa-b39dcfd632df
 DocumentName: libgdata-common_0.18.1-2build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdata-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdata-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:41Z
+Created: 2022-11-28T14:07:11Z
 
 
 ## Package
@@ -34,7 +34,7 @@ PackageComment: <text>Library for accessing GData webservices - common data file
 
 FileName: /usr/share/doc/libgdata-common/changelog.Debian.gz
 SPDXID: SPDXRef-libgdata-common_file_0
-FileChecksum: 054c709d7f4f412f371ccee3208702070d58cbec
+FileChecksum: SHA1: 054c709d7f4f412f371ccee3208702070d58cbec
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -43,7 +43,7 @@ Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common_file_0
 
 FileName: /usr/share/doc/libgdata-common/copyright
 SPDXID: SPDXRef-libgdata-common_file_1
-FileChecksum: fb043d19b1e1e7fe4236b5d99635eb3983d91463
+FileChecksum: SHA1: fb043d19b1e1e7fe4236b5d99635eb3983d91463
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

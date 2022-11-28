@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libtirpc-common_1.3.2-2ubuntu0.1-5e858c16-4061-56ab-991c-de0d47ef4135
+DocumentNamespace: http://spdx.org/spdxdocs/libtirpc-common_1.3.2-2ubuntu0.1-d44b9b7e-2bf7-558c-851c-068cb9c03a99
 DocumentName: libtirpc-common_1.3.2-2ubuntu0.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libtirpc-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libtirpc-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:03Z
+Created: 2022-11-28T14:06:41Z
 
 
 ## Package
@@ -35,7 +35,7 @@ PackageComment: <text>transport-independent RPC library - common files
 
 FileName: /etc/netconfig
 SPDXID: SPDXRef-libtirpc-common_file_0
-FileChecksum: 36852ec5ce61da5aebd8f23ecd2f17434f457367
+FileChecksum: SHA1: 36852ec5ce61da5aebd8f23ecd2f17434f457367
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -44,7 +44,7 @@ Relationship: SPDXRef-libtirpc-common CONTAINS SPDXRef-libtirpc-common_file_0
 
 FileName: /usr/share/doc/libtirpc-common/NEWS.Debian.gz
 SPDXID: SPDXRef-libtirpc-common_file_1
-FileChecksum: 6de67dd16ee0df89246e174efc97839f7c722893
+FileChecksum: SHA1: 6de67dd16ee0df89246e174efc97839f7c722893
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -53,7 +53,7 @@ Relationship: SPDXRef-libtirpc-common CONTAINS SPDXRef-libtirpc-common_file_1
 
 FileName: /usr/share/doc/libtirpc-common/changelog.Debian.gz
 SPDXID: SPDXRef-libtirpc-common_file_2
-FileChecksum: 32e3259527f8e2b7d9ff40cd6ed6a82a6b38e3a5
+FileChecksum: SHA1: 32e3259527f8e2b7d9ff40cd6ed6a82a6b38e3a5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -62,7 +62,7 @@ Relationship: SPDXRef-libtirpc-common CONTAINS SPDXRef-libtirpc-common_file_2
 
 FileName: /usr/share/doc/libtirpc-common/copyright
 SPDXID: SPDXRef-libtirpc-common_file_3
-FileChecksum: d3d1543ca5af64ea288daa5984c4710287757409
+FileChecksum: SHA1: d3d1543ca5af64ea288daa5984c4710287757409
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -71,7 +71,7 @@ Relationship: SPDXRef-libtirpc-common CONTAINS SPDXRef-libtirpc-common_file_3
 
 FileName: /usr/share/man/man5/netconfig.5.gz
 SPDXID: SPDXRef-libtirpc-common_file_4
-FileChecksum: 21aabdde1d60ce3c4535f80178ec0bbe0116400c
+FileChecksum: SHA1: 21aabdde1d60ce3c4535f80178ec0bbe0116400c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libmtp-common_1.1.19-1build1-d096e560-e12e-539c-acaa-0d5a8eabd265
+DocumentNamespace: http://spdx.org/spdxdocs/libmtp-common_1.1.19-1build1-ae133fa7-24ac-5187-92f6-3f0b76ca5300
 DocumentName: libmtp-common_1.1.19-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmtp-common
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmtp-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:42Z
+Created: 2022-11-28T14:08:41Z
 
 
 ## Package
@@ -38,7 +38,7 @@ PackageComment: <text>Media Transfer Protocol (MTP) common files
 
 FileName: /lib/udev/hwdb.d/69-libmtp.hwdb
 SPDXID: SPDXRef-libmtp-common_file_0
-FileChecksum: f34091cc95077b7afd5ddc6d531e1a8fc6041069
+FileChecksum: SHA1: f34091cc95077b7afd5ddc6d531e1a8fc6041069
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -47,7 +47,7 @@ Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common_file_0
 
 FileName: /lib/udev/rules.d/69-libmtp.rules
 SPDXID: SPDXRef-libmtp-common_file_1
-FileChecksum: 7e8b0420e91e40f4fde86bd709f2e5c041216349
+FileChecksum: SHA1: 7e8b0420e91e40f4fde86bd709f2e5c041216349
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -56,7 +56,7 @@ Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common_file_1
 
 FileName: /usr/share/apport/package-hooks/source_libmtp.py
 SPDXID: SPDXRef-libmtp-common_file_2
-FileChecksum: 1fdd08b7cc686eaec2b6f9b6f440072be158b7ad
+FileChecksum: SHA1: 1fdd08b7cc686eaec2b6f9b6f440072be158b7ad
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -65,7 +65,7 @@ Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common_file_2
 
 FileName: /usr/share/doc/libmtp-common/changelog.Debian.gz
 SPDXID: SPDXRef-libmtp-common_file_3
-FileChecksum: e30b7be6770c8cd5f75a0e796153a69c0b17ccb0
+FileChecksum: SHA1: e30b7be6770c8cd5f75a0e796153a69c0b17ccb0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -74,7 +74,7 @@ Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common_file_3
 
 FileName: /usr/share/doc/libmtp-common/copyright
 SPDXID: SPDXRef-libmtp-common_file_4
-FileChecksum: eb7d6d6f488044f56563ca9b3b891d64786198c8
+FileChecksum: SHA1: eb7d6d6f488044f56563ca9b3b891d64786198c8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -83,7 +83,7 @@ Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common_file_4
 
 FileName: /usr/share/lintian/overrides/libmtp-common
 SPDXID: SPDXRef-libmtp-common_file_5
-FileChecksum: d2863a1b6702825557779d176c727aca017dbbc5
+FileChecksum: SHA1: d2863a1b6702825557779d176c727aca017dbbc5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

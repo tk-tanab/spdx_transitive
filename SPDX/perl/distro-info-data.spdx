@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-c63af1b6-f6b5-5f2a-8716-84dfc0cceab2
+DocumentNamespace: http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-0505b160-bcb9-582c-b49d-1d5e87405c68
 DocumentName: distro-info-data_0.52ubuntu0.2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-distro-info-data
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-distro-info-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:58:31Z
+Created: 2022-11-28T14:07:34Z
 
 
 ## Package
@@ -34,7 +34,7 @@ PackageComment: <text>information about the distributions' releases (data files)
 
 FileName: /usr/share/distro-info/debian.csv
 SPDXID: SPDXRef-distro-info-data_file_0
-FileChecksum: 65694293f2766427cea5b70ecab0e28376151469
+FileChecksum: SHA1: 65694293f2766427cea5b70ecab0e28376151469
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -43,7 +43,7 @@ Relationship: SPDXRef-distro-info-data CONTAINS SPDXRef-distro-info-data_file_0
 
 FileName: /usr/share/distro-info/ubuntu.csv
 SPDXID: SPDXRef-distro-info-data_file_1
-FileChecksum: a34a32ae83c648ce0db85bca302703bcd57c6bfb
+FileChecksum: SHA1: a34a32ae83c648ce0db85bca302703bcd57c6bfb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -52,7 +52,7 @@ Relationship: SPDXRef-distro-info-data CONTAINS SPDXRef-distro-info-data_file_1
 
 FileName: /usr/share/doc/distro-info-data/README.Debian
 SPDXID: SPDXRef-distro-info-data_file_2
-FileChecksum: 1d3457f5053824c219ea4ea6abd3fb770ef853d7
+FileChecksum: SHA1: 1d3457f5053824c219ea4ea6abd3fb770ef853d7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -61,7 +61,7 @@ Relationship: SPDXRef-distro-info-data CONTAINS SPDXRef-distro-info-data_file_2
 
 FileName: /usr/share/doc/distro-info-data/changelog.gz
 SPDXID: SPDXRef-distro-info-data_file_3
-FileChecksum: b6bba7e8c4f3fbb51776bf93a8be65ec5de8ff99
+FileChecksum: SHA1: b6bba7e8c4f3fbb51776bf93a8be65ec5de8ff99
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -70,7 +70,7 @@ Relationship: SPDXRef-distro-info-data CONTAINS SPDXRef-distro-info-data_file_3
 
 FileName: /usr/share/doc/distro-info-data/copyright
 SPDXID: SPDXRef-distro-info-data_file_4
-FileChecksum: 82f1b4641fe10e03462fe45402552a013e0aed44
+FileChecksum: SHA1: 82f1b4641fe10e03462fe45402552a013e0aed44
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION

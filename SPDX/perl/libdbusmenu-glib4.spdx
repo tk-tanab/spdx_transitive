@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libdbusmenu-glib4_16.04.1+18.10.20180917-0ubuntu8-84d2b30c-857f-5721-84a7-acf83c24f8b9
+DocumentNamespace: http://spdx.org/spdxdocs/libdbusmenu-glib4_16.04.1+18.10.20180917-0ubuntu8-253fde40-0ba6-5f27-8ea8-a7f12153747f
 DocumentName: libdbusmenu-glib4_16.04.1+18.10.20180917-0ubuntu8
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdbusmenu-glib4
@@ -10,7 +10,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdbusmenu-glib4
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:59:35Z
+Created: 2022-11-28T14:07:50Z
 
 
 ## Package
@@ -34,7 +34,7 @@ PackageComment: <text>library for passing menus over DBus
 
 FileName: /usr/lib/x86_64-linux-gnu/libdbusmenu-glib.so.4.0.12
 SPDXID: SPDXRef-libdbusmenu-glib4_file_0
-FileChecksum: 91163860b742f1ed14e87720cc3c4c1e925e6b91
+FileChecksum: SHA1: 91163860b742f1ed14e87720cc3c4c1e925e6b91
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -43,7 +43,7 @@ Relationship: SPDXRef-libdbusmenu-glib4 CONTAINS SPDXRef-libdbusmenu-glib4_file_
 
 FileName: /usr/share/doc/libdbusmenu-glib4/changelog.Debian.gz
 SPDXID: SPDXRef-libdbusmenu-glib4_file_1
-FileChecksum: 105c142d43aa8c472cfc23b2581f950a4802f06d
+FileChecksum: SHA1: 105c142d43aa8c472cfc23b2581f950a4802f06d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -52,7 +52,7 @@ Relationship: SPDXRef-libdbusmenu-glib4 CONTAINS SPDXRef-libdbusmenu-glib4_file_
 
 FileName: /usr/share/doc/libdbusmenu-glib4/copyright
 SPDXID: SPDXRef-libdbusmenu-glib4_file_2
-FileChecksum: 29dcfa5931af8fd8bb2bd25b252c08edbab45c6c
+FileChecksum: SHA1: 29dcfa5931af8fd8bb2bd25b252c08edbab45c6c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -61,7 +61,7 @@ Relationship: SPDXRef-libdbusmenu-glib4 CONTAINS SPDXRef-libdbusmenu-glib4_file_
 
 FileName: /usr/lib/x86_64-linux-gnu/libdbusmenu-glib.so.4
 SPDXID: SPDXRef-libdbusmenu-glib4_file_3
-FileChecksum: 91163860b742f1ed14e87720cc3c4c1e925e6b91
+FileChecksum: SHA1: 91163860b742f1ed14e87720cc3c4c1e925e6b91
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
