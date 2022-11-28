@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/media-types_7.0.0-8b243ffc-082d-5ffb-8884-0db48fd22514
+DocumentNamespace: http://spdx.org/spdxdocs/media-types_7.0.0-45dd56c5-d465-5149-9859-07a127b9b371
 DocumentName: media-types_7.0.0
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-media-types
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-media-types
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:23:16Z
+Created: 2022-11-28T13:58:28Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:23:16Z
 PackageName: media-types
 PackageVersion: 7.0.0
 SPDXID: SPDXRef-media-types
-PackageVerificationCode: 17814a119cd65042bb23fb6e8b67424c6fe214f9
+PackageVerificationCode: SHA1: 17814a119cd65042bb23fb6e8b67424c6fe214f9
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>List of standard media types and their usual file extension

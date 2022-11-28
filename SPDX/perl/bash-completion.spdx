@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/bash-completion_1:2.11-5ubuntu1-821b5b7a-7556-5468-81ca-ff1f577a567a
+DocumentNamespace: http://spdx.org/spdxdocs/bash-completion_1:2.11-5ubuntu1-9e0c8f6c-9038-5bdb-94cf-86b30f68a3e4
 DocumentName: bash-completion_1:2.11-5ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bash-completion
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bash-completion
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:23:57Z
+Created: 2022-11-28T13:59:48Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:23:57Z
 PackageName: bash-completion
 PackageVersion: 1:2.11-5ubuntu1
 SPDXID: SPDXRef-bash-completion
-PackageVerificationCode: 46eea9e7e18247eabf444e95a078df6fdc957c67
+PackageVerificationCode: SHA1: 46eea9e7e18247eabf444e95a078df6fdc957c67
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://github.com/scop/bash-completion

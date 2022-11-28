@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/emacsen-common_3.0.4-5dac83bf-4c36-5b59-916f-9660c55add5b
+DocumentNamespace: http://spdx.org/spdxdocs/emacsen-common_3.0.4-9bf1aa14-8e92-594c-a46c-2c97891c8679
 DocumentName: emacsen-common_3.0.4
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-emacsen-common
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-emacsen-common
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:23:08Z
+Created: 2022-11-28T13:58:46Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:23:08Z
 PackageName: emacsen-common
 PackageVersion: 3.0.4
 SPDXID: SPDXRef-emacsen-common
-PackageVerificationCode: a62a64dd7d9daa00ef64ce94c64584a4906fc5ca
+PackageVerificationCode: SHA1: a62a64dd7d9daa00ef64ce94c64584a4906fc5ca
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Common facilities for all emacsen

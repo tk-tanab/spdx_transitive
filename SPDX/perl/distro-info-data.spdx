@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-d7b71d32-6acd-59c0-ab9a-4fcd2650ccee
+DocumentNamespace: http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-c63af1b6-f6b5-5f2a-8716-84dfc0cceab2
 DocumentName: distro-info-data_0.52ubuntu0.2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-distro-info-data
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-distro-info-data
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:23:27Z
+Created: 2022-11-28T13:58:31Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:23:27Z
 PackageName: distro-info-data
 PackageVersion: 0.52ubuntu0.2
 SPDXID: SPDXRef-distro-info-data
-PackageVerificationCode: a0743343b655ebe953934c995e386bb38a8e598f
+PackageVerificationCode: SHA1: a0743343b655ebe953934c995e386bb38a8e598f
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>information about the distributions' releases (data files)

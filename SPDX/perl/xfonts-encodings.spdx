@@ -1,18 +1,17 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/xfonts-encodings_1:1.0.5-0ubuntu2-7f58e7c0-1162-54c6-98a4-8ca742aab0a6
+DocumentNamespace: http://spdx.org/spdxdocs/xfonts-encodings_1:1.0.5-0ubuntu2-2aba45a7-fa34-5963-8c82-7b6485231316
 DocumentName: xfonts-encodings_1:1.0.5-0ubuntu2
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-x11-common http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-c142468e-ba47-5968-a442-4cfe9b025f1c SHA1: af6345468609c0d94558725024c1f6117576fc93
+ExternalDocumentRef: DocumentRef-x11-common http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-09f41c5c-3ef9-599c-aee1-3b3b947cece0 SHA1: beafafbdf0d4057377e03c78d6b246ab3ee43406
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xfonts-encodings
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:23:58Z
+Created: 2022-11-28T13:59:50Z
 
 
 ## Package
@@ -20,7 +19,7 @@ Created: 2022-11-28T13:23:58Z
 PackageName: xfonts-encodings
 PackageVersion: 1:1.0.5-0ubuntu2
 SPDXID: SPDXRef-xfonts-encodings
-PackageVerificationCode: 4bbe2b8a5ff8971da07f6f1dc90c6c991b70d9b0
+PackageVerificationCode: SHA1: 4bbe2b8a5ff8971da07f6f1dc90c6c991b70d9b0
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Encodings for X.Org fonts

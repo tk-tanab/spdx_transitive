@@ -1,18 +1,17 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/fonts-urw-base35_20200910-1-644c2f26-6a3f-5dd8-8333-66d6fc06f383
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-urw-base35_20200910-1-5cca855a-bd33-509d-814c-0c088de86d00
 DocumentName: fonts-urw-base35_20200910-1
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-fonts-freefont-ttf http://spdx.org/spdxdocs/fonts-freefont-ttf_20120503-10build1-a3788736-3efa-5614-b890-bf750a914d46 SHA1: 9c1c1d2063f66548ea823c4d64e0c97f45ec1cd8
+ExternalDocumentRef: DocumentRef-fonts-freefont-ttf http://spdx.org/spdxdocs/fonts-freefont-ttf_20120503-10build1-57e5d4bf-5029-50f1-baa8-89ff9603b7ab SHA1: c971d3bbd31fef73ffc4b5fc521b2c7541a0ccc7
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-urw-base35
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:22:53Z
+Created: 2022-11-28T13:58:20Z
 
 
 ## Package
@@ -20,7 +19,7 @@ Created: 2022-11-28T13:22:53Z
 PackageName: fonts-urw-base35
 PackageVersion: 20200910-1
 SPDXID: SPDXRef-fonts-urw-base35
-PackageVerificationCode: d13be20243f47622224f717f044db4c538f13452
+PackageVerificationCode: SHA1: d13be20243f47622224f717f044db4c538f13452
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://github.com/ArtifexSoftware/urw-base35-fonts

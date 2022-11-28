@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/gcc-12-base_12.1.0-2ubuntu1~22.04-939d723b-f83f-5c8c-ac32-1247edc40f61
+DocumentNamespace: http://spdx.org/spdxdocs/gcc-12-base_12.1.0-2ubuntu1~22.04-eead7d94-2db8-518a-b0ea-ce648c190bb6
 DocumentName: gcc-12-base_12.1.0-2ubuntu1~22.04
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gcc-12-base
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gcc-12-base
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:22:29Z
+Created: 2022-11-28T13:58:02Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:22:29Z
 PackageName: gcc-12-base
 PackageVersion: 12.1.0-2ubuntu1~22.04
 SPDXID: SPDXRef-gcc-12-base
-PackageVerificationCode: e40bff964967d8f111d5c6de7be9bd6f4b228a1a
+PackageVerificationCode: SHA1: e40bff964967d8f111d5c6de7be9bd6f4b228a1a
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: http://gcc.gnu.org/

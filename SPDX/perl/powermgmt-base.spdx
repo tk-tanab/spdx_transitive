@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/powermgmt-base_1.36-bb1be737-fc06-50b0-b770-6a5d20b39bcd
+DocumentNamespace: http://spdx.org/spdxdocs/powermgmt-base_1.36-1104fe03-d1dc-5061-a4db-ddd162f7e13e
 DocumentName: powermgmt-base_1.36
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-powermgmt-base
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-powermgmt-base
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:24:10Z
+Created: 2022-11-28T14:00:00Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:24:10Z
 PackageName: powermgmt-base
 PackageVersion: 1.36
 SPDXID: SPDXRef-powermgmt-base
-PackageVerificationCode: 4ff1a1da2e58f1b2aa9feb2a5ba10dd8212bb254
+PackageVerificationCode: SHA1: 4ff1a1da2e58f1b2aa9feb2a5ba10dd8212bb254
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>common utils for power management

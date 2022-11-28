@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-8e12a723-7de9-538f-932f-a95a52615743
+DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-cb92ed6a-d12f-5e20-92a8-8093d6f30af8
 DocumentName: ubuntu-keyring_2021.03.26
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-keyring
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-keyring
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:24:53Z
+Created: 2022-11-28T14:00:23Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:24:53Z
 PackageName: ubuntu-keyring
 PackageVersion: 2021.03.26
 SPDXID: SPDXRef-ubuntu-keyring
-PackageVerificationCode: 4120bdcbc0e13ba6b7e332be44bc000f3c58fa29
+PackageVerificationCode: SHA1: 4120bdcbc0e13ba6b7e332be44bc000f3c58fa29
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>GnuPG keys of the Ubuntu archive

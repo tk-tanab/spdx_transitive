@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/netbase_6.3-0ff267e6-70f5-5a7e-8922-4150a8175f1a
+DocumentNamespace: http://spdx.org/spdxdocs/netbase_6.3-c392be82-1599-507c-a6dd-b35d1ec60076
 DocumentName: netbase_6.3
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-netbase
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-netbase
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:23:45Z
+Created: 2022-11-28T13:59:38Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:23:45Z
 PackageName: netbase
 PackageVersion: 6.3
 SPDXID: SPDXRef-netbase
-PackageVerificationCode: 5878ced280f3c82d5e6910b94c1a88b3c7639e0a
+PackageVerificationCode: SHA1: 5878ced280f3c82d5e6910b94c1a88b3c7639e0a
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Basic TCP/IP networking system

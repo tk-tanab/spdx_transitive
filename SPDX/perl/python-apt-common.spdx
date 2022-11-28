@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/python-apt-common_2.3.0ubuntu2.1-652e05dc-6b9f-53e3-b471-ffce9070cf6e
+DocumentNamespace: http://spdx.org/spdxdocs/python-apt-common_2.3.0ubuntu2.1-7e06344d-413e-5b11-88c8-6942abe197b8
 DocumentName: python-apt-common_2.3.0ubuntu2.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python-apt-common
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python-apt-common
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:23:33Z
+Created: 2022-11-28T13:59:24Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:23:33Z
 PackageName: python-apt-common
 PackageVersion: 2.3.0ubuntu2.1
 SPDXID: SPDXRef-python-apt-common
-PackageVerificationCode: a1de9225ac7c11d9bf48923b74e7b8e712ac7d68
+PackageVerificationCode: SHA1: a1de9225ac7c11d9bf48923b74e7b8e712ac7d68
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Python interface to libapt-pkg (locales)

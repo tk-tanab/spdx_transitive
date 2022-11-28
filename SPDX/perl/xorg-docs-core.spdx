@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/xorg-docs-core_1:1.7.1-1.2-d0150438-1ba6-55f4-b5fb-f685e1560110
+DocumentNamespace: http://spdx.org/spdxdocs/xorg-docs-core_1:1.7.1-1.2-98df33ee-d5ac-5021-91de-17c388741f85
 DocumentName: xorg-docs-core_1:1.7.1-1.2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xorg-docs-core
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xorg-docs-core
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:23:32Z
+Created: 2022-11-28T13:59:23Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:23:32Z
 PackageName: xorg-docs-core
 PackageVersion: 1:1.7.1-1.2
 SPDXID: SPDXRef-xorg-docs-core
-PackageVerificationCode: 44b63195effa0742174f5709d34c52ff69ead2e8
+PackageVerificationCode: SHA1: 44b63195effa0742174f5709d34c52ff69ead2e8
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Core documentation for the X.org X Window System

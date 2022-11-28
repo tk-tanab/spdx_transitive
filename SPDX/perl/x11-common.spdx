@@ -1,18 +1,17 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-c142468e-ba47-5968-a442-4cfe9b025f1c
+DocumentNamespace: http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-09f41c5c-3ef9-599c-aee1-3b3b947cece0
 DocumentName: x11-common_1:7.7+23ubuntu2
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-2b329629-38ce-54a8-83c8-00e28031b751 SHA1: 77f1d27e348041ea671cc359119e8e6eb698d6da
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-66d1090f-6fec-5f8f-b071-677ea13b4f0e SHA1: 3cbb8991f584de093e90c7dc4f37fe3a5cc8fad6
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-x11-common
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:22:50Z
+Created: 2022-11-28T13:58:16Z
 
 
 ## Package
@@ -20,7 +19,7 @@ Created: 2022-11-28T13:22:50Z
 PackageName: x11-common
 PackageVersion: 1:7.7+23ubuntu2
 SPDXID: SPDXRef-x11-common
-PackageVerificationCode: c516f2e0be6cf7d0f12d402ec103ae64adc187ff
+PackageVerificationCode: SHA1: c516f2e0be6cf7d0f12d402ec103ae64adc187ff
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://www.x.org/

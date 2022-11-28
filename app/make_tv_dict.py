@@ -27,7 +27,7 @@ def make_tv_dict(package_name, mode):
         ],
         "Creation Information": [
             {
-                "Creator": ["Tool: spdx_transitive"],
+                "Creator": [],
                 "Created": [datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')]
             }
         ],
@@ -48,8 +48,8 @@ def make_tv_dict(package_name, mode):
         ]
     }
 
-
     if mode == 3:
+        template_tv_dict["Package"][0]["FilesAnalyzed"] = ["false"]
         return template_tv_dict
 
     # 作業用ディレクトリの作成
@@ -81,7 +81,7 @@ def make_tv_dict(package_name, mode):
                         file_dict = {
                             "FileName": [value],
                             "SPDXID": [],
-                            "FileChecksum": [hash_sha1],
+                            "FileChecksum": ["SHA1: " + hash_sha1],
                             "LicenseConcluded": ["NOASSERTION"],
                             "LicenseInfoInFile": ["NOASSERTION"],
                             "FileCopyrightText": ["NOASSERTION"]
@@ -99,7 +99,7 @@ def make_tv_dict(package_name, mode):
         )
 
         tv_dict = tv_to_dict.tv_to_dict(output)
-        tv_dict["Package"][0].update({"PackageVerificationCode": [hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
+        tv_dict["Package"][0].update({"PackageVerificationCode": ["SHA1: " + hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
         tv_dict["File"] += file_dict_list
         tv_dict["File"][0].update({"FileName": [copyright_filepath]})
 
@@ -130,7 +130,7 @@ def make_tv_dict(package_name, mode):
             hash_list.sort()
 
         tv_dict = template_tv_dict
-        tv_dict["Package"][0].update({"PackageVerificationCode": [hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
+        tv_dict["Package"][0].update({"PackageVerificationCode": ["SHA1: " + hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
         tv_dict["File"] += file_dict_list
 
     elif mode == 2:

@@ -1,18 +1,17 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/klibc-utils_2.0.10-4-c72ecf1e-fc56-56cc-bac9-8c2e42777ff5
+DocumentNamespace: http://spdx.org/spdxdocs/klibc-utils_2.0.10-4-c3c2de36-37b5-5bb6-bd09-36522e1b58b3
 DocumentName: klibc-utils_2.0.10-4
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-libklibc http://spdx.org/spdxdocs/libklibc_2.0.10-4-dee06085-17f6-5a50-ab75-5e31b8188ff6 SHA1: 2671313c2aebab243a0b34e86c3162f7daeb1d72
+ExternalDocumentRef: DocumentRef-libklibc http://spdx.org/spdxdocs/libklibc_2.0.10-4-7151b637-6a7a-5632-ab61-00910c937e82 SHA1: 5d473d0e3873e63d0e940a728dde64fb94365410
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-klibc-utils
 
 
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:24:20Z
+Created: 2022-11-28T14:00:12Z
 
 
 ## Package
@@ -20,7 +19,7 @@ Created: 2022-11-28T13:24:20Z
 PackageName: klibc-utils
 PackageVersion: 2.0.10-4
 SPDXID: SPDXRef-klibc-utils
-PackageVerificationCode: a2c2b9fe9d34976631c83ff1090b465fe6ef6469
+PackageVerificationCode: SHA1: a2c2b9fe9d34976631c83ff1090b465fe6ef6469
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://git.kernel.org/cgit/libs/klibc/klibc.git

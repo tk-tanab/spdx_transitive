@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/lto-disabled-list_24-cade3779-494d-5f35-b51e-357b7c42432b
+DocumentNamespace: http://spdx.org/spdxdocs/lto-disabled-list_24-f8fc1894-298c-5604-87f9-8c31fb2f8d59
 DocumentName: lto-disabled-list_24
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lto-disabled-list
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lto-disabled-list
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:25:00Z
+Created: 2022-11-28T14:00:31Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:25:00Z
 PackageName: lto-disabled-list
 PackageVersion: 24
 SPDXID: SPDXRef-lto-disabled-list
-PackageVerificationCode: 17dd64e6ebfbae425b2721578340ff561d8bef7e
+PackageVerificationCode: SHA1: 17dd64e6ebfbae425b2721578340ff561d8bef7e
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>list of packages not to build with LTO

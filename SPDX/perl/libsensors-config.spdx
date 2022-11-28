@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libsensors-config_1:3.6.0-7ubuntu1-b32946d4-e96a-538f-9ff1-24acde093293
+DocumentNamespace: http://spdx.org/spdxdocs/libsensors-config_1:3.6.0-7ubuntu1-9736ead2-6d54-5b07-97eb-8ab74eefb53f
 DocumentName: libsensors-config_1:3.6.0-7ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsensors-config
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsensors-config
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:22:56Z
+Created: 2022-11-28T13:58:22Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:22:56Z
 PackageName: libsensors-config
 PackageVersion: 1:3.6.0-7ubuntu1
 SPDXID: SPDXRef-libsensors-config
-PackageVerificationCode: 04c9d2a0c085146ee32b3c7850e89765736b8987
+PackageVerificationCode: SHA1: 04c9d2a0c085146ee32b3c7850e89765736b8987
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageHomePage: https://hwmon.wiki.kernel.org/lm_sensors

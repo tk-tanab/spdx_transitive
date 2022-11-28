@@ -1,6 +1,6 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-8dec8c74-67d1-569c-a64c-a1e5eb1242c5
+DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-37339e12-c892-5585-9301-28fa3d6c16d5
 DocumentName: libcogl-common_1.22.8-3build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcogl-common
@@ -9,9 +9,8 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcogl-common
 ## Creation Information
 
 Creator: Tool: spdx_transitive
-Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T13:23:15Z
+Created: 2022-11-28T13:59:09Z
 
 
 ## Package
@@ -19,7 +18,7 @@ Created: 2022-11-28T13:23:15Z
 PackageName: libcogl-common
 PackageVersion: 1.22.8-3build1
 SPDXID: SPDXRef-libcogl-common
-PackageVerificationCode: be76f974097a22883c40f46a40664cf3a0bd6f47
+PackageVerificationCode: SHA1: be76f974097a22883c40f46a40664cf3a0bd6f47
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
 PackageComment: <text>Object oriented GL/GLES Abstraction/Utility Layer (common files)
