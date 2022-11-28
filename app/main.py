@@ -3,6 +3,7 @@ import re
 import subprocess
 import os
 import sys
+import time
 
 
 def make_pv_vrp_dict(pv_dict: dict[str, str], vrp_dict: dict[str, list[list[str]]]):
@@ -57,6 +58,8 @@ if __name__ == "__main__":
     package_name = "perl"
     auth_name = "Taketo"
 
+    time_start = time.perf_counter()
+
     pv_dict: dict[str, str] = {} # {p_name: version}
     vrp_dict: dict[str, list[list[str]]] = {} # {vrp_name: [[p_name, c_operator, version]]}
 
@@ -77,9 +80,14 @@ if __name__ == "__main__":
 
     # 実行
     deb_class = deb_spdx.Deb_Spdx(pv_dict, vrp_dict, package_name, auth_name, [])
-    deb_class.run(3)
+    deb_class.run()
 
     os.chdir(cwd)
+
+    time_finish = time.perf_counter()
+
+    print("time", time_finish-time_start)
+    print("num of packages", len(deb_class.treated_list))
 
     # パッケージの種類判定 todo
     # debianの事前処理
