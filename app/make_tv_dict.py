@@ -15,8 +15,8 @@ def make_tv_dict(package_name, mode):
     template_tv_dict: dict[str, list[dict[str, list[str]]]] = {
         "Document Information": [
             {
-                "SPDXVersion": [],
-                "DataLicense": [],
+                "SPDXVersion": ["SPDX-2.2"],
+                "DataLicense": ["CC0-1.0"],
                 "DocumentNamespace": [],
                 "DocumentName": [],
                 "SPDXID": ["SPDXRef-DOCUMENT"],

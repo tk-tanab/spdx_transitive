@@ -1,9 +1,11 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-d91cde3a-b70f-597d-b703-e55eb7797e7e
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-5d024552-d703-502f-b23f-b68e967aa175
 DocumentName: x11-common_1:7.7+23ubuntu2
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-cc4799ed-0df3-5698-97ba-2cacffdac334 SHA1: 94cb17ed3a5a085cfd5a4ed8e63aa1c038c34bf6
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-bf9ecf66-33ce-55c9-8627-8a24b587280d SHA1: d36d9ae79a644bdfbcb7c2930a8fb916f96600b4
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-x11-common
 
 
@@ -11,7 +13,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-x11-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:25:30Z
+Created: 2022-11-28T14:33:10Z
 
 
 ## Package

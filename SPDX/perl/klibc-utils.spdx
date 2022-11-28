@@ -1,9 +1,11 @@
 ## Document Information
 
-DocumentNamespace: http://spdx.org/spdxdocs/klibc-utils_2.0.10-4-1a7f7914-1672-55c3-9957-b381536ea873
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/klibc-utils_2.0.10-4-36b4b466-172e-594d-8aaf-42133d480d98
 DocumentName: klibc-utils_2.0.10-4
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-libklibc http://spdx.org/spdxdocs/libklibc_2.0.10-4-6922e9a3-b864-5217-badd-db5417d2942d SHA1: 0a0188a02dea4e1330449a8bccddc85254f770f1
+ExternalDocumentRef: DocumentRef-libklibc http://spdx.org/spdxdocs/libklibc_2.0.10-4-40dd5a11-84ff-5757-975b-3d737987956d SHA1: fe6f6a1d5577a4e953b2496763aeecb40e9bb6c1
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-klibc-utils
 
 
@@ -11,7 +13,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-klibc-utils
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:27:19Z
+Created: 2022-11-28T14:35:03Z
 
 
 ## Package
