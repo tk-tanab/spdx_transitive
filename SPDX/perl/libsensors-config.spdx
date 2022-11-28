@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libsensors-config_1:3.6.0-7ubuntu1-ce27a36a-19b7-5744-8ce1-633e99d38a71
+DocumentNamespace: http://spdx.org/spdxdocs/libsensors-config_1:3.6.0-7ubuntu1-75676a2b-2913-5276-9568-553ec543d3d1
 DocumentName: libsensors-config_1:3.6.0-7ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsensors-config
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsensors-config
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:15Z
+Created: 2022-11-28T14:45:08Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 04c9d2a0c085146ee32b3c7850e89765736b8987
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://hwmon.wiki.kernel.org/lm_sensors
 PackageComment: <text>lm-sensors configuration files
  Lm-sensors is a hardware health monitoring package for Linux. It allows you

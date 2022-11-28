@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/alsa-topology-conf_1.2.5.1-2-a557a051-6434-55d4-9192-d6a29b1b6d0d
+DocumentNamespace: http://spdx.org/spdxdocs/alsa-topology-conf_1.2.5.1-2-d7a9130a-8b1a-5c20-aa0e-5490f0097197
 DocumentName: alsa-topology-conf_1.2.5.1-2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-alsa-topology-conf
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-alsa-topology-conf
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:43Z
+Created: 2022-11-28T14:45:35Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 2bfb3f3270848797aef9038368dde0a9d46c4d26
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://www.alsa-project.org/
 PackageComment: <text>ALSA topology configuration files
  This package contains ALSA topology configuration files that can be used

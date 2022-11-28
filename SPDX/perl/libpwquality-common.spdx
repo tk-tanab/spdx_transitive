@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libpwquality-common_1.4.4-1build2-efb374ba-63ab-5400-9af3-97c0022f30da
+DocumentNamespace: http://spdx.org/spdxdocs/libpwquality-common_1.4.4-1build2-9acf0ead-fe69-5d34-92aa-14249d1dc074
 DocumentName: libpwquality-common_1.4.4-1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpwquality-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpwquality-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:06Z
+Created: 2022-11-28T14:45:58Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 33fcf328b1fd6a744b83143fbe3406e18f0ce3f4
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://github.com/libpwquality/libpwquality
 PackageComment: <text>library for password quality checking and generation (data files)
  libpwquality's purpose is to provide common functions for password

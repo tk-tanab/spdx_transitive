@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libdrm-common_2.4.110-1ubuntu1-4b51741c-e0f2-5e8b-93a6-4740300d5803
+DocumentNamespace: http://spdx.org/spdxdocs/libdrm-common_2.4.110-1ubuntu1-8e3f6d20-417d-5ffb-bb8d-f8df5ad95ba4
 DocumentName: libdrm-common_2.4.110-1ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdrm-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdrm-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:52Z
+Created: 2022-11-28T14:45:43Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 9583b14e39b09d9fb41dead9b397981508a9c0e2
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://cgit.freedesktop.org/mesa/drm/
 PackageComment: <text>Userspace interface to kernel DRM services -- common files
  This library implements the userspace interface to the kernel DRM

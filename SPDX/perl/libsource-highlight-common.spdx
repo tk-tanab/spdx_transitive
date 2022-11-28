@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libsource-highlight-common_3.1.9-4.1build2-43184aa6-c8b6-574d-93d3-271a895cfdef
+DocumentNamespace: http://spdx.org/spdxdocs/libsource-highlight-common_3.1.9-4.1build2-4079bc91-38ea-5aa1-acb8-b312b50f5261
 DocumentName: libsource-highlight-common_3.1.9-4.1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsource-highlight-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsource-highlight-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:54Z
+Created: 2022-11-28T14:46:47Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 7eadd6f07516a41bd5770e4f6b9044c3615ef069
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: http://www.gnu.org/software/src-highlite/
 PackageComment: <text>architecture-independent files for source highlighting library
  This package contains the data files used by the libsource-highlight

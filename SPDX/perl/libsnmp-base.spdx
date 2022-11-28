@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libsnmp-base_5.9.1+dfsg-1ubuntu2.2-a1a69ad5-19ef-5478-8be0-b94fb80e1b23
+DocumentNamespace: http://spdx.org/spdxdocs/libsnmp-base_5.9.1+dfsg-1ubuntu2.2-f498731e-3a95-5aea-8cbe-3e6ea6ee1e76
 DocumentName: libsnmp-base_5.9.1+dfsg-1ubuntu2.2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsnmp-base
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsnmp-base
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:16Z
+Created: 2022-11-28T14:45:08Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 6227869835a1bd2c6f3d27249004db255983326c
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: http://net-snmp.sourceforge.net/
 PackageComment: <text>SNMP configuration script, MIBs and documentation
  The Simple Network Management Protocol (SNMP) provides a framework

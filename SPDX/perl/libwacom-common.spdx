@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libwacom-common_2.2.0-1-b83f601f-0bae-5d50-8e77-8eb8be442087
+DocumentNamespace: http://spdx.org/spdxdocs/libwacom-common_2.2.0-1-77e17062-ffa0-538f-8a75-9093b4b3a8cf
 DocumentName: libwacom-common_2.2.0-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwacom-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwacom-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:01Z
+Created: 2022-11-28T14:45:53Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: d1a5dcd783a88f215170636af535563bae7272b1
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>Wacom model feature query library (common files)
  libwacom is a library to identify wacom tablets and their model-specific
  features. It provides easy access to information such as "is this a built-in

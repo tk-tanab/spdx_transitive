@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/gnome-bluetooth-3-common_42.0-5-098e6590-30c5-5d22-b6c0-44fdf46e8ca8
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-bluetooth-3-common_42.0-5-7dbcd966-ca6f-5c7d-b236-345f1b482760
 DocumentName: gnome-bluetooth-3-common_42.0-5
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-bluetooth-3-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-bluetooth-3-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:36Z
+Created: 2022-11-28T14:46:29Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 2e1a5e06842243b3a99fc083466ab5aaf0f5d0c4
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/GnomeBluetooth
 PackageComment: <text>GNOME Bluetooth 3 common files
  This package contains common files for the GNOME Bluetooth tools

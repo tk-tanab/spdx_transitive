@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/gsfonts_1:8.11+urwcyr1.0.7~pre44-4.5-06560cf6-7165-5e34-a6d9-52fa845d0326
+DocumentNamespace: http://spdx.org/spdxdocs/gsfonts_1:8.11+urwcyr1.0.7~pre44-4.5-2b549bd9-ae99-53bb-b771-0a66fae6a7a3
 DocumentName: gsfonts_1:8.11+urwcyr1.0.7~pre44-4.5
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gsfonts
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gsfonts
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:23Z
+Created: 2022-11-28T14:45:16Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 014fe43b0e534bfe25b9ddd71d86183817f896f1
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: http://www.ghostscript.com/
 PackageComment: <text>Fonts for the Ghostscript interpreter(s)
  These are free look-alike fonts of the Adobe PostScript fonts.

@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/bash-completion_1:2.11-5ubuntu1-27955aa7-5037-5e9a-89bc-b0b6e66e6976
+DocumentNamespace: http://spdx.org/spdxdocs/bash-completion_1:2.11-5ubuntu1-dc307543-c9e6-5d4b-89c0-4b06a1d4c21d
 DocumentName: bash-completion_1:2.11-5ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bash-completion
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bash-completion
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:40Z
+Created: 2022-11-28T14:46:32Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 46eea9e7e18247eabf444e95a078df6fdc957c67
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://github.com/scop/bash-completion
 PackageComment: <text>programmable completion for the bash shell
  bash completion extends bash's standard completion behavior to achieve

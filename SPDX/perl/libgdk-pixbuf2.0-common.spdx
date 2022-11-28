@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.1-31c549bb-54ad-5e25-8686-f0b79e0d0820
+DocumentNamespace: http://spdx.org/spdxdocs/libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.1-b5e3efb9-379f-579c-8dec-7c8061627258
 DocumentName: libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdk-pixbuf2.0-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdk-pixbuf2.0-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:05Z
+Created: 2022-11-28T14:44:58Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 8f2602012b3d2dca2964fd1ed54ce686bd375a43
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://www.gtk.org/
 PackageComment: <text>GDK Pixbuf library - data files
  This package contains the common files and translations for the GDK

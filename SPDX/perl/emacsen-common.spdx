@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/emacsen-common_3.0.4-6a961b17-5cba-5520-b9a0-3e876a949d8a
+DocumentNamespace: http://spdx.org/spdxdocs/emacsen-common_3.0.4-e8fb36b3-7852-558f-83e9-d51adee2cfc5
 DocumentName: emacsen-common_3.0.4
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-emacsen-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-emacsen-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:39Z
+Created: 2022-11-28T14:45:31Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: a62a64dd7d9daa00ef64ce94c64584a4906fc5ca
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>Common facilities for all emacsen
  This package contains code that is needed by all the (x)emacs
  packages.  It will be automatically installed when needed.</text>

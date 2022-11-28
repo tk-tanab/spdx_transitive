@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libclutter-1.0-common_1.26.4+dfsg-4build1-03a646f2-767f-5b98-8a20-e46c66c97ce6
+DocumentNamespace: http://spdx.org/spdxdocs/libclutter-1.0-common_1.26.4+dfsg-4build1-8a492a38-162f-5abd-aed9-2be15e851626
 DocumentName: libclutter-1.0-common_1.26.4+dfsg-4build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libclutter-1.0-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libclutter-1.0-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:02Z
+Created: 2022-11-28T14:45:53Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: ed22558cfaad7a4e88a8f49b508c45e6b23d8579
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://blogs.gnome.org/clutter/
 PackageComment: <text>Open GL based interactive canvas library (common files)
  Clutter is an Open GL based interactive canvas library, designed for creating

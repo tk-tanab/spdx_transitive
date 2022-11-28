@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/powermgmt-base_1.36-fda6c922-1a16-592e-9d30-ea7084891ed5
+DocumentNamespace: http://spdx.org/spdxdocs/powermgmt-base_1.36-fe448286-0eec-5597-8d90-30ede55ff255
 DocumentName: powermgmt-base_1.36
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-powermgmt-base
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-powermgmt-base
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:52Z
+Created: 2022-11-28T14:46:44Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 4ff1a1da2e58f1b2aa9feb2a5ba10dd8212bb254
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>common utils for power management
  This package ships "on_ac_power" which lets you determine whether
  the system is powered from battery or an abundant supply.  It's

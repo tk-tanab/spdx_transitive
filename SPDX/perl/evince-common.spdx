@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/evince-common_42.3-0ubuntu2-b2c8045c-6425-511b-81e1-9b8b9ff689ce
+DocumentNamespace: http://spdx.org/spdxdocs/evince-common_42.3-0ubuntu2-fba352fe-dd7a-5639-b7c9-8a7799d57085
 DocumentName: evince-common_42.3-0ubuntu2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-evince-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-evince-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:25Z
+Created: 2022-11-28T14:45:18Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: da11d87e7960c8a0e305b217d40d022089f448f9
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Apps/Evince
 PackageComment: <text>Document (PostScript, PDF) viewer - common files
  Evince is a simple multi-page document viewer.  It can display and print

@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/linux-libc-dev_5.15.0-53.59-f5ddb5ce-cd4a-5894-92ab-f70be2d5a7f3
+DocumentNamespace: http://spdx.org/spdxdocs/linux-libc-dev_5.15.0-53.59-88e85304-f7a6-5847-8309-0aa68f2bdd61
 DocumentName: linux-libc-dev_5.15.0-53.59
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-linux-libc-dev
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-linux-libc-dev
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:35:18Z
+Created: 2022-11-28T14:47:10Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 1b76eafd872a1532cba9f203368dd7ecd6f55586
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>Linux Kernel Headers for development
  This package provides headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system

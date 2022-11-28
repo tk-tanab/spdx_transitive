@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/media-types_7.0.0-614e8a40-28ed-5acb-ab2c-ab9914bd8554
+DocumentNamespace: http://spdx.org/spdxdocs/media-types_7.0.0-894764a0-a836-5f59-857e-1fede7f22d7c
 DocumentName: media-types_7.0.0
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-media-types
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-media-types
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:21Z
+Created: 2022-11-28T14:45:14Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 17814a119cd65042bb23fb6e8b67424c6fe214f9
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>List of standard media types and their usual file extension
  This package installs the configuration file /etc/mime.types, that lists
  standard media types (originally known as "MIME" types) and their usual file

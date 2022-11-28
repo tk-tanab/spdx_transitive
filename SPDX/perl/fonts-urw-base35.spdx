@@ -2,10 +2,10 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/fonts-urw-base35_20200910-1-10cc5cf2-e709-58fe-a5f3-21362e62d178
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-urw-base35_20200910-1-47097b85-5f36-592c-bd01-544aa5098624
 DocumentName: fonts-urw-base35_20200910-1
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-fonts-freefont-ttf http://spdx.org/spdxdocs/fonts-freefont-ttf_20120503-10build1-ea2b8e16-d2ea-5605-820c-418ece99d4bc SHA1: 25641cb3be7771d4dd9d2b140b45760d8957a071
+ExternalDocumentRef: DocumentRef-fonts-freefont-ttf http://spdx.org/spdxdocs/fonts-freefont-ttf_20120503-10build1-913fbec4-4bc1-53ba-8482-583663354730 SHA1: 048997f793b8536b4dbf57706d3a4e897d4a9386
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-urw-base35
 
 
@@ -13,7 +13,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-urw-base35
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:14Z
+Created: 2022-11-28T14:45:06Z
 
 
 ## Package
@@ -25,6 +25,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: d13be20243f47622224f717f044db4c538f13452
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://github.com/ArtifexSoftware/urw-base35-fonts
 PackageComment: <text>font set metric-compatible with the 35 PostScript Level 2 Base Fonts
  A commercial-quality set of PostScript Type 1 fonts, metric-compatible

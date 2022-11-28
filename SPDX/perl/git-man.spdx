@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/git-man_1:2.34.1-1ubuntu1.5-ed3dc20f-3cdc-5e0e-8606-95bd12d95d99
+DocumentNamespace: http://spdx.org/spdxdocs/git-man_1:2.34.1-1ubuntu1.5-446fe9ea-8723-5dc2-9d36-7de241e3d342
 DocumentName: git-man_1:2.34.1-1ubuntu1.5
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-git-man
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-git-man
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:35:20Z
+Created: 2022-11-28T14:47:12Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: fba109bcb6d736b180e585a08b50d868990331e1
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://git-scm.com/
 PackageComment: <text>fast, scalable, distributed revision control system (manual pages)
  Git is popular version control system designed to handle very large

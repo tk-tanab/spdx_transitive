@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/lto-disabled-list_24-5344a8ee-b338-582d-9133-d20bde1ad535
+DocumentNamespace: http://spdx.org/spdxdocs/lto-disabled-list_24-8ed91dff-82ec-5848-97f5-08e70db4348e
 DocumentName: lto-disabled-list_24
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lto-disabled-list
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lto-disabled-list
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:35:21Z
+Created: 2022-11-28T14:47:13Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 17dd64e6ebfbae425b2721578340ff561d8bef7e
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>list of packages not to build with LTO
  A list of source packages not to build with link time
  optimization (LTO).

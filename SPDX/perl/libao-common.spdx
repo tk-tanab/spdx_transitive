@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libao-common_1.2.2+20180113-1.1ubuntu3-06334c3d-e683-5786-aef5-5ea1cdfea06b
+DocumentNamespace: http://spdx.org/spdxdocs/libao-common_1.2.2+20180113-1.1ubuntu3-e7731d42-d3d0-5705-936a-15050b9f8e81
 DocumentName: libao-common_1.2.2+20180113-1.1ubuntu3
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libao-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libao-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:35:00Z
+Created: 2022-11-28T14:46:53Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 66b587083fe76dcc39f9f485d3433141e5e6a234
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: http://www.xiph.org/ao/
 PackageComment: <text>Cross Platform Audio Output Library (Common files)
  Libao is a cross-platform audio library that allows programs to output audio

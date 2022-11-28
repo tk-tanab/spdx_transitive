@@ -2,10 +2,10 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/klibc-utils_2.0.10-4-36b4b466-172e-594d-8aaf-42133d480d98
+DocumentNamespace: http://spdx.org/spdxdocs/klibc-utils_2.0.10-4-0eac878a-5412-56df-bb5f-65c7486e27ea
 DocumentName: klibc-utils_2.0.10-4
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-libklibc http://spdx.org/spdxdocs/libklibc_2.0.10-4-40dd5a11-84ff-5757-975b-3d737987956d SHA1: fe6f6a1d5577a4e953b2496763aeecb40e9bb6c1
+ExternalDocumentRef: DocumentRef-libklibc http://spdx.org/spdxdocs/libklibc_2.0.10-4-ad875ce2-75fd-5baf-aed0-dd61edcc0cc5 SHA1: 04179b5abc929e72d282e8138735205040662d2f
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-klibc-utils
 
 
@@ -13,7 +13,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-klibc-utils
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:35:03Z
+Created: 2022-11-28T14:46:55Z
 
 
 ## Package
@@ -25,6 +25,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: a2c2b9fe9d34976631c83ff1090b465fe6ef6469
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://git.kernel.org/cgit/libs/klibc/klibc.git
 PackageComment: <text>small utilities built with klibc for early boot
  This package contains a collection of programs that are linked

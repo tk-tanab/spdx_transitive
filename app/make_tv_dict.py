@@ -40,6 +40,7 @@ def make_tv_dict(package_name, mode):
                 "PackageVerificationCode": [],
                 "PackageLicenseDeclared": ["NOASSERTION"],
                 "PackageLicenseConcluded": ["NOASSERTION"],
+                "PackageCopyrightText": ["NOASSERTION"]
             }
         ],
         "File": [
@@ -130,6 +131,7 @@ def make_tv_dict(package_name, mode):
             hash_list.sort()
 
         tv_dict = template_tv_dict
+        tv_dict["Package"][0]["PackageLicenseInfoFromFiles"] = ["NOASSERTION"]
         tv_dict["Package"][0].update({"PackageVerificationCode": [hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
         tv_dict["File"] += file_dict_list
 

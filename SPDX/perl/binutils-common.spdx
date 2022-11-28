@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/binutils-common_2.38-4ubuntu2-db081a12-68e1-5f99-8a67-85fb3e841f93
+DocumentNamespace: http://spdx.org/spdxdocs/binutils-common_2.38-4ubuntu2-ea256334-2e2f-5bfb-a75a-5a45a9ecbb2b
 DocumentName: binutils-common_2.38-4ubuntu2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-binutils-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-binutils-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:21Z
+Created: 2022-11-28T14:45:14Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 5290627431f7c1eeac8e650efc4314b988d1a9be
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://www.gnu.org/software/binutils/
 PackageComment: <text>Common files for the GNU assembler, linker and binary utilities
  This package contains the localization files used by binutils packages for

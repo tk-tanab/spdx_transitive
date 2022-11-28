@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-bf9ecf66-33ce-55c9-8627-8a24b587280d
+DocumentNamespace: http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-0e053241-3644-5fa6-93c5-77e2ffbd2606
 DocumentName: lsb-base_11.1.0ubuntu4
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lsb-base
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lsb-base
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:00Z
+Created: 2022-11-28T14:44:53Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 10c3abc5c2ed46c8e2c9eac017f646b3d015cbe5
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://wiki.linuxfoundation.org/lsb/start
 PackageComment: <text>Linux Standard Base init script functionality
  The Linux Standard Base (http://www.linuxbase.org/) is a standard

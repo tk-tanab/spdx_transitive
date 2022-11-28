@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libwnck-3-common_40.1-1-cd311b49-e83e-505c-9640-9e3ad4dac50f
+DocumentNamespace: http://spdx.org/spdxdocs/libwnck-3-common_40.1-1-61244d09-d6ea-5514-9a17-bd940ba879fb
 DocumentName: libwnck-3-common_40.1-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwnck-3-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwnck-3-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:46Z
+Created: 2022-11-28T14:46:38Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: f21ac6b159d24a6c364e02c577eee8e50e8f2aa2
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://gitlab.gnome.org/GNOME/libwnck
 PackageComment: <text>Window Navigator Construction Kit - common files
  A library to use for writing pagers and task lists.

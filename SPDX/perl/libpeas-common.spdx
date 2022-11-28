@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libpeas-common_1.32.0-1-d9cb3cdd-a89e-50ec-952d-d52c01a05b2a
+DocumentNamespace: http://spdx.org/spdxdocs/libpeas-common_1.32.0-1-bb3ea802-5ac8-5b88-9229-543cfe643cca
 DocumentName: libpeas-common_1.32.0-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpeas-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpeas-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:08Z
+Created: 2022-11-28T14:45:59Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 912cfa53401d999b4e3acc2568991de6ca8198ff
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/Libpeas
 PackageComment: <text>Application plugin library (common files)
  libpeas is a library that allows applications to support plugins.

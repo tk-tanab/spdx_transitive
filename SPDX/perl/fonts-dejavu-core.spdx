@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/fonts-dejavu-core_2.37-2build1-e2c56c8a-a248-57ac-9714-27a39375c5d9
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-dejavu-core_2.37-2build1-d9d89362-7162-5cf1-8f66-d69adefadb94
 DocumentName: fonts-dejavu-core_2.37-2build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-dejavu-core
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-dejavu-core
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:09Z
+Created: 2022-11-28T14:45:01Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 1d14379248c2aaeaee6d5608ebae26881dbfd95d
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://dejavu-fonts.github.io/
 PackageComment: <text>Vera font family derivate with additional characters
  DejaVu provides an expanded version of the Vera font family aiming for

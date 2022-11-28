@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/gcc-11-base_11.3.0-1ubuntu1~22.04-5fbef40b-73c7-5618-b37d-858ba308d9ad
+DocumentNamespace: http://spdx.org/spdxdocs/gcc-11-base_11.3.0-1ubuntu1~22.04-77c30862-dbc2-5179-8afc-4bdb1ae7ed0f
 DocumentName: gcc-11-base_11.3.0-1ubuntu1~22.04
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gcc-11-base
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gcc-11-base
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:15Z
+Created: 2022-11-28T14:46:06Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 92b2294fcba105fa9d4d5ea0f62afe7a2c91e017
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: http://gcc.gnu.org/
 PackageComment: <text>GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries

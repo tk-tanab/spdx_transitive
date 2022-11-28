@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libaudit-common_1:3.0.7-1build1-265ded85-1fe0-5f61-9a01-438fb53fa939
+DocumentNamespace: http://spdx.org/spdxdocs/libaudit-common_1:3.0.7-1build1-d158a9bd-a6d1-551e-ae6e-09e916ac32ee
 DocumentName: libaudit-common_1:3.0.7-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libaudit-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libaudit-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:32:58Z
+Created: 2022-11-28T14:44:51Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 36070fead26ffe517015c92c1a5ca591d1ed18b0
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://people.redhat.com/sgrubb/audit/
 PackageComment: <text>Dynamic library for security auditing - common files
  The audit-libs package contains the dynamic libraries needed for

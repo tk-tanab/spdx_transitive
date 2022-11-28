@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libsemanage-common_3.3-1build2-1d670b6f-544d-5166-b3b4-766ee8d9f4e7
+DocumentNamespace: http://spdx.org/spdxdocs/libsemanage-common_3.3-1build2-82995e3d-1a59-5521-9ba4-412e2331bf33
 DocumentName: libsemanage-common_3.3-1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsemanage-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsemanage-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:32:58Z
+Created: 2022-11-28T14:44:51Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 1cc70a1a3ab5fc26956ea1efcc0a85314dec3b6e
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://selinuxproject.org
 PackageComment: <text>Common files for SELinux policy management libraries
  This package provides the common files used by the shared libraries

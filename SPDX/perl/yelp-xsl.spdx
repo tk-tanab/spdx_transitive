@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/yelp-xsl_42.0-1-df77c243-fc3b-565c-a4c7-fe80f1012979
+DocumentNamespace: http://spdx.org/spdxdocs/yelp-xsl_42.0-1-533b0024-d26a-5225-a067-7d50e3f30b23
 DocumentName: yelp-xsl_42.0-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-yelp-xsl
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-yelp-xsl
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:09Z
+Created: 2022-11-28T14:46:00Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 41cb30d935f4aa7208802bfa642c00f3560bca10
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Apps/Yelp
 PackageComment: <text>XSL stylesheets for the yelp help browser
  Yelp-xsl contains XSL stylesheets that are used by the yelp help browser

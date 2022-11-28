@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libgtksourceview-4-common_4.8.3-1-c5ab4f7a-0bba-5fba-a1de-b33139647e58
+DocumentNamespace: http://spdx.org/spdxdocs/libgtksourceview-4-common_4.8.3-1-9b203b95-f50a-5b14-8916-5eb4e3e4a3a3
 DocumentName: libgtksourceview-4-common_4.8.3-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgtksourceview-4-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgtksourceview-4-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:08Z
+Created: 2022-11-28T14:45:59Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 2f21f2a9af2781cb922a141519fcb09315f567c6
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/GtkSourceView
 PackageComment: <text>common files for the GTK+ syntax highlighting widget
  GtkSourceView is a text widget that extends the standard GTK+ 3.x text widget

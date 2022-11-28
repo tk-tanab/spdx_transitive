@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-65052f7d-9e6c-50fb-9f95-0935140d5080
+DocumentNamespace: http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-ed1565ac-c8bf-5472-b4e8-4e5e6396882d
 DocumentName: distro-info-data_0.52ubuntu0.2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-distro-info-data
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-distro-info-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:23Z
+Created: 2022-11-28T14:45:16Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: a0743343b655ebe953934c995e386bb38a8e598f
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>information about the distributions' releases (data files)
  Information about all releases of Debian and Ubuntu. The distro-info script
  will give you the codename for e.g. the latest stable release of your

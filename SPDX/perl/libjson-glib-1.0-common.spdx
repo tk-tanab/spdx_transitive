@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libjson-glib-1.0-common_1.6.6-1build1-47006dd7-682f-5adb-91ed-f3684e8962fc
+DocumentNamespace: http://spdx.org/spdxdocs/libjson-glib-1.0-common_1.6.6-1build1-88fb2e96-f544-5559-9463-15e5697da246
 DocumentName: libjson-glib-1.0-common_1.6.6-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libjson-glib-1.0-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libjson-glib-1.0-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:19Z
+Created: 2022-11-28T14:45:12Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: d3b06430caad57e8dbec16d3d6bfe7a6b3fbbe6e
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/JsonGlib
 PackageComment: <text>GLib JSON manipulation library (common files)
  JSON-GLib is a library for parsing, generating and manipulating JavaScript

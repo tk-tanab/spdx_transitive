@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-a98fa852-018e-5c73-a0f2-916f50f0f674
+DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-90284c86-780f-580a-8cf0-da08191a1913
 DocumentName: ubuntu-keyring_2021.03.26
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-keyring
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-keyring
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:35:14Z
+Created: 2022-11-28T14:47:06Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 4120bdcbc0e13ba6b7e332be44bc000f3c58fa29
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>GnuPG keys of the Ubuntu archive
  The Ubuntu project digitally signs its Release files. This package
  contains the archive keys used for that.</text>

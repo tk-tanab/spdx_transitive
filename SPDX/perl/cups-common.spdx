@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/cups-common_2.4.1op1-1ubuntu4.1-73f59835-c060-5544-a48b-e0cfd22cac0c
+DocumentNamespace: http://spdx.org/spdxdocs/cups-common_2.4.1op1-1ubuntu4.1-e5386371-f030-5c94-82c9-a100de4d384b
 DocumentName: cups-common_2.4.1op1-1ubuntu4.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cups-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cups-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:14Z
+Created: 2022-11-28T14:45:07Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 32684161adb2127507c4f7985f276f5818f6f73f
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://github.com/OpenPrinting/cups/
 PackageComment: <text>Common UNIX Printing System(tm) - common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and

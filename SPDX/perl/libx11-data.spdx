@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libx11-data_2:1.7.5-1-8e853811-4638-560a-980b-8eda47f6ec65
+DocumentNamespace: http://spdx.org/spdxdocs/libx11-data_2:1.7.5-1-55ded6a2-88f8-5be4-a636-08c5abb5e528
 DocumentName: libx11-data_2:1.7.5-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libx11-data
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libx11-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:05Z
+Created: 2022-11-28T14:44:58Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 144774a029c740c0ce3c6233ce1394623fea6678
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>X11 client-side library
  This package provides the locale data files for libx11.
  .

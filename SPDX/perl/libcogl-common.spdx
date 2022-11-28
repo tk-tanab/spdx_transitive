@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-3808a326-fc76-53c3-8873-099a96b86686
+DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-37c4c51b-d6e0-5c60-b18c-f8e091ad8c26
 DocumentName: libcogl-common_1.22.8-3build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcogl-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcogl-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:01Z
+Created: 2022-11-28T14:45:52Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: be76f974097a22883c40f46a40664cf3a0bd6f47
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>Object oriented GL/GLES Abstraction/Utility Layer (common files)
  Cogl is a small open source library for using 3D graphics hardware to draw
  pretty pictures. The API departs from the flat state machine style of

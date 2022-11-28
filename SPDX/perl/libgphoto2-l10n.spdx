@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libgphoto2-l10n_2.5.27-1build2-fd13fe05-ac5e-5e15-ab8e-e4a51c7dd7ce
+DocumentNamespace: http://spdx.org/spdxdocs/libgphoto2-l10n_2.5.27-1build2-85684ec2-de6b-52e0-9e22-13354092bf8d
 DocumentName: libgphoto2-l10n_2.5.27-1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgphoto2-l10n
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgphoto2-l10n
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:13Z
+Created: 2022-11-28T14:45:05Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: b510cf517ea885f88b740fb17cda6fda886fbec0
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://github.com/gphoto/libgphoto2/
 PackageComment: <text>gphoto2 digital camera library - localized messages
  The gphoto2 library can be used by applications to access various

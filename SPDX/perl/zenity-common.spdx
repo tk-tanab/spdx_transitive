@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/zenity-common_3.42.1-0ubuntu1-48ef16e8-c10b-53bc-a2d9-6ba81b2af356
+DocumentNamespace: http://spdx.org/spdxdocs/zenity-common_3.42.1-0ubuntu1-1bcea614-14e9-57dd-8576-3014a0c37760
 DocumentName: zenity-common_3.42.1-0ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zenity-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zenity-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:35:08Z
+Created: 2022-11-28T14:47:00Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 1ede7d6bff329255994984ad1e352bd995405d9b
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://wiki.gnome.org/Projects/Zenity
 PackageComment: <text>Display graphical dialog boxes from shell scripts (common files)
  Zenity allows you to display GTK+ dialogs from shell scripts; it is a

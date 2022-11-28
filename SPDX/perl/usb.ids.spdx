@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/usb.ids_2022.04.02-1-af34787b-20e7-5a45-b293-284f379ef249
+DocumentNamespace: http://spdx.org/spdxdocs/usb.ids_2022.04.02-1-f08055eb-02c4-5c04-a061-802e46baed08
 DocumentName: usb.ids_2022.04.02-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-usb.ids
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-usb.ids
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:11Z
+Created: 2022-11-28T14:45:04Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 025b34e2f3389bb909dde0c7352e005d08f65328
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: http://www.linux-usb.org/usb-ids.html
 PackageComment: <text>USB ID Repository
  This package contains the usb.ids file, a public repository of all known

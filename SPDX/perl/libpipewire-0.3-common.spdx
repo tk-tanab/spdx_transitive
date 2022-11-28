@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libpipewire-0.3-common_0.3.48-1ubuntu2-b5338a1f-39cb-54f4-8315-a1f2441a09d7
+DocumentNamespace: http://spdx.org/spdxdocs/libpipewire-0.3-common_0.3.48-1ubuntu2-d54556b9-8665-5cdc-ab12-da952901ec5a
 DocumentName: libpipewire-0.3-common_0.3.48-1ubuntu2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpipewire-0.3-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpipewire-0.3-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:33:59Z
+Created: 2022-11-28T14:45:51Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: d5245634411abfeea994b0fb66e6ef489717331c
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://pipewire.org/
 PackageComment: <text>libraries for the PipeWire multimedia server - common files
  PipeWire is a server and user space API to deal with multimedia

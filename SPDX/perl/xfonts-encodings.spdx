@@ -2,10 +2,10 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/xfonts-encodings_1:1.0.5-0ubuntu2-cce77098-c255-54f0-81a8-cda36f36a1d0
+DocumentNamespace: http://spdx.org/spdxdocs/xfonts-encodings_1:1.0.5-0ubuntu2-b58bf032-2529-51b0-9fa0-982f616a1422
 DocumentName: xfonts-encodings_1:1.0.5-0ubuntu2
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-x11-common http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-5d024552-d703-502f-b23f-b68e967aa175 SHA1: 5a5f3b057ed5841d3ba2c17b024646afbad4c8f1
+ExternalDocumentRef: DocumentRef-x11-common http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-b126af94-1f9c-578b-a479-942f3f160d55 SHA1: ce93e64e8de9b46cd6b3797aa215db8aaf89a670
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xfonts-encodings
 
 
@@ -13,7 +13,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xfonts-encodings
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:34:41Z
+Created: 2022-11-28T14:46:33Z
 
 
 ## Package
@@ -25,6 +25,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 4bbe2b8a5ff8971da07f6f1dc90c6c991b70d9b0
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageComment: <text>Encodings for X.Org fonts
  This package contains the encodings that map to specific characters.</text>
 Relationship: SPDXRef-xfonts-encodings DEPENDS_ON DocumentRef-x11-common:SPDXRef-x11-common

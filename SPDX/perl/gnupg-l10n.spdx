@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/gnupg-l10n_2.2.27-3ubuntu2.1-c327e8a9-30cf-5c4d-a12e-4f5d4ebd1dad
+DocumentNamespace: http://spdx.org/spdxdocs/gnupg-l10n_2.2.27-3ubuntu2.1-2f612a7f-6628-5985-8953-3dd16396c1e9
 DocumentName: gnupg-l10n_2.2.27-3ubuntu2.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnupg-l10n
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnupg-l10n
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:35:13Z
+Created: 2022-11-28T14:47:05Z
 
 
 ## Package
@@ -24,6 +24,8 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: 40729cc918a669f2c7a58fcc01a02cc786f20796
 PackageLicenseDeclared: NOASSERTION
 PackageLicenseConcluded: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
 PackageHomePage: https://www.gnupg.org/
 PackageComment: <text>GNU privacy guard - localization files
  GnuPG is GNU's tool for secure communication and data storage.
