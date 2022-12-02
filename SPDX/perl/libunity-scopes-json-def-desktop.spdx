@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libunity-scopes-json-def-desktop_7.1.4+19.04.20190319-6build1-6bce2225-4565-56e1-a911-32f501d7786c
+DocumentNamespace: http://spdx.org/spdxdocs/libunity-scopes-json-def-desktop_7.1.4+19.04.20190319-6build1-0ed41025-9ac1-57b6-a8b7-e34f57c66248
 DocumentName: libunity-scopes-json-def-desktop_7.1.4+19.04.20190319-6build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libunity-scopes-json-def-desktop
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libunity-scopes-json-def-deskto
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:46:45Z
+Created: 2022-11-29T19:40:17Z
 
 
 ## Package
@@ -43,24 +43,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libunity-scopes-json-def-desktop CONTAINS SPDXRef-libunity-scopes-json-def-desktop-file-0
-
-
-FileName: /usr/share/doc/libunity-scopes-json-def-desktop/copyright
-SPDXID: SPDXRef-libunity-scopes-json-def-desktop-file-1
-FileChecksum: SHA1: 487aede6d914b00df083b3964d62e1c34ae36022
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libunity-scopes-json-def-desktop CONTAINS SPDXRef-libunity-scopes-json-def-desktop-file-1
-
-
-FileName: /usr/share/unity/client-scopes.json
-SPDXID: SPDXRef-libunity-scopes-json-def-desktop-file-2
-FileChecksum: SHA1: fa6717ccbc2e203a1b4ef74c9443f029b067abaf
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libunity-scopes-json-def-desktop CONTAINS SPDXRef-libunity-scopes-json-def-desktop-file-2
 
 
 ## Extracted License

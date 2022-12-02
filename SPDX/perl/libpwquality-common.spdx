@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libpwquality-common_1.4.4-1build2-9acf0ead-fe69-5d34-92aa-14249d1dc074
+DocumentNamespace: http://spdx.org/spdxdocs/libpwquality-common_1.4.4-1build2-a5ffa090-41cd-5e00-9e37-143fda49a3a2
 DocumentName: libpwquality-common_1.4.4-1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpwquality-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpwquality-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:58Z
+Created: 2022-11-29T19:39:45Z
 
 
 ## Package
@@ -45,33 +45,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common-file-0
-
-
-FileName: /usr/share/doc/libpwquality-common/changelog.Debian.gz
-SPDXID: SPDXRef-libpwquality-common-file-1
-FileChecksum: SHA1: f5fdda4fe6afe0f7ebefc86106e90484db9cf4e4
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common-file-1
-
-
-FileName: /usr/share/doc/libpwquality-common/copyright
-SPDXID: SPDXRef-libpwquality-common-file-2
-FileChecksum: SHA1: 6fd29174313518f92a714f0fd148bb15a6ee914f
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common-file-2
-
-
-FileName: /usr/share/man/man5/pwquality.conf.5.gz
-SPDXID: SPDXRef-libpwquality-common-file-3
-FileChecksum: SHA1: d64bf85779440d1c1a974328ca5171ae4d9263ee
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common-file-3
 
 
 ## Extracted License

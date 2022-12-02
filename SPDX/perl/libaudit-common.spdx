@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libaudit-common_1:3.0.7-1build1-d158a9bd-a6d1-551e-ae6e-09e916ac32ee
+DocumentNamespace: http://spdx.org/spdxdocs/libaudit-common_1:3.0.7-1build1-f164acf5-48c9-5118-be7e-309fd1ef0baa
 DocumentName: libaudit-common_1:3.0.7-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libaudit-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libaudit-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:44:51Z
+Created: 2022-11-29T19:39:00Z
 
 
 ## Package
@@ -45,33 +45,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libaudit-common CONTAINS SPDXRef-libaudit-common-file-0
-
-
-FileName: /usr/share/doc/libaudit-common/changelog.Debian.gz
-SPDXID: SPDXRef-libaudit-common-file-1
-FileChecksum: SHA1: 8f586f6e206f48f7cc268d8d71d6a932e6e60998
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libaudit-common CONTAINS SPDXRef-libaudit-common-file-1
-
-
-FileName: /usr/share/doc/libaudit-common/copyright
-SPDXID: SPDXRef-libaudit-common-file-2
-FileChecksum: SHA1: 43b07396a7b2eaee1819ac5e0817bcf13b2952f1
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libaudit-common CONTAINS SPDXRef-libaudit-common-file-2
-
-
-FileName: /usr/share/man/man5/libaudit.conf.5.gz
-SPDXID: SPDXRef-libaudit-common-file-3
-FileChecksum: SHA1: 790e37e89749e20bfc337b02b7f036c914fd9f6a
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libaudit-common CONTAINS SPDXRef-libaudit-common-file-3
 
 
 ## Extracted License

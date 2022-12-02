@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-37c4c51b-d6e0-5c60-b18c-f8e091ad8c26
+DocumentNamespace: http://spdx.org/spdxdocs/libcogl-common_1.22.8-3build1-9830400c-cc6d-5ba1-9e55-cdc18160e6d9
 DocumentName: libcogl-common_1.22.8-3build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcogl-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcogl-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:52Z
+Created: 2022-11-29T19:39:40Z
 
 
 ## Package
@@ -44,24 +44,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common-file-0
-
-
-FileName: /usr/share/doc/libcogl-common/changelog.Debian.gz
-SPDXID: SPDXRef-libcogl-common-file-1
-FileChecksum: SHA1: a3b2d319b71b2d01b0f61b3b8ca0189b455b29d4
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common-file-1
-
-
-FileName: /usr/share/doc/libcogl-common/copyright
-SPDXID: SPDXRef-libcogl-common-file-2
-FileChecksum: SHA1: a91cb4b6b0d3ccb85b67feafe807d6133ef322c9
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libcogl-common CONTAINS SPDXRef-libcogl-common-file-2
 
 
 ## Extracted License

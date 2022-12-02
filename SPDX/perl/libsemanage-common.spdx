@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libsemanage-common_3.3-1build2-82995e3d-1a59-5521-9ba4-412e2331bf33
+DocumentNamespace: http://spdx.org/spdxdocs/libsemanage-common_3.3-1build2-bc6ab737-dd74-5747-9f38-f78a166aed31
 DocumentName: libsemanage-common_3.3-1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsemanage-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsemanage-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:44:51Z
+Created: 2022-11-29T19:39:01Z
 
 
 ## Package
@@ -51,42 +51,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-0
-
-
-FileName: /usr/share/doc/libsemanage-common/changelog.Debian.gz
-SPDXID: SPDXRef-libsemanage-common-file-1
-FileChecksum: SHA1: 81cd802a62adb4e76d507dca0e9ff3a6faa99a65
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-1
-
-
-FileName: /usr/share/doc/libsemanage-common/copyright
-SPDXID: SPDXRef-libsemanage-common-file-2
-FileChecksum: SHA1: 80f13496ec787fb5b457c6cdd9b0fa4b284865be
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-2
-
-
-FileName: /usr/share/man/man5/semanage.conf.5.gz
-SPDXID: SPDXRef-libsemanage-common-file-3
-FileChecksum: SHA1: cf20d67c8a78d51d47febf0b6dae9fa2bd5a10dd
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-3
-
-
-FileName: /usr/share/man/ru/man5/semanage.conf.5.gz
-SPDXID: SPDXRef-libsemanage-common-file-4
-FileChecksum: SHA1: 2b2d8b2d6f76d059e0a23d5f2b071bbfa5d2e655
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-4
 
 
 ## Extracted License

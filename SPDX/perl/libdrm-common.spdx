@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libdrm-common_2.4.110-1ubuntu1-8e3f6d20-417d-5ffb-bb8d-f8df5ad95ba4
+DocumentNamespace: http://spdx.org/spdxdocs/libdrm-common_2.4.110-1ubuntu1-06a69fcf-26f5-51ae-91d7-63d4ed58bd49
 DocumentName: libdrm-common_2.4.110-1ubuntu1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdrm-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdrm-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:43Z
+Created: 2022-11-29T19:39:33Z
 
 
 ## Package
@@ -46,24 +46,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common-file-0
-
-
-FileName: /usr/share/doc/libdrm-common/copyright
-SPDXID: SPDXRef-libdrm-common-file-1
-FileChecksum: SHA1: 1a2574056261d0729d3626c80712aa6088212720
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common-file-1
-
-
-FileName: /usr/share/libdrm/amdgpu.ids
-SPDXID: SPDXRef-libdrm-common-file-2
-FileChecksum: SHA1: b2e4f043e0a98d7029cb942a6dd18d8b356e9beb
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common-file-2
 
 
 ## Extracted License

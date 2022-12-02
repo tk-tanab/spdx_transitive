@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libclutter-1.0-common_1.26.4+dfsg-4build1-8a492a38-162f-5abd-aed9-2be15e851626
+DocumentNamespace: http://spdx.org/spdxdocs/libclutter-1.0-common_1.26.4+dfsg-4build1-c006b1d7-1b29-5ae8-9a6b-ab82ca157602
 DocumentName: libclutter-1.0-common_1.26.4+dfsg-4build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libclutter-1.0-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libclutter-1.0-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:53Z
+Created: 2022-11-29T19:39:42Z
 
 
 ## Package
@@ -44,15 +44,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libclutter-1.0-common CONTAINS SPDXRef-libclutter-1.0-common-file-0
-
-
-FileName: /usr/share/doc/libclutter-1.0-common/copyright
-SPDXID: SPDXRef-libclutter-1.0-common-file-1
-FileChecksum: SHA1: b806884466c50f1f152e6562f9571cb604042df0
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libclutter-1.0-common CONTAINS SPDXRef-libclutter-1.0-common-file-1
 
 
 ## Extracted License

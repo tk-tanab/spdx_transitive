@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/alsa-topology-conf_1.2.5.1-2-d7a9130a-8b1a-5c20-aa0e-5490f0097197
+DocumentNamespace: http://spdx.org/spdxdocs/alsa-topology-conf_1.2.5.1-2-cad6ba17-f6cc-532b-abc8-e7f8767e6662
 DocumentName: alsa-topology-conf_1.2.5.1-2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-alsa-topology-conf
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-alsa-topology-conf
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:35Z
+Created: 2022-11-29T19:39:08Z
 
 
 ## Package
@@ -43,60 +43,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-0
-
-
-FileName: /usr/share/alsa/topology/broadwell/broadwell.conf
-SPDXID: SPDXRef-alsa-topology-conf-file-1
-FileChecksum: SHA1: 47db22ec655177b3a5e74f1f8a5d2e1c6e51b255
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-1
-
-
-FileName: /usr/share/alsa/topology/bxtrt298/bxt_i2s.conf
-SPDXID: SPDXRef-alsa-topology-conf-file-2
-FileChecksum: SHA1: c1edd71843f2f9d46ef192a2e6625ab3fe93370c
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-2
-
-
-FileName: /usr/share/alsa/topology/hda-dsp/skl_hda_dsp_generic-tplg.conf
-SPDXID: SPDXRef-alsa-topology-conf-file-3
-FileChecksum: SHA1: cd49148aba3d0034016320ba14a9e0172e328239
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-3
-
-
-FileName: /usr/share/alsa/topology/sklrt286/skl_i2s.conf
-SPDXID: SPDXRef-alsa-topology-conf-file-4
-FileChecksum: SHA1: 424948ebf4a2fb8b9adc55a432a621e6481dfc79
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-4
-
-
-FileName: /usr/share/doc/alsa-topology-conf/changelog.Debian.gz
-SPDXID: SPDXRef-alsa-topology-conf-file-5
-FileChecksum: SHA1: f3b7aea7fe925d9e0b1ae5ebcf93d74b1367cdc2
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-5
-
-
-FileName: /usr/share/doc/alsa-topology-conf/copyright
-SPDXID: SPDXRef-alsa-topology-conf-file-6
-FileChecksum: SHA1: 3d7d58b2bc9cf964ee8e1f5949c8fca0d1264f7d
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-6
 
 
 ## Extracted License

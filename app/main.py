@@ -46,8 +46,8 @@ def add_vrp_dict(vrp_names: str, p_name: str, vrp_dict: dict[str, list[list[str]
     """
     vrp_name_list = vrp_names.split(', ')
     for vrp_name in vrp_name_list:
+        # vrp_name_split: [Virtual or Replace Package, (比較演算子, Version)]
         vrp_name_split = [i for i in re.split(" |\(|\)|\[.*?\]", vrp_name) if i]
-        # vrp_name_split: Virtual or Replace Package, (比較演算子, Version)
 
         if vrp_name_split[0] in vrp_dict:
             vrp_dict[vrp_name_split[0]].append([p_name] + vrp_name_split[1:])
@@ -55,7 +55,7 @@ def add_vrp_dict(vrp_names: str, p_name: str, vrp_dict: dict[str, list[list[str]
             vrp_dict[vrp_name_split[0]] = ([[p_name] + vrp_name_split[1:]])
 
 if __name__ == "__main__":
-    package_name = "perl"
+    package_name = "xfonts-encodings"
     auth_name = "Taketo"
 
     time_start = time.perf_counter()
@@ -69,14 +69,14 @@ if __name__ == "__main__":
     cwd = os.getcwd()
 
     # すでに同名のSPDX展開ディレクトリがある場合はエラー出力
-    # 完全に同名の複数バージョンはない
+    # 完全に同名のバージョンは複数ない
     dir_name = os.path.dirname(__file__) + "/../SPDX/" + package_name
     try:
         os.makedirs(dir_name)
         os.chdir(dir_name)
     except FileExistsError:
-        print("That SPDX already exists")
-        sys.exit()
+        print("That SPDX already exists", file=sys.stderr)
+        sys.exit(1)
 
     # 実行
     deb_class = deb_spdx.Deb_Spdx(pv_dict, vrp_dict, package_name, auth_name, [])
@@ -88,7 +88,4 @@ if __name__ == "__main__":
 
     print("time", time_finish-time_start)
     print("num of packages", len(deb_class.treated_list))
-
-    # パッケージの種類判定 todo
-    # debianの事前処理
 

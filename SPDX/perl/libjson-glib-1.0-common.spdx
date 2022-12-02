@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libjson-glib-1.0-common_1.6.6-1build1-88fb2e96-f544-5559-9463-15e5697da246
+DocumentNamespace: http://spdx.org/spdxdocs/libjson-glib-1.0-common_1.6.6-1build1-369c1218-cab5-592c-9f3b-8e6abc10b797
 DocumentName: libjson-glib-1.0-common_1.6.6-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libjson-glib-1.0-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libjson-glib-1.0-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:12Z
+Created: 2022-11-29T19:39:26Z
 
 
 ## Package
@@ -46,15 +46,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libjson-glib-1.0-common CONTAINS SPDXRef-libjson-glib-1.0-common-file-0
-
-
-FileName: /usr/share/doc/libjson-glib-1.0-common/copyright
-SPDXID: SPDXRef-libjson-glib-1.0-common-file-1
-FileChecksum: SHA1: d53667779e01c18c59649847b013466d0148f0c4
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libjson-glib-1.0-common CONTAINS SPDXRef-libjson-glib-1.0-common-file-1
 
 
 ## Extracted License

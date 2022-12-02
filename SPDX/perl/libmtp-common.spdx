@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libmtp-common_1.1.19-1build1-9e5dc7a9-7cf2-52bd-ba01-1b506f36d0c4
+DocumentNamespace: http://spdx.org/spdxdocs/libmtp-common_1.1.19-1build1-467239e7-ba00-50bf-83bc-9a347d1b398b
 DocumentName: libmtp-common_1.1.19-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmtp-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmtp-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:27Z
+Created: 2022-11-29T19:40:29Z
 
 
 ## Package
@@ -48,51 +48,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common-file-0
-
-
-FileName: /lib/udev/rules.d/69-libmtp.rules
-SPDXID: SPDXRef-libmtp-common-file-1
-FileChecksum: SHA1: 7e8b0420e91e40f4fde86bd709f2e5c041216349
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common-file-1
-
-
-FileName: /usr/share/apport/package-hooks/source_libmtp.py
-SPDXID: SPDXRef-libmtp-common-file-2
-FileChecksum: SHA1: 1fdd08b7cc686eaec2b6f9b6f440072be158b7ad
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common-file-2
-
-
-FileName: /usr/share/doc/libmtp-common/changelog.Debian.gz
-SPDXID: SPDXRef-libmtp-common-file-3
-FileChecksum: SHA1: e30b7be6770c8cd5f75a0e796153a69c0b17ccb0
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common-file-3
-
-
-FileName: /usr/share/doc/libmtp-common/copyright
-SPDXID: SPDXRef-libmtp-common-file-4
-FileChecksum: SHA1: eb7d6d6f488044f56563ca9b3b891d64786198c8
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common-file-4
-
-
-FileName: /usr/share/lintian/overrides/libmtp-common
-SPDXID: SPDXRef-libmtp-common-file-5
-FileChecksum: SHA1: d2863a1b6702825557779d176c727aca017dbbc5
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libmtp-common CONTAINS SPDXRef-libmtp-common-file-5
 
 
 ## Extracted License

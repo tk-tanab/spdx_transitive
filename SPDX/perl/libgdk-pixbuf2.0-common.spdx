@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.1-b5e3efb9-379f-579c-8dec-7c8061627258
+DocumentNamespace: http://spdx.org/spdxdocs/libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.1-eccaa921-42af-521f-89fa-d851573dc5f5
 DocumentName: libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdk-pixbuf2.0-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdk-pixbuf2.0-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:44:58Z
+Created: 2022-11-29T19:39:15Z
 
 
 ## Package
@@ -41,15 +41,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libgdk-pixbuf2.0-common CONTAINS SPDXRef-libgdk-pixbuf2.0-common-file-0
-
-
-FileName: /usr/share/doc/libgdk-pixbuf2.0-common/copyright
-SPDXID: SPDXRef-libgdk-pixbuf2.0-common-file-1
-FileChecksum: SHA1: 4d6fc22d8c4d5550c853a69f1cf22e000dfa7ebc
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgdk-pixbuf2.0-common CONTAINS SPDXRef-libgdk-pixbuf2.0-common-file-1
 
 
 ## Extracted License

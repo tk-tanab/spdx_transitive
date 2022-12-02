@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/hicolor-icon-theme_0.17-2-4e35e8f3-e45b-5c7d-a05c-0ae05aea37b0
+DocumentNamespace: http://spdx.org/spdxdocs/hicolor-icon-theme_0.17-2-015415a0-89c0-589e-82b2-99f88de33bdd
 DocumentName: hicolor-icon-theme_0.17-2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hicolor-icon-theme
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hicolor-icon-theme
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:00Z
+Created: 2022-11-29T19:39:16Z
 
 
 ## Package
@@ -40,51 +40,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-hicolor-icon-theme CONTAINS SPDXRef-hicolor-icon-theme-file-0
-
-
-FileName: /usr/share/doc/hicolor-icon-theme/README
-SPDXID: SPDXRef-hicolor-icon-theme-file-1
-FileChecksum: SHA1: 20a136fc3ce08a8d07453d17ffd5dd75834b4bdb
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-hicolor-icon-theme CONTAINS SPDXRef-hicolor-icon-theme-file-1
-
-
-FileName: /usr/share/doc/hicolor-icon-theme/changelog.Debian.gz
-SPDXID: SPDXRef-hicolor-icon-theme-file-2
-FileChecksum: SHA1: ebd6aa9648effdaa6cfd67993482fec32c8204a6
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-hicolor-icon-theme CONTAINS SPDXRef-hicolor-icon-theme-file-2
-
-
-FileName: /usr/share/doc/hicolor-icon-theme/copyright
-SPDXID: SPDXRef-hicolor-icon-theme-file-3
-FileChecksum: SHA1: 41709a87e3a369ddfceff31a4144e93188684c61
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-hicolor-icon-theme CONTAINS SPDXRef-hicolor-icon-theme-file-3
-
-
-FileName: /usr/share/icons/hicolor/index.theme
-SPDXID: SPDXRef-hicolor-icon-theme-file-4
-FileChecksum: SHA1: 6d88db1377af6a44a19eeadb8f502c01928885a3
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-hicolor-icon-theme CONTAINS SPDXRef-hicolor-icon-theme-file-4
-
-
-FileName: /usr/share/lintian/overrides/hicolor-icon-theme
-SPDXID: SPDXRef-hicolor-icon-theme-file-5
-FileChecksum: SHA1: 146e9d9a5f37d2a656b781f1fd45f64800aa7fa2
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-hicolor-icon-theme CONTAINS SPDXRef-hicolor-icon-theme-file-5
 
 
 ## Extracted License

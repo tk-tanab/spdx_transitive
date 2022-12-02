@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libgtop2-common_2.40.0-2build3-078da2a9-6202-52cd-bb68-f1dc412cb6a8
+DocumentNamespace: http://spdx.org/spdxdocs/libgtop2-common_2.40.0-2build3-16f24c29-6c7c-5042-b5dc-25de4532c309
 DocumentName: libgtop2-common_2.40.0-2build3
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgtop2-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgtop2-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:56Z
+Created: 2022-11-29T19:39:43Z
 
 
 ## Package
@@ -42,15 +42,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libgtop2-common CONTAINS SPDXRef-libgtop2-common-file-0
-
-
-FileName: /usr/share/doc/libgtop2-common/copyright
-SPDXID: SPDXRef-libgtop2-common-file-1
-FileChecksum: SHA1: b7ade9fe1e87b169e269dd0d7e9f47c91039b7f1
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgtop2-common CONTAINS SPDXRef-libgtop2-common-file-1
 
 
 ## Extracted License

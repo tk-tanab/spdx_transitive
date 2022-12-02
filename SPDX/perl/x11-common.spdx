@@ -2,10 +2,10 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-b126af94-1f9c-578b-a479-942f3f160d55
+DocumentNamespace: http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-056a4853-0f62-5025-b24c-1eee4d3c5c44
 DocumentName: x11-common_1:7.7+23ubuntu2
 SPDXID: SPDXRef-DOCUMENT
-ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-0e053241-3644-5fa6-93c5-77e2ffbd2606 SHA1: 8d1542f4bdf41a628f52f52901aef0ad2eebb2ef
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-d8782dc0-3692-5416-b5ae-a3eb1d2bd859 SHA1: 47812ca661e0d8d527c2ec25d16a0932c6cdd4d1
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-x11-common
 
 
@@ -13,7 +13,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-x11-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:03Z
+Created: 2022-11-29T19:39:18Z
 
 
 ## Package
@@ -51,204 +51,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-0
-
-
-FileName: /etc/X11/Xreset.d/README
-SPDXID: SPDXRef-x11-common-file-1
-FileChecksum: SHA1: 8e09303a3a7e5bad91ac598bc091392fea53e04f
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-1
-
-
-FileName: /etc/X11/Xresources/x11-common
-SPDXID: SPDXRef-x11-common-file-2
-FileChecksum: SHA1: 11592619f9b4f923538797e3dd596d2efca2b4c8
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-2
-
-
-FileName: /etc/X11/Xsession
-SPDXID: SPDXRef-x11-common-file-3
-FileChecksum: SHA1: 38a27654ea96bdf9cf58471ab44152d7ed64fcab
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-3
-
-
-FileName: /etc/X11/Xsession.d/20x11-common_process-args
-SPDXID: SPDXRef-x11-common-file-4
-FileChecksum: SHA1: 38753fd55bd0604e996d960b3712d6f3d0fbc98a
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-4
-
-
-FileName: /etc/X11/Xsession.d/30x11-common_xresources
-SPDXID: SPDXRef-x11-common-file-5
-FileChecksum: SHA1: 9687b3c65aac965a19ac4dfda3c8691b6d25bc74
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-5
-
-
-FileName: /etc/X11/Xsession.d/35x11-common_xhost-local
-SPDXID: SPDXRef-x11-common-file-6
-FileChecksum: SHA1: d2c60eb591dec4154d4518c9d4eb0afcc642f598
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-6
-
-
-FileName: /etc/X11/Xsession.d/40x11-common_xsessionrc
-SPDXID: SPDXRef-x11-common-file-7
-FileChecksum: SHA1: 9764791f4a5927ec59d66b2b905d948cfbcd0b22
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-7
-
-
-FileName: /etc/X11/Xsession.d/50x11-common_determine-startup
-SPDXID: SPDXRef-x11-common-file-8
-FileChecksum: SHA1: c34d83d9d4eb035058531cf7675671d21966b4ef
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-8
-
-
-FileName: /etc/X11/Xsession.d/60x11-common_xdg_path
-SPDXID: SPDXRef-x11-common-file-9
-FileChecksum: SHA1: e44d2271a1b311d363eecf8aa544d5f5d461c385
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-9
-
-
-FileName: /etc/X11/Xsession.d/90x11-common_ssh-agent
-SPDXID: SPDXRef-x11-common-file-10
-FileChecksum: SHA1: 8f863c269654d82e547d9ed0269b3bab42026283
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-10
-
-
-FileName: /etc/X11/Xsession.d/99x11-common_start
-SPDXID: SPDXRef-x11-common-file-11
-FileChecksum: SHA1: 80cf4892f40ab67d73862141e4c7de655a5f948d
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-11
-
-
-FileName: /etc/X11/Xsession.options
-SPDXID: SPDXRef-x11-common-file-12
-FileChecksum: SHA1: 7219a84d3f4795cbc9eecca666904f6d2155d3c7
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-12
-
-
-FileName: /etc/X11/rgb.txt
-SPDXID: SPDXRef-x11-common-file-13
-FileChecksum: SHA1: 2a3c7ba23dbc3195a203a4cd744c5ce492b0358c
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-13
-
-
-FileName: /etc/init.d/x11-common
-SPDXID: SPDXRef-x11-common-file-14
-FileChecksum: SHA1: 6c93d2ad2ea6c9b412a145a5b9ccb930eb721722
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-14
-
-
-FileName: /usr/share/doc/x11-common/NEWS.Debian.gz
-SPDXID: SPDXRef-x11-common-file-15
-FileChecksum: SHA1: 519a76bc5fdeec8af7c41a527e96a02a705e54eb
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-15
-
-
-FileName: /usr/share/doc/x11-common/changelog.gz
-SPDXID: SPDXRef-x11-common-file-16
-FileChecksum: SHA1: 44f57f6f647901110afcb27792eedbc801628ff2
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-16
-
-
-FileName: /usr/share/doc/x11-common/copyright
-SPDXID: SPDXRef-x11-common-file-17
-FileChecksum: SHA1: 6a501fd278f041f7894451dd05607ca7917322c7
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-17
-
-
-FileName: /usr/share/lintian/overrides/x11-common
-SPDXID: SPDXRef-x11-common-file-18
-FileChecksum: SHA1: 67fef52cb03899149fd7946aa5f9c948460b52d7
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-18
-
-
-FileName: /usr/share/man/man5/Xsession.5.gz
-SPDXID: SPDXRef-x11-common-file-19
-FileChecksum: SHA1: b076181c36892df03d5d1ac8bd8c576402d282f2
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-19
-
-
-FileName: /usr/share/man/man5/Xsession.options.5.gz
-SPDXID: SPDXRef-x11-common-file-20
-FileChecksum: SHA1: eedd5b9d86771b9c1682913dabbfcfdbee8ff722
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-20
-
-
-FileName: /usr/share/man/man5/Xsession.options.d.5.gz
-SPDXID: SPDXRef-x11-common-file-21
-FileChecksum: SHA1: eedd5b9d86771b9c1682913dabbfcfdbee8ff722
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-21
-
-
-FileName: /usr/share/X11/rgb.txt
-SPDXID: SPDXRef-x11-common-file-22
-FileChecksum: SHA1: 2a3c7ba23dbc3195a203a4cd744c5ce492b0358c
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-x11-common CONTAINS SPDXRef-x11-common-file-22
 
 
 ## Extracted License

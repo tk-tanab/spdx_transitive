@@ -64,7 +64,7 @@ class Deb_Spdx:
         package_dict = tv_dict["Package"][0]
         package_dict["PackageName"] = control_dict["Package"]
         package_dict["PackageVersion"] = control_dict["Version"]
-        package_dict["SPDXID"] = ["SPDXRef-" + package_dict["PackageName"][0].replace('+', '')]
+        package_dict["SPDXID"] = ["SPDXRef-" + package_dict["PackageName"][0].replace('+', 'plus')]
         if "Homepage" in control_dict:
             package_dict["PackageHomePage"] = control_dict["Homepage"]
         package_dict["PackageComment"] = control_dict["Description"]
@@ -94,7 +94,7 @@ class Deb_Spdx:
         # ファイルパス と SPDXID の修正 と Relationship の追加
         for i, file_dict in enumerate(tv_dict["File"]):
             file_dict["FileName"] = [file_dict["FileName"][0].replace(("./" + package_dict["PackageName"][0]), '', 1)]
-            file_dict["SPDXID"] = ["SPDXRef-" + package_dict["PackageName"][0] + "-file-" + str(i)]
+            file_dict["SPDXID"] = [package_dict["SPDXID"][0] + "-file-" + str(i)]
             file_dict["Relationship"] = [package_dict["SPDXID"][0] + " CONTAINS " + file_dict["SPDXID"][0]]
 
         tv_dict["Extracted License"] = self.rm_license_dup(tv_dict["Extracted License"])
@@ -145,10 +145,10 @@ class Deb_Spdx:
                 self.add_external_ref(spdx_p_name)
             # このパッケージの別の枝(未出力)で調査済みのとき
             elif real_dp_name in not_out_list:
-                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name)
+                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name.replace('+', 'plus'))
             # 上の階層のパッケージと相互依存になっているとき か すでに上の階層のパッケージの別の枝で調査済みのとき
             elif real_dp_name in self.trail_list or real_dp_name in self.treated_list:
-                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name)
+                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name.replace('+', 'plus'))
                 mutual_list.append(real_dp_name)
             else:
                 snap_len_treated = len(self.treated_list)
@@ -159,7 +159,7 @@ class Deb_Spdx:
                 # 下の階層のパッケージと相互依存になっているとき
                 if r_mutual_list != []:
                     # relationship
-                    package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name)
+                    package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name.replace('+', 'plus'))
                     self.merge_spdx(new_spdx.return_spdx())
                     not_out_list += self.treated_list[snap_len_treated:]
                     mutual_list += [p for p in r_mutual_list if (p != self.package_name) and (p not in not_out_list)]
@@ -213,7 +213,7 @@ class Deb_Spdx:
         # Relationship: SPDXRef-hello-go-binary GENERATED_FROM DocumentRef-hello-go-src:SPDXRef-Makefile
         doc_ref = "DocumentRef-" + p_name
         exd_list.append(doc_ref + ' ' + ref_space + ' SHA1: ' + hash_sha1)
-        pac_dict["Relationship"].append((pac_dict["SPDXID"][0] + " DEPENDS_ON " + doc_ref + ":SPDXRef-" + p_name))
+        pac_dict["Relationship"].append((pac_dict["SPDXID"][0] + " DEPENDS_ON " + doc_ref + ":SPDXRef-" + p_name.replace('+', 'plus')))
 
     def merge_spdx(self, dep_tv_dict):
         self.tv_dict["Document Information"][0]["ExternalDocumentRef"] = list(set(self.tv_dict["Document Information"][0]["ExternalDocumentRef"] + dep_tv_dict["Document Information"][0]["ExternalDocumentRef"]))
@@ -278,22 +278,18 @@ class Deb_Spdx:
         return self.compare_version(term_list[1], cond_list[1], co)
                 
 
-    def run(self, mode=0) -> list[str]:
+    def run(self, first_mode=2, rest_mode=1) -> list[str]:
         """
         DebianパッケージのSPDXを推移的に生成
 
         Args: 
-            package_name(str): 対象パッケージ
-            auth_name(str): 作者名
-            trail_list(list[str]): 辿ってきた依存関係
+            package_name: 対象パッケージ
+            auth_name: 作者名
+            trail_list: 辿ってきた依存関係
         
         Returns:
             list[str]: 相互依存先パッケージ名のリスト
         """
-        # 0: 最初のパッケージだけライセンス(c)
-        # 1: すべてのパッケージライセンス(c)
-        # 2: すべてのパッケージライセンス(a)
-        # 3: ライセンスは確認しない、ファイルもしない
         
         package_name = self.package_name
         self.trail_list.append(package_name)
@@ -304,17 +300,10 @@ class Deb_Spdx:
         ).stdout.strip()
         self.control_dict = control_to_dict.control_to_dict(package_status)
         
-        if mode == 0:
-            if len(self.treated_list) == 0:
-                self.tv_dict = make_tv_dict.make_tv_dict(package_name, 0)
-            else:
-                self.tv_dict = make_tv_dict.make_tv_dict(package_name, 1)
-        elif mode == 1:
-            self.tv_dict = make_tv_dict.make_tv_dict(package_name, 0)
-        elif mode == 2:
-            self.tv_dict = make_tv_dict.make_tv_dict(package_name, 2)
+        if len(self.treated_list) == 0:
+            self.tv_dict = make_tv_dict.make_tv_dict(package_name, first_mode)
         else:
-            self.tv_dict = make_tv_dict.make_tv_dict(package_name, 3)
+            self.tv_dict = make_tv_dict.make_tv_dict(package_name, rest_mode)
 
         self.treated_list.append(package_name)
 

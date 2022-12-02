@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/fonts-noto-mono_20201225-1build1-cf780864-b8eb-5f8f-9a77-5ead9ddcabbf
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-noto-mono_20201225-1build1-7334b699-976d-58ed-a608-3e70c36efaa7
 DocumentName: fonts-noto-mono_20201225-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-noto-mono
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-noto-mono
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:07Z
+Created: 2022-11-29T19:39:21Z
 
 
 ## Package
@@ -54,105 +54,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-0
-
-
-FileName: /usr/share/bug/fonts-noto-mono/presubj
-SPDXID: SPDXRef-fonts-noto-mono-file-1
-FileChecksum: SHA1: b177725a8aa4f174e8adacb1447071a8b0d18ef3
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-1
-
-
-FileName: /usr/share/bug/fonts-noto-mono/script
-SPDXID: SPDXRef-fonts-noto-mono-file-2
-FileChecksum: SHA1: 2c397f31db65ab66735b1606e59d0c9c9324271d
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-2
-
-
-FileName: /usr/share/doc/fonts-noto-mono/FAQ-KR.md.gz
-SPDXID: SPDXRef-fonts-noto-mono-file-3
-FileChecksum: SHA1: aea0b6de191e0653d7f45563a7a0e1a19fc07f0b
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-3
-
-
-FileName: /usr/share/doc/fonts-noto-mono/FAQ.md.gz
-SPDXID: SPDXRef-fonts-noto-mono-file-4
-FileChecksum: SHA1: 45091ac424c3ac3948a0c1091b550468ada9e0b6
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-4
-
-
-FileName: /usr/share/doc/fonts-noto-mono/NEWS.md.gz
-SPDXID: SPDXRef-fonts-noto-mono-file-5
-FileChecksum: SHA1: 44e2993ac0648264c1c55ae85a0b42b041f53926
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-5
-
-
-FileName: /usr/share/doc/fonts-noto-mono/README.md
-SPDXID: SPDXRef-fonts-noto-mono-file-6
-FileChecksum: SHA1: 654f07c40281848337141a73fb4f74db1d5f364c
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-6
-
-
-FileName: /usr/share/doc/fonts-noto-mono/changelog.Debian.gz
-SPDXID: SPDXRef-fonts-noto-mono-file-7
-FileChecksum: SHA1: 65b0ae7efd8a1689800be66b3cd34e97eb1fe563
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-7
-
-
-FileName: /usr/share/doc/fonts-noto-mono/copyright
-SPDXID: SPDXRef-fonts-noto-mono-file-8
-FileChecksum: SHA1: 6e2747d40e9f01a8bc22245e59e97e1add819e27
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-8
-
-
-FileName: /usr/share/fonts/truetype/noto/NotoMono-Regular.ttf
-SPDXID: SPDXRef-fonts-noto-mono-file-9
-FileChecksum: SHA1: 90edfc11fa568cd0fb5b9d6e6d369dddadfdb8c4
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-9
-
-
-FileName: /usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf
-SPDXID: SPDXRef-fonts-noto-mono-file-10
-FileChecksum: SHA1: 849b7672ec8162fed2ab198f29ca0284fb83484f
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-10
-
-
-FileName: /usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf
-SPDXID: SPDXRef-fonts-noto-mono-file-11
-FileChecksum: SHA1: 1e3ada8fee1f9631cc8e85c1720b5cfe02f8f59c
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-11
 
 
 ## Extracted License

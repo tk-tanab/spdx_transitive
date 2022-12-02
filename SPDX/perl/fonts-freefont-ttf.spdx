@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/fonts-freefont-ttf_20120503-10build1-913fbec4-4bc1-53ba-8482-583663354730
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-freefont-ttf_20120503-10build1-e8ad20da-0ce3-5264-bc87-33b06b8da59b
 DocumentName: fonts-freefont-ttf_20120503-10build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-freefont-ttf
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-freefont-ttf
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:06Z
+Created: 2022-11-29T19:39:21Z
 
 
 ## Package
@@ -42,141 +42,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-0
-
-
-FileName: /usr/share/doc/fonts-freefont-ttf/README.gz
-SPDXID: SPDXRef-fonts-freefont-ttf-file-1
-FileChecksum: SHA1: 5e5f76b01fb043a4c728355e14affca7908fcc00
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-1
-
-
-FileName: /usr/share/doc/fonts-freefont-ttf/changelog.Debian.gz
-SPDXID: SPDXRef-fonts-freefont-ttf-file-2
-FileChecksum: SHA1: 22217d46b7a803c00d2df0c15bdd38ab870103d2
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-2
-
-
-FileName: /usr/share/doc/fonts-freefont-ttf/copyright
-SPDXID: SPDXRef-fonts-freefont-ttf-file-3
-FileChecksum: SHA1: d3e3a8d049c0e3078d407f7b97e2bfe6cd36f46f
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-3
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeMono.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-4
-FileChecksum: SHA1: 6de4c675703f9ac29e571b48bb3c361e2c1114bc
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-4
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeMonoBold.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-5
-FileChecksum: SHA1: f3f8308e87a038f97f953ba7ce0a9a500b8cf951
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-5
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeMonoBoldOblique.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-6
-FileChecksum: SHA1: dff33769a199195c7c24e6a4a048dc603ec66df7
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-6
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeMonoOblique.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-7
-FileChecksum: SHA1: d9748302dabee574e1632baa0b811f74bcb61823
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-7
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeSans.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-8
-FileChecksum: SHA1: 070c673d748fb8d22ccf918c6cc68e57a8c247b0
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-8
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeSansBold.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-9
-FileChecksum: SHA1: 8632f48ce72fe96439a71e24dcae9dc3f73d6316
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-9
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeSansBoldOblique.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-10
-FileChecksum: SHA1: fa4703486a9cb2700cc53c71ff502ff5ffd5f6c7
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-10
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeSansOblique.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-11
-FileChecksum: SHA1: aae2f45a9259c08a30a25dd9c886526e86416684
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-11
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeSerif.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-12
-FileChecksum: SHA1: e253ac3407e75f03c215674db2d5fa1da8635996
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-12
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeSerifBold.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-13
-FileChecksum: SHA1: 57b89f6c50bb1bd8b98b264caa63222ec0ac66d7
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-13
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeSerifBoldItalic.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-14
-FileChecksum: SHA1: 29acef9283216f00edeb767320fd6e73df5fcfaf
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-14
-
-
-FileName: /usr/share/fonts/truetype/freefont/FreeSerifItalic.ttf
-SPDXID: SPDXRef-fonts-freefont-ttf-file-15
-FileChecksum: SHA1: 67824240928933e53ceadb569c6d380ea8c53733
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-fonts-freefont-ttf CONTAINS SPDXRef-fonts-freefont-ttf-file-15
 
 
 ## Extracted License

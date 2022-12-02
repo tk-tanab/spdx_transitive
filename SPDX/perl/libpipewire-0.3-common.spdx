@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libpipewire-0.3-common_0.3.48-1ubuntu2-d54556b9-8665-5cdc-ab12-da952901ec5a
+DocumentNamespace: http://spdx.org/spdxdocs/libpipewire-0.3-common_0.3.48-1ubuntu2-9b56b4d1-cc0a-57f0-bb66-70d082c122da
 DocumentName: libpipewire-0.3-common_0.3.48-1ubuntu2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpipewire-0.3-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpipewire-0.3-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:51Z
+Created: 2022-11-29T19:39:39Z
 
 
 ## Package
@@ -49,15 +49,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libpipewire-0.3-common CONTAINS SPDXRef-libpipewire-0.3-common-file-0
-
-
-FileName: /usr/share/doc/libpipewire-0.3-common/copyright
-SPDXID: SPDXRef-libpipewire-0.3-common-file-1
-FileChecksum: SHA1: 4babca833b21201659c5a5c0b25b8fd388ec891a
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libpipewire-0.3-common CONTAINS SPDXRef-libpipewire-0.3-common-file-1
 
 
 ## Extracted License

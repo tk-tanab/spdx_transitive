@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/netbase_6.3-b7ce1d72-6b5d-580d-b0e8-bc4c4ed342f8
+DocumentNamespace: http://spdx.org/spdxdocs/netbase_6.3-40fa8951-0701-5c78-aa8d-a0091d26b485
 DocumentName: netbase_6.3
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-netbase
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-netbase
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:46:21Z
+Created: 2022-11-29T19:40:02Z
 
 
 ## Package
@@ -43,51 +43,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase-file-0
-
-
-FileName: /etc/protocols
-SPDXID: SPDXRef-netbase-file-1
-FileChecksum: SHA1: a262a5a77be01aad99a98cf20ff28735da3cac37
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase-file-1
-
-
-FileName: /etc/rpc
-SPDXID: SPDXRef-netbase-file-2
-FileChecksum: SHA1: 774b67fdac56d2973e3b1e0e3f32f962dea1b8a1
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase-file-2
-
-
-FileName: /etc/services
-SPDXID: SPDXRef-netbase-file-3
-FileChecksum: SHA1: a0d7a229bf049f7fe17e8445226236e4024535d0
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase-file-3
-
-
-FileName: /usr/share/doc/netbase/changelog.gz
-SPDXID: SPDXRef-netbase-file-4
-FileChecksum: SHA1: 4bb1c8432f4977688e14456330422c29341e43ec
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase-file-4
-
-
-FileName: /usr/share/doc/netbase/copyright
-SPDXID: SPDXRef-netbase-file-5
-FileChecksum: SHA1: 473b4254e3bb9789f056d2ffbf21b5a855813f2a
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-netbase CONTAINS SPDXRef-netbase-file-5
 
 
 ## Extracted License

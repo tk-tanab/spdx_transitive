@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libthai-data_0.1.29-1build1-425bd571-2acf-50dd-819d-3ccd4bb0a464
+DocumentNamespace: http://spdx.org/spdxdocs/libthai-data_0.1.29-1build1-920a5595-0f22-57e4-ba17-c13fde47c035
 DocumentName: libthai-data_0.1.29-1build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libthai-data
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libthai-data
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:02Z
+Created: 2022-11-29T19:39:18Z
 
 
 ## Package
@@ -45,24 +45,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data-file-0
-
-
-FileName: /usr/share/doc/libthai-data/copyright
-SPDXID: SPDXRef-libthai-data-file-1
-FileChecksum: SHA1: cfda33c18ae3dc18c64f110b0282ee205162a626
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data-file-1
-
-
-FileName: /usr/share/libthai/thbrk.tri
-SPDXID: SPDXRef-libthai-data-file-2
-FileChecksum: SHA1: bab1d5c2ce1722f9901bb54f6c6e6bd969f37294
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data-file-2
 
 
 ## Extracted License

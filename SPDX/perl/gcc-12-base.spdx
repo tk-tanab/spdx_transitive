@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/gcc-12-base_12.1.0-2ubuntu1~22.04-38b353ae-84be-5880-9d8b-7ccd39d9dbe0
+DocumentNamespace: http://spdx.org/spdxdocs/gcc-12-base_12.1.0-2ubuntu1~22.04-20452f75-461d-5305-9eee-1c9108e5e837
 DocumentName: gcc-12-base_12.1.0-2ubuntu1~22.04
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gcc-12-base
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gcc-12-base
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:44:50Z
+Created: 2022-11-29T19:39:00Z
 
 
 ## Package
@@ -41,33 +41,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-gcc-12-base CONTAINS SPDXRef-gcc-12-base-file-0
-
-
-FileName: /usr/share/doc/gcc-12-base/TODO.Debian
-SPDXID: SPDXRef-gcc-12-base-file-1
-FileChecksum: SHA1: 98cf44e59ce96c1e737613d13cdc8944060cd662
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gcc-12-base CONTAINS SPDXRef-gcc-12-base-file-1
-
-
-FileName: /usr/share/doc/gcc-12-base/changelog.Debian.gz
-SPDXID: SPDXRef-gcc-12-base-file-2
-FileChecksum: SHA1: e5a97578252cc47ae0250b574efe22650d5c686f
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gcc-12-base CONTAINS SPDXRef-gcc-12-base-file-2
-
-
-FileName: /usr/share/doc/gcc-12-base/copyright
-SPDXID: SPDXRef-gcc-12-base-file-3
-FileChecksum: SHA1: 1e3101e727f5e80dad6482faddeef7d4165bcf46
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-gcc-12-base CONTAINS SPDXRef-gcc-12-base-file-3
 
 
 ## Extracted License

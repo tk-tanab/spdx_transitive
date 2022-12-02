@@ -17,3 +17,5 @@ def get_dir_size(path='.'):
 
 print(get_dir_size('SPDX/perl'))
 # print(os.getcwd())
+
+xfonts-encodings

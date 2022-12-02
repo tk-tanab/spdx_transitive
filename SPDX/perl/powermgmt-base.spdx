@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/powermgmt-base_1.36-fe448286-0eec-5597-8d90-30ede55ff255
+DocumentNamespace: http://spdx.org/spdxdocs/powermgmt-base_1.36-f9e6a78c-289c-5daf-be62-fc14e8dfa3f5
 DocumentName: powermgmt-base_1.36
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-powermgmt-base
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-powermgmt-base
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:46:44Z
+Created: 2022-11-29T19:40:17Z
 
 
 ## Package
@@ -43,51 +43,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base-file-0
-
-
-FileName: /usr/share/doc/powermgmt-base/changelog.gz
-SPDXID: SPDXRef-powermgmt-base-file-1
-FileChecksum: SHA1: ee0e216906c699adf7a3a7a08f668aa3f4d09ba3
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base-file-1
-
-
-FileName: /usr/share/doc/powermgmt-base/copyright
-SPDXID: SPDXRef-powermgmt-base-file-2
-FileChecksum: SHA1: 620e0696a074b3ba56cd8cca42a4edcc46db0ceb
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base-file-2
-
-
-FileName: /usr/share/doc/powermgmt-base/power_supply.txt
-SPDXID: SPDXRef-powermgmt-base-file-3
-FileChecksum: SHA1: 79f3d71aea53ee9ef8d562f416fee9dccd29ccbd
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base-file-3
-
-
-FileName: /usr/share/man/man1/on_ac_power.1.gz
-SPDXID: SPDXRef-powermgmt-base-file-4
-FileChecksum: SHA1: 473326c431e71eb7b11fd62cd9ca12bfbc57db44
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base-file-4
-
-
-FileName: /usr/bin/on_ac_power
-SPDXID: SPDXRef-powermgmt-base-file-5
-FileChecksum: SHA1: 892fd8f6073792dd64d9d33d400aba4fb1113d91
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-powermgmt-base CONTAINS SPDXRef-powermgmt-base-file-5
 
 
 ## Extracted License

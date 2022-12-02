@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libgdata-common_0.18.1-2build1-c76feaa8-2e18-5596-87be-bbcba68af05e
+DocumentNamespace: http://spdx.org/spdxdocs/libgdata-common_0.18.1-2build1-ad2c3922-f737-5cb3-b287-f7dccc822fa1
 DocumentName: libgdata-common_0.18.1-2build1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdata-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdata-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:26Z
+Created: 2022-11-29T19:39:29Z
 
 
 ## Package
@@ -44,15 +44,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common-file-0
-
-
-FileName: /usr/share/doc/libgdata-common/copyright
-SPDXID: SPDXRef-libgdata-common-file-1
-FileChecksum: SHA1: fb043d19b1e1e7fe4236b5d99635eb3983d91463
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common-file-1
 
 
 ## Extracted License

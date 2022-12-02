@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1-df963d76-3e83-5d69-badf-169367cdbbbf
+DocumentNamespace: http://spdx.org/spdxdocs/libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1-8458e9b5-7a28-5faa-b577-8f467dd404e8
 DocumentName: libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libldap-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libldap-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:44:54Z
+Created: 2022-11-29T19:39:04Z
 
 
 ## Package
@@ -41,33 +41,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common-file-0
-
-
-FileName: /usr/share/doc/libldap-common/changelog.Debian.gz
-SPDXID: SPDXRef-libldap-common-file-1
-FileChecksum: SHA1: 7f22dc33ce5bde434902c92a3358933105e76b07
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common-file-1
-
-
-FileName: /usr/share/doc/libldap-common/copyright
-SPDXID: SPDXRef-libldap-common-file-2
-FileChecksum: SHA1: dafbd159d68c2112925600499ef053994190dec0
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common-file-2
-
-
-FileName: /usr/share/man/man5/ldap.conf.5.gz
-SPDXID: SPDXRef-libldap-common-file-3
-FileChecksum: SHA1: 784d6e6a94ff4df729ac54522bc53ff759b970d1
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common-file-3
 
 
 ## Extracted License

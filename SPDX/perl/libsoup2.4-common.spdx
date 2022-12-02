@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libsoup2.4-common_2.74.2-3-ad2f2bee-dfa4-58c3-ab86-2d29afeb4266
+DocumentNamespace: http://spdx.org/spdxdocs/libsoup2.4-common_2.74.2-3-08a89461-1b88-525d-9291-3aadec43578c
 DocumentName: libsoup2.4-common_2.74.2-3
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsoup2.4-common
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsoup2.4-common
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:12Z
+Created: 2022-11-29T19:39:26Z
 
 
 ## Package
@@ -44,15 +44,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common-file-0
-
-
-FileName: /usr/share/doc/libsoup2.4-common/copyright
-SPDXID: SPDXRef-libsoup2.4-common-file-1
-FileChecksum: SHA1: c956bc1ac9078453438141c77e3927bd6b3ca0bc
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common-file-1
 
 
 ## Extracted License

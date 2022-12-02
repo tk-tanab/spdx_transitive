@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/usb.ids_2022.04.02-1-f08055eb-02c4-5c04-a061-802e46baed08
+DocumentNamespace: http://spdx.org/spdxdocs/usb.ids_2022.04.02-1-0a34bfa0-8898-55c2-a230-7cd38f5e8c2e
 DocumentName: usb.ids_2022.04.02-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-usb.ids
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-usb.ids
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:04Z
+Created: 2022-11-29T19:39:19Z
 
 
 ## Package
@@ -43,33 +43,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-usb.ids CONTAINS SPDXRef-usb.ids-file-0
-
-
-FileName: /usr/share/doc/usb.ids/copyright
-SPDXID: SPDXRef-usb.ids-file-1
-FileChecksum: SHA1: a552bd306034fbb3c0b295edb9fc66a318786d77
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-usb.ids CONTAINS SPDXRef-usb.ids-file-1
-
-
-FileName: /var/lib/usbutils/usb.ids
-SPDXID: SPDXRef-usb.ids-file-2
-FileChecksum: SHA1: 9664dc4ba5dad416ccf83d096712033aacc806bf
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-usb.ids CONTAINS SPDXRef-usb.ids-file-2
-
-
-FileName: /usr/share/misc/usb.ids
-SPDXID: SPDXRef-usb.ids-file-3
-FileChecksum: SHA1: 9664dc4ba5dad416ccf83d096712033aacc806bf
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-usb.ids CONTAINS SPDXRef-usb.ids-file-3
 
 
 ## Extracted License

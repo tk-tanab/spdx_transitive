@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/mobile-broadband-provider-info_20220315-1-ed25314a-886a-5c3f-8921-807828b0edbe
+DocumentNamespace: http://spdx.org/spdxdocs/mobile-broadband-provider-info_20220315-1-b0f4392e-a801-5e4f-b1bc-79e8e3e6f3c8
 DocumentName: mobile-broadband-provider-info_20220315-1
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mobile-broadband-provider-info
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mobile-broadband-provider-info
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:46:22Z
+Created: 2022-11-29T19:40:03Z
 
 
 ## Package
@@ -46,60 +46,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-0
-
-
-FileName: /usr/share/doc/mobile-broadband-provider-info/changelog.Debian.gz
-SPDXID: SPDXRef-mobile-broadband-provider-info-file-1
-FileChecksum: SHA1: b7fb15773dfd1304392e007ff864aec2f9568096
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-1
-
-
-FileName: /usr/share/doc/mobile-broadband-provider-info/copyright
-SPDXID: SPDXRef-mobile-broadband-provider-info-file-2
-FileChecksum: SHA1: 90cfe984f8a2628f815dbe1db70307e5a1a5a547
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-2
-
-
-FileName: /usr/share/mobile-broadband-provider-info/apns-conf.xml
-SPDXID: SPDXRef-mobile-broadband-provider-info-file-3
-FileChecksum: SHA1: ea89cdaf880157d8a908a6c7f07be9455f0d1271
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-3
-
-
-FileName: /usr/share/mobile-broadband-provider-info/serviceproviders.2.dtd
-SPDXID: SPDXRef-mobile-broadband-provider-info-file-4
-FileChecksum: SHA1: 1d11d7d3035a33b8d3cd014ef730d9f447686d0e
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-4
-
-
-FileName: /usr/share/mobile-broadband-provider-info/serviceproviders.xml
-SPDXID: SPDXRef-mobile-broadband-provider-info-file-5
-FileChecksum: SHA1: 06f2ff66ac39f56455b35ae77ab2be9bc4c256c7
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-5
-
-
-FileName: /usr/share/pkgconfig/mobile-broadband-provider-info.pc
-SPDXID: SPDXRef-mobile-broadband-provider-info-file-6
-FileChecksum: SHA1: dc87227c4f37a498c471889f9960e6349447fc33
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-6
 
 
 ## Extracted License

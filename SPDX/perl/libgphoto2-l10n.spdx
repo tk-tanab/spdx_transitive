@@ -2,7 +2,7 @@
 
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-DocumentNamespace: http://spdx.org/spdxdocs/libgphoto2-l10n_2.5.27-1build2-85684ec2-de6b-52e0-9e22-13354092bf8d
+DocumentNamespace: http://spdx.org/spdxdocs/libgphoto2-l10n_2.5.27-1build2-a129a163-fb27-5455-924c-868b2000b624
 DocumentName: libgphoto2-l10n_2.5.27-1build2
 SPDXID: SPDXRef-DOCUMENT
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgphoto2-l10n
@@ -12,7 +12,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgphoto2-l10n
 
 Creator: Tool: spdx_transitive
 Creator: Person: Taketo
-Created: 2022-11-28T14:45:05Z
+Created: 2022-11-29T19:39:20Z
 
 
 ## Package
@@ -44,15 +44,6 @@ LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n-file-0
-
-
-FileName: /usr/share/doc/libgphoto2-l10n/copyright
-SPDXID: SPDXRef-libgphoto2-l10n-file-1
-FileChecksum: SHA1: 90294ca0dc95af917e6c53c54c391dfd07eed286
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
-Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n-file-1
 
 
 ## Extracted License
