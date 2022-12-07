@@ -1,0 +1,209 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-yrsa-rasa_2.005-1-2b4e5cbf-3169-5e13-ac97-8cbb1f60513d
+DocumentName: fonts-yrsa-rasa_2.005-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-yrsa-rasa
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:53:40Z
+
+
+## Package
+
+PackageName: fonts-yrsa-rasa
+PackageVersion: 2.005-1
+SPDXID: SPDXRef-fonts-yrsa-rasa
+PackageHomePage: https://github.com/rosettatype/yrsa-rasa
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0348cfb3ff934117b47c94817e2b26fe06f8dd3b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2015-2016, Anna Giedrys and David Brezina, The Yrsa and Rasa Project
+Copyright 2016-2021, Kartik Mistry <kartik@debian.org>
+</text>
+PackageComment: <text>Open-source, libre fonts for Latin + Gujarati
+ This package provides free fonts for Gujarati script which is primarily used
+ in the Indian state of Gujarat.
+ .
+ It includes following fonts:
+  * Yrsa (Latin)
+  * Rasa (Gujarati)</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-yrsa-rasa/copyright
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-0
+FileChecksum: SHA1: 28a70655d8d131694eadb7d923f0925e45f61743
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: OFL-1.1
+FileCopyrightText: <text>Copyright 2015-2016, Anna Giedrys and David Brezina, The Yrsa and Rasa Project
+Copyright 2016-2021, Kartik Mistry <kartik@debian.org>
+</text>
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-0
+
+
+FileName: /usr/share/doc/fonts-yrsa-rasa/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-1
+FileChecksum: SHA1: 64e02f556a3635c0f7b89a78fa72c0e4f44452da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-1
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Bold.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-2
+FileChecksum: SHA1: f43b10af86c848a624697f7902398e8da193ef9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-2
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Light.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-3
+FileChecksum: SHA1: 9f6b0d346f06729c0c868ad3447ac68464d20192
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-3
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Medium.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-4
+FileChecksum: SHA1: 606283fc3affb93886b235062ba8e89832abe44f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-4
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Regular.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-5
+FileChecksum: SHA1: 16fe8c1dc2fa8abbc8d3fdec20af672a5822a3d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-5
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-SemiBold.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-6
+FileChecksum: SHA1: b4e3dddb6bd639304cbd302b4bcae0445093f523
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-6
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Bold.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-7
+FileChecksum: SHA1: 279ce97085555059cde3b748e63ba928ca5ec507
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-7
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-BoldItalic.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-8
+FileChecksum: SHA1: ae66afc452b3b500ef70c66c72f660bd762d542b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-8
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Italic.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-9
+FileChecksum: SHA1: 181c781d61201e18a4c0dc5b2acf28a90faa23ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-9
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Light.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-10
+FileChecksum: SHA1: c4dcccedbbe629f64c9a540025a0f56257e897fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-10
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-LightItalic.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-11
+FileChecksum: SHA1: 0a3ce56775aee204b2cc6d7cf510711b31057369
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-11
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Medium.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-12
+FileChecksum: SHA1: d2546f8ef6e6aa7a49c06152618bbf22304afb6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-12
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-MediumItalic.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-13
+FileChecksum: SHA1: ade51996a63994482ce164d382c98f4102f76f46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-13
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Regular.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-14
+FileChecksum: SHA1: 07f4b4ca9a2d0d60ad8fd789c5c59d587a925bbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-14
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-SemiBold.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-15
+FileChecksum: SHA1: dfd4f095bfd2547c29ad4d3b45ff830fd39f5303
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-15
+
+
+FileName: /usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-SemiBoldItalic.ttf
+SPDXID: SPDXRef-fonts-yrsa-rasa-file-16
+FileChecksum: SHA1: 21d6bdcf14ce8a0727fd5f2450e8575341fa3448
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-yrsa-rasa CONTAINS SPDXRef-fonts-yrsa-rasa-file-16
+
+
+## Extracted License
+

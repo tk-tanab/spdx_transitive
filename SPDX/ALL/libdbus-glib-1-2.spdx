@@ -1,0 +1,138 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libdbus-glib-1-2_0.112-2build1-44c2f627-c39e-5671-ae3b-91c0a875ef0a
+DocumentName: libdbus-glib-1-2_0.112-2build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdbus-glib-1-2
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:18:23Z
+
+
+## Package
+
+PackageName: libdbus-glib-1-2
+PackageVersion: 0.112-2build1
+SPDXID: SPDXRef-libdbus-glib-1-2
+PackageHomePage: https://www.freedesktop.org/wiki/Software/DBusBindings
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 846e952cc41997559fc9663406af3523d5f7cbe6
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: AFL-2.1
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>(c) 2002-2003 CodeFactory AB
+(c) 2004 Ximian, Inc
+(c) 2005-2011 Nokia Corporation
+(c) 2006 Steve Frecinaux
+(c) 2007 Codethink Ltd
+(c) 2009-2011 Nokia Corporation
+(c) 2009-2014 Collabora Ltd
+(c) 2013 Collabora Ltd
+(c) 2013 Intel Corporation
+Copyright (c) 2002-2010 Red Hat, Inc
+Copyright (c) 2003-2004 Lawrence E. Rosen
+Copyright (c) 2008 David Zeuthen
+Copyright (c) 2009 Collabora Ltd
+Copyright (c) 2011 Nokia Corporation
+</text>
+PackageComment: <text>deprecated library for D-Bus IPC
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ This package provides a deprecated GLib-based shared library for
+ applications using the GLib interface to D-Bus. New code should use
+ GDBus, part of GLib, instead.
+ .
+ See the dbus description for more information about D-Bus in general.</text>
+Relationship: SPDXRef-libdbus-glib-1-2 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libdbus-glib-1-2 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libdbus-1-3
+Relationship: SPDXRef-libdbus-glib-1-2 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+
+
+## File
+
+FileName: /usr/share/doc/libdbus-glib-1-2/copyright
+SPDXID: SPDXRef-libdbus-glib-1-2-file-0
+FileChecksum: SHA1: a9cb89955aedcc41afc7d4f4d9cd4d3e5287902e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: AFL-2.1
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 2002-2010 Red Hat, Inc
+(c) 2002-2003 CodeFactory AB
+(c) 2004 Ximian, Inc
+(c) 2005-2011 Nokia Corporation
+(c) 2006 Steve Frecinaux
+(c) 2007 Codethink Ltd
+(c) 2009-2014 Collabora Ltd
+(c) 2013 Intel Corporation
+Copyright (c) 2008 David Zeuthen
+Copyright (c) 2009 Collabora Ltd
+(c) 2009-2011 Nokia Corporation
+Copyright (c) 2011 Nokia Corporation
+(c) 2013 Collabora Ltd
+Copyright (c) 2003-2004 Lawrence E. Rosen
+</text>
+Relationship: SPDXRef-libdbus-glib-1-2 CONTAINS SPDXRef-libdbus-glib-1-2-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libdbus-glib-1.so.2.3.5
+SPDXID: SPDXRef-libdbus-glib-1-2-file-1
+FileChecksum: SHA1: fbb53814b064947fda195a7bb27a2acd477f6df6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdbus-glib-1-2 CONTAINS SPDXRef-libdbus-glib-1-2-file-1
+
+
+FileName: /usr/share/doc/libdbus-glib-1-2/changelog.Debian.gz
+SPDXID: SPDXRef-libdbus-glib-1-2-file-2
+FileChecksum: SHA1: 7cb64933fe4027ee41eda278556a3b91988b1c89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdbus-glib-1-2 CONTAINS SPDXRef-libdbus-glib-1-2-file-2
+
+
+FileName: /usr/share/lintian/overrides/libdbus-glib-1-2
+SPDXID: SPDXRef-libdbus-glib-1-2-file-3
+FileChecksum: SHA1: 6a7efeff8213e905a18d2be37498596a93c1ecb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdbus-glib-1-2 CONTAINS SPDXRef-libdbus-glib-1-2-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libdbus-glib-1.so.2
+SPDXID: SPDXRef-libdbus-glib-1-2-file-4
+FileChecksum: SHA1: fbb53814b064947fda195a7bb27a2acd477f6df6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdbus-glib-1-2 CONTAINS SPDXRef-libdbus-glib-1-2-file-4
+
+
+## Extracted License
+

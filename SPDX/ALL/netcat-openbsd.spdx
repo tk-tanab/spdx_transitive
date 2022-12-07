@@ -1,0 +1,242 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/netcat-openbsd_1.218-4ubuntu1-ef25de8a-c61e-552c-87a5-f9470bfdc83d
+DocumentName: netcat-openbsd_1.218-4ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-netcat-openbsd
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:04:03Z
+
+
+## Package
+
+PackageName: netcat-openbsd
+PackageVersion: 1.218-4ubuntu1
+SPDXID: SPDXRef-netcat-openbsd
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5dd223c1afccc9536568003c7b497a1765da75f0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageCopyrightText: <text>Copyright 1996 David Sacerdote
+Copyright 1999 Niklas Hallqvist 2004, 2005 Damien Miller
+Copyright 2001 Eric Jackson <ericj@monkey.org>
+Copyright 2006 Damien Miller 2005 Anil Madhavapeddy 1995,1999 Theo de Raadt
+Copyright 2008, 2009, 2010 Decklin Foster <decklin@red-bean.com> 2008, 2009, 2010 Soren Hansen <soren@ubuntu.com> 2012 Aron Xu <aron@debian.org> 2016-2021 Guilhem Moulin <guilhem@debian.org>
+Copyright 2021 Guilhem Moulin <guilhem@debian.org>
+Copyright The OpenBSD project
+</text>
+PackageComment: <text>TCP/IP swiss army knife
+ A simple Unix utility which reads and writes data across network connections
+ using TCP or UDP protocol. It is designed to be a reliable "back-end" tool
+ that can be used directly or easily driven by other programs and scripts. At
+ the same time it is a feature-rich network debugging and exploration tool,
+ since it can create almost any kind of connection you would need and has
+ several interesting built-in capabilities.
+ .
+ This package contains the OpenBSD rewrite of netcat, including support for
+ IPv6, proxies, and Unix sockets.</text>
+Relationship: SPDXRef-netcat-openbsd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libbsd0
+Relationship: SPDXRef-netcat-openbsd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/netcat-openbsd/copyright
+SPDXID: SPDXRef-netcat-openbsd-file-0
+FileChecksum: SHA1: e4cb5ddfe508c00d916751263270b4244de06ed8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2001 Eric Jackson <ericj@monkey.org>
+Copyright 1996 David Sacerdote
+Copyright 2006 Damien Miller 2005 Anil Madhavapeddy 1995,1999 Theo de Raadt
+Copyright 1999 Niklas Hallqvist 2004, 2005 Damien Miller
+Copyright The OpenBSD project
+Copyright 2008, 2009, 2010 Decklin Foster <decklin@red-bean.com> 2008, 2009, 2010 Soren Hansen <soren@ubuntu.com> 2012 Aron Xu <aron@debian.org> 2016-2021 Guilhem Moulin <guilhem@debian.org>
+Copyright 2021 Guilhem Moulin <guilhem@debian.org>
+</text>
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-0
+
+
+FileName: /bin/nc.openbsd
+SPDXID: SPDXRef-netcat-openbsd-file-1
+FileChecksum: SHA1: f7778cdb6c44758fa6f13ff1effebf8ede6b435a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-1
+
+
+FileName: /usr/share/doc/netcat-openbsd/README.Debian
+SPDXID: SPDXRef-netcat-openbsd-file-2
+FileChecksum: SHA1: 1f325280d5698993f48945f56322be8705b56027
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-2
+
+
+FileName: /usr/share/doc/netcat-openbsd/changelog.Debian.gz
+SPDXID: SPDXRef-netcat-openbsd-file-3
+FileChecksum: SHA1: 9b52e5973306d4f92ccdaeb7f0541be35c2f2e28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-3
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/README
+SPDXID: SPDXRef-netcat-openbsd-file-4
+FileChecksum: SHA1: 766c7fa69a318e6906aa6fc33f27402dadf640c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-4
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/alta
+SPDXID: SPDXRef-netcat-openbsd-file-5
+FileChecksum: SHA1: b4004c54d4ad227a4cf23353cb2b51c54e3ef899
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-5
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/bsh
+SPDXID: SPDXRef-netcat-openbsd-file-6
+FileChecksum: SHA1: 3bac190989c274f3b4273c2c9289253fa21812be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-6
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/contrib/ncmeter
+SPDXID: SPDXRef-netcat-openbsd-file-7
+FileChecksum: SHA1: 954eb37f77f0db88fabac40d7fac1f5c797dc7f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-7
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/dist.sh
+SPDXID: SPDXRef-netcat-openbsd-file-8
+FileChecksum: SHA1: 5c3e6bbc3c3a080dc860987d9544828c34bb6f71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-8
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/irc
+SPDXID: SPDXRef-netcat-openbsd-file-9
+FileChecksum: SHA1: bdfe9eeb3f6a25cba3484b5bcba36ec91055c8cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-9
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/iscan
+SPDXID: SPDXRef-netcat-openbsd-file-10
+FileChecksum: SHA1: d518a495c48353288bb4643f01176e9497a6a580
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-10
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/ncp
+SPDXID: SPDXRef-netcat-openbsd-file-11
+FileChecksum: SHA1: 1bdd0e47fdd56d5e23ff88c6e05c6aee96f564b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-11
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/probe
+SPDXID: SPDXRef-netcat-openbsd-file-12
+FileChecksum: SHA1: 6d07b6ffcbd9402d16e6efdc12b0621bf5daf418
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-12
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/web
+SPDXID: SPDXRef-netcat-openbsd-file-13
+FileChecksum: SHA1: 7b3cb3e4197e010ebfb1961c2a4d521327bebc8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-13
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/webproxy
+SPDXID: SPDXRef-netcat-openbsd-file-14
+FileChecksum: SHA1: 65d80a6d119cba79237c47159f96257459288c5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-14
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/webrelay
+SPDXID: SPDXRef-netcat-openbsd-file-15
+FileChecksum: SHA1: b00ca1001f5f35f46ed25ad4af937f9c975bff22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-15
+
+
+FileName: /usr/share/doc/netcat-openbsd/examples/websearch
+SPDXID: SPDXRef-netcat-openbsd-file-16
+FileChecksum: SHA1: 290132425cbc13dc804609cf6255c922ff97d127
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-16
+
+
+FileName: /usr/share/man/man1/nc_openbsd.1.gz
+SPDXID: SPDXRef-netcat-openbsd-file-17
+FileChecksum: SHA1: 7b7bd638ba8d5af62278f4e50632583c7d97edc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-17
+
+
+FileName: /usr/share/man/man1/nc.openbsd.1.gz
+SPDXID: SPDXRef-netcat-openbsd-file-18
+FileChecksum: SHA1: 7b7bd638ba8d5af62278f4e50632583c7d97edc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netcat-openbsd CONTAINS SPDXRef-netcat-openbsd-file-18
+
+
+## Extracted License
+

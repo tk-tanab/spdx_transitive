@@ -1,0 +1,213 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/busybox-static_1:1.30.1-7ubuntu3-76f4c4d9-4b51-53b9-aa45-5482e393aed4
+DocumentName: busybox-static_1:1.30.1-7ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-busybox-static
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:43:15Z
+
+
+## Package
+
+PackageName: busybox-static
+PackageVersion: 1:1.30.1-7ubuntu3
+SPDXID: SPDXRef-busybox-static
+PackageHomePage: http://www.busybox.net
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9fd4239a79cb024a0097e40bdb5fe8ab58c1b6ca
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Copyright 1999-2005 Erik Andersen
+</text>
+PackageComment: <text>Standalone rescue shell with tons of builtin utilities
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.).  The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ busybox-static provides you with a statically linked simple stand alone shell
+ that provides all the utilities available in BusyBox. This package is
+ intended to be used as a rescue shell, in the event that you screw up your
+ system. Invoke "busybox sh" and you have a standalone shell ready to save
+ your system from certain destruction. Invoke "busybox", and it will list the
+ available builtin commands.</text>
+
+
+## File
+
+FileName: /usr/share/doc/busybox-static/copyright
+SPDXID: SPDXRef-busybox-static-file-0
+FileChecksum: SHA1: a38b096c44c1af0a1244d8239fb5e8f1bfd6d786
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 1999-2005 Erik Andersen
+</text>
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-0
+
+
+FileName: /bin/busybox
+SPDXID: SPDXRef-busybox-static-file-1
+FileChecksum: SHA1: be49766ad0eb1f01c4ba0a36644b68cb2a19b51f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-1
+
+
+FileName: /usr/share/doc/busybox-static/changelog.Debian.gz
+SPDXID: SPDXRef-busybox-static-file-2
+FileChecksum: SHA1: c33d113e97139d040d008412aa97f4bbee67bc21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-2
+
+
+FileName: /usr/share/doc/busybox-static/examples/mdev.conf
+SPDXID: SPDXRef-busybox-static-file-3
+FileChecksum: SHA1: 836e701c500ea8bdd11f454ab110da06bb8a9559
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-3
+
+
+FileName: /usr/share/doc/busybox-static/examples/mdev.conf.change_blockdev.sh
+SPDXID: SPDXRef-busybox-static-file-4
+FileChecksum: SHA1: 40ce6957cd398985e931ddc15a8abadc3d6ff714
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-4
+
+
+FileName: /usr/share/doc/busybox-static/examples/mdev_fat.conf.gz
+SPDXID: SPDXRef-busybox-static-file-5
+FileChecksum: SHA1: 97533cef27d590fcceaf76db6b718032f833dbca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-5
+
+
+FileName: /usr/share/doc/busybox-static/examples/udhcp/sample.bound
+SPDXID: SPDXRef-busybox-static-file-6
+FileChecksum: SHA1: beb2fe1c52094e87ec937b802a9f66cdbb4a428c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-6
+
+
+FileName: /usr/share/doc/busybox-static/examples/udhcp/sample.deconfig
+SPDXID: SPDXRef-busybox-static-file-7
+FileChecksum: SHA1: 4a76545bb09af886c1a31be62f15c6e953482981
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-7
+
+
+FileName: /usr/share/doc/busybox-static/examples/udhcp/sample.nak
+SPDXID: SPDXRef-busybox-static-file-8
+FileChecksum: SHA1: f7ec6d40a2ca92924c3906fc6630d703864c583c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-8
+
+
+FileName: /usr/share/doc/busybox-static/examples/udhcp/sample.renew
+SPDXID: SPDXRef-busybox-static-file-9
+FileChecksum: SHA1: beb2fe1c52094e87ec937b802a9f66cdbb4a428c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-9
+
+
+FileName: /usr/share/doc/busybox-static/examples/udhcp/sample.script
+SPDXID: SPDXRef-busybox-static-file-10
+FileChecksum: SHA1: a3df497d39c90b9b727f2b300c9719372e603026
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-10
+
+
+FileName: /usr/share/doc/busybox-static/examples/udhcp/simple.script
+SPDXID: SPDXRef-busybox-static-file-11
+FileChecksum: SHA1: 399ba0d48370f6fd27a993ea07d11497e7010881
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-11
+
+
+FileName: /usr/share/doc/busybox-static/examples/udhcp/udhcpd.conf.gz
+SPDXID: SPDXRef-busybox-static-file-12
+FileChecksum: SHA1: 8a228aed6b54d00f1f542b07dc231ad17da8fff1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-12
+
+
+FileName: /usr/share/doc/busybox-static/mdev.txt.gz
+SPDXID: SPDXRef-busybox-static-file-13
+FileChecksum: SHA1: a3b6eb4381138de7e59288bb1e7eb9d34da32ad8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-13
+
+
+FileName: /usr/share/doc/busybox-static/syslog.conf.txt
+SPDXID: SPDXRef-busybox-static-file-14
+FileChecksum: SHA1: 4980eb5131119efef9ed23081dfad154c158bc71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-14
+
+
+FileName: /usr/share/man/man1/busybox.1.gz
+SPDXID: SPDXRef-busybox-static-file-15
+FileChecksum: SHA1: d66c09785b6295f3d083a239b794e26355bb2953
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-15
+
+
+FileName: /bin/static-sh
+SPDXID: SPDXRef-busybox-static-file-16
+FileChecksum: SHA1: be49766ad0eb1f01c4ba0a36644b68cb2a19b51f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-busybox-static CONTAINS SPDXRef-busybox-static-file-16
+
+
+## Extracted License
+

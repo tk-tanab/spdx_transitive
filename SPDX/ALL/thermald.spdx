@@ -1,0 +1,151 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/thermald_2.4.9-1ubuntu0.1-8d7a0eb9-4e55-50c5-bf40-d946b4de273a
+DocumentName: thermald_2.4.9-1ubuntu0.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libdbus-glib-1-2 http://spdx.org/spdxdocs/libdbus-glib-1-2_0.112-2build1-44c2f627-c39e-5671-ae3b-91c0a875ef0a SHA1: 7cf4dfdbbfb8eb7da2378f5d06bde32b810cfd9f
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-thermald
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:00:50Z
+
+
+## Package
+
+PackageName: thermald
+PackageVersion: 2.4.9-1ubuntu0.1
+SPDXID: SPDXRef-thermald
+PackageHomePage: https://01.org/linux-thermal-daemon
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c25df8de1aaefb94929515ed15b9e191c6e08275
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-only
+PackageCopyrightText: <text>Copyright 2013-2022 Intel Corporation
+Copyright 2014-2021, Canonical Ltd 2022, Colin Ian King
+</text>
+PackageComment: <text>Thermal monitoring and controlling daemon
+ Thermal Daemon is a Linux daemon for monitoring and
+ controlling platform temperatures. Once the system
+ temperature reaches a certain threshold, the Linux daemon
+ activates various cooling methods to try to cool the system.</text>
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libdbus-1-3
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-libdbus-glib-1-2:SPDXRef-libdbus-glib-1-2
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libevdev2
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-liblzma5
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libupower-glib3
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxml2
+Relationship: SPDXRef-thermald DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+
+
+## File
+
+FileName: /usr/share/doc/thermald/copyright
+SPDXID: SPDXRef-thermald-file-0
+FileChecksum: SHA1: 421c9c9f916d1008c91dff7a644aca9113ea8456
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-only
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2013-2022 Intel Corporation
+Copyright 2014-2021, Canonical Ltd 2022, Colin Ian King
+</text>
+Relationship: SPDXRef-thermald CONTAINS SPDXRef-thermald-file-0
+
+
+FileName: /etc/dbus-1/system.d/org.freedesktop.thermald.conf
+SPDXID: SPDXRef-thermald-file-1
+FileChecksum: SHA1: 5646dd00e5e05b4d1925e9ce4fff703c0bdf124a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-thermald CONTAINS SPDXRef-thermald-file-1
+
+
+FileName: /etc/thermald/thermal-cpu-cdev-order.xml
+SPDXID: SPDXRef-thermald-file-2
+FileChecksum: SHA1: 21bf5a1acf381285ef3fe88d180b3f17d474804c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-thermald CONTAINS SPDXRef-thermald-file-2
+
+
+FileName: /lib/systemd/system/thermald.service
+SPDXID: SPDXRef-thermald-file-3
+FileChecksum: SHA1: 7a5ae92ef5b02d1ac8648d02290fc4b48af77fdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-thermald CONTAINS SPDXRef-thermald-file-3
+
+
+FileName: /usr/sbin/thermald
+SPDXID: SPDXRef-thermald-file-4
+FileChecksum: SHA1: 57dcf80b9024df5f54f6b1eb326e40419814d6ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-thermald CONTAINS SPDXRef-thermald-file-4
+
+
+FileName: /usr/share/dbus-1/system-services/org.freedesktop.thermald.service
+SPDXID: SPDXRef-thermald-file-5
+FileChecksum: SHA1: a575cffe8b91f4369f0dd4662660d7079efdf4eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-thermald CONTAINS SPDXRef-thermald-file-5
+
+
+FileName: /usr/share/doc/thermald/changelog.Debian.gz
+SPDXID: SPDXRef-thermald-file-6
+FileChecksum: SHA1: 46cf8dd70938887a9220b14397a5ef36a2b5dd46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-thermald CONTAINS SPDXRef-thermald-file-6
+
+
+FileName: /usr/share/man/man5/thermal-conf.xml.5.gz
+SPDXID: SPDXRef-thermald-file-7
+FileChecksum: SHA1: 22e3de625ae94da4c168f83c41ce597bac70ab73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-thermald CONTAINS SPDXRef-thermald-file-7
+
+
+FileName: /usr/share/man/man8/thermald.8.gz
+SPDXID: SPDXRef-thermald-file-8
+FileChecksum: SHA1: 8d4471d2da82046769d6fb16018f89e504666b78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-thermald CONTAINS SPDXRef-thermald-file-8
+
+
+## Extracted License
+

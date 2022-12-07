@@ -1,0 +1,230 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/grub-pc_2.06-2ubuntu7-8b13debd-7562-57c1-865e-34830b192165
+DocumentName: grub-pc_2.06-2ubuntu7
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-grub-pc-bin http://spdx.org/spdxdocs/grub-pc-bin_2.06-2ubuntu7-caa32a5e-486d-5356-a423-5e521deff132 SHA1: 5c90508ec6f84da87d1a204eb3b694ec28c8129d
+ExternalDocumentRef: DocumentRef-grub2-common http://spdx.org/spdxdocs/grub2-common_2.06-2ubuntu7-4d58a4e0-1ee4-5aca-b813-f41200e08666 SHA1: 56a5406fc1ae6432ed4e00be5d70070bdba26049
+ExternalDocumentRef: DocumentRef-grub-common.Cycle http://spdx.org/spdxdocs/grub-common_2.06-2ubuntu7-96637425-8f95-59fb-9b7a-a983e3964ee5 SHA1: 0e51f3abee7dadc223733e0d9990ce77e598ef9a
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-grub-pc
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:14:36Z
+
+
+## Package
+
+PackageName: grub-pc
+PackageVersion: 2.06-2ubuntu7
+SPDXID: SPDXRef-grub-pc
+PackageHomePage: https://www.gnu.org/software/grub/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c51cfd43ef5bfed087552b8e8bf494bb2501c048
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>GRand Unified Bootloader, version 2 (PC/BIOS version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the traditional PC/BIOS architecture.  Installing this package
+ indicates that this version of GRUB should be the active boot loader.</text>
+Relationship: SPDXRef-grub-pc DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+Relationship: SPDXRef-grub-pc DEPENDS_ON DocumentRef-grub-common.Cycle:SPDXRef-grub-common
+Relationship: SPDXRef-grub-pc DEPENDS_ON DocumentRef-grub2-common:SPDXRef-grub2-common
+Relationship: SPDXRef-grub-pc DEPENDS_ON DocumentRef-grub-pc-bin:SPDXRef-grub-pc-bin
+Relationship: SPDXRef-grub-pc DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ucf
+Relationship: SPDXRef-grub-pc DEPENDS_ON SPDXRef-grub-gfxpayload-lists
+
+
+PackageName: grub-gfxpayload-lists
+PackageVersion: 0.7
+SPDXID: SPDXRef-grub-gfxpayload-lists
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: fb05f41a9ce7af6459cb147ea5fae4d86ac79548
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2010 Canonical Ltd.
+</text>
+PackageComment: <text>GRUB gfxpayload blacklist
+ The 'set gfxpayload=keep' facility in GRUB provides smooth graphical
+ handover to the Linux kernel.  Unfortunately, this does not work on all
+ systems, resulting in a black or corrupt display.  This package provides a
+ blacklist of PCI IDs which fail.
+ .
+ We maintain this separately from GRUB because it is likely to be updated on
+ a different schedule.</text>
+Relationship: SPDXRef-grub-gfxpayload-lists DEPENDS_ON SPDXRef-grub-pc
+
+
+## File
+
+FileName: /usr/lib/grub-legacy/update-grub
+SPDXID: SPDXRef-grub-pc-file-0
+FileChecksum: SHA1: 0fff98763a0a6ab7b15e8038b4e59f2c59bef36d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-pc CONTAINS SPDXRef-grub-pc-file-0
+
+
+FileName: /usr/sbin/upgrade-from-grub-legacy
+SPDXID: SPDXRef-grub-pc-file-1
+FileChecksum: SHA1: 36a9c05b0115b02bbb0b192284cd8152010f94fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-pc CONTAINS SPDXRef-grub-pc-file-1
+
+
+FileName: /usr/share/bug/grub-pc/presubj
+SPDXID: SPDXRef-grub-pc-file-2
+FileChecksum: SHA1: 1140bc2b71c5c476bfeb3b2c270aa40a415e69cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-pc CONTAINS SPDXRef-grub-pc-file-2
+
+
+FileName: /usr/share/bug/grub-pc/script
+SPDXID: SPDXRef-grub-pc-file-3
+FileChecksum: SHA1: 7b44a89a73ed32c36a2d1df73e55ad74a024d97f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-pc CONTAINS SPDXRef-grub-pc-file-3
+
+
+FileName: /usr/share/man/man8/grub-bios-setup.8.gz
+SPDXID: SPDXRef-grub-pc-file-4
+FileChecksum: SHA1: bdb902ab63a34bcb409f4f94959327fe82eff533
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-pc CONTAINS SPDXRef-grub-pc-file-4
+
+
+FileName: /usr/bin/grub-ntldr-img
+SPDXID: SPDXRef-grub-pc-file-5
+FileChecksum: SHA1: 92f0a169a72f8ec8c2388888880c7a64d638de5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-pc CONTAINS SPDXRef-grub-pc-file-5
+
+
+FileName: /usr/sbin/grub-bios-setup
+SPDXID: SPDXRef-grub-pc-file-6
+FileChecksum: SHA1: 9a8388b1578123184c02d75eedae609a410d2e25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-pc CONTAINS SPDXRef-grub-pc-file-6
+
+
+FileName: /usr/share/bash-completion/completions/grub-bios-setup
+SPDXID: SPDXRef-grub-pc-file-7
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-pc CONTAINS SPDXRef-grub-pc-file-7
+
+
+FileName: /usr/share/doc/grub-gfxpayload-lists/copyright
+SPDXID: SPDXRef-grub-gfxpayload-lists-file-0
+FileChecksum: SHA1: ef3efe70b352c5ae73bd53bd809ddae723d1de50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2010 Canonical Ltd.
+</text>
+Relationship: SPDXRef-grub-gfxpayload-lists CONTAINS SPDXRef-grub-gfxpayload-lists-file-0
+
+
+FileName: /usr/sbin/update-grub-gfxpayload
+SPDXID: SPDXRef-grub-gfxpayload-lists-file-1
+FileChecksum: SHA1: b790fe332243e1a4700d5d1e8315379348d3dc66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-gfxpayload-lists CONTAINS SPDXRef-grub-gfxpayload-lists-file-1
+
+
+FileName: /usr/share/grub-gfxpayload-lists/blacklist/00_header
+SPDXID: SPDXRef-grub-gfxpayload-lists-file-2
+FileChecksum: SHA1: a0c59f288b4e3a85cd3373d436e493e6585a6540
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-gfxpayload-lists CONTAINS SPDXRef-grub-gfxpayload-lists-file-2
+
+
+FileName: /usr/share/grub-gfxpayload-lists/blacklist/10_vmware
+SPDXID: SPDXRef-grub-gfxpayload-lists-file-3
+FileChecksum: SHA1: 1ab0b7c6f4ddd9f259e977fb5bb8b3e99fe2eb3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-gfxpayload-lists CONTAINS SPDXRef-grub-gfxpayload-lists-file-3
+
+
+FileName: /usr/share/grub-gfxpayload-lists/blacklist/20_radeon_hd6800
+SPDXID: SPDXRef-grub-gfxpayload-lists-file-4
+FileChecksum: SHA1: 1a9d7fd2ec6ca3b1bae92e51e1178df8bbd5beb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-gfxpayload-lists CONTAINS SPDXRef-grub-gfxpayload-lists-file-4
+
+
+FileName: /usr/share/grub-gfxpayload-lists/blacklist/11_virtualbox
+SPDXID: SPDXRef-grub-gfxpayload-lists-file-5
+FileChecksum: SHA1: 25de949bf0e0a86757be478ecc59c9af0c64f1fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-gfxpayload-lists CONTAINS SPDXRef-grub-gfxpayload-lists-file-5
+
+
+FileName: /usr/share/doc/grub-gfxpayload-lists/changelog.gz
+SPDXID: SPDXRef-grub-gfxpayload-lists-file-6
+FileChecksum: SHA1: 70a9bd214a51a8d2d9a6adda8f1451b2a95632b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-gfxpayload-lists CONTAINS SPDXRef-grub-gfxpayload-lists-file-6
+
+
+FileName: /usr/share/man/man8/update-grub-gfxpayload.8.gz
+SPDXID: SPDXRef-grub-gfxpayload-lists-file-7
+FileChecksum: SHA1: ac5b10d26219cb39a946f60151d021dbfb0ea46c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-gfxpayload-lists CONTAINS SPDXRef-grub-gfxpayload-lists-file-7
+
+
+## Extracted License
+

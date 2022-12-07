@@ -1,0 +1,171 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/chromium-browser_1:85.0.4183.83-0ubuntu2-e77a41d9-c602-537b-bc95-805a1cf43402
+DocumentName: chromium-browser_1:85.0.4183.83-0ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-chromium-browser
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:48:07Z
+
+
+## Package
+
+PackageName: chromium-browser
+PackageVersion: 1:85.0.4183.83-0ubuntu2
+SPDXID: SPDXRef-chromium-browser
+PackageHomePage: https://chromium.googlesource.com/chromium/src/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3501cd57be98496a22dcb0b1acea96f9eab05365
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageCopyrightText: <text>Copyright 2008-2011 Fabien Tassin <fta@ubuntu.com>
+Copyright 2009-2019 Ubuntu Chromium Team <https://launchpad.net/~chromium-team>
+</text>
+PackageComment: <text>Transitional package - chromium-browser -> chromium snap
+ This is a transitional dummy package. It can safely be removed.
+ .
+ chromium-browser is now replaced by the chromium snap.</text>
+Relationship: SPDXRef-chromium-browser DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+Relationship: SPDXRef-chromium-browser DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-snapd
+
+
+## File
+
+FileName: /usr/share/doc/chromium-browser/copyright
+SPDXID: SPDXRef-chromium-browser-file-0
+FileChecksum: SHA1: 4dabcc9a487b6dd7b270b7e2fd28741ac045648a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright 2008-2011 Fabien Tassin <fta@ubuntu.com>
+Copyright 2009-2019 Ubuntu Chromium Team <https://launchpad.net/~chromium-team>
+</text>
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-0
+
+
+FileName: /usr/bin/chromium-browser
+SPDXID: SPDXRef-chromium-browser-file-1
+FileChecksum: SHA1: f5ef93db0f331bdaeedac50ae54530ec318ad04d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-1
+
+
+FileName: /usr/share/applications/chromium-browser.desktop
+SPDXID: SPDXRef-chromium-browser-file-2
+FileChecksum: SHA1: 9843df1d91053af7184561cb4dcb732b9b1ee729
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-2
+
+
+FileName: /usr/share/apport/package-hooks/chromium-browser.py
+SPDXID: SPDXRef-chromium-browser-file-3
+FileChecksum: SHA1: 38bbb07a320ccc861c67016000fb9e37afaad719
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-3
+
+
+FileName: /usr/share/doc/chromium-browser/changelog.Debian.gz
+SPDXID: SPDXRef-chromium-browser-file-4
+FileChecksum: SHA1: c9103dcb6d5001c79b4c3920c9b14aec029bc461
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-4
+
+
+FileName: /usr/share/icons/hicolor/128x128/apps/chromium-browser.png
+SPDXID: SPDXRef-chromium-browser-file-5
+FileChecksum: SHA1: 9f627ab21bb398c36f9231da15a53774deb05818
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-5
+
+
+FileName: /usr/share/icons/hicolor/22x22/apps/chromium-browser.png
+SPDXID: SPDXRef-chromium-browser-file-6
+FileChecksum: SHA1: 2053edde209f539df146f35d71ff7f0f4dc18af8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-6
+
+
+FileName: /usr/share/icons/hicolor/24x24/apps/chromium-browser.png
+SPDXID: SPDXRef-chromium-browser-file-7
+FileChecksum: SHA1: 4b66bbab5e153d8a3b37990956cf89b1a560c7a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-7
+
+
+FileName: /usr/share/icons/hicolor/256x256/apps/chromium-browser.png
+SPDXID: SPDXRef-chromium-browser-file-8
+FileChecksum: SHA1: db76172acf315ff60c77791b95efc6926012b84f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-8
+
+
+FileName: /usr/share/icons/hicolor/48x48/apps/chromium-browser.png
+SPDXID: SPDXRef-chromium-browser-file-9
+FileChecksum: SHA1: 59ef315f0137539fb27250e4ead1ec2df5bdded1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-9
+
+
+FileName: /usr/share/icons/hicolor/64x64/apps/chromium-browser.png
+SPDXID: SPDXRef-chromium-browser-file-10
+FileChecksum: SHA1: a3e3c729cb986fe9aecf6a892d947d728c6e616e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-10
+
+
+FileName: /usr/share/lintian/overrides/chromium-browser
+SPDXID: SPDXRef-chromium-browser-file-11
+FileChecksum: SHA1: 1eb2c0b1487f12629ae62c0f7ed297d146cba8c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-11
+
+
+FileName: /usr/share/pixmaps/chromium-browser.png
+SPDXID: SPDXRef-chromium-browser-file-12
+FileChecksum: SHA1: 59ef315f0137539fb27250e4ead1ec2df5bdded1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-chromium-browser CONTAINS SPDXRef-chromium-browser-file-12
+
+
+## Extracted License
+

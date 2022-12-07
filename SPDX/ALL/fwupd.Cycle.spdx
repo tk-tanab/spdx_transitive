@@ -1,0 +1,2001 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fwupd_1.7.9-1~22.04.1-fcd477b0-2ffd-583f-81c7-899679b58f0b
+DocumentName: fwupd_1.7.9-1~22.04.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libfwupdplugin5 http://spdx.org/spdxdocs/libfwupdplugin5_1.7.9-1~22.04.1-b80e3341-90f4-56da-8add-b86986d746af SHA1: 74e33689b1f64a7d1f5bdd0fbeeb5a0d286c39d1
+ExternalDocumentRef: DocumentRef-secureboot-db http://spdx.org/spdxdocs/secureboot-db_1.8-95189050-da56-507a-a578-43979a79199d SHA1: c9efecfd844951527b8954aa44807a97480886d8
+ExternalDocumentRef: DocumentRef-libfwupd2 http://spdx.org/spdxdocs/libfwupd2_1.7.9-1~22.04.1-cd352b43-5934-5613-989f-0d496e02d04d SHA1: 3521012b8e9af47e6c0dd23fbb5a17f7df574ae7
+ExternalDocumentRef: DocumentRef-libefiboot1 http://spdx.org/spdxdocs/libefiboot1_37-6ubuntu2-cd11225d-6ab0-5a8b-ba85-b31df0d3c228 SHA1: 68e1695c2ede5dd5fb8d8b0727759be1b2722470
+ExternalDocumentRef: DocumentRef-libsmbios-c2 http://spdx.org/spdxdocs/libsmbios-c2_2.4.3-1build1-1cd673e5-fcd3-5ecd-a76d-0a139caf0e65 SHA1: 3f938112657cfdc222ba9d717bd96a28a633b4ee
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-libjcat1 http://spdx.org/spdxdocs/libjcat1_0.1.9-1-c59d37dd-6837-5b8c-a650-aa0b4fe8eff1 SHA1: b50cd7b7d54d90184a4f19501820ca3bff85bb1d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fwupd
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:04:50Z
+
+
+## Package
+
+PackageName: fwupd
+PackageVersion: 1.7.9-1~22.04.1
+SPDXID: SPDXRef-fwupd
+PackageHomePage: https://github.com/fwupd/fwupd
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 016d5928a829f3c47d00cbce3c462b18586ff63f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: LGPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 2015 Daniel Jared Dominguez <Jared_Dominguez@Dell.com> 2015 Mario Limonciello <mario.limonciello@dell.com>
+Copyright 2018 Dell Inc.
+Copyright Norbert Kaminski <norbert.kaminski@3mdeb.com> Norbert Kaminski <norbert.kaminski@3mdeb.com>
+Copyright Richard Hughes <richard@hughsie.com>
+</text>
+PackageComment: <text>Firmware update daemon
+ fwupd is a daemon to allow session software to update device firmware.
+ You can either use a GUI software manager like GNOME Software to view and
+ apply updates, the command-line tool or the system D-Bus interface directly.
+ Firmware updates are supported for a variety of technologies.
+ See <https://github.com/fwupd/fwupd> for details</text>
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-libfwupd2:SPDXRef-libfwupd2
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-libfwupdplugin5:SPDXRef-libfwupdplugin5
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcurl3-gnutls
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-libefiboot1:SPDXRef-libefiboot1
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgnutls30
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgudev-1.0-0
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgusb2
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-libjcat1:SPDXRef-libjcat1
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjson-glib-1.0-0
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libmbim-glib4
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libmbim-proxy
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libmm-glib0
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpolkit-gobject-1-0
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libqmi-glib5
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libqmi-proxy
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-libsmbios-c2:SPDXRef-libsmbios-c2
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsqlite3-0
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtss2-esys-3.0.2-0
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxmlb2
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-shared-mime-info
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bolt
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dbus
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-secureboot-db:SPDXRef-secureboot-db
+Relationship: SPDXRef-fwupd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-udisks2
+Relationship: SPDXRef-fwupd DEPENDS_ON SPDXRef-fwupd-signed
+
+
+PackageName: fwupd-signed
+PackageVersion: 1.44+1.2-3
+SPDXID: SPDXRef-fwupd-signed
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1d94ac854ec94e7f7c7ea9f5f432f38ec3c5f46a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-only
+PackageCopyrightText: <text>Copyright 2015 Canonical Ltd.
+Copyright Peter Jones <pjones@redhat.com> Richard Hughes <richard@hughsie.com> Mario Limonciello <mario.limonciello@dell.com>
+</text>
+PackageComment: <text>Linux Firmware Updater EFI signed binary
+ fwupd provides functionality to update system firmware. It has been
+ initially designed to update firmware using UEFI capsule updates, but
+ it is designed to be extensible to other firmware update standards.
+ .
+ This package contains a version of the fwupd binary signed with
+ Canonical's UEFI signing key.</text>
+Relationship: SPDXRef-fwupd-signed DEPENDS_ON DocumentRef-secureboot-db:SPDXRef-secureboot-db
+Relationship: SPDXRef-fwupd-signed DEPENDS_ON SPDXRef-fwupd
+
+
+## File
+
+FileName: /usr/share/doc/fwupd/copyright
+SPDXID: SPDXRef-fwupd-file-0
+FileChecksum: SHA1: 91ab892baf9bd7b3fe50228f6768155afbc1bab1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-3.0-or-later
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright Norbert Kaminski <norbert.kaminski@3mdeb.com> Norbert Kaminski <norbert.kaminski@3mdeb.com>
+Copyright Richard Hughes <richard@hughsie.com>
+Copyright 2018 Dell Inc.
+Copyright 2015 Daniel Jared Dominguez <Jared_Dominguez@Dell.com> 2015 Mario Limonciello <mario.limonciello@dell.com>
+</text>
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-0
+
+
+FileName: /etc/fwupd/daemon.conf
+SPDXID: SPDXRef-fwupd-file-1
+FileChecksum: SHA1: a8595e4ba390099fa14ae86e3a814d2ecd88c94e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-1
+
+
+FileName: /etc/fwupd/msr.conf
+SPDXID: SPDXRef-fwupd-file-2
+FileChecksum: SHA1: af7b58258609fe650ab6275fdf72770f59a41c21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-2
+
+
+FileName: /etc/fwupd/redfish.conf
+SPDXID: SPDXRef-fwupd-file-3
+FileChecksum: SHA1: 8f2f9e02818097bc37c4cc74395cfe794085f75f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-3
+
+
+FileName: /etc/fwupd/remotes.d/dell-esrt.conf
+SPDXID: SPDXRef-fwupd-file-4
+FileChecksum: SHA1: cfd02f9adee43bfe1aa9dfa0912d049b8e49b283
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-4
+
+
+FileName: /etc/fwupd/remotes.d/lvfs-testing.conf
+SPDXID: SPDXRef-fwupd-file-5
+FileChecksum: SHA1: 6d78cf07e651e21b839e7839656afd149447112e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-5
+
+
+FileName: /etc/fwupd/remotes.d/lvfs.conf
+SPDXID: SPDXRef-fwupd-file-6
+FileChecksum: SHA1: 7140e5a0170536d43beaf57cbb49513f681d5b7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-6
+
+
+FileName: /etc/fwupd/remotes.d/vendor-directory.conf
+SPDXID: SPDXRef-fwupd-file-7
+FileChecksum: SHA1: 160d61c6a9514e6868a2ed8bc7580207a1bb7c98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-7
+
+
+FileName: /etc/fwupd/remotes.d/vendor.conf
+SPDXID: SPDXRef-fwupd-file-8
+FileChecksum: SHA1: e9cf477bcdf913805dd98daef7aa5c90b081ab26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-8
+
+
+FileName: /etc/fwupd/thunderbolt.conf
+SPDXID: SPDXRef-fwupd-file-9
+FileChecksum: SHA1: de23e1c021ea3713da5b6e3fed07dd884dce92d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-9
+
+
+FileName: /etc/fwupd/uefi_capsule.conf
+SPDXID: SPDXRef-fwupd-file-10
+FileChecksum: SHA1: 8f2dc626c9f1e4e27cf2065b67d67dbc5feb6f64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-10
+
+
+FileName: /etc/grub.d/35_fwupd
+SPDXID: SPDXRef-fwupd-file-11
+FileChecksum: SHA1: fadb12a410e360ae13b9954e104415a45b436605
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-11
+
+
+FileName: /etc/pki/fwupd/GPG-KEY-Linux-Foundation-Firmware
+SPDXID: SPDXRef-fwupd-file-12
+FileChecksum: SHA1: 35310e9fe46db36a6d7b54f90a94cef0035c8002
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-12
+
+
+FileName: /etc/pki/fwupd/GPG-KEY-Linux-Vendor-Firmware-Service
+SPDXID: SPDXRef-fwupd-file-13
+FileChecksum: SHA1: 4ea455666ed56f9bf5aba072f85186bd3dd6637e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-13
+
+
+FileName: /etc/pki/fwupd/LVFS-CA.pem
+SPDXID: SPDXRef-fwupd-file-14
+FileChecksum: SHA1: 67746dbbbd41b21b6b2bcd34531ca43ccc344fdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-14
+
+
+FileName: /etc/pki/fwupd-metadata/GPG-KEY-Linux-Foundation-Metadata
+SPDXID: SPDXRef-fwupd-file-15
+FileChecksum: SHA1: 4d38e535b3e98fc307ab1d40bd7608507d5b1780
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-15
+
+
+FileName: /etc/pki/fwupd-metadata/GPG-KEY-Linux-Vendor-Firmware-Service
+SPDXID: SPDXRef-fwupd-file-16
+FileChecksum: SHA1: 4ea455666ed56f9bf5aba072f85186bd3dd6637e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-16
+
+
+FileName: /etc/pki/fwupd-metadata/LVFS-CA.pem
+SPDXID: SPDXRef-fwupd-file-17
+FileChecksum: SHA1: 67746dbbbd41b21b6b2bcd34531ca43ccc344fdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-17
+
+
+FileName: /etc/update-motd.d/85-fwupd
+SPDXID: SPDXRef-fwupd-file-18
+FileChecksum: SHA1: 3a3c7fca1556ce60cc1cb6bb9b2adaaf9349a055
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-18
+
+
+FileName: /lib/systemd/system/fwupd-offline-update.service
+SPDXID: SPDXRef-fwupd-file-19
+FileChecksum: SHA1: 30aad24aeef902d152d7097ab2fabef263615851
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-19
+
+
+FileName: /lib/systemd/system/fwupd-refresh.service
+SPDXID: SPDXRef-fwupd-file-20
+FileChecksum: SHA1: f399456bf2616635c82ac0781355a2667ceefb1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-20
+
+
+FileName: /lib/systemd/system/fwupd-refresh.timer
+SPDXID: SPDXRef-fwupd-file-21
+FileChecksum: SHA1: b69dd475672f25712e362bec3eb92275b6f6df28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-21
+
+
+FileName: /lib/systemd/system/fwupd.service
+SPDXID: SPDXRef-fwupd-file-22
+FileChecksum: SHA1: d2361e35d67653cbd05d4c182af69360a10a470e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-22
+
+
+FileName: /lib/systemd/system-shutdown/fwupd.shutdown
+SPDXID: SPDXRef-fwupd-file-23
+FileChecksum: SHA1: 0f5b2a030c631d58e6e53ca26d344d6630622c0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-23
+
+
+FileName: /lib/udev/rules.d/90-fwupd-devices.rules
+SPDXID: SPDXRef-fwupd-file-24
+FileChecksum: SHA1: 173c2889bb3566524b6c05eafeaab3714cbab144
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-24
+
+
+FileName: /usr/bin/dbxtool
+SPDXID: SPDXRef-fwupd-file-25
+FileChecksum: SHA1: 40f1859e545e79124bc73e75796b00a1343dd5fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-25
+
+
+FileName: /usr/bin/dfu-tool
+SPDXID: SPDXRef-fwupd-file-26
+FileChecksum: SHA1: 3ea7d7ccf1a4a3bf350331e1102d82d07b8a9791
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-26
+
+
+FileName: /usr/bin/fwupdate
+SPDXID: SPDXRef-fwupd-file-27
+FileChecksum: SHA1: d7ba92b49fcf3522984b016ece06609955e1f2d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-27
+
+
+FileName: /usr/bin/fwupdmgr
+SPDXID: SPDXRef-fwupd-file-28
+FileChecksum: SHA1: afdde66e895566900df23b2a3d4ad19dbf321a0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-28
+
+
+FileName: /usr/bin/fwupdtool
+SPDXID: SPDXRef-fwupd-file-29
+FileChecksum: SHA1: cdd1b74cf8a7a869dc082c2a87d88b528303666e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-29
+
+
+FileName: /usr/lib/modules-load.d/fwupd-msr.conf
+SPDXID: SPDXRef-fwupd-file-30
+FileChecksum: SHA1: 8c587e961e5d012a25f72db6e8997b247fd5c5b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-30
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_acpi_dmar.so
+SPDXID: SPDXRef-fwupd-file-31
+FileChecksum: SHA1: 612e48bb05d83c95ea06cee4678818da1036a1ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-31
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_acpi_facp.so
+SPDXID: SPDXRef-fwupd-file-32
+FileChecksum: SHA1: a492aba5688ea0d9acf27e668399c9ba5dc04ed6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-32
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_acpi_phat.so
+SPDXID: SPDXRef-fwupd-file-33
+FileChecksum: SHA1: 334f7f35c74fe7c3100a8135cfe685323b9d0fd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-33
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_amt.so
+SPDXID: SPDXRef-fwupd-file-34
+FileChecksum: SHA1: 1bdd7ae92f15f0b77f4da50ffad0f751d74db672
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-34
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_analogix.so
+SPDXID: SPDXRef-fwupd-file-35
+FileChecksum: SHA1: 4eff070e8a5a9af1c7015c7aaeca4d8b71de9015
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-35
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_ata.so
+SPDXID: SPDXRef-fwupd-file-36
+FileChecksum: SHA1: 5ea252a54f29c38b227337d537b486f4f1dfda3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-36
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_bcm57xx.so
+SPDXID: SPDXRef-fwupd-file-37
+FileChecksum: SHA1: 725c4db19506033000ee0f5acb78bea631a33f83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-37
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_bios.so
+SPDXID: SPDXRef-fwupd-file-38
+FileChecksum: SHA1: 6331f0677f7d9367497dcf815d8ef48584c683ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-38
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_ccgx.so
+SPDXID: SPDXRef-fwupd-file-39
+FileChecksum: SHA1: 58260c4bf97a6fb14b1a1a7fc6634f3baefdf1cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-39
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_colorhug.so
+SPDXID: SPDXRef-fwupd-file-40
+FileChecksum: SHA1: 0c69fd55687f5a8a0ffd568aada92dfba327386f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-40
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_cpu.so
+SPDXID: SPDXRef-fwupd-file-41
+FileChecksum: SHA1: 9a05e315530bae92c42bf9aad3b1a0758e70cb45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-41
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_cros_ec.so
+SPDXID: SPDXRef-fwupd-file-42
+FileChecksum: SHA1: dac925fcfec6d70b86f509bb48c3028efe158117
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-42
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_dell.so
+SPDXID: SPDXRef-fwupd-file-43
+FileChecksum: SHA1: 5a607fdc0a1ff44cdc00712886075a63da5adb75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-43
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_dell_dock.so
+SPDXID: SPDXRef-fwupd-file-44
+FileChecksum: SHA1: 9507467ba1975af330501347507364cd85f95aab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-44
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_dell_esrt.so
+SPDXID: SPDXRef-fwupd-file-45
+FileChecksum: SHA1: 69a567570341c5b72ccefa624fcae793a29be93e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-45
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_dfu.so
+SPDXID: SPDXRef-fwupd-file-46
+FileChecksum: SHA1: 617e19706d13c647d88d214671fdd5cda5f28108
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-46
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_dfu_csr.so
+SPDXID: SPDXRef-fwupd-file-47
+FileChecksum: SHA1: 7a4986c580b0e9a42f3e4cbc1094f0cd33b2a044
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-47
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_ebitdo.so
+SPDXID: SPDXRef-fwupd-file-48
+FileChecksum: SHA1: f329f686306fc793a3cdb0cc3c1ace23988f9d79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-48
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_elanfp.so
+SPDXID: SPDXRef-fwupd-file-49
+FileChecksum: SHA1: a292f8b1763412be3ce0c2e5115fdb2d2873cfd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-49
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_elantp.so
+SPDXID: SPDXRef-fwupd-file-50
+FileChecksum: SHA1: 2a7c28e25fcf9d995c96af76cc0028842ee6ea70
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-50
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_emmc.so
+SPDXID: SPDXRef-fwupd-file-51
+FileChecksum: SHA1: 0a34b33a03e65013fa5393ab2f5df9d0a1438ade
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-51
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_ep963x.so
+SPDXID: SPDXRef-fwupd-file-52
+FileChecksum: SHA1: 46cf5d07e5230602d5686aa50056e0f595a3565d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-52
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_fastboot.so
+SPDXID: SPDXRef-fwupd-file-53
+FileChecksum: SHA1: 08069aa41cb8af3808b537536676d1a170af1564
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-53
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_fresco_pd.so
+SPDXID: SPDXRef-fwupd-file-54
+FileChecksum: SHA1: a7b198189c07b0664e7bf00faea25be4b7adac76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-54
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_genesys.so
+SPDXID: SPDXRef-fwupd-file-55
+FileChecksum: SHA1: 26cb209e4a9dbc7a039e059dbbd1886b1dff2807
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-55
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_goodixmoc.so
+SPDXID: SPDXRef-fwupd-file-56
+FileChecksum: SHA1: 0db843caf5947a870dd475386182acabd342e7b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-56
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_hailuck.so
+SPDXID: SPDXRef-fwupd-file-57
+FileChecksum: SHA1: 7bcc048333239910cae7a1b66f1b3722a53248c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-57
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_iommu.so
+SPDXID: SPDXRef-fwupd-file-58
+FileChecksum: SHA1: 07be608e08d7e7ef70f70abf46e862efcad0435b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-58
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_jabra.so
+SPDXID: SPDXRef-fwupd-file-59
+FileChecksum: SHA1: 006407eba6bdcbfe7556dff3c7bf69f3e67f28ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-59
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_lenovo_thinklmi.so
+SPDXID: SPDXRef-fwupd-file-60
+FileChecksum: SHA1: a0ee0e94a0283287c0becd3b726a6ec8bd25c034
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-60
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_linux_lockdown.so
+SPDXID: SPDXRef-fwupd-file-61
+FileChecksum: SHA1: f810cdd457c834b714d9b1daf0bd90f53d29c3e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-61
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_linux_sleep.so
+SPDXID: SPDXRef-fwupd-file-62
+FileChecksum: SHA1: c99a635091a5b9b2b928e84ed574e3a62f4642c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-62
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_linux_swap.so
+SPDXID: SPDXRef-fwupd-file-63
+FileChecksum: SHA1: ac4c672795f1877fc447cfdbcc7a0b11256a0d81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-63
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_linux_tainted.so
+SPDXID: SPDXRef-fwupd-file-64
+FileChecksum: SHA1: 726061e86bf00abb668ed5391e77eb8b81ba695d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-64
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_logind.so
+SPDXID: SPDXRef-fwupd-file-65
+FileChecksum: SHA1: bc7f605f9010c7b4338d7918724f84c735e8edb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-65
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_logitech_hidpp.so
+SPDXID: SPDXRef-fwupd-file-66
+FileChecksum: SHA1: 5190fc6b85c6804d0d1f9649a7a7ea483268c6e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-66
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_modem_manager.so
+SPDXID: SPDXRef-fwupd-file-67
+FileChecksum: SHA1: fdf3e0fd712d6736deca47d102d9bc7d9600bfde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-67
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_msr.so
+SPDXID: SPDXRef-fwupd-file-68
+FileChecksum: SHA1: fc0d8b18c043dcfe4376f1633bc0f0c7412c981b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-68
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_mtd.so
+SPDXID: SPDXRef-fwupd-file-69
+FileChecksum: SHA1: 8ad7a2e173db2e9ee7acef94f53a6831a564a4e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-69
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_nitrokey.so
+SPDXID: SPDXRef-fwupd-file-70
+FileChecksum: SHA1: c0b7d9ba2277ae109f4b5ffc4bacf3241d253ff1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-70
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_nordic_hid.so
+SPDXID: SPDXRef-fwupd-file-71
+FileChecksum: SHA1: e37773695aa09d92c21aa9992850b474c69a91a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-71
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_nvme.so
+SPDXID: SPDXRef-fwupd-file-72
+FileChecksum: SHA1: 5ccc3b60642d420bb076093b0bacb0c3e9638704
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-72
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_optionrom.so
+SPDXID: SPDXRef-fwupd-file-73
+FileChecksum: SHA1: 68cb6bc5969079c4d4590205305b152ae82b36ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-73
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_parade_lspcon.so
+SPDXID: SPDXRef-fwupd-file-74
+FileChecksum: SHA1: 61ed35c196d03b71438b6311a09e36a2ccd72f13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-74
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_pci_bcr.so
+SPDXID: SPDXRef-fwupd-file-75
+FileChecksum: SHA1: ab74178dd2f2170004debaec860247969271ba1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-75
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_pci_mei.so
+SPDXID: SPDXRef-fwupd-file-76
+FileChecksum: SHA1: d288ce687f3b376486ca7418f7d223b56d3df185
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-76
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_pixart_rf.so
+SPDXID: SPDXRef-fwupd-file-77
+FileChecksum: SHA1: ff499e1ad310d103c53935e7b698c7275bd79520
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-77
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_realtek_mst.so
+SPDXID: SPDXRef-fwupd-file-78
+FileChecksum: SHA1: 58303ba3682cfa2037ae96cbc9ac8ab93f8ebe4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-78
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_redfish.so
+SPDXID: SPDXRef-fwupd-file-79
+FileChecksum: SHA1: 3407ec35ad1407cfa759894fae462615adae94ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-79
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_rts54hid.so
+SPDXID: SPDXRef-fwupd-file-80
+FileChecksum: SHA1: ee2ed2949b5193969ce4df87ee01f14c4dd759a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-80
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_rts54hub.so
+SPDXID: SPDXRef-fwupd-file-81
+FileChecksum: SHA1: f3707526a186311d4040b2e5400f95790d577429
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-81
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_scsi.so
+SPDXID: SPDXRef-fwupd-file-82
+FileChecksum: SHA1: 8a7567c98d530f40ee080cddb27be186280c1499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-82
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_steelseries.so
+SPDXID: SPDXRef-fwupd-file-83
+FileChecksum: SHA1: 17cd5a4bd2d9485d5f01d5365c829e4d49b661ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-83
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_superio.so
+SPDXID: SPDXRef-fwupd-file-84
+FileChecksum: SHA1: d2726d44c164e1dd4ff71958484b8eeb82cc717c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-84
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_synaptics_cape.so
+SPDXID: SPDXRef-fwupd-file-85
+FileChecksum: SHA1: 35f9e0cda098d31a991324d9108b74bfd447bdf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-85
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_synaptics_cxaudio.so
+SPDXID: SPDXRef-fwupd-file-86
+FileChecksum: SHA1: 03396c79b78c9bb6f71c086619904ac1cc1d777b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-86
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_synaptics_mst.so
+SPDXID: SPDXRef-fwupd-file-87
+FileChecksum: SHA1: 2b93eaf4e0b8adb54bc091cca38715415dbee1de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-87
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_synaptics_prometheus.so
+SPDXID: SPDXRef-fwupd-file-88
+FileChecksum: SHA1: fe66704aa7c759f7edcf32bc82512038e080ddf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-88
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_synaptics_rmi.so
+SPDXID: SPDXRef-fwupd-file-89
+FileChecksum: SHA1: dc95ea93353bfa546acb726efb4b70335ea2a06a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-89
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_system76_launch.so
+SPDXID: SPDXRef-fwupd-file-90
+FileChecksum: SHA1: 3d54fc9a1010863e6db81a46557ff6696477f836
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-90
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_thelio_io.so
+SPDXID: SPDXRef-fwupd-file-91
+FileChecksum: SHA1: 6fa2f03e44f8239bcbb6db6f35978c15a7a15536
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-91
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_thunderbolt.so
+SPDXID: SPDXRef-fwupd-file-92
+FileChecksum: SHA1: fbb93c1c4db2d3834ea732aa3bf3964a2c8b887a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-92
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_tpm.so
+SPDXID: SPDXRef-fwupd-file-93
+FileChecksum: SHA1: 0369fabc65fdd3ad3ee7baa637b1510f388bad53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-93
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_uefi_capsule.so
+SPDXID: SPDXRef-fwupd-file-94
+FileChecksum: SHA1: 44bd16f5183b89a6b7401f90001f2b579d584788
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-94
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_uefi_dbx.so
+SPDXID: SPDXRef-fwupd-file-95
+FileChecksum: SHA1: a8137fbe0bb8dd0f46d2b34d9c86f0c26dd3976c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-95
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_uefi_pk.so
+SPDXID: SPDXRef-fwupd-file-96
+FileChecksum: SHA1: 0e5652e2336452bf722e5c9a53b2c3dc5939a4bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-96
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_uefi_recovery.so
+SPDXID: SPDXRef-fwupd-file-97
+FileChecksum: SHA1: 296a8d433527052a432ceb97b602556618b16835
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-97
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_uf2.so
+SPDXID: SPDXRef-fwupd-file-98
+FileChecksum: SHA1: 6b901287037c24bfd68e3c7f46936d8c6a0da27e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-98
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_upower.so
+SPDXID: SPDXRef-fwupd-file-99
+FileChecksum: SHA1: 498fae1e53de9db3761ac22563504d31bf52d5f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-99
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_usi_dock.so
+SPDXID: SPDXRef-fwupd-file-100
+FileChecksum: SHA1: 400a44b5a23b14881db5ad4a541eb37a058049bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-100
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_vli.so
+SPDXID: SPDXRef-fwupd-file-101
+FileChecksum: SHA1: e4845cf036876f068d460b3f4872f11156a34f86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-101
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_wacom_raw.so
+SPDXID: SPDXRef-fwupd-file-102
+FileChecksum: SHA1: 4bd24043baad5ca90169d27a2f9695d4003db0dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-102
+
+
+FileName: /usr/lib/x86_64-linux-gnu/fwupd-plugins-5/libfu_plugin_wacom_usb.so
+SPDXID: SPDXRef-fwupd-file-103
+FileChecksum: SHA1: 122a86bd02ab803ac7cb7139499ac89da1ba8dbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-103
+
+
+FileName: /usr/libexec/fwupd/fwupd
+SPDXID: SPDXRef-fwupd-file-104
+FileChecksum: SHA1: ebf290cb26f4065bb7a2171162a9902e606ff59e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-104
+
+
+FileName: /usr/libexec/fwupd/fwupd-detect-cet
+SPDXID: SPDXRef-fwupd-file-105
+FileChecksum: SHA1: 036ed1e98a1411798ed95d15217008f5e2cf473d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-105
+
+
+FileName: /usr/libexec/fwupd/fwupdoffline
+SPDXID: SPDXRef-fwupd-file-106
+FileChecksum: SHA1: 39bb5862d23b646d305d0e20fe611d5b480a8284
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-106
+
+
+FileName: /usr/share/bash-completion/completions/fwupdagent
+SPDXID: SPDXRef-fwupd-file-107
+FileChecksum: SHA1: 2daa58a952514960e306dde44cebfaaedc146981
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-107
+
+
+FileName: /usr/share/bash-completion/completions/fwupdmgr
+SPDXID: SPDXRef-fwupd-file-108
+FileChecksum: SHA1: 09772b08d31634b68c1d7831e8d7febe08d9a2d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-108
+
+
+FileName: /usr/share/bash-completion/completions/fwupdtool
+SPDXID: SPDXRef-fwupd-file-109
+FileChecksum: SHA1: 3460cb9d0966aa4a28b5843a2c5187366990a481
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-109
+
+
+FileName: /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
+SPDXID: SPDXRef-fwupd-file-110
+FileChecksum: SHA1: 18decc974b09ac451e6053feb3fbc04649e89b8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-110
+
+
+FileName: /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
+SPDXID: SPDXRef-fwupd-file-111
+FileChecksum: SHA1: 2be8b964153002b41318c10c59ad4250c0b1c75a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-111
+
+
+FileName: /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
+SPDXID: SPDXRef-fwupd-file-112
+FileChecksum: SHA1: 06352dbcbd248bd8d98804e10bb6a20102fbd3d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-112
+
+
+FileName: /usr/share/fish/vendor_completions.d/fwupdmgr.fish
+SPDXID: SPDXRef-fwupd-file-113
+FileChecksum: SHA1: 4212d057d7dd70953b237aa726cf2caf80006c92
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-113
+
+
+FileName: /usr/share/fwupd/add_capsule_header.py
+SPDXID: SPDXRef-fwupd-file-114
+FileChecksum: SHA1: fe0b2099fdb6806b58ffe5268bf0c730f556c8a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-114
+
+
+FileName: /usr/share/fwupd/firmware_packager.py
+SPDXID: SPDXRef-fwupd-file-115
+FileChecksum: SHA1: 3719f73399bea4b1e6cf1fc3064849a4635a3117
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-115
+
+
+FileName: /usr/share/fwupd/install_dell_bios_exe.py
+SPDXID: SPDXRef-fwupd-file-116
+FileChecksum: SHA1: a63c39e3136daddb9389f45944d3393ef0491b6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-116
+
+
+FileName: /usr/share/fwupd/metainfo/org.freedesktop.fwupd.remotes.lvfs-testing.metainfo.xml
+SPDXID: SPDXRef-fwupd-file-117
+FileChecksum: SHA1: cb9f2b7da056ae43ae8d67d9de00789cba4d09b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-117
+
+
+FileName: /usr/share/fwupd/metainfo/org.freedesktop.fwupd.remotes.lvfs.metainfo.xml
+SPDXID: SPDXRef-fwupd-file-118
+FileChecksum: SHA1: b13b7bd6a3d6d6101709586e281a35e1b707ddf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-118
+
+
+FileName: /usr/share/fwupd/quirks.d/analogix.quirk
+SPDXID: SPDXRef-fwupd-file-119
+FileChecksum: SHA1: 1ecb37da4ac41386c2cb9df64a400d13ab951988
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-119
+
+
+FileName: /usr/share/fwupd/quirks.d/ata.quirk
+SPDXID: SPDXRef-fwupd-file-120
+FileChecksum: SHA1: b875edfed7e5ed31e606f9e4bc96cac53379789e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-120
+
+
+FileName: /usr/share/fwupd/quirks.d/bcm57xx.quirk
+SPDXID: SPDXRef-fwupd-file-121
+FileChecksum: SHA1: 76d877d1a25be7d0e9fa94746b5dc7bf5cd98899
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-121
+
+
+FileName: /usr/share/fwupd/quirks.d/ccgx-ids.quirk
+SPDXID: SPDXRef-fwupd-file-122
+FileChecksum: SHA1: 650c325cf9700b0616dad5042a6ebb6dba6b1891
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-122
+
+
+FileName: /usr/share/fwupd/quirks.d/ccgx.quirk
+SPDXID: SPDXRef-fwupd-file-123
+FileChecksum: SHA1: 5da2cec6fc64f38304588094b8448576aa807db6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-123
+
+
+FileName: /usr/share/fwupd/quirks.d/cfi.quirk
+SPDXID: SPDXRef-fwupd-file-124
+FileChecksum: SHA1: dc298ee82087ae82c00dc7e4224bcdbc20b9d339
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-124
+
+
+FileName: /usr/share/fwupd/quirks.d/colorhug.quirk
+SPDXID: SPDXRef-fwupd-file-125
+FileChecksum: SHA1: 72b43b25a66da4b3ebd1e64ed309306c5437caba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-125
+
+
+FileName: /usr/share/fwupd/quirks.d/cpu.quirk
+SPDXID: SPDXRef-fwupd-file-126
+FileChecksum: SHA1: 27bc6dc1803ad96e6ebff98a12b2f04d5c9b4fda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-126
+
+
+FileName: /usr/share/fwupd/quirks.d/cros-ec.quirk
+SPDXID: SPDXRef-fwupd-file-127
+FileChecksum: SHA1: 026b24eef963240ef414291b023259c0f3ced4dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-127
+
+
+FileName: /usr/share/fwupd/quirks.d/dell-dock.quirk
+SPDXID: SPDXRef-fwupd-file-128
+FileChecksum: SHA1: 66b4338e4adabaa7d4343db34104e77c914f5ef1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-128
+
+
+FileName: /usr/share/fwupd/quirks.d/dell.quirk
+SPDXID: SPDXRef-fwupd-file-129
+FileChecksum: SHA1: 73bdc8efa901f730362189f34461614c79361632
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-129
+
+
+FileName: /usr/share/fwupd/quirks.d/dfu-csr.quirk
+SPDXID: SPDXRef-fwupd-file-130
+FileChecksum: SHA1: f61ce25530f8568d9de256cf8395024f4467e869
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-130
+
+
+FileName: /usr/share/fwupd/quirks.d/dfu.quirk
+SPDXID: SPDXRef-fwupd-file-131
+FileChecksum: SHA1: 076d0ac7594f860df7f57c3a75f7d53c21e4e990
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-131
+
+
+FileName: /usr/share/fwupd/quirks.d/ebitdo.quirk
+SPDXID: SPDXRef-fwupd-file-132
+FileChecksum: SHA1: d72b47990227dd4b641f1e0c0f4478a8d37ed6a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-132
+
+
+FileName: /usr/share/fwupd/quirks.d/elanfp.quirk
+SPDXID: SPDXRef-fwupd-file-133
+FileChecksum: SHA1: 4d4a72e91f569adb86e3e744a8fd784c2ec2229f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-133
+
+
+FileName: /usr/share/fwupd/quirks.d/elantp.quirk
+SPDXID: SPDXRef-fwupd-file-134
+FileChecksum: SHA1: cc7db23d3d55b376145752cdfeabd1fb57fad660
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-134
+
+
+FileName: /usr/share/fwupd/quirks.d/emmc.quirk
+SPDXID: SPDXRef-fwupd-file-135
+FileChecksum: SHA1: 34f1bda74ed7879445237839d212329b67b65e54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-135
+
+
+FileName: /usr/share/fwupd/quirks.d/ep963x.quirk
+SPDXID: SPDXRef-fwupd-file-136
+FileChecksum: SHA1: 55692be963be287512bcfcd938bc9fbdcc0a0d7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-136
+
+
+FileName: /usr/share/fwupd/quirks.d/fastboot.quirk
+SPDXID: SPDXRef-fwupd-file-137
+FileChecksum: SHA1: d062bab2e67fbfe4425cc177614fe0bec505ba99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-137
+
+
+FileName: /usr/share/fwupd/quirks.d/fresco-pd.quirk
+SPDXID: SPDXRef-fwupd-file-138
+FileChecksum: SHA1: 5d1790fe41c2b1b9dcc47c63741989504ca88562
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-138
+
+
+FileName: /usr/share/fwupd/quirks.d/genesys.quirk
+SPDXID: SPDXRef-fwupd-file-139
+FileChecksum: SHA1: d8faa2b027ff6bdf9a230cf05a403612d350c965
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-139
+
+
+FileName: /usr/share/fwupd/quirks.d/goodixmoc.quirk
+SPDXID: SPDXRef-fwupd-file-140
+FileChecksum: SHA1: 69723c781b51242dbd245e05a16898bd374c3620
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-140
+
+
+FileName: /usr/share/fwupd/quirks.d/hailuck.quirk
+SPDXID: SPDXRef-fwupd-file-141
+FileChecksum: SHA1: ca7f5175ced80a828e76a51c20da89c594896d82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-141
+
+
+FileName: /usr/share/fwupd/quirks.d/iommu.quirk
+SPDXID: SPDXRef-fwupd-file-142
+FileChecksum: SHA1: 58e4d6e7b40c38ca7feab4b113197f6091075a77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-142
+
+
+FileName: /usr/share/fwupd/quirks.d/jabra.quirk
+SPDXID: SPDXRef-fwupd-file-143
+FileChecksum: SHA1: 2c54fabd7e5fd03ccf900a2a74cd01ff3888e1a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-143
+
+
+FileName: /usr/share/fwupd/quirks.d/logitech-hidpp.quirk
+SPDXID: SPDXRef-fwupd-file-144
+FileChecksum: SHA1: bdc9100720fea12d427c7d71fd18f060af69f499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-144
+
+
+FileName: /usr/share/fwupd/quirks.d/modem-manager.quirk
+SPDXID: SPDXRef-fwupd-file-145
+FileChecksum: SHA1: bdd92d19005b8135607bbfb865de7edabf977826
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-145
+
+
+FileName: /usr/share/fwupd/quirks.d/msr.quirk
+SPDXID: SPDXRef-fwupd-file-146
+FileChecksum: SHA1: 4d562ab0602390aaf4c5e01ac661a89248a52c30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-146
+
+
+FileName: /usr/share/fwupd/quirks.d/mtd.quirk
+SPDXID: SPDXRef-fwupd-file-147
+FileChecksum: SHA1: 2458e3c2d245055391387d19bd29c2ed86dff02e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-147
+
+
+FileName: /usr/share/fwupd/quirks.d/nitrokey.quirk
+SPDXID: SPDXRef-fwupd-file-148
+FileChecksum: SHA1: a67871981537fc1f5d7c72ce174178f45555cb60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-148
+
+
+FileName: /usr/share/fwupd/quirks.d/nordic-hid.quirk
+SPDXID: SPDXRef-fwupd-file-149
+FileChecksum: SHA1: f325eaca38f03d2994cbb5fd0eb4851d0ce5f28d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-149
+
+
+FileName: /usr/share/fwupd/quirks.d/nvme.quirk
+SPDXID: SPDXRef-fwupd-file-150
+FileChecksum: SHA1: e23a83326c81ba994b7d9b4ed86c40bfc95623ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-150
+
+
+FileName: /usr/share/fwupd/quirks.d/optionrom.quirk
+SPDXID: SPDXRef-fwupd-file-151
+FileChecksum: SHA1: bd1516016ddc36f466646ba5b5628742a35ea81c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-151
+
+
+FileName: /usr/share/fwupd/quirks.d/parade-lspcon.quirk
+SPDXID: SPDXRef-fwupd-file-152
+FileChecksum: SHA1: e53ed7f1f7221645cddc649c5a0710fc40bb7075
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-152
+
+
+FileName: /usr/share/fwupd/quirks.d/pci-bcr.quirk
+SPDXID: SPDXRef-fwupd-file-153
+FileChecksum: SHA1: 75d82d85ef7cc41a2350231cf29f58742e3736f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-153
+
+
+FileName: /usr/share/fwupd/quirks.d/pci-mei.quirk
+SPDXID: SPDXRef-fwupd-file-154
+FileChecksum: SHA1: 992380c1e658abf8cc1e494858a83f9082d47e30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-154
+
+
+FileName: /usr/share/fwupd/quirks.d/pixart-rf.quirk
+SPDXID: SPDXRef-fwupd-file-155
+FileChecksum: SHA1: fb8aaad436ef1f769b695f035f2ffa6c5f71831b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-155
+
+
+FileName: /usr/share/fwupd/quirks.d/power.quirk
+SPDXID: SPDXRef-fwupd-file-156
+FileChecksum: SHA1: b55d40e2ab9f7fbf947e6b3bb2b37159b134a855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-156
+
+
+FileName: /usr/share/fwupd/quirks.d/realtek-mst.quirk
+SPDXID: SPDXRef-fwupd-file-157
+FileChecksum: SHA1: 62cda0006241d5709a34e769712941e8e749cf94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-157
+
+
+FileName: /usr/share/fwupd/quirks.d/redfish.quirk
+SPDXID: SPDXRef-fwupd-file-158
+FileChecksum: SHA1: a2167943ae243a24d546fc7f2831c6cbfe4a8d97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-158
+
+
+FileName: /usr/share/fwupd/quirks.d/rts54hid.quirk
+SPDXID: SPDXRef-fwupd-file-159
+FileChecksum: SHA1: 1e13fb2bef5ff10fc1fc24bd966ea7879f7e9df4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-159
+
+
+FileName: /usr/share/fwupd/quirks.d/rts54hub.quirk
+SPDXID: SPDXRef-fwupd-file-160
+FileChecksum: SHA1: 9b8035fa58dbe2af8c5f861383f4e11b3b558ef6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-160
+
+
+FileName: /usr/share/fwupd/quirks.d/scsi.quirk
+SPDXID: SPDXRef-fwupd-file-161
+FileChecksum: SHA1: 2cfbccbe37d0e0ad18436004572f76b6c61bac15
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-161
+
+
+FileName: /usr/share/fwupd/quirks.d/steelseries.quirk
+SPDXID: SPDXRef-fwupd-file-162
+FileChecksum: SHA1: 98cf6cf03baf52df74083ca15e57501dc2eaf9c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-162
+
+
+FileName: /usr/share/fwupd/quirks.d/superio.quirk
+SPDXID: SPDXRef-fwupd-file-163
+FileChecksum: SHA1: cff29ea1bbb1671835f0d7443f9e72cca1be3936
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-163
+
+
+FileName: /usr/share/fwupd/quirks.d/synaptics-cape.quirk
+SPDXID: SPDXRef-fwupd-file-164
+FileChecksum: SHA1: 119b81b8d61c72a8da6e29c95f393cee02412c4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-164
+
+
+FileName: /usr/share/fwupd/quirks.d/synaptics-cxaudio.quirk
+SPDXID: SPDXRef-fwupd-file-165
+FileChecksum: SHA1: d73d91f238ef21c19afc10cf839115eae8236cb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-165
+
+
+FileName: /usr/share/fwupd/quirks.d/synaptics-mst.quirk
+SPDXID: SPDXRef-fwupd-file-166
+FileChecksum: SHA1: 42c2c181617b92bd170b58587e83416bbe46331b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-166
+
+
+FileName: /usr/share/fwupd/quirks.d/synaptics-prometheus.quirk
+SPDXID: SPDXRef-fwupd-file-167
+FileChecksum: SHA1: eec15d9534fb2efa27ffa5878aec9cf49268cd39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-167
+
+
+FileName: /usr/share/fwupd/quirks.d/synaptics-rmi.quirk
+SPDXID: SPDXRef-fwupd-file-168
+FileChecksum: SHA1: 0eb1cdcdbe276525be48c142bc2b83d1b5b76cd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-168
+
+
+FileName: /usr/share/fwupd/quirks.d/system76-launch.quirk
+SPDXID: SPDXRef-fwupd-file-169
+FileChecksum: SHA1: 660a5fa6310c7a38de5768d18631172eb8dc4c7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-169
+
+
+FileName: /usr/share/fwupd/quirks.d/thelio-io.quirk
+SPDXID: SPDXRef-fwupd-file-170
+FileChecksum: SHA1: 9456dc6301257d8ffb65a73126ab066086c9d170
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-170
+
+
+FileName: /usr/share/fwupd/quirks.d/thunderbolt.quirk
+SPDXID: SPDXRef-fwupd-file-171
+FileChecksum: SHA1: d0843c7ea57ca993ae4c0c125df9ea74cc896c17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-171
+
+
+FileName: /usr/share/fwupd/quirks.d/tpm.quirk
+SPDXID: SPDXRef-fwupd-file-172
+FileChecksum: SHA1: cb75df5c391c3d770e7cba37c8773e6a3af51785
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-172
+
+
+FileName: /usr/share/fwupd/quirks.d/uefi-capsule.quirk
+SPDXID: SPDXRef-fwupd-file-173
+FileChecksum: SHA1: f8cc7483b6e9c352a18f0d0c07b7b80e8949612a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-173
+
+
+FileName: /usr/share/fwupd/quirks.d/uefi-dbx.quirk
+SPDXID: SPDXRef-fwupd-file-174
+FileChecksum: SHA1: 913be0d3b1955d5f6983439fe864cfb6472af465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-174
+
+
+FileName: /usr/share/fwupd/quirks.d/uefi-recovery.quirk
+SPDXID: SPDXRef-fwupd-file-175
+FileChecksum: SHA1: 39da46eb7e73ad0de65250a31307401bc6fd1890
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-175
+
+
+FileName: /usr/share/fwupd/quirks.d/uf2.quirk
+SPDXID: SPDXRef-fwupd-file-176
+FileChecksum: SHA1: 9a04c87f181591a9b0c38d768f97400cbf0fb5ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-176
+
+
+FileName: /usr/share/fwupd/quirks.d/usi-dock.quirk
+SPDXID: SPDXRef-fwupd-file-177
+FileChecksum: SHA1: f317db939294c20f9f614993fdde2ff6322221e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-177
+
+
+FileName: /usr/share/fwupd/quirks.d/vli-bizlink.quirk
+SPDXID: SPDXRef-fwupd-file-178
+FileChecksum: SHA1: e1bfb3e3ed32294ba9481638ff75243d796d5dc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-178
+
+
+FileName: /usr/share/fwupd/quirks.d/vli-dell.quirk
+SPDXID: SPDXRef-fwupd-file-179
+FileChecksum: SHA1: 9c4964b9da1d99b205a037effbda4ba95465238c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-179
+
+
+FileName: /usr/share/fwupd/quirks.d/vli-goodway.quirk
+SPDXID: SPDXRef-fwupd-file-180
+FileChecksum: SHA1: 69552a8ddff56c4856dae821b4b44672f5380a4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-180
+
+
+FileName: /usr/share/fwupd/quirks.d/vli-hyper.quirk
+SPDXID: SPDXRef-fwupd-file-181
+FileChecksum: SHA1: e0e921471a89130912f5cf7b66bd7cccf8be2065
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-181
+
+
+FileName: /usr/share/fwupd/quirks.d/vli-lenovo.quirk
+SPDXID: SPDXRef-fwupd-file-182
+FileChecksum: SHA1: ed67222f2ddfcad193a41c330bb7bf73a6178a25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-182
+
+
+FileName: /usr/share/fwupd/quirks.d/vli-samsung.quirk
+SPDXID: SPDXRef-fwupd-file-183
+FileChecksum: SHA1: 105193130527eaea64275c5e1dd637cc21727a28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-183
+
+
+FileName: /usr/share/fwupd/quirks.d/wacom-raw.quirk
+SPDXID: SPDXRef-fwupd-file-184
+FileChecksum: SHA1: a16f3a189c0d50684cc94589150eced790b79cf1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-184
+
+
+FileName: /usr/share/fwupd/quirks.d/wacom-usb.quirk
+SPDXID: SPDXRef-fwupd-file-185
+FileChecksum: SHA1: bbc45d9e5a8e8644ce87d4db178c48126b4bd651
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-185
+
+
+FileName: /usr/share/fwupd/remotes.d/dell-esrt/metadata.xml
+SPDXID: SPDXRef-fwupd-file-186
+FileChecksum: SHA1: 1a16550c80adb5ae1ddc87e8e83ce2247fd14ab6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-186
+
+
+FileName: /usr/share/fwupd/remotes.d/vendor/firmware/README.md
+SPDXID: SPDXRef-fwupd-file-187
+FileChecksum: SHA1: a1d443f357202d195d6274853b40436d4d5f8829
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-187
+
+
+FileName: /usr/share/fwupd/simple_client.py
+SPDXID: SPDXRef-fwupd-file-188
+FileChecksum: SHA1: 193bd28df6fe2945a38f71c81495c8ad0c77ab52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-188
+
+
+FileName: /usr/share/fwupd/uefi-capsule-ux.tar.xz
+SPDXID: SPDXRef-fwupd-file-189
+FileChecksum: SHA1: 696ae7ce4b20abcfe8dab596650ac0c7bcfa78d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-189
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.freedesktop.fwupd.svg
+SPDXID: SPDXRef-fwupd-file-190
+FileChecksum: SHA1: 55fe377dadb998fb44cb0c957102784fdf0f21cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-190
+
+
+FileName: /usr/share/lintian/overrides/fwupd
+SPDXID: SPDXRef-fwupd-file-191
+FileChecksum: SHA1: 6c0bc41af7c280daf5f50c4d4095675aaa06bdd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-191
+
+
+FileName: /usr/share/man/man1/dbxtool.1.gz
+SPDXID: SPDXRef-fwupd-file-192
+FileChecksum: SHA1: e0af4973f929e85640083df254a0482bd9757af7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-192
+
+
+FileName: /usr/share/man/man1/dfu-tool.1.gz
+SPDXID: SPDXRef-fwupd-file-193
+FileChecksum: SHA1: 8374e38e324cd4d058eff2d5e4ba9e1e2b27373d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-193
+
+
+FileName: /usr/share/man/man1/fwupdagent.1.gz
+SPDXID: SPDXRef-fwupd-file-194
+FileChecksum: SHA1: 5dbdd5b3e678262199423a83d0eb87a5e1d8f7df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-194
+
+
+FileName: /usr/share/man/man1/fwupdate.1.gz
+SPDXID: SPDXRef-fwupd-file-195
+FileChecksum: SHA1: 97366451ae6cf66ec8c408883416554dbd2cc3cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-195
+
+
+FileName: /usr/share/man/man1/fwupdmgr.1.gz
+SPDXID: SPDXRef-fwupd-file-196
+FileChecksum: SHA1: 1243926437fbf710784cc6b5d4189ef604364572
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-196
+
+
+FileName: /usr/share/man/man1/fwupdtool.1.gz
+SPDXID: SPDXRef-fwupd-file-197
+FileChecksum: SHA1: b77a17addc55832b36ff49b6f39dfb8d36c69a9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-197
+
+
+FileName: /usr/share/metainfo/org.freedesktop.fwupd.metainfo.xml
+SPDXID: SPDXRef-fwupd-file-198
+FileChecksum: SHA1: a8b4fbb99c9c84d82f32f44b1864b97fb367f72d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-198
+
+
+FileName: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy
+SPDXID: SPDXRef-fwupd-file-199
+FileChecksum: SHA1: c60936427bce3373eeec35a727d671429d100f3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-199
+
+
+FileName: /usr/share/polkit-1/rules.d/org.freedesktop.fwupd.rules
+SPDXID: SPDXRef-fwupd-file-200
+FileChecksum: SHA1: 9e2fd9f48cbd44713ab1c1f3944e36529b7912bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-200
+
+
+FileName: /lib/systemd/system/system-update.target.wants/fwupd-offline-update.service
+SPDXID: SPDXRef-fwupd-file-201
+FileChecksum: SHA1: 30aad24aeef902d152d7097ab2fabef263615851
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-201
+
+
+FileName: /usr/bin/fwupdagent
+SPDXID: SPDXRef-fwupd-file-202
+FileChecksum: SHA1: afdde66e895566900df23b2a3d4ad19dbf321a0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-202
+
+
+FileName: /usr/share/doc/fwupd/changelog.Debian.gz
+SPDXID: SPDXRef-fwupd-file-203
+FileChecksum: SHA1: c9a11d0ad276954e7180d0a05f482b2382f74c2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd CONTAINS SPDXRef-fwupd-file-203
+
+
+FileName: /usr/share/doc/fwupd-signed/copyright
+SPDXID: SPDXRef-fwupd-signed-file-0
+FileChecksum: SHA1: d44220028ceb30d207833618c80b63faa0ecf332
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-only
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright Peter Jones <pjones@redhat.com> Richard Hughes <richard@hughsie.com> Mario Limonciello <mario.limonciello@dell.com>
+Copyright 2015 Canonical Ltd.
+</text>
+Relationship: SPDXRef-fwupd-signed CONTAINS SPDXRef-fwupd-signed-file-0
+
+
+FileName: /usr/libexec/fwupd/efi/fwupdx64.efi.signed
+SPDXID: SPDXRef-fwupd-signed-file-1
+FileChecksum: SHA1: abd579d8f5f47bb864fdb602798c8f3becc16e6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd-signed CONTAINS SPDXRef-fwupd-signed-file-1
+
+
+FileName: /usr/libexec/fwupd/efi/version
+SPDXID: SPDXRef-fwupd-signed-file-2
+FileChecksum: SHA1: 0e79371e443ffcf0cb61fab6d4988e1f4c8e0056
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd-signed CONTAINS SPDXRef-fwupd-signed-file-2
+
+
+FileName: /usr/share/doc/fwupd-signed/changelog.Debian.gz
+SPDXID: SPDXRef-fwupd-signed-file-3
+FileChecksum: SHA1: 86f22cf47e66c5499f39d0a09f16cedc4cd2fefe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fwupd-signed CONTAINS SPDXRef-fwupd-signed-file-3
+
+
+## Extracted License
+

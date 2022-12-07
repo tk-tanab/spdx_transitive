@@ -1,0 +1,279 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libapt-pkg-perl_0.1.40build2-42d1be0d-3427-5b38-8d36-63dbdbfcb6e4
+DocumentName: libapt-pkg-perl_0.1.40build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libapt-pkg-perl
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:42:00Z
+
+
+## Package
+
+PackageName: libapt-pkg-perl
+PackageVersion: 0.1.40build2
+SPDXID: SPDXRef-libapt-pkg-perl
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8f95f8a1a0c7cc3037288021a4ece989266871ef
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2016, 2017, 2018, 2019, 2021 Brendan O'Dea <bod@debian.org>
+</text>
+PackageComment: <text>Perl interface to libapt-pkg
+ A Perl interface to APT's libapt-pkg which provides modules for configuration
+ file/command line parsing, version comparison, inspection of the binary
+ package cache and source package details.</text>
+Relationship: SPDXRef-libapt-pkg-perl DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-perl
+Relationship: SPDXRef-libapt-pkg-perl DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-perl-base
+Relationship: SPDXRef-libapt-pkg-perl DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libapt-pkg6.0
+Relationship: SPDXRef-libapt-pkg-perl DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libapt-pkg-perl DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+
+
+## File
+
+FileName: /usr/share/doc/libapt-pkg-perl/copyright
+SPDXID: SPDXRef-libapt-pkg-perl-file-0
+FileChecksum: SHA1: 07f0f1f1b90cfbcb8169e7d7a1dbf9e740e90285
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2016, 2017, 2018, 2019, 2021 Brendan O'Dea <bod@debian.org>
+</text>
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg/Cache.pm
+SPDXID: SPDXRef-libapt-pkg-perl-file-1
+FileChecksum: SHA1: ce31e0919ec3b852a938e15f1257c3d4741c4d0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg/Config.pm
+SPDXID: SPDXRef-libapt-pkg-perl-file-2
+FileChecksum: SHA1: 78556d3a0349c98cd40bb833a99b61d4e44f0073
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg/Config.pod
+SPDXID: SPDXRef-libapt-pkg-perl-file-3
+FileChecksum: SHA1: 352a7518a02d8fe783f10ec0e3b48b1308548aa5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg/PkgRecords.pm
+SPDXID: SPDXRef-libapt-pkg-perl-file-4
+FileChecksum: SHA1: f5309bf3b205d79e41e27fb5d54d5aa5b1d2be10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-4
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg/Policy.pm
+SPDXID: SPDXRef-libapt-pkg-perl-file-5
+FileChecksum: SHA1: 07132090ec9050afe99c89073c927dc36bf4a7ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-5
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg/Source.pm
+SPDXID: SPDXRef-libapt-pkg-perl-file-6
+FileChecksum: SHA1: 56ed4b1e3c9ffe87cf707f91c22f6cc48001758c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-6
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg/System.pm
+SPDXID: SPDXRef-libapt-pkg-perl-file-7
+FileChecksum: SHA1: 238d0a21b0075a3a7d43fdd0b7170de094928f72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-7
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg/Version.pm
+SPDXID: SPDXRef-libapt-pkg-perl-file-8
+FileChecksum: SHA1: 3d2670eeb30e155e543fdfea763f639749d3428f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-8
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg/hash.pm
+SPDXID: SPDXRef-libapt-pkg-perl-file-9
+FileChecksum: SHA1: b9089b6ddd03675a735bddb6093a38a587d368a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-9
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/AptPkg.pm
+SPDXID: SPDXRef-libapt-pkg-perl-file-10
+FileChecksum: SHA1: 91d46b06cf0a945c4c0c35423e03f56d8af21fc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-10
+
+
+FileName: /usr/lib/x86_64-linux-gnu/perl5/5.34/auto/AptPkg/AptPkg.so
+SPDXID: SPDXRef-libapt-pkg-perl-file-11
+FileChecksum: SHA1: 651b5c4f3ca472b9ace0954dba2572781ea29c98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-11
+
+
+FileName: /usr/share/doc/libapt-pkg-perl/changelog.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-12
+FileChecksum: SHA1: 7ba7a277b59aae2911ec235ef6770550dcb62bee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-12
+
+
+FileName: /usr/share/doc/libapt-pkg-perl/examples/apt-cache
+SPDXID: SPDXRef-libapt-pkg-perl-file-13
+FileChecksum: SHA1: 2e2ef6c1c4b1af4904074a35141e86a4de618a0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-13
+
+
+FileName: /usr/share/doc/libapt-pkg-perl/examples/apt-config
+SPDXID: SPDXRef-libapt-pkg-perl-file-14
+FileChecksum: SHA1: d2bdbd2a03e53c20c8a78dad586533b3a7ea28b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-14
+
+
+FileName: /usr/share/doc/libapt-pkg-perl/examples/apt-version
+SPDXID: SPDXRef-libapt-pkg-perl-file-15
+FileChecksum: SHA1: 909deaec6b11c57469d6407772147d557c5ecd5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-15
+
+
+FileName: /usr/share/man/man3/AptPkg.3pm.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-16
+FileChecksum: SHA1: fa6cf718e56e594cbb25b7395e28f37ddfc1d829
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-16
+
+
+FileName: /usr/share/man/man3/AptPkg::Cache.3pm.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-17
+FileChecksum: SHA1: 7806c3f6c6916ea19f9266ae36eae937b55cc8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-17
+
+
+FileName: /usr/share/man/man3/AptPkg::Config.3pm.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-18
+FileChecksum: SHA1: b9a0e6d7b81e553d5576e515b8001b12fec91098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-18
+
+
+FileName: /usr/share/man/man3/AptPkg::PkgRecords.3pm.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-19
+FileChecksum: SHA1: 241a9a3755ec720dbe4f9c19a938219fe57a0531
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-19
+
+
+FileName: /usr/share/man/man3/AptPkg::Policy.3pm.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-20
+FileChecksum: SHA1: a0f8ef9b60103fb6d4b5fb2931e992bc19a79d2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-20
+
+
+FileName: /usr/share/man/man3/AptPkg::Source.3pm.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-21
+FileChecksum: SHA1: b5355f2c12909434ee0ea0959d67cb2e541850ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-21
+
+
+FileName: /usr/share/man/man3/AptPkg::System.3pm.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-22
+FileChecksum: SHA1: 769f5e8ea0f73fd250fcc5a220dbdc0fc90128de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-22
+
+
+FileName: /usr/share/man/man3/AptPkg::Version.3pm.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-23
+FileChecksum: SHA1: 896a43429fa61deddf5b9da2623b0c7fca7129c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-23
+
+
+FileName: /usr/share/man/man3/AptPkg::hash.3pm.gz
+SPDXID: SPDXRef-libapt-pkg-perl-file-24
+FileChecksum: SHA1: 4439ad0d549a109529c97a1e805837aba19c0718
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libapt-pkg-perl CONTAINS SPDXRef-libapt-pkg-perl-file-24
+
+
+## Extracted License
+

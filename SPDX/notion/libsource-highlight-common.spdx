@@ -1,0 +1,1887 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libsource-highlight-common_3.1.9-4.1build2-7e44e26d-4c7b-5daf-9ced-55e755fa635d
+DocumentName: libsource-highlight-common_3.1.9-4.1build2
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsource-highlight-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:13:17Z
+
+
+## Package
+
+PackageName: libsource-highlight-common
+PackageVersion: 3.1.9-4.1build2
+SPDXID: SPDXRef-libsource-highlight-common
+PackageHomePage: http://www.gnu.org/software/src-highlite/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 7eadd6f07516a41bd5770e4f6b9044c3615ef069
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>architecture-independent files for source highlighting library
+ This package contains the data files used by the libsource-highlight
+ library, which is the library that underlies the source-highlight
+ program suite.  The library converts source code to a document with
+ syntax highlighting and supports many file formats.  The library can
+ be used by other C++ programs to get source code highlighting
+ capabilities.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libsource-highlight-common/changelog.Debian.gz
+SPDXID: SPDXRef-libsource-highlight-common-file-0
+FileChecksum: SHA1: f577539fccca89bf0107559099c2790868c11fe0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-0
+
+
+FileName: /usr/share/doc/libsource-highlight-common/copyright
+SPDXID: SPDXRef-libsource-highlight-common-file-1
+FileChecksum: SHA1: 32b317882b4a523717d5257725111a1d6288cec0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-1
+
+
+FileName: /usr/share/source-highlight/Hello.css
+SPDXID: SPDXRef-libsource-highlight-common-file-2
+FileChecksum: SHA1: cf880842cb17a122f3151896d02dba4979951e59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-2
+
+
+FileName: /usr/share/source-highlight/Hello2.css
+SPDXID: SPDXRef-libsource-highlight-common-file-3
+FileChecksum: SHA1: ba362208566c8cb4e995826233abd5c3d58d325e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-3
+
+
+FileName: /usr/share/source-highlight/ada.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-4
+FileChecksum: SHA1: ca2c6e0ab140532579c60b8753180c9b53b046ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-4
+
+
+FileName: /usr/share/source-highlight/applescript.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-5
+FileChecksum: SHA1: 7a8ca0840881f814e138aafa55bd4b0898d2ebe2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-5
+
+
+FileName: /usr/share/source-highlight/asm.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-6
+FileChecksum: SHA1: dadbf90544633bccee6b0326b383491679bf7d4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-6
+
+
+FileName: /usr/share/source-highlight/awk.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-7
+FileChecksum: SHA1: c630e233b9b92be5329e724980f87ed90051b4f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-7
+
+
+FileName: /usr/share/source-highlight/bat.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-8
+FileChecksum: SHA1: 3dc679cfaac37a89d88b8c0d6c7722d4d73a11d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-8
+
+
+FileName: /usr/share/source-highlight/bib.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-9
+FileChecksum: SHA1: 7108f264a92238f700259f809994625061f0b81e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-9
+
+
+FileName: /usr/share/source-highlight/bison.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-10
+FileChecksum: SHA1: 022c97c308e73dd1d4fa35f1150527a5ba0d04d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-10
+
+
+FileName: /usr/share/source-highlight/c.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-11
+FileChecksum: SHA1: e70f6f543fe5e441dec3670f423b0e2d1a676054
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-11
+
+
+FileName: /usr/share/source-highlight/c_comment.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-12
+FileChecksum: SHA1: e99e07b50d27c852f7778017e21a90cb02451596
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-12
+
+
+FileName: /usr/share/source-highlight/c_preprocessor.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-13
+FileChecksum: SHA1: edcf710571e251e3f10c4f064a87f67e6de83e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-13
+
+
+FileName: /usr/share/source-highlight/c_string.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-14
+FileChecksum: SHA1: 2cce4cb84a20f1c5d5dc414e8a9eb3944a5fa96a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-14
+
+
+FileName: /usr/share/source-highlight/caml.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-15
+FileChecksum: SHA1: 931137e30caf76fd4511288658ebcfc6e2bc90bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-15
+
+
+FileName: /usr/share/source-highlight/changelog.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-16
+FileChecksum: SHA1: 228f10fe80090f66407f79650e89201a488aadc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-16
+
+
+FileName: /usr/share/source-highlight/clike_vardeclaration.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-17
+FileChecksum: SHA1: 8200a2c5cf42dbd1b306b5828e2f09f57d76f1c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-17
+
+
+FileName: /usr/share/source-highlight/clipper.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-18
+FileChecksum: SHA1: 2443305c2ebd8910e58b6099957a380e5b296580
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-18
+
+
+FileName: /usr/share/source-highlight/cobol.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-19
+FileChecksum: SHA1: c5695adaebead58080b5bada2aab3ce16bc45fb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-19
+
+
+FileName: /usr/share/source-highlight/coffeescript.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-20
+FileChecksum: SHA1: 4b217f315963a0a5ec9c3c4d61ec82e155995745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-20
+
+
+FileName: /usr/share/source-highlight/conf.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-21
+FileChecksum: SHA1: daecf1017457e1f8a1c8e880c20be82535a130a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-21
+
+
+FileName: /usr/share/source-highlight/cpp.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-22
+FileChecksum: SHA1: 25abbfc9bae5c639cfa01d7eac2aeb69d4729d28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-22
+
+
+FileName: /usr/share/source-highlight/cpp2html.css
+SPDXID: SPDXRef-libsource-highlight-common-file-23
+FileChecksum: SHA1: 05d1c0eb40554a4a18f9074a410424182f11dd2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-23
+
+
+FileName: /usr/share/source-highlight/csharp.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-24
+FileChecksum: SHA1: 0ead764e1c6cc174c6bbe4225073e855e51fa4a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-24
+
+
+FileName: /usr/share/source-highlight/css.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-25
+FileChecksum: SHA1: b836251ef771705d16de8ccba04718aa07d09e13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-25
+
+
+FileName: /usr/share/source-highlight/css_common.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-26
+FileChecksum: SHA1: 715ae778067b3d60a53adfc60c3560aa4d06d9a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-26
+
+
+FileName: /usr/share/source-highlight/d.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-27
+FileChecksum: SHA1: bba3a956ec5a21da38b9493994ed7042ac420ffc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-27
+
+
+FileName: /usr/share/source-highlight/default.css
+SPDXID: SPDXRef-libsource-highlight-common-file-28
+FileChecksum: SHA1: 7d6874ba19d22b306c220c5beeecb48a029e7f61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-28
+
+
+FileName: /usr/share/source-highlight/default.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-29
+FileChecksum: SHA1: 9e0d5ae53f7ba58695d287c71af544315567ffe5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-29
+
+
+FileName: /usr/share/source-highlight/default.style
+SPDXID: SPDXRef-libsource-highlight-common-file-30
+FileChecksum: SHA1: cb021a909f120531973bc88790b53546079e548f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-30
+
+
+FileName: /usr/share/source-highlight/desktop.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-31
+FileChecksum: SHA1: 6bc610ba067b49fe00392ae326f03135ff5da44a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-31
+
+
+FileName: /usr/share/source-highlight/diff.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-32
+FileChecksum: SHA1: b185a39758f9ea33c0845b1806d1a29aec585ca9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-32
+
+
+FileName: /usr/share/source-highlight/docbook.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-33
+FileChecksum: SHA1: 64c3d5295220a997d02f4e05c84dc341c0a4631b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-33
+
+
+FileName: /usr/share/source-highlight/erlang.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-34
+FileChecksum: SHA1: aa0f98c288e62ad3a790c9e225cdb3cbd602e9f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-34
+
+
+FileName: /usr/share/source-highlight/errors.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-35
+FileChecksum: SHA1: 101c88f75136d92cb2b587bb10c2ba58f72a21c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-35
+
+
+FileName: /usr/share/source-highlight/esc.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-36
+FileChecksum: SHA1: db8b8f7dd6919532f73efbca8247010cb7900a2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-36
+
+
+FileName: /usr/share/source-highlight/esc.style
+SPDXID: SPDXRef-libsource-highlight-common-file-37
+FileChecksum: SHA1: 12640bdbbbbef323acee3daa649a7e7da3379b49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-37
+
+
+FileName: /usr/share/source-highlight/esc256.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-38
+FileChecksum: SHA1: 1307a7711cbf9030b6680f976bdf45f31f1ddc99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-38
+
+
+FileName: /usr/share/source-highlight/esc256.style
+SPDXID: SPDXRef-libsource-highlight-common-file-39
+FileChecksum: SHA1: 61e26c87b7e29ba07138db264b391ae7dfef657d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-39
+
+
+FileName: /usr/share/source-highlight/extreme_comment.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-40
+FileChecksum: SHA1: 8fc278724035bac326d6affe8e18dd0ca088bbe4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-40
+
+
+FileName: /usr/share/source-highlight/extreme_comment2.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-41
+FileChecksum: SHA1: f2291f44000810242573aa0c339be1d03acd6586
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-41
+
+
+FileName: /usr/share/source-highlight/extreme_comment3.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-42
+FileChecksum: SHA1: 1587dbe731eda68303c20d3625bcd756a4ba37d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-42
+
+
+FileName: /usr/share/source-highlight/feature.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-43
+FileChecksum: SHA1: 2de0f8354f17a61b7457e4bdec7c0d6d22cde64e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-43
+
+
+FileName: /usr/share/source-highlight/fixed-fortran.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-44
+FileChecksum: SHA1: e5bbef4971fcdfda6f42bfbe3de668359fa32e8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-44
+
+
+FileName: /usr/share/source-highlight/flex.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-45
+FileChecksum: SHA1: 2c2ad1fd75d32108e92ad449915fcb6feb2c6503
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-45
+
+
+FileName: /usr/share/source-highlight/fortran.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-46
+FileChecksum: SHA1: 94300a4baf2cd51f4592b073c38f9f47e09f947f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-46
+
+
+FileName: /usr/share/source-highlight/function.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-47
+FileChecksum: SHA1: cc7c243c8ba1e732893a194a5ad55c87c09474b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-47
+
+
+FileName: /usr/share/source-highlight/glsl.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-48
+FileChecksum: SHA1: ddb820d3a3b076e9b8ff01e08b7d56105187583d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-48
+
+
+FileName: /usr/share/source-highlight/go.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-49
+FileChecksum: SHA1: 0c699f95288e1271d4c758d4bca954b3849be9e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-49
+
+
+FileName: /usr/share/source-highlight/groff_man.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-50
+FileChecksum: SHA1: cc7bf20489d985beb650f1e5f4f543c8dff94c40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-50
+
+
+FileName: /usr/share/source-highlight/groff_mm.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-51
+FileChecksum: SHA1: f7c946248353edc4034776d4169a58e647558f03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-51
+
+
+FileName: /usr/share/source-highlight/groff_mm_color.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-52
+FileChecksum: SHA1: 31f7b1d8a4aa8eca5b7bccb0702bcdc59702da00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-52
+
+
+FileName: /usr/share/source-highlight/groovy.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-53
+FileChecksum: SHA1: 182f8b2fe93a00693c67e24bc9b205cd9abcad59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-53
+
+
+FileName: /usr/share/source-highlight/haskell.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-54
+FileChecksum: SHA1: 481d0306e3d9c8a4c44776fb73c6c129e4f5395e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-54
+
+
+FileName: /usr/share/source-highlight/haskell_literate.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-55
+FileChecksum: SHA1: a23dcde85d6438fbb3ff1ae3d3c0a0e0fda97a23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-55
+
+
+FileName: /usr/share/source-highlight/haxe.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-56
+FileChecksum: SHA1: f8277f56e5507c2fe32de5fd2bc4d5196035fb47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-56
+
+
+FileName: /usr/share/source-highlight/html.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-57
+FileChecksum: SHA1: ee996528e863fdd076a08f2e0a69346ef20b0983
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-57
+
+
+FileName: /usr/share/source-highlight/html.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-58
+FileChecksum: SHA1: 40df81380fa4ab9959b97a657f9e2b3c7ed2ea4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-58
+
+
+FileName: /usr/share/source-highlight/html5.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-59
+FileChecksum: SHA1: 54d8d70da6de3f09a8e9c95239828362e709c9d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-59
+
+
+FileName: /usr/share/source-highlight/html5_common.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-60
+FileChecksum: SHA1: 7d996c67ca8aa980a283185f4d2453eda172df21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-60
+
+
+FileName: /usr/share/source-highlight/html_common.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-61
+FileChecksum: SHA1: 6a7fd6e3e160d6f2c619a6fb7c1becb986a6ab90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-61
+
+
+FileName: /usr/share/source-highlight/html_notfixed.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-62
+FileChecksum: SHA1: 1a6c87584552d9c6204e20a32f479c3c0d4b8fa5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-62
+
+
+FileName: /usr/share/source-highlight/html_ref.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-63
+FileChecksum: SHA1: 248bf62c80041274f902dd321bc2a7f752d914d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-63
+
+
+FileName: /usr/share/source-highlight/html_simple.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-64
+FileChecksum: SHA1: 4e8b10f40f4a078c0f787e38bfb4b0e08e647007
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-64
+
+
+FileName: /usr/share/source-highlight/htmlcss.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-65
+FileChecksum: SHA1: d412439e99feb34a4d5ddd41b1b701d6b47d6158
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-65
+
+
+FileName: /usr/share/source-highlight/htmltable.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-66
+FileChecksum: SHA1: a3fe021ce5416688a9122c1339bfa70ee9ba8c68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-66
+
+
+FileName: /usr/share/source-highlight/htmltablelinenum.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-67
+FileChecksum: SHA1: 25aa686fffd8858724fe5ed8c9debd278faf4012
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-67
+
+
+FileName: /usr/share/source-highlight/ipxe.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-68
+FileChecksum: SHA1: 89347e0d6d1db0b5e198ae354c6bed041d152c38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-68
+
+
+FileName: /usr/share/source-highlight/islisp.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-69
+FileChecksum: SHA1: ec826cefc990129008e7e12d9e6ece10738d0b28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-69
+
+
+FileName: /usr/share/source-highlight/java.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-70
+FileChecksum: SHA1: 4bc19fa3c5dc8050cd315daae603725af34d0d48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-70
+
+
+FileName: /usr/share/source-highlight/javadoc.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-71
+FileChecksum: SHA1: 3ea8a104e506840ed021622325b5748a16672a11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-71
+
+
+FileName: /usr/share/source-highlight/javalog.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-72
+FileChecksum: SHA1: 16f6f588498a8eb99bc2486c3deec967df312999
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-72
+
+
+FileName: /usr/share/source-highlight/javalog.style
+SPDXID: SPDXRef-libsource-highlight-common-file-73
+FileChecksum: SHA1: 62424594e149f467b71f1a465631f25664e282a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-73
+
+
+FileName: /usr/share/source-highlight/javascript.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-74
+FileChecksum: SHA1: ce78173e709c525f8c0c7495bb4f50652957177b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-74
+
+
+FileName: /usr/share/source-highlight/json.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-75
+FileChecksum: SHA1: 1154bdca347e215eccaf3a3ca1397cb9b174054d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-75
+
+
+FileName: /usr/share/source-highlight/json.style
+SPDXID: SPDXRef-libsource-highlight-common-file-76
+FileChecksum: SHA1: f43c614e5e8a8aa52ddcc5115f6fee30fc3f771f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-76
+
+
+FileName: /usr/share/source-highlight/key_string.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-77
+FileChecksum: SHA1: 0e9f4ba6e1eec1867ca614a6d2afcca000b7d999
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-77
+
+
+FileName: /usr/share/source-highlight/lang.map
+SPDXID: SPDXRef-libsource-highlight-common-file-78
+FileChecksum: SHA1: 4458681f5d694bbe7045e8b472c08781642988a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-78
+
+
+FileName: /usr/share/source-highlight/langdef.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-79
+FileChecksum: SHA1: 296179f5ba277048f41447e85111e7f8b6dbd734
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-79
+
+
+FileName: /usr/share/source-highlight/latex.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-80
+FileChecksum: SHA1: fa8f1dbeddb177c3f931c9f03477bb39e118ef96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-80
+
+
+FileName: /usr/share/source-highlight/latex.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-81
+FileChecksum: SHA1: a1c4bf6ef01f202665d62bee5292bfd96f64464f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-81
+
+
+FileName: /usr/share/source-highlight/latexcolor.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-82
+FileChecksum: SHA1: 949e8337945636ea012b2e185b853a034960b6bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-82
+
+
+FileName: /usr/share/source-highlight/ldap.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-83
+FileChecksum: SHA1: 544ec64f49c4297cf66f5d21ae6acd4e71847f1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-83
+
+
+FileName: /usr/share/source-highlight/lilypond.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-84
+FileChecksum: SHA1: d19351f4417c9757d82e3f7243a367606422a71a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-84
+
+
+FileName: /usr/share/source-highlight/lilypond.style
+SPDXID: SPDXRef-libsource-highlight-common-file-85
+FileChecksum: SHA1: 1a8aa9778d9d620d8ae80513873aa66198bdb4c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-85
+
+
+FileName: /usr/share/source-highlight/lisp.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-86
+FileChecksum: SHA1: 6064d94c5b4f0ebc9d83376cd6a1c1573d954e54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-86
+
+
+FileName: /usr/share/source-highlight/log.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-87
+FileChecksum: SHA1: e53f82f3f369ac5a2976f32bae04b6708a1e94e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-87
+
+
+FileName: /usr/share/source-highlight/logtalk.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-88
+FileChecksum: SHA1: bc69bd62cdb0d55064a649a331b41c6cbd89f9ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-88
+
+
+FileName: /usr/share/source-highlight/lsm.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-89
+FileChecksum: SHA1: bccc026a9a0e2a7877a0956e9b298ee5caa9b0fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-89
+
+
+FileName: /usr/share/source-highlight/lua.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-90
+FileChecksum: SHA1: 024aa7b464240e1e70763d3bc05477b7bbd33894
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-90
+
+
+FileName: /usr/share/source-highlight/m4.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-91
+FileChecksum: SHA1: 6f10941ab3fb94f95cb0a1d296600fa93cd7e453
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-91
+
+
+FileName: /usr/share/source-highlight/makefile.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-92
+FileChecksum: SHA1: 54e5b9e3782f637113d88cb8cc8fb0b7f65b0a1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-92
+
+
+FileName: /usr/share/source-highlight/manifest.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-93
+FileChecksum: SHA1: efeda93a9790381d23e8ee2b51cc7d25b3ff4ff2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-93
+
+
+FileName: /usr/share/source-highlight/mediawiki.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-94
+FileChecksum: SHA1: f37eb7ad5048afee7b9dcf6ec05de0ac7915f3dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-94
+
+
+FileName: /usr/share/source-highlight/mono-alt.css
+SPDXID: SPDXRef-libsource-highlight-common-file-95
+FileChecksum: SHA1: 7af2644d43e22d6290b82f1cc374bb5152deeb57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-95
+
+
+FileName: /usr/share/source-highlight/mono.css
+SPDXID: SPDXRef-libsource-highlight-common-file-96
+FileChecksum: SHA1: 453ced42684f2c79635352adda2856cb5612cc1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-96
+
+
+FileName: /usr/share/source-highlight/nohilite.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-97
+FileChecksum: SHA1: 17070aa88c7ca23ee92d05ceb2e8548552ea232b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-97
+
+
+FileName: /usr/share/source-highlight/number.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-98
+FileChecksum: SHA1: be94a4e268daf137788c8d9c195fc22c3a98f09d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-98
+
+
+FileName: /usr/share/source-highlight/odf.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-99
+FileChecksum: SHA1: 93e62a644b509d74f014c44ae2f9b83bb9af92ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-99
+
+
+FileName: /usr/share/source-highlight/opa.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-100
+FileChecksum: SHA1: 20da94a5fca94377204de0ce06e4d7148439530a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-100
+
+
+FileName: /usr/share/source-highlight/outlang.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-101
+FileChecksum: SHA1: 4d23e1422ba3888ea4f736d3a594c407fb9ad596
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-101
+
+
+FileName: /usr/share/source-highlight/outlang.map
+SPDXID: SPDXRef-libsource-highlight-common-file-102
+FileChecksum: SHA1: ab7be0b7085bce030ddff74fa0c1df669078e451
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-102
+
+
+FileName: /usr/share/source-highlight/oz.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-103
+FileChecksum: SHA1: b64fe702f6f5385be735614563809d24f337e99f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-103
+
+
+FileName: /usr/share/source-highlight/pascal.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-104
+FileChecksum: SHA1: 06f0fcd70a081fa1e8b39ecca0ba2eee24cd16f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-104
+
+
+FileName: /usr/share/source-highlight/pc.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-105
+FileChecksum: SHA1: 9413401c924aeed63b3d8a560f1f37dd1574a315
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-105
+
+
+FileName: /usr/share/source-highlight/perl.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-106
+FileChecksum: SHA1: bfc9c2fb35aee25535c609a06570bc23ba85f834
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-106
+
+
+FileName: /usr/share/source-highlight/php.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-107
+FileChecksum: SHA1: 8d201afcb2113b58a004224111ca610a8a219acf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-107
+
+
+FileName: /usr/share/source-highlight/po.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-108
+FileChecksum: SHA1: 13e8c119bf5a179d715abe552a413d5975dfcef4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-108
+
+
+FileName: /usr/share/source-highlight/postscript.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-109
+FileChecksum: SHA1: c798c0ff290bdad5c02055ba77819cab9821f013
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-109
+
+
+FileName: /usr/share/source-highlight/prolog.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-110
+FileChecksum: SHA1: 5d739236da4d41ab30796f8e9a58d078d38b711f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-110
+
+
+FileName: /usr/share/source-highlight/properties.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-111
+FileChecksum: SHA1: 10d8fcc80db9ec04473e8323800f6bc4dc1aa9fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-111
+
+
+FileName: /usr/share/source-highlight/proto.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-112
+FileChecksum: SHA1: fa623df8adb38f823c810e430b10edf80683a012
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-112
+
+
+FileName: /usr/share/source-highlight/python.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-113
+FileChecksum: SHA1: 7949ae3066c0894a9d94584d50c87193602e3808
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-113
+
+
+FileName: /usr/share/source-highlight/r.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-114
+FileChecksum: SHA1: c6d68c5c3b3a1630f3fad74bc18511c9746d733d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-114
+
+
+FileName: /usr/share/source-highlight/r.style
+SPDXID: SPDXRef-libsource-highlight-common-file-115
+FileChecksum: SHA1: 814459fca429706e9cd1882c3ce6e656e568d506
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-115
+
+
+FileName: /usr/share/source-highlight/ruby.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-116
+FileChecksum: SHA1: bc59630060c63b944146fdfb98fbadd46681c70d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-116
+
+
+FileName: /usr/share/source-highlight/rust.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-117
+FileChecksum: SHA1: 0a042105d3784162d8758324025b325dcb188ba8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-117
+
+
+FileName: /usr/share/source-highlight/s.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-118
+FileChecksum: SHA1: 7a6ef84d1d1e6d8748586b7dcf3e44159ed78c68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-118
+
+
+FileName: /usr/share/source-highlight/scala.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-119
+FileChecksum: SHA1: 9f76da3b1ca23027c020c44bb1458d3c0a5f17af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-119
+
+
+FileName: /usr/share/source-highlight/scheme.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-120
+FileChecksum: SHA1: c9a5abb2d115a4a0ce7bd4f5cf8d2b8612320d53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-120
+
+
+FileName: /usr/share/source-highlight/script_comment.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-121
+FileChecksum: SHA1: 2c953bd119046eafdc6d26502e833d11d0ab3781
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-121
+
+
+FileName: /usr/share/source-highlight/sexp.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-122
+FileChecksum: SHA1: 4bda88cd2f7117f52814476c51ed881b034f12da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-122
+
+
+FileName: /usr/share/source-highlight/sh.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-123
+FileChecksum: SHA1: 7f5f7a87d69215a7f5fb767f7fcaa455b027dae4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-123
+
+
+FileName: /usr/share/source-highlight/sh_acid.css
+SPDXID: SPDXRef-libsource-highlight-common-file-124
+FileChecksum: SHA1: ba1b4407fc20bc90d24fe479355e4c2a9d8ff89c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-124
+
+
+FileName: /usr/share/source-highlight/sh_berries-dark.css
+SPDXID: SPDXRef-libsource-highlight-common-file-125
+FileChecksum: SHA1: a0bd06c7344a00d43653e171a7b6c13ad3e45c24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-125
+
+
+FileName: /usr/share/source-highlight/sh_berries-light.css
+SPDXID: SPDXRef-libsource-highlight-common-file-126
+FileChecksum: SHA1: 644dd009b94a2a15a1c6fd2c48063a59e9d18310
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-126
+
+
+FileName: /usr/share/source-highlight/sh_bipolar.css
+SPDXID: SPDXRef-libsource-highlight-common-file-127
+FileChecksum: SHA1: 38debba96f0ee7233c3a92963a3e2eb046682105
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-127
+
+
+FileName: /usr/share/source-highlight/sh_blacknblue.css
+SPDXID: SPDXRef-libsource-highlight-common-file-128
+FileChecksum: SHA1: de318893f800d4c4be67ccfc05861dbd6aca9c63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-128
+
+
+FileName: /usr/share/source-highlight/sh_bright.css
+SPDXID: SPDXRef-libsource-highlight-common-file-129
+FileChecksum: SHA1: e96ce375a9e98fcd9cdd7ba5d1032d58f4f4457f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-129
+
+
+FileName: /usr/share/source-highlight/sh_contrast.css
+SPDXID: SPDXRef-libsource-highlight-common-file-130
+FileChecksum: SHA1: 63015e7eb7b8d0a673c3c4b7070964ab1c40280b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-130
+
+
+FileName: /usr/share/source-highlight/sh_darkblue.css
+SPDXID: SPDXRef-libsource-highlight-common-file-131
+FileChecksum: SHA1: 839c3b3f9ad0ce4b68e6caf033304337118d8d67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-131
+
+
+FileName: /usr/share/source-highlight/sh_darkness.css
+SPDXID: SPDXRef-libsource-highlight-common-file-132
+FileChecksum: SHA1: 3e05be32b2aa36a60b741bfb18a9e08e6241b155
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-132
+
+
+FileName: /usr/share/source-highlight/sh_desert.css
+SPDXID: SPDXRef-libsource-highlight-common-file-133
+FileChecksum: SHA1: c0b6bdd5217cf68472cab98363d85695991055d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-133
+
+
+FileName: /usr/share/source-highlight/sh_dull.css
+SPDXID: SPDXRef-libsource-highlight-common-file-134
+FileChecksum: SHA1: 82a683702d4ea5039242437019d25ef6a3d9afd9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-134
+
+
+FileName: /usr/share/source-highlight/sh_easter.css
+SPDXID: SPDXRef-libsource-highlight-common-file-135
+FileChecksum: SHA1: cdfea3abe158471981cc43edd5b9df85532fab75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-135
+
+
+FileName: /usr/share/source-highlight/sh_emacs.css
+SPDXID: SPDXRef-libsource-highlight-common-file-136
+FileChecksum: SHA1: 1fdf9b15c2bfe13baabe721fdec5c644a7915aeb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-136
+
+
+FileName: /usr/share/source-highlight/sh_golden.css
+SPDXID: SPDXRef-libsource-highlight-common-file-137
+FileChecksum: SHA1: bf000b6499075689630706998797dd5df31ebc49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-137
+
+
+FileName: /usr/share/source-highlight/sh_greenlcd.css
+SPDXID: SPDXRef-libsource-highlight-common-file-138
+FileChecksum: SHA1: 878cf65459aa20da8f883e07959012fa9b45a360
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-138
+
+
+FileName: /usr/share/source-highlight/sh_ide-anjuta.css
+SPDXID: SPDXRef-libsource-highlight-common-file-139
+FileChecksum: SHA1: 007619ee729fa3fa8606b9cbd873b4b5f5589c64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-139
+
+
+FileName: /usr/share/source-highlight/sh_ide-codewarrior.css
+SPDXID: SPDXRef-libsource-highlight-common-file-140
+FileChecksum: SHA1: a10f6b6275d859b0f65644a0e2707b69b46193c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-140
+
+
+FileName: /usr/share/source-highlight/sh_ide-devcpp.css
+SPDXID: SPDXRef-libsource-highlight-common-file-141
+FileChecksum: SHA1: 279973cd8d0e9c5df6519e3e9029c420c623f400
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-141
+
+
+FileName: /usr/share/source-highlight/sh_ide-eclipse.css
+SPDXID: SPDXRef-libsource-highlight-common-file-142
+FileChecksum: SHA1: e943395ed4796d77d606c722198481bbbbbbbcad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-142
+
+
+FileName: /usr/share/source-highlight/sh_ide-kdev.css
+SPDXID: SPDXRef-libsource-highlight-common-file-143
+FileChecksum: SHA1: c891167eae166ea7b3599418dc82febccec61d12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-143
+
+
+FileName: /usr/share/source-highlight/sh_ide-msvcpp.css
+SPDXID: SPDXRef-libsource-highlight-common-file-144
+FileChecksum: SHA1: 3dc171f32dc598b05b3f006b0f911f0231d93ef0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-144
+
+
+FileName: /usr/share/source-highlight/sh_kwrite.css
+SPDXID: SPDXRef-libsource-highlight-common-file-145
+FileChecksum: SHA1: afc9ceadb4bbb8ef6ef78c4554cfce7101563fd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-145
+
+
+FileName: /usr/share/source-highlight/sh_matlab.css
+SPDXID: SPDXRef-libsource-highlight-common-file-146
+FileChecksum: SHA1: 33c1c79e962e666757a8dcb2183ea09cc515a101
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-146
+
+
+FileName: /usr/share/source-highlight/sh_navy.css
+SPDXID: SPDXRef-libsource-highlight-common-file-147
+FileChecksum: SHA1: c98ef83b65a18756c594b5f553d1dbab2b9642be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-147
+
+
+FileName: /usr/share/source-highlight/sh_nedit.css
+SPDXID: SPDXRef-libsource-highlight-common-file-148
+FileChecksum: SHA1: 29e511cb799def737da9fca71b475fb5dc639b50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-148
+
+
+FileName: /usr/share/source-highlight/sh_neon.css
+SPDXID: SPDXRef-libsource-highlight-common-file-149
+FileChecksum: SHA1: 9dcf8254015f3459aa8f331ad37f645edda7e205
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-149
+
+
+FileName: /usr/share/source-highlight/sh_night.css
+SPDXID: SPDXRef-libsource-highlight-common-file-150
+FileChecksum: SHA1: b97c6dd2157bff36cf8e27e93703341324694b80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-150
+
+
+FileName: /usr/share/source-highlight/sh_pablo.css
+SPDXID: SPDXRef-libsource-highlight-common-file-151
+FileChecksum: SHA1: 033d163ccc22e5c13c63f3c60a25b5f2f3aaab3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-151
+
+
+FileName: /usr/share/source-highlight/sh_peachpuff.css
+SPDXID: SPDXRef-libsource-highlight-common-file-152
+FileChecksum: SHA1: b66381fe8a52b89afbf5510152229ff89bab63d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-152
+
+
+FileName: /usr/share/source-highlight/sh_print.css
+SPDXID: SPDXRef-libsource-highlight-common-file-153
+FileChecksum: SHA1: 507b40202f66ee1cb9df0633f3e9b82711e11d3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-153
+
+
+FileName: /usr/share/source-highlight/sh_rand01.css
+SPDXID: SPDXRef-libsource-highlight-common-file-154
+FileChecksum: SHA1: 40ef31cd1f40c3514bb6d2453d06ff844b6d7309
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-154
+
+
+FileName: /usr/share/source-highlight/sh_the.css
+SPDXID: SPDXRef-libsource-highlight-common-file-155
+FileChecksum: SHA1: f7f424313a7104f8f1ae1e8a12ba93e1283425fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-155
+
+
+FileName: /usr/share/source-highlight/sh_typical.css
+SPDXID: SPDXRef-libsource-highlight-common-file-156
+FileChecksum: SHA1: e455f1a161afc60a0305ca4250cc6da747d33014
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-156
+
+
+FileName: /usr/share/source-highlight/sh_vampire.css
+SPDXID: SPDXRef-libsource-highlight-common-file-157
+FileChecksum: SHA1: 6cf3073598034adcbd05e0ddf6feee623580d1e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-157
+
+
+FileName: /usr/share/source-highlight/sh_vim-dark.css
+SPDXID: SPDXRef-libsource-highlight-common-file-158
+FileChecksum: SHA1: 38b1c41ec1a4b61e85bdb88fc5be9cab21cd3969
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-158
+
+
+FileName: /usr/share/source-highlight/sh_vim.css
+SPDXID: SPDXRef-libsource-highlight-common-file-159
+FileChecksum: SHA1: 099009016ce4a671a8cc4536dc8f6e98530df3fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-159
+
+
+FileName: /usr/share/source-highlight/sh_whatis.css
+SPDXID: SPDXRef-libsource-highlight-common-file-160
+FileChecksum: SHA1: e5a2dec36466d9d9f9e70e0b4f516c34c6e6d9f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-160
+
+
+FileName: /usr/share/source-highlight/sh_whitengrey.css
+SPDXID: SPDXRef-libsource-highlight-common-file-161
+FileChecksum: SHA1: 5ad7ff6ecb5088b1438776631960a4b2816012bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-161
+
+
+FileName: /usr/share/source-highlight/sh_zellner.css
+SPDXID: SPDXRef-libsource-highlight-common-file-162
+FileChecksum: SHA1: af531b6eaef1df9fdfebbf050ff499d7c717f59e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-162
+
+
+FileName: /usr/share/source-highlight/slang.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-163
+FileChecksum: SHA1: b407291704267c1b55e79cf4a10d7a1d5e1d6a05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-163
+
+
+FileName: /usr/share/source-highlight/sml.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-164
+FileChecksum: SHA1: cb31ccb042b8d86ebc60f3fb5e7b51a7e4306794
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-164
+
+
+FileName: /usr/share/source-highlight/source-highlight-esc.sh
+SPDXID: SPDXRef-libsource-highlight-common-file-165
+FileChecksum: SHA1: 9cb291435c93f5efba3836b8fffb2d9a34fbfd11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-165
+
+
+FileName: /usr/share/source-highlight/spec.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-166
+FileChecksum: SHA1: e3dfa874a208a204d0809e18acdacc15eb9d520a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-166
+
+
+FileName: /usr/share/source-highlight/sql.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-167
+FileChecksum: SHA1: d5118e94fc12ff6a74e8bdf3bae5ed1c1c6f9045
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-167
+
+
+FileName: /usr/share/source-highlight/src-hilite-lesspipe.sh
+SPDXID: SPDXRef-libsource-highlight-common-file-168
+FileChecksum: SHA1: f3135445a774e22acf82af56a20d1f7dc3948457
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-168
+
+
+FileName: /usr/share/source-highlight/style.defaults
+SPDXID: SPDXRef-libsource-highlight-common-file-169
+FileChecksum: SHA1: 1cdeeb396e39af3bc197092ec908bcdfd90e41a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-169
+
+
+FileName: /usr/share/source-highlight/style.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-170
+FileChecksum: SHA1: 8529d2ca5f7d324844611a245b23d0760634fa2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-170
+
+
+FileName: /usr/share/source-highlight/style2.style
+SPDXID: SPDXRef-libsource-highlight-common-file-171
+FileChecksum: SHA1: ca56d79caaed28b6a77490fd585ee4296a3b7727
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-171
+
+
+FileName: /usr/share/source-highlight/style3.style
+SPDXID: SPDXRef-libsource-highlight-common-file-172
+FileChecksum: SHA1: c7f8c83646c6c49c356f527520ab23106c145e95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-172
+
+
+FileName: /usr/share/source-highlight/symbols.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-173
+FileChecksum: SHA1: 17fe43cde6d9d0db7d8484763750b2124c6d4260
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-173
+
+
+FileName: /usr/share/source-highlight/tcl.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-174
+FileChecksum: SHA1: 33c0b99eddc8a52f76e4fc96ba525109462c20c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-174
+
+
+FileName: /usr/share/source-highlight/texinfo.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-175
+FileChecksum: SHA1: f6f8df0604522651d2235806f8fafca582e87d3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-175
+
+
+FileName: /usr/share/source-highlight/texinfo.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-176
+FileChecksum: SHA1: 9fb9276405276c2d0a3a62adaaf41c8ed3c4ab2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-176
+
+
+FileName: /usr/share/source-highlight/texinfo.style
+SPDXID: SPDXRef-libsource-highlight-common-file-177
+FileChecksum: SHA1: 70eeed1fb3df9fdf4d974cb1f88c7d7ded0c0c42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-177
+
+
+FileName: /usr/share/source-highlight/tml.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-178
+FileChecksum: SHA1: 6b617c2b7e904ad2b81f51cbd967a563b5e03613
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-178
+
+
+FileName: /usr/share/source-highlight/tml_formatting.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-179
+FileChecksum: SHA1: 1784c0c10249caba187717f08ef72d51fa034dca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-179
+
+
+FileName: /usr/share/source-highlight/tml_formatting_all.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-180
+FileChecksum: SHA1: 2d3b048262fca24b366ee4d697f3802285f0bd49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-180
+
+
+FileName: /usr/share/source-highlight/tml_glue.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-181
+FileChecksum: SHA1: 59cfca13149a5100f76cf2af89eb5f2a1d3d627c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-181
+
+
+FileName: /usr/share/source-highlight/tml_macrolinks.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-182
+FileChecksum: SHA1: 2b2082e04b6c156cce8b0127e84112e83a203276
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-182
+
+
+FileName: /usr/share/source-highlight/tml_macros.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-183
+FileChecksum: SHA1: 00b2a07313443eb91738b4f49aaa861822261c28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-183
+
+
+FileName: /usr/share/source-highlight/tml_macros1.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-184
+FileChecksum: SHA1: e2ba6e3bd21af6222c2ba65e0d86536a35644ce4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-184
+
+
+FileName: /usr/share/source-highlight/tml_macros2.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-185
+FileChecksum: SHA1: 32eb418cdb68ab163be6fee2906111db823f5bf2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-185
+
+
+FileName: /usr/share/source-highlight/tml_macrosdelayed1.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-186
+FileChecksum: SHA1: b12fa4669c5a0c2ea3e5ed2590795f02edd03c36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-186
+
+
+FileName: /usr/share/source-highlight/tml_macrosdelayed2.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-187
+FileChecksum: SHA1: db5d89b6455f70f790deaac4ed5e7fe1ff9ce028
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-187
+
+
+FileName: /usr/share/source-highlight/tml_macrosdelayed3.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-188
+FileChecksum: SHA1: 7eac195bbdc851b1a65dd7ef58b82662784ceb7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-188
+
+
+FileName: /usr/share/source-highlight/tml_macrotokens.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-189
+FileChecksum: SHA1: b398d72c9e8d23bd2461122f36748d2ee0430808
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-189
+
+
+FileName: /usr/share/source-highlight/todo.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-190
+FileChecksum: SHA1: 12a9b67f14fb71a3f7fb74663d3c5a2c9ea6f746
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-190
+
+
+FileName: /usr/share/source-highlight/upc.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-191
+FileChecksum: SHA1: 263a7a90d716d569d77de702c9fdbd0410c2ef08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-191
+
+
+FileName: /usr/share/source-highlight/url.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-192
+FileChecksum: SHA1: c3957d370c72b2a9ea0162ee0380578c2874f410
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-192
+
+
+FileName: /usr/share/source-highlight/vala.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-193
+FileChecksum: SHA1: 8f8d22f64ba73454e4edfb5a7c45ccbc2fdb7067
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-193
+
+
+FileName: /usr/share/source-highlight/vbscript.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-194
+FileChecksum: SHA1: c48550da57c90520f4f6a94efa4c42748dfae260
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-194
+
+
+FileName: /usr/share/source-highlight/vim.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-195
+FileChecksum: SHA1: 5ad698b1d866b7a0bd786b818db45c53b4d2fcc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-195
+
+
+FileName: /usr/share/source-highlight/xhtml.css
+SPDXID: SPDXRef-libsource-highlight-common-file-196
+FileChecksum: SHA1: 4745c5f9b5b49e0dc68960e86aee51e73f4e0a6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-196
+
+
+FileName: /usr/share/source-highlight/xhtml.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-197
+FileChecksum: SHA1: b98547475f28f52464a8ab08cbc7328727006bd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-197
+
+
+FileName: /usr/share/source-highlight/xhtml_common.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-198
+FileChecksum: SHA1: 248241efdb41ccb99ae9e8a1086a7bad5800c925
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-198
+
+
+FileName: /usr/share/source-highlight/xhtml_notfixed.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-199
+FileChecksum: SHA1: 68f4963873182d9e8eff944359cb1d98cf31435b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-199
+
+
+FileName: /usr/share/source-highlight/xhtmlcss.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-200
+FileChecksum: SHA1: aab5495a5e846fbb44b8057f5c8961399ab5f6ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-200
+
+
+FileName: /usr/share/source-highlight/xhtmltable.outlang
+SPDXID: SPDXRef-libsource-highlight-common-file-201
+FileChecksum: SHA1: 0ec0b2f9dce0bd9f4d89f8a6102081d365069065
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-201
+
+
+FileName: /usr/share/source-highlight/xml.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-202
+FileChecksum: SHA1: 3c3fd4e41102b511acedad51e2b14988ab618d5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-202
+
+
+FileName: /usr/share/source-highlight/xorg.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-203
+FileChecksum: SHA1: 515d1422607ba675bfe590a7912a20b1242cddcb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-203
+
+
+FileName: /usr/share/source-highlight/zsh.lang
+SPDXID: SPDXRef-libsource-highlight-common-file-204
+FileChecksum: SHA1: 9e0f99e2beae7aeaeb5a1011dfc1083f9fab1acb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsource-highlight-common CONTAINS SPDXRef-libsource-highlight-common-file-204
+
+
+## Extracted License
+

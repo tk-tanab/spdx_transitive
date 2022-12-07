@@ -1,0 +1,191 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/apturl-common_0.5.2ubuntu22-8b1f0dc5-f4ff-5b74-8290-7d7b1ec8ab10
+DocumentName: apturl-common_0.5.2ubuntu22
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-apturl-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:42:18Z
+
+
+## Package
+
+PackageName: apturl-common
+PackageVersion: 0.5.2ubuntu22
+SPDXID: SPDXRef-apturl-common
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1980416cfa285918b659989c7d39b87fcb40e3b7
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2007-2008 Canonical, Ltd.
+</text>
+PackageComment: <text>install packages using the apt protocol - common data
+ AptUrl is a simple graphical application that takes an URL (which follows the
+ apt-protocol) as a command line option, parses it and carries out the
+ operations that the URL describes (that is, it asks the user if he wants the
+ indicated packages to be installed and if the answer is positive does so for
+ him).
+ .
+ This package contains the common data shared between the frontends.</text>
+Relationship: SPDXRef-apturl-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-apturl-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3-apt
+Relationship: SPDXRef-apturl-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3-update-manager
+
+
+## File
+
+FileName: /usr/share/doc/apturl-common/copyright
+SPDXID: SPDXRef-apturl-common-file-0
+FileChecksum: SHA1: f64d0fa67bd6c63d67a164d85134bafcdb5ffacd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 2007-2008 Canonical, Ltd.
+</text>
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-0
+
+
+FileName: /etc/firefox/pref/apturl.js
+SPDXID: SPDXRef-apturl-common-file-1
+FileChecksum: SHA1: 881322c5e3a5f5aa73d733afbf503649444618fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-1
+
+
+FileName: /usr/bin/apturl
+SPDXID: SPDXRef-apturl-common-file-2
+FileChecksum: SHA1: f63c2901d843216be71317c0cb48c660619e57a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-2
+
+
+FileName: /usr/lib/python3/dist-packages/AptUrl/AptUrl.py
+SPDXID: SPDXRef-apturl-common-file-3
+FileChecksum: SHA1: a79566a4301e3d74610cd7d7e00a22edd1ba7a61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-3
+
+
+FileName: /usr/lib/python3/dist-packages/AptUrl/Helpers.py
+SPDXID: SPDXRef-apturl-common-file-4
+FileChecksum: SHA1: 68012f65d1a39b05ae6a02d6fbbcb65992768925
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-4
+
+
+FileName: /usr/lib/python3/dist-packages/AptUrl/Parser.py
+SPDXID: SPDXRef-apturl-common-file-5
+FileChecksum: SHA1: 829bf8a73d184c1553e345c53025dbdd660e2bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-5
+
+
+FileName: /usr/lib/python3/dist-packages/AptUrl/UI.py
+SPDXID: SPDXRef-apturl-common-file-6
+FileChecksum: SHA1: a29913268e1f8c268a2145d05ad5129bdd1b0afe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-6
+
+
+FileName: /usr/lib/python3/dist-packages/AptUrl/Version.py
+SPDXID: SPDXRef-apturl-common-file-7
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-7
+
+
+FileName: /usr/lib/python3/dist-packages/AptUrl/__init__.py
+SPDXID: SPDXRef-apturl-common-file-8
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-8
+
+
+FileName: /usr/lib/python3/dist-packages/apturl-0.5.2.egg-info
+SPDXID: SPDXRef-apturl-common-file-9
+FileChecksum: SHA1: 44bcdae8b94ef2f5e023c680d4fa9293f1bcfee2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-9
+
+
+FileName: /usr/share/applications/apturl.desktop
+SPDXID: SPDXRef-apturl-common-file-10
+FileChecksum: SHA1: 2247a5f28c74082928b6246d279ad4466237a7bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-10
+
+
+FileName: /usr/share/doc/apturl-common/changelog.gz
+SPDXID: SPDXRef-apturl-common-file-11
+FileChecksum: SHA1: 1aedd50e29a23c669e246645c7c978417d371305
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-11
+
+
+FileName: /usr/share/kde4/services/apt+http.protocol
+SPDXID: SPDXRef-apturl-common-file-12
+FileChecksum: SHA1: 7f217590b6e34b733f6e9fa41b1ddffe8f6d520e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-12
+
+
+FileName: /usr/share/kde4/services/apt.protocol
+SPDXID: SPDXRef-apturl-common-file-13
+FileChecksum: SHA1: f8c5acddfc94c9a1105e74193b24c89060b4fb6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-13
+
+
+FileName: /usr/share/man/man8/apturl.8.gz
+SPDXID: SPDXRef-apturl-common-file-14
+FileChecksum: SHA1: 7427727837417371539ce768ca0085bc0b7353d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apturl-common CONTAINS SPDXRef-apturl-common-file-14
+
+
+## Extracted License
+

@@ -1,0 +1,86 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-taml_2:1.4-720b7835-e000-5557-8c09-23631930a388
+DocumentName: fonts-taml_2:1.4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-lohit-taml http://spdx.org/spdxdocs/fonts-lohit-taml_2.91.3-2-43de72cd-70b6-527d-9350-a79130c272d7 SHA1: 13e2311df4792facb07b9b0531d343f2d468af27
+ExternalDocumentRef: DocumentRef-fonts-samyak-taml http://spdx.org/spdxdocs/fonts-samyak-taml_1.2.2-5build1-e6febbee-bc61-51c8-8f10-72554b6c5d2a SHA1: 1ce3ed86523fa49d135bd50cefbfe7de06ee976c
+ExternalDocumentRef: DocumentRef-fonts-lohit-taml-classical http://spdx.org/spdxdocs/fonts-lohit-taml-classical_2.5.4-2-ff6621e2-f416-5f24-a4b7-0de197c91511 SHA1: 08669afcaab08281cda50d1912cddab82517db29
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-taml
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:57:34Z
+
+
+## Package
+
+PackageName: fonts-taml
+PackageVersion: 2:1.4
+SPDXID: SPDXRef-fonts-taml
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e3c48c8684822880af944338cb4e795c97514483
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: ISC
+PackageCopyrightText: <text>Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Meta package to install all Tamil fonts
+ This package allows you to install all available Tamil fonts
+ in Debian.
+ .
+ After installing this package you will have following packages
+ installed on your system.
+  * fonts-lohit-taml
+  * fonts-lohit-taml-classical
+  * fonts-samyak-taml</text>
+Relationship: SPDXRef-fonts-taml DEPENDS_ON DocumentRef-fonts-lohit-taml:SPDXRef-fonts-lohit-taml
+Relationship: SPDXRef-fonts-taml DEPENDS_ON DocumentRef-fonts-lohit-taml-classical:SPDXRef-fonts-lohit-taml-classical
+Relationship: SPDXRef-fonts-taml DEPENDS_ON DocumentRef-fonts-samyak-taml:SPDXRef-fonts-samyak-taml
+
+
+## File
+
+FileName: /usr/share/doc/fonts-taml/copyright
+SPDXID: SPDXRef-fonts-taml-file-0
+FileChecksum: SHA1: 0ee40259bcf0119caf3e23de86f53411e942d25c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-taml CONTAINS SPDXRef-fonts-taml-file-0
+
+
+FileName: /usr/share/doc/fonts-taml/README.Debian
+SPDXID: SPDXRef-fonts-taml-file-1
+FileChecksum: SHA1: bb02c3054f79f9b553c94b3df40a8288299bfdae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-taml CONTAINS SPDXRef-fonts-taml-file-1
+
+
+FileName: /usr/share/doc/fonts-taml/changelog.gz
+SPDXID: SPDXRef-fonts-taml-file-2
+FileChecksum: SHA1: 414937a92a8165c73c29da084072efc47ea6b964
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-taml CONTAINS SPDXRef-fonts-taml-file-2
+
+
+## Extracted License
+

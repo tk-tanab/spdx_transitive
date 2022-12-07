@@ -1,0 +1,117 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/alsa-topology-conf_1.2.5.1-2-13bce7e0-90f9-5f1d-8480-cbdb4929f6cc
+DocumentName: alsa-topology-conf_1.2.5.1-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-alsa-topology-conf
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:05:37Z
+
+
+## Package
+
+PackageName: alsa-topology-conf
+PackageVersion: 1.2.5.1-2
+SPDXID: SPDXRef-alsa-topology-conf
+PackageHomePage: https://www.alsa-project.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2bfb3f3270848797aef9038368dde0a9d46c4d26
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageCopyrightText: <text>Copyright (c) 2019, Advanced Linux Sound Architecture (ALSA) project
+Copyright 2019-2020 Advanced Linux Sound Architecture (ALSA) project
+Copyright 2020 Debian ALSA
+</text>
+PackageComment: <text>ALSA topology configuration files
+ This package contains ALSA topology configuration files that can be used
+ by libasound2 for specific audio hardware.
+ .
+ ALSA is the Advanced Linux Sound Architecture.</text>
+
+
+## File
+
+FileName: /usr/share/doc/alsa-topology-conf/copyright
+SPDXID: SPDXRef-alsa-topology-conf-file-0
+FileChecksum: SHA1: 3d7d58b2bc9cf964ee8e1f5949c8fca0d1264f7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright 2019-2020 Advanced Linux Sound Architecture (ALSA) project
+Copyright 2020 Debian ALSA
+Copyright (c) 2019, Advanced Linux Sound Architecture (ALSA) project
+</text>
+Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-0
+
+
+FileName: /lib/firmware/skl_hda_dsp_generic-tplg.bin
+SPDXID: SPDXRef-alsa-topology-conf-file-1
+FileChecksum: SHA1: 3aef419f1d2ddf360b7757214c21cbef7aabadc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-1
+
+
+FileName: /usr/share/alsa/topology/broadwell/broadwell.conf
+SPDXID: SPDXRef-alsa-topology-conf-file-2
+FileChecksum: SHA1: 47db22ec655177b3a5e74f1f8a5d2e1c6e51b255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-2
+
+
+FileName: /usr/share/alsa/topology/bxtrt298/bxt_i2s.conf
+SPDXID: SPDXRef-alsa-topology-conf-file-3
+FileChecksum: SHA1: c1edd71843f2f9d46ef192a2e6625ab3fe93370c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-3
+
+
+FileName: /usr/share/alsa/topology/hda-dsp/skl_hda_dsp_generic-tplg.conf
+SPDXID: SPDXRef-alsa-topology-conf-file-4
+FileChecksum: SHA1: cd49148aba3d0034016320ba14a9e0172e328239
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-4
+
+
+FileName: /usr/share/alsa/topology/sklrt286/skl_i2s.conf
+SPDXID: SPDXRef-alsa-topology-conf-file-5
+FileChecksum: SHA1: 424948ebf4a2fb8b9adc55a432a621e6481dfc79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-5
+
+
+FileName: /usr/share/doc/alsa-topology-conf/changelog.Debian.gz
+SPDXID: SPDXRef-alsa-topology-conf-file-6
+FileChecksum: SHA1: f3b7aea7fe925d9e0b1ae5ebcf93d74b1367cdc2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-topology-conf CONTAINS SPDXRef-alsa-topology-conf-file-6
+
+
+## Extracted License
+

@@ -1,0 +1,166 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/printer-driver-splix_2.0.0+svn315-7fakesync1build3-f03d71ea-dea9-5b04-b2b3-2417bab98925
+DocumentName: printer-driver-splix_2.0.0+svn315-7fakesync1build3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-libcupsimage2 http://spdx.org/spdxdocs/libcupsimage2_2.4.1op1-1ubuntu4.1-f28f1362-3f9e-50af-ac6b-812963f6b13b SHA1: 680ccaa30819550f9ce9ad7b4f05de449db2f4e3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-printer-driver-splix
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:22:58Z
+
+
+## Package
+
+PackageName: printer-driver-splix
+PackageVersion: 2.0.0+svn315-7fakesync1build3
+SPDXID: SPDXRef-printer-driver-splix
+PackageHomePage: http://splix.ap2c.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ce6f4841525bd4a74a5233e52647fc9ecb0a9a27
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Copyright (c) 2006, Aurelien Croc (AP2C)
+</text>
+PackageComment: <text>Driver for Samsung and Xerox SPL2 and SPLc laser printers
+ Support for printing to SPL2- and SPLc-based printers. These are most
+ of the cheaper Samsung laser printers which do not understand standard
+ languages like PostScript or PCL. Both monochrome (ML-15xx, ML-16xx,
+ ML-17xx, ML-2xxx) and color (CLP-5xx, CLP-6xx) models are supported.
+ Also some rebranded Samsungs like the Xerox Phaser 6100 work with this
+ driver.
+ .
+ Note that older SPL1-based models (ML-12xx, ML-14xx) do not work. Use
+ these printers with the older "gdi" driver which is built into
+ GhostScript.</text>
+Relationship: SPDXRef-printer-driver-splix DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-printer-driver-splix DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcups2
+Relationship: SPDXRef-printer-driver-splix DEPENDS_ON DocumentRef-libcupsimage2:SPDXRef-libcupsimage2
+Relationship: SPDXRef-printer-driver-splix DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-printer-driver-splix DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjbig0
+Relationship: SPDXRef-printer-driver-splix DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+Relationship: SPDXRef-printer-driver-splix DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups
+Relationship: SPDXRef-printer-driver-splix DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-client
+Relationship: SPDXRef-printer-driver-splix DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-filters
+
+
+## File
+
+FileName: /usr/share/doc/printer-driver-splix/copyright
+SPDXID: SPDXRef-printer-driver-splix-file-0
+FileChecksum: SHA1: 0b5934ec8e645f74e2a4160b638b66094fbdd6d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 2006, Aurelien Croc (AP2C)
+</text>
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-0
+
+
+FileName: /usr/lib/cups/filter/pstoqpdl
+SPDXID: SPDXRef-printer-driver-splix-file-1
+FileChecksum: SHA1: 23818bdefc8c8c7506e2fe003f18ce245108812d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-1
+
+
+FileName: /usr/lib/cups/filter/rastertoqpdl
+SPDXID: SPDXRef-printer-driver-splix-file-2
+FileChecksum: SHA1: ff9ba7004166dc471b3817dc96d06503fb8a8083
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-2
+
+
+FileName: /usr/share/apport/package-hooks/source_splix.py
+SPDXID: SPDXRef-printer-driver-splix-file-3
+FileChecksum: SHA1: 779343e352da3eda2b8692f690ca7574401a2c8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-3
+
+
+FileName: /usr/share/cups/drv/splix-dell.drv
+SPDXID: SPDXRef-printer-driver-splix-file-4
+FileChecksum: SHA1: bc6e43203cf503d85bf3cb8d99de22bf4f803dd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-4
+
+
+FileName: /usr/share/cups/drv/splix-lexmark.drv
+SPDXID: SPDXRef-printer-driver-splix-file-5
+FileChecksum: SHA1: a1aee21fdfb414b64c30de037fd20ba1a7343021
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-5
+
+
+FileName: /usr/share/cups/drv/splix-samsung.drv
+SPDXID: SPDXRef-printer-driver-splix-file-6
+FileChecksum: SHA1: a0689a63e0b4fdc4b6404af227c514408e78aa1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-6
+
+
+FileName: /usr/share/cups/drv/splix-toshiba.drv
+SPDXID: SPDXRef-printer-driver-splix-file-7
+FileChecksum: SHA1: 6f9c3cd89f24e40ed84e4abe695c6cd00c5ff167
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-7
+
+
+FileName: /usr/share/cups/drv/splix-xerox.drv
+SPDXID: SPDXRef-printer-driver-splix-file-8
+FileChecksum: SHA1: 0250e50d98d12f905bce589859fff009bf6bcb4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-8
+
+
+FileName: /usr/share/cups/ppd-updaters/splix.ppd-updater
+SPDXID: SPDXRef-printer-driver-splix-file-9
+FileChecksum: SHA1: 262147bb21ae5daf344f155316dfa6f5a7289101
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-9
+
+
+FileName: /usr/share/doc/printer-driver-splix/changelog.Debian.gz
+SPDXID: SPDXRef-printer-driver-splix-file-10
+FileChecksum: SHA1: 455880ad396ba054ffc374e227f746b44987af93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-splix CONTAINS SPDXRef-printer-driver-splix-file-10
+
+
+## Extracted License
+

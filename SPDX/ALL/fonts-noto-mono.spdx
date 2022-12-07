@@ -1,0 +1,177 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-noto-mono_20201225-1build1-f9387e95-a4e2-50e8-b3d8-cb1a5f465508
+DocumentName: fonts-noto-mono_20201225-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-noto-mono
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:35:41Z
+
+
+## Package
+
+PackageName: fonts-noto-mono
+PackageVersion: 20201225-1build1
+SPDXID: SPDXRef-fonts-noto-mono
+PackageHomePage: https://www.google.com/get/noto/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 333f646406e7683da79790b28235ef01f8e474e4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2007, Google Inc.
+Copyright 2010,2012-2020, Google Inc. 2015-2020, Google LLC.
+Copyright 2013-2020, Jonas Smedegaard <dr@jones.dk> 2020, Purism, SPC 2013, Vasudev Kamath <kamathvasudev@gmail.com>
+</text>
+PackageComment: <text>"No Tofu" monospaced font family with large Unicode coverage
+ Noto is a collection of font families,
+ each visually harmonized across scripts.
+ .
+ This package contains Noto Mono font family
+ (formerly known as Droid Mono),
+ and core weights for the Noto Sans Mono font family.
+ Beware that Noto Mono has a much smaller repertoire
+ than Noto Sans or Noto Serif.
+ .
+ The name "Noto" is short for "No Tofu",
+ describing the aim of covering all living Unicode scripts.
+ .
+ Tofu (豆腐) is Japanese jargon
+ for unicode replacement character "�" (U+FFFD)
+ often displayed as replacement for unassigned or unknown characters.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-noto-mono/copyright
+SPDXID: SPDXRef-fonts-noto-mono-file-0
+FileChecksum: SHA1: 6e2747d40e9f01a8bc22245e59e97e1add819e27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: GPL-3.0-only
+FileCopyrightText: <text>Copyright 2010,2012-2020, Google Inc. 2015-2020, Google LLC.
+Copyright 2013-2020, Jonas Smedegaard <dr@jones.dk> 2020, Purism, SPC 2013, Vasudev Kamath <kamathvasudev@gmail.com>
+Copyright 2007, Google Inc.
+</text>
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-0
+
+
+FileName: /etc/fonts/conf.avail/30-droid-noto-mono.conf
+SPDXID: SPDXRef-fonts-noto-mono-file-1
+FileChecksum: SHA1: 03ef1d6a8dc431ecd74f52d2b13fdb622bc91868
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-1
+
+
+FileName: /usr/share/bug/fonts-noto-mono/presubj
+SPDXID: SPDXRef-fonts-noto-mono-file-2
+FileChecksum: SHA1: b177725a8aa4f174e8adacb1447071a8b0d18ef3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-2
+
+
+FileName: /usr/share/bug/fonts-noto-mono/script
+SPDXID: SPDXRef-fonts-noto-mono-file-3
+FileChecksum: SHA1: 2c397f31db65ab66735b1606e59d0c9c9324271d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-3
+
+
+FileName: /usr/share/doc/fonts-noto-mono/FAQ-KR.md.gz
+SPDXID: SPDXRef-fonts-noto-mono-file-4
+FileChecksum: SHA1: aea0b6de191e0653d7f45563a7a0e1a19fc07f0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-4
+
+
+FileName: /usr/share/doc/fonts-noto-mono/FAQ.md.gz
+SPDXID: SPDXRef-fonts-noto-mono-file-5
+FileChecksum: SHA1: 45091ac424c3ac3948a0c1091b550468ada9e0b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-5
+
+
+FileName: /usr/share/doc/fonts-noto-mono/NEWS.md.gz
+SPDXID: SPDXRef-fonts-noto-mono-file-6
+FileChecksum: SHA1: 44e2993ac0648264c1c55ae85a0b42b041f53926
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-6
+
+
+FileName: /usr/share/doc/fonts-noto-mono/README.md
+SPDXID: SPDXRef-fonts-noto-mono-file-7
+FileChecksum: SHA1: 654f07c40281848337141a73fb4f74db1d5f364c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-7
+
+
+FileName: /usr/share/doc/fonts-noto-mono/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-noto-mono-file-8
+FileChecksum: SHA1: 65b0ae7efd8a1689800be66b3cd34e97eb1fe563
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-8
+
+
+FileName: /usr/share/fonts/truetype/noto/NotoMono-Regular.ttf
+SPDXID: SPDXRef-fonts-noto-mono-file-9
+FileChecksum: SHA1: 90edfc11fa568cd0fb5b9d6e6d369dddadfdb8c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-9
+
+
+FileName: /usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf
+SPDXID: SPDXRef-fonts-noto-mono-file-10
+FileChecksum: SHA1: 849b7672ec8162fed2ab198f29ca0284fb83484f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-10
+
+
+FileName: /usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf
+SPDXID: SPDXRef-fonts-noto-mono-file-11
+FileChecksum: SHA1: 1e3ada8fee1f9631cc8e85c1720b5cfe02f8f59c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-mono CONTAINS SPDXRef-fonts-noto-mono-file-11
+
+
+## Extracted License
+

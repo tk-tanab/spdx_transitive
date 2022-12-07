@@ -1,0 +1,119 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-smc-chilanka_1.540-1-8144de31-fb41-5310-8d0f-e9aa5d32bca0
+DocumentName: fonts-smc-chilanka_1.540-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-smc-chilanka
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:55:27Z
+
+
+## Package
+
+PackageName: fonts-smc-chilanka
+PackageVersion: 1.540-1
+SPDXID: SPDXRef-fonts-smc-chilanka
+PackageHomePage: https://smc.org.in
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b6c17991cfcc0178bdfaa6cb81acbefecaa37168
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2016-2022, Balasankar C <balasankarc@autistici.org>
+Copyright 2020, The Chilanka Project
+</text>
+PackageComment: <text>Chilanka malayalam font
+ This package provides Chilanka font for Malayalam script
+ which is primarily used in the state of Kerala. The font is
+ developed by SMC community.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-smc-chilanka/copyright
+SPDXID: SPDXRef-fonts-smc-chilanka-file-0
+FileChecksum: SHA1: 1e6e5c94c370b249e4b04471f4be3adbc4f1ff55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2020, The Chilanka Project
+Copyright 2020, The Chilanka Project
+Copyright 2016-2022, Balasankar C <balasankarc@autistici.org>
+</text>
+Relationship: SPDXRef-fonts-smc-chilanka CONTAINS SPDXRef-fonts-smc-chilanka-file-0
+
+
+FileName: /etc/fonts/conf.avail/67-smc-chilanka.conf
+SPDXID: SPDXRef-fonts-smc-chilanka-file-1
+FileChecksum: SHA1: 1827d5946c6ae2a00b8cb9d95daa93d0a0234521
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-chilanka CONTAINS SPDXRef-fonts-smc-chilanka-file-1
+
+
+FileName: /usr/share/doc/fonts-smc-chilanka/README.Debian
+SPDXID: SPDXRef-fonts-smc-chilanka-file-2
+FileChecksum: SHA1: 77c00e5b72b44111c74740c4cc9d53e5eba023e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-chilanka CONTAINS SPDXRef-fonts-smc-chilanka-file-2
+
+
+FileName: /usr/share/doc/fonts-smc-chilanka/README.md
+SPDXID: SPDXRef-fonts-smc-chilanka-file-3
+FileChecksum: SHA1: 98f6c97e4c82e08df1a1282c337ccef03b03c169
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-chilanka CONTAINS SPDXRef-fonts-smc-chilanka-file-3
+
+
+FileName: /usr/share/doc/fonts-smc-chilanka/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-smc-chilanka-file-4
+FileChecksum: SHA1: be2a6a31f1fc7e3bdeb1fc367fd440dde659dd10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-chilanka CONTAINS SPDXRef-fonts-smc-chilanka-file-4
+
+
+FileName: /usr/share/fonts/opentype/malayalam/Chilanka-Regular.otf
+SPDXID: SPDXRef-fonts-smc-chilanka-file-5
+FileChecksum: SHA1: 1094da4fc4260bcf7ee5ff275c07dc8d816a4567
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-chilanka CONTAINS SPDXRef-fonts-smc-chilanka-file-5
+
+
+FileName: /etc/fonts/conf.d/67-smc-chilanka.conf
+SPDXID: SPDXRef-fonts-smc-chilanka-file-6
+FileChecksum: SHA1: 1827d5946c6ae2a00b8cb9d95daa93d0a0234521
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-chilanka CONTAINS SPDXRef-fonts-smc-chilanka-file-6
+
+
+## Extracted License
+

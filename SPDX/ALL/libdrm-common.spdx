@@ -1,0 +1,138 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libdrm-common_2.4.110-1ubuntu1-1b0a9123-716d-5dcc-a445-a4b62cb926f2
+DocumentName: libdrm-common_2.4.110-1ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdrm-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:54:50Z
+
+
+## Package
+
+PackageName: libdrm-common
+PackageVersion: 2.4.110-1ubuntu1
+SPDXID: SPDXRef-libdrm-common
+PackageHomePage: https://cgit.freedesktop.org/mesa/drm/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9583b14e39b09d9fb41dead9b397981508a9c0e2
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright (c) 1999 Wittawat Yamwong
+Copyright (c) 2007 Intel Corporation
+Copyright (c) 2007 Nouveau Project
+Copyright (c) 2007-2008 Dave Airlie <airlied@linux.ie>
+Copyright (c) 2007-2008 Intel Corporation
+Copyright (c) 2007-2008 Jakob Bornecrantz <wallbraker@gmail.com>
+Copyright (c) 2007-2008 Tungsten Graphics, Inc., Cedar Park, TX., USA
+Copyright (c) 2007-2009 Intel Corporation
+Copyright (c) 2007-2009 Red Hat Inc.
+Copyright (c) 2008 Dave Airlie
+Copyright (c) 2008 Jerome Glisse
+Copyright (c) 2008 Nicolai Haehnle
+Copyright (c) 2008 Red Hat Inc.
+Copyright (c) 2009 VMware, Inc., Palo Alto, CA., USA
+Copyright 1998-2003 VIA Technologies, Inc.
+Copyright 2000 Gareth Hughes
+Copyright 2000 Precision Insight, Inc., Cedar Park, Texas
+Copyright 2000 VA Linux Systems, Inc., Sunnyvale, California
+Copyright 2001-2003 S3 Graphics, Inc.
+Copyright 2002 Frank C. Earl
+Copyright 2002 Tungsten Graphics, Inc., Cedar Park, Texas
+Copyright 2002-2003 Leif Delgass
+Copyright 2002-2006 Tungsten Graphics, Inc., Cedar Park, Texas
+Copyright 2004 Felix Kuehling
+Copyright 2005 Adam Jackson
+Copyright 2005 Eric Anholt
+Copyright 2005 Stephane Marchesin
+Copyright 2006 Tungsten Graphics, Inc., Bismarck, ND., USA
+Copyright 2010 Jerome Glisse <glisse@freedesktop.org>
+</text>
+PackageComment: <text>Userspace interface to kernel DRM services -- common files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides common files for libdrm.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libdrm-common/copyright
+SPDXID: SPDXRef-libdrm-common-file-0
+FileChecksum: SHA1: 1a2574056261d0729d3626c80712aa6088212720
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2005 Adam Jackson
+Copyright 2000 Precision Insight, Inc., Cedar Park, Texas
+Copyright 2000 VA Linux Systems, Inc., Sunnyvale, California
+Copyright 2002 Tungsten Graphics, Inc., Cedar Park, Texas
+Copyright (c) 2007-2008 Dave Airlie <airlied@linux.ie>
+Copyright (c) 2007-2008 Jakob Bornecrantz <wallbraker@gmail.com>
+Copyright (c) 2008 Red Hat Inc.
+Copyright (c) 2007-2008 Tungsten Graphics, Inc., Cedar Park, TX., USA
+Copyright (c) 2007-2009 Intel Corporation
+Copyright 2002-2006 Tungsten Graphics, Inc., Cedar Park, Texas
+Copyright 2000 Gareth Hughes
+Copyright 2002 Frank C. Earl
+Copyright 2002-2003 Leif Delgass
+Copyright 2000 VA Linux Systems, Inc., Sunnyvale, California
+Copyright 2005 Stephane Marchesin
+Copyright 2004 Felix Kuehling
+Copyright 2005 Eric Anholt
+Copyright (c) 2007-2008 Intel Corporation
+Copyright (c) 2008 Jerome Glisse
+Copyright 1998-2003 VIA Technologies, Inc.
+Copyright 2001-2003 S3 Graphics, Inc.
+Copyright (c) 2009 VMware, Inc., Palo Alto, CA., USA
+Copyright (c) 2007-2009 Red Hat Inc.
+Copyright (c) 2007 Intel Corporation
+Copyright 2006 Tungsten Graphics, Inc., Bismarck, ND., USA
+Copyright (c) 2008 Dave Airlie
+Copyright (c) 2008 Jerome Glisse
+Copyright (c) 2008 Nicolai Haehnle
+Copyright (c) 1999 Wittawat Yamwong
+Copyright (c) 2007 Nouveau Project
+Copyright 2010 Jerome Glisse <glisse@freedesktop.org>
+</text>
+Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common-file-0
+
+
+FileName: /usr/share/doc/libdrm-common/changelog.Debian.gz
+SPDXID: SPDXRef-libdrm-common-file-1
+FileChecksum: SHA1: 7db2514538fe8726088a1ff289e94195e4a069ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common-file-1
+
+
+FileName: /usr/share/libdrm/amdgpu.ids
+SPDXID: SPDXRef-libdrm-common-file-2
+FileChecksum: SHA1: b2e4f043e0a98d7029cb942a6dd18d8b356e9beb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdrm-common CONTAINS SPDXRef-libdrm-common-file-2
+
+
+## Extracted License
+

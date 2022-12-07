@@ -1,0 +1,205 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/mozc-data_2.26.4220.100+dfsg-5.2-c3cdbfac-44fa-5ac8-b8d3-27f67d378f5f
+DocumentName: mozc-data_2.26.4220.100+dfsg-5.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mozc-data
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:25:24Z
+
+
+## Package
+
+PackageName: mozc-data
+PackageVersion: 2.26.4220.100+dfsg-5.2
+SPDXID: SPDXRef-mozc-data
+PackageHomePage: https://github.com/google/mozc.git
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b198efa25794969bf60cc7c6640448454cc5bf04
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: NAIST-2003
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unicode
+PackageCopyrightText: <text>Copyright (c) 1991-2010 Unicode, Inc.
+Copyright 2000, 2001, 2002, 2003 Nara Institute of Science and Technology
+Copyright 2010 - 2018 Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Copyright 2010 Google Inc. 2010-2016 https://github.com/e-kato/macuim.git
+Copyright 2010-2018, Google Inc.
+Copyright 2012 CSSlayer Weng Xuetian <wengxt@gmail.com>
+Copyright Unicode, Inc.
+</text>
+PackageComment: <text>Mozc input method - data files
+ Mozc is a Japanese Input Method Editor (IME) designed for multi-platform
+ such as Chromium OS, Windows, Mac and Linux.
+ .
+ This package provides the essential data files.
+ .
+ This open-source project originates from Google Japanese Input.</text>
+
+
+## File
+
+FileName: /usr/share/doc/mozc-data/copyright
+SPDXID: SPDXRef-mozc-data-file-0
+FileChecksum: SHA1: 73a204f61f2b8585ccd76865ef15f95d8a5bb29a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: NAIST-2003
+LicenseInfoInFile: LicenseRef-scancode-unicode
+FileCopyrightText: <text>Copyright 2010-2018, Google Inc.
+Copyright Unicode, Inc.
+Copyright 2000, 2001, 2002, 2003 Nara Institute of Science and Technology
+Copyright 2010 - 2018 Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Copyright 2010 Google Inc. 2010-2016 https://github.com/e-kato/macuim.git
+Copyright 2012 CSSlayer Weng Xuetian <wengxt@gmail.com>
+Copyright (c) 1991-2010 Unicode, Inc.
+Copyright 2000, 2001, 2002, 2003 Nara Institute of Science and Technology
+</text>
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-0
+
+
+FileName: /usr/share/doc/mozc-data/README.Debian
+SPDXID: SPDXRef-mozc-data-file-1
+FileChecksum: SHA1: e35c6e69fbe2d5def884b9b5ec70c8d21a57c6fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-1
+
+
+FileName: /usr/share/doc/mozc-data/changelog.Debian.gz
+SPDXID: SPDXRef-mozc-data-file-2
+FileChecksum: SHA1: 53f29fc26ff744e8c0e5c4248fb541f3e345922c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-2
+
+
+FileName: /usr/share/icons/mozc/ime_product_icon_opensource-32.png
+SPDXID: SPDXRef-mozc-data-file-3
+FileChecksum: SHA1: 666ecf34ebcb62041a1ca7d45734c896c6a2eddf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-3
+
+
+FileName: /usr/share/icons/mozc/product_icon_32bpp-128.png
+SPDXID: SPDXRef-mozc-data-file-4
+FileChecksum: SHA1: de5444a8d8be7bb57212027ccacf29fd310e8657
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-4
+
+
+FileName: /usr/share/icons/mozc/ui-alpha_full.png
+SPDXID: SPDXRef-mozc-data-file-5
+FileChecksum: SHA1: 7aa27124d499be5bf401f300a35f4fce107f310b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-5
+
+
+FileName: /usr/share/icons/mozc/ui-alpha_half.png
+SPDXID: SPDXRef-mozc-data-file-6
+FileChecksum: SHA1: d83e6f108992318862cbdf2c637d0d1e8b2c28bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-6
+
+
+FileName: /usr/share/icons/mozc/ui-dictionary.png
+SPDXID: SPDXRef-mozc-data-file-7
+FileChecksum: SHA1: 43a67a0f147ada0216999ac3176e29a9c62ecac8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-7
+
+
+FileName: /usr/share/icons/mozc/ui-direct.png
+SPDXID: SPDXRef-mozc-data-file-8
+FileChecksum: SHA1: c8ead7d5ff761c789814f6819416cc9a052ba7a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-8
+
+
+FileName: /usr/share/icons/mozc/ui-hiragana.png
+SPDXID: SPDXRef-mozc-data-file-9
+FileChecksum: SHA1: 5c217f70f71b9243ad2fadcc60c64cae6f6babd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-9
+
+
+FileName: /usr/share/icons/mozc/ui-katakana_full.png
+SPDXID: SPDXRef-mozc-data-file-10
+FileChecksum: SHA1: 8ff80c030082fd510986ee55fd9776f6fc481013
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-10
+
+
+FileName: /usr/share/icons/mozc/ui-katakana_half.png
+SPDXID: SPDXRef-mozc-data-file-11
+FileChecksum: SHA1: 00fb183430d51db5ca6f069164f873fb9ee105ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-11
+
+
+FileName: /usr/share/icons/mozc/ui-properties.png
+SPDXID: SPDXRef-mozc-data-file-12
+FileChecksum: SHA1: 38864a9d8a7fb20f1b5dddbc35534f67ff31e421
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-12
+
+
+FileName: /usr/share/icons/mozc/ui-tool.png
+SPDXID: SPDXRef-mozc-data-file-13
+FileChecksum: SHA1: e60a78c8dd5f4630e3fab49542195e2fb1e40d36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-data CONTAINS SPDXRef-mozc-data-file-13
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unicode
+LicenseName: Unicode Inc License Agreement
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml
+</text>
+
+

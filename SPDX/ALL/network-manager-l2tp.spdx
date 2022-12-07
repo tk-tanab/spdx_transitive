@@ -1,0 +1,742 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/network-manager-l2tp_1.20.0-1build2-7527d355-406e-5627-b4d5-a0bd964b3507
+DocumentName: network-manager-l2tp_1.20.0-1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-xl2tpd http://spdx.org/spdxdocs/xl2tpd_1.3.16-1ubuntu0.1-68840f29-b632-5e51-a461-70125f617caa SHA1: 866936bac21cad03243b41a825d5474d7fbbdb51
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-strongswan http://spdx.org/spdxdocs/strongswan_5.9.5-2ubuntu2.1-a6c6eb76-c9f4-5c06-8ee6-6b7f0b12fc6b SHA1: e99319513485c5a6e9e278544d9645d3552d4a06
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-network-manager-l2tp
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:04:30Z
+
+
+## Package
+
+PackageName: network-manager-l2tp
+PackageVersion: 1.20.0-1build2
+SPDXID: SPDXRef-network-manager-l2tp
+PackageHomePage: https://github.com/nm-l2tp/NetworkManager-l2tp
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 80d655dd007db80e03d45dcfb44f6b429adff6d7
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2008 - 2014 Red Hat, Inc. 2007 - 2008 Novell, Inc. 2016 - 2020 Douglas Kosovic <doug@uq.edu.au> 2014 Nathan Dorfman <ndorf@rtfm.net> 2012 Sergey Prokhorov <me@seriyps.ru>
+Copyright 2008 - 2018 Red Hat, Inc. 2012 Colin Walters <walters@verbum.org>
+Copyright 2016 Copyright Lubomir Rintel <lkundrak@v3.sk>
+</text>
+PackageComment: <text>network management framework (L2TP plugin core)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides a VPN plugin for L2TP with optional IPsec support.</text>
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnm0
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnspr4
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnss3
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libssl3
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ppp
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-network-manager
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-xl2tpd:SPDXRef-xl2tpd
+Relationship: SPDXRef-network-manager-l2tp DEPENDS_ON DocumentRef-strongswan:SPDXRef-strongswan
+
+
+## File
+
+FileName: /usr/share/doc/network-manager-l2tp/copyright
+SPDXID: SPDXRef-network-manager-l2tp-file-0
+FileChecksum: SHA1: a0e84026198764bb81d3f230762a1662f1ebdb1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2008 - 2014 Red Hat, Inc. 2007 - 2008 Novell, Inc. 2016 - 2020 Douglas Kosovic <doug@uq.edu.au> 2014 Nathan Dorfman <ndorf@rtfm.net> 2012 Sergey Prokhorov <me@seriyps.ru>
+Copyright 2008 - 2018 Red Hat, Inc. 2012 Colin Walters <walters@verbum.org>
+Copyright 2016 Copyright Lubomir Rintel <lkundrak@v3.sk>
+</text>
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-0
+
+
+FileName: /usr/lib/NetworkManager/VPN/nm-l2tp-service.name
+SPDXID: SPDXRef-network-manager-l2tp-file-1
+FileChecksum: SHA1: dc44d06f3e4a922dc49067db64537c8e8acb30e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-1
+
+
+FileName: /usr/lib/NetworkManager/nm-l2tp-service
+SPDXID: SPDXRef-network-manager-l2tp-file-2
+FileChecksum: SHA1: cbba2534b181bdfbebc6886b918ecc53b5669a41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-2
+
+
+FileName: /usr/lib/pppd/2.4.9/nm-l2tp-pppd-plugin.so
+SPDXID: SPDXRef-network-manager-l2tp-file-3
+FileChecksum: SHA1: cda563477e0819256241e0828c82b2e61bdd7dcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/NetworkManager/libnm-vpn-plugin-l2tp.so
+SPDXID: SPDXRef-network-manager-l2tp-file-4
+FileChecksum: SHA1: c06ab479d56e8124eeacabf2e3e8863a8cfaaf57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-4
+
+
+FileName: /usr/share/dbus-1/system.d/nm-l2tp-service.conf
+SPDXID: SPDXRef-network-manager-l2tp-file-5
+FileChecksum: SHA1: 55d3326893d13b91c4891d14610dc97f4e46aa25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-5
+
+
+FileName: /usr/share/doc/network-manager-l2tp/AUTHORS
+SPDXID: SPDXRef-network-manager-l2tp-file-6
+FileChecksum: SHA1: 8914ff2857378f89de2a83856a29b303c028e10a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-6
+
+
+FileName: /usr/share/doc/network-manager-l2tp/NEWS.gz
+SPDXID: SPDXRef-network-manager-l2tp-file-7
+FileChecksum: SHA1: c82eeeae7f3d46d7f01f05975bc31ebcc573bb28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-7
+
+
+FileName: /usr/share/doc/network-manager-l2tp/README.md.gz
+SPDXID: SPDXRef-network-manager-l2tp-file-8
+FileChecksum: SHA1: b19610a63c8d495b9e64d5af6aa29b0468bcd9ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-8
+
+
+FileName: /usr/share/doc/network-manager-l2tp/changelog.Debian.gz
+SPDXID: SPDXRef-network-manager-l2tp-file-9
+FileChecksum: SHA1: adb39e04053dced3b057855cd846b2c7e9d628d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-9
+
+
+FileName: /usr/share/locale/ar/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-10
+FileChecksum: SHA1: c4203a35c28667f02b7f6abfdfceb0368a6661ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-10
+
+
+FileName: /usr/share/locale/as/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-11
+FileChecksum: SHA1: 0af558618bea27039ef74475ab03a69756da9670
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-11
+
+
+FileName: /usr/share/locale/be/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-12
+FileChecksum: SHA1: fe60a08a6c380e9f2b3c81c43a33f5d899f0dabf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-12
+
+
+FileName: /usr/share/locale/be@latin/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-13
+FileChecksum: SHA1: f73756a985d63d59f6b7ac5e87e52bb652d4270f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-13
+
+
+FileName: /usr/share/locale/bg/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-14
+FileChecksum: SHA1: 55b132902bc5a8575132a4b2557fae6d129427e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-14
+
+
+FileName: /usr/share/locale/bn_IN/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-15
+FileChecksum: SHA1: d7940bb32b224e6a21f296c5f7c92ecb4f80f556
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-15
+
+
+FileName: /usr/share/locale/bs/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-16
+FileChecksum: SHA1: f0310382b9957014c65e728f476400295adf8d26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-16
+
+
+FileName: /usr/share/locale/ca/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-17
+FileChecksum: SHA1: 6d7df1207fbf603f9290f3e5e7dfc7f520c95c1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-17
+
+
+FileName: /usr/share/locale/ca@valencia/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-18
+FileChecksum: SHA1: 62cbc1139710f1bea98f0cb9afdb6d130aaf9149
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-18
+
+
+FileName: /usr/share/locale/cs/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-19
+FileChecksum: SHA1: 6e2c0c4c143689cf5ac3a92cbf6645f2412ae8d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-19
+
+
+FileName: /usr/share/locale/da/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-20
+FileChecksum: SHA1: 2d7ad3626e6fbe4d551b233b99c8108efddbc2b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-20
+
+
+FileName: /usr/share/locale/de/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-21
+FileChecksum: SHA1: 139f61060fa8badb328afa4297ac266d50a93223
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-21
+
+
+FileName: /usr/share/locale/dz/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-22
+FileChecksum: SHA1: 3f7678ca571020a96f5b0435fc32b14bd2d1a5c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-22
+
+
+FileName: /usr/share/locale/el/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-23
+FileChecksum: SHA1: c2f2ab79fff8ab5911892296a7e0d2e9163417aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-23
+
+
+FileName: /usr/share/locale/en_GB/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-24
+FileChecksum: SHA1: 24dee77b7121cb151a136be1ec01101c01223f42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-24
+
+
+FileName: /usr/share/locale/eo/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-25
+FileChecksum: SHA1: 0fc38ca6bb9c8703bbdf548435b6ff5b4f26d63b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-25
+
+
+FileName: /usr/share/locale/es/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-26
+FileChecksum: SHA1: a39eb38e9774db4afcf349669110aa6660c5af98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-26
+
+
+FileName: /usr/share/locale/et/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-27
+FileChecksum: SHA1: 499f66f99766a365ec874eabd8fdb3cce3f28e86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-27
+
+
+FileName: /usr/share/locale/eu/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-28
+FileChecksum: SHA1: 34bcc13f3114649bf81359f0ff73c6b5338c866a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-28
+
+
+FileName: /usr/share/locale/fa/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-29
+FileChecksum: SHA1: 5287af057378385b8945499965805dd18b99708a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-29
+
+
+FileName: /usr/share/locale/fi/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-30
+FileChecksum: SHA1: 13577b31eab388a6b5cc5a48089f19446bc7d027
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-30
+
+
+FileName: /usr/share/locale/fr/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-31
+FileChecksum: SHA1: 96819bd40631e98a3dc5fae976cbddfd818e6423
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-31
+
+
+FileName: /usr/share/locale/fur/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-32
+FileChecksum: SHA1: f7b81bb1f2b07e95291bcf9c232ad000fa6ceac1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-32
+
+
+FileName: /usr/share/locale/gl/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-33
+FileChecksum: SHA1: 1f78e72d947404cea5425f1316fe4b0d7996b04c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-33
+
+
+FileName: /usr/share/locale/gu/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-34
+FileChecksum: SHA1: 963d8cbe1d28e62c261faef956a8c3edf77d3fb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-34
+
+
+FileName: /usr/share/locale/he/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-35
+FileChecksum: SHA1: df5dc1e3e18220815b7561e2b7633fdda2b1233b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-35
+
+
+FileName: /usr/share/locale/hr/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-36
+FileChecksum: SHA1: 64dd75ecc89af163e77897fb7597d044601c1189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-36
+
+
+FileName: /usr/share/locale/hu/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-37
+FileChecksum: SHA1: eba97cf9deac42a676e74bfb755b942bacf38bfa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-37
+
+
+FileName: /usr/share/locale/id/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-38
+FileChecksum: SHA1: d5e123f9206875f4a95d19b82fadf2a2067595a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-38
+
+
+FileName: /usr/share/locale/it/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-39
+FileChecksum: SHA1: cdd2e3f344ecb08e751027e1adc8b933e1ed83e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-39
+
+
+FileName: /usr/share/locale/ja/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-40
+FileChecksum: SHA1: 580ab658739b36ffe38af9162fc84fbc4a84fc6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-40
+
+
+FileName: /usr/share/locale/ka/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-41
+FileChecksum: SHA1: 316e3ff2e1e002e0f4e45d3e2e963c6cdebc1662
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-41
+
+
+FileName: /usr/share/locale/kn/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-42
+FileChecksum: SHA1: 0f37fac8921d6920b65a063ab6f60f70ce76faa4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-42
+
+
+FileName: /usr/share/locale/ko/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-43
+FileChecksum: SHA1: 0d08bd1124067cef400d8dda64ffb941aeacdeba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-43
+
+
+FileName: /usr/share/locale/lt/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-44
+FileChecksum: SHA1: 139add327562a8e891f96e3112fea93b1a875aa4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-44
+
+
+FileName: /usr/share/locale/lv/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-45
+FileChecksum: SHA1: 5e075252f8a465de3ab07fb3b24a690f655f73d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-45
+
+
+FileName: /usr/share/locale/mk/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-46
+FileChecksum: SHA1: be4f179813bfbfa72b04b395b5e7aa54d9f54e78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-46
+
+
+FileName: /usr/share/locale/mr/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-47
+FileChecksum: SHA1: 91521017010c5c819a3db3b3d44cc13edf6a7657
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-47
+
+
+FileName: /usr/share/locale/nb/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-48
+FileChecksum: SHA1: 5590804f369048db4e9d6bca49ccf2bdcf2eaab9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-48
+
+
+FileName: /usr/share/locale/nl/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-49
+FileChecksum: SHA1: e04ed3e1b70cd9279af624cf2819aa39c68d8c91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-49
+
+
+FileName: /usr/share/locale/oc/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-50
+FileChecksum: SHA1: 6d43740dcfd8432f7150372ac5caba267cde3210
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-50
+
+
+FileName: /usr/share/locale/or/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-51
+FileChecksum: SHA1: 205510d9fc4fada04276facfcb5c917e2ae8667d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-51
+
+
+FileName: /usr/share/locale/pa/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-52
+FileChecksum: SHA1: a5cf2d389af2b49b397483ace4e286f86646d0e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-52
+
+
+FileName: /usr/share/locale/pl/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-53
+FileChecksum: SHA1: 0d2ef898f64b2fa644f929e0d8fad163d06c6687
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-53
+
+
+FileName: /usr/share/locale/ps/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-54
+FileChecksum: SHA1: a7fedb571ed6b50e6fce08045fdde6ee49b1b53e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-54
+
+
+FileName: /usr/share/locale/pt/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-55
+FileChecksum: SHA1: 39a613d1e983109da00119d9a2364b5f1f91679b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-55
+
+
+FileName: /usr/share/locale/pt_BR/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-56
+FileChecksum: SHA1: dc63f4a8fa2144d267d94e77b791b0de5419faa6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-56
+
+
+FileName: /usr/share/locale/ro/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-57
+FileChecksum: SHA1: 5691141f86b257a1348c617c9112f966a4ad8757
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-57
+
+
+FileName: /usr/share/locale/ru/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-58
+FileChecksum: SHA1: 1f2764682341dea7d3ba774fe7b45e2b1ca47ef0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-58
+
+
+FileName: /usr/share/locale/sk/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-59
+FileChecksum: SHA1: 4a23b87a8f8ee3bb3e2b8532c2a3b60012b7a476
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-59
+
+
+FileName: /usr/share/locale/sl/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-60
+FileChecksum: SHA1: 487924752fe265cdcc340f4feab7505cc76a4905
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-60
+
+
+FileName: /usr/share/locale/sr/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-61
+FileChecksum: SHA1: b87b26faf31ff0202fabe7879e4d2676b4e98912
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-61
+
+
+FileName: /usr/share/locale/sr@latin/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-62
+FileChecksum: SHA1: 51082c4891eae66d63bf30ee7886d9bdbc59831a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-62
+
+
+FileName: /usr/share/locale/sv/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-63
+FileChecksum: SHA1: 672b2d1583721d5fd34ce482e42a4fa996f4b3b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-63
+
+
+FileName: /usr/share/locale/ta/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-64
+FileChecksum: SHA1: 63d6423425ff7b0feaa82c9b2972f69461758e7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-64
+
+
+FileName: /usr/share/locale/te/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-65
+FileChecksum: SHA1: 36b8e55ab115cf8fe9e01401b60111d16728ac58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-65
+
+
+FileName: /usr/share/locale/th/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-66
+FileChecksum: SHA1: 5143f3e8e1462f60d0c41a45fe4b4667732290da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-66
+
+
+FileName: /usr/share/locale/tr/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-67
+FileChecksum: SHA1: 4a57dcb11861dee5b5c8a445df336de759f0aae4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-67
+
+
+FileName: /usr/share/locale/ug/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-68
+FileChecksum: SHA1: 8634f5535a97df46452f03ab280d4619f4e9f92f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-68
+
+
+FileName: /usr/share/locale/uk/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-69
+FileChecksum: SHA1: 2d78c24c762bda32d236ca21a5bbd8b073e2c19d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-69
+
+
+FileName: /usr/share/locale/vi/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-70
+FileChecksum: SHA1: 7ce7b5c3a63e2a4e2d19518d635ec5944ea6896f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-70
+
+
+FileName: /usr/share/locale/zh_CN/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-71
+FileChecksum: SHA1: e6dfee94f98f3a66e917299dccf3191a291c49f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-71
+
+
+FileName: /usr/share/locale/zh_HK/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-72
+FileChecksum: SHA1: 5161340b9ab8b409bda95907ebdd68a95a016018
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-72
+
+
+FileName: /usr/share/locale/zh_TW/LC_MESSAGES/NetworkManager-l2tp.mo
+SPDXID: SPDXRef-network-manager-l2tp-file-73
+FileChecksum: SHA1: c139a2bae6c78d93143c94d8f1f62103c9a9a187
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp CONTAINS SPDXRef-network-manager-l2tp-file-73
+
+
+## Extracted License
+

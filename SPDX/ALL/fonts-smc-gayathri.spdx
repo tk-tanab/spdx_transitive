@@ -1,0 +1,109 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-smc-gayathri_1.110-2-1-385227c3-e67a-5878-8bf7-b2fe78af4f5b
+DocumentName: fonts-smc-gayathri_1.110-2-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-smc-gayathri
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:55:46Z
+
+
+## Package
+
+PackageName: fonts-smc-gayathri
+PackageVersion: 1.110-2-1
+SPDXID: SPDXRef-fonts-smc-gayathri
+PackageHomePage: https://smc.org.in
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 6dd266e4a7d56b2b11e84b8be29a0bcd081e0d02
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2018 Santhosh Thottingal
+Copyright 2019 Balasankar C 2019 Swathanthra Malayalam Computing
+Copyright 2019 Binoy Dominic 2019 Santhosh Thottingal 2019 Kavya Manohar
+Copyright 2019, The Gayathri Project
+Copyright 2019-2022, Balasankar C <balasankarc@debian.org>
+</text>
+PackageComment: <text>Gayathri Malayalam font
+ This package provides Gayathri font for Malayalam script
+ which is primarily used in the state of Kerala. The font is
+ developed by SMC community.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-smc-gayathri/copyright
+SPDXID: SPDXRef-fonts-smc-gayathri-file-0
+FileChecksum: SHA1: b6ba67ee6b373582ed619356f564ae7f437d38bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2019 Binoy Dominic 2019 Santhosh Thottingal 2019 Kavya Manohar
+Copyright 2019 Binoy Dominic 2019 Santhosh Thottingal 2019 Kavya Manohar
+Copyright 2018 Santhosh Thottingal
+Copyright 2019 Balasankar C 2019 Swathanthra Malayalam Computing
+Copyright 2019-2022, Balasankar C <balasankarc@debian.org>
+Copyright 2019, The Gayathri Project
+</text>
+Relationship: SPDXRef-fonts-smc-gayathri CONTAINS SPDXRef-fonts-smc-gayathri-file-0
+
+
+FileName: /usr/share/doc/fonts-smc-gayathri/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-smc-gayathri-file-1
+FileChecksum: SHA1: ae5103d85e305697e82c4d75c4cd28b22b0f41ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-gayathri CONTAINS SPDXRef-fonts-smc-gayathri-file-1
+
+
+FileName: /usr/share/fonts/opentype/malayalam/Gayathri-Bold.otf
+SPDXID: SPDXRef-fonts-smc-gayathri-file-2
+FileChecksum: SHA1: 58c55503a16de7b3176439c793e0292fe647eddd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-gayathri CONTAINS SPDXRef-fonts-smc-gayathri-file-2
+
+
+FileName: /usr/share/fonts/opentype/malayalam/Gayathri-Regular.otf
+SPDXID: SPDXRef-fonts-smc-gayathri-file-3
+FileChecksum: SHA1: e797d18cc968829f3edbd8e8e6180cd3d4f5b225
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-gayathri CONTAINS SPDXRef-fonts-smc-gayathri-file-3
+
+
+FileName: /usr/share/fonts/opentype/malayalam/Gayathri-Thin.otf
+SPDXID: SPDXRef-fonts-smc-gayathri-file-4
+FileChecksum: SHA1: ad78e25d44095e0b8b95d603d938ea3b00de52e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-gayathri CONTAINS SPDXRef-fonts-smc-gayathri-file-4
+
+
+## Extracted License
+

@@ -1,0 +1,97 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/lshw_02.19.git.2021.06.19.996aaad9c7-2build1-e49e251e-9081-55bc-a174-17cbb2160018
+DocumentName: lshw_02.19.git.2021.06.19.996aaad9c7-2build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-usb.ids http://spdx.org/spdxdocs/usb.ids_2022.04.02-1-f11f4729-686e-509d-ad8d-804be5157ef6 SHA1: 1b74a478da4d3c572c4fc0e80fc86fbb6e4e42ed
+ExternalDocumentRef: DocumentRef-pci.ids http://spdx.org/spdxdocs/pci.ids_0.0~2022.01.22-1-21304080-e31f-571f-8871-cb7284727666 SHA1: 4d1b34afe0e792bcc392bde8903be80cc8f65ce2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lshw
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:02:08Z
+
+
+## Package
+
+PackageName: lshw
+PackageVersion: 02.19.git.2021.06.19.996aaad9c7-2build1
+SPDXID: SPDXRef-lshw
+PackageHomePage: https://github.com/lyonel/lshw
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8d7928439b3e274789099a3da1852aa58f7bf26d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Copyright 2003-2008 Lyonel Vincent
+</text>
+PackageComment: <text>information about hardware configuration
+ A small tool to provide detailed information on the hardware
+ configuration of the machine. It can report exact memory
+ configuration, firmware version, mainboard configuration, CPU version
+ and speed, cache configuration, bus speed, etc. on DMI-capable x86
+ systems, on some PowerPC machines (PowerMac G4 is known to work) and AMD64.
+ .
+ Information can be output in plain text, HTML or XML.</text>
+Relationship: SPDXRef-lshw DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-lshw DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-lshw DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+Relationship: SPDXRef-lshw DEPENDS_ON DocumentRef-pci.ids:SPDXRef-pci.ids
+Relationship: SPDXRef-lshw DEPENDS_ON DocumentRef-usb.ids:SPDXRef-usb.ids
+
+
+## File
+
+FileName: /usr/share/doc/lshw/copyright
+SPDXID: SPDXRef-lshw-file-0
+FileChecksum: SHA1: d621fe53cd4d36098643dd8ad856ce17ab4587ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2003-2008 Lyonel Vincent
+</text>
+Relationship: SPDXRef-lshw CONTAINS SPDXRef-lshw-file-0
+
+
+FileName: /usr/bin/lshw
+SPDXID: SPDXRef-lshw-file-1
+FileChecksum: SHA1: 56a91f8e72d05882d5e9b10177b8060b359b770a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lshw CONTAINS SPDXRef-lshw-file-1
+
+
+FileName: /usr/share/doc/lshw/changelog.Debian.gz
+SPDXID: SPDXRef-lshw-file-2
+FileChecksum: SHA1: 92c204c916a01292fee7d740e4190d33f0d1f306
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lshw CONTAINS SPDXRef-lshw-file-2
+
+
+FileName: /usr/share/man/man1/lshw.1.gz
+SPDXID: SPDXRef-lshw-file-3
+FileChecksum: SHA1: 0f1872ebdaff403c85c929958c5f79859ac8c668
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lshw CONTAINS SPDXRef-lshw-file-3
+
+
+## Extracted License
+

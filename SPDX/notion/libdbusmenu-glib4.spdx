@@ -1,0 +1,77 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libdbusmenu-glib4_16.04.1+18.10.20180917-0ubuntu8-46475939-5156-506b-abac-91e86acaf563
+DocumentName: libdbusmenu-glib4_16.04.1+18.10.20180917-0ubuntu8
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdbusmenu-glib4
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:13:04Z
+
+
+## Package
+
+PackageName: libdbusmenu-glib4
+PackageVersion: 16.04.1+18.10.20180917-0ubuntu8
+SPDXID: SPDXRef-libdbusmenu-glib4
+PackageHomePage: https://launchpad.net/dbusmenu
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b85dbb04aeea44e8beda5acdc4e54b59d0c06684
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>library for passing menus over DBus
+ libdbusmenu passes a menu structure across DBus so that a program can
+ create a menu simply without worrying about how it is displayed on the
+ other side of the bus.
+ .
+ This package contains shared libraries to be used by applications.</text>
+
+
+## File
+
+FileName: /usr/lib/x86_64-linux-gnu/libdbusmenu-glib.so.4.0.12
+SPDXID: SPDXRef-libdbusmenu-glib4-file-0
+FileChecksum: SHA1: 91163860b742f1ed14e87720cc3c4c1e925e6b91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdbusmenu-glib4 CONTAINS SPDXRef-libdbusmenu-glib4-file-0
+
+
+FileName: /usr/share/doc/libdbusmenu-glib4/changelog.Debian.gz
+SPDXID: SPDXRef-libdbusmenu-glib4-file-1
+FileChecksum: SHA1: 105c142d43aa8c472cfc23b2581f950a4802f06d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdbusmenu-glib4 CONTAINS SPDXRef-libdbusmenu-glib4-file-1
+
+
+FileName: /usr/share/doc/libdbusmenu-glib4/copyright
+SPDXID: SPDXRef-libdbusmenu-glib4-file-2
+FileChecksum: SHA1: 29dcfa5931af8fd8bb2bd25b252c08edbab45c6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdbusmenu-glib4 CONTAINS SPDXRef-libdbusmenu-glib4-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libdbusmenu-glib.so.4
+SPDXID: SPDXRef-libdbusmenu-glib4-file-3
+FileChecksum: SHA1: 91163860b742f1ed14e87720cc3c4c1e925e6b91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdbusmenu-glib4 CONTAINS SPDXRef-libdbusmenu-glib4-file-3
+
+
+## Extracted License
+

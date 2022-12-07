@@ -1,0 +1,531 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/xfonts-encodings_1:1.0.5-0ubuntu2-318a67e3-2696-5a05-a377-fca36c98dc08
+DocumentName: xfonts-encodings_1:1.0.5-0ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-x11-common http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-3c2a2291-5885-50c3-965d-168ff9a582c5 SHA1: 4b220352ef19f8ce8e2286135494055e0e222aef
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xfonts-encodings
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:28:52Z
+
+
+## Package
+
+PackageName: xfonts-encodings
+PackageVersion: 1:1.0.5-0ubuntu2
+SPDXID: SPDXRef-xfonts-encodings
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 4bbe2b8a5ff8971da07f6f1dc90c6c991b70d9b0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: NONE
+PackageComment: <text>Encodings for X.Org fonts
+ This package contains the encodings that map to specific characters.</text>
+Relationship: SPDXRef-xfonts-encodings DEPENDS_ON DocumentRef-x11-common:SPDXRef-x11-common
+
+
+## File
+
+FileName: /usr/share/doc/xfonts-encodings/copyright
+SPDXID: SPDXRef-xfonts-encodings-file-0
+FileChecksum: SHA1: 142bce56583d753d8bf51d7aebebc8d52db920e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: NONE
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-0
+
+
+FileName: /usr/share/doc/xfonts-encodings/changelog.Debian.gz
+SPDXID: SPDXRef-xfonts-encodings-file-1
+FileChecksum: SHA1: 80498c9fc1e94748a578ad123663fa2e8e84ec9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-1
+
+
+FileName: /usr/share/fonts/X11/encodings/adobe-dingbats.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-2
+FileChecksum: SHA1: aa9bc1df8be1252545016252e162dd3d2cd0b0d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-2
+
+
+FileName: /usr/share/fonts/X11/encodings/adobe-standard.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-3
+FileChecksum: SHA1: d633dfaa26efdb89a8c03f9b09fd76a033e9c866
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-3
+
+
+FileName: /usr/share/fonts/X11/encodings/adobe-symbol.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-4
+FileChecksum: SHA1: c17f202764c67c16c173f9a18140ad17b749dc45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-4
+
+
+FileName: /usr/share/fonts/X11/encodings/armscii-8.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-5
+FileChecksum: SHA1: 0f6c4b0bbc32bdfb94e533c741c597939a58ef8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-5
+
+
+FileName: /usr/share/fonts/X11/encodings/ascii-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-6
+FileChecksum: SHA1: cb00b3ffa4d1b130be039577c88cc7a798e0653b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-6
+
+
+FileName: /usr/share/fonts/X11/encodings/dec-special.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-7
+FileChecksum: SHA1: 98321182a847788e4e1925ef2c6b745d57556f52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-7
+
+
+FileName: /usr/share/fonts/X11/encodings/encodings.dir
+SPDXID: SPDXRef-xfonts-encodings-file-8
+FileChecksum: SHA1: fe96ec673c0f143aba03ad0412c92b6343551a84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-8
+
+
+FileName: /usr/share/fonts/X11/encodings/ibm-cp437.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-9
+FileChecksum: SHA1: 09e541a33ba8048a6676d1d4714161272a8b7264
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-9
+
+
+FileName: /usr/share/fonts/X11/encodings/ibm-cp850.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-10
+FileChecksum: SHA1: c9963ca7b6b108ef0914de840caa7e229ba7b4b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-10
+
+
+FileName: /usr/share/fonts/X11/encodings/ibm-cp852.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-11
+FileChecksum: SHA1: 03372996683c4339e5f847debeac85bfa0a68d7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-11
+
+
+FileName: /usr/share/fonts/X11/encodings/ibm-cp866.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-12
+FileChecksum: SHA1: 475360dd63c0202339c3b01fdc087c0531c75c1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-12
+
+
+FileName: /usr/share/fonts/X11/encodings/iso8859-11.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-13
+FileChecksum: SHA1: ce956a4692c32fd5564348352adf9e0ddf3c5679
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-13
+
+
+FileName: /usr/share/fonts/X11/encodings/iso8859-13.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-14
+FileChecksum: SHA1: 319b9d17ef501ded37bbca109575da04261a262b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-14
+
+
+FileName: /usr/share/fonts/X11/encodings/iso8859-16.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-15
+FileChecksum: SHA1: 0dd30371dcf118aede3361b2684f4b920d1c2397
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-15
+
+
+FileName: /usr/share/fonts/X11/encodings/iso8859-6.16.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-16
+FileChecksum: SHA1: 5a03810382ef3449e3fc157c35ef2f8cc0ed84eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-16
+
+
+FileName: /usr/share/fonts/X11/encodings/iso8859-6.8x.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-17
+FileChecksum: SHA1: 986031b8c7ac01a211552e7f83d871424b8a5a10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-17
+
+
+FileName: /usr/share/fonts/X11/encodings/large/big5.eten-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-18
+FileChecksum: SHA1: f82650f2a91a49b27b57bfbf180dad138553b252
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-18
+
+
+FileName: /usr/share/fonts/X11/encodings/large/big5hkscs-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-19
+FileChecksum: SHA1: 6d001d7e82eadb14881ebba14a0bc2860c995e1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-19
+
+
+FileName: /usr/share/fonts/X11/encodings/large/cns11643-1.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-20
+FileChecksum: SHA1: b3e5e0f2e6e87f55c9c25c9d97917ef1273ac67d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-20
+
+
+FileName: /usr/share/fonts/X11/encodings/large/cns11643-2.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-21
+FileChecksum: SHA1: df50017a36b90d95c4da45e41d1b0fd8b6f462cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-21
+
+
+FileName: /usr/share/fonts/X11/encodings/large/cns11643-3.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-22
+FileChecksum: SHA1: a2be0f16a99fe8961595d4c33874dce2f0c1b532
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-22
+
+
+FileName: /usr/share/fonts/X11/encodings/large/encodings.dir
+SPDXID: SPDXRef-xfonts-encodings-file-23
+FileChecksum: SHA1: f0d79a0bd686789a07b0ac14d4ce1991161ce933
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-23
+
+
+FileName: /usr/share/fonts/X11/encodings/large/gb18030-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-24
+FileChecksum: SHA1: dc6cac650cecb14f90bcb518aeb811ac96b4c4a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-24
+
+
+FileName: /usr/share/fonts/X11/encodings/large/gb18030.2000-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-25
+FileChecksum: SHA1: 37fa37359b36241575bf2d2b7cd99d0b86e4b3a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-25
+
+
+FileName: /usr/share/fonts/X11/encodings/large/gb18030.2000-1.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-26
+FileChecksum: SHA1: ee7c5d86741b8baf21e9613b0882e7a5117f56a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-26
+
+
+FileName: /usr/share/fonts/X11/encodings/large/gb2312.1980-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-27
+FileChecksum: SHA1: d8f02b1d40b76a190688c6980530ea3bc705eb38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-27
+
+
+FileName: /usr/share/fonts/X11/encodings/large/gbk-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-28
+FileChecksum: SHA1: b05048476352ac6946a9eeda361215b1497f4a81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-28
+
+
+FileName: /usr/share/fonts/X11/encodings/large/jisx0201.1976-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-29
+FileChecksum: SHA1: 73d69f38e4b8004fdcbf4c05596d7142db2d6dd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-29
+
+
+FileName: /usr/share/fonts/X11/encodings/large/jisx0208.1990-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-30
+FileChecksum: SHA1: fc9f508eff65b2f7aa2875522d58fd8a256e40fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-30
+
+
+FileName: /usr/share/fonts/X11/encodings/large/jisx0212.1990-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-31
+FileChecksum: SHA1: 0d1781120549dcfae4897c195ffe5e7fbca45e50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-31
+
+
+FileName: /usr/share/fonts/X11/encodings/large/ksc5601.1987-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-32
+FileChecksum: SHA1: 08ed2e23f39f9665bf23a1ed540386e3939113f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-32
+
+
+FileName: /usr/share/fonts/X11/encodings/large/ksc5601.1992-3.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-33
+FileChecksum: SHA1: a43e76d2571e2132fd4fe7facbf833dab7f9010a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-33
+
+
+FileName: /usr/share/fonts/X11/encodings/large/sun.unicode.india-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-34
+FileChecksum: SHA1: a529568fa8eb209b4b44827723c02055217fd4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-34
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-cp1250.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-35
+FileChecksum: SHA1: 4792fb22bfb7aa6b6951574e7b5bea11d7020226
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-35
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-cp1251.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-36
+FileChecksum: SHA1: b7f55c153dd7bcd1a39b21c1753af73c1fd9ee43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-36
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-cp1252.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-37
+FileChecksum: SHA1: 445357a4a964eac9ea16ce2052a03d10ee07bf44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-37
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-cp1253.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-38
+FileChecksum: SHA1: 688058636935d95b1a9dd6f6e9cc0b5fe068d3bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-38
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-cp1254.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-39
+FileChecksum: SHA1: 08eb7a8e1b1b80e090df96a480de1991f997e2b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-39
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-cp1255.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-40
+FileChecksum: SHA1: 6b722266a0a831d64425a060a3ace27f6569aaa9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-40
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-cp1256.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-41
+FileChecksum: SHA1: 348a7963032667de4cf3527c65663c1d37254edf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-41
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-cp1257.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-42
+FileChecksum: SHA1: fea1c8f308d87fcf2488f4ee58773bdedd85b687
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-42
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-cp1258.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-43
+FileChecksum: SHA1: 576b007c8bf6b0107c6455316c1409a403d9deed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-43
+
+
+FileName: /usr/share/fonts/X11/encodings/microsoft-win3.1.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-44
+FileChecksum: SHA1: 7d55f91a4684033afc8b4b79a17d2324fe9ab5df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-44
+
+
+FileName: /usr/share/fonts/X11/encodings/mulearabic-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-45
+FileChecksum: SHA1: 9a8732f077f80ca9b876cb6c8179b4f46a4b037b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-45
+
+
+FileName: /usr/share/fonts/X11/encodings/mulearabic-1.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-46
+FileChecksum: SHA1: 4c260534858b7e4a058be36cee316b99fe85f673
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-46
+
+
+FileName: /usr/share/fonts/X11/encodings/mulearabic-2.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-47
+FileChecksum: SHA1: 7b1e80ea260faba6d584e3e7cff1e57f7b36370f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-47
+
+
+FileName: /usr/share/fonts/X11/encodings/mulelao-1.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-48
+FileChecksum: SHA1: 9ce857e642bb30b2b28ef71b2157ad27de4a0348
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-48
+
+
+FileName: /usr/share/fonts/X11/encodings/suneu-greek.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-49
+FileChecksum: SHA1: 794434cfe802da9dfd2f6fc6cd883f5b8a4234ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-49
+
+
+FileName: /usr/share/fonts/X11/encodings/tcvn-0.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-50
+FileChecksum: SHA1: 3bf0126a806390de5e010d052fb1874ab9a6de72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-50
+
+
+FileName: /usr/share/fonts/X11/encodings/tis620-2.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-51
+FileChecksum: SHA1: fa39ea71d49def6d70b5a117211b0210590c8700
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-51
+
+
+FileName: /usr/share/fonts/X11/encodings/viscii1.1-1.enc.gz
+SPDXID: SPDXRef-xfonts-encodings-file-52
+FileChecksum: SHA1: 6df32297cb26ed37e1d957c7d0e593a7253bf308
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xfonts-encodings CONTAINS SPDXRef-xfonts-encodings-file-52
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

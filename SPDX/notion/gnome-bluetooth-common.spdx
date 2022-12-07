@@ -1,0 +1,65 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-bluetooth-common_3.34.5-8-2f223ac8-f4be-5d41-9cae-6cf73492dbc7
+DocumentName: gnome-bluetooth-common_3.34.5-8
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-bluetooth-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:12:51Z
+
+
+## Package
+
+PackageName: gnome-bluetooth-common
+PackageVersion: 3.34.5-8
+SPDXID: SPDXRef-gnome-bluetooth-common
+PackageHomePage: https://wiki.gnome.org/Projects/GnomeBluetooth
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 96a7b842eb9fe3eb98c6bd31fc00ea50c3057643
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>GNOME Bluetooth common files
+ This package contains common files for the GNOME Bluetooth
+ libraries and Send To app.</text>
+
+
+## File
+
+FileName: /usr/share/doc/gnome-bluetooth-common/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-bluetooth-common-file-0
+FileChecksum: SHA1: a71c3e3b4154bb4a1262464f9b5c50ce6254e037
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-common CONTAINS SPDXRef-gnome-bluetooth-common-file-0
+
+
+FileName: /usr/share/doc/gnome-bluetooth-common/copyright
+SPDXID: SPDXRef-gnome-bluetooth-common-file-1
+FileChecksum: SHA1: 36c848744d00f82e1ecbf3de7bb765d45baf8f84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-common CONTAINS SPDXRef-gnome-bluetooth-common-file-1
+
+
+FileName: /usr/share/gnome-bluetooth/pin-code-database.xml
+SPDXID: SPDXRef-gnome-bluetooth-common-file-2
+FileChecksum: SHA1: 645e000194cdc4bef222275c32efd87a2dc07903
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth-common CONTAINS SPDXRef-gnome-bluetooth-common-file-2
+
+
+## Extracted License
+

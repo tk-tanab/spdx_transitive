@@ -1,0 +1,124 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/printer-driver-ptouch_1.6-2build1-13d21c11-edc4-5c5d-86a5-006b0c443c8c
+DocumentName: printer-driver-ptouch_1.6-2build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-printer-driver-ptouch
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:22:30Z
+
+
+## Package
+
+PackageName: printer-driver-ptouch
+PackageVersion: 1.6-2build1
+SPDXID: SPDXRef-printer-driver-ptouch
+PackageHomePage: https://github.com/philpem/printer-driver-ptouch
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d18cb01e46f7daf8b98f2cba92c5859fc31128f8
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-autoconf-simple-exception-2.0
+PackageCopyrightText: <text>Copyright 1996, 1997, 1999, 2000, 2002-2005, Free Software Foundation, Inc.
+Copyright 2009, Canonical Ltd.
+Copyright 2011-2015, 2020-2021, Didier Raboud <odyx@debian.org> 2010, 2011, Till Kamppeter <till.kamppeter@gmail.com> 2009, Lars Wirzenius <liw@debian.org>
+Copyright 2020, Andreas Gruenbacher <andreas.gruenbacher@gmail.com> 2015, 2016, Philip Pemberton <philpem@philpem.me.uk> 2006, Arne John Glenstrup <panic@itu.dk>
+</text>
+PackageComment: <text>printer driver Brother P-touch label printers
+ The ptouch driver is an open source driver for the Brother P-touch label
+ printers, from the QL-* and PT-* series.</text>
+Relationship: SPDXRef-printer-driver-ptouch DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ghostscript
+Relationship: SPDXRef-printer-driver-ptouch DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-printer-driver-ptouch DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xz-utils
+Relationship: SPDXRef-printer-driver-ptouch DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-printer-driver-ptouch DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcups2
+
+
+## File
+
+FileName: /usr/share/doc/printer-driver-ptouch/copyright
+SPDXID: SPDXRef-printer-driver-ptouch-file-0
+FileChecksum: SHA1: 5bcc787b194ead0c6159a53635be32804123223a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-autoconf-simple-exception-2.0
+FileCopyrightText: <text>Copyright 2020, Andreas Gruenbacher <andreas.gruenbacher@gmail.com> 2015, 2016, Philip Pemberton <philpem@philpem.me.uk> 2006, Arne John Glenstrup <panic@itu.dk>
+Copyright 1996, 1997, 1999, 2000, 2002-2005, Free Software Foundation, Inc.
+Copyright 2011-2015, 2020-2021, Didier Raboud <odyx@debian.org> 2010, 2011, Till Kamppeter <till.kamppeter@gmail.com> 2009, Lars Wirzenius <liw@debian.org>
+Copyright 2009, Canonical Ltd.
+</text>
+Relationship: SPDXRef-printer-driver-ptouch CONTAINS SPDXRef-printer-driver-ptouch-file-0
+
+
+FileName: /usr/lib/cups/driver/ptouch
+SPDXID: SPDXRef-printer-driver-ptouch-file-1
+FileChecksum: SHA1: 7cf9a9f48509e1b61b64439670324a3d82977ced
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-ptouch CONTAINS SPDXRef-printer-driver-ptouch-file-1
+
+
+FileName: /usr/lib/cups/filter/rastertoptch
+SPDXID: SPDXRef-printer-driver-ptouch-file-2
+FileChecksum: SHA1: cadcd8dec02ff680b02c2d6982a1ff43f33add91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-ptouch CONTAINS SPDXRef-printer-driver-ptouch-file-2
+
+
+FileName: /usr/share/cups/ppd-updaters/printer-driver-ptouch.ppd-updater
+SPDXID: SPDXRef-printer-driver-ptouch-file-3
+FileChecksum: SHA1: 48836bb32dfaa3e157c27a0fc48714ee0e7d9b75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-ptouch CONTAINS SPDXRef-printer-driver-ptouch-file-3
+
+
+FileName: /usr/share/doc/printer-driver-ptouch/changelog.Debian.gz
+SPDXID: SPDXRef-printer-driver-ptouch-file-4
+FileChecksum: SHA1: 516d17118aed64ee56285f3ce86e608d30dec9bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-ptouch CONTAINS SPDXRef-printer-driver-ptouch-file-4
+
+
+FileName: /usr/share/lintian/overrides/printer-driver-ptouch
+SPDXID: SPDXRef-printer-driver-ptouch-file-5
+FileChecksum: SHA1: bd027dde6058ee51af9c0d3c984084694afaf295
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-ptouch CONTAINS SPDXRef-printer-driver-ptouch-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseName: Autoconf simple exception to GPL-2.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception-2.0.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception-2.0.yml
+</text>
+
+

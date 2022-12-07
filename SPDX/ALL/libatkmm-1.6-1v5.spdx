@@ -1,0 +1,131 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libatkmm-1.6-1v5_2.28.2-1build1-a5f7f5cb-2ed8-50c3-ae02-b684c9b87dee
+DocumentName: libatkmm-1.6-1v5_2.28.2-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libglibmm-2.4-1v5 http://spdx.org/spdxdocs/libglibmm-2.4-1v5_2.66.2-2-61acc860-066d-59be-99a8-d4e418f83121 SHA1: bde91a070a4b3e6f36778f8dc3d77d5255507613
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libatkmm-1.6-1v5
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:12:39Z
+
+
+## Package
+
+PackageName: libatkmm-1.6-1v5
+PackageVersion: 2.28.2-1build1
+SPDXID: SPDXRef-libatkmm-1.6-1v5
+PackageHomePage: http://www.gtkmm.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: a93d7287302acf7b8ba69317efbe9cf0f267361a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 1998-2007, The gtkmm Development Team 2010, Openismus GmbH
+Copyright 2003, Harald Bohme 2009, Daniel Elstner
+Copyright 2003-2009, Bradley Bell <btb@debian.org> 2007-2009, Deng Xiyue <manphiz-guest@users.alioth.debian.org> 2010, Krzysztof Klimonda <kklimonda@syntaxhighlighted.com>
+</text>
+PackageComment: <text>C++ wrappers for ATK accessibility toolkit (shared libraries)
+ Atkmm is a C++ interface for ATK, accessibility toolkit used by Gtk+ library.
+ It provides a familiar interface for C++ programmers to add accessibility
+ features to their applications.
+ .
+ This package contains shared libraries.</text>
+Relationship: SPDXRef-libatkmm-1.6-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libatk1.0-0
+Relationship: SPDXRef-libatkmm-1.6-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libatkmm-1.6-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-libatkmm-1.6-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libatkmm-1.6-1v5 DEPENDS_ON DocumentRef-libglibmm-2.4-1v5:SPDXRef-libglibmm-2.4-1v5
+Relationship: SPDXRef-libatkmm-1.6-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsigcPlusPlus-2.0-0v5
+Relationship: SPDXRef-libatkmm-1.6-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+
+
+## File
+
+FileName: /usr/share/doc/libatkmm-1.6-1v5/copyright
+SPDXID: SPDXRef-libatkmm-1.6-1v5-file-0
+FileChecksum: SHA1: 53d24e25336fcdc3f540f275e0e8205be5cdb7d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 1998-2007, The gtkmm Development Team 2010, Openismus GmbH
+Copyright 2003, Harald Bohme 2009, Daniel Elstner
+Copyright 2003-2009, Bradley Bell <btb@debian.org> 2007-2009, Deng Xiyue <manphiz-guest@users.alioth.debian.org> 2010, Krzysztof Klimonda <kklimonda@syntaxhighlighted.com>
+</text>
+Relationship: SPDXRef-libatkmm-1.6-1v5 CONTAINS SPDXRef-libatkmm-1.6-1v5-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libatkmm-1.6.so.1.1.0
+SPDXID: SPDXRef-libatkmm-1.6-1v5-file-1
+FileChecksum: SHA1: da7b04beb16f588062e1adb70a223941de1fd0d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libatkmm-1.6-1v5 CONTAINS SPDXRef-libatkmm-1.6-1v5-file-1
+
+
+FileName: /usr/share/doc/libatkmm-1.6-1v5/AUTHORS
+SPDXID: SPDXRef-libatkmm-1.6-1v5-file-2
+FileChecksum: SHA1: de7a1bb4556e9b1c4516fbb09254f03cd919efa4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libatkmm-1.6-1v5 CONTAINS SPDXRef-libatkmm-1.6-1v5-file-2
+
+
+FileName: /usr/share/doc/libatkmm-1.6-1v5/NEWS.gz
+SPDXID: SPDXRef-libatkmm-1.6-1v5-file-3
+FileChecksum: SHA1: f548031e08d3168b4e81b766121e03746fd065b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libatkmm-1.6-1v5 CONTAINS SPDXRef-libatkmm-1.6-1v5-file-3
+
+
+FileName: /usr/share/doc/libatkmm-1.6-1v5/README
+SPDXID: SPDXRef-libatkmm-1.6-1v5-file-4
+FileChecksum: SHA1: a8d57ab9a52da4136b40e75be2deb93d92891733
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libatkmm-1.6-1v5 CONTAINS SPDXRef-libatkmm-1.6-1v5-file-4
+
+
+FileName: /usr/share/doc/libatkmm-1.6-1v5/changelog.Debian.gz
+SPDXID: SPDXRef-libatkmm-1.6-1v5-file-5
+FileChecksum: SHA1: deadb46506ec9537d3b844076544af454d2ed79d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libatkmm-1.6-1v5 CONTAINS SPDXRef-libatkmm-1.6-1v5-file-5
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libatkmm-1.6.so.1
+SPDXID: SPDXRef-libatkmm-1.6-1v5-file-6
+FileChecksum: SHA1: da7b04beb16f588062e1adb70a223941de1fd0d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libatkmm-1.6-1v5 CONTAINS SPDXRef-libatkmm-1.6-1v5-file-6
+
+
+## Extracted License
+

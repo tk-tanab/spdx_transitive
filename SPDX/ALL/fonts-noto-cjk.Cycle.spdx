@@ -1,0 +1,367 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-noto-cjk_1:20220127+repack1-1-4746a023-ef61-5ce8-9d6f-d48d0fa244c2
+DocumentName: fonts-noto-cjk_1:20220127+repack1-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-noto-cjk
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:59:29Z
+
+
+## Package
+
+PackageName: fonts-noto-cjk
+PackageVersion: 1:20220127+repack1-1
+SPDXID: SPDXRef-fonts-noto-cjk
+PackageHomePage: https://github.com/googlefonts/noto-cjk
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 666fa0c866f9106e59b4ddd0e5f8bfc7f97b1d81
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2010-2012, Google Corporation
+Copyright 2013, Vasudev Kamath <kamathvasudev@gmail.com> 2013-2015, Jonas Smedegaard <dr@jones.dk> 2015-2022, ChangZhuo Chen Chen Chang Zhuo
+</text>
+PackageComment: <text>"No Tofu" font families with large Unicode coverage (CJK regular and bold)
+ Noto is a collection of font families, each visually harmonized across
+ scripts.
+ .
+ This package contains Noto font families for Traditional Chinese,
+ Simplified Chinese, Japanese and Korean:
+ .
+  * Noto Sans CJK JP
+  * Noto Sans CJK KR
+  * Noto Sans CJK SC
+  * Noto Sans CJK TC
+  * Noto Sans Mono CJK JP
+  * Noto Sans Mono CJK KR
+  * Noto Sans Mono CJK SC
+  * Noto Sans Mono CJK TC
+  * Noto Serif CJK JP
+  * Noto Serif CJK KR
+  * Noto Serif CJK SC
+  * Noto Serif CJK TC
+ .
+ These fonts are derived from the font family Source Han Sans.
+ .
+ The name "Noto" is short for "No Tofu", describing the aim of covering
+ all living Unicode scripts.
+ .
+ Tofu (豆腐) is Japanese jargon for unicode replacement character "�"
+ (U+FFFD) often displayed as replacement for unassigned or unknown
+ characters.
+ .
+ This package contains regular and bold fonts.</text>
+Relationship: SPDXRef-fonts-noto-cjk DEPENDS_ON SPDXRef-fonts-noto-cjk-extra
+
+
+PackageName: fonts-noto-cjk-extra
+PackageVersion: 1:20220127+repack1-1
+SPDXID: SPDXRef-fonts-noto-cjk-extra
+PackageHomePage: https://github.com/googlefonts/noto-cjk
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 392338653cebf663399c7073c1136115cf7af89d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2010-2012, Google Corporation
+Copyright 2013, Vasudev Kamath <kamathvasudev@gmail.com> 2013-2015, Jonas Smedegaard <dr@jones.dk> 2015-2022, ChangZhuo Chen Chen Chang Zhuo
+</text>
+PackageComment: <text>"No Tofu" font families with large Unicode coverage (CJK all weight)
+ Noto is a collection of font families, each visually harmonized across
+ scripts.
+ .
+ This package contains Noto font families for Traditional Chinese,
+ Simplified Chinese, Japanese and Korean:
+ .
+  * Noto Sans CJK JP
+  * Noto Sans CJK KR
+  * Noto Sans CJK SC
+  * Noto Sans CJK TC
+  * Noto Sans Mono CJK JP
+  * Noto Sans Mono CJK KR
+  * Noto Sans Mono CJK SC
+  * Noto Sans Mono CJK TC
+  * Noto Serif CJK JP
+  * Noto Serif CJK KR
+  * Noto Serif CJK SC
+  * Noto Serif CJK TC
+ .
+ These fonts are derived from the font family Source Han Sans.
+ .
+ The name "Noto" is short for "No Tofu", describing the aim of covering
+ all living Unicode scripts.
+ .
+ Tofu (豆腐) is Japanese jargon for unicode replacement character "�"
+ (U+FFFD) often displayed as replacement for unassigned or unknown
+ characters.
+ .
+ This package contains all weight fonts.</text>
+Relationship: SPDXRef-fonts-noto-cjk-extra DEPENDS_ON SPDXRef-fonts-noto-cjk
+
+
+## File
+
+FileName: /usr/share/doc/fonts-noto-cjk/copyright
+SPDXID: SPDXRef-fonts-noto-cjk-file-0
+FileChecksum: SHA1: 0c2c6c19a647ee4bcbd9e38fb9de7afed4d6536f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2010-2012, Google Corporation
+Copyright 2013, Vasudev Kamath <kamathvasudev@gmail.com> 2013-2015, Jonas Smedegaard <dr@jones.dk> 2015-2022, ChangZhuo Chen Chen Chang Zhuo
+</text>
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-0
+
+
+FileName: /usr/share/doc/fonts-noto-cjk/HISTORY-Sans.md.gz
+SPDXID: SPDXRef-fonts-noto-cjk-file-1
+FileChecksum: SHA1: b19efdf02a6f49ad08c04a81b55e15b53e03a2e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-1
+
+
+FileName: /usr/share/doc/fonts-noto-cjk/HISTORY-Serif.md.gz
+SPDXID: SPDXRef-fonts-noto-cjk-file-2
+FileChecksum: SHA1: 5b9f848174c10ce1293b3f5c0ccf3ba0b9997828
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-2
+
+
+FileName: /usr/share/doc/fonts-noto-cjk/NEWS-Sans.md.gz
+SPDXID: SPDXRef-fonts-noto-cjk-file-3
+FileChecksum: SHA1: 1c6ca319f7747e5f210e1feb3c44daa801a30bc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-3
+
+
+FileName: /usr/share/doc/fonts-noto-cjk/NEWS-Serif.md.gz
+SPDXID: SPDXRef-fonts-noto-cjk-file-4
+FileChecksum: SHA1: a8bb034fe7526c1711bc3109cd7ca36fda435a4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-4
+
+
+FileName: /usr/share/doc/fonts-noto-cjk/NEWS.Debian.gz
+SPDXID: SPDXRef-fonts-noto-cjk-file-5
+FileChecksum: SHA1: 3e7682b07dc8462f340b21addf2c5394cbd45746
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-5
+
+
+FileName: /usr/share/doc/fonts-noto-cjk/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-noto-cjk-file-6
+FileChecksum: SHA1: db20a82a1f4184f79a7ddc5b52000fe66ca375a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-6
+
+
+FileName: /usr/share/fontconfig/conf.avail/70-fonts-noto-cjk.conf
+SPDXID: SPDXRef-fonts-noto-cjk-file-7
+FileChecksum: SHA1: 0e74352d0f76662b10e4a5cd526d97181d72245d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-7
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-file-8
+FileChecksum: SHA1: 43f0027121b407326b3f06d0466df83887879e1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-8
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-file-9
+FileChecksum: SHA1: 41cee0565517a6a1c7457c687273cf9c00159379
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-9
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-file-10
+FileChecksum: SHA1: 65a0b704522858142628192d0b2292220e3bc2c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-10
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-file-11
+FileChecksum: SHA1: e5f9abdc682b056c06978978d95c0e79bd74c123
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-11
+
+
+FileName: /etc/fonts/conf.d/70-fonts-noto-cjk.conf
+SPDXID: SPDXRef-fonts-noto-cjk-file-12
+FileChecksum: SHA1: 0e74352d0f76662b10e4a5cd526d97181d72245d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk CONTAINS SPDXRef-fonts-noto-cjk-file-12
+
+
+FileName: /usr/share/doc/fonts-noto-cjk-extra/copyright
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-0
+FileChecksum: SHA1: 0c2c6c19a647ee4bcbd9e38fb9de7afed4d6536f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2010-2012, Google Corporation
+Copyright 2013, Vasudev Kamath <kamathvasudev@gmail.com> 2013-2015, Jonas Smedegaard <dr@jones.dk> 2015-2022, ChangZhuo Chen Chen Chang Zhuo
+</text>
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-0
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-1
+FileChecksum: SHA1: aae77a58b5d711e051a73facd39a41775f41ef40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-1
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-2
+FileChecksum: SHA1: 1668af9e353ce1d8ceb6378868b5edbdedac8210
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-2
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-3
+FileChecksum: SHA1: e898de0a95d10a8f2aae8a4097e6d929d9473629
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-3
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-4
+FileChecksum: SHA1: 32d8a300209c1f8c2ac5bca1078aae26870861b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-4
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-5
+FileChecksum: SHA1: 0e96f9cffcba35fa0fc2bb12fe68d7ae3a9f45e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-5
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSerifCJK-Black.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-6
+FileChecksum: SHA1: 6ece10e3a25abfc555b2be4b6f245edd68a00f86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-6
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSerifCJK-ExtraLight.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-7
+FileChecksum: SHA1: 0c8099b258d1771feea455606dae5c7c743c9958
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-7
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSerifCJK-Light.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-8
+FileChecksum: SHA1: 7e00baac24daffc1d1151e6c8cbdb92b2ff7c3e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-8
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSerifCJK-Medium.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-9
+FileChecksum: SHA1: a594de91ea8b5e42645c16297bdc70856e925d56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-9
+
+
+FileName: /usr/share/fonts/opentype/noto/NotoSerifCJK-SemiBold.ttc
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-10
+FileChecksum: SHA1: f5cbcd23ce6dd980b389cf54ec4d9d03c407c8b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-10
+
+
+FileName: /usr/share/doc/fonts-noto-cjk-extra/NEWS.Debian.gz
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-11
+FileChecksum: SHA1: 3e7682b07dc8462f340b21addf2c5394cbd45746
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-11
+
+
+FileName: /usr/share/doc/fonts-noto-cjk-extra/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-noto-cjk-extra-file-12
+FileChecksum: SHA1: db20a82a1f4184f79a7ddc5b52000fe66ca375a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-cjk-extra CONTAINS SPDXRef-fonts-noto-cjk-extra-file-12
+
+
+## Extracted License
+

@@ -1,0 +1,587 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/printer-driver-pnm2ppa_1.13+nondbs-0ubuntu9-b1814cdb-1d61-5b0a-bcf1-c553fb919aea
+DocumentName: printer-driver-pnm2ppa_1.13+nondbs-0ubuntu9
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-printer-driver-pnm2ppa
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:15:53Z
+
+
+## Package
+
+PackageName: printer-driver-pnm2ppa
+PackageVersion: 1.13+nondbs-0ubuntu9
+SPDXID: SPDXRef-printer-driver-pnm2ppa
+PackageHomePage: http://pnm2ppa.sf.net/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8b43786fb96eabf7b5af913091f9e288d1ccf1cf
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1998-2000 by the pnm2ppa project
+</text>
+PackageComment: <text>printer driver for HP-GDI printers
+ Using pnm2ppa it's possible to run HP-GDI printers on Linux. These printers
+ are normally "Windows-only" and use the PPA protocol which is proprietary.
+ pnm2ppa supports color.
+ .
+ pnm2ppa supports the following printers: HP Deskjet 7XX Series, HP Deskjet
+ 820 Series and HP Deskjet 1000 Series.</text>
+Relationship: SPDXRef-printer-driver-pnm2ppa DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-printer-driver-pnm2ppa DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+Relationship: SPDXRef-printer-driver-pnm2ppa DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ghostscript
+
+
+## File
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/copyright
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-0
+FileChecksum: SHA1: 867cfb2500198e3957c2ddc151b2229735280274
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2000 by the pnm2ppa project
+</text>
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-0
+
+
+FileName: /usr/bin/calibrate_ppa
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-1
+FileChecksum: SHA1: dfc9ec55916fd64ab934d11a2b7ec70cfd0ad18e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-1
+
+
+FileName: /usr/bin/pnm2ppa
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-2
+FileChecksum: SHA1: db25ee18e85ccb409561946f2249bd402c9c198a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-2
+
+
+FileName: /usr/share/apport/package-hooks/source_pnm2ppa.py
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-3
+FileChecksum: SHA1: 3de2d91d3fc233ef76f4ba2f2d27d456f5a44fd9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-3
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/CREDITS
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-4
+FileChecksum: SHA1: 24745cec0537f903cb9857e0beed201a2632b2c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-4
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/README
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-5
+FileChecksum: SHA1: 66d941ce180a49c8e5ea2c2035e002532d26027b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-5
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/README.Debian
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-6
+FileChecksum: SHA1: 6dd958e2ece598099d783c873a409f204c0d15d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-6
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/README.security
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-7
+FileChecksum: SHA1: a36660be6f783cfe1198b942c53c60a3e43c3c14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-7
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/RELEASE-NOTES.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-8
+FileChecksum: SHA1: b61ad4d4063ba98f0b0512a26779369defbf5fa9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-8
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/TODO
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-9
+FileChecksum: SHA1: 7ff9ec07a7b0af1419835a66f2fcd4be3867a884
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-9
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/TODO.Debian
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-10
+FileChecksum: SHA1: 9e845675c76752d90b6d53e25fa642b058fbca4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-10
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/changelog.Debian.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-11
+FileChecksum: SHA1: b2e234d7638e559512150b076b4ab0c748e6db22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-11
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/CALIBRATION.html
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-12
+FileChecksum: SHA1: 69636a84f29630b2c060ed525893bcbd7c4d3b35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-12
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/CALIBRATION.txt.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-13
+FileChecksum: SHA1: b59a0f5b7b51b780e0c349bc09a44eb5e36e84f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-13
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/COLOR.html
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-14
+FileChecksum: SHA1: 2d50a3b23702ef7218887ecf5f5b0aecf002e4ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-14
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/COLOR.txt.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-15
+FileChecksum: SHA1: d1d65642b9eb044d301c6271152fc06d9d058d4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-15
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/PPA_networking-1.html
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-16
+FileChecksum: SHA1: d76709c4453d4cb3e98f44ad0e9c4e52eaaac147
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-16
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/PPA_networking-2.html
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-17
+FileChecksum: SHA1: b94cb935434a9312265730734ad6e37b75cf1908
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-17
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/PPA_networking-3.html
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-18
+FileChecksum: SHA1: 64952d4be7b65b059696e5f6251f09dfa6f43820
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-18
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/PPA_networking-4.html
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-19
+FileChecksum: SHA1: 42ae9bbf0a24edbf04fa091a7d4fdaf0373c8f6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-19
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/PPA_networking.html
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-20
+FileChecksum: SHA1: f38bb7135ca51bffe0ac94ead9c238a6ce937d31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-20
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/PPA_networking.txt.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-21
+FileChecksum: SHA1: 11fd263ae6d25819d3da36ad04a72547eb6e19d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-21
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/sgml/CALIBRATION.sgml.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-22
+FileChecksum: SHA1: 4c1eafee5d39d5fd47ff4b67c6752d89fa803255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-22
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/sgml/COLOR.sgml.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-23
+FileChecksum: SHA1: 41f9a5370b027ec89bb43fa5a50180094440c137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-23
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/sgml/INSTALL.MANDRAKE.sgml
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-24
+FileChecksum: SHA1: 1426428bf8fc4e63e647a6f299c91e51941085b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-24
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/sgml/INSTALL.REDHAT.sgml.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-25
+FileChecksum: SHA1: 5e56441ebe64a994be922f97b3c4e5dd12f5328a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-25
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/en/sgml/PPA_networking.sgml.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-26
+FileChecksum: SHA1: e83a6bd68f63b8311a91678a355e94408f439514
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-26
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/lpd/README.lpd
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-27
+FileChecksum: SHA1: 8159ea2c20feefa518703fbe74ec5079929e848c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-27
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/lpd/ascii.if
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-28
+FileChecksum: SHA1: 3447d0b586b4e5ef0bbac6ac4f537b98cf2d6d04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-28
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/lpd/bw.if
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-29
+FileChecksum: SHA1: 6b8a455281c5f60bb1c05a6b1f5b2fd6254b11d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-29
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/lpd/bweco.if
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-30
+FileChecksum: SHA1: 71342b98a314d57d1c170b8d6df1a19f60d98ceb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-30
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/lpd/color.if
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-31
+FileChecksum: SHA1: 32ce5fe0a5814987b70ab0e9533efce6bf6c1d88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-31
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/lpd/coloreco.if
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-32
+FileChecksum: SHA1: e9e85498798c35cfa04eb3a58f9774f170d92841
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-32
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/lpd/lpdsetup
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-33
+FileChecksum: SHA1: 6dcf7c54900a8290bf26a637574d611584540a58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-33
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/lpd/printcap
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-34
+FileChecksum: SHA1: 94294c18052696136e0aaca99a669d204d0cf9f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-34
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/pdq/README.pdq
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-35
+FileChecksum: SHA1: 609ce6306892f11d4e607fa9491ee27e69ec3bde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-35
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/pdq/dummy
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-36
+FileChecksum: SHA1: 4840016bf7690992b7777fd44867dfc0489df333
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-36
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/pdq/gs-pnm2ppa.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-37
+FileChecksum: SHA1: 688d561cfc2075b47f85c67d705dcaa4b45a1b60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-37
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/sample_scripts/lprbw
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-38
+FileChecksum: SHA1: d95af53b6b41958df4ba353212d54afcd1f8aa2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-38
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/sample_scripts/lprcolor
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-39
+FileChecksum: SHA1: 68125de7d2833917bbb7f8310a88c02da731dd54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-39
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/sample_scripts/lpreco
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-40
+FileChecksum: SHA1: 72ce0d56501ff0bce746a66642601e2d15e869fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-40
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/test.ps.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-41
+FileChecksum: SHA1: 124b1033c99f399349e199ae962aea36cf0a94bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-41
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/testpage-a4.ps.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-42
+FileChecksum: SHA1: 42ed1778abc907d2fed9328ebf738f0cd31242f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-42
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/testpage.ps.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-43
+FileChecksum: SHA1: 8f79b73f4cc53d65dbf8a5bd7f102fb8e52fb6a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-43
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/testpages/test.fig.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-44
+FileChecksum: SHA1: 826a0d86ebfc9e78337a80ebb936cef099b65c1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-44
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/testpages/testpage-a4.fig
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-45
+FileChecksum: SHA1: 0c3decc7a7252cd69ff2f5c5fbe03c733a5a9c17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-45
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/examples/testpages/testpage.fig
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-46
+FileChecksum: SHA1: f1252ed924288d989d89b57b8247e9e105f3c93e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-46
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/pl/AUTORZY
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-47
+FileChecksum: SHA1: 3be8facc9baf6165442165b54056f6918af90c63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-47
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/pl/CZYTAJ.TO
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-48
+FileChecksum: SHA1: 553cb47c8faa5c110d1d07488e1e82d7519f064f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-48
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/pl/KALIBRACJA
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-49
+FileChecksum: SHA1: a13bb3c094303f96f5bcc2b73febb087fd0d6c55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-49
+
+
+FileName: /usr/share/doc/printer-driver-pnm2ppa/pl/text-pl.h
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-50
+FileChecksum: SHA1: bc931aa117054c65c1bfeee81ffcb288be70a85a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-50
+
+
+FileName: /usr/share/doc-base/printer-driver-pnm2ppa.pnm2ppa-calibrate
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-51
+FileChecksum: SHA1: 9a1198058218b4edcbc2bd76729f32e1ddb3a0e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-51
+
+
+FileName: /usr/share/doc-base/printer-driver-pnm2ppa.pnm2ppa-color
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-52
+FileChecksum: SHA1: cd0dbcf801249d8d272e5b3894dc9033a9a19478
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-52
+
+
+FileName: /usr/share/doc-base/printer-driver-pnm2ppa.pnm2ppa-ppa-networking
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-53
+FileChecksum: SHA1: f5fd209a02094f4318293cb3d4d50d1553e165a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-53
+
+
+FileName: /usr/share/man/man1/pnm2ppa.1.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-54
+FileChecksum: SHA1: 5d3e298f15ec85580b8d54c5d71f1b657444fd64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-54
+
+
+FileName: /usr/share/man/man8/calibrate_ppa.8.gz
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-55
+FileChecksum: SHA1: 7e76ca750fe3226409124dfe2e5ec3e553ba57c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-55
+
+
+FileName: /usr/share/pnm2ppa/pnm2ppa-magicfilter.in
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-56
+FileChecksum: SHA1: 251b7e655f6a67702dedfd6c45801e502a9d9ae0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-56
+
+
+FileName: /usr/share/pnm2ppa/pnm2ppa.conf
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-57
+FileChecksum: SHA1: a03b1e268ad43cfb585a2f9c82874f1a470713dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-57
+
+
+FileName: /usr/share/pnm2ppa/update-magicfilter
+SPDXID: SPDXRef-printer-driver-pnm2ppa-file-58
+FileChecksum: SHA1: e9de59238d1b7a9914f05229bb3200ce021dbce2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-pnm2ppa CONTAINS SPDXRef-printer-driver-pnm2ppa-file-58
+
+
+## Extracted License
+

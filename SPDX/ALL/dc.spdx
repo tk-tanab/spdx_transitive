@@ -1,0 +1,214 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/dc_1.07.1-3build1-1849b6c9-d444-575f-8d53-10b2f93d27bc
+DocumentName: dc_1.07.1-3build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dc
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:49:12Z
+
+
+## Package
+
+PackageName: dc
+PackageVersion: 1.07.1-3build1
+SPDXID: SPDXRef-dc
+PackageHomePage: https://www.gnu.org/software/bc/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 4468c97ce0d5c39e822c5e475c67dc6e1e7c6712
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: Latex2e
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-permissive
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-tex-exception
+PackageCopyrightText: <text>Copyright (c) 1984, 1994, 1997, 1998, 2000, 2005, 2006 Free Software Foundation, Inc.
+Copyright (c) 1985-1986, 1988, 1990-2005 Free Software Foundation, Inc.
+Copyright (c) 1989-2006 Free Software Foundation, Inc.
+Copyright (c) 1991-1994, 1997, 2003, 2006 Free Software Foundation, Inc.
+Copyright (c) 1994 X Consortium Comment
+Copyright (c) 1997-1999 James Troup <troup@debian.org>
+Copyright (c) 1999-2004 Dirk Eddelbuettel <edd@debian.org>
+Copyright (c) 2005-2013 John Hasler <jhasler@debian.org>
+Copyright (c) 2009 Francois Marier <francois@debian.org>
+Copyright (c) 2013-2021 Ryan Kavanagh <rak@debian.org>
+</text>
+PackageComment: <text>GNU dc arbitrary precision reverse-polish calculator
+ GNU dc is a reverse-polish desk calculator which supports unlimited
+ precision arithmetic.  It also allows you to define and call macros.
+ .
+ A reverse-polish calculator stores numbers on a stack. Entering a number
+ pushes it on the stack.  Arithmetic operations pop arguments off the
+ stack and push the results.</text>
+Relationship: SPDXRef-dc DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/dc/copyright
+SPDXID: SPDXRef-dc-file-0
+FileChecksum: SHA1: 8aa70831cd67b1c19d67c564882f3f5e608d9771
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-tex-exception
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-scancode-other-permissive
+LicenseInfoInFile: Latex2e
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: X11
+FileCopyrightText: <text>Copyright (c) 1989-2006 Free Software Foundation, Inc.
+Copyright (c) 1984, 1994, 1997, 1998, 2000, 2005, 2006 Free Software Foundation, Inc.
+Copyright (c) 1991-1994, 1997, 2003, 2006 Free Software Foundation, Inc.
+Copyright (c) 1985-1986, 1988, 1990-2005 Free Software Foundation, Inc.
+Copyright (c) 1994 X Consortium Comment
+Copyright (c) 1997-1999 James Troup <troup@debian.org>
+Copyright (c) 1999-2004 Dirk Eddelbuettel <edd@debian.org>
+Copyright (c) 2005-2013 John Hasler <jhasler@debian.org>
+Copyright (c) 2009 Francois Marier <francois@debian.org>
+Copyright (c) 2013-2021 Ryan Kavanagh <rak@debian.org>
+</text>
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-0
+
+
+FileName: /usr/bin/dc
+SPDXID: SPDXRef-dc-file-1
+FileChecksum: SHA1: b5dedd7e5ac0e3f98d058ff5a4f0653f054aa8e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-1
+
+
+FileName: /usr/share/doc/dc/AUTHORS
+SPDXID: SPDXRef-dc-file-2
+FileChecksum: SHA1: 44d4f0951656dd77891dbcf1e263a371a531c1de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-2
+
+
+FileName: /usr/share/doc/dc/NEWS.gz
+SPDXID: SPDXRef-dc-file-3
+FileChecksum: SHA1: d1ee77b6d59347bc4f4fe0a2e5caa36a32eb1c35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-3
+
+
+FileName: /usr/share/doc/dc/README
+SPDXID: SPDXRef-dc-file-4
+FileChecksum: SHA1: 3c246c249428df48242e9936f972c86f4a42ba7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-4
+
+
+FileName: /usr/share/doc/dc/changelog.Debian.gz
+SPDXID: SPDXRef-dc-file-5
+FileChecksum: SHA1: bcee9f7d362f551e546f6ad4c424b71fc8627549
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-5
+
+
+FileName: /usr/share/doc/dc/dc.html
+SPDXID: SPDXRef-dc-file-6
+FileChecksum: SHA1: 4f2c37bad2b7fe931aa70f8740a3c8b4c91c7886
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-6
+
+
+FileName: /usr/share/doc/dc/examples/dc_factor
+SPDXID: SPDXRef-dc-file-7
+FileChecksum: SHA1: 8d754d15c1d7a6b6c5c26ef5509bb5188764a65d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-7
+
+
+FileName: /usr/share/doc-base/dc.dc
+SPDXID: SPDXRef-dc-file-8
+FileChecksum: SHA1: 9b5635eaf7240b3b035f7bf6206611de23982e16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-8
+
+
+FileName: /usr/share/info/dc.info.gz
+SPDXID: SPDXRef-dc-file-9
+FileChecksum: SHA1: 2de393305226d90da23a0bb2033dd3e6f6d22dc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-9
+
+
+FileName: /usr/share/man/man1/dc.1.gz
+SPDXID: SPDXRef-dc-file-10
+FileChecksum: SHA1: ce06886ac2dd392f32eec4d99726c79b74920222
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-10
+
+
+FileName: /usr/share/menu/dc
+SPDXID: SPDXRef-dc-file-11
+FileChecksum: SHA1: 9c7cd0d1d760293758be728fd9880b503678385d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dc CONTAINS SPDXRef-dc-file-11
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-other-permissive
+LicenseName: Other Permissive Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-tex-exception
+LicenseName: TeX exception to GPL 3.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/tex-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/tex-exception.yml
+</text>
+
+

@@ -1,0 +1,196 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/apt-show-versions_0.22.13-284f349a-45ab-591a-8542-cd8a64a050af
+DocumentName: apt-show-versions_0.22.13
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libapt-pkg-perl http://spdx.org/spdxdocs/libapt-pkg-perl_0.1.40build2-42d1be0d-3427-5b38-8d36-63dbdbfcb6e4 SHA1: f06e59f3e1fd6db0827cc02c36222ae7699cf640
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-apt-show-versions
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:41:53Z
+
+
+## Package
+
+PackageName: apt-show-versions
+PackageVersion: 0.22.13
+SPDXID: SPDXRef-apt-show-versions
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: fc1d066695337a886c869dd30ea803c9dd423aef
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-copyleft
+PackageCopyrightText: <text>Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+</text>
+PackageComment: <text>lists available package versions with distribution
+ apt-show-versions parses the dpkg status file and the APT lists for
+ the installed and available package versions and distribution and
+ shows upgrade options within the specific distribution of the selected
+ package.
+ .
+ This is really useful if you have a mixed stable/testing environment
+ and want to list all packages which are from testing and can be
+ upgraded in testing.</text>
+Relationship: SPDXRef-apt-show-versions DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-perl
+Relationship: SPDXRef-apt-show-versions DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-apt
+Relationship: SPDXRef-apt-show-versions DEPENDS_ON DocumentRef-libapt-pkg-perl:SPDXRef-libapt-pkg-perl
+
+
+## File
+
+FileName: /usr/share/doc/apt-show-versions/copyright
+SPDXID: SPDXRef-apt-show-versions-file-0
+FileChecksum: SHA1: b7931b6d169ad3a3e5588820937cd475e4855b48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: LicenseRef-scancode-other-copyleft
+FileCopyrightText: <text>Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-0
+
+
+FileName: /etc/apt/apt.conf.d/20apt-show-versions
+SPDXID: SPDXRef-apt-show-versions-file-1
+FileChecksum: SHA1: 2c13fcc77171a7e77bd4a3fa7cee12169dba1be3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-1
+
+
+FileName: /etc/cron.daily/apt-show-versions
+SPDXID: SPDXRef-apt-show-versions-file-2
+FileChecksum: SHA1: 568d656cbbe72f1e83dce74706cbafdf0017626f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-2
+
+
+FileName: /lib/systemd/system/apt-show-versions.service
+SPDXID: SPDXRef-apt-show-versions-file-3
+FileChecksum: SHA1: b090dd1a297c4586141838c39032dd80d8a92e4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-3
+
+
+FileName: /lib/systemd/system/apt-show-versions.timer
+SPDXID: SPDXRef-apt-show-versions-file-4
+FileChecksum: SHA1: 2a1026b77811f84e567d46c8388df51917034f3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-4
+
+
+FileName: /usr/bin/apt-show-versions
+SPDXID: SPDXRef-apt-show-versions-file-5
+FileChecksum: SHA1: 90f3ccf8b1a29e1c4c958ebe11d05cc55a6b0a45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-5
+
+
+FileName: /usr/share/bash-completion/completions/apt-show-versions
+SPDXID: SPDXRef-apt-show-versions-file-6
+FileChecksum: SHA1: 508b38158e930128e259b32af69c5135d8f8a385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-6
+
+
+FileName: /usr/share/doc/apt-show-versions/NEWS.Debian.gz
+SPDXID: SPDXRef-apt-show-versions-file-7
+FileChecksum: SHA1: 1dd3549d2b8b810e8775610609ac0c06ec2deca3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-7
+
+
+FileName: /usr/share/doc/apt-show-versions/changelog.gz
+SPDXID: SPDXRef-apt-show-versions-file-8
+FileChecksum: SHA1: ba4743acfb67761b75ac68e0008102aa4240d0fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-8
+
+
+FileName: /usr/share/man/de/man1/apt-show-versions.1.gz
+SPDXID: SPDXRef-apt-show-versions-file-9
+FileChecksum: SHA1: 48bc054783879a10d6a9b32e51bca54014888322
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-9
+
+
+FileName: /usr/share/man/es/man1/apt-show-versions.1.gz
+SPDXID: SPDXRef-apt-show-versions-file-10
+FileChecksum: SHA1: 6d61c61fe5d1d87477e0f0855a4e6dbe5a465d1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-10
+
+
+FileName: /usr/share/man/fr/man1/apt-show-versions.1.gz
+SPDXID: SPDXRef-apt-show-versions-file-11
+FileChecksum: SHA1: 995bd6f4ebc87cb8920876a2b3abef25ff8ab297
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-11
+
+
+FileName: /usr/share/man/man1/apt-show-versions.1p.gz
+SPDXID: SPDXRef-apt-show-versions-file-12
+FileChecksum: SHA1: 663650103efc19f12413d0aac8cbaa3801cce40a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-12
+
+
+FileName: /usr/share/man/vi/man1/apt-show-versions.1.gz
+SPDXID: SPDXRef-apt-show-versions-file-13
+FileChecksum: SHA1: b7bc3fb04773fdcbecd0daa621d4e768ce6810c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-apt-show-versions CONTAINS SPDXRef-apt-show-versions-file-13
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-other-copyleft
+LicenseName: Other Copyleft Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+
+

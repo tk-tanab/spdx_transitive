@@ -1,0 +1,156 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/xorg_1:7.7+23ubuntu2-57093cee-be9a-5f44-8f75-158244f3f9da
+DocumentName: xorg_1:7.7+23ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-x11-session-utils http://spdx.org/spdxdocs/x11-session-utils_7.7+4build2-8d1edb98-028c-50ec-9853-f04987a7a6b6 SHA1: 4b874945bad42b64f56500002acd7741f81c89f5
+ExternalDocumentRef: DocumentRef-libglu1-mesa http://spdx.org/spdxdocs/libglu1-mesa_9.0.2-1-1c8c6665-6525-5ddd-96f6-351bb8337bb6 SHA1: 9d5b9ad8ebd9802be9a3762ac51d552e5cfaa01d
+ExternalDocumentRef: DocumentRef-x11-apps http://spdx.org/spdxdocs/x11-apps_7.7+8build2-e7a57be9-d6f0-5e26-a07a-0ddea51dee65 SHA1: bda0b1e3ed149c0db9077bfec4cd526ca2feaa07
+ExternalDocumentRef: DocumentRef-xorg-docs-core http://spdx.org/spdxdocs/xorg-docs-core_1:1.7.1-1.2-f0762bc1-92c4-5625-923b-0492a1fd4621 SHA1: d157a00b78a2704520c95a5e71be8da55a9c6899
+ExternalDocumentRef: DocumentRef-xinit http://spdx.org/spdxdocs/xinit_1.4.1-0ubuntu4-69a58f54-67bb-5866-b11e-3dc2bf9e0d24 SHA1: 95d59e40dfb5304df043b4bd597ff3a73ffbdcaf
+ExternalDocumentRef: DocumentRef-xkb-data http://spdx.org/spdxdocs/xkb-data_2.33-1-448243da-c476-5b12-8157-965a259e6fe9 SHA1: 5540adf6db55051bffbf47cd71bb1023b44905d8
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xorg
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:16:56Z
+
+
+## Package
+
+PackageName: xorg
+PackageVersion: 1:7.7+23ubuntu2
+SPDXID: SPDXRef-xorg
+PackageHomePage: https://www.x.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 94e4994001815dbc096f9c94c6eb5d2c116ac283
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-copyleft
+PackageLicenseInfoFromFiles: LicenseRef-scancode-sunsoft
+PackageCopyrightText: <text>(c) 2010-2011 Cyril Brulebois <kibi@debian.org>
+Copyright 1996 Stephen Early
+Copyright 1996-2002 Software in the Public Interest, Inc.
+Copyright 1997 Mark Eichin
+Copyright 1998-2007 Branden Robinson <branden@debian.org>
+Copyright 2000, 2003, 2004 Progeny Linux Systems, Inc.
+Copyright 2004-2005 Canonical Ltd.
+Copyright 2005 David Nusinow
+</text>
+PackageComment: <text>X.Org X Window System
+ This metapackage provides the components for a standalone
+ workstation running the X Window System.  It provides the X libraries, an X
+ server, a set of fonts, and a group of basic X clients and utilities.
+ .
+ Higher level metapackages, such as those for desktop environments, can
+ depend on this package and simplify their dependencies.
+ .
+ It should be noted that a package providing x-window-manager should also
+ be installed to ensure a comfortable X experience.</text>
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xserver-xorg
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgl1
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgl1-mesa-dri
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-libglu1-mesa:SPDXRef-libglu1-mesa
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xfonts-base
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-x11-apps:SPDXRef-x11-apps
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-x11-session-utils:SPDXRef-x11-session-utils
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-x11-utils
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-x11-xkb-utils
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-x11-xserver-utils
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xauth
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-xinit:SPDXRef-xinit
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xfonts-utils
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-xkb-data:SPDXRef-xkb-data
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-xorg-docs-core:SPDXRef-xorg-docs-core
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-terminal
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xinput
+Relationship: SPDXRef-xorg DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xfonts-scalable
+
+
+## File
+
+FileName: /usr/share/doc/xorg/copyright
+SPDXID: SPDXRef-xorg-file-0
+FileChecksum: SHA1: 6a501fd278f041f7894451dd05607ca7917322c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-other-copyleft
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: X11
+LicenseInfoInFile: MIT
+LicenseInfoInFile: LicenseRef-scancode-sunsoft
+LicenseInfoInFile: GPL-1.0-or-later
+FileCopyrightText: <text>Copyright 2004-2005 Canonical Ltd.
+Copyright 1996-2002 Software in the Public Interest, Inc.
+Copyright 1998-2007 Branden Robinson <branden@debian.org>
+Copyright 2000, 2003, 2004 Progeny Linux Systems, Inc.
+Copyright 1996 Stephen Early
+Copyright 1997 Mark Eichin
+Copyright 2005 David Nusinow
+(c) 2010-2011 Cyril Brulebois <kibi@debian.org>
+</text>
+Relationship: SPDXRef-xorg CONTAINS SPDXRef-xorg-file-0
+
+
+FileName: /usr/share/lintian/overrides/xorg
+SPDXID: SPDXRef-xorg-file-1
+FileChecksum: SHA1: fc925d6ecd4cad0c08db8571762d599b2f4a8428
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg CONTAINS SPDXRef-xorg-file-1
+
+
+FileName: /usr/share/bug/xorg/script
+SPDXID: SPDXRef-xorg-file-2
+FileChecksum: SHA1: 4a2b47b3aeaa429085d15c24619318267c5d9287
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg CONTAINS SPDXRef-xorg-file-2
+
+
+FileName: /usr/share/doc/xorg/changelog.gz
+SPDXID: SPDXRef-xorg-file-3
+FileChecksum: SHA1: 672d296cab7ba7321ac519211bee97acc44941bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg CONTAINS SPDXRef-xorg-file-3
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-other-copyleft
+LicenseName: Other Copyleft Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-sunsoft
+LicenseName: Sunsoft License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/sunsoft.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/sunsoft.yml
+</text>
+
+

@@ -1,0 +1,330 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gjs_1.72.2-0ubuntu1-1ad660eb-4cfa-5db4-b37e-fc669bf9c337
+DocumentName: gjs_1.72.2-0ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gjs
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:07:19Z
+
+
+## Package
+
+PackageName: gjs
+PackageVersion: 1.72.2-0ubuntu1
+SPDXID: SPDXRef-gjs
+PackageHomePage: https://gitlab.gnome.org/GNOME/gjs/wikis
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d87e77f303bfabdce9463dcf875748de0e219bb0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: EPL-1.0
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-only
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: MPL-1.1
+PackageLicenseInfoFromFiles: MPL-2.0
+PackageCopyrightText: <text>Copyright (c) 1998 the Initial Developer
+Copyright 1998 Netscape Communications Corporation 1998-2018 Mozilla Project 2018 Philip Chimento 2011 Mozilla Foundation and contributors 2013-2018 Andrew McCreight 2018 Andy Holmes
+Copyright 2001 Robert Penner 2008 litl, LLC.
+Copyright 2008 litl, LLC 1998 Netscape Communications Corporation 2001-2004 Edward Hieatt Comment
+Copyright 2008-2020 Pivotal Labs 2008 litl, LLC 2011 Jasper St. Pierre 2006-2007 Nate Chatellier 2006-2007 Zeh Fernando 2018 Undo Ltd.
+Copyright 2009 Collabora Ltd.
+Copyright 2017-2021 Andy Holmes 2017-2021 Canonical, Ltd. 2016 Christian Hergert 2017-2019 Chun-wei Fan 2017-2018 Claudio Andre 2014 Colin Walters 2010 Collabora, Ltd. 2011-2020 Current
+Copyright 2020 Endless Mobile, Inc. 2017 Nirbheek Chauhan 2018 The Meson development team 2018 Endless Mobile, Inc.
+</text>
+PackageComment: <text>Mozilla-based javascript bindings for the GNOME platform (cli tool)
+ Makes it possible for applications to use all of GNOME's platform
+ libraries using the JavaScript language. It's mainly based on the
+ Mozilla JavaScript engine and the GObject introspection framework.
+ .
+ This package contains the interactive console application.</text>
+Relationship: SPDXRef-gjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-gjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgjs0g
+Relationship: SPDXRef-gjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+Relationship: SPDXRef-gjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-gtk-3.0
+
+
+## File
+
+FileName: /usr/share/doc/gjs/copyright
+SPDXID: SPDXRef-gjs-file-0
+FileChecksum: SHA1: ef9234c956cfe926c76c47cd8dfa6a4945d86a2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: EPL-1.0
+LicenseInfoInFile: MPL-1.1
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MPL-2.0
+LicenseInfoInFile: MIT
+LicenseInfoInFile: LGPL-2.1-only
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: LGPL-2.0-only
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2017-2021 Andy Holmes 2017-2021 Canonical, Ltd. 2016 Christian Hergert 2017-2019 Chun-wei Fan 2017-2018 Claudio Andre 2014 Colin Walters 2010 Collabora, Ltd. 2011-2020 Current
+Copyright 2008-2020 Pivotal Labs 2008 litl, LLC 2011 Jasper St. Pierre 2006-2007 Nate Chatellier 2006-2007 Zeh Fernando 2018 Undo Ltd.
+Copyright 2009 Collabora Ltd.
+Copyright (c) 1998 the Initial Developer
+Copyright 2008 litl, LLC 1998 Netscape Communications Corporation 2001-2004 Edward Hieatt Comment
+Copyright 1998 Netscape Communications Corporation 1998-2018 Mozilla Project 2018 Philip Chimento 2011 Mozilla Foundation and contributors 2013-2018 Andrew McCreight 2018 Andy Holmes
+Copyright 2001 Robert Penner 2008 litl, LLC.
+Copyright 2020 Endless Mobile, Inc. 2017 Nirbheek Chauhan 2018 The Meson development team 2018 Endless Mobile, Inc.
+</text>
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-0
+
+
+FileName: /usr/bin/gjs-console
+SPDXID: SPDXRef-gjs-file-1
+FileChecksum: SHA1: e7125bd0a9026e959bd3c316f66cacbc0a808a20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-1
+
+
+FileName: /usr/share/doc/gjs/NEWS.gz
+SPDXID: SPDXRef-gjs-file-2
+FileChecksum: SHA1: 3f4e0387d690bf5df02a75da7051460a60a9545a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-2
+
+
+FileName: /usr/share/doc/gjs/README.md
+SPDXID: SPDXRef-gjs-file-3
+FileChecksum: SHA1: 18b7e9b3de720322b90f8ba9f20f877f26efef82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-3
+
+
+FileName: /usr/share/doc/gjs/examples/README
+SPDXID: SPDXRef-gjs-file-4
+FileChecksum: SHA1: 2b84fef7b9ade0575e257444f04a6eb22a110a73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-4
+
+
+FileName: /usr/share/doc/gjs/examples/calc.js
+SPDXID: SPDXRef-gjs-file-5
+FileChecksum: SHA1: 6f709e29c0673dc0e3feeff2966337bf2aa2bff5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-5
+
+
+FileName: /usr/share/doc/gjs/examples/dbus-client.js
+SPDXID: SPDXRef-gjs-file-6
+FileChecksum: SHA1: 8ca2fa971fd62808f4acb88c0ec447769d239b9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-6
+
+
+FileName: /usr/share/doc/gjs/examples/dbus-service.js
+SPDXID: SPDXRef-gjs-file-7
+FileChecksum: SHA1: 4f409751bf2adde608791b3fe33f07d4a41f43e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-7
+
+
+FileName: /usr/share/doc/gjs/examples/gettext.js
+SPDXID: SPDXRef-gjs-file-8
+FileChecksum: SHA1: 5cce63b9abb59495fca8bbc3a314acaa8f3f16d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-8
+
+
+FileName: /usr/share/doc/gjs/examples/gio-cat.js
+SPDXID: SPDXRef-gjs-file-9
+FileChecksum: SHA1: 76b5ebaadcb63a84d30ce13336690322516bb9a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-9
+
+
+FileName: /usr/share/doc/gjs/examples/glistmodel.js
+SPDXID: SPDXRef-gjs-file-10
+FileChecksum: SHA1: db087c346c74a78d3084608187bbe791e6e41a4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-10
+
+
+FileName: /usr/share/doc/gjs/examples/gtk-application.js
+SPDXID: SPDXRef-gjs-file-11
+FileChecksum: SHA1: 9e9c275bc9b2046c8889276562e8392ad867b730
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-11
+
+
+FileName: /usr/share/doc/gjs/examples/gtk.js
+SPDXID: SPDXRef-gjs-file-12
+FileChecksum: SHA1: 6666afc2adc71942c865b2926273c9632dcf6b6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-12
+
+
+FileName: /usr/share/doc/gjs/examples/gtk3-template.js
+SPDXID: SPDXRef-gjs-file-13
+FileChecksum: SHA1: 18cfa9bf7d17d238ab8f45db6b3c8673f7e216e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-13
+
+
+FileName: /usr/share/doc/gjs/examples/gtk3-template.ui
+SPDXID: SPDXRef-gjs-file-14
+FileChecksum: SHA1: b91f0956ac3d2efed5914c517b3dc29ed0599190
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-14
+
+
+FileName: /usr/share/doc/gjs/examples/gtk4-template.js
+SPDXID: SPDXRef-gjs-file-15
+FileChecksum: SHA1: 5ef04f92239a57738b275c190cb801dbb539ebc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-15
+
+
+FileName: /usr/share/doc/gjs/examples/gtk4-template.ui
+SPDXID: SPDXRef-gjs-file-16
+FileChecksum: SHA1: b91f0956ac3d2efed5914c517b3dc29ed0599190
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-16
+
+
+FileName: /usr/share/doc/gjs/examples/http-client.js
+SPDXID: SPDXRef-gjs-file-17
+FileChecksum: SHA1: f2eb6df8dc5cf41eaacb2e2e656028f93158d476
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-17
+
+
+FileName: /usr/share/doc/gjs/examples/http-server.js
+SPDXID: SPDXRef-gjs-file-18
+FileChecksum: SHA1: ab9b1dd0a1d591554d75f67cbe9bc8f1cad89e9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-18
+
+
+FileName: /usr/share/doc/gjs/examples/test.jpg
+SPDXID: SPDXRef-gjs-file-19
+FileChecksum: SHA1: 97d2d997894a0413c2108b373c6a68bd696e6a2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-19
+
+
+FileName: /usr/share/doc/gjs/examples/test.jpg.license
+SPDXID: SPDXRef-gjs-file-20
+FileChecksum: SHA1: 213035d373bd94af036120780d18d42c9536f3bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-20
+
+
+FileName: /usr/share/doc/gjs/examples/timers.js
+SPDXID: SPDXRef-gjs-file-21
+FileChecksum: SHA1: 60edd11c619200b40367d636de565bcfda3e7478
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-21
+
+
+FileName: /usr/share/doc/gjs/examples/webkit.js
+SPDXID: SPDXRef-gjs-file-22
+FileChecksum: SHA1: 8a7b3732fb6a0136f92048af819e0d10d76f4be1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-22
+
+
+FileName: /usr/share/doc/gjs/examples/websocket-client.js
+SPDXID: SPDXRef-gjs-file-23
+FileChecksum: SHA1: ba20f51dd90a839250319aefd3b9a2b275ce435d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-23
+
+
+FileName: /usr/bin/gjs
+SPDXID: SPDXRef-gjs-file-24
+FileChecksum: SHA1: e7125bd0a9026e959bd3c316f66cacbc0a808a20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-24
+
+
+FileName: /usr/share/doc/gjs/changelog.Debian.gz
+SPDXID: SPDXRef-gjs-file-25
+FileChecksum: SHA1: 6c48fa8254622f4456955c63972a06e07fa72140
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gjs CONTAINS SPDXRef-gjs-file-25
+
+
+## Extracted License
+

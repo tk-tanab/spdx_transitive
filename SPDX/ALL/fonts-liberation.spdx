@@ -1,0 +1,240 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-liberation_1:1.07.4-11-5dae621b-8841-5b03-b8ce-22c39134a737
+DocumentName: fonts-liberation_1:1.07.4-11
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-liberation
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:05:07Z
+
+
+## Package
+
+PackageName: fonts-liberation
+PackageVersion: 1:1.07.4-11
+SPDXID: SPDXRef-fonts-liberation
+PackageHomePage: https://github.com/liberationfonts/liberation-1.7-fonts
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 26ba49b6b20319188e2e72f3dfa3c2f5fd371295
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: LicenseRef-scancode-liberation-font-exception
+PackageCopyrightText: <text>Copyright (c) 2007 Red Hat, Inc.
+</text>
+PackageComment: <text>Fonts with the same metrics as Times, Arial and Courier
+ A set of serif, sans-serif and monospaced fonts from Red Hat with
+ exactly the same metrics as the (non-free) Microsoft Times, Arial
+ and Courier fonts, which implies those fonts can serve as a drop-in
+ replacement. The font family is named Liberation.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-liberation/copyright
+SPDXID: SPDXRef-fonts-liberation-file-0
+FileChecksum: SHA1: 9c785f0fe3d5803d42b501eef49b4e21662edcc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-liberation-font-exception
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 2007 Red Hat, Inc.
+</text>
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-0
+
+
+FileName: /usr/share/bug/fonts-liberation/presubj
+SPDXID: SPDXRef-fonts-liberation-file-1
+FileChecksum: SHA1: b177725a8aa4f174e8adacb1447071a8b0d18ef3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-1
+
+
+FileName: /usr/share/bug/fonts-liberation/script
+SPDXID: SPDXRef-fonts-liberation-file-2
+FileChecksum: SHA1: 2c397f31db65ab66735b1606e59d0c9c9324271d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-2
+
+
+FileName: /usr/share/doc/fonts-liberation/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-liberation-file-3
+FileChecksum: SHA1: 143e8405dd448cd04c918da1cd7507f49f7c09ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-3
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf
+SPDXID: SPDXRef-fonts-liberation-file-4
+FileChecksum: SHA1: 6a26c3ba576fc1eb39e2d00a64ab15e451dd3696
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-4
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf
+SPDXID: SPDXRef-fonts-liberation-file-5
+FileChecksum: SHA1: 2ad143b0ea2d9d4c305dae1b1f91a4f68b099476
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-5
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf
+SPDXID: SPDXRef-fonts-liberation-file-6
+FileChecksum: SHA1: fd6f6543c3ba0ea9f6de4f8d2986d86cb6a39a40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-6
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf
+SPDXID: SPDXRef-fonts-liberation-file-7
+FileChecksum: SHA1: 99b521c81cb05b46374dbc252f6dac11c9c07ca0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-7
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf
+SPDXID: SPDXRef-fonts-liberation-file-8
+FileChecksum: SHA1: 05bb6d085e09264e57f290ab0c284c690a300d6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-8
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf
+SPDXID: SPDXRef-fonts-liberation-file-9
+FileChecksum: SHA1: efa5048dece5e9169f2a0cec6efd3003bfa8d385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-9
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf
+SPDXID: SPDXRef-fonts-liberation-file-10
+FileChecksum: SHA1: 1325bbd8b34c190426b29934f040b57905658664
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-10
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf
+SPDXID: SPDXRef-fonts-liberation-file-11
+FileChecksum: SHA1: 69df40f3c3f562dda15d617597c25ccd150af241
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-11
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf
+SPDXID: SPDXRef-fonts-liberation-file-12
+FileChecksum: SHA1: d89879f39245ead18e38bed9c81682c5a2bba46a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-12
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf
+SPDXID: SPDXRef-fonts-liberation-file-13
+FileChecksum: SHA1: 26b4c7d8ba0e337e65f073f1ba5d4b530d249726
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-13
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf
+SPDXID: SPDXRef-fonts-liberation-file-14
+FileChecksum: SHA1: 751cab41dae08caa8941f727c5ac27d00d0181c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-14
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf
+SPDXID: SPDXRef-fonts-liberation-file-15
+FileChecksum: SHA1: 97edd5685774ce00f947c7b4248c832d16f778d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-15
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf
+SPDXID: SPDXRef-fonts-liberation-file-16
+FileChecksum: SHA1: 595de4f877626624ad76b4a289e29ecadf7456a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-16
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf
+SPDXID: SPDXRef-fonts-liberation-file-17
+FileChecksum: SHA1: 7797d02da730b7dd427ebddfbd7ded8d6120e8fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-17
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf
+SPDXID: SPDXRef-fonts-liberation-file-18
+FileChecksum: SHA1: 281f84f867df1c7f8fbdf65194facfb6c85d97ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-18
+
+
+FileName: /usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf
+SPDXID: SPDXRef-fonts-liberation-file-19
+FileChecksum: SHA1: 49c7558d9b4a9c3cc39ca49f845edf434fa140f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-liberation CONTAINS SPDXRef-fonts-liberation-file-19
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-liberation-font-exception
+LicenseName: Liberation Font Exception to GPL 2.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/liberation-font-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/liberation-font-exception.yml
+</text>
+
+

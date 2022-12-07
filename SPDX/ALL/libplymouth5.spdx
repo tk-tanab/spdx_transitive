@@ -1,0 +1,172 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libplymouth5_0.9.5+git20211018-1ubuntu3-c9b5073e-f016-5b40-9959-7a8140eddb67
+DocumentName: libplymouth5_0.9.5+git20211018-1ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libplymouth5
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:20:33Z
+
+
+## Package
+
+PackageName: libplymouth5
+PackageVersion: 0.9.5+git20211018-1ubuntu3
+SPDXID: SPDXRef-libplymouth5
+PackageHomePage: http://www.freedesktop.org/wiki/Software/Plymouth
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 41f669eef58f10d8aeb9ec50bac2642c85a77477
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1999 Software in the Public Interest
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+</text>
+PackageComment: <text>graphical boot animation and logger - shared libraries
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the shared libraries.</text>
+Relationship: SPDXRef-libplymouth5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libplymouth5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpng16-16
+Relationship: SPDXRef-libplymouth5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libudev1
+
+
+## File
+
+FileName: /usr/share/doc/libplymouth5/copyright
+SPDXID: SPDXRef-libplymouth5-file-0
+FileChecksum: SHA1: 0d708645ddd8ae57ade598654b3c02ac4c475360
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright (c) 1999 Software in the Public Interest
+</text>
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libply-boot-client.so.5.0.0
+SPDXID: SPDXRef-libplymouth5-file-1
+FileChecksum: SHA1: 3142a55c74e7bb2528215033257176f4c42d5501
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libply-splash-core.so.5.0.0
+SPDXID: SPDXRef-libplymouth5-file-2
+FileChecksum: SHA1: a3b419196ede7d94bf37188e4ba2a4ff6477b010
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libply-splash-graphics.so.5.0.0
+SPDXID: SPDXRef-libplymouth5-file-3
+FileChecksum: SHA1: 04f1600c8c959d5ded0d3087d7ba92840f36de49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libply.so.5.0.0
+SPDXID: SPDXRef-libplymouth5-file-4
+FileChecksum: SHA1: 35b1ce36067bab760d69d3d48ba50a57d88035c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-4
+
+
+FileName: /usr/share/doc/libplymouth5/changelog.Debian.gz
+SPDXID: SPDXRef-libplymouth5-file-5
+FileChecksum: SHA1: 1585e9bb6dd4508af240773c0bd7d9f2b7aa51a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-5
+
+
+FileName: /usr/share/lintian/overrides/libplymouth5
+SPDXID: SPDXRef-libplymouth5-file-6
+FileChecksum: SHA1: f9190ad74fe0cee88abd838b3db2bd320c54edd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-6
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libply-boot-client.so.5
+SPDXID: SPDXRef-libplymouth5-file-7
+FileChecksum: SHA1: 3142a55c74e7bb2528215033257176f4c42d5501
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-7
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libply-splash-core.so.5
+SPDXID: SPDXRef-libplymouth5-file-8
+FileChecksum: SHA1: a3b419196ede7d94bf37188e4ba2a4ff6477b010
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-8
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libply-splash-graphics.so.5
+SPDXID: SPDXRef-libplymouth5-file-9
+FileChecksum: SHA1: 04f1600c8c959d5ded0d3087d7ba92840f36de49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-9
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libply.so.5
+SPDXID: SPDXRef-libplymouth5-file-10
+FileChecksum: SHA1: 35b1ce36067bab760d69d3d48ba50a57d88035c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libplymouth5 CONTAINS SPDXRef-libplymouth5-file-10
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

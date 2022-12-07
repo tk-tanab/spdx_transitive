@@ -1,0 +1,118 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/python3.10-dev_3.10.6-1~22.04.1-6aabf408-4925-5491-8c22-accbbe1ab49e
+DocumentName: python3.10-dev_3.10.6-1~22.04.1
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-libpython3.10-dev http://spdx.org/spdxdocs/libpython3.10-dev_3.10.6-1~22.04.1-643b452a-9ba4-5187-a6af-470ab4841088 SHA1: c039d2b9fe28368fe00e32ee5be97ab7abd21e90
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3.10-dev
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:06:09Z
+
+
+## Package
+
+PackageName: python3.10-dev
+PackageVersion: 3.10.6-1~22.04.1
+SPDXID: SPDXRef-python3.10-dev
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 254ba9717e1cb202c31c4d12e965d96903e94727
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Header files and a static library for Python (v3.10)
+ Header files, a static library and development tools for building
+ Python (v3.10) modules, extending the Python interpreter or embedding
+ Python (v3.10) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.</text>
+Relationship: SPDXRef-python3.10-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3.10
+Relationship: SPDXRef-python3.10-dev DEPENDS_ON DocumentRef-libpython3.10-dev:SPDXRef-libpython3.10-dev
+Relationship: SPDXRef-python3.10-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpython3.10
+Relationship: SPDXRef-python3.10-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6-dev
+
+
+## File
+
+FileName: /usr/share/doc/python3.10/HISTORY.gz
+SPDXID: SPDXRef-python3.10-dev-file-0
+FileChecksum: SHA1: 57a2dae7441165d4c838430fe82a0b885eba3c73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3.10-dev CONTAINS SPDXRef-python3.10-dev-file-0
+
+
+FileName: /usr/share/doc/python3.10/README.maintainers
+SPDXID: SPDXRef-python3.10-dev-file-1
+FileChecksum: SHA1: 3b959a93be37840c26bef42f0c6dfc87c0be92e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3.10-dev CONTAINS SPDXRef-python3.10-dev-file-1
+
+
+FileName: /usr/share/doc/python3.10/README.valgrind.gz
+SPDXID: SPDXRef-python3.10-dev-file-2
+FileChecksum: SHA1: 4495b06f3a7dad2251de72832786e408b46cfe9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3.10-dev CONTAINS SPDXRef-python3.10-dev-file-2
+
+
+FileName: /usr/share/doc/python3.10/gdbinit.gz
+SPDXID: SPDXRef-python3.10-dev-file-3
+FileChecksum: SHA1: 04c88d88ad619ab4805df1807d9292fc759450c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3.10-dev CONTAINS SPDXRef-python3.10-dev-file-3
+
+
+FileName: /usr/share/doc/python3.10/pybench.log
+SPDXID: SPDXRef-python3.10-dev-file-4
+FileChecksum: SHA1: 803abbbf809263c5646eb455293a0775759590ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3.10-dev CONTAINS SPDXRef-python3.10-dev-file-4
+
+
+FileName: /usr/share/doc/python3.10/test_results.gz
+SPDXID: SPDXRef-python3.10-dev-file-5
+FileChecksum: SHA1: d559ed320b9dfc45b4cd6e2f2389eb5c091f009f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3.10-dev CONTAINS SPDXRef-python3.10-dev-file-5
+
+
+FileName: /usr/bin/python3.10-config
+SPDXID: SPDXRef-python3.10-dev-file-6
+FileChecksum: SHA1: f46ebcad19e41750f9538e430d8e397802e108a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3.10-dev CONTAINS SPDXRef-python3.10-dev-file-6
+
+
+FileName: /usr/share/man/man1/python3.10-config.1.gz
+SPDXID: SPDXRef-python3.10-dev-file-7
+FileChecksum: SHA1: b610506b490632b4ec77768aac7fba98b15ef482
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3.10-dev CONTAINS SPDXRef-python3.10-dev-file-7
+
+
+## Extracted License
+

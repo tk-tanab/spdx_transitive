@@ -1,0 +1,170 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/pcmciautils_018-13build1-735d5329-ee9a-50d9-bb4e-d9fc79c38ae9
+DocumentName: pcmciautils_018-13build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-pcmciautils
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:20:16Z
+
+
+## Package
+
+PackageName: pcmciautils
+PackageVersion: 018-13build1
+SPDXID: SPDXRef-pcmciautils
+PackageHomePage: https://www.kernel.org/pub/linux/utils/kernel/pcmcia/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 618b05530c5fad2d9781a05f54785122d0f55d40
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Copyright 1999 David A. Hinds 2002-2003 Mike Gleason, NcFTP Software 2003,2004 Greg Kroah-Hartman <greg@kroah.com> 2004-2005 Dominik Brodowski <linux@brodo.de>
+</text>
+PackageComment: <text>PCMCIA utilities for Linux 2.6
+ This package provides PCMCIA initialisation tools for Linux 2.6.13-rc1 or
+ later, replacing the old pcmcia-cs tools used with earlier kernel versions.
+ PCMCIA cards are commonly used in laptops to provide expanded capabilities
+ such as network connections, modems, increased memory, etc.
+ .
+ To use PCMCIA you need to have kernel modules available to support
+ it. These are included in the stock Debian 2.6 kernel packages. You
+ will most likely also need udev, although it isn't always required.
+ .
+ The wireless-tools package is required by many wireless network adapters.</text>
+Relationship: SPDXRef-pcmciautils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-pcmciautils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-udev
+Relationship: SPDXRef-pcmciautils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-wireless-tools
+
+
+## File
+
+FileName: /usr/share/doc/pcmciautils/copyright
+SPDXID: SPDXRef-pcmciautils-file-0
+FileChecksum: SHA1: b288e916abdc52ca0f093ea06aea613286abbfa8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 1999 David A. Hinds 2002-2003 Mike Gleason, NcFTP Software 2003,2004 Greg Kroah-Hartman <greg@kroah.com> 2004-2005 Dominik Brodowski <linux@brodo.de>
+</text>
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-0
+
+
+FileName: /lib/udev/pcmcia-check-broken-cis
+SPDXID: SPDXRef-pcmciautils-file-1
+FileChecksum: SHA1: 3e3b6867da9f10f87fb8ed267ea0e9e1a5ee0d8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-1
+
+
+FileName: /lib/udev/pcmcia-socket-startup
+SPDXID: SPDXRef-pcmciautils-file-2
+FileChecksum: SHA1: 4986c44b9b5d2cd15626fcc4dc4f852b24448e0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-2
+
+
+FileName: /lib/udev/rules.d/60-pcmcia.rules
+SPDXID: SPDXRef-pcmciautils-file-3
+FileChecksum: SHA1: 924bc51e2453433ca84954bc3981e176a2baea27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-3
+
+
+FileName: /sbin/pccardctl
+SPDXID: SPDXRef-pcmciautils-file-4
+FileChecksum: SHA1: e82f5207e1e9b1f411af458eb4b57bcea6a9cd20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-4
+
+
+FileName: /usr/lib/pcmciautils/config.opts
+SPDXID: SPDXRef-pcmciautils-file-5
+FileChecksum: SHA1: 0a5c34714920af23596fbf8b7e88ae8b1a32e9d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-5
+
+
+FileName: /usr/share/doc/pcmciautils/NEWS.Debian.gz
+SPDXID: SPDXRef-pcmciautils-file-6
+FileChecksum: SHA1: 20917107c5bf82dfe37d50fdf1658fb8c943be66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-6
+
+
+FileName: /usr/share/doc/pcmciautils/changelog.Debian.gz
+SPDXID: SPDXRef-pcmciautils-file-7
+FileChecksum: SHA1: 83d630f912e3f087d77095774b0f5cc077d20407
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-7
+
+
+FileName: /usr/share/doc/pcmciautils/mini-howto.txt.gz
+SPDXID: SPDXRef-pcmciautils-file-8
+FileChecksum: SHA1: 3d1ac0622b463c2f4343fc31b1245755f20a1f3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-8
+
+
+FileName: /usr/share/man/man8/pccardctl.8.gz
+SPDXID: SPDXRef-pcmciautils-file-9
+FileChecksum: SHA1: a294bbde6c7c17493ca3a72d476e9d336af4942c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-9
+
+
+FileName: /sbin/lspcmcia
+SPDXID: SPDXRef-pcmciautils-file-10
+FileChecksum: SHA1: e82f5207e1e9b1f411af458eb4b57bcea6a9cd20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-10
+
+
+FileName: /usr/share/man/man8/lspcmcia.8.gz
+SPDXID: SPDXRef-pcmciautils-file-11
+FileChecksum: SHA1: a294bbde6c7c17493ca3a72d476e9d336af4942c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pcmciautils CONTAINS SPDXRef-pcmciautils-file-11
+
+
+## Extracted License
+

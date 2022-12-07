@@ -1,0 +1,352 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/rsync_3.2.3-8ubuntu3-e2c73c07-a4b3-5496-a61c-b881f5d9a7a3
+DocumentName: rsync_3.2.3-8ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-rsync
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:06:40Z
+
+
+## Package
+
+PackageName: rsync
+PackageVersion: 3.2.3-8ubuntu3
+SPDXID: SPDXRef-rsync
+PackageHomePage: https://rsync.samba.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: db6f5dd8f8c367846f05a031af0868294477d3e4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: LicenseRef-scancode-generic-exception
+PackageCopyrightText: <text>Copyright (c) 1996-2011 by Andrew Tridgell, Wayne Davison, and others
+</text>
+PackageComment: <text>fast, versatile, remote (and local) file-copying tool
+ rsync is a fast and versatile file-copying tool which can copy locally
+ and to/from a remote host. It offers many options to control its behavior,
+ and its remote-update protocol can minimize network traffic to make
+ transferring updates between machines fast and efficient.
+ .
+ It is widely used for backups and mirroring and as an improved copy
+ command for everyday use.
+ .
+ This package provides both the rsync command line tool and optional
+ daemon functionality.</text>
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libacl1
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-liblz4-1
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpopt0
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libssl3
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxxhash0
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libzstd1
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-openssh-client
+Relationship: SPDXRef-rsync DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+
+
+## File
+
+FileName: /usr/share/doc/rsync/copyright
+SPDXID: SPDXRef-rsync-file-0
+FileChecksum: SHA1: 9240367b5467390158dc50f1f67a85247aca2743
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-generic-exception
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 1996-2011 by Andrew Tridgell, Wayne Davison, and others
+</text>
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-0
+
+
+FileName: /etc/default/rsync
+SPDXID: SPDXRef-rsync-file-1
+FileChecksum: SHA1: 541c18f7a7e85c2117a2aeaadef41a320729e9ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-1
+
+
+FileName: /etc/init.d/rsync
+SPDXID: SPDXRef-rsync-file-2
+FileChecksum: SHA1: 53a148101daa567fc4490abc711cf8a3083c4101
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-2
+
+
+FileName: /lib/systemd/system/rsync.service
+SPDXID: SPDXRef-rsync-file-3
+FileChecksum: SHA1: 45f4999b791cc02cf2aebe304f60b3053d7c4cfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-3
+
+
+FileName: /usr/bin/rsync
+SPDXID: SPDXRef-rsync-file-4
+FileChecksum: SHA1: 96dea4b5887c011d84be5c6e80d821b69cc24f60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-4
+
+
+FileName: /usr/bin/rsync-ssl
+SPDXID: SPDXRef-rsync-file-5
+FileChecksum: SHA1: 85b303568a6a4f29f0fb64fdc05b3f123655b77c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-5
+
+
+FileName: /usr/share/doc/rsync/NEWS.Debian.gz
+SPDXID: SPDXRef-rsync-file-6
+FileChecksum: SHA1: 3d774986c64441b706a1dc4258cf98eace4f632a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-6
+
+
+FileName: /usr/share/doc/rsync/NEWS.md.gz
+SPDXID: SPDXRef-rsync-file-7
+FileChecksum: SHA1: ad3154b245b16043527274827d4189a55c1eb6b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-7
+
+
+FileName: /usr/share/doc/rsync/README.Debian
+SPDXID: SPDXRef-rsync-file-8
+FileChecksum: SHA1: 1fa3965edb3713636c6c41efd6a7d5156463905e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-8
+
+
+FileName: /usr/share/doc/rsync/changelog.Debian.gz
+SPDXID: SPDXRef-rsync-file-9
+FileChecksum: SHA1: da4c39e1cc0698514629898cc0c0e99270635c62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-9
+
+
+FileName: /usr/share/doc/rsync/examples/logrotate.conf.rsync
+SPDXID: SPDXRef-rsync-file-10
+FileChecksum: SHA1: 49b15b7d4d016da7fc729877d6b59f47c28a66f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-10
+
+
+FileName: /usr/share/doc/rsync/examples/rsyncd.conf
+SPDXID: SPDXRef-rsync-file-11
+FileChecksum: SHA1: 34a81c9c852cbc2c8aec429289938e63d3b2570b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-11
+
+
+FileName: /usr/share/lintian/overrides/rsync
+SPDXID: SPDXRef-rsync-file-12
+FileChecksum: SHA1: 8dfb324d2600cfe61939c7434adb1c324c3640e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-12
+
+
+FileName: /usr/share/man/man1/rsync-ssl.1.gz
+SPDXID: SPDXRef-rsync-file-13
+FileChecksum: SHA1: 4c58966f1d4977bec7d2148dae5fe0667c81f230
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-13
+
+
+FileName: /usr/share/man/man1/rsync.1.gz
+SPDXID: SPDXRef-rsync-file-14
+FileChecksum: SHA1: 386df570cb39a9cdaaecf85ffd0cb663b5ac5f59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-14
+
+
+FileName: /usr/share/man/man5/rsyncd.conf.5.gz
+SPDXID: SPDXRef-rsync-file-15
+FileChecksum: SHA1: 2989d7dd0726acc3bff0e3bf194bd91800d6d80a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-15
+
+
+FileName: /usr/share/rsync/scripts/atomic-rsync
+SPDXID: SPDXRef-rsync-file-16
+FileChecksum: SHA1: 5c58b121d7b252887b17bb196710bca57a461067
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-16
+
+
+FileName: /usr/share/rsync/scripts/cull_options
+SPDXID: SPDXRef-rsync-file-17
+FileChecksum: SHA1: caedace3760bd224331fecfa23ca7b93210e4a3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-17
+
+
+FileName: /usr/share/rsync/scripts/cvs2includes
+SPDXID: SPDXRef-rsync-file-18
+FileChecksum: SHA1: c6d0e1a2bc5251e427c4e585d37e3c0fb5b03768
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-18
+
+
+FileName: /usr/share/rsync/scripts/file-attr-restore
+SPDXID: SPDXRef-rsync-file-19
+FileChecksum: SHA1: c09aa40ab43526478fe5f5cc433a93cbc038c819
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-19
+
+
+FileName: /usr/share/rsync/scripts/files-to-excludes
+SPDXID: SPDXRef-rsync-file-20
+FileChecksum: SHA1: 6131f4e40a6119433b66907834d46a43f3a5fbf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-20
+
+
+FileName: /usr/share/rsync/scripts/git-set-file-times
+SPDXID: SPDXRef-rsync-file-21
+FileChecksum: SHA1: 5c68bccd6281661ed757216c73af3cdeb4c72ffd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-21
+
+
+FileName: /usr/share/rsync/scripts/logfilter
+SPDXID: SPDXRef-rsync-file-22
+FileChecksum: SHA1: 183e7cd5cab390ed13dd84674b6fd84a591f4607
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-22
+
+
+FileName: /usr/share/rsync/scripts/lsh
+SPDXID: SPDXRef-rsync-file-23
+FileChecksum: SHA1: 69fcc237649c294dd53838342873dfcc896af5ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-23
+
+
+FileName: /usr/share/rsync/scripts/mnt-excl
+SPDXID: SPDXRef-rsync-file-24
+FileChecksum: SHA1: fa08e51a4f4c3d6f5d47714aff78870e20015ad6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-24
+
+
+FileName: /usr/share/rsync/scripts/munge-symlinks
+SPDXID: SPDXRef-rsync-file-25
+FileChecksum: SHA1: d4ea9f4ca5584c817d43a0a43abde9fcba342153
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-25
+
+
+FileName: /usr/share/rsync/scripts/rrsync
+SPDXID: SPDXRef-rsync-file-26
+FileChecksum: SHA1: e7eaae64fe766d2a5e53043e3821a333dd525fb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-26
+
+
+FileName: /usr/share/rsync/scripts/rsync-no-vanished
+SPDXID: SPDXRef-rsync-file-27
+FileChecksum: SHA1: 0ffe6f2e90a5ef9849208d66d7862a8654eb1ff4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-27
+
+
+FileName: /usr/share/rsync/scripts/rsyncstats
+SPDXID: SPDXRef-rsync-file-28
+FileChecksum: SHA1: 80d83377ccb65390827b6331d1078599909de0bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-28
+
+
+FileName: /usr/bin/rrsync
+SPDXID: SPDXRef-rsync-file-29
+FileChecksum: SHA1: e7eaae64fe766d2a5e53043e3821a333dd525fb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsync CONTAINS SPDXRef-rsync-file-29
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-generic-exception
+LicenseName: Generic Exception Notice
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/generic-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/generic-exception.yml
+</text>
+
+

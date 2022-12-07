@@ -1,0 +1,88 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-noto-color-emoji_2.034-1-df8d30de-cb62-5afa-85f6-396db38dcbd1
+DocumentName: fonts-noto-color-emoji_2.034-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-noto-color-emoji
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:59:46Z
+
+
+## Package
+
+PackageName: fonts-noto-color-emoji
+PackageVersion: 2.034-1
+SPDXID: SPDXRef-fonts-noto-color-emoji
+PackageHomePage: https://www.google.com/get/noto/help/emoji/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 60cd52fcf2c1ef8e9e1472b1ddee1d09f645bb29
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2013-2017 Google Inc. Arjen Nienhuis <a.g.nienhuis@gmail.com>
+</text>
+PackageComment: <text>color emoji font from Google
+ Noto is a collection of font families, each visually harmonized across
+ scripts.
+ .
+ The name "Noto" is short for "No Tofu", describing the aim of covering
+ all living Unicode scripts.
+ .
+ Tofu (豆腐) is Japanese jargon for unicode replacement character "�"
+ (U+FFFD) often displayed as replacement for unassigned or unknown
+ characters.
+ .
+ This package contains the color emoji font used on "stock" Android devices
+ such as the Google Pixel.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-noto-color-emoji/copyright
+SPDXID: SPDXRef-fonts-noto-color-emoji-file-0
+FileChecksum: SHA1: c3115da2e4d22c18cde0efd814105e6d3e856ef3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2013-2017 Google Inc. Arjen Nienhuis <a.g.nienhuis@gmail.com>
+Copyright 2013-2017 Google Inc. Arjen Nienhuis <a.g.nienhuis@gmail.com>
+</text>
+Relationship: SPDXRef-fonts-noto-color-emoji CONTAINS SPDXRef-fonts-noto-color-emoji-file-0
+
+
+FileName: /usr/share/doc/fonts-noto-color-emoji/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-noto-color-emoji-file-1
+FileChecksum: SHA1: d3c89e3a1e3ac9894d8a9fa0d1cd7acbf6278e52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-color-emoji CONTAINS SPDXRef-fonts-noto-color-emoji-file-1
+
+
+FileName: /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
+SPDXID: SPDXRef-fonts-noto-color-emoji-file-2
+FileChecksum: SHA1: c1069a6e4374791cc88de05fd6e1c56cda6154c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-noto-color-emoji CONTAINS SPDXRef-fonts-noto-color-emoji-file-2
+
+
+## Extracted License
+

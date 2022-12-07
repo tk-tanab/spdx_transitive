@@ -1,0 +1,101 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/liblua5.3-0_5.3.6-1build1-74508a11-8e22-5777-a966-0afdbc52bbd3
+DocumentName: liblua5.3-0_5.3.6-1build1
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-libc6.Cycle http://spdx.org/spdxdocs/libc6_2.35-0ubuntu3.1-81aed138-ef05-5528-8db8-5cca19557558 SHA1: a6a1cac1e1bc7cb4b3cf61f712e743e93c0bf08d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-liblua5.3-0
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:13:43Z
+
+
+## Package
+
+PackageName: liblua5.3-0
+PackageVersion: 5.3.6-1build1
+SPDXID: SPDXRef-liblua5.3-0
+PackageHomePage: http://www.lua.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 461f68e3081734d3c15b20470a2d6080aeb0085d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Shared library for the Lua interpreter version 5.3
+ Lua is a powerful, light-weight programming language designed for extending
+ applications.  The language engine is accessible as a library, having a C
+ API which allows the application to exchange data with Lua programs and also
+ to extend Lua with C functions.  Lua is also used as a general-purpose,
+ stand-alone language through the simple command line interpreter provided.
+ .
+ This package contains runtime libraries.  You shouldn't need to install it
+ explicitly.</text>
+Relationship: SPDXRef-liblua5.3-0 DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-liblua5.3-0 DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libstdcPlusPlus6
+
+
+## File
+
+FileName: /usr/lib/x86_64-linux-gnu/liblua5.3-c++.so.0.0.0
+SPDXID: SPDXRef-liblua5.3-0-file-0
+FileChecksum: SHA1: 1792f96b7b606869ab96e82c121b40828f819681
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liblua5.3-0 CONTAINS SPDXRef-liblua5.3-0-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/liblua5.3.so.0.0.0
+SPDXID: SPDXRef-liblua5.3-0-file-1
+FileChecksum: SHA1: bb896c3e84ac0e3107927f0c5a176efaf3286f76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liblua5.3-0 CONTAINS SPDXRef-liblua5.3-0-file-1
+
+
+FileName: /usr/share/doc/liblua5.3-0/changelog.Debian.gz
+SPDXID: SPDXRef-liblua5.3-0-file-2
+FileChecksum: SHA1: 93f010ca49579a32636905146e992e4662cb8eca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liblua5.3-0 CONTAINS SPDXRef-liblua5.3-0-file-2
+
+
+FileName: /usr/share/doc/liblua5.3-0/copyright
+SPDXID: SPDXRef-liblua5.3-0-file-3
+FileChecksum: SHA1: 387c242745eb0475de26428f99d7d176eca66a24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liblua5.3-0 CONTAINS SPDXRef-liblua5.3-0-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/liblua5.3-c++.so.0
+SPDXID: SPDXRef-liblua5.3-0-file-4
+FileChecksum: SHA1: 1792f96b7b606869ab96e82c121b40828f819681
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liblua5.3-0 CONTAINS SPDXRef-liblua5.3-0-file-4
+
+
+FileName: /usr/lib/x86_64-linux-gnu/liblua5.3.so.0
+SPDXID: SPDXRef-liblua5.3-0-file-5
+FileChecksum: SHA1: bb896c3e84ac0e3107927f0c5a176efaf3286f76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-liblua5.3-0 CONTAINS SPDXRef-liblua5.3-0-file-5
+
+
+## Extracted License
+

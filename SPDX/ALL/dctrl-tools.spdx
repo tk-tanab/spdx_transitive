@@ -1,0 +1,290 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/dctrl-tools_2.24-3build2-b247c0a6-0e01-513e-aa51-b9743ae81710
+DocumentName: dctrl-tools_2.24-3build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dctrl-tools
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:49:20Z
+
+
+## Package
+
+PackageName: dctrl-tools
+PackageVersion: 2.24-3build2
+SPDXID: SPDXRef-dctrl-tools
+PackageHomePage: https://github.com/ajkaijanaho/dctrl-tools
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f4524b6db6d662d0efc2cec8a1befe6bafedd1f4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1994 Lars Wirzenius
+Copyright (c) 1995 Ian Jackson <ian@chiark.greenend.org.uk>
+Copyright (c) 2001 Wichert Akkerman <wakkerma@debian.org>
+Copyright (c) 2004 Antti-Juhani Kaijanaho
+Copyright (c) 2005 Antti-Juhani Kaijanaho
+Copyright 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 2009, 2010, 2011, 2012 Antti-Juhani Kaijanaho
+</text>
+PackageComment: <text>Command-line tools to process Debian package information
+ Debian package information is generally stored in files having a
+ special file format, dubbed the Debian control file format (the dctrl
+ format), a special case of the record jar file format.  These tools
+ operate on any files conforming in a general sense to that format and
+ are therefore widely applicable whenever those formats are in play.
+ .
+ Included are:
+ .
+   grep-dctrl     - Grep dctrl-format files
+   grep-available - Grep the DPKG available database
+   grep-status    - Grep the DPKG status database
+   grep-aptavail  - Grep the APT available database
+   grep-debtags   - Grep the Debtags package database
+ .
+   sort-dctrl     - Sort dctrl-format files
+ .
+   tbl-dctrl      - Tabulate dctrl-format files
+ .
+   sync-available - Sync the dpkg available database with
+                    the apt database</text>
+Relationship: SPDXRef-dctrl-tools DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-dctrl-tools DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-apt
+
+
+## File
+
+FileName: /usr/share/doc/dctrl-tools/copyright
+SPDXID: SPDXRef-dctrl-tools-file-0
+FileChecksum: SHA1: 78e2f44cc02bac01b4930c461166c72c01208581
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 2009, 2010, 2011, 2012 Antti-Juhani Kaijanaho
+Copyright (c) 1994 Lars Wirzenius
+Copyright (c) 2004 Antti-Juhani Kaijanaho
+Copyright (c) 2005 Antti-Juhani Kaijanaho
+Copyright (c) 1995 Ian Jackson <ian@chiark.greenend.org.uk>
+Copyright (c) 2001 Wichert Akkerman <wakkerma@debian.org>
+</text>
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-0
+
+
+FileName: /usr/bin/grep-dctrl
+SPDXID: SPDXRef-dctrl-tools-file-1
+FileChecksum: SHA1: 4d6e07cedc0fed5538f674b0ec16a53dfadbcf2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-1
+
+
+FileName: /usr/bin/join-dctrl
+SPDXID: SPDXRef-dctrl-tools-file-2
+FileChecksum: SHA1: 51d493623ac89d8de7fb3fd2062237c5f4531dea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-2
+
+
+FileName: /usr/bin/sort-dctrl
+SPDXID: SPDXRef-dctrl-tools-file-3
+FileChecksum: SHA1: 6b4380db108da074fa099613919c4280980576a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-3
+
+
+FileName: /usr/bin/tbl-dctrl
+SPDXID: SPDXRef-dctrl-tools-file-4
+FileChecksum: SHA1: 2a30ee9edff267a5a313c35010de71f3da5af797
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-4
+
+
+FileName: /usr/sbin/sync-available
+SPDXID: SPDXRef-dctrl-tools-file-5
+FileChecksum: SHA1: 90c3f3abe3eddfcf6a74cb9b45726b7429d7fe4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-5
+
+
+FileName: /usr/share/doc/dctrl-tools/NEWS.Debian.gz
+SPDXID: SPDXRef-dctrl-tools-file-6
+FileChecksum: SHA1: 19f2ee78c5f5fe55a3071d7493cd8712bb8aed1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-6
+
+
+FileName: /usr/share/doc/dctrl-tools/README
+SPDXID: SPDXRef-dctrl-tools-file-7
+FileChecksum: SHA1: 094fa19b827cea8c1ba48881c92fdaafbd5b3ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-7
+
+
+FileName: /usr/share/doc/dctrl-tools/TODO
+SPDXID: SPDXRef-dctrl-tools-file-8
+FileChecksum: SHA1: 36d48f359aebaa4e2d5983cb580c33119b51f4e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-8
+
+
+FileName: /usr/share/doc/dctrl-tools/changelog.Debian.gz
+SPDXID: SPDXRef-dctrl-tools-file-9
+FileChecksum: SHA1: 6d1ff2c6f8cf25481e8d219d6f8981c71d4922ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-9
+
+
+FileName: /usr/share/man/man1/grep-dctrl.1.gz
+SPDXID: SPDXRef-dctrl-tools-file-10
+FileChecksum: SHA1: d38f40a2457f213401bb1a35cb0a87e007c903ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-10
+
+
+FileName: /usr/share/man/man1/join-dctrl.1.gz
+SPDXID: SPDXRef-dctrl-tools-file-11
+FileChecksum: SHA1: 3480e705c022825211ec84199f5ea2fdb12725a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-11
+
+
+FileName: /usr/share/man/man1/sort-dctrl.1.gz
+SPDXID: SPDXRef-dctrl-tools-file-12
+FileChecksum: SHA1: 80bd2cdee070d5b6f80dcb040128f5a4761f0420
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-12
+
+
+FileName: /usr/share/man/man1/tbl-dctrl.1.gz
+SPDXID: SPDXRef-dctrl-tools-file-13
+FileChecksum: SHA1: 4048fb7b17ca9e4e3f5f92e3284359c3ffc2f5f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-13
+
+
+FileName: /usr/share/man/man8/sync-available.8.gz
+SPDXID: SPDXRef-dctrl-tools-file-14
+FileChecksum: SHA1: 9dc494cd8331ac32eb9c07bb309a18750dd29197
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-14
+
+
+FileName: /usr/bin/grep-aptavail
+SPDXID: SPDXRef-dctrl-tools-file-15
+FileChecksum: SHA1: 4d6e07cedc0fed5538f674b0ec16a53dfadbcf2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-15
+
+
+FileName: /usr/bin/grep-available
+SPDXID: SPDXRef-dctrl-tools-file-16
+FileChecksum: SHA1: 4d6e07cedc0fed5538f674b0ec16a53dfadbcf2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-16
+
+
+FileName: /usr/bin/grep-debtags
+SPDXID: SPDXRef-dctrl-tools-file-17
+FileChecksum: SHA1: 4d6e07cedc0fed5538f674b0ec16a53dfadbcf2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-17
+
+
+FileName: /usr/bin/grep-status
+SPDXID: SPDXRef-dctrl-tools-file-18
+FileChecksum: SHA1: 4d6e07cedc0fed5538f674b0ec16a53dfadbcf2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-18
+
+
+FileName: /usr/share/man/man1/grep-aptavail.1.gz
+SPDXID: SPDXRef-dctrl-tools-file-19
+FileChecksum: SHA1: d38f40a2457f213401bb1a35cb0a87e007c903ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-19
+
+
+FileName: /usr/share/man/man1/grep-available.1.gz
+SPDXID: SPDXRef-dctrl-tools-file-20
+FileChecksum: SHA1: d38f40a2457f213401bb1a35cb0a87e007c903ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-20
+
+
+FileName: /usr/share/man/man1/grep-debtags.1.gz
+SPDXID: SPDXRef-dctrl-tools-file-21
+FileChecksum: SHA1: d38f40a2457f213401bb1a35cb0a87e007c903ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-21
+
+
+FileName: /usr/share/man/man1/grep-status.1.gz
+SPDXID: SPDXRef-dctrl-tools-file-22
+FileChecksum: SHA1: d38f40a2457f213401bb1a35cb0a87e007c903ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dctrl-tools CONTAINS SPDXRef-dctrl-tools-file-22
+
+
+## Extracted License
+

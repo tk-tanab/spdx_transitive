@@ -1,0 +1,235 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/dash_0.5.11+git20210903+057cd650a4ed-3build1-c54115b2-0d6d-5f4a-95cd-8c96fc184a83
+DocumentName: dash_0.5.11+git20210903+057cd650a4ed-3build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dash
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:49:03Z
+
+
+## Package
+
+PackageName: dash
+PackageVersion: 0.5.11+git20210903+057cd650a4ed-3build1
+SPDXID: SPDXRef-dash
+PackageHomePage: http://gondor.apana.org.au/~herbert/dash/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: edd17e0639a41ae1c6c2c8af913ade2eee88c4cd
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: FSFUL
+PackageLicenseInfoFromFiles: FSFULLR
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: LicenseRef-scancode-fsf-unlimited-no-warranty
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: <text>Copyright 1989-1994 The Regents of the University of California
+Copyright 1992, 1996, 1997, 1999, 2000, 2002-2012, Free Software Foundation, Inc. Comment
+Copyright 1992-1996, 1998-2012, Free Software Foundation, Inc.
+Copyright 1994, X Consortium
+Copyright 1994-2011, Free Software
+Copyright 1994-2011, Free Software Foundation, Inc.
+Copyright 1996-2011, Free Software Foundation, Inc.
+Copyright 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, Herbert Xu <herbert@debian.org> 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2012, 2014, Gerrit Pape <pape@smarden.org> 2009, Luk Claes <luk@debian.org> 2010, 2011, Jonathan Nieder <jrnieder@gmail.com> 2010, Adam D. Barratt <adam@adam-barratt.org.uk> 2010, Christian Perrier <bubulle@debian.org>
+Copyright 1997-2005, 2007, Herbert Xu <herbert@gondor.apana.org.au>
+Copyright 1999, 2000, 2003--2012, Free Software Foundation, Inc.
+Copyright 2004, Claus Hindsgaul <claus_h@image.dk> 2006, Claus Hindsgaul <claus.hindsgaul@gmail.com>
+Copyright 2005-2010, Clytie Siddall <clytie@riverland.net.au> 2010, Free Software Foundation, Inc.
+Copyright 2006-2009, Helge Kreutzmann <debian@helgefjell.de>
+Copyright 2008, 2009, Damyan Ivanov <dmn@debian.org>
+Copyright 2008, 2009, Software in the Public Interest 2008, Fernando Cerezal Lopez <kryptos21@gmail.com> 2009, Francisco Javier Cuadrado <fcocuadrado@gmail.com>
+Copyright 2008, 2011, Mert Dirik <mertdirik@gmail.com>
+Copyright 2008, Andre Luis Lopes <andrelop@debian.org> 2008-2010, Adriano Rafael Gomes <adrianorg@gmail.com>
+Copyright 2008, Eddy Petrisor <eddy.petrisor@gmail.com> 2012, Andrei Popescu andreimpopescu@gmail.com
+Copyright 2008, Martin Agren <martin.agren@gmail.com> 2009, Martin Bagge <brother@bsnet.se>
+Copyright 2008, Thijs Kinkhorst <thijs@debian.org> 2010, Eric Spreen <erispre@gmail.com>
+Copyright 2008, Xabier Bilbao <xabidu@gmail.com> 2008, 2010, Inaki Larranaga Murgoitio <dooteo@euskalgnu.org>
+Copyright 2009, Julien Patriarca <patriarcaj@gmail.com>
+Copyright 2011, Slavko <linux@slavino.sk>
+Copyright 2011, Zlatan Todoric <zlatan.todoric@gmail.com>
+Copyright Erik Baalbergen, Eric Gisin, Arnold Robbins, J.T. Conklin
+</text>
+PackageComment: <text>POSIX-compliant shell
+ The Debian Almquist Shell (dash) is a POSIX-compliant shell derived
+ from ash.
+ .
+ Since it executes scripts faster than bash, and has fewer library
+ dependencies (making it more robust against software or hardware
+ failures), it is used as the default system shell on Debian systems.</text>
+Relationship: SPDXRef-dash DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debianutils
+Relationship: SPDXRef-dash DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+Relationship: SPDXRef-dash DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+Relationship: SPDXRef-dash DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/dash/copyright
+SPDXID: SPDXRef-dash-file-0
+FileChecksum: SHA1: 154d73311a8c28885b03d6fd582eb08f73980f43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseInfoInFile: X11
+LicenseInfoInFile: MIT
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFUL
+FileCopyrightText: <text>Copyright 1989-1994 The Regents of the University of California
+Copyright 1994-2011, Free Software Foundation, Inc.
+Copyright 1996-2011, Free Software Foundation, Inc.
+Copyright 1992-1996, 1998-2012, Free Software Foundation, Inc.
+Copyright 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, Herbert Xu <herbert@debian.org> 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2012, 2014, Gerrit Pape <pape@smarden.org> 2009, Luk Claes <luk@debian.org> 2010, 2011, Jonathan Nieder <jrnieder@gmail.com> 2010, Adam D. Barratt <adam@adam-barratt.org.uk> 2010, Christian Perrier <bubulle@debian.org>
+Copyright 2008, 2009, Damyan Ivanov <dmn@debian.org>
+Copyright 2008, Xabier Bilbao <xabidu@gmail.com> 2008, 2010, Inaki Larranaga Murgoitio <dooteo@euskalgnu.org>
+Copyright 2008, 2011, Mert Dirik <mertdirik@gmail.com>
+Copyright 2004, Claus Hindsgaul <claus_h@image.dk> 2006, Claus Hindsgaul <claus.hindsgaul@gmail.com>
+Copyright 2006-2009, Helge Kreutzmann <debian@helgefjell.de>
+Copyright 2008, 2009, Software in the Public Interest 2008, Fernando Cerezal Lopez <kryptos21@gmail.com> 2009, Francisco Javier Cuadrado <fcocuadrado@gmail.com>
+Copyright 2009, Julien Patriarca <patriarcaj@gmail.com>
+Copyright 2008, Thijs Kinkhorst <thijs@debian.org> 2010, Eric Spreen <erispre@gmail.com>
+Copyright 2008, Andre Luis Lopes <andrelop@debian.org> 2008-2010, Adriano Rafael Gomes <adrianorg@gmail.com>
+Copyright 2008, Andre Luis Lopes <andrelop@debian.org> 2008-2010, Adriano Rafael Gomes <adrianorg@gmail.com>
+Copyright 2011, Slavko <linux@slavino.sk>
+Copyright 2008, Eddy Petrisor <eddy.petrisor@gmail.com> 2012, Andrei Popescu andreimpopescu@gmail.com
+Copyright 2011, Zlatan Todoric <zlatan.todoric@gmail.com>
+Copyright 2008, Martin Agren <martin.agren@gmail.com> 2009, Martin Bagge <brother@bsnet.se>
+Copyright 2005-2010, Clytie Siddall <clytie@riverland.net.au> 2010, Free Software Foundation, Inc.
+Copyright 1994, X Consortium
+Copyright 1999, 2000, 2003--2012, Free Software Foundation, Inc.
+Copyright Erik Baalbergen, Eric Gisin, Arnold Robbins, J.T. Conklin
+Copyright 1997-2005, 2007, Herbert Xu <herbert@gondor.apana.org.au>
+Copyright 1994-2011, Free Software
+Copyright 1992, 1996, 1997, 1999, 2000, 2002-2012, Free Software Foundation, Inc. Comment
+</text>
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-0
+
+
+FileName: /bin/dash
+SPDXID: SPDXRef-dash-file-1
+FileChecksum: SHA1: 42e94914c7800c7063c51d7a17aec3a2069a3769
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-1
+
+
+FileName: /usr/share/doc/dash/NEWS.Debian.gz
+SPDXID: SPDXRef-dash-file-2
+FileChecksum: SHA1: 3d9d657b1eeec0f15032e8abce8fe41884d368b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-2
+
+
+FileName: /usr/share/doc/dash/README.Debian.diet
+SPDXID: SPDXRef-dash-file-3
+FileChecksum: SHA1: 87e975ef10537b9798e818be4b0200e44737ee2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-3
+
+
+FileName: /usr/share/doc/dash/README.source
+SPDXID: SPDXRef-dash-file-4
+FileChecksum: SHA1: f5e920a21387828362a28e43faa8e8f5dfe49fc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-4
+
+
+FileName: /usr/share/doc/dash/changelog.Debian.gz
+SPDXID: SPDXRef-dash-file-5
+FileChecksum: SHA1: 21fc4b590a6c3388995722012aaf5643a1b2e8e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-5
+
+
+FileName: /usr/share/lintian/overrides/dash
+SPDXID: SPDXRef-dash-file-6
+FileChecksum: SHA1: 5d8d250a50c4760c3235d4cf79959b2210173515
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-6
+
+
+FileName: /usr/share/man/man1/dash.1.gz
+SPDXID: SPDXRef-dash-file-7
+FileChecksum: SHA1: f39d4c5c0478edf32794b93261a5ec9ba3451058
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-7
+
+
+FileName: /usr/share/menu/dash
+SPDXID: SPDXRef-dash-file-8
+FileChecksum: SHA1: 28daf8a290b88e61acf188ed687992e2b42e8f9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-8
+
+
+FileName: /bin/sh
+SPDXID: SPDXRef-dash-file-9
+FileChecksum: SHA1: 42e94914c7800c7063c51d7a17aec3a2069a3769
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-9
+
+
+FileName: /usr/share/man/man1/sh.1.gz
+SPDXID: SPDXRef-dash-file-10
+FileChecksum: SHA1: f39d4c5c0478edf32794b93261a5ec9ba3451058
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dash CONTAINS SPDXRef-dash-file-10
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseName: FSF Unlimited License No Warranty
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-unlimited-no-warranty.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-unlimited-no-warranty.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

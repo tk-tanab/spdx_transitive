@@ -1,0 +1,92 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libestr0_0.1.10-2.1build3-22be9af3-af9b-570a-92d1-2b571a3e9273
+DocumentName: libestr0_0.1.10-2.1build3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libestr0
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:41:26Z
+
+
+## Package
+
+PackageName: libestr0
+PackageVersion: 0.1.10-2.1build3
+SPDXID: SPDXRef-libestr0
+PackageHomePage: http://libestr.sourceforge.net/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f2e7334debd81f1238aad1d29eeb49bff20cd324
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.1-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright (c) 2010 Pierre Chifflier <pollux@debian.org>
+Copyright 2010 by Rainer Gerhards and Adiscon GmbH.
+</text>
+PackageComment: <text>Helper functions for handling strings (lib)
+ The 'libestr' library contains some essential string manipulation
+ functions and more, like escaping special characters.
+ .
+ This package contains the shared library.</text>
+Relationship: SPDXRef-libestr0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/libestr0/copyright
+SPDXID: SPDXRef-libestr0-file-0
+FileChecksum: SHA1: 22b03f5d399666e6334808d7dab23b62079bacc3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: LGPL-2.1-only
+FileCopyrightText: <text>Copyright 2010 by Rainer Gerhards and Adiscon GmbH.
+Copyright (c) 2010 Pierre Chifflier <pollux@debian.org>
+</text>
+Relationship: SPDXRef-libestr0 CONTAINS SPDXRef-libestr0-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libestr.so.0.0.0
+SPDXID: SPDXRef-libestr0-file-1
+FileChecksum: SHA1: ae4531147497708a7706f9e5a4eddcedd2911a0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libestr0 CONTAINS SPDXRef-libestr0-file-1
+
+
+FileName: /usr/share/doc/libestr0/changelog.Debian.gz
+SPDXID: SPDXRef-libestr0-file-2
+FileChecksum: SHA1: ba2fc1ac1fe6b93618e27ff5a10c6ceff1971bba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libestr0 CONTAINS SPDXRef-libestr0-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libestr.so.0
+SPDXID: SPDXRef-libestr0-file-3
+FileChecksum: SHA1: ae4531147497708a7706f9e5a4eddcedd2911a0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libestr0 CONTAINS SPDXRef-libestr0-file-3
+
+
+## Extracted License
+

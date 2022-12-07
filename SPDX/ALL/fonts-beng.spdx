@@ -1,0 +1,79 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-beng_2:1.3-b1da1417-a39a-5dfc-a99a-3931380a6e2b
+DocumentName: fonts-beng_2:1.3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-lohit-beng-assamese.Cycle http://spdx.org/spdxdocs/fonts-lohit-beng-assamese_2.91.5-2-221a4de4-8765-50d1-8e59-e0e7dc315675 SHA1: 34c085a6e464e890178f4707c98d40356b05bc5c
+ExternalDocumentRef: DocumentRef-fonts-beng-extra http://spdx.org/spdxdocs/fonts-beng-extra_3.2.1-1-e5ada876-4f37-5e43-9965-9be3d8a92dff SHA1: f0dde72a858ccc0d9c37d1c2b8dd56368db0eed4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-beng
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:51:16Z
+
+
+## Package
+
+PackageName: fonts-beng
+PackageVersion: 2:1.3
+SPDXID: SPDXRef-fonts-beng
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: fbc68c8bdfb2d394fbea0c40a1c817def3a83f43
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: ISC
+PackageCopyrightText: <text>Copyright 2011-2013, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Metapackage to install Bengali and Assamese fonts
+ This package allows you to install all available Bengali and Assamese fonts
+ in Debian.</text>
+Relationship: SPDXRef-fonts-beng DEPENDS_ON DocumentRef-fonts-beng-extra:SPDXRef-fonts-beng-extra
+Relationship: SPDXRef-fonts-beng DEPENDS_ON DocumentRef-fonts-lohit-beng-assamese.Cycle:SPDXRef-fonts-lohit-beng-assamese
+Relationship: SPDXRef-fonts-beng DEPENDS_ON DocumentRef-fonts-lohit-beng-assamese.Cycle:SPDXRef-fonts-lohit-beng-bengali
+
+
+## File
+
+FileName: /usr/share/doc/fonts-beng/copyright
+SPDXID: SPDXRef-fonts-beng-file-0
+FileChecksum: SHA1: f8971fe0c83570928f3824f791d63b4d12377903
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2011-2013, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-beng CONTAINS SPDXRef-fonts-beng-file-0
+
+
+FileName: /usr/share/doc/fonts-beng/README.Debian
+SPDXID: SPDXRef-fonts-beng-file-1
+FileChecksum: SHA1: d7c558b9298a4d8d21278f48f90cbe30ec3b1167
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng CONTAINS SPDXRef-fonts-beng-file-1
+
+
+FileName: /usr/share/doc/fonts-beng/changelog.gz
+SPDXID: SPDXRef-fonts-beng-file-2
+FileChecksum: SHA1: 2599103d466291449a094179639413d5b3574543
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng CONTAINS SPDXRef-fonts-beng-file-2
+
+
+## Extracted License
+

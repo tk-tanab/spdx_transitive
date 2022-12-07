@@ -1,0 +1,187 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/amd64-microcode_3.20191218.1ubuntu2-59f061f6-9033-5213-a7fd-120cc404eaf0
+DocumentName: amd64-microcode_3.20191218.1ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-amd64-microcode
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:40:43Z
+
+
+## Package
+
+PackageName: amd64-microcode
+PackageVersion: 3.20191218.1ubuntu2
+SPDXID: SPDXRef-amd64-microcode
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 41e905bbce127433913f74371ad86fdfdd088b4f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LicenseRef-scancode-amd-linux-firmware-export
+PackageCopyrightText: <text>Copyright (c) 2010-2018 Advanced Micro Devices, Inc.
+</text>
+PackageComment: <text>Processor microcode firmware for AMD CPUs
+ This package contains microcode patches for all AMD AMD64
+ processors.  AMD releases microcode patches to correct
+ processor behavior as documented in the respective processor
+ revision guides.
+ .
+ For Intel processors, please refer to the intel-microcode package.</text>
+Relationship: SPDXRef-amd64-microcode DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-initramfs-tools
+
+
+## File
+
+FileName: /usr/share/doc/amd64-microcode/copyright
+SPDXID: SPDXRef-amd64-microcode-file-0
+FileChecksum: SHA1: 9dce831539443e575ae66a6cdf5600d6a8b281f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-amd-linux-firmware-export
+FileCopyrightText: <text>Copyright (c) 2010-2018 Advanced Micro Devices, Inc.
+</text>
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-0
+
+
+FileName: /etc/default/amd64-microcode
+SPDXID: SPDXRef-amd64-microcode-file-1
+FileChecksum: SHA1: 4306d08fe73d56b562fd751efd6d951e7db2f369
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-1
+
+
+FileName: /etc/modprobe.d/amd64-microcode-blacklist.conf
+SPDXID: SPDXRef-amd64-microcode-file-2
+FileChecksum: SHA1: 090610b7060cf46a4dcc8086483dd6323b6f681b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-2
+
+
+FileName: /lib/firmware/amd-ucode/microcode_amd.bin
+SPDXID: SPDXRef-amd64-microcode-file-3
+FileChecksum: SHA1: d94965880af0d260552cfe65637b411621db2057
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-3
+
+
+FileName: /lib/firmware/amd-ucode/microcode_amd_fam15h.bin
+SPDXID: SPDXRef-amd64-microcode-file-4
+FileChecksum: SHA1: 90896256951d8edf7baf8181ae11e2dc618a5171
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-4
+
+
+FileName: /lib/firmware/amd-ucode/microcode_amd_fam16h.bin
+SPDXID: SPDXRef-amd64-microcode-file-5
+FileChecksum: SHA1: 6d7b62646d06b5a78d754ac55b0c282e80aff004
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-5
+
+
+FileName: /lib/firmware/amd-ucode/microcode_amd_fam17h.bin
+SPDXID: SPDXRef-amd64-microcode-file-6
+FileChecksum: SHA1: f3b095536310c157ec62526073998f55bd0a3366
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-6
+
+
+FileName: /usr/share/doc/amd64-microcode/NEWS.Debian.gz
+SPDXID: SPDXRef-amd64-microcode-file-7
+FileChecksum: SHA1: 830bb80e6f2439de2acd644a279d889bef3a0fb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-7
+
+
+FileName: /usr/share/doc/amd64-microcode/README.Debian.gz
+SPDXID: SPDXRef-amd64-microcode-file-8
+FileChecksum: SHA1: 4efdf976f5ae74f53e446e28f607ebfc05aa2bcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-8
+
+
+FileName: /usr/share/doc/amd64-microcode/README.gz
+SPDXID: SPDXRef-amd64-microcode-file-9
+FileChecksum: SHA1: 90272b5a2c814b494c91271bb91c410c43feacef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-9
+
+
+FileName: /usr/share/doc/amd64-microcode/changelog.gz
+SPDXID: SPDXRef-amd64-microcode-file-10
+FileChecksum: SHA1: 996aabb7204ff1c4bb36ce3bcfd851d0a38dac04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-10
+
+
+FileName: /usr/share/doc/amd64-microcode/microcode_amd.bin.README
+SPDXID: SPDXRef-amd64-microcode-file-11
+FileChecksum: SHA1: d16c05f96ff11e18fd13ed963c025de0c91dc3fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-11
+
+
+FileName: /usr/share/doc/amd64-microcode/microcode_amd_fam15h.bin.README
+SPDXID: SPDXRef-amd64-microcode-file-12
+FileChecksum: SHA1: 2070a38c1b5f3a52f48b0b3cccfd4a99916138b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-12
+
+
+FileName: /usr/share/initramfs-tools/hooks/amd64_microcode
+SPDXID: SPDXRef-amd64-microcode-file-13
+FileChecksum: SHA1: d2ab4a1b6609635a3eec92564cf926a4d5bd4ff7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-amd64-microcode CONTAINS SPDXRef-amd64-microcode-file-13
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-amd-linux-firmware-export
+LicenseName: AMD Linux Firmware Export License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/amd-linux-firmware-export.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/amd-linux-firmware-export.yml
+</text>
+
+

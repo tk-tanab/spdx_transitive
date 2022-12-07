@@ -1,0 +1,537 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/alsa-base_1.0.25+dfsg-0ubuntu7-6b2c22ce-9513-5e05-b1cd-aec7dec627d5
+DocumentName: alsa-base_1.0.25+dfsg-0ubuntu7
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-alsa-base
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:40:26Z
+
+
+## Package
+
+PackageName: alsa-base
+PackageVersion: 1.0.25+dfsg-0ubuntu7
+SPDXID: SPDXRef-alsa-base
+PackageHomePage: http://www.alsa-project.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2d1a717fcf67891d9e01469f1f891016cd9635c4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1998 Jarsolav Kysela <perex@suse.cz> and others
+</text>
+PackageComment: <text>ALSA driver configuration files
+ This package contains various configuration files for
+ the ALSA drivers.
+ .
+ For ALSA to work on a system with a given sound card,
+ there must be an ALSA driver for that card in the kernel.
+ Linux 2.6 as shipped in linux-image packages contains
+ ALSA drivers for all supported sound cards in the form
+ of loadable modules. A custom alsa-modules package can
+ be built from the sources in the alsa-source package
+ using the m-a utility (included in the module-assistant
+ package). Please read the README.Debian file for more
+ information about loading and building modules.
+ .
+ ALSA is the Advanced Linux Sound Architecture.</text>
+Relationship: SPDXRef-alsa-base DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-kmod
+Relationship: SPDXRef-alsa-base DEPENDS_ON SPDXRef-linux-sound-base
+Relationship: SPDXRef-alsa-base DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-udev
+Relationship: SPDXRef-alsa-base DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-alsa-utils
+
+
+PackageName: linux-sound-base
+PackageVersion: 1.0.25+dfsg-0ubuntu7
+SPDXID: SPDXRef-linux-sound-base
+PackageHomePage: http://www.alsa-project.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f0330eb10798f662713a5b487a6e6565880032ba
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1998 Jarsolav Kysela <perex@suse.cz> and others
+</text>
+PackageComment: <text>base package for ALSA and OSS sound systems
+ This package allows the administrator to choose between
+ the OSS and ALSA sound systems.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+ OSS is the free version of the Open Sound System.</text>
+Relationship: SPDXRef-linux-sound-base DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+Relationship: SPDXRef-linux-sound-base DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-kmod
+Relationship: SPDXRef-linux-sound-base DEPENDS_ON SPDXRef-alsa-base
+
+
+## File
+
+FileName: /usr/share/doc/alsa-base/copyright
+SPDXID: SPDXRef-alsa-base-file-0
+FileChecksum: SHA1: ec379c564dc9444e1ec6704c44cfd5cbed38a4ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 1998 Jarsolav Kysela <perex@suse.cz> and others
+</text>
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-0
+
+
+FileName: /etc/apm/scripts.d/alsa
+SPDXID: SPDXRef-alsa-base-file-1
+FileChecksum: SHA1: 5aea088d2d7e338cbcfa2e527b0796ae278b07d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-1
+
+
+FileName: /etc/modprobe.d/alsa-base.conf
+SPDXID: SPDXRef-alsa-base-file-2
+FileChecksum: SHA1: ddd3a2d4a097c2aed9dd214da3428097b76f900d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-2
+
+
+FileName: /etc/modprobe.d/blacklist-modem.conf
+SPDXID: SPDXRef-alsa-base-file-3
+FileChecksum: SHA1: 43056415fb17a77f71c11012123763fef9daf170
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-3
+
+
+FileName: /sbin/alsa
+SPDXID: SPDXRef-alsa-base-file-4
+FileChecksum: SHA1: c877e973ac758ccb418dbfcf8f7b807d910497cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-4
+
+
+FileName: /usr/share/alsa-base/alsa-info.sh
+SPDXID: SPDXRef-alsa-base-file-5
+FileChecksum: SHA1: 3cba486a3f399a59a8a821710d4bc97f0cd1525d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-5
+
+
+FileName: /usr/share/alsa-base/alsa.default
+SPDXID: SPDXRef-alsa-base-file-6
+FileChecksum: SHA1: 26b4c1b22bcd72dd731e4de3d351f09dc5ff2dd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-6
+
+
+FileName: /usr/share/apport/package-hooks/source_alsa-driver.py
+SPDXID: SPDXRef-alsa-base-file-7
+FileChecksum: SHA1: b7e9627341c21de048890c9f4689dc63dee519da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-7
+
+
+FileName: /usr/share/bug/alsa-base/control
+SPDXID: SPDXRef-alsa-base-file-8
+FileChecksum: SHA1: f56d03cd7d35e46621f6364430cfe93ee5e12bd9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-8
+
+
+FileName: /usr/share/bug/alsa-base/presubj
+SPDXID: SPDXRef-alsa-base-file-9
+FileChecksum: SHA1: bbcfea0c5432bae6ddf15f227a41a921ca7ac192
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-9
+
+
+FileName: /usr/share/bug/alsa-base/script
+SPDXID: SPDXRef-alsa-base-file-10
+FileChecksum: SHA1: ce434cff4a1ff3e3682ccef037504c4631f80443
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-10
+
+
+FileName: /usr/share/doc/alsa-base/FAQ
+SPDXID: SPDXRef-alsa-base-file-11
+FileChecksum: SHA1: e707ea64baa7e70a3d582cdc0b90e52d59dddc5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-11
+
+
+FileName: /usr/share/doc/alsa-base/NEWS.Debian.gz
+SPDXID: SPDXRef-alsa-base-file-12
+FileChecksum: SHA1: 6ecaadd9c0cd68efa14d7504ba625dfe4058bd3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-12
+
+
+FileName: /usr/share/doc/alsa-base/README
+SPDXID: SPDXRef-alsa-base-file-13
+FileChecksum: SHA1: 36a76822530fab2fd4a602a93519a75b98e75c60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-13
+
+
+FileName: /usr/share/doc/alsa-base/README.Debian.gz
+SPDXID: SPDXRef-alsa-base-file-14
+FileChecksum: SHA1: c75bf84ca13b5936b84029751e4c5e1aef8b7fc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-14
+
+
+FileName: /usr/share/doc/alsa-base/SOUNDCARDS.gz
+SPDXID: SPDXRef-alsa-base-file-15
+FileChecksum: SHA1: 82a27f1c82481855f1631e6ef736dceb31658fd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-15
+
+
+FileName: /usr/share/doc/alsa-base/changelog-old.Debian.gz
+SPDXID: SPDXRef-alsa-base-file-16
+FileChecksum: SHA1: 12d668a2a398d1a9f8b80895f02153ebb5fd6af2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-16
+
+
+FileName: /usr/share/doc/alsa-base/driver/ALSA-Configuration.txt.gz
+SPDXID: SPDXRef-alsa-base-file-17
+FileChecksum: SHA1: 1353f88751efd71b162fc14a1701fdd8fa1c28cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-17
+
+
+FileName: /usr/share/doc/alsa-base/driver/Audigy-mixer.txt.gz
+SPDXID: SPDXRef-alsa-base-file-18
+FileChecksum: SHA1: 9493cac28245cb0386c34e46c2cd7f5311d29067
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-18
+
+
+FileName: /usr/share/doc/alsa-base/driver/Audiophile-Usb.txt.gz
+SPDXID: SPDXRef-alsa-base-file-19
+FileChecksum: SHA1: 0093708c3f342f10ccc69839a382de2967198379
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-19
+
+
+FileName: /usr/share/doc/alsa-base/driver/Bt87x.txt
+SPDXID: SPDXRef-alsa-base-file-20
+FileChecksum: SHA1: 77f3b3145cba9b67080c1c156b34d73b5f6c3e53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-20
+
+
+FileName: /usr/share/doc/alsa-base/driver/CMIPCI.txt.gz
+SPDXID: SPDXRef-alsa-base-file-21
+FileChecksum: SHA1: 73c4c0d185f50605d560b56c00bddde37fa7b3ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-21
+
+
+FileName: /usr/share/doc/alsa-base/driver/ControlNames.txt
+SPDXID: SPDXRef-alsa-base-file-22
+FileChecksum: SHA1: 71c130d0a8f938d8d19e0b630604ace0a31102f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-22
+
+
+FileName: /usr/share/doc/alsa-base/driver/HD-Audio-Controls.txt.gz
+SPDXID: SPDXRef-alsa-base-file-23
+FileChecksum: SHA1: 84b18b63bdac734b7c3f4e46ff89248cda845976
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-23
+
+
+FileName: /usr/share/doc/alsa-base/driver/HD-Audio-Models.txt.gz
+SPDXID: SPDXRef-alsa-base-file-24
+FileChecksum: SHA1: 9e533fd1bf537e2f421aaf2a59dce90d1bcf2691
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-24
+
+
+FileName: /usr/share/doc/alsa-base/driver/HD-Audio.txt.gz
+SPDXID: SPDXRef-alsa-base-file-25
+FileChecksum: SHA1: 3ab1742aca6e4b672b43ab3eb0aad165197518e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-25
+
+
+FileName: /usr/share/doc/alsa-base/driver/Joystick.txt
+SPDXID: SPDXRef-alsa-base-file-26
+FileChecksum: SHA1: dc7f4cc04f58fa22548e740121a454bcad25ef0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-26
+
+
+FileName: /usr/share/doc/alsa-base/driver/MIXART.txt
+SPDXID: SPDXRef-alsa-base-file-27
+FileChecksum: SHA1: cdf7703cda3de8828809cb4e78fbefb2db14811d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-27
+
+
+FileName: /usr/share/doc/alsa-base/driver/OSS-Emulation.txt.gz
+SPDXID: SPDXRef-alsa-base-file-28
+FileChecksum: SHA1: 31e1f2da9e561508656254dee689bc74dfa1b109
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-28
+
+
+FileName: /usr/share/doc/alsa-base/driver/Procfile.txt.gz
+SPDXID: SPDXRef-alsa-base-file-29
+FileChecksum: SHA1: 8c79b2aee69797509f403d5baf1e09bfd48c5638
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-29
+
+
+FileName: /usr/share/doc/alsa-base/driver/SB-Live-mixer.txt.gz
+SPDXID: SPDXRef-alsa-base-file-30
+FileChecksum: SHA1: 26f53b773c65cebf8113ed3d27e9c14dd065e22c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-30
+
+
+FileName: /usr/share/doc/alsa-base/driver/VIA82xx-mixer.txt
+SPDXID: SPDXRef-alsa-base-file-31
+FileChecksum: SHA1: 6de9b24541cafc70f24147d7cb07cb2dbb1cada6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-31
+
+
+FileName: /usr/share/doc/alsa-base/driver/alsa-parameters.txt
+SPDXID: SPDXRef-alsa-base-file-32
+FileChecksum: SHA1: 59b1e90a0b2cf81ce19edead212077ae6d3fa74d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-32
+
+
+FileName: /usr/share/doc/alsa-base/driver/compress_offload.txt.gz
+SPDXID: SPDXRef-alsa-base-file-33
+FileChecksum: SHA1: a9e2be34ee682147cbc392b7d9c948976b7eab03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-33
+
+
+FileName: /usr/share/doc/alsa-base/driver/emu10k1-jack.txt
+SPDXID: SPDXRef-alsa-base-file-34
+FileChecksum: SHA1: 8120906b0a01f1701ffd1eb0da7c4d5c24c4ebdb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-34
+
+
+FileName: /usr/share/doc/alsa-base/driver/hda_codec.txt.gz
+SPDXID: SPDXRef-alsa-base-file-35
+FileChecksum: SHA1: 25736d8254956386a00601dd4606455e34155cd9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-35
+
+
+FileName: /usr/share/doc/alsa-base/driver/hdspm.txt.gz
+SPDXID: SPDXRef-alsa-base-file-36
+FileChecksum: SHA1: 37761d40efd573d01971ff177938d727bb17509b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-36
+
+
+FileName: /usr/share/doc/alsa-base/driver/powersave.txt
+SPDXID: SPDXRef-alsa-base-file-37
+FileChecksum: SHA1: 0899a63b2c48b4d562100a675291aee53424fff6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-37
+
+
+FileName: /usr/share/doc/alsa-base/driver/seq_oss.html
+SPDXID: SPDXRef-alsa-base-file-38
+FileChecksum: SHA1: e9d98426f5d50ab0d545039aedf0f98d08fd32ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-38
+
+
+FileName: /usr/share/doc/alsa-base/driver/serial-u16550.txt
+SPDXID: SPDXRef-alsa-base-file-39
+FileChecksum: SHA1: 57e1bda494e3d09e647549270de01ad69d06344f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-39
+
+
+FileName: /usr/share/lintian/overrides/alsa-base
+SPDXID: SPDXRef-alsa-base-file-40
+FileChecksum: SHA1: bd08f222749027616f9f6e7d2f7ffa1800bc6536
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-40
+
+
+FileName: /usr/share/doc/alsa-base/changelog.Debian.gz
+SPDXID: SPDXRef-alsa-base-file-41
+FileChecksum: SHA1: 314a374ef6730e55a77f50bab2d751d27165f5ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-alsa-base CONTAINS SPDXRef-alsa-base-file-41
+
+
+FileName: /usr/share/doc/linux-sound-base/copyright
+SPDXID: SPDXRef-linux-sound-base-file-0
+FileChecksum: SHA1: ec379c564dc9444e1ec6704c44cfd5cbed38a4ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 1998 Jarsolav Kysela <perex@suse.cz> and others
+</text>
+Relationship: SPDXRef-linux-sound-base CONTAINS SPDXRef-linux-sound-base-file-0
+
+
+FileName: /lib/linux-sound-base/noALSA.modprobe.conf
+SPDXID: SPDXRef-linux-sound-base-file-1
+FileChecksum: SHA1: bddb1797aff402e06f9758c4c73da6029062c80b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-linux-sound-base CONTAINS SPDXRef-linux-sound-base-file-1
+
+
+FileName: /lib/linux-sound-base/noOSS.modprobe.conf
+SPDXID: SPDXRef-linux-sound-base-file-2
+FileChecksum: SHA1: ee07344d0004ab6a9abd22e638f296d32c0df6ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-linux-sound-base CONTAINS SPDXRef-linux-sound-base-file-2
+
+
+FileName: /usr/share/doc/linux-sound-base/README.Debian
+SPDXID: SPDXRef-linux-sound-base-file-3
+FileChecksum: SHA1: 62f385ef821a9a719b471d4b844bb816103647e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-linux-sound-base CONTAINS SPDXRef-linux-sound-base-file-3
+
+
+FileName: /usr/share/doc/linux-sound-base/changelog.Debian.gz
+SPDXID: SPDXRef-linux-sound-base-file-4
+FileChecksum: SHA1: 314a374ef6730e55a77f50bab2d751d27165f5ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-linux-sound-base CONTAINS SPDXRef-linux-sound-base-file-4
+
+
+FileName: /usr/share/linux-sound-base/ALSA-module-list
+SPDXID: SPDXRef-linux-sound-base-file-5
+FileChecksum: SHA1: 91464ed70bc4dfebea284adb9c1be33131d5b0b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-linux-sound-base CONTAINS SPDXRef-linux-sound-base-file-5
+
+
+FileName: /usr/share/linux-sound-base/OSS-module-list
+SPDXID: SPDXRef-linux-sound-base-file-6
+FileChecksum: SHA1: 89ae8ff1629cd764f6e1458ddfbc91793de95756
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-linux-sound-base CONTAINS SPDXRef-linux-sound-base-file-6
+
+
+## Extracted License
+

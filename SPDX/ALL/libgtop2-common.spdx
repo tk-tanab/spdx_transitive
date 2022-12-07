@@ -1,0 +1,83 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgtop2-common_2.40.0-2build3-90776de7-a216-53c5-ab5a-7e7bfd0c7e0a
+DocumentName: libgtop2-common_2.40.0-2build3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgtop2-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:01:29Z
+
+
+## Package
+
+PackageName: libgtop2-common
+PackageVersion: 2.40.0-2build3
+SPDXID: SPDXRef-libgtop2-common
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5c7d431ef148619f7ac110dac9b1f347d5535197
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1997 Joerg Wunsch
+Copyright (c) 1997, 1998 Hellmuth Michaelis
+Copyright 1998-99 Martin Baulig 2004 Nicolas Lichtmaier
+</text>
+PackageComment: <text>gtop system monitoring library (common)
+ The gtop library reads information about processes and the state of the
+ system. It is used by the GNOME desktop environment.
+ .
+ This package contains the translations.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libgtop2-common/copyright
+SPDXID: SPDXRef-libgtop2-common-file-0
+FileChecksum: SHA1: b7ade9fe1e87b169e269dd0d7e9f47c91039b7f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+FileCopyrightText: <text>Copyright 1998-99 Martin Baulig 2004 Nicolas Lichtmaier
+Copyright (c) 1997 Joerg Wunsch
+Copyright (c) 1997, 1998 Hellmuth Michaelis
+</text>
+Relationship: SPDXRef-libgtop2-common CONTAINS SPDXRef-libgtop2-common-file-0
+
+
+FileName: /usr/share/doc/libgtop2-common/changelog.Debian.gz
+SPDXID: SPDXRef-libgtop2-common-file-1
+FileChecksum: SHA1: 0134247b8c44d917b48b90990d13afad3b870ee9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgtop2-common CONTAINS SPDXRef-libgtop2-common-file-1
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

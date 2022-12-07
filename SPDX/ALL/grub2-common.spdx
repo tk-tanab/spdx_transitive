@@ -1,0 +1,257 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/grub2-common_2.06-2ubuntu7-4d58a4e0-1ee4-5aca-b813-f41200e08666
+DocumentName: grub2-common_2.06-2ubuntu7
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-libefiboot1 http://spdx.org/spdxdocs/libefiboot1_37-6ubuntu2-cd11225d-6ab0-5a8b-ba85-b31df0d3c228 SHA1: 68e1695c2ede5dd5fb8d8b0727759be1b2722470
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-grub-common.Cycle http://spdx.org/spdxdocs/grub-common_2.06-2ubuntu7-96637425-8f95-59fb-9b7a-a983e3964ee5 SHA1: 0e51f3abee7dadc223733e0d9990ce77e598ef9a
+ExternalDocumentRef: DocumentRef-libefivar1 http://spdx.org/spdxdocs/libefivar1_37-6ubuntu2-d1b8e61a-ba3e-5a9b-b92b-da5577b48afd SHA1: 85ae212b9f2feab7d4937af4da2e4c27281093fa
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-grub2-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:14:36Z
+
+
+## Package
+
+PackageName: grub2-common
+PackageVersion: 2.06-2ubuntu7
+SPDXID: SPDXRef-grub2-common
+PackageHomePage: https://www.gnu.org/software/grub/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 456b66da3873ba6fa459b10b1653540529ba0360
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>GRand Unified Bootloader (common files for version 2)
+ This package contains common files shared by the distinct flavours of GRUB.
+ The files in this package are specific to GRUB 2, and would break GRUB
+ Legacy if installed on the same system.</text>
+Relationship: SPDXRef-grub2-common DEPENDS_ON DocumentRef-grub-common.Cycle:SPDXRef-grub-common
+Relationship: SPDXRef-grub2-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+Relationship: SPDXRef-grub2-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-grub2-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libdevmapper1.02.1
+Relationship: SPDXRef-grub2-common DEPENDS_ON DocumentRef-libefiboot1:SPDXRef-libefiboot1
+Relationship: SPDXRef-grub2-common DEPENDS_ON DocumentRef-libefivar1:SPDXRef-libefivar1
+Relationship: SPDXRef-grub2-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-liblzma5
+
+
+## File
+
+FileName: /etc/kernel/postinst.d/zz-update-grub
+SPDXID: SPDXRef-grub2-common-file-0
+FileChecksum: SHA1: d9bb3f27fb1144ae72fab651990a5382423b9039
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-0
+
+
+FileName: /etc/kernel/postrm.d/zz-update-grub
+SPDXID: SPDXRef-grub2-common-file-1
+FileChecksum: SHA1: d9bb3f27fb1144ae72fab651990a5382423b9039
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-1
+
+
+FileName: /usr/sbin/grub-install
+SPDXID: SPDXRef-grub2-common-file-2
+FileChecksum: SHA1: 54e961691d1a56cb783719f7c1deb925d246d1ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-2
+
+
+FileName: /usr/sbin/grub-reboot
+SPDXID: SPDXRef-grub2-common-file-3
+FileChecksum: SHA1: 5ec176ef6eb325a34693144a81cca830826c798e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-3
+
+
+FileName: /usr/sbin/grub-set-default
+SPDXID: SPDXRef-grub2-common-file-4
+FileChecksum: SHA1: 39cb2f1db173a777d33a7937e4d4b1b6d0ac78e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-4
+
+
+FileName: /usr/sbin/update-grub
+SPDXID: SPDXRef-grub2-common-file-5
+FileChecksum: SHA1: dad114766de76fe91ebae8f8ae12a7242b449a33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-5
+
+
+FileName: /usr/share/bug/grub2-common/presubj
+SPDXID: SPDXRef-grub2-common-file-6
+FileChecksum: SHA1: 1140bc2b71c5c476bfeb3b2c270aa40a415e69cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-6
+
+
+FileName: /usr/share/bug/grub2-common/script
+SPDXID: SPDXRef-grub2-common-file-7
+FileChecksum: SHA1: 7b44a89a73ed32c36a2d1df73e55ad74a024d97f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-7
+
+
+FileName: /usr/share/grub/default/grub
+SPDXID: SPDXRef-grub2-common-file-8
+FileChecksum: SHA1: beaf41bb453c83a403f4d6511fcbbdb16713e619
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-8
+
+
+FileName: /usr/share/grub/default/grub.md5sum
+SPDXID: SPDXRef-grub2-common-file-9
+FileChecksum: SHA1: c176c9600d0f4bf6ef2be9ddc51d9a56341205ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-9
+
+
+FileName: /usr/share/info/grub-dev.info.gz
+SPDXID: SPDXRef-grub2-common-file-10
+FileChecksum: SHA1: ce8127365eb8354c3a532b435635f27ea6f890cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-10
+
+
+FileName: /usr/share/info/grub.info-1.gz
+SPDXID: SPDXRef-grub2-common-file-11
+FileChecksum: SHA1: 6d324338bc9d29d346f84d6a1ecb78b998b644c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-11
+
+
+FileName: /usr/share/info/grub.info-2.gz
+SPDXID: SPDXRef-grub2-common-file-12
+FileChecksum: SHA1: 015771a49fa4b2fed6268deb85ec6060c631d4d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-12
+
+
+FileName: /usr/share/info/grub.info.gz
+SPDXID: SPDXRef-grub2-common-file-13
+FileChecksum: SHA1: db1e75abecb9e842cd815be36eaee3f8ab422aa9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-13
+
+
+FileName: /usr/share/man/man8/grub-install.8.gz
+SPDXID: SPDXRef-grub2-common-file-14
+FileChecksum: SHA1: 0a19a7cc18ae251dc96de9608bf6eefbc0f92ff3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-14
+
+
+FileName: /usr/share/man/man8/grub-reboot.8.gz
+SPDXID: SPDXRef-grub2-common-file-15
+FileChecksum: SHA1: 8d72d39a4f967aaaf929c7a43ef2efb0f730ef25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-15
+
+
+FileName: /usr/share/man/man8/grub-set-default.8.gz
+SPDXID: SPDXRef-grub2-common-file-16
+FileChecksum: SHA1: cd3e22156488e398f68f441a148434a0bb3ad8d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-16
+
+
+FileName: /usr/share/man/man8/update-grub.8.gz
+SPDXID: SPDXRef-grub2-common-file-17
+FileChecksum: SHA1: db87a7b54aaf8dc9edc1e4a470ab10fd98efd5ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-17
+
+
+FileName: /usr/sbin/update-grub2
+SPDXID: SPDXRef-grub2-common-file-18
+FileChecksum: SHA1: dad114766de76fe91ebae8f8ae12a7242b449a33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-18
+
+
+FileName: /usr/share/bash-completion/completions/grub-install
+SPDXID: SPDXRef-grub2-common-file-19
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-19
+
+
+FileName: /usr/share/bash-completion/completions/grub-reboot
+SPDXID: SPDXRef-grub2-common-file-20
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-20
+
+
+FileName: /usr/share/bash-completion/completions/grub-set-default
+SPDXID: SPDXRef-grub2-common-file-21
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-21
+
+
+FileName: /usr/share/man/man8/update-grub2.8.gz
+SPDXID: SPDXRef-grub2-common-file-22
+FileChecksum: SHA1: db87a7b54aaf8dc9edc1e4a470ab10fd98efd5ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub2-common CONTAINS SPDXRef-grub2-common-file-22
+
+
+## Extracted License
+

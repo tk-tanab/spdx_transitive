@@ -1,0 +1,131 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libtotem-plparser18_3.26.6-1build1-1cfbc3ef-49d8-5e85-b95f-5dbb93b4593e
+DocumentName: libtotem-plparser18_3.26.6-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libtotem-plparser-common http://spdx.org/spdxdocs/libtotem-plparser-common_3.26.6-1build1-9a5e7dfb-80c8-564e-8b69-972d2b648b21 SHA1: bf3a7556b7fee2a6c8cd1832b835c636c6f853fd
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libtotem-plparser18
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:11:37Z
+
+
+## Package
+
+PackageName: libtotem-plparser18
+PackageVersion: 3.26.6-1build1
+SPDXID: SPDXRef-libtotem-plparser18
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9b77dd5d7765c0cf5e0a3646669a9400318371e1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2002-2003,2007 the xine project
+Copyright (c) 2002-2007 Bastien Nocera <hadess@hadess.net>
+Copyright (c) 2003 Colin Walters <walters@verbum.org>
+Copyright (c) 2003, 2004 Colin Walters <walters@rhythmbox.org>
+Copyright (c) 2004 Ronald Bultje <rbultje@ronald.bitfreak.net>
+Copyright (c) 2004-2007 Bastien Nocera <hadess@hadess.net>
+Copyright (c) 2006 William Jon McCann <mccann@jhu.edu>
+Copyright (c) 2007 Bastien Nocera
+Copyright (c) 2007 Jonathan Matthew
+Copyright (c) 2007, Sebastien Bacher <seb128@canonical.com>
+</text>
+PackageComment: <text>Totem Playlist Parser library - runtime files
+ totem-pl-parser is a simple GObject-based library to parse a host of
+ playlist formats, as well as save those.
+ .
+ This package contains the shared library.</text>
+Relationship: SPDXRef-libtotem-plparser18 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libarchive13
+Relationship: SPDXRef-libtotem-plparser18 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libtotem-plparser18 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcrypt20
+Relationship: SPDXRef-libtotem-plparser18 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libtotem-plparser18 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxml2
+Relationship: SPDXRef-libtotem-plparser18 DEPENDS_ON DocumentRef-libtotem-plparser-common:SPDXRef-libtotem-plparser-common
+
+
+## File
+
+FileName: /usr/share/doc/libtotem-plparser18/copyright
+SPDXID: SPDXRef-libtotem-plparser18-file-0
+FileChecksum: SHA1: ffeb95b2876574057eb97a4cde7d0f95918b050c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-1.0-or-later
+FileCopyrightText: <text>Copyright (c) 2002-2007 Bastien Nocera <hadess@hadess.net>
+Copyright (c) 2003, 2004 Colin Walters <walters@rhythmbox.org>
+Copyright (c) 2007 Bastien Nocera
+Copyright (c) 2007 Jonathan Matthew
+Copyright (c) 2006 William Jon McCann <mccann@jhu.edu>
+Copyright (c) 2003 Colin Walters <walters@verbum.org>
+Copyright (c) 2002-2003,2007 the xine project
+Copyright (c) 2004 Ronald Bultje <rbultje@ronald.bitfreak.net>
+Copyright (c) 2004-2007 Bastien Nocera <hadess@hadess.net>
+Copyright (c) 2007, Sebastien Bacher <seb128@canonical.com>
+</text>
+Relationship: SPDXRef-libtotem-plparser18 CONTAINS SPDXRef-libtotem-plparser18-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libtotem-plparser-mini.so.18.3.5
+SPDXID: SPDXRef-libtotem-plparser18-file-1
+FileChecksum: SHA1: 384e2eca70c0b25fc48879fd149b0eb9943e8842
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtotem-plparser18 CONTAINS SPDXRef-libtotem-plparser18-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libtotem-plparser.so.18.3.5
+SPDXID: SPDXRef-libtotem-plparser18-file-2
+FileChecksum: SHA1: bb35170549d703fd2de00cb4033e65effbadc533
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtotem-plparser18 CONTAINS SPDXRef-libtotem-plparser18-file-2
+
+
+FileName: /usr/share/doc/libtotem-plparser18/changelog.Debian.gz
+SPDXID: SPDXRef-libtotem-plparser18-file-3
+FileChecksum: SHA1: 5b653041f68b4294687726482c37363db5902061
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtotem-plparser18 CONTAINS SPDXRef-libtotem-plparser18-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libtotem-plparser-mini.so.18
+SPDXID: SPDXRef-libtotem-plparser18-file-4
+FileChecksum: SHA1: 384e2eca70c0b25fc48879fd149b0eb9943e8842
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtotem-plparser18 CONTAINS SPDXRef-libtotem-plparser18-file-4
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libtotem-plparser.so.18
+SPDXID: SPDXRef-libtotem-plparser18-file-5
+FileChecksum: SHA1: bb35170549d703fd2de00cb4033e65effbadc533
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtotem-plparser18 CONTAINS SPDXRef-libtotem-plparser18-file-5
+
+
+## Extracted License
+

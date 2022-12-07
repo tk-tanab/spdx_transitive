@@ -1,0 +1,122 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/printer-driver-sag-gdi_0.1-8-eeb81410-bf8a-50ee-8959-7ba05351c5de
+DocumentName: printer-driver-sag-gdi_0.1-8
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-printer-driver-sag-gdi
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:22:50Z
+
+
+## Package
+
+PackageName: printer-driver-sag-gdi
+PackageVersion: 0.1-8
+SPDXID: SPDXRef-printer-driver-sag-gdi
+PackageHomePage: https://www.openprinting.org/driver/rastertosag-gdi/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 486fccf18db28cdf0719f9b37c9da29d3341aecb
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageCopyrightText: <text>Copyright 2009 Canonical Ltd.
+Copyright 2011 Till Kamppeter <till.kamppeter@gmail.com> 2011-2014 Didier Raboud <odyx@debian.org>
+Copyright 2011 palz <paalzza@gmail.com>
+</text>
+PackageComment: <text>printer driver for Ricoh Aficio SP 1000s/SP 1100s
+ The rastertosag-gdi driver is an open source Linux driver for the Ricoh Aficio
+ SP 1000s/SP 1100s printers. These are some of the few Ricoh printers which do
+ not understand PostScript or PCL, but only a proprietary raster format.</text>
+Relationship: SPDXRef-printer-driver-sag-gdi DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ghostscript
+Relationship: SPDXRef-printer-driver-sag-gdi DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-printer-driver-sag-gdi DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups
+
+
+## File
+
+FileName: /usr/share/doc/printer-driver-sag-gdi/copyright
+SPDXID: SPDXRef-printer-driver-sag-gdi-file-0
+FileChecksum: SHA1: 97829617f775b76bdcf06fdcc5802040a084f026
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-3.0-only
+FileCopyrightText: <text>Copyright 2011 palz <paalzza@gmail.com>
+Copyright 2011 Till Kamppeter <till.kamppeter@gmail.com> 2011-2014 Didier Raboud <odyx@debian.org>
+Copyright 2009 Canonical Ltd.
+</text>
+Relationship: SPDXRef-printer-driver-sag-gdi CONTAINS SPDXRef-printer-driver-sag-gdi-file-0
+
+
+FileName: /usr/lib/cups/filter/rastertosag-gdi
+SPDXID: SPDXRef-printer-driver-sag-gdi-file-1
+FileChecksum: SHA1: a16b3feb3bad765df0f1e7f455e37c8331ccd743
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-sag-gdi CONTAINS SPDXRef-printer-driver-sag-gdi-file-1
+
+
+FileName: /usr/share/apport/package-hooks/source_rastertosag-gdi.py
+SPDXID: SPDXRef-printer-driver-sag-gdi-file-2
+FileChecksum: SHA1: 4e710532c740e56a0fba16fe776cba6a010e9841
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-sag-gdi CONTAINS SPDXRef-printer-driver-sag-gdi-file-2
+
+
+FileName: /usr/share/cups/drv/rastertosag-gdi.drv
+SPDXID: SPDXRef-printer-driver-sag-gdi-file-3
+FileChecksum: SHA1: 95bf35074a364f8eb5389b0f80bb7c0e59dfca8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-sag-gdi CONTAINS SPDXRef-printer-driver-sag-gdi-file-3
+
+
+FileName: /usr/share/cups/ppd-updaters/printer-driver-sag-gdi.ppd-updater
+SPDXID: SPDXRef-printer-driver-sag-gdi-file-4
+FileChecksum: SHA1: 2e7364e80b0c84d24f028c576ab843e4b141ce50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-sag-gdi CONTAINS SPDXRef-printer-driver-sag-gdi-file-4
+
+
+FileName: /usr/share/doc/printer-driver-sag-gdi/README
+SPDXID: SPDXRef-printer-driver-sag-gdi-file-5
+FileChecksum: SHA1: 5e1fcc7a9bea5f38f58d00bd592c3a2aef4a9df0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-sag-gdi CONTAINS SPDXRef-printer-driver-sag-gdi-file-5
+
+
+FileName: /usr/share/doc/printer-driver-sag-gdi/changelog.Debian.gz
+SPDXID: SPDXRef-printer-driver-sag-gdi-file-6
+FileChecksum: SHA1: a01061ab5b061dc8b27c53570d84f0d06d02aeea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-sag-gdi CONTAINS SPDXRef-printer-driver-sag-gdi-file-6
+
+
+## Extracted License
+

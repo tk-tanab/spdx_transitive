@@ -1,0 +1,255 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-tlwg-waree_1:0.7.3-1-d7542e31-3fb6-5d1f-ac03-52286217af17
+DocumentName: fonts-tlwg-waree_1:0.7.3-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-tlwg-waree
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:03:45Z
+
+
+## Package
+
+PackageName: fonts-tlwg-waree
+PackageVersion: 1:0.7.3-1
+SPDXID: SPDXRef-fonts-tlwg-waree
+PackageHomePage: https://linux.thai.net/projects/fonts-tlwg
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 003022fae1369308bfcd15d804924f934e92a0eb
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Bitstream-Vera
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LPPL-1.3c
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 Bitstream, Inc.
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+</text>
+PackageComment: <text>Thai Waree font (dependency package)
+ This package provides Thai Waree font from TLWG.
+ .
+ The font provides DejaVu-compatible Thai glyphs with metrics optimized
+ for on-screen user interface. For example, line spacing is reduced from
+ regular typographic designs to allow more lines displayed on screen.
+ .
+ This is a dependency package for installing alternative font formats.</text>
+Relationship: SPDXRef-fonts-tlwg-waree DEPENDS_ON SPDXRef-fonts-tlwg-waree-ttf
+
+
+PackageName: fonts-tlwg-waree-ttf
+PackageVersion: 1:0.7.3-1
+SPDXID: SPDXRef-fonts-tlwg-waree-ttf
+PackageHomePage: https://linux.thai.net/projects/fonts-tlwg
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3d4b25495538b845efabf18c9fa8b138119e6632
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Bitstream-Vera
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LPPL-1.3c
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 Bitstream, Inc.
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+</text>
+PackageComment: <text>Thai Waree TrueType font
+ This package provides Thai Waree font from TLWG, in TrueType format.
+ .
+ The font provides DejaVu-compatible Thai glyphs with metrics optimized
+ for on-screen user interface. For example, line spacing is reduced from
+ regular typographic designs to allow more lines displayed on screen.</text>
+Relationship: SPDXRef-fonts-tlwg-waree-ttf DEPENDS_ON SPDXRef-fonts-tlwg-waree
+
+
+## File
+
+FileName: /usr/share/doc/fonts-tlwg-waree/copyright
+SPDXID: SPDXRef-fonts-tlwg-waree-file-0
+FileChecksum: SHA1: c3a1ccdec2d07abc6973606da3e5e779fa6c7385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LPPL-1.3c
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Bitstream-Vera
+FileCopyrightText: <text>Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2003 Bitstream, Inc.
+Copyright 1999 National Electronics and Computer Technology Center
+</text>
+Relationship: SPDXRef-fonts-tlwg-waree CONTAINS SPDXRef-fonts-tlwg-waree-file-0
+
+
+FileName: /usr/share/fontconfig/conf.avail/64-11-tlwg-waree.conf
+SPDXID: SPDXRef-fonts-tlwg-waree-file-1
+FileChecksum: SHA1: 6964ad22840fc728428c1355fde6bae94a98b966
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-waree CONTAINS SPDXRef-fonts-tlwg-waree-file-1
+
+
+FileName: /etc/fonts/conf.d/64-11-tlwg-waree.conf
+SPDXID: SPDXRef-fonts-tlwg-waree-file-2
+FileChecksum: SHA1: 6964ad22840fc728428c1355fde6bae94a98b966
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-waree CONTAINS SPDXRef-fonts-tlwg-waree-file-2
+
+
+FileName: /usr/share/doc/fonts-tlwg-waree/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-tlwg-waree-file-3
+FileChecksum: SHA1: b8b619271f6c46865894565fb7f13766362a3c77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-waree CONTAINS SPDXRef-fonts-tlwg-waree-file-3
+
+
+FileName: /usr/share/doc/fonts-tlwg-waree-ttf/copyright
+SPDXID: SPDXRef-fonts-tlwg-waree-ttf-file-0
+FileChecksum: SHA1: c3a1ccdec2d07abc6973606da3e5e779fa6c7385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LPPL-1.3c
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Bitstream-Vera
+FileCopyrightText: <text>Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2003 Bitstream, Inc.
+Copyright 1999 National Electronics and Computer Technology Center
+</text>
+Relationship: SPDXRef-fonts-tlwg-waree-ttf CONTAINS SPDXRef-fonts-tlwg-waree-ttf-file-0
+
+
+FileName: /usr/share/doc/fonts-tlwg-waree-ttf/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-tlwg-waree-ttf-file-1
+FileChecksum: SHA1: b8b619271f6c46865894565fb7f13766362a3c77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-waree-ttf CONTAINS SPDXRef-fonts-tlwg-waree-ttf-file-1
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Waree-Bold.ttf
+SPDXID: SPDXRef-fonts-tlwg-waree-ttf-file-2
+FileChecksum: SHA1: 123a2f2336ccb88b83bfce6bcaaaaf218f1568dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-waree-ttf CONTAINS SPDXRef-fonts-tlwg-waree-ttf-file-2
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Waree-BoldOblique.ttf
+SPDXID: SPDXRef-fonts-tlwg-waree-ttf-file-3
+FileChecksum: SHA1: 1922314dd59f7b46ff5f4f2ad185a086703f8b55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-waree-ttf CONTAINS SPDXRef-fonts-tlwg-waree-ttf-file-3
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Waree-Oblique.ttf
+SPDXID: SPDXRef-fonts-tlwg-waree-ttf-file-4
+FileChecksum: SHA1: 4542ee9df99115eec2f363e91e14998cee23cfb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-waree-ttf CONTAINS SPDXRef-fonts-tlwg-waree-ttf-file-4
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Waree.ttf
+SPDXID: SPDXRef-fonts-tlwg-waree-ttf-file-5
+FileChecksum: SHA1: bbcf2e21b1d5e1c153a870cd48e43c991e5143da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-waree-ttf CONTAINS SPDXRef-fonts-tlwg-waree-ttf-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

@@ -1,0 +1,87 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-defaults-ja_22.04-0ubuntu1~ja2-4a8d7453-bb02-50bb-b8ec-157dd24641d1
+DocumentName: ubuntu-defaults-ja_22.04-0ubuntu1~ja2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-noto-cjk.Cycle http://spdx.org/spdxdocs/fonts-noto-cjk_1:20220127+repack1-1-4746a023-ef61-5ce8-9d6f-d48d0fa244c2 SHA1: 95b712c9944ad79f5a4b4f66c6efff16076e09c8
+ExternalDocumentRef: DocumentRef-mozc-utils-gui http://spdx.org/spdxdocs/mozc-utils-gui_2.26.4220.100+dfsg-5.2-ff9454c3-9238-5031-838a-19c91d137ffd SHA1: 4743ab478f0459936053d7ebb3d957b1a7ff68de
+ExternalDocumentRef: DocumentRef-ibus-mozc http://spdx.org/spdxdocs/ibus-mozc_2.26.4220.100+dfsg-5.2-0572d70f-772c-584a-a6ac-43cc603d552c SHA1: d4896515bef9d7ec4d3e3c16f242909629b8580e
+ExternalDocumentRef: DocumentRef-language-pack-gnome-ja.Cycle http://spdx.org/spdxdocs/language-pack-gnome-ja_1:22.04+20220721-6dcd6f23-c172-5ec3-9caa-636be00d1e91 SHA1: 35d967841c6eb355c8e1a5a876f0c01d4e119895
+ExternalDocumentRef: DocumentRef-language-pack-ja.Cycle http://spdx.org/spdxdocs/language-pack-ja_1:22.04+20220721-b7244199-2500-59c5-b486-52c3d0950c37 SHA1: 1cdca084d27f0329bfc821e2670684d8285dcb25
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-defaults-ja
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:07:39Z
+
+
+## Package
+
+PackageName: ubuntu-defaults-ja
+PackageVersion: 22.04-0ubuntu1~ja2
+SPDXID: SPDXRef-ubuntu-defaults-ja
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e371ab486ead9887f58cfe047884b20396f9ca22
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Portions Copyright (c) Jun Kobayashi
+</text>
+PackageComment: <text>Default settings for Japanese/Japan
+ This package contains customized default settings for the Japanese Ubuntu
+ Remix.</text>
+Relationship: SPDXRef-ubuntu-defaults-ja DEPENDS_ON DocumentRef-language-pack-ja.Cycle:SPDXRef-language-pack-ja
+Relationship: SPDXRef-ubuntu-defaults-ja DEPENDS_ON DocumentRef-language-pack-gnome-ja.Cycle:SPDXRef-language-pack-gnome-ja
+Relationship: SPDXRef-ubuntu-defaults-ja DEPENDS_ON DocumentRef-fonts-noto-cjk.Cycle:SPDXRef-fonts-noto-cjk
+Relationship: SPDXRef-ubuntu-defaults-ja DEPENDS_ON DocumentRef-fonts-noto-cjk.Cycle:SPDXRef-fonts-noto-cjk-extra
+Relationship: SPDXRef-ubuntu-defaults-ja DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-poppler-data
+Relationship: SPDXRef-ubuntu-defaults-ja DEPENDS_ON DocumentRef-ibus-mozc:SPDXRef-ibus-mozc
+Relationship: SPDXRef-ubuntu-defaults-ja DEPENDS_ON DocumentRef-mozc-utils-gui:SPDXRef-mozc-utils-gui
+
+
+## File
+
+FileName: /usr/share/doc/ubuntu-defaults-ja/copyright
+SPDXID: SPDXRef-ubuntu-defaults-ja-file-0
+FileChecksum: SHA1: 7cfa81954abdab0bf2bf2fe33f79f3d8e309bba0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Portions Copyright (c) Jun Kobayashi
+</text>
+Relationship: SPDXRef-ubuntu-defaults-ja CONTAINS SPDXRef-ubuntu-defaults-ja-file-0
+
+
+FileName: /etc/profile.d/unzip-default-charset.sh
+SPDXID: SPDXRef-ubuntu-defaults-ja-file-1
+FileChecksum: SHA1: 35f96f1f0d23042d88f72b160c55f6711aa8eb63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-defaults-ja CONTAINS SPDXRef-ubuntu-defaults-ja-file-1
+
+
+FileName: /usr/share/doc/ubuntu-defaults-ja/changelog.Debian.gz
+SPDXID: SPDXRef-ubuntu-defaults-ja-file-2
+FileChecksum: SHA1: 2717f59b866dc8569f95a7c6777b780c9ad00791
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-defaults-ja CONTAINS SPDXRef-ubuntu-defaults-ja-file-2
+
+
+## Extracted License
+

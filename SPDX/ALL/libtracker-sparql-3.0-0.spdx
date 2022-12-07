@@ -1,0 +1,411 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libtracker-sparql-3.0-0_3.3.0-1-7b6adf2f-9977-59c0-83bd-c93cc2a2c5ed
+DocumentName: libtracker-sparql-3.0-0_3.3.0-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libtracker-sparql-3.0-0
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:10:12Z
+
+
+## Package
+
+PackageName: libtracker-sparql-3.0-0
+PackageVersion: 3.3.0-1
+SPDXID: SPDXRef-libtracker-sparql-3.0-0
+PackageHomePage: https://wiki.gnome.org/Projects/Tracker
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 72010c9d33771895119f00a865364759939472a1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2008-2011 Nokia <ivan.frade@nokia.com> 2006 Jamie McCracken <jamiemcc@gnome.org> 2007 Jason Kivlighn <jkivlighn@gmail.com>
+Copyright 2008-2011 Nokia <ivan.frade@nokia.com> 2006 Jamie McCracken <jamiemcc@gnome.org> 2012-2013 Martyn Russell <martyn@lanedo.com> 2012-2020 Sam Thursfield <sam@afuera.me.uk> 2014 Lanedo <martyn@lanedo.com> 2014, Softathome <philippe.judge@softathome.com> 2014-2020 Red Hat Inc. 2019 Sam Thursfield <sam@afuera.me.uk> 2020 Carlos Garnacho <carlosg@gnome.org>
+Copyright 2010 Codethink Limited
+</text>
+PackageComment: <text>metadata database, indexer and search tool - library
+ This package contains a library to perform SPARQL queries and updates in the
+ Tracker store.
+ .
+ Tracker is an advanced framework for first class objects with associated
+ metadata and tags. It provides a one stop solution for all metadata, tags,
+ shared object databases, search tools and indexing.</text>
+Relationship: SPDXRef-libtracker-sparql-3.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libtracker-sparql-3.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libtracker-sparql-3.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libicu70
+Relationship: SPDXRef-libtracker-sparql-3.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjson-glib-1.0-0
+Relationship: SPDXRef-libtracker-sparql-3.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsoup2.4-1
+Relationship: SPDXRef-libtracker-sparql-3.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsqlite3-0
+Relationship: SPDXRef-libtracker-sparql-3.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstemmer0d
+Relationship: SPDXRef-libtracker-sparql-3.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxml2
+
+
+## File
+
+FileName: /usr/share/doc/libtracker-sparql-3.0-0/copyright
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-0
+FileChecksum: SHA1: 71377cf1788e87067a43acc8d8ca56b66d10f51c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2008-2011 Nokia <ivan.frade@nokia.com> 2006 Jamie McCracken <jamiemcc@gnome.org> 2012-2013 Martyn Russell <martyn@lanedo.com> 2012-2020 Sam Thursfield <sam@afuera.me.uk> 2014 Lanedo <martyn@lanedo.com> 2014, Softathome <philippe.judge@softathome.com> 2014-2020 Red Hat Inc. 2019 Sam Thursfield <sam@afuera.me.uk> 2020 Carlos Garnacho <carlosg@gnome.org>
+Copyright 2008-2011 Nokia <ivan.frade@nokia.com> 2006 Jamie McCracken <jamiemcc@gnome.org> 2007 Jason Kivlighn <jkivlighn@gmail.com>
+Copyright 2010 Codethink Limited
+</text>
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libtracker-sparql-3.0.so.0.300.0
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-1
+FileChecksum: SHA1: acdbcbf8a43a3f8a4600ed421c6560db6f1f3bd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-3.0/libtracker-remote-soup2.so
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-2
+FileChecksum: SHA1: 782baa419e4558cef56d9123eb893f993321cf30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-2
+
+
+FileName: /usr/share/doc/libtracker-sparql-3.0-0/changelog.Debian.gz
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-3
+FileChecksum: SHA1: 9af8a9afd0407e0abf7d735e7059f3580d03dcaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-3
+
+
+FileName: /usr/share/lintian/overrides/libtracker-sparql-3.0-0
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-4
+FileChecksum: SHA1: 741961401463e543f58bfb2faff6d088ea21adf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-4
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/30-nie.description
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-5
+FileChecksum: SHA1: 2b23ce0c8527431b4bd6d6eff0cd3e4b0f00048f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-5
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/30-nie.ontology
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-6
+FileChecksum: SHA1: c1da40f96fc0b0557dfad4f4c5ed05430117bd1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-6
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/31-nao.description
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-7
+FileChecksum: SHA1: 232569adc7996a2abfee970ee34147d349880d1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-7
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/31-nao.ontology
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-8
+FileChecksum: SHA1: e22b3890a4d35c7be00d49b439755252a232927f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-8
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/32-nco.description
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-9
+FileChecksum: SHA1: 60538e41bc70d6ffd9a611cbfbe1bfa8662b5e35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-9
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/32-nco.ontology
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-10
+FileChecksum: SHA1: 51afbf1cad04930d9fc900eafea875943c53c452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-10
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/33-nfo.description
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-11
+FileChecksum: SHA1: f94ca36df2258f6a9ae843ab98e497014dfcacad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-11
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/33-nfo.ontology
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-12
+FileChecksum: SHA1: 0b93470d3ae7d79d802b708f89adde482a07e66d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-12
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/38-nmm.description
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-13
+FileChecksum: SHA1: 5c596b90f086cb6efd5841db841a3268a5d3813f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-13
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/38-nmm.ontology
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-14
+FileChecksum: SHA1: 420ddb42538516f9812805129aa5ffcc7d6fb43c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-14
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/41-mfo.description
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-15
+FileChecksum: SHA1: 7e036dd72ab3b2e2a6a8fc266b31eec4f7c81d1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-15
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/41-mfo.ontology
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-16
+FileChecksum: SHA1: 34d6e43c8e7e07f914f53ac09d269173b1f1cbb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-16
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/90-tracker.description
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-17
+FileChecksum: SHA1: 89a86154406b9e8afabab5be7375b1dfd630d288
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-17
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/90-tracker.ontology
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-18
+FileChecksum: SHA1: d6f3d694618ce7e3d338b9adf4f709caafa2d9d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-18
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/92-slo.description
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-19
+FileChecksum: SHA1: 4ffee2b2fc2786e97654681378e61c357952f499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-19
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/92-slo.ontology
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-20
+FileChecksum: SHA1: 7141ddf1432614fa88167c1d5987ba303dea06a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-20
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/93-libosinfo.description
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-21
+FileChecksum: SHA1: a4bf1dd91db3a0e871f01a1ebd4ea74715429dd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-21
+
+
+FileName: /usr/share/tracker3/ontologies/nepomuk/93-libosinfo.ontology
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-22
+FileChecksum: SHA1: 40acd3659d45fee580faf4caa2927affbfacc665
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-22
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.cs
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-23
+FileChecksum: SHA1: 045dda194cd323931a516cc844d252c395848f32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-23
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.da
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-24
+FileChecksum: SHA1: a29a9bc2938e4c2ce6ecc9671e741840378873ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-24
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.de
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-25
+FileChecksum: SHA1: 74ac6bf8812a6cc0bb67cfb0438e2de9b95a46dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-25
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.en
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-26
+FileChecksum: SHA1: 133cd5c3fc03cf46326c65ea3b835e01ac113866
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-26
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.es
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-27
+FileChecksum: SHA1: 5fe2715410f1ad0b883c05ccb1fe66322b6c6f99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-27
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.fi
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-28
+FileChecksum: SHA1: 3857901e013bfbd5e0780416b314c5c39383f885
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-28
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.fr
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-29
+FileChecksum: SHA1: d8caef76a94ba118263c49d2951b400b5554ee22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-29
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.hu
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-30
+FileChecksum: SHA1: a9fdc72351836594e4bef0d878fe0e4e865a82b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-30
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.it
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-31
+FileChecksum: SHA1: 3a46b7bb93d9b3369bcb231efa9d10fe29231112
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-31
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.nb
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-32
+FileChecksum: SHA1: cf6da23ae313921ff83a7fc3901fade526649238
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-32
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.nl
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-33
+FileChecksum: SHA1: 64b18c98269f94bfc434d870f964484e69269c04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-33
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.pt
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-34
+FileChecksum: SHA1: 36d4324bd5893b2b7c036546fd8570130f0c4811
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-34
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.ru
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-35
+FileChecksum: SHA1: afe5d56d8d512455f60877c742584cd0e6e64b74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-35
+
+
+FileName: /usr/share/tracker3/stop-words/stopwords.sv
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-36
+FileChecksum: SHA1: 1658c88379da65eca1d17ac24580ec10266effb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-36
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libtracker-sparql-3.0.so.0
+SPDXID: SPDXRef-libtracker-sparql-3.0-0-file-37
+FileChecksum: SHA1: acdbcbf8a43a3f8a4600ed421c6560db6f1f3bd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libtracker-sparql-3.0-0 CONTAINS SPDXRef-libtracker-sparql-3.0-0-file-37
+
+
+## Extracted License
+

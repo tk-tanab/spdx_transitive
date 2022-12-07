@@ -1,0 +1,370 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gzip_1.10-4ubuntu4.1-6e65f2fe-fdfd-54dd-9d1b-67e08e1d8ace
+DocumentName: gzip_1.10-4ubuntu4.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gzip
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:24:48Z
+
+
+## Package
+
+PackageName: gzip
+PackageVersion: 1.10-4ubuntu4.1
+SPDXID: SPDXRef-gzip
+PackageHomePage: https://www.gnu.org/software/gzip/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5e0c3efa2dfe78e395083f5d896be64be4ca0e66
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GFDL-1.3-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: Latex2e
+PackageCopyrightText: <text>Copyright 1995-2017 Bdale Garbee <bdale@gag.com>
+Copyright 1998-2016 Free Software Foundation, Inc. 1992-1993 Jean-loup Gailly
+Copyright 1999-2016 Free Software Foundation, Inc. 1992-1993 Jean-loup Gailly and Mark Adler
+Copyright 1999-2016 Free Software Foundation, Inc. http://fsf.org 1992-1993 Jean-loup Gailly
+</text>
+PackageComment: <text>GNU compression utilities
+ This package provides the standard GNU file compression utilities, which
+ are also the default compression tools for Debian.  They typically operate
+ on files with names ending in '.gz', but can also decompress files ending
+ in '.Z' created with 'compress'.</text>
+Relationship: SPDXRef-gzip DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+Relationship: SPDXRef-gzip DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gzip DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-less
+
+
+## File
+
+FileName: /usr/share/doc/gzip/copyright
+SPDXID: SPDXRef-gzip-file-0
+FileChecksum: SHA1: 5f0fb89e0195dbae48b831d253d407efa4c5d474
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: Latex2e
+FileCopyrightText: <text>Copyright 1999-2016 Free Software Foundation, Inc. 1992-1993 Jean-loup Gailly and Mark Adler
+Copyright 1995-2017 Bdale Garbee <bdale@gag.com>
+Copyright 1999-2016 Free Software Foundation, Inc. http://fsf.org 1992-1993 Jean-loup Gailly
+Copyright 1998-2016 Free Software Foundation, Inc. 1992-1993 Jean-loup Gailly
+</text>
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-0
+
+
+FileName: /bin/gunzip
+SPDXID: SPDXRef-gzip-file-1
+FileChecksum: SHA1: 683c487108ccbde6b89744d95ca6e295fa634c4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-1
+
+
+FileName: /bin/gzexe
+SPDXID: SPDXRef-gzip-file-2
+FileChecksum: SHA1: ef1e408cfa2c34bb9eafee7f42b4cffc8f5cab0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-2
+
+
+FileName: /bin/gzip
+SPDXID: SPDXRef-gzip-file-3
+FileChecksum: SHA1: ba61e6d60441b644283b6502d405c749a8280821
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-3
+
+
+FileName: /bin/uncompress
+SPDXID: SPDXRef-gzip-file-4
+FileChecksum: SHA1: 683c487108ccbde6b89744d95ca6e295fa634c4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-4
+
+
+FileName: /bin/zcat
+SPDXID: SPDXRef-gzip-file-5
+FileChecksum: SHA1: 312cd2f67de3759b7998d4a0fc1ac444e1537d4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-5
+
+
+FileName: /bin/zcmp
+SPDXID: SPDXRef-gzip-file-6
+FileChecksum: SHA1: 091c5af548d76f0dd02258405a0015931b2cd16c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-6
+
+
+FileName: /bin/zdiff
+SPDXID: SPDXRef-gzip-file-7
+FileChecksum: SHA1: 08576e80ad093ed7f853e15dcf0576433f72323f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-7
+
+
+FileName: /bin/zegrep
+SPDXID: SPDXRef-gzip-file-8
+FileChecksum: SHA1: 0b4eebddbd95c099c22e75245f001e10c4fd934d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-8
+
+
+FileName: /bin/zfgrep
+SPDXID: SPDXRef-gzip-file-9
+FileChecksum: SHA1: c6cbe086a0c5d526960a93759673fa452251e77e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-9
+
+
+FileName: /bin/zforce
+SPDXID: SPDXRef-gzip-file-10
+FileChecksum: SHA1: 93fc31e6e1ef86b43099b5149554fb925ecd83e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-10
+
+
+FileName: /bin/zgrep
+SPDXID: SPDXRef-gzip-file-11
+FileChecksum: SHA1: bf2bc36a83fe0b21343903bcb522ba16f7c16f2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-11
+
+
+FileName: /bin/zless
+SPDXID: SPDXRef-gzip-file-12
+FileChecksum: SHA1: 79b46e337d191bafa4ac8781fb99f849a682c75c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-12
+
+
+FileName: /bin/zmore
+SPDXID: SPDXRef-gzip-file-13
+FileChecksum: SHA1: 3903489f39e4040974064117759758b5735d8bb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-13
+
+
+FileName: /bin/znew
+SPDXID: SPDXRef-gzip-file-14
+FileChecksum: SHA1: 3afdcb30d1de0dee68615a0fb92f303187139210
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-14
+
+
+FileName: /usr/share/doc/gzip/NEWS.gz
+SPDXID: SPDXRef-gzip-file-15
+FileChecksum: SHA1: 5d7985f38ce79a5c7470c6c42a016f2bd999a042
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-15
+
+
+FileName: /usr/share/doc/gzip/README.gz
+SPDXID: SPDXRef-gzip-file-16
+FileChecksum: SHA1: 3da9a728a8650388865c7e5246203cabe38e7e97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-16
+
+
+FileName: /usr/share/doc/gzip/TODO
+SPDXID: SPDXRef-gzip-file-17
+FileChecksum: SHA1: a39fa58ca755c65ac2203e0beb7bd48a9e29da9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-17
+
+
+FileName: /usr/share/doc/gzip/changelog.Debian.gz
+SPDXID: SPDXRef-gzip-file-18
+FileChecksum: SHA1: 2502b4534d74388193f5b424283e2817df40d280
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-18
+
+
+FileName: /usr/share/info/gzip.info.gz
+SPDXID: SPDXRef-gzip-file-19
+FileChecksum: SHA1: 6a66cf97b13e64a0d06180bd2650102b6a4654b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-19
+
+
+FileName: /usr/share/man/man1/gzexe.1.gz
+SPDXID: SPDXRef-gzip-file-20
+FileChecksum: SHA1: 1f5ddb4c63d81ecc45c4322d836727b97178e151
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-20
+
+
+FileName: /usr/share/man/man1/gzip.1.gz
+SPDXID: SPDXRef-gzip-file-21
+FileChecksum: SHA1: c6ef8a43a17b4d5611ef5c161065d9f996fe44fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-21
+
+
+FileName: /usr/share/man/man1/zdiff.1.gz
+SPDXID: SPDXRef-gzip-file-22
+FileChecksum: SHA1: 1fff88bfec14130403aa1e9ab6fd582143e4e140
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-22
+
+
+FileName: /usr/share/man/man1/zforce.1.gz
+SPDXID: SPDXRef-gzip-file-23
+FileChecksum: SHA1: 4682aab0bbdfdf848d2d52cc5928e5a729bcc2ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-23
+
+
+FileName: /usr/share/man/man1/zgrep.1.gz
+SPDXID: SPDXRef-gzip-file-24
+FileChecksum: SHA1: 632a7d8c39f617dfc3ee911fc74dbe408a310fc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-24
+
+
+FileName: /usr/share/man/man1/zless.1.gz
+SPDXID: SPDXRef-gzip-file-25
+FileChecksum: SHA1: 294bbd0047173e24b75085b89e663f3a385633d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-25
+
+
+FileName: /usr/share/man/man1/zmore.1.gz
+SPDXID: SPDXRef-gzip-file-26
+FileChecksum: SHA1: d6b9de151028a9d919a5e41746c42672bee7dc48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-26
+
+
+FileName: /usr/share/man/man1/znew.1.gz
+SPDXID: SPDXRef-gzip-file-27
+FileChecksum: SHA1: c35fd8378bf06c70c241f0af751e13c518f5d8c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-27
+
+
+FileName: /usr/share/man/man1/gunzip.1.gz
+SPDXID: SPDXRef-gzip-file-28
+FileChecksum: SHA1: c6ef8a43a17b4d5611ef5c161065d9f996fe44fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-28
+
+
+FileName: /usr/share/man/man1/uncompress.1.gz
+SPDXID: SPDXRef-gzip-file-29
+FileChecksum: SHA1: c6ef8a43a17b4d5611ef5c161065d9f996fe44fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-29
+
+
+FileName: /usr/share/man/man1/zcat.1.gz
+SPDXID: SPDXRef-gzip-file-30
+FileChecksum: SHA1: c6ef8a43a17b4d5611ef5c161065d9f996fe44fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-30
+
+
+FileName: /usr/share/man/man1/zcmp.1.gz
+SPDXID: SPDXRef-gzip-file-31
+FileChecksum: SHA1: 1fff88bfec14130403aa1e9ab6fd582143e4e140
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-31
+
+
+FileName: /usr/share/man/man1/zegrep.1.gz
+SPDXID: SPDXRef-gzip-file-32
+FileChecksum: SHA1: 632a7d8c39f617dfc3ee911fc74dbe408a310fc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-32
+
+
+FileName: /usr/share/man/man1/zfgrep.1.gz
+SPDXID: SPDXRef-gzip-file-33
+FileChecksum: SHA1: 632a7d8c39f617dfc3ee911fc74dbe408a310fc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gzip CONTAINS SPDXRef-gzip-file-33
+
+
+## Extracted License
+

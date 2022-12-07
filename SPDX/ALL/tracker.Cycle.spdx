@@ -1,0 +1,1532 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/tracker_3.3.0-1-7f70e99a-bc88-54c0-bbba-02001884d512
+DocumentName: tracker_3.3.0-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libtracker-sparql-3.0-0 http://spdx.org/spdxdocs/libtracker-sparql-3.0-0_3.3.0-1-7b6adf2f-9977-59c0-83bd-c93cc2a2c5ed SHA1: 06bffbe905a6250f6b010b9409dc03942aaea6ba
+ExternalDocumentRef: DocumentRef-libgexiv2-2 http://spdx.org/spdxdocs/libgexiv2-2_0.14.0-1build1-59ee13a2-d400-52a3-b7a3-8d66fc71fa3c SHA1: d0b0536120f0cae3e3299e821c7c2d35461ad389
+ExternalDocumentRef: DocumentRef-libtotem-plparser18 http://spdx.org/spdxdocs/libtotem-plparser18_3.26.6-1build1-1cfbc3ef-49d8-5e85-b95f-5dbb93b4593e SHA1: b60e242a97316055e62c1178f3de0ab04e8ccb08
+ExternalDocumentRef: DocumentRef-libexempi8 http://spdx.org/spdxdocs/libexempi8_2.5.2-1ubuntu0.22.04.1-7abd8593-5dec-595b-a27d-479dbc59dd28 SHA1: 0d7ef9dfdaa976440a5bcbe0f1a1dfd7e4b96f0b
+ExternalDocumentRef: DocumentRef-libgif7 http://spdx.org/spdxdocs/libgif7_5.1.9-2build2-731c95e1-c191-5b0d-b1bf-fc3c2253496a SHA1: 9c05c15a5c0d3ad902f07ca64bcd9e79fb4ebaf9
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-libgsf-1-114 http://spdx.org/spdxdocs/libgsf-1-114_1.14.47-1build2-adb459c5-33c4-5fde-a210-99a8c3e8eb01 SHA1: e7d2c70877b64fec6d6eb1467ff0ad1e02901823
+ExternalDocumentRef: DocumentRef-libcue2 http://spdx.org/spdxdocs/libcue2_2.2.1-3build3-c817e102-e649-5797-afca-65b6d26472c3 SHA1: 8a8ae6af0abae406b0088ff60ecae68857d24d37
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-tracker
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:10:03Z
+
+
+## Package
+
+PackageName: tracker
+PackageVersion: 3.3.0-1
+SPDXID: SPDXRef-tracker
+PackageHomePage: https://wiki.gnome.org/Projects/Tracker
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 7ba8abfbcb6ea015d5f42f324b0293732ab57e22
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2008-2011 Nokia <ivan.frade@nokia.com> 2006 Jamie McCracken <jamiemcc@gnome.org> 2007 Jason Kivlighn <jkivlighn@gmail.com>
+Copyright 2008-2011 Nokia <ivan.frade@nokia.com> 2006 Jamie McCracken <jamiemcc@gnome.org> 2012-2013 Martyn Russell <martyn@lanedo.com> 2012-2020 Sam Thursfield <sam@afuera.me.uk> 2014 Lanedo <martyn@lanedo.com> 2014, Softathome <philippe.judge@softathome.com> 2014-2020 Red Hat Inc. 2019 Sam Thursfield <sam@afuera.me.uk> 2020 Carlos Garnacho <carlosg@gnome.org>
+Copyright 2010 Codethink Limited
+</text>
+PackageComment: <text>metadata database, indexer and search tool
+ Tracker is an advanced framework for first class objects with associated
+ metadata and tags. It provides a one stop solution for all metadata, tags,
+ shared object databases, search tools and indexing.</text>
+Relationship: SPDXRef-tracker DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-tracker DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-tracker DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libicu70
+Relationship: SPDXRef-tracker DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsqlite3-0
+Relationship: SPDXRef-tracker DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstemmer0d
+Relationship: SPDXRef-tracker DEPENDS_ON DocumentRef-libtracker-sparql-3.0-0:SPDXRef-libtracker-sparql-3.0-0
+Relationship: SPDXRef-tracker DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-shared-mime-info
+Relationship: SPDXRef-tracker DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-bin
+Relationship: SPDXRef-tracker DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dbus-user-session
+Relationship: SPDXRef-tracker DEPENDS_ON SPDXRef-tracker-miner-fs
+
+
+PackageName: tracker-miner-fs
+PackageVersion: 3.3.0-1
+SPDXID: SPDXRef-tracker-miner-fs
+PackageHomePage: https://wiki.gnome.org/Projects/Tracker
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3bb18ac1b119b7b054de88bcbe0b45162e2cc758
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2006, Jamie McCracken <jamiemcc@gnome.org> 2006, Anders Aagaard 2005, Novell, Inc.
+Copyright 2008, 2009, Nokia <ivan.frade@nokia.com> 2007, Jason Kivlighn <jkivlighn@gmail.com>
+Copyright 2008, Nokia <ivan.frade@nokia.com> 2006, Anders Aagaard
+Copyright 2008, Nokia <ivan.frade@nokia.com> 2006, Laurent Aguerreche <laurent.aguerreche@free.fr> 2006, Edward Duffy <eduffy@gmail.com>
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2009
+Copyright 2009, Adrien Bustany <abustany@gnome.org>
+Copyright 2010, Amit Aggarwal <amitcs06@gmail.com> 2008-2011, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2010, Nokia
+Copyright 2011, 2014, Red Hat, Inc
+Copyright 2011, ARQ Media <sam.thursfield@codethink.co.uk>
+Copyright 2012, 2017, Red Hat, Inc.
+Copyright 2013, 2014, Jolla Ltd. <andrew.den.exter@jollamobile.com>
+Copyright 2013, Carlos Garnacho <carlos@lanedo.com>
+Copyright 2014, - Collabora Ltd.
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org>
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org> 2009-2014, Adrien Bustany <abustany@gnome.org>
+Copyright 2014, Lanedo <martyn@lanedo.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2014, SoftAtHome <contact@softathome.com> 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, SoftAtHome <contact@softathome.com> 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2014, Softathome <contact@softathome.com>
+Copyright 2015, 2016, 2018-2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2015, Carlos Garnacho
+Copyright 2015, Red Hat, Inc. 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2016, 2019, 2020, Sam Thursfield (sam@afuera.me.uk)
+Copyright 2016, 2019, 2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2016, Sam Thursfield <sam@afuera.me.uk> 2008, Nokia <ivan.frade@nokia.com> 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2017, 2018, Red Hat, Inc.
+Copyright 2018-2020, Sam Thursfield <sam@afuera.me.uk> 2010, Nokia <ivan.frade@nokia.com>
+Copyright 2019, 2020, Sam Thursfield (sam@afuera.me.uk) 2010, 2011, Nokia (ivan.frade@nokia.com)
+Copyright 2019, Saiful B. Khan
+Copyright 2019, Sam Thursfield (sam@afuera.me.uk) 2010, Nokia <jean-luc.lamadon@nokia.com>
+Copyright 2020, Red Hat Inc
+Copyright 2020, Red Hat Inc.
+Copyright 2020, Red Hat Ltd
+Copyright 2020, Sam Thursfield <sam@afuera.me.uk> 2011, Nokia <ivan.frade@nokia.com>
+</text>
+PackageComment: <text>metadata database, indexer and search tool - filesystem indexer
+ This package contains the tracker indexer for indexing your files and folders.
+ .
+ Tracker is an advanced framework for first class objects with associated
+ metadata and tags. It provides a one stop solution for all metadata, tags,
+ shared object databases, search tools and indexing.</text>
+Relationship: SPDXRef-tracker-miner-fs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-tracker-miner-fs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-tracker-miner-fs DEPENDS_ON DocumentRef-libtracker-sparql-3.0-0:SPDXRef-libtracker-sparql-3.0-0
+Relationship: SPDXRef-tracker-miner-fs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libupower-glib3
+Relationship: SPDXRef-tracker-miner-fs DEPENDS_ON SPDXRef-tracker-extract
+Relationship: SPDXRef-tracker-miner-fs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+Relationship: SPDXRef-tracker-miner-fs DEPENDS_ON SPDXRef-tracker
+Relationship: SPDXRef-tracker-miner-fs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-procps
+
+
+PackageName: tracker-extract
+PackageVersion: 3.3.0-1
+SPDXID: SPDXRef-tracker-extract
+PackageHomePage: https://wiki.gnome.org/Projects/Tracker
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f3a85a096f3d478ac6c174d2f0ce4685ba626943
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2006, Jamie McCracken <jamiemcc@gnome.org> 2006, Anders Aagaard 2005, Novell, Inc.
+Copyright 2008, 2009, Nokia <ivan.frade@nokia.com> 2007, Jason Kivlighn <jkivlighn@gmail.com>
+Copyright 2008, Nokia <ivan.frade@nokia.com> 2006, Anders Aagaard
+Copyright 2008, Nokia <ivan.frade@nokia.com> 2006, Laurent Aguerreche <laurent.aguerreche@free.fr> 2006, Edward Duffy <eduffy@gmail.com>
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2009
+Copyright 2009, Adrien Bustany <abustany@gnome.org>
+Copyright 2010, Amit Aggarwal <amitcs06@gmail.com> 2008-2011, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2010, Nokia
+Copyright 2011, 2014, Red Hat, Inc
+Copyright 2011, ARQ Media <sam.thursfield@codethink.co.uk>
+Copyright 2012, 2017, Red Hat, Inc.
+Copyright 2013, 2014, Jolla Ltd. <andrew.den.exter@jollamobile.com>
+Copyright 2013, Carlos Garnacho <carlos@lanedo.com>
+Copyright 2014, - Collabora Ltd.
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org>
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org> 2009-2014, Adrien Bustany <abustany@gnome.org>
+Copyright 2014, Lanedo <martyn@lanedo.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2014, SoftAtHome <contact@softathome.com> 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, SoftAtHome <contact@softathome.com> 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2014, Softathome <contact@softathome.com>
+Copyright 2015, 2016, 2018-2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2015, Carlos Garnacho
+Copyright 2015, Red Hat, Inc. 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2016, 2019, 2020, Sam Thursfield (sam@afuera.me.uk)
+Copyright 2016, 2019, 2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2016, Sam Thursfield <sam@afuera.me.uk> 2008, Nokia <ivan.frade@nokia.com> 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2017, 2018, Red Hat, Inc.
+Copyright 2018-2020, Sam Thursfield <sam@afuera.me.uk> 2010, Nokia <ivan.frade@nokia.com>
+Copyright 2019, 2020, Sam Thursfield (sam@afuera.me.uk) 2010, 2011, Nokia (ivan.frade@nokia.com)
+Copyright 2019, Saiful B. Khan
+Copyright 2019, Sam Thursfield (sam@afuera.me.uk) 2010, Nokia <jean-luc.lamadon@nokia.com>
+Copyright 2020, Red Hat Inc
+Copyright 2020, Red Hat Inc.
+Copyright 2020, Red Hat Ltd
+Copyright 2020, Sam Thursfield <sam@afuera.me.uk> 2011, Nokia <ivan.frade@nokia.com>
+</text>
+PackageComment: <text>metadata database, indexer and search tool - metadata extractors
+ This package contains the metadata extractors.
+ .
+ Tracker is an advanced framework for first class objects with associated
+ metadata and tags. It provides a one stop solution for all metadata, tags,
+ shared object databases, search tools and indexing.</text>
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libblkid1
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-libcue2:SPDXRef-libcue2
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-libexempi8:SPDXRef-libexempi8
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libexif12
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-libgexiv2-2:SPDXRef-libgexiv2-2
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-libgif7:SPDXRef-libgif7
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-libgsf-1-114:SPDXRef-libgsf-1-114
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgstreamer-plugins-base1.0-0
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgstreamer1.0-0
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgxps2
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libicu70
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjpeg8
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnm0
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpng16-16
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpoppler-glib8
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libseccomp2
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtiff5
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-libtotem-plparser18:SPDXRef-libtotem-plparser18
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-libtracker-sparql-3.0-0:SPDXRef-libtracker-sparql-3.0-0
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxml2
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-tracker-extract DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+Relationship: SPDXRef-tracker-extract DEPENDS_ON SPDXRef-tracker
+
+
+## File
+
+FileName: /usr/share/doc/tracker/copyright
+SPDXID: SPDXRef-tracker-file-0
+FileChecksum: SHA1: 71377cf1788e87067a43acc8d8ca56b66d10f51c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2008-2011 Nokia <ivan.frade@nokia.com> 2006 Jamie McCracken <jamiemcc@gnome.org> 2012-2013 Martyn Russell <martyn@lanedo.com> 2012-2020 Sam Thursfield <sam@afuera.me.uk> 2014 Lanedo <martyn@lanedo.com> 2014, Softathome <philippe.judge@softathome.com> 2014-2020 Red Hat Inc. 2019 Sam Thursfield <sam@afuera.me.uk> 2020 Carlos Garnacho <carlosg@gnome.org>
+Copyright 2008-2011 Nokia <ivan.frade@nokia.com> 2006 Jamie McCracken <jamiemcc@gnome.org> 2007 Jason Kivlighn <jkivlighn@gmail.com>
+Copyright 2010 Codethink Limited
+</text>
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-0
+
+
+FileName: /usr/bin/tracker3
+SPDXID: SPDXRef-tracker-file-1
+FileChecksum: SHA1: 8b200ff01bb729faa8858e9ea10a09ffda7a50b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-1
+
+
+FileName: /usr/lib/systemd/user/tracker-xdg-portal-3.service
+SPDXID: SPDXRef-tracker-file-2
+FileChecksum: SHA1: 800e8843fcbd3a6b30e44bc4dd9c85489485623c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-2
+
+
+FileName: /usr/libexec/tracker-xdg-portal-3
+SPDXID: SPDXRef-tracker-file-3
+FileChecksum: SHA1: d0b2c0e402bcf35283a7388577e6f134c96fa3ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-3
+
+
+FileName: /usr/share/bash-completion/completions/tracker3
+SPDXID: SPDXRef-tracker-file-4
+FileChecksum: SHA1: f524a4410be1f6d9326c46c3c6cc0c0278e8bbc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-4
+
+
+FileName: /usr/share/dbus-1/services/org.freedesktop.portal.Tracker.service
+SPDXID: SPDXRef-tracker-file-5
+FileChecksum: SHA1: b3726be55d7da1644b6052803c85f398409de00e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-5
+
+
+FileName: /usr/share/doc/tracker/AUTHORS
+SPDXID: SPDXRef-tracker-file-6
+FileChecksum: SHA1: c7ec7ef3b5e25951879e1ea713391dbcbc31f38d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-6
+
+
+FileName: /usr/share/doc/tracker/NEWS.gz
+SPDXID: SPDXRef-tracker-file-7
+FileChecksum: SHA1: c9d54a04fcaeb93f676a46de62b5d7e401409121
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-7
+
+
+FileName: /usr/share/doc/tracker/README.md.gz
+SPDXID: SPDXRef-tracker-file-8
+FileChecksum: SHA1: d46748aeb3741f9a85d8133f818e13fb26b3c781
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-8
+
+
+FileName: /usr/share/lintian/overrides/tracker
+SPDXID: SPDXRef-tracker-file-9
+FileChecksum: SHA1: 200f0baab1318aa7131e77b1a28be611e3df0db1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-9
+
+
+FileName: /usr/share/man/man1/tracker-xdg-portal-3.1.gz
+SPDXID: SPDXRef-tracker-file-10
+FileChecksum: SHA1: 0a5d11feb0731663c49e96853461ea546a4a468f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-10
+
+
+FileName: /usr/share/man/man1/tracker3-endpoint.1.gz
+SPDXID: SPDXRef-tracker-file-11
+FileChecksum: SHA1: 508a68842368106925449e3679d92de684843ce7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-11
+
+
+FileName: /usr/share/man/man1/tracker3-export.1.gz
+SPDXID: SPDXRef-tracker-file-12
+FileChecksum: SHA1: 32861a2295fffce2f2c8642994a0cba2c02d4be5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-12
+
+
+FileName: /usr/share/man/man1/tracker3-import.1.gz
+SPDXID: SPDXRef-tracker-file-13
+FileChecksum: SHA1: d479f54bac3066a6e6c60761365370cfc71e7fcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-13
+
+
+FileName: /usr/share/man/man1/tracker3-sparql.1.gz
+SPDXID: SPDXRef-tracker-file-14
+FileChecksum: SHA1: dc097e3495d969f61c4e4c5692a6e35270a0c113
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-14
+
+
+FileName: /usr/share/man/man1/tracker3-sql.1.gz
+SPDXID: SPDXRef-tracker-file-15
+FileChecksum: SHA1: fa80d9f632664d67c698796396a98d2ceb6104d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-15
+
+
+FileName: /usr/libexec/tracker3/endpoint
+SPDXID: SPDXRef-tracker-file-16
+FileChecksum: SHA1: 8b200ff01bb729faa8858e9ea10a09ffda7a50b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-16
+
+
+FileName: /usr/libexec/tracker3/export
+SPDXID: SPDXRef-tracker-file-17
+FileChecksum: SHA1: 8b200ff01bb729faa8858e9ea10a09ffda7a50b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-17
+
+
+FileName: /usr/libexec/tracker3/help
+SPDXID: SPDXRef-tracker-file-18
+FileChecksum: SHA1: 8b200ff01bb729faa8858e9ea10a09ffda7a50b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-18
+
+
+FileName: /usr/libexec/tracker3/import
+SPDXID: SPDXRef-tracker-file-19
+FileChecksum: SHA1: 8b200ff01bb729faa8858e9ea10a09ffda7a50b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-19
+
+
+FileName: /usr/libexec/tracker3/sparql
+SPDXID: SPDXRef-tracker-file-20
+FileChecksum: SHA1: 8b200ff01bb729faa8858e9ea10a09ffda7a50b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-20
+
+
+FileName: /usr/libexec/tracker3/sql
+SPDXID: SPDXRef-tracker-file-21
+FileChecksum: SHA1: 8b200ff01bb729faa8858e9ea10a09ffda7a50b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-21
+
+
+FileName: /usr/share/doc/tracker/changelog.Debian.gz
+SPDXID: SPDXRef-tracker-file-22
+FileChecksum: SHA1: 9af8a9afd0407e0abf7d735e7059f3580d03dcaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker CONTAINS SPDXRef-tracker-file-22
+
+
+FileName: /usr/share/doc/tracker-miner-fs/copyright
+SPDXID: SPDXRef-tracker-miner-fs-file-0
+FileChecksum: SHA1: ae4912dede6d6a4ba6aa18a02a86f7df0b370f14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2015, 2016, 2018-2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2013, Carlos Garnacho <carlos@lanedo.com>
+Copyright 2016, 2019, 2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, Softathome <contact@softathome.com>
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org>
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org> 2009-2014, Adrien Bustany <abustany@gnome.org>
+Copyright 2009, Adrien Bustany <abustany@gnome.org>
+Copyright 2012, 2017, Red Hat, Inc.
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2016, 2019, 2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2012, 2017, Red Hat, Inc.
+Copyright 2020, Red Hat Ltd
+Copyright 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2006, Jamie McCracken <jamiemcc@gnome.org> 2006, Anders Aagaard 2005, Novell, Inc.
+Copyright 2008, Nokia <ivan.frade@nokia.com> 2006, Anders Aagaard
+Copyright 2020, Sam Thursfield <sam@afuera.me.uk> 2011, Nokia <ivan.frade@nokia.com>
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2020, Red Hat Inc.
+Copyright 2009
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com>
+Copyright 2009
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2015, Carlos Garnacho
+Copyright 2020, Red Hat Inc
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2011, ARQ Media <sam.thursfield@codethink.co.uk>
+Copyright 2013, 2014, Jolla Ltd. <andrew.den.exter@jollamobile.com>
+Copyright 2014, - Collabora Ltd.
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org>
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2016, Sam Thursfield <sam@afuera.me.uk> 2008, Nokia <ivan.frade@nokia.com> 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2008, 2009, Nokia <ivan.frade@nokia.com> 2007, Jason Kivlighn <jkivlighn@gmail.com>
+Copyright 2011, 2014, Red Hat, Inc
+Copyright 2008, Nokia <ivan.frade@nokia.com> 2006, Laurent Aguerreche <laurent.aguerreche@free.fr> 2006, Edward Duffy <eduffy@gmail.com>
+Copyright 2010, Amit Aggarwal <amitcs06@gmail.com> 2008-2011, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2017, 2018, Red Hat, Inc.
+Copyright 2012, 2017, Red Hat, Inc.
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2019, Saiful B. Khan
+Copyright 2014, Lanedo <martyn@lanedo.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com>
+Copyright 2015, 2016, 2018-2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2014, SoftAtHome <contact@softathome.com> 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2015, Red Hat, Inc. 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2014, SoftAtHome <contact@softathome.com> 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2019, 2020, Sam Thursfield (sam@afuera.me.uk) 2010, 2011, Nokia (ivan.frade@nokia.com)
+Copyright 2015, 2016, 2018-2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2019, Sam Thursfield (sam@afuera.me.uk) 2010, Nokia <jean-luc.lamadon@nokia.com>
+Copyright 2016, 2019, 2020, Sam Thursfield (sam@afuera.me.uk)
+Copyright 2018-2020, Sam Thursfield <sam@afuera.me.uk> 2010, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2016, 2019, 2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2014, Softathome <contact@softathome.com>
+Copyright 2010, Nokia
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+</text>
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-0
+
+
+FileName: /etc/xdg/autostart/tracker-miner-fs-3.desktop
+SPDXID: SPDXRef-tracker-miner-fs-file-1
+FileChecksum: SHA1: dc81eb7b777fb8d4ba530f5b0379374ca31ba512
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-1
+
+
+FileName: /usr/lib/sysctl.d/30-tracker.conf
+SPDXID: SPDXRef-tracker-miner-fs-file-2
+FileChecksum: SHA1: 71114c48a9d4d847c1bf24d203e4bc308060e56c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-2
+
+
+FileName: /usr/lib/systemd/user/tracker-miner-fs-3.service
+SPDXID: SPDXRef-tracker-miner-fs-file-3
+FileChecksum: SHA1: d60400059c6300f93d2308b2902356bb009b4380
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-3
+
+
+FileName: /usr/lib/systemd/user/tracker-miner-fs-control-3.service
+SPDXID: SPDXRef-tracker-miner-fs-file-4
+FileChecksum: SHA1: 6b60978eccb59c2d02d77a712aac18b2ec5b56da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-4
+
+
+FileName: /usr/libexec/tracker-miner-fs-3
+SPDXID: SPDXRef-tracker-miner-fs-file-5
+FileChecksum: SHA1: af8f514534fa0566692027bc8a31d04684c8a6ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-5
+
+
+FileName: /usr/libexec/tracker-miner-fs-control-3
+SPDXID: SPDXRef-tracker-miner-fs-file-6
+FileChecksum: SHA1: d5fe0edc577c5c5cec51a8450f0f666e567355c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-6
+
+
+FileName: /usr/share/dbus-1/interfaces/org.freedesktop.Tracker3.Miner.Files.Index.xml
+SPDXID: SPDXRef-tracker-miner-fs-file-7
+FileChecksum: SHA1: 16666cf9f9eecfd277d7f4b9f6cc7c951112aed2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-7
+
+
+FileName: /usr/share/dbus-1/services/org.freedesktop.Tracker3.Miner.Files.Control.service
+SPDXID: SPDXRef-tracker-miner-fs-file-8
+FileChecksum: SHA1: 8671d091fd6e8ae368f76e15c3ed8b15c79c09d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-8
+
+
+FileName: /usr/share/dbus-1/services/org.freedesktop.Tracker3.Miner.Files.service
+SPDXID: SPDXRef-tracker-miner-fs-file-9
+FileChecksum: SHA1: 1207ff47ff4edd5a26864456d02f6c68d1e77c07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-9
+
+
+FileName: /usr/share/lintian/overrides/tracker-miner-fs
+SPDXID: SPDXRef-tracker-miner-fs-file-10
+FileChecksum: SHA1: 070ec86e447cd47523a83e7aafa846f0c9733325
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-10
+
+
+FileName: /usr/share/man/man1/tracker-miner-fs-3.1.gz
+SPDXID: SPDXRef-tracker-miner-fs-file-11
+FileChecksum: SHA1: 22a54b3ea43db0ab0917eca1d88f46149fd5a31b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-11
+
+
+FileName: /usr/share/doc/tracker-miner-fs/changelog.Debian.gz
+SPDXID: SPDXRef-tracker-miner-fs-file-12
+FileChecksum: SHA1: 0ef4465547f3e85f4c0f62f6831450279839e211
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-12
+
+
+FileName: /usr/share/tracker3-miners/miners/org.freedesktop.Tracker3.Miner.Files.service
+SPDXID: SPDXRef-tracker-miner-fs-file-13
+FileChecksum: SHA1: 1207ff47ff4edd5a26864456d02f6c68d1e77c07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-miner-fs CONTAINS SPDXRef-tracker-miner-fs-file-13
+
+
+FileName: /usr/share/doc/tracker-extract/copyright
+SPDXID: SPDXRef-tracker-extract-file-0
+FileChecksum: SHA1: ae4912dede6d6a4ba6aa18a02a86f7df0b370f14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2015, 2016, 2018-2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2013, Carlos Garnacho <carlos@lanedo.com>
+Copyright 2016, 2019, 2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, Softathome <contact@softathome.com>
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org>
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org> 2009-2014, Adrien Bustany <abustany@gnome.org>
+Copyright 2009, Adrien Bustany <abustany@gnome.org>
+Copyright 2012, 2017, Red Hat, Inc.
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2016, 2019, 2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2012, 2017, Red Hat, Inc.
+Copyright 2020, Red Hat Ltd
+Copyright 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2006, Jamie McCracken <jamiemcc@gnome.org> 2006, Anders Aagaard 2005, Novell, Inc.
+Copyright 2008, Nokia <ivan.frade@nokia.com> 2006, Anders Aagaard
+Copyright 2020, Sam Thursfield <sam@afuera.me.uk> 2011, Nokia <ivan.frade@nokia.com>
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2020, Red Hat Inc.
+Copyright 2009
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com>
+Copyright 2009
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2015, Carlos Garnacho
+Copyright 2020, Red Hat Inc
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2010, Nokia <ivan.frade@nokia.com> 2006, 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2011, ARQ Media <sam.thursfield@codethink.co.uk>
+Copyright 2013, 2014, Jolla Ltd. <andrew.den.exter@jollamobile.com>
+Copyright 2014, - Collabora Ltd.
+Copyright 2014, Carlos Garnacho <carlosg@gnome.org>
+Copyright 2016, 2018, 2020, 2021, Red Hat Inc.
+Copyright 2016, Sam Thursfield <sam@afuera.me.uk> 2008, Nokia <ivan.frade@nokia.com> 2007, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2008, 2009, Nokia <ivan.frade@nokia.com> 2007, Jason Kivlighn <jkivlighn@gmail.com>
+Copyright 2011, 2014, Red Hat, Inc
+Copyright 2008, Nokia <ivan.frade@nokia.com> 2006, Laurent Aguerreche <laurent.aguerreche@free.fr> 2006, Edward Duffy <eduffy@gmail.com>
+Copyright 2010, Amit Aggarwal <amitcs06@gmail.com> 2008-2011, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2017, 2018, Red Hat, Inc.
+Copyright 2012, 2017, Red Hat, Inc.
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2019, Saiful B. Khan
+Copyright 2014, Lanedo <martyn@lanedo.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com>
+Copyright 2015, 2016, 2018-2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2014, SoftAtHome <contact@softathome.com> 2014, Lanedo <martyn@lanedo.com> 2008-2010, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2015, Red Hat, Inc. 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2014, SoftAtHome <contact@softathome.com> 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2008, Nokia <ivan.frade@nokia.com> 2006, Jamie McCracken <jamiemcc@gnome.org>
+Copyright 2014, Lanedo <martyn@lanedo.com> 2009, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2019, 2020, Sam Thursfield (sam@afuera.me.uk) 2010, 2011, Nokia (ivan.frade@nokia.com)
+Copyright 2015, 2016, 2018-2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2019, Sam Thursfield (sam@afuera.me.uk) 2010, Nokia <jean-luc.lamadon@nokia.com>
+Copyright 2016, 2019, 2020, Sam Thursfield (sam@afuera.me.uk)
+Copyright 2018-2020, Sam Thursfield <sam@afuera.me.uk> 2010, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+Copyright 2016, 2019, 2020, Sam Thursfield <sam@afuera.me.uk>
+Copyright 2014, Softathome <contact@softathome.com>
+Copyright 2010, Nokia
+Copyright 2008-2011, Nokia <ivan.frade@nokia.com>
+</text>
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-0
+
+
+FileName: /usr/lib/systemd/user/tracker-extract-3.service
+SPDXID: SPDXRef-tracker-extract-file-1
+FileChecksum: SHA1: 6c9060376fab2ab0fbec3d815798a19e4c8ad13c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-1
+
+
+FileName: /usr/lib/systemd/user/tracker-writeback-3.service
+SPDXID: SPDXRef-tracker-extract-file-2
+FileChecksum: SHA1: 92898a9ce9d486fec3d927cac9ec5e0bebec025d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-abw.so
+SPDXID: SPDXRef-tracker-extract-file-3
+FileChecksum: SHA1: e2f12313aa4f246155a83718369db85bd1ce44d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-bmp.so
+SPDXID: SPDXRef-tracker-extract-file-4
+FileChecksum: SHA1: c2f8e36ac61d6e064c2f4fde969b7f6e74531fe6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-4
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-desktop.so
+SPDXID: SPDXRef-tracker-extract-file-5
+FileChecksum: SHA1: da90b9705834a569bd3a80e8d392c8daf0fbc693
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-5
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-disc-generic.so
+SPDXID: SPDXRef-tracker-extract-file-6
+FileChecksum: SHA1: 14662e777c412de0df7171847ae1c00a477e33bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-6
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-dummy.so
+SPDXID: SPDXRef-tracker-extract-file-7
+FileChecksum: SHA1: 5e9b0f980feac61bd26e323973ec13bf5e387e76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-7
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-epub.so
+SPDXID: SPDXRef-tracker-extract-file-8
+FileChecksum: SHA1: b7b9179f053282fde1eb8b4ffd3d99913b9911ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-8
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-gif.so
+SPDXID: SPDXRef-tracker-extract-file-9
+FileChecksum: SHA1: 7a4b5d84d152425c3f2c68d4a9b2abb8778fa068
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-9
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-gstreamer.so
+SPDXID: SPDXRef-tracker-extract-file-10
+FileChecksum: SHA1: 078d7e2e49e29d1a15ffa6c086fac2e65d22dafa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-10
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-html.so
+SPDXID: SPDXRef-tracker-extract-file-11
+FileChecksum: SHA1: 9cb61448e0ce096d45361ce765638ba24a25eb0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-11
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-icon.so
+SPDXID: SPDXRef-tracker-extract-file-12
+FileChecksum: SHA1: 292acdd0fe2ae116df6a5aa92a713d9116dc2c15
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-12
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-jpeg.so
+SPDXID: SPDXRef-tracker-extract-file-13
+FileChecksum: SHA1: 460f0fc7f5ed940a98d02f5f8c8218885250656d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-13
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-mp3.so
+SPDXID: SPDXRef-tracker-extract-file-14
+FileChecksum: SHA1: d0999feab2b324ab796d143990483593c82eed76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-14
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-msoffice-xml.so
+SPDXID: SPDXRef-tracker-extract-file-15
+FileChecksum: SHA1: d81cb5400f0a99dd02b2e01e5cd2fc121ac563cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-15
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-msoffice.so
+SPDXID: SPDXRef-tracker-extract-file-16
+FileChecksum: SHA1: 0ea6bbb6d7806e5fb3b1c6e66cdb08907ecf1dc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-16
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-oasis.so
+SPDXID: SPDXRef-tracker-extract-file-17
+FileChecksum: SHA1: 8b4797b5601a7cdccb06c5b0d86c519702dbfeeb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-17
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-pdf.so
+SPDXID: SPDXRef-tracker-extract-file-18
+FileChecksum: SHA1: 987854ea41955e40449f8a8bf4d3bdc5dd6800e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-18
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-playlist.so
+SPDXID: SPDXRef-tracker-extract-file-19
+FileChecksum: SHA1: cdc787183aee4afafd49a19acd800769494b5c53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-19
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-png.so
+SPDXID: SPDXRef-tracker-extract-file-20
+FileChecksum: SHA1: a4f150ea77f8b0be9ed5ef9946a003a54347a105
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-20
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-ps.so
+SPDXID: SPDXRef-tracker-extract-file-21
+FileChecksum: SHA1: 9a687590e5edadbe30f2925466ca82e26fcb6ef7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-21
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-raw.so
+SPDXID: SPDXRef-tracker-extract-file-22
+FileChecksum: SHA1: f0c825d8388515acf11950f3d214c2db093d9867
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-22
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-text.so
+SPDXID: SPDXRef-tracker-extract-file-23
+FileChecksum: SHA1: 59570d6f1d2684656106a9f35aba6a7682e6d0d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-23
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-tiff.so
+SPDXID: SPDXRef-tracker-extract-file-24
+FileChecksum: SHA1: 2786a47f728dcb2d01b5be884b398ac421109f18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-24
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/extract-modules/libextract-xps.so
+SPDXID: SPDXRef-tracker-extract-file-25
+FileChecksum: SHA1: 6b586013703315dc0b3660d51ffc3f362de59368
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-25
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/libtracker-extract.so
+SPDXID: SPDXRef-tracker-extract-file-26
+FileChecksum: SHA1: fbd597b3258c7fc16a04dd1bc3bd8b55a49c486d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-26
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/libtracker-miner-3.0.so
+SPDXID: SPDXRef-tracker-extract-file-27
+FileChecksum: SHA1: 0a8b7c49641bd3360a40d7717b7f53cbf26136f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-27
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/writeback-modules/libwriteback-gstreamer.so
+SPDXID: SPDXRef-tracker-extract-file-28
+FileChecksum: SHA1: a22e32814f4f5e9cfea798665432540c0479c45f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-28
+
+
+FileName: /usr/lib/x86_64-linux-gnu/tracker-miners-3.0/writeback-modules/libwriteback-xmp.so
+SPDXID: SPDXRef-tracker-extract-file-29
+FileChecksum: SHA1: d3e4066ed6df24b0d72c889376db4847cf0133cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-29
+
+
+FileName: /usr/libexec/tracker-extract-3
+SPDXID: SPDXRef-tracker-extract-file-30
+FileChecksum: SHA1: 547b716e6be40cce277dd33702d1a6f8780b3364
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-30
+
+
+FileName: /usr/libexec/tracker-writeback-3
+SPDXID: SPDXRef-tracker-extract-file-31
+FileChecksum: SHA1: b6013a44de6bd92aa526d12f913e3734f0c60d6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-31
+
+
+FileName: /usr/libexec/tracker3/daemon
+SPDXID: SPDXRef-tracker-extract-file-32
+FileChecksum: SHA1: b8e68dac1984ed2bfd3b706d74d0aaac73196dba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-32
+
+
+FileName: /usr/libexec/tracker3/extract
+SPDXID: SPDXRef-tracker-extract-file-33
+FileChecksum: SHA1: 0d0ea119f9a3c879fd7fdf2f89588618f72917f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-33
+
+
+FileName: /usr/libexec/tracker3/index
+SPDXID: SPDXRef-tracker-extract-file-34
+FileChecksum: SHA1: d7fdc9220d9f7e5ed6953d602956cedac4dda742
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-34
+
+
+FileName: /usr/libexec/tracker3/info
+SPDXID: SPDXRef-tracker-extract-file-35
+FileChecksum: SHA1: 8713b48db78f0972e2fc23fec944c3b26c75de2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-35
+
+
+FileName: /usr/libexec/tracker3/reset
+SPDXID: SPDXRef-tracker-extract-file-36
+FileChecksum: SHA1: d2e1701fee7b85bdc220fcc6e220c2a427c56c84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-36
+
+
+FileName: /usr/libexec/tracker3/search
+SPDXID: SPDXRef-tracker-extract-file-37
+FileChecksum: SHA1: 92b7cd0696899e7e305e7e3533576fe3b2c8b53d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-37
+
+
+FileName: /usr/libexec/tracker3/status
+SPDXID: SPDXRef-tracker-extract-file-38
+FileChecksum: SHA1: d4aaed8c99ec8e8ab2fb3d7c0a626388318be847
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-38
+
+
+FileName: /usr/libexec/tracker3/tag
+SPDXID: SPDXRef-tracker-extract-file-39
+FileChecksum: SHA1: 3fec5066e0a62195fa4b91ec6e4dce99ad5895d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-39
+
+
+FileName: /usr/share/dbus-1/interfaces/org.freedesktop.Tracker3.Miner.xml
+SPDXID: SPDXRef-tracker-extract-file-40
+FileChecksum: SHA1: 576ac2ea300df0f7eb4d58c984f658c9502a4cbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-40
+
+
+FileName: /usr/share/dbus-1/services/org.freedesktop.Tracker3.Miner.Extract.service
+SPDXID: SPDXRef-tracker-extract-file-41
+FileChecksum: SHA1: f49b2fae0f7453a27c4adadbf92d7ed54da7eeb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-41
+
+
+FileName: /usr/share/dbus-1/services/org.freedesktop.Tracker3.Writeback.service
+SPDXID: SPDXRef-tracker-extract-file-42
+FileChecksum: SHA1: deeb46f723504ce1f03c3bf972d2df24ade7f1f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-42
+
+
+FileName: /usr/share/doc/tracker-extract/AUTHORS
+SPDXID: SPDXRef-tracker-extract-file-43
+FileChecksum: SHA1: c7ec7ef3b5e25951879e1ea713391dbcbc31f38d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-43
+
+
+FileName: /usr/share/doc/tracker-extract/NEWS.gz
+SPDXID: SPDXRef-tracker-extract-file-44
+FileChecksum: SHA1: 6356e92d4d9848abcdf2e28ce2725480d4a2ad45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-44
+
+
+FileName: /usr/share/doc/tracker-extract/README.md
+SPDXID: SPDXRef-tracker-extract-file-45
+FileChecksum: SHA1: 1becfba740ee7e7ec2bc19483d1cf13a9ddd6b9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-45
+
+
+FileName: /usr/share/doc/tracker-extract/changelog.Debian.gz
+SPDXID: SPDXRef-tracker-extract-file-46
+FileChecksum: SHA1: 0ef4465547f3e85f4c0f62f6831450279839e211
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-46
+
+
+FileName: /usr/share/glib-2.0/schemas/org.freedesktop.Tracker3.Extract.gschema.xml
+SPDXID: SPDXRef-tracker-extract-file-47
+FileChecksum: SHA1: 5b38fb76c75764f5305bd548e8ad009c0009de76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-47
+
+
+FileName: /usr/share/glib-2.0/schemas/org.freedesktop.Tracker3.FTS.gschema.xml
+SPDXID: SPDXRef-tracker-extract-file-48
+FileChecksum: SHA1: 84b96695817f57cc183a3dc2eff774505c96eef9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-48
+
+
+FileName: /usr/share/glib-2.0/schemas/org.freedesktop.Tracker3.Miner.Files.gschema.xml
+SPDXID: SPDXRef-tracker-extract-file-49
+FileChecksum: SHA1: 27a9cceca48a8d2d1bec4161865caca1ee393137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-49
+
+
+FileName: /usr/share/glib-2.0/schemas/org.freedesktop.TrackerMiners3.enums.xml
+SPDXID: SPDXRef-tracker-extract-file-50
+FileChecksum: SHA1: c76ab5761c99abd7c46bfdfa3720b37e0bbbe8ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-50
+
+
+FileName: /usr/share/man/man1/tracker-writeback-3.1.gz
+SPDXID: SPDXRef-tracker-extract-file-51
+FileChecksum: SHA1: cd6fd748b30192f7d69898095ec25e4639a7696a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-51
+
+
+FileName: /usr/share/man/man1/tracker3-daemon.1.gz
+SPDXID: SPDXRef-tracker-extract-file-52
+FileChecksum: SHA1: 9130afb06490dd6f928e5d3e52f7d4331cea6331
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-52
+
+
+FileName: /usr/share/man/man1/tracker3-extract.1.gz
+SPDXID: SPDXRef-tracker-extract-file-53
+FileChecksum: SHA1: 337779fdcefd60c8f553b2e2cc64f532fc2cb159
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-53
+
+
+FileName: /usr/share/man/man1/tracker3-index.1.gz
+SPDXID: SPDXRef-tracker-extract-file-54
+FileChecksum: SHA1: 98e50248cc7c2f03bdb67990b9ebb84b2c656112
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-54
+
+
+FileName: /usr/share/man/man1/tracker3-info.1.gz
+SPDXID: SPDXRef-tracker-extract-file-55
+FileChecksum: SHA1: fc259c08a16f6c7c4414965c254b875ac7773076
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-55
+
+
+FileName: /usr/share/man/man1/tracker3-reset.1.gz
+SPDXID: SPDXRef-tracker-extract-file-56
+FileChecksum: SHA1: 789b97437956008070da9c492d52b750129f4b79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-56
+
+
+FileName: /usr/share/man/man1/tracker3-search.1.gz
+SPDXID: SPDXRef-tracker-extract-file-57
+FileChecksum: SHA1: 4e5a04cd13b3dad1b5a09abe7e29c660d567dfac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-57
+
+
+FileName: /usr/share/man/man1/tracker3-status.1.gz
+SPDXID: SPDXRef-tracker-extract-file-58
+FileChecksum: SHA1: 86fc8893f8d05a21133a0d943e3148ab22b3e282
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-58
+
+
+FileName: /usr/share/man/man1/tracker3-tag.1.gz
+SPDXID: SPDXRef-tracker-extract-file-59
+FileChecksum: SHA1: 5d7b28fc5e10ad8c71fc838a10eabd8a24dd0127
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-59
+
+
+FileName: /usr/share/tracker3-miners/domain-ontologies/default.rule
+SPDXID: SPDXRef-tracker-extract-file-60
+FileChecksum: SHA1: 91f24242a86abc8ff2557377cfd4e64286170481
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-60
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-abw.rule
+SPDXID: SPDXRef-tracker-extract-file-61
+FileChecksum: SHA1: f0c1dabb14fd98a71911425d9928feb763f8a48f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-61
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-bmp.rule
+SPDXID: SPDXRef-tracker-extract-file-62
+FileChecksum: SHA1: 55fb92cef07a1a31496ccc11e2a4c1384bbeb2ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-62
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-comics.rule
+SPDXID: SPDXRef-tracker-extract-file-63
+FileChecksum: SHA1: fb2cdf1121c1c3e87a9b836eba5c9bd4aee00e50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-63
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-desktop.rule
+SPDXID: SPDXRef-tracker-extract-file-64
+FileChecksum: SHA1: 81c85eaa7f6b9318ce0b836e2857800beb6a1986
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-64
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-ebooks.rule
+SPDXID: SPDXRef-tracker-extract-file-65
+FileChecksum: SHA1: 977a404d74922575f272b770ca7841d540d7ac5c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-65
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-epub.rule
+SPDXID: SPDXRef-tracker-extract-file-66
+FileChecksum: SHA1: ad269fd2e5ed3357d97caff4f573cf8a1c84fb63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-66
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-folder.rule
+SPDXID: SPDXRef-tracker-extract-file-67
+FileChecksum: SHA1: 724372654666d84f1a86d9a0132c49d5d18001e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-67
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-gif.rule
+SPDXID: SPDXRef-tracker-extract-file-68
+FileChecksum: SHA1: 3a90937dc1135ad2b8f97f5bf89f4c343af92614
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-68
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-html.rule
+SPDXID: SPDXRef-tracker-extract-file-69
+FileChecksum: SHA1: 9ac49168e27bf2cc56c7caeb05fea32d3b135c38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-69
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-ico.rule
+SPDXID: SPDXRef-tracker-extract-file-70
+FileChecksum: SHA1: e7845e54d571a011296dd050d29063d7c9f5b837
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-70
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-jpeg.rule
+SPDXID: SPDXRef-tracker-extract-file-71
+FileChecksum: SHA1: d15981cdc6761265bc92625fcfd9519edd2b6f50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-71
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-mp3.rule
+SPDXID: SPDXRef-tracker-extract-file-72
+FileChecksum: SHA1: fe40aa0dfe565e26f6dcb6d91869a6c1fc8df62e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-72
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-msoffice.rule
+SPDXID: SPDXRef-tracker-extract-file-73
+FileChecksum: SHA1: ad7dd149991bc136d19fe36f075bb389fb972723
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-73
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-oasis.rule
+SPDXID: SPDXRef-tracker-extract-file-74
+FileChecksum: SHA1: 6116538e528e90abcbbd5c77f1069ff556650896
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-74
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-pdf.rule
+SPDXID: SPDXRef-tracker-extract-file-75
+FileChecksum: SHA1: b10fb3afd97bfb3dfd5576d54e6f526dedd51347
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-75
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-png.rule
+SPDXID: SPDXRef-tracker-extract-file-76
+FileChecksum: SHA1: e43925f2bf4e2effe8aa6d4753b2e1d27820551d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-76
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-ps.rule
+SPDXID: SPDXRef-tracker-extract-file-77
+FileChecksum: SHA1: 9489d64d7bae4253135f44d29818b14e5f57d3aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-77
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-raw.rule
+SPDXID: SPDXRef-tracker-extract-file-78
+FileChecksum: SHA1: 7304d0a5120e3e1ac9b4ecb7947ae2348ea70d08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-78
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-svg.rule
+SPDXID: SPDXRef-tracker-extract-file-79
+FileChecksum: SHA1: 30d16018f57d07b9ea99300c91ca9f4a30142ff4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-79
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-tiff.rule
+SPDXID: SPDXRef-tracker-extract-file-80
+FileChecksum: SHA1: 70e10c4b6ea8beafd24f541a4d81cd5e3e1380c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-80
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/10-xps.rule
+SPDXID: SPDXRef-tracker-extract-file-81
+FileChecksum: SHA1: 1843ff748666d212a364dc7c90df512b27d67cd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-81
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/11-msoffice-xml.rule
+SPDXID: SPDXRef-tracker-extract-file-82
+FileChecksum: SHA1: 85ab612921eda1a214ae1834186d5f183400f6cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-82
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/15-executable.rule
+SPDXID: SPDXRef-tracker-extract-file-83
+FileChecksum: SHA1: a1d8cc78b8a10383265955e03a95ab15aeffac90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-83
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/15-games.rule
+SPDXID: SPDXRef-tracker-extract-file-84
+FileChecksum: SHA1: 4063f70935ebadf4844fa655783c3bb187b9d3cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-84
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/15-gstreamer-guess.rule
+SPDXID: SPDXRef-tracker-extract-file-85
+FileChecksum: SHA1: b1b88a6c7ade84f0546202293f15057361de34e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-85
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/15-playlist.rule
+SPDXID: SPDXRef-tracker-extract-file-86
+FileChecksum: SHA1: bf195edcd4900fd88d18fd0fd085a8f5edee12e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-86
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/15-text.rule
+SPDXID: SPDXRef-tracker-extract-file-87
+FileChecksum: SHA1: 91533a644752e21255a16a372c86d4dacacb7f54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-87
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/90-disc-generic.rule
+SPDXID: SPDXRef-tracker-extract-file-88
+FileChecksum: SHA1: 75e4c1eba4d8b4690f27005d079234daf9debe98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-88
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/90-gstreamer-audio-generic.rule
+SPDXID: SPDXRef-tracker-extract-file-89
+FileChecksum: SHA1: 1bbc577ca75ee7143fbb4b53b59e9c2e20ea4a89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-89
+
+
+FileName: /usr/share/tracker3-miners/extract-rules/90-gstreamer-video-generic.rule
+SPDXID: SPDXRef-tracker-extract-file-90
+FileChecksum: SHA1: 647c14a3ed5abd09fa2abc835c7a817c5089804f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tracker-extract CONTAINS SPDXRef-tracker-extract-file-90
+
+
+## Extracted License
+

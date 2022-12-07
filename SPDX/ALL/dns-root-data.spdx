@@ -1,0 +1,118 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/dns-root-data_2021011101-a5090a1c-bae8-55db-b4d7-08ad605b402c
+DocumentName: dns-root-data_2021011101
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dns-root-data
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:12:06Z
+
+
+## Package
+
+PackageName: dns-root-data
+PackageVersion: 2021011101
+SPDXID: SPDXRef-dns-root-data
+PackageHomePage: https://data.iana.org/root-anchors/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c29697a8a52cd0d8c2344904ba4e27203223b96e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-icann-public
+PackageCopyrightText: <text>Copyright (c) 2010-2018 Internet Corporation
+Copyright 2014 Ondrej Sury <ondrej@debian.org> , 2018 Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+</text>
+PackageComment: <text>DNS root data including root zone and DNSSEC key
+ This package contains various root zone related data as published
+ by IANA to be used by various DNS software as a common source
+ of DNS root zone data, namely:
+ .
+  * Root Hints (root.hints)
+  * Root Trust Anchors (root.key, root.ds)</text>
+
+
+## File
+
+FileName: /usr/share/doc/dns-root-data/copyright
+SPDXID: SPDXRef-dns-root-data-file-0
+FileChecksum: SHA1: bfd53488acc118c2a1c15bbf8454b47dcedf67de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT
+LicenseInfoInFile: LicenseRef-scancode-icann-public
+FileCopyrightText: <text>Copyright (c) 2010-2018 Internet Corporation
+Copyright 2014 Ondrej Sury <ondrej@debian.org> , 2018 Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+</text>
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-0
+
+
+FileName: /usr/share/dns/root.ds
+SPDXID: SPDXRef-dns-root-data-file-1
+FileChecksum: SHA1: 1a74c57d9cfeee4244c7931de11252e25cc556fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-1
+
+
+FileName: /usr/share/dns/root.hints
+SPDXID: SPDXRef-dns-root-data-file-2
+FileChecksum: SHA1: 61be0cde43531f927452008d1a2df956b3065491
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-2
+
+
+FileName: /usr/share/dns/root.hints.sig
+SPDXID: SPDXRef-dns-root-data-file-3
+FileChecksum: SHA1: 96a16af82d269b0b1e0cfbfab920cda6ff0289e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-3
+
+
+FileName: /usr/share/dns/root.key
+SPDXID: SPDXRef-dns-root-data-file-4
+FileChecksum: SHA1: 3de3d0ee1d608f27a9e990eb10e19d69e4e56e6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-4
+
+
+FileName: /usr/share/doc/dns-root-data/changelog.gz
+SPDXID: SPDXRef-dns-root-data-file-5
+FileChecksum: SHA1: d7d67d2b169b0b23253a55a347e40a0721a13614
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dns-root-data CONTAINS SPDXRef-dns-root-data-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-icann-public
+LicenseName: ICANN-Public
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/icann-public.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/icann-public.yml
+</text>
+
+

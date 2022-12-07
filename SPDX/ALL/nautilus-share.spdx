@@ -1,0 +1,116 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/nautilus-share_0.7.3-2ubuntu6-ab1d6022-95da-50df-a1d7-ba3d571df5be
+DocumentName: nautilus-share_0.7.3-2ubuntu6
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-apturl http://spdx.org/spdxdocs/apturl_0.5.2ubuntu22-3913a29c-07e7-55a9-a040-f3c58e8f10aa SHA1: af8107368b6386076b171643add42da5b05b9d17
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-nautilus http://spdx.org/spdxdocs/nautilus_1:42.2-0ubuntu1-933cf7a5-a2f7-51e7-b28b-9cd351d2de31 SHA1: 9eab4fd8f88780ff45b75ec3b1995c1613ec9327
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-nautilus-share
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:19:58Z
+
+
+## Package
+
+PackageName: nautilus-share
+PackageVersion: 0.7.3-2ubuntu6
+SPDXID: SPDXRef-nautilus-share
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8382e965b13ea8c74e85609645051d79f10e2ce5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2005 Ethium, Inc.
+Copyright 2007-2008, Thierry Randrianiriana <randrianiriana@gmail.com>
+Copyright 2009, Chow Loong Jin <hyperair@gmail.com>
+</text>
+PackageComment: <text>Nautilus extension to share folder using Samba
+ Nautilus Share allows you to quickly share a folder from
+ the GNOME Nautilus file manager without requiring root access.</text>
+Relationship: SPDXRef-nautilus-share DEPENDS_ON DocumentRef-nautilus:SPDXRef-nautilus
+Relationship: SPDXRef-nautilus-share DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-session-bin
+Relationship: SPDXRef-nautilus-share DEPENDS_ON DocumentRef-apturl:SPDXRef-apturl
+Relationship: SPDXRef-nautilus-share DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-nautilus-share DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-nautilus-share DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-nautilus-share DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnautilus-extension1a
+Relationship: SPDXRef-nautilus-share DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-samba-libs
+
+
+## File
+
+FileName: /usr/share/doc/nautilus-share/copyright
+SPDXID: SPDXRef-nautilus-share-file-0
+FileChecksum: SHA1: d1060123745ad8835b18a1e97c6f351fed61e71a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2005 Ethium, Inc.
+Copyright 2007-2008, Thierry Randrianiriana <randrianiriana@gmail.com>
+Copyright 2009, Chow Loong Jin <hyperair@gmail.com>
+</text>
+Relationship: SPDXRef-nautilus-share CONTAINS SPDXRef-nautilus-share-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/nautilus/extensions-3.0/libnautilus-share.so
+SPDXID: SPDXRef-nautilus-share-file-1
+FileChecksum: SHA1: 316d9b3b39e1d355d70eb0cdb15834d84ba8bfcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-share CONTAINS SPDXRef-nautilus-share-file-1
+
+
+FileName: /usr/share/doc/nautilus-share/README.Debian
+SPDXID: SPDXRef-nautilus-share-file-2
+FileChecksum: SHA1: 9c980486a0526dc92bdc3b0851f3a0d3c5e6235c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-share CONTAINS SPDXRef-nautilus-share-file-2
+
+
+FileName: /usr/share/doc/nautilus-share/changelog.Debian.gz
+SPDXID: SPDXRef-nautilus-share-file-3
+FileChecksum: SHA1: d0b1caebbdde6ed38bc84546aac9aecfcd40d98c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-share CONTAINS SPDXRef-nautilus-share-file-3
+
+
+FileName: /usr/share/doc/nautilus-share/examples/smb.conf
+SPDXID: SPDXRef-nautilus-share-file-4
+FileChecksum: SHA1: db390fb856e05a1b5d07b44d1e0c96d95b1eb712
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-share CONTAINS SPDXRef-nautilus-share-file-4
+
+
+FileName: /usr/share/nautilus-share/interfaces/share-dialog.ui
+SPDXID: SPDXRef-nautilus-share-file-5
+FileChecksum: SHA1: 75a8c06949e5fb1d64d2e83463d9d927d4963ff1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-share CONTAINS SPDXRef-nautilus-share-file-5
+
+
+## Extracted License
+

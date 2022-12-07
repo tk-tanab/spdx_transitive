@@ -1,0 +1,78 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-gargi_2.0-5-14e67a59-9914-5089-85da-e59174f3453b
+DocumentName: fonts-gargi_2.0-5
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-gargi
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:52:04Z
+
+
+## Package
+
+PackageName: fonts-gargi
+PackageVersion: 2.0-5
+SPDXID: SPDXRef-fonts-gargi
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 05af4147d1c5afc735f3e165571289e7dc08c698
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2013, Gargi Font
+Copyright 2013, Vasudev Kamath <kamathvasudev@gmail.com>
+</text>
+PackageComment: <text>OpenType Devanagari font
+ This package provides Gargi font for Devanagari script which is
+ used as script for multiple languages such as Hindi, Kashmiri,
+ Konkani, Maithili, Marathi normally spoken in various states
+ in Indian subcontinent.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-gargi/copyright
+SPDXID: SPDXRef-fonts-gargi-file-0
+FileChecksum: SHA1: ae9d8ef894350f2b2db3da57dd6d29aa074d9633
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2013, Gargi Font
+Copyright 2013, Vasudev Kamath <kamathvasudev@gmail.com>
+</text>
+Relationship: SPDXRef-fonts-gargi CONTAINS SPDXRef-fonts-gargi-file-0
+
+
+FileName: /usr/share/doc/fonts-gargi/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-gargi-file-1
+FileChecksum: SHA1: 1328ae0af0d30a50b0d68a09fde8f237629d03c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gargi CONTAINS SPDXRef-fonts-gargi-file-1
+
+
+FileName: /usr/share/fonts/truetype/Gargi/Gargi.ttf
+SPDXID: SPDXRef-fonts-gargi-file-2
+FileChecksum: SHA1: 53aa6a7b6ead7181bbd04777d414f0ec832e54fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gargi CONTAINS SPDXRef-fonts-gargi-file-2
+
+
+## Extracted License
+

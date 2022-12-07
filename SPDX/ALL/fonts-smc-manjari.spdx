@@ -1,0 +1,142 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-smc-manjari_2.000-3-c2ef6c8e-3f76-56fd-b59e-3a924845a795
+DocumentName: fonts-smc-manjari_2.000-3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-smc-manjari
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:56:12Z
+
+
+## Package
+
+PackageName: fonts-smc-manjari
+PackageVersion: 2.000-3
+SPDXID: SPDXRef-fonts-smc-manjari
+PackageHomePage: https://smc.org.in
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 4b7b305995b96dd2fa3f60475a1038a83eb513fe
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2016 Balasankar C 2016 Swathanthra Malayalam Computing
+Copyright 2016 Santhosh Thottingal 2016 Kavya Manohar
+Copyright 2016 Santhosh Thottingal 2016 Kavya Manohar 2016 Swathanthra Malayalam Computing
+Copyright 2016-2022, Balasankar C <balasankarc@autistici.org>
+Copyright 2019 Swathanthra Malayalam Computing
+</text>
+PackageComment: <text>Manjari malayalam font
+ This package provides Manjari font for Malayalam script
+ which is primarily used in the state of Kerala. The font is
+ developed by SMC community.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-smc-manjari/copyright
+SPDXID: SPDXRef-fonts-smc-manjari-file-0
+FileChecksum: SHA1: 987c28143236e1c2cda41238a9709516b5f61e72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2016 Santhosh Thottingal 2016 Kavya Manohar 2016 Swathanthra Malayalam Computing
+Copyright 2016 Santhosh Thottingal 2016 Kavya Manohar
+Copyright 2016 Balasankar C 2016 Swathanthra Malayalam Computing
+Copyright 2019 Swathanthra Malayalam Computing
+Copyright 2016-2022, Balasankar C <balasankarc@autistici.org>
+</text>
+Relationship: SPDXRef-fonts-smc-manjari CONTAINS SPDXRef-fonts-smc-manjari-file-0
+
+
+FileName: /etc/fonts/conf.avail/67-fonts-smc-manjari.conf
+SPDXID: SPDXRef-fonts-smc-manjari-file-1
+FileChecksum: SHA1: beb5e71e1d85b0b3e65eb8fc0278b90c43270f78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-manjari CONTAINS SPDXRef-fonts-smc-manjari-file-1
+
+
+FileName: /usr/share/doc/fonts-smc-manjari/README.Debian
+SPDXID: SPDXRef-fonts-smc-manjari-file-2
+FileChecksum: SHA1: 390ff4ff160fb56fcf97c74cda2c3555adbad1b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-manjari CONTAINS SPDXRef-fonts-smc-manjari-file-2
+
+
+FileName: /usr/share/doc/fonts-smc-manjari/README.md
+SPDXID: SPDXRef-fonts-smc-manjari-file-3
+FileChecksum: SHA1: 009a4e9b73335532a1605f9fc600913009dd7204
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-manjari CONTAINS SPDXRef-fonts-smc-manjari-file-3
+
+
+FileName: /usr/share/doc/fonts-smc-manjari/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-smc-manjari-file-4
+FileChecksum: SHA1: 6c6c8c3256ccd12b10430d7ef4a6197a31f8da80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-manjari CONTAINS SPDXRef-fonts-smc-manjari-file-4
+
+
+FileName: /usr/share/fonts/opentype/malayalam/Manjari-Bold.otf
+SPDXID: SPDXRef-fonts-smc-manjari-file-5
+FileChecksum: SHA1: 8f502f0a3ba364276f4cc488549636a46a35b088
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-manjari CONTAINS SPDXRef-fonts-smc-manjari-file-5
+
+
+FileName: /usr/share/fonts/opentype/malayalam/Manjari-Regular.otf
+SPDXID: SPDXRef-fonts-smc-manjari-file-6
+FileChecksum: SHA1: ded925af34fa0231388628d73cacd2ae911364cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-manjari CONTAINS SPDXRef-fonts-smc-manjari-file-6
+
+
+FileName: /usr/share/fonts/opentype/malayalam/Manjari-Thin.otf
+SPDXID: SPDXRef-fonts-smc-manjari-file-7
+FileChecksum: SHA1: ea0e928a76cca7059140d0b546d90c80d45ecd42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-manjari CONTAINS SPDXRef-fonts-smc-manjari-file-7
+
+
+FileName: /etc/fonts/conf.d/67-fonts-smc-manjari.conf
+SPDXID: SPDXRef-fonts-smc-manjari-file-8
+FileChecksum: SHA1: beb5e71e1d85b0b3e65eb8fc0278b90c43270f78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-manjari CONTAINS SPDXRef-fonts-smc-manjari-file-8
+
+
+## Extracted License
+

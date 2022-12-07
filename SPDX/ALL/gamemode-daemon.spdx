@@ -1,0 +1,165 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gamemode-daemon_1.6.1-1build2-8a101b4a-27c1-57dd-88c2-0082204d34e0
+DocumentName: gamemode-daemon_1.6.1-1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libinih1 http://spdx.org/spdxdocs/libinih1_53-1ubuntu3-aa0b8532-d12b-501e-a146-4e4d500bbffd SHA1: 4a786465c759e7e9aa907519c2e4a54258d45761
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gamemode-daemon
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:06:25Z
+
+
+## Package
+
+PackageName: gamemode-daemon
+PackageVersion: 1.6.1-1build2
+SPDXID: SPDXRef-gamemode-daemon
+PackageHomePage: https://github.com/FeralInteractive/gamemode
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 53d2dcf5fcc0c31bc4e533b4450ae4c11ae56731
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: FSFAP
+PackageCopyrightText: <text>Copyright 2017-2020 Feral Interactive
+Copyright 2018-2020 Jonathan Carter <jcc@debian.org>
+Copyright 2020 Feral Interactive
+</text>
+PackageComment: <text>Optimise Linux system performance on demand (daemon)
+ GameMode is a daemon/lib combo for Linux that allows games to request a set
+ of optimisations be temporarily applied to the host OS.
+ .
+ The design has a clear-cut abstraction between the host daemon and library
+ (gamemoded and libgamemode), and the client loaders (libgamemodeauto and
+ gamemode_client.h) that allows for safe use without worrying about whether
+ the daemon is installed or running. This design also means that while the
+ host library currently relies on systemd for exchanging messages with the
+ daemon, it's entirely possible to implement other internals that still work
+ with the same clients.
+ .
+ GameMode was designed primarily as a stop-gap solution to problems with
+ the Intel and AMD CPU powersave or ondemand governors, but is intended to
+ be expanded beyond just CPU governor states, as there are a wealth of
+ automation tasks one might want to apply.
+ .
+ This package provides the daemon and helper files.</text>
+Relationship: SPDXRef-gamemode-daemon DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+Relationship: SPDXRef-gamemode-daemon DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gamemode-daemon DEPENDS_ON DocumentRef-libinih1:SPDXRef-libinih1
+Relationship: SPDXRef-gamemode-daemon DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+
+
+## File
+
+FileName: /usr/share/doc/gamemode-daemon/copyright
+SPDXID: SPDXRef-gamemode-daemon-file-0
+FileChecksum: SHA1: 85010db42e14581e1d7e36fc1bd31134e9f83c99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: FSFAP
+FileCopyrightText: <text>Copyright 2017-2020 Feral Interactive
+Copyright 2020 Feral Interactive
+Copyright 2018-2020 Jonathan Carter <jcc@debian.org>
+</text>
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-0
+
+
+FileName: /usr/bin/gamemoded
+SPDXID: SPDXRef-gamemode-daemon-file-1
+FileChecksum: SHA1: 82400d95641d56141db7c82a5bff2dc022d53d1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-1
+
+
+FileName: /usr/lib/systemd/user/gamemoded.service
+SPDXID: SPDXRef-gamemode-daemon-file-2
+FileChecksum: SHA1: 0aa19e53bde3a52a021b21f88268ad0814cfd7c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-2
+
+
+FileName: /usr/libexec/cpugovctl
+SPDXID: SPDXRef-gamemode-daemon-file-3
+FileChecksum: SHA1: 97fe0d795c02df66c3dbcd25842d504a03818139
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-3
+
+
+FileName: /usr/libexec/gpuclockctl
+SPDXID: SPDXRef-gamemode-daemon-file-4
+FileChecksum: SHA1: 97883d92dd1321c9ec81b7bc5ceb5571eb1538a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-4
+
+
+FileName: /usr/share/dbus-1/services/com.feralinteractive.GameMode.service
+SPDXID: SPDXRef-gamemode-daemon-file-5
+FileChecksum: SHA1: d0f6937bce97349ded342344011dff69ff0c2d4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-5
+
+
+FileName: /usr/share/doc/gamemode-daemon/changelog.Debian.gz
+SPDXID: SPDXRef-gamemode-daemon-file-6
+FileChecksum: SHA1: a8be59b98c0c1574d71b1d80e377e7be4514d577
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-6
+
+
+FileName: /usr/share/gamemode/gamemode.ini
+SPDXID: SPDXRef-gamemode-daemon-file-7
+FileChecksum: SHA1: 71abaafaf53af05b991de171b549c32328cfdd7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-7
+
+
+FileName: /usr/share/man/man8/gamemoded.8.gz
+SPDXID: SPDXRef-gamemode-daemon-file-8
+FileChecksum: SHA1: 11a94eb18a9979995f4baecfce25a14f90be4507
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-8
+
+
+FileName: /usr/share/polkit-1/actions/com.feralinteractive.GameMode.policy
+SPDXID: SPDXRef-gamemode-daemon-file-9
+FileChecksum: SHA1: 8532634b3d36207c34e8a6f084960c171b87a953
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gamemode-daemon CONTAINS SPDXRef-gamemode-daemon-file-9
+
+
+## Extracted License
+

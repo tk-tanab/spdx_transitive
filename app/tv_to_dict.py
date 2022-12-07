@@ -65,6 +65,11 @@ def tv_to_dict(spdx_tv: str) -> dict[str, list[dict[str, list[str]]]]:
                 new_elem_dict[tag].append(value)
             else:
                 new_elem_dict[tag] = [value]
+                if info_name == "Package":
+                    if tag == "PackageName":
+                        new_elem_dict["PackageVersion"] = []
+                    elif tag == "SPDXID":
+                        new_elem_dict["PackageHomePage"] = []
         # 空行の扱い
         elif new_elem_dict:
             new_elem_dict = {}

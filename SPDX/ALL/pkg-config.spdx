@@ -1,0 +1,185 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/pkg-config_0.29.2-1ubuntu3-0176553e-d3f7-514f-9aab-a17d55e0ec64
+DocumentName: pkg-config_0.29.2-1ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-pkg-config
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:03:10Z
+
+
+## Package
+
+PackageName: pkg-config
+PackageVersion: 0.29.2-1ubuntu3
+SPDXID: SPDXRef-pkg-config
+PackageHomePage: http://pkg-config.freedesktop.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c5d4fe24aa99394669590880b56d9e73e425b53e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2001, 2002 Red Hat Inc.
+Copyright (c) 2004, 2005 Tollef Fog Heen <tfheen@err.no>
+</text>
+PackageComment: <text>manage compile and link flags for libraries
+ pkg-config is a system for managing library compile and link flags that
+ works with automake and autoconf.
+ .
+ Increasingly libraries ship with ".pc" files that allow querying of the
+ compiler and linker flags needed to use them through the pkg-config(1)
+ program.</text>
+Relationship: SPDXRef-pkg-config DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-pkg-config DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-pkg-config DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libdpkg-perl
+Relationship: SPDXRef-pkg-config DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg-dev
+
+
+## File
+
+FileName: /usr/share/doc/pkg-config/copyright
+SPDXID: SPDXRef-pkg-config-file-0
+FileChecksum: SHA1: 60f22ccc1f6498a3ad47cb2077db21b7359bfbd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 2001, 2002 Red Hat Inc.
+Copyright (c) 2004, 2005 Tollef Fog Heen <tfheen@err.no>
+</text>
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-0
+
+
+FileName: /etc/dpkg/dpkg.cfg.d/pkg-config-hook-config
+SPDXID: SPDXRef-pkg-config-file-1
+FileChecksum: SHA1: 00a7989ccaba96c694b14deace4cd5fa023b6c52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-1
+
+
+FileName: /usr/bin/pkg-config
+SPDXID: SPDXRef-pkg-config-file-2
+FileChecksum: SHA1: 93b0f8df24177855887b8dae9ef42ea987580284
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-2
+
+
+FileName: /usr/bin/x86_64-pc-linux-gnu-pkg-config
+SPDXID: SPDXRef-pkg-config-file-3
+FileChecksum: SHA1: 93b0f8df24177855887b8dae9ef42ea987580284
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-3
+
+
+FileName: /usr/lib/pkg-config.multiarch
+SPDXID: SPDXRef-pkg-config-file-4
+FileChecksum: SHA1: 5453dc7405f41fdd260b40dfec8cd07731343a78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-4
+
+
+FileName: /usr/share/aclocal/pkg.m4
+SPDXID: SPDXRef-pkg-config-file-5
+FileChecksum: SHA1: 4790d87609ec0b6cde8782baeb70d3f810c6d7d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-5
+
+
+FileName: /usr/share/doc/pkg-config/AUTHORS
+SPDXID: SPDXRef-pkg-config-file-6
+FileChecksum: SHA1: 29816718fdeb274f9b8bb64e152d20b525247656
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-6
+
+
+FileName: /usr/share/doc/pkg-config/NEWS.gz
+SPDXID: SPDXRef-pkg-config-file-7
+FileChecksum: SHA1: d89bc80941b6bc78e482a40de19ceacf88fa94c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-7
+
+
+FileName: /usr/share/doc/pkg-config/README
+SPDXID: SPDXRef-pkg-config-file-8
+FileChecksum: SHA1: 940de61824cfebd95510cad6fb9b0962846afe5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-8
+
+
+FileName: /usr/share/doc/pkg-config/changelog.Debian.gz
+SPDXID: SPDXRef-pkg-config-file-9
+FileChecksum: SHA1: e197753b542ca655a59d886d9776b983dc5a1df6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-9
+
+
+FileName: /usr/share/doc/pkg-config/pkg-config-guide.html
+SPDXID: SPDXRef-pkg-config-file-10
+FileChecksum: SHA1: a16b9aee96267dc8f01ec939cf65c4d89aa0d551
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-10
+
+
+FileName: /usr/share/man/man1/pkg-config.1.gz
+SPDXID: SPDXRef-pkg-config-file-11
+FileChecksum: SHA1: 7b06883c6cfcf6126079ef064515910037c8a108
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-11
+
+
+FileName: /usr/share/pkg-config-crosswrapper
+SPDXID: SPDXRef-pkg-config-file-12
+FileChecksum: SHA1: a5f86c748e43fa996fc0f72507523e3fbf369dd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-12
+
+
+FileName: /usr/share/pkg-config-dpkghook
+SPDXID: SPDXRef-pkg-config-file-13
+FileChecksum: SHA1: 8f944a4223ee1d8094908401e5c5a0e1cd06ffb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pkg-config CONTAINS SPDXRef-pkg-config-file-13
+
+
+## Extracted License
+

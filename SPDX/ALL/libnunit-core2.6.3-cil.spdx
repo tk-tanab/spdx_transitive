@@ -1,0 +1,130 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libnunit-core2.6.3-cil_2.6.4+dfsg-1.1-ac23e955-4dd1-520e-8bb2-b78befa43331
+DocumentName: libnunit-core2.6.3-cil_2.6.4+dfsg-1.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-cli-common http://spdx.org/spdxdocs/cli-common_0.10-d3281068-e5b3-5068-b03a-e788f2d59408 SHA1: c6270a9a97ffc6cdfce98ae1605f4c90e20e09a0
+ExternalDocumentRef: DocumentRef-ca-certificates-mono.Cycle http://spdx.org/spdxdocs/ca-certificates-mono_6.8.0.105+dfsg-3.2-c951f9c2-6361-534d-bcb4-c06bc84abd54 SHA1: 271b3673ebfed6a1e989dcd394aac0dd5752c4e0
+ExternalDocumentRef: DocumentRef-libnunit-core-interfaces2.6.3-cil http://spdx.org/spdxdocs/libnunit-core-interfaces2.6.3-cil_2.6.4+dfsg-1.1-0f25c424-7eaf-5903-921d-dd8d226403ab SHA1: afc276ad796826b9b0af5b1f60720f6a8edfb84f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libnunit-core2.6.3-cil
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:58:21Z
+
+
+## Package
+
+PackageName: libnunit-core2.6.3-cil
+PackageVersion: 2.6.4+dfsg-1.1
+SPDXID: SPDXRef-libnunit-core2.6.3-cil
+PackageHomePage: http://www.nunit.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e3fafa4e09ae61aec993e00fc4dbc83351787f05
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: zlib-acknowledgement
+PackageCopyrightText: <text>Copyright 2000-2002 Philip A. Craig
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2002-2008 Charlie Poole
+Portions Copyright 2002-2008 Charlie Poole
+</text>
+PackageComment: <text>Unit test framework for CLI - Assemblies
+ NUnit is a unit testing framework for all .NET languages. It serves the
+ same purpose as JUnit does in the Java world. It supports test
+ categories, testing for exceptions and writing test results in plain
+ text or XML.
+ .
+ This package contains the nunit.core assembly</text>
+Relationship: SPDXRef-libnunit-core2.6.3-cil DEPENDS_ON DocumentRef-cli-common:SPDXRef-cli-common
+Relationship: SPDXRef-libnunit-core2.6.3-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-corlib4.5-cil
+Relationship: SPDXRef-libnunit-core2.6.3-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system4.0-cil
+Relationship: SPDXRef-libnunit-core2.6.3-cil DEPENDS_ON DocumentRef-libnunit-core-interfaces2.6.3-cil:SPDXRef-libnunit-core-interfaces2.6.3-cil
+
+
+## File
+
+FileName: /usr/share/doc/libnunit-core2.6.3-cil/copyright
+SPDXID: SPDXRef-libnunit-core2.6.3-cil-file-0
+FileChecksum: SHA1: 9758b425627e185fbfaaaad8267d09e6f8743cff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: zlib-acknowledgement
+FileCopyrightText: <text>Copyright 2002-2008 Charlie Poole
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2000-2002 Philip A. Craig
+Portions Copyright 2002-2008 Charlie Poole
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2000-2002 Philip A. Craig
+</text>
+Relationship: SPDXRef-libnunit-core2.6.3-cil CONTAINS SPDXRef-libnunit-core2.6.3-cil-file-0
+
+
+FileName: /usr/lib/cli/nunit.core-2.6.3/nunit.core.dll
+SPDXID: SPDXRef-libnunit-core2.6.3-cil-file-1
+FileChecksum: SHA1: 925ccbda1a1d705425433afe241b499cd00b93d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-core2.6.3-cil CONTAINS SPDXRef-libnunit-core2.6.3-cil-file-1
+
+
+FileName: /usr/share/cli-common/packages.d/libnunit-core2.6.3-cil.installcligac
+SPDXID: SPDXRef-libnunit-core2.6.3-cil-file-2
+FileChecksum: SHA1: bf372a31134f29538900bdcdc03f69d1353504a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-core2.6.3-cil CONTAINS SPDXRef-libnunit-core2.6.3-cil-file-2
+
+
+FileName: /usr/share/cli-common/policies.d/010-2.6.nunit.core
+SPDXID: SPDXRef-libnunit-core2.6.3-cil-file-3
+FileChecksum: SHA1: 57b9f8170f64cc6b072bce36e6d643124539a1f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-core2.6.3-cil CONTAINS SPDXRef-libnunit-core2.6.3-cil-file-3
+
+
+FileName: /usr/share/cli-common/policies.d/libnunit-core2.6.3-cil/policy.2.6.nunit.core.config
+SPDXID: SPDXRef-libnunit-core2.6.3-cil-file-4
+FileChecksum: SHA1: 945080d3b5abab06c702b2b5f3e4d3de24c39beb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-core2.6.3-cil CONTAINS SPDXRef-libnunit-core2.6.3-cil-file-4
+
+
+FileName: /usr/share/cli-common/policies.d/libnunit-core2.6.3-cil/policy.2.6.nunit.core.dll
+SPDXID: SPDXRef-libnunit-core2.6.3-cil-file-5
+FileChecksum: SHA1: c0bb6b85966ae6a2ca0b65916c12537cba5a8242
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-core2.6.3-cil CONTAINS SPDXRef-libnunit-core2.6.3-cil-file-5
+
+
+FileName: /usr/share/doc/libnunit-core2.6.3-cil/changelog.Debian.gz
+SPDXID: SPDXRef-libnunit-core2.6.3-cil-file-6
+FileChecksum: SHA1: 8893a47a3b99a0027b842520f69a2c9379dec405
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-core2.6.3-cil CONTAINS SPDXRef-libnunit-core2.6.3-cil-file-6
+
+
+## Extracted License
+

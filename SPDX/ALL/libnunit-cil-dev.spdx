@@ -1,0 +1,100 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libnunit-cil-dev_2.6.4+dfsg-1.1-5b6f0142-b414-5240-9ded-76d853be75fa
+DocumentName: libnunit-cil-dev_2.6.4+dfsg-1.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libnunit-core-interfaces2.6.3-cil http://spdx.org/spdxdocs/libnunit-core-interfaces2.6.3-cil_2.6.4+dfsg-1.1-0f25c424-7eaf-5903-921d-dd8d226403ab SHA1: afc276ad796826b9b0af5b1f60720f6a8edfb84f
+ExternalDocumentRef: DocumentRef-libnunit-util2.6.3-cil http://spdx.org/spdxdocs/libnunit-util2.6.3-cil_2.6.4+dfsg-1.1-cd5307fc-7824-5278-b562-5f24cb5abe5a SHA1: 28514a5affc008b41b25ce3e463f4cd4a095be04
+ExternalDocumentRef: DocumentRef-libnunit-framework2.6.3-cil http://spdx.org/spdxdocs/libnunit-framework2.6.3-cil_2.6.4+dfsg-1.1-313e5a7a-523e-576e-9dd4-a27b373c4422 SHA1: 765dc4f25e82aae03ae8abe1aedb7b0f0c4d7e11
+ExternalDocumentRef: DocumentRef-libnunit-console-runner2.6.3-cil http://spdx.org/spdxdocs/libnunit-console-runner2.6.3-cil_2.6.4+dfsg-1.1-23ea98a2-1d62-5cb6-ab9f-a58c5b61baf3 SHA1: 99855de11e912943a6b9c05d22e8b6edfe63b157
+ExternalDocumentRef: DocumentRef-libnunit-mocks2.6.3-cil http://spdx.org/spdxdocs/libnunit-mocks2.6.3-cil_2.6.4+dfsg-1.1-5bd6eb39-8839-5e3d-9c46-2ed0952b860e SHA1: d06961c7b9754bf1d6ab9241d456f90817502458
+ExternalDocumentRef: DocumentRef-libnunit-core2.6.3-cil http://spdx.org/spdxdocs/libnunit-core2.6.3-cil_2.6.4+dfsg-1.1-ac23e955-4dd1-520e-8bb2-b78befa43331 SHA1: f07b1a97fdf240b635d18910e58ed1b63b0f00f8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libnunit-cil-dev
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:57:59Z
+
+
+## Package
+
+PackageName: libnunit-cil-dev
+PackageVersion: 2.6.4+dfsg-1.1
+SPDXID: SPDXRef-libnunit-cil-dev
+PackageHomePage: http://www.nunit.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5b6874862e9cc27de36a0e06d4c2b8b7af3a4eac
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: zlib-acknowledgement
+PackageCopyrightText: <text>Copyright 2000-2002 Philip A. Craig
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2002-2008 Charlie Poole
+Portions Copyright 2002-2008 Charlie Poole
+</text>
+PackageComment: <text>Unit test framework for CLI - Development files
+ NUnit is a unit testing framework for all .NET languages. It serves the
+ same purpose as JUnit does in the Java world. It supports test
+ categories, testing for exceptions and writing test results in plain
+ text or XML.
+ .
+ This package contains development files for the Nunit library, and should
+ be used for compilation</text>
+Relationship: SPDXRef-libnunit-cil-dev DEPENDS_ON DocumentRef-libnunit-console-runner2.6.3-cil:SPDXRef-libnunit-console-runner2.6.3-cil
+Relationship: SPDXRef-libnunit-cil-dev DEPENDS_ON DocumentRef-libnunit-core2.6.3-cil:SPDXRef-libnunit-core2.6.3-cil
+Relationship: SPDXRef-libnunit-cil-dev DEPENDS_ON DocumentRef-libnunit-core-interfaces2.6.3-cil:SPDXRef-libnunit-core-interfaces2.6.3-cil
+Relationship: SPDXRef-libnunit-cil-dev DEPENDS_ON DocumentRef-libnunit-framework2.6.3-cil:SPDXRef-libnunit-framework2.6.3-cil
+Relationship: SPDXRef-libnunit-cil-dev DEPENDS_ON DocumentRef-libnunit-mocks2.6.3-cil:SPDXRef-libnunit-mocks2.6.3-cil
+Relationship: SPDXRef-libnunit-cil-dev DEPENDS_ON DocumentRef-libnunit-util2.6.3-cil:SPDXRef-libnunit-util2.6.3-cil
+
+
+## File
+
+FileName: /usr/share/doc/libnunit-cil-dev/copyright
+SPDXID: SPDXRef-libnunit-cil-dev-file-0
+FileChecksum: SHA1: 9758b425627e185fbfaaaad8267d09e6f8743cff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: zlib-acknowledgement
+FileCopyrightText: <text>Copyright 2002-2008 Charlie Poole
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2000-2002 Philip A. Craig
+Portions Copyright 2002-2008 Charlie Poole
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2000-2002 Philip A. Craig
+</text>
+Relationship: SPDXRef-libnunit-cil-dev CONTAINS SPDXRef-libnunit-cil-dev-file-0
+
+
+FileName: /usr/lib/pkgconfig/nunit.pc
+SPDXID: SPDXRef-libnunit-cil-dev-file-1
+FileChecksum: SHA1: 916d0255262c7fc158019c14cde7a0ca8388b75c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-cil-dev CONTAINS SPDXRef-libnunit-cil-dev-file-1
+
+
+FileName: /usr/share/doc/libnunit-cil-dev/changelog.Debian.gz
+SPDXID: SPDXRef-libnunit-cil-dev-file-2
+FileChecksum: SHA1: ec697ad93abe5a1da0d7a68f1bdbb6f1fef1448a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-cil-dev CONTAINS SPDXRef-libnunit-cil-dev-file-2
+
+
+## Extracted License
+

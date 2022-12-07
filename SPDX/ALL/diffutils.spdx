@@ -1,0 +1,173 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/diffutils_1:3.8-0ubuntu2-297c3425-f117-5e46-955b-7f47d01026d7
+DocumentName: diffutils_1:3.8-0ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-diffutils
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:49:29Z
+
+
+## Package
+
+PackageName: diffutils
+PackageVersion: 1:3.8-0ubuntu2
+SPDXID: SPDXRef-diffutils
+PackageHomePage: https://www.gnu.org/software/diffutils/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d9e061f4c92d601c68fc2dce3e32959151e35760
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GFDL-1.3-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1988-1996, 1998, 2001-2002, 2004, 2006-2007, 2009-2013, 2015-2018 Free Software Foundation, Inc.
+Copyright (c) 1992-1994, 1998, 2001-2002, 2004, 2006, 2009-2018 Free Software Foundation, Inc.
+</text>
+PackageComment: <text>File comparison utilities
+ The diffutils package provides the diff, diff3, sdiff, and cmp programs.
+ .
+ `diff' shows differences between two files, or each corresponding file
+ in two directories.  `cmp' shows the offsets and line numbers where
+ two files differ.  `cmp' can also show all the characters that
+ differ between the two files, side by side.  `diff3' shows differences
+ among three files.  `sdiff' merges two files interactively.
+ .
+ The set of differences produced by `diff' can be used to distribute
+ updates to text files (such as program source code) to other people.
+ This method is especially useful when the differences are small compared
+ to the complete files.  Given `diff' output, the `patch' program can
+ update, or "patch", a copy of the file.</text>
+Relationship: SPDXRef-diffutils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/diffutils/copyright
+SPDXID: SPDXRef-diffutils-file-0
+FileChecksum: SHA1: ccc8273e81e4073150db9bc003a4a70955ad9002
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright (c) 1988-1996, 1998, 2001-2002, 2004, 2006-2007, 2009-2013, 2015-2018 Free Software Foundation, Inc.
+Copyright (c) 1992-1994, 1998, 2001-2002, 2004, 2006, 2009-2018 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-0
+
+
+FileName: /usr/bin/cmp
+SPDXID: SPDXRef-diffutils-file-1
+FileChecksum: SHA1: 3d07a0b693c5448f73345c00d25713b10bba0624
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-1
+
+
+FileName: /usr/bin/diff
+SPDXID: SPDXRef-diffutils-file-2
+FileChecksum: SHA1: e36327a2da31d8a11378ed3d0dc1f02bd54d33ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-2
+
+
+FileName: /usr/bin/diff3
+SPDXID: SPDXRef-diffutils-file-3
+FileChecksum: SHA1: 171f7962fbbb718e25f71322d7c055efe5d8607c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-3
+
+
+FileName: /usr/bin/sdiff
+SPDXID: SPDXRef-diffutils-file-4
+FileChecksum: SHA1: 76bd378955993aea6bffef475a3366a0db219c35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-4
+
+
+FileName: /usr/share/doc/diffutils/NEWS.gz
+SPDXID: SPDXRef-diffutils-file-5
+FileChecksum: SHA1: 89204641d115b8699a3b3c1de6cc667147ed0d2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-5
+
+
+FileName: /usr/share/doc/diffutils/changelog.Debian.gz
+SPDXID: SPDXRef-diffutils-file-6
+FileChecksum: SHA1: 74fdc87b04e9760f4f9a81955b3751b556cc8095
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-6
+
+
+FileName: /usr/share/info/diffutils.info.gz
+SPDXID: SPDXRef-diffutils-file-7
+FileChecksum: SHA1: f3d6bedb06606796eb381dfb700feb77902ad034
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-7
+
+
+FileName: /usr/share/man/man1/cmp.1.gz
+SPDXID: SPDXRef-diffutils-file-8
+FileChecksum: SHA1: 136c6106d7b2a8c1cc72068e1479593c4360cd9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-8
+
+
+FileName: /usr/share/man/man1/diff.1.gz
+SPDXID: SPDXRef-diffutils-file-9
+FileChecksum: SHA1: 57fd1d1aa3d9981ca36e35d82c8029c4ea1055cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-9
+
+
+FileName: /usr/share/man/man1/diff3.1.gz
+SPDXID: SPDXRef-diffutils-file-10
+FileChecksum: SHA1: 01ddac4732cce7f33e3facad43d4315f4b815535
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-10
+
+
+FileName: /usr/share/man/man1/sdiff.1.gz
+SPDXID: SPDXRef-diffutils-file-11
+FileChecksum: SHA1: 5dbd322ba772693d8c91d46a00f3ce7f76fe54f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-diffutils CONTAINS SPDXRef-diffutils-file-11
+
+
+## Extracted License
+

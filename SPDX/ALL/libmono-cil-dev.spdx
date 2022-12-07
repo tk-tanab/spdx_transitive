@@ -1,0 +1,1113 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libmono-cil-dev_6.8.0.105+dfsg-3.2-01eec5c1-3fa5-5e24-a543-50405a561efa
+DocumentName: libmono-cil-dev_6.8.0.105+dfsg-3.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libmono-microsoft-web-infrastructure1.0-cil http://spdx.org/spdxdocs/libmono-microsoft-web-infrastructure1.0-cil_6.8.0.105+dfsg-3.2-40a8df57-a66a-56f0-8043-b86ce9232998 SHA1: 13b12d3f271187008cfa05bba54ffda627212d0f
+ExternalDocumentRef: DocumentRef-libmono-system-workflow-componentmodel4.0-cil http://spdx.org/spdxdocs/libmono-system-workflow-componentmodel4.0-cil_6.8.0.105+dfsg-3.2-a2191a57-8e51-5cf7-9d27-c3759ec84960 SHA1: d8bbb2ee4ad1dc9dba29ce445a81e37eb0b78399
+ExternalDocumentRef: DocumentRef-libmono-system-net-http4.0-cil http://spdx.org/spdxdocs/libmono-system-net-http4.0-cil_6.8.0.105+dfsg-3.2-919b31a5-7052-542e-aea5-f33bb79fa232 SHA1: 47711e339083a9db8d600c1fefc9f2bb00760d88
+ExternalDocumentRef: DocumentRef-libmono-system-web-extensions4.0-cil http://spdx.org/spdxdocs/libmono-system-web-extensions4.0-cil_6.8.0.105+dfsg-3.2-5791e771-511c-55dd-8d7c-e35c102c878a SHA1: 6b75c45e8f17daea41f87aa9c518711b2c8a8228
+ExternalDocumentRef: DocumentRef-libmono-system-net-http-webrequest4.0-cil http://spdx.org/spdxdocs/libmono-system-net-http-webrequest4.0-cil_6.8.0.105+dfsg-3.2-0812b22d-4482-52e6-9b8b-b8ac22d59519 SHA1: e8d09f670c436a3e46d1a09b1b5cb4186e8aaf30
+ExternalDocumentRef: DocumentRef-libmono-system-web-abstractions4.0-cil http://spdx.org/spdxdocs/libmono-system-web-abstractions4.0-cil_6.8.0.105+dfsg-3.2-bcc2701d-187c-5f24-8a47-90fc12f3ed7d SHA1: 043fc45454f0fc01cdfab5b0cc1be608f9be36b0
+ExternalDocumentRef: DocumentRef-libmono-simd4.0-cil http://spdx.org/spdxdocs/libmono-simd4.0-cil_6.8.0.105+dfsg-3.2-b5f989bc-defe-5c7c-a9cd-476c659615ac SHA1: af2a7caa1e971fd743eaf7b99dde185709b3bec2
+ExternalDocumentRef: DocumentRef-libmono-system-componentmodel-composition4.0-cil http://spdx.org/spdxdocs/libmono-system-componentmodel-composition4.0-cil_6.8.0.105+dfsg-3.2-30fcdba4-9632-5fa4-bc96-899b8f6f53e7 SHA1: ef7a0766dd4b520ec94f651f4bd66a582fdac885
+ExternalDocumentRef: DocumentRef-libmono-system-enterpriseservices4.0-cil http://spdx.org/spdxdocs/libmono-system-enterpriseservices4.0-cil_6.8.0.105+dfsg-3.2-684b5e11-50f4-5f3d-a793-2367276c4cda SHA1: c70f79251dfbbf6d6ea4be899692b68ac1577e07
+ExternalDocumentRef: DocumentRef-libmono-system-data4.0-cil http://spdx.org/spdxdocs/libmono-system-data4.0-cil_6.8.0.105+dfsg-3.2-8ecaf486-7b23-588a-9439-1f57982f7227 SHA1: e9c96074e4ed66c1ed974a2be039fb4eb11efab8
+ExternalDocumentRef: DocumentRef-libmono-messaging-rabbitmq4.0-cil http://spdx.org/spdxdocs/libmono-messaging-rabbitmq4.0-cil_6.8.0.105+dfsg-3.2-1ea22112-5e95-5d6d-becb-a336579b0fd0 SHA1: 6577947d9688554ae5e409d6a65ae722bc2301da
+ExternalDocumentRef: DocumentRef-libmono-system-runtime-serialization-formatters-soap4.0-cil http://spdx.org/spdxdocs/libmono-system-runtime-serialization-formatters-soap4.0-cil_6.8.0.105+dfsg-3.2-9978286a-f7e2-5888-8826-faa75674bbeb SHA1: 9903f75e170053179523654ed9f2e166faeb9e50
+ExternalDocumentRef: DocumentRef-libmono-system-web-razor2.0-cil http://spdx.org/spdxdocs/libmono-system-web-razor2.0-cil_6.8.0.105+dfsg-3.2-22776932-b3e5-52d5-930e-2b677042dc76 SHA1: a587fa111d60b7350cc2237d0405e0066571f2f9
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-core2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-core2.2-cil_6.8.0.105+dfsg-3.2-c7af66ee-8532-5996-8f68-db7ef078a811 SHA1: f5df301d28e9894fdeee68e283a26727fee5b8dd
+ExternalDocumentRef: DocumentRef-libmono-system-web-mvc3.0-cil http://spdx.org/spdxdocs/libmono-system-web-mvc3.0-cil_6.8.0.105+dfsg-3.2-f78299fe-c7a3-54fc-8720-2ed1d02f767c SHA1: 5eb176bdcf51fd3bb9ed15753e3841ce929cd4ce
+ExternalDocumentRef: DocumentRef-libmono-system-data-datasetextensions4.0-cil http://spdx.org/spdxdocs/libmono-system-data-datasetextensions4.0-cil_6.8.0.105+dfsg-3.2-c32fbcb7-132f-53f1-a60d-ddcc33e0f5fe SHA1: b6023bc93d9621c1eb02d05fdd87cccdcf5e231e
+ExternalDocumentRef: DocumentRef-libmono-system-runtime-caching4.0-cil http://spdx.org/spdxdocs/libmono-system-runtime-caching4.0-cil_6.8.0.105+dfsg-3.2-00931fd4-7abd-5dc6-8a8a-5cfccb1c2fc0 SHA1: c0a1317d127b649f995df8200c5f9791f1c9047d
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-linq2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-linq2.2-cil_6.8.0.105+dfsg-3.2-3ba8e09f-bec4-531d-9c5d-d8061d5c6059 SHA1: 5b2b161853f47076340c8eb51fa8e1598a6236a7
+ExternalDocumentRef: DocumentRef-libmono-system-web4.0-cil.Cycle http://spdx.org/spdxdocs/libmono-system-web4.0-cil_6.8.0.105+dfsg-3.2-bd4368e9-706a-5fd0-87ce-2d552c6c9002 SHA1: 484ff8479f7ad26d6c41224d6c96b4af996cb76e
+ExternalDocumentRef: DocumentRef-libmono-system-messaging4.0-cil http://spdx.org/spdxdocs/libmono-system-messaging4.0-cil_6.8.0.105+dfsg-3.2-6077a0e3-0a6c-58a3-b4e9-3aa56b570c0c SHA1: deb0e551e7a41496fe8d05f646cfb732fdd2de4d
+ExternalDocumentRef: DocumentRef-libmono-system-net4.0-cil http://spdx.org/spdxdocs/libmono-system-net4.0-cil_6.8.0.105+dfsg-3.2-1fba2321-c8ad-5d7a-b540-8db0a4c00b08 SHA1: 117cc579df9c45f86de69d341fcfa38fc7b5ab2d
+ExternalDocumentRef: DocumentRef-libmono-system-json-microsoft4.0-cil http://spdx.org/spdxdocs/libmono-system-json-microsoft4.0-cil_6.8.0.105+dfsg-3.2-bf23a459-e758-5d14-81cd-02a45333abb0 SHA1: 5abc4ba80896105c1282dae9afa5cec1fef74424
+ExternalDocumentRef: DocumentRef-libmono-parallel4.0-cil http://spdx.org/spdxdocs/libmono-parallel4.0-cil_6.8.0.105+dfsg-3.2-d1f80237-d40a-5154-908f-c78461b112d0 SHA1: b0efaa5946d68abcf7dceb3eaaf11f7295b36baa
+ExternalDocumentRef: DocumentRef-libmono-oracle4.0-cil http://spdx.org/spdxdocs/libmono-oracle4.0-cil_6.8.0.105+dfsg-3.2-4e974d87-100a-5ddd-9cdf-908974ec84bc SHA1: 23ea3924dc2437ffb92abb67dec6b520358e0f1d
+ExternalDocumentRef: DocumentRef-libmono-system-drawing4.0-cil http://spdx.org/spdxdocs/libmono-system-drawing4.0-cil_6.8.0.105+dfsg-3.2-e751ba43-ce47-5068-9cf5-e866caa7f15c SHA1: 93adb8e9e1eef54b52337c5cd401840e777504b7
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-providers2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-providers2.2-cil_6.8.0.105+dfsg-3.2-7d371444-4d10-567a-bedd-2858d3d085ec SHA1: a62db4ca4dbad3bb76e48b6a562a410a167b4309
+ExternalDocumentRef: DocumentRef-libmono-system-web-extensions-design4.0-cil http://spdx.org/spdxdocs/libmono-system-web-extensions-design4.0-cil_6.8.0.105+dfsg-3.2-4f06695a-f076-517a-89c6-a76e57ccd62c SHA1: 249316b48b98f8e125c785b90f45dc1de01d184d
+ExternalDocumentRef: DocumentRef-libmono-webbrowser4.0-cil http://spdx.org/spdxdocs/libmono-webbrowser4.0-cil_6.8.0.105+dfsg-3.2-de360b50-d2da-5ffc-b08e-e8205321a6a6 SHA1: 2ac1c03753da800674e2612f19c2a8d74763ad38
+ExternalDocumentRef: DocumentRef-libmono-custommarshalers4.0-cil http://spdx.org/spdxdocs/libmono-custommarshalers4.0-cil_6.8.0.105+dfsg-3.2-b30c6716-df95-564b-b4cd-5bb40b32e33f SHA1: 835d599d6bca38b1cb02e566131ac1bf77de2e7b
+ExternalDocumentRef: DocumentRef-libmono-data-tds4.0-cil http://spdx.org/spdxdocs/libmono-data-tds4.0-cil_6.8.0.105+dfsg-3.2-8406324e-3dfd-5f72-b8d6-e85d819ae35d SHA1: 673c84d1679e6b4ac25215f6d35b3e4899ff6f03
+ExternalDocumentRef: DocumentRef-libmono-ldap4.0-cil http://spdx.org/spdxdocs/libmono-ldap4.0-cil_6.8.0.105+dfsg-3.2-d3606cca-93c5-58b7-adbd-f93b970f356c SHA1: 8a306082996f1e2ad452a249f62dc6adf68fcbd0
+ExternalDocumentRef: DocumentRef-libmono-peapi4.0a-cil http://spdx.org/spdxdocs/libmono-peapi4.0a-cil_6.8.0.105+dfsg-3.2-2a98fe2a-41bb-571c-a332-5fd4ca0fd3bb SHA1: ca8ce852f69b3cf848d37a26ffce5ebd5364b2d7
+ExternalDocumentRef: DocumentRef-libmono-system-runtime-serialization4.0-cil http://spdx.org/spdxdocs/libmono-system-runtime-serialization4.0-cil_6.8.0.105+dfsg-3.2-c3d07a4b-fe30-5a98-a94e-52cb0dd61d0e SHA1: cc677392b712ba711fd0cd048e58d7e4855d14bb
+ExternalDocumentRef: DocumentRef-libmono-messaging4.0-cil http://spdx.org/spdxdocs/libmono-messaging4.0-cil_6.8.0.105+dfsg-3.2-42aa8d7a-b759-5cb4-ad86-8825d9ce560c SHA1: c03a44708ac5c3fd50be6c7a4cde0c032304a24a
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-windows-forms2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-windows-forms2.2-cil_6.8.0.105+dfsg-3.2-a7fbe5a8-a2b5-51b3-8e02-44f93d5597db SHA1: e2f77eb6d7306093c80ccec2111c39d81e97a06a
+ExternalDocumentRef: DocumentRef-libmono-system-web-webpages-razor2.0-cil http://spdx.org/spdxdocs/libmono-system-web-webpages-razor2.0-cil_6.8.0.105+dfsg-3.2-89f9704c-6bb4-51b0-a2de-8b300ffb6305 SHA1: b8ae6e812256e9fd982e73d064e11ee973eb0c7c
+ExternalDocumentRef: DocumentRef-libmono-system-io-compression-filesystem4.0-cil http://spdx.org/spdxdocs/libmono-system-io-compression-filesystem4.0-cil_6.8.0.105+dfsg-3.2-f09c5170-1901-5a3f-a190-f7375b6e4a1b SHA1: 24d53110ed6c8b5603d767cc98a7f5a0aea915f5
+ExternalDocumentRef: DocumentRef-libmono-xbuild-tasks4.0-cil http://spdx.org/spdxdocs/libmono-xbuild-tasks4.0-cil_6.8.0.105+dfsg-3.2-5f51b718-70aa-5b7e-ab6e-cc8fa0c6f96a SHA1: 2a0345cfaf8616c24919d19093864d5b3d51c251
+ExternalDocumentRef: DocumentRef-libmono-system-windows-forms-datavisualization4.0a-cil http://spdx.org/spdxdocs/libmono-system-windows-forms-datavisualization4.0a-cil_6.8.0.105+dfsg-3.2-bcf92f42-81ee-581b-9dc9-b12db9bfab46 SHA1: 77d6ede3cb22c163a2719af769a861c5cf0c6b83
+ExternalDocumentRef: DocumentRef-libmono-microsoft-build-engine4.0-cil http://spdx.org/spdxdocs/libmono-microsoft-build-engine4.0-cil_6.8.0.105+dfsg-3.2-b014a8cd-60e5-5f0a-9de1-871e6d83c054 SHA1: 711de605df028254b3edca70779033f55b2f51c9
+ExternalDocumentRef: DocumentRef-libmono-system-reflection-context4.0-cil http://spdx.org/spdxdocs/libmono-system-reflection-context4.0-cil_6.8.0.105+dfsg-3.2-9ce2a87a-37db-5051-8dd8-6e9e56ff4b69 SHA1: 812e070ecd6a27ae11acd71707ec72040cc77694
+ExternalDocumentRef: DocumentRef-libmono-http4.0-cil http://spdx.org/spdxdocs/libmono-http4.0-cil_6.8.0.105+dfsg-3.2-12cc49e8-1616-5f90-a4d5-adc469f6248a SHA1: 5610bc9c973d9e9c0f8b0fae08681bd4b575adae
+ExternalDocumentRef: DocumentRef-libmono-system-runtime4.0-cil http://spdx.org/spdxdocs/libmono-system-runtime4.0-cil_6.8.0.105+dfsg-3.2-cc1a7b57-d5ee-59fa-b39d-7f195b3072b3 SHA1: 4c3d4a15bb651efbadee6460d113273996e104b5
+ExternalDocumentRef: DocumentRef-libmono-system-workflow-activities4.0-cil http://spdx.org/spdxdocs/libmono-system-workflow-activities4.0-cil_6.8.0.105+dfsg-3.2-98ff7ffc-4e74-5f9e-a2c6-b81871a293f0 SHA1: 383c309fbc0d5b472344501e307ab5437b8d80b0
+ExternalDocumentRef: DocumentRef-libmono-system-json4.0-cil http://spdx.org/spdxdocs/libmono-system-json4.0-cil_6.8.0.105+dfsg-3.2-8643e712-0626-526c-b550-c19791c8a18b SHA1: a78dc1a9409dc03c8ee48409a3b93bf25c7408c2
+ExternalDocumentRef: DocumentRef-libmono-system-drawing-design4.0-cil http://spdx.org/spdxdocs/libmono-system-drawing-design4.0-cil_6.8.0.105+dfsg-3.2-aac836de-2537-5fc5-a794-a583e69f5d1f SHA1: c60630a079995bfc9ef9406bd320847fddf88802
+ExternalDocumentRef: DocumentRef-libmono-cscompmgd0.0-cil http://spdx.org/spdxdocs/libmono-cscompmgd0.0-cil_6.8.0.105+dfsg-3.2-3b900e26-73b7-5a4c-afd5-7e9534e362f9 SHA1: 70d1ffb183b870f3e4fe5108fc2878e306c5c17d
+ExternalDocumentRef: DocumentRef-libmono-compilerservices-symbolwriter4.0-cil http://spdx.org/spdxdocs/libmono-compilerservices-symbolwriter4.0-cil_6.8.0.105+dfsg-3.2-d6bf9da1-8737-5ab2-a2e8-a7b9f3a97c04 SHA1: 9893228c3311370dd0023e89e57c2a92abe08fa7
+ExternalDocumentRef: DocumentRef-libmono-system-web-applicationservices4.0-cil http://spdx.org/spdxdocs/libmono-system-web-applicationservices4.0-cil_6.8.0.105+dfsg-3.2-f7771535-6b4b-58e1-a551-3066a71672c7 SHA1: d07044daac69e33efce116e289fe0cc18a317c45
+ExternalDocumentRef: DocumentRef-libmono-system-web-http-selfhost4.0-cil http://spdx.org/spdxdocs/libmono-system-web-http-selfhost4.0-cil_6.8.0.105+dfsg-3.2-2d789e97-2983-57dd-a1ac-4139b370da6d SHA1: 3a39ff95a66f11daff52eb12a07c5b6402dcedf4
+ExternalDocumentRef: DocumentRef-libmono-system-servicemodel-activation4.0-cil.Cycle http://spdx.org/spdxdocs/libmono-system-servicemodel-activation4.0-cil_6.8.0.105+dfsg-3.2-ed81a03b-5a5a-5321-99c9-df008f653a9a SHA1: 195998b2d217d0c79abe074f6ec8b9adf0380f08
+ExternalDocumentRef: DocumentRef-libmono-rabbitmq4.0-cil http://spdx.org/spdxdocs/libmono-rabbitmq4.0-cil_6.8.0.105+dfsg-3.2-3161ad92-ab21-5601-b5c7-773b4ebbb5eb SHA1: db585f95b0bf9dfda1f99275b8c9b8308c960205
+ExternalDocumentRef: DocumentRef-libmono-smdiagnostics0.0-cil http://spdx.org/spdxdocs/libmono-smdiagnostics0.0-cil_6.8.0.105+dfsg-3.2-7f72309d-ccff-58cc-b8b8-8cf1b807f7a5 SHA1: e0162c3917a7163fd9b68e17cce78dc528f82161
+ExternalDocumentRef: DocumentRef-libmono-microsoft-build4.0-cil http://spdx.org/spdxdocs/libmono-microsoft-build4.0-cil_6.8.0.105+dfsg-3.2-d6ba5c8c-5a7f-58e1-9d21-87c8d6fd3756 SHA1: de7078de9f77d8bfe4319fa86b995a83164907f4
+ExternalDocumentRef: DocumentRef-libmono-system-xml-linq4.0-cil http://spdx.org/spdxdocs/libmono-system-xml-linq4.0-cil_6.8.0.105+dfsg-3.2-f82aee6b-5487-5a03-ab33-ece8a5599444 SHA1: d8822723b6353652351223d49c90364965c83652
+ExternalDocumentRef: DocumentRef-ca-certificates-mono.Cycle http://spdx.org/spdxdocs/ca-certificates-mono_6.8.0.105+dfsg-3.2-c951f9c2-6361-534d-bcb4-c06bc84abd54 SHA1: 271b3673ebfed6a1e989dcd394aac0dd5752c4e0
+ExternalDocumentRef: DocumentRef-libmono-db2-1.0-cil http://spdx.org/spdxdocs/libmono-db2-1.0-cil_6.8.0.105+dfsg-3.2-1f99893f-e86a-53b7-b6dc-e7dc3604db68 SHA1: 0ce5ff68aae7394ca20edf309ff6d0b9d25a637a
+ExternalDocumentRef: DocumentRef-libmono-system-xml-serialization4.0-cil http://spdx.org/spdxdocs/libmono-system-xml-serialization4.0-cil_6.8.0.105+dfsg-3.2-a9025fa5-d670-5b6e-8c4d-3d8b016b5f59 SHA1: fa0ee07af24a23c9812c9cdde9550b837404263e
+ExternalDocumentRef: DocumentRef-libmono-system-deployment4.0-cil http://spdx.org/spdxdocs/libmono-system-deployment4.0-cil_6.8.0.105+dfsg-3.2-0d163819-e1b3-5a57-b7ec-3a2db0c07485 SHA1: 16b7d62ffe974da3f7fb7c01df34abcd32e78edc
+ExternalDocumentRef: DocumentRef-libmono-webmatrix-data4.0-cil http://spdx.org/spdxdocs/libmono-webmatrix-data4.0-cil_6.8.0.105+dfsg-3.2-19aa479f-9837-5f86-9a1a-b319ababa589 SHA1: 7056d46daff61753c6ee0eb4c0a72ebb753e38c2
+ExternalDocumentRef: DocumentRef-libmono-system-windows-forms4.0-cil http://spdx.org/spdxdocs/libmono-system-windows-forms4.0-cil_6.8.0.105+dfsg-3.2-c03e0efa-f9c8-5366-a016-9e50334e0fa9 SHA1: ed4e36fb104a36fdd4671b00fcaff2528874993c
+ExternalDocumentRef: DocumentRef-libmono-system-configuration-install4.0-cil http://spdx.org/spdxdocs/libmono-system-configuration-install4.0-cil_6.8.0.105+dfsg-3.2-cb92d95a-5b1a-5cf6-9b1c-7e50d055bf15 SHA1: 09f370c674483959c22ea1733caeca9f320a1970
+ExternalDocumentRef: DocumentRef-libmono-system-net-http-formatting4.0-cil http://spdx.org/spdxdocs/libmono-system-net-http-formatting4.0-cil_6.8.0.105+dfsg-3.2-3ae836f3-8cba-5533-93c0-b4f65a944293 SHA1: 0d843d273763e9534676ce50a1d8542528be7a82
+ExternalDocumentRef: DocumentRef-libmono-system-data-entity4.0-cil http://spdx.org/spdxdocs/libmono-system-data-entity4.0-cil_6.8.0.105+dfsg-3.2-46e43085-8c9c-5e33-ab5f-7e7fdd8667c8 SHA1: ef8d892a83c608b7f4763fc8c35fcc7c274d891d
+ExternalDocumentRef: DocumentRef-libmono-system-data-services-client4.0-cil http://spdx.org/spdxdocs/libmono-system-data-services-client4.0-cil_6.8.0.105+dfsg-3.2-c727c661-86ce-59f3-bc61-6b5020ee5371 SHA1: a54399752291f587b91af4b273225e0a1c797c8d
+ExternalDocumentRef: DocumentRef-libmono-microsoft-build-utilities-v4.0-4.0-cil http://spdx.org/spdxdocs/libmono-microsoft-build-utilities-v4.0-4.0-cil_6.8.0.105+dfsg-3.2-eae59c86-bb94-54bc-9646-4f16b3fc3fc5 SHA1: 4d1ede6676ca80effc4bc3ccd3100c16efad7aac
+ExternalDocumentRef: DocumentRef-libmono-system-web-http4.0-cil http://spdx.org/spdxdocs/libmono-system-web-http4.0-cil_6.8.0.105+dfsg-3.2-e44135b6-e260-57c5-8c08-ffc6e881c256 SHA1: 70896d0dd9391fe8f47da8a6b2f5f851c0e21d1a
+ExternalDocumentRef: DocumentRef-libmono-system-management4.0-cil http://spdx.org/spdxdocs/libmono-system-management4.0-cil_6.8.0.105+dfsg-3.2-49b9b829-78ec-50e8-a22e-c5b44014eca1 SHA1: fcd0f651abcf6359bb3adf537bec3d7bd95afc27
+ExternalDocumentRef: DocumentRef-libmono-posix4.0-cil http://spdx.org/spdxdocs/libmono-posix4.0-cil_6.8.0.105+dfsg-3.2-e38e12e5-d099-5549-82c7-d99ad6bf390d SHA1: a5b419dd4c32b37c3441ff02cd071dd8968d8e6e
+ExternalDocumentRef: DocumentRef-libmono-system-numerics-vectors4.0-cil http://spdx.org/spdxdocs/libmono-system-numerics-vectors4.0-cil_6.8.0.105+dfsg-3.2-4ef81cc4-21e5-5045-9abb-8d47da1b3137 SHA1: e0048b48a5311e26e86a2c9cf9c5541c8789c814
+ExternalDocumentRef: DocumentRef-libmono-system-web-http-webhost4.0-cil http://spdx.org/spdxdocs/libmono-system-web-http-webhost4.0-cil_6.8.0.105+dfsg-3.2-4affc927-462e-5538-8d16-32c66fb0fcde SHA1: 69dbdc218959672df4762a46743c34ab0e2d60fe
+ExternalDocumentRef: DocumentRef-libmono-microsoft-csharp4.0-cil http://spdx.org/spdxdocs/libmono-microsoft-csharp4.0-cil_6.8.0.105+dfsg-3.2-5a8ea4a4-cda0-5de7-8346-d656a5a22855 SHA1: cd99748fce39b940df40f421bb32f71c9b1c853e
+ExternalDocumentRef: DocumentRef-libmono-sharpzip4.84-cil http://spdx.org/spdxdocs/libmono-sharpzip4.84-cil_6.8.0.105+dfsg-3.2-ba2ba3d9-f6e2-58c0-b035-74d74d8b8359 SHA1: 7ac6dc0903fec259946128c0f9413ed3a484ba74
+ExternalDocumentRef: DocumentRef-libmono-system-data-linq4.0-cil http://spdx.org/spdxdocs/libmono-system-data-linq4.0-cil_6.8.0.105+dfsg-3.2-447f4603-a899-506a-9a2b-d42f3fe1b763 SHA1: 81fcf03c321009c28ac4f9c34dfe59addabaa9d2
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-observable-aliases0.0-cil http://spdx.org/spdxdocs/libmono-system-reactive-observable-aliases0.0-cil_6.8.0.105+dfsg-3.2-b33ca418-6743-5621-b02e-627a3aaded5a SHA1: 0bac8c211bb492a411c14793af93f275e3c833c9
+ExternalDocumentRef: DocumentRef-libmono-cecil-private-cil http://spdx.org/spdxdocs/libmono-cecil-private-cil_6.8.0.105+dfsg-3.2-4ea891f4-d532-5551-9df1-f692ea2f9074 SHA1: babf972601beb2eb1b9be7c8051283823413c5d8
+ExternalDocumentRef: DocumentRef-libmono-system-web-webpages-deployment2.0-cil http://spdx.org/spdxdocs/libmono-system-web-webpages-deployment2.0-cil_6.8.0.105+dfsg-3.2-b7ce707f-e416-5c08-8008-221db5d250ec SHA1: 99ab695377a053f47233e8167cf86ad3f7dd2e56
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-platformservices2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-platformservices2.2-cil_6.8.0.105+dfsg-3.2-9db7b38c-cd30-5b4f-a9b8-10c1b2e0fee3 SHA1: fae9027c92f87b9306b559e50bbe3e314792298e
+ExternalDocumentRef: DocumentRef-libmono-csharp4.0c-cil http://spdx.org/spdxdocs/libmono-csharp4.0c-cil_6.8.0.105+dfsg-3.2-510b28b3-4b0c-5af1-9d44-a550b32fe7cf SHA1: fb908b5a5804bf3714dceee832f14922204fc7aa
+ExternalDocumentRef: DocumentRef-libmono-microsoft-build-framework4.0-cil http://spdx.org/spdxdocs/libmono-microsoft-build-framework4.0-cil_6.8.0.105+dfsg-3.2-252949ef-78c7-5433-8bd8-e046d39dc265 SHA1: b8a0339c5698833ad5e963a7475ffb967176a3eb
+ExternalDocumentRef: DocumentRef-libmono-system-numerics4.0-cil http://spdx.org/spdxdocs/libmono-system-numerics4.0-cil_6.8.0.105+dfsg-3.2-80e128a0-243e-5464-9ea8-fc54da6751e8 SHA1: 500ba3d5954414b776e8ccac7accd592d4acf8f4
+ExternalDocumentRef: DocumentRef-libmono-system-web-regularexpressions4.0-cil http://spdx.org/spdxdocs/libmono-system-web-regularexpressions4.0-cil_6.8.0.105+dfsg-3.2-864490c6-f3f6-57f9-b927-6afd21ca0248 SHA1: c89d6410c40681c07b4cc74e0402c776b3690fcd
+ExternalDocumentRef: DocumentRef-libmono-microsoft-visualc10.0-cil http://spdx.org/spdxdocs/libmono-microsoft-visualc10.0-cil_6.8.0.105+dfsg-3.2-766ceb91-5510-55a2-8103-0940aa1a682c SHA1: 41b9bd37e72d26d58e9cab4172e64219316863ef
+ExternalDocumentRef: DocumentRef-libmono-cairo4.0-cil http://spdx.org/spdxdocs/libmono-cairo4.0-cil_6.8.0.105+dfsg-3.2-31df96cf-1892-58d8-b24e-a58aa616fc18 SHA1: 798d25cf60061df71db9b1d67d751e0677d5d090
+ExternalDocumentRef: DocumentRef-libmono-system-transactions4.0-cil http://spdx.org/spdxdocs/libmono-system-transactions4.0-cil_6.8.0.105+dfsg-3.2-d5bbdeca-5095-5258-9479-d17ccf2f2115 SHA1: b61d8e47ac7f66007ea9e3c3f4a26236da19ebda
+ExternalDocumentRef: DocumentRef-libmono-system-threading-tasks-dataflow4.0-cil http://spdx.org/spdxdocs/libmono-system-threading-tasks-dataflow4.0-cil_6.8.0.105+dfsg-3.2-5c1ceeb1-460b-5e4d-86cb-6eedb91c853a SHA1: 11cd583d2aae44680a5616d32c356abcdeecc39f
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-runtime-remoting2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-runtime-remoting2.2-cil_6.8.0.105+dfsg-3.2-fb574f53-efcf-5799-a08f-bf87d6c6e92d SHA1: 3478e51c6a01ebcc03c3447864c132e7ffbe50b9
+ExternalDocumentRef: DocumentRef-libmono-management4.0-cil http://spdx.org/spdxdocs/libmono-management4.0-cil_6.8.0.105+dfsg-3.2-ee66cdab-4c42-5724-8574-3ba4ccd86c25 SHA1: fec04f351b587d25957e4922e46d685cad196d45
+ExternalDocumentRef: DocumentRef-libmono-system-serviceprocess4.0-cil http://spdx.org/spdxdocs/libmono-system-serviceprocess4.0-cil_6.8.0.105+dfsg-3.2-ff05ea3b-2965-5c9a-90dd-7a2161a97202 SHA1: c8939c4e7dac695ad8aa382d9a5c60eb36d5ccaa
+ExternalDocumentRef: DocumentRef-libmono-system-servicemodel-routing4.0-cil http://spdx.org/spdxdocs/libmono-system-servicemodel-routing4.0-cil_6.8.0.105+dfsg-3.2-fb53cf7b-6dde-58b4-885c-fef11470aec1 SHA1: 5c90aff054d070ed0b5e32115984992edf1e8e75
+ExternalDocumentRef: DocumentRef-libmono-system-web-dynamicdata4.0-cil http://spdx.org/spdxdocs/libmono-system-web-dynamicdata4.0-cil_6.8.0.105+dfsg-3.2-2e7681fb-ba66-5d46-b04f-cb0b5dbc3ced SHA1: c1cb034aa511e385c19b35a2837081e4117aa673
+ExternalDocumentRef: DocumentRef-libmono-system-runtime-durableinstancing4.0-cil http://spdx.org/spdxdocs/libmono-system-runtime-durableinstancing4.0-cil_6.8.0.105+dfsg-3.2-615f3a64-2d4a-59c6-8660-a1f6bc135d7c SHA1: f58bf2612b143006aa2e816aca9ff3e7ce31a4e8
+ExternalDocumentRef: DocumentRef-libmono-system-identitymodel4.0-cil http://spdx.org/spdxdocs/libmono-system-identitymodel4.0-cil_6.8.0.105+dfsg-3.2-64dac058-0cfe-55f5-82ac-53cb5ca32b5e SHA1: f5c63f167f6cc1f17382272e93a65e466d0efabc
+ExternalDocumentRef: DocumentRef-libmono-system-ldap-protocols4.0-cil http://spdx.org/spdxdocs/libmono-system-ldap-protocols4.0-cil_6.8.0.105+dfsg-3.2-6e8d5f86-ba27-565f-aeff-5047f063eafe SHA1: 8545b01395a0af5f8246b24dcbf92f1a8c7e3dc7
+ExternalDocumentRef: DocumentRef-libmono-system-data-services4.0-cil http://spdx.org/spdxdocs/libmono-system-data-services4.0-cil_6.8.0.105+dfsg-3.2-fe81b0ca-53ca-5e01-acf2-aa0eeb31a02c SHA1: bd89f1ce9f5da4e6c06e9b3d04074ffa4b043a47
+ExternalDocumentRef: DocumentRef-libmono-sqlite4.0-cil http://spdx.org/spdxdocs/libmono-sqlite4.0-cil_6.8.0.105+dfsg-3.2-2670121f-af64-5dd6-bccb-d1002434048c SHA1: e9357badb98341a7bb85c9ff0dd47c8d7133f579
+ExternalDocumentRef: DocumentRef-libmono-system-web-routing4.0-cil http://spdx.org/spdxdocs/libmono-system-web-routing4.0-cil_6.8.0.105+dfsg-3.2-11a1161e-03ed-58c6-bc7f-6ae67d601ccc SHA1: 929697d9515d04cb3ca3e312ee5b07bdeb3e9d25
+ExternalDocumentRef: DocumentRef-libmono-system-servicemodel-discovery4.0-cil http://spdx.org/spdxdocs/libmono-system-servicemodel-discovery4.0-cil_6.8.0.105+dfsg-3.2-aa9f5ee8-dd42-55b0-b77f-6afe0f31806a SHA1: 0bb7b7dd8311939ef3d97d33886cb168994f807d
+ExternalDocumentRef: DocumentRef-libmono-system-xaml4.0-cil http://spdx.org/spdxdocs/libmono-system-xaml4.0-cil_6.8.0.105+dfsg-3.2-3115cb9e-8a50-5543-8466-da0db36ebb01 SHA1: e03f0fb297ccdaf32496cab8c1a6d7809801ff36
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-debugger2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-debugger2.2-cil_6.8.0.105+dfsg-3.2-16513a98-e763-542e-b4cf-7c4785b048b0 SHA1: 2bca32caffb779a8dd5d08b4624dc130bc12ef13
+ExternalDocumentRef: DocumentRef-libmono-system-io-compression4.0-cil http://spdx.org/spdxdocs/libmono-system-io-compression4.0-cil_6.8.0.105+dfsg-3.2-de35f145-8ad4-5e5d-871c-38662af7f94a SHA1: c1f04eed62bcc890bbbe2ee28d38b3795c5cd816
+ExternalDocumentRef: DocumentRef-libnunit-cil-dev http://spdx.org/spdxdocs/libnunit-cil-dev_2.6.4+dfsg-1.1-5b6f0142-b414-5240-9ded-76d853be75fa SHA1: 10f6a396ceb2339a175565dc4d6717a5cc2e057a
+ExternalDocumentRef: DocumentRef-libmono-system-identitymodel-selectors4.0-cil http://spdx.org/spdxdocs/libmono-system-identitymodel-selectors4.0-cil_6.8.0.105+dfsg-3.2-b62d6624-e309-5575-9d4f-04e99e1da9b0 SHA1: 22e363e6738f63f45117f03cfe70096daf754a9a
+ExternalDocumentRef: DocumentRef-libmono-codecontracts4.0-cil http://spdx.org/spdxdocs/libmono-codecontracts4.0-cil_6.8.0.105+dfsg-3.2-18d10b8a-aa1f-5cff-8950-34e2d6873d7a SHA1: ed5878e6d4798479129f43f67e6b730816c40bb4
+ExternalDocumentRef: DocumentRef-libmono-system-ldap4.0-cil http://spdx.org/spdxdocs/libmono-system-ldap4.0-cil_6.8.0.105+dfsg-3.2-d57929c3-b082-5986-b70b-d5932e674689 SHA1: 915f5c5a811fc36dcd0ebea04eaa808f8ee8ef8d
+ExternalDocumentRef: DocumentRef-libmono-debugger-soft4.0a-cil http://spdx.org/spdxdocs/libmono-debugger-soft4.0a-cil_6.8.0.105+dfsg-3.2-fd16fc44-f2e2-5923-8cc8-afbea27f901b SHA1: f4c71114cad39a97a125a7ed369561e7ea61395f
+ExternalDocumentRef: DocumentRef-libmono-system-windows4.0-cil http://spdx.org/spdxdocs/libmono-system-windows4.0-cil_6.8.0.105+dfsg-3.2-f329ce83-b0e9-55a7-93d5-ad662c61129c SHA1: 54a94096ad1e155eaa3431579969e8bef4b03f9d
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-experimental2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-experimental2.2-cil_6.8.0.105+dfsg-3.2-40b626e3-2edc-5002-8c48-22d28a944dc1 SHA1: 2bad8ece682e2b4c949ee56fbe9ad1f2d61a2ebd
+ExternalDocumentRef: DocumentRef-libmono-system-servicemodel-internals0.0-cil http://spdx.org/spdxdocs/libmono-system-servicemodel-internals0.0-cil_6.8.0.105+dfsg-3.2-af97c734-cbf8-5ed1-98b1-30877618baff SHA1: 4469143b9b9f0261859897ef6b80639c757f4b30
+ExternalDocumentRef: DocumentRef-libmono-system-workflow-runtime4.0-cil http://spdx.org/spdxdocs/libmono-system-workflow-runtime4.0-cil_6.8.0.105+dfsg-3.2-c9e54d6e-ef64-5894-93f5-14b5cb7e4673 SHA1: 8e0524c986d9c4d3bfc5e7aaebe988eea3a69b4f
+ExternalDocumentRef: DocumentRef-libmono-tasklets4.0-cil http://spdx.org/spdxdocs/libmono-tasklets4.0-cil_6.8.0.105+dfsg-3.2-b375ff76-4561-5706-900b-4ee740723a7d SHA1: b7d7271cd21daaf39630cf7d544655cffeafa5d8
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-interfaces2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-interfaces2.2-cil_6.8.0.105+dfsg-3.2-a9f05114-29dc-54b4-a41d-f576a24f4718 SHA1: 7292b4318e7aa2df6805eb8fc7d7a892dc6524ba
+ExternalDocumentRef: DocumentRef-libmono-microsoft-build-tasks-v4.0-4.0-cil http://spdx.org/spdxdocs/libmono-microsoft-build-tasks-v4.0-4.0-cil_6.8.0.105+dfsg-3.2-a021b195-fe95-5ad6-8e29-55f5723cce35 SHA1: 3dde9ea2c2fab53789da84460bfb062da261bff0
+ExternalDocumentRef: DocumentRef-libmono-system-componentmodel-dataannotations4.0-cil http://spdx.org/spdxdocs/libmono-system-componentmodel-dataannotations4.0-cil_6.8.0.105+dfsg-3.2-544109cd-ca0f-54a7-ad34-4b8171730b1b SHA1: 921e88c010948825142c209b9f98e773c70cc90c
+ExternalDocumentRef: DocumentRef-libmono-windowsbase4.0-cil http://spdx.org/spdxdocs/libmono-windowsbase4.0-cil_6.8.0.105+dfsg-3.2-90665440-2b29-5b77-b4b5-f8c7723101bb SHA1: 6c1a6dc11fea72ce0d30d4a26bd3fb232a457c8e
+ExternalDocumentRef: DocumentRef-libmono-system-dynamic4.0-cil http://spdx.org/spdxdocs/libmono-system-dynamic4.0-cil_6.8.0.105+dfsg-3.2-ae7c506e-f4bf-55bd-912b-f030d28d6019 SHA1: 3820e9ed59bf6fb08608b903a30edc5105a75f90
+ExternalDocumentRef: DocumentRef-libmono-system-web-webpages2.0-cil http://spdx.org/spdxdocs/libmono-system-web-webpages2.0-cil_6.8.0.105+dfsg-3.2-5122386c-e0c9-564f-89b7-38eea426065b SHA1: b35085f722be70e0c200d7a9466beb5a91b62bc0
+ExternalDocumentRef: DocumentRef-libmono-system-servicemodel-web4.0-cil http://spdx.org/spdxdocs/libmono-system-servicemodel-web4.0-cil_6.8.0.105+dfsg-3.2-1cc60d87-3a52-56e8-9230-d1496456bbae SHA1: 9172f5decc402b0c9ac3c15b5029b5c7f8f51713
+ExternalDocumentRef: DocumentRef-libmono-accessibility4.0-cil http://spdx.org/spdxdocs/libmono-accessibility4.0-cil_6.8.0.105+dfsg-3.2-2feb8edf-4226-500f-8bb0-6cbb852bcdfa SHA1: 971e799ad9434f6992b616a1f7d7cc24efd58db1
+ExternalDocumentRef: DocumentRef-libmono-relaxng4.0-cil http://spdx.org/spdxdocs/libmono-relaxng4.0-cil_6.8.0.105+dfsg-3.2-7a4fef93-4441-5c36-ba84-c8ac97eae3f7 SHA1: a10d4802ff229163d20bb22b51dce62ff25ce25d
+ExternalDocumentRef: DocumentRef-libmono-system-reactive-windows-threading2.2-cil http://spdx.org/spdxdocs/libmono-system-reactive-windows-threading2.2-cil_6.8.0.105+dfsg-3.2-24470bfe-c964-5651-b9e6-ff15dfb16130 SHA1: 49fb20680b8dc9e660be909df2428bce2f429ba0
+ExternalDocumentRef: DocumentRef-libmono-system-web-mobile4.0-cil http://spdx.org/spdxdocs/libmono-system-web-mobile4.0-cil_6.8.0.105+dfsg-3.2-2af91329-9d1d-5ba2-ab96-993c07b887cc SHA1: 00bd3bfd4093b187f4ddfac138c8901f43ff26a0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmono-cil-dev
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:34:31Z
+
+
+## Package
+
+PackageName: libmono-cil-dev
+PackageVersion: 6.8.0.105+dfsg-3.2
+SPDXID: SPDXRef-libmono-cil-dev
+PackageHomePage: http://www.mono-project.com/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 4b54877f0f82ede7c574a98c08967e53df1d1104
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: MS-PL
+PackageLicenseInfoFromFiles: Zlib
+PackageLicenseInfoFromFiles: zlib-acknowledgement
+PackageLicenseInfoFromFiles: LicenseRef-scancode-apple-attribution-1997
+PackageLicenseInfoFromFiles: LicenseRef-scancode-mozilla-gc
+PackageLicenseInfoFromFiles: LicenseRef-scancode-openssl
+PackageLicenseInfoFromFiles: LicenseRef-scancode-ssleay-windows
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unicode-mappings
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>(c) 1991-1996 by Xerox Corporation
+(c) 1995-2006 Jean-loup Gailly
+(c) 1996, 1997 Taligent, Inc.
+(c) 1996-1998 John D. Polstra
+(c) 1996-1999 IBM Corp.
+(c) 1996-1999 by Silicon Graphics
+(c) 1998 Fergus Henderson
+(c) 1998-2005 Gilles Vollant
+(c) 1998-2007 The OpenSSL Project
+(c) 1999-2001 by Red Hat, Inc.
+(c) 1999-2001, 2004-2006, 2008, 2011 Free Software Foundation, Inc
+(c) 1999-2004 by Hewlett-Packard Company
+(c) 2000 Intel Corporation
+(c) 2000-2016 SharpZipLib
+(c) 2001 Andreas Jonsson
+(c) 2001 Andrew Sutton
+(c) 2001 Bob Smith. http://www.thestuff.net
+(c) 2001 Chris Hynes
+(c) 2001 Christopher Podurgiel
+(c) 2001 Daniel
+(c) 2001 David Dawkins
+(c) 2001 Derek Holden (dholden@draper.com)
+(c) 2001 Garrett Rooney (rooneg@electricjellyfish.net)
+(c) 2001 John Barnette
+(c) 2001 John R. Hicks (angryjohn69@nc.rr.com)
+(c) 2001 Krister Hansson
+(c) 2001 Mads Pultz
+(c) 2001 Marcel Narings
+(c) 2001 Martin Weindel
+(c) 2001 Matthew S. Ford
+(c) 2001 Michael Lambert
+(c) 2001 Moonlight Enterprises
+(c) 2001 Phillip Pearson (http://www.myelin.co.nz)
+(c) 2001 Radek Doulik
+(c) 2001 Ricardo Fernandez Pascual
+(c) 2001 Scott Sanders
+(c) 2001 Southern Storm Software, Pty Ltd.
+(c) 2001 Wictor Wilen (wictor@iBizkit.se)
+(c) 2001-2002 Jason Diamond http://injektilo.org
+(c) 2001-2002 Marcin Szczepanski
+(c) 2001-2002 Mike Kestner
+(c) 2001-2002 Nick Drochak II
+(c) 2001-2002 Southern Storm Software, Pty Ltd.
+(c) 2001-2002 Vladimir Vukicevic (vladimir@pobox.com)
+(c) 2001-2002 Wild West Software
+(c) 2001-2003 Ximian, Inc. http://www.ximian.com
+(c) 2001-2005 Mike Krueger
+(c) 2002 Alejandro Sanchez Acosta <raciel@es.gnu.org>
+(c) 2002 Ameya Sailesh Gargesh (ameya_13@yahoo.com)
+(c) 2002 Brian Ritchie
+(c) 2002 Chew Keong TAN
+(c) 2002 Chris J Breisch
+(c) 2002 Dan Lewis
+(c) 2002 Daniel Stodden <stodden@in.tum.de>
+(c) 2002 Duco Fijma
+(c) 2002 Franklin Wise
+(c) 2002 Free Software Foundation
+(c) 2002 Gaurav Vaish
+(c) 2002 Jaime Anguiano Olarra
+(c) 2002 John Donagher
+(c) 2002 Jon Guymon
+(c) 2002 Kevin Winchester
+(c) 2002 Kral Ferch
+(c) 2002 Lawrence Pit
+(c) 2002 Martin Adoue
+(c) 2002 Martin Baulig
+(c) 2002 Matt Hunter
+(c) 2002 Miguel de Icaza
+(c) 2002 Owen Brady
+(c) 2002 Piers Haken
+(c) 2002 Richard Boulton
+(c) 2002 Rodrigo Moya
+(c) 2002 Stuart Caborn
+(c) 2002 Sun Microsystems, Inc.
+(c) 2002 Ulrich Kunitz
+(c) 2002-2003 Alp Toker <alp@atoker.com>
+(c) 2002-2003 Dave Bettin
+(c) 2002-2003 Eduardo Garcia Cebollero <kiwnix@yahoo.es>
+(c) 2002-2003 Greg Reinacker, Reinacker & Associates, Inc.
+(c) 2002-2003 Jackson Harper
+(c) 2002-2003 Sergey Chaban (serge@wildwestsoftware.com)
+(c) 2002-2003 Ville Palo
+(c) 2002-2004 Alexei A. Vorontsov
+(c) 2002-2004 James W. Newkirk
+(c) 2002-2004 Michael C. Two
+(c) 2002-2004 Motus Technologies Inc. (http://www.motus.com)
+(c) 2002-2004 Neale Ferguson
+(c) 2002-2004 Tim Coleman
+(c) 2002-2005 Cesar Lopez Nataren
+(c) 2002-2005 Lluis Sanchez Gual
+(c) 2002-2005 Rafael Teixeira
+(c) 2002-2007, 2009 Jeroen Frijters
+(c) 2002-2008 Charlie Poole
+(c) 2002-2008 Daniel Morgan
+(c) 2002-2008 Mainsoft Corporation
+(c) 2002-2011 Novell, Inc (http://www.novell.com)
+(c) 2003 Aleksey Sanin (aleksey@aleksey.com)
+(c) 2003 Alexandre Pigolkine (pigolkine@gmx.de)
+(c) 2003 Brad Fitzpatrick
+(c) 2003 Dominik Fretz
+(c) 2003 Duncan Mak, Ximian Inc.
+(c) 2003 Eric Glass
+(c) 2003 Erik LeBel
+(c) 2003 Gilles Freart
+(c) 2003 Ian MacLean
+(c) 2003 Jean-Marc Andre <jean-marc.andre@polymtl.ca>
+(c) 2003 Jochen Wezel (CompuMaster GmbH)
+(c) 2003 Johannes Roith <johannes@jroith.de>
+(c) 2003 Joshua Tauberer
+(c) 2003 Latitude Geographics Group
+(c) 2003 Lee Mallabone <gnome@fonicmonkey.net>
+(c) 2003 Martin Willemoes Hansen
+(c) 2003 Motus Technologies Inc. (http://www.motus.com)
+(c) 2003 Oleg Tkachenko
+(c) 2003 PT Cakram Datalingga Duaribu http://www.cdl2000.com
+(c) 2003 Patrick Kalkman
+(c) 2003 Patrik Torstensson
+(c) 2003 Pedro Martinez Julia <yoros@wanadoo.es>
+(c) 2003 Peter Van Isacker
+(c) 2003 Phillip Jerkins
+(c) 2003 Stefan Gorling
+(c) 2003 The Mentalis.org Team (http://www.mentalis.org/)
+(c) 2003 Thong (Tum) Nguyen tum@veridicus.com
+(c) 2003-2004 Andreas Nahr
+(c) 2003-2004 Atsushi Enomoto
+(c) 2003-2004 Ben Maurer
+(c) 2003-2004 Bernie Solomon
+(c) 2003-2004 Carlos Guzman Alvarez
+(c) 2003-2004 Todd Berman
+(c) 2003-2007 Alp Toker <alp@atoker.com>
+(c) 2003-2007 Juraj Skripsky
+(c) 2003-2008 Jonathan Pryor
+(c) 2003-2008 Niels Kokholm
+(c) 2003-2008 Peter Sestoft
+(c) 2003-2009 Novell, Inc
+(c) 2004 Apple Computer, Inc.
+(c) 2004 Edd Dumbill
+(c) 2004 Everaldo Canuto
+(c) 2004 Francisco T. Martinez <paco@mfcon.com>
+(c) 2004 IT+ A/S (http://www.itplus.dk)
+(c) 2004 Ivan Hamilton
+(c) 2004 Jeroen Frijters
+(c) 2004 Luca Barbieri
+(c) 2004 Matthijs ter Woord
+(c) 2004 Punit Todi
+(c) 2004 The Mozilla Foundation
+(c) 2004-2005 Geoff Norton
+(c) 2004-2005 John Reilly
+(c) 2004-2006 Jaroslaw Kowalski
+(c) 2004-2006 John Luke
+(c) 2004-2006 Jonathan Pryor
+(c) 2004-2006 Novell Inc. (http://www.novell.com)
+(c) 2004-2008 Gert Driesen
+(c) 2004-2008 HotFeet GmbH (http://www.hotfeet.ch)
+(c) 2004-2013 Charlie Poole
+(c) 2004-2013 Mirco Bauer <meebey@debian.org>
+(c) 2005 Carlo Kok (ck@carlo-kok.com)
+(c) 2005 Colin Watson <cjwatson@debian.org>
+(c) 2005 Daniel Drake
+(c) 2005 David Waite (mass@akuma.org)
+(c) 2005 Hubert FONGARNAND
+(c) 2005 Iain McCoy
+(c) 2005 Nokia
+(c) 2005 Senganal T
+(c) 2005 Sharif FarsiWeb, Inc. (http://www.farsiweb.info)
+(c) 2005 Voelcker Informatik AG
+(c) 2005 akiramei (mei@work.email.ne.jp)
+(c) 2005-2007 Marek Sieradzki
+(c) 2005-2008 Jiri George Moudry
+(c) 2005-2008 Kornel Pal
+(c) 2005-2009 Novell, Inc.
+(c) 2005-2015 Andy Polyakov <appro@openssl.org>
+(c) 2005-2015 Jb Evain (http://evain.net)
+(c) 2006 Active Endpoints, Inc
+(c) 2006 Alexander Olk
+(c) 2006 Broadcom
+(c) 2006 Bruno Haible
+(c) 2006 Evaluant RC S.A
+(c) 2006 Forcom (http://www.forcom.com.pl/)
+(c) 2006 Marek Habersack
+(c) 2006 Matt Hargett
+(c) 2006 Patrick Earl
+(c) 2006 Sebastian Droge <slomo@debian.org>
+(c) 2006 Sergey Tikhonov (tsv@solvo.ru)
+(c) 2006 Sridhar Kulkarni
+(c) 2006-2007 Dmitry S. Kataev
+(c) 2006-2007 Dylan R. E. Moonfire <debian@mfgames.com>
+(c) 2006-2009 Daniel Nauck
+(c) 2006-2009 Jonathan Chambers
+(c) 2006-2012 The Apache Software Foundation
+(c) 2006-2013 Volker Berlin
+(c) 2007 Andreas Noever
+(c) 2007 Andreas Schlapsi
+(c) 2007 Dean Brettle
+(c) 2007 Marcos Cobena (http://www.youcannoteatbits.org/)
+(c) 2007 Randolph Chung
+(c) 2007 Red Hat, Inc
+(c) 2007-2008 Andreas Faerber
+(c) 2007-2008 Andreia Gaita
+(c) 2007-2008 Ivan N. Zlatev
+(c) 2007-2008 Pascal Craponne
+(c) 2007-2008 Stefan Klinger
+(c) 2007-2009 Microsoft Corporation
+(c) 2008 Andy Hume
+(c) 2008 Eric Butler
+(c) 2008 George Giolfan
+(c) 2008 James Fitzsimons
+(c) 2008 John Resig (jquery.com)
+(c) 2008 Juerg Billeter
+(c) 2008 Michael Barker
+(c) 2008 Novell (http://www.novell.com)
+(c) 2008 Realtime Worlds Ltd
+(c) 2008 db4objects, Inc. (http://www.db4o.com)
+(c) 2008-2009 Jeremie Garuma Laval
+(c) 2008-2010 Jo Shields <directhex@apebox.org>
+(c) 2008-2011 Jb Evain
+(c) 2009 AMQP Working Group
+(c) 2009 Aaron Bockover
+(c) 2009 Craig Sutherland
+(c) 2009 Eric Maupin (http://www.ermau.com)
+(c) 2009 Federico Di Gregorio
+(c) 2009 Olivier Dufour
+(c) 2009 Simon Mourier
+(c) 2009 leppie (http://xacc.wordpress.com/)
+(c) 2009-2012 Volker Berlin
+(c) 2009-2015 Jeroen Frijters
+(c) 2010, 2012 Jo Shields <directhex@apebox.org>
+(c) 2010-2011 Karsten Heinrich
+(c) 2011 Alexander Chebaturkin
+(c) 2011 Marek Safar
+(c) 2011 Rodrigo Kumpera
+(c) 2011 Trevor Bell (Siemens Energy, Inc.)
+(c) 2011-2018 Xamarin Inc (http://www.xamarin.com)
+(c) 2012 Petr Onderka
+(c) 2012-2014 Intel Corporation
+(c) 2014 Intel Corporation
+(c) 2015 .NET Foundation
+(c) 2015 Steffen Kiess
+(c) 2015-2016 Quamotion (http://quamotion.mobi)
+(c) 2015-2018 .NET Foundation
+(c) 2016 Dot net foundation
+(c) 2016 Microsoft Corporation
+(c) 2016 Unity Technologies (https://www.unity3d.com)
+(c) 2016-2018 Microsoft
+Copyright (c) 1988-1989 Hans-J. Boehm, Alan J. Demers
+Copyright (c) 1989-1993 The Regents of the University of California
+Copyright (c) 1990-2000 Info-ZIP.
+Copyright (c) 1991-2001 by Lucent Technologies
+Copyright (c) 1994-1997, 2003, 2006-2008, 2010-2012 Oracle and/or its affiliates
+Copyright (c) 1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+Copyright (c) 1995-1998 Eric Young (eay@cryptsoft.com)
+Copyright (c) 1995-2006 Mark Adler
+Copyright (c) 1998-2000 World Wide Web Consortium
+Copyright (c) 1998-2001 Free Software Foundation, Inc.
+Copyright (c) 1998-2011 The OpenSSL Project
+Copyright (c) 1999-2005, 2011 Free Software Foundation, Inc
+Copyright (c) 2000-2002 Philip A. Craig
+Copyright (c) 2001 Dr Martin Porter
+Copyright (c) 2001-2003 Ximian, Inc (http://www.ximian.com)
+Copyright (c) 2001-2004 Unicode, Inc.
+Copyright (c) 2002 Robert McQueen <robot101@debian.org>
+Copyright (c) 2002-2003 Ximian, Inc. http://www.ximian.com
+Copyright (c) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright (c) 2002-2013 Jeroen Frijters
+Copyright (c) 2003 Ximian, Inc (http://www.ximian.com)
+Copyright (c) 2004 Kungliga Tekniska Hogskolan
+Copyright (c) 2004 The Apache Software Foundation
+Copyright (c) 2005, 2007-2010 Mirco Bauer <meebey@debian.org>
+Copyright (c) 2006-2012 The Apache Software Foundation
+Copyright (c) 2007 James Newton-King
+Copyright (c) 2007-2009 Atif Aziz, Joseph Albahari
+Copyright (c) 2008 Novell, Inc.
+Copyright (c) 2008-2011 Jeremie Garuma Laval
+Copyright (c) 2009 RemObjects Software
+Copyright (c) 2010 Chris Bacon
+Copyright (c) 2011 Gonzalo Paniagua Javier
+Copyright (c) 2011 Jeremie garuma Laval
+Copyright (c) 2011 Xamarin, Inc.
+Copyright (c) 2011-2012 Xamarin Inc (http://www.xamarin.com)
+Copyright (c) 2014-2016 Google Inc.
+Copyright (c) Ilya Konstantinov <future@shiny.co.il>
+Copyright (c) Microsoft
+Copyright (c) Microsoft Corporation
+Copyright (c) Microsoft Open Technologies, Inc.
+Copyright Microsoft Open Technologies, Inc.
+Portions Copyright (c) 2002-2007 Charlie Poole
+holder is Tim Hudson (tjh@cryptsoft.com)
+</text>
+PackageComment: <text>Mono Base Class Libraries (BCL) - Development files
+ This package contains development headers for the Mono Base Class Libraries.
+ .
+ Mono is a platform for running and developing applications based on the
+ ECMA/ISO Standards. Mono is an open source effort led by Xamarin.
+ Mono provides a complete CLR (Common Language Runtime) including compiler and
+ runtime, which can produce and execute CIL (Common Intermediate Language)
+ bytecode (aka assemblies), and a class library.</text>
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-accessibility4.0-cil:SPDXRef-libmono-accessibility4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-cairo4.0-cil:SPDXRef-libmono-cairo4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-cecil-private-cil:SPDXRef-libmono-cecil-private-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-codecontracts4.0-cil:SPDXRef-libmono-codecontracts4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-compilerservices-symbolwriter4.0-cil:SPDXRef-libmono-compilerservices-symbolwriter4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-corlib4.5-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-cscompmgd0.0-cil:SPDXRef-libmono-cscompmgd0.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-csharp4.0c-cil:SPDXRef-libmono-csharp4.0c-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-custommarshalers4.0-cil:SPDXRef-libmono-custommarshalers4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-data-tds4.0-cil:SPDXRef-libmono-data-tds4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-db2-1.0-cil:SPDXRef-libmono-db2-1.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-debugger-soft4.0a-cil:SPDXRef-libmono-debugger-soft4.0a-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-http4.0-cil:SPDXRef-libmono-http4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-i18n4.0-all
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-ldap4.0-cil:SPDXRef-libmono-ldap4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-management4.0-cil:SPDXRef-libmono-management4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-messaging4.0-cil:SPDXRef-libmono-messaging4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-messaging-rabbitmq4.0-cil:SPDXRef-libmono-messaging-rabbitmq4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-microsoft-build4.0-cil:SPDXRef-libmono-microsoft-build4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-microsoft-build-engine4.0-cil:SPDXRef-libmono-microsoft-build-engine4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-microsoft-build-framework4.0-cil:SPDXRef-libmono-microsoft-build-framework4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-microsoft-build-tasks-v4.0-4.0-cil:SPDXRef-libmono-microsoft-build-tasks-v4.0-4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-microsoft-build-utilities-v4.0-4.0-cil:SPDXRef-libmono-microsoft-build-utilities-v4.0-4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-microsoft-csharp4.0-cil:SPDXRef-libmono-microsoft-csharp4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-microsoft-visualc10.0-cil:SPDXRef-libmono-microsoft-visualc10.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-microsoft-web-infrastructure1.0-cil:SPDXRef-libmono-microsoft-web-infrastructure1.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-oracle4.0-cil:SPDXRef-libmono-oracle4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-parallel4.0-cil:SPDXRef-libmono-parallel4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-peapi4.0a-cil:SPDXRef-libmono-peapi4.0a-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-posix4.0-cil:SPDXRef-libmono-posix4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-rabbitmq4.0-cil:SPDXRef-libmono-rabbitmq4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-relaxng4.0-cil:SPDXRef-libmono-relaxng4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-security4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-sharpzip4.84-cil:SPDXRef-libmono-sharpzip4.84-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-simd4.0-cil:SPDXRef-libmono-simd4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-smdiagnostics0.0-cil:SPDXRef-libmono-smdiagnostics0.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-sqlite4.0-cil:SPDXRef-libmono-sqlite4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-componentmodel-composition4.0-cil:SPDXRef-libmono-system-componentmodel-composition4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-componentmodel-dataannotations4.0-cil:SPDXRef-libmono-system-componentmodel-dataannotations4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system-configuration4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-configuration-install4.0-cil:SPDXRef-libmono-system-configuration-install4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system-core4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-data4.0-cil:SPDXRef-libmono-system-data4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-data-datasetextensions4.0-cil:SPDXRef-libmono-system-data-datasetextensions4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-data-entity4.0-cil:SPDXRef-libmono-system-data-entity4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-data-linq4.0-cil:SPDXRef-libmono-system-data-linq4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-data-services4.0-cil:SPDXRef-libmono-system-data-services4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-data-services-client4.0-cil:SPDXRef-libmono-system-data-services-client4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-deployment4.0-cil:SPDXRef-libmono-system-deployment4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web4.0-cil.Cycle:SPDXRef-libmono-system-design4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-drawing4.0-cil:SPDXRef-libmono-system-drawing4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-drawing-design4.0-cil:SPDXRef-libmono-system-drawing-design4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-dynamic4.0-cil:SPDXRef-libmono-system-dynamic4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-enterpriseservices4.0-cil:SPDXRef-libmono-system-enterpriseservices4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-identitymodel4.0-cil:SPDXRef-libmono-system-identitymodel4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-identitymodel-selectors4.0-cil:SPDXRef-libmono-system-identitymodel-selectors4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-io-compression4.0-cil:SPDXRef-libmono-system-io-compression4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-io-compression-filesystem4.0-cil:SPDXRef-libmono-system-io-compression-filesystem4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-json4.0-cil:SPDXRef-libmono-system-json4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-json-microsoft4.0-cil:SPDXRef-libmono-system-json-microsoft4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-ldap4.0-cil:SPDXRef-libmono-system-ldap4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-ldap-protocols4.0-cil:SPDXRef-libmono-system-ldap-protocols4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-management4.0-cil:SPDXRef-libmono-system-management4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-messaging4.0-cil:SPDXRef-libmono-system-messaging4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-net4.0-cil:SPDXRef-libmono-system-net4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-net-http4.0-cil:SPDXRef-libmono-system-net-http4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-net-http-formatting4.0-cil:SPDXRef-libmono-system-net-http-formatting4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-net-http-webrequest4.0-cil:SPDXRef-libmono-system-net-http-webrequest4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-numerics4.0-cil:SPDXRef-libmono-system-numerics4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-numerics-vectors4.0-cil:SPDXRef-libmono-system-numerics-vectors4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-core2.2-cil:SPDXRef-libmono-system-reactive-core2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-debugger2.2-cil:SPDXRef-libmono-system-reactive-debugger2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-experimental2.2-cil:SPDXRef-libmono-system-reactive-experimental2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-interfaces2.2-cil:SPDXRef-libmono-system-reactive-interfaces2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-linq2.2-cil:SPDXRef-libmono-system-reactive-linq2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-observable-aliases0.0-cil:SPDXRef-libmono-system-reactive-observable-aliases0.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-platformservices2.2-cil:SPDXRef-libmono-system-reactive-platformservices2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-providers2.2-cil:SPDXRef-libmono-system-reactive-providers2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-runtime-remoting2.2-cil:SPDXRef-libmono-system-reactive-runtime-remoting2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-windows-forms2.2-cil:SPDXRef-libmono-system-reactive-windows-forms2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reactive-windows-threading2.2-cil:SPDXRef-libmono-system-reactive-windows-threading2.2-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-reflection-context4.0-cil:SPDXRef-libmono-system-reflection-context4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-runtime4.0-cil:SPDXRef-libmono-system-runtime4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-runtime-caching4.0-cil:SPDXRef-libmono-system-runtime-caching4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-runtime-durableinstancing4.0-cil:SPDXRef-libmono-system-runtime-durableinstancing4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-runtime-serialization4.0-cil:SPDXRef-libmono-system-runtime-serialization4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-runtime-serialization-formatters-soap4.0-cil:SPDXRef-libmono-system-runtime-serialization-formatters-soap4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system-security4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-servicemodel-activation4.0-cil.Cycle:SPDXRef-libmono-system-servicemodel4.0a-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-servicemodel-activation4.0-cil.Cycle:SPDXRef-libmono-system-servicemodel-activation4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-servicemodel-discovery4.0-cil:SPDXRef-libmono-system-servicemodel-discovery4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-servicemodel-internals0.0-cil:SPDXRef-libmono-system-servicemodel-internals0.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-servicemodel-routing4.0-cil:SPDXRef-libmono-system-servicemodel-routing4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-servicemodel-web4.0-cil:SPDXRef-libmono-system-servicemodel-web4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-serviceprocess4.0-cil:SPDXRef-libmono-system-serviceprocess4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-threading-tasks-dataflow4.0-cil:SPDXRef-libmono-system-threading-tasks-dataflow4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-transactions4.0-cil:SPDXRef-libmono-system-transactions4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web4.0-cil.Cycle:SPDXRef-libmono-system-web4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-abstractions4.0-cil:SPDXRef-libmono-system-web-abstractions4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-applicationservices4.0-cil:SPDXRef-libmono-system-web-applicationservices4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-dynamicdata4.0-cil:SPDXRef-libmono-system-web-dynamicdata4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-extensions4.0-cil:SPDXRef-libmono-system-web-extensions4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-extensions-design4.0-cil:SPDXRef-libmono-system-web-extensions-design4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-http4.0-cil:SPDXRef-libmono-system-web-http4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-http-selfhost4.0-cil:SPDXRef-libmono-system-web-http-selfhost4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-http-webhost4.0-cil:SPDXRef-libmono-system-web-http-webhost4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-mobile4.0-cil:SPDXRef-libmono-system-web-mobile4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-mvc3.0-cil:SPDXRef-libmono-system-web-mvc3.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-razor2.0-cil:SPDXRef-libmono-system-web-razor2.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-regularexpressions4.0-cil:SPDXRef-libmono-system-web-regularexpressions4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-routing4.0-cil:SPDXRef-libmono-system-web-routing4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web4.0-cil.Cycle:SPDXRef-libmono-system-web-services4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-webpages2.0-cil:SPDXRef-libmono-system-web-webpages2.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-webpages-deployment2.0-cil:SPDXRef-libmono-system-web-webpages-deployment2.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-web-webpages-razor2.0-cil:SPDXRef-libmono-system-web-webpages-razor2.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-windows4.0-cil:SPDXRef-libmono-system-windows4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-windows-forms4.0-cil:SPDXRef-libmono-system-windows-forms4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-windows-forms-datavisualization4.0a-cil:SPDXRef-libmono-system-windows-forms-datavisualization4.0a-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-workflow-activities4.0-cil:SPDXRef-libmono-system-workflow-activities4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-workflow-componentmodel4.0-cil:SPDXRef-libmono-system-workflow-componentmodel4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-workflow-runtime4.0-cil:SPDXRef-libmono-system-workflow-runtime4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-xaml4.0-cil:SPDXRef-libmono-system-xaml4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system-xml4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-xml-linq4.0-cil:SPDXRef-libmono-system-xml-linq4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-system-xml-serialization4.0-cil:SPDXRef-libmono-system-xml-serialization4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-tasklets4.0-cil:SPDXRef-libmono-tasklets4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-webbrowser4.0-cil:SPDXRef-libmono-webbrowser4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-webmatrix-data4.0-cil:SPDXRef-libmono-webmatrix-data4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-windowsbase4.0-cil:SPDXRef-libmono-windowsbase4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libmono-xbuild-tasks4.0-cil:SPDXRef-libmono-xbuild-tasks4.0-cil
+Relationship: SPDXRef-libmono-cil-dev DEPENDS_ON DocumentRef-libnunit-cil-dev:SPDXRef-libnunit-cil-dev
+
+
+## File
+
+FileName: /usr/share/doc/libmono-cil-dev/copyright
+SPDXID: SPDXRef-libmono-cil-dev-file-0
+FileChecksum: SHA1: 887e407ad51b537b84e40ac3ef8c052ea277b21e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: zlib-acknowledgement
+LicenseInfoInFile: LicenseRef-scancode-ssleay-windows
+LicenseInfoInFile: LicenseRef-scancode-unicode-mappings
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-apple-attribution-1997
+LicenseInfoInFile: LicenseRef-scancode-mozilla-gc
+LicenseInfoInFile: MIT
+LicenseInfoInFile: ISC
+LicenseInfoInFile: MS-PL
+LicenseInfoInFile: LicenseRef-scancode-openssl
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: Zlib
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (c) 1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+(c) 2000 Intel Corporation
+(c) 2001 Andreas Jonsson
+(c) 2001 Andrew Sutton
+(c) 2001 Bob Smith. http://www.thestuff.net
+(c) 2001 Chris Hynes
+(c) 2001 Christopher Podurgiel
+(c) 2001 Daniel
+(c) 2001 David Dawkins
+(c) 2001 Derek Holden (dholden@draper.com)
+(c) 2001 Garrett Rooney (rooneg@electricjellyfish.net)
+(c) 2001 John Barnette
+(c) 2001 John R. Hicks (angryjohn69@nc.rr.com)
+(c) 2001 Krister Hansson
+(c) 2001 Mads Pultz
+(c) 2001 Marcel Narings
+(c) 2001 Martin Weindel
+(c) 2001 Matthew S. Ford
+(c) 2001 Michael Lambert
+(c) 2001 Moonlight Enterprises
+(c) 2001 Phillip Pearson (http://www.myelin.co.nz)
+(c) 2001 Radek Doulik
+(c) 2001 Ricardo Fernandez Pascual
+(c) 2001 Scott Sanders
+(c) 2001 Wictor Wilen (wictor@iBizkit.se)
+(c) 2001-2002 Jason Diamond http://injektilo.org
+(c) 2001-2002 Marcin Szczepanski
+(c) 2001-2002 Mike Kestner
+(c) 2001-2002 Nick Drochak II
+(c) 2001-2002 Southern Storm Software, Pty Ltd.
+(c) 2001-2002 Vladimir Vukicevic (vladimir@pobox.com)
+(c) 2001-2002 Wild West Software
+(c) 2001-2003 Ximian, Inc. http://www.ximian.com
+(c) 2002 Alejandro Sanchez Acosta <raciel@es.gnu.org>
+(c) 2002 Ameya Sailesh Gargesh (ameya_13@yahoo.com)
+(c) 2002 Brian Ritchie
+(c) 2002 Chew Keong TAN
+(c) 2002 Chris J Breisch
+(c) 2002 Dan Lewis
+(c) 2002 Daniel Stodden <stodden@in.tum.de>
+(c) 2002 Duco Fijma
+(c) 2002 Franklin Wise
+(c) 2002 Free Software Foundation
+(c) 2002 Gaurav Vaish
+(c) 2002 Jaime Anguiano Olarra
+(c) 2002 John Donagher
+(c) 2002 Jon Guymon
+(c) 2002 Kevin Winchester
+(c) 2002 Kral Ferch
+(c) 2002 Lawrence Pit
+(c) 2002 Martin Adoue
+(c) 2002 Martin Baulig
+(c) 2002 Matt Hunter
+(c) 2002 Miguel de Icaza
+(c) 2002 Owen Brady
+(c) 2002 Piers Haken
+(c) 2002 Rodrigo Moya
+(c) 2002 Stuart Caborn
+(c) 2002 Ulrich Kunitz
+(c) 2002-2003 Dave Bettin
+(c) 2002-2003 Eduardo Garcia Cebollero <kiwnix@yahoo.es>
+(c) 2002-2003 Greg Reinacker, Reinacker & Associates, Inc.
+(c) 2002-2003 Jackson Harper
+(c) 2002-2003 Sergey Chaban (serge@wildwestsoftware.com)
+(c) 2002-2003 Ville Palo
+(c) 2002-2004 Motus Technologies Inc. (http://www.motus.com)
+(c) 2002-2004 Neale Ferguson
+(c) 2002-2004 Tim Coleman
+(c) 2002-2005 Cesar Lopez Nataren
+(c) 2002-2005 Lluis Sanchez Gual
+(c) 2002-2005 Rafael Teixeira
+(c) 2002-2008 Daniel Morgan
+(c) 2002-2008 Mainsoft Corporation
+(c) 2002-2011 Novell, Inc (http://www.novell.com)
+(c) 2003 Aleksey Sanin (aleksey@aleksey.com)
+(c) 2003 Alexandre Pigolkine (pigolkine@gmx.de)
+(c) 2003 Brad Fitzpatrick
+(c) 2003 Dominik Fretz
+(c) 2003 Duncan Mak, Ximian Inc.
+(c) 2003 Eric Glass
+(c) 2003 Erik LeBel
+(c) 2003 Gilles Freart
+(c) 2003 Ian MacLean
+(c) 2003 Jean-Marc Andre <jean-marc.andre@polymtl.ca>
+(c) 2003 Jochen Wezel (CompuMaster GmbH)
+(c) 2003 Johannes Roith <johannes@jroith.de>
+(c) 2003 Joshua Tauberer
+(c) 2003 Latitude Geographics Group
+(c) 2003 Lee Mallabone <gnome@fonicmonkey.net>
+(c) 2003 Martin Willemoes Hansen
+(c) 2003 Oleg Tkachenko
+(c) 2003 Patrick Kalkman
+(c) 2003 Patrik Torstensson
+(c) 2003 Pedro Martinez Julia <yoros@wanadoo.es>
+(c) 2003 Peter Van Isacker
+(c) 2003 Phillip Jerkins
+(c) 2003 PT Cakram Datalingga Duaribu http://www.cdl2000.com
+(c) 2003 Stefan Gorling
+(c) 2003 The Mentalis.org Team (http://www.mentalis.org/)
+(c) 2003 Thong (Tum) Nguyen tum@veridicus.com
+(c) 2003-2004 Andreas Nahr
+(c) 2003-2004 Atsushi Enomoto
+(c) 2003-2004 Ben Maurer
+(c) 2003-2004 Bernie Solomon
+(c) 2003-2004 Carlos Guzman Alvarez
+(c) 2003-2004 Todd Berman
+(c) 2003-2007 Alp Toker <alp@atoker.com>
+(c) 2003-2007 Juraj Skripsky
+(c) 2003-2008 Jonathan Pryor
+(c) 2003-2008 Niels Kokholm
+(c) 2003-2008 Peter Sestoft
+(c) 2004 Edd Dumbill
+(c) 2004 Everaldo Canuto
+(c) 2004 IT+ A/S (http://www.itplus.dk)
+(c) 2004 Ivan Hamilton
+(c) 2004 Luca Barbieri
+(c) 2004 Matthijs ter Woord
+(c) 2004 Punit Todi
+(c) 2004-2005 Geoff Norton
+(c) 2004-2006 Jaroslaw Kowalski
+(c) 2004-2006 John Luke
+(c) 2004-2008 Gert Driesen
+(c) 2004-2008 HotFeet GmbH (http://www.hotfeet.ch)
+(c) 2004-2013 Charlie Poole
+(c) 2005 akiramei (mei@work.email.ne.jp)
+(c) 2005 Carlo Kok (ck@carlo-kok.com)
+(c) 2005 David Waite (mass@akuma.org)
+(c) 2005 Hubert FONGARNAND
+(c) 2005 Iain McCoy
+(c) 2005 Senganal T
+(c) 2005 Sharif FarsiWeb, Inc. (http://www.farsiweb.info)
+(c) 2005 Voelcker Informatik AG
+(c) 2005-2007 Marek Sieradzki
+(c) 2005-2008 Jiri George Moudry
+(c) 2005-2008 Kornel Pal
+(c) 2005-2015 Jb Evain (http://evain.net)
+(c) 2006 Alexander Olk
+(c) 2006 Broadcom
+(c) 2006 Bruno Haible
+(c) 2006 Evaluant RC S.A
+(c) 2006 Forcom (http://www.forcom.com.pl/)
+(c) 2006 Marek Habersack
+(c) 2006 Matt Hargett
+(c) 2006 Patrick Earl
+(c) 2006 Sergey Tikhonov (tsv@solvo.ru)
+(c) 2006 Sridhar Kulkarni
+(c) 2006-2007 Dmitry S. Kataev
+(c) 2006-2009 Daniel Nauck
+(c) 2006-2009 Jonathan Chambers
+(c) 2007 Andreas Noever
+(c) 2007 Dean Brettle
+(c) 2007 Marcos Cobena (http://www.youcannoteatbits.org/)
+(c) 2007 Randolph Chung
+(c) 2007-2008 Andreas Faerber
+(c) 2007-2008 Andreia Gaita
+(c) 2007-2008 Ivan N. Zlatev
+(c) 2007-2008 Pascal Craponne
+(c) 2007-2008 Stefan Klinger
+(c) 2008 Andy Hume
+(c) 2008 db4objects, Inc. (http://www.db4o.com)
+(c) 2008 Eric Butler
+(c) 2008 George Giolfan
+(c) 2008 James Fitzsimons
+(c) 2008 Michael Barker
+(c) 2008 Realtime Worlds Ltd
+(c) 2008-2009 Jeremie Garuma Laval
+(c) 2009 Aaron Bockover
+(c) 2009 Craig Sutherland
+(c) 2009 Eric Maupin (http://www.ermau.com)
+(c) 2009 Federico Di Gregorio
+(c) 2009 leppie (http://xacc.wordpress.com/)
+(c) 2009 Olivier Dufour
+(c) 2011 Rodrigo Kumpera
+(c) 2011-2018 Xamarin Inc (http://www.xamarin.com)
+(c) 2015 Steffen Kiess
+(c) 2015-2016 Quamotion (http://quamotion.mobi)
+(c) 2015-2018 .NET Foundation
+(c) 2016 Unity Technologies (https://www.unity3d.com)
+(c) 2016 Dot net foundation
+(c) 2016-2018 Microsoft
+Copyright (c) 2002 Robert McQueen <robot101@debian.org>
+(c) 2002-2003 Alp Toker <alp@atoker.com>
+(c) 2004-2013 Mirco Bauer <meebey@debian.org>
+(c) 2008-2010 Jo Shields <directhex@apebox.org>
+Copyright (c) Ilya Konstantinov <future@shiny.co.il>
+(c) 2005 Colin Watson <cjwatson@debian.org>
+Copyright (c) 1988-1989 Hans-J. Boehm, Alan J. Demers
+(c) 1991-1996 by Xerox Corporation
+(c) 1996-1999 by Silicon Graphics
+(c) 1998 Fergus Henderson
+(c) 1999-2004 by Hewlett-Packard Company
+(c) 1999-2001 by Red Hat, Inc.
+Copyright (c) 1998-2001 Free Software Foundation, Inc.
+(c) 2000-2016 SharpZipLib
+(c) 2001 Southern Storm Software, Pty Ltd.
+(c) 2001-2005 Mike Krueger
+(c) 2004 Francisco T. Martinez <paco@mfcon.com>
+(c) 2004-2005 John Reilly
+Copyright (c) 2003 Ximian, Inc (http://www.ximian.com)
+(c) 2007-2009 Microsoft Corporation
+(c) 2009 Simon Mourier
+Copyright (c) 2004 The Apache Software Foundation
+(c) 2015 .NET Foundation
+(c) 2016 Microsoft Corporation
+Copyright (c) 2001-2003 Ximian, Inc (http://www.ximian.com)
+(c) 2003-2009 Novell, Inc
+(c) 2008 John Resig (jquery.com)
+Copyright (c) 2008 Novell, Inc.
+Copyright (c) 2009 RemObjects Software
+(c) 2008 Novell (http://www.novell.com)
+Copyright (c) 2007 James Newton-King
+Copyright (c) 2000-2002 Philip A. Craig
+(c) 2002-2004 James W. Newkirk
+(c) 2002-2004 Michael C. Two
+(c) 2002-2004 Alexei A. Vorontsov
+(c) 2002-2008 Charlie Poole
+(c) 2009-2015 Jeroen Frijters
+(c) 2011 Marek Safar
+Portions Copyright (c) 2002-2007 Charlie Poole
+Copyright (c) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright (c) 2000-2002 Philip A. Craig
+Copyright (c) 1991-2001 by Lucent Technologies
+(c) 2007 Andreas Schlapsi
+Copyright (c) 1989-1993 The Regents of the University of California
+(c) 1996-1998 John D. Polstra
+(c) 2004 Apple Computer, Inc.
+(c) 2004 Jeroen Frijters
+(c) 2004 The Mozilla Foundation
+(c) 2009 AMQP Working Group
+Copyright (c) 2010 Chris Bacon
+(c) 2011 Alexander Chebaturkin
+Copyright (c) 2008-2011 Jeremie Garuma Laval
+Copyright (c) Microsoft Corporation
+Copyright (c) 2011-2012 Xamarin Inc (http://www.xamarin.com)
+Copyright (c) 2011 Jeremie garuma Laval
+(c) 2012 Petr Onderka
+Copyright (c) Microsoft Corporation
+Copyright (c) 1995-1998 Eric Young (eay@cryptsoft.com)
+(c) 1998-2007 The OpenSSL Project
+(c) 2002 Sun Microsystems, Inc.
+(c) 2005 Nokia
+Copyright (c) 1998-2011 The OpenSSL Project
+(c) 2002 Sun Microsystems, Inc.
+(c) 2005-2015 Andy Polyakov <appro@openssl.org>
+Copyright (c) 1995-1998 Eric Young (eay@cryptsoft.com)
+Copyright (c) 2014-2016 Google Inc.
+(c) 2014 Intel Corporation
+Copyright (c) 2004 Kungliga Tekniska Hogskolan
+(c) 2012-2014 Intel Corporation
+Copyright (c) 2011 Xamarin, Inc.
+Copyright (c) 2011 Gonzalo Paniagua Javier
+Copyright (c) 2006-2012 The Apache Software Foundation
+Copyright (c) 2001 Dr Martin Porter
+(c) 2002 Richard Boulton
+(c) 2006-2012 The Apache Software Foundation
+Copyright (c) 2001-2004 Unicode, Inc.
+(c) 2006-2012 The Apache Software Foundation
+Copyright (c) 2007 James Newton-King
+Copyright (c) 2007-2009 Atif Aziz, Joseph Albahari
+Copyright (c) Microsoft Corporation
+Copyright (c) 1998-2000 World Wide Web Consortium
+Copyright (c) 2002-2003 Ximian, Inc. http://www.ximian.com
+(c) 2003 Motus Technologies Inc. (http://www.motus.com)
+(c) 2004-2006 Novell Inc. (http://www.novell.com)
+(c) 2008-2011 Jb Evain
+(c) 2008 Juerg Billeter
+Copyright (c) Microsoft
+Copyright (c) Microsoft Open Technologies, Inc.
+Copyright (c) 1994-1997, 2003, 2006-2008, 2010-2012 Oracle and/or its affiliates
+(c) 1996, 1997 Taligent, Inc.
+(c) 1996-1999 IBM Corp.
+(c) 1999-2001, 2004-2006, 2008, 2011 Free Software Foundation, Inc
+(c) 2002-2007, 2009 Jeroen Frijters
+(c) 2007 Red Hat, Inc
+(c) 2009-2012 Volker Berlin
+(c) 2010-2011 Karsten Heinrich
+Copyright (c) 1999-2005, 2011 Free Software Foundation, Inc
+Copyright (c) 2002-2013 Jeroen Frijters
+(c) 2006-2013 Volker Berlin
+(c) 2006 Active Endpoints, Inc
+(c) 2010-2011 Karsten Heinrich
+(c) 2011 Trevor Bell (Siemens Energy, Inc.)
+(c) 2011 Marek Safar
+Copyright Microsoft Open Technologies, Inc.
+Copyright (c) 2005, 2007-2010 Mirco Bauer <meebey@debian.org>
+(c) 2006-2007 Dylan R. E. Moonfire <debian@mfgames.com>
+(c) 2006 Sebastian Droge <slomo@debian.org>
+(c) 2010, 2012 Jo Shields <directhex@apebox.org>
+Copyright (c) 1995-2006 Mark Adler
+(c) 1995-2006 Jean-loup Gailly
+(c) 1998-2005 Gilles Vollant
+(c) 2004-2006 Jonathan Pryor
+(c) 2005 Daniel Drake
+(c) 2005-2009 Novell, Inc.
+Copyright (c) 1990-2000 Info-ZIP.
+(c) 1998-2005 Gilles Vollant
+holder is Tim Hudson (tjh@cryptsoft.com)
+</text>
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-0
+
+
+FileName: /usr/lib/pkgconfig/aspnetwebstack.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-1
+FileChecksum: SHA1: 0bfc22876900bf8d17f5702ec75bb2549eed2914
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-1
+
+
+FileName: /usr/lib/pkgconfig/cecil.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-2
+FileChecksum: SHA1: cabd7e1e6039584437ab60fe9efdb96a0810bdc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-2
+
+
+FileName: /usr/lib/pkgconfig/dotnet.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-3
+FileChecksum: SHA1: dfc078822569ca5faf6217eb897ee50eacea4715
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-3
+
+
+FileName: /usr/lib/pkgconfig/dotnet35.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-4
+FileChecksum: SHA1: 7b9d72b9e761ab841be56ca3cbd7e7033ca8cef6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-4
+
+
+FileName: /usr/lib/pkgconfig/mono-cairo.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-5
+FileChecksum: SHA1: 0a35bdfeb9cbf648d02d20feecb4c4d0c24a2d0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-5
+
+
+FileName: /usr/lib/pkgconfig/mono.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-6
+FileChecksum: SHA1: 8c6061d8e75e05977b4c0ff377da5761e4b32d4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-6
+
+
+FileName: /usr/lib/pkgconfig/reactive.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-7
+FileChecksum: SHA1: b12878fda57985878acb4fa8049d0b131999c55d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-7
+
+
+FileName: /usr/lib/pkgconfig/system.web.extensions.design_1.0.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-8
+FileChecksum: SHA1: a2de9e8962d7ae0d162719d75753360cba8afad3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-8
+
+
+FileName: /usr/lib/pkgconfig/system.web.extensions_1.0.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-9
+FileChecksum: SHA1: c8dd2338597a580a186d15da6ac5654eaa34232c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-9
+
+
+FileName: /usr/lib/pkgconfig/system.web.mvc.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-10
+FileChecksum: SHA1: a3f7373111fcdbc47125e88b192ec70a91928027
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-10
+
+
+FileName: /usr/lib/pkgconfig/system.web.mvc2.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-11
+FileChecksum: SHA1: c1c409d03271ab27b6e39643bf29bb3d4b044e88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-11
+
+
+FileName: /usr/lib/pkgconfig/system.web.mvc3.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-12
+FileChecksum: SHA1: 061eec3cc1251b4d16530af82a6f4deb6595263b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-12
+
+
+FileName: /usr/lib/pkgconfig/wcf.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-13
+FileChecksum: SHA1: 320c4afa29fda76be9bce8337d67d65f924e90c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-13
+
+
+FileName: /usr/lib/pkgconfig/mono-nunit.pc
+SPDXID: SPDXRef-libmono-cil-dev-file-14
+FileChecksum: SHA1: 916d0255262c7fc158019c14cde7a0ca8388b75c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-14
+
+
+FileName: /usr/share/doc/libmono-cil-dev/changelog.Debian.gz
+SPDXID: SPDXRef-libmono-cil-dev-file-15
+FileChecksum: SHA1: 719d5eb5d0508ac8e85c489e2464a4d19b21b46a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-cil-dev CONTAINS SPDXRef-libmono-cil-dev-file-15
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-apple-attribution-1997
+LicenseName: Apple Attribution License 1997
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/apple-attribution-1997.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/apple-attribution-1997.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-mozilla-gc
+LicenseName: Mozilla GC License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mozilla-gc.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mozilla-gc.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-openssl
+LicenseName: OpenSSL License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/openssl.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/openssl.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-ssleay-windows
+LicenseName: Original SSLeay License with Windows Clause
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ssleay-windows.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ssleay-windows.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unicode-mappings
+LicenseName: Unicode Mappings License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode-mappings.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode-mappings.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

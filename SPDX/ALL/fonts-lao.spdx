@@ -1,0 +1,92 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-lao_0.0.20060226-10ubuntu2-797c6b3f-5e62-53cc-94cf-c9d222a7be11
+DocumentName: fonts-lao_0.0.20060226-10ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-lao
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:59:05Z
+
+
+## Package
+
+PackageName: fonts-lao
+PackageVersion: 0.0.20060226-10ubuntu2
+SPDXID: SPDXRef-fonts-lao
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d3bcaebef514be94b18f03a5d63738647472c3ab
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 2006, Anousak Souphavanh
+Copyright 2006, Christian Perrier <bubulle@debian.org>
+Copyright 2012, Ministry of Posts and Telecommunications, Laos (www.phetsarath.gov.la)
+</text>
+PackageComment: <text>TrueType font for Lao language
+ This package includes fonts that are suitable for the display of the Lao
+ language.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-lao/copyright
+SPDXID: SPDXRef-fonts-lao-file-0
+FileChecksum: SHA1: 95f6664eeeeb28623f018ba47752cad4f7090b7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2006, Anousak Souphavanh
+Copyright 2006, Christian Perrier <bubulle@debian.org>
+Copyright 2012, Ministry of Posts and Telecommunications, Laos (www.phetsarath.gov.la)
+</text>
+Relationship: SPDXRef-fonts-lao CONTAINS SPDXRef-fonts-lao-file-0
+
+
+FileName: /usr/share/doc/fonts-lao/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-lao-file-1
+FileChecksum: SHA1: e2a04b52b588410099f5a6f0289331ae0e40efe0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lao CONTAINS SPDXRef-fonts-lao-file-1
+
+
+FileName: /usr/share/fonts/truetype/lao/Phetsarath_OT.ttf
+SPDXID: SPDXRef-fonts-lao-file-2
+FileChecksum: SHA1: 062255e6e3d6716ac0eb19c35e5df3c9d345cef5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lao CONTAINS SPDXRef-fonts-lao-file-2
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

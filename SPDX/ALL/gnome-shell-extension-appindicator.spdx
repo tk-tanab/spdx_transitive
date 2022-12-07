@@ -1,0 +1,255 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-shell-extension-appindicator_42-2~fakesync1-62324d3c-e2fa-56a1-89b6-182ac3f782de
+DocumentName: gnome-shell-extension-appindicator_42-2~fakesync1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-shell-extension-appindicator
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:09:29Z
+
+
+## Package
+
+PackageName: gnome-shell-extension-appindicator
+PackageVersion: 42-2~fakesync1
+SPDXID: SPDXRef-gnome-shell-extension-appindicator
+PackageHomePage: https://github.com/ubuntu/gnome-shell-extension-appindicator
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e9a0bffcf702982ef07e05d736dae1b342313000
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2011 Giovanni Campagna 2013-2014 Jonas Kummerlin <rgcjonas@gmail.com>
+Copyright 2018 Matteo F. Vescovi <mfv@debian.org>
+</text>
+PackageComment: <text>AppIndicator, KStatusNotifierItem and tray support for GNOME Shell
+ This extension integrates Ubuntu AppIndicators and KStatusNotifierItems
+ (KDE's blessed successor of the systray) and legacy tray icons into
+ GNOME Shell.
+ .
+ Features:
+ .
+  - show indicator icons in the panel
+  - reveal indicator menus upon click
+  - double clicking an icon will activate the application window
+    (if implemented by the indicator)
+  - middle mouse click an icon to send a 'SecondaryActivate' event
+    to the application. Support needs to be implemented in the application
+  - supports legacy tray icons
+  - icons can be themed, resized and effects can be applied</text>
+Relationship: SPDXRef-gnome-shell-extension-appindicator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-shell
+Relationship: SPDXRef-gnome-shell-extension-appindicator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-gnome-shell-extension-appindicator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libayatana-appindicator3-1
+
+
+## File
+
+FileName: /usr/share/doc/gnome-shell-extension-appindicator/copyright
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-0
+FileChecksum: SHA1: 52deba4bb6d4b40125868e572df9d5a740fd048b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2011 Giovanni Campagna 2013-2014 Jonas Kummerlin <rgcjonas@gmail.com>
+Copyright 2018 Matteo F. Vescovi <mfv@debian.org>
+</text>
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-0
+
+
+FileName: /usr/share/doc/gnome-shell-extension-appindicator/AUTHORS.md
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-1
+FileChecksum: SHA1: c5f21b895ab02804279e7695acbe3d65bd1489db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-1
+
+
+FileName: /usr/share/doc/gnome-shell-extension-appindicator/README.md
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-2
+FileChecksum: SHA1: 44f3e6a77368ac8c8fa29370a83964bb601038b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-2
+
+
+FileName: /usr/share/doc/gnome-shell-extension-appindicator/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-3
+FileChecksum: SHA1: 4f4954d354e848ab71642a42ce744b03d8f4e78c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-3
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.shell.extensions.appindicator.gschema.xml
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-4
+FileChecksum: SHA1: 0479550c9400555adcceda43276558098cc58bba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-4
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-5
+FileChecksum: SHA1: a5ed3bda7b4ec084c14afe640cc23c49153114aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-5
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/dbusMenu.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-6
+FileChecksum: SHA1: 6cd31c26e1272c9d4aeaeb88fd13dff5017af791
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-6
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-7
+FileChecksum: SHA1: 5f36fca6687c11ecb3c393afc359621262056839
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-7
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/iconCache.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-8
+FileChecksum: SHA1: 5aee79cdd53c2880d264bc93ae000540ad34cee6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-8
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-9
+FileChecksum: SHA1: ce02c72640837034cd07ae5ef59ce8eda407eeb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-9
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/interfaces-xml/DBusMenu.xml
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-10
+FileChecksum: SHA1: 0d83df2a42ce9512558fe68e892196a76fccd398
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-10
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/interfaces-xml/StatusNotifierItem.xml
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-11
+FileChecksum: SHA1: 29f89a6ff17c1650a9a6108b0b21850e19ac081f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-11
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/interfaces-xml/StatusNotifierWatcher.xml
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-12
+FileChecksum: SHA1: 67c75afe8094f2e33cfba48bae2045b34b04ba7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-12
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/interfaces.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-13
+FileChecksum: SHA1: dec61fb612f743a29da598fe3739d9129bbb7694
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-13
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/metadata.json
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-14
+FileChecksum: SHA1: a2b4316f7aa2792f8171122a621d9ab3d5a72343
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-14
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/prefs.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-15
+FileChecksum: SHA1: 1f88004feaf0409166fc1b1cd33382ff78796ba8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-15
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/promiseUtils.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-16
+FileChecksum: SHA1: 40f3df22b49c2a42a735d6f6a06786acac07f2fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-16
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/settingsManager.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-17
+FileChecksum: SHA1: 43ab31faac495944a22487486301089540f45534
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-17
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-18
+FileChecksum: SHA1: 126cfb2bae4c960e5ecb383832ec806bd4046e04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-18
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/trayIconsManager.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-19
+FileChecksum: SHA1: fe61d9f6b26f418bb7e6b0794a6d6e792b2db1ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-19
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/util.js
+SPDXID: SPDXRef-gnome-shell-extension-appindicator-file-20
+FileChecksum: SHA1: 27bd672d2b9b1f63a2ec0b7ed3caf0d2a59b883b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-appindicator CONTAINS SPDXRef-gnome-shell-extension-appindicator-file-20
+
+
+## Extracted License
+

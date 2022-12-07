@@ -1,0 +1,223 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/spice-vdagent_0.22.1-1-2119e1e0-06b0-58ec-b9db-29d976e7570e
+DocumentName: spice-vdagent_0.22.1-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-spice-vdagent
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:16:11Z
+
+
+## Package
+
+PackageName: spice-vdagent
+PackageVersion: 0.22.1-1
+SPDXID: SPDXRef-spice-vdagent
+PackageHomePage: http://www.spice-space.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 89a7707479eee02181399fc1a318bbcc7dfc9cd4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2010-2016 Liang Guo <bluestonechina@gmail.com>
+Copyright 2010-2015 Red Hat, Inc.
+</text>
+PackageComment: <text>Spice agent for Linux
+ spice-vdagent is the spice agent for Linux, it is used in conjunction with
+ spice-compatible hypervisor, its feature includes:
+  - Client mouse mode (no need to grab mouse by client, no mouse lag)
+    this is handled by the daemon by feeding mouse events into the kernel
+    via uinput. This will only work if the active X-session is running a
+    spice-vdagent process so that its resolution can be determined.
+  - Automatic adjustment of the X-session resolution to the client resolution
+  - Support of copy and paste (text and images) between the active X-session
+    and the client</text>
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libasound2
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libdbus-1-3
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libdrm2
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpciaccess0
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libx11-6
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxinerama1
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxrandr2
+Relationship: SPDXRef-spice-vdagent DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+
+
+## File
+
+FileName: /usr/share/doc/spice-vdagent/copyright
+SPDXID: SPDXRef-spice-vdagent-file-0
+FileChecksum: SHA1: cc099d772139568fe22110c663e2db4f91d51884
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2010-2015 Red Hat, Inc.
+Copyright (c) 2010-2016 Liang Guo <bluestonechina@gmail.com>
+</text>
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-0
+
+
+FileName: /etc/init.d/spice-vdagent
+SPDXID: SPDXRef-spice-vdagent-file-1
+FileChecksum: SHA1: 1a52a8f623f7fdb8e2bbc2f8d4034677be09e117
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-1
+
+
+FileName: /etc/xdg/autostart/spice-vdagent.desktop
+SPDXID: SPDXRef-spice-vdagent-file-2
+FileChecksum: SHA1: 78b6ee6347bd9dd58f46fbfcc2fcd3a54629a3e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-2
+
+
+FileName: /lib/systemd/system/spice-vdagentd.service
+SPDXID: SPDXRef-spice-vdagent-file-3
+FileChecksum: SHA1: 1f356facf79c9c234fcf9d13d8f7b64af42783d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-3
+
+
+FileName: /lib/systemd/system/spice-vdagentd.socket
+SPDXID: SPDXRef-spice-vdagent-file-4
+FileChecksum: SHA1: 78fa6af984987df534ad29f90b07d0b2f3ccd37b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-4
+
+
+FileName: /lib/udev/rules.d/70-spice-vdagentd.rules
+SPDXID: SPDXRef-spice-vdagent-file-5
+FileChecksum: SHA1: 81f278d4169a94dc7e634263475765a9c3c67359
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-5
+
+
+FileName: /usr/bin/spice-vdagent
+SPDXID: SPDXRef-spice-vdagent-file-6
+FileChecksum: SHA1: f11d2c350e33c4ba0e4384acd790566ba8c03b43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-6
+
+
+FileName: /usr/lib/systemd/user/spice-vdagent.service
+SPDXID: SPDXRef-spice-vdagent-file-7
+FileChecksum: SHA1: 47040e9fd70c77480ced420a0df48a91d628d418
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-7
+
+
+FileName: /usr/lib/tmpfiles.d/spice-vdagentd.conf
+SPDXID: SPDXRef-spice-vdagent-file-8
+FileChecksum: SHA1: 0b22068c1ce0ac27f53a68cca8eafac180a01b5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-8
+
+
+FileName: /usr/sbin/spice-vdagentd
+SPDXID: SPDXRef-spice-vdagent-file-9
+FileChecksum: SHA1: 127281a4926cbdac818fd1e51c7177dcaa602942
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-9
+
+
+FileName: /usr/share/doc/spice-vdagent/README.md
+SPDXID: SPDXRef-spice-vdagent-file-10
+FileChecksum: SHA1: 3390e96419253e19d82b2a3b3b11bed3e61b0092
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-10
+
+
+FileName: /usr/share/doc/spice-vdagent/changelog.Debian.gz
+SPDXID: SPDXRef-spice-vdagent-file-11
+FileChecksum: SHA1: ab830a53d90971cde82323fc39a08fb8a19d5090
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-11
+
+
+FileName: /usr/share/gdm/autostart/LoginWindow/spice-vdagent.desktop
+SPDXID: SPDXRef-spice-vdagent-file-12
+FileChecksum: SHA1: 78b6ee6347bd9dd58f46fbfcc2fcd3a54629a3e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-12
+
+
+FileName: /usr/share/man/man1/spice-vdagent.1.gz
+SPDXID: SPDXRef-spice-vdagent-file-13
+FileChecksum: SHA1: 499abe9dcd76472cc950d124cd9a8961de989178
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-13
+
+
+FileName: /usr/share/man/man1/spice-vdagentd.1.gz
+SPDXID: SPDXRef-spice-vdagent-file-14
+FileChecksum: SHA1: 83761960a70b869ee896b9fcf3153f031762dbfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-14
+
+
+FileName: /lib/systemd/system/spice-vdagent.service
+SPDXID: SPDXRef-spice-vdagent-file-15
+FileChecksum: SHA1: 1f356facf79c9c234fcf9d13d8f7b64af42783d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-15
+
+
+FileName: /usr/share/gdm/greeter/autostart/spice-vdagent.desktop
+SPDXID: SPDXRef-spice-vdagent-file-16
+FileChecksum: SHA1: 78b6ee6347bd9dd58f46fbfcc2fcd3a54629a3e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-spice-vdagent CONTAINS SPDXRef-spice-vdagent-file-16
+
+
+## Extracted License
+

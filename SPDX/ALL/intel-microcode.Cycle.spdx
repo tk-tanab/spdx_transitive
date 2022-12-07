@@ -1,0 +1,1259 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/intel-microcode_3.20220809.0ubuntu0.22.04.1-4a0ab0d7-b022-5709-8345-215b326a41aa
+DocumentName: intel-microcode_3.20220809.0ubuntu0.22.04.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-intel-microcode
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:29:30Z
+
+
+## Package
+
+PackageName: intel-microcode
+PackageVersion: 3.20220809.0ubuntu0.22.04.1
+SPDXID: SPDXRef-intel-microcode
+PackageHomePage: https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: bbe6a7bb3afa29bb9b1b489bd94854702991c44f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-marvell-firmware
+PackageCopyrightText: <text>Copyright (c) 2008-2012 by Giacomo Catenazzi
+Copyright (c) 2012 by Henrique de Moraes Holschuh
+Copyright (c) <1995-2019> , Intel Corporation
+</text>
+PackageComment: <text>Processor microcode firmware for Intel CPUs
+ This package contains updated system processor microcode for
+ Intel i686 and Intel X86-64 processors.  Intel releases microcode
+ updates to correct processor behavior as documented in the
+ respective processor specification updates.
+ .
+ For AMD processors, please refer to the amd64-microcode package.</text>
+Relationship: SPDXRef-intel-microcode DEPENDS_ON SPDXRef-iucode-tool
+Relationship: SPDXRef-intel-microcode DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-initramfs-tools
+
+
+PackageName: iucode-tool
+PackageVersion: 2.3.1-1build1
+SPDXID: SPDXRef-iucode-tool
+PackageHomePage: https://gitlab.com/iucode-tool
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5b88996a8e364e83a5e8ffcf90f3df54c2976b7a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Autoconf-exception-3.0
+PackageLicenseInfoFromFiles: FSFAP
+PackageLicenseInfoFromFiles: FSFUL
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: LicenseRef-scancode-autoconf-macro-exception
+PackageLicenseInfoFromFiles: LicenseRef-scancode-autoconf-simple-exception
+PackageCopyrightText: <text>Copyright (c) 1994-2016 Free Software Foundation, Inc.
+Copyright (c) 2000-2006 Tigran Aivazian
+Copyright (c) 2006 Shaohua Li
+Copyright (c) 2010-2017 Henrique de Moraes Holschuh
+Copyright (c) 2010-2017 Henrique de Moraes Holschuh Comment
+Copyright 1994-2007 Free Software Foundation, Inc.
+Copyright 2010-2017 Henrique de Moraes Holschuh Comment
+Copyright Free Software Foundation, Inc.
+Copyright Maarten Bosmans <mkbosmans@gmail.com> Guido U. Draheim <guidod@gmx.de>
+Copyright Mike Frysinger <vapier@gentoo.org>
+Copyright X Consortium
+</text>
+PackageComment: <text>Intel processor microcode tool
+ iucode_tool is a program to manipulate Intel® X86 and X86-64 processor
+ microcode collections, and to use the kernel facilities to upgrade the
+ microcode on Intel system processors.
+ .
+ It can load microcode data files in text and binary format, sort, list and
+ filter the microcodes contained in these files, write selected microcodes to a
+ new file in binary format, or upload them to the kernel.
+ .
+ It operates on non-free microcode data downloaded directly from Intel or
+ installed by the intel-microcode package.</text>
+Relationship: SPDXRef-iucode-tool DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-iucode-tool DEPENDS_ON SPDXRef-intel-microcode
+
+
+## File
+
+FileName: /usr/share/doc/intel-microcode/copyright
+SPDXID: SPDXRef-intel-microcode-file-0
+FileChecksum: SHA1: c619fccf71afe700b3f726c7d731d11147638846
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-marvell-firmware
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) <1995-2019> , Intel Corporation
+Copyright (c) 2008-2012 by Giacomo Catenazzi
+Copyright (c) 2012 by Henrique de Moraes Holschuh
+</text>
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-0
+
+
+FileName: /etc/default/intel-microcode
+SPDXID: SPDXRef-intel-microcode-file-1
+FileChecksum: SHA1: 6a4affd930e63c9c6bf199602d5ef33db79b813e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-1
+
+
+FileName: /etc/kernel/preinst.d/intel-microcode
+SPDXID: SPDXRef-intel-microcode-file-2
+FileChecksum: SHA1: 5e82dc4b8d34cce31f595cc80f6ce3e81d25def0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-2
+
+
+FileName: /etc/modprobe.d/intel-microcode-blacklist.conf
+SPDXID: SPDXRef-intel-microcode-file-3
+FileChecksum: SHA1: 090610b7060cf46a4dcc8086483dd6323b6f681b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-3
+
+
+FileName: /lib/firmware/intel-ucode/06-0f-02
+SPDXID: SPDXRef-intel-microcode-file-4
+FileChecksum: SHA1: 5bc33bcefebc09298f8b4a2b40143edb21b7407c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-4
+
+
+FileName: /lib/firmware/intel-ucode/06-0f-06
+SPDXID: SPDXRef-intel-microcode-file-5
+FileChecksum: SHA1: 98c56fd3f9ed9b0dc23e23f87471f8a5214463e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-5
+
+
+FileName: /lib/firmware/intel-ucode/06-0f-07
+SPDXID: SPDXRef-intel-microcode-file-6
+FileChecksum: SHA1: 543b3dde54576831ed8176295180feba895d0b53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-6
+
+
+FileName: /lib/firmware/intel-ucode/06-0f-0a
+SPDXID: SPDXRef-intel-microcode-file-7
+FileChecksum: SHA1: 5d88e2d3327a9347d42a539a857c3ee9455c5bc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-7
+
+
+FileName: /lib/firmware/intel-ucode/06-0f-0b
+SPDXID: SPDXRef-intel-microcode-file-8
+FileChecksum: SHA1: 7054a44842ba32a81615939e2f1575723a7936b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-8
+
+
+FileName: /lib/firmware/intel-ucode/06-0f-0d
+SPDXID: SPDXRef-intel-microcode-file-9
+FileChecksum: SHA1: c6d74c4be9c1658e8d355a14eaa31ef4be91e06b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-9
+
+
+FileName: /lib/firmware/intel-ucode/06-16-01
+SPDXID: SPDXRef-intel-microcode-file-10
+FileChecksum: SHA1: 2144bf244ed3be9da85d9b04240a44f0f1311264
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-10
+
+
+FileName: /lib/firmware/intel-ucode/06-17-06
+SPDXID: SPDXRef-intel-microcode-file-11
+FileChecksum: SHA1: 31787eb7196bceafdc05d36e5882530b5314674e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-11
+
+
+FileName: /lib/firmware/intel-ucode/06-17-07
+SPDXID: SPDXRef-intel-microcode-file-12
+FileChecksum: SHA1: 587e51fcdacbe9ceb456497b776f7c0558b8b1ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-12
+
+
+FileName: /lib/firmware/intel-ucode/06-17-0a
+SPDXID: SPDXRef-intel-microcode-file-13
+FileChecksum: SHA1: 8acdf8fd23d78250e06c108a0d40f5da53ac53a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-13
+
+
+FileName: /lib/firmware/intel-ucode/06-1a-04
+SPDXID: SPDXRef-intel-microcode-file-14
+FileChecksum: SHA1: bc06c07213821f947cd7596b61a903c3e8bcd09d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-14
+
+
+FileName: /lib/firmware/intel-ucode/06-1a-05
+SPDXID: SPDXRef-intel-microcode-file-15
+FileChecksum: SHA1: c20789f7668c2da2b79c90d1a04136269cbb16fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-15
+
+
+FileName: /lib/firmware/intel-ucode/06-1c-02
+SPDXID: SPDXRef-intel-microcode-file-16
+FileChecksum: SHA1: 2731fa18f4c16957219eba10207149a981fc8e12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-16
+
+
+FileName: /lib/firmware/intel-ucode/06-1c-0a
+SPDXID: SPDXRef-intel-microcode-file-17
+FileChecksum: SHA1: 373f1505bdf1db0dcafb6b950e06ea8d8b0d567d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-17
+
+
+FileName: /lib/firmware/intel-ucode/06-1d-01
+SPDXID: SPDXRef-intel-microcode-file-18
+FileChecksum: SHA1: 7bcf45f0b7bda703eb762b2a7ab3229dad2a1420
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-18
+
+
+FileName: /lib/firmware/intel-ucode/06-1e-05
+SPDXID: SPDXRef-intel-microcode-file-19
+FileChecksum: SHA1: 801cd44b6277fae0792aa77f24d784f47d922418
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-19
+
+
+FileName: /lib/firmware/intel-ucode/06-25-02
+SPDXID: SPDXRef-intel-microcode-file-20
+FileChecksum: SHA1: 4e97b45a38bdfce2a1095e34d8bcd5ca92a0401a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-20
+
+
+FileName: /lib/firmware/intel-ucode/06-25-05
+SPDXID: SPDXRef-intel-microcode-file-21
+FileChecksum: SHA1: 48709485cbd2729e96d8d08ecc3177ad57fd952b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-21
+
+
+FileName: /lib/firmware/intel-ucode/06-2a-07
+SPDXID: SPDXRef-intel-microcode-file-22
+FileChecksum: SHA1: 6883eebca7765a4c3efc9de0ed1562415e43f435
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-22
+
+
+FileName: /lib/firmware/intel-ucode/06-2c-02
+SPDXID: SPDXRef-intel-microcode-file-23
+FileChecksum: SHA1: 91ebd734b163972b054c1d267f036b722bd7e353
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-23
+
+
+FileName: /lib/firmware/intel-ucode/06-2d-06
+SPDXID: SPDXRef-intel-microcode-file-24
+FileChecksum: SHA1: 2f3fb1cb595b706557082416c3ed832bab94746e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-24
+
+
+FileName: /lib/firmware/intel-ucode/06-2d-07
+SPDXID: SPDXRef-intel-microcode-file-25
+FileChecksum: SHA1: 4512c8149e63e5ed15f45005d7fb5be0041f66f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-25
+
+
+FileName: /lib/firmware/intel-ucode/06-2e-06
+SPDXID: SPDXRef-intel-microcode-file-26
+FileChecksum: SHA1: 340b4b3dbda0e02a1ed80c77f24840df995d6a81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-26
+
+
+FileName: /lib/firmware/intel-ucode/06-2f-02
+SPDXID: SPDXRef-intel-microcode-file-27
+FileChecksum: SHA1: bfd0a9a043ba177f7555221faf31cda2433fd895
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-27
+
+
+FileName: /lib/firmware/intel-ucode/06-37-08
+SPDXID: SPDXRef-intel-microcode-file-28
+FileChecksum: SHA1: e5a1b302c62673206b3df612bc42096dfc0d9d25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-28
+
+
+FileName: /lib/firmware/intel-ucode/06-37-09
+SPDXID: SPDXRef-intel-microcode-file-29
+FileChecksum: SHA1: 54c6ce0ae6c688bc44cf76ff8a9bf7682fa3693d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-29
+
+
+FileName: /lib/firmware/intel-ucode/06-3a-09.initramfs
+SPDXID: SPDXRef-intel-microcode-file-30
+FileChecksum: SHA1: 640fc9a7ad3bff48801a37889825d688b8b70ace
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-30
+
+
+FileName: /lib/firmware/intel-ucode/06-3c-03.initramfs
+SPDXID: SPDXRef-intel-microcode-file-31
+FileChecksum: SHA1: 9d827a9fb2074a62a3cb006c664cf6aedf531b4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-31
+
+
+FileName: /lib/firmware/intel-ucode/06-3d-04.initramfs
+SPDXID: SPDXRef-intel-microcode-file-32
+FileChecksum: SHA1: 1c9e138ea7f661a9c395114ad2b1657b93396b85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-32
+
+
+FileName: /lib/firmware/intel-ucode/06-3e-04
+SPDXID: SPDXRef-intel-microcode-file-33
+FileChecksum: SHA1: 6990af730d7cb701e8b009ed7a7091fca16cce67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-33
+
+
+FileName: /lib/firmware/intel-ucode/06-3e-06
+SPDXID: SPDXRef-intel-microcode-file-34
+FileChecksum: SHA1: fff2df19f5f9f5fd873ec7e8ca3c4ebe20f25b3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-34
+
+
+FileName: /lib/firmware/intel-ucode/06-3e-07
+SPDXID: SPDXRef-intel-microcode-file-35
+FileChecksum: SHA1: c1838a65ceb1894005b36f6071ff6746ad71b32e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-35
+
+
+FileName: /lib/firmware/intel-ucode/06-3f-02.initramfs
+SPDXID: SPDXRef-intel-microcode-file-36
+FileChecksum: SHA1: 1488beb689b5ec153a68280c2841c0054b44d3f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-36
+
+
+FileName: /lib/firmware/intel-ucode/06-3f-04.initramfs
+SPDXID: SPDXRef-intel-microcode-file-37
+FileChecksum: SHA1: 8592b147abc0356e7a8f199e3e5f8b903462d6fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-37
+
+
+FileName: /lib/firmware/intel-ucode/06-45-01.initramfs
+SPDXID: SPDXRef-intel-microcode-file-38
+FileChecksum: SHA1: 930eff4fc25119dab589e53de4253c18f7d3b2af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-38
+
+
+FileName: /lib/firmware/intel-ucode/06-46-01.initramfs
+SPDXID: SPDXRef-intel-microcode-file-39
+FileChecksum: SHA1: c7bc12ec0ca93570c5316eb4b0cf3cc6cc6024a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-39
+
+
+FileName: /lib/firmware/intel-ucode/06-47-01.initramfs
+SPDXID: SPDXRef-intel-microcode-file-40
+FileChecksum: SHA1: 2a074edebbef899c98bba5d5d862c71ba5506262
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-40
+
+
+FileName: /lib/firmware/intel-ucode/06-4c-03
+SPDXID: SPDXRef-intel-microcode-file-41
+FileChecksum: SHA1: cb8dc0a17d4f48cd338c7ff57ac96c774798be0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-41
+
+
+FileName: /lib/firmware/intel-ucode/06-4c-04
+SPDXID: SPDXRef-intel-microcode-file-42
+FileChecksum: SHA1: 40ff409f5f1567efff00668e64811be9ba100953
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-42
+
+
+FileName: /lib/firmware/intel-ucode/06-4d-08
+SPDXID: SPDXRef-intel-microcode-file-43
+FileChecksum: SHA1: 8dafa8db9c92f0b20bdefe0a6235e79f011093c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-43
+
+
+FileName: /lib/firmware/intel-ucode/06-4e-03
+SPDXID: SPDXRef-intel-microcode-file-44
+FileChecksum: SHA1: 37475bac70457ba8df2c1a32bba81bd7bd27d5e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-44
+
+
+FileName: /lib/firmware/intel-ucode/06-4f-01.initramfs
+SPDXID: SPDXRef-intel-microcode-file-45
+FileChecksum: SHA1: 7776ea6786e6e4c03d53acb39d7e2d13f014a068
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-45
+
+
+FileName: /lib/firmware/intel-ucode/06-55-03
+SPDXID: SPDXRef-intel-microcode-file-46
+FileChecksum: SHA1: 87a591e251d351e3cd451acc0e07458a8f2c9fb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-46
+
+
+FileName: /lib/firmware/intel-ucode/06-55-04
+SPDXID: SPDXRef-intel-microcode-file-47
+FileChecksum: SHA1: bc67d247ad1c9a834bec5e452606db1381d6bc7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-47
+
+
+FileName: /lib/firmware/intel-ucode/06-55-05
+SPDXID: SPDXRef-intel-microcode-file-48
+FileChecksum: SHA1: b014e374f1db583589ece23f9161236161f8f78c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-48
+
+
+FileName: /lib/firmware/intel-ucode/06-55-06
+SPDXID: SPDXRef-intel-microcode-file-49
+FileChecksum: SHA1: 518d8bc1c063dc9c039a6ec5bf927b213c4b0c27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-49
+
+
+FileName: /lib/firmware/intel-ucode/06-55-07
+SPDXID: SPDXRef-intel-microcode-file-50
+FileChecksum: SHA1: 3318ca9fb7e12087a09165508bbfcb96942687b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-50
+
+
+FileName: /lib/firmware/intel-ucode/06-55-0b
+SPDXID: SPDXRef-intel-microcode-file-51
+FileChecksum: SHA1: d9a80c40bd9a7a177884e3291cdd0d4fe606c89d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-51
+
+
+FileName: /lib/firmware/intel-ucode/06-56-02.initramfs
+SPDXID: SPDXRef-intel-microcode-file-52
+FileChecksum: SHA1: 3069eba03ef7dc5d48f95c5fa01417c845fee3a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-52
+
+
+FileName: /lib/firmware/intel-ucode/06-56-03
+SPDXID: SPDXRef-intel-microcode-file-53
+FileChecksum: SHA1: 26cb19ea237677ee8094843e2819c213653bf637
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-53
+
+
+FileName: /lib/firmware/intel-ucode/06-56-04
+SPDXID: SPDXRef-intel-microcode-file-54
+FileChecksum: SHA1: 661cf4575f0e873bd0d232a56f6d693fb416a70a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-54
+
+
+FileName: /lib/firmware/intel-ucode/06-56-05
+SPDXID: SPDXRef-intel-microcode-file-55
+FileChecksum: SHA1: b8968b1ffcca8758c7a26075d87956f17c8d11f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-55
+
+
+FileName: /lib/firmware/intel-ucode/06-5c-02
+SPDXID: SPDXRef-intel-microcode-file-56
+FileChecksum: SHA1: 0052f3b549a0edbb5ac70c1cab0d8c1fcbde618b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-56
+
+
+FileName: /lib/firmware/intel-ucode/06-5c-09
+SPDXID: SPDXRef-intel-microcode-file-57
+FileChecksum: SHA1: bae7aa1ebce2247654750438584fac858de4897b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-57
+
+
+FileName: /lib/firmware/intel-ucode/06-5c-0a
+SPDXID: SPDXRef-intel-microcode-file-58
+FileChecksum: SHA1: 88e06508f1773ae781809920330f27ed7e327832
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-58
+
+
+FileName: /lib/firmware/intel-ucode/06-5e-03
+SPDXID: SPDXRef-intel-microcode-file-59
+FileChecksum: SHA1: 0683706bbbf470abbdad4b9923aa9647bfec9616
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-59
+
+
+FileName: /lib/firmware/intel-ucode/06-5f-01
+SPDXID: SPDXRef-intel-microcode-file-60
+FileChecksum: SHA1: 7dd6d49b42e836931728b72ed65c2ec077d0f39d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-60
+
+
+FileName: /lib/firmware/intel-ucode/06-66-03
+SPDXID: SPDXRef-intel-microcode-file-61
+FileChecksum: SHA1: 0f29be80bf2df0e97b1b5e08e266c8622aa2a7df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-61
+
+
+FileName: /lib/firmware/intel-ucode/06-6a-05
+SPDXID: SPDXRef-intel-microcode-file-62
+FileChecksum: SHA1: 8b108c559f05e0221b6b3e121e35738144b07499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-62
+
+
+FileName: /lib/firmware/intel-ucode/06-6a-06
+SPDXID: SPDXRef-intel-microcode-file-63
+FileChecksum: SHA1: c9be736d041a6107655b81f9706aba2aac16a1e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-63
+
+
+FileName: /lib/firmware/intel-ucode/06-7a-01
+SPDXID: SPDXRef-intel-microcode-file-64
+FileChecksum: SHA1: 4b68461fcb2fb4ebafd2b7e1a6c03c0cfd1e4a65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-64
+
+
+FileName: /lib/firmware/intel-ucode/06-7a-08
+SPDXID: SPDXRef-intel-microcode-file-65
+FileChecksum: SHA1: 6e724661afd5bbdf2be407a969efa18f98d22283
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-65
+
+
+FileName: /lib/firmware/intel-ucode/06-7e-05
+SPDXID: SPDXRef-intel-microcode-file-66
+FileChecksum: SHA1: 4e43e04eb98a17169ef6ff9e72803f23948a1868
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-66
+
+
+FileName: /lib/firmware/intel-ucode/06-8a-01
+SPDXID: SPDXRef-intel-microcode-file-67
+FileChecksum: SHA1: 1d7585e887f94b71517b12a995d8edcc7d4796e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-67
+
+
+FileName: /lib/firmware/intel-ucode/06-8c-01
+SPDXID: SPDXRef-intel-microcode-file-68
+FileChecksum: SHA1: 70753f54f5be84376bdebeb710595e4dc2f6d92f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-68
+
+
+FileName: /lib/firmware/intel-ucode/06-8c-02
+SPDXID: SPDXRef-intel-microcode-file-69
+FileChecksum: SHA1: 74ebd2987dba99f25456ce65e2e8a03fd66cbd25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-69
+
+
+FileName: /lib/firmware/intel-ucode/06-8d-01
+SPDXID: SPDXRef-intel-microcode-file-70
+FileChecksum: SHA1: f3ad7253834cd29793bb6d53940722c59dce4f35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-70
+
+
+FileName: /lib/firmware/intel-ucode/06-8e-09.initramfs
+SPDXID: SPDXRef-intel-microcode-file-71
+FileChecksum: SHA1: 182f8ea7e7c418b93998c88f37982c93d7a7a8ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-71
+
+
+FileName: /lib/firmware/intel-ucode/06-8e-0a.initramfs
+SPDXID: SPDXRef-intel-microcode-file-72
+FileChecksum: SHA1: 3c4241d0b9d1a1a1e82d03b365fdd3b843006a7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-72
+
+
+FileName: /lib/firmware/intel-ucode/06-8e-0b.initramfs
+SPDXID: SPDXRef-intel-microcode-file-73
+FileChecksum: SHA1: 79b61f034cba86e61641114bbab49ec0166c0f35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-73
+
+
+FileName: /lib/firmware/intel-ucode/06-8e-0c.initramfs
+SPDXID: SPDXRef-intel-microcode-file-74
+FileChecksum: SHA1: 11d166de440dbe9c440e90cb610ef4b9d48242b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-74
+
+
+FileName: /lib/firmware/intel-ucode/06-96-01
+SPDXID: SPDXRef-intel-microcode-file-75
+FileChecksum: SHA1: 704ef360c1d548a8e6ad709b32b80fbc4c4ba619
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-75
+
+
+FileName: /lib/firmware/intel-ucode/06-97-02
+SPDXID: SPDXRef-intel-microcode-file-76
+FileChecksum: SHA1: 41da43c4e72911c66a329c634da8c4c686497c2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-76
+
+
+FileName: /lib/firmware/intel-ucode/06-97-05
+SPDXID: SPDXRef-intel-microcode-file-77
+FileChecksum: SHA1: 41da43c4e72911c66a329c634da8c4c686497c2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-77
+
+
+FileName: /lib/firmware/intel-ucode/06-9a-03
+SPDXID: SPDXRef-intel-microcode-file-78
+FileChecksum: SHA1: 9b1ac74e2fa2c71efcb58492b0e7b7d04c30da2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-78
+
+
+FileName: /lib/firmware/intel-ucode/06-9a-04
+SPDXID: SPDXRef-intel-microcode-file-79
+FileChecksum: SHA1: 9b1ac74e2fa2c71efcb58492b0e7b7d04c30da2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-79
+
+
+FileName: /lib/firmware/intel-ucode/06-9c-00
+SPDXID: SPDXRef-intel-microcode-file-80
+FileChecksum: SHA1: 7fc9b945aa37bd91cf3759934ad0b3f136bcf29f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-80
+
+
+FileName: /lib/firmware/intel-ucode/06-9e-09.initramfs
+SPDXID: SPDXRef-intel-microcode-file-81
+FileChecksum: SHA1: 49e142da74e7298b2db738ff7dd1a9b0fa4e0c3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-81
+
+
+FileName: /lib/firmware/intel-ucode/06-9e-0a.initramfs
+SPDXID: SPDXRef-intel-microcode-file-82
+FileChecksum: SHA1: 8de1d4a80cd683bf09854c33905c69d3d7ac7730
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-82
+
+
+FileName: /lib/firmware/intel-ucode/06-9e-0b.initramfs
+SPDXID: SPDXRef-intel-microcode-file-83
+FileChecksum: SHA1: ff092c6ac8333f0abcd94f7d2e2088f31d960e62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-83
+
+
+FileName: /lib/firmware/intel-ucode/06-9e-0c.initramfs
+SPDXID: SPDXRef-intel-microcode-file-84
+FileChecksum: SHA1: 3702f21e87b75bea6f4b1ee0407b941ef31d4ad1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-84
+
+
+FileName: /lib/firmware/intel-ucode/06-9e-0d.initramfs
+SPDXID: SPDXRef-intel-microcode-file-85
+FileChecksum: SHA1: 226feaaa431eb76e734ab68efc2ea7b07aa3c7d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-85
+
+
+FileName: /lib/firmware/intel-ucode/06-a5-02
+SPDXID: SPDXRef-intel-microcode-file-86
+FileChecksum: SHA1: a3b88cad508901cce102454292c312184aac76ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-86
+
+
+FileName: /lib/firmware/intel-ucode/06-a5-03
+SPDXID: SPDXRef-intel-microcode-file-87
+FileChecksum: SHA1: 703c511fbd9443447d9e15ff2a396490a2183dc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-87
+
+
+FileName: /lib/firmware/intel-ucode/06-a5-05
+SPDXID: SPDXRef-intel-microcode-file-88
+FileChecksum: SHA1: 01ceadceae1d3e7ffe96d50461f6362c79f0df4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-88
+
+
+FileName: /lib/firmware/intel-ucode/06-a6-00
+SPDXID: SPDXRef-intel-microcode-file-89
+FileChecksum: SHA1: 9aa7ad39cc95a45c5b1cd48d30ec3594130d0698
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-89
+
+
+FileName: /lib/firmware/intel-ucode/06-a6-01
+SPDXID: SPDXRef-intel-microcode-file-90
+FileChecksum: SHA1: 5bb9bfd1aadd465a5197cb654cec58b7e23a09f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-90
+
+
+FileName: /lib/firmware/intel-ucode/06-a7-01
+SPDXID: SPDXRef-intel-microcode-file-91
+FileChecksum: SHA1: 110001d7585942df1e222ddeea05755f933e449b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-91
+
+
+FileName: /lib/firmware/intel-ucode/06-bf-02
+SPDXID: SPDXRef-intel-microcode-file-92
+FileChecksum: SHA1: 41da43c4e72911c66a329c634da8c4c686497c2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-92
+
+
+FileName: /lib/firmware/intel-ucode/06-bf-05
+SPDXID: SPDXRef-intel-microcode-file-93
+FileChecksum: SHA1: 41da43c4e72911c66a329c634da8c4c686497c2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-93
+
+
+FileName: /lib/firmware/intel-ucode/0f-03-04
+SPDXID: SPDXRef-intel-microcode-file-94
+FileChecksum: SHA1: 62170fa6ed4f02db28ff92dfaee3b883642844a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-94
+
+
+FileName: /lib/firmware/intel-ucode/0f-04-01
+SPDXID: SPDXRef-intel-microcode-file-95
+FileChecksum: SHA1: 96d4f020e5afb5f3375382a792db5c267a3b7733
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-95
+
+
+FileName: /lib/firmware/intel-ucode/0f-04-03
+SPDXID: SPDXRef-intel-microcode-file-96
+FileChecksum: SHA1: 7d807a1f4e2aff6f8de553cec81efb03699f6531
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-96
+
+
+FileName: /lib/firmware/intel-ucode/0f-04-04
+SPDXID: SPDXRef-intel-microcode-file-97
+FileChecksum: SHA1: 53f89fabb67878bd3b63459156ee7b5a97677b7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-97
+
+
+FileName: /lib/firmware/intel-ucode/0f-04-07
+SPDXID: SPDXRef-intel-microcode-file-98
+FileChecksum: SHA1: d6445ac139b1ba6cfb9297ac4f001498ac105451
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-98
+
+
+FileName: /lib/firmware/intel-ucode/0f-04-08
+SPDXID: SPDXRef-intel-microcode-file-99
+FileChecksum: SHA1: be93148d3580e522c67045c1ff1cd287e6dbfab5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-99
+
+
+FileName: /lib/firmware/intel-ucode/0f-04-09
+SPDXID: SPDXRef-intel-microcode-file-100
+FileChecksum: SHA1: 895342e1336dc1f5ce63f9a7c5c6a4de8f817a6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-100
+
+
+FileName: /lib/firmware/intel-ucode/0f-04-0a
+SPDXID: SPDXRef-intel-microcode-file-101
+FileChecksum: SHA1: a00d82daa8142b2f68925bac2d977b23345eda1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-101
+
+
+FileName: /lib/firmware/intel-ucode/0f-06-02
+SPDXID: SPDXRef-intel-microcode-file-102
+FileChecksum: SHA1: 6cfc642593798217456f0a54d22401ca09305024
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-102
+
+
+FileName: /lib/firmware/intel-ucode/0f-06-04
+SPDXID: SPDXRef-intel-microcode-file-103
+FileChecksum: SHA1: f0acbec9a8044461d66186c09f5b8ad1612db3f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-103
+
+
+FileName: /lib/firmware/intel-ucode/0f-06-05
+SPDXID: SPDXRef-intel-microcode-file-104
+FileChecksum: SHA1: 830331d24518e9dee6c14e397c89cb4e40296f60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-104
+
+
+FileName: /lib/firmware/intel-ucode/0f-06-08
+SPDXID: SPDXRef-intel-microcode-file-105
+FileChecksum: SHA1: 3161e2b47fafc31f78daa8cad2272a87b4000cc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-105
+
+
+FileName: /usr/share/doc/intel-microcode/NEWS.Debian.gz
+SPDXID: SPDXRef-intel-microcode-file-106
+FileChecksum: SHA1: a0ead3702d767648cc35203cf07fb119845720c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-106
+
+
+FileName: /usr/share/doc/intel-microcode/README.Debian.gz
+SPDXID: SPDXRef-intel-microcode-file-107
+FileChecksum: SHA1: 3f435025420371319b096598b15318dec9813411
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-107
+
+
+FileName: /usr/share/doc/intel-microcode/changelog.Debian.gz
+SPDXID: SPDXRef-intel-microcode-file-108
+FileChecksum: SHA1: 37a5b7dbd151cb701e2cccef1b739b88471bf858
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-108
+
+
+FileName: /usr/share/doc/intel-microcode/license
+SPDXID: SPDXRef-intel-microcode-file-109
+FileChecksum: SHA1: 5dd7b66947ab6a777fe7f7e298c7838baf5038a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-109
+
+
+FileName: /usr/share/doc/intel-microcode/releasenote.md.gz
+SPDXID: SPDXRef-intel-microcode-file-110
+FileChecksum: SHA1: 7d45ab604a53a71ab019b2b10f0c6dfe16865ee4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-110
+
+
+FileName: /usr/share/doc/intel-microcode/security.md
+SPDXID: SPDXRef-intel-microcode-file-111
+FileChecksum: SHA1: f9b65fa7c7f54c4483bbe4c4c84dbca21b83ecb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-111
+
+
+FileName: /usr/share/initramfs-tools/hooks/intel_microcode
+SPDXID: SPDXRef-intel-microcode-file-112
+FileChecksum: SHA1: 63fac7af7a29a4c5296c51b708442acf49e9d160
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-intel-microcode CONTAINS SPDXRef-intel-microcode-file-112
+
+
+FileName: /usr/share/doc/iucode-tool/copyright
+SPDXID: SPDXRef-iucode-tool-file-0
+FileChecksum: SHA1: 12ef43800eeaec291bd1dd1a31b3df71dce6cc39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-3.0
+LicenseInfoInFile: LicenseRef-scancode-autoconf-macro-exception
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: FSFAP
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-autoconf-simple-exception
+LicenseInfoInFile: X11
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: FSFUL
+FileCopyrightText: <text>Copyright (c) 2010-2017 Henrique de Moraes Holschuh Comment
+Copyright (c) 2000-2006 Tigran Aivazian
+Copyright (c) 2006 Shaohua Li
+Copyright (c) 1994-2016 Free Software Foundation, Inc.
+Copyright (c) 2010-2017 Henrique de Moraes Holschuh
+Copyright 2010-2017 Henrique de Moraes Holschuh Comment
+Copyright (c) 2000-2006 Tigran Aivazian
+Copyright (c) 2006 Shaohua Li
+Copyright 1994-2007 Free Software Foundation, Inc.
+Copyright Free Software Foundation, Inc.
+Copyright Free Software Foundation, Inc.
+Copyright Free Software Foundation, Inc.
+Copyright Free Software Foundation, Inc.
+Copyright Maarten Bosmans <mkbosmans@gmail.com> Guido U. Draheim <guidod@gmx.de>
+Copyright Mike Frysinger <vapier@gentoo.org>
+Copyright X Consortium
+</text>
+Relationship: SPDXRef-iucode-tool CONTAINS SPDXRef-iucode-tool-file-0
+
+
+FileName: /usr/sbin/iucode_tool
+SPDXID: SPDXRef-iucode-tool-file-1
+FileChecksum: SHA1: 31521c74fb9d4836a0dc0f4e2449ea9641def484
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-iucode-tool CONTAINS SPDXRef-iucode-tool-file-1
+
+
+FileName: /usr/share/doc/iucode-tool/NEWS.gz
+SPDXID: SPDXRef-iucode-tool-file-2
+FileChecksum: SHA1: 1ad08d920ec1af277cb0ebcc1597a549a19ac93d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-iucode-tool CONTAINS SPDXRef-iucode-tool-file-2
+
+
+FileName: /usr/share/doc/iucode-tool/README.gz
+SPDXID: SPDXRef-iucode-tool-file-3
+FileChecksum: SHA1: b4b9b30d3494f8c12ac954f083d02c979141bdb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-iucode-tool CONTAINS SPDXRef-iucode-tool-file-3
+
+
+FileName: /usr/share/doc/iucode-tool/TODO
+SPDXID: SPDXRef-iucode-tool-file-4
+FileChecksum: SHA1: 50d7bfd22d0d6455d350b848c6c960c3db3dabe7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-iucode-tool CONTAINS SPDXRef-iucode-tool-file-4
+
+
+FileName: /usr/share/doc/iucode-tool/changelog.Debian.gz
+SPDXID: SPDXRef-iucode-tool-file-5
+FileChecksum: SHA1: 765278b8872a3e12dc64b1c17e5a73b22da2cd7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-iucode-tool CONTAINS SPDXRef-iucode-tool-file-5
+
+
+FileName: /usr/share/man/man8/iucode_tool.8.gz
+SPDXID: SPDXRef-iucode-tool-file-6
+FileChecksum: SHA1: 6365625266ec68355016a2eb581bed69799b7b7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-iucode-tool CONTAINS SPDXRef-iucode-tool-file-6
+
+
+FileName: /usr/sbin/iucode-tool
+SPDXID: SPDXRef-iucode-tool-file-7
+FileChecksum: SHA1: 31521c74fb9d4836a0dc0f4e2449ea9641def484
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-iucode-tool CONTAINS SPDXRef-iucode-tool-file-7
+
+
+FileName: /usr/share/man/man8/iucode-tool.8.gz
+SPDXID: SPDXRef-iucode-tool-file-8
+FileChecksum: SHA1: 6365625266ec68355016a2eb581bed69799b7b7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-iucode-tool CONTAINS SPDXRef-iucode-tool-file-8
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-marvell-firmware
+LicenseName: Marvell Firmware License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/marvell-firmware.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/marvell-firmware.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-autoconf-macro-exception
+LicenseName: Autoconf macro exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-macro-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-macro-exception.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-autoconf-simple-exception
+LicenseName: Autoconf simple exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+
+

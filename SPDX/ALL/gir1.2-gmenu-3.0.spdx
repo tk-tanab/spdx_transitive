@@ -1,0 +1,89 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gir1.2-gmenu-3.0_3.36.0-1ubuntu3-5ba6363f-a4da-5a93-be34-0c5c376b7608
+DocumentName: gir1.2-gmenu-3.0_3.36.0-1ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libgnome-menu-3-0 http://spdx.org/spdxdocs/libgnome-menu-3-0_3.36.0-1ubuntu3-72c932fe-a18d-57a0-bacf-455a1f0beb17 SHA1: 2d94e919fa330c5c6caaea4f9b705b9094d250b5
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gir1.2-gmenu-3.0
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:06:59Z
+
+
+## Package
+
+PackageName: gir1.2-gmenu-3.0
+PackageVersion: 3.36.0-1ubuntu3
+SPDXID: SPDXRef-gir1.2-gmenu-3.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c27f3600003141993556276f091831cac7383356
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Copyright (c) 2002-2005 Red Hat, Inc.
+Copyright (c) 2006 Mark McLoughlin
+Copyright (c) 2007 Sebastian Droge
+Copyright (c) 2008 Novell, Inc.
+Copyright (c) 2008 Vincent Untz
+</text>
+PackageComment: <text>GObject introspection data for the GNOME menu library
+ This package contains introspection data for GNOME menu, an
+ implementation of the desktop menu specification from freedesktop.org.
+ .
+ It can be used by languages supporting dynamic bindings with
+ the GIRepository format.</text>
+Relationship: SPDXRef-gir1.2-gmenu-3.0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-glib-2.0
+Relationship: SPDXRef-gir1.2-gmenu-3.0 DEPENDS_ON DocumentRef-libgnome-menu-3-0:SPDXRef-libgnome-menu-3-0
+
+
+## File
+
+FileName: /usr/share/doc/gir1.2-gmenu-3.0/copyright
+SPDXID: SPDXRef-gir1.2-gmenu-3.0-file-0
+FileChecksum: SHA1: ef624734e983eaa1151a4b3b56ea3211fe2601fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 2008 Vincent Untz
+Copyright (c) 2008 Novell, Inc.
+Copyright (c) 2007 Sebastian Droge
+Copyright (c) 2006 Mark McLoughlin
+Copyright (c) 2002-2005 Red Hat, Inc.
+</text>
+Relationship: SPDXRef-gir1.2-gmenu-3.0 CONTAINS SPDXRef-gir1.2-gmenu-3.0-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/girepository-1.0/GMenu-3.0.typelib
+SPDXID: SPDXRef-gir1.2-gmenu-3.0-file-1
+FileChecksum: SHA1: c0bed449a6c2859d6dc1f35e2ea97130b3043c74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gir1.2-gmenu-3.0 CONTAINS SPDXRef-gir1.2-gmenu-3.0-file-1
+
+
+FileName: /usr/share/doc/gir1.2-gmenu-3.0/changelog.Debian.gz
+SPDXID: SPDXRef-gir1.2-gmenu-3.0-file-2
+FileChecksum: SHA1: 3f37320cb08f031a3360fa4b3d07ac1580f5e60c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gir1.2-gmenu-3.0 CONTAINS SPDXRef-gir1.2-gmenu-3.0-file-2
+
+
+## Extracted License
+

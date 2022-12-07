@@ -1,0 +1,84 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-telu_2:1.3-511324c0-8cd0-5ea0-bdc6-7cac7726fa56
+DocumentName: fonts-telu_2:1.3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-teluguvijayam http://spdx.org/spdxdocs/fonts-teluguvijayam_2.1-1-6bdb107b-36f0-53c0-8749-14c86e4f0156 SHA1: 370489a80cb2000262f1d317d90009fe7e826782
+ExternalDocumentRef: DocumentRef-fonts-lohit-telu http://spdx.org/spdxdocs/fonts-lohit-telu_2.5.5-2build1-815bf7a3-4c40-5048-94c3-5a3eed5117c8 SHA1: e61cf41e4128102fc68b12aed1022f7e6d875633
+ExternalDocumentRef: DocumentRef-fonts-telu-extra http://spdx.org/spdxdocs/fonts-telu-extra_2.0-5-b8332b99-8056-5383-b50c-b55ec2fac616 SHA1: 09fe5f584db3f1ff85c4780ef7d85a5603a79b4a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-telu
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:58:08Z
+
+
+## Package
+
+PackageName: fonts-telu
+PackageVersion: 2:1.3
+SPDXID: SPDXRef-fonts-telu
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: bf7aa45d5b5974b2ff9be5c545f9efba2ad934bd
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: ISC
+PackageCopyrightText: <text>Copyright 2011-2012, Vasudev Kamath <kamathvasudev@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Meta package to install all Telugu fonts
+ This package allows you to install all available Telugu fonts
+ in Debian.
+ .
+ This package installs following font packages:
+   * fonts-lohit-telu
+   * fonts-telu-extra</text>
+Relationship: SPDXRef-fonts-telu DEPENDS_ON DocumentRef-fonts-lohit-telu:SPDXRef-fonts-lohit-telu
+Relationship: SPDXRef-fonts-telu DEPENDS_ON DocumentRef-fonts-telu-extra:SPDXRef-fonts-telu-extra
+Relationship: SPDXRef-fonts-telu DEPENDS_ON DocumentRef-fonts-teluguvijayam:SPDXRef-fonts-teluguvijayam
+
+
+## File
+
+FileName: /usr/share/doc/fonts-telu/copyright
+SPDXID: SPDXRef-fonts-telu-file-0
+FileChecksum: SHA1: f1883ee57c015b34fc5202c3b7da409db447bfd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2011-2012, Vasudev Kamath <kamathvasudev@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-telu CONTAINS SPDXRef-fonts-telu-file-0
+
+
+FileName: /usr/share/doc/fonts-telu/README.Debian
+SPDXID: SPDXRef-fonts-telu-file-1
+FileChecksum: SHA1: 63b8f58e471f1bd7df8fa05709f52244bd1e7c19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-telu CONTAINS SPDXRef-fonts-telu-file-1
+
+
+FileName: /usr/share/doc/fonts-telu/changelog.gz
+SPDXID: SPDXRef-fonts-telu-file-2
+FileChecksum: SHA1: d0512e9fd3f3dea9ec8ede9b4eec6a22a2342d05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-telu CONTAINS SPDXRef-fonts-telu-file-2
+
+
+## Extracted License
+

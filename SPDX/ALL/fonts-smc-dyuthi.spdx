@@ -1,0 +1,130 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-smc-dyuthi_3.0.2-2-0fa96b3b-97e4-53bf-8bd3-5dc286c146f1
+DocumentName: fonts-smc-dyuthi_3.0.2-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-smc-dyuthi
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:55:36Z
+
+
+## Package
+
+PackageName: fonts-smc-dyuthi
+PackageVersion: 3.0.2-2
+SPDXID: SPDXRef-fonts-smc-dyuthi
+PackageHomePage: https://smc.org.in
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f8b318adcc3c95dec73e1a87110bb3e63196d4d8
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2007-2016 Hiran Venugopalan 2007-2016 Hussain K
+Copyright 2014 Rajeesh K
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+Copyright 2016 Santhosh Thottingal 2016 Swathanthra Malayalam Computing
+Copyright 2019 Swathanthra Malayalam Computing
+</text>
+PackageComment: <text>Dyuthi malayalam font
+ This package provides Dyuthi font for Malayalam script
+ which is primarily used in the state of Kerala. The font is
+ developed by SMC community</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-smc-dyuthi/copyright
+SPDXID: SPDXRef-fonts-smc-dyuthi-file-0
+FileChecksum: SHA1: 96c3139ccffdb1212c0d6ddef5bcaaaddfb0135d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2016 Santhosh Thottingal 2016 Swathanthra Malayalam Computing
+Copyright 2007-2016 Hiran Venugopalan 2007-2016 Hussain K
+Copyright 2014 Rajeesh K
+Copyright 2019 Swathanthra Malayalam Computing
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+</text>
+Relationship: SPDXRef-fonts-smc-dyuthi CONTAINS SPDXRef-fonts-smc-dyuthi-file-0
+
+
+FileName: /etc/fonts/conf.avail/67-smc-dyuthi.conf
+SPDXID: SPDXRef-fonts-smc-dyuthi-file-1
+FileChecksum: SHA1: 36cd6b191740ad0cbfd2c401cd4a75bc6a3aaa0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-dyuthi CONTAINS SPDXRef-fonts-smc-dyuthi-file-1
+
+
+FileName: /usr/share/doc/fonts-smc-dyuthi/README.md
+SPDXID: SPDXRef-fonts-smc-dyuthi-file-2
+FileChecksum: SHA1: a0ba84ba6c96f77057b3ef3801eb5679935e4df6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-dyuthi CONTAINS SPDXRef-fonts-smc-dyuthi-file-2
+
+
+FileName: /usr/share/doc/fonts-smc-dyuthi/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-smc-dyuthi-file-3
+FileChecksum: SHA1: ec891ccb4e14f88b8667f2a972422f55165f03f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-dyuthi CONTAINS SPDXRef-fonts-smc-dyuthi-file-3
+
+
+FileName: /usr/share/fonts/truetype/malayalam/Dyuthi-Regular.ttf
+SPDXID: SPDXRef-fonts-smc-dyuthi-file-4
+FileChecksum: SHA1: d0a36f8e655730b80ec139f9d745fa9a2affcdbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-dyuthi CONTAINS SPDXRef-fonts-smc-dyuthi-file-4
+
+
+FileName: /usr/share/metainfo/in.org.smc.dyuthi.metainfo.xml
+SPDXID: SPDXRef-fonts-smc-dyuthi-file-5
+FileChecksum: SHA1: 4c218a499a0ea31db87133f14860d56014deba5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-dyuthi CONTAINS SPDXRef-fonts-smc-dyuthi-file-5
+
+
+FileName: /etc/fonts/conf.d/67-smc-dyuthi.conf
+SPDXID: SPDXRef-fonts-smc-dyuthi-file-6
+FileChecksum: SHA1: 36cd6b191740ad0cbfd2c401cd4a75bc6a3aaa0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-dyuthi CONTAINS SPDXRef-fonts-smc-dyuthi-file-6
+
+
+## Extracted License
+

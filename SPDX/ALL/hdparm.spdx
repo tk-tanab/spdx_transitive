@@ -1,0 +1,245 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/hdparm_9.60+ds-1build3-8254a6ac-f438-5d4a-b57f-ac4733d271c5
+DocumentName: hdparm_9.60+ds-1build3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-powermgmt-base http://spdx.org/spdxdocs/powermgmt-base_1.36-8a6309f0-db69-5130-ac46-5dc17bd2deeb SHA1: 6dd949d2b70105ad810f352366359dcb04b02699
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hdparm
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:24:56Z
+
+
+## Package
+
+PackageName: hdparm
+PackageVersion: 9.60+ds-1build3
+SPDXID: SPDXRef-hdparm
+PackageHomePage: http://sourceforge.net/projects/hdparm/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: be672228a6e8ae90cb2a22ba019d57f8e8a43fc0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-hdparm
+PackageCopyrightText: <text>(c) 2000-2002 Massachusetts Institute of Technology
+(c) 2001 Christopher L Cheney <ccheney@debian.org>
+Copyright (c) 2016 Alex Mestiashvili <mestia@debian.org>
+Copyright 2004 Thomas Fritzsche <tf@noto.de> 2006,2008 Thomas Orgis <thomas@orgis.org>
+Copyright 2006-2010 Mark Lord <mlord@pobox.com>
+Copyright 2008 Mark Lord <mlord@pobox.com> 2008 EMC Corporation
+Copyright 2009 Jan Friesse <jfriesse@gmail.com>
+Copyright 2010-2012 Chris Caputo
+</text>
+PackageComment: <text>tune hard disk parameters for high performance
+ Get/set device parameters for Linux SATA/IDE drives.
+ Provides a command line interface to various kernel interfaces supported by
+ the Linux SATA/PATA/SAS "libata" subsystem and the older IDE driver subsystem.
+ Many newer (2008 and later) USB drive enclosures now also support "SAT"
+ (SCSI-ATA Command Translation) and therefore may also work with hdparm.</text>
+Relationship: SPDXRef-hdparm DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-hdparm DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+Relationship: SPDXRef-hdparm DEPENDS_ON DocumentRef-powermgmt-base:SPDXRef-powermgmt-base
+
+
+## File
+
+FileName: /usr/share/doc/hdparm/copyright
+SPDXID: SPDXRef-hdparm-file-0
+FileChecksum: SHA1: b32183b7ab149468d30ad7830f971118c3ea3ebb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: LicenseRef-scancode-hdparm
+FileCopyrightText: <text>Copyright 2006-2010 Mark Lord <mlord@pobox.com>
+Copyright 2004 Thomas Fritzsche <tf@noto.de> 2006,2008 Thomas Orgis <thomas@orgis.org>
+Copyright 2008 Mark Lord <mlord@pobox.com> 2008 EMC Corporation
+Copyright 2009 Jan Friesse <jfriesse@gmail.com>
+Copyright 2010-2012 Chris Caputo
+Copyright (c) 2016 Alex Mestiashvili <mestia@debian.org>
+(c) 2001 Christopher L Cheney <ccheney@debian.org>
+(c) 2000-2002 Massachusetts Institute of Technology
+</text>
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-0
+
+
+FileName: /etc/hdparm.conf
+SPDXID: SPDXRef-hdparm-file-1
+FileChecksum: SHA1: 1d0747191189db2e0c75e2506cf33ea6d78e95d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-1
+
+
+FileName: /lib/hdparm/hdparm-functions
+SPDXID: SPDXRef-hdparm-file-2
+FileChecksum: SHA1: 6183ede66fb72dc7cb5a5e7c162c3d737fe0bcfc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-2
+
+
+FileName: /lib/systemd/system-sleep/hdparm
+SPDXID: SPDXRef-hdparm-file-3
+FileChecksum: SHA1: 08d69154f1588c3d9884f987f6bc5cbe20203189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-3
+
+
+FileName: /lib/udev/hdparm
+SPDXID: SPDXRef-hdparm-file-4
+FileChecksum: SHA1: 6569bae0a5ee1f7f678d26b9fcecc3fac7bba38a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-4
+
+
+FileName: /lib/udev/rules.d/85-hdparm.rules
+SPDXID: SPDXRef-hdparm-file-5
+FileChecksum: SHA1: ae82553b39f83a6ccb018b21a5b47111a97a64c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-5
+
+
+FileName: /sbin/hdparm
+SPDXID: SPDXRef-hdparm-file-6
+FileChecksum: SHA1: 2991595a4398edb5e0f6fe175202e3bd97649f71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-6
+
+
+FileName: /usr/lib/pm-utils/power.d/95hdparm-apm
+SPDXID: SPDXRef-hdparm-file-7
+FileChecksum: SHA1: dd5bf1d1db4e9778a53b3734a7ff9fe3b554a623
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-7
+
+
+FileName: /usr/share/doc/hdparm/README.Debian
+SPDXID: SPDXRef-hdparm-file-8
+FileChecksum: SHA1: 04eaa6aeba467e340f96e76facb686251b01cc34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-8
+
+
+FileName: /usr/share/doc/hdparm/README.acoustic
+SPDXID: SPDXRef-hdparm-file-9
+FileChecksum: SHA1: a42ace5f8fa0383c13df5e756a19e00b512decd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-9
+
+
+FileName: /usr/share/doc/hdparm/TODO
+SPDXID: SPDXRef-hdparm-file-10
+FileChecksum: SHA1: 538a61c2bfa43338d234e2aa7a5b18b03904c845
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-10
+
+
+FileName: /usr/share/doc/hdparm/changelog.Debian.gz
+SPDXID: SPDXRef-hdparm-file-11
+FileChecksum: SHA1: b5368dfe21353086c0abc889585ef093a6279fd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-11
+
+
+FileName: /usr/share/doc/hdparm/contrib/fix_standby.c.gz
+SPDXID: SPDXRef-hdparm-file-12
+FileChecksum: SHA1: bdaf4d715c73e11559d591c71ff0067504973770
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-12
+
+
+FileName: /usr/share/doc/hdparm/wiper/README.txt.gz
+SPDXID: SPDXRef-hdparm-file-13
+FileChecksum: SHA1: 5e4b8ec019cad7dfb16ad6c7d4b9f593d4a5c2a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-13
+
+
+FileName: /usr/share/doc/hdparm/wiper/wiper.sh.gz
+SPDXID: SPDXRef-hdparm-file-14
+FileChecksum: SHA1: 0c11cbdde4fa970b8333b834dcb3a8f57b1f9216
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-14
+
+
+FileName: /usr/share/man/man5/hdparm.conf.5.gz
+SPDXID: SPDXRef-hdparm-file-15
+FileChecksum: SHA1: a3c22668ebf4b4690988cca7a58408f6afa9358d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-15
+
+
+FileName: /usr/share/man/man8/hdparm.8.gz
+SPDXID: SPDXRef-hdparm-file-16
+FileChecksum: SHA1: 3e175b9a7f1bddd835d2a3eb357f5f75bb600a6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-16
+
+
+FileName: /usr/lib/pm-utils/sleep.d/95hdparm-apm
+SPDXID: SPDXRef-hdparm-file-17
+FileChecksum: SHA1: dd5bf1d1db4e9778a53b3734a7ff9fe3b554a623
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hdparm CONTAINS SPDXRef-hdparm-file-17
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-hdparm
+LicenseName: HDPARM License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/hdparm.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/hdparm.yml
+</text>
+
+

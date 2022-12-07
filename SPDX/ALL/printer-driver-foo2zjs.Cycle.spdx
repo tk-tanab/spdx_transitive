@@ -1,0 +1,1179 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/printer-driver-foo2zjs_20200505dfsg0-2ubuntu2-71cc8573-e1e0-5301-aab0-4c77efa81d8f
+DocumentName: printer-driver-foo2zjs_20200505dfsg0-2ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-mscompress http://spdx.org/spdxdocs/mscompress_0.4-9build1-d6d62edb-fbf2-5875-ba71-96aef8d8d053 SHA1: 66ac270869d9f6f5280af5eebd21992c7382f07f
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-dc http://spdx.org/spdxdocs/dc_1.07.1-3build1-1849b6c9-d444-575f-8d53-10b2f93d27bc SHA1: 5b2c7169c3195037bd1d4eeeda1dee0869125b55
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-printer-driver-foo2zjs
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:21:41Z
+
+
+## Package
+
+PackageName: printer-driver-foo2zjs
+PackageVersion: 20200505dfsg0-2ubuntu2
+SPDXID: SPDXRef-printer-driver-foo2zjs
+PackageHomePage: http://foo2zjs.rkkda.com/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f183c85e7b45d841521f45250092551ec98cc0d2
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LLVM-exception
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-cups
+PackageCopyrightText: <text>Copyright 1993-2000 Easy Software
+Copyright 1995-2008 Markus Kuhn
+Copyright 1997-2006 by Easy Software
+Copyright 1998-2007 Marti Maria 1994-1996 SunSoft, Inc.
+Copyright 2001 Paul Laufer
+Copyright 2003-2005 Chris Lawrence <lawrencc@debian.org> 2005-2007 Steffen Joeris <white@debian.org> 2007 Luca Bedogni <me@lucabedogni.it> 2007-2009 Michael Koch <konqueror@gmx.de> 2008-2011 Luca Capello <luca@pca.it> 2011-2013 Didier Raboud <odyx@debian.org>
+Copyright 2006-2013 Rick Richardson <rick.richardson@comcast.net>
+Copyright 2011-2012 Rick Richardson <rick.richardson@comcast.net> 2011-2012 Peter Korf <peter@niendo.de>
+</text>
+PackageComment: <text>printer driver for ZjStream-based printers
+ foo2zjs is an open source printer driver for printers that use the
+ Zenographics ZjStream wire protocol for their print data, such as the
+ Minolta magicolor 2200/2300/2430 DL, Minolta Color PageWorks/Pro L and
+ HP LaserJet 1000/1005/1018/1020/1022. These printers are often
+ erroneously referred to as "winprinters" or "GDI printers".
+ .
+ This package provides the following drivers: foo2hblp2, foo2hiperc,
+ foo2hp, foo2lava, foo2oak, foo2qpdl, foo2slx, foo2xqx, foo2zjs.
+ .
+ The psutils package is needed to enable n-up printing support.</text>
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-filters
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-dc:SPDXRef-dc
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-liblcms2-utils
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON SPDXRef-printer-driver-foo2zjs-common
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcups2
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjbig0
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-mscompress:SPDXRef-mscompress
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-client
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-unzip
+Relationship: SPDXRef-printer-driver-foo2zjs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-wget
+
+
+PackageName: printer-driver-foo2zjs-common
+PackageVersion: 20200505dfsg0-2ubuntu2
+SPDXID: SPDXRef-printer-driver-foo2zjs-common
+PackageHomePage: http://foo2zjs.rkkda.com/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0d87ec16b76e12347e124ca07fccdcf98e295a48
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LLVM-exception
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-cups
+PackageCopyrightText: <text>Copyright 1993-2000 Easy Software
+Copyright 1995-2008 Markus Kuhn
+Copyright 1997-2006 by Easy Software
+Copyright 1998-2007 Marti Maria 1994-1996 SunSoft, Inc.
+Copyright 2001 Paul Laufer
+Copyright 2003-2005 Chris Lawrence <lawrencc@debian.org> 2005-2007 Steffen Joeris <white@debian.org> 2007 Luca Bedogni <me@lucabedogni.it> 2007-2009 Michael Koch <konqueror@gmx.de> 2008-2011 Luca Capello <luca@pca.it> 2011-2013 Didier Raboud <odyx@debian.org>
+Copyright 2006-2013 Rick Richardson <rick.richardson@comcast.net>
+Copyright 2011-2012 Rick Richardson <rick.richardson@comcast.net> 2011-2012 Peter Korf <peter@niendo.de>
+</text>
+PackageComment: <text>printer driver for ZjStream-based printers - common files
+ foo2zjs is an open source printer driver for printers that use the
+ Zenographics ZjStream wire protocol for their print data, such as the
+ Minolta magicolor 2200/2300/2430 DL, Minolta Color PageWorks/Pro L and
+ HP LaserJet 1000/1005/1018/1020/1022. These printers are often
+ erroneously referred to as "winprinters" or "GDI printers".
+ .
+ This package contains the architecture-independent files for
+ printer-driver-foo2zjs.</text>
+Relationship: SPDXRef-printer-driver-foo2zjs-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-printer-driver-foo2zjs-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xz-utils
+Relationship: SPDXRef-printer-driver-foo2zjs-common DEPENDS_ON SPDXRef-printer-driver-foo2zjs
+
+
+## File
+
+FileName: /usr/share/doc/printer-driver-foo2zjs/copyright
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-0
+FileChecksum: SHA1: b1448f3b6ca102244f7b4afa11be9e4bb63422a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-cups
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LLVM-exception
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2006-2013 Rick Richardson <rick.richardson@comcast.net>
+Copyright 1993-2000 Easy Software
+Copyright 2011-2012 Rick Richardson <rick.richardson@comcast.net> 2011-2012 Peter Korf <peter@niendo.de>
+Copyright 2001 Paul Laufer
+Copyright 1995-2008 Markus Kuhn
+Copyright 1997-2006 by Easy Software
+Copyright 1998-2007 Marti Maria 1994-1996 SunSoft, Inc.
+Copyright 2003-2005 Chris Lawrence <lawrencc@debian.org> 2005-2007 Steffen Joeris <white@debian.org> 2007 Luca Bedogni <me@lucabedogni.it> 2007-2009 Michael Koch <konqueror@gmx.de> 2008-2011 Luca Capello <luca@pca.it> 2011-2013 Didier Raboud <odyx@debian.org>
+</text>
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-0
+
+
+FileName: /lib/udev/rules.d/85-hplj10xx.rules
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-1
+FileChecksum: SHA1: 3d4182dc1b0bdffff0de0c131349e9b4094b9b27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-1
+
+
+FileName: /usr/bin/arm2hpdl
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-2
+FileChecksum: SHA1: 44d5ccc3aff0b9d9da0b9ffaf04f2d4cd30e9f59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-2
+
+
+FileName: /usr/bin/ddstdecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-3
+FileChecksum: SHA1: f61cc00bf55d84d9ca277fb6b1810c7fcc1525da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-3
+
+
+FileName: /usr/bin/foo2ddst
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-4
+FileChecksum: SHA1: dc326e1afb896f498c99b79cc525bf858493e690
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-4
+
+
+FileName: /usr/bin/foo2hbpl2
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-5
+FileChecksum: SHA1: 701c32f40aa309b6a94482dd301a61cac968ca2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-5
+
+
+FileName: /usr/bin/foo2hiperc
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-6
+FileChecksum: SHA1: d23b6f5c7776ebcae3fc735ee775329c1f86f3e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-6
+
+
+FileName: /usr/bin/foo2hp
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-7
+FileChecksum: SHA1: 322b7889d12bd27a29bf74476a9f8e856cbc6be0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-7
+
+
+FileName: /usr/bin/foo2lava
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-8
+FileChecksum: SHA1: b6d097fb9aac6a7657b47614b51938a51a70781e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-8
+
+
+FileName: /usr/bin/foo2oak
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-9
+FileChecksum: SHA1: 14f962089863cf75504d635bf5ef1ff7052ff7ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-9
+
+
+FileName: /usr/bin/foo2qpdl
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-10
+FileChecksum: SHA1: 17a89d1cebe93f5fc836d0108243fb626bad7c5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-10
+
+
+FileName: /usr/bin/foo2slx
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-11
+FileChecksum: SHA1: 8f205847b6b1f4a8a687dfd05a8bd2bfa06daa60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-11
+
+
+FileName: /usr/bin/foo2xqx
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-12
+FileChecksum: SHA1: 0514833c678d75e506bcd590ea97f59c7494aeaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-12
+
+
+FileName: /usr/bin/foo2zjs
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-13
+FileChecksum: SHA1: 904d7fd1b0d842a87129edabd55aa346a44ab2ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-13
+
+
+FileName: /usr/bin/gipddecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-14
+FileChecksum: SHA1: 34fd00685f4a9c3a4ef5c17564e5198958f0aed3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-14
+
+
+FileName: /usr/bin/hbpldecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-15
+FileChecksum: SHA1: 1812b6e82c4690150bb09249a413809a8557cc40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-15
+
+
+FileName: /usr/bin/hipercdecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-16
+FileChecksum: SHA1: ff3dd2156527733d86497fca768c11ba13fdca16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-16
+
+
+FileName: /usr/bin/lavadecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-17
+FileChecksum: SHA1: 36265cb1eac42002bf8a7f3506c480bfc32f9399
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-17
+
+
+FileName: /usr/bin/oakdecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-18
+FileChecksum: SHA1: 1d2eecdfaf98b06e356183a071c4ddc61f429bc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-18
+
+
+FileName: /usr/bin/opldecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-19
+FileChecksum: SHA1: 701856fad347a4b54015c723ccb1b40ae2048676
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-19
+
+
+FileName: /usr/bin/qpdldecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-20
+FileChecksum: SHA1: 3d17fc3e953ae1d7ba57911d03335029fcb8a4f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-20
+
+
+FileName: /usr/bin/slxdecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-21
+FileChecksum: SHA1: d7e47225506b2648cac71798d021e3370251fdb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-21
+
+
+FileName: /usr/bin/usb_printerid
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-22
+FileChecksum: SHA1: 8094073fc420a0d708ae34c5227973cf0fa64362
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-22
+
+
+FileName: /usr/bin/xqxdecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-23
+FileChecksum: SHA1: 88c687cf18b1d97b5c205e862ec393d3e1a7deae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-23
+
+
+FileName: /usr/bin/zjsdecode
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-24
+FileChecksum: SHA1: 4ca6f018c8b37538b0a02b91ff1ab0c617afc232
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-24
+
+
+FileName: /usr/lib/cups/filter/command2foo2lava-pjl
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-25
+FileChecksum: SHA1: a048b1a37c0a686ee6fc6f6ce6baeec79eb4150e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-25
+
+
+FileName: /usr/share/apport/package-hooks/source_foo2zjs.py
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-26
+FileChecksum: SHA1: 6f7867084b90910183b1d72f5c669ed9a74e6378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-26
+
+
+FileName: /usr/share/doc/printer-driver-foo2zjs/NEWS.Debian.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-27
+FileChecksum: SHA1: 21371471e9f2f040be2e2915b30a286c8dc5d6d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-27
+
+
+FileName: /usr/share/doc/printer-driver-foo2zjs/README.Debian
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-28
+FileChecksum: SHA1: 68ab449ca9be3ab93200e78e537c96e330f3797a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-28
+
+
+FileName: /usr/share/doc/printer-driver-foo2zjs/changelog.Debian.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-29
+FileChecksum: SHA1: 37ad0fa3784d4eb193907050f94f99d62c40fbda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-29
+
+
+FileName: /usr/share/lintian/overrides/printer-driver-foo2zjs
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-30
+FileChecksum: SHA1: 8e950c148e2b27126a8493f8757abd969a18eab6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-30
+
+
+FileName: /lib/udev/hplj1005
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-31
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-31
+
+
+FileName: /lib/udev/hplj1018
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-32
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-32
+
+
+FileName: /lib/udev/hplj1020
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-33
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-33
+
+
+FileName: /lib/udev/hpljP1005
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-34
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-34
+
+
+FileName: /lib/udev/hpljP1006
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-35
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-35
+
+
+FileName: /lib/udev/hpljP1007
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-36
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-36
+
+
+FileName: /lib/udev/hpljP1008
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-37
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-37
+
+
+FileName: /lib/udev/hpljP1505
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-38
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-38
+
+
+FileName: /lib/udev/hpljP1505n
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-39
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-39
+
+
+FileName: /usr/bin/foo2zjs-icc2ps
+SPDXID: SPDXRef-printer-driver-foo2zjs-file-40
+FileChecksum: SHA1: 8bc76e3909fde8c55df3b7881f61607b026dcaa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs CONTAINS SPDXRef-printer-driver-foo2zjs-file-40
+
+
+FileName: /usr/share/doc/printer-driver-foo2zjs-common/copyright
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-0
+FileChecksum: SHA1: b1448f3b6ca102244f7b4afa11be9e4bb63422a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-cups
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LLVM-exception
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2006-2013 Rick Richardson <rick.richardson@comcast.net>
+Copyright 1993-2000 Easy Software
+Copyright 2011-2012 Rick Richardson <rick.richardson@comcast.net> 2011-2012 Peter Korf <peter@niendo.de>
+Copyright 2001 Paul Laufer
+Copyright 1995-2008 Markus Kuhn
+Copyright 1997-2006 by Easy Software
+Copyright 1998-2007 Marti Maria 1994-1996 SunSoft, Inc.
+Copyright 2003-2005 Chris Lawrence <lawrencc@debian.org> 2005-2007 Steffen Joeris <white@debian.org> 2007 Luca Bedogni <me@lucabedogni.it> 2007-2009 Michael Koch <konqueror@gmx.de> 2008-2011 Luca Capello <luca@pca.it> 2011-2013 Didier Raboud <odyx@debian.org>
+</text>
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-0
+
+
+FileName: /lib/udev/hplj1000
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-1
+FileChecksum: SHA1: 1451b9a246bbfb226268af8edbc96a6f303a5097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-1
+
+
+FileName: /usr/bin/foo2ddst-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-2
+FileChecksum: SHA1: b38612736d8f06f170b02f287bbe7bdc7c9ceaf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-2
+
+
+FileName: /usr/bin/foo2hbpl2-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-3
+FileChecksum: SHA1: 2c053d3d0a234c3c51a9e34773bdd59f7eb12b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-3
+
+
+FileName: /usr/bin/foo2hiperc-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-4
+FileChecksum: SHA1: 6e52d1d5d8d8c31d2d76e26780b20d72bff438dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-4
+
+
+FileName: /usr/bin/foo2hp2600-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-5
+FileChecksum: SHA1: cecab3eb1c45e30e0a0e4d8847317a1211b18189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-5
+
+
+FileName: /usr/bin/foo2lava-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-6
+FileChecksum: SHA1: 09725844e63fcbfe40cd40b5e4e621eaaadd5261
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-6
+
+
+FileName: /usr/bin/foo2oak-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-7
+FileChecksum: SHA1: 201d1c45dd44fa685ba1bc368a8fc33dc416b151
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-7
+
+
+FileName: /usr/bin/foo2qpdl-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-8
+FileChecksum: SHA1: bdaac42c9253f2e1db62e5e28adbe01fec5699cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-8
+
+
+FileName: /usr/bin/foo2slx-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-9
+FileChecksum: SHA1: ad9a9525d49a1278099ada9fa200b9a4d51de7aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-9
+
+
+FileName: /usr/bin/foo2xqx-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-10
+FileChecksum: SHA1: 1d9c846bb05ac6d382fc7b1e1cb84eebd04bb091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-10
+
+
+FileName: /usr/bin/foo2zjs-pstops
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-11
+FileChecksum: SHA1: 60941d21be2e4a726bcedf34d21a25e22da4cacd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-11
+
+
+FileName: /usr/bin/foo2zjs-wrapper
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-12
+FileChecksum: SHA1: 3a2e3107c050a7d3fe676c298c3694968ff625ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-12
+
+
+FileName: /usr/bin/printer-profile
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-13
+FileChecksum: SHA1: 756e99a886c0adcc80f2bf6806bb0b9a0591d0fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-13
+
+
+FileName: /usr/lib/cups/driver/foo2zjs
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-14
+FileChecksum: SHA1: b6168cade4641a181d23d575fdbeb5aebf65058f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-14
+
+
+FileName: /usr/sbin/getweb
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-15
+FileChecksum: SHA1: d32b28103ad849f52dcd8efd78d9f1c2d7fcd855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-15
+
+
+FileName: /usr/share/applications/hplj1020.desktop
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-16
+FileChecksum: SHA1: a29419a946f9b88d51b7dc6cafd02251ff984267
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-16
+
+
+FileName: /usr/share/cups/ppd-updaters/printer-driver-foo2zjs-common.ppd-updater
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-17
+FileChecksum: SHA1: 11731b2376ce3eef9144c34ca1b564a9a7a9b838
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-17
+
+
+FileName: /usr/share/doc/printer-driver-foo2zjs/README.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-18
+FileChecksum: SHA1: a28789c4aa7dede50d691507ba799a12e1031920
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-18
+
+
+FileName: /usr/share/doc/printer-driver-foo2zjs/manual.pdf
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-19
+FileChecksum: SHA1: 7f0fe51f89ed118b78777071117a5cd09bd3b910
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-19
+
+
+FileName: /usr/share/doc/printer-driver-foo2zjs-common/NEWS.Debian.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-20
+FileChecksum: SHA1: 21371471e9f2f040be2e2915b30a286c8dc5d6d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-20
+
+
+FileName: /usr/share/doc/printer-driver-foo2zjs-common/changelog.Debian.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-21
+FileChecksum: SHA1: 99c52be93e2412fddf2aa62506832aaf90f84980
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-21
+
+
+FileName: /usr/share/doc-base/printer-driver-foo2zjs-common.foo2zjs
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-22
+FileChecksum: SHA1: 44a6ed6b01e064cbc6ca2c68f41b64f3ab8d4c80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-22
+
+
+FileName: /usr/share/foo2qpdl/crd/black-text.ps
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-23
+FileChecksum: SHA1: e721c2e75660c5882ea152ce79ef2216dae29621
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-23
+
+
+FileName: /usr/share/foo2zjs/crd/2300w-1200@150-l250-kx,ucr100,0-per.crd
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-24
+FileChecksum: SHA1: 8d47ffc7a7ba978c6f83a693b1700a429a49ad26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-24
+
+
+FileName: /usr/share/foo2zjs/crd/2300w-1200@150-l250-kx,ucr100,50-per.crd
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-25
+FileChecksum: SHA1: 5b6aa0bbd73b54cec2f12dd334a695b2a640deba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-25
+
+
+FileName: /usr/share/foo2zjs/crd/2300w-1200@150-l250-kx,ucr100,75-per.crd
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-26
+FileChecksum: SHA1: 37e64ded28d3a2b9acf19bb4590ca7e46073cc6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-26
+
+
+FileName: /usr/share/foo2zjs/crd/2300w-1200@150-l250-kx,ucr125,75-per.crd
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-27
+FileChecksum: SHA1: 59a23fdaee96132cbd94e1e3c04b3b93599154e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-27
+
+
+FileName: /usr/share/foo2zjs/crd/kh.crd
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-28
+FileChecksum: SHA1: 6b703ca15adb1f5f9e8a0ad8e36c8be46005ba18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-28
+
+
+FileName: /usr/share/foo2zjs/crd/kx.crd
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-29
+FileChecksum: SHA1: d6c124f789630535a6a93af01db9480dd03316fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-29
+
+
+FileName: /usr/share/foo2zjs/crd/prolog.ps
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-30
+FileChecksum: SHA1: 07772ca04e6d3594c3b98d4d92702caa744b0f93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-30
+
+
+FileName: /usr/share/foo2zjs/crd/screen1200.ps
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-31
+FileChecksum: SHA1: 69d930e5774b9f5b2ad9589ce18d560b12b892c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-31
+
+
+FileName: /usr/share/foo2zjs/crd/screen2400.ps
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-32
+FileChecksum: SHA1: e713b190cd3ea7e09d58c45a83b8986ccc43213f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-32
+
+
+FileName: /usr/share/foo2zjs/gamma-lookup.ps
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-33
+FileChecksum: SHA1: 1c500387b345447b2edd9d7f50527db53e500c38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-33
+
+
+FileName: /usr/share/foo2zjs/gamma.ps
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-34
+FileChecksum: SHA1: 6328f07d9a1c2a69d90a9d546f96716d8249045f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-34
+
+
+FileName: /usr/share/foo2zjs/hplj1020_icon.gif
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-35
+FileChecksum: SHA1: 7f8323dc045b632a97e078c04e6fdd7472cdbe18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-35
+
+
+FileName: /usr/share/foo2zjs/hplj10xx_gui.tcl
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-36
+FileChecksum: SHA1: 844e3e7ba237f40679a0f126eb206dbed0da24d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-36
+
+
+FileName: /usr/share/man/man1/arm2hpdl.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-37
+FileChecksum: SHA1: 883b892a2d9ad4f27618c969beff74c8347a5ec5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-37
+
+
+FileName: /usr/share/man/man1/ddstdecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-38
+FileChecksum: SHA1: 555729c79cf3e9216168633f9d41daeda7a861b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-38
+
+
+FileName: /usr/share/man/man1/foo2ddst-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-39
+FileChecksum: SHA1: 13289fb88486d0fc9e235b712fd937f9208e3352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-39
+
+
+FileName: /usr/share/man/man1/foo2ddst.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-40
+FileChecksum: SHA1: cc1f5ce7af969d49c9f2508639bc129af78aa4b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-40
+
+
+FileName: /usr/share/man/man1/foo2hbpl2-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-41
+FileChecksum: SHA1: 4165ab3f02ce90964c5ff4ab1f21f89f15cfb07c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-41
+
+
+FileName: /usr/share/man/man1/foo2hbpl2.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-42
+FileChecksum: SHA1: 0ebdfae1262ef243c7417c0dd616379708aa9514
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-42
+
+
+FileName: /usr/share/man/man1/foo2hiperc-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-43
+FileChecksum: SHA1: 6c94b2806abfaa7d34c56da3fefc01f76515255a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-43
+
+
+FileName: /usr/share/man/man1/foo2hiperc.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-44
+FileChecksum: SHA1: 26fd939e5903712fe86c2ce8556599d4ad44ad29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-44
+
+
+FileName: /usr/share/man/man1/foo2hp.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-45
+FileChecksum: SHA1: 7f127756b1afaba9d967aa009a3b50c38a4dc22b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-45
+
+
+FileName: /usr/share/man/man1/foo2hp2600-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-46
+FileChecksum: SHA1: 332ec817899ea6b8ea7e53bddc978bdb3e361b65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-46
+
+
+FileName: /usr/share/man/man1/foo2lava-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-47
+FileChecksum: SHA1: 57cffb852c81ab6afa05b883fdd2791ebc6b7dba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-47
+
+
+FileName: /usr/share/man/man1/foo2lava.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-48
+FileChecksum: SHA1: 69db5b9a49a4b0cca603def6b88ab5ac8580e43c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-48
+
+
+FileName: /usr/share/man/man1/foo2oak-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-49
+FileChecksum: SHA1: d62cc61d5c29d567706ba3c670ca6c4510172320
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-49
+
+
+FileName: /usr/share/man/man1/foo2oak.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-50
+FileChecksum: SHA1: 07da5cfcf7249e822313d0ff43705a925be0670a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-50
+
+
+FileName: /usr/share/man/man1/foo2qpdl-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-51
+FileChecksum: SHA1: 93cae3c4ac41c111c9a07481908521dd1bf8ff01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-51
+
+
+FileName: /usr/share/man/man1/foo2qpdl.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-52
+FileChecksum: SHA1: d08fb45927a05bf6ae2953421e914df771359f3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-52
+
+
+FileName: /usr/share/man/man1/foo2slx-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-53
+FileChecksum: SHA1: 9d24d09596e96ad5d1e6946eabfb1d23512de8af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-53
+
+
+FileName: /usr/share/man/man1/foo2slx.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-54
+FileChecksum: SHA1: 4865708b02d71583841eca78319837d49200472d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-54
+
+
+FileName: /usr/share/man/man1/foo2xqx-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-55
+FileChecksum: SHA1: c55d584d27c12f32367e4a2f4f67080735e23994
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-55
+
+
+FileName: /usr/share/man/man1/foo2xqx.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-56
+FileChecksum: SHA1: 9a9c078f4790f3a3cfde6e9ffed8bb69fdb6f351
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-56
+
+
+FileName: /usr/share/man/man1/foo2zjs-pstops.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-57
+FileChecksum: SHA1: a0c4d31112f69aa9d81e77d3341b12b70f0cf79b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-57
+
+
+FileName: /usr/share/man/man1/foo2zjs-wrapper.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-58
+FileChecksum: SHA1: d8bea9d27615558abbb8bdb1d76778b31924de82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-58
+
+
+FileName: /usr/share/man/man1/foo2zjs.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-59
+FileChecksum: SHA1: 8a33717fc11c2c1b4134e4d5cb6d5bd3a0fbf9d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-59
+
+
+FileName: /usr/share/man/man1/gipddecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-60
+FileChecksum: SHA1: 8db0e6ff6d068d1f7748aeb081b7f5c3527e983c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-60
+
+
+FileName: /usr/share/man/man1/hbpldecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-61
+FileChecksum: SHA1: 0128efbf9c22807efebfc726f11b4b7a60f51ee2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-61
+
+
+FileName: /usr/share/man/man1/hipercdecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-62
+FileChecksum: SHA1: fd16b15db79f96ece8cf962d1b45dab2203ab2de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-62
+
+
+FileName: /usr/share/man/man1/lavadecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-63
+FileChecksum: SHA1: f213a85ba9688a513cce66d3315b44acad748dd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-63
+
+
+FileName: /usr/share/man/man1/oakdecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-64
+FileChecksum: SHA1: 756f7e935f93292b3e8c0d8e4f71f1cf7e93b6c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-64
+
+
+FileName: /usr/share/man/man1/opldecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-65
+FileChecksum: SHA1: 7d22f1a7cf6e0a684e755e525c69935ebc82921d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-65
+
+
+FileName: /usr/share/man/man1/printer-profile.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-66
+FileChecksum: SHA1: b2e74fd98dc41ebcff67700af0ef6d1e4c7cfa90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-66
+
+
+FileName: /usr/share/man/man1/qpdldecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-67
+FileChecksum: SHA1: 3b0f2a1578d04d03cfe60aabf7eb8da0b52acdc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-67
+
+
+FileName: /usr/share/man/man1/slxdecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-68
+FileChecksum: SHA1: ef6dd97564ffa65f099c32451cca72638d02eacb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-68
+
+
+FileName: /usr/share/man/man1/usb_printerid.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-69
+FileChecksum: SHA1: 4273941ba4e7958b06e2a8a432ad4478c783b1d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-69
+
+
+FileName: /usr/share/man/man1/xqxdecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-70
+FileChecksum: SHA1: 153b08ea6faebb2c78a3a80d71415c4f5533bb64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-70
+
+
+FileName: /usr/share/man/man1/zjsdecode.1.gz
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-71
+FileChecksum: SHA1: c9a037c3dfe5261a7b3c0b0f4185ae95a08cb8f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-71
+
+
+FileName: /usr/share/pixmaps/hplj1020_icon.png
+SPDXID: SPDXRef-printer-driver-foo2zjs-common-file-72
+FileChecksum: SHA1: 286a9a63f770589576035f60b1b4c00bbb96afd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-foo2zjs-common CONTAINS SPDXRef-printer-driver-foo2zjs-common-file-72
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-cups
+LicenseName: CUPS License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/cups.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/cups.yml
+</text>
+
+

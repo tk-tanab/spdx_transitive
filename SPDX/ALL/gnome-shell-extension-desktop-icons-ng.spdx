@@ -1,0 +1,316 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-shell-extension-desktop-icons-ng_43-2ubuntu1-0bd059f6-4714-5f8d-82fa-aa12b4501385
+DocumentName: gnome-shell-extension-desktop-icons-ng_43-2ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-gjs http://spdx.org/spdxdocs/gjs_1.72.2-0ubuntu1-1ad660eb-4cfa-5db4-b37e-fc669bf9c337 SHA1: d8bca9089b96a332241bd7a2f5934be4d8753ce4
+ExternalDocumentRef: DocumentRef-file-roller http://spdx.org/spdxdocs/file-roller_3.42.0-1-8be7caba-cad5-5950-ab31-73ee5f2af47d SHA1: 804fcf3f643e44877eee0bf752c671e64e8ad677
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-nautilus http://spdx.org/spdxdocs/nautilus_1:42.2-0ubuntu1-933cf7a5-a2f7-51e7-b28b-9cd351d2de31 SHA1: 9eab4fd8f88780ff45b75ec3b1995c1613ec9327
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-shell-extension-desktop-icons-ng
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:09:37Z
+
+
+## Package
+
+PackageName: gnome-shell-extension-desktop-icons-ng
+PackageVersion: 43-2ubuntu1
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng
+PackageHomePage: https://gitlab.com/rastersoft/desktop-icons-ng
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f4abb95b9e9551179550a202c27551d488751d3d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageCopyrightText: <text>(c) Carlos Soriano
+Copyright (c) 2019-2022 Sergio Costas <rastersoft@gmail.com>
+Copyright (c) 2021-2022 Canonical Ltd
+</text>
+PackageComment: <text>desktop icon support for GNOME Shell
+ This package provides a GNOME Shell extension for showing the contents
+ of ~/Desktop on the desktop of the Shell. Common file management
+ operations such as launching, copy/paste, rename and deleting are
+ supported.</text>
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng DEPENDS_ON DocumentRef-file-roller:SPDXRef-file-roller
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-shell
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng DEPENDS_ON DocumentRef-gjs:SPDXRef-gjs
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng DEPENDS_ON DocumentRef-nautilus:SPDXRef-nautilus
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-desktop-portal
+
+
+## File
+
+FileName: /usr/share/doc/gnome-shell-extension-desktop-icons-ng/copyright
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-0
+FileChecksum: SHA1: 78bf1bf3cc0f15082131f2f2bbad3d1cb5ccc1d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+FileCopyrightText: <text>Copyright (c) 2019-2022 Sergio Costas <rastersoft@gmail.com>
+(c) Carlos Soriano
+Copyright (c) 2021-2022 Canonical Ltd
+</text>
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-0
+
+
+FileName: /usr/share/doc/gnome-shell-extension-desktop-icons-ng/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-1
+FileChecksum: SHA1: eb421fb57268bb34106220a6faa12caa5b4a4061
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-1
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.shell.extensions.ding.gschema.xml
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-2
+FileChecksum: SHA1: f9b36f6fd0e5f972ea7fb44c2d21a014ae352c98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-2
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/askRenamePopup.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-3
+FileChecksum: SHA1: ac35c1fb72f672b13e27475a4df81c09028544ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-3
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/createThumbnail.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-4
+FileChecksum: SHA1: a1559e67cfe794b3f0eeaeea20f3a252ed0c5dc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-4
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/dbusInterfaces.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-5
+FileChecksum: SHA1: 5ad1fee9ac3dacf1784a5049a57fd80557d1e635
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-5
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/dbusUtils.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-6
+FileChecksum: SHA1: 2e4a913a533119c9a57b25afba08583057b478bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-6
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/desktopGrid.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-7
+FileChecksum: SHA1: fa2064edb0e4dacc16d7d103ee256d1274214e94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-7
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/desktopIconItem.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-8
+FileChecksum: SHA1: 5ea743ff5bded0e550aff348c13bdc35073631e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-8
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/desktopIconsUtil.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-9
+FileChecksum: SHA1: 6ac3c231e3c29915410be2c4bb275408be0a3417
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-9
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/desktopManager.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-10
+FileChecksum: SHA1: c4205d5bd4bdb039c823ccbf2bdb4f724eb3626d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-10
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-11
+FileChecksum: SHA1: 8581c868b46815c387518e97d04b674198a21bf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-11
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/emulateX11WindowType.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-12
+FileChecksum: SHA1: 27093462183d12554c3bb5d07a860cfa2f7b5342
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-12
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/enums.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-13
+FileChecksum: SHA1: ae2156ba7393c72f0dc1f4b88410c3c2196870ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-13
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/extension.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-14
+FileChecksum: SHA1: 8aa940be861caa64f75a043e1189b7464fbe68b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-14
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/fileItem.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-15
+FileChecksum: SHA1: 72466e91305c88bd72df04046f4dc78959f783dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-15
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/fileItemMenu.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-16
+FileChecksum: SHA1: c1d88aa652032ea5b084548458301db5e5f7b349
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-16
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/gnomeShellOverride.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-17
+FileChecksum: SHA1: 700d187b6cdaea5e63c052fee7cb915b8ec64961
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-17
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/metadata.json
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-18
+FileChecksum: SHA1: 572d606c1aa5aa20787bfdec558c2eaee76781bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-18
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/preferences.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-19
+FileChecksum: SHA1: 33d93f924d3b5b8ca9a12aeaa67838691c800208
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-19
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/prefs.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-20
+FileChecksum: SHA1: aa95ab79e33388e911486a453df91c0d20c263e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-20
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/prefswindow.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-21
+FileChecksum: SHA1: 24936e6ba13ee221cab262a32fa7930818edf3db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-21
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/showErrorPopup.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-22
+FileChecksum: SHA1: 9958921f3c2ad06afe8537c950ff2e81a2c70fcf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-22
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/stackItem.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-23
+FileChecksum: SHA1: ed5617b73347a03436c7494596170723598a20c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-23
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/stylesheet.css
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-24
+FileChecksum: SHA1: b27f853df421922b5a563aca373859edc0063f64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-24
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/templatesScriptsManager.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-25
+FileChecksum: SHA1: 6c6338815110202c4464ddf7edae78403514fced
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-25
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/thumbnails.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-26
+FileChecksum: SHA1: 18e2a3bdb5c886781dc69faeb3ae83b08f210bbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-26
+
+
+FileName: /usr/share/gnome-shell/extensions/ding@rastersoft.com/visibleArea.js
+SPDXID: SPDXRef-gnome-shell-extension-desktop-icons-ng-file-27
+FileChecksum: SHA1: 0c87d49fcb0aad1cdbab0914632b1b0b6e899e42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-desktop-icons-ng CONTAINS SPDXRef-gnome-shell-extension-desktop-icons-ng-file-27
+
+
+## Extracted License
+

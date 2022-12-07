@@ -1,0 +1,113 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-guru-extra_2.0-5-8727c220-14ae-58de-a96c-11ff87025676
+DocumentName: fonts-guru-extra_2.0-5
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-guru-extra
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:53:56Z
+
+
+## Package
+
+PackageName: fonts-guru-extra
+PackageVersion: 2.0-5
+SPDXID: SPDXRef-fonts-guru-extra
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d77935405f6f26322af47daca5fdf35674230423
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2004, Bhupinder Singh 2004, Sukhjinder Sidhu
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@lists.alioth.debian.org> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Free fonts for Punjabi language
+ Fonts for the Punjabi language which is spoken in the Punjab
+ region of India and Pakistan. Fonts in this package use the
+ Gurmukhi script. In Pakistan, Punjabi is written using Arabic
+ script. The Devanagari script is also sometimes used in India.
+ .
+ Currently only font in this package is, Saab.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-guru-extra/copyright
+SPDXID: SPDXRef-fonts-guru-extra-file-0
+FileChecksum: SHA1: 40a8fe7fb97bf121317f560dc32d86c3053efd4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: GPL-3.0-only
+FileCopyrightText: <text>Copyright 2004, Bhupinder Singh 2004, Sukhjinder Sidhu
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@lists.alioth.debian.org> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-guru-extra CONTAINS SPDXRef-fonts-guru-extra-file-0
+
+
+FileName: /etc/fonts/conf.avail/65-0-fonts-guru-extra.conf
+SPDXID: SPDXRef-fonts-guru-extra-file-1
+FileChecksum: SHA1: 41d76fa7c11621d72d9317f7d8c9c4a8cb8319b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-guru-extra CONTAINS SPDXRef-fonts-guru-extra-file-1
+
+
+FileName: /usr/share/doc/fonts-guru-extra/README.Debian
+SPDXID: SPDXRef-fonts-guru-extra-file-2
+FileChecksum: SHA1: ea992f34181aa9dbd2ed1321ebaec14da1557b47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-guru-extra CONTAINS SPDXRef-fonts-guru-extra-file-2
+
+
+FileName: /usr/share/doc/fonts-guru-extra/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-guru-extra-file-3
+FileChecksum: SHA1: 662cd78c1df5aa1c0392e0a1d9a9b1b9dbe5ba63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-guru-extra CONTAINS SPDXRef-fonts-guru-extra-file-3
+
+
+FileName: /usr/share/fonts/truetype/fonts-guru-extra/Saab.ttf
+SPDXID: SPDXRef-fonts-guru-extra-file-4
+FileChecksum: SHA1: a8180f5da600b9c7f6cc6174055b66a0b613b569
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-guru-extra CONTAINS SPDXRef-fonts-guru-extra-file-4
+
+
+FileName: /etc/fonts/conf.d/65-0-fonts-guru-extra.conf
+SPDXID: SPDXRef-fonts-guru-extra-file-5
+FileChecksum: SHA1: 41d76fa7c11621d72d9317f7d8c9c4a8cb8319b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-guru-extra CONTAINS SPDXRef-fonts-guru-extra-file-5
+
+
+## Extracted License
+

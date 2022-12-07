@@ -1,0 +1,331 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-sil-padauk_5.000-3-e24f5567-29d4-509e-8f47-2fb5b7d23fa7
+DocumentName: fonts-sil-padauk_5.000-3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-sil-padauk
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:00:12Z
+
+
+## Package
+
+PackageName: fonts-sil-padauk
+PackageVersion: 5.000-3
+SPDXID: SPDXRef-fonts-sil-padauk
+PackageHomePage: https://software.sil.org/padauk
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c6b118603644b3ce8deb8e8e5a2f62889d33d1e1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright (c) 2007-2021 Nicolas Spalinger, Christian Perrier, Bobby de Vos
+Copyright (c) 2007-2021, SIL International (http://www.sil.org/)
+</text>
+PackageComment: <text>Burmese Unicode TrueType font with OpenType and Graphite support
+ Padauk is a pan Burma font designed to support all Myanmar script based
+ languages. It covers all of the Unicode Myanmar script blocks and works
+ on all OpenType and Graphite based systems.
+ .
+ Features:
+  * Special support for: ksw, kht, kyu, shn, aio, phk, csh
+  * Variation Selector support for kht, aio, phk
+ .
+ Issues:
+  * Does not work in Word 2007
+ .
+ For detailed documentation see the contents of the 'documentation' folder.
+ .
+ Font sources are published in the repository and an open workflow
+ is used for building, testing and releasing.
+ .
+ Webfont versions and HTML/CSS examples are also available.
+ .
+ The full font sources are publicly available at
+ https://github.com/silnrsi/font-padauk
+ An open workflow is used for building, testing and releasing.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-sil-padauk/copyright
+SPDXID: SPDXRef-fonts-sil-padauk-file-0
+FileChecksum: SHA1: c28a7a69b1ce7f64bcd356bfeef4869a67b2daf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+FileCopyrightText: <text>Copyright (c) 2007-2021, SIL International (http://www.sil.org/)
+Copyright (c) 2007-2021 Nicolas Spalinger, Christian Perrier, Bobby de Vos
+Copyright (c) 2007-2021, SIL International (http://www.sil.org/)
+</text>
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-0
+
+
+FileName: /usr/share/bug/fonts-sil-padauk/presubj
+SPDXID: SPDXRef-fonts-sil-padauk-file-1
+FileChecksum: SHA1: b177725a8aa4f174e8adacb1447071a8b0d18ef3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-1
+
+
+FileName: /usr/share/bug/fonts-sil-padauk/script
+SPDXID: SPDXRef-fonts-sil-padauk-file-2
+FileChecksum: SHA1: 2c397f31db65ab66735b1606e59d0c9c9324271d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-2
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/OFL-FAQ.txt.gz
+SPDXID: SPDXRef-fonts-sil-padauk-file-3
+FileChecksum: SHA1: 45d9ad3aab43a9de8903e091520332e3225944d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-3
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/README.Debian
+SPDXID: SPDXRef-fonts-sil-padauk-file-4
+FileChecksum: SHA1: b18abe28fd66db38b54a996618fa8bcfbf2b38e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-4
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/README.txt
+SPDXID: SPDXRef-fonts-sil-padauk-file-5
+FileChecksum: SHA1: 47b6a06c6d83f7f7e7114661c259d39188c53ce0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-5
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-sil-padauk-file-6
+FileChecksum: SHA1: 4b61b76c01152a930c894e45a9859b3239ff8d44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-6
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/documentation/DOCUMENTATION.txt
+SPDXID: SPDXRef-fonts-sil-padauk-file-7
+FileChecksum: SHA1: a41f768772ecf216261541a51b3f58e360aa3597
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-7
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/documentation/Padauk-features.odt
+SPDXID: SPDXRef-fonts-sil-padauk-file-8
+FileChecksum: SHA1: abb1a20db1f71078dae8851e028ebe71e958a4bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-8
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/documentation/Padauk-features.pdf.gz
+SPDXID: SPDXRef-fonts-sil-padauk-file-9
+FileChecksum: SHA1: 30a7e5bfb835f3b50d2d31432245496a5c20700c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-9
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/documentation/Padauk-typesample.odt
+SPDXID: SPDXRef-fonts-sil-padauk-file-10
+FileChecksum: SHA1: aee7ac524c51dca90a63fd9afe78fed58da94d5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-10
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/documentation/Padauk-typesample.pdf.gz
+SPDXID: SPDXRef-fonts-sil-padauk-file-11
+FileChecksum: SHA1: 8f6239a7ee0f85ef9367206a12d0b15c244a5177
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-11
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/web/Padauk-webfont-example.css
+SPDXID: SPDXRef-fonts-sil-padauk-file-12
+FileChecksum: SHA1: 6bb0c706d21e9f702e8ec7b3381abe3db6a5c754
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-12
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/web/Padauk-webfont-example.html
+SPDXID: SPDXRef-fonts-sil-padauk-file-13
+FileChecksum: SHA1: de0d155adc8751e198fa5c58b81ceab1baf6611d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-13
+
+
+FileName: /usr/share/doc-base/fonts-sil-padauk.fonts-sil-padauk-features
+SPDXID: SPDXRef-fonts-sil-padauk-file-14
+FileChecksum: SHA1: 0d382d48f6787fecabc8cee2bef1796193b01b5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-14
+
+
+FileName: /usr/share/fonts/truetype/padauk/Padauk-Bold.ttf
+SPDXID: SPDXRef-fonts-sil-padauk-file-15
+FileChecksum: SHA1: 3d6d08e1f38d0621315c1f7e3b5ee7a836921e6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-15
+
+
+FileName: /usr/share/fonts/truetype/padauk/Padauk-Regular.ttf
+SPDXID: SPDXRef-fonts-sil-padauk-file-16
+FileChecksum: SHA1: 1c001c37a69e99087eee3696042444336e80e314
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-16
+
+
+FileName: /usr/share/fonts/truetype/padauk/PadaukBook-Bold.ttf
+SPDXID: SPDXRef-fonts-sil-padauk-file-17
+FileChecksum: SHA1: 98761f356c917515eab0db6ea0983c133db9be73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-17
+
+
+FileName: /usr/share/fonts/truetype/padauk/PadaukBook-Regular.ttf
+SPDXID: SPDXRef-fonts-sil-padauk-file-18
+FileChecksum: SHA1: 1786a50438ece816b36ff20cef9c70ac439e8ba7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-18
+
+
+FileName: /usr/share/fonts-sil-padauk/woff/Padauk-Bold.woff
+SPDXID: SPDXRef-fonts-sil-padauk-file-19
+FileChecksum: SHA1: df8ea7604c8aa01bdc28458958cd11b9d769dc22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-19
+
+
+FileName: /usr/share/fonts-sil-padauk/woff/Padauk-Regular.woff
+SPDXID: SPDXRef-fonts-sil-padauk-file-20
+FileChecksum: SHA1: ba2599b676ba3c250c9919f185f93c8a31bb917f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-20
+
+
+FileName: /usr/share/fonts-sil-padauk/woff/PadaukBook-Bold.woff
+SPDXID: SPDXRef-fonts-sil-padauk-file-21
+FileChecksum: SHA1: 9d7220199a1046fdf95b1e5211528085ab74d871
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-21
+
+
+FileName: /usr/share/fonts-sil-padauk/woff/PadaukBook-Regular.woff
+SPDXID: SPDXRef-fonts-sil-padauk-file-22
+FileChecksum: SHA1: fc0bcebe3f65720f6870c3d6d8bcf0d529139ac4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-22
+
+
+FileName: /usr/share/fonts-sil-padauk/woff2/Padauk-Bold.woff2
+SPDXID: SPDXRef-fonts-sil-padauk-file-23
+FileChecksum: SHA1: 3dc84ed6ce935b859fdc15e318990a32dc7f3332
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-23
+
+
+FileName: /usr/share/fonts-sil-padauk/woff2/Padauk-Regular.woff2
+SPDXID: SPDXRef-fonts-sil-padauk-file-24
+FileChecksum: SHA1: 46d43dff5a4affede8453ad874ff222bc14537de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-24
+
+
+FileName: /usr/share/fonts-sil-padauk/woff2/PadaukBook-Bold.woff2
+SPDXID: SPDXRef-fonts-sil-padauk-file-25
+FileChecksum: SHA1: 00fe4c5869e50a0a3b2bd5e4b2dd64f8908ce251
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-25
+
+
+FileName: /usr/share/fonts-sil-padauk/woff2/PadaukBook-Regular.woff2
+SPDXID: SPDXRef-fonts-sil-padauk-file-26
+FileChecksum: SHA1: 9a2de70ccf4716fbc9c2a8cf36e629e8d847fb57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-26
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/web/Padauk-Bold.woff2
+SPDXID: SPDXRef-fonts-sil-padauk-file-27
+FileChecksum: SHA1: 3dc84ed6ce935b859fdc15e318990a32dc7f3332
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-27
+
+
+FileName: /usr/share/doc/fonts-sil-padauk/web/Padauk-Regular.woff2
+SPDXID: SPDXRef-fonts-sil-padauk-file-28
+FileChecksum: SHA1: 46d43dff5a4affede8453ad874ff222bc14537de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-padauk CONTAINS SPDXRef-fonts-sil-padauk-file-28
+
+
+## Extracted License
+

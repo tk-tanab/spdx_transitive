@@ -1,0 +1,117 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-desktop3-data_42.4-0ubuntu1-9b89cf17-b0bb-53ba-ac9d-0afd0fc6bd25
+DocumentName: gnome-desktop3-data_42.4-0ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-desktop3-data
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:05:22Z
+
+
+## Package
+
+PackageName: gnome-desktop3-data
+PackageVersion: 42.4-0ubuntu1
+SPDXID: SPDXRef-gnome-desktop3-data
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 632f92dbd3ee4432a8c4917752cc6c7adcbe39a4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: LGPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 2007 William Jon McCann 2008-2014 Red Hat, Inc. 2009-2012 Richard Hughes 2012 Bastien Nocera 2021 Robert Marcano
+Copyright 2007-2020 Red Hat, Inc. 2008, 2009 Novell, Inc. 2000 Eazel, Inc. 2010 Carlos Garcia Campos <carlosgc@gnome.org>
+Copyright 2017-2018 Collabora Ltd. 2016-2020 Simon McVittie
+Copyright 2019 Benjamin Berg
+</text>
+PackageComment: <text>Common files for GNOME desktop apps
+ This package includes some files that are shared between several GNOME
+ apps (internationalization files).</text>
+
+
+## File
+
+FileName: /usr/share/doc/gnome-desktop3-data/copyright
+SPDXID: SPDXRef-gnome-desktop3-data-file-0
+FileChecksum: SHA1: 0018291ae161bcbbe05f9deb5a6b8fd9654a8724
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-3.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2007-2020 Red Hat, Inc. 2008, 2009 Novell, Inc. 2000 Eazel, Inc. 2010 Carlos Garcia Campos <carlosgc@gnome.org>
+Copyright 2019 Benjamin Berg
+Copyright 2007 William Jon McCann 2008-2014 Red Hat, Inc. 2009-2012 Richard Hughes 2012 Bastien Nocera 2021 Robert Marcano
+Copyright 2017-2018 Collabora Ltd. 2016-2020 Simon McVittie
+</text>
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-0
+
+
+FileName: /usr/share/doc/gnome-desktop3-data/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-desktop3-data-file-1
+FileChecksum: SHA1: 8742a42277b3c33d0428a62936f40456e73cebfc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-1
+
+
+FileName: /usr/share/gnome/gnome-version.xml
+SPDXID: SPDXRef-gnome-desktop3-data-file-2
+FileChecksum: SHA1: a70973b7b204c8fb26325b0bd73d3320888a4bcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-2
+
+
+FileName: /usr/share/help/C/fdl/index.docbook
+SPDXID: SPDXRef-gnome-desktop3-data-file-3
+FileChecksum: SHA1: c92290e2ff5c3de7f8d8293f56fb9d06e99b67c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-3
+
+
+FileName: /usr/share/help/C/gpl/index.docbook
+SPDXID: SPDXRef-gnome-desktop3-data-file-4
+FileChecksum: SHA1: 792cf0184034e0ce68bc0fd2bbac0939f1fd7499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-4
+
+
+FileName: /usr/share/help/C/lgpl/index.docbook
+SPDXID: SPDXRef-gnome-desktop3-data-file-5
+FileChecksum: SHA1: 033c588f415d74debe6ad0d04c373805e224ebf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-desktop3-data CONTAINS SPDXRef-gnome-desktop3-data-file-5
+
+
+## Extracted License
+

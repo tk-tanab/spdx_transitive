@@ -15,14 +15,14 @@ def make_pv_vrp_dict(pv_dict: dict[str, str], vrp_dict: dict[str, list[list[str]
         vrp_dict: Virtual と Replace の辞書
     """
     dpkg_status_list = subprocess.run(
-        ["dpkg-query", "-W", "-f=${binary:Package}\t${Provides}\t${Replaces}\t${Version}\n"], capture_output=True, text=True
+        ["dpkg-query", "-W", "-f=${Package}\t${Provides}\t${Replaces}\t${Version}\n"], capture_output=True, text=True
     ).stdout.splitlines()
 
     # Virtual と Replace の辞書作成
     for dpkg_s in dpkg_status_list:
 
         # dpkg_s_list: Package, Provides, Replaces, Version
-        dpkg_s_list = re.sub(":.*?\t", "\t", dpkg_s.strip()).split('\t')
+        dpkg_s_list = dpkg_s.strip().split('\t')
 
         pv_dict[dpkg_s_list[0]] = dpkg_s_list[3]
 
@@ -55,8 +55,10 @@ def add_vrp_dict(vrp_names: str, p_name: str, vrp_dict: dict[str, list[list[str]
             vrp_dict[vrp_name_split[0]] = ([[p_name] + vrp_name_split[1:]])
 
 if __name__ == "__main__":
-    package_name = "xfonts-encodings"
+    package_name = "alsa-topology-conf"
     auth_name = "Taketo"
+    all_analyze = False
+    dir_path = ""
 
     time_start = time.perf_counter()
 
@@ -68,6 +70,9 @@ if __name__ == "__main__":
     # ディレクトリ記憶
     cwd = os.getcwd()
 
+    if all_analyze:
+        package_name = 'ALL'
+
     # すでに同名のSPDX展開ディレクトリがある場合はエラー出力
     # 完全に同名のバージョンは複数ない
     dir_name = os.path.dirname(__file__) + "/../SPDX/" + package_name
@@ -78,9 +83,16 @@ if __name__ == "__main__":
         print("That SPDX already exists", file=sys.stderr)
         sys.exit(1)
 
-    # 実行
-    deb_class = deb_spdx.Deb_Spdx(pv_dict, vrp_dict, package_name, auth_name, [])
-    deb_class.run()
+    if all_analyze:
+        # すべてのパッケージ解析
+        for p_name in pv_dict.keys():
+            deb_class = deb_spdx.Deb_Spdx(pv_dict, vrp_dict, p_name, auth_name, [], 2, 2)
+            if not deb_class.spdx_exists(p_name):
+                deb_class.run()
+    else:
+        # 通常実行
+        deb_class = deb_spdx.Deb_Spdx(pv_dict, vrp_dict, package_name, auth_name, [])
+        deb_class.run()
 
     os.chdir(cwd)
 

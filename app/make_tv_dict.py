@@ -21,6 +21,7 @@ def analyze_file(package_name: str, file_list: list[str], scan_copyrightfile: bo
     """
     hash_list = []
     file_dict_list = []
+    copyright_filepath = None
 
     for value in file_list:
         if os.path.isfile(value):
@@ -50,6 +51,8 @@ def analyze_file(package_name: str, file_list: list[str], scan_copyrightfile: bo
                 pass
     else:
         hash_list.sort()
+        if copyright_filepath is None:
+            scan_copyrightfile = False
 
     tv_dict = scancode(scan_copyrightfile, package_name)
     tv_dict["Package"][0].update({"PackageVerificationCode": [hashlib.sha1("".join(hash_list).encode("utf-8")).hexdigest()]})
@@ -97,6 +100,7 @@ def scancode(is_scan: bool, package_name: str):
                 "PackageName": [],
                 "PackageVersion": [],
                 "SPDXID": [],
+                "PackageHomePage": [],
                 "PackageDownloadLocation": ["NOASSERTION"],
                 "PackageVerificationCode": [],
                 "PackageLicenseDeclared": ["NOASSERTION"],
@@ -117,7 +121,9 @@ def scancode(is_scan: bool, package_name: str):
             ["scancode", "-clpi", package_name, "--spdx-tv", output], stdout=subprocess.PIPE
         )
 
-        return tv_to_dict.tv_to_dict(output)
+        tv_dict = tv_to_dict.tv_to_dict(output)
+        tv_dict["Creation Information"][0]["Created"] = [datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')]
+        return tv_dict
     else:
         return template_tv_dict
 
@@ -153,7 +159,7 @@ def make_tv_dict(package_name, mode):
     ).stdout.splitlines()
 
     # 1: ファイル解析はするが、ライセンスは解析しない
-    if mode == 1:
+    if mode == 1 or file_list == []:
         tv_dict = analyze_file(package_name, file_list, False)
 
     # 2: copyrightファイルだけライセンス解析する

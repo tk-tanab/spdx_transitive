@@ -1,0 +1,138 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/telnet_0.17-44build1-210b0a3e-7840-51dc-801e-3c0b5895a681
+DocumentName: telnet_0.17-44build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-netbase http://spdx.org/spdxdocs/netbase_6.3-d75adb86-01cf-52b5-8fff-849f97189fb5 SHA1: d78d1527380f7ef88b0ce24974bccdeec024bf54
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-telnet
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:07:22Z
+
+
+## Package
+
+PackageName: telnet
+PackageVersion: 0.17-44build1
+SPDXID: SPDXRef-telnet
+PackageHomePage: http://www.hcs.harvard.edu/~dholland/computers/netkit.html
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1309b4f013a3831b82d2994d37f3b90c89229661
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-4-Clause
+PackageLicenseInfoFromFiles: BSD-4-Clause-UC
+PackageCopyrightText: <text>Copyright 1981, 1983, 1988, 1989, 1990, 1991, 1993 The Regents of the University of California. 1983, 1995 Eric P. Allman
+Copyright 1998-2004 Herbert Xu <herbert@debian.org> 2004 Robert Millan <rmh@debian.org> 2005-2008 Alberto Gonzalez Iniesta <agi@inittab.org> 2008 Ian Beckwith 2015-2016 Mats Erik Andersson <mats.andersson@gisladisker.se> 2018, 2021 Andreas Henriksson <andreas@fatal.se> 2019 Christoph Biedl <debian.axhn@manchmal.in-ulm.de> 2021 Hugo Torres de Lima <hugotorres@protonmail.com>
+</text>
+PackageComment: <text>basic telnet client
+ The telnet command is used for interactive communication with another host
+ using the TELNET protocol.
+ .
+ For the purpose of remote login, the present client executable should be
+ depreciated in favour of an ssh-client, or in some cases with variants like
+ telnet-ssl or Kerberized TELNET clients.  The most important reason is that
+ this implementation exchanges user name and password in clear text.
+ .
+ On the other hand, the present program does satisfy common use cases of
+ network diagnostics, like protocol testing of SMTP services, so it can
+ become handy enough.</text>
+Relationship: SPDXRef-telnet DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-telnet DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+Relationship: SPDXRef-telnet DEPENDS_ON DocumentRef-netbase:SPDXRef-netbase
+
+
+## File
+
+FileName: /usr/share/doc/telnet/copyright
+SPDXID: SPDXRef-telnet-file-0
+FileChecksum: SHA1: 835e203eea56ae47e493715dbcf62ca091d5b865
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-4-Clause
+LicenseInfoInFile: BSD-4-Clause-UC
+FileCopyrightText: <text>Copyright 1981, 1983, 1988, 1989, 1990, 1991, 1993 The Regents of the University of California. 1983, 1995 Eric P. Allman
+Copyright 1998-2004 Herbert Xu <herbert@debian.org> 2004 Robert Millan <rmh@debian.org> 2005-2008 Alberto Gonzalez Iniesta <agi@inittab.org> 2008 Ian Beckwith 2015-2016 Mats Erik Andersson <mats.andersson@gisladisker.se> 2018, 2021 Andreas Henriksson <andreas@fatal.se> 2019 Christoph Biedl <debian.axhn@manchmal.in-ulm.de> 2021 Hugo Torres de Lima <hugotorres@protonmail.com>
+</text>
+Relationship: SPDXRef-telnet CONTAINS SPDXRef-telnet-file-0
+
+
+FileName: /usr/bin/telnet.netkit
+SPDXID: SPDXRef-telnet-file-1
+FileChecksum: SHA1: 91d1dde5e4a90e1cedf9c06293f1a0a79954e6fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-telnet CONTAINS SPDXRef-telnet-file-1
+
+
+FileName: /usr/share/doc/telnet/README
+SPDXID: SPDXRef-telnet-file-2
+FileChecksum: SHA1: 8dcb9e606eea441be215cfed19270e56f5822bd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-telnet CONTAINS SPDXRef-telnet-file-2
+
+
+FileName: /usr/share/doc/telnet/README.old.gz
+SPDXID: SPDXRef-telnet-file-3
+FileChecksum: SHA1: c55be8154c067e6440fdfd915642839c3319444b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-telnet CONTAINS SPDXRef-telnet-file-3
+
+
+FileName: /usr/share/doc/telnet/changelog.Debian.gz
+SPDXID: SPDXRef-telnet-file-4
+FileChecksum: SHA1: 2c2429d4def40dcc93d6db35e61cefe5729ea204
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-telnet CONTAINS SPDXRef-telnet-file-4
+
+
+FileName: /usr/share/lintian/overrides/telnet
+SPDXID: SPDXRef-telnet-file-5
+FileChecksum: SHA1: 5b2e93b9d5d0df37223e5866ff58d779e7f0918c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-telnet CONTAINS SPDXRef-telnet-file-5
+
+
+FileName: /usr/share/man/man1/telnet.netkit.1.gz
+SPDXID: SPDXRef-telnet-file-6
+FileChecksum: SHA1: a33454a4ea1e9a45677fa101396d2754d555322f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-telnet CONTAINS SPDXRef-telnet-file-6
+
+
+FileName: /usr/share/menu/telnet
+SPDXID: SPDXRef-telnet-file-7
+FileChecksum: SHA1: fcb3e34b337c044afccd1df507733bc05ea1d900
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-telnet CONTAINS SPDXRef-telnet-file-7
+
+
+## Extracted License
+

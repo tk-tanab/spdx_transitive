@@ -1,0 +1,123 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libfwupdplugin5_1.7.9-1~22.04.1-b80e3341-90f4-56da-8add-b86986d746af
+DocumentName: libfwupdplugin5_1.7.9-1~22.04.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libjcat1 http://spdx.org/spdxdocs/libjcat1_0.1.9-1-c59d37dd-6837-5b8c-a650-aa0b4fe8eff1 SHA1: b50cd7b7d54d90184a4f19501820ca3bff85bb1d
+ExternalDocumentRef: DocumentRef-libfwupd2 http://spdx.org/spdxdocs/libfwupd2_1.7.9-1~22.04.1-cd352b43-5934-5613-989f-0d496e02d04d SHA1: 3521012b8e9af47e6c0dd23fbb5a17f7df574ae7
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-libgcab-1.0-0 http://spdx.org/spdxdocs/libgcab-1.0-0_1.4-3build2-3a5a13f5-e1cf-5887-9a27-290185d2ba88 SHA1: 12cf92236c5e8f098965626c210e59609da509b1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libfwupdplugin5
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:05:19Z
+
+
+## Package
+
+PackageName: libfwupdplugin5
+PackageVersion: 1.7.9-1~22.04.1
+SPDXID: SPDXRef-libfwupdplugin5
+PackageHomePage: https://github.com/fwupd/fwupd
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ba6f1b3df95b0598c7894d439b9e80bfe98fbc22
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: LGPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 2015 Daniel Jared Dominguez <Jared_Dominguez@Dell.com> 2015 Mario Limonciello <mario.limonciello@dell.com>
+Copyright 2018 Dell Inc.
+Copyright Norbert Kaminski <norbert.kaminski@3mdeb.com> Norbert Kaminski <norbert.kaminski@3mdeb.com>
+Copyright Richard Hughes <richard@hughsie.com>
+</text>
+PackageComment: <text>Firmware update daemon plugin library
+ fwupd is a daemon to allow session software to update device firmware.
+ You can either use a GUI software manager like GNOME Software to view and
+ apply updates, the command-line tool or the system D-Bus interface directly.
+ Firmware updates are supported for a variety of technologies.
+ See <https://github.com/fwupd/fwupd> for details
+ .
+ This package provides the library for the interface between daemon and plugins.</text>
+Relationship: SPDXRef-libfwupdplugin5 DEPENDS_ON DocumentRef-libfwupd2:SPDXRef-libfwupd2
+Relationship: SPDXRef-libfwupdplugin5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libarchive13
+Relationship: SPDXRef-libfwupdplugin5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libfwupdplugin5 DEPENDS_ON DocumentRef-libgcab-1.0-0:SPDXRef-libgcab-1.0-0
+Relationship: SPDXRef-libfwupdplugin5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libfwupdplugin5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgudev-1.0-0
+Relationship: SPDXRef-libfwupdplugin5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgusb2
+Relationship: SPDXRef-libfwupdplugin5 DEPENDS_ON DocumentRef-libjcat1:SPDXRef-libjcat1
+Relationship: SPDXRef-libfwupdplugin5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxmlb2
+
+
+## File
+
+FileName: /usr/share/doc/libfwupdplugin5/copyright
+SPDXID: SPDXRef-libfwupdplugin5-file-0
+FileChecksum: SHA1: 91ab892baf9bd7b3fe50228f6768155afbc1bab1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-3.0-or-later
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright Norbert Kaminski <norbert.kaminski@3mdeb.com> Norbert Kaminski <norbert.kaminski@3mdeb.com>
+Copyright Richard Hughes <richard@hughsie.com>
+Copyright 2018 Dell Inc.
+Copyright 2015 Daniel Jared Dominguez <Jared_Dominguez@Dell.com> 2015 Mario Limonciello <mario.limonciello@dell.com>
+</text>
+Relationship: SPDXRef-libfwupdplugin5 CONTAINS SPDXRef-libfwupdplugin5-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libfwupdplugin.so.5.0.0
+SPDXID: SPDXRef-libfwupdplugin5-file-1
+FileChecksum: SHA1: 19f41a99c2e4b82fcc7ed4d3308da75d7a223936
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libfwupdplugin5 CONTAINS SPDXRef-libfwupdplugin5-file-1
+
+
+FileName: /usr/share/doc/libfwupdplugin5/README.Debian
+SPDXID: SPDXRef-libfwupdplugin5-file-2
+FileChecksum: SHA1: 3721ba3b058f4ac2b33a79ddbd99b02441614b9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libfwupdplugin5 CONTAINS SPDXRef-libfwupdplugin5-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libfwupdplugin.so.5
+SPDXID: SPDXRef-libfwupdplugin5-file-3
+FileChecksum: SHA1: 19f41a99c2e4b82fcc7ed4d3308da75d7a223936
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libfwupdplugin5 CONTAINS SPDXRef-libfwupdplugin5-file-3
+
+
+FileName: /usr/share/doc/libfwupdplugin5/changelog.Debian.gz
+SPDXID: SPDXRef-libfwupdplugin5-file-4
+FileChecksum: SHA1: c9a11d0ad276954e7180d0a05f482b2382f74c2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libfwupdplugin5 CONTAINS SPDXRef-libfwupdplugin5-file-4
+
+
+## Extracted License
+

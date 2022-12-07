@@ -1,0 +1,609 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libqt5core5a_5.15.3+dfsg-2ubuntu0.2-a2af3206-ae88-50d2-94f6-7bd29871d6c8
+DocumentName: libqt5core5a_5.15.3+dfsg-2ubuntu0.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libdouble-conversion3 http://spdx.org/spdxdocs/libdouble-conversion3_3.1.7-4-d740173a-1f5d-593e-b995-1febc6f0ed95 SHA1: 1219721bffc77d8aac6b2c945b8380f939318947
+ExternalDocumentRef: DocumentRef-libpcre2-16-0 http://spdx.org/spdxdocs/libpcre2-16-0_10.39-3ubuntu0.1-9fc4ec36-3220-5135-80f7-f5afb39a19d4 SHA1: e42104b7f888fd25ba97491f8ccc3596b892adaa
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-qttranslations5-l10n http://spdx.org/spdxdocs/qttranslations5-l10n_5.15.3-1-b99d5a2e-8040-5f2d-aa7d-7462134cf6ce SHA1: 5cb4bdb6fa50ce91d80fe19e957f6772aa10a9f6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libqt5core5a
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:26:04Z
+
+
+## Package
+
+PackageName: libqt5core5a
+PackageVersion: 5.15.3+dfsg-2ubuntu0.2
+SPDXID: SPDXRef-libqt5core5a
+PackageHomePage: https://www.qt.io/developers/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: becb8c3d636f7741c48d87e4e3ed3195363efd1e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: Bitstream-Vera
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: FTL
+PackageLicenseInfoFromFiles: GFDL-1.1-or-later
+PackageLicenseInfoFromFiles: GFDL-1.3-only
+PackageLicenseInfoFromFiles: GFDL-1.3-or-later
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: IJG
+PackageLicenseInfoFromFiles: LGPL-2.1-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: LGPL-3.0-only
+PackageLicenseInfoFromFiles: Libpng
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: MIT-Modern-Variant
+PackageLicenseInfoFromFiles: MPL-2.0
+PackageLicenseInfoFromFiles: Qt-GPL-exception-1.0
+PackageLicenseInfoFromFiles: W3C
+PackageLicenseInfoFromFiles: W3C-19980720
+PackageLicenseInfoFromFiles: Zlib
+PackageLicenseInfoFromFiles: bzip2-1.0.6
+PackageLicenseInfoFromFiles: LicenseRef-scancode-philippe-de-muyter
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unicode
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageLicenseInfoFromFiles: LicenseRef-scancode-warranty-disclaimer
+PackageCopyrightText: <text>Copyright 1990-1998 The Open Group
+Copyright 1991-2017 Unicode, Inc.
+Copyright 1992-1993 The Regents of the University of California 2011 The FreeBSD Foundation 2005, 2007, 2008, 2013 George Williams
+Copyright 1994-2002 World Wide Web Consortium Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique
+Copyright 1994-2002 World Wide Web Consortium, (Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique, Keio University)
+Copyright 1995-2017 Jean-loup Gailly 1995-2017 Mark Adler
+Copyright 1995-2019 The PNG Reference Library Authors
+Copyright 1996-2000 by David Turner, Robert Wilhelm, and Werner Lemberg
+Copyright 1996-2019 David Turner, Robert Wilhelm, and Werner Lemberg 1996-2019 Just van Rossum 2002-2019 Roberto Alameda 2003 Huw D
+Copyright 1997-2020 University of Cambridge 2009-2020 Zoltan Herczeg
+Copyright 1998-2005 David Turner 1998-2004 Werner Lemberg 2000-2007 Red Hat, Inc 2006 Behdad Esfahbod 2015 The Qt Company Ltd.
+Copyright 1998-2013, Brian Gladman, Worcester, UK
+Copyright 2000-2014 Francesco Zappa Nardelli
+Copyright 2001 Robert Penner
+Copyright 2001-2014 Francesco Zappa Nardelli 2000 Computing Research Labs, New Mexico State University
+Copyright 2002-2017 The ANGLE Project
+Copyright 2003 Bitstream, Inc.
+Copyright 2003 Bitstream, Inc. 2006 Tavmjong Bah American Mathematical Society
+Copyright 2003-2017 Josef Weidendorfer 2000-2017 Julian Seward
+Copyright 2005 The Android Open Source Project
+Copyright 2006-2012 the V8 project
+Copyright 2007 Jo Hermans <jo.hermans@gmail.com> 2007-2019 https://github.com/publicsuffix/list
+Copyright 2007-2013 Fathi Boudra <fabo@debian.org> 2007-2013 Sune Vuorela <debian@pusling.com> 2008-2012 Modestas Vainius <modax@debian.org> 2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org> 2005-2007 Brian Nelson <pyro@debian.org> 2012-2013 Zoltan Balogh <zoltan.balogh@canonical.com> 2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com> 2013-2020 Dmitry Shachnev <mitya57@debian.org> 2018 Simon Quigley <tsimonq2@ubuntu.com>
+Copyright 2007-2017 The Khronos Group Inc.
+Copyright 2008-2010 NVIDIA, Corporation
+Copyright 2009 Marco Martin <notmart@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2009 Nokia Corporation
+Copyright 2009-2012 Apple Inc.
+Copyright 2009-2016 Stephen Kelly <steveire@gmail.com>
+Copyright 2009-2020 D. R. Commander 2011-2016 Siarhei Siamashka 2015-2016, 2018 Matthieu Darbois 2015 Intel Corporation 2015 Google, Inc. 2013-2014 MIPS Technologies, Inc. 2013 Linaro Limited 2009-2011 Nokia Corporation and/or its subsidiary(-ies) 2009 Pierre Ossman for Cendio AB 1999-2006 MIYASAKA Masaru 1991-2016 Thomas G. Lane, Guido Vollbeding 2019 Arm Limited
+Copyright 2010-2017 Google, Inc. 2012-2015 Mozilla Foundation 2011 Codethink Limited 2008-2010 Nokia Corporation and/or its subsidiary(-ies) 2009 Keith Stribley 2009 Martin Hosken and SIL International
+Copyright 2011 Google, Inc.
+Copyright 2011 IETF Trust
+Copyright 2011 Richard J. Moore <rich@kde.org>
+Copyright 2011-2012 BlackBerry Limited (formerly Research In Motion) 2017 QNX Software Systems
+Copyright 2011-2014 BlackBerry Limited formerly Research
+Copyright 2011-2014 The Chromium Authors
+Copyright 2011-2016 Olivier Goffart <ogoffart@woboq.com>
+Copyright 2011-2016 Richard J. Moore <rich@kde.org> 2016-2019 The Qt Company Ltd.
+Copyright 2011-2016 Robin Burchell <robin.burchell@viroteck.net>
+Copyright 2011-2018 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2011-2020 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2012 Collabora Ltd
+Copyright 2012 Giuseppe D'Angelo <dangelog@gmail.com> 2016 Intel Corporation 2016 The Qt Company Ltd.
+Copyright 2012 Giuseppe D'Angelo <dangelog@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2012 Hewlett-Packard Development Company, L.P.
+Copyright 2012 Robin Burchell <robin.burchell@viroteck.net> 2016 The Qt Company Ltd.
+Copyright 2012-2013 David Faure <faure@kde.org>
+Copyright 2012-2013 Thorbjorn Lund Martsum <tmartsum@gmail.com>
+Copyright 2012-2014 David Faure <faure@kde.org>
+Copyright 2012-2014 Jeremy Laine <jeremy.laine@m4x.org>
+Copyright 2012-2016 BogDan Vatra <bogdan@kde.org> 2016-2018 The Qt Company Ltd.
+Copyright 2012-2017 BogDan Vatra <bogdan@kde.org> 2016 Olivier Goffart <ogoffart@woboq.com> 2016 The Qt Company Ltd.
+Copyright 2012-2018 BogDan Vatra <bogdan@kde.org> 2016 Olivier Goffart <ogoffart@woboq.com>
+Copyright 2012-2018 Klaralvdalens Datakonsult AB, a KDAB Group company 2016-2019 The Qt Company Ltd.
+Copyright 2012-2018 Klaralvdalens Datakonsult AB, a KDAB Group company 2016-2020 The Qt Company Ltd.
+Copyright 2012-2019 BogDan Vatra <bogdan@kde.org>
+Copyright 2013 Aleix Pol Gonzalez <aleixpol@kde.org> 2016-2020 The Qt Company Ltd.
+Copyright 2013 BlackBerry Limited formerly Research
+Copyright 2013 Canonical, Ltd.
+Copyright 2013 David Faure <faure@kde.org> 2013 Laszlo Papp <lpapp@kde.org>
+Copyright 2013 David Faure <faure@kde.org> 2017 Intel Corporation 2016 The Qt Company Ltd.
+Copyright 2013 Imagination Technologies Limited, www.imgtec.com
+Copyright 2013 Ivan Komissarov <ABBAPOH@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2013 Konstantin Ritt <ritt.ks@gmail.com> 2016-2019 The Qt Company Ltd.
+Copyright 2013 Laszlo Papp <lpapp@kde.org>
+Copyright 2013 Laszlo Papp <lpapp@kde.org> 2016 The Qt Company Ltd.
+Copyright 2013 Ruslan Nigmatullin <euroelessar@yandex.ru>
+Copyright 2013 Samuel Gaist <samuel.gaist@edeltech.ch> 2013 Teo Mrnjavac <teo@kde.org> 2016 The Qt Company Ltd.
+Copyright 2013 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2013 Teo Mrnjavac <teo@kde.org> 2016 The Qt Company Ltd.
+Copyright 2013 Tilera Corporation (jiwang@tilera.com) 2009-2018 Zoltan Herczeg (hzmester@freemail.hu)
+Copyright 2013-2014 BlackBerry Limited formerly Research
+Copyright 2013-2014 John Layt <jlayt@kde.org>
+Copyright 2013-2014 John Layt <jlayt@kde.org> 2016-2021 The Qt Company Ltd.
+Copyright 2013-2016 Olivier Goffart <ogoffart@woboq.com> 2016-2019 The Qt Company Ltd.
+Copyright 2013-2016 Olivier Goffart <ogoffart@woboq.com> 2016-2020 The Qt Company Ltd.
+Copyright 2014 BlackBerry Limited (formerly Research In Motion) 2014 Governikus GmbH & Co.
+Copyright 2014 BlackBerry Limited formerly Research
+Copyright 2014 Drew Parsons <dparsons@emerall.com> 2020 The Qt Company Ltd.
+Copyright 2014 Governikus GmbH & Co.
+Copyright 2014 Ivan Komissarov <ABBAPOH@gmail.com>
+Copyright 2014 John Layt <jlayt@kde.org>
+Copyright 2014 Keith Gardner <kreios4004@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2014 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2014 Martin Graesslin <mgraesslin@kde.org> 2016 The Qt Company Ltd.
+Copyright 2014 Petroules Corporation. 2014 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2014 Petroules Corporation. 2016 The Qt Company Ltd.
+Copyright 2014 Robin Burchell <robin.burchell@viroteck.net> 2016 The Qt Company Ltd.
+Copyright 2014 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2014 by Southwest Research Institute
+Copyright 2015 Andre Klitzing <aklitzing@gmail.com>
+Copyright 2015 Giuseppe D'Angelo <dangelog@gmail.com> 2015 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2015 Green Hills Software
+Copyright 2015 International Color Consortium
+Copyright 2015 Klaralvdalens Datakonsult AB, a KDAB Group company 2015 Konstantin Ritt <ritt.ks@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2015 Mikkel Krautz <mikkel@krautz.dk>
+Copyright 2015 Mikkel Krautz <mikkel@krautz.dk> 2016 Richard J. Moore <rich@kde.org>
+Copyright 2015-2016 Alex Trotsenko <alex1973tr@gmail.com>
+Copyright 2015-2016 Alex Trotsenko <alex1973tr@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2015-2016 Oleksandr Tymoshenko <gonzo@bluezbox.com>
+Copyright 2015-2016 Oleksandr Tymoshenko <gonzo@bluezbox.com> 2017 The Qt Company Ltd.
+Copyright 2015-2018 Samuel Gaist <samuel.gaist@edeltech.ch>
+Copyright 2015-2020 Intel Corporation
+Copyright 2015-2020 Intel Corporation 2016-2020 The Qt Company Ltd.
+Copyright 2016 Alex Trotsenko <alex1973tr@gmail.com>
+Copyright 2016 BlackBerry Limited formerly Research
+Copyright 2016 Borgar Ovsthus
+Copyright 2016 David Faure <faure@kde.org>
+Copyright 2016 Dmitry Shachnev <mitya57@gmail.com>
+Copyright 2016 Giuseppe D'Angelo <dangelog@gmail.com>
+Copyright 2016 Intel Corporation
+Copyright 2016 Intel Corporation 2012 Jeremy Laine <jeremy.laine@m4x.org>
+Copyright 2016 Intel Corporation 2014 Ivan Komissarov <ABBAPOH@gmail.com>
+Copyright 2016 Intel Corporation 2014 Keith Gardner <kreios4004@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2016 Intel Corporation 2016 The Qt Company Ltd. 2014
+Copyright 2016 Intel Corporation 2016 Thiago Macieira <thiago@kde.org>
+Copyright 2016 Intel Corporation 2019 The Qt Company Ltd.
+Copyright 2016 Ivan Komissarov <ABBAPOH@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2016 Jeremy Laine <jeremy.laine@m4x.org>
+Copyright 2016 Jolla Ltd
+Copyright 2016 Kai Pastor
+Copyright 2016 Keith Gardner <kreios4004@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2016 Klaralvdalens Datakonsult AB, a KDAB Group company 2016 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2016 LG Electronics Ltd
+Copyright 2016 Laszlo Papp <lpapp@kde.org>
+Copyright 2016 Olivier Goffart <ogoffart@woboq.com>
+Copyright 2016 Pelagicore AG
+Copyright 2016 Pelagicore AG 2015-2017 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com> 2016-2017 The Qt Company Ltd.
+Copyright 2016 Pelagicore AG 2016 The Qt Company Ltd.
+Copyright 2016 Rick Stockton <rickstockton@reno-computerhelp.com> 2016 The Qt Company Ltd.
+Copyright 2016 Ruslan Nigmatullin <euroelessar@yandex.ru>
+Copyright 2016 The Qt Company Ltd. 2011 Thiago Macieira <thiago@kde.org>
+Copyright 2016 The Qt Company Ltd. 2012 Thorbjorn Lund Martsum <tmartsum@gmail.com>
+Copyright 2016 The Qt Company Ltd. 2015
+Copyright 2016-2018 Intel Corporation 2011 Thiago Macieira <thiago@kde.org>
+Copyright 2016-2018 Intel Corporation 2012-2016 Olivier Goffart <ogoffart@woboq.com> 2016-2020 The Qt Company Ltd.
+Copyright 2016-2018 Intel Corporation 2013-2016 Olivier Goffart <ogoffart@woboq.com> 2016 The Qt Company Ltd.
+Copyright 2016-2018 Intel Corporation 2019 Mail.ru Group. 2016-2020 The Qt Company Ltd.
+Copyright 2016-2018 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2016-2018 QNX Software Systems
+Copyright 2016-2019 Intel Corporation
+Copyright 2016-2019 Intel Corporation 2018-2019 Klaralvdalens Datakonsult AB, a KDAB Group company 2018-2019 The Qt Company Ltd.
+Copyright 2016-2019 The Qt Company Ltd.
+Copyright 2016-2019 The Qt Company Ltd. 2014-2016
+Copyright 2016-2020 Intel Corporation 2015 Klaralvdalens Datakonsult AB, a KDAB Group company, info@kdab.com
+Copyright 2016-2020 Intel Corporation 2016-2020 The Qt Company Ltd.
+Copyright 2016-2020 Martin Mitas
+Copyright 2016-2020 The Qt Company Ltd.
+Copyright 2016-2021 The Qt Company Ltd.
+Copyright 2017 Andre Klitzing
+Copyright 2017 Klaralvdalens Datakonsult AB, a KDAB Group company 2019 Mail.ru Group
+Copyright 2017 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
+Copyright 2017-2018 Advanced Micro Devices, Inc.
+Copyright 2017-2018 Red Hat, Inc
+Copyright 2017-2019 Samuel Gaist <samuel.gaist@edeltech.ch>
+Copyright 2018 Intel Corporation
+Copyright 2018 Intel Corporation 2013 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2018 Intel Corporation 2016-2018 The Qt Company Ltd.
+Copyright 2018 Kitware, Inc.
+Copyright 2018 Klaralvdalens Datakonsult AB, a KDAB Group company 2019 The Qt Company Ltd.
+Copyright 2018 Luca Beldi <v.ronin@yahoo.it>
+Copyright 2018-2019 The Qt Company Ltd.
+Copyright 2018-2020 The Qt Company Ltd.
+Copyright 2019 BogDan Vatra <bogdan@kde.org> 2016 The Qt Company Ltd.
+Copyright 2019 Crimson AS <info@crimson.no> 2013 John Layt <jlayt@kde.org> 2020 The Qt Company Ltd.
+Copyright 2019 Crimson AS <info@crimson.no> 2018 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2019 Intel Corporation 2016
+Copyright 2019 Klaralvdalens Datakonsult AB, a KDAB Group company 2019 Mail.ru Group
+Copyright 2019 Mail.ru Group. 2016 The Qt Company Ltd.
+Copyright 2019 Samuel Gaist <samuel.gaist@edeltech.ch>
+Copyright 2019 Volker Krause <vkrause@kde.org>
+Copyright 2020 Aleix Pol Gonzalez <aleixpol@kde.org>
+Copyright 2020 Giuseppe D'Angelo <dangelog@gmail.com> 2020 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2020 Giuseppe D'Angelo <dangelog@gmail.com> 2020 Klaralvdalens Datakonsult AB, a KDAB Group company 2016 The Qt Company Ltd.
+Copyright 2020 Harald Meyer
+Copyright 2020 Intel Corporation 2019 Klaralvdalens Datakonsult AB. 2019 The Qt Company Ltd.
+Copyright 2020 Intel Corporation 2019 Klaralvdalens Datakonsult AB. 2019-2020 The Qt Company Ltd.
+Copyright Dominik Reichl <dominik.reichl@t-online.de> 2016 The Qt Company Ltd
+Copyright Guido Bertoni, Joan Daemen, Michael Peeters and Gilles Van Assche
+Copyright World Wide Web Consortium, (Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique, Keio University)
+Copyright property of CompuServe Incorporated
+copyright (c) 1991-2016, Thomas G. Lane, Guido Vollbeding
+copyright (c) 1996-2000 by David Turner, Robert Wilhelm, and Werner Lemberg
+</text>
+PackageComment: <text>Qt 5 core module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtCore module contains core non-GUI functionality.</text>
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-shared-mime-info
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-libdouble-conversion3:SPDXRef-libdouble-conversion3
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libicu70
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-libpcre2-16-0:SPDXRef-libpcre2-16-0
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libzstd1
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-qttranslations5-l10n:SPDXRef-qttranslations5-l10n
+Relationship: SPDXRef-libqt5core5a DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libthai0
+
+
+## File
+
+FileName: /usr/share/doc/libqt5core5a/copyright
+SPDXID: SPDXRef-libqt5core5a-file-0
+FileChecksum: SHA1: 8fee47970bf10262b77403c0b14c3856c60b64b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: IJG
+LicenseInfoInFile: GFDL-1.1-or-later
+LicenseInfoInFile: MPL-2.0
+LicenseInfoInFile: LGPL-2.1-only
+LicenseInfoInFile: Zlib
+LicenseInfoInFile: LicenseRef-scancode-philippe-de-muyter
+LicenseInfoInFile: MIT-Modern-Variant
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: W3C-19980720
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: Bitstream-Vera
+LicenseInfoInFile: W3C
+LicenseInfoInFile: Apache-2.0
+LicenseInfoInFile: bzip2-1.0.6
+LicenseInfoInFile: LicenseRef-scancode-unicode
+LicenseInfoInFile: Qt-GPL-exception-1.0
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GFDL-1.3-only
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: GFDL-1.3-or-later
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: FTL
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright 2016-2020 The Qt Company Ltd.
+Copyright 2016-2020 The Qt Company Ltd.
+Copyright 2016-2021 The Qt Company Ltd.
+Copyright 2016-2019 The Qt Company Ltd.
+Copyright 2007-2013 Fathi Boudra <fabo@debian.org> 2007-2013 Sune Vuorela <debian@pusling.com> 2008-2012 Modestas Vainius <modax@debian.org> 2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org> 2005-2007 Brian Nelson <pyro@debian.org> 2012-2013 Zoltan Balogh <zoltan.balogh@canonical.com> 2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com> 2013-2020 Dmitry Shachnev <mitya57@debian.org> 2018 Simon Quigley <tsimonq2@ubuntu.com>
+Copyright 2015-2016 Alex Trotsenko <alex1973tr@gmail.com>
+Copyright 2016 BlackBerry Limited formerly Research
+Copyright 2016 David Faure <faure@kde.org>
+Copyright 2016 Giuseppe D'Angelo <dangelog@gmail.com>
+Copyright 2018 Intel Corporation
+Copyright 2018 Intel Corporation 2016-2018 The Qt Company Ltd.
+Copyright 2014 Ivan Komissarov <ABBAPOH@gmail.com>
+Copyright 2016 Ivan Komissarov <ABBAPOH@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2016 Jeremy Laine <jeremy.laine@m4x.org>
+Copyright 2016 Keith Gardner <kreios4004@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2018 Kitware, Inc.
+Copyright 2016-2018 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2016 Klaralvdalens Datakonsult AB, a KDAB Group company 2016 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2016 Laszlo Papp <lpapp@kde.org>
+Copyright 2016 Olivier Goffart <ogoffart@woboq.com>
+Copyright 2016 Rick Stockton <rickstockton@reno-computerhelp.com> 2016 The Qt Company Ltd.
+Copyright 2016 Ruslan Nigmatullin <euroelessar@yandex.ru>
+Copyright 2015-2018 Samuel Gaist <samuel.gaist@edeltech.ch>
+Copyright 2014 by Southwest Research Institute
+Copyright 2018 Intel Corporation
+Copyright 2016 Intel Corporation
+Copyright 2016 Intel Corporation 2019 The Qt Company Ltd.
+Copyright 2014 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2018 Klaralvdalens Datakonsult AB, a KDAB Group company 2019 The Qt Company Ltd.
+Copyright 2016 Rick Stockton <rickstockton@reno-computerhelp.com> 2016 The Qt Company Ltd.
+Copyright 2018-2020 The Qt Company Ltd.
+Copyright 2016 Alex Trotsenko <alex1973tr@gmail.com>
+Copyright 2015 Andre Klitzing <aklitzing@gmail.com>
+Copyright 2013-2014 BlackBerry Limited formerly Research
+Copyright 2014 BlackBerry Limited formerly Research
+Copyright 2019 BogDan Vatra <bogdan@kde.org> 2016 The Qt Company Ltd.
+Copyright 2013 Canonical, Ltd.
+Copyright 2019 Crimson AS <info@crimson.no> 2018 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2012-2014 David Faure <faure@kde.org>
+Copyright 2015 Giuseppe D'Angelo <dangelog@gmail.com> 2015 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2012 Giuseppe D'Angelo <dangelog@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2014 Governikus GmbH & Co.
+Copyright 2014 Governikus GmbH & Co.
+Copyright 2012 Hewlett-Packard Development Company, L.P.
+Copyright 2016-2019 Intel Corporation
+Copyright 2016 Intel Corporation 2012 Jeremy Laine <jeremy.laine@m4x.org>
+Copyright 2020 Intel Corporation 2019 Klaralvdalens Datakonsult AB. 2019 The Qt Company Ltd.
+Copyright 2016-2018 Intel Corporation 2013-2016 Olivier Goffart <ogoffart@woboq.com> 2016 The Qt Company Ltd.
+Copyright 2016-2020 Intel Corporation 2016-2020 The Qt Company Ltd.
+Copyright 2016 Intel Corporation 2016 Thiago Macieira <thiago@kde.org>
+Copyright 2014 Ivan Komissarov <ABBAPOH@gmail.com>
+Copyright 2012-2014 Jeremy Laine <jeremy.laine@m4x.org>
+Copyright 2014 John Layt <jlayt@kde.org>
+Copyright 2016 Kai Pastor
+Copyright 2014 Keith Gardner <kreios4004@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2011-2018 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2019 Klaralvdalens Datakonsult AB, a KDAB Group company 2019 Mail.ru Group
+Copyright 2012-2018 Klaralvdalens Datakonsult AB, a KDAB Group company 2016-2019 The Qt Company Ltd.
+Copyright 2013 Laszlo Papp <lpapp@kde.org> 2016 The Qt Company Ltd.
+Copyright 2015 Mikkel Krautz <mikkel@krautz.dk>
+Copyright 2011-2016 Olivier Goffart <ogoffart@woboq.com>
+Copyright 2013-2016 Olivier Goffart <ogoffart@woboq.com> 2016-2020 The Qt Company Ltd.
+Copyright 2014 Petroules Corporation. 2016 The Qt Company Ltd.
+Copyright 2017 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
+Copyright 2011-2016 Robin Burchell <robin.burchell@viroteck.net>
+Copyright 2012 Robin Burchell <robin.burchell@viroteck.net> 2016 The Qt Company Ltd.
+Copyright 2013 Ruslan Nigmatullin <euroelessar@yandex.ru>
+Copyright 2017-2019 Samuel Gaist <samuel.gaist@edeltech.ch>
+Copyright 2014 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2009-2016 Stephen Kelly <steveire@gmail.com>
+Copyright 2016 The Qt Company Ltd. 2012 Thorbjorn Lund Martsum <tmartsum@gmail.com>
+Copyright 2016-2019 The Qt Company Ltd. 2014-2016
+Copyright 2012-2013 Thorbjorn Lund Martsum <tmartsum@gmail.com>
+Copyright 2020 Aleix Pol Gonzalez <aleixpol@kde.org>
+Copyright 2013 Aleix Pol Gonzalez <aleixpol@kde.org> 2016-2020 The Qt Company Ltd.
+Copyright 2016 Alex Trotsenko <alex1973tr@gmail.com>
+Copyright 2015-2016 Alex Trotsenko <alex1973tr@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2017 Andre Klitzing
+Copyright 2011-2014 BlackBerry Limited formerly Research
+Copyright 2014 BlackBerry Limited (formerly Research In Motion) 2014 Governikus GmbH & Co.
+Copyright 2013 BlackBerry Limited formerly Research
+Copyright 2014 BlackBerry Limited formerly Research
+Copyright 2011-2012 BlackBerry Limited (formerly Research In Motion) 2017 QNX Software Systems
+Copyright 2014 BlackBerry Limited formerly Research
+Copyright 2014 BlackBerry Limited formerly Research
+Copyright 2012-2019 BogDan Vatra <bogdan@kde.org>
+Copyright 2012-2018 BogDan Vatra <bogdan@kde.org> 2016 Olivier Goffart <ogoffart@woboq.com>
+Copyright 2012-2017 BogDan Vatra <bogdan@kde.org> 2016 Olivier Goffart <ogoffart@woboq.com> 2016 The Qt Company Ltd.
+Copyright 2012-2016 BogDan Vatra <bogdan@kde.org> 2016-2018 The Qt Company Ltd.
+Copyright 2016 Borgar Ovsthus
+Copyright 2012 Collabora Ltd
+Copyright 2019 Crimson AS <info@crimson.no> 2013 John Layt <jlayt@kde.org> 2020 The Qt Company Ltd.
+Copyright 2012-2013 David Faure <faure@kde.org>
+Copyright 2013 David Faure <faure@kde.org> 2017 Intel Corporation 2016 The Qt Company Ltd.
+Copyright 2013 David Faure <faure@kde.org> 2013 Laszlo Papp <lpapp@kde.org>
+Copyright 2016 Dmitry Shachnev <mitya57@gmail.com>
+Copyright 2014 Drew Parsons <dparsons@emerall.com> 2020 The Qt Company Ltd.
+Copyright 2012 Giuseppe D'Angelo <dangelog@gmail.com> 2016 Intel Corporation 2016 The Qt Company Ltd.
+Copyright 2020 Giuseppe D'Angelo <dangelog@gmail.com> 2020 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2020 Giuseppe D'Angelo <dangelog@gmail.com> 2020 Klaralvdalens Datakonsult AB, a KDAB Group company 2016 The Qt Company Ltd.
+Copyright 2014 Governikus GmbH & Co.
+Copyright 2014 Governikus GmbH & Co.
+Copyright 2014 Governikus GmbH & Co.
+Copyright 2015 Green Hills Software
+Copyright 2020 Harald Meyer
+Copyright 2013 Imagination Technologies Limited, www.imgtec.com
+Copyright 2015-2020 Intel Corporation
+Copyright 2016 Intel Corporation 2014 Ivan Komissarov <ABBAPOH@gmail.com>
+Copyright 2016 Intel Corporation 2014 Keith Gardner <kreios4004@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2016-2019 Intel Corporation 2018-2019 Klaralvdalens Datakonsult AB, a KDAB Group company 2018-2019 The Qt Company Ltd.
+Copyright 2020 Intel Corporation 2019 Klaralvdalens Datakonsult AB. 2019-2020 The Qt Company Ltd.
+Copyright 2016-2018 Intel Corporation 2019 Mail.ru Group. 2016-2020 The Qt Company Ltd.
+Copyright 2016-2018 Intel Corporation 2012-2016 Olivier Goffart <ogoffart@woboq.com> 2016-2020 The Qt Company Ltd.
+Copyright 2018 Intel Corporation 2013 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2015-2020 Intel Corporation 2016-2020 The Qt Company Ltd.
+Copyright 2016 Intel Corporation 2016 The Qt Company Ltd. 2014
+Copyright 2016-2018 Intel Corporation 2011 Thiago Macieira <thiago@kde.org>
+Copyright 2019 Intel Corporation 2016
+Copyright 2014 Ivan Komissarov <ABBAPOH@gmail.com>
+Copyright 2013 Ivan Komissarov <ABBAPOH@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2012-2014 Jeremy Laine <jeremy.laine@m4x.org>
+Copyright 2013-2014 John Layt <jlayt@kde.org>
+Copyright 2013-2014 John Layt <jlayt@kde.org> 2016-2021 The Qt Company Ltd.
+Copyright 2016 Jolla Ltd
+Copyright 2016 Jolla Ltd
+Copyright 2011-2020 Klaralvdalens Datakonsult AB, a KDAB Group company
+Copyright 2015 Klaralvdalens Datakonsult AB, a KDAB Group company 2015 Konstantin Ritt <ritt.ks@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2017 Klaralvdalens Datakonsult AB, a KDAB Group company 2019 Mail.ru Group
+Copyright 2012-2018 Klaralvdalens Datakonsult AB, a KDAB Group company 2016-2020 The Qt Company Ltd.
+Copyright 2013 Konstantin Ritt <ritt.ks@gmail.com> 2016-2019 The Qt Company Ltd.
+Copyright 2016 LG Electronics Ltd
+Copyright 2013 Laszlo Papp <lpapp@kde.org>
+Copyright 2013 Laszlo Papp <lpapp@kde.org> 2016 The Qt Company Ltd.
+Copyright 2018 Luca Beldi <v.ronin@yahoo.it>
+Copyright 2019 Mail.ru Group. 2016 The Qt Company Ltd.
+Copyright 2009 Marco Martin <notmart@gmail.com> 2016 The Qt Company Ltd.
+Copyright 2014 Martin Graesslin <mgraesslin@kde.org> 2016 The Qt Company Ltd.
+Copyright 2015 Mikkel Krautz <mikkel@krautz.dk>
+Copyright 2015 Mikkel Krautz <mikkel@krautz.dk> 2016 Richard J. Moore <rich@kde.org>
+Copyright 2015-2016 Oleksandr Tymoshenko <gonzo@bluezbox.com>
+Copyright 2015-2016 Oleksandr Tymoshenko <gonzo@bluezbox.com> 2017 The Qt Company Ltd.
+Copyright 2016 Olivier Goffart <ogoffart@woboq.com>
+Copyright 2013-2016 Olivier Goffart <ogoffart@woboq.com> 2016-2019 The Qt Company Ltd.
+Copyright 2016 Pelagicore AG
+Copyright 2016 Pelagicore AG 2015-2017 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com> 2016-2017 The Qt Company Ltd.
+Copyright 2016 Pelagicore AG 2016 The Qt Company Ltd.
+Copyright 2014 Petroules Corporation. 2014 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2014 Petroules Corporation. 2016 The Qt Company Ltd.
+Copyright 2017 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
+Copyright 2016-2018 QNX Software Systems
+Copyright 2017-2018 Red Hat, Inc
+Copyright 2011 Richard J. Moore <rich@kde.org>
+Copyright 2011-2016 Richard J. Moore <rich@kde.org> 2016-2019 The Qt Company Ltd.
+Copyright 2014 Robin Burchell <robin.burchell@viroteck.net> 2016 The Qt Company Ltd.
+Copyright 2013 Ruslan Nigmatullin <euroelessar@yandex.ru>
+Copyright 2019 Samuel Gaist <samuel.gaist@edeltech.ch>
+Copyright 2013 Samuel Gaist <samuel.gaist@edeltech.ch> 2013 Teo Mrnjavac <teo@kde.org> 2016 The Qt Company Ltd.
+Copyright 2013 Samuel Gaist <samuel.gaist@edeltech.ch> 2016 The Qt Company Ltd.
+Copyright 2013 Teo Mrnjavac <teo@kde.org> 2016 The Qt Company Ltd.
+Copyright 2016 The Qt Company Ltd. 2011 Thiago Macieira <thiago@kde.org>
+Copyright 2016-2019 The Qt Company Ltd. 2014-2016
+Copyright 2016 The Qt Company Ltd. 2015
+Copyright 2019 Volker Krause <vkrause@kde.org>
+Copyright 2018-2019 The Qt Company Ltd.
+Copyright 2007 Jo Hermans <jo.hermans@gmail.com> 2007-2019 https://github.com/publicsuffix/list
+Copyright 1994-2002 World Wide Web Consortium Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique
+Copyright 1994-2002 World Wide Web Consortium, (Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique, Keio University)
+Copyright World Wide Web Consortium, (Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique, Keio University)
+Copyright 1991-2017 Unicode, Inc.
+Copyright 2003-2017 Josef Weidendorfer 2000-2017 Julian Seward
+Copyright 2002-2017 The ANGLE Project
+Copyright 2007-2017 The Khronos Group Inc.
+Copyright 2011-2014 The Chromium Authors
+Copyright 2009-2012 Apple Inc.
+Copyright 2008-2010 NVIDIA, Corporation
+Copyright 2011 Google, Inc.
+Copyright 2006-2012 the V8 project
+Copyright 2001 Robert Penner
+Copyright 2016-2020 Intel Corporation 2015 Klaralvdalens Datakonsult AB, a KDAB Group company, info@kdab.com
+Copyright 1998-2005 David Turner 1998-2004 Werner Lemberg 2000-2007 Red Hat, Inc 2006 Behdad Esfahbod 2015 The Qt Company Ltd.
+Copyright 2010-2017 Google, Inc. 2012-2015 Mozilla Foundation 2011 Codethink Limited 2008-2010 Nokia Corporation and/or its subsidiary(-ies) 2009 Keith Stribley 2009 Martin Hosken and SIL International
+Copyright 1996-2019 David Turner, Robert Wilhelm, and Werner Lemberg 1996-2019 Just van Rossum 2002-2019 Roberto Alameda 2003 Huw D
+Copyright 2000-2014 Francesco Zappa Nardelli
+Copyright 1990-1998 The Open Group
+Copyright 2001-2014 Francesco Zappa Nardelli 2000 Computing Research Labs, New Mexico State University
+Copyright 1992-1993 The Regents of the University of California 2011 The FreeBSD Foundation 2005, 2007, 2008, 2013 George Williams
+Copyright 2015 International Color Consortium
+Copyright 2009-2020 D. R. Commander 2011-2016 Siarhei Siamashka 2015-2016, 2018 Matthieu Darbois 2015 Intel Corporation 2015 Google, Inc. 2013-2014 MIPS Technologies, Inc. 2013 Linaro Limited 2009-2011 Nokia Corporation and/or its subsidiary(-ies) 2009 Pierre Ossman for Cendio AB 1999-2006 MIYASAKA Masaru 1991-2016 Thomas G. Lane, Guido Vollbeding 2019 Arm Limited
+Copyright 1995-2019 The PNG Reference Library Authors
+Copyright 2005 The Android Open Source Project
+Copyright 1997-2020 University of Cambridge 2009-2020 Zoltan Herczeg
+Copyright 2013 Tilera Corporation (jiwang@tilera.com) 2009-2018 Zoltan Herczeg (hzmester@freemail.hu)
+Copyright 2009 Nokia Corporation
+Copyright 2011 IETF Trust
+Copyright Dominik Reichl <dominik.reichl@t-online.de> 2016 The Qt Company Ltd
+Copyright Guido Bertoni, Joan Daemen, Michael Peeters and Gilles Van Assche
+Copyright 1998-2013, Brian Gladman, Worcester, UK
+Copyright 2016-2019 Intel Corporation
+Copyright 2003 Bitstream, Inc. 2006 Tavmjong Bah American Mathematical Society
+Copyright 2003 Bitstream, Inc.
+Copyright 1995-2017 Jean-loup Gailly 1995-2017 Mark Adler
+Copyright 2016-2020 Martin Mitas
+Copyright 2017-2018 Advanced Micro Devices, Inc.
+Copyright 1996-2000 by David Turner, Robert Wilhelm, and Werner Lemberg
+copyright (c) 1996-2000 by David Turner, Robert Wilhelm, and Werner Lemberg
+copyright (c) 1991-2016, Thomas G. Lane, Guido Vollbeding
+Copyright property of CompuServe Incorporated
+</text>
+Relationship: SPDXRef-libqt5core5a CONTAINS SPDXRef-libqt5core5a-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
+SPDXID: SPDXRef-libqt5core5a-file-1
+FileChecksum: SHA1: 4b8179e2382da362cf433c22285a52c60d4e7ceb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libqt5core5a CONTAINS SPDXRef-libqt5core5a-file-1
+
+
+FileName: /usr/share/doc/libqt5core5a/changelog.Debian.gz
+SPDXID: SPDXRef-libqt5core5a-file-2
+FileChecksum: SHA1: 2c8ea0276ac70badf0a503fa07624c1747be6fcd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libqt5core5a CONTAINS SPDXRef-libqt5core5a-file-2
+
+
+FileName: /usr/share/lintian/overrides/libqt5core5a
+SPDXID: SPDXRef-libqt5core5a-file-3
+FileChecksum: SHA1: 0aa8122806d4b035b515373d20f13b1dcb45376e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libqt5core5a CONTAINS SPDXRef-libqt5core5a-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+SPDXID: SPDXRef-libqt5core5a-file-4
+FileChecksum: SHA1: 4b8179e2382da362cf433c22285a52c60d4e7ceb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libqt5core5a CONTAINS SPDXRef-libqt5core5a-file-4
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15
+SPDXID: SPDXRef-libqt5core5a-file-5
+FileChecksum: SHA1: 4b8179e2382da362cf433c22285a52c60d4e7ceb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libqt5core5a CONTAINS SPDXRef-libqt5core5a-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-philippe-de-muyter
+LicenseName: Philippe De Muyter License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/philippe-de-muyter.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/philippe-de-muyter.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unicode
+LicenseName: Unicode Inc License Agreement
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-warranty-disclaimer
+LicenseName: Generic Bare Warranty Disclaimer
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/warranty-disclaimer.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/warranty-disclaimer.yml
+</text>
+
+

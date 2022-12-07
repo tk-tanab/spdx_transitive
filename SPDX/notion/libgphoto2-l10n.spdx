@@ -1,0 +1,59 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgphoto2-l10n_2.5.27-1build2-8c03b7f0-a948-53f8-861e-48e4986941a8
+DocumentName: libgphoto2-l10n_2.5.27-1build2
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgphoto2-l10n
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:12:32Z
+
+
+## Package
+
+PackageName: libgphoto2-l10n
+PackageVersion: 2.5.27-1build2
+SPDXID: SPDXRef-libgphoto2-l10n
+PackageHomePage: https://github.com/gphoto/libgphoto2/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b510cf517ea885f88b740fb17cda6fda886fbec0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>gphoto2 digital camera library - localized messages
+ The gphoto2 library can be used by applications to access various
+ digital camera models, via standard protocols such as USB Mass Storage
+ and PTP, or vendor-specific protocols.
+ .
+ This package contains the localized messages for the library.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libgphoto2-l10n/changelog.Debian.gz
+SPDXID: SPDXRef-libgphoto2-l10n-file-0
+FileChecksum: SHA1: 6cd29f7bac4891fa7e4c5e55e73b6a6c8cae4189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n-file-0
+
+
+FileName: /usr/share/doc/libgphoto2-l10n/copyright
+SPDXID: SPDXRef-libgphoto2-l10n-file-1
+FileChecksum: SHA1: 90294ca0dc95af917e6c53c54c391dfd07eed286
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n-file-1
+
+
+## Extracted License
+

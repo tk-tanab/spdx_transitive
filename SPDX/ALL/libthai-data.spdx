@@ -1,0 +1,83 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libthai-data_0.1.29-1build1-9d4a6ec0-87e1-530a-b802-2cb050ddf9db
+DocumentName: libthai-data_0.1.29-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libthai-data
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:26:48Z
+
+
+## Package
+
+PackageName: libthai-data
+PackageVersion: 0.1.29-1build1
+SPDXID: SPDXRef-libthai-data
+PackageHomePage: https://linux.thai.net/projects/libthai
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: da8f58dc124036e17c10a476d7c0669f59e180f9
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2001-2021 Theppitak Karoonboonyanan <theppitak@gmail.com> , Pattara Kiatisevi <ott@linux.thai.net> , Vuthichai Ampornaramveth <vuthi@nii.ac.jp>
+Copyright 2003-2006 Pattara Kiatisevi <ott@linux.thai.net> 2006-2021 Theppitak Karoonboonyanan <thep@debian.org>
+</text>
+PackageComment: <text>Data files for Thai language support library
+ LibThai is a set of Thai language support routines aimed to ease
+ developers' tasks to incorporate Thai language support in their applications.
+ It includes important Thai-specific functions e.g. word breaking, input and
+ output methods as well as basic character and string supports.
+ .
+ This package contains data files needed by the LibThai library.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libthai-data/copyright
+SPDXID: SPDXRef-libthai-data-file-0
+FileChecksum: SHA1: cfda33c18ae3dc18c64f110b0282ee205162a626
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2001-2021 Theppitak Karoonboonyanan <theppitak@gmail.com> , Pattara Kiatisevi <ott@linux.thai.net> , Vuthichai Ampornaramveth <vuthi@nii.ac.jp>
+Copyright 2003-2006 Pattara Kiatisevi <ott@linux.thai.net> 2006-2021 Theppitak Karoonboonyanan <thep@debian.org>
+</text>
+Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data-file-0
+
+
+FileName: /usr/share/doc/libthai-data/changelog.Debian.gz
+SPDXID: SPDXRef-libthai-data-file-1
+FileChecksum: SHA1: ea673d9d240b14c1cedbc723de6111ab876844ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data-file-1
+
+
+FileName: /usr/share/libthai/thbrk.tri
+SPDXID: SPDXRef-libthai-data-file-2
+FileChecksum: SHA1: bab1d5c2ce1722f9901bb54f6c6e6bd969f37294
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libthai-data CONTAINS SPDXRef-libthai-data-file-2
+
+
+## Extracted License
+

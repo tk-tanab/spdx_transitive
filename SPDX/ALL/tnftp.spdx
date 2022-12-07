@@ -1,0 +1,221 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/tnftp_20210827-4build1-1173a425-0d03-539c-bd8f-db509142b8af
+DocumentName: tnftp_20210827-4build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-tnftp
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:04:40Z
+
+
+## Package
+
+PackageName: tnftp
+PackageVersion: 20210827-4build1
+SPDXID: SPDXRef-tnftp
+PackageHomePage: http://en.wikipedia.org/wiki/Tnftp
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0cf37dec0bcc1e4382335e502fa48e56335cd9a6
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-4-Clause
+PackageLicenseInfoFromFiles: FSFAP
+PackageLicenseInfoFromFiles: FSFULLR
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: Libtool-exception
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: Unlicense
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: LicenseRef-scancode-autoconf-simple-exception
+PackageLicenseInfoFromFiles: LicenseRef-scancode-snprintf
+PackageCopyrightText: <text>Copyright (c) 1996-2015 Free Software Foundation, Inc.
+Copyright 1985, 1993-1994, The Regents of the University of California. 1998-2004, Dag-Erling Coidan Smorgrav 2008, 2010, Joerg Sonnenberger <joerg@NetBSD.org> 2015, Thomas Klausner <wiz@NetBSD.org>
+Copyright 1985,1989,1993,1994 The Regents of the University of California. 1997-2021 The NetBSD Foundation, Inc. 1997,1998 WIDE Project. 1999-2021 Luke Mewburn
+Copyright 1987-1993, The Regents of the University of California
+Copyright 1989, 1993, The Regents of the University of California
+Copyright 1992-2018, Free Software Foundation, Inc.
+Copyright 1994, X Consortium
+Copyright 1994-2004, The NetBSD Foundation, Inc.
+Copyright 1995-1997, and 1998 WIDE Project
+Copyright 1996-1999, Internet Software Consortium. 2004, Internet Systems Consortium, Inc.
+Copyright 1996-2001, 2003-2015, Free Software Foundation, Inc.
+Copyright 1996-2015, Free Software Foundation, Inc.
+Copyright 1996-2018, Free Software Foundation, Inc.
+Copyright 1996-2021, The NetBSD Foundation, Inc.
+Copyright 1997-2020, Luke Mewburn <lukem@NetBSD.org>
+Copyright 1998, Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright 1999-2002,2004 Takuo KITAME <kitame@debian.org> 2006 Luk Claes <luk@debian.org> 2007 Bastian Venthur <venthur@debian.org>
+Copyright 2004, 2011-2015, Free Software Foundation, Inc.
+Copyright 2004-2015, Free Software
+Copyright 2007, Joerg Sonnenberger <joerg@NetBSD.org>
+Copyright 2009-2010, Dustin J. Mitchell <dustin@zmanda.com> 2009-2010, Zmanda Inc. <http://www.zmanda.com/>
+Copyright Patrick Powell 1995
+</text>
+PackageComment: <text>enhanced ftp client
+ tnftp is what many users affectionately call the enhanced ftp
+ client in NetBSD (http://www.netbsd.org).
+ .
+ This package is a `port' of the NetBSD ftp client to other systems.
+ .
+ The enhancements over the standard ftp client in 4.4BSD include:
+    * command-line editing within ftp
+    * command-line fetching of URLS, including support for:
+        - http proxies (c.f: $http_proxy, $ftp_proxy)
+        - authentication
+    * context sensitive command and filename completion
+    * dynamic progress bar
+    * IPv6 support (from the WIDE project)
+    * modification time preservation
+    * paging of local and remote files, and of directory listings
+      (c.f: `lpage', `page', `pdir')
+    * passive mode support, with fallback to active mode
+    * `set option' override of ftp environment variables
+    * TIS Firewall Toolkit gate ftp proxy support (c.f: `gate')
+    * transfer-rate throttling (c.f: `-T', `rate')</text>
+Relationship: SPDXRef-tnftp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-tnftp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libedit2
+Relationship: SPDXRef-tnftp DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libssl3
+
+
+## File
+
+FileName: /usr/share/doc/tnftp/copyright
+SPDXID: SPDXRef-tnftp-file-0
+FileChecksum: SHA1: 0de5e20d31c4a1bdaeae76a1359ed96ab8deb6f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libtool-exception
+LicenseInfoInFile: BSD-4-Clause
+LicenseInfoInFile: Unlicense
+LicenseInfoInFile: LicenseRef-scancode-autoconf-simple-exception
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: FSFAP
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: MIT
+LicenseInfoInFile: ISC
+LicenseInfoInFile: X11
+LicenseInfoInFile: LicenseRef-scancode-snprintf
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 1985,1989,1993,1994 The Regents of the University of California. 1997-2021 The NetBSD Foundation, Inc. 1997,1998 WIDE Project. 1999-2021 Luke Mewburn
+Copyright 1999-2002,2004 Takuo KITAME <kitame@debian.org> 2006 Luk Claes <luk@debian.org> 2007 Bastian Venthur <venthur@debian.org>
+Copyright 1996-2018, Free Software Foundation, Inc.
+Copyright 2004-2015, Free Software
+Copyright 1992-2018, Free Software Foundation, Inc.
+Copyright 1996-2001, 2003-2015, Free Software Foundation, Inc.
+Copyright 1994, X Consortium
+Copyright 2009-2010, Dustin J. Mitchell <dustin@zmanda.com> 2009-2010, Zmanda Inc. <http://www.zmanda.com/>
+Copyright 2004, 2011-2015, Free Software Foundation, Inc.
+Copyright 1996-2015, Free Software Foundation, Inc.
+Copyright 1987-1993, The Regents of the University of California
+Copyright 1994-2004, The NetBSD Foundation, Inc.
+Copyright 1997-2020, Luke Mewburn <lukem@NetBSD.org>
+Copyright 1995-1997, and 1998 WIDE Project
+Copyright 1996-1999, Internet Software Consortium. 2004, Internet Systems Consortium, Inc.
+Copyright 1998, Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright 2007, Joerg Sonnenberger <joerg@NetBSD.org>
+Copyright 1989, 1993, The Regents of the University of California
+Copyright Patrick Powell 1995
+Copyright Patrick Powell 1995
+Copyright 1996-2021, The NetBSD Foundation, Inc.
+Copyright 1996-2021, The NetBSD Foundation, Inc.
+Copyright 1985, 1993-1994, The Regents of the University of California. 1998-2004, Dag-Erling Coidan Smorgrav 2008, 2010, Joerg Sonnenberger <joerg@NetBSD.org> 2015, Thomas Klausner <wiz@NetBSD.org>
+Copyright (c) 1996-2015 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-tnftp CONTAINS SPDXRef-tnftp-file-0
+
+
+FileName: /usr/bin/tnftp
+SPDXID: SPDXRef-tnftp-file-1
+FileChecksum: SHA1: 9568c2b930eef370dd4d92401cbf4948a20239bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tnftp CONTAINS SPDXRef-tnftp-file-1
+
+
+FileName: /usr/share/doc/tnftp/README
+SPDXID: SPDXRef-tnftp-file-2
+FileChecksum: SHA1: aad25f92d1a12348b9b371e158373a8ebd7525d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tnftp CONTAINS SPDXRef-tnftp-file-2
+
+
+FileName: /usr/share/doc/tnftp/THANKS
+SPDXID: SPDXRef-tnftp-file-3
+FileChecksum: SHA1: 11ff573edd5d9dc90c506b339e2c456e92634a34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tnftp CONTAINS SPDXRef-tnftp-file-3
+
+
+FileName: /usr/share/doc/tnftp/changelog.Debian.gz
+SPDXID: SPDXRef-tnftp-file-4
+FileChecksum: SHA1: dbc3b5201e800722eb5eef0b0a4c7b4c6ae38508
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tnftp CONTAINS SPDXRef-tnftp-file-4
+
+
+FileName: /usr/share/doc/tnftp/todo
+SPDXID: SPDXRef-tnftp-file-5
+FileChecksum: SHA1: 0e497b2a3e83183560998cc8e173b3f48df15e46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tnftp CONTAINS SPDXRef-tnftp-file-5
+
+
+FileName: /usr/share/man/man1/tnftp.1.gz
+SPDXID: SPDXRef-tnftp-file-6
+FileChecksum: SHA1: e54bccc5f76638717e14c94a24ce859f5db6d53b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-tnftp CONTAINS SPDXRef-tnftp-file-6
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-autoconf-simple-exception
+LicenseName: Autoconf simple exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-snprintf
+LicenseName: snprintf License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/snprintf.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/snprintf.yml
+</text>
+
+

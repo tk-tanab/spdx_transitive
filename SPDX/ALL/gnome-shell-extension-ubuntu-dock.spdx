@@ -1,0 +1,297 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-shell-extension-ubuntu-dock_72~ubuntu5.22.04.1-88547272-5d7d-5705-8f74-041dc40a2895
+DocumentName: gnome-shell-extension-ubuntu-dock_72~ubuntu5.22.04.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-shell-extension-ubuntu-dock
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:12:01Z
+
+
+## Package
+
+PackageName: gnome-shell-extension-ubuntu-dock
+PackageVersion: 72~ubuntu5.22.04.1
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock
+PackageHomePage: https://github.com/micheleg/dash-to-dock/blob/ubuntu-dock/README.md
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: dab32d6297dcb43683100963f50795ecaef9f1fd
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2012-2017 Michele Gaio <micxgx@gmail.com>
+</text>
+PackageComment: <text>Ubuntu Dock for GNOME Shell
+ A dock for the Gnome Shell, default Ubuntu experience.
+ .
+ This extension is a modified version of Dash To Dock with different defaults.
+ Dash To Dock can be installed to replace it and give more (but unsupported)
+ configuration options.</text>
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-shell
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+
+
+## File
+
+FileName: /usr/share/doc/gnome-shell-extension-ubuntu-dock/copyright
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-0
+FileChecksum: SHA1: caeedd109de50d928e76dbcb738661281737204d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2012-2017 Michele Gaio <micxgx@gmail.com>
+</text>
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-0
+
+
+FileName: /usr/share/doc/gnome-shell-extension-ubuntu-dock/changelog.gz
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-1
+FileChecksum: SHA1: 1e98620bd97cb791c6fcc650ffb339b6d09cf227
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-1
+
+
+FileName: /usr/share/glib-2.0/schemas/10_ubuntu-dock.gschema.override
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-2
+FileChecksum: SHA1: ec90fcdc2deab6635dde6ede683e97a6fbaac2fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-2
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.shell.extensions.dash-to-dock.gschema.xml
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-3
+FileChecksum: SHA1: 91ce1531b052cfb4008c510954ab08800d56d021
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-3
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/README.md
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-4
+FileChecksum: SHA1: 353babcb24dbb299258dd0b887f2c04a12cb3ade
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-4
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/Settings.ui
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-5
+FileChecksum: SHA1: 5d11e9628f8d9bea0ea88d4a07ac010aea29aac4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-5
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIconIndicators.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-6
+FileChecksum: SHA1: e5415c6fd51b35606b6b776aa7263e89f1aeafb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-6
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-7
+FileChecksum: SHA1: 97e19ecfb74aefa0fdd8f00006403cf168e0191e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-7
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-8
+FileChecksum: SHA1: 43a35f297c6859c38b4c06a843c263e1dbece565
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-8
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dbusmenuUtils.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-9
+FileChecksum: SHA1: 08b702268ae4cf556bf22baf5cb7669e5e29074e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-9
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/desktopIconsIntegration.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-10
+FileChecksum: SHA1: eb2b358eb23121b054d816633ffa8f23fe982e3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-10
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-11
+FileChecksum: SHA1: 515d731efb9cfe8ced91a65b812e231490f50056
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-11
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-12
+FileChecksum: SHA1: 4da2b280e8c167ab12ead53f6bb03582d28f7d2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-12
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/fileManager1API.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-13
+FileChecksum: SHA1: 8c3687f091f42a517a249526bc2cb66f161ed385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-13
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/intellihide.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-14
+FileChecksum: SHA1: dced7fe9242625d4703accb4e056ca14f05d4fb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-14
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/launcherAPI.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-15
+FileChecksum: SHA1: e9e031059a80917299be33d4f2b33d08cbf6b0cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-15
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/locations.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-16
+FileChecksum: SHA1: 92f9cb9045632e5c3dbda2606c7c86fbe8a9248f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-16
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/media/glossy.svg
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-17
+FileChecksum: SHA1: 68310f71344b89f8cdbb192756c7b9a96350cc78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-17
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/media/highlight_stacked_bg.svg
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-18
+FileChecksum: SHA1: 8549a326a3d2861e35fc9aa3ad35dad577cfc54a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-18
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/media/highlight_stacked_bg_h.svg
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-19
+FileChecksum: SHA1: 24e2c54d30988dd0a6c9fc241f643b669f149b32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-19
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/media/logo.svg
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-20
+FileChecksum: SHA1: 14c8b02a79a5533cb9f8b6f818a588353d350399
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-20
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/metadata.json
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-21
+FileChecksum: SHA1: 2decff17d87cd737f46c7a95b5d658ade5341e01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-21
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/stylesheet.css
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-22
+FileChecksum: SHA1: 064d299073094a420b914df7f93ee80feae22128
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-22
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/theming.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-23
+FileChecksum: SHA1: ec92244cc5b4b9fb33f4ba43a649535700c7a465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-23
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/ubuntu.css
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-24
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-24
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-25
+FileChecksum: SHA1: 8786d707a6b08bc397b54246801fae56756a9a2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-25
+
+
+FileName: /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/windowPreview.js
+SPDXID: SPDXRef-gnome-shell-extension-ubuntu-dock-file-26
+FileChecksum: SHA1: 1448666f9636ddf6b5c0f88f177f6bdbadee4dfa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-shell-extension-ubuntu-dock CONTAINS SPDXRef-gnome-shell-extension-ubuntu-dock-file-26
+
+
+## Extracted License
+

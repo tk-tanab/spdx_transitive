@@ -1,0 +1,225 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/base-passwd_3.5.52build1-03d3e19f-84f4-5b45-8832-d0cbd87dbd41
+DocumentName: base-passwd_3.5.52build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libdebconfclient0 http://spdx.org/spdxdocs/libdebconfclient0_0.261ubuntu1-09122746-522e-53ef-a79a-0c16914c9ab9 SHA1: c53cbe1c814ca2146b12a557210434c253ecd422
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-base-passwd
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:42:28Z
+
+
+## Package
+
+PackageName: base-passwd
+PackageVersion: 3.5.52build1
+SPDXID: SPDXRef-base-passwd
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9342d0357fa020befd0791b6e7fde2571d768c59
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: <text>Copyright 1999-2002 Wichert Akkerman <wichert@deephackmode.org>
+Copyright 2001, 2002 Joey Hess
+Copyright 2002, 2003, 2004 Colin Watson <cjwatson@debian.org>
+Copyright 2002, 2003, 2004, 2005, 2007 Colin Watson
+Copyright 2007 David Mandelberg
+</text>
+PackageComment: <text>Debian base system master password and group files
+ These are the canonical master copies of the user database files
+ (/etc/passwd and /etc/group), containing the Debian-allocated user and
+ group IDs. The update-passwd tool is provided to keep the system databases
+ synchronized with these master files.</text>
+Relationship: SPDXRef-base-passwd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-base-passwd DEPENDS_ON DocumentRef-libdebconfclient0:SPDXRef-libdebconfclient0
+Relationship: SPDXRef-base-passwd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+
+
+## File
+
+FileName: /usr/share/doc/base-passwd/copyright
+SPDXID: SPDXRef-base-passwd-file-0
+FileChecksum: SHA1: 94b815a2782bbf72678b8fbcf6ab271c5bcf2205
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 1999-2002 Wichert Akkerman <wichert@deephackmode.org>
+Copyright 2002, 2003, 2004 Colin Watson <cjwatson@debian.org>
+Copyright 2001, 2002 Joey Hess
+Copyright 2002, 2003, 2004, 2005, 2007 Colin Watson
+Copyright 2007 David Mandelberg
+</text>
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-0
+
+
+FileName: /usr/sbin/update-passwd
+SPDXID: SPDXRef-base-passwd-file-1
+FileChecksum: SHA1: c655f39121b7310294e8d07510fa61d69de9fd91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-1
+
+
+FileName: /usr/share/base-passwd/group.master
+SPDXID: SPDXRef-base-passwd-file-2
+FileChecksum: SHA1: 845525bcc8c4464b770fbf36690e8ee8e7a25591
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-2
+
+
+FileName: /usr/share/base-passwd/passwd.master
+SPDXID: SPDXRef-base-passwd-file-3
+FileChecksum: SHA1: 02f0818607bc18b4976aa8d38f1a3e685570f97d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-3
+
+
+FileName: /usr/share/doc/base-passwd/README
+SPDXID: SPDXRef-base-passwd-file-4
+FileChecksum: SHA1: cbb325339e054d86a47a5c5ef49fbd3e253d8d1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-4
+
+
+FileName: /usr/share/doc/base-passwd/changelog.gz
+SPDXID: SPDXRef-base-passwd-file-5
+FileChecksum: SHA1: ecdaf50062b1ad5e2d8fe2d39978aa41dab50abe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-5
+
+
+FileName: /usr/share/doc/base-passwd/users-and-groups.html
+SPDXID: SPDXRef-base-passwd-file-6
+FileChecksum: SHA1: d675e347b7e022663e65aa3faea733f4c29dd342
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-6
+
+
+FileName: /usr/share/doc/base-passwd/users-and-groups.txt.gz
+SPDXID: SPDXRef-base-passwd-file-7
+FileChecksum: SHA1: cbad5b55b5e20b0f3ed658f529104c1384564c3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-7
+
+
+FileName: /usr/share/doc-base/base-passwd.users-and-groups
+SPDXID: SPDXRef-base-passwd-file-8
+FileChecksum: SHA1: 7013bfeff328ba446a0d01306f3264cbe8f908ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-8
+
+
+FileName: /usr/share/lintian/overrides/base-passwd
+SPDXID: SPDXRef-base-passwd-file-9
+FileChecksum: SHA1: 3f05c5058d91b218ca6534479937bd7d0ffa9ccc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-9
+
+
+FileName: /usr/share/man/de/man8/update-passwd.8.gz
+SPDXID: SPDXRef-base-passwd-file-10
+FileChecksum: SHA1: d2eeee6ae9ab48a6fe0a39bd264fe2937a0b7cdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-10
+
+
+FileName: /usr/share/man/es/man8/update-passwd.8.gz
+SPDXID: SPDXRef-base-passwd-file-11
+FileChecksum: SHA1: 79baaef01d71d2efb84af322a03162b083f063c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-11
+
+
+FileName: /usr/share/man/fr/man8/update-passwd.8.gz
+SPDXID: SPDXRef-base-passwd-file-12
+FileChecksum: SHA1: 52bd902690428dfcaa6e4f8d50972cf57aaa48cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-12
+
+
+FileName: /usr/share/man/ja/man8/update-passwd.8.gz
+SPDXID: SPDXRef-base-passwd-file-13
+FileChecksum: SHA1: 8e0d6ecf4b5845264b55246aa6777dac0f3940e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-13
+
+
+FileName: /usr/share/man/man8/update-passwd.8.gz
+SPDXID: SPDXRef-base-passwd-file-14
+FileChecksum: SHA1: b39a64f85606ea31a7bb89a3f8e27f638f0f73dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-14
+
+
+FileName: /usr/share/man/pl/man8/update-passwd.8.gz
+SPDXID: SPDXRef-base-passwd-file-15
+FileChecksum: SHA1: 8fd66a6b748001fe9940a3288c7ba3743c689374
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-15
+
+
+FileName: /usr/share/man/ru/man8/update-passwd.8.gz
+SPDXID: SPDXRef-base-passwd-file-16
+FileChecksum: SHA1: 853db9ecfdbc02ad441d45acd3d3a393045d5606
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-base-passwd CONTAINS SPDXRef-base-passwd-file-16
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

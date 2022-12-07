@@ -1,0 +1,162 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libglibmm-2.4-1v5_2.66.2-2-61acc860-066d-59be-99a8-d4e418f83121
+DocumentName: libglibmm-2.4-1v5_2.66.2-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libglibmm-2.4-1v5
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:12:22Z
+
+
+## Package
+
+PackageName: libglibmm-2.4-1v5
+PackageVersion: 2.66.2-2
+SPDXID: SPDXRef-libglibmm-2.4-1v5
+PackageHomePage: http://www.gtkmm.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c6142b48df6090451e06c6a9af2a783f70d4e2d3
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 1998-2002, 2006-2008, The gtkmm Development Team 2002-2004, 2007, The glibmm Development Team 2002-2003, Free Software Foundation
+Copyright 2001, Free Software Foundation 2007, The gtkmm Development Team
+Copyright 2003-2007, Bradley Bell <btb@debian.org> 2007-2008, Deng Xiyue <manphiz-guest@users.alioth.debian.org>
+</text>
+PackageComment: <text>C++ wrapper for the GLib toolkit (shared libraries)
+ GLib is a low-level general-purpose library used mainly by GTK+/GNOME
+ applications, but is useful for other programs as well.
+ glibmm is the C++ wrapper for GLib.
+ .
+ This package contains shared libraries.</text>
+Relationship: SPDXRef-libglibmm-2.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libglibmm-2.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-libglibmm-2.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libglibmm-2.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsigcPlusPlus-2.0-0v5
+Relationship: SPDXRef-libglibmm-2.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+
+
+## File
+
+FileName: /usr/share/doc/libglibmm-2.4-1v5/copyright
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-0
+FileChecksum: SHA1: d0c00d316561d4d3f1a984d67b9adb4453143d5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 1998-2002, 2006-2008, The gtkmm Development Team 2002-2004, 2007, The glibmm Development Team 2002-2003, Free Software Foundation
+Copyright 2001, Free Software Foundation 2007, The gtkmm Development Team
+Copyright 2003-2007, Bradley Bell <btb@debian.org> 2007-2008, Deng Xiyue <manphiz-guest@users.alioth.debian.org>
+</text>
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgiomm-2.4.so.1.3.0
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-1
+FileChecksum: SHA1: 3d6360aabe9593ada9d765d1f634a2e2f69c124b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1.3.0
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-2
+FileChecksum: SHA1: 390be4da228f15045f0ebd3805451c5627e76540
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libglibmm_generate_extra_defs-2.4.so.1.3.0
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-3
+FileChecksum: SHA1: b36d092764d946357b785687ddc600504e5d2e68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-3
+
+
+FileName: /usr/share/doc/libglibmm-2.4-1v5/AUTHORS
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-4
+FileChecksum: SHA1: b1118e1d905620f72b290582b15054530d748be5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-4
+
+
+FileName: /usr/share/doc/libglibmm-2.4-1v5/NEWS.gz
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-5
+FileChecksum: SHA1: 3a9635143b1b10753d7d23ec023359ba1cd6b4a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-5
+
+
+FileName: /usr/share/doc/libglibmm-2.4-1v5/README
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-6
+FileChecksum: SHA1: e5a0d2de080ab29a2c47570be385611ea4a32e1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-6
+
+
+FileName: /usr/share/doc/libglibmm-2.4-1v5/changelog.Debian.gz
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-7
+FileChecksum: SHA1: 2181370e550aa22e2b223065d316cbb5b0e927b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-7
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgiomm-2.4.so.1
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-8
+FileChecksum: SHA1: 3d6360aabe9593ada9d765d1f634a2e2f69c124b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-8
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-9
+FileChecksum: SHA1: 390be4da228f15045f0ebd3805451c5627e76540
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-9
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libglibmm_generate_extra_defs-2.4.so.1
+SPDXID: SPDXRef-libglibmm-2.4-1v5-file-10
+FileChecksum: SHA1: b36d092764d946357b785687ddc600504e5d2e68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libglibmm-2.4-1v5 CONTAINS SPDXRef-libglibmm-2.4-1v5-file-10
+
+
+## Extracted License
+

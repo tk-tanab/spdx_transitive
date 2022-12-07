@@ -1,0 +1,1689 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libpython3.10-dev_3.10.6-1~22.04.1-643b452a-9ba4-5187-a6af-470ab4841088
+DocumentName: libpython3.10-dev_3.10.6-1~22.04.1
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-zlib1g-dev http://spdx.org/spdxdocs/zlib1g-dev_1:1.2.11.dfsg-2ubuntu9.2-df01ff35-b4d7-5add-883e-cac7cf84a889 SHA1: 9415d6395dca24f69d10c6908a1fd35b3ab90f4b
+ExternalDocumentRef: DocumentRef-libexpat1-dev http://spdx.org/spdxdocs/libexpat1-dev_2.4.7-1-99d3919e-2725-5d9d-807d-be3612703725 SHA1: bc505d48269134136c6565d7004f7f9bbb483759
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpython3.10-dev
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:59:06Z
+
+
+## Package
+
+PackageName: libpython3.10-dev
+PackageVersion: 3.10.6-1~22.04.1
+SPDXID: SPDXRef-libpython3.10-dev
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ff23532f7d1dc04de852bd6e8704e4cbc0b73e0c
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Header files and a static library for Python (v3.10)
+ Header files, a static library and development tools for building
+ Python (v3.10) modules, extending the Python interpreter or embedding
+ Python (v3.10) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+ .
+ This package contains development files. It is normally not
+ used on it's own, but as a dependency of python3.10-dev.</text>
+Relationship: SPDXRef-libpython3.10-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpython3.10-stdlib
+Relationship: SPDXRef-libpython3.10-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpython3.10
+Relationship: SPDXRef-libpython3.10-dev DEPENDS_ON DocumentRef-libexpat1-dev:SPDXRef-libexpat1-dev
+Relationship: SPDXRef-libpython3.10-dev DEPENDS_ON DocumentRef-zlib1g-dev:SPDXRef-zlib1g-dev
+Relationship: SPDXRef-libpython3.10-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6-dev
+
+
+## File
+
+FileName: /usr/bin/x86_64-linux-gnu-python3.10-config
+SPDXID: SPDXRef-libpython3.10-dev-file-0
+FileChecksum: SHA1: f46ebcad19e41750f9538e430d8e397802e108a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-0
+
+
+FileName: /usr/include/python3.10/Python.h
+SPDXID: SPDXRef-libpython3.10-dev-file-1
+FileChecksum: SHA1: cd10bf271f23a8bf7e5db327d85332853ae1425d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-1
+
+
+FileName: /usr/include/python3.10/abstract.h
+SPDXID: SPDXRef-libpython3.10-dev-file-2
+FileChecksum: SHA1: b83a2fea008d05724072bcf2bb7c072e4d7b9b58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-2
+
+
+FileName: /usr/include/python3.10/bltinmodule.h
+SPDXID: SPDXRef-libpython3.10-dev-file-3
+FileChecksum: SHA1: e2fafe1151892b14638d5b7210e8a931a1a3bc29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-3
+
+
+FileName: /usr/include/python3.10/boolobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-4
+FileChecksum: SHA1: 650661d8b3fc717e42ac4d6a0c11a56c93e32226
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-4
+
+
+FileName: /usr/include/python3.10/bytearrayobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-5
+FileChecksum: SHA1: e5c58d9017896286dbccc409cb427bb765337eb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-5
+
+
+FileName: /usr/include/python3.10/bytesobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-6
+FileChecksum: SHA1: 043b9d779e44d37e346adc106c4dfb25a4c413cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-6
+
+
+FileName: /usr/include/python3.10/cellobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-7
+FileChecksum: SHA1: a894ad70d6ac4b73a8d1f67052ad147ce60a440f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-7
+
+
+FileName: /usr/include/python3.10/ceval.h
+SPDXID: SPDXRef-libpython3.10-dev-file-8
+FileChecksum: SHA1: 4e7e7451c72fbf4af8cb34d0dee4dfd2f42d7fc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-8
+
+
+FileName: /usr/include/python3.10/classobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-9
+FileChecksum: SHA1: dade8f23bca39db036eeff08fbe85d39896a6c6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-9
+
+
+FileName: /usr/include/python3.10/code.h
+SPDXID: SPDXRef-libpython3.10-dev-file-10
+FileChecksum: SHA1: 720e0e63dced7e87ba8b2678e85dea11713e37b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-10
+
+
+FileName: /usr/include/python3.10/codecs.h
+SPDXID: SPDXRef-libpython3.10-dev-file-11
+FileChecksum: SHA1: 3610a5720caccc70a97a20e238f210c96dcd55f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-11
+
+
+FileName: /usr/include/python3.10/compile.h
+SPDXID: SPDXRef-libpython3.10-dev-file-12
+FileChecksum: SHA1: 9d2886a0c0448487519666f93bfdd08265853766
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-12
+
+
+FileName: /usr/include/python3.10/complexobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-13
+FileChecksum: SHA1: 4e62e3d672963cfa0d793611a4be4439f68721c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-13
+
+
+FileName: /usr/include/python3.10/context.h
+SPDXID: SPDXRef-libpython3.10-dev-file-14
+FileChecksum: SHA1: 7a8fd2044e12d63c3b6dc0b400a563e83e4eb8e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-14
+
+
+FileName: /usr/include/python3.10/cpython/abstract.h
+SPDXID: SPDXRef-libpython3.10-dev-file-15
+FileChecksum: SHA1: 63abb2dbde81f94cbbcc489d09f2f5ba92eb0e2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-15
+
+
+FileName: /usr/include/python3.10/cpython/bytearrayobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-16
+FileChecksum: SHA1: 4f5fd3a088266d568091bb1c96f9e0d508e78594
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-16
+
+
+FileName: /usr/include/python3.10/cpython/bytesobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-17
+FileChecksum: SHA1: 3c34e6e32053d83ac8da4f37b64971f76f422a5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-17
+
+
+FileName: /usr/include/python3.10/cpython/ceval.h
+SPDXID: SPDXRef-libpython3.10-dev-file-18
+FileChecksum: SHA1: 70f8fe2323e1486b1e48dc6617ad036c24fbf6a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-18
+
+
+FileName: /usr/include/python3.10/cpython/code.h
+SPDXID: SPDXRef-libpython3.10-dev-file-19
+FileChecksum: SHA1: 62eb469e647b3bf45ae2a88b07af2dfe51141bf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-19
+
+
+FileName: /usr/include/python3.10/cpython/compile.h
+SPDXID: SPDXRef-libpython3.10-dev-file-20
+FileChecksum: SHA1: 8ab5f1ea97d200c7efc5306c9e0161235f8bf89e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-20
+
+
+FileName: /usr/include/python3.10/cpython/dictobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-21
+FileChecksum: SHA1: 88b99c6d53722c7881a4d666489ac6e34af17bf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-21
+
+
+FileName: /usr/include/python3.10/cpython/fileobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-22
+FileChecksum: SHA1: bb47a23f9aef2c158ea4c33fefbad73cb25f637f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-22
+
+
+FileName: /usr/include/python3.10/cpython/fileutils.h
+SPDXID: SPDXRef-libpython3.10-dev-file-23
+FileChecksum: SHA1: be02a9db5b06b622f655b244c7d155d2ac15546e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-23
+
+
+FileName: /usr/include/python3.10/cpython/frameobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-24
+FileChecksum: SHA1: 71be5c287932ea9f805ef325bb1c3466e8a0cbf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-24
+
+
+FileName: /usr/include/python3.10/cpython/import.h
+SPDXID: SPDXRef-libpython3.10-dev-file-25
+FileChecksum: SHA1: 613c7700992eea95d9bc1adcad124d1329a9b7d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-25
+
+
+FileName: /usr/include/python3.10/cpython/initconfig.h
+SPDXID: SPDXRef-libpython3.10-dev-file-26
+FileChecksum: SHA1: 89c09a91290b9125d5951c985c077c68fb469b4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-26
+
+
+FileName: /usr/include/python3.10/cpython/interpreteridobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-27
+FileChecksum: SHA1: bc927f94f69e2b521861ef20f3c6673f122e9a90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-27
+
+
+FileName: /usr/include/python3.10/cpython/listobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-28
+FileChecksum: SHA1: 701f8248e2d921be35d8a49624d9874a6c2fa91d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-28
+
+
+FileName: /usr/include/python3.10/cpython/methodobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-29
+FileChecksum: SHA1: 77a8c3c853e01a24c61d379abb29f35ebdc8d075
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-29
+
+
+FileName: /usr/include/python3.10/cpython/object.h
+SPDXID: SPDXRef-libpython3.10-dev-file-30
+FileChecksum: SHA1: 9d42419953213a1dbe7b7d69de6b57f7b3e81e93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-30
+
+
+FileName: /usr/include/python3.10/cpython/objimpl.h
+SPDXID: SPDXRef-libpython3.10-dev-file-31
+FileChecksum: SHA1: df03d615723546d5ea0d88131b9be93ac1f99bdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-31
+
+
+FileName: /usr/include/python3.10/cpython/odictobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-32
+FileChecksum: SHA1: de442f5994c37b35ecac022e2f7fe2c8651fae8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-32
+
+
+FileName: /usr/include/python3.10/cpython/picklebufobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-33
+FileChecksum: SHA1: 6ad120f4d8ec5057547be24c5bd04ebfcf36e558
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-33
+
+
+FileName: /usr/include/python3.10/cpython/pyctype.h
+SPDXID: SPDXRef-libpython3.10-dev-file-34
+FileChecksum: SHA1: d333212ace5f698196c2787a1a0ae22402b2368a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-34
+
+
+FileName: /usr/include/python3.10/cpython/pydebug.h
+SPDXID: SPDXRef-libpython3.10-dev-file-35
+FileChecksum: SHA1: 4056bf002f1489f238be067362726bf051c4e158
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-35
+
+
+FileName: /usr/include/python3.10/cpython/pyerrors.h
+SPDXID: SPDXRef-libpython3.10-dev-file-36
+FileChecksum: SHA1: 28193e3ec1d2ddee67b56577451cf5782d4923b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-36
+
+
+FileName: /usr/include/python3.10/cpython/pyfpe.h
+SPDXID: SPDXRef-libpython3.10-dev-file-37
+FileChecksum: SHA1: cad9aa7eaaef3514016813227b52ccdd146b0455
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-37
+
+
+FileName: /usr/include/python3.10/cpython/pylifecycle.h
+SPDXID: SPDXRef-libpython3.10-dev-file-38
+FileChecksum: SHA1: 18e5ae1a99a314ae5526e464a4d7bdd83a1eba36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-38
+
+
+FileName: /usr/include/python3.10/cpython/pymem.h
+SPDXID: SPDXRef-libpython3.10-dev-file-39
+FileChecksum: SHA1: 2f4a735d1800f2c3dcd4a5f0e03dd6183007368d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-39
+
+
+FileName: /usr/include/python3.10/cpython/pystate.h
+SPDXID: SPDXRef-libpython3.10-dev-file-40
+FileChecksum: SHA1: 985c65e890069568925ca3cfe8af12c351296376
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-40
+
+
+FileName: /usr/include/python3.10/cpython/pythonrun.h
+SPDXID: SPDXRef-libpython3.10-dev-file-41
+FileChecksum: SHA1: 83482878316d4e493c07901ca0c3471f4d13d731
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-41
+
+
+FileName: /usr/include/python3.10/cpython/pytime.h
+SPDXID: SPDXRef-libpython3.10-dev-file-42
+FileChecksum: SHA1: 3c1ea889ec2c0453060a12dbdddccf7e79a3eec6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-42
+
+
+FileName: /usr/include/python3.10/cpython/sysmodule.h
+SPDXID: SPDXRef-libpython3.10-dev-file-43
+FileChecksum: SHA1: 3ed0c66eb67357c401c037361e8dfffccb93a058
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-43
+
+
+FileName: /usr/include/python3.10/cpython/traceback.h
+SPDXID: SPDXRef-libpython3.10-dev-file-44
+FileChecksum: SHA1: e6d75721747902c7d4b3fec5176d086a53187a4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-44
+
+
+FileName: /usr/include/python3.10/cpython/tupleobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-45
+FileChecksum: SHA1: 0bae58ca72bfd1b2502badacafc50b7b65694642
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-45
+
+
+FileName: /usr/include/python3.10/cpython/unicodeobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-46
+FileChecksum: SHA1: 9c314e37a592df09bff3149e4fc9156877ae136e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-46
+
+
+FileName: /usr/include/python3.10/datetime.h
+SPDXID: SPDXRef-libpython3.10-dev-file-47
+FileChecksum: SHA1: 1042e2cb0c87984e9ebaf7e87eff7b4aaf303956
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-47
+
+
+FileName: /usr/include/python3.10/descrobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-48
+FileChecksum: SHA1: e284d18866df37934e9ae1234e6d0efd4f09d1df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-48
+
+
+FileName: /usr/include/python3.10/dictobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-49
+FileChecksum: SHA1: a099a4a5c59c6c238cfe7130fcfc6f6040129552
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-49
+
+
+FileName: /usr/include/python3.10/dynamic_annotations.h
+SPDXID: SPDXRef-libpython3.10-dev-file-50
+FileChecksum: SHA1: e638ff4a3276ee286afa3bddb48585aecbcfdacc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-50
+
+
+FileName: /usr/include/python3.10/enumobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-51
+FileChecksum: SHA1: b371ee34794c348ebd2aa9630ae7a73b0a21337f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-51
+
+
+FileName: /usr/include/python3.10/errcode.h
+SPDXID: SPDXRef-libpython3.10-dev-file-52
+FileChecksum: SHA1: 36ed3f93d893594761efd576415f66059dccbe09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-52
+
+
+FileName: /usr/include/python3.10/eval.h
+SPDXID: SPDXRef-libpython3.10-dev-file-53
+FileChecksum: SHA1: 70d323e30b8c4c52f4d8aeb3da2f94d19200a03f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-53
+
+
+FileName: /usr/include/python3.10/exports.h
+SPDXID: SPDXRef-libpython3.10-dev-file-54
+FileChecksum: SHA1: 04477e5a6e35b7d3c3364509f63fa1dd6125dfde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-54
+
+
+FileName: /usr/include/python3.10/fileobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-55
+FileChecksum: SHA1: 3831fc4622fb5ab317490c96b40bce8f3e519a30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-55
+
+
+FileName: /usr/include/python3.10/fileutils.h
+SPDXID: SPDXRef-libpython3.10-dev-file-56
+FileChecksum: SHA1: e1451237301e2999a3b42cf1ddca9c6c9eeb0ddb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-56
+
+
+FileName: /usr/include/python3.10/floatobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-57
+FileChecksum: SHA1: ba72101a821411405f61bc19bafa62f90ba11886
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-57
+
+
+FileName: /usr/include/python3.10/frameobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-58
+FileChecksum: SHA1: bb8c26a10854d18b2e790f0f19de4398ecd6fed1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-58
+
+
+FileName: /usr/include/python3.10/funcobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-59
+FileChecksum: SHA1: 02277c7a1aaf3cc267a7803e68060a69ddd86318
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-59
+
+
+FileName: /usr/include/python3.10/genericaliasobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-60
+FileChecksum: SHA1: d962c51f8ac03efcf4c5b570e7a7972d6d08e9b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-60
+
+
+FileName: /usr/include/python3.10/genobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-61
+FileChecksum: SHA1: 7c41e9d4d2dc95cf7a3fbd4683136f5b64cce032
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-61
+
+
+FileName: /usr/include/python3.10/graminit.h
+SPDXID: SPDXRef-libpython3.10-dev-file-62
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-62
+
+
+FileName: /usr/include/python3.10/import.h
+SPDXID: SPDXRef-libpython3.10-dev-file-63
+FileChecksum: SHA1: a7a77be4ec5016050c984c5417bda804aa911063
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-63
+
+
+FileName: /usr/include/python3.10/internal/pycore_abstract.h
+SPDXID: SPDXRef-libpython3.10-dev-file-64
+FileChecksum: SHA1: 40e705c2cbc8165b20620667b861b56976951fe8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-64
+
+
+FileName: /usr/include/python3.10/internal/pycore_accu.h
+SPDXID: SPDXRef-libpython3.10-dev-file-65
+FileChecksum: SHA1: d1a8df65dc7ffd514a137cd177b335f00bd635db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-65
+
+
+FileName: /usr/include/python3.10/internal/pycore_asdl.h
+SPDXID: SPDXRef-libpython3.10-dev-file-66
+FileChecksum: SHA1: 9a8faa6a0e68e50e16c6f509555074c35ef46522
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-66
+
+
+FileName: /usr/include/python3.10/internal/pycore_ast.h
+SPDXID: SPDXRef-libpython3.10-dev-file-67
+FileChecksum: SHA1: b2f55cb7680b597a0416c1e7c60c33e74446b39a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-67
+
+
+FileName: /usr/include/python3.10/internal/pycore_ast_state.h
+SPDXID: SPDXRef-libpython3.10-dev-file-68
+FileChecksum: SHA1: 8981d23bbe3c8bf0cbb296bbcf53b771d80b8135
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-68
+
+
+FileName: /usr/include/python3.10/internal/pycore_atomic.h
+SPDXID: SPDXRef-libpython3.10-dev-file-69
+FileChecksum: SHA1: 40cee42f911ee5f4d93aeedf964b942266729000
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-69
+
+
+FileName: /usr/include/python3.10/internal/pycore_atomic_funcs.h
+SPDXID: SPDXRef-libpython3.10-dev-file-70
+FileChecksum: SHA1: 2a15608fee5bed64ec72a2e155ed36187418404c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-70
+
+
+FileName: /usr/include/python3.10/internal/pycore_bitutils.h
+SPDXID: SPDXRef-libpython3.10-dev-file-71
+FileChecksum: SHA1: 0638c0efef1f9689616374338c49d594cf2c21ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-71
+
+
+FileName: /usr/include/python3.10/internal/pycore_blocks_output_buffer.h
+SPDXID: SPDXRef-libpython3.10-dev-file-72
+FileChecksum: SHA1: 47324db83920abd392d3942896d8489d0cedc452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-72
+
+
+FileName: /usr/include/python3.10/internal/pycore_bytes_methods.h
+SPDXID: SPDXRef-libpython3.10-dev-file-73
+FileChecksum: SHA1: 02dce8cdd0e40f5646273825bc8c1dcd016148dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-73
+
+
+FileName: /usr/include/python3.10/internal/pycore_call.h
+SPDXID: SPDXRef-libpython3.10-dev-file-74
+FileChecksum: SHA1: f333eeb50c9509702c878ba7d0610cd519c029f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-74
+
+
+FileName: /usr/include/python3.10/internal/pycore_ceval.h
+SPDXID: SPDXRef-libpython3.10-dev-file-75
+FileChecksum: SHA1: 0b13545490885f95e87929b972b91258d5ad8ed1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-75
+
+
+FileName: /usr/include/python3.10/internal/pycore_code.h
+SPDXID: SPDXRef-libpython3.10-dev-file-76
+FileChecksum: SHA1: 676cc0547f3c6104bdfb07faedfb92937a6d2bd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-76
+
+
+FileName: /usr/include/python3.10/internal/pycore_compile.h
+SPDXID: SPDXRef-libpython3.10-dev-file-77
+FileChecksum: SHA1: 9fe73803d76ba72682988d7cffc3ff2cf3ed6759
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-77
+
+
+FileName: /usr/include/python3.10/internal/pycore_condvar.h
+SPDXID: SPDXRef-libpython3.10-dev-file-78
+FileChecksum: SHA1: 43167bc5bec346ff4f5422c30e52b48569cf1760
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-78
+
+
+FileName: /usr/include/python3.10/internal/pycore_context.h
+SPDXID: SPDXRef-libpython3.10-dev-file-79
+FileChecksum: SHA1: 95a53c9d6923aba45a4fb5451e2adf3deca528c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-79
+
+
+FileName: /usr/include/python3.10/internal/pycore_dtoa.h
+SPDXID: SPDXRef-libpython3.10-dev-file-80
+FileChecksum: SHA1: f15245f9e137d0a7237822f4a696a74698705b05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-80
+
+
+FileName: /usr/include/python3.10/internal/pycore_fileutils.h
+SPDXID: SPDXRef-libpython3.10-dev-file-81
+FileChecksum: SHA1: d24f020c4d5f2c6311fc3c00a8e12edb2be7c6fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-81
+
+
+FileName: /usr/include/python3.10/internal/pycore_format.h
+SPDXID: SPDXRef-libpython3.10-dev-file-82
+FileChecksum: SHA1: 1874f44365eddbb510953e3c957ceb0680a8d0df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-82
+
+
+FileName: /usr/include/python3.10/internal/pycore_gc.h
+SPDXID: SPDXRef-libpython3.10-dev-file-83
+FileChecksum: SHA1: 53725fd4d3a309a169f144192be932d8fb0829e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-83
+
+
+FileName: /usr/include/python3.10/internal/pycore_getopt.h
+SPDXID: SPDXRef-libpython3.10-dev-file-84
+FileChecksum: SHA1: 33ad99ea39d3ed0b7fef43590b0a5e406520c5d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-84
+
+
+FileName: /usr/include/python3.10/internal/pycore_gil.h
+SPDXID: SPDXRef-libpython3.10-dev-file-85
+FileChecksum: SHA1: b20cf4cc0f4c1056511be33eea69ffa34fc3e640
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-85
+
+
+FileName: /usr/include/python3.10/internal/pycore_hamt.h
+SPDXID: SPDXRef-libpython3.10-dev-file-86
+FileChecksum: SHA1: 5f7f34095888f8fc7bd3aaf1a834d86093ec8e59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-86
+
+
+FileName: /usr/include/python3.10/internal/pycore_hashtable.h
+SPDXID: SPDXRef-libpython3.10-dev-file-87
+FileChecksum: SHA1: 390bdeb6c38bcd74480bf5f67401dbac9dd97024
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-87
+
+
+FileName: /usr/include/python3.10/internal/pycore_import.h
+SPDXID: SPDXRef-libpython3.10-dev-file-88
+FileChecksum: SHA1: 5237837a6b10f37ba39e757b1c6e3e5527454c88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-88
+
+
+FileName: /usr/include/python3.10/internal/pycore_initconfig.h
+SPDXID: SPDXRef-libpython3.10-dev-file-89
+FileChecksum: SHA1: a08caa11679aa0f98d57bc74812765ac2789d746
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-89
+
+
+FileName: /usr/include/python3.10/internal/pycore_interp.h
+SPDXID: SPDXRef-libpython3.10-dev-file-90
+FileChecksum: SHA1: b388babe5f2cc25ea34b529c8dac63f144ddc99c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-90
+
+
+FileName: /usr/include/python3.10/internal/pycore_list.h
+SPDXID: SPDXRef-libpython3.10-dev-file-91
+FileChecksum: SHA1: 8fa2451c5bc345f7ef2ce19c0023937b11a50ea1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-91
+
+
+FileName: /usr/include/python3.10/internal/pycore_long.h
+SPDXID: SPDXRef-libpython3.10-dev-file-92
+FileChecksum: SHA1: d0982e6615e1b77bd0c1b4365603f175f1e0ac6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-92
+
+
+FileName: /usr/include/python3.10/internal/pycore_moduleobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-93
+FileChecksum: SHA1: 0c9496081f63e5bc7e65f35836c4745adb62b362
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-93
+
+
+FileName: /usr/include/python3.10/internal/pycore_object.h
+SPDXID: SPDXRef-libpython3.10-dev-file-94
+FileChecksum: SHA1: 8f41724f78b6b6dbd603d0b6a1ad24250a805565
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-94
+
+
+FileName: /usr/include/python3.10/internal/pycore_parser.h
+SPDXID: SPDXRef-libpython3.10-dev-file-95
+FileChecksum: SHA1: 544a4e9b200df1da0edbd9761a961e1171d0d3af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-95
+
+
+FileName: /usr/include/python3.10/internal/pycore_pathconfig.h
+SPDXID: SPDXRef-libpython3.10-dev-file-96
+FileChecksum: SHA1: 7e632f5b6c01115b422a525e6a2c26cb208f9c0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-96
+
+
+FileName: /usr/include/python3.10/internal/pycore_pyarena.h
+SPDXID: SPDXRef-libpython3.10-dev-file-97
+FileChecksum: SHA1: 762f85cb0cf956e9aebbd6d441241c98a27ff48e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-97
+
+
+FileName: /usr/include/python3.10/internal/pycore_pyerrors.h
+SPDXID: SPDXRef-libpython3.10-dev-file-98
+FileChecksum: SHA1: ab39291f89f3e27b0ec2c793f488ba442a364b1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-98
+
+
+FileName: /usr/include/python3.10/internal/pycore_pyhash.h
+SPDXID: SPDXRef-libpython3.10-dev-file-99
+FileChecksum: SHA1: 97e2d710739a4b4f67100a4a2767cc9456ead90f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-99
+
+
+FileName: /usr/include/python3.10/internal/pycore_pylifecycle.h
+SPDXID: SPDXRef-libpython3.10-dev-file-100
+FileChecksum: SHA1: f5369a2edfa9544c05ae00fd54c13a84d2e4912c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-100
+
+
+FileName: /usr/include/python3.10/internal/pycore_pymem.h
+SPDXID: SPDXRef-libpython3.10-dev-file-101
+FileChecksum: SHA1: ebca057403e784344ef5e77ff4a5fde41762fd3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-101
+
+
+FileName: /usr/include/python3.10/internal/pycore_pystate.h
+SPDXID: SPDXRef-libpython3.10-dev-file-102
+FileChecksum: SHA1: 15a1fd6901104f06ee278269cf6d3ae14e63dc7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-102
+
+
+FileName: /usr/include/python3.10/internal/pycore_runtime.h
+SPDXID: SPDXRef-libpython3.10-dev-file-103
+FileChecksum: SHA1: c0f3d22d16452d7be4950162da5fd46c2b06505c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-103
+
+
+FileName: /usr/include/python3.10/internal/pycore_structseq.h
+SPDXID: SPDXRef-libpython3.10-dev-file-104
+FileChecksum: SHA1: eff3da7cc63fd3a02e107047ae69f3fb0780190c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-104
+
+
+FileName: /usr/include/python3.10/internal/pycore_symtable.h
+SPDXID: SPDXRef-libpython3.10-dev-file-105
+FileChecksum: SHA1: aeb9189905a008db716b8928128f2b1fa8bb27a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-105
+
+
+FileName: /usr/include/python3.10/internal/pycore_sysmodule.h
+SPDXID: SPDXRef-libpython3.10-dev-file-106
+FileChecksum: SHA1: c54018a7ae705f969c1b8eb66e1a6c1a65e97881
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-106
+
+
+FileName: /usr/include/python3.10/internal/pycore_traceback.h
+SPDXID: SPDXRef-libpython3.10-dev-file-107
+FileChecksum: SHA1: 2b66fa51712bcc3a3221c15487a66b1f5b262cc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-107
+
+
+FileName: /usr/include/python3.10/internal/pycore_tuple.h
+SPDXID: SPDXRef-libpython3.10-dev-file-108
+FileChecksum: SHA1: 45b3596beec70de654b1188bffa34bfb365b999d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-108
+
+
+FileName: /usr/include/python3.10/internal/pycore_ucnhash.h
+SPDXID: SPDXRef-libpython3.10-dev-file-109
+FileChecksum: SHA1: 0365f01e0a471b42e197d298bac12153257895a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-109
+
+
+FileName: /usr/include/python3.10/internal/pycore_unionobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-110
+FileChecksum: SHA1: f9117595b2f2ec5542c46cc92dd52751b50c4b68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-110
+
+
+FileName: /usr/include/python3.10/internal/pycore_warnings.h
+SPDXID: SPDXRef-libpython3.10-dev-file-111
+FileChecksum: SHA1: c0ee3fc3f03020d6c1ee3f92e79e393367bf923f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-111
+
+
+FileName: /usr/include/python3.10/interpreteridobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-112
+FileChecksum: SHA1: f6e76dc53fceaa8bdbfb996bb0ec85b856e44067
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-112
+
+
+FileName: /usr/include/python3.10/intrcheck.h
+SPDXID: SPDXRef-libpython3.10-dev-file-113
+FileChecksum: SHA1: b558ac1cc79bbeaf0f32de44094e009c3015fb3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-113
+
+
+FileName: /usr/include/python3.10/iterobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-114
+FileChecksum: SHA1: 5e3f40aed7471eb88059000107551f9e4acdf269
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-114
+
+
+FileName: /usr/include/python3.10/listobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-115
+FileChecksum: SHA1: 36cf6ac186380ff24b1421f206827589c28754d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-115
+
+
+FileName: /usr/include/python3.10/longintrepr.h
+SPDXID: SPDXRef-libpython3.10-dev-file-116
+FileChecksum: SHA1: 99797b3a9184191554935854573380c7afb9f35c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-116
+
+
+FileName: /usr/include/python3.10/longobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-117
+FileChecksum: SHA1: 800ce366389078a2730bbdbe6a36562903c1400f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-117
+
+
+FileName: /usr/include/python3.10/marshal.h
+SPDXID: SPDXRef-libpython3.10-dev-file-118
+FileChecksum: SHA1: c4873c98e247fc5225a1b175f19a2de762882d55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-118
+
+
+FileName: /usr/include/python3.10/memoryobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-119
+FileChecksum: SHA1: 5c1ba7e0e189c49543047c8266cb3aba79847f12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-119
+
+
+FileName: /usr/include/python3.10/methodobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-120
+FileChecksum: SHA1: f3544430696c5a0fd86287d76977a91b846703a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-120
+
+
+FileName: /usr/include/python3.10/modsupport.h
+SPDXID: SPDXRef-libpython3.10-dev-file-121
+FileChecksum: SHA1: 1ef232ae96c331cee1d6c70527d1a0874d8697b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-121
+
+
+FileName: /usr/include/python3.10/moduleobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-122
+FileChecksum: SHA1: 03dd0aa1bacafa8f6bebd5525c37c116bbd1ed73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-122
+
+
+FileName: /usr/include/python3.10/namespaceobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-123
+FileChecksum: SHA1: 07159a4a51e6d3dee082cdd639c1f5b56eb8a898
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-123
+
+
+FileName: /usr/include/python3.10/object.h
+SPDXID: SPDXRef-libpython3.10-dev-file-124
+FileChecksum: SHA1: 67b187ec7fb9ff861a1c086081d71f17b06f1454
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-124
+
+
+FileName: /usr/include/python3.10/objimpl.h
+SPDXID: SPDXRef-libpython3.10-dev-file-125
+FileChecksum: SHA1: cee434d1d3b381b33380e1604613fc2a15a9764e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-125
+
+
+FileName: /usr/include/python3.10/opcode.h
+SPDXID: SPDXRef-libpython3.10-dev-file-126
+FileChecksum: SHA1: ebd5a301f47df4bb082b29997177e2e9c3b10da7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-126
+
+
+FileName: /usr/include/python3.10/osdefs.h
+SPDXID: SPDXRef-libpython3.10-dev-file-127
+FileChecksum: SHA1: 16ce4b23c3c8a618dc598a706fc43290a3984a1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-127
+
+
+FileName: /usr/include/python3.10/osmodule.h
+SPDXID: SPDXRef-libpython3.10-dev-file-128
+FileChecksum: SHA1: 4106f85839e7da317cf99c8636d69c1fc8655ebe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-128
+
+
+FileName: /usr/include/python3.10/patchlevel.h
+SPDXID: SPDXRef-libpython3.10-dev-file-129
+FileChecksum: SHA1: 1aa93c8eb6f7b75e2187842b4d52d5906d92e1bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-129
+
+
+FileName: /usr/include/python3.10/py_curses.h
+SPDXID: SPDXRef-libpython3.10-dev-file-130
+FileChecksum: SHA1: ba09bee6298d464fd22046b7d6a75666f9f631ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-130
+
+
+FileName: /usr/include/python3.10/pycapsule.h
+SPDXID: SPDXRef-libpython3.10-dev-file-131
+FileChecksum: SHA1: aa3ee8dc618339c2b2a4c90d021d662e0f6b6f1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-131
+
+
+FileName: /usr/include/python3.10/pyconfig.h
+SPDXID: SPDXRef-libpython3.10-dev-file-132
+FileChecksum: SHA1: 0a5bf57a72029e098b0309adac88ce661b36c43e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-132
+
+
+FileName: /usr/include/python3.10/pydtrace.h
+SPDXID: SPDXRef-libpython3.10-dev-file-133
+FileChecksum: SHA1: 624c00dac025e17c926a4d95c67559590d3ebeca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-133
+
+
+FileName: /usr/include/python3.10/pyerrors.h
+SPDXID: SPDXRef-libpython3.10-dev-file-134
+FileChecksum: SHA1: 9f5e638f3cdc5df16214b26d723f7e0985854c42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-134
+
+
+FileName: /usr/include/python3.10/pyexpat.h
+SPDXID: SPDXRef-libpython3.10-dev-file-135
+FileChecksum: SHA1: da58b8651673fef334b1e3781b53dfb615df1980
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-135
+
+
+FileName: /usr/include/python3.10/pyframe.h
+SPDXID: SPDXRef-libpython3.10-dev-file-136
+FileChecksum: SHA1: 6b4fd71903fddf504a3009523c1842b17028072c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-136
+
+
+FileName: /usr/include/python3.10/pyhash.h
+SPDXID: SPDXRef-libpython3.10-dev-file-137
+FileChecksum: SHA1: a6f411e201525c5e0151a48db92e4f136bb86b44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-137
+
+
+FileName: /usr/include/python3.10/pylifecycle.h
+SPDXID: SPDXRef-libpython3.10-dev-file-138
+FileChecksum: SHA1: 0b60484de8a141fa492eac2fc89cd966f851393d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-138
+
+
+FileName: /usr/include/python3.10/pymacconfig.h
+SPDXID: SPDXRef-libpython3.10-dev-file-139
+FileChecksum: SHA1: a53e48bfee533a61217caadf209eaa593672607a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-139
+
+
+FileName: /usr/include/python3.10/pymacro.h
+SPDXID: SPDXRef-libpython3.10-dev-file-140
+FileChecksum: SHA1: de1eb1056be140fb958e65362986360dedc0cc22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-140
+
+
+FileName: /usr/include/python3.10/pymath.h
+SPDXID: SPDXRef-libpython3.10-dev-file-141
+FileChecksum: SHA1: 7d321a49afdda6bbb0bf1eca9583de8816f14ba8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-141
+
+
+FileName: /usr/include/python3.10/pymem.h
+SPDXID: SPDXRef-libpython3.10-dev-file-142
+FileChecksum: SHA1: 8a1dfc4967ad2f0347100c132199ee47d64eb6c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-142
+
+
+FileName: /usr/include/python3.10/pyport.h
+SPDXID: SPDXRef-libpython3.10-dev-file-143
+FileChecksum: SHA1: ed64299a598f226bc0d199ab58cf7352750656b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-143
+
+
+FileName: /usr/include/python3.10/pystate.h
+SPDXID: SPDXRef-libpython3.10-dev-file-144
+FileChecksum: SHA1: 8932fd7fda864cf8ad7a28a69f3cd013352fa8e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-144
+
+
+FileName: /usr/include/python3.10/pystrcmp.h
+SPDXID: SPDXRef-libpython3.10-dev-file-145
+FileChecksum: SHA1: bf251beef6dbc0773f9e345cbc792be9111a408c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-145
+
+
+FileName: /usr/include/python3.10/pystrhex.h
+SPDXID: SPDXRef-libpython3.10-dev-file-146
+FileChecksum: SHA1: a8bc08add81ea828e99ad437c7211e89250b3a4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-146
+
+
+FileName: /usr/include/python3.10/pystrtod.h
+SPDXID: SPDXRef-libpython3.10-dev-file-147
+FileChecksum: SHA1: 9c9857be2e6f11f63ffd637b157a9a8103a1d4f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-147
+
+
+FileName: /usr/include/python3.10/pythonrun.h
+SPDXID: SPDXRef-libpython3.10-dev-file-148
+FileChecksum: SHA1: 29f0c69a2e6d5a804ed0c66eb72f7bce8b8d0af9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-148
+
+
+FileName: /usr/include/python3.10/pythread.h
+SPDXID: SPDXRef-libpython3.10-dev-file-149
+FileChecksum: SHA1: 6852f448bf999bc5b314fa969357f9cd34062e2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-149
+
+
+FileName: /usr/include/python3.10/rangeobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-150
+FileChecksum: SHA1: 735c2a6ce9b77d0fce1daf9780c7a73df92e8feb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-150
+
+
+FileName: /usr/include/python3.10/setobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-151
+FileChecksum: SHA1: c799725a0a9065b65bd3fcb668efd8f73a637830
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-151
+
+
+FileName: /usr/include/python3.10/sliceobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-152
+FileChecksum: SHA1: 45966a77350da05416a50f2102609f50c6937f64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-152
+
+
+FileName: /usr/include/python3.10/structmember.h
+SPDXID: SPDXRef-libpython3.10-dev-file-153
+FileChecksum: SHA1: 37a667442267967dd4342038398e03e4a1f9c846
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-153
+
+
+FileName: /usr/include/python3.10/structseq.h
+SPDXID: SPDXRef-libpython3.10-dev-file-154
+FileChecksum: SHA1: e6f2b1b8c5aa4af0c3e89efd5cdf3c3db345bda0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-154
+
+
+FileName: /usr/include/python3.10/sysmodule.h
+SPDXID: SPDXRef-libpython3.10-dev-file-155
+FileChecksum: SHA1: 0425fa81a013a309bdf00af2a9524e711e87f06a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-155
+
+
+FileName: /usr/include/python3.10/token.h
+SPDXID: SPDXRef-libpython3.10-dev-file-156
+FileChecksum: SHA1: fbfa96a2e653b2ee1f5630e73454959ef47ed050
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-156
+
+
+FileName: /usr/include/python3.10/traceback.h
+SPDXID: SPDXRef-libpython3.10-dev-file-157
+FileChecksum: SHA1: 082e44b07e6384827f76b99f01dfaa44e871e027
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-157
+
+
+FileName: /usr/include/python3.10/tracemalloc.h
+SPDXID: SPDXRef-libpython3.10-dev-file-158
+FileChecksum: SHA1: 9f790836eb022861c603f6a2390b937021ec3632
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-158
+
+
+FileName: /usr/include/python3.10/tupleobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-159
+FileChecksum: SHA1: 8885b663677673658eee51658ce04449c16dd5f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-159
+
+
+FileName: /usr/include/python3.10/typeslots.h
+SPDXID: SPDXRef-libpython3.10-dev-file-160
+FileChecksum: SHA1: 683906ef3635bce4fefc0427e93f4ee56a36e486
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-160
+
+
+FileName: /usr/include/python3.10/unicodeobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-161
+FileChecksum: SHA1: f38831c29b3a85e10caf6f30b5fedbc2641199bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-161
+
+
+FileName: /usr/include/python3.10/warnings.h
+SPDXID: SPDXRef-libpython3.10-dev-file-162
+FileChecksum: SHA1: 3e703afff94f7fe58bf1facfa623721fbdf775be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-162
+
+
+FileName: /usr/include/python3.10/weakrefobject.h
+SPDXID: SPDXRef-libpython3.10-dev-file-163
+FileChecksum: SHA1: 1885bb54a73b6cdaacddac791360c9d3405985fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-163
+
+
+FileName: /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h
+SPDXID: SPDXRef-libpython3.10-dev-file-164
+FileChecksum: SHA1: ad3bc6e59f0c4ffc1dfda10dd6a4aac1424fb1ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-164
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/Makefile
+SPDXID: SPDXRef-libpython3.10-dev-file-165
+FileChecksum: SHA1: 252838d10f10aa2d2d849597546a300f78481533
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-165
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/Setup
+SPDXID: SPDXRef-libpython3.10-dev-file-166
+FileChecksum: SHA1: 0c5f5bda630b054d64a9f3e5d55f0c9f24ba6564
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-166
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/Setup.local
+SPDXID: SPDXRef-libpython3.10-dev-file-167
+FileChecksum: SHA1: bfad90a36c96338cd32b677af4fd8db03f0a02ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-167
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/config.c
+SPDXID: SPDXRef-libpython3.10-dev-file-168
+FileChecksum: SHA1: e0f56d7f25e519f5d41873356d80407cf40a4e7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-168
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/config.c.in
+SPDXID: SPDXRef-libpython3.10-dev-file-169
+FileChecksum: SHA1: 59d0c0e6d0953c6b7081e3f80fcb884132779adc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-169
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/install-sh
+SPDXID: SPDXRef-libpython3.10-dev-file-170
+FileChecksum: SHA1: 45053d3e25fb26a5b3c4a00a23d6b572086a2445
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-170
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/libpython3.10-pic.a
+SPDXID: SPDXRef-libpython3.10-dev-file-171
+FileChecksum: SHA1: 0c0ad59d5eeed642c61fb1daec90ceea5323032e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-171
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/libpython3.10.a
+SPDXID: SPDXRef-libpython3.10-dev-file-172
+FileChecksum: SHA1: bfd7b1a5c4fdef02de31d9a9a0e77caae6915191
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-172
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/makesetup
+SPDXID: SPDXRef-libpython3.10-dev-file-173
+FileChecksum: SHA1: 6bd3a821a4250d9a92a1497e8cebabc8d1cbf55d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-173
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/python-config.py
+SPDXID: SPDXRef-libpython3.10-dev-file-174
+FileChecksum: SHA1: 30702ee80e7e488858b7b7da55de80e13c9f39e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-174
+
+
+FileName: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu/python.o
+SPDXID: SPDXRef-libpython3.10-dev-file-175
+FileChecksum: SHA1: 0e982328b91d49e39ed2bd146cfc44fc5606c55b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-175
+
+
+FileName: /usr/lib/x86_64-linux-gnu/pkgconfig/python-3.10-embed.pc
+SPDXID: SPDXRef-libpython3.10-dev-file-176
+FileChecksum: SHA1: 46b47b93b7221879c257954e5493a60c61bb3b22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-176
+
+
+FileName: /usr/lib/x86_64-linux-gnu/pkgconfig/python-3.10.pc
+SPDXID: SPDXRef-libpython3.10-dev-file-177
+FileChecksum: SHA1: 78afac71769eee3cc545684c5cce4f50e2bf263e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-177
+
+
+FileName: /usr/share/lintian/overrides/libpython3.10-dev
+SPDXID: SPDXRef-libpython3.10-dev-file-178
+FileChecksum: SHA1: 5b5f47386f604af8defdac36f6bc0834002701ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-178
+
+
+FileName: /usr/share/man/man1/x86_64-linux-gnu-python3.10-config.1.gz
+SPDXID: SPDXRef-libpython3.10-dev-file-179
+FileChecksum: SHA1: b610506b490632b4ec77768aac7fba98b15ef482
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-179
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libpython3.10.a
+SPDXID: SPDXRef-libpython3.10-dev-file-180
+FileChecksum: SHA1: bfd7b1a5c4fdef02de31d9a9a0e77caae6915191
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-180
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+SPDXID: SPDXRef-libpython3.10-dev-file-181
+FileChecksum: SHA1: 4f4180853b4ff4112819bdbb05f7b3d924fe20ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpython3.10-dev CONTAINS SPDXRef-libpython3.10-dev-file-181
+
+
+## Extracted License
+

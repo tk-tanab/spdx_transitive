@@ -1,0 +1,134 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libnunit-console-runner2.6.3-cil_2.6.4+dfsg-1.1-23ea98a2-1d62-5cb6-ab9f-a58c5b61baf3
+DocumentName: libnunit-console-runner2.6.3-cil_2.6.4+dfsg-1.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-cli-common http://spdx.org/spdxdocs/cli-common_0.10-d3281068-e5b3-5068-b03a-e788f2d59408 SHA1: c6270a9a97ffc6cdfce98ae1605f4c90e20e09a0
+ExternalDocumentRef: DocumentRef-ca-certificates-mono.Cycle http://spdx.org/spdxdocs/ca-certificates-mono_6.8.0.105+dfsg-3.2-c951f9c2-6361-534d-bcb4-c06bc84abd54 SHA1: 271b3673ebfed6a1e989dcd394aac0dd5752c4e0
+ExternalDocumentRef: DocumentRef-libnunit-core-interfaces2.6.3-cil http://spdx.org/spdxdocs/libnunit-core-interfaces2.6.3-cil_2.6.4+dfsg-1.1-0f25c424-7eaf-5903-921d-dd8d226403ab SHA1: afc276ad796826b9b0af5b1f60720f6a8edfb84f
+ExternalDocumentRef: DocumentRef-libnunit-util2.6.3-cil http://spdx.org/spdxdocs/libnunit-util2.6.3-cil_2.6.4+dfsg-1.1-cd5307fc-7824-5278-b562-5f24cb5abe5a SHA1: 28514a5affc008b41b25ce3e463f4cd4a095be04
+ExternalDocumentRef: DocumentRef-libnunit-core2.6.3-cil http://spdx.org/spdxdocs/libnunit-core2.6.3-cil_2.6.4+dfsg-1.1-ac23e955-4dd1-520e-8bb2-b78befa43331 SHA1: f07b1a97fdf240b635d18910e58ed1b63b0f00f8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libnunit-console-runner2.6.3-cil
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:58:06Z
+
+
+## Package
+
+PackageName: libnunit-console-runner2.6.3-cil
+PackageVersion: 2.6.4+dfsg-1.1
+SPDXID: SPDXRef-libnunit-console-runner2.6.3-cil
+PackageHomePage: http://www.nunit.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 71287f14e898bb008a989f05421f79b68f2f21b4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: zlib-acknowledgement
+PackageCopyrightText: <text>Copyright 2000-2002 Philip A. Craig
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2002-2008 Charlie Poole
+Portions Copyright 2002-2008 Charlie Poole
+</text>
+PackageComment: <text>Unit test framework for CLI - Assemblies
+ NUnit is a unit testing framework for all .NET languages. It serves the
+ same purpose as JUnit does in the Java world. It supports test
+ categories, testing for exceptions and writing test results in plain
+ text or XML.
+ .
+ This package contains the nunit-console-interfaces assembly</text>
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil DEPENDS_ON DocumentRef-cli-common:SPDXRef-cli-common
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-corlib4.5-cil
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system4.0-cil
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil DEPENDS_ON DocumentRef-libnunit-core-interfaces2.6.3-cil:SPDXRef-libnunit-core-interfaces2.6.3-cil
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil DEPENDS_ON DocumentRef-libnunit-core2.6.3-cil:SPDXRef-libnunit-core2.6.3-cil
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil DEPENDS_ON DocumentRef-libnunit-util2.6.3-cil:SPDXRef-libnunit-util2.6.3-cil
+
+
+## File
+
+FileName: /usr/share/doc/libnunit-console-runner2.6.3-cil/copyright
+SPDXID: SPDXRef-libnunit-console-runner2.6.3-cil-file-0
+FileChecksum: SHA1: 9758b425627e185fbfaaaad8267d09e6f8743cff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: zlib-acknowledgement
+FileCopyrightText: <text>Copyright 2002-2008 Charlie Poole
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2000-2002 Philip A. Craig
+Portions Copyright 2002-2008 Charlie Poole
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2000-2002 Philip A. Craig
+</text>
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil CONTAINS SPDXRef-libnunit-console-runner2.6.3-cil-file-0
+
+
+FileName: /usr/lib/cli/nunit-console-runner-2.6.3/nunit-console-runner.dll
+SPDXID: SPDXRef-libnunit-console-runner2.6.3-cil-file-1
+FileChecksum: SHA1: a32885c0288364a7145af825054a117aedbd415b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil CONTAINS SPDXRef-libnunit-console-runner2.6.3-cil-file-1
+
+
+FileName: /usr/share/cli-common/packages.d/libnunit-console-runner2.6.3-cil.installcligac
+SPDXID: SPDXRef-libnunit-console-runner2.6.3-cil-file-2
+FileChecksum: SHA1: e644ed6d2578d9c59ffc69a63e141890441657ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil CONTAINS SPDXRef-libnunit-console-runner2.6.3-cil-file-2
+
+
+FileName: /usr/share/cli-common/policies.d/010-2.6.nunit-console-runner
+SPDXID: SPDXRef-libnunit-console-runner2.6.3-cil-file-3
+FileChecksum: SHA1: c64b825b594b549684feb16e632291bcab4828d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil CONTAINS SPDXRef-libnunit-console-runner2.6.3-cil-file-3
+
+
+FileName: /usr/share/cli-common/policies.d/libnunit-console-runner2.6.3-cil/policy.2.6.nunit-console-runner.config
+SPDXID: SPDXRef-libnunit-console-runner2.6.3-cil-file-4
+FileChecksum: SHA1: 46aeb82a51dd92ee9089a0f42837425b06c12eb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil CONTAINS SPDXRef-libnunit-console-runner2.6.3-cil-file-4
+
+
+FileName: /usr/share/cli-common/policies.d/libnunit-console-runner2.6.3-cil/policy.2.6.nunit-console-runner.dll
+SPDXID: SPDXRef-libnunit-console-runner2.6.3-cil-file-5
+FileChecksum: SHA1: e21d97d54d4e5ba17946c2852c047d743c32818c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil CONTAINS SPDXRef-libnunit-console-runner2.6.3-cil-file-5
+
+
+FileName: /usr/share/doc/libnunit-console-runner2.6.3-cil/changelog.Debian.gz
+SPDXID: SPDXRef-libnunit-console-runner2.6.3-cil-file-6
+FileChecksum: SHA1: bff9267394db67ca632b3bb6c9f365bd6a52820d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-console-runner2.6.3-cil CONTAINS SPDXRef-libnunit-console-runner2.6.3-cil-file-6
+
+
+## Extracted License
+

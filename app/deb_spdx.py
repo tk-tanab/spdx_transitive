@@ -16,13 +16,19 @@ class Deb_Spdx:
     control_dict: dict[str, list[str]] # {field_name: [values]}
     package_name: str
     auth_name: str
+    first_mode: int
+    rest_mode: int
     trail_list: list[str] # [p_name]
     treated_list = []
+    doc_comment = ""
 
     def return_spdx(self):
         return self.tv_dict
 
-    def __init__(self, pv_dict, vrp_dict, package_name, auth_name, trail_list: list[str]):
+    def __init__(self, pv_dict, vrp_dict, package_name, auth_name, trail_list: list[str], first_mode=2, rest_mode=1):
+        """
+        初期化
+        """
         self.pv_dict = pv_dict
         self.vrp_dict = vrp_dict
         self.tv_dict = {}
@@ -30,6 +36,8 @@ class Deb_Spdx:
         self.package_name = package_name
         self.auth_name = auth_name
         self.trail_list = trail_list.copy()
+        self.first_mode = first_mode
+        self.rest_mode = rest_mode
 
     def rm_license_dup(self, lic_dict_list):
         """
@@ -64,7 +72,7 @@ class Deb_Spdx:
         package_dict = tv_dict["Package"][0]
         package_dict["PackageName"] = control_dict["Package"]
         package_dict["PackageVersion"] = control_dict["Version"]
-        package_dict["SPDXID"] = ["SPDXRef-" + package_dict["PackageName"][0].replace('+', 'plus')]
+        package_dict["SPDXID"] = ["SPDXRef-" + package_dict["PackageName"][0].replace('+', 'Plus')]
         if "Homepage" in control_dict:
             package_dict["PackageHomePage"] = control_dict["Homepage"]
         package_dict["PackageComment"] = control_dict["Description"]
@@ -89,7 +97,7 @@ class Deb_Spdx:
         doc_dict["Relationship"] = [doc_dict["SPDXID"][0] + " DESCRIBES " + package_dict["SPDXID"][0]]
 
         # 保留
-        # doc_dict["DocumentNamespace"] = ["文章"]
+        # doc_dict["DocumentComment"] = ["文章"]
 
         # ファイルパス と SPDXID の修正 と Relationship の追加
         for i, file_dict in enumerate(tv_dict["File"]):
@@ -101,6 +109,14 @@ class Deb_Spdx:
         
 
     def add_relationship(self, d_list: list[str])-> list[str]:
+        """
+        依存関係を処理してRelationshipフィールドを追加
+
+        Args: 
+            d_list: 依存しているパッケージのリスト
+        Returns:
+            list[str]: 未解決な相互依存パッケージのリスト
+        """
         pv_dict = self.pv_dict
         vrp_dict = self.vrp_dict
         mutual_list: list[str] = []
@@ -140,60 +156,69 @@ class Deb_Spdx:
                 termed_d_list.append(real_dp_name)
             
             # 既に存在しているとき
-            if (spdx_p_name:=self.spdx_exists(real_dp_name)):
-                print(real_dp_name, "already exist")
-                self.add_external_ref(spdx_p_name)
+            if (spdx_path:=self.spdx_exists(real_dp_name)):
+                self.add_external_ref(spdx_path, real_dp_name)
             # このパッケージの別の枝(未出力)で調査済みのとき
             elif real_dp_name in not_out_list:
-                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name.replace('+', 'plus'))
+                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name.replace('+', 'Plus'))
             # 上の階層のパッケージと相互依存になっているとき か すでに上の階層のパッケージの別の枝で調査済みのとき
             elif real_dp_name in self.trail_list or real_dp_name in self.treated_list:
-                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name.replace('+', 'plus'))
+                package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name.replace('+', 'Plus'))
                 mutual_list.append(real_dp_name)
             else:
                 snap_len_treated = len(self.treated_list)
-                new_spdx = Deb_Spdx(pv_dict, vrp_dict, real_dp_name, self.auth_name, self.trail_list)
+                new_spdx = Deb_Spdx(pv_dict, vrp_dict, real_dp_name, self.auth_name, self.trail_list, self.first_mode, self.rest_mode)
                 r_mutual_list = new_spdx.run()
                 print("back", self.package_name)
 
                 # 下の階層のパッケージと相互依存になっているとき
                 if r_mutual_list != []:
                     # relationship
-                    package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name.replace('+', 'plus'))
+                    package_dict["Relationship"].append(package_dict["SPDXID"][0] + " DEPENDS_ON SPDXRef-" + real_dp_name.replace('+', 'Plus'))
                     self.merge_spdx(new_spdx.return_spdx())
                     not_out_list += self.treated_list[snap_len_treated:]
                     mutual_list += [p for p in r_mutual_list if (p != self.package_name) and (p not in not_out_list)]
                 # 問題なし
                 else:
-                    self.add_external_ref(real_dp_name)
+                    if os.path.exists(real_dp_name + ".spdx"):
+                        self.add_external_ref(real_dp_name + ".spdx", real_dp_name)
+                    else:
+                        self.add_external_ref(real_dp_name + ".Cycle.spdx", real_dp_name)
+
+        self.tv_dict["Document Information"][0]["ExternalDocumentRef"] = list(set(self.tv_dict["Document Information"][0]["ExternalDocumentRef"]))
         mutual_list = list(set(mutual_list))
         return mutual_list
-    
+
+
     def spdx_exists(self, p_name):
-        if p_name not in self.treated_list:
-            return False
+        """
+        指定されたパッケージ情報を含むSPDXファイルの検出
+        ない場合はFalse、ある場合はSPDXファイルのパスを返す
+
+        Args: 
+            p_name: 存在するか確認するパッケージ
+        Returns:
+            bool or SPDXファイルのパス
+        """
         if os.path.exists(p_name + ".spdx"):
-            return p_name
+            return p_name + ".spdx"
         else:
-            for spdx_path in glob.glob("*.spdx"):
+            for spdx_path in glob.glob("*.Cycle.spdx"):
                 with open(spdx_path, mode="r", encoding="utf-8") as f:
-                    lines_strip = [s.strip() for s in f.readlines()]
-                for line in lines_strip:
-                    if ("PackageName: " + p_name) == line.strip():
-                        flag = True
-                        break
-                    elif "## File" == line.strip():
-                        flag = False
-                        break
-                if flag:
-                    break
+                    text = f.read()
+                if ("\nPackageName: " + p_name + '\n') in text:
+                    return spdx_path
             else:
                 return False
-            return spdx_path[:-5]
                     
 
-    def add_external_ref(self, p_name: str):
-        spdx_path = p_name + ".spdx"
+    def add_external_ref(self, spdx_path: str, p_name: str):
+        """
+        外部のSPDXファイルに依存している場合のRelationshipフィールドを追加
+
+        Args: 
+            spdx_path: 外部のSPDXファイルのパス
+        """
         with open(spdx_path, mode="r", encoding="utf-8") as f:
             lines_strip = [s.strip() for s in f.readlines()]
         for line in lines_strip:
@@ -211,12 +236,19 @@ class Deb_Spdx:
 
         # DocumentRef-hello-go-src https://swinslow.net/spdx-examples/example6/hello-go-src-v2 SHA1: b3018ddb18802a56b60ad839c98d279687b60bd6
         # Relationship: SPDXRef-hello-go-binary GENERATED_FROM DocumentRef-hello-go-src:SPDXRef-Makefile
-        doc_ref = "DocumentRef-" + p_name
+        doc_ref = "DocumentRef-" + spdx_path[:-5]
         exd_list.append(doc_ref + ' ' + ref_space + ' SHA1: ' + hash_sha1)
-        pac_dict["Relationship"].append((pac_dict["SPDXID"][0] + " DEPENDS_ON " + doc_ref + ":SPDXRef-" + p_name.replace('+', 'plus')))
+        pac_dict["Relationship"].append((pac_dict["SPDXID"][0] + " DEPENDS_ON " + doc_ref + ":SPDXRef-" + p_name.replace('+', 'Plus')))
+
 
     def merge_spdx(self, dep_tv_dict):
-        self.tv_dict["Document Information"][0]["ExternalDocumentRef"] = list(set(self.tv_dict["Document Information"][0]["ExternalDocumentRef"] + dep_tv_dict["Document Information"][0]["ExternalDocumentRef"]))
+        """
+        2つのSPDXの情報を結合
+
+        Args: 
+            dep_tv_dict: 結合するSPDXの情報
+        """
+        self.tv_dict["Document Information"][0]["ExternalDocumentRef"] += dep_tv_dict["Document Information"][0]["ExternalDocumentRef"]
         self.tv_dict["Package"] += dep_tv_dict["Package"]
         self.tv_dict["File"] += dep_tv_dict["File"]
         self.tv_dict["Extracted License"] += dep_tv_dict["Extracted License"]
@@ -232,7 +264,18 @@ class Deb_Spdx:
             return False
         return True
 
+
     def check_version(self, term_list, cond_list)-> bool:
+        """
+        バージョン制約を満たしているかの確認
+
+        Args: 
+            term_list: [p_name, c_operator, version] 制約
+            cond_list: [p_name, c_operator, version] 現状
+        
+        Returns:
+            bool: バージョン制約を満たしていればTrue
+        """
         if term_list == []:
             return True
         elif cond_list == []:
@@ -278,17 +321,12 @@ class Deb_Spdx:
         return self.compare_version(term_list[1], cond_list[1], co)
                 
 
-    def run(self, first_mode=2, rest_mode=1) -> list[str]:
+    def run(self) -> list[str]:
         """
         DebianパッケージのSPDXを推移的に生成
-
-        Args: 
-            package_name: 対象パッケージ
-            auth_name: 作者名
-            trail_list: 辿ってきた依存関係
         
         Returns:
-            list[str]: 相互依存先パッケージ名のリスト
+            list[str]: 未解決な相互依存パッケージのリスト
         """
         
         package_name = self.package_name
@@ -301,9 +339,9 @@ class Deb_Spdx:
         self.control_dict = control_to_dict.control_to_dict(package_status)
         
         if len(self.treated_list) == 0:
-            self.tv_dict = make_tv_dict.make_tv_dict(package_name, first_mode)
+            self.tv_dict = make_tv_dict.make_tv_dict(package_name, self.first_mode)
         else:
-            self.tv_dict = make_tv_dict.make_tv_dict(package_name, rest_mode)
+            self.tv_dict = make_tv_dict.make_tv_dict(package_name, self.rest_mode)
 
         self.treated_list.append(package_name)
 
@@ -314,8 +352,12 @@ class Deb_Spdx:
         spdx_text = dict_to_tv.dict_to_tv(self.tv_dict)
 
         if mutual_list == []:
-            with open(package_name + ".spdx", mode='w') as f:
-                f.write(spdx_text)
+            if len(self.tv_dict["Package"]) > 1:
+                with open(package_name + ".Cycle.spdx", mode='w') as f:
+                    f.write(spdx_text)
+            else:
+                with open(package_name + ".spdx", mode='w') as f:
+                    f.write(spdx_text)
             print(package_name, "finish")
 
         return mutual_list

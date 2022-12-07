@@ -1,0 +1,140 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libklibc_2.0.10-4-7f02d75f-4c80-5789-94d4-b7ce29a5e534
+DocumentName: libklibc_2.0.10-4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libklibc
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:56:06Z
+
+
+## Package
+
+PackageName: libklibc
+PackageVersion: 2.0.10-4
+SPDXID: SPDXRef-libklibc
+PackageHomePage: https://git.kernel.org/cgit/libs/klibc/klibc.git
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2c2e32845f640a060d21aed8901e9034c31589d0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-4-Clause-UC
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown
+PackageCopyrightText: <text>Copyright (c) The Regents of the University of California
+Copyright 2004-2006 H. Peter Anvin <hpa@zytor.com>
+copyrighted by the Regents of The University of California
+</text>
+PackageComment: <text>minimal libc subset for use with initramfs
+ klibc is intended to be a minimalistic libc subset for use with
+ initramfs.  It is deliberately written for small size, minimal
+ entanglement, and portability, not speed.  It is definitely a work in
+ progress, and a lot of things are still missing.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libklibc/copyright
+SPDXID: SPDXRef-libklibc-file-0
+FileChecksum: SHA1: 397ad71b65ba63703a942c6507ffd406e6858201
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: LicenseRef-scancode-unknown
+LicenseInfoInFile: BSD-4-Clause-UC
+FileCopyrightText: <text>Copyright 2004-2006 H. Peter Anvin <hpa@zytor.com>
+copyrighted by the Regents of The University of California
+Copyright (c) The Regents of the University of California
+</text>
+Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc-file-0
+
+
+FileName: /lib/klibc-K8e6DOmVI9JpyGMLR7qNe5iZeBk.so
+SPDXID: SPDXRef-libklibc-file-1
+FileChecksum: SHA1: 55e44f05c39bd07a1e4101403d58eba3a38ea88c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc-file-1
+
+
+FileName: /usr/share/doc/libklibc/README
+SPDXID: SPDXRef-libklibc-file-2
+FileChecksum: SHA1: 8f0d73ce14f2195a8ef472e243fadec71302f866
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc-file-2
+
+
+FileName: /usr/share/doc/libklibc/README.ipconfig.gz
+SPDXID: SPDXRef-libklibc-file-3
+FileChecksum: SHA1: 506dbd932040b3e3912ff785d42a93ee83e936d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc-file-3
+
+
+FileName: /usr/share/doc/libklibc/README.klibc.arch
+SPDXID: SPDXRef-libklibc-file-4
+FileChecksum: SHA1: 019ff5b7087d9b4a7733ec989169330d5ceea017
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc-file-4
+
+
+FileName: /usr/share/doc/libklibc/README.klibc.gz
+SPDXID: SPDXRef-libklibc-file-5
+FileChecksum: SHA1: ac5aa3e0db1bf6a4588c9172f15877d2e21ba792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc-file-5
+
+
+FileName: /usr/share/doc/libklibc/changelog.Debian.gz
+SPDXID: SPDXRef-libklibc-file-6
+FileChecksum: SHA1: dedd471a0180ac44c3bceb5293869f690ce84486
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc-file-6
+
+
+FileName: /usr/share/lintian/overrides/libklibc
+SPDXID: SPDXRef-libklibc-file-7
+FileChecksum: SHA1: c5d9649d3c1ef93e0b8c13b679b9e6c65d3462f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libklibc CONTAINS SPDXRef-libklibc-file-7
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown
+LicenseName: Unknown license detected but not recognized
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown.yml
+</text>
+
+

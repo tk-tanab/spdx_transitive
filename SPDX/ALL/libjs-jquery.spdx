@@ -1,0 +1,146 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libjs-jquery_3.6.0+dfsg+~3.5.13-1-a71adc11-0bd1-5f01-b508-83061be058b6
+DocumentName: libjs-jquery_3.6.0+dfsg+~3.5.13-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-javascript-common http://spdx.org/spdxdocs/javascript-common_11+nmu1-1d95afef-922d-5430-91e9-e378019016b3 SHA1: 5155aeb44d16168c227608c4587acbf20b23f8f6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libjs-jquery
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:32:43Z
+
+
+## Package
+
+PackageName: libjs-jquery
+PackageVersion: 3.6.0+dfsg+~3.5.13-1
+SPDXID: SPDXRef-libjs-jquery
+PackageHomePage: https://jquery.com/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9a8ae18e839e7bc9568112cf1cfb959b46c3eb93
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 2011, David Paleino <dapal@debian.org> 2020-2022, Yadd <yadd@debian.org>
+Copyright Microsoft Corporation
+Copyright OpenJS Foundation and other contributor <https://openjsf.org/> 2011, The Dojo Foundation
+</text>
+PackageComment: <text>JavaScript library for dynamic web applications
+ jQuery is a fast, concise, JavaScript Library
+ that simplifies how you traverse HTML documents, handle events,
+ perform animations, and add Ajax interactions to your web pages.
+ jQuery is designed to change the way that you write JavaScript.</text>
+Relationship: SPDXRef-libjs-jquery DEPENDS_ON DocumentRef-javascript-common:SPDXRef-javascript-common
+
+
+## File
+
+FileName: /usr/share/doc/libjs-jquery/copyright
+SPDXID: SPDXRef-libjs-jquery-file-0
+FileChecksum: SHA1: 14f2038fd53c48daa801b58ca82c585063777452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright OpenJS Foundation and other contributor <https://openjsf.org/> 2011, The Dojo Foundation
+Copyright Microsoft Corporation
+Copyright 2011, David Paleino <dapal@debian.org> 2020-2022, Yadd <yadd@debian.org>
+</text>
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-0
+
+
+FileName: /usr/share/doc/libjs-jquery/NEWS.Debian.gz
+SPDXID: SPDXRef-libjs-jquery-file-1
+FileChecksum: SHA1: 35ef9f0b4f2e06718fade5622ff430790607a762
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-1
+
+
+FileName: /usr/share/doc/libjs-jquery/changelog.Debian.gz
+SPDXID: SPDXRef-libjs-jquery-file-2
+FileChecksum: SHA1: 6ca6462ad6afe480e58ac03b5697c307e3400855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-2
+
+
+FileName: /usr/share/javascript/jquery/jquery.js
+SPDXID: SPDXRef-libjs-jquery-file-3
+FileChecksum: SHA1: f5a85e66258a44e9f61bbffcb464d047b55bd738
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-3
+
+
+FileName: /usr/share/javascript/jquery/jquery.min.js
+SPDXID: SPDXRef-libjs-jquery-file-4
+FileChecksum: SHA1: 3e0f7ea43600c0368cf92703bf6c82cb9a3754c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-4
+
+
+FileName: /usr/share/javascript/jquery/jquery.min.js.brotli
+SPDXID: SPDXRef-libjs-jquery-file-5
+FileChecksum: SHA1: 8dc8d32015d2e4143a99b1395ad44e717b7244a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-5
+
+
+FileName: /usr/share/javascript/jquery/jquery.min.js.gz
+SPDXID: SPDXRef-libjs-jquery-file-6
+FileChecksum: SHA1: c707ce6bbf91d5a912f33de6ff44029e61b90848
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-6
+
+
+FileName: /usr/share/javascript/jquery/jquery.min.map
+SPDXID: SPDXRef-libjs-jquery-file-7
+FileChecksum: SHA1: 18ac8d058ae3bafba430556bc452fa10913f6370
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-7
+
+
+FileName: /usr/share/javascript/jquery/jquery.min.map.brotli
+SPDXID: SPDXRef-libjs-jquery-file-8
+FileChecksum: SHA1: abbb215dd7c7b082b4b1e7ea7258739f4a8f4fe1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-8
+
+
+FileName: /usr/share/javascript/jquery/jquery.min.map.gz
+SPDXID: SPDXRef-libjs-jquery-file-9
+FileChecksum: SHA1: f02311ec0c7a63a8e3dd4430110a99eeef1a8082
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-jquery CONTAINS SPDXRef-libjs-jquery-file-9
+
+
+## Extracted License
+

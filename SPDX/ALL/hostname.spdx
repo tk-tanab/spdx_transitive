@@ -1,0 +1,165 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/hostname_3.23ubuntu2-a9736b88-aa10-531b-a3d1-aaec6794ffab
+DocumentName: hostname_3.23ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hostname
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:25:04Z
+
+
+## Package
+
+PackageName: hostname
+PackageVersion: 3.23ubuntu2
+SPDXID: SPDXRef-hostname
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c31bcd8327c5ebf6fc1320bc303347d551e54115
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Copyright (c) 1996 Free Software Foundation, Inc.
+Copyright (c) 1997 Bernd Eckenfels
+Copyright (c) 1997 Peter Tobias <tobias@et-inf.fho-emden.de>
+Copyright (c) 2004-2005 Graham Wilson <graham@debian.org>
+Copyright (c) 2009 Michael Meskes <meskes@debian.org>
+</text>
+PackageComment: <text>utility to set/show the host name or domain name
+ This package provides commands which can be used to display the system's
+ DNS name, and to display or set its hostname or NIS domain name.</text>
+Relationship: SPDXRef-hostname DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/hostname/copyright
+SPDXID: SPDXRef-hostname-file-0
+FileChecksum: SHA1: 4ee28eb61e908c48a9d8e1885df467079d173af5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 2009 Michael Meskes <meskes@debian.org>
+Copyright (c) 2004-2005 Graham Wilson <graham@debian.org>
+Copyright (c) 1997 Bernd Eckenfels
+Copyright (c) 1997 Peter Tobias <tobias@et-inf.fho-emden.de>
+Copyright (c) 1996 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-0
+
+
+FileName: /bin/hostname
+SPDXID: SPDXRef-hostname-file-1
+FileChecksum: SHA1: 11a443418c3e1d381add04b0da1d4c209efc6710
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-1
+
+
+FileName: /usr/share/doc/hostname/changelog.gz
+SPDXID: SPDXRef-hostname-file-2
+FileChecksum: SHA1: 0bb40ff0740aa34ac1c32e747c985b7415ff2f7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-2
+
+
+FileName: /usr/share/man/man1/hostname.1.gz
+SPDXID: SPDXRef-hostname-file-3
+FileChecksum: SHA1: 995535999b0896c412d168bae974332cbd66fa76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-3
+
+
+FileName: /bin/dnsdomainname
+SPDXID: SPDXRef-hostname-file-4
+FileChecksum: SHA1: 11a443418c3e1d381add04b0da1d4c209efc6710
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-4
+
+
+FileName: /bin/domainname
+SPDXID: SPDXRef-hostname-file-5
+FileChecksum: SHA1: 11a443418c3e1d381add04b0da1d4c209efc6710
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-5
+
+
+FileName: /bin/nisdomainname
+SPDXID: SPDXRef-hostname-file-6
+FileChecksum: SHA1: 11a443418c3e1d381add04b0da1d4c209efc6710
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-6
+
+
+FileName: /bin/ypdomainname
+SPDXID: SPDXRef-hostname-file-7
+FileChecksum: SHA1: 11a443418c3e1d381add04b0da1d4c209efc6710
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-7
+
+
+FileName: /usr/share/man/man1/dnsdomainname.1.gz
+SPDXID: SPDXRef-hostname-file-8
+FileChecksum: SHA1: 995535999b0896c412d168bae974332cbd66fa76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-8
+
+
+FileName: /usr/share/man/man1/domainname.1.gz
+SPDXID: SPDXRef-hostname-file-9
+FileChecksum: SHA1: 995535999b0896c412d168bae974332cbd66fa76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-9
+
+
+FileName: /usr/share/man/man1/nisdomainname.1.gz
+SPDXID: SPDXRef-hostname-file-10
+FileChecksum: SHA1: 995535999b0896c412d168bae974332cbd66fa76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-10
+
+
+FileName: /usr/share/man/man1/ypdomainname.1.gz
+SPDXID: SPDXRef-hostname-file-11
+FileChecksum: SHA1: 995535999b0896c412d168bae974332cbd66fa76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-hostname CONTAINS SPDXRef-hostname-file-11
+
+
+## Extracted License
+

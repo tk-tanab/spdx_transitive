@@ -1,0 +1,623 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gstreamer1.0-packagekit_1.2.5-2ubuntu2-84bee9b0-4610-59c7-a042-74bbbfd9a5fc
+DocumentName: gstreamer1.0-packagekit_1.2.5-2ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-opensymbol http://spdx.org/spdxdocs/fonts-opensymbol_2:102.12+LibO7.3.7-0ubuntu0.22.04.1-9bc8ec1f-7e01-56f4-a06b-e48a0cb0cde7 SHA1: aabe3a06d556cb2276a61f680105d53fe78f73f8
+ExternalDocumentRef: DocumentRef-fonts-liberation2 http://spdx.org/spdxdocs/fonts-liberation2_2.1.5-1-63230a0a-e781-5351-ab44-ff3ec582769a SHA1: b7d5185cf3db14da7627731ddf11a7ff1719cd2d
+ExternalDocumentRef: DocumentRef-printer-driver-min12xxw http://spdx.org/spdxdocs/printer-driver-min12xxw_0.0.9-11build2-83f51328-9223-54c5-aa0c-06a9672c4268 SHA1: 0a1e472a18f9fea4cd4dac57873c711c196002e0
+ExternalDocumentRef: DocumentRef-apt-config-icons-hidpi http://spdx.org/spdxdocs/apt-config-icons-hidpi_0.15.2-2-6028e1fc-2ce2-5093-be47-0790f87698e8 SHA1: 4f795d19a6af7fbb20c503cfdf1cfd89214e18f7
+ExternalDocumentRef: DocumentRef-gir1.2-gmenu-3.0 http://spdx.org/spdxdocs/gir1.2-gmenu-3.0_3.36.0-1ubuntu3-5ba6363f-a4da-5a93-be34-0c5c376b7608 SHA1: 30e3447ff58a97be0dd92c06845bc3ffb57ee177
+ExternalDocumentRef: DocumentRef-libwmf0.2-7-gtk http://spdx.org/spdxdocs/libwmf0.2-7-gtk_0.2.12-5ubuntu1-b297a67e-a355-55d4-b38e-e314b48b36f7 SHA1: ddd2e1d8da7da49e3099c439caa9d0d8a90d2ab8
+ExternalDocumentRef: DocumentRef-fonts-indic http://spdx.org/spdxdocs/fonts-indic_2:1.4-74956f2a-474c-51f1-9b25-e9c8d103176f SHA1: 185612cff96c6f7c7d105d28a1b4bff125707884
+ExternalDocumentRef: DocumentRef-gnome-power-manager http://spdx.org/spdxdocs/gnome-power-manager_3.32.0-2build2-08207694-90cf-5d1f-8ae3-67810e64aae0 SHA1: ce8494b9a8b57cd4ce604a9b9dd986d4f9f2c1bc
+ExternalDocumentRef: DocumentRef-xorg http://spdx.org/spdxdocs/xorg_1:7.7+23ubuntu2-57093cee-be9a-5f44-8f75-158244f3f9da SHA1: 32ac89e64231c24240debb8c7aa04db95368b3d2
+ExternalDocumentRef: DocumentRef-xdg-user-dirs-gtk http://spdx.org/spdxdocs/xdg-user-dirs-gtk_0.10-3build2-5bee5adf-3d60-5698-a6fe-fad98d0915f0 SHA1: 0acf0dfc870b17d3a157b11440d404343bd71969
+ExternalDocumentRef: DocumentRef-gnome-system-monitor http://spdx.org/spdxdocs/gnome-system-monitor_42.0-1-9a64c372-9c38-53c3-9ea3-97d686157dd2 SHA1: e55293fc79eaeaf4c6a8dc58a7e4dfd57fcb8be0
+ExternalDocumentRef: DocumentRef-pcmciautils http://spdx.org/spdxdocs/pcmciautils_018-13build1-735d5329-ee9a-50d9-bb4e-d9fc79c38ae9 SHA1: de6e9cdf2cb7954bc6bd6dbc084d4669035df8db
+ExternalDocumentRef: DocumentRef-gnome-disk-utility http://spdx.org/spdxdocs/gnome-disk-utility_42.0-1ubuntu1-b0ab3bc2-0bc1-5930-bb54-528c9bec513a SHA1: 605ca0b3037572aa96d3ba60d29ade39cdfff4ba
+ExternalDocumentRef: DocumentRef-fonts-khmeros-core http://spdx.org/spdxdocs/fonts-khmeros-core_5.0-9ubuntu1-b8bbd382-79f6-5697-9632-10928ee73813 SHA1: 6a305d911a6557bf31e2a7f8736d572d6495abb9
+ExternalDocumentRef: DocumentRef-printer-driver-pnm2ppa http://spdx.org/spdxdocs/printer-driver-pnm2ppa_1.13+nondbs-0ubuntu9-b1814cdb-1d61-5b0a-bcf1-c553fb919aea SHA1: 7fce71d2c5ec48dd82ae0d446eb79a9c8dba60f5
+ExternalDocumentRef: DocumentRef-systemd-oomd http://spdx.org/spdxdocs/systemd-oomd_249.11-0ubuntu3.6-9650a286-c68e-5c06-8af8-e3d757d89926 SHA1: b9672d54dbfa8fd0761ce999eac591dccc13e36f
+ExternalDocumentRef: DocumentRef-gstreamer1.0-plugins-base-apps http://spdx.org/spdxdocs/gstreamer1.0-plugins-base-apps_1.20.1-1-7ee71f89-6ed4-5151-ae0c-cf1716c13612 SHA1: 4468bd45d8b7f50cfa267beb22e9b52e7453c0d2
+ExternalDocumentRef: DocumentRef-gnome-logs http://spdx.org/spdxdocs/gnome-logs_42.0-1-117afd1d-a5b2-58d0-a661-58407398a602 SHA1: f1ef8e651264a6c39ab4da3342908beffeae7834
+ExternalDocumentRef: DocumentRef-plymouth-theme-spinner.Cycle http://spdx.org/spdxdocs/plymouth-theme-spinner_0.9.5+git20211018-1ubuntu3-886d8a78-2c83-5eb5-9d53-cc51dd975396 SHA1: f94f1917debebb422b93b44d45ddd735febea917
+ExternalDocumentRef: DocumentRef-libproxy1-plugin-networkmanager http://spdx.org/spdxdocs/libproxy1-plugin-networkmanager_0.4.17-2-cd4380e3-3ae6-58a0-b879-b375ad583137 SHA1: 707fb8c4944ed751cca0ca398c82fa4a98745191
+ExternalDocumentRef: DocumentRef-gnome-accessibility-themes http://spdx.org/spdxdocs/gnome-accessibility-themes_3.28-1ubuntu3-d76f414b-fa26-51e3-9f7b-4ab18cc5c74a SHA1: ede4e2abbb43c9c2c859acc7e4e6f581ee5b1146
+ExternalDocumentRef: DocumentRef-gamemode http://spdx.org/spdxdocs/gamemode_1.6.1-1build2-d87692ab-0e7b-5325-9579-1f79f821081f SHA1: 3b5322c4af4520761c5e0cd9efc3ad35fe360651
+ExternalDocumentRef: DocumentRef-libproxy1-plugin-gsettings http://spdx.org/spdxdocs/libproxy1-plugin-gsettings_0.4.17-2-9caf5a32-091a-50aa-8ed7-c358ca847b4e SHA1: 56d4da32316dfa6a15b9875385ab08326112230a
+ExternalDocumentRef: DocumentRef-ubuntu-report http://spdx.org/spdxdocs/ubuntu-report_1.7.1-55b34109-409b-520c-aa5f-e5edd8998613 SHA1: 749c27918c3973a5974f42a8ebc0df0d20f8179a
+ExternalDocumentRef: DocumentRef-libnotify-bin http://spdx.org/spdxdocs/libnotify-bin_0.7.9-3ubuntu5.22.04.1-05706708-99e3-5301-8024-717bf74fae21 SHA1: af5e35b2451ee61b92cd2e52e3ffd9d72431d9c5
+ExternalDocumentRef: DocumentRef-gnome-bluetooth http://spdx.org/spdxdocs/gnome-bluetooth_3.34.5-8-30d1abe8-82e5-5413-8a95-e89a3530f5ec SHA1: 3122b1a844008aec53c290eadf2504c301eeda86
+ExternalDocumentRef: DocumentRef-printer-driver-ptouch http://spdx.org/spdxdocs/printer-driver-ptouch_1.6-2build1-13d21c11-edc4-5c5d-86a5-006b0c443c8c SHA1: b96dce47b5d5a06a1f7d23191b9565ffbc5d2acd
+ExternalDocumentRef: DocumentRef-printer-driver-sag-gdi http://spdx.org/spdxdocs/printer-driver-sag-gdi_0.1-8-eeb81410-bf8a-50ee-8959-7ba05351c5de SHA1: d82653ce1db5a55749c95da79aed6b5b3d7cbed2
+ExternalDocumentRef: DocumentRef-ubuntu-settings http://spdx.org/spdxdocs/ubuntu-settings_22.04.6-a10f1d7d-81ab-50df-9f0a-aa3566c82429 SHA1: 56982c31986462d0d989f4d062e1c481ed8cfbdd
+ExternalDocumentRef: DocumentRef-ubuntu-wallpapers http://spdx.org/spdxdocs/ubuntu-wallpapers_22.04.4-0ubuntu1-c9ecb195-1506-5a8b-bf40-6ce2e6b1d202 SHA1: 849f5e3238c445b25062479ce1bb07520e58d972
+ExternalDocumentRef: DocumentRef-anacron.Cycle http://spdx.org/spdxdocs/anacron_2.3-31ubuntu2-a3911883-88a6-5b3f-bb4e-9175c9bc002b SHA1: 39297d5944af59ec97f258f114c0826fafda63ed
+ExternalDocumentRef: DocumentRef-fonts-noto-color-emoji http://spdx.org/spdxdocs/fonts-noto-color-emoji_2.034-1-df8d30de-cb62-5afa-85f6-396db38dcbd1 SHA1: 47e7f7dd634904d2237f2d30b60af59f3212801a
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-nautilus http://spdx.org/spdxdocs/nautilus_1:42.2-0ubuntu1-933cf7a5-a2f7-51e7-b28b-9cd351d2de31 SHA1: 9eab4fd8f88780ff45b75ec3b1995c1613ec9327
+ExternalDocumentRef: DocumentRef-alsa-base.Cycle http://spdx.org/spdxdocs/alsa-base_1.0.25+dfsg-0ubuntu7-6b2c22ce-9513-5e05-b1cd-aec7dec627d5 SHA1: a8226ffe13988a79246e23698e663e959cfd6aa1
+ExternalDocumentRef: DocumentRef-yaru-theme-sound http://spdx.org/spdxdocs/yaru-theme-sound_22.04.4-d4a76d28-605d-55cd-a8ab-04444f0047b2 SHA1: 45ffba0d25f83e5b37df0f901ae3657348e0d425
+ExternalDocumentRef: DocumentRef-printer-driver-brlaser http://spdx.org/spdxdocs/printer-driver-brlaser_6-3-b38013a8-3a3c-548a-84e3-6f36d81fbbee SHA1: db7f669beb94e3a6e5689b2365ff20cb52f4a912
+ExternalDocumentRef: DocumentRef-printer-driver-foo2zjs.Cycle http://spdx.org/spdxdocs/printer-driver-foo2zjs_20200505dfsg0-2ubuntu2-71cc8573-e1e0-5301-aab0-4c77efa81d8f SHA1: 250caf03809fb1f7dc696251d01c1149b927c2d1
+ExternalDocumentRef: DocumentRef-fwupd.Cycle http://spdx.org/spdxdocs/fwupd_1.7.9-1~22.04.1-fcd477b0-2ffd-583f-81c7-899679b58f0b SHA1: d59f4717b1242991cc6fb34362acba36f6f537a7
+ExternalDocumentRef: DocumentRef-xcursor-themes http://spdx.org/spdxdocs/xcursor-themes_1.0.6-0ubuntu1-063fa97b-dfa1-586e-a349-1a2ff9e6effd SHA1: fab0338eb3287427775af1296a746b06ebf95493
+ExternalDocumentRef: DocumentRef-gnome-characters http://spdx.org/spdxdocs/gnome-characters_41.0-4-58e02e94-0d6e-5c1a-ac35-4d57b4f04c4b SHA1: e7e50c319a7f6ddfffd458d1bc381bd8568c519e
+ExternalDocumentRef: DocumentRef-eog http://spdx.org/spdxdocs/eog_42.0-1-0cc5b229-5c54-544f-ba35-6bff82192578 SHA1: dc1f8f2766b54fedf37af8241fe089572cda995e
+ExternalDocumentRef: DocumentRef-printer-driver-m2300w http://spdx.org/spdxdocs/printer-driver-m2300w_0.51-15build1-ca9b0cc2-a4a1-5dad-bc49-985e06a323a0 SHA1: 954ff200af4de6b7ad097195b28168410643ce40
+ExternalDocumentRef: DocumentRef-printer-driver-pxljr http://spdx.org/spdxdocs/printer-driver-pxljr_1.4+repack0-6build1-3616a6ec-1759-5e0d-b515-9ce6579ee07e SHA1: 20e979353bc3285fb81db588ce0cde42ed40b76c
+ExternalDocumentRef: DocumentRef-yaru-theme-gnome-shell http://spdx.org/spdxdocs/yaru-theme-gnome-shell_22.04.4-f10285f8-56cb-5608-8075-d0659539f337 SHA1: b97adf85fbcc3fd48fee25e438d1bdc85d588c68
+ExternalDocumentRef: DocumentRef-acpi-support http://spdx.org/spdxdocs/acpi-support_0.144-314c599b-68db-5970-bf3a-2571d5271fbd SHA1: 84616238b5cb6d659eada320129eaca73a09a898
+ExternalDocumentRef: DocumentRef-fonts-sil-padauk http://spdx.org/spdxdocs/fonts-sil-padauk_5.000-3-e24f5567-29d4-509e-8f47-2fb5b7d23fa7 SHA1: ebd4f064afe1d631d633bca4072dde35f6b8181e
+ExternalDocumentRef: DocumentRef-fonts-noto-cjk.Cycle http://spdx.org/spdxdocs/fonts-noto-cjk_1:20220127+repack1-1-4746a023-ef61-5ce8-9d6f-d48d0fa244c2 SHA1: 95b712c9944ad79f5a4b4f66c6efff16076e09c8
+ExternalDocumentRef: DocumentRef-inputattach http://spdx.org/spdxdocs/inputattach_1:1.7.1-1build2-395630be-dfb6-5bf7-ab53-7303eaeb9b54 SHA1: 4e09c07d3c836c876ca6f634aa75bf39498fb2de
+ExternalDocumentRef: DocumentRef-nautilus-share http://spdx.org/spdxdocs/nautilus-share_0.7.3-2ubuntu6-ab1d6022-95da-50df-a1d7-ba3d571df5be SHA1: 141f5e04de2e3d178497c5ea416dd3d2f3032e33
+ExternalDocumentRef: DocumentRef-yaru-theme-icon http://spdx.org/spdxdocs/yaru-theme-icon_22.04.4-55fe560d-98c6-5254-95cb-b373d1cf70a2 SHA1: 77015428fd819d6a1f2562a5f310d76a7a877d2c
+ExternalDocumentRef: DocumentRef-xkb-data http://spdx.org/spdxdocs/xkb-data_2.33-1-448243da-c476-5b12-8157-965a259e6fe9 SHA1: 5540adf6db55051bffbf47cd71bb1023b44905d8
+ExternalDocumentRef: DocumentRef-gsettings-ubuntu-schemas http://spdx.org/spdxdocs/gsettings-ubuntu-schemas_0.0.7+21.10.20210712-0ubuntu2-c5a35fc1-3d33-5782-9ed2-e44195f0caa3 SHA1: 31d8d87a0b2c8881adfe44afae376be35ace6e06
+ExternalDocumentRef: DocumentRef-gnome-shell-extension-desktop-icons-ng http://spdx.org/spdxdocs/gnome-shell-extension-desktop-icons-ng_43-2ubuntu1-0bd059f6-4714-5f8d-82fa-aa12b4501385 SHA1: ccd2b23c9a981c1ffb4f312815f6a339aa65794b
+ExternalDocumentRef: DocumentRef-yaru-theme-gtk http://spdx.org/spdxdocs/yaru-theme-gtk_22.04.4-361b0edb-d950-5429-aacf-f991070ab7d3 SHA1: ae929838bee0dbcc43e0dd02244793e983104178
+ExternalDocumentRef: DocumentRef-fonts-lao http://spdx.org/spdxdocs/fonts-lao_0.0.20060226-10ubuntu2-797c6b3f-5e62-53cc-94cf-c9d222a7be11 SHA1: a3547e19009ab016a64e4554676276a8b7b99778
+ExternalDocumentRef: DocumentRef-gnome-shell-extension-appindicator http://spdx.org/spdxdocs/gnome-shell-extension-appindicator_42-2~fakesync1-62324d3c-e2fa-56a1-89b6-182ac3f782de SHA1: ac3ff7857c9db43e38a3d4d179c203ab7012f85c
+ExternalDocumentRef: DocumentRef-fonts-lklug-sinhala http://spdx.org/spdxdocs/fonts-lklug-sinhala_0.6-4-bffc070b-feae-57d5-9f5e-76c18c41d006 SHA1: e9132dbc621d7e49868ba1accec3c083cde6a061
+ExternalDocumentRef: DocumentRef-printer-driver-splix http://spdx.org/spdxdocs/printer-driver-splix_2.0.0+svn315-7fakesync1build3-f03d71ea-dea9-5b04-b2b3-2417bab98925 SHA1: 24b3c0fa51e34f3a07ccf8d4b3c25d0d4a90f8fd
+ExternalDocumentRef: DocumentRef-fonts-dejavu-core http://spdx.org/spdxdocs/fonts-dejavu-core_2.37-2build1-ec9e2e27-7645-5878-bb5b-adb41d5caa85 SHA1: 1b1ff197748bb84b83034082d66c84aec2cdba49
+ExternalDocumentRef: DocumentRef-fonts-kacst.Cycle http://spdx.org/spdxdocs/fonts-kacst_2.01+mry-15-7e4a085c-d840-52fc-b1a3-7138ff5b0fed SHA1: 5eb3eb3fbd6d322ad2520da8632f5f69aff8d64f
+ExternalDocumentRef: DocumentRef-file-roller http://spdx.org/spdxdocs/file-roller_3.42.0-1-8be7caba-cad5-5950-ab31-73ee5f2af47d SHA1: 804fcf3f643e44877eee0bf752c671e64e8ad677
+ExternalDocumentRef: DocumentRef-gnome-shell-extension-ubuntu-dock http://spdx.org/spdxdocs/gnome-shell-extension-ubuntu-dock_72~ubuntu5.22.04.1-88547272-5d7d-5705-8f74-041dc40a2895 SHA1: 357446e6193a3d445cffbe22d39e0e68a7e941fe
+ExternalDocumentRef: DocumentRef-fonts-thai-tlwg http://spdx.org/spdxdocs/fonts-thai-tlwg_1:0.7.3-1-8b7a5814-14aa-5d88-94b9-92ebe5abe460 SHA1: dbc78a5c123cae20cb7ea959fd920d8aba895c5d
+ExternalDocumentRef: DocumentRef-gvfs-fuse http://spdx.org/spdxdocs/gvfs-fuse_1.48.2-0ubuntu1-87925785-8b62-5072-ad45-9147099f1fbc SHA1: 9d1b1e8cfef5df7fe7d9d9cfe3425fa3348d1bd9
+ExternalDocumentRef: DocumentRef-rfkill http://spdx.org/spdxdocs/rfkill_2.37.2-4ubuntu3-2c6cabd6-3ab4-53c7-8b31-0fd8e606bbab SHA1: e4402abf44c87eb75bc05b0afc109409b9ed7102
+ExternalDocumentRef: DocumentRef-bluez-cups http://spdx.org/spdxdocs/bluez-cups_5.64-0ubuntu1-8a8c9e53-35e8-5e59-b34c-452f8b13fe86 SHA1: beb4d0bdfea7f10bd1c3b9d170f6b7fc54129ee8
+ExternalDocumentRef: DocumentRef-spice-vdagent http://spdx.org/spdxdocs/spice-vdagent_0.22.1-1-2119e1e0-06b0-58ec-b9db-29d976e7570e SHA1: 8b03fe503a5f9ad3765e9dddf4fb14ca560b3b97
+ExternalDocumentRef: DocumentRef-fonts-tibetan-machine http://spdx.org/spdxdocs/fonts-tibetan-machine_1.901b-6-3428b548-5ced-58d7-b25b-8949db51a70b SHA1: 791e78cd63c202cbde1bc9670fa85f752ec2c0bd
+ExternalDocumentRef: DocumentRef-gnome-initial-setup http://spdx.org/spdxdocs/gnome-initial-setup_42.0.1-1ubuntu2-aea5084e-9529-5f1e-8109-43849aa06f34 SHA1: 3545b17388ec3d219220367980c6e0abd7b074f4
+ExternalDocumentRef: DocumentRef-fonts-freefont-ttf http://spdx.org/spdxdocs/fonts-freefont-ttf_20120503-10build1-bcf22e92-6415-5c3b-99e7-8842bc375f68 SHA1: 39a21040fa4af2c3937b8d314a27141ba900d591
+ExternalDocumentRef: DocumentRef-fonts-liberation http://spdx.org/spdxdocs/fonts-liberation_1:1.07.4-11-5dae621b-8841-5b03-b8ce-22c39134a737 SHA1: ee3cfb518b39f8fa26062f44ee40af81488904a6
+ExternalDocumentRef: DocumentRef-policykit-desktop-privileges http://spdx.org/spdxdocs/policykit-desktop-privileges_0.21-02f93b0b-f6ea-53d4-af24-62de5f23eaf7 SHA1: cd749d30f524638da8152ea9349aeecdbe804b08
+ExternalDocumentRef: DocumentRef-gnome-font-viewer http://spdx.org/spdxdocs/gnome-font-viewer_41.0-2-cf44ca74-7443-5361-b573-1c4def9a0167 SHA1: b798eb47e477b49a27eb1fc2ca7c92ad6efd9407
+ExternalDocumentRef: DocumentRef-gnome-calculator http://spdx.org/spdxdocs/gnome-calculator_1:41.1-2ubuntu2-8b20a10a-c676-5363-b1bf-2c6c5473f392 SHA1: 52461cea4cd802c3392f014156e1118f03b61833
+ExternalDocumentRef: DocumentRef-laptop-detect http://spdx.org/spdxdocs/laptop-detect_0.16-bd7421ef-ecde-5b87-b18b-9e9529fa13f5 SHA1: 80f730e91263f4b7e04029cef795b9fd2e7aefd7
+ExternalDocumentRef: DocumentRef-fonts-ubuntu http://spdx.org/spdxdocs/fonts-ubuntu_0.83-6ubuntu1-e8a4f43b-d78f-5e5e-b48d-1c165e7912ce SHA1: 1440756ce8b2952c008844cc53f7fbbc818acfd7
+ExternalDocumentRef: DocumentRef-mousetweaks http://spdx.org/spdxdocs/mousetweaks_3.32.0-3build2-b3ab9f02-2e5f-51db-9c36-cf4efafec4f3 SHA1: 5ec98871d4e69064b7d5d60c4a100a9674eec4e5
+ExternalDocumentRef: DocumentRef-seahorse http://spdx.org/spdxdocs/seahorse_41.0-2-1e555ce5-7b86-5b99-85d4-19798e73021b SHA1: 911f49a66051604e7c7de5e8f2857398f2cc57c8
+ExternalDocumentRef: DocumentRef-fonts-sil-abyssinica http://spdx.org/spdxdocs/fonts-sil-abyssinica_2.100-3-ec9afd70-0e4c-5501-ac71-cdf22d37f508 SHA1: 3c57c782faf79bf802e1d8e86871184ac30edf1f
+ExternalDocumentRef: DocumentRef-dmz-cursor-theme http://spdx.org/spdxdocs/dmz-cursor-theme_0.4.5ubuntu1-5fedc735-4e3d-5083-9ac7-5292383aacdf SHA1: 9a5f4512019a237641041782f33a7bafd57e02d1
+ExternalDocumentRef: DocumentRef-network-manager-config-connectivity-ubuntu http://spdx.org/spdxdocs/network-manager-config-connectivity-ubuntu_1.36.6-0ubuntu2-b242874b-6247-5bcf-8587-93ea569a465a SHA1: 92423e1e60fd6655265ae298d23ff50c69d35adf
+ExternalDocumentRef: DocumentRef-printer-driver-c2esp http://spdx.org/spdxdocs/printer-driver-c2esp_27-11build1-ea029685-6ded-50d2-b72d-f68e507f9d7e SHA1: 2341d4e0ecd1e2dd1111250dce89b4115ee781db
+ExternalDocumentRef: DocumentRef-kerneloops http://spdx.org/spdxdocs/kerneloops_0.12+git20140509-6ubuntu5-7a26f743-1bd4-50b6-88ac-15307fe7bc2e SHA1: 254fb01b366bb486be289c990a617100864abc3d
+ExternalDocumentRef: DocumentRef-memtest86+ http://spdx.org/spdxdocs/memtest86+_5.31b+dfsg-4-64d0b3bb-3b68-5a79-b228-77c4f08073c6 SHA1: 01b3aa586fa30aa50057329e2112964293242323
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gstreamer1.0-packagekit
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:15:02Z
+
+
+## Package
+
+PackageName: gstreamer1.0-packagekit
+PackageVersion: 1.2.5-2ubuntu2
+SPDXID: SPDXRef-gstreamer1.0-packagekit
+PackageHomePage: https://www.freedesktop.org/software/PackageKit/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ba5d6c83c49589b4e502e0d7587e0d6187d8b02e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 1999, Patrick Cole <z@amused.net> 2002, Synaptic development team
+Copyright 1999-2008, Daniel Burrows 2004, Michael Vogt <mvo@debian.org>
+Copyright 2001, 2005 Daniel Burrows
+Copyright 2007, Andreas Obergrusberger <tradiaz@yahoo.de> 2008-2010, Valeriy Lyasotskiy <onestep@ukr.net> 2010-2011, Jonathan Conder <jonno.conder@gmail.com>
+Copyright 2007, Boyd Timothy <btimothy@gmail.com> 2007, Novell, Inc 2007-2008, Scott Reeves <sreeves@novell.com> 2007-2008, Stefan Haas <shaas@suse.de>
+Copyright 2007, Novell, Inc
+Copyright 2007, Tim Lauridsen <timlau@fedoraproject.org> 2007-2010, Richard Hughes <richard@hughsie.com>
+Copyright 2007-2008, Richard Hughes <richard@hughsie.com> 2009-2012, Daniel Nicoletti <dantti12@gmail.com>
+Copyright 2007-2012, Richard Hughes <richard@hughsie.com>
+Copyright 2007-2014, Richard Hughes <richard@hughsie.com>
+Copyright 2008, Bastien Nocera <bnocera@redhat.com> 2008, Richard Hughes <richard@hughsie.com>
+Copyright 2008, Behdad Esfahbod <behdad@behdad.org> 2008, Richard Hughes <richard@hughsie.com>
+Copyright 2008-2012, Marcin Banasiak <megabajt@pld-linux.org>
+Copyright 2009, Daniel Nicoletti <dantti@gmail.com>
+Copyright 2009, Michael Vogt <michael.vogt@ubuntu.com> 2009, Sebastian Heinlein <devel@glatzor.de> 2010, Richard Hughes <richard@hughsie.com>
+Copyright 2009, Mounir Lamouri
+Copyright 2009-2012, Daniel Nicoletti <dantti12@gmail.com> 2011-2012, Matthias Klumpp <matthias@tenstral.net>
+Copyright 2010-2013, Matthias Klumpp <mak@debian.org>
+Copyright 2011, Lennart Poettering <lennart@poettering.net> 2012, Matthias Klumpp <matthias@tenstral.net>
+Copyright Richard Hughes <richard@hughsie.com> Tom Parker <palfrey@tevp.net> Ken VanDine <ken@vandine.org>
+</text>
+PackageComment: <text>GStreamer plugin to install codecs using PackageKit
+ PackageKit allows performing simple software management tasks over a DBus
+ interface e.g refreshing the cache, updating, installing and removing
+ software packages or searching for multimedia codecs and file handlers.
+ .
+ This package provides a plugin for the GStreamer multimedia framework
+ to search and to install audio and video codecs.</text>
+Relationship: SPDXRef-gstreamer1.0-packagekit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-packagekit
+Relationship: SPDXRef-gstreamer1.0-packagekit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gstreamer1.0-packagekit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gstreamer1.0-packagekit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgstreamer1.0-0
+Relationship: SPDXRef-gstreamer1.0-packagekit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpackagekit-glib2-18
+Relationship: SPDXRef-gstreamer1.0-packagekit DEPENDS_ON SPDXRef-ubuntu-desktop
+
+
+PackageName: ubuntu-desktop
+PackageVersion: 1.481
+SPDXID: SPDXRef-ubuntu-desktop
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0b039f31a429df4853a4a0aa586dc4affde287f0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2004, Canonical Ltd.
+</text>
+PackageComment: <text>The Ubuntu desktop system
+ This package depends on all of the packages in the Ubuntu desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.</text>
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-alsa-base.Cycle:SPDXRef-alsa-base
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-alsa-utils
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-anacron.Cycle:SPDXRef-anacron
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-at-spi2-core
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bc
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ca-certificates
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-dmz-cursor-theme:SPDXRef-dmz-cursor-theme
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-dejavu-core:SPDXRef-fonts-dejavu-core
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-freefont-ttf:SPDXRef-fonts-freefont-ttf
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-foomatic-db-compressed-ppds
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gdm3
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ghostscript-x
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-control-center
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-menus
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-session-canberra
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-settings-daemon
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-shell
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-shell-extension-appindicator:SPDXRef-gnome-shell-extension-appindicator
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-shell-extension-desktop-icons-ng:SPDXRef-gnome-shell-extension-desktop-icons-ng
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-shell-extension-ubuntu-dock:SPDXRef-gnome-shell-extension-ubuntu-dock
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gstreamer1.0-alsa
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON SPDXRef-gstreamer1.0-packagekit
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gstreamer1.0-plugins-base-apps:SPDXRef-gstreamer1.0-plugins-base-apps
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gstreamer1.0-pulseaudio
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-inputattach:SPDXRef-inputattach
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-language-selector-common
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-language-selector-gnome
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libatk-adaptor
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-libnotify-bin:SPDXRef-libnotify-bin
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsasl2-modules
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libu2f-udev
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-nautilus:SPDXRef-nautilus
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-openprinting-ppds
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-pnm2ppa:SPDXRef-printer-driver-pnm2ppa
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-pulseaudio
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-rfkill:SPDXRef-rfkill
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-software-properties-gtk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-spice-vdagent:SPDXRef-spice-vdagent
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON SPDXRef-ubuntu-desktop-minimal
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ubuntu-drivers-common
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ubuntu-release-upgrader-gtk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ubuntu-session
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-ubuntu-settings:SPDXRef-ubuntu-settings
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-unzip
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-update-manager
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-update-notifier
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-wireless-tools
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-wpasupplicant
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-user-dirs
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-xdg-user-dirs-gtk:SPDXRef-xdg-user-dirs-gtk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-xkb-data:SPDXRef-xkb-data
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-xorg:SPDXRef-xorg
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-yelp
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zenity
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zip
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-acpi-support:SPDXRef-acpi-support
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-apport-gtk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-appstream
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-apt-config-icons-hidpi:SPDXRef-apt-config-icons-hidpi
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-avahi-autoipd
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-avahi-daemon
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bluez
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-bluez-cups:SPDXRef-bluez-cups
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-brltty
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-bsd
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-client
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-filters
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dirmngr
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-eog:SPDXRef-eog
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-evince
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-file-roller:SPDXRef-file-roller
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-indic:SPDXRef-fonts-indic
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-kacst.Cycle:SPDXRef-fonts-kacst-one
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-khmeros-core:SPDXRef-fonts-khmeros-core
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-lao:SPDXRef-fonts-lao
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-liberation:SPDXRef-fonts-liberation
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-liberation2:SPDXRef-fonts-liberation2
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-lklug-sinhala:SPDXRef-fonts-lklug-sinhala
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-noto-cjk.Cycle:SPDXRef-fonts-noto-cjk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-noto-color-emoji:SPDXRef-fonts-noto-color-emoji
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-opensymbol:SPDXRef-fonts-opensymbol
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-sil-abyssinica:SPDXRef-fonts-sil-abyssinica
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-sil-padauk:SPDXRef-fonts-sil-padauk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-thai-tlwg:SPDXRef-fonts-thai-tlwg
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-tibetan-machine:SPDXRef-fonts-tibetan-machine
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fonts-ubuntu:SPDXRef-fonts-ubuntu
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fwupd.Cycle:SPDXRef-fwupd
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-fwupd.Cycle:SPDXRef-fwupd-signed
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gamemode:SPDXRef-gamemode
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gedit
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gir1.2-gmenu-3.0:SPDXRef-gir1.2-gmenu-3.0
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-accessibility-themes:SPDXRef-gnome-accessibility-themes
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-bluetooth:SPDXRef-gnome-bluetooth
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-calculator:SPDXRef-gnome-calculator
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-characters:SPDXRef-gnome-characters
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-disk-utility:SPDXRef-gnome-disk-utility
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-font-viewer:SPDXRef-gnome-font-viewer
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-initial-setup:SPDXRef-gnome-initial-setup
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-keyring
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-logs:SPDXRef-gnome-logs
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-power-manager:SPDXRef-gnome-power-manager
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-remote-desktop
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gnome-system-monitor:SPDXRef-gnome-system-monitor
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-terminal
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gpg-agent
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gsettings-ubuntu-schemas:SPDXRef-gsettings-ubuntu-schemas
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-gvfs-fuse:SPDXRef-gvfs-fuse
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-hplip
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ibus
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ibus-gtk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ibus-gtk3
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-im-config
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-kerneloops:SPDXRef-kerneloops
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-laptop-detect:SPDXRef-laptop-detect
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-bin
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnss-mdns
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-fprintd
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-gnome-keyring
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-sss
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-libproxy1-plugin-gsettings:SPDXRef-libproxy1-plugin-gsettings
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-libproxy1-plugin-networkmanager:SPDXRef-libproxy1-plugin-networkmanager
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-libwmf0.2-7-gtk:SPDXRef-libwmf0.2-7-gtk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-memtest86+:SPDXRef-memtest86Plus
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-mousetweaks:SPDXRef-mousetweaks
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-nautilus-sendto
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-nautilus-share:SPDXRef-nautilus-share
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-network-manager
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-network-manager-config-connectivity-ubuntu:SPDXRef-network-manager-config-connectivity-ubuntu
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-network-manager-openvpn-gnome
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-network-manager-pptp-gnome
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-orca
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-packagekit
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-pcmciautils:SPDXRef-pcmciautils
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-plymouth-theme-spinner.Cycle:SPDXRef-plymouth-theme-spinner
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-policykit-desktop-privileges:SPDXRef-policykit-desktop-privileges
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-brlaser:SPDXRef-printer-driver-brlaser
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-c2esp:SPDXRef-printer-driver-c2esp
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-foo2zjs.Cycle:SPDXRef-printer-driver-foo2zjs
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-m2300w:SPDXRef-printer-driver-m2300w
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-min12xxw:SPDXRef-printer-driver-min12xxw
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-ptouch:SPDXRef-printer-driver-ptouch
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-pxljr:SPDXRef-printer-driver-pxljr
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-sag-gdi:SPDXRef-printer-driver-sag-gdi
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-printer-driver-splix:SPDXRef-printer-driver-splix
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-pulseaudio-module-bluetooth
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-seahorse:SPDXRef-seahorse
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-snapd
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-speech-dispatcher
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-system-config-printer
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-systemd-oomd:SPDXRef-systemd-oomd
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ubuntu-docs
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-ubuntu-report:SPDXRef-ubuntu-report
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-ubuntu-wallpapers:SPDXRef-ubuntu-wallpapers
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-whoopsie
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-xcursor-themes:SPDXRef-xcursor-themes
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-desktop-portal-gnome
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-desktop-portal-gtk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-utils
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-yaru-theme-gnome-shell:SPDXRef-yaru-theme-gnome-shell
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-yaru-theme-gtk:SPDXRef-yaru-theme-gtk
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-yaru-theme-icon:SPDXRef-yaru-theme-icon
+Relationship: SPDXRef-ubuntu-desktop DEPENDS_ON DocumentRef-yaru-theme-sound:SPDXRef-yaru-theme-sound
+
+
+PackageName: ubuntu-desktop-minimal
+PackageVersion: 1.481
+SPDXID: SPDXRef-ubuntu-desktop-minimal
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0b039f31a429df4853a4a0aa586dc4affde287f0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2004, Canonical Ltd.
+</text>
+PackageComment: <text>The Ubuntu desktop minimal system
+ This package depends on all of the packages in the Ubuntu desktop minimal
+ system.
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.</text>
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-alsa-base.Cycle:SPDXRef-alsa-base
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-alsa-utils
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-anacron.Cycle:SPDXRef-anacron
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-at-spi2-core
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bc
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ca-certificates
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-dmz-cursor-theme:SPDXRef-dmz-cursor-theme
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-dejavu-core:SPDXRef-fonts-dejavu-core
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-freefont-ttf:SPDXRef-fonts-freefont-ttf
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-foomatic-db-compressed-ppds
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gdm3
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ghostscript-x
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-control-center
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-menus
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-session-canberra
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-settings-daemon
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-shell
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-shell-extension-appindicator:SPDXRef-gnome-shell-extension-appindicator
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-shell-extension-desktop-icons-ng:SPDXRef-gnome-shell-extension-desktop-icons-ng
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-shell-extension-ubuntu-dock:SPDXRef-gnome-shell-extension-ubuntu-dock
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gstreamer1.0-alsa
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON SPDXRef-gstreamer1.0-packagekit
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gstreamer1.0-plugins-base-apps:SPDXRef-gstreamer1.0-plugins-base-apps
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gstreamer1.0-pulseaudio
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-inputattach:SPDXRef-inputattach
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-language-selector-common
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-language-selector-gnome
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libatk-adaptor
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-libnotify-bin:SPDXRef-libnotify-bin
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsasl2-modules
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libu2f-udev
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-nautilus:SPDXRef-nautilus
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-openprinting-ppds
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-pnm2ppa:SPDXRef-printer-driver-pnm2ppa
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-pulseaudio
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-rfkill:SPDXRef-rfkill
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-software-properties-gtk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-spice-vdagent:SPDXRef-spice-vdagent
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ubuntu-drivers-common
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ubuntu-release-upgrader-gtk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ubuntu-session
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-ubuntu-settings:SPDXRef-ubuntu-settings
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-unzip
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-update-manager
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-update-notifier
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-wireless-tools
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-wpasupplicant
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-user-dirs
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-xdg-user-dirs-gtk:SPDXRef-xdg-user-dirs-gtk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-xkb-data:SPDXRef-xkb-data
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-xorg:SPDXRef-xorg
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-yelp
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zenity
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zip
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-acpi-support:SPDXRef-acpi-support
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-apport-gtk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-appstream
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-apt-config-icons-hidpi:SPDXRef-apt-config-icons-hidpi
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-avahi-autoipd
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-avahi-daemon
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bluez
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-bluez-cups:SPDXRef-bluez-cups
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-brltty
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-bsd
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-client
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-filters
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dirmngr
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-eog:SPDXRef-eog
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-evince
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-file-roller:SPDXRef-file-roller
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-indic:SPDXRef-fonts-indic
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-kacst.Cycle:SPDXRef-fonts-kacst-one
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-khmeros-core:SPDXRef-fonts-khmeros-core
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-lao:SPDXRef-fonts-lao
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-liberation:SPDXRef-fonts-liberation
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-liberation2:SPDXRef-fonts-liberation2
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-lklug-sinhala:SPDXRef-fonts-lklug-sinhala
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-noto-cjk.Cycle:SPDXRef-fonts-noto-cjk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-noto-color-emoji:SPDXRef-fonts-noto-color-emoji
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-opensymbol:SPDXRef-fonts-opensymbol
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-sil-abyssinica:SPDXRef-fonts-sil-abyssinica
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-sil-padauk:SPDXRef-fonts-sil-padauk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-thai-tlwg:SPDXRef-fonts-thai-tlwg
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-tibetan-machine:SPDXRef-fonts-tibetan-machine
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fonts-ubuntu:SPDXRef-fonts-ubuntu
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fwupd.Cycle:SPDXRef-fwupd
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-fwupd.Cycle:SPDXRef-fwupd-signed
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gamemode:SPDXRef-gamemode
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gedit
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gir1.2-gmenu-3.0:SPDXRef-gir1.2-gmenu-3.0
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-accessibility-themes:SPDXRef-gnome-accessibility-themes
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-bluetooth:SPDXRef-gnome-bluetooth
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-calculator:SPDXRef-gnome-calculator
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-characters:SPDXRef-gnome-characters
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-disk-utility:SPDXRef-gnome-disk-utility
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-font-viewer:SPDXRef-gnome-font-viewer
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-initial-setup:SPDXRef-gnome-initial-setup
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-keyring
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-logs:SPDXRef-gnome-logs
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-power-manager:SPDXRef-gnome-power-manager
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-remote-desktop
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gnome-system-monitor:SPDXRef-gnome-system-monitor
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-terminal
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gpg-agent
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gsettings-ubuntu-schemas:SPDXRef-gsettings-ubuntu-schemas
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-gvfs-fuse:SPDXRef-gvfs-fuse
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-hplip
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ibus
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ibus-gtk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ibus-gtk3
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-im-config
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-kerneloops:SPDXRef-kerneloops
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-laptop-detect:SPDXRef-laptop-detect
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-bin
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnss-mdns
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-fprintd
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-gnome-keyring
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-sss
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-libproxy1-plugin-gsettings:SPDXRef-libproxy1-plugin-gsettings
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-libproxy1-plugin-networkmanager:SPDXRef-libproxy1-plugin-networkmanager
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-libwmf0.2-7-gtk:SPDXRef-libwmf0.2-7-gtk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-memtest86+:SPDXRef-memtest86Plus
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-mousetweaks:SPDXRef-mousetweaks
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-nautilus-sendto
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-nautilus-share:SPDXRef-nautilus-share
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-network-manager
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-network-manager-config-connectivity-ubuntu:SPDXRef-network-manager-config-connectivity-ubuntu
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-network-manager-openvpn-gnome
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-network-manager-pptp-gnome
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-orca
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-packagekit
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-pcmciautils:SPDXRef-pcmciautils
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-plymouth-theme-spinner.Cycle:SPDXRef-plymouth-theme-spinner
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-policykit-desktop-privileges:SPDXRef-policykit-desktop-privileges
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-brlaser:SPDXRef-printer-driver-brlaser
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-c2esp:SPDXRef-printer-driver-c2esp
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-foo2zjs.Cycle:SPDXRef-printer-driver-foo2zjs
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-m2300w:SPDXRef-printer-driver-m2300w
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-min12xxw:SPDXRef-printer-driver-min12xxw
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-ptouch:SPDXRef-printer-driver-ptouch
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-pxljr:SPDXRef-printer-driver-pxljr
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-sag-gdi:SPDXRef-printer-driver-sag-gdi
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-printer-driver-splix:SPDXRef-printer-driver-splix
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-pulseaudio-module-bluetooth
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-seahorse:SPDXRef-seahorse
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-snapd
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-speech-dispatcher
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-system-config-printer
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-systemd-oomd:SPDXRef-systemd-oomd
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ubuntu-docs
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-ubuntu-report:SPDXRef-ubuntu-report
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-ubuntu-wallpapers:SPDXRef-ubuntu-wallpapers
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-whoopsie
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-xcursor-themes:SPDXRef-xcursor-themes
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-desktop-portal-gnome
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-desktop-portal-gtk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-utils
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-yaru-theme-gnome-shell:SPDXRef-yaru-theme-gnome-shell
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-yaru-theme-gtk:SPDXRef-yaru-theme-gtk
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-yaru-theme-icon:SPDXRef-yaru-theme-icon
+Relationship: SPDXRef-ubuntu-desktop-minimal DEPENDS_ON DocumentRef-yaru-theme-sound:SPDXRef-yaru-theme-sound
+
+
+## File
+
+FileName: /usr/share/doc/gstreamer1.0-packagekit/copyright
+SPDXID: SPDXRef-gstreamer1.0-packagekit-file-0
+FileChecksum: SHA1: 7783da01ac117f4fe74484045bbf69d4790362ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright Richard Hughes <richard@hughsie.com> Tom Parker <palfrey@tevp.net> Ken VanDine <ken@vandine.org>
+Copyright 2007-2014, Richard Hughes <richard@hughsie.com>
+Copyright 2007-2012, Richard Hughes <richard@hughsie.com>
+Copyright 2007, Andreas Obergrusberger <tradiaz@yahoo.de> 2008-2010, Valeriy Lyasotskiy <onestep@ukr.net> 2010-2011, Jonathan Conder <jonno.conder@gmail.com>
+Copyright 2009-2012, Daniel Nicoletti <dantti12@gmail.com> 2011-2012, Matthias Klumpp <matthias@tenstral.net>
+Copyright 1999, Patrick Cole <z@amused.net> 2002, Synaptic development team
+Copyright 1999-2008, Daniel Burrows 2004, Michael Vogt <mvo@debian.org>
+Copyright 2001, 2005 Daniel Burrows
+Copyright 2007-2008, Richard Hughes <richard@hughsie.com> 2009-2012, Daniel Nicoletti <dantti12@gmail.com>
+Copyright 2009, Daniel Nicoletti <dantti@gmail.com>
+Copyright 2007, Boyd Timothy <btimothy@gmail.com> 2007, Novell, Inc 2007-2008, Scott Reeves <sreeves@novell.com> 2007-2008, Stefan Haas <shaas@suse.de>
+Copyright 2007, Novell, Inc
+Copyright 2009, Mounir Lamouri
+Copyright 2009, Mounir Lamouri
+Copyright 2011, Lennart Poettering <lennart@poettering.net> 2012, Matthias Klumpp <matthias@tenstral.net>
+Copyright 2008, Bastien Nocera <bnocera@redhat.com> 2008, Richard Hughes <richard@hughsie.com>
+Copyright 2008, Behdad Esfahbod <behdad@behdad.org> 2008, Richard Hughes <richard@hughsie.com>
+Copyright 2008-2012, Marcin Banasiak <megabajt@pld-linux.org>
+Copyright 2007, Tim Lauridsen <timlau@fedoraproject.org> 2007-2010, Richard Hughes <richard@hughsie.com>
+Copyright 2009, Michael Vogt <michael.vogt@ubuntu.com> 2009, Sebastian Heinlein <devel@glatzor.de> 2010, Richard Hughes <richard@hughsie.com>
+Copyright 2010-2013, Matthias Klumpp <mak@debian.org>
+</text>
+Relationship: SPDXRef-gstreamer1.0-packagekit CONTAINS SPDXRef-gstreamer1.0-packagekit-file-0
+
+
+FileName: /usr/libexec/pk-gstreamer-install
+SPDXID: SPDXRef-gstreamer1.0-packagekit-file-1
+FileChecksum: SHA1: 68de30042b002007636a0b49ca6d8fb53aacedad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-packagekit CONTAINS SPDXRef-gstreamer1.0-packagekit-file-1
+
+
+FileName: /usr/libexec/gst-install-plugins-helper
+SPDXID: SPDXRef-gstreamer1.0-packagekit-file-2
+FileChecksum: SHA1: 68de30042b002007636a0b49ca6d8fb53aacedad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-packagekit CONTAINS SPDXRef-gstreamer1.0-packagekit-file-2
+
+
+FileName: /usr/share/doc/gstreamer1.0-packagekit/changelog.Debian.gz
+SPDXID: SPDXRef-gstreamer1.0-packagekit-file-3
+FileChecksum: SHA1: 56f9f165f10df07c0a2965c541e6e408060168c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-packagekit CONTAINS SPDXRef-gstreamer1.0-packagekit-file-3
+
+
+FileName: /usr/share/doc/ubuntu-desktop/copyright
+SPDXID: SPDXRef-ubuntu-desktop-file-0
+FileChecksum: SHA1: 2d0d79d9b35884d2f91672dcbaf6dfe5d9f96cf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2004, Canonical Ltd.
+</text>
+Relationship: SPDXRef-ubuntu-desktop CONTAINS SPDXRef-ubuntu-desktop-file-0
+
+
+FileName: /usr/share/doc/ubuntu-desktop/changelog.gz
+SPDXID: SPDXRef-ubuntu-desktop-file-1
+FileChecksum: SHA1: b192d5b093dae8fb9ce5e842c2c3977c87ce5b30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-desktop CONTAINS SPDXRef-ubuntu-desktop-file-1
+
+
+FileName: /usr/share/doc/ubuntu-desktop-minimal/copyright
+SPDXID: SPDXRef-ubuntu-desktop-minimal-file-0
+FileChecksum: SHA1: 2d0d79d9b35884d2f91672dcbaf6dfe5d9f96cf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2004, Canonical Ltd.
+</text>
+Relationship: SPDXRef-ubuntu-desktop-minimal CONTAINS SPDXRef-ubuntu-desktop-minimal-file-0
+
+
+FileName: /usr/share/doc/ubuntu-desktop-minimal/changelog.gz
+SPDXID: SPDXRef-ubuntu-desktop-minimal-file-1
+FileChecksum: SHA1: b192d5b093dae8fb9ce5e842c2c3977c87ce5b30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-desktop-minimal CONTAINS SPDXRef-ubuntu-desktop-minimal-file-1
+
+
+## Extracted License
+

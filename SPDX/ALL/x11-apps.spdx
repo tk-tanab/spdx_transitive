@@ -1,0 +1,1295 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/x11-apps_7.7+8build2-e7a57be9-d6f0-5e26-a07a-0ddea51dee65
+DocumentName: x11-apps_7.7+8build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-xbitmaps http://spdx.org/spdxdocs/xbitmaps_1.1.1-2.1ubuntu1-deed7a6e-8d2f-5055-a7eb-88399184ffb9 SHA1: a03a9622d9c44ef11108d908d06ab1187c90f226
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-x11-apps
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:17:19Z
+
+
+## Package
+
+PackageName: x11-apps
+PackageVersion: 7.7+8build2
+SPDXID: SPDXRef-x11-apps
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: af93046c52de6a7a63d51c9d79846ba07eea4704
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: HPND
+PackageLicenseInfoFromFiles: HPND-sell-variant
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: MIT-open-group
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: LicenseRef-scancode-x11-dec2
+PackageLicenseInfoFromFiles: LicenseRef-scancode-xfree86-1.0
+PackageCopyrightText: <text>COPYRIGHT 1987 DIGITAL EQUIPMENT CORPORATION MAYNARD, MASSACHUSETTS
+Copyright (c) 1987 Regents of the University of California
+Copyright (c) 1987, 1988, 1989, 1991 X Consortium
+Copyright (c) 1987, 1993 The Regents of the University of California
+Copyright (c) 1987, 1994 X Consortium
+Copyright (c) 1988 X Consortium
+Copyright (c) 1989 X Consortium
+Copyright (c) 1989, 1994 X Consortium
+Copyright (c) 1991 X Consortium
+Copyright (c) 1991, 1994 X Consortium
+Copyright (c) 1993 by Hewlett-Packard Company
+Copyright (c) 1994 X Consortium
+Copyright (c) 1994-2003 The XFree86 Project, Inc.
+Copyright (c) 1999 The XFree86 Project, Inc.
+Copyright (c) 1999-2002 by The XFree86 Project, Inc.
+Copyright (c) 2000, Oracle and/or its affiliates
+Copyright (c) 2002 Manish Singh
+Copyright (c) 2003 Constantin S. Svintsoff <kostik@iclub.nsu.ru>
+Copyright (c) 2003-2004 Andreas Kohn
+Copyright (c) 2003-2004 Keith Packard
+Copyright (c) 2003-2004 Matthew Hawn
+Copyright (c) 2003-2004 Roman Divacky
+Copyright (c) 2004, Oracle and/or its affiliates
+Copyright (c) 2005-2007 Daniel Forchheimer
+Copyright (c) 2007 Paulo Cesar Pereira de Andrade
+Copyright (c) 2009, Oracle and/or its affiliates
+Copyright (c) 2011-2012 Arnaud Fontaine
+Copyright (c) 2014 Keith Packard <keithp@keithp.com>
+Copyright 1985, 1986, 1988, 1998 The Open Group
+Copyright 1987 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright 1987, 1988, 1993, 1994, 1996, 1998 The Open Group
+Copyright 1987, 1988, 1994, 1998 The Open Group
+Copyright 1988, 1989 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright 1988, 1990, 1993 1994, 1998 The Open Group
+Copyright 1988, 1993, 1998 The Open Group
+Copyright 1989, 1990, 1991, 1993, 1994, 1998 The Open Group
+Copyright 1989, 1993, 1998 The Open Group
+Copyright 1989, 1994, 1998 The Open Group
+Copyright 1990, 1994, 1998 The Open Group
+Copyright 1993, 1998 The Open Group
+Copyright 1994 Hewlett-Packard Co.
+Copyright 2004 Eric Anholt
+Copyright 2004 Roland Mainz <roland.mainz@nrubsig.org>
+Copyright 2005 Red Hat, Inc.
+Copyright 2007 Kim
+</text>
+PackageComment: <text>X applications
+ This package provides a miscellaneous assortment of X applications
+ that ship with the X Window System, including:
+  - atobm, bitmap, and bmtoa, tools for manipulating bitmap images;
+  - ico, a demo program animating polyhedrons;
+  - oclock and xclock, graphical clocks;
+  - rendercheck, a program to test render extension implementations;
+  - transset, a tool to set opacity property on a window;
+  - xbiff, a tool which tells you when you have new email;
+  - xcalc, a scientific calculator desktop accessory;
+  - xclipboard, a tool to manage cut-and-pasted text selections;
+  - xconsole, which monitors system console messages;
+  - xcursorgen, a tool for creating X cursor files from PNGs;
+  - xditview, a viewer for ditroff output;
+  - xedit, a simple text editor for X;
+  - xeyes, a demo program in which a pair of eyes track the pointer;
+  - xgc, a graphics demo;
+  - xload, a monitor for the system load average;
+  - xlogo, a demo program that displays the X logo;
+  - xmag, which magnifies parts of the X screen;
+  - xman, a manual page browser;
+  - xmore, a text pager;
+  - xwd, a utility for taking window dumps ("screenshots") of the X session;
+  - xwud, a viewer for window dumps created by xwd;
+  - Xmark, x11perf, and x11perfcomp, tools for benchmarking graphical
+    operations under the X Window System;
+ .
+ The xbiff, xcalc, xconsole, xedit and xman programs use bitmap images
+ provided by the xbitmaps package.</text>
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpng16-16
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsm6
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libx11-6
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxaw7
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxcursor1
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxext6
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxft2
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxkbfile1
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxmu6
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxmuu1
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxrender1
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxt6
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-man-db
+Relationship: SPDXRef-x11-apps DEPENDS_ON DocumentRef-xbitmaps:SPDXRef-xbitmaps
+
+
+## File
+
+FileName: /usr/share/doc/x11-apps/copyright
+SPDXID: SPDXRef-x11-apps-file-0
+FileChecksum: SHA1: d3b38d05cbe92a8288b8eb12dc270be13d45baca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-xfree86-1.0
+LicenseInfoInFile: LicenseRef-scancode-x11-dec2
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: HPND
+LicenseInfoInFile: MIT
+LicenseInfoInFile: X11
+LicenseInfoInFile: MIT-open-group
+LicenseInfoInFile: HPND-sell-variant
+FileCopyrightText: <text>Copyright 1988, 1993, 1998 The Open Group
+Copyright (c) 1987, 1994 X Consortium
+Copyright 1987 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright 2005 Red Hat, Inc.
+Copyright 1989, 1993, 1998 The Open Group
+Copyright (c) 1994 X Consortium
+Copyright (c) 2014 Keith Packard <keithp@keithp.com>
+Copyright 2004 Eric Anholt
+Copyright (c) 2003-2004 Matthew Hawn
+Copyright (c) 2003-2004 Andreas Kohn
+Copyright (c) 2003-2004 Roman Divacky
+Copyright (c) 2003-2004 Keith Packard
+Copyright (c) 2005-2007 Daniel Forchheimer
+Copyright (c) 2011-2012 Arnaud Fontaine
+Copyright 1993, 1998 The Open Group
+Copyright 1988, 1989 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright (c) 1993 by Hewlett-Packard Company
+Copyright (c) 1988 X Consortium
+Copyright (c) 1989, 1994 X Consortium
+Copyright 2005 Red Hat, Inc.
+Copyright 1989, 1994, 1998 The Open Group
+Copyright 1987, 1988, 1994, 1998 The Open Group
+Copyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright (c) 2004, Oracle and/or its affiliates
+Copyright 1990, 1994, 1998 The Open Group
+Copyright (c) 2002 Manish Singh
+Copyright (c) 1991, 1994 X Consortium
+Copyright (c) 2003 Constantin S. Svintsoff <kostik@iclub.nsu.ru>
+Copyright (c) 1987, 1993 The Regents of the University of California
+Copyright (c) 1987 Regents of the University of California
+COPYRIGHT 1987 DIGITAL EQUIPMENT CORPORATION MAYNARD, MASSACHUSETTS
+Copyright 2004 Roland Mainz <roland.mainz@nrubsig.org>
+Copyright (c) 1999-2002 by The XFree86 Project, Inc.
+Copyright (c) 2007 Paulo Cesar Pereira de Andrade
+Copyright (c) 1991 X Consortium
+Copyright (c) 1991 X Consortium
+Copyright (c) 2009, Oracle and/or its affiliates
+Copyright (c) 1989 X Consortium
+Copyright (c) 2000, Oracle and/or its affiliates
+Copyright (c) 1994-2003 The XFree86 Project, Inc.
+Copyright 1988, 1990, 1993 1994, 1998 The Open Group
+Copyright 2004 Roland Mainz <roland.mainz@nrubsig.org>
+Copyright 1989, 1990, 1991, 1993, 1994, 1998 The Open Group
+Copyright (c) 1999 The XFree86 Project, Inc.
+Copyright (c) 1987, 1988, 1989, 1991 X Consortium
+Copyright 1987, 1988, 1993, 1994, 1996, 1998 The Open Group
+Copyright 1994 Hewlett-Packard Co.
+Copyright 2007 Kim
+Copyright 1985, 1986, 1988, 1998 The Open Group
+</text>
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-0
+
+
+FileName: /etc/X11/app-defaults/Bitmap
+SPDXID: SPDXRef-x11-apps-file-1
+FileChecksum: SHA1: 009c631d2b4ac6e4d331205bff83cb576cdf2e23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-1
+
+
+FileName: /etc/X11/app-defaults/Bitmap-color
+SPDXID: SPDXRef-x11-apps-file-2
+FileChecksum: SHA1: 6ea9d5bc35a1e7d0d4dd45f8a70e2d61d02fbdf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-2
+
+
+FileName: /etc/X11/app-defaults/Bitmap-nocase
+SPDXID: SPDXRef-x11-apps-file-3
+FileChecksum: SHA1: 8acc91940c0df128981d6a2a628d56f653b6273b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-3
+
+
+FileName: /etc/X11/app-defaults/Clock-color
+SPDXID: SPDXRef-x11-apps-file-4
+FileChecksum: SHA1: c2deb990215c0e14a0c43328a7042b3671ff5123
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-4
+
+
+FileName: /etc/X11/app-defaults/XCalc
+SPDXID: SPDXRef-x11-apps-file-5
+FileChecksum: SHA1: d51e3a779540d348f74695fd25202de5c7c3db4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-5
+
+
+FileName: /etc/X11/app-defaults/XCalc-color
+SPDXID: SPDXRef-x11-apps-file-6
+FileChecksum: SHA1: 2eea19566d0b0b2eccc69a2fdbe49caa3478a08b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-6
+
+
+FileName: /etc/X11/app-defaults/XClipboard
+SPDXID: SPDXRef-x11-apps-file-7
+FileChecksum: SHA1: 57e6513f07001b617e5f1bf6f31f38b28550582f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-7
+
+
+FileName: /etc/X11/app-defaults/XClock
+SPDXID: SPDXRef-x11-apps-file-8
+FileChecksum: SHA1: 0475fd2818cd81205a770bf09dabf1aa7e9360ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-8
+
+
+FileName: /etc/X11/app-defaults/XClock-color
+SPDXID: SPDXRef-x11-apps-file-9
+FileChecksum: SHA1: 5d803d6ad3a118ddc28fc5d473780a3a8cd26e69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-9
+
+
+FileName: /etc/X11/app-defaults/XConsole
+SPDXID: SPDXRef-x11-apps-file-10
+FileChecksum: SHA1: 207851734713ce9e8de2bb178d58fcbd06c6d0f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-10
+
+
+FileName: /etc/X11/app-defaults/XLoad
+SPDXID: SPDXRef-x11-apps-file-11
+FileChecksum: SHA1: 2983a716d044cefc645739341dfedeb33aaf1b2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-11
+
+
+FileName: /etc/X11/app-defaults/XLogo
+SPDXID: SPDXRef-x11-apps-file-12
+FileChecksum: SHA1: 3a950d5b530f4ff2f622f2773870159d7bcbbda8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-12
+
+
+FileName: /etc/X11/app-defaults/XLogo-color
+SPDXID: SPDXRef-x11-apps-file-13
+FileChecksum: SHA1: 73733db8d05a852fcdc883fc8e5be0ae367a4bb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-13
+
+
+FileName: /etc/X11/app-defaults/XMore
+SPDXID: SPDXRef-x11-apps-file-14
+FileChecksum: SHA1: 2e16416409512a64c75fef8d36283ffffe1b3b70
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-14
+
+
+FileName: /etc/X11/app-defaults/Xditview
+SPDXID: SPDXRef-x11-apps-file-15
+FileChecksum: SHA1: cf64f08e1385072cda76298bb46d0d6f26fa1787
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-15
+
+
+FileName: /etc/X11/app-defaults/Xditview-chrtr
+SPDXID: SPDXRef-x11-apps-file-16
+FileChecksum: SHA1: 4c68f4795563791e1dd443acdc01e78c469d0120
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-16
+
+
+FileName: /etc/X11/app-defaults/Xedit
+SPDXID: SPDXRef-x11-apps-file-17
+FileChecksum: SHA1: e396b5f43ea78928a4ec56fcaed5c93774748cc3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-17
+
+
+FileName: /etc/X11/app-defaults/Xedit-color
+SPDXID: SPDXRef-x11-apps-file-18
+FileChecksum: SHA1: 34cbf31c3e4d49889380d2f2cd0f0a63e279a5ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-18
+
+
+FileName: /etc/X11/app-defaults/Xgc
+SPDXID: SPDXRef-x11-apps-file-19
+FileChecksum: SHA1: 031d73803f4ff2ee347decec0ff9eb02c42aa7c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-19
+
+
+FileName: /etc/X11/app-defaults/Xgc-color
+SPDXID: SPDXRef-x11-apps-file-20
+FileChecksum: SHA1: 3595dd0c8be603eaf349b49c3d6632c4d0b16bec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-20
+
+
+FileName: /etc/X11/app-defaults/Xmag
+SPDXID: SPDXRef-x11-apps-file-21
+FileChecksum: SHA1: 01b66fd1f018e9b161c572ba8fbbbf3bac92c9f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-21
+
+
+FileName: /etc/X11/app-defaults/Xman
+SPDXID: SPDXRef-x11-apps-file-22
+FileChecksum: SHA1: 6d5f24c65e2c5cc8564cf73934ae36d41a574e12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-22
+
+
+FileName: /usr/bin/atobm
+SPDXID: SPDXRef-x11-apps-file-23
+FileChecksum: SHA1: 44bdb28123c05bcf08e7a539d568705cca238c1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-23
+
+
+FileName: /usr/bin/bitmap
+SPDXID: SPDXRef-x11-apps-file-24
+FileChecksum: SHA1: e9bbb7043a587c372aecf5e33457612cc77be0ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-24
+
+
+FileName: /usr/bin/bmtoa
+SPDXID: SPDXRef-x11-apps-file-25
+FileChecksum: SHA1: b1af2c6a273a905f21c53381c0b67af8ed1c8db8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-25
+
+
+FileName: /usr/bin/ico
+SPDXID: SPDXRef-x11-apps-file-26
+FileChecksum: SHA1: f8512d8fe30cbfbf2400a258865d4e3f3f75f73c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-26
+
+
+FileName: /usr/bin/oclock
+SPDXID: SPDXRef-x11-apps-file-27
+FileChecksum: SHA1: 01ee13e9ffccd98a687f9b8e405d132a17fbef3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-27
+
+
+FileName: /usr/bin/rendercheck
+SPDXID: SPDXRef-x11-apps-file-28
+FileChecksum: SHA1: 7b2ca20ea9d1e1e608558e2fb30ac9f3ee9b194c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-28
+
+
+FileName: /usr/bin/transset
+SPDXID: SPDXRef-x11-apps-file-29
+FileChecksum: SHA1: fc08fa444b2f412253faff3be7b8247aeb4ca493
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-29
+
+
+FileName: /usr/bin/x11perf
+SPDXID: SPDXRef-x11-apps-file-30
+FileChecksum: SHA1: ef8844f752203eb6614116b752a1078bfc4ae553
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-30
+
+
+FileName: /usr/bin/x11perfcomp
+SPDXID: SPDXRef-x11-apps-file-31
+FileChecksum: SHA1: aa721a72f638b6f2f05d75386bf6b82f69b3ee35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-31
+
+
+FileName: /usr/bin/xbiff
+SPDXID: SPDXRef-x11-apps-file-32
+FileChecksum: SHA1: f87e6b764728ace42d46d9a5cdf9fa2317c2e7a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-32
+
+
+FileName: /usr/bin/xcalc
+SPDXID: SPDXRef-x11-apps-file-33
+FileChecksum: SHA1: 859d3ac5b3c70ee4eacb33d19de27cbaffa2a357
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-33
+
+
+FileName: /usr/bin/xclipboard
+SPDXID: SPDXRef-x11-apps-file-34
+FileChecksum: SHA1: fe5e73915676d1111965ef56a270e1ef996454e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-34
+
+
+FileName: /usr/bin/xclock
+SPDXID: SPDXRef-x11-apps-file-35
+FileChecksum: SHA1: cd56187716c6d8afce110a85e5ecfd26aef5fcce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-35
+
+
+FileName: /usr/bin/xconsole
+SPDXID: SPDXRef-x11-apps-file-36
+FileChecksum: SHA1: df7183e5fa90f58fc3872abc8e8eb5f2e64e55c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-36
+
+
+FileName: /usr/bin/xcursorgen
+SPDXID: SPDXRef-x11-apps-file-37
+FileChecksum: SHA1: 6e057e90f234490f3f71f5a1305da13807c0d084
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-37
+
+
+FileName: /usr/bin/xcutsel
+SPDXID: SPDXRef-x11-apps-file-38
+FileChecksum: SHA1: 27c18748a43817138d542d33ca6bec1fb5a07d63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-38
+
+
+FileName: /usr/bin/xditview
+SPDXID: SPDXRef-x11-apps-file-39
+FileChecksum: SHA1: af900d7797bfea7db07ca4787f99ba36d14e9fbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-39
+
+
+FileName: /usr/bin/xedit
+SPDXID: SPDXRef-x11-apps-file-40
+FileChecksum: SHA1: 41a10b3de0d5f90ed29d7db259a91b8cb9bc7abb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-40
+
+
+FileName: /usr/bin/xeyes
+SPDXID: SPDXRef-x11-apps-file-41
+FileChecksum: SHA1: 1ed6cf0ab39f2132751578e2bfdded8333fef880
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-41
+
+
+FileName: /usr/bin/xgc
+SPDXID: SPDXRef-x11-apps-file-42
+FileChecksum: SHA1: c2ad7685eb34b061cf9bd697d42101c6c538a75c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-42
+
+
+FileName: /usr/bin/xload
+SPDXID: SPDXRef-x11-apps-file-43
+FileChecksum: SHA1: bd358a22f5bf89e0392a6fdcba6ba2c2db461216
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-43
+
+
+FileName: /usr/bin/xlogo
+SPDXID: SPDXRef-x11-apps-file-44
+FileChecksum: SHA1: 09a47f1c758db48c30aa290f898a047b0d3fe793
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-44
+
+
+FileName: /usr/bin/xmag
+SPDXID: SPDXRef-x11-apps-file-45
+FileChecksum: SHA1: cdf4ee552e49e3608b3375d492f84703c19bad17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-45
+
+
+FileName: /usr/bin/xman
+SPDXID: SPDXRef-x11-apps-file-46
+FileChecksum: SHA1: b23274155e25fee2dd3817a1f1521654063b07a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-46
+
+
+FileName: /usr/bin/xmore
+SPDXID: SPDXRef-x11-apps-file-47
+FileChecksum: SHA1: 0a7e6289c9c249ebc127006c2334972fd9bd0aab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-47
+
+
+FileName: /usr/bin/xwd
+SPDXID: SPDXRef-x11-apps-file-48
+FileChecksum: SHA1: 68efacbaa12ba26707bb1400e48ddbd288bed580
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-48
+
+
+FileName: /usr/bin/xwud
+SPDXID: SPDXRef-x11-apps-file-49
+FileChecksum: SHA1: 4983380fc342672e9fc332dfcebd4bf955500c31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-49
+
+
+FileName: /usr/include/X11/bitmaps/Dashes
+SPDXID: SPDXRef-x11-apps-file-50
+FileChecksum: SHA1: 18d8a3f8d6c019666f966f4912063983c49ba484
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-50
+
+
+FileName: /usr/include/X11/bitmaps/Down
+SPDXID: SPDXRef-x11-apps-file-51
+FileChecksum: SHA1: bcd3c9a3913223524511468583db3729c23e564d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-51
+
+
+FileName: /usr/include/X11/bitmaps/Excl
+SPDXID: SPDXRef-x11-apps-file-52
+FileChecksum: SHA1: 3ae92459017af7f6a01ff4c670a5571aae52d00b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-52
+
+
+FileName: /usr/include/X11/bitmaps/FlipHoriz
+SPDXID: SPDXRef-x11-apps-file-53
+FileChecksum: SHA1: cc913ac7a80fe52b90f3ee3f31ddb78ac2b6f2bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-53
+
+
+FileName: /usr/include/X11/bitmaps/FlipVert
+SPDXID: SPDXRef-x11-apps-file-54
+FileChecksum: SHA1: b0700bc15e71aa233ff377836a4c48f51e72fae6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-54
+
+
+FileName: /usr/include/X11/bitmaps/Fold
+SPDXID: SPDXRef-x11-apps-file-55
+FileChecksum: SHA1: a0deb82ad2f54b10f9957882d656b9df52b956a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-55
+
+
+FileName: /usr/include/X11/bitmaps/Left
+SPDXID: SPDXRef-x11-apps-file-56
+FileChecksum: SHA1: 8002908a128b3ea8b8f2f6ddd48872369a74ac1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-56
+
+
+FileName: /usr/include/X11/bitmaps/Right
+SPDXID: SPDXRef-x11-apps-file-57
+FileChecksum: SHA1: a3562be45c2343c777940ceb4299e27a5ee702e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-57
+
+
+FileName: /usr/include/X11/bitmaps/RotateLeft
+SPDXID: SPDXRef-x11-apps-file-58
+FileChecksum: SHA1: 24060df6a6024cd9e47333e3101fe5b203f2c44f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-58
+
+
+FileName: /usr/include/X11/bitmaps/RotateRight
+SPDXID: SPDXRef-x11-apps-file-59
+FileChecksum: SHA1: a61da76cfc1331470b59fa1569f989779c742083
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-59
+
+
+FileName: /usr/include/X11/bitmaps/Stipple
+SPDXID: SPDXRef-x11-apps-file-60
+FileChecksum: SHA1: 21fe54db7b0a676063913eb85c42c70d771d5790
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-60
+
+
+FileName: /usr/include/X11/bitmaps/Term
+SPDXID: SPDXRef-x11-apps-file-61
+FileChecksum: SHA1: fb45fd9e83ea63c0fa63e8e59b2c8196fca0cdd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-61
+
+
+FileName: /usr/include/X11/bitmaps/Up
+SPDXID: SPDXRef-x11-apps-file-62
+FileChecksum: SHA1: b2d471b30ee48907f8426ff5af25535c88fa2804
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-62
+
+
+FileName: /usr/include/X11/bitmaps/ldblarrow
+SPDXID: SPDXRef-x11-apps-file-63
+FileChecksum: SHA1: 481ef4de7b874d3cf712704db186d56cf6a680d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-63
+
+
+FileName: /usr/include/X11/bitmaps/rdblarrow
+SPDXID: SPDXRef-x11-apps-file-64
+FileChecksum: SHA1: bfe366fa36b43b22b271881b366bc9dc135c344a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-64
+
+
+FileName: /usr/lib/X11/x11perfcomp/Xmark
+SPDXID: SPDXRef-x11-apps-file-65
+FileChecksum: SHA1: 56f86194ddffdbc69b9da7fb668a203e302501f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-65
+
+
+FileName: /usr/lib/X11/x11perfcomp/fillblnk
+SPDXID: SPDXRef-x11-apps-file-66
+FileChecksum: SHA1: c5da9b7ca9ee64fd307bac29442e150d6f57b7cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-66
+
+
+FileName: /usr/lib/X11/x11perfcomp/perfboth
+SPDXID: SPDXRef-x11-apps-file-67
+FileChecksum: SHA1: c4a1ee349345c8b4e54e4d5bff1073b3869eeb9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-67
+
+
+FileName: /usr/lib/X11/x11perfcomp/perfratio
+SPDXID: SPDXRef-x11-apps-file-68
+FileChecksum: SHA1: b99d586eab4f58f8f854d185726a0c9036d15686
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-68
+
+
+FileName: /usr/lib/X11/xedit/lisp/indent.lsp
+SPDXID: SPDXRef-x11-apps-file-69
+FileChecksum: SHA1: 30f169b4d43e5ad8d454372b08b019c132722237
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-69
+
+
+FileName: /usr/lib/X11/xedit/lisp/lisp.lsp
+SPDXID: SPDXRef-x11-apps-file-70
+FileChecksum: SHA1: 801109dab7bbb28bc01e618623b38ea2769c500a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-70
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/auto.lsp
+SPDXID: SPDXRef-x11-apps-file-71
+FileChecksum: SHA1: 364976189abdce4dfc1cacc311cdf54237a0c930
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-71
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/c.lsp
+SPDXID: SPDXRef-x11-apps-file-72
+FileChecksum: SHA1: 9b93cafacc7da7f595a8822bc809a023f44a326f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-72
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/html.lsp
+SPDXID: SPDXRef-x11-apps-file-73
+FileChecksum: SHA1: ae79028bf58368d01225f168c9c0786f5de2f0f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-73
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/imake.lsp
+SPDXID: SPDXRef-x11-apps-file-74
+FileChecksum: SHA1: 293ffbf27aa4e27f48ff63c2624f1ec8da7eab6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-74
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/lisp.lsp
+SPDXID: SPDXRef-x11-apps-file-75
+FileChecksum: SHA1: f4e2e6a6700dd9a20e9d6ce439e49a0d1a093e84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-75
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/make.lsp
+SPDXID: SPDXRef-x11-apps-file-76
+FileChecksum: SHA1: 4afde00d34613df6655ded67e2de52f89d32e45d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-76
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/man.lsp
+SPDXID: SPDXRef-x11-apps-file-77
+FileChecksum: SHA1: fd9f02b05dcf92a72c485c4e5e399eea1122d838
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-77
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/patch.lsp
+SPDXID: SPDXRef-x11-apps-file-78
+FileChecksum: SHA1: bf05a28a64854c11a8dcc801130ad2e10d8fb438
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-78
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/perl.lsp
+SPDXID: SPDXRef-x11-apps-file-79
+FileChecksum: SHA1: cd4fcb473efa48f53a5d1cd44d6d22a360f39b69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-79
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/python.lsp
+SPDXID: SPDXRef-x11-apps-file-80
+FileChecksum: SHA1: 2b621fb207d523cd3b3c13f8d07eec2072693882
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-80
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/rpm.lsp
+SPDXID: SPDXRef-x11-apps-file-81
+FileChecksum: SHA1: 94b024e7c6269e4d819a4e9e0e46d087ae20ee6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-81
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/sgml.lsp
+SPDXID: SPDXRef-x11-apps-file-82
+FileChecksum: SHA1: 4a89f80e7ed5213217c9c3da27902d6a293e6da2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-82
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/sh.lsp
+SPDXID: SPDXRef-x11-apps-file-83
+FileChecksum: SHA1: 16eb87ebaaff622e052bb141768fb45efecbce36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-83
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/xconf.lsp
+SPDXID: SPDXRef-x11-apps-file-84
+FileChecksum: SHA1: c58b2a8610797b3d014ce7937a56b91caecba440
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-84
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/xlog.lsp
+SPDXID: SPDXRef-x11-apps-file-85
+FileChecksum: SHA1: 8559137267720713404f6e56feb237072096f2d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-85
+
+
+FileName: /usr/lib/X11/xedit/lisp/progmodes/xrdb.lsp
+SPDXID: SPDXRef-x11-apps-file-86
+FileChecksum: SHA1: 50be734b2635f7d9ac977013c4e82d63d46b6585
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-86
+
+
+FileName: /usr/lib/X11/xedit/lisp/syntax.lsp
+SPDXID: SPDXRef-x11-apps-file-87
+FileChecksum: SHA1: 3dfacb417a984b4ac53d8b9544e72f779c1cfe2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-87
+
+
+FileName: /usr/lib/X11/xedit/lisp/xedit.lsp
+SPDXID: SPDXRef-x11-apps-file-88
+FileChecksum: SHA1: 4246bc3fe70a4e82357460b169d78e48c10d76b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-88
+
+
+FileName: /usr/share/X11/xman.help
+SPDXID: SPDXRef-x11-apps-file-89
+FileChecksum: SHA1: 04cc4dd9c76b2e455500b669de423386664f04b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-89
+
+
+FileName: /usr/share/doc/x11-apps/changelog.gz
+SPDXID: SPDXRef-x11-apps-file-90
+FileChecksum: SHA1: 7cae31e184fe5b76ebc2d478571c05079c2ba3e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-90
+
+
+FileName: /usr/share/man/man1/Xmark.1.gz
+SPDXID: SPDXRef-x11-apps-file-91
+FileChecksum: SHA1: 450aab6b4d04546eab636518b124aa497f30875e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-91
+
+
+FileName: /usr/share/man/man1/bitmap.1.gz
+SPDXID: SPDXRef-x11-apps-file-92
+FileChecksum: SHA1: fe0ed80abb951d72d846c8adf3789d7f6b59b39c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-92
+
+
+FileName: /usr/share/man/man1/ico.1.gz
+SPDXID: SPDXRef-x11-apps-file-93
+FileChecksum: SHA1: f4f65af7ccb1505249a537f0b442ea56c6d08cc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-93
+
+
+FileName: /usr/share/man/man1/oclock.1.gz
+SPDXID: SPDXRef-x11-apps-file-94
+FileChecksum: SHA1: 3c4d4b0ed7e6915ff721a016d63e1497c7318bb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-94
+
+
+FileName: /usr/share/man/man1/rendercheck.1.gz
+SPDXID: SPDXRef-x11-apps-file-95
+FileChecksum: SHA1: 630d0b34486c9a2baa2a0e55be3b9b85269740ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-95
+
+
+FileName: /usr/share/man/man1/transset.1.gz
+SPDXID: SPDXRef-x11-apps-file-96
+FileChecksum: SHA1: d97ce3a60e3819410203f92dc5235ee9fcdcecf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-96
+
+
+FileName: /usr/share/man/man1/x11perf.1.gz
+SPDXID: SPDXRef-x11-apps-file-97
+FileChecksum: SHA1: 3637dbebe6ae41bbc16f1e52c2da757bcc8b773d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-97
+
+
+FileName: /usr/share/man/man1/x11perfcomp.1.gz
+SPDXID: SPDXRef-x11-apps-file-98
+FileChecksum: SHA1: 670834c8494178ef9d7857faeaa99d1979497449
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-98
+
+
+FileName: /usr/share/man/man1/xbiff.1.gz
+SPDXID: SPDXRef-x11-apps-file-99
+FileChecksum: SHA1: c759ef7b9dfd94c2a28b6b21b9c4d5ee3089070c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-99
+
+
+FileName: /usr/share/man/man1/xcalc.1.gz
+SPDXID: SPDXRef-x11-apps-file-100
+FileChecksum: SHA1: 5d6fcc64eec56b98559b5aed2f34c873f0459783
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-100
+
+
+FileName: /usr/share/man/man1/xclipboard.1.gz
+SPDXID: SPDXRef-x11-apps-file-101
+FileChecksum: SHA1: f124dd2a36a0b0c886b73227221b038dc3e1124a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-101
+
+
+FileName: /usr/share/man/man1/xclock.1.gz
+SPDXID: SPDXRef-x11-apps-file-102
+FileChecksum: SHA1: 7f502eea0932d6c0b697affaacb3e7eca23bef23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-102
+
+
+FileName: /usr/share/man/man1/xconsole.1.gz
+SPDXID: SPDXRef-x11-apps-file-103
+FileChecksum: SHA1: 8a9d1f3c835e1d0dba344ff75eddf8ef4d8efaf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-103
+
+
+FileName: /usr/share/man/man1/xcursorgen.1.gz
+SPDXID: SPDXRef-x11-apps-file-104
+FileChecksum: SHA1: a6a6118a63907bb3d24ff3fb7293d294f6fceb81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-104
+
+
+FileName: /usr/share/man/man1/xcutsel.1.gz
+SPDXID: SPDXRef-x11-apps-file-105
+FileChecksum: SHA1: 95a976266c48bab3aac46e3fbcb846322b55a635
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-105
+
+
+FileName: /usr/share/man/man1/xditview.1.gz
+SPDXID: SPDXRef-x11-apps-file-106
+FileChecksum: SHA1: 8b18a67919a2d081075dfb1ef9aaeec999baf07f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-106
+
+
+FileName: /usr/share/man/man1/xedit.1.gz
+SPDXID: SPDXRef-x11-apps-file-107
+FileChecksum: SHA1: 982dca41653d03aef1df874f3d569f1ba789bbc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-107
+
+
+FileName: /usr/share/man/man1/xeyes.1.gz
+SPDXID: SPDXRef-x11-apps-file-108
+FileChecksum: SHA1: 38e309bdbf3a079c6c24612edca6c224925b1744
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-108
+
+
+FileName: /usr/share/man/man1/xgc.1.gz
+SPDXID: SPDXRef-x11-apps-file-109
+FileChecksum: SHA1: c3eb018a6aa13794d045ac4e75fe6a0060e5b486
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-109
+
+
+FileName: /usr/share/man/man1/xload.1.gz
+SPDXID: SPDXRef-x11-apps-file-110
+FileChecksum: SHA1: 45f13de2cc076e6df80acb26306f270627f37c57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-110
+
+
+FileName: /usr/share/man/man1/xlogo.1.gz
+SPDXID: SPDXRef-x11-apps-file-111
+FileChecksum: SHA1: a0a71d4818bdb44908fe49ad1f0599de0627804a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-111
+
+
+FileName: /usr/share/man/man1/xmag.1.gz
+SPDXID: SPDXRef-x11-apps-file-112
+FileChecksum: SHA1: 81bd7be2809567e2b287d7eda60c415d945499b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-112
+
+
+FileName: /usr/share/man/man1/xman.1.gz
+SPDXID: SPDXRef-x11-apps-file-113
+FileChecksum: SHA1: e417cc287f595a3917be091ddc4f36dfafb374d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-113
+
+
+FileName: /usr/share/man/man1/xmore.1.gz
+SPDXID: SPDXRef-x11-apps-file-114
+FileChecksum: SHA1: 8d91c8ab83ef0043afa52c63efe04c8a279e8a14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-114
+
+
+FileName: /usr/share/man/man1/xwd.1.gz
+SPDXID: SPDXRef-x11-apps-file-115
+FileChecksum: SHA1: 0e112f0069ccb8428cd8ce1b4180d3c14e5ce405
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-115
+
+
+FileName: /usr/share/man/man1/xwud.1.gz
+SPDXID: SPDXRef-x11-apps-file-116
+FileChecksum: SHA1: 00cfc20e398e280b7bf4cce89925a5164a34bc9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-116
+
+
+FileName: /usr/share/menu/x11-apps
+SPDXID: SPDXRef-x11-apps-file-117
+FileChecksum: SHA1: 3c0f4bf924acc98c36df1300c1ef66029d1ef2c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-117
+
+
+FileName: /usr/share/man/man1/atobm.1.gz
+SPDXID: SPDXRef-x11-apps-file-118
+FileChecksum: SHA1: fe0ed80abb951d72d846c8adf3789d7f6b59b39c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-118
+
+
+FileName: /usr/share/man/man1/bmtoa.1.gz
+SPDXID: SPDXRef-x11-apps-file-119
+FileChecksum: SHA1: fe0ed80abb951d72d846c8adf3789d7f6b59b39c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-apps CONTAINS SPDXRef-x11-apps-file-119
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-x11-dec2
+LicenseName: X11-Style (DEC 2)
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-dec2.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-dec2.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-xfree86-1.0
+LicenseName: XFree86 License 1.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/xfree86-1.0.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/xfree86-1.0.yml
+</text>
+
+

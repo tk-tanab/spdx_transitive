@@ -1,0 +1,1235 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/notion_4.0.2+dfsg-6-1d1ef7db-399d-59ba-8ce3-9d28a12f5fc5
+DocumentName: notion_4.0.2+dfsg-6
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libc6.Cycle http://spdx.org/spdxdocs/libc6_2.35-0ubuntu3.1-81aed138-ef05-5528-8db8-5cca19557558 SHA1: a6a1cac1e1bc7cb4b3cf61f712e743e93c0bf08d
+ExternalDocumentRef: DocumentRef-menu http://spdx.org/spdxdocs/menu_2.1.47ubuntu4-ae408414-9e98-5568-8dd6-962968007fd2 SHA1: 60c1ca38b428816e8851bd9cd56c8b565cf51c1b
+ExternalDocumentRef: DocumentRef-liblua5.3-0 http://spdx.org/spdxdocs/liblua5.3-0_5.3.6-1build1-74508a11-8e22-5777-a966-0afdbc52bbd3 SHA1: b1de87a16f9b1146ce1a5ebd7b9584f9ebe3c6e2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-notion
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:12:11Z
+
+
+## Package
+
+PackageName: notion
+PackageVersion: 4.0.2+dfsg-6
+SPDXID: SPDXRef-notion
+PackageHomePage: https://www.notionwm.net
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 22cd2be625aee988cb23020b23daf6318d2e56c7
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Artistic-1.0
+PackageLicenseInfoFromFiles: Artistic-1.0-Perl
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: ClArtistic
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: NTP
+PackageLicenseInfoFromFiles: LicenseRef-scancode-frontier-1.0
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain-disclaimer
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1991 Massachusetts Institute of Technology
+Copyright 1991,1997 Digital Equipment Corporation
+Copyright 1992 Simmule Turner, Rich Salz
+Copyright 1999 Mark Martinec
+Copyright 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2000 James S. Plank <plank@cs.utk.edu> 2004 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2001-2002 Sean Shaleh Perry <shaleh@debian.org> 1997-2000 Brad Hughes <bhughes@tcac.net> 2013 The Notion team
+Copyright 2002 Lukas Schroeder 2003-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2003 Tom Payne 2003 Per Olofsson 2004-2009 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2003-2005 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2004 Ragnar Rova 2005-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2004 Relu Patrascu <ikoflexer@gmail.com>
+Copyright 2004 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2004-2005 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2004-2007 Miroslav Kure <kurem@debian.cz>
+Copyright 2005 Antti Vahakotamaki
+Copyright 2005 Brett Parker <iDunno@sommitrealweird.co.uk>
+Copyright 2005 Jari Eskelinen <jari.eskelinen@iki.fi>
+Copyright 2005 Martin F. Krafft <madduck@madduck.net>
+Copyright 2005 Reuben Thomas <rrt@sc3d.org>
+Copyright 2005 Russell A. Jackson
+Copyright 2005-2007 Matthieu MOY <Matthieu.Moy@imag.fr> 2005-2007 David Hansen <david.hansen@physik.fu-berlin.de> 2005-2007 Tyranix <tyranix@gmail.com> 2005-2007 Adam Di Carlo <aph@debian.org>
+Copyright 2005-2011 Karl J. Runge <runge@karlrunge.com>
+Copyright 2006 Andrea Rossato <arossato@istitutocolli.org>
+Copyright 2006 Andrea Rossato <arossato@istitutocolli.org> 2008 Sergey Kozhemyakin <luc@server.by>
+Copyright 2006 Greg Steuck 2006 Darrin Chandler <dwchandler@stilyagin.com>
+Copyright 2006 Hendrik Iben <hiben@tzi.de>
+Copyright 2006 Mario Garcia H. <drosophila@nmental.com>
+Copyright 2006 Matthieu Moy <matthieu.moy@imag.fr> 2006 Etan Reisner <deryni@gmail.com>
+Copyright 2006 Sergey Redin 2011 Etan Reisner
+Copyright 2006 Tibor Csogor <tibi@tiborius.net>
+Copyright 2006 Tuomo Valkonen <tuomov@iki.fi> 2007 Etan Reisner
+Copyright 2007 Etan Reisner <deryni@gmail.com>
+Copyright 2007 Tibor Csogor <tibi@tiborius.net>
+Copyright 2010-2020 The Notion Team 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2011 Arnout Engelen <arnouten@bzzt.net> 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2011 M Rawash <mrawash@gmail.com>
+Copyright 2011 The Notion Team 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2011 Tomas Ebenlendr <ebik@ucw.cz> Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2012 Philipp Hartwig <ph@phhart.de>
+Copyright 2012 The Notion Team
+Copyright 2013 The Notion Team
+Copyright 2013 The Notion Team 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2013 The Notion Team 2005-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright Benjamin Sigonneau
+Copyright Dan Weiner <dbw@uchicago.edu>
+Copyright Greg Steuck Gerald Young <ion3script@gwy.org>
+Copyright Guillermo Bonvehi <gbonvehi@gmail.com>
+Copyright Per Olofsson <pelle@dsv.su.se>
+Copyright Peter Randeu <ranpet@sbox.tugraz.at>
+Copyright Raffaello Pelagalli <raffa@niah.org>
+Copyright Randall Wald <randy@rwald.com>
+Copyright Rene van Bevern <rvb@pro-linux.de>
+Copyright Rene van Bevern <rvb@pro-linux.de> Etan Reisner <deryni@gmail.com>
+Copyright Sadrul Habib Chowdhury <imadil@gmail.com>
+Copyright Sadrul Habib Chowdhury <imadil@gmail.com> Canaan Hadley-Voth
+Copyright Sadrul Habib Chowdhury <imadil@gmail.com> Henning Hasemann <hhasemann@web.de>
+Copyright Sergey Redin <sergey@redin.info>
+Copyright Thomas Themel <themel0r@wannabehacker.com> Tomas Ebenlendr <ebik@ucw.cz>
+Copyright Tommi Virtanen <tv@debian.org> Per Olofsson <pelle@dsv.su.se> Ben Hutchings <benh@debian.org> 2011-2014 Arnout Engelen <arnouten@bzzt.net> 2011-2014 Philipp Hartwig <ph@phhart.de> 2015-2017 Dima Kogan <dkogan@debian.org>
+</text>
+PackageComment: <text>tiling tabbed window manager designed for keyboard users
+ Notion divides the screen into tiles and places windows in these tiles
+ by default.  Each tile has a set of tabs for the windows within it.
+ It also allows windows to be made 'floating' and placed freely.  Notion
+ can be controlled through the keyboard alone or together with a mouse.
+ .
+ Notion can be configured and extended using the Lua language.  It also
+ supports extension modules written in C.</text>
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libice6
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-liblua5.3-0:SPDXRef-liblua5.3-0
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libreadline8
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libsm6
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libx11-6
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libxext6
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libxft2
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libxinerama1
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libxrandr2
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-gnome-terminal
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-x11-utils
+Relationship: SPDXRef-notion DEPENDS_ON DocumentRef-menu:SPDXRef-menu
+
+
+## File
+
+FileName: /usr/share/doc/notion/copyright
+SPDXID: SPDXRef-notion-file-0
+FileChecksum: SHA1: 485428df96be6873bd787a186944f2c5a6f010b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT
+LicenseInfoInFile: NTP
+LicenseInfoInFile: ClArtistic
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: Artistic-1.0-Perl
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: Artistic-1.0
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-scancode-public-domain-disclaimer
+LicenseInfoInFile: LicenseRef-scancode-frontier-1.0
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text>Copyright 2010-2020 The Notion Team 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright Tommi Virtanen <tv@debian.org> Per Olofsson <pelle@dsv.su.se> Ben Hutchings <benh@debian.org> 2011-2014 Arnout Engelen <arnouten@bzzt.net> 2011-2014 Philipp Hartwig <ph@phhart.de> 2015-2017 Dima Kogan <dkogan@debian.org>
+Copyright 2005-2007 Matthieu MOY <Matthieu.Moy@imag.fr> 2005-2007 David Hansen <david.hansen@physik.fu-berlin.de> 2005-2007 Tyranix <tyranix@gmail.com> 2005-2007 Adam Di Carlo <aph@debian.org>
+Copyright 2011 M Rawash <mrawash@gmail.com>
+Copyright 2013 The Notion Team 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2013 The Notion Team 2005-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2011 The Notion Team 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2013 The Notion Team
+Copyright 2012 The Notion Team
+Copyright Thomas Themel <themel0r@wannabehacker.com> Tomas Ebenlendr <ebik@ucw.cz>
+Copyright 2004-2005 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2003 Tom Payne 2003 Per Olofsson 2004-2009 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 1992 Simmule Turner, Rich Salz
+Copyright 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2000 James S. Plank <plank@cs.utk.edu> 2004 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2003-2005 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 1991 Massachusetts Institute of Technology
+Copyright 1999 Mark Martinec
+Copyright 2001-2002 Sean Shaleh Perry <shaleh@debian.org> 1997-2000 Brad Hughes <bhughes@tcac.net> 2013 The Notion team
+Copyright 2002 Lukas Schroeder 2003-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2006 Sergey Redin 2011 Etan Reisner
+Copyright 2007 Etan Reisner <deryni@gmail.com>
+Copyright 2005 Reuben Thomas <rrt@sc3d.org>
+Copyright 2006 Andrea Rossato <arossato@istitutocolli.org>
+Copyright 2005 Martin F. Krafft <madduck@madduck.net>
+Copyright Sergey Redin <sergey@redin.info>
+Copyright 2006 Tuomo Valkonen <tuomov@iki.fi> 2007 Etan Reisner
+Copyright 2005 Antti Vahakotamaki
+Copyright 2004 Relu Patrascu <ikoflexer@gmail.com>
+Copyright 2006 Mario Garcia H. <drosophila@nmental.com>
+Copyright 2005 Russell A. Jackson
+Copyright 2005 Jari Eskelinen <jari.eskelinen@iki.fi>
+Copyright 2005 Brett Parker <iDunno@sommitrealweird.co.uk>
+Copyright 2006 Andrea Rossato <arossato@istitutocolli.org> 2008 Sergey Kozhemyakin <luc@server.by>
+Copyright Dan Weiner <dbw@uchicago.edu>
+Copyright 2012 Philipp Hartwig <ph@phhart.de>
+Copyright Per Olofsson <pelle@dsv.su.se>
+Copyright Sadrul Habib Chowdhury <imadil@gmail.com>
+Copyright Rene van Bevern <rvb@pro-linux.de>
+Copyright 2006 Matthieu Moy <matthieu.moy@imag.fr> 2006 Etan Reisner <deryni@gmail.com>
+Copyright Sadrul Habib Chowdhury <imadil@gmail.com> Henning Hasemann <hhasemann@web.de>
+Copyright Sadrul Habib Chowdhury <imadil@gmail.com> Canaan Hadley-Voth
+Copyright Rene van Bevern <rvb@pro-linux.de> Etan Reisner <deryni@gmail.com>
+Copyright 2006 Greg Steuck 2006 Darrin Chandler <dwchandler@stilyagin.com>
+Copyright Greg Steuck Gerald Young <ion3script@gwy.org>
+Copyright Randall Wald <randy@rwald.com>
+Copyright 2007 Tibor Csogor <tibi@tiborius.net>
+Copyright 2006 Tibor Csogor <tibi@tiborius.net>
+Copyright 2006 Hendrik Iben <hiben@tzi.de>
+Copyright Guillermo Bonvehi <gbonvehi@gmail.com>
+Copyright Raffaello Pelagalli <raffa@niah.org>
+Copyright Benjamin Sigonneau
+Copyright Peter Randeu <ranpet@sbox.tugraz.at>
+Copyright 2011 Arnout Engelen <arnouten@bzzt.net> 1999-2007 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2011 Tomas Ebenlendr <ebik@ucw.cz> Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2004-2007 Miroslav Kure <kurem@debian.cz>
+Copyright 2004 Tuomo Valkonen <tuomov@iki.fi>
+Copyright 2005-2011 Karl J. Runge <runge@karlrunge.com>
+Copyright 1991,1997 Digital Equipment Corporation
+Copyright 2004 Ragnar Rova 2005-2007 Tuomo Valkonen <tuomov@iki.fi>
+</text>
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-0
+
+
+FileName: /etc/X11/notion/cfg_bindings.lua
+SPDXID: SPDXRef-notion-file-1
+FileChecksum: SHA1: b1afc030b4b0b9fc2de45d43860bb224eaec6c7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-1
+
+
+FileName: /etc/X11/notion/cfg_defaults.lua
+SPDXID: SPDXRef-notion-file-2
+FileChecksum: SHA1: 8564bfc2b35d38f60803a1fd4aa737ac707a589b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-2
+
+
+FileName: /etc/X11/notion/cfg_dock.lua
+SPDXID: SPDXRef-notion-file-3
+FileChecksum: SHA1: 92a798b24bd488536470c9856a0c36599032be11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-3
+
+
+FileName: /etc/X11/notion/cfg_kludges.lua
+SPDXID: SPDXRef-notion-file-4
+FileChecksum: SHA1: b6b6f273d18c9ac2564eb2447febaa1c2276330f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-4
+
+
+FileName: /etc/X11/notion/cfg_layouts.lua
+SPDXID: SPDXRef-notion-file-5
+FileChecksum: SHA1: 704ccff33c8e0e7fe495386f907b316e923d77cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-5
+
+
+FileName: /etc/X11/notion/cfg_menu.lua
+SPDXID: SPDXRef-notion-file-6
+FileChecksum: SHA1: c23fc615c0870af07cac83210624e8dea0a24f36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-6
+
+
+FileName: /etc/X11/notion/cfg_notion.lua
+SPDXID: SPDXRef-notion-file-7
+FileChecksum: SHA1: c4ec6a495d7a4d587dc88e5bddc9cdd3ddcb8ddb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-7
+
+
+FileName: /etc/X11/notion/cfg_notion3_keybindings.lua
+SPDXID: SPDXRef-notion-file-8
+FileChecksum: SHA1: 78b59906eb0e599087f4673386903b73194d5e6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-8
+
+
+FileName: /etc/X11/notion/cfg_notion3_tiling.lua
+SPDXID: SPDXRef-notion-file-9
+FileChecksum: SHA1: 6f4443fe8f89531268cf3211f9d45dc8ba1c604c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-9
+
+
+FileName: /etc/X11/notion/cfg_notioncore.lua
+SPDXID: SPDXRef-notion-file-10
+FileChecksum: SHA1: dd71d0aab9852b7e28edba3e81b05f162b7e6cbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-10
+
+
+FileName: /etc/X11/notion/cfg_query.lua
+SPDXID: SPDXRef-notion-file-11
+FileChecksum: SHA1: a8cf3cc648b653117f4fd1f62f6c52da6afb75dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-11
+
+
+FileName: /etc/X11/notion/cfg_sp.lua
+SPDXID: SPDXRef-notion-file-12
+FileChecksum: SHA1: e6dfa9357be70d2c350063ffc6eead797173e751
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-12
+
+
+FileName: /etc/X11/notion/cfg_statusbar.lua
+SPDXID: SPDXRef-notion-file-13
+FileChecksum: SHA1: b77fca4276be81b6b385a9e092016481537c4068
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-13
+
+
+FileName: /etc/X11/notion/cfg_tiling.lua
+SPDXID: SPDXRef-notion-file-14
+FileChecksum: SHA1: ec60f8b47f44e46a3da740b54e6ea7e063208dd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-14
+
+
+FileName: /etc/X11/notion/cfg_xrandr.lua
+SPDXID: SPDXRef-notion-file-15
+FileChecksum: SHA1: 6bd7797c9ccdb29d718cfb9e8c3e17283b373bf5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-15
+
+
+FileName: /etc/X11/notion/look.lua
+SPDXID: SPDXRef-notion-file-16
+FileChecksum: SHA1: f36593ad4817ab9b587fc720f1330158a30154ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-16
+
+
+FileName: /etc/X11/notion/look_brownsteel.lua
+SPDXID: SPDXRef-notion-file-17
+FileChecksum: SHA1: 02c5709214c784c674e9833fbed76fc9b88ad09e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-17
+
+
+FileName: /etc/X11/notion/look_clean.lua
+SPDXID: SPDXRef-notion-file-18
+FileChecksum: SHA1: a2c3a2d9f49b080c701b5406612589ac477355f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-18
+
+
+FileName: /etc/X11/notion/look_cleanios.lua
+SPDXID: SPDXRef-notion-file-19
+FileChecksum: SHA1: 42f0d5b4475166b6007d4b113228b231afac15eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-19
+
+
+FileName: /etc/X11/notion/look_cleanviolet.lua
+SPDXID: SPDXRef-notion-file-20
+FileChecksum: SHA1: 089f5b9e4960330c845a85849bfaa49e4edea960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-20
+
+
+FileName: /etc/X11/notion/look_dusky.lua
+SPDXID: SPDXRef-notion-file-21
+FileChecksum: SHA1: ede40a8029b3e5f9c225f97fbbb7ec5805032a53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-21
+
+
+FileName: /etc/X11/notion/look_greenlight.lua
+SPDXID: SPDXRef-notion-file-22
+FileChecksum: SHA1: 5e7b2c3f8d5a7e0c81c16c1e454f26fc8b6e830f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-22
+
+
+FileName: /etc/X11/notion/look_greyviolet.lua
+SPDXID: SPDXRef-notion-file-23
+FileChecksum: SHA1: 13b5e85da1e0f85849b80e1bdf2a6de743cb16d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-23
+
+
+FileName: /etc/X11/notion/look_ios.lua
+SPDXID: SPDXRef-notion-file-24
+FileChecksum: SHA1: 8764b6107080cf6be80da3e36ecfb4465408ccca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-24
+
+
+FileName: /etc/X11/notion/look_newviolet.lua
+SPDXID: SPDXRef-notion-file-25
+FileChecksum: SHA1: 216ac2c89d815117810a27baca47ae03147023b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-25
+
+
+FileName: /etc/X11/notion/look_newviolet_hidpi.lua
+SPDXID: SPDXRef-notion-file-26
+FileChecksum: SHA1: df74a6af54deb0c21674da6c62544b993a012c72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-26
+
+
+FileName: /etc/X11/notion/look_paper.lua
+SPDXID: SPDXRef-notion-file-27
+FileChecksum: SHA1: bf466da7ba487478f4cf95cfc33a0d3f31ba0d38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-27
+
+
+FileName: /etc/X11/notion/look_simpleblue.lua
+SPDXID: SPDXRef-notion-file-28
+FileChecksum: SHA1: b6538ab70a32747382d8ff7392c2ad071f9b0f7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-28
+
+
+FileName: /etc/X11/notion/lookcommon_clean.lua
+SPDXID: SPDXRef-notion-file-29
+FileChecksum: SHA1: 846a57a41f92cd234bb148c4de962a28b8fef1d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-29
+
+
+FileName: /etc/X11/notion/lookcommon_clean_frame.lua
+SPDXID: SPDXRef-notion-file-30
+FileChecksum: SHA1: d3d878be3da42f16f77b3792fad0822bac60eaed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-30
+
+
+FileName: /etc/X11/notion/lookcommon_clean_stdisp.lua
+SPDXID: SPDXRef-notion-file-31
+FileChecksum: SHA1: e653340eb9f78978d4660020d7da13aaa25e2032
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-31
+
+
+FileName: /etc/X11/notion/lookcommon_clean_tab.lua
+SPDXID: SPDXRef-notion-file-32
+FileChecksum: SHA1: 595f6f9dbded2632da6d980a016b2a421decf0eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-32
+
+
+FileName: /etc/X11/notion/lookcommon_emboss.lua
+SPDXID: SPDXRef-notion-file-33
+FileChecksum: SHA1: 480be18e0d9b78c2938084d6bad89549ce3386eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-33
+
+
+FileName: /etc/X11/notion/lookcommon_emboss_frame.lua
+SPDXID: SPDXRef-notion-file-34
+FileChecksum: SHA1: da1a5ad12052f349d68dbf1e054602cd2234b8b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-34
+
+
+FileName: /etc/X11/notion/lookcommon_emboss_stdisp.lua
+SPDXID: SPDXRef-notion-file-35
+FileChecksum: SHA1: 61d92e8ee08055565cda3f0d216379931adc07fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-35
+
+
+FileName: /etc/X11/notion/lookcommon_emboss_tab.lua
+SPDXID: SPDXRef-notion-file-36
+FileChecksum: SHA1: 65679d9ffade6b16f88bb78a8a97d33f8fbe6082
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-36
+
+
+FileName: /etc/X11/notion/net_client_list.lua
+SPDXID: SPDXRef-notion-file-37
+FileChecksum: SHA1: cee9f5af3d84da203a34a1a8ce467748ad3aa695
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-37
+
+
+FileName: /etc/default/notion
+SPDXID: SPDXRef-notion-file-38
+FileChecksum: SHA1: 991d4d791116bf3d019a83f974d733390949adb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-38
+
+
+FileName: /etc/menu-methods/notion
+SPDXID: SPDXRef-notion-file-39
+FileChecksum: SHA1: 46ebeca453fe71fb20f34a83fc9328f3f6af5056
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-39
+
+
+FileName: /etc/menu-methods/notion-i18n
+SPDXID: SPDXRef-notion-file-40
+FileChecksum: SHA1: d4f761d6f2bb38c0adb23d027047bb49d274cb8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-40
+
+
+FileName: /usr/bin/notion
+SPDXID: SPDXRef-notion-file-41
+FileChecksum: SHA1: c37770499e2c61b5ec3912890aa4aea2c8bb0cf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-41
+
+
+FileName: /usr/bin/notionflux
+SPDXID: SPDXRef-notion-file-42
+FileChecksum: SHA1: f9ad5d4ca7fa84069bbb69e4ab4df9bcd6c7dc6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-42
+
+
+FileName: /usr/lib/notion/de.so
+SPDXID: SPDXRef-notion-file-43
+FileChecksum: SHA1: 4a2003f296d9d2b02aff6b7c626daac844fa9c54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-43
+
+
+FileName: /usr/lib/notion/ion-completefile
+SPDXID: SPDXRef-notion-file-44
+FileChecksum: SHA1: f6c0ea987086cf28a9196589abaf272be08aa9b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-44
+
+
+FileName: /usr/lib/notion/ion-statusd
+SPDXID: SPDXRef-notion-file-45
+FileChecksum: SHA1: 9c35726bb14fa1d5066bbad8603b3ca1f8eea42d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-45
+
+
+FileName: /usr/lib/notion/lc/de.lc
+SPDXID: SPDXRef-notion-file-46
+FileChecksum: SHA1: e4a5b6d3876f22463143e1cefa9b4a883b745704
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-46
+
+
+FileName: /usr/lib/notion/lc/ioncore_bindings.lc
+SPDXID: SPDXRef-notion-file-47
+FileChecksum: SHA1: 89446fccbc9c2cc33584eb9a42a7ed45aabe613a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-47
+
+
+FileName: /usr/lib/notion/lc/ioncore_efbb.lc
+SPDXID: SPDXRef-notion-file-48
+FileChecksum: SHA1: 28d0c7f6be24c3d55f9483be4737e858f2cc4f08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-48
+
+
+FileName: /usr/lib/notion/lc/ioncore_ext.lc
+SPDXID: SPDXRef-notion-file-49
+FileChecksum: SHA1: 08a7fdd00882d64c1cad2323f65208b0e75c26d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-49
+
+
+FileName: /usr/lib/notion/lc/ioncore_luaext.lc
+SPDXID: SPDXRef-notion-file-50
+FileChecksum: SHA1: d7e8f5afb28e6b30bc491e56683215451f9c221d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-50
+
+
+FileName: /usr/lib/notion/lc/ioncore_menudb.lc
+SPDXID: SPDXRef-notion-file-51
+FileChecksum: SHA1: f4e63fcb18889a01a8109391e671c06d2ad5feb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-51
+
+
+FileName: /usr/lib/notion/lc/ioncore_misc.lc
+SPDXID: SPDXRef-notion-file-52
+FileChecksum: SHA1: fb4f5e1b80ea2833ca97f47e4764a37e7461e2b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-52
+
+
+FileName: /usr/lib/notion/lc/ioncore_wd.lc
+SPDXID: SPDXRef-notion-file-53
+FileChecksum: SHA1: 2271b90fe68bd1644d334c227c61881a23a94765
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-53
+
+
+FileName: /usr/lib/notion/lc/ioncore_winprops.lc
+SPDXID: SPDXRef-notion-file-54
+FileChecksum: SHA1: 89a44bb826a9a281d5f19ed10b91247600ae13fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-54
+
+
+FileName: /usr/lib/notion/lc/mod_dock.lc
+SPDXID: SPDXRef-notion-file-55
+FileChecksum: SHA1: a1dc7bce54ceedffdbcfa31eee5a5998e143df4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-55
+
+
+FileName: /usr/lib/notion/lc/mod_menu.lc
+SPDXID: SPDXRef-notion-file-56
+FileChecksum: SHA1: 212c50bbb2bb86bf85c25aa04e083ab4dc82eefe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-56
+
+
+FileName: /usr/lib/notion/lc/mod_mgmtmode.lc
+SPDXID: SPDXRef-notion-file-57
+FileChecksum: SHA1: eadf20240ffafbd23cd5103b5737f91d56dbf734
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-57
+
+
+FileName: /usr/lib/notion/lc/mod_notionflux.lc
+SPDXID: SPDXRef-notion-file-58
+FileChecksum: SHA1: 41ae7058e78ecb8c07972347412049a0052a13ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-58
+
+
+FileName: /usr/lib/notion/lc/mod_query.lc
+SPDXID: SPDXRef-notion-file-59
+FileChecksum: SHA1: 7c5cfbd95a32089536f5580499d47236337e9a30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-59
+
+
+FileName: /usr/lib/notion/lc/mod_query_chdir.lc
+SPDXID: SPDXRef-notion-file-60
+FileChecksum: SHA1: 960019b45324707a5b59cb3c80a0c580d10cb721
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-60
+
+
+FileName: /usr/lib/notion/lc/mod_sm.lc
+SPDXID: SPDXRef-notion-file-61
+FileChecksum: SHA1: 0e4ea5cb51f3a008c333deb8bcfd632eb7bd78cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-61
+
+
+FileName: /usr/lib/notion/lc/mod_sp.lc
+SPDXID: SPDXRef-notion-file-62
+FileChecksum: SHA1: 03bc4a81f1abb751d4bf692c3a77fd830c3510ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-62
+
+
+FileName: /usr/lib/notion/lc/mod_statusbar.lc
+SPDXID: SPDXRef-notion-file-63
+FileChecksum: SHA1: d475f3427d86399f806e4fb0924706977931cf43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-63
+
+
+FileName: /usr/lib/notion/lc/mod_tiling.lc
+SPDXID: SPDXRef-notion-file-64
+FileChecksum: SHA1: 25f246dd094c70de8dc9c75f3b5a62745d3cba9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-64
+
+
+FileName: /usr/lib/notion/lc/mod_xinerama.lc
+SPDXID: SPDXRef-notion-file-65
+FileChecksum: SHA1: b50c6ab8a0653c0af61742c09ca120a36b860e86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-65
+
+
+FileName: /usr/lib/notion/lc/mod_xkbevents.lc
+SPDXID: SPDXRef-notion-file-66
+FileChecksum: SHA1: 1cc6447a90a1e9ed14f207018bfe192466e3c9e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-66
+
+
+FileName: /usr/lib/notion/lc/mod_xrandr.lc
+SPDXID: SPDXRef-notion-file-67
+FileChecksum: SHA1: 06bd05072070db52d91abc8e5604e8907ab68123
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-67
+
+
+FileName: /usr/lib/notion/lc/statusd_date.lc
+SPDXID: SPDXRef-notion-file-68
+FileChecksum: SHA1: b7bc37e1475e4bf169f34de23b42d16eb83e2e6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-68
+
+
+FileName: /usr/lib/notion/lc/statusd_load.lc
+SPDXID: SPDXRef-notion-file-69
+FileChecksum: SHA1: ad5a227b9ec537ab398186d6c08d5028265d36be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-69
+
+
+FileName: /usr/lib/notion/lc/statusd_mail.lc
+SPDXID: SPDXRef-notion-file-70
+FileChecksum: SHA1: 35861b86288742d3eb1b78a12e7c686552cfb598
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-70
+
+
+FileName: /usr/lib/notion/mod_dock.so
+SPDXID: SPDXRef-notion-file-71
+FileChecksum: SHA1: 6f5820a8ced0e4a61ce2f3d93362bbc2928ae052
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-71
+
+
+FileName: /usr/lib/notion/mod_menu.so
+SPDXID: SPDXRef-notion-file-72
+FileChecksum: SHA1: 4e87de57fa4112fd1ac330643bf7ce9d337b3ef9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-72
+
+
+FileName: /usr/lib/notion/mod_mgmtmode.so
+SPDXID: SPDXRef-notion-file-73
+FileChecksum: SHA1: e936673428f6c79921a24d78db518152f8a42a0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-73
+
+
+FileName: /usr/lib/notion/mod_notionflux.so
+SPDXID: SPDXRef-notion-file-74
+FileChecksum: SHA1: 2bb7156baf5c87523e4fe9f3c2accf78f65efb40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-74
+
+
+FileName: /usr/lib/notion/mod_query.so
+SPDXID: SPDXRef-notion-file-75
+FileChecksum: SHA1: fe5f99ecbf547bbeb9c47709d1b64c31d47672a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-75
+
+
+FileName: /usr/lib/notion/mod_sm.so
+SPDXID: SPDXRef-notion-file-76
+FileChecksum: SHA1: b381dca86fbfdd38dd5af9975134e49c56d16fbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-76
+
+
+FileName: /usr/lib/notion/mod_sp.so
+SPDXID: SPDXRef-notion-file-77
+FileChecksum: SHA1: 1a903c48296267cff871d4b2515d8040fa4451c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-77
+
+
+FileName: /usr/lib/notion/mod_statusbar.so
+SPDXID: SPDXRef-notion-file-78
+FileChecksum: SHA1: 9d259e407d1d707223232523de0b6863905f9dd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-78
+
+
+FileName: /usr/lib/notion/mod_tiling.so
+SPDXID: SPDXRef-notion-file-79
+FileChecksum: SHA1: 960d90f0f3793a60fe062a9438f86f21bfc81c5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-79
+
+
+FileName: /usr/lib/notion/mod_xinerama.so
+SPDXID: SPDXRef-notion-file-80
+FileChecksum: SHA1: bcaf18688c9a6dae75d9d32f422e90e8da2c8549
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-80
+
+
+FileName: /usr/lib/notion/mod_xkbevents.so
+SPDXID: SPDXRef-notion-file-81
+FileChecksum: SHA1: b72383c71fc70677baa1ce98b44acd9b2e04289b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-81
+
+
+FileName: /usr/lib/notion/mod_xrandr.so
+SPDXID: SPDXRef-notion-file-82
+FileChecksum: SHA1: f0d0d1ad5ee97e86a71e0d0d19423c9d8caa49a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-82
+
+
+FileName: /usr/sbin/install-notion-cfg
+SPDXID: SPDXRef-notion-file-83
+FileChecksum: SHA1: ea41750d7f263489ef63735f324f96a277f715e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-83
+
+
+FileName: /usr/share/doc/notion/AUTHORS
+SPDXID: SPDXRef-notion-file-84
+FileChecksum: SHA1: 9eccdad15eecddbf3313e9fd8026fc09e3cd9e47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-84
+
+
+FileName: /usr/share/doc/notion/CONTRIBUTING.md
+SPDXID: SPDXRef-notion-file-85
+FileChecksum: SHA1: 528bffa11a70121e72143fdbc47c3f83e8ca24c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-85
+
+
+FileName: /usr/share/doc/notion/LICENSE.gz
+SPDXID: SPDXRef-notion-file-86
+FileChecksum: SHA1: 8bc064dc518c6d87fd4b8d86e7cd61b08590a56b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-86
+
+
+FileName: /usr/share/doc/notion/NEWS.Debian.gz
+SPDXID: SPDXRef-notion-file-87
+FileChecksum: SHA1: 4a549fbb2133de47939f4fc395c12fb11fcfa4e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-87
+
+
+FileName: /usr/share/doc/notion/NEWS.gz
+SPDXID: SPDXRef-notion-file-88
+FileChecksum: SHA1: 4a549fbb2133de47939f4fc395c12fb11fcfa4e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-88
+
+
+FileName: /usr/share/doc/notion/README.Debian
+SPDXID: SPDXRef-notion-file-89
+FileChecksum: SHA1: 2b5b464c5f6b3e7a39d0fbdbc763285cc73a2451
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-89
+
+
+FileName: /usr/share/doc/notion/README.md.gz
+SPDXID: SPDXRef-notion-file-90
+FileChecksum: SHA1: de44f24ed978cc03938ea25d8289ece82ccf3137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-90
+
+
+FileName: /usr/share/doc/notion/changelog.Debian.gz
+SPDXID: SPDXRef-notion-file-91
+FileChecksum: SHA1: aab8775795abe0320062c12b4dc5ef8c48e22cd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-91
+
+
+FileName: /usr/share/doc/notion/ion_NEWS.gz
+SPDXID: SPDXRef-notion-file-92
+FileChecksum: SHA1: 1636651a7c666ad392f4941d8318b626ef612c2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-92
+
+
+FileName: /usr/share/doc/notion/ion_changelog.txt.gz
+SPDXID: SPDXRef-notion-file-93
+FileChecksum: SHA1: b59832e849007895dab0292d2dfdae116da536c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-93
+
+
+FileName: /usr/share/locale/cs/LC_MESSAGES/notion.mo
+SPDXID: SPDXRef-notion-file-94
+FileChecksum: SHA1: 5b0822b3e2a5fbfa9e417eb72a42ce7de0e642fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-94
+
+
+FileName: /usr/share/locale/fi/LC_MESSAGES/notion.mo
+SPDXID: SPDXRef-notion-file-95
+FileChecksum: SHA1: b82a02a3de75f0acac9488afde4522484bb6d260
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-95
+
+
+FileName: /usr/share/man/man1/install-notion-cfg.1.gz
+SPDXID: SPDXRef-notion-file-96
+FileChecksum: SHA1: 4fc6f236e3b2fbc66b31de21c825000a3b85c56e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-96
+
+
+FileName: /usr/share/man/man1/notion.1.gz
+SPDXID: SPDXRef-notion-file-97
+FileChecksum: SHA1: c804d95541d73fea0c2d2d2585586adf4211cc37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-97
+
+
+FileName: /usr/share/man/man1/notionflux.1.gz
+SPDXID: SPDXRef-notion-file-98
+FileChecksum: SHA1: 1a59d7157e01b8fcc86158ea30516dba7b921987
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-98
+
+
+FileName: /usr/share/menu/notion
+SPDXID: SPDXRef-notion-file-99
+FileChecksum: SHA1: 8b2f86b076161dd54a917999cce867c1c1113a86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-99
+
+
+FileName: /usr/share/notion/ion-completeman
+SPDXID: SPDXRef-notion-file-100
+FileChecksum: SHA1: 29150136c1f5eb0a4301c03bb7b6cbc9b0b4d7e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-100
+
+
+FileName: /usr/share/notion/ion-runinxterm
+SPDXID: SPDXRef-notion-file-101
+FileChecksum: SHA1: 188352bbbacf50eeb8d91a8f111a5312e0ba2847
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-101
+
+
+FileName: /usr/share/notion/notion-lock
+SPDXID: SPDXRef-notion-file-102
+FileChecksum: SHA1: a8bec76ca5d14e95d712f1e79ea13dd3c2ac8de4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-102
+
+
+FileName: /usr/share/notion/notion.1
+SPDXID: SPDXRef-notion-file-103
+FileChecksum: SHA1: 083be9cd7c401c14e5183daf93d36d530c82856c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-103
+
+
+FileName: /usr/share/notion/notionflux.1
+SPDXID: SPDXRef-notion-file-104
+FileChecksum: SHA1: 017f869aa6bad3719ad06b1d999abaa49bf5764b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-104
+
+
+FileName: /usr/share/notion/welcome.txt
+SPDXID: SPDXRef-notion-file-105
+FileChecksum: SHA1: fb0ea29dbf1930672bcd1e8f7aa4f14138cca48d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-105
+
+
+FileName: /usr/share/xsessions/notion.desktop
+SPDXID: SPDXRef-notion-file-106
+FileChecksum: SHA1: 3d25cee2a68f259bb1f649a4e0451f6fa27d5e69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-106
+
+
+FileName: /etc/X11/notion/cfg_debian.lua
+SPDXID: SPDXRef-notion-file-107
+FileChecksum: SHA1: 991d4d791116bf3d019a83f974d733390949adb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-107
+
+
+FileName: /usr/share/notion/debian-menu-i18n.lua
+SPDXID: SPDXRef-notion-file-108
+FileChecksum: SHA1: 1bf7fc47d69902cf3f9f1476c7b8fc743706ccf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-108
+
+
+FileName: /usr/share/notion/debian-menu.lua
+SPDXID: SPDXRef-notion-file-109
+FileChecksum: SHA1: ba76fe7bb17275199c1268fbcb30efb28621bb40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-notion CONTAINS SPDXRef-notion-file-109
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-frontier-1.0
+LicenseName: Frontier Artistic License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/frontier-1.0.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/frontier-1.0.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain-disclaimer
+LicenseName: Public Domain Disclaimer
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain-disclaimer.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain-disclaimer.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

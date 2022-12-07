@@ -1,0 +1,143 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/mozc-server_2.26.4220.100+dfsg-5.2-6069b2c7-2df2-56cc-9f43-ec937c442718
+DocumentName: mozc-server_2.26.4220.100+dfsg-5.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mozc-server
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:25:32Z
+
+
+## Package
+
+PackageName: mozc-server
+PackageVersion: 2.26.4220.100+dfsg-5.2
+SPDXID: SPDXRef-mozc-server
+PackageHomePage: https://github.com/google/mozc.git
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 7c02b6c19275ecb65a155471d28d47b386bad080
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: NAIST-2003
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unicode
+PackageCopyrightText: <text>Copyright (c) 1991-2010 Unicode, Inc.
+Copyright 2000, 2001, 2002, 2003 Nara Institute of Science and Technology
+Copyright 2010 - 2018 Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Copyright 2010 Google Inc. 2010-2016 https://github.com/e-kato/macuim.git
+Copyright 2010-2018, Google Inc.
+Copyright 2012 CSSlayer Weng Xuetian <wengxt@gmail.com>
+Copyright Unicode, Inc.
+</text>
+PackageComment: <text>Server of the Mozc input method
+ Mozc is a Japanese Input Method Editor (IME) designed for multi-platform
+ such as Chromium OS, Windows, Mac and Linux.
+ .
+ mozc-server provides GUI utilities of the Mozc input method.
+ .
+ This open-source project originates from Google Japanese Input.</text>
+Relationship: SPDXRef-mozc-server DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libabsl20210324
+Relationship: SPDXRef-mozc-server DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-mozc-server DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-mozc-server DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-mozc-server DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-mozc-server DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk2.0-0
+Relationship: SPDXRef-mozc-server DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-mozc-server DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libprotobuf23
+Relationship: SPDXRef-mozc-server DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+
+
+## File
+
+FileName: /usr/share/doc/mozc-server/copyright
+SPDXID: SPDXRef-mozc-server-file-0
+FileChecksum: SHA1: 73a204f61f2b8585ccd76865ef15f95d8a5bb29a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: NAIST-2003
+LicenseInfoInFile: LicenseRef-scancode-unicode
+FileCopyrightText: <text>Copyright 2010-2018, Google Inc.
+Copyright Unicode, Inc.
+Copyright 2000, 2001, 2002, 2003 Nara Institute of Science and Technology
+Copyright 2010 - 2018 Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Copyright 2010 Google Inc. 2010-2016 https://github.com/e-kato/macuim.git
+Copyright 2012 CSSlayer Weng Xuetian <wengxt@gmail.com>
+Copyright (c) 1991-2010 Unicode, Inc.
+Copyright 2000, 2001, 2002, 2003 Nara Institute of Science and Technology
+</text>
+Relationship: SPDXRef-mozc-server CONTAINS SPDXRef-mozc-server-file-0
+
+
+FileName: /etc/apparmor.d/abstractions/mozc-server/mozc-server.apparmor
+SPDXID: SPDXRef-mozc-server-file-1
+FileChecksum: SHA1: 553bbf1bcbc8a291e90cd7458872b1da8fabf364
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-server CONTAINS SPDXRef-mozc-server-file-1
+
+
+FileName: /usr/lib/mozc/mozc_renderer
+SPDXID: SPDXRef-mozc-server-file-2
+FileChecksum: SHA1: 4bdcd8686a60d0608ba56772875209648d8ceca8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-server CONTAINS SPDXRef-mozc-server-file-2
+
+
+FileName: /usr/lib/mozc/mozc_server
+SPDXID: SPDXRef-mozc-server-file-3
+FileChecksum: SHA1: b69aae3d8408bf9090a262833d8432357d618cb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-server CONTAINS SPDXRef-mozc-server-file-3
+
+
+FileName: /usr/share/doc/mozc-server/README.Debian
+SPDXID: SPDXRef-mozc-server-file-4
+FileChecksum: SHA1: e35c6e69fbe2d5def884b9b5ec70c8d21a57c6fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-server CONTAINS SPDXRef-mozc-server-file-4
+
+
+FileName: /usr/share/doc/mozc-server/changelog.Debian.gz
+SPDXID: SPDXRef-mozc-server-file-5
+FileChecksum: SHA1: 5ad920810bc7b4e7441479f34bd65b589570242d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-server CONTAINS SPDXRef-mozc-server-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unicode
+LicenseName: Unicode Inc License Agreement
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml
+</text>
+
+

@@ -1,0 +1,653 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/sudo_1.9.9-1ubuntu2.1-4e280001-18d7-5eb7-89ea-00c190010cf8
+DocumentName: sudo_1.9.9-1ubuntu2.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-sudo
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:07:12Z
+
+
+## Package
+
+PackageName: sudo
+PackageVersion: 1.9.9-1ubuntu2.1
+SPDXID: SPDXRef-sudo
+PackageHomePage: https://www.sudo.ws/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: a81645170b86e0dc744f2f6ad3ce64fc2c764566
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-Source-Code
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: Zlib
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1989, 1990, 1991, 1993 The Regents of the University of California
+Copyright 1994-1996, 1998-2022 Todd C. Miller <Todd.Miller@sudo.ws>
+Copyright 1995-2017 Jean-loup Gailly and Mark Adler
+Copyright 1996 Internet Software Consortium
+Copyright 1996, David Mazieres <dm@uun.org> 2008, Damien Miller <djm@openbsd.org> 2013, Markus Friedl <markus@openbsd.org>
+Copyright 2000 The NetBSD Foundation, Inc.
+Copyright 2001 Emin Martinian
+Copyright 2008 Damien Miller <djm@openbsd.org>
+Copyright 2008 Otto Moerbeek <otto@drijf.net>
+Copyright 2008-2018, Dave Benson
+Copyright 2009 Christian S.J. Peron
+Copyright 2011 Daniel Kopecek <dkopecek@redhat.com>
+Copyright 2011, VMware, Inc.
+Copyright 2014 Theo de Raadt <deraadt@openbsd.org> 2014 Bob Beck <beck@obtuse.com>
+Copyright 2014, Oracle and/or its affiliates
+Copyright 2019-2020 Robert Manner <robert.manner@oneidentity.com>
+Copyright 2020 Laszlo Orban <laszlo.orban@oneidentity.com>
+Copyright Bdale Garbee <bdale@gag.com> Marc Haber <mh+debian-packages@zugschlus.de> , Hilko Bengen <bengen@debian.org>
+</text>
+PackageComment: <text>Provide limited super user privileges to specific users
+ Sudo is a program designed to allow a sysadmin to give limited root
+ privileges to users and log root activity.  The basic philosophy is to give
+ as few privileges as possible but still allow people to get their work done.
+ .
+ This version is built with minimal shared library dependencies, use the
+ sudo-ldap package instead if you need LDAP support for sudoers.</text>
+Relationship: SPDXRef-sudo DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libaudit1
+Relationship: SPDXRef-sudo DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-sudo DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam0g
+Relationship: SPDXRef-sudo DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libselinux1
+Relationship: SPDXRef-sudo DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+Relationship: SPDXRef-sudo DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-modules
+Relationship: SPDXRef-sudo DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+
+
+## File
+
+FileName: /usr/share/doc/sudo/copyright
+SPDXID: SPDXRef-sudo-file-0
+FileChecksum: SHA1: a0ea6b21251fcc2808e49f4136df6754afebfa02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: BSD-Source-Code
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: ISC
+LicenseInfoInFile: Zlib
+FileCopyrightText: <text>Copyright 1994-1996, 1998-2022 Todd C. Miller <Todd.Miller@sudo.ws>
+Copyright 2019-2020 Robert Manner <robert.manner@oneidentity.com>
+Copyright 2020 Laszlo Orban <laszlo.orban@oneidentity.com>
+Copyright 2001 Emin Martinian
+Copyright 2011 Daniel Kopecek <dkopecek@redhat.com>
+Copyright 2009 Christian S.J. Peron
+Copyright 2014, Oracle and/or its affiliates
+Copyright 2008 Otto Moerbeek <otto@drijf.net>
+Copyright 1989, 1990, 1991, 1993 The Regents of the University of California
+Copyright 2011, VMware, Inc.
+Copyright 2000 The NetBSD Foundation, Inc.
+Copyright 1996 Internet Software Consortium
+Copyright 1996, David Mazieres <dm@uun.org> 2008, Damien Miller <djm@openbsd.org> 2013, Markus Friedl <markus@openbsd.org>
+Copyright 2008 Damien Miller <djm@openbsd.org>
+Copyright 2014 Theo de Raadt <deraadt@openbsd.org> 2014 Bob Beck <beck@obtuse.com>
+Copyright 2008-2018, Dave Benson
+Copyright 1995-2017 Jean-loup Gailly and Mark Adler
+Copyright Bdale Garbee <bdale@gag.com> Marc Haber <mh+debian-packages@zugschlus.de> , Hilko Bengen <bengen@debian.org>
+</text>
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-0
+
+
+FileName: /etc/pam.d/sudo
+SPDXID: SPDXRef-sudo-file-1
+FileChecksum: SHA1: f969ee9280a9736dd09a1b0bd2513e73b513ad47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-1
+
+
+FileName: /etc/pam.d/sudo-i
+SPDXID: SPDXRef-sudo-file-2
+FileChecksum: SHA1: 33428da2b36fe56f1b6d379da927f73b8eccd433
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-2
+
+
+FileName: /etc/sudo.conf
+SPDXID: SPDXRef-sudo-file-3
+FileChecksum: SHA1: 75aac229e4c1f226b794a7f17d88e6af0b568018
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-3
+
+
+FileName: /etc/sudo_logsrvd.conf
+SPDXID: SPDXRef-sudo-file-4
+FileChecksum: SHA1: c5d5b6bf19e7772c014392e8b3199f491ac4a69d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-4
+
+
+FileName: /usr/bin/cvtsudoers
+SPDXID: SPDXRef-sudo-file-5
+FileChecksum: SHA1: 3f5cf189d274668fd0b8d590c24864440cd78d54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-5
+
+
+FileName: /usr/bin/sudo
+SPDXID: SPDXRef-sudo-file-6
+FileChecksum: SHA1: f087edd51e9ad73706cee498aad84f594d456a9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-6
+
+
+FileName: /usr/bin/sudoreplay
+SPDXID: SPDXRef-sudo-file-7
+FileChecksum: SHA1: e1168380c47012273a1bac4302bd9a36ad5b12bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-7
+
+
+FileName: /usr/include/sudo_plugin.h
+SPDXID: SPDXRef-sudo-file-8
+FileChecksum: SHA1: 740e9088b4e864c035e6ee3b6c800031e6aed38d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-8
+
+
+FileName: /usr/lib/tmpfiles.d/sudo.conf
+SPDXID: SPDXRef-sudo-file-9
+FileChecksum: SHA1: 476121fb14346a7195d19e191dc26e3946d8cf13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-9
+
+
+FileName: /usr/libexec/sudo/audit_json.so
+SPDXID: SPDXRef-sudo-file-10
+FileChecksum: SHA1: 8b132a9614cd4e84ee0a0a324a8fc79ff780cd2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-10
+
+
+FileName: /usr/libexec/sudo/group_file.so
+SPDXID: SPDXRef-sudo-file-11
+FileChecksum: SHA1: 4c2ac66538654d15e5cd465650c3a8a814ad404e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-11
+
+
+FileName: /usr/libexec/sudo/libsudo_util.so.0.0.0
+SPDXID: SPDXRef-sudo-file-12
+FileChecksum: SHA1: ad17a8fa0aa315bdffc4348391649c1a370c7cb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-12
+
+
+FileName: /usr/libexec/sudo/sample_approval.so
+SPDXID: SPDXRef-sudo-file-13
+FileChecksum: SHA1: f4d5ccc93fbab1c631c10dc050dbc9a87d2c96a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-13
+
+
+FileName: /usr/libexec/sudo/sesh
+SPDXID: SPDXRef-sudo-file-14
+FileChecksum: SHA1: 0044d59078fcd78f8dc2d8b9fe0b7560e17c7298
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-14
+
+
+FileName: /usr/libexec/sudo/sudo_intercept.so
+SPDXID: SPDXRef-sudo-file-15
+FileChecksum: SHA1: f72ee9ec1c32e4ea368ac2eed7eef006f20c266c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-15
+
+
+FileName: /usr/libexec/sudo/sudo_noexec.so
+SPDXID: SPDXRef-sudo-file-16
+FileChecksum: SHA1: 1ecfc2a4ec79dd4fe42a0c252a73325cc1e6fe15
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-16
+
+
+FileName: /usr/libexec/sudo/sudoers.so
+SPDXID: SPDXRef-sudo-file-17
+FileChecksum: SHA1: d57bb80eb601fcfc3adde6eb8b5e298b0331ade6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-17
+
+
+FileName: /usr/libexec/sudo/system_group.so
+SPDXID: SPDXRef-sudo-file-18
+FileChecksum: SHA1: f9d6ef0962f183afea4bb0259152a6ed972e062f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-18
+
+
+FileName: /usr/sbin/sudo_logsrvd
+SPDXID: SPDXRef-sudo-file-19
+FileChecksum: SHA1: b4e65520799e1dbd4b712ccac42b65ae51b364ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-19
+
+
+FileName: /usr/sbin/sudo_sendlog
+SPDXID: SPDXRef-sudo-file-20
+FileChecksum: SHA1: a32c1aef00716486b428a664c3ff27dfcbf036d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-20
+
+
+FileName: /usr/sbin/visudo
+SPDXID: SPDXRef-sudo-file-21
+FileChecksum: SHA1: 439d406a1fb9f602d5c7f56597c5a2917cccd4d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-21
+
+
+FileName: /usr/share/apport/package-hooks/source_sudo.py
+SPDXID: SPDXRef-sudo-file-22
+FileChecksum: SHA1: 81b56829fc89d4d0defe907873b86cbf1220b65e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-22
+
+
+FileName: /usr/share/doc/sudo/CONTRIBUTING.md
+SPDXID: SPDXRef-sudo-file-23
+FileChecksum: SHA1: a9d5cb4ed6768e706b50ca6e200ce18a940b6b6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-23
+
+
+FileName: /usr/share/doc/sudo/CONTRIBUTORS.md.gz
+SPDXID: SPDXRef-sudo-file-24
+FileChecksum: SHA1: b2be72328985c29727879f95374bd583c5422d3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-24
+
+
+FileName: /usr/share/doc/sudo/HISTORY.md
+SPDXID: SPDXRef-sudo-file-25
+FileChecksum: SHA1: f49d52beed6e7472be734cac3c65141367321734
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-25
+
+
+FileName: /usr/share/doc/sudo/NEWS.Debian.gz
+SPDXID: SPDXRef-sudo-file-26
+FileChecksum: SHA1: da8ec41983b2464321d86f7ddc6921a56a870b71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-26
+
+
+FileName: /usr/share/doc/sudo/NEWS.gz
+SPDXID: SPDXRef-sudo-file-27
+FileChecksum: SHA1: 3da3f7b496c22c86394ea9d9507fcbf8ffc85b8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-27
+
+
+FileName: /usr/share/doc/sudo/OPTIONS
+SPDXID: SPDXRef-sudo-file-28
+FileChecksum: SHA1: 0cb959cdbeeec3ee30a68378addce7add34ac67c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-28
+
+
+FileName: /usr/share/doc/sudo/README.Debian
+SPDXID: SPDXRef-sudo-file-29
+FileChecksum: SHA1: 0cb139ded4c6403759543a88b6ad6aa5cbcc2512
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-29
+
+
+FileName: /usr/share/doc/sudo/README.md
+SPDXID: SPDXRef-sudo-file-30
+FileChecksum: SHA1: 7af046cdf93ed884ce7e55610a4accdeebe1fdbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-30
+
+
+FileName: /usr/share/doc/sudo/SECURITY.md
+SPDXID: SPDXRef-sudo-file-31
+FileChecksum: SHA1: e496859dd9ef2e974c61b1edcbc487a5a9af5e62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-31
+
+
+FileName: /usr/share/doc/sudo/TROUBLESHOOTING.md.gz
+SPDXID: SPDXRef-sudo-file-32
+FileChecksum: SHA1: 6cd592137fb9576a8933e34bb261e87ad634bfe4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-32
+
+
+FileName: /usr/share/doc/sudo/UPGRADE.md.gz
+SPDXID: SPDXRef-sudo-file-33
+FileChecksum: SHA1: e3397ff6444504175d202aadcd5162ac5ff66bfa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-33
+
+
+FileName: /usr/share/doc/sudo/changelog.Debian.gz
+SPDXID: SPDXRef-sudo-file-34
+FileChecksum: SHA1: 9224ddb9538dfcc8dd818a796210ebfca5773127
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-34
+
+
+FileName: /usr/share/doc/sudo/examples/cvtsudoers.conf
+SPDXID: SPDXRef-sudo-file-35
+FileChecksum: SHA1: 712ae784b192cf71f04a5f435e7d16419953e22d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-35
+
+
+FileName: /usr/share/doc/sudo/examples/pam.conf
+SPDXID: SPDXRef-sudo-file-36
+FileChecksum: SHA1: 677d98e553d48da8216c3f48e4658e814b8dd931
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-36
+
+
+FileName: /usr/share/doc/sudo/examples/sudo.conf
+SPDXID: SPDXRef-sudo-file-37
+FileChecksum: SHA1: 75aac229e4c1f226b794a7f17d88e6af0b568018
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-37
+
+
+FileName: /usr/share/doc/sudo/examples/sudo_logsrvd.conf
+SPDXID: SPDXRef-sudo-file-38
+FileChecksum: SHA1: c5d5b6bf19e7772c014392e8b3199f491ac4a69d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-38
+
+
+FileName: /usr/share/doc/sudo/examples/sudoers
+SPDXID: SPDXRef-sudo-file-39
+FileChecksum: SHA1: 724decdab2705fea5e9a0e7353ef6c96882aa35d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-39
+
+
+FileName: /usr/share/doc/sudo/examples/sudoers.dist
+SPDXID: SPDXRef-sudo-file-40
+FileChecksum: SHA1: c3110ecb42634c32554d0a0942327584ccfe9196
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-40
+
+
+FileName: /usr/share/doc/sudo/examples/syslog.conf
+SPDXID: SPDXRef-sudo-file-41
+FileChecksum: SHA1: 55029683d228f56e160c1aac3716a066866fbf44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-41
+
+
+FileName: /usr/share/lintian/overrides/sudo
+SPDXID: SPDXRef-sudo-file-42
+FileChecksum: SHA1: d8670b3e7980be4ecbea7cc6ab7f15d922c66203
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-42
+
+
+FileName: /usr/share/man/man1/cvtsudoers.1.gz
+SPDXID: SPDXRef-sudo-file-43
+FileChecksum: SHA1: 138c9bb8a8e8d8b6dae1f9cf64ca20920019478a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-43
+
+
+FileName: /usr/share/man/man5/sudo.conf.5.gz
+SPDXID: SPDXRef-sudo-file-44
+FileChecksum: SHA1: 13dcbf6123e9323d74c7bbdf43b346b9d3e2ee71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-44
+
+
+FileName: /usr/share/man/man5/sudo_logsrv.proto.5.gz
+SPDXID: SPDXRef-sudo-file-45
+FileChecksum: SHA1: 5e79591f873c9146befa4d181f1506f87e162975
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-45
+
+
+FileName: /usr/share/man/man5/sudo_logsrvd.conf.5.gz
+SPDXID: SPDXRef-sudo-file-46
+FileChecksum: SHA1: cf9084a7a6b2da41f054322f8cc41ec36e06058f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-46
+
+
+FileName: /usr/share/man/man5/sudoers.5.gz
+SPDXID: SPDXRef-sudo-file-47
+FileChecksum: SHA1: 115a4666508c6a3e80b49baeaed5332589db97fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-47
+
+
+FileName: /usr/share/man/man5/sudoers_timestamp.5.gz
+SPDXID: SPDXRef-sudo-file-48
+FileChecksum: SHA1: baee47c50a64bf9f58f4145f1f6b77688f2ff357
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-48
+
+
+FileName: /usr/share/man/man8/sudo.8.gz
+SPDXID: SPDXRef-sudo-file-49
+FileChecksum: SHA1: 8e5f40a9576a8fb4e5c405b60a633d9da625f1e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-49
+
+
+FileName: /usr/share/man/man8/sudo_logsrvd.8.gz
+SPDXID: SPDXRef-sudo-file-50
+FileChecksum: SHA1: 0b0a062d7bd9047db123200d9ca1865dc76556cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-50
+
+
+FileName: /usr/share/man/man8/sudo_plugin.8.gz
+SPDXID: SPDXRef-sudo-file-51
+FileChecksum: SHA1: 9590791a4eab467506f11ea546eb6f969f9472dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-51
+
+
+FileName: /usr/share/man/man8/sudo_root.8.gz
+SPDXID: SPDXRef-sudo-file-52
+FileChecksum: SHA1: 1bd0be165f1a648c2b87b2e37f9c338fc0589b46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-52
+
+
+FileName: /usr/share/man/man8/sudo_sendlog.8.gz
+SPDXID: SPDXRef-sudo-file-53
+FileChecksum: SHA1: 95bf9a970c075b3cef8685a9598a9fa1718610c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-53
+
+
+FileName: /usr/share/man/man8/sudoreplay.8.gz
+SPDXID: SPDXRef-sudo-file-54
+FileChecksum: SHA1: 92b56660791867ef86d12b6e0bd95902e77c8422
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-54
+
+
+FileName: /usr/share/man/man8/visudo.8.gz
+SPDXID: SPDXRef-sudo-file-55
+FileChecksum: SHA1: 69cf8607326c824c216e75827083437a551590c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-55
+
+
+FileName: /usr/bin/sudoedit
+SPDXID: SPDXRef-sudo-file-56
+FileChecksum: SHA1: f087edd51e9ad73706cee498aad84f594d456a9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-56
+
+
+FileName: /usr/libexec/sudo/libsudo_util.so
+SPDXID: SPDXRef-sudo-file-57
+FileChecksum: SHA1: ad17a8fa0aa315bdffc4348391649c1a370c7cb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-57
+
+
+FileName: /usr/libexec/sudo/libsudo_util.so.0
+SPDXID: SPDXRef-sudo-file-58
+FileChecksum: SHA1: ad17a8fa0aa315bdffc4348391649c1a370c7cb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-58
+
+
+FileName: /usr/share/man/man8/sudoedit.8.gz
+SPDXID: SPDXRef-sudo-file-59
+FileChecksum: SHA1: 8e5f40a9576a8fb4e5c405b60a633d9da625f1e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-sudo CONTAINS SPDXRef-sudo-file-59
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

@@ -1,0 +1,102 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgcab-1.0-0_1.4-3build2-3a5a13f5-e1cf-5887-9a27-290185d2ba88
+DocumentName: libgcab-1.0-0_1.4-3build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgcab-1.0-0
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:05:27Z
+
+
+## Package
+
+PackageName: libgcab-1.0-0
+PackageVersion: 1.4-3build2
+SPDXID: SPDXRef-libgcab-1.0-0
+PackageHomePage: https://wiki.gnome.org/msitools
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3f29206e5e0024fadcd93bee19e964eda3346405
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.0-only
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2000-2002 Stuart Caie 2002 Patrik Stridvall 2003 Greg Turner
+Copyright 2012 Marc-Andre Lureau <marcandre.lureau@gmail.com>
+Copyright 2012 Marc-Andre Lureau <marcandre.lureau@gmail.com> 2017 Richard Hughes <richard@hughsie.com>
+Copyright 2014-2021 Stephen Kitt <skitt@debian.org> 2019 Simon McVittie <smcv@debian.org>
+</text>
+PackageComment: <text>Microsoft Cabinet file manipulation library
+ libgcab provides functions to manipulate cabinet (.cab) files,
+ both for reading and writing their contents.
+ .
+ This package contains the shared library.</text>
+Relationship: SPDXRef-libgcab-1.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libgcab-1.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libgcab-1.0-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+
+
+## File
+
+FileName: /usr/share/doc/libgcab-1.0-0/copyright
+SPDXID: SPDXRef-libgcab-1.0-0-file-0
+FileChecksum: SHA1: 31b2484199f7abde234009ec364d0b6d118f5a36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-only
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: LGPL-2.1-only
+FileCopyrightText: <text>Copyright 2012 Marc-Andre Lureau <marcandre.lureau@gmail.com> 2017 Richard Hughes <richard@hughsie.com>
+Copyright 2012 Marc-Andre Lureau <marcandre.lureau@gmail.com>
+Copyright 2014-2021 Stephen Kitt <skitt@debian.org> 2019 Simon McVittie <smcv@debian.org>
+Copyright 2000-2002 Stuart Caie 2002 Patrik Stridvall 2003 Greg Turner
+</text>
+Relationship: SPDXRef-libgcab-1.0-0 CONTAINS SPDXRef-libgcab-1.0-0-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgcab-1.0.so.0.1.0
+SPDXID: SPDXRef-libgcab-1.0-0-file-1
+FileChecksum: SHA1: 483202a2e0a03e393f8db4ebbe36746efee4c3e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgcab-1.0-0 CONTAINS SPDXRef-libgcab-1.0-0-file-1
+
+
+FileName: /usr/share/doc/libgcab-1.0-0/changelog.Debian.gz
+SPDXID: SPDXRef-libgcab-1.0-0-file-2
+FileChecksum: SHA1: 5a7c61f1ebc4895c28b82cd36996cd12ed603cd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgcab-1.0-0 CONTAINS SPDXRef-libgcab-1.0-0-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgcab-1.0.so.0
+SPDXID: SPDXRef-libgcab-1.0-0-file-3
+FileChecksum: SHA1: 483202a2e0a03e393f8db4ebbe36746efee4c3e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgcab-1.0-0 CONTAINS SPDXRef-libgcab-1.0-0-file-3
+
+
+## Extracted License
+

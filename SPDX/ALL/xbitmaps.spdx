@@ -1,0 +1,713 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/xbitmaps_1.1.1-2.1ubuntu1-deed7a6e-8d2f-5055-a7eb-88399184ffb9
+DocumentName: xbitmaps_1.1.1-2.1ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xbitmaps
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:17:30Z
+
+
+## Package
+
+PackageName: xbitmaps
+PackageVersion: 1.1.1-2.1ubuntu1
+SPDXID: SPDXRef-xbitmaps
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 01c5d051bbde1abe68916fe18b7abe2ccad5cc96
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: MIT-open-group
+PackageCopyrightText: <text>Copyright 1988, 1998 The Open Group
+</text>
+PackageComment: <text>Base X bitmaps
+ This package contains the base X bitmaps, which are used in many legacy X
+ clients.</text>
+
+
+## File
+
+FileName: /usr/share/doc/xbitmaps/copyright
+SPDXID: SPDXRef-xbitmaps-file-0
+FileChecksum: SHA1: 8dd1a5611e7e942c1cb89e33c1f4667e60b5314f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-open-group
+FileCopyrightText: <text>Copyright 1988, 1998 The Open Group
+</text>
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-0
+
+
+FileName: /usr/include/X11/bitmaps/1x1
+SPDXID: SPDXRef-xbitmaps-file-1
+FileChecksum: SHA1: 63a6d3904dd454710914ff5ea59c9508a43b1a59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-1
+
+
+FileName: /usr/include/X11/bitmaps/2x2
+SPDXID: SPDXRef-xbitmaps-file-2
+FileChecksum: SHA1: 750d004e8a4a4a1c7d6b14901434a04731fa8c01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-2
+
+
+FileName: /usr/include/X11/bitmaps/black
+SPDXID: SPDXRef-xbitmaps-file-3
+FileChecksum: SHA1: 3151c7845fe7a7ffdf44e9369df31f27aaaae127
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-3
+
+
+FileName: /usr/include/X11/bitmaps/black6
+SPDXID: SPDXRef-xbitmaps-file-4
+FileChecksum: SHA1: 7c2546c8263e71e730a687be4b67477c6a5a2832
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-4
+
+
+FileName: /usr/include/X11/bitmaps/box6
+SPDXID: SPDXRef-xbitmaps-file-5
+FileChecksum: SHA1: 38d89d0ae924cbed7626225314b6615ed3a08014
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-5
+
+
+FileName: /usr/include/X11/bitmaps/boxes
+SPDXID: SPDXRef-xbitmaps-file-6
+FileChecksum: SHA1: 05cf14f8b31644978d171e6ca236e05602f4f1f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-6
+
+
+FileName: /usr/include/X11/bitmaps/calculator
+SPDXID: SPDXRef-xbitmaps-file-7
+FileChecksum: SHA1: ac869a890af53f48abaec64823a6371d09383dc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-7
+
+
+FileName: /usr/include/X11/bitmaps/cntr_ptr
+SPDXID: SPDXRef-xbitmaps-file-8
+FileChecksum: SHA1: b7c8961f521b19ddc5ce39e521674f3ce1aa2cc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-8
+
+
+FileName: /usr/include/X11/bitmaps/cntr_ptrmsk
+SPDXID: SPDXRef-xbitmaps-file-9
+FileChecksum: SHA1: dfba9fcc1b44890fc1ee15de9bc3aa988596fc59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-9
+
+
+FileName: /usr/include/X11/bitmaps/cross_weave
+SPDXID: SPDXRef-xbitmaps-file-10
+FileChecksum: SHA1: 1ecdd3d5bae53c584120949e6db78f98e0d57ac3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-10
+
+
+FileName: /usr/include/X11/bitmaps/dimple1
+SPDXID: SPDXRef-xbitmaps-file-11
+FileChecksum: SHA1: 269b1804282347bc99c5ee8a746c5ecaadf9d370
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-11
+
+
+FileName: /usr/include/X11/bitmaps/dimple3
+SPDXID: SPDXRef-xbitmaps-file-12
+FileChecksum: SHA1: 663144ca724ea8d8ef8f50b79762b61d6525b782
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-12
+
+
+FileName: /usr/include/X11/bitmaps/dot
+SPDXID: SPDXRef-xbitmaps-file-13
+FileChecksum: SHA1: 25e141d546875da46e3303f591bc886973db1786
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-13
+
+
+FileName: /usr/include/X11/bitmaps/dropbar7
+SPDXID: SPDXRef-xbitmaps-file-14
+FileChecksum: SHA1: 3972b2e76a4312d1d6e4f33ab0fe7546f1e34708
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-14
+
+
+FileName: /usr/include/X11/bitmaps/dropbar8
+SPDXID: SPDXRef-xbitmaps-file-15
+FileChecksum: SHA1: 1c5d25fa18d9c40c275cb3b4012ba7df00be1dd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-15
+
+
+FileName: /usr/include/X11/bitmaps/escherknot
+SPDXID: SPDXRef-xbitmaps-file-16
+FileChecksum: SHA1: f50074c0ca738ebd9c40f335b24c38a4a2b9158f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-16
+
+
+FileName: /usr/include/X11/bitmaps/flagdown
+SPDXID: SPDXRef-xbitmaps-file-17
+FileChecksum: SHA1: 608d3a69f4559a1dba07e17ff1c2ac91e0e51b75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-17
+
+
+FileName: /usr/include/X11/bitmaps/flagup
+SPDXID: SPDXRef-xbitmaps-file-18
+FileChecksum: SHA1: 3a2fa6d6145a0bd4d3a269415eff8c137f69f6b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-18
+
+
+FileName: /usr/include/X11/bitmaps/flipped_gray
+SPDXID: SPDXRef-xbitmaps-file-19
+FileChecksum: SHA1: 1d9f5b6991bf7c24e2d5ee9bc64b5c689990177f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-19
+
+
+FileName: /usr/include/X11/bitmaps/gray
+SPDXID: SPDXRef-xbitmaps-file-20
+FileChecksum: SHA1: d0e1903ee1f1533a945a72024ec026113c13e263
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-20
+
+
+FileName: /usr/include/X11/bitmaps/gray1
+SPDXID: SPDXRef-xbitmaps-file-21
+FileChecksum: SHA1: 445cc3310669b76c7f5e72c870e4e91add9a7667
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-21
+
+
+FileName: /usr/include/X11/bitmaps/gray3
+SPDXID: SPDXRef-xbitmaps-file-22
+FileChecksum: SHA1: ba03a5cb29cb63f1fcb142b4a4330e13fcf16b62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-22
+
+
+FileName: /usr/include/X11/bitmaps/grid16
+SPDXID: SPDXRef-xbitmaps-file-23
+FileChecksum: SHA1: f1546f5cc5d1bd5796a8c787ac8fbfbd37d68fbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-23
+
+
+FileName: /usr/include/X11/bitmaps/grid2
+SPDXID: SPDXRef-xbitmaps-file-24
+FileChecksum: SHA1: af0efd54fbfab25c0506bcfc439d62af4790f871
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-24
+
+
+FileName: /usr/include/X11/bitmaps/grid4
+SPDXID: SPDXRef-xbitmaps-file-25
+FileChecksum: SHA1: 90eaafdb82fc6a7e6885e673fba1bcb03b758182
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-25
+
+
+FileName: /usr/include/X11/bitmaps/grid8
+SPDXID: SPDXRef-xbitmaps-file-26
+FileChecksum: SHA1: 250e3856d538861ff0ad9bae031c67bf775bad49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-26
+
+
+FileName: /usr/include/X11/bitmaps/hlines2
+SPDXID: SPDXRef-xbitmaps-file-27
+FileChecksum: SHA1: 6db69d0920ae2854c6a4254e18d0111c0ad7e089
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-27
+
+
+FileName: /usr/include/X11/bitmaps/hlines3
+SPDXID: SPDXRef-xbitmaps-file-28
+FileChecksum: SHA1: b64f8a740b2f40fc655c4a1c123eab0cfc029d38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-28
+
+
+FileName: /usr/include/X11/bitmaps/icon
+SPDXID: SPDXRef-xbitmaps-file-29
+FileChecksum: SHA1: 9b42611f0577b72e7afdd9258f2613e1222c545e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-29
+
+
+FileName: /usr/include/X11/bitmaps/keyboard16
+SPDXID: SPDXRef-xbitmaps-file-30
+FileChecksum: SHA1: 00f37398eee3760a7961963453caf9b4a92e2ef7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-30
+
+
+FileName: /usr/include/X11/bitmaps/left_ptr
+SPDXID: SPDXRef-xbitmaps-file-31
+FileChecksum: SHA1: 33bb2f2d5cacb8b854f3094a56f23690fd20a39e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-31
+
+
+FileName: /usr/include/X11/bitmaps/left_ptrmsk
+SPDXID: SPDXRef-xbitmaps-file-32
+FileChecksum: SHA1: c72de161577cdb1edd0a6d17520654eec4518090
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-32
+
+
+FileName: /usr/include/X11/bitmaps/letters
+SPDXID: SPDXRef-xbitmaps-file-33
+FileChecksum: SHA1: fc4e88bd05da56a8a464e117d8c6fdb6626360c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-33
+
+
+FileName: /usr/include/X11/bitmaps/light_gray
+SPDXID: SPDXRef-xbitmaps-file-34
+FileChecksum: SHA1: 1aecbc52f4a0af3670a81c67c17a12507347e4cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-34
+
+
+FileName: /usr/include/X11/bitmaps/mailempty
+SPDXID: SPDXRef-xbitmaps-file-35
+FileChecksum: SHA1: 08307685e0e767a1258b66efb43222243286b453
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-35
+
+
+FileName: /usr/include/X11/bitmaps/mailemptymsk
+SPDXID: SPDXRef-xbitmaps-file-36
+FileChecksum: SHA1: ae224268b976b5544bd39544e001662536d6554a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-36
+
+
+FileName: /usr/include/X11/bitmaps/mailfull
+SPDXID: SPDXRef-xbitmaps-file-37
+FileChecksum: SHA1: f49e2201f7070768391f61898d0542563875e640
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-37
+
+
+FileName: /usr/include/X11/bitmaps/mailfullmsk
+SPDXID: SPDXRef-xbitmaps-file-38
+FileChecksum: SHA1: f624800e5db39a5ab45003a485ccad055c12890c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-38
+
+
+FileName: /usr/include/X11/bitmaps/mensetmanus
+SPDXID: SPDXRef-xbitmaps-file-39
+FileChecksum: SHA1: a263af68be0a7c6712b4f803bad3bf7c3d56e2d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-39
+
+
+FileName: /usr/include/X11/bitmaps/menu10
+SPDXID: SPDXRef-xbitmaps-file-40
+FileChecksum: SHA1: 1e184f18d42c7e255e280e0ce1a27f1e96da8241
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-40
+
+
+FileName: /usr/include/X11/bitmaps/menu12
+SPDXID: SPDXRef-xbitmaps-file-41
+FileChecksum: SHA1: 11a9d350fc50c70c31ac699f1b97f5c81f9ee568
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-41
+
+
+FileName: /usr/include/X11/bitmaps/menu16
+SPDXID: SPDXRef-xbitmaps-file-42
+FileChecksum: SHA1: 2910a0db1c83aa45911afef9b501c853ed6ad518
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-42
+
+
+FileName: /usr/include/X11/bitmaps/menu6
+SPDXID: SPDXRef-xbitmaps-file-43
+FileChecksum: SHA1: d61111152c1a659f7b3fbd8ff0b62c9b7abee3ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-43
+
+
+FileName: /usr/include/X11/bitmaps/menu8
+SPDXID: SPDXRef-xbitmaps-file-44
+FileChecksum: SHA1: f423262ccf9d2f100ca4ef995213a166ce2aa216
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-44
+
+
+FileName: /usr/include/X11/bitmaps/noletters
+SPDXID: SPDXRef-xbitmaps-file-45
+FileChecksum: SHA1: e67c3a8898448f59b8bb125b1c5c7bb41ceb01d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-45
+
+
+FileName: /usr/include/X11/bitmaps/opendot
+SPDXID: SPDXRef-xbitmaps-file-46
+FileChecksum: SHA1: b59687291245dc5d98dc42db42919a15daa4a423
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-46
+
+
+FileName: /usr/include/X11/bitmaps/opendotMask
+SPDXID: SPDXRef-xbitmaps-file-47
+FileChecksum: SHA1: 5c145fd608a5cd0359ed2504a01c23ebf6c114d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-47
+
+
+FileName: /usr/include/X11/bitmaps/plaid
+SPDXID: SPDXRef-xbitmaps-file-48
+FileChecksum: SHA1: 215712af2ddecaaad8ac91633c70f59fd006413d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-48
+
+
+FileName: /usr/include/X11/bitmaps/right_ptr
+SPDXID: SPDXRef-xbitmaps-file-49
+FileChecksum: SHA1: 772bdc284e189c59e9bd98e756ef106f552a150d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-49
+
+
+FileName: /usr/include/X11/bitmaps/right_ptrmsk
+SPDXID: SPDXRef-xbitmaps-file-50
+FileChecksum: SHA1: a1064b615bb28bfdd6665567ab1d53bbb2508348
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-50
+
+
+FileName: /usr/include/X11/bitmaps/root_weave
+SPDXID: SPDXRef-xbitmaps-file-51
+FileChecksum: SHA1: 77731212822f51f5cafe57476d5eb8825dd5f390
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-51
+
+
+FileName: /usr/include/X11/bitmaps/scales
+SPDXID: SPDXRef-xbitmaps-file-52
+FileChecksum: SHA1: 9e0ea49d2730dc8db2747382e0b58c2f0c43520c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-52
+
+
+FileName: /usr/include/X11/bitmaps/sipb
+SPDXID: SPDXRef-xbitmaps-file-53
+FileChecksum: SHA1: 466b4fece8e0b17bfe1d20e8985db75bb76e3b2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-53
+
+
+FileName: /usr/include/X11/bitmaps/star
+SPDXID: SPDXRef-xbitmaps-file-54
+FileChecksum: SHA1: 5f2358c2fc9bda6fe24c222e0b5f16e3878167f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-54
+
+
+FileName: /usr/include/X11/bitmaps/starMask
+SPDXID: SPDXRef-xbitmaps-file-55
+FileChecksum: SHA1: fa34925dd0f53bdafbdf572d3df0577e76ea95e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-55
+
+
+FileName: /usr/include/X11/bitmaps/stipple
+SPDXID: SPDXRef-xbitmaps-file-56
+FileChecksum: SHA1: 832f2b82ec78bb0a2c03abfb4b693800476efd04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-56
+
+
+FileName: /usr/include/X11/bitmaps/target
+SPDXID: SPDXRef-xbitmaps-file-57
+FileChecksum: SHA1: e01199192245a9ee4567556b55454e976ea563f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-57
+
+
+FileName: /usr/include/X11/bitmaps/terminal
+SPDXID: SPDXRef-xbitmaps-file-58
+FileChecksum: SHA1: 5bb5f0aa5a9fbf5cf6acd9affb6a829d5018d362
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-58
+
+
+FileName: /usr/include/X11/bitmaps/tie_fighter
+SPDXID: SPDXRef-xbitmaps-file-59
+FileChecksum: SHA1: 099810b38952539f182b412c68107cfdec29c137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-59
+
+
+FileName: /usr/include/X11/bitmaps/vlines2
+SPDXID: SPDXRef-xbitmaps-file-60
+FileChecksum: SHA1: cf8836d245f5f44675ca1be61ade6758aa0d7628
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-60
+
+
+FileName: /usr/include/X11/bitmaps/vlines3
+SPDXID: SPDXRef-xbitmaps-file-61
+FileChecksum: SHA1: 73db3ad8b4d03761b2fa6d988271f905d3c91131
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-61
+
+
+FileName: /usr/include/X11/bitmaps/weird_size
+SPDXID: SPDXRef-xbitmaps-file-62
+FileChecksum: SHA1: 4029811ecf822a8befe9d0a8fa71cc6a1132a5f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-62
+
+
+FileName: /usr/include/X11/bitmaps/wide_weave
+SPDXID: SPDXRef-xbitmaps-file-63
+FileChecksum: SHA1: 7a4566fd7e90180522535c99d3c4535e653130d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-63
+
+
+FileName: /usr/include/X11/bitmaps/wingdogs
+SPDXID: SPDXRef-xbitmaps-file-64
+FileChecksum: SHA1: b6f5b40beb7096e33e853e02ac375a1a8797a7ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-64
+
+
+FileName: /usr/include/X11/bitmaps/woman
+SPDXID: SPDXRef-xbitmaps-file-65
+FileChecksum: SHA1: 35642004b0353e5be08ee9e75aebec52f7a0182b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-65
+
+
+FileName: /usr/include/X11/bitmaps/xfd_icon
+SPDXID: SPDXRef-xbitmaps-file-66
+FileChecksum: SHA1: c46a92d526dd6468cc10dcc94038906e701dbbd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-66
+
+
+FileName: /usr/include/X11/bitmaps/xlogo11
+SPDXID: SPDXRef-xbitmaps-file-67
+FileChecksum: SHA1: cabc8647487260126cf9b505f5387bdbea46ef6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-67
+
+
+FileName: /usr/include/X11/bitmaps/xlogo16
+SPDXID: SPDXRef-xbitmaps-file-68
+FileChecksum: SHA1: 68cde858854b8add56e176b0474f19112baa055f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-68
+
+
+FileName: /usr/include/X11/bitmaps/xlogo32
+SPDXID: SPDXRef-xbitmaps-file-69
+FileChecksum: SHA1: 96cea9ea987269ea7b65e979799cf6f1f56dd3bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-69
+
+
+FileName: /usr/include/X11/bitmaps/xlogo64
+SPDXID: SPDXRef-xbitmaps-file-70
+FileChecksum: SHA1: ef30c96cb23da06f6a46ed5a6409cf3cc9fcf4d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-70
+
+
+FileName: /usr/include/X11/bitmaps/xsnow
+SPDXID: SPDXRef-xbitmaps-file-71
+FileChecksum: SHA1: 09078bf40ba5b1a22741cdcf41d99eaa38aced17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-71
+
+
+FileName: /usr/share/doc/xbitmaps/changelog.Debian.gz
+SPDXID: SPDXRef-xbitmaps-file-72
+FileChecksum: SHA1: 7e90c768dbde63aee6eb0bed75e92a36a1948f36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-72
+
+
+FileName: /usr/share/pkgconfig/xbitmaps.pc
+SPDXID: SPDXRef-xbitmaps-file-73
+FileChecksum: SHA1: 37fbadb3d126b5d787c7cb0b3020d1bd7e474f7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xbitmaps CONTAINS SPDXRef-xbitmaps-file-73
+
+
+## Extracted License
+

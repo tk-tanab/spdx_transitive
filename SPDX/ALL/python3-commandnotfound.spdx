@@ -1,0 +1,140 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/python3-commandnotfound_22.04.0-3daad82c-397a-5a19-95ae-8ca44183abff
+DocumentName: python3-commandnotfound_22.04.0
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-python3-gdbm http://spdx.org/spdxdocs/python3-gdbm_3.10.6-1~22.04-8d8595f0-f4c1-58d2-bedd-ff8c891715b7 SHA1: 5aac3e58ff25996ebc8c72bb4a0d5baa095aab27
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-commandnotfound
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:48:32Z
+
+
+## Package
+
+PackageName: python3-commandnotfound
+PackageVersion: 22.04.0
+SPDXID: SPDXRef-python3-commandnotfound
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9f7bb724ae531b9b4e37394b4ea8a3ef60bf9395
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>(c) 2005-2008 Michael Vogt <michael.vogt@ubuntu.com>
+(c) 2008 Julian Andres Klode <jak@debian.org>
+Copyright (c) 2005-2008 Zygmunt Krynicki <zkrynicki@gmail.com>
+</text>
+PackageComment: <text>Python 3 bindings for command-not-found.
+ This package will install the Python 3 library for command_not_found tool.</text>
+Relationship: SPDXRef-python3-commandnotfound DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-lsb-release
+Relationship: SPDXRef-python3-commandnotfound DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3-apt
+Relationship: SPDXRef-python3-commandnotfound DEPENDS_ON DocumentRef-python3-gdbm:SPDXRef-python3-gdbm
+Relationship: SPDXRef-python3-commandnotfound DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+
+
+## File
+
+FileName: /usr/share/doc/python3-commandnotfound/copyright
+SPDXID: SPDXRef-python3-commandnotfound-file-0
+FileChecksum: SHA1: b490e5715c093cf18a72fc1bb7251c97bf839c68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright (c) 2005-2008 Zygmunt Krynicki <zkrynicki@gmail.com>
+Copyright (c) 2005-2008 Zygmunt Krynicki <zkrynicki@gmail.com>
+(c) 2005-2008 Michael Vogt <michael.vogt@ubuntu.com>
+(c) 2008 Julian Andres Klode <jak@debian.org>
+</text>
+Relationship: SPDXRef-python3-commandnotfound CONTAINS SPDXRef-python3-commandnotfound-file-0
+
+
+FileName: /usr/lib/python3/dist-packages/CommandNotFound/CommandNotFound.py
+SPDXID: SPDXRef-python3-commandnotfound-file-1
+FileChecksum: SHA1: da5f55a166153c047f71d396e59e3b630da64c36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-commandnotfound CONTAINS SPDXRef-python3-commandnotfound-file-1
+
+
+FileName: /usr/lib/python3/dist-packages/CommandNotFound/__init__.py
+SPDXID: SPDXRef-python3-commandnotfound-file-2
+FileChecksum: SHA1: 4f641c864fcf0bee0fa748b410922a9b2c2d7016
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-commandnotfound CONTAINS SPDXRef-python3-commandnotfound-file-2
+
+
+FileName: /usr/lib/python3/dist-packages/CommandNotFound/db/__init__.py
+SPDXID: SPDXRef-python3-commandnotfound-file-3
+FileChecksum: SHA1: a719a562760cf2c1b162a6fd1a9d9601173bb733
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-commandnotfound CONTAINS SPDXRef-python3-commandnotfound-file-3
+
+
+FileName: /usr/lib/python3/dist-packages/CommandNotFound/db/creator.py
+SPDXID: SPDXRef-python3-commandnotfound-file-4
+FileChecksum: SHA1: 8c5577bca1465c2f6d632c4f557de015f31ab34e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-commandnotfound CONTAINS SPDXRef-python3-commandnotfound-file-4
+
+
+FileName: /usr/lib/python3/dist-packages/CommandNotFound/db/db.py
+SPDXID: SPDXRef-python3-commandnotfound-file-5
+FileChecksum: SHA1: 89f7adc449effdb19ebd94ecce1b72ac16852f52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-commandnotfound CONTAINS SPDXRef-python3-commandnotfound-file-5
+
+
+FileName: /usr/lib/python3/dist-packages/CommandNotFound/util.py
+SPDXID: SPDXRef-python3-commandnotfound-file-6
+FileChecksum: SHA1: 5746f52c7a7a479ce31550ac452a1a10f1c05c5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-commandnotfound CONTAINS SPDXRef-python3-commandnotfound-file-6
+
+
+FileName: /usr/lib/python3/dist-packages/command_not_found-0.3.egg-info
+SPDXID: SPDXRef-python3-commandnotfound-file-7
+FileChecksum: SHA1: 6064a4c2550e1a28839d99f2e8303803d83e458a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-commandnotfound CONTAINS SPDXRef-python3-commandnotfound-file-7
+
+
+FileName: /usr/share/doc/python3-commandnotfound/changelog.gz
+SPDXID: SPDXRef-python3-commandnotfound-file-8
+FileChecksum: SHA1: 48932f026ca7d51a695b90d1f32b3d8b2e9b42e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-commandnotfound CONTAINS SPDXRef-python3-commandnotfound-file-8
+
+
+## Extracted License
+

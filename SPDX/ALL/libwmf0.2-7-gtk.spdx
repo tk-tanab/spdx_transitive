@@ -1,0 +1,125 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libwmf0.2-7-gtk_0.2.12-5ubuntu1-b297a67e-a355-55d4-b38e-e314b48b36f7
+DocumentName: libwmf0.2-7-gtk_0.2.12-5ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libwmf-0.2-7-gtk.Cycle http://spdx.org/spdxdocs/libwmf-0.2-7-gtk_0.2.12-5ubuntu1-00660115-25ff-509c-b8f4-5941951d1708 SHA1: 01704b0af37e11b890e9be6653253f60b381b504
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwmf0.2-7-gtk
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:19:04Z
+
+
+## Package
+
+PackageName: libwmf0.2-7-gtk
+PackageVersion: 0.2.12-5ubuntu1
+SPDXID: SPDXRef-libwmf0.2-7-gtk
+PackageHomePage: http://wvware.sourceforge.net/libwmf.html
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5bbd3f15de9ebbba27b38314af9027a0810e6cd9
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: AGPL-3.0-only
+PackageLicenseInfoFromFiles: GD
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: LGPL-2.0-only
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: PS-or-PDF-font-exception-20170817
+PackageLicenseInfoFromFiles: LicenseRef-scancode-apple-attribution-1997
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: <text>Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Copyright 1991-2002 Thomas G. Lane 1994-2002 Cold Spring Harbor Laboratory 1996-2002 Thomas Boutell (Boutell.Com, Inc.) 1999-2002 Greg Roelofs 1999-2002 John Ellson <ellson@lucent.com> 1999-2002 Philip Warner 2000-2002 Maurice Szmurlo <Maurice.Szmurlo@info.unicaen.fr> 2000-2002 Johan Van den Brande <johan@vandenbrande.com> 2000-2002 Doug Becker <thebeckers@home.com> 2000-2007 Pierre-Alain Joye <pierre@libgd.org>
+Copyright 1998-2000 Bjorn Reese and Daniel Stenberg
+Copyright 2000-2002 Francis James Franklin <fjf@alinameridon.com> 2001 ImageMagick Studio 2002 Dom Lachowicz 1985-1988
+Copyright 2015 URW Software 2013, 2014 (URW)++ Design & Development
+Copyright Matej Vela <vela@debian.org> 2020 Yangfl <mmyangfl@gmail.com>
+</text>
+PackageComment: <text>Windows metafile conversion GTK pixbuf plugin - transitional package
+ Windows metafile (WMF) is a picture format used by many Windows
+ programs, e.g. Microsoft Word.
+ .
+ This transitional package depends on the new names of the shared library
+ packages, to provide smooth upgrades from Debian 11. It can be removed
+ if no installed packages depend on it.</text>
+Relationship: SPDXRef-libwmf0.2-7-gtk DEPENDS_ON DocumentRef-libwmf-0.2-7-gtk.Cycle:SPDXRef-libwmf-0.2-7-gtk
+
+
+## File
+
+FileName: /usr/share/doc/libwmf0.2-7-gtk/copyright
+SPDXID: SPDXRef-libwmf0.2-7-gtk-file-0
+FileChecksum: SHA1: 897916039b71f49369b3ad1fff03c668c7104148
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: AGPL-3.0-only
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: GD
+LicenseInfoInFile: PS-or-PDF-font-exception-20170817
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: ISC
+LicenseInfoInFile: LicenseRef-scancode-apple-attribution-1997
+LicenseInfoInFile: LGPL-2.0-only
+FileCopyrightText: <text>Copyright 2000-2002 Francis James Franklin <fjf@alinameridon.com> 2001 ImageMagick Studio 2002 Dom Lachowicz 1985-1988
+Copyright 2015 URW Software 2013, 2014 (URW)++ Design & Development
+Copyright 1991-2002 Thomas G. Lane 1994-2002 Cold Spring Harbor Laboratory 1996-2002 Thomas Boutell (Boutell.Com, Inc.) 1999-2002 Greg Roelofs 1999-2002 John Ellson <ellson@lucent.com> 1999-2002 Philip Warner 2000-2002 Maurice Szmurlo <Maurice.Szmurlo@info.unicaen.fr> 2000-2002 Johan Van den Brande <johan@vandenbrande.com> 2000-2002 Doug Becker <thebeckers@home.com> 2000-2007 Pierre-Alain Joye <pierre@libgd.org>
+Copyright 1998-2000 Bjorn Reese and Daniel Stenberg
+Copyright Matej Vela <vela@debian.org> 2020 Yangfl <mmyangfl@gmail.com>
+Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+</text>
+Relationship: SPDXRef-libwmf0.2-7-gtk CONTAINS SPDXRef-libwmf0.2-7-gtk-file-0
+
+
+FileName: /usr/share/doc/libwmf0.2-7-gtk/NEWS.Debian.gz
+SPDXID: SPDXRef-libwmf0.2-7-gtk-file-1
+FileChecksum: SHA1: 5f921c7164bd2ab570f2ce35e59ba7c1f95c9b8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libwmf0.2-7-gtk CONTAINS SPDXRef-libwmf0.2-7-gtk-file-1
+
+
+FileName: /usr/share/doc/libwmf0.2-7-gtk/changelog.Debian.gz
+SPDXID: SPDXRef-libwmf0.2-7-gtk-file-2
+FileChecksum: SHA1: ee8188bd03180b0ebb7d931b506706c7c6e90808
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libwmf0.2-7-gtk CONTAINS SPDXRef-libwmf0.2-7-gtk-file-2
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-apple-attribution-1997
+LicenseName: Apple Attribution License 1997
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/apple-attribution-1997.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/apple-attribution-1997.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

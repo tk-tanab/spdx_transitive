@@ -1,0 +1,140 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-gujr-extra_1.0.1-1-a7381f19-748c-5431-9387-738878e43c04
+DocumentName: fonts-gujr-extra_1.0.1-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-gujr-extra
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:53:07Z
+
+
+## Package
+
+PackageName: fonts-gujr-extra
+PackageVersion: 1.0.1-1
+SPDXID: SPDXRef-fonts-gujr-extra
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5899f683d29d091a65e3fdf45a2ed02e5b938747
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) Cyberscape Multimedia Ltd
+Copyright 2004-2007, Magnet Technologies Pvt Ltd <team@utkarsh.org>
+Copyright 2004-2012, Debian-IN Team, 2012, Muneeb Shaikh <iammuneeb@gmail.com> 2013, Vasudev Kamath <kamathvasudev@gmail.com>
+Copyright 2012, Muneeb Shaikh <iammuneeb@gmail.com>
+</text>
+PackageComment: <text>Free fonts for Gujarati script
+ This package provides free fonts for Gujarati script which is primarily used
+ in the Indian state of Gujarat.
+ .
+ It includes following fonts:
+  * Aakar
+  * Padmaa
+  * Rekha</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-gujr-extra/copyright
+SPDXID: SPDXRef-fonts-gujr-extra-file-0
+FileChecksum: SHA1: 273d3b463b77644d9084b8d152e469ea667ea36d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2004-2007, Magnet Technologies Pvt Ltd <team@utkarsh.org>
+Copyright 2004-2007, Magnet Technologies Pvt Ltd <team@utkarsh.org>
+Copyright (c) Cyberscape Multimedia Ltd
+Copyright 2012, Muneeb Shaikh <iammuneeb@gmail.com>
+Copyright 2004-2012, Debian-IN Team, 2012, Muneeb Shaikh <iammuneeb@gmail.com> 2013, Vasudev Kamath <kamathvasudev@gmail.com>
+</text>
+Relationship: SPDXRef-fonts-gujr-extra CONTAINS SPDXRef-fonts-gujr-extra-file-0
+
+
+FileName: /etc/fonts/conf.avail/65-0-fonts-gujr-extra.conf
+SPDXID: SPDXRef-fonts-gujr-extra-file-1
+FileChecksum: SHA1: 84271264aac11abd890dd218b603a8ee56dea2ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr-extra CONTAINS SPDXRef-fonts-gujr-extra-file-1
+
+
+FileName: /usr/share/doc/fonts-gujr-extra/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-gujr-extra-file-2
+FileChecksum: SHA1: 33f1c6c1616c5e8bda9225643747db809f283c81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr-extra CONTAINS SPDXRef-fonts-gujr-extra-file-2
+
+
+FileName: /usr/share/fonts/truetype/fonts-gujr-extra/Rekha.ttf
+SPDXID: SPDXRef-fonts-gujr-extra-file-3
+FileChecksum: SHA1: fdaa5570987badad90def06526314dbc632c1461
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr-extra CONTAINS SPDXRef-fonts-gujr-extra-file-3
+
+
+FileName: /usr/share/fonts/truetype/fonts-gujr-extra/aakar-medium.ttf
+SPDXID: SPDXRef-fonts-gujr-extra-file-4
+FileChecksum: SHA1: dc8e7d13672983601434478d5082f3ff0a7f1e62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr-extra CONTAINS SPDXRef-fonts-gujr-extra-file-4
+
+
+FileName: /usr/share/fonts/truetype/fonts-gujr-extra/padmaa-Bold.1.1.ttf
+SPDXID: SPDXRef-fonts-gujr-extra-file-5
+FileChecksum: SHA1: 3180c4a36f9f83b62b8363563cc94333c29bc3cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr-extra CONTAINS SPDXRef-fonts-gujr-extra-file-5
+
+
+FileName: /usr/share/fonts/truetype/fonts-gujr-extra/padmaa-Medium-0.5.ttf
+SPDXID: SPDXRef-fonts-gujr-extra-file-6
+FileChecksum: SHA1: fa71fc5f9f57675e7af29c568b3fd3d9538b68de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr-extra CONTAINS SPDXRef-fonts-gujr-extra-file-6
+
+
+FileName: /usr/share/fonts/truetype/fonts-gujr-extra/padmaa.ttf
+SPDXID: SPDXRef-fonts-gujr-extra-file-7
+FileChecksum: SHA1: fc6348f7e18a4796a24b0e0d8026d527a2a937b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr-extra CONTAINS SPDXRef-fonts-gujr-extra-file-7
+
+
+FileName: /etc/fonts/conf.d/65-0-fonts-gujr-extra.conf
+SPDXID: SPDXRef-fonts-gujr-extra-file-8
+FileChecksum: SHA1: 84271264aac11abd890dd218b603a8ee56dea2ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr-extra CONTAINS SPDXRef-fonts-gujr-extra-file-8
+
+
+## Extracted License
+

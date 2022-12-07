@@ -1,0 +1,749 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libmono-corlib4.5-dll_6.8.0.105+dfsg-3.2-53888033-290b-5d72-a53d-4d7a71a6bbd6
+DocumentName: libmono-corlib4.5-dll_6.8.0.105+dfsg-3.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmono-corlib4.5-dll
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:44:28Z
+
+
+## Package
+
+PackageName: libmono-corlib4.5-dll
+PackageVersion: 6.8.0.105+dfsg-3.2
+SPDXID: SPDXRef-libmono-corlib4.5-dll
+PackageHomePage: http://www.mono-project.com/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: a76b0c5cff321bd9cc3fbf0500d210ae910ce5b6
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: MS-PL
+PackageLicenseInfoFromFiles: Zlib
+PackageLicenseInfoFromFiles: zlib-acknowledgement
+PackageLicenseInfoFromFiles: LicenseRef-scancode-apple-attribution-1997
+PackageLicenseInfoFromFiles: LicenseRef-scancode-mozilla-gc
+PackageLicenseInfoFromFiles: LicenseRef-scancode-openssl
+PackageLicenseInfoFromFiles: LicenseRef-scancode-ssleay-windows
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unicode-mappings
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>(c) 1991-1996 by Xerox Corporation
+(c) 1995-2006 Jean-loup Gailly
+(c) 1996, 1997 Taligent, Inc.
+(c) 1996-1998 John D. Polstra
+(c) 1996-1999 IBM Corp.
+(c) 1996-1999 by Silicon Graphics
+(c) 1998 Fergus Henderson
+(c) 1998-2005 Gilles Vollant
+(c) 1998-2007 The OpenSSL Project
+(c) 1999-2001 by Red Hat, Inc.
+(c) 1999-2001, 2004-2006, 2008, 2011 Free Software Foundation, Inc
+(c) 1999-2004 by Hewlett-Packard Company
+(c) 2000 Intel Corporation
+(c) 2000-2016 SharpZipLib
+(c) 2001 Andreas Jonsson
+(c) 2001 Andrew Sutton
+(c) 2001 Bob Smith. http://www.thestuff.net
+(c) 2001 Chris Hynes
+(c) 2001 Christopher Podurgiel
+(c) 2001 Daniel
+(c) 2001 David Dawkins
+(c) 2001 Derek Holden (dholden@draper.com)
+(c) 2001 Garrett Rooney (rooneg@electricjellyfish.net)
+(c) 2001 John Barnette
+(c) 2001 John R. Hicks (angryjohn69@nc.rr.com)
+(c) 2001 Krister Hansson
+(c) 2001 Mads Pultz
+(c) 2001 Marcel Narings
+(c) 2001 Martin Weindel
+(c) 2001 Matthew S. Ford
+(c) 2001 Michael Lambert
+(c) 2001 Moonlight Enterprises
+(c) 2001 Phillip Pearson (http://www.myelin.co.nz)
+(c) 2001 Radek Doulik
+(c) 2001 Ricardo Fernandez Pascual
+(c) 2001 Scott Sanders
+(c) 2001 Southern Storm Software, Pty Ltd.
+(c) 2001 Wictor Wilen (wictor@iBizkit.se)
+(c) 2001-2002 Jason Diamond http://injektilo.org
+(c) 2001-2002 Marcin Szczepanski
+(c) 2001-2002 Mike Kestner
+(c) 2001-2002 Nick Drochak II
+(c) 2001-2002 Southern Storm Software, Pty Ltd.
+(c) 2001-2002 Vladimir Vukicevic (vladimir@pobox.com)
+(c) 2001-2002 Wild West Software
+(c) 2001-2003 Ximian, Inc. http://www.ximian.com
+(c) 2001-2005 Mike Krueger
+(c) 2002 Alejandro Sanchez Acosta <raciel@es.gnu.org>
+(c) 2002 Ameya Sailesh Gargesh (ameya_13@yahoo.com)
+(c) 2002 Brian Ritchie
+(c) 2002 Chew Keong TAN
+(c) 2002 Chris J Breisch
+(c) 2002 Dan Lewis
+(c) 2002 Daniel Stodden <stodden@in.tum.de>
+(c) 2002 Duco Fijma
+(c) 2002 Franklin Wise
+(c) 2002 Free Software Foundation
+(c) 2002 Gaurav Vaish
+(c) 2002 Jaime Anguiano Olarra
+(c) 2002 John Donagher
+(c) 2002 Jon Guymon
+(c) 2002 Kevin Winchester
+(c) 2002 Kral Ferch
+(c) 2002 Lawrence Pit
+(c) 2002 Martin Adoue
+(c) 2002 Martin Baulig
+(c) 2002 Matt Hunter
+(c) 2002 Miguel de Icaza
+(c) 2002 Owen Brady
+(c) 2002 Piers Haken
+(c) 2002 Richard Boulton
+(c) 2002 Rodrigo Moya
+(c) 2002 Stuart Caborn
+(c) 2002 Sun Microsystems, Inc.
+(c) 2002 Ulrich Kunitz
+(c) 2002-2003 Alp Toker <alp@atoker.com>
+(c) 2002-2003 Dave Bettin
+(c) 2002-2003 Eduardo Garcia Cebollero <kiwnix@yahoo.es>
+(c) 2002-2003 Greg Reinacker, Reinacker & Associates, Inc.
+(c) 2002-2003 Jackson Harper
+(c) 2002-2003 Sergey Chaban (serge@wildwestsoftware.com)
+(c) 2002-2003 Ville Palo
+(c) 2002-2004 Alexei A. Vorontsov
+(c) 2002-2004 James W. Newkirk
+(c) 2002-2004 Michael C. Two
+(c) 2002-2004 Motus Technologies Inc. (http://www.motus.com)
+(c) 2002-2004 Neale Ferguson
+(c) 2002-2004 Tim Coleman
+(c) 2002-2005 Cesar Lopez Nataren
+(c) 2002-2005 Lluis Sanchez Gual
+(c) 2002-2005 Rafael Teixeira
+(c) 2002-2007, 2009 Jeroen Frijters
+(c) 2002-2008 Charlie Poole
+(c) 2002-2008 Daniel Morgan
+(c) 2002-2008 Mainsoft Corporation
+(c) 2002-2011 Novell, Inc (http://www.novell.com)
+(c) 2003 Aleksey Sanin (aleksey@aleksey.com)
+(c) 2003 Alexandre Pigolkine (pigolkine@gmx.de)
+(c) 2003 Brad Fitzpatrick
+(c) 2003 Dominik Fretz
+(c) 2003 Duncan Mak, Ximian Inc.
+(c) 2003 Eric Glass
+(c) 2003 Erik LeBel
+(c) 2003 Gilles Freart
+(c) 2003 Ian MacLean
+(c) 2003 Jean-Marc Andre <jean-marc.andre@polymtl.ca>
+(c) 2003 Jochen Wezel (CompuMaster GmbH)
+(c) 2003 Johannes Roith <johannes@jroith.de>
+(c) 2003 Joshua Tauberer
+(c) 2003 Latitude Geographics Group
+(c) 2003 Lee Mallabone <gnome@fonicmonkey.net>
+(c) 2003 Martin Willemoes Hansen
+(c) 2003 Motus Technologies Inc. (http://www.motus.com)
+(c) 2003 Oleg Tkachenko
+(c) 2003 PT Cakram Datalingga Duaribu http://www.cdl2000.com
+(c) 2003 Patrick Kalkman
+(c) 2003 Patrik Torstensson
+(c) 2003 Pedro Martinez Julia <yoros@wanadoo.es>
+(c) 2003 Peter Van Isacker
+(c) 2003 Phillip Jerkins
+(c) 2003 Stefan Gorling
+(c) 2003 The Mentalis.org Team (http://www.mentalis.org/)
+(c) 2003 Thong (Tum) Nguyen tum@veridicus.com
+(c) 2003-2004 Andreas Nahr
+(c) 2003-2004 Atsushi Enomoto
+(c) 2003-2004 Ben Maurer
+(c) 2003-2004 Bernie Solomon
+(c) 2003-2004 Carlos Guzman Alvarez
+(c) 2003-2004 Todd Berman
+(c) 2003-2007 Alp Toker <alp@atoker.com>
+(c) 2003-2007 Juraj Skripsky
+(c) 2003-2008 Jonathan Pryor
+(c) 2003-2008 Niels Kokholm
+(c) 2003-2008 Peter Sestoft
+(c) 2003-2009 Novell, Inc
+(c) 2004 Apple Computer, Inc.
+(c) 2004 Edd Dumbill
+(c) 2004 Everaldo Canuto
+(c) 2004 Francisco T. Martinez <paco@mfcon.com>
+(c) 2004 IT+ A/S (http://www.itplus.dk)
+(c) 2004 Ivan Hamilton
+(c) 2004 Jeroen Frijters
+(c) 2004 Luca Barbieri
+(c) 2004 Matthijs ter Woord
+(c) 2004 Punit Todi
+(c) 2004 The Mozilla Foundation
+(c) 2004-2005 Geoff Norton
+(c) 2004-2005 John Reilly
+(c) 2004-2006 Jaroslaw Kowalski
+(c) 2004-2006 John Luke
+(c) 2004-2006 Jonathan Pryor
+(c) 2004-2006 Novell Inc. (http://www.novell.com)
+(c) 2004-2008 Gert Driesen
+(c) 2004-2008 HotFeet GmbH (http://www.hotfeet.ch)
+(c) 2004-2013 Charlie Poole
+(c) 2004-2013 Mirco Bauer <meebey@debian.org>
+(c) 2005 Carlo Kok (ck@carlo-kok.com)
+(c) 2005 Colin Watson <cjwatson@debian.org>
+(c) 2005 Daniel Drake
+(c) 2005 David Waite (mass@akuma.org)
+(c) 2005 Hubert FONGARNAND
+(c) 2005 Iain McCoy
+(c) 2005 Nokia
+(c) 2005 Senganal T
+(c) 2005 Sharif FarsiWeb, Inc. (http://www.farsiweb.info)
+(c) 2005 Voelcker Informatik AG
+(c) 2005 akiramei (mei@work.email.ne.jp)
+(c) 2005-2007 Marek Sieradzki
+(c) 2005-2008 Jiri George Moudry
+(c) 2005-2008 Kornel Pal
+(c) 2005-2009 Novell, Inc.
+(c) 2005-2015 Andy Polyakov <appro@openssl.org>
+(c) 2005-2015 Jb Evain (http://evain.net)
+(c) 2006 Active Endpoints, Inc
+(c) 2006 Alexander Olk
+(c) 2006 Broadcom
+(c) 2006 Bruno Haible
+(c) 2006 Evaluant RC S.A
+(c) 2006 Forcom (http://www.forcom.com.pl/)
+(c) 2006 Marek Habersack
+(c) 2006 Matt Hargett
+(c) 2006 Patrick Earl
+(c) 2006 Sebastian Droge <slomo@debian.org>
+(c) 2006 Sergey Tikhonov (tsv@solvo.ru)
+(c) 2006 Sridhar Kulkarni
+(c) 2006-2007 Dmitry S. Kataev
+(c) 2006-2007 Dylan R. E. Moonfire <debian@mfgames.com>
+(c) 2006-2009 Daniel Nauck
+(c) 2006-2009 Jonathan Chambers
+(c) 2006-2012 The Apache Software Foundation
+(c) 2006-2013 Volker Berlin
+(c) 2007 Andreas Noever
+(c) 2007 Andreas Schlapsi
+(c) 2007 Dean Brettle
+(c) 2007 Marcos Cobena (http://www.youcannoteatbits.org/)
+(c) 2007 Randolph Chung
+(c) 2007 Red Hat, Inc
+(c) 2007-2008 Andreas Faerber
+(c) 2007-2008 Andreia Gaita
+(c) 2007-2008 Ivan N. Zlatev
+(c) 2007-2008 Pascal Craponne
+(c) 2007-2008 Stefan Klinger
+(c) 2007-2009 Microsoft Corporation
+(c) 2008 Andy Hume
+(c) 2008 Eric Butler
+(c) 2008 George Giolfan
+(c) 2008 James Fitzsimons
+(c) 2008 John Resig (jquery.com)
+(c) 2008 Juerg Billeter
+(c) 2008 Michael Barker
+(c) 2008 Novell (http://www.novell.com)
+(c) 2008 Realtime Worlds Ltd
+(c) 2008 db4objects, Inc. (http://www.db4o.com)
+(c) 2008-2009 Jeremie Garuma Laval
+(c) 2008-2010 Jo Shields <directhex@apebox.org>
+(c) 2008-2011 Jb Evain
+(c) 2009 AMQP Working Group
+(c) 2009 Aaron Bockover
+(c) 2009 Craig Sutherland
+(c) 2009 Eric Maupin (http://www.ermau.com)
+(c) 2009 Federico Di Gregorio
+(c) 2009 Olivier Dufour
+(c) 2009 Simon Mourier
+(c) 2009 leppie (http://xacc.wordpress.com/)
+(c) 2009-2012 Volker Berlin
+(c) 2009-2015 Jeroen Frijters
+(c) 2010, 2012 Jo Shields <directhex@apebox.org>
+(c) 2010-2011 Karsten Heinrich
+(c) 2011 Alexander Chebaturkin
+(c) 2011 Marek Safar
+(c) 2011 Rodrigo Kumpera
+(c) 2011 Trevor Bell (Siemens Energy, Inc.)
+(c) 2011-2018 Xamarin Inc (http://www.xamarin.com)
+(c) 2012 Petr Onderka
+(c) 2012-2014 Intel Corporation
+(c) 2014 Intel Corporation
+(c) 2015 .NET Foundation
+(c) 2015 Steffen Kiess
+(c) 2015-2016 Quamotion (http://quamotion.mobi)
+(c) 2015-2018 .NET Foundation
+(c) 2016 Dot net foundation
+(c) 2016 Microsoft Corporation
+(c) 2016 Unity Technologies (https://www.unity3d.com)
+(c) 2016-2018 Microsoft
+Copyright (c) 1988-1989 Hans-J. Boehm, Alan J. Demers
+Copyright (c) 1989-1993 The Regents of the University of California
+Copyright (c) 1990-2000 Info-ZIP.
+Copyright (c) 1991-2001 by Lucent Technologies
+Copyright (c) 1994-1997, 2003, 2006-2008, 2010-2012 Oracle and/or its affiliates
+Copyright (c) 1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+Copyright (c) 1995-1998 Eric Young (eay@cryptsoft.com)
+Copyright (c) 1995-2006 Mark Adler
+Copyright (c) 1998-2000 World Wide Web Consortium
+Copyright (c) 1998-2001 Free Software Foundation, Inc.
+Copyright (c) 1998-2011 The OpenSSL Project
+Copyright (c) 1999-2005, 2011 Free Software Foundation, Inc
+Copyright (c) 2000-2002 Philip A. Craig
+Copyright (c) 2001 Dr Martin Porter
+Copyright (c) 2001-2003 Ximian, Inc (http://www.ximian.com)
+Copyright (c) 2001-2004 Unicode, Inc.
+Copyright (c) 2002 Robert McQueen <robot101@debian.org>
+Copyright (c) 2002-2003 Ximian, Inc. http://www.ximian.com
+Copyright (c) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright (c) 2002-2013 Jeroen Frijters
+Copyright (c) 2003 Ximian, Inc (http://www.ximian.com)
+Copyright (c) 2004 Kungliga Tekniska Hogskolan
+Copyright (c) 2004 The Apache Software Foundation
+Copyright (c) 2005, 2007-2010 Mirco Bauer <meebey@debian.org>
+Copyright (c) 2006-2012 The Apache Software Foundation
+Copyright (c) 2007 James Newton-King
+Copyright (c) 2007-2009 Atif Aziz, Joseph Albahari
+Copyright (c) 2008 Novell, Inc.
+Copyright (c) 2008-2011 Jeremie Garuma Laval
+Copyright (c) 2009 RemObjects Software
+Copyright (c) 2010 Chris Bacon
+Copyright (c) 2011 Gonzalo Paniagua Javier
+Copyright (c) 2011 Jeremie garuma Laval
+Copyright (c) 2011 Xamarin, Inc.
+Copyright (c) 2011-2012 Xamarin Inc (http://www.xamarin.com)
+Copyright (c) 2014-2016 Google Inc.
+Copyright (c) Ilya Konstantinov <future@shiny.co.il>
+Copyright (c) Microsoft
+Copyright (c) Microsoft Corporation
+Copyright (c) Microsoft Open Technologies, Inc.
+Copyright Microsoft Open Technologies, Inc.
+Portions Copyright (c) 2002-2007 Charlie Poole
+holder is Tim Hudson (tjh@cryptsoft.com)
+</text>
+PackageComment: <text>Mono core library (for CLI 4.5)
+ Mono is a platform for running and developing applications based on the
+ ECMA/ISO Standards. Mono is an open source effort led by Xamarin.
+ Mono provides a complete CLR (Common Language Runtime) including compiler and
+ runtime, which can produce and execute CIL (Common Intermediate Language)
+ bytecode (aka assemblies), and a class library.
+ .
+ This package contains the Core Library (mscorlib.dll) of Mono for CLI 4.5,
+ which is the glue between the BCL (Base Class Libraries) and the JIT.
+ .
+ This package contains only mscorlib.dll without a mono-runtime dependency
+ to avoid a dependency cycle between the mono core components. For all other
+ uses you should install libmono-corlib4.5-cil instead.</text>
+Relationship: SPDXRef-libmono-corlib4.5-dll DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-tzdata
+
+
+## File
+
+FileName: /usr/share/doc/libmono-corlib4.5-dll/copyright
+SPDXID: SPDXRef-libmono-corlib4.5-dll-file-0
+FileChecksum: SHA1: 887e407ad51b537b84e40ac3ef8c052ea277b21e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: zlib-acknowledgement
+LicenseInfoInFile: LicenseRef-scancode-ssleay-windows
+LicenseInfoInFile: LicenseRef-scancode-unicode-mappings
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-apple-attribution-1997
+LicenseInfoInFile: LicenseRef-scancode-mozilla-gc
+LicenseInfoInFile: MIT
+LicenseInfoInFile: ISC
+LicenseInfoInFile: MS-PL
+LicenseInfoInFile: LicenseRef-scancode-openssl
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: Zlib
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (c) 1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+(c) 2000 Intel Corporation
+(c) 2001 Andreas Jonsson
+(c) 2001 Andrew Sutton
+(c) 2001 Bob Smith. http://www.thestuff.net
+(c) 2001 Chris Hynes
+(c) 2001 Christopher Podurgiel
+(c) 2001 Daniel
+(c) 2001 David Dawkins
+(c) 2001 Derek Holden (dholden@draper.com)
+(c) 2001 Garrett Rooney (rooneg@electricjellyfish.net)
+(c) 2001 John Barnette
+(c) 2001 John R. Hicks (angryjohn69@nc.rr.com)
+(c) 2001 Krister Hansson
+(c) 2001 Mads Pultz
+(c) 2001 Marcel Narings
+(c) 2001 Martin Weindel
+(c) 2001 Matthew S. Ford
+(c) 2001 Michael Lambert
+(c) 2001 Moonlight Enterprises
+(c) 2001 Phillip Pearson (http://www.myelin.co.nz)
+(c) 2001 Radek Doulik
+(c) 2001 Ricardo Fernandez Pascual
+(c) 2001 Scott Sanders
+(c) 2001 Wictor Wilen (wictor@iBizkit.se)
+(c) 2001-2002 Jason Diamond http://injektilo.org
+(c) 2001-2002 Marcin Szczepanski
+(c) 2001-2002 Mike Kestner
+(c) 2001-2002 Nick Drochak II
+(c) 2001-2002 Southern Storm Software, Pty Ltd.
+(c) 2001-2002 Vladimir Vukicevic (vladimir@pobox.com)
+(c) 2001-2002 Wild West Software
+(c) 2001-2003 Ximian, Inc. http://www.ximian.com
+(c) 2002 Alejandro Sanchez Acosta <raciel@es.gnu.org>
+(c) 2002 Ameya Sailesh Gargesh (ameya_13@yahoo.com)
+(c) 2002 Brian Ritchie
+(c) 2002 Chew Keong TAN
+(c) 2002 Chris J Breisch
+(c) 2002 Dan Lewis
+(c) 2002 Daniel Stodden <stodden@in.tum.de>
+(c) 2002 Duco Fijma
+(c) 2002 Franklin Wise
+(c) 2002 Free Software Foundation
+(c) 2002 Gaurav Vaish
+(c) 2002 Jaime Anguiano Olarra
+(c) 2002 John Donagher
+(c) 2002 Jon Guymon
+(c) 2002 Kevin Winchester
+(c) 2002 Kral Ferch
+(c) 2002 Lawrence Pit
+(c) 2002 Martin Adoue
+(c) 2002 Martin Baulig
+(c) 2002 Matt Hunter
+(c) 2002 Miguel de Icaza
+(c) 2002 Owen Brady
+(c) 2002 Piers Haken
+(c) 2002 Rodrigo Moya
+(c) 2002 Stuart Caborn
+(c) 2002 Ulrich Kunitz
+(c) 2002-2003 Dave Bettin
+(c) 2002-2003 Eduardo Garcia Cebollero <kiwnix@yahoo.es>
+(c) 2002-2003 Greg Reinacker, Reinacker & Associates, Inc.
+(c) 2002-2003 Jackson Harper
+(c) 2002-2003 Sergey Chaban (serge@wildwestsoftware.com)
+(c) 2002-2003 Ville Palo
+(c) 2002-2004 Motus Technologies Inc. (http://www.motus.com)
+(c) 2002-2004 Neale Ferguson
+(c) 2002-2004 Tim Coleman
+(c) 2002-2005 Cesar Lopez Nataren
+(c) 2002-2005 Lluis Sanchez Gual
+(c) 2002-2005 Rafael Teixeira
+(c) 2002-2008 Daniel Morgan
+(c) 2002-2008 Mainsoft Corporation
+(c) 2002-2011 Novell, Inc (http://www.novell.com)
+(c) 2003 Aleksey Sanin (aleksey@aleksey.com)
+(c) 2003 Alexandre Pigolkine (pigolkine@gmx.de)
+(c) 2003 Brad Fitzpatrick
+(c) 2003 Dominik Fretz
+(c) 2003 Duncan Mak, Ximian Inc.
+(c) 2003 Eric Glass
+(c) 2003 Erik LeBel
+(c) 2003 Gilles Freart
+(c) 2003 Ian MacLean
+(c) 2003 Jean-Marc Andre <jean-marc.andre@polymtl.ca>
+(c) 2003 Jochen Wezel (CompuMaster GmbH)
+(c) 2003 Johannes Roith <johannes@jroith.de>
+(c) 2003 Joshua Tauberer
+(c) 2003 Latitude Geographics Group
+(c) 2003 Lee Mallabone <gnome@fonicmonkey.net>
+(c) 2003 Martin Willemoes Hansen
+(c) 2003 Oleg Tkachenko
+(c) 2003 Patrick Kalkman
+(c) 2003 Patrik Torstensson
+(c) 2003 Pedro Martinez Julia <yoros@wanadoo.es>
+(c) 2003 Peter Van Isacker
+(c) 2003 Phillip Jerkins
+(c) 2003 PT Cakram Datalingga Duaribu http://www.cdl2000.com
+(c) 2003 Stefan Gorling
+(c) 2003 The Mentalis.org Team (http://www.mentalis.org/)
+(c) 2003 Thong (Tum) Nguyen tum@veridicus.com
+(c) 2003-2004 Andreas Nahr
+(c) 2003-2004 Atsushi Enomoto
+(c) 2003-2004 Ben Maurer
+(c) 2003-2004 Bernie Solomon
+(c) 2003-2004 Carlos Guzman Alvarez
+(c) 2003-2004 Todd Berman
+(c) 2003-2007 Alp Toker <alp@atoker.com>
+(c) 2003-2007 Juraj Skripsky
+(c) 2003-2008 Jonathan Pryor
+(c) 2003-2008 Niels Kokholm
+(c) 2003-2008 Peter Sestoft
+(c) 2004 Edd Dumbill
+(c) 2004 Everaldo Canuto
+(c) 2004 IT+ A/S (http://www.itplus.dk)
+(c) 2004 Ivan Hamilton
+(c) 2004 Luca Barbieri
+(c) 2004 Matthijs ter Woord
+(c) 2004 Punit Todi
+(c) 2004-2005 Geoff Norton
+(c) 2004-2006 Jaroslaw Kowalski
+(c) 2004-2006 John Luke
+(c) 2004-2008 Gert Driesen
+(c) 2004-2008 HotFeet GmbH (http://www.hotfeet.ch)
+(c) 2004-2013 Charlie Poole
+(c) 2005 akiramei (mei@work.email.ne.jp)
+(c) 2005 Carlo Kok (ck@carlo-kok.com)
+(c) 2005 David Waite (mass@akuma.org)
+(c) 2005 Hubert FONGARNAND
+(c) 2005 Iain McCoy
+(c) 2005 Senganal T
+(c) 2005 Sharif FarsiWeb, Inc. (http://www.farsiweb.info)
+(c) 2005 Voelcker Informatik AG
+(c) 2005-2007 Marek Sieradzki
+(c) 2005-2008 Jiri George Moudry
+(c) 2005-2008 Kornel Pal
+(c) 2005-2015 Jb Evain (http://evain.net)
+(c) 2006 Alexander Olk
+(c) 2006 Broadcom
+(c) 2006 Bruno Haible
+(c) 2006 Evaluant RC S.A
+(c) 2006 Forcom (http://www.forcom.com.pl/)
+(c) 2006 Marek Habersack
+(c) 2006 Matt Hargett
+(c) 2006 Patrick Earl
+(c) 2006 Sergey Tikhonov (tsv@solvo.ru)
+(c) 2006 Sridhar Kulkarni
+(c) 2006-2007 Dmitry S. Kataev
+(c) 2006-2009 Daniel Nauck
+(c) 2006-2009 Jonathan Chambers
+(c) 2007 Andreas Noever
+(c) 2007 Dean Brettle
+(c) 2007 Marcos Cobena (http://www.youcannoteatbits.org/)
+(c) 2007 Randolph Chung
+(c) 2007-2008 Andreas Faerber
+(c) 2007-2008 Andreia Gaita
+(c) 2007-2008 Ivan N. Zlatev
+(c) 2007-2008 Pascal Craponne
+(c) 2007-2008 Stefan Klinger
+(c) 2008 Andy Hume
+(c) 2008 db4objects, Inc. (http://www.db4o.com)
+(c) 2008 Eric Butler
+(c) 2008 George Giolfan
+(c) 2008 James Fitzsimons
+(c) 2008 Michael Barker
+(c) 2008 Realtime Worlds Ltd
+(c) 2008-2009 Jeremie Garuma Laval
+(c) 2009 Aaron Bockover
+(c) 2009 Craig Sutherland
+(c) 2009 Eric Maupin (http://www.ermau.com)
+(c) 2009 Federico Di Gregorio
+(c) 2009 leppie (http://xacc.wordpress.com/)
+(c) 2009 Olivier Dufour
+(c) 2011 Rodrigo Kumpera
+(c) 2011-2018 Xamarin Inc (http://www.xamarin.com)
+(c) 2015 Steffen Kiess
+(c) 2015-2016 Quamotion (http://quamotion.mobi)
+(c) 2015-2018 .NET Foundation
+(c) 2016 Unity Technologies (https://www.unity3d.com)
+(c) 2016 Dot net foundation
+(c) 2016-2018 Microsoft
+Copyright (c) 2002 Robert McQueen <robot101@debian.org>
+(c) 2002-2003 Alp Toker <alp@atoker.com>
+(c) 2004-2013 Mirco Bauer <meebey@debian.org>
+(c) 2008-2010 Jo Shields <directhex@apebox.org>
+Copyright (c) Ilya Konstantinov <future@shiny.co.il>
+(c) 2005 Colin Watson <cjwatson@debian.org>
+Copyright (c) 1988-1989 Hans-J. Boehm, Alan J. Demers
+(c) 1991-1996 by Xerox Corporation
+(c) 1996-1999 by Silicon Graphics
+(c) 1998 Fergus Henderson
+(c) 1999-2004 by Hewlett-Packard Company
+(c) 1999-2001 by Red Hat, Inc.
+Copyright (c) 1998-2001 Free Software Foundation, Inc.
+(c) 2000-2016 SharpZipLib
+(c) 2001 Southern Storm Software, Pty Ltd.
+(c) 2001-2005 Mike Krueger
+(c) 2004 Francisco T. Martinez <paco@mfcon.com>
+(c) 2004-2005 John Reilly
+Copyright (c) 2003 Ximian, Inc (http://www.ximian.com)
+(c) 2007-2009 Microsoft Corporation
+(c) 2009 Simon Mourier
+Copyright (c) 2004 The Apache Software Foundation
+(c) 2015 .NET Foundation
+(c) 2016 Microsoft Corporation
+Copyright (c) 2001-2003 Ximian, Inc (http://www.ximian.com)
+(c) 2003-2009 Novell, Inc
+(c) 2008 John Resig (jquery.com)
+Copyright (c) 2008 Novell, Inc.
+Copyright (c) 2009 RemObjects Software
+(c) 2008 Novell (http://www.novell.com)
+Copyright (c) 2007 James Newton-King
+Copyright (c) 2000-2002 Philip A. Craig
+(c) 2002-2004 James W. Newkirk
+(c) 2002-2004 Michael C. Two
+(c) 2002-2004 Alexei A. Vorontsov
+(c) 2002-2008 Charlie Poole
+(c) 2009-2015 Jeroen Frijters
+(c) 2011 Marek Safar
+Portions Copyright (c) 2002-2007 Charlie Poole
+Copyright (c) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright (c) 2000-2002 Philip A. Craig
+Copyright (c) 1991-2001 by Lucent Technologies
+(c) 2007 Andreas Schlapsi
+Copyright (c) 1989-1993 The Regents of the University of California
+(c) 1996-1998 John D. Polstra
+(c) 2004 Apple Computer, Inc.
+(c) 2004 Jeroen Frijters
+(c) 2004 The Mozilla Foundation
+(c) 2009 AMQP Working Group
+Copyright (c) 2010 Chris Bacon
+(c) 2011 Alexander Chebaturkin
+Copyright (c) 2008-2011 Jeremie Garuma Laval
+Copyright (c) Microsoft Corporation
+Copyright (c) 2011-2012 Xamarin Inc (http://www.xamarin.com)
+Copyright (c) 2011 Jeremie garuma Laval
+(c) 2012 Petr Onderka
+Copyright (c) Microsoft Corporation
+Copyright (c) 1995-1998 Eric Young (eay@cryptsoft.com)
+(c) 1998-2007 The OpenSSL Project
+(c) 2002 Sun Microsystems, Inc.
+(c) 2005 Nokia
+Copyright (c) 1998-2011 The OpenSSL Project
+(c) 2002 Sun Microsystems, Inc.
+(c) 2005-2015 Andy Polyakov <appro@openssl.org>
+Copyright (c) 1995-1998 Eric Young (eay@cryptsoft.com)
+Copyright (c) 2014-2016 Google Inc.
+(c) 2014 Intel Corporation
+Copyright (c) 2004 Kungliga Tekniska Hogskolan
+(c) 2012-2014 Intel Corporation
+Copyright (c) 2011 Xamarin, Inc.
+Copyright (c) 2011 Gonzalo Paniagua Javier
+Copyright (c) 2006-2012 The Apache Software Foundation
+Copyright (c) 2001 Dr Martin Porter
+(c) 2002 Richard Boulton
+(c) 2006-2012 The Apache Software Foundation
+Copyright (c) 2001-2004 Unicode, Inc.
+(c) 2006-2012 The Apache Software Foundation
+Copyright (c) 2007 James Newton-King
+Copyright (c) 2007-2009 Atif Aziz, Joseph Albahari
+Copyright (c) Microsoft Corporation
+Copyright (c) 1998-2000 World Wide Web Consortium
+Copyright (c) 2002-2003 Ximian, Inc. http://www.ximian.com
+(c) 2003 Motus Technologies Inc. (http://www.motus.com)
+(c) 2004-2006 Novell Inc. (http://www.novell.com)
+(c) 2008-2011 Jb Evain
+(c) 2008 Juerg Billeter
+Copyright (c) Microsoft
+Copyright (c) Microsoft Open Technologies, Inc.
+Copyright (c) 1994-1997, 2003, 2006-2008, 2010-2012 Oracle and/or its affiliates
+(c) 1996, 1997 Taligent, Inc.
+(c) 1996-1999 IBM Corp.
+(c) 1999-2001, 2004-2006, 2008, 2011 Free Software Foundation, Inc
+(c) 2002-2007, 2009 Jeroen Frijters
+(c) 2007 Red Hat, Inc
+(c) 2009-2012 Volker Berlin
+(c) 2010-2011 Karsten Heinrich
+Copyright (c) 1999-2005, 2011 Free Software Foundation, Inc
+Copyright (c) 2002-2013 Jeroen Frijters
+(c) 2006-2013 Volker Berlin
+(c) 2006 Active Endpoints, Inc
+(c) 2010-2011 Karsten Heinrich
+(c) 2011 Trevor Bell (Siemens Energy, Inc.)
+(c) 2011 Marek Safar
+Copyright Microsoft Open Technologies, Inc.
+Copyright (c) 2005, 2007-2010 Mirco Bauer <meebey@debian.org>
+(c) 2006-2007 Dylan R. E. Moonfire <debian@mfgames.com>
+(c) 2006 Sebastian Droge <slomo@debian.org>
+(c) 2010, 2012 Jo Shields <directhex@apebox.org>
+Copyright (c) 1995-2006 Mark Adler
+(c) 1995-2006 Jean-loup Gailly
+(c) 1998-2005 Gilles Vollant
+(c) 2004-2006 Jonathan Pryor
+(c) 2005 Daniel Drake
+(c) 2005-2009 Novell, Inc.
+Copyright (c) 1990-2000 Info-ZIP.
+(c) 1998-2005 Gilles Vollant
+holder is Tim Hudson (tjh@cryptsoft.com)
+</text>
+Relationship: SPDXRef-libmono-corlib4.5-dll CONTAINS SPDXRef-libmono-corlib4.5-dll-file-0
+
+
+FileName: /usr/lib/mono/4.5/mscorlib.dll
+SPDXID: SPDXRef-libmono-corlib4.5-dll-file-1
+FileChecksum: SHA1: d6be99fc2b25cf7823b68e37d27dd84989468f91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-corlib4.5-dll CONTAINS SPDXRef-libmono-corlib4.5-dll-file-1
+
+
+FileName: /usr/share/doc/libmono-corlib4.5-dll/changelog.Debian.gz
+SPDXID: SPDXRef-libmono-corlib4.5-dll-file-2
+FileChecksum: SHA1: 719d5eb5d0508ac8e85c489e2464a4d19b21b46a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-corlib4.5-dll CONTAINS SPDXRef-libmono-corlib4.5-dll-file-2
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-apple-attribution-1997
+LicenseName: Apple Attribution License 1997
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/apple-attribution-1997.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/apple-attribution-1997.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-mozilla-gc
+LicenseName: Mozilla GC License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mozilla-gc.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mozilla-gc.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-openssl
+LicenseName: OpenSSL License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/openssl.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/openssl.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-ssleay-windows
+LicenseName: Original SSLeay License with Windows Clause
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ssleay-windows.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ssleay-windows.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unicode-mappings
+LicenseName: Unicode Mappings License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode-mappings.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode-mappings.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

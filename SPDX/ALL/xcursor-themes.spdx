@@ -1,0 +1,1523 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/xcursor-themes_1.0.6-0ubuntu1-063fa97b-dfa1-586e-a349-1a2ff9e6effd
+DocumentName: xcursor-themes_1.0.6-0ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xcursor-themes
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:23:50Z
+
+
+## Package
+
+PackageName: xcursor-themes
+PackageVersion: 1.0.6-0ubuntu1
+SPDXID: SPDXRef-xcursor-themes
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 486157dbdb150c9c07687ffca52b4025eb1bcfa3
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: HPND-sell-variant
+PackageLicenseInfoFromFiles: X11
+PackageCopyrightText: <text>Copyright (c) 1994-2003 The XFree86 Project, Inc.
+Copyright (c) 2002 Keith Packard
+Copyright (c) 2002 Keith Packard <keithp@keithp.com>
+Copyright (c) 2003 Jorge Criado <jorge.criado@wanadoo.es>
+</text>
+PackageComment: <text>Base X cursor themes
+ This package contains the additional base X cursor themes --
+ handhelds, redglass, and whiteglass. These themes are not essential
+ for the X server to run.</text>
+
+
+## File
+
+FileName: /usr/share/doc/xcursor-themes/copyright
+SPDXID: SPDXRef-xcursor-themes-file-0
+FileChecksum: SHA1: c454fe2ba06d156b15ef4d450fcdd9606c3d30ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: HPND-sell-variant
+LicenseInfoInFile: X11
+FileCopyrightText: <text>Copyright (c) 1994-2003 The XFree86 Project, Inc.
+Copyright (c) 2002 Keith Packard
+Copyright (c) 2003 Jorge Criado <jorge.criado@wanadoo.es>
+Copyright (c) 2002 Keith Packard <keithp@keithp.com>
+</text>
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-0
+
+
+FileName: /etc/X11/cursors/core.theme
+SPDXID: SPDXRef-xcursor-themes-file-1
+FileChecksum: SHA1: d2e7518ca9ab41e6a6e9dd356da95e1aa5385e4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-1
+
+
+FileName: /etc/X11/cursors/handhelds.theme
+SPDXID: SPDXRef-xcursor-themes-file-2
+FileChecksum: SHA1: febb43023b49b11bf5e2798d6db84b935fa6a6ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-2
+
+
+FileName: /etc/X11/cursors/redglass.theme
+SPDXID: SPDXRef-xcursor-themes-file-3
+FileChecksum: SHA1: 4b3c1d5d78164deea5e2ed0739bfb6a97e8d0942
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-3
+
+
+FileName: /etc/X11/cursors/whiteglass.theme
+SPDXID: SPDXRef-xcursor-themes-file-4
+FileChecksum: SHA1: ae9639e07474c548775a4b1194fc970dd0d3c445
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-4
+
+
+FileName: /usr/share/doc/xcursor-themes/README.Debian
+SPDXID: SPDXRef-xcursor-themes-file-5
+FileChecksum: SHA1: 5f202362743bd2423ef679b2dcf7ef7ab52d755d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-5
+
+
+FileName: /usr/share/doc/xcursor-themes/changelog.Debian.gz
+SPDXID: SPDXRef-xcursor-themes-file-6
+FileChecksum: SHA1: c31d86cd4d14955ce438b329a6af430f1e14f78b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-6
+
+
+FileName: /usr/share/icons/handhelds/cursors/X_cursor
+SPDXID: SPDXRef-xcursor-themes-file-7
+FileChecksum: SHA1: 119c9ee32811d78fd4c877f2ee5f92850c03b8c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-7
+
+
+FileName: /usr/share/icons/handhelds/cursors/based_arrow_down
+SPDXID: SPDXRef-xcursor-themes-file-8
+FileChecksum: SHA1: 42e4c85e501398f6e23580aab49794ea6dde68ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-8
+
+
+FileName: /usr/share/icons/handhelds/cursors/based_arrow_up
+SPDXID: SPDXRef-xcursor-themes-file-9
+FileChecksum: SHA1: efc88d45b69ed1ea6d835f3a932e98e2550535d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-9
+
+
+FileName: /usr/share/icons/handhelds/cursors/bottom_left_corner
+SPDXID: SPDXRef-xcursor-themes-file-10
+FileChecksum: SHA1: ec70f8bea3f450d0cc58c7fb7efe0940c878d95c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-10
+
+
+FileName: /usr/share/icons/handhelds/cursors/bottom_right_corner
+SPDXID: SPDXRef-xcursor-themes-file-11
+FileChecksum: SHA1: 3523ce28b0348ace7664db28b2743971fa55719c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-11
+
+
+FileName: /usr/share/icons/handhelds/cursors/bottom_side
+SPDXID: SPDXRef-xcursor-themes-file-12
+FileChecksum: SHA1: 8345fcfd572b049cd98f4a3e9d18170741d87c4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-12
+
+
+FileName: /usr/share/icons/handhelds/cursors/bottom_tee
+SPDXID: SPDXRef-xcursor-themes-file-13
+FileChecksum: SHA1: 64a557b27760a37821ff8f724f42abeb3876ee33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-13
+
+
+FileName: /usr/share/icons/handhelds/cursors/center_ptr
+SPDXID: SPDXRef-xcursor-themes-file-14
+FileChecksum: SHA1: 6cbd630eddf58812a17aca38d097273b01140361
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-14
+
+
+FileName: /usr/share/icons/handhelds/cursors/circle
+SPDXID: SPDXRef-xcursor-themes-file-15
+FileChecksum: SHA1: 5cdfc1d6b1ee2493445b1a147d2e40e95787b3a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-15
+
+
+FileName: /usr/share/icons/handhelds/cursors/cross
+SPDXID: SPDXRef-xcursor-themes-file-16
+FileChecksum: SHA1: 06401ae753424fe378252a852221ed149fdf24c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-16
+
+
+FileName: /usr/share/icons/handhelds/cursors/dot
+SPDXID: SPDXRef-xcursor-themes-file-17
+FileChecksum: SHA1: 54b9d0c81fd9ac56fb0fe9e7255ea358b7ba34bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-17
+
+
+FileName: /usr/share/icons/handhelds/cursors/dotbox
+SPDXID: SPDXRef-xcursor-themes-file-18
+FileChecksum: SHA1: 267bcf14ccf0c1af537016a907081fa7f4b8344e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-18
+
+
+FileName: /usr/share/icons/handhelds/cursors/double_arrow
+SPDXID: SPDXRef-xcursor-themes-file-19
+FileChecksum: SHA1: 353722de305530fede65df773a0aaffdfacda41c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-19
+
+
+FileName: /usr/share/icons/handhelds/cursors/draped_box
+SPDXID: SPDXRef-xcursor-themes-file-20
+FileChecksum: SHA1: 5a75088c479b4409558b9f4010698622348d00b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-20
+
+
+FileName: /usr/share/icons/handhelds/cursors/fleur
+SPDXID: SPDXRef-xcursor-themes-file-21
+FileChecksum: SHA1: 596bb3bf2deba069f82da0e595069a666abb94d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-21
+
+
+FileName: /usr/share/icons/handhelds/cursors/gumby
+SPDXID: SPDXRef-xcursor-themes-file-22
+FileChecksum: SHA1: 12ef8682429cb116edf378393cd48c8eac74ef8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-22
+
+
+FileName: /usr/share/icons/handhelds/cursors/hand2
+SPDXID: SPDXRef-xcursor-themes-file-23
+FileChecksum: SHA1: 5f19680712aa16338abd46d78cfdd9154dc27ec9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-23
+
+
+FileName: /usr/share/icons/handhelds/cursors/left_ptr
+SPDXID: SPDXRef-xcursor-themes-file-24
+FileChecksum: SHA1: 5e3dff8da8ab8f08fdff82d7297e83654fd2f178
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-24
+
+
+FileName: /usr/share/icons/handhelds/cursors/left_ptr_watch
+SPDXID: SPDXRef-xcursor-themes-file-25
+FileChecksum: SHA1: e57669723c8a7c5d1352bbefd4ee27bf0e93fb25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-25
+
+
+FileName: /usr/share/icons/handhelds/cursors/left_side
+SPDXID: SPDXRef-xcursor-themes-file-26
+FileChecksum: SHA1: 91ec2811f2c72ebba7021ac1e543e2d1c3e09a34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-26
+
+
+FileName: /usr/share/icons/handhelds/cursors/left_tee
+SPDXID: SPDXRef-xcursor-themes-file-27
+FileChecksum: SHA1: 0ec373d3443baa63daa385bde9384783a9bf9a30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-27
+
+
+FileName: /usr/share/icons/handhelds/cursors/ll_angle
+SPDXID: SPDXRef-xcursor-themes-file-28
+FileChecksum: SHA1: 6258d7c510e69e14cbc601c61a6a78ef47d42fed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-28
+
+
+FileName: /usr/share/icons/handhelds/cursors/pencil
+SPDXID: SPDXRef-xcursor-themes-file-29
+FileChecksum: SHA1: f030726fd836a65cc0c626d7f835863fe5e21149
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-29
+
+
+FileName: /usr/share/icons/handhelds/cursors/right_ptr
+SPDXID: SPDXRef-xcursor-themes-file-30
+FileChecksum: SHA1: 6be8b023a9718333848476e4a48c66c99e7b0b12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-30
+
+
+FileName: /usr/share/icons/handhelds/cursors/right_side
+SPDXID: SPDXRef-xcursor-themes-file-31
+FileChecksum: SHA1: 131aa66f445d5b207890e89b5aa724cd4aae9bfa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-31
+
+
+FileName: /usr/share/icons/handhelds/cursors/right_tee
+SPDXID: SPDXRef-xcursor-themes-file-32
+FileChecksum: SHA1: 8315beb47b28eadf1a449a0427270af92f4c3986
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-32
+
+
+FileName: /usr/share/icons/handhelds/cursors/sb_h_double_arrow
+SPDXID: SPDXRef-xcursor-themes-file-33
+FileChecksum: SHA1: e60f254405762650b8eed480904db79dd1ccb693
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-33
+
+
+FileName: /usr/share/icons/handhelds/cursors/sb_right_arrow
+SPDXID: SPDXRef-xcursor-themes-file-34
+FileChecksum: SHA1: 65a0f8f64daa6f35bece1fcc77e21c72016ce815
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-34
+
+
+FileName: /usr/share/icons/handhelds/cursors/sb_up_arrow
+SPDXID: SPDXRef-xcursor-themes-file-35
+FileChecksum: SHA1: e23a8fdf1dde1db449b64415c2a685efef9173c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-35
+
+
+FileName: /usr/share/icons/handhelds/cursors/sb_v_double_arrow
+SPDXID: SPDXRef-xcursor-themes-file-36
+FileChecksum: SHA1: adb1ce43941d72d56be755c6139410bc9dd86114
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-36
+
+
+FileName: /usr/share/icons/handhelds/cursors/shuttle
+SPDXID: SPDXRef-xcursor-themes-file-37
+FileChecksum: SHA1: b4b1975ed3d62d031e0d5b941074c3d8446bb46c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-37
+
+
+FileName: /usr/share/icons/handhelds/cursors/top_left_corner
+SPDXID: SPDXRef-xcursor-themes-file-38
+FileChecksum: SHA1: 4e2dbefa4f5daa5aa8734c8b0f8a220a20985e5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-38
+
+
+FileName: /usr/share/icons/handhelds/cursors/top_right_corner
+SPDXID: SPDXRef-xcursor-themes-file-39
+FileChecksum: SHA1: e8a1dbe8dbe0b3f4a5b6e3ddee81a62c462e2784
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-39
+
+
+FileName: /usr/share/icons/handhelds/cursors/top_side
+SPDXID: SPDXRef-xcursor-themes-file-40
+FileChecksum: SHA1: dc4b640d4150e208b299f9599bab3682a28d33b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-40
+
+
+FileName: /usr/share/icons/handhelds/cursors/top_tee
+SPDXID: SPDXRef-xcursor-themes-file-41
+FileChecksum: SHA1: d9bc5f1a8a3b9109ccdb0923519251974ac86fb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-41
+
+
+FileName: /usr/share/icons/handhelds/cursors/watch
+SPDXID: SPDXRef-xcursor-themes-file-42
+FileChecksum: SHA1: 3dfa7de7078d90003fb95a720f4711d206f39a5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-42
+
+
+FileName: /usr/share/icons/handhelds/cursors/xterm
+SPDXID: SPDXRef-xcursor-themes-file-43
+FileChecksum: SHA1: dfb6e34bed1eced919cf47b032e2330489f91a47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-43
+
+
+FileName: /usr/share/icons/redglass/cursors/X_cursor
+SPDXID: SPDXRef-xcursor-themes-file-44
+FileChecksum: SHA1: 28c9087c9c2db2ef2a94ad17c88623f6493355ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-44
+
+
+FileName: /usr/share/icons/redglass/cursors/based_arrow_down
+SPDXID: SPDXRef-xcursor-themes-file-45
+FileChecksum: SHA1: 975d2125ad245924a617c8acedabb22a728b26b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-45
+
+
+FileName: /usr/share/icons/redglass/cursors/based_arrow_up
+SPDXID: SPDXRef-xcursor-themes-file-46
+FileChecksum: SHA1: 0ab3e7bc94091d71f24a84448e46825cef4eda0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-46
+
+
+FileName: /usr/share/icons/redglass/cursors/bottom_left_corner
+SPDXID: SPDXRef-xcursor-themes-file-47
+FileChecksum: SHA1: f12bfac27fac3e9ba3ff8788a3830803b34efb93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-47
+
+
+FileName: /usr/share/icons/redglass/cursors/bottom_right_corner
+SPDXID: SPDXRef-xcursor-themes-file-48
+FileChecksum: SHA1: 047df361ff3dcd7c19cd302f4f99e8e9a6450e6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-48
+
+
+FileName: /usr/share/icons/redglass/cursors/bottom_side
+SPDXID: SPDXRef-xcursor-themes-file-49
+FileChecksum: SHA1: 004d714980488699a97a76f690b10fff167ce290
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-49
+
+
+FileName: /usr/share/icons/redglass/cursors/bottom_tee
+SPDXID: SPDXRef-xcursor-themes-file-50
+FileChecksum: SHA1: 8436af7e1f16897b1b660d81fdfb5b88f266940a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-50
+
+
+FileName: /usr/share/icons/redglass/cursors/center_ptr
+SPDXID: SPDXRef-xcursor-themes-file-51
+FileChecksum: SHA1: f7496f26b7a95f70beb65fe3f312f84cb0d7eaa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-51
+
+
+FileName: /usr/share/icons/redglass/cursors/circle
+SPDXID: SPDXRef-xcursor-themes-file-52
+FileChecksum: SHA1: 04534368e47960f7ab1dcbc2879f451f79d565eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-52
+
+
+FileName: /usr/share/icons/redglass/cursors/cross
+SPDXID: SPDXRef-xcursor-themes-file-53
+FileChecksum: SHA1: f09ace687c2e866d9561232abd4cd1f6d0491ae2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-53
+
+
+FileName: /usr/share/icons/redglass/cursors/dot
+SPDXID: SPDXRef-xcursor-themes-file-54
+FileChecksum: SHA1: 08e47f81265a893b73f955d989d26ccdaa661c06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-54
+
+
+FileName: /usr/share/icons/redglass/cursors/dotbox
+SPDXID: SPDXRef-xcursor-themes-file-55
+FileChecksum: SHA1: d2d2118d859ddcd4c968cef8eb796fc0cab7d1fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-55
+
+
+FileName: /usr/share/icons/redglass/cursors/double_arrow
+SPDXID: SPDXRef-xcursor-themes-file-56
+FileChecksum: SHA1: 31c909b7e6b3d89f7d2e3cd1e05ec1eebea1ae01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-56
+
+
+FileName: /usr/share/icons/redglass/cursors/draped_box
+SPDXID: SPDXRef-xcursor-themes-file-57
+FileChecksum: SHA1: b246c942f4e27797de1580fbe55fa0b19564c4bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-57
+
+
+FileName: /usr/share/icons/redglass/cursors/fleur
+SPDXID: SPDXRef-xcursor-themes-file-58
+FileChecksum: SHA1: d10e75e00eb8c4b5609e15a8b6291db313b0d964
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-58
+
+
+FileName: /usr/share/icons/redglass/cursors/gumby
+SPDXID: SPDXRef-xcursor-themes-file-59
+FileChecksum: SHA1: 6d81057a1158afeb5f34e55ebe82172e01bdd2ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-59
+
+
+FileName: /usr/share/icons/redglass/cursors/hand2
+SPDXID: SPDXRef-xcursor-themes-file-60
+FileChecksum: SHA1: 2465867177703c9b5654f4aa33f882785b8af8b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-60
+
+
+FileName: /usr/share/icons/redglass/cursors/left_ptr
+SPDXID: SPDXRef-xcursor-themes-file-61
+FileChecksum: SHA1: 0fcb3e5586077bd5a14bcc511ade8c6f2d36b94f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-61
+
+
+FileName: /usr/share/icons/redglass/cursors/left_ptr_watch
+SPDXID: SPDXRef-xcursor-themes-file-62
+FileChecksum: SHA1: 8c5c05c309887f92d56a9acd8efaa6cd43fde484
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-62
+
+
+FileName: /usr/share/icons/redglass/cursors/left_side
+SPDXID: SPDXRef-xcursor-themes-file-63
+FileChecksum: SHA1: 0ebc7fcb567ea40bae316c30124ba24e036da3d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-63
+
+
+FileName: /usr/share/icons/redglass/cursors/left_tee
+SPDXID: SPDXRef-xcursor-themes-file-64
+FileChecksum: SHA1: 6862765a6966a76c773dcaa0eaa2d59ebf96f12d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-64
+
+
+FileName: /usr/share/icons/redglass/cursors/ll_angle
+SPDXID: SPDXRef-xcursor-themes-file-65
+FileChecksum: SHA1: 0e3077563cba86defab084120235673eed9115ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-65
+
+
+FileName: /usr/share/icons/redglass/cursors/pencil
+SPDXID: SPDXRef-xcursor-themes-file-66
+FileChecksum: SHA1: 547c9e9cf3c3022bde2ad469d0ac53511c617a30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-66
+
+
+FileName: /usr/share/icons/redglass/cursors/right_ptr
+SPDXID: SPDXRef-xcursor-themes-file-67
+FileChecksum: SHA1: 1f47f07cf3ef68f6b23ab74d8550cb64890060a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-67
+
+
+FileName: /usr/share/icons/redglass/cursors/right_side
+SPDXID: SPDXRef-xcursor-themes-file-68
+FileChecksum: SHA1: 6f1cd790571171408b906da8a0ad8fb803fdc749
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-68
+
+
+FileName: /usr/share/icons/redglass/cursors/right_tee
+SPDXID: SPDXRef-xcursor-themes-file-69
+FileChecksum: SHA1: 56540c4481cbdb6108be14c1c294da10d56ee00c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-69
+
+
+FileName: /usr/share/icons/redglass/cursors/sb_h_double_arrow
+SPDXID: SPDXRef-xcursor-themes-file-70
+FileChecksum: SHA1: e2f82bff15f8e6f2f9a86f30cce9e2606030b963
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-70
+
+
+FileName: /usr/share/icons/redglass/cursors/sb_right_arrow
+SPDXID: SPDXRef-xcursor-themes-file-71
+FileChecksum: SHA1: 83613f84b90401ab70a5091d32411764e14f8326
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-71
+
+
+FileName: /usr/share/icons/redglass/cursors/sb_up_arrow
+SPDXID: SPDXRef-xcursor-themes-file-72
+FileChecksum: SHA1: 20559f652464e66dbf0ad63c1fc51230e8c3271f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-72
+
+
+FileName: /usr/share/icons/redglass/cursors/sb_v_double_arrow
+SPDXID: SPDXRef-xcursor-themes-file-73
+FileChecksum: SHA1: 63868500c8a0481a32bb1eb7df0450003dda4a5c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-73
+
+
+FileName: /usr/share/icons/redglass/cursors/shuttle
+SPDXID: SPDXRef-xcursor-themes-file-74
+FileChecksum: SHA1: 68c7a20d5f3fd23cc0b1f166b97f6d059261040f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-74
+
+
+FileName: /usr/share/icons/redglass/cursors/top_left_corner
+SPDXID: SPDXRef-xcursor-themes-file-75
+FileChecksum: SHA1: eca76cd33fa6efed99e0e98ca6643537765bd7fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-75
+
+
+FileName: /usr/share/icons/redglass/cursors/top_right_corner
+SPDXID: SPDXRef-xcursor-themes-file-76
+FileChecksum: SHA1: 15baf7c72b8bacb0efedda664fee4a1abaf2a505
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-76
+
+
+FileName: /usr/share/icons/redglass/cursors/top_side
+SPDXID: SPDXRef-xcursor-themes-file-77
+FileChecksum: SHA1: fc8d448831edd3a3d32066ab435196700d1126e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-77
+
+
+FileName: /usr/share/icons/redglass/cursors/top_tee
+SPDXID: SPDXRef-xcursor-themes-file-78
+FileChecksum: SHA1: ed30543d7b7e2f3d7c87a7ab17eab846eb11efeb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-78
+
+
+FileName: /usr/share/icons/redglass/cursors/watch
+SPDXID: SPDXRef-xcursor-themes-file-79
+FileChecksum: SHA1: 4745ac73e2140af10f3404c3575035ba8a2176b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-79
+
+
+FileName: /usr/share/icons/redglass/cursors/xterm
+SPDXID: SPDXRef-xcursor-themes-file-80
+FileChecksum: SHA1: 6db0c905e4e579046fb3cb4d03f7e358a519d9ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-80
+
+
+FileName: /usr/share/icons/whiteglass/cursors/X_cursor
+SPDXID: SPDXRef-xcursor-themes-file-81
+FileChecksum: SHA1: d76c9d2662459b144cfdbaefc8dce908810e4239
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-81
+
+
+FileName: /usr/share/icons/whiteglass/cursors/base_arrow_down
+SPDXID: SPDXRef-xcursor-themes-file-82
+FileChecksum: SHA1: f3121f1c94ea7634a0bba077dda1c85cab3f7779
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-82
+
+
+FileName: /usr/share/icons/whiteglass/cursors/base_arrow_up
+SPDXID: SPDXRef-xcursor-themes-file-83
+FileChecksum: SHA1: f6deafc4d3a4942bf4423ccd7ae70e21025fbcdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-83
+
+
+FileName: /usr/share/icons/whiteglass/cursors/boat
+SPDXID: SPDXRef-xcursor-themes-file-84
+FileChecksum: SHA1: ba9718db4241b75446cb8aeecbe58e7ac365bf62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-84
+
+
+FileName: /usr/share/icons/whiteglass/cursors/bottom_left_corner
+SPDXID: SPDXRef-xcursor-themes-file-85
+FileChecksum: SHA1: 1dc50454242543065c968e9803ef608fa9e8bf98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-85
+
+
+FileName: /usr/share/icons/whiteglass/cursors/bottom_right_corner
+SPDXID: SPDXRef-xcursor-themes-file-86
+FileChecksum: SHA1: e04c500c961b1b2528984472f1e983360b836edc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-86
+
+
+FileName: /usr/share/icons/whiteglass/cursors/bottom_side
+SPDXID: SPDXRef-xcursor-themes-file-87
+FileChecksum: SHA1: 69cd360286cec2069c77cad7156c43ea523c0851
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-87
+
+
+FileName: /usr/share/icons/whiteglass/cursors/bottom_tee
+SPDXID: SPDXRef-xcursor-themes-file-88
+FileChecksum: SHA1: b386b4b8c2b2b39c707898688676865942921c70
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-88
+
+
+FileName: /usr/share/icons/whiteglass/cursors/center_ptr
+SPDXID: SPDXRef-xcursor-themes-file-89
+FileChecksum: SHA1: dfc4cc02b1d2c5be847d13a47cce1082e9409b62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-89
+
+
+FileName: /usr/share/icons/whiteglass/cursors/circle
+SPDXID: SPDXRef-xcursor-themes-file-90
+FileChecksum: SHA1: b16da4c9e0c001852ea692b99ee8e6f229cd4a66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-90
+
+
+FileName: /usr/share/icons/whiteglass/cursors/cross
+SPDXID: SPDXRef-xcursor-themes-file-91
+FileChecksum: SHA1: 1ac1fa761460d283b85f12e669e902cef471b104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-91
+
+
+FileName: /usr/share/icons/whiteglass/cursors/dot
+SPDXID: SPDXRef-xcursor-themes-file-92
+FileChecksum: SHA1: c118f96dbabf38bd637418923ddfc374f23a3a42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-92
+
+
+FileName: /usr/share/icons/whiteglass/cursors/dot_box_mask
+SPDXID: SPDXRef-xcursor-themes-file-93
+FileChecksum: SHA1: 9c230e66fde81b45d8836cdbefb2d7b4c32b7819
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-93
+
+
+FileName: /usr/share/icons/whiteglass/cursors/double_arrow
+SPDXID: SPDXRef-xcursor-themes-file-94
+FileChecksum: SHA1: dd9d384c78afebd5536d650a2acc64f54d009ad4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-94
+
+
+FileName: /usr/share/icons/whiteglass/cursors/draped_box
+SPDXID: SPDXRef-xcursor-themes-file-95
+FileChecksum: SHA1: 32c6243ef74e0fda680580dabf4824b3a164da66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-95
+
+
+FileName: /usr/share/icons/whiteglass/cursors/exchange
+SPDXID: SPDXRef-xcursor-themes-file-96
+FileChecksum: SHA1: ddbff1b9c004c23024e411ead4345a320719a3d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-96
+
+
+FileName: /usr/share/icons/whiteglass/cursors/fleur
+SPDXID: SPDXRef-xcursor-themes-file-97
+FileChecksum: SHA1: 02989d66eb8dcd4b8193e855f4eb56be55d84142
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-97
+
+
+FileName: /usr/share/icons/whiteglass/cursors/gumby
+SPDXID: SPDXRef-xcursor-themes-file-98
+FileChecksum: SHA1: 6d81057a1158afeb5f34e55ebe82172e01bdd2ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-98
+
+
+FileName: /usr/share/icons/whiteglass/cursors/hand1
+SPDXID: SPDXRef-xcursor-themes-file-99
+FileChecksum: SHA1: dca450b9db6e82207eb1d46af0dbcb6b849dfbbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-99
+
+
+FileName: /usr/share/icons/whiteglass/cursors/hand2
+SPDXID: SPDXRef-xcursor-themes-file-100
+FileChecksum: SHA1: 747fe186d20a9ee25288f20c4eafc9491c5dbd2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-100
+
+
+FileName: /usr/share/icons/whiteglass/cursors/left_ptr
+SPDXID: SPDXRef-xcursor-themes-file-101
+FileChecksum: SHA1: f98204d275341e490eabef3cc1643eb896a3e47e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-101
+
+
+FileName: /usr/share/icons/whiteglass/cursors/left_ptr_watch
+SPDXID: SPDXRef-xcursor-themes-file-102
+FileChecksum: SHA1: d5e0cb6a4128e1decc27a5b19827f1e638d99623
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-102
+
+
+FileName: /usr/share/icons/whiteglass/cursors/left_side
+SPDXID: SPDXRef-xcursor-themes-file-103
+FileChecksum: SHA1: 83aee60b6067cf504a05b033befc028e2ad4a10a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-103
+
+
+FileName: /usr/share/icons/whiteglass/cursors/left_tee
+SPDXID: SPDXRef-xcursor-themes-file-104
+FileChecksum: SHA1: 799216bd998d5f1ae882dbfc43f9d8a2bd254be3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-104
+
+
+FileName: /usr/share/icons/whiteglass/cursors/ll_angle
+SPDXID: SPDXRef-xcursor-themes-file-105
+FileChecksum: SHA1: b2f9661a376abe5f951a6bc336106e7348c37971
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-105
+
+
+FileName: /usr/share/icons/whiteglass/cursors/lr_angle
+SPDXID: SPDXRef-xcursor-themes-file-106
+FileChecksum: SHA1: 66774b583e5edeb7521c78d1608b0c99ae78143f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-106
+
+
+FileName: /usr/share/icons/whiteglass/cursors/pencil
+SPDXID: SPDXRef-xcursor-themes-file-107
+FileChecksum: SHA1: 7e1b5b0b988b92a15e8945b4a16587fcccac5406
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-107
+
+
+FileName: /usr/share/icons/whiteglass/cursors/pirate
+SPDXID: SPDXRef-xcursor-themes-file-108
+FileChecksum: SHA1: de83c431b517920f55f0bf7080f5e7a9cb5fe14a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-108
+
+
+FileName: /usr/share/icons/whiteglass/cursors/question_arrow
+SPDXID: SPDXRef-xcursor-themes-file-109
+FileChecksum: SHA1: b151d326443fa5f7ac8435e376bd826dc58e0af0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-109
+
+
+FileName: /usr/share/icons/whiteglass/cursors/right_ptr
+SPDXID: SPDXRef-xcursor-themes-file-110
+FileChecksum: SHA1: 98f3cf6bf2cb244a85a4059fab03f87519dfc878
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-110
+
+
+FileName: /usr/share/icons/whiteglass/cursors/right_side
+SPDXID: SPDXRef-xcursor-themes-file-111
+FileChecksum: SHA1: 005da5c6428df56a90e87c95d93623d851ee1eff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-111
+
+
+FileName: /usr/share/icons/whiteglass/cursors/right_tee
+SPDXID: SPDXRef-xcursor-themes-file-112
+FileChecksum: SHA1: 7265d73a10090bea7f7f0f703f15002edf6b1832
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-112
+
+
+FileName: /usr/share/icons/whiteglass/cursors/sailboat
+SPDXID: SPDXRef-xcursor-themes-file-113
+FileChecksum: SHA1: 60bd862a5555cfe8f26fc83b05835b09fbc169d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-113
+
+
+FileName: /usr/share/icons/whiteglass/cursors/sb_down_arrow
+SPDXID: SPDXRef-xcursor-themes-file-114
+FileChecksum: SHA1: 8961f38bb2769d8bd09ceb05a68e73629098c31c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-114
+
+
+FileName: /usr/share/icons/whiteglass/cursors/sb_h_double_arrow
+SPDXID: SPDXRef-xcursor-themes-file-115
+FileChecksum: SHA1: 623c6e19d82cfbb3c92f14dcf004eac6fe1a7163
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-115
+
+
+FileName: /usr/share/icons/whiteglass/cursors/sb_left_arrow
+SPDXID: SPDXRef-xcursor-themes-file-116
+FileChecksum: SHA1: 9fabcf8257d1925f32b4716a263c88448e8a378e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-116
+
+
+FileName: /usr/share/icons/whiteglass/cursors/sb_right_arrow
+SPDXID: SPDXRef-xcursor-themes-file-117
+FileChecksum: SHA1: 4cc828fa536cad4b2faa13185615480e1b83ac5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-117
+
+
+FileName: /usr/share/icons/whiteglass/cursors/sb_up_arrow
+SPDXID: SPDXRef-xcursor-themes-file-118
+FileChecksum: SHA1: a12a3dfe390f31d045e96784ea3c7ad7cc5f7f1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-118
+
+
+FileName: /usr/share/icons/whiteglass/cursors/sb_v_double_arrow
+SPDXID: SPDXRef-xcursor-themes-file-119
+FileChecksum: SHA1: 31a7e205329a2118bc66ef9821b0b8cd57600cf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-119
+
+
+FileName: /usr/share/icons/whiteglass/cursors/shuttle
+SPDXID: SPDXRef-xcursor-themes-file-120
+FileChecksum: SHA1: ed9d5dc5131753cea7eceb2808a490bdaacecf0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-120
+
+
+FileName: /usr/share/icons/whiteglass/cursors/sizing
+SPDXID: SPDXRef-xcursor-themes-file-121
+FileChecksum: SHA1: 35ab5a74e51dd2a3e45bb2b2e504e4abe22eca22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-121
+
+
+FileName: /usr/share/icons/whiteglass/cursors/target
+SPDXID: SPDXRef-xcursor-themes-file-122
+FileChecksum: SHA1: 18758c6e5e13bbceaa27cf0aff05c3778241643c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-122
+
+
+FileName: /usr/share/icons/whiteglass/cursors/top_left_corner
+SPDXID: SPDXRef-xcursor-themes-file-123
+FileChecksum: SHA1: 688ec3db62acfe36b851e6096510af3767f4f5d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-123
+
+
+FileName: /usr/share/icons/whiteglass/cursors/top_right_corner
+SPDXID: SPDXRef-xcursor-themes-file-124
+FileChecksum: SHA1: 833cbdaf5f32ad2eb9438cd86cc99f596b26b8a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-124
+
+
+FileName: /usr/share/icons/whiteglass/cursors/top_side
+SPDXID: SPDXRef-xcursor-themes-file-125
+FileChecksum: SHA1: 2e7944522e4067ea3a5502057172880826271e56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-125
+
+
+FileName: /usr/share/icons/whiteglass/cursors/top_tee
+SPDXID: SPDXRef-xcursor-themes-file-126
+FileChecksum: SHA1: a7e4af8683785718b85593fea4f64a636d361eef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-126
+
+
+FileName: /usr/share/icons/whiteglass/cursors/trek
+SPDXID: SPDXRef-xcursor-themes-file-127
+FileChecksum: SHA1: 5f3ce205645fd0fe4ad6c62a0ca0543c36c9877e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-127
+
+
+FileName: /usr/share/icons/whiteglass/cursors/ul_angle
+SPDXID: SPDXRef-xcursor-themes-file-128
+FileChecksum: SHA1: aa2ff065d8ac3c0251a5c949dc3cda74c11441da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-128
+
+
+FileName: /usr/share/icons/whiteglass/cursors/ur_angle
+SPDXID: SPDXRef-xcursor-themes-file-129
+FileChecksum: SHA1: d8763606aadd7e1e0f814a130bd270565bc2cc89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-129
+
+
+FileName: /usr/share/icons/whiteglass/cursors/watch
+SPDXID: SPDXRef-xcursor-themes-file-130
+FileChecksum: SHA1: 0144f72d30e82ad79c4a1fc47d2fdbeeb80435d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-130
+
+
+FileName: /usr/share/icons/whiteglass/cursors/xterm
+SPDXID: SPDXRef-xcursor-themes-file-131
+FileChecksum: SHA1: e714c1d389f3a0c01a5371a293cf1843f4abacb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-131
+
+
+FileName: /usr/share/icons/handhelds/cursors/08e8e1c95fe2fc01f976f1e063a24ccd
+SPDXID: SPDXRef-xcursor-themes-file-132
+FileChecksum: SHA1: e57669723c8a7c5d1352bbefd4ee27bf0e93fb25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-132
+
+
+FileName: /usr/share/icons/handhelds/cursors/arrow
+SPDXID: SPDXRef-xcursor-themes-file-133
+FileChecksum: SHA1: 6be8b023a9718333848476e4a48c66c99e7b0b12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-133
+
+
+FileName: /usr/share/icons/handhelds/cursors/cross_reverse
+SPDXID: SPDXRef-xcursor-themes-file-134
+FileChecksum: SHA1: 06401ae753424fe378252a852221ed149fdf24c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-134
+
+
+FileName: /usr/share/icons/handhelds/cursors/crosshair
+SPDXID: SPDXRef-xcursor-themes-file-135
+FileChecksum: SHA1: 06401ae753424fe378252a852221ed149fdf24c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-135
+
+
+FileName: /usr/share/icons/handhelds/cursors/draft_large
+SPDXID: SPDXRef-xcursor-themes-file-136
+FileChecksum: SHA1: 6be8b023a9718333848476e4a48c66c99e7b0b12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-136
+
+
+FileName: /usr/share/icons/handhelds/cursors/draft_small
+SPDXID: SPDXRef-xcursor-themes-file-137
+FileChecksum: SHA1: 6be8b023a9718333848476e4a48c66c99e7b0b12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-137
+
+
+FileName: /usr/share/icons/handhelds/cursors/plus
+SPDXID: SPDXRef-xcursor-themes-file-138
+FileChecksum: SHA1: 06401ae753424fe378252a852221ed149fdf24c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-138
+
+
+FileName: /usr/share/icons/handhelds/cursors/tcross
+SPDXID: SPDXRef-xcursor-themes-file-139
+FileChecksum: SHA1: 06401ae753424fe378252a852221ed149fdf24c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-139
+
+
+FileName: /usr/share/icons/handhelds/cursors/top_left_arrow
+SPDXID: SPDXRef-xcursor-themes-file-140
+FileChecksum: SHA1: 5e3dff8da8ab8f08fdff82d7297e83654fd2f178
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-140
+
+
+FileName: /usr/share/icons/redglass/cursors/08e8e1c95fe2fc01f976f1e063a24ccd
+SPDXID: SPDXRef-xcursor-themes-file-141
+FileChecksum: SHA1: 8c5c05c309887f92d56a9acd8efaa6cd43fde484
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-141
+
+
+FileName: /usr/share/icons/redglass/cursors/arrow
+SPDXID: SPDXRef-xcursor-themes-file-142
+FileChecksum: SHA1: 1f47f07cf3ef68f6b23ab74d8550cb64890060a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-142
+
+
+FileName: /usr/share/icons/redglass/cursors/cross_reverse
+SPDXID: SPDXRef-xcursor-themes-file-143
+FileChecksum: SHA1: f09ace687c2e866d9561232abd4cd1f6d0491ae2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-143
+
+
+FileName: /usr/share/icons/redglass/cursors/crosshair
+SPDXID: SPDXRef-xcursor-themes-file-144
+FileChecksum: SHA1: f09ace687c2e866d9561232abd4cd1f6d0491ae2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-144
+
+
+FileName: /usr/share/icons/redglass/cursors/draft_large
+SPDXID: SPDXRef-xcursor-themes-file-145
+FileChecksum: SHA1: 1f47f07cf3ef68f6b23ab74d8550cb64890060a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-145
+
+
+FileName: /usr/share/icons/redglass/cursors/draft_small
+SPDXID: SPDXRef-xcursor-themes-file-146
+FileChecksum: SHA1: 1f47f07cf3ef68f6b23ab74d8550cb64890060a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-146
+
+
+FileName: /usr/share/icons/redglass/cursors/plus
+SPDXID: SPDXRef-xcursor-themes-file-147
+FileChecksum: SHA1: f09ace687c2e866d9561232abd4cd1f6d0491ae2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-147
+
+
+FileName: /usr/share/icons/redglass/cursors/tcross
+SPDXID: SPDXRef-xcursor-themes-file-148
+FileChecksum: SHA1: f09ace687c2e866d9561232abd4cd1f6d0491ae2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-148
+
+
+FileName: /usr/share/icons/redglass/cursors/top_left_arrow
+SPDXID: SPDXRef-xcursor-themes-file-149
+FileChecksum: SHA1: 0fcb3e5586077bd5a14bcc511ade8c6f2d36b94f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-149
+
+
+FileName: /usr/share/icons/whiteglass/cursors/08e8e1c95fe2fc01f976f1e063a24ccd
+SPDXID: SPDXRef-xcursor-themes-file-150
+FileChecksum: SHA1: d5e0cb6a4128e1decc27a5b19827f1e638d99623
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-150
+
+
+FileName: /usr/share/icons/whiteglass/cursors/arrow
+SPDXID: SPDXRef-xcursor-themes-file-151
+FileChecksum: SHA1: 98f3cf6bf2cb244a85a4059fab03f87519dfc878
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-151
+
+
+FileName: /usr/share/icons/whiteglass/cursors/cross_reverse
+SPDXID: SPDXRef-xcursor-themes-file-152
+FileChecksum: SHA1: 1ac1fa761460d283b85f12e669e902cef471b104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-152
+
+
+FileName: /usr/share/icons/whiteglass/cursors/crosshair
+SPDXID: SPDXRef-xcursor-themes-file-153
+FileChecksum: SHA1: 1ac1fa761460d283b85f12e669e902cef471b104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-153
+
+
+FileName: /usr/share/icons/whiteglass/cursors/dnd-none
+SPDXID: SPDXRef-xcursor-themes-file-154
+FileChecksum: SHA1: 02989d66eb8dcd4b8193e855f4eb56be55d84142
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-154
+
+
+FileName: /usr/share/icons/whiteglass/cursors/draft_large
+SPDXID: SPDXRef-xcursor-themes-file-155
+FileChecksum: SHA1: 98f3cf6bf2cb244a85a4059fab03f87519dfc878
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-155
+
+
+FileName: /usr/share/icons/whiteglass/cursors/draft_small
+SPDXID: SPDXRef-xcursor-themes-file-156
+FileChecksum: SHA1: 98f3cf6bf2cb244a85a4059fab03f87519dfc878
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-156
+
+
+FileName: /usr/share/icons/whiteglass/cursors/grab
+SPDXID: SPDXRef-xcursor-themes-file-157
+FileChecksum: SHA1: dca450b9db6e82207eb1d46af0dbcb6b849dfbbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-157
+
+
+FileName: /usr/share/icons/whiteglass/cursors/hand
+SPDXID: SPDXRef-xcursor-themes-file-158
+FileChecksum: SHA1: 747fe186d20a9ee25288f20c4eafc9491c5dbd2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-158
+
+
+FileName: /usr/share/icons/whiteglass/cursors/plus
+SPDXID: SPDXRef-xcursor-themes-file-159
+FileChecksum: SHA1: 1ac1fa761460d283b85f12e669e902cef471b104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-159
+
+
+FileName: /usr/share/icons/whiteglass/cursors/pointer
+SPDXID: SPDXRef-xcursor-themes-file-160
+FileChecksum: SHA1: 747fe186d20a9ee25288f20c4eafc9491c5dbd2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-160
+
+
+FileName: /usr/share/icons/whiteglass/cursors/tcross
+SPDXID: SPDXRef-xcursor-themes-file-161
+FileChecksum: SHA1: 1ac1fa761460d283b85f12e669e902cef471b104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-161
+
+
+FileName: /usr/share/icons/whiteglass/cursors/top_left_arrow
+SPDXID: SPDXRef-xcursor-themes-file-162
+FileChecksum: SHA1: f98204d275341e490eabef3cc1643eb896a3e47e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xcursor-themes CONTAINS SPDXRef-xcursor-themes-file-162
+
+
+## Extracted License
+

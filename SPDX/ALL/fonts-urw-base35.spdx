@@ -1,0 +1,1274 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-urw-base35_20200910-1-a2bd4f0b-2f6f-582b-8f26-17a35595d949
+DocumentName: fonts-urw-base35_20200910-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-freefont-ttf http://spdx.org/spdxdocs/fonts-freefont-ttf_20120503-10build1-bcf22e92-6415-5c3b-99e7-8842bc375f68 SHA1: 39a21040fa4af2c3937b8d314a27141ba900d591
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-urw-base35
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:35:18Z
+
+
+## Package
+
+PackageName: fonts-urw-base35
+PackageVersion: 20200910-1
+SPDXID: SPDXRef-fonts-urw-base35
+PackageHomePage: https://github.com/ArtifexSoftware/urw-base35-fonts
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d13be20243f47622224f717f044db4c538f13452
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: AGPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: PS-or-PDF-font-exception-20170817
+PackageCopyrightText: <text>Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Copyright 1997 Joost Witteveen <joost@rulcmc.leidenuniv.nl> 1998 Marco Pistore <pistore@di.unipi.it> 1999-2011 Roland Rosenfeld <roland@debian.org> 2000-2001 Torsten Landschoff <torsten@debian.org> 2001 Yasuhiro Take <take@debian.org> 2002-2003 Peter Hawkins <peterh@debian.org> 2004-2009 Masayuki Hatta
+Copyright 2015 URW Software 2013, 2014 (URW)++ Design & Development
+</text>
+PackageComment: <text>font set metric-compatible with the 35 PostScript Level 2 Base Fonts
+ A commercial-quality set of PostScript Type 1 fonts, metric-compatible
+ with the 35 PostScript Language Level 2 Base Fonts. This package contains
+ outlines in .t1 format and metrics in .afm format of the following fonts:
+ .
+  C059
+  D050000L
+  Nimbus Mono PS
+  Nimbus Roman
+  Nimbus Sans
+  Nimbus Sans Narrow
+  P052
+  Standard Symbols PS
+  URW Bookman
+  URW Gothic
+  Z003
+ .
+ Extensive remakes of these fonts in the OpenType format are available in the
+ GUST TeX Gyre collection in the fonts-texgyre package. The Cyrillic glyphs
+ added to the now obsolete urwcyr fork of these fonts have been merged into
+ the GNU FreeFont collection available in the fonts-freefont-otf or
+ fonts-freefont-ttf packages.</text>
+Relationship: SPDXRef-fonts-urw-base35 DEPENDS_ON DocumentRef-fonts-freefont-ttf:SPDXRef-fonts-freefont-ttf
+
+
+## File
+
+FileName: /usr/share/doc/fonts-urw-base35/copyright
+SPDXID: SPDXRef-fonts-urw-base35-file-0
+FileChecksum: SHA1: 4c865a5f53d1702fa0c009b3f9c4467c09f156f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: PS-or-PDF-font-exception-20170817
+LicenseInfoInFile: AGPL-3.0-only
+FileCopyrightText: <text>Copyright 2015 URW Software 2013, 2014 (URW)++ Design & Development
+Copyright 1997 Joost Witteveen <joost@rulcmc.leidenuniv.nl> 1998 Marco Pistore <pistore@di.unipi.it> 1999-2011 Roland Rosenfeld <roland@debian.org> 2000-2001 Torsten Landschoff <torsten@debian.org> 2001 Yasuhiro Take <take@debian.org> 2002-2003 Peter Hawkins <peterh@debian.org> 2004-2009 Masayuki Hatta
+Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+</text>
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-0
+
+
+FileName: /usr/share/doc/fonts-urw-base35/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-urw-base35-file-1
+FileChecksum: SHA1: cebc6f57e13854f9f64b7ec97b05b9fb0609992b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-1
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-bookman.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-2
+FileChecksum: SHA1: 59dcb1d956679c6058cc9e388fd4c221bdfea7e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-2
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-c059.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-3
+FileChecksum: SHA1: 4d21d9861f04ef895a502876f28b8630482dc0bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-3
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-d050000l.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-4
+FileChecksum: SHA1: 9bd87f911cee4512c3d1031a08565d62e33971b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-4
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-fallback-backwards.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-5
+FileChecksum: SHA1: c980052d075e2fe147d42a15512d50aba7696b11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-5
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-fallback-generics.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-6
+FileChecksum: SHA1: 564f5e5848046dfc77cad2eeb7966307dc458297
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-6
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-fallback-specifics.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-7
+FileChecksum: SHA1: 26597fd32694d461558b2a33c8c07bd9b88b9a58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-7
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-gothic.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-8
+FileChecksum: SHA1: 7d8d14a045d38ed0a00d1085f575721efca53b25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-8
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-nimbus-mono-ps.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-9
+FileChecksum: SHA1: 2ff8d7c1d42d713852ac03677b914365f98044dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-9
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-nimbus-roman.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-10
+FileChecksum: SHA1: 11d568623943cf24c46a3d6a5c489386b3e796f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-10
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-nimbus-sans.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-11
+FileChecksum: SHA1: 5214e412542c82e03f3d7236344161c60628dada
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-11
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-p052.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-12
+FileChecksum: SHA1: 8229e2c9e8dddd2ab3dab6e9d3e2b8c5667e8a4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-12
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-standard-symbols-ps.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-13
+FileChecksum: SHA1: 24d50890b991214dd2ab64a1f3506ecd67ecfe93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-13
+
+
+FileName: /usr/share/fontconfig/conf.avail/urw-z003.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-14
+FileChecksum: SHA1: e60b682ac8facd4f2e07d0caaa803287ebd298f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-14
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/C059-BdIta.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-15
+FileChecksum: SHA1: 86b471cd02fdd906bb6580ba82eff68cebb23eec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-15
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/C059-Bold.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-16
+FileChecksum: SHA1: 2cea47716ab8680a69482be7b955f9bab3db99b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-16
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/C059-Italic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-17
+FileChecksum: SHA1: a97ed234551f47dd6d455215a7957df90769b7a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-17
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/C059-Roman.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-18
+FileChecksum: SHA1: 63ad5a95be0ec4caa0594d0ce6f87a1bc1733386
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-18
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/D050000L.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-19
+FileChecksum: SHA1: 135fb70c876fbf4b71f3bcf7e14ef49e5b71381a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-19
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-20
+FileChecksum: SHA1: 7e859bdbaea4461fe1fbb12a8db5fff125338f1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-20
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-21
+FileChecksum: SHA1: e982f24e6634394917aa572fb51da2aaab92fd43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-21
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-22
+FileChecksum: SHA1: 743a2330f42ff4fd18c033c0bc81183c07d6074e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-22
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-23
+FileChecksum: SHA1: 40cd76d48910fccb56046adb70c656e31ecaa80f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-23
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-24
+FileChecksum: SHA1: 3d468c448d1a04e69d0385e10981417817acaaad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-24
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-25
+FileChecksum: SHA1: 6b49e1ec0eb8db05bd3650e76418f7ec61609f76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-25
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-26
+FileChecksum: SHA1: a0b3a412ab2580bb5772abbe2194ee63362e6717
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-26
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-27
+FileChecksum: SHA1: 727f5be95012d14a2d7474e2c3fd5ea5654d1e11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-27
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-28
+FileChecksum: SHA1: 76a51eac970a25ed289ada3c946d9e5ee449b6e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-28
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-29
+FileChecksum: SHA1: 037665a5246b7df48bc43a3ae5e6a6e5abe0cbce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-29
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-30
+FileChecksum: SHA1: bf2bafdeb85a3f55d1f438b5e406b2a01fe4215f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-30
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-31
+FileChecksum: SHA1: 9da0319561dcc039fce9671dd2022e32da7fe68a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-31
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-32
+FileChecksum: SHA1: b4a041154cf3fffa5355e9bf182cf5447e528cae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-32
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-33
+FileChecksum: SHA1: 02ed349d13d4a42cb84184a987a6b69104216ef8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-33
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-34
+FileChecksum: SHA1: 3b8ca3368f59456adbf850c51006f031376e7096
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-34
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-35
+FileChecksum: SHA1: 879f71065d401103deccfb2f7b540178ca9a2063
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-35
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/P052-Bold.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-36
+FileChecksum: SHA1: ddc42aee526c1c6108d112e66400280c25993e2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-36
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-37
+FileChecksum: SHA1: da7ce17ac7a1d4c2a7fa4d9e7bf6228b48e6114e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-37
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/P052-Italic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-38
+FileChecksum: SHA1: 669c9db059b9c1fdf6b0281e4ab29d8b4b7a528f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-38
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/P052-Roman.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-39
+FileChecksum: SHA1: 886edd3adbeaa627bb9e625bc38e5672c97a63e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-39
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-40
+FileChecksum: SHA1: 0d87d030da695ecdecad0375eb213fdf694a8d38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-40
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-41
+FileChecksum: SHA1: ff8b7e2dd09803b1bc3f1862196ce5ed91e01b8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-41
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-42
+FileChecksum: SHA1: 3bb7652a14b942154f9874b28353e5d333795286
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-42
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-43
+FileChecksum: SHA1: 5185a26dcdd49087a1b68e6167b9d09ce77fa76e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-43
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-44
+FileChecksum: SHA1: 9795361f7e32f58456a345963068a863f16b34be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-44
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-45
+FileChecksum: SHA1: 2827c58dac20a6c0c2cbe479e362766f81a76f86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-45
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-46
+FileChecksum: SHA1: 9408ac8736caf12bf9e8863511889c61252c688c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-46
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-47
+FileChecksum: SHA1: 4b792649b5be2644709588ee68458440e72566ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-47
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-48
+FileChecksum: SHA1: 8477779cbc1d70de2245c636fd20a9c37cb6042f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-48
+
+
+FileName: /usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf
+SPDXID: SPDXRef-fonts-urw-base35-file-49
+FileChecksum: SHA1: 74fd10c75680c479107bd55d0649ba297a0d4556
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-49
+
+
+FileName: /usr/share/fonts/type1/urw-base35/C059-BdIta.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-50
+FileChecksum: SHA1: d1a3a2602342f4c4e6b33679b40654d8f848e610
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-50
+
+
+FileName: /usr/share/fonts/type1/urw-base35/C059-BdIta.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-51
+FileChecksum: SHA1: fa846d66d193acabc30fc7011a11a425c67e17e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-51
+
+
+FileName: /usr/share/fonts/type1/urw-base35/C059-Bold.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-52
+FileChecksum: SHA1: 9b837de12b188c6997f65fade2ee8c2078ece964
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-52
+
+
+FileName: /usr/share/fonts/type1/urw-base35/C059-Bold.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-53
+FileChecksum: SHA1: de71b3615f0f135d920059e0998f79fea81a9dbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-53
+
+
+FileName: /usr/share/fonts/type1/urw-base35/C059-Italic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-54
+FileChecksum: SHA1: 0515318b5ef9c252037b63a7cdcec7c4c66b1338
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-54
+
+
+FileName: /usr/share/fonts/type1/urw-base35/C059-Italic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-55
+FileChecksum: SHA1: 8c1b1d45dfe4ebf7a12ea0f4c3093a029981a7ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-55
+
+
+FileName: /usr/share/fonts/type1/urw-base35/C059-Roman.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-56
+FileChecksum: SHA1: e47d5bb9e47266bb7a18403054035f4f0632893f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-56
+
+
+FileName: /usr/share/fonts/type1/urw-base35/C059-Roman.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-57
+FileChecksum: SHA1: 0449231ca592e0d2270214b57d5f997702862580
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-57
+
+
+FileName: /usr/share/fonts/type1/urw-base35/D050000L.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-58
+FileChecksum: SHA1: 7de94a3312a45e2f679f7ca5b73188bd0a44c5ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-58
+
+
+FileName: /usr/share/fonts/type1/urw-base35/D050000L.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-59
+FileChecksum: SHA1: eea4c98950ab31817f6ac2f1a3914d04cdf17ea8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-59
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusMonoPS-Bold.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-60
+FileChecksum: SHA1: c63b94ce4452f1e02ba9b717eda8766300fca7c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-60
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusMonoPS-Bold.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-61
+FileChecksum: SHA1: d70fbf4d11ad65a377b0ee84854c801f59cb99ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-61
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusMonoPS-BoldItalic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-62
+FileChecksum: SHA1: 40804b2bbb83be8bf258c9412539bca546ee58ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-62
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusMonoPS-BoldItalic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-63
+FileChecksum: SHA1: 864d567849aba106803d91aa15a6cd8ac75d62e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-63
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusMonoPS-Italic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-64
+FileChecksum: SHA1: 5ac8206ce6eb88a707e0879ae9caa370e848bca3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-64
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusMonoPS-Italic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-65
+FileChecksum: SHA1: d9c35eda0ae4895477cc7969ae274d2d8d969b6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-65
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusMonoPS-Regular.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-66
+FileChecksum: SHA1: b122e451e8b21321be87d907c7961ad5e9b8e22a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-66
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusMonoPS-Regular.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-67
+FileChecksum: SHA1: e44b2a3f6e2d8ddf0e6d891881cc2bd8dabc903a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-67
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusRoman-Bold.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-68
+FileChecksum: SHA1: 057672ee74ae51ddcde464127939a50b10640f2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-68
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusRoman-Bold.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-69
+FileChecksum: SHA1: a23f3361d7847e154cb4a2c43fa71daa4050284d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-69
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusRoman-BoldItalic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-70
+FileChecksum: SHA1: 623a9b847d979a0ee735fad30c4df05bcfbbf945
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-70
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusRoman-BoldItalic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-71
+FileChecksum: SHA1: 23fdb1cf39a62fd0af9c04476615b1890758fedd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-71
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusRoman-Italic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-72
+FileChecksum: SHA1: bac323dfdc549c316933255ac2bffd072fb6a8d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-72
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusRoman-Italic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-73
+FileChecksum: SHA1: 74603f9cdedb4479a19cf1e600efdfd482875187
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-73
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusRoman-Regular.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-74
+FileChecksum: SHA1: 1759a84dd7924cf8383894bedf0f96a6ecaacde1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-74
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusRoman-Regular.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-75
+FileChecksum: SHA1: 4d3a847f03a47fafa6743f8403e3116b98ebb898
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-75
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSans-Bold.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-76
+FileChecksum: SHA1: 59e45c6ef04a30c69b13f4d1189afef96e76c914
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-76
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSans-Bold.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-77
+FileChecksum: SHA1: ed8a8451805d6176c45bda13609f0867586a4d43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-77
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSans-BoldItalic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-78
+FileChecksum: SHA1: 6e58d89790e19a6e10a8e754191118009fb0ccff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-78
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSans-BoldItalic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-79
+FileChecksum: SHA1: cdc1ea8ff7f927c1759d16a4d0cca84a133af41a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-79
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSans-Italic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-80
+FileChecksum: SHA1: a7938e7292cda3b407b8577af4af0cc80f79798a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-80
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSans-Italic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-81
+FileChecksum: SHA1: 3efb0b831914151b2e632221c7385cbaa8d4fa5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-81
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSans-Regular.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-82
+FileChecksum: SHA1: a2560e20496d44ef08df8174b37199e5e46c9e41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-82
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSans-Regular.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-83
+FileChecksum: SHA1: c215c0fa1873d3e36d90669fea2e874f58f0fdd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-83
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-Bold.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-84
+FileChecksum: SHA1: 1dcbe344422ddcd77c2cdedb6950a0665eae37bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-84
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-Bold.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-85
+FileChecksum: SHA1: b338335442b59c14e77f1a8807e767d42e76d464
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-85
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-BoldOblique.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-86
+FileChecksum: SHA1: a06fab068a2ab9e150c446741d0a0e5ade66989b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-86
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-BoldOblique.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-87
+FileChecksum: SHA1: d3f72fbe9f689ea25d03c08132cbad00249977d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-87
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-Oblique.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-88
+FileChecksum: SHA1: c3fccf0082c70c2a528730af2848ee01a8237afe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-88
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-Oblique.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-89
+FileChecksum: SHA1: c1800d46dbf1e4d8181af0f5585b252476972696
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-89
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-Regular.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-90
+FileChecksum: SHA1: b95de547f151421d268bd5ff3b4c6e7fd519cb08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-90
+
+
+FileName: /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-Regular.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-91
+FileChecksum: SHA1: 2f114ef06d9b169755875c22e78aca7e5c9e6d0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-91
+
+
+FileName: /usr/share/fonts/type1/urw-base35/P052-Bold.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-92
+FileChecksum: SHA1: 56d15551e69611e11697006f81d77d8cbddc6156
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-92
+
+
+FileName: /usr/share/fonts/type1/urw-base35/P052-Bold.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-93
+FileChecksum: SHA1: 4b3c64d998c019e0f1c197d32b83fbd0067916f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-93
+
+
+FileName: /usr/share/fonts/type1/urw-base35/P052-BoldItalic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-94
+FileChecksum: SHA1: 825515bdcc3b3c5fa739148c6d381ac78cd60acd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-94
+
+
+FileName: /usr/share/fonts/type1/urw-base35/P052-BoldItalic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-95
+FileChecksum: SHA1: 96dbaba8954ffd19f835bc764976ccde4bd84055
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-95
+
+
+FileName: /usr/share/fonts/type1/urw-base35/P052-Italic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-96
+FileChecksum: SHA1: 9161aaa1cd949bccb397b7465d0fd64909700f59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-96
+
+
+FileName: /usr/share/fonts/type1/urw-base35/P052-Italic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-97
+FileChecksum: SHA1: 3e2707899870a627faad00b95e2777cf328f437f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-97
+
+
+FileName: /usr/share/fonts/type1/urw-base35/P052-Roman.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-98
+FileChecksum: SHA1: e299e761bf5f163f5b93cd07ef7c6d3b1597cf8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-98
+
+
+FileName: /usr/share/fonts/type1/urw-base35/P052-Roman.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-99
+FileChecksum: SHA1: 984c8a998cd4d04fcd7587742d22db0d4398193d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-99
+
+
+FileName: /usr/share/fonts/type1/urw-base35/StandardSymbolsPS.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-100
+FileChecksum: SHA1: 66375192fa75e356ad3588e5e6e506a365c1194b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-100
+
+
+FileName: /usr/share/fonts/type1/urw-base35/StandardSymbolsPS.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-101
+FileChecksum: SHA1: 7383a9b5beff94dd556cc8b356c458cf4fef16d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-101
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWBookman-Demi.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-102
+FileChecksum: SHA1: 2b24168afa4bb367c3c443dc37bbce2563757221
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-102
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWBookman-Demi.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-103
+FileChecksum: SHA1: 99ba1eff76141c1ea91e69869e28f87f121e24c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-103
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWBookman-DemiItalic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-104
+FileChecksum: SHA1: 1878e843e93178b5087be96fb5b3ca383aaf17c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-104
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWBookman-DemiItalic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-105
+FileChecksum: SHA1: 8da90689549f665f8f6f229c549cddb6ee05a3ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-105
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWBookman-Light.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-106
+FileChecksum: SHA1: 61f70702b1a15207bc9d932563898a153fc4bcf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-106
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWBookman-Light.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-107
+FileChecksum: SHA1: 6924691b9fc4d3b5d5965153ee12be74eadcd5d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-107
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWBookman-LightItalic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-108
+FileChecksum: SHA1: 7f6e1098d797674db201ffc20c6c9f0df87f31be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-108
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWBookman-LightItalic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-109
+FileChecksum: SHA1: cc7f81b270a2dd493524e9c5a92e570786ab11eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-109
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWGothic-Book.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-110
+FileChecksum: SHA1: ec5e27038f0021be47e7f515cf50a6d63b4066dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-110
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWGothic-Book.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-111
+FileChecksum: SHA1: 6bba87284ee55a4db80e978cdf0d77552c9e3c47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-111
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWGothic-BookOblique.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-112
+FileChecksum: SHA1: a3fee9cf43d161e479d63b20d07838e7665c1365
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-112
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWGothic-BookOblique.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-113
+FileChecksum: SHA1: a6b2152da72c26bb920e46040719196aa16a730a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-113
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWGothic-Demi.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-114
+FileChecksum: SHA1: 4de29473dedb65bb810aeef05ae36a9f92462a9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-114
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWGothic-Demi.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-115
+FileChecksum: SHA1: 77560fd3de1accc3861b16a8e4a86255fa032c7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-115
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWGothic-DemiOblique.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-116
+FileChecksum: SHA1: a83c870656c4a2dce7b06038f7bf48eb09d75b65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-116
+
+
+FileName: /usr/share/fonts/type1/urw-base35/URWGothic-DemiOblique.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-117
+FileChecksum: SHA1: a75f36d1c9e014e6fb5edc8fd68b4e065170a336
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-117
+
+
+FileName: /usr/share/fonts/type1/urw-base35/Z003-MediumItalic.afm
+SPDXID: SPDXRef-fonts-urw-base35-file-118
+FileChecksum: SHA1: 313b8465d3423d47a51ed45eac297e909a9b766d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-118
+
+
+FileName: /usr/share/fonts/type1/urw-base35/Z003-MediumItalic.t1
+SPDXID: SPDXRef-fonts-urw-base35-file-119
+FileChecksum: SHA1: d7dbfb350ab30efcd17ec8b8f373ad2c5e92e5cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-119
+
+
+FileName: /usr/share/metainfo/de.urwpp.URWCoreFontSetLevel2.metainfo.xml
+SPDXID: SPDXRef-fonts-urw-base35-file-120
+FileChecksum: SHA1: c74dd8e295ce7e15c8f3da393e22d2543c6b6bbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-120
+
+
+FileName: /etc/fonts/conf.d/61-urw-bookman.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-121
+FileChecksum: SHA1: 59dcb1d956679c6058cc9e388fd4c221bdfea7e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-121
+
+
+FileName: /etc/fonts/conf.d/61-urw-c059.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-122
+FileChecksum: SHA1: 4d21d9861f04ef895a502876f28b8630482dc0bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-122
+
+
+FileName: /etc/fonts/conf.d/61-urw-d050000l.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-123
+FileChecksum: SHA1: 9bd87f911cee4512c3d1031a08565d62e33971b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-123
+
+
+FileName: /etc/fonts/conf.d/61-urw-fallback-backwards.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-124
+FileChecksum: SHA1: c980052d075e2fe147d42a15512d50aba7696b11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-124
+
+
+FileName: /etc/fonts/conf.d/61-urw-fallback-generics.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-125
+FileChecksum: SHA1: 564f5e5848046dfc77cad2eeb7966307dc458297
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-125
+
+
+FileName: /etc/fonts/conf.d/61-urw-gothic.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-126
+FileChecksum: SHA1: 7d8d14a045d38ed0a00d1085f575721efca53b25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-126
+
+
+FileName: /etc/fonts/conf.d/61-urw-nimbus-mono-ps.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-127
+FileChecksum: SHA1: 2ff8d7c1d42d713852ac03677b914365f98044dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-127
+
+
+FileName: /etc/fonts/conf.d/61-urw-nimbus-roman.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-128
+FileChecksum: SHA1: 11d568623943cf24c46a3d6a5c489386b3e796f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-128
+
+
+FileName: /etc/fonts/conf.d/61-urw-nimbus-sans.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-129
+FileChecksum: SHA1: 5214e412542c82e03f3d7236344161c60628dada
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-129
+
+
+FileName: /etc/fonts/conf.d/61-urw-p052.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-130
+FileChecksum: SHA1: 8229e2c9e8dddd2ab3dab6e9d3e2b8c5667e8a4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-130
+
+
+FileName: /etc/fonts/conf.d/61-urw-standard-symbols-ps.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-131
+FileChecksum: SHA1: 24d50890b991214dd2ab64a1f3506ecd67ecfe93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-131
+
+
+FileName: /etc/fonts/conf.d/61-urw-z003.conf
+SPDXID: SPDXRef-fonts-urw-base35-file-132
+FileChecksum: SHA1: e60b682ac8facd4f2e07d0caaa803287ebd298f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-urw-base35 CONTAINS SPDXRef-fonts-urw-base35-file-132
+
+
+## Extracted License
+

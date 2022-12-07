@@ -1,0 +1,118 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/network-manager-l2tp-gnome_1.20.0-1build2-33bd7848-7d95-50c7-acc8-e4a2dff7cb01
+DocumentName: network-manager-l2tp-gnome_1.20.0-1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-network-manager-l2tp http://spdx.org/spdxdocs/network-manager-l2tp_1.20.0-1build2-7527d355-406e-5627-b4d5-a0bd964b3507 SHA1: 5f61e69fdb591511772392fb2d05e5181c9e1dae
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-network-manager-l2tp-gnome
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:05:49Z
+
+
+## Package
+
+PackageName: network-manager-l2tp-gnome
+PackageVersion: 1.20.0-1build2
+SPDXID: SPDXRef-network-manager-l2tp-gnome
+PackageHomePage: https://github.com/nm-l2tp/NetworkManager-l2tp
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 15fbabdfd42d95b43c4b44b87fa55edb830aa4c8
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2008 - 2014 Red Hat, Inc. 2007 - 2008 Novell, Inc. 2016 - 2020 Douglas Kosovic <doug@uq.edu.au> 2014 Nathan Dorfman <ndorf@rtfm.net> 2012 Sergey Prokhorov <me@seriyps.ru>
+Copyright 2008 - 2018 Red Hat, Inc. 2012 Colin Walters <walters@verbum.org>
+Copyright 2016 Copyright Lubomir Rintel <lkundrak@v3.sk>
+</text>
+PackageComment: <text>network management framework (L2TP plugin GNOME GUI)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides the GNOME bits of NetworkManager's L2TP plugin.</text>
+Relationship: SPDXRef-network-manager-l2tp-gnome DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-network-manager-l2tp-gnome DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-network-manager-l2tp-gnome DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-network-manager-l2tp-gnome DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnm0
+Relationship: SPDXRef-network-manager-l2tp-gnome DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnma0
+Relationship: SPDXRef-network-manager-l2tp-gnome DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsecret-1-0
+Relationship: SPDXRef-network-manager-l2tp-gnome DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libssl3
+Relationship: SPDXRef-network-manager-l2tp-gnome DEPENDS_ON DocumentRef-network-manager-l2tp:SPDXRef-network-manager-l2tp
+
+
+## File
+
+FileName: /usr/share/doc/network-manager-l2tp-gnome/copyright
+SPDXID: SPDXRef-network-manager-l2tp-gnome-file-0
+FileChecksum: SHA1: a0e84026198764bb81d3f230762a1662f1ebdb1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2008 - 2014 Red Hat, Inc. 2007 - 2008 Novell, Inc. 2016 - 2020 Douglas Kosovic <doug@uq.edu.au> 2014 Nathan Dorfman <ndorf@rtfm.net> 2012 Sergey Prokhorov <me@seriyps.ru>
+Copyright 2008 - 2018 Red Hat, Inc. 2012 Colin Walters <walters@verbum.org>
+Copyright 2016 Copyright Lubomir Rintel <lkundrak@v3.sk>
+</text>
+Relationship: SPDXRef-network-manager-l2tp-gnome CONTAINS SPDXRef-network-manager-l2tp-gnome-file-0
+
+
+FileName: /usr/lib/NetworkManager/nm-l2tp-auth-dialog
+SPDXID: SPDXRef-network-manager-l2tp-gnome-file-1
+FileChecksum: SHA1: 6a52bf8f54be87d6525bd4d5b4b08f4e4e62a86c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp-gnome CONTAINS SPDXRef-network-manager-l2tp-gnome-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/NetworkManager/libnm-vpn-plugin-l2tp-editor.so
+SPDXID: SPDXRef-network-manager-l2tp-gnome-file-2
+FileChecksum: SHA1: a2a6e138a6b0bae30e87054fba2cd81cee751bd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp-gnome CONTAINS SPDXRef-network-manager-l2tp-gnome-file-2
+
+
+FileName: /usr/share/metainfo/network-manager-l2tp.metainfo.xml
+SPDXID: SPDXRef-network-manager-l2tp-gnome-file-3
+FileChecksum: SHA1: 196a831f6d3b09f8c46de2159a642d14037c0ac1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp-gnome CONTAINS SPDXRef-network-manager-l2tp-gnome-file-3
+
+
+FileName: /usr/share/doc/network-manager-l2tp-gnome/changelog.Debian.gz
+SPDXID: SPDXRef-network-manager-l2tp-gnome-file-4
+FileChecksum: SHA1: adb39e04053dced3b057855cd846b2c7e9d628d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-network-manager-l2tp-gnome CONTAINS SPDXRef-network-manager-l2tp-gnome-file-4
+
+
+## Extracted License
+

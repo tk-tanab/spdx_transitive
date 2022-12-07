@@ -1,0 +1,130 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/python3-netifaces_0.11.0-1build2-f33a77c6-ae6d-593f-bfba-3e0084440c2d
+DocumentName: python3-netifaces_0.11.0-1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-netifaces
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:04:20Z
+
+
+## Package
+
+PackageName: python3-netifaces
+PackageVersion: 0.11.0-1build2
+SPDXID: SPDXRef-python3-netifaces
+PackageHomePage: https://alastairs-place.net/projects/netifaces/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 90ff611ea6f46bca84d5085d0e88b80ffd504e5e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>(c) 2014, Thomas Goirand <zigo@debian.org>
+Copyright (c) 2007, 2008 Alastair Houghton
+Copyright (c) 2008-2013, Mario Izquierdo
+</text>
+PackageComment: <text>portable network interface information - Python 3.x
+ netifaces provides a (hopefully portable-ish) way for Python programmers to
+ get access to a list of the network interfaces on the local machine, and to
+ obtain the addresses of those network interfaces.
+ .
+ This package contains the module for Python 3.x.</text>
+Relationship: SPDXRef-python3-netifaces DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-python3-netifaces DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/python3-netifaces/copyright
+SPDXID: SPDXRef-python3-netifaces-file-0
+FileChecksum: SHA1: 23d9e2aa5fde25bfa31e3dac77d4295acfde6232
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright (c) 2007, 2008 Alastair Houghton
+Copyright (c) 2008-2013, Mario Izquierdo
+(c) 2014, Thomas Goirand <zigo@debian.org>
+</text>
+Relationship: SPDXRef-python3-netifaces CONTAINS SPDXRef-python3-netifaces-file-0
+
+
+FileName: /usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/PKG-INFO
+SPDXID: SPDXRef-python3-netifaces-file-1
+FileChecksum: SHA1: cc1f1fb87b5692e16f1c9abc0d7d555af0fbbf2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-netifaces CONTAINS SPDXRef-python3-netifaces-file-1
+
+
+FileName: /usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/dependency_links.txt
+SPDXID: SPDXRef-python3-netifaces-file-2
+FileChecksum: SHA1: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-netifaces CONTAINS SPDXRef-python3-netifaces-file-2
+
+
+FileName: /usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/top_level.txt
+SPDXID: SPDXRef-python3-netifaces-file-3
+FileChecksum: SHA1: 8bccf6d5afbcb473980743c24e5c86fcf725ae04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-netifaces CONTAINS SPDXRef-python3-netifaces-file-3
+
+
+FileName: /usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/zip-safe
+SPDXID: SPDXRef-python3-netifaces-file-4
+FileChecksum: SHA1: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-netifaces CONTAINS SPDXRef-python3-netifaces-file-4
+
+
+FileName: /usr/lib/python3/dist-packages/netifaces.cpython-310-x86_64-linux-gnu.so
+SPDXID: SPDXRef-python3-netifaces-file-5
+FileChecksum: SHA1: 6c1068c078af52e6f0e1c394c946f5c129e54b65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-netifaces CONTAINS SPDXRef-python3-netifaces-file-5
+
+
+FileName: /usr/share/doc/python3-netifaces/README.rst.gz
+SPDXID: SPDXRef-python3-netifaces-file-6
+FileChecksum: SHA1: 7352a9f45e88f82681fbcd0cc6e4ade7a6eb1928
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-netifaces CONTAINS SPDXRef-python3-netifaces-file-6
+
+
+FileName: /usr/share/doc/python3-netifaces/changelog.Debian.gz
+SPDXID: SPDXRef-python3-netifaces-file-7
+FileChecksum: SHA1: 875aa9c29763f4e3a4fdc0813884c6eeaff64bcf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-netifaces CONTAINS SPDXRef-python3-netifaces-file-7
+
+
+## Extracted License
+

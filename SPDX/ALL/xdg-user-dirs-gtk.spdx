@@ -1,0 +1,115 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/xdg-user-dirs-gtk_0.10-3build2-5bee5adf-3d60-5698-a6fe-fad98d0915f0
+DocumentName: xdg-user-dirs-gtk_0.10-3build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xdg-user-dirs-gtk
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:16:47Z
+
+
+## Package
+
+PackageName: xdg-user-dirs-gtk
+PackageVersion: 0.10-3build2
+SPDXID: SPDXRef-xdg-user-dirs-gtk
+PackageHomePage: http://www.freedesktop.org/wiki/Software/xdg-user-dirs
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0a619de837d0b9bbcc2dcf109be0328925440a47
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2007 Free Software Foundation, Inc.
+Copyright (c) 2007 Red Hat, Inc
+Copyright (c) 2007 Timo Jyrinki
+</text>
+PackageComment: <text>tool to manage well known user directories (Gtk extension)
+ xdg-user-dirs is a tool to help manage "well known" user directories
+ like the desktop folder and the music folder. It also handles
+ localization (i.e. translation) of the filenames.
+ .
+ This extension sets the Gtk bookmark file and tracks changes of the locale
+ to notify the user on login about changed directory names.</text>
+Relationship: SPDXRef-xdg-user-dirs-gtk DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-xdg-user-dirs-gtk DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-xdg-user-dirs-gtk DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-xdg-user-dirs-gtk DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-user-dirs
+
+
+## File
+
+FileName: /usr/share/doc/xdg-user-dirs-gtk/copyright
+SPDXID: SPDXRef-xdg-user-dirs-gtk-file-0
+FileChecksum: SHA1: 4deaa2be4d1b1ae415ce27f72b8bafd78b1bd216
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 2007 Red Hat, Inc
+Copyright (c) 2007 Free Software Foundation, Inc.
+Copyright (c) 2007 Timo Jyrinki
+</text>
+Relationship: SPDXRef-xdg-user-dirs-gtk CONTAINS SPDXRef-xdg-user-dirs-gtk-file-0
+
+
+FileName: /etc/xdg/autostart/user-dirs-update-gtk.desktop
+SPDXID: SPDXRef-xdg-user-dirs-gtk-file-1
+FileChecksum: SHA1: 82d24d0214efcad3510e2e7b633a83fb3e641090
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xdg-user-dirs-gtk CONTAINS SPDXRef-xdg-user-dirs-gtk-file-1
+
+
+FileName: /usr/bin/xdg-user-dirs-gtk-update
+SPDXID: SPDXRef-xdg-user-dirs-gtk-file-2
+FileChecksum: SHA1: f970d15fbc9318ac2c6e16d4b209c56e0bbb2ad9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xdg-user-dirs-gtk CONTAINS SPDXRef-xdg-user-dirs-gtk-file-2
+
+
+FileName: /usr/share/doc/xdg-user-dirs-gtk/NEWS.gz
+SPDXID: SPDXRef-xdg-user-dirs-gtk-file-3
+FileChecksum: SHA1: 1ec5cce945c06350c75a347be815d68fa1759b97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xdg-user-dirs-gtk CONTAINS SPDXRef-xdg-user-dirs-gtk-file-3
+
+
+FileName: /usr/share/doc/xdg-user-dirs-gtk/README
+SPDXID: SPDXRef-xdg-user-dirs-gtk-file-4
+FileChecksum: SHA1: 0373322da75662cae3392c74c5f891b8d4da0643
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xdg-user-dirs-gtk CONTAINS SPDXRef-xdg-user-dirs-gtk-file-4
+
+
+FileName: /usr/share/doc/xdg-user-dirs-gtk/changelog.Debian.gz
+SPDXID: SPDXRef-xdg-user-dirs-gtk-file-5
+FileChecksum: SHA1: 78178afc831bac6ccbfdd15a4f53964c5db1c7f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xdg-user-dirs-gtk CONTAINS SPDXRef-xdg-user-dirs-gtk-file-5
+
+
+## Extracted License
+

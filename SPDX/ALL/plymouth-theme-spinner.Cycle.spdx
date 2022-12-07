@@ -1,0 +1,1563 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/plymouth-theme-spinner_0.9.5+git20211018-1ubuntu3-886d8a78-2c83-5eb5-9d53-cc51dd975396
+DocumentName: plymouth-theme-spinner_0.9.5+git20211018-1ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libplymouth5 http://spdx.org/spdxdocs/libplymouth5_0.9.5+git20211018-1ubuntu3-c9b5073e-f016-5b40-9959-7a8140eddb67 SHA1: fbd740f6661a9cfecea827c46ab9a2ccab7e7b39
+ExternalDocumentRef: DocumentRef-fonts-ubuntu http://spdx.org/spdxdocs/fonts-ubuntu_0.83-6ubuntu1-e8a4f43b-d78f-5e5e-b48d-1c165e7912ce SHA1: 1440756ce8b2952c008844cc53f7fbbc818acfd7
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-plymouth-theme-spinner
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:20:25Z
+
+
+## Package
+
+PackageName: plymouth-theme-spinner
+PackageVersion: 0.9.5+git20211018-1ubuntu3
+SPDXID: SPDXRef-plymouth-theme-spinner
+PackageHomePage: http://www.freedesktop.org/wiki/Software/Plymouth
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: dae773923e66ff296a2219b780112bd1c5445cfa
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1999 Software in the Public Interest
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+</text>
+PackageComment: <text>boot animation, logger and I/O multiplexer - spinner theme
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the spinner theme.</text>
+Relationship: SPDXRef-plymouth-theme-spinner DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-plymouth-theme-spinner DEPENDS_ON DocumentRef-libplymouth5:SPDXRef-libplymouth5
+Relationship: SPDXRef-plymouth-theme-spinner DEPENDS_ON SPDXRef-plymouth
+Relationship: SPDXRef-plymouth-theme-spinner DEPENDS_ON SPDXRef-plymouth-label
+Relationship: SPDXRef-plymouth-theme-spinner DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-lsb-release
+
+
+PackageName: plymouth
+PackageVersion: 0.9.5+git20211018-1ubuntu3
+SPDXID: SPDXRef-plymouth
+PackageHomePage: http://www.freedesktop.org/wiki/Software/Plymouth
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 136f26e3978e43640d8da84536877b67a99da71e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1999 Software in the Public Interest
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+</text>
+PackageComment: <text>boot animation, logger and I/O multiplexer
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package provides the basic framework, enabling a text-mode animation.</text>
+Relationship: SPDXRef-plymouth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+Relationship: SPDXRef-plymouth DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+Relationship: SPDXRef-plymouth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-systemd
+Relationship: SPDXRef-plymouth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-udev
+Relationship: SPDXRef-plymouth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-plymouth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libdrm2
+Relationship: SPDXRef-plymouth DEPENDS_ON DocumentRef-libplymouth5:SPDXRef-libplymouth5
+Relationship: SPDXRef-plymouth DEPENDS_ON SPDXRef-plymouth-theme-ubuntu-text
+Relationship: SPDXRef-plymouth DEPENDS_ON SPDXRef-plymouth-theme-spinner
+
+
+PackageName: plymouth-theme-ubuntu-text
+PackageVersion: 0.9.5+git20211018-1ubuntu3
+SPDXID: SPDXRef-plymouth-theme-ubuntu-text
+PackageHomePage: http://www.freedesktop.org/wiki/Software/Plymouth
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 69c6087239b85178cb999fea53c323fdf31ec0eb
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1999 Software in the Public Interest
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+</text>
+PackageComment: <text>boot animation, logger and I/O multiplexer - ubuntu text theme
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the default ubuntu-text text theme used when no
+ support for a graphical theme is found on your system.</text>
+Relationship: SPDXRef-plymouth-theme-ubuntu-text DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-plymouth-theme-ubuntu-text DEPENDS_ON DocumentRef-libplymouth5:SPDXRef-libplymouth5
+Relationship: SPDXRef-plymouth-theme-ubuntu-text DEPENDS_ON SPDXRef-plymouth
+Relationship: SPDXRef-plymouth-theme-ubuntu-text DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-lsb-release
+
+
+PackageName: plymouth-label
+PackageVersion: 0.9.5+git20211018-1ubuntu3
+SPDXID: SPDXRef-plymouth-label
+PackageHomePage: http://www.freedesktop.org/wiki/Software/Plymouth
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d0f37412d548598770f3874875a08aed653e92a5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1999 Software in the Public Interest
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+</text>
+PackageComment: <text>boot animation, logger and I/O multiplexer - label control
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the label control, used by various graphical themes
+ to render text.</text>
+Relationship: SPDXRef-plymouth-label DEPENDS_ON SPDXRef-plymouth
+Relationship: SPDXRef-plymouth-label DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-plymouth-label DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-plymouth-label DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-plymouth-label DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-plymouth-label DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpangocairo-1.0-0
+Relationship: SPDXRef-plymouth-label DEPENDS_ON DocumentRef-libplymouth5:SPDXRef-libplymouth5
+Relationship: SPDXRef-plymouth-label DEPENDS_ON DocumentRef-fonts-ubuntu:SPDXRef-fonts-ubuntu
+Relationship: SPDXRef-plymouth-label DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-fontconfig-config
+
+
+## File
+
+FileName: /usr/share/doc/plymouth-theme-spinner/copyright
+SPDXID: SPDXRef-plymouth-theme-spinner-file-0
+FileChecksum: SHA1: 0d708645ddd8ae57ade598654b3c02ac4c475360
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright (c) 1999 Software in the Public Interest
+</text>
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/plymouth/two-step.so
+SPDXID: SPDXRef-plymouth-theme-spinner-file-1
+FileChecksum: SHA1: d53b4243b370264fa5b18277fc0ef1169637b7a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-1
+
+
+FileName: /usr/share/plymouth/themes/bgrt/bgrt.plymouth
+SPDXID: SPDXRef-plymouth-theme-spinner-file-2
+FileChecksum: SHA1: df85a39b922b3f55c6943118500cebfdf2ade2b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-2
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0001.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-3
+FileChecksum: SHA1: ff104a595c0a45f7ee4afdecaf5b58784434b485
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-3
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0002.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-4
+FileChecksum: SHA1: e32bbc8f5e1e2748742d8f4ae92db5c0527b73b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-4
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0003.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-5
+FileChecksum: SHA1: c144b48d5e4eb13a2b3f09f8dd45ae690a09323c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-5
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0004.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-6
+FileChecksum: SHA1: 240a7d2633cba50095302a1edc63e2e560a8226d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-6
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0005.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-7
+FileChecksum: SHA1: 0307a0a1ef23850390cd0156420dff41685754b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-7
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0006.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-8
+FileChecksum: SHA1: f42bf0bfe70cdfa7c32b38e5c27d98bcf3c7c5b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-8
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0007.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-9
+FileChecksum: SHA1: b055fec3ba5ab5212fe6969f5810906d5a9c0b11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-9
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0008.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-10
+FileChecksum: SHA1: c580b46b5314581eb461a2adbe4abcfd4004bb16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-10
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0009.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-11
+FileChecksum: SHA1: d11d94fdb65409400c0fb0fb8be81a4cdc21a5fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-11
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0010.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-12
+FileChecksum: SHA1: fbda8c82aaf1720cb46038938e30d9c6779d5f00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-12
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0011.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-13
+FileChecksum: SHA1: 3bc4ce1b7f3a9ab693defa1c09b6bec6e1a7e507
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-13
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0012.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-14
+FileChecksum: SHA1: b1ee991db708329893a857fa26e334df24f91117
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-14
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0013.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-15
+FileChecksum: SHA1: 675dc414e7e76ab816056ab454b44269d0a92013
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-15
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0014.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-16
+FileChecksum: SHA1: f81e22c0bbe437991404d7b516ca87480462b427
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-16
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0015.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-17
+FileChecksum: SHA1: 0d1447c33582801ffa520f345af99b55f22a31d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-17
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0016.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-18
+FileChecksum: SHA1: 5052dd9dea0bd556a82dc77832e08a9e8571c131
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-18
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0017.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-19
+FileChecksum: SHA1: abd4a9d2ab09da3d8d2572a55c483022c2df9343
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-19
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0018.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-20
+FileChecksum: SHA1: f300262a360ef9d788a980ecd8102247655f6ad7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-20
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0019.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-21
+FileChecksum: SHA1: c26dde23ea5e3b459747179c6b59f1b287ddeb51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-21
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0020.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-22
+FileChecksum: SHA1: a825d303687608a3ae9d79803f4ee4bccab582f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-22
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0021.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-23
+FileChecksum: SHA1: e3fb58099a7e93b42ba9a4ad332fd76d28c8e680
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-23
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0022.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-24
+FileChecksum: SHA1: 6a5168c381dbe7b7e4949cd614a9b335dfb10bd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-24
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0023.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-25
+FileChecksum: SHA1: c6c4aef7a2bfe73ea0cea234cad0d68ea10b0534
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-25
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0024.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-26
+FileChecksum: SHA1: 527a1d2ad88592908499fab747d017fa6d3252c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-26
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0025.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-27
+FileChecksum: SHA1: b1d716c78782611a246e523886661492963b3906
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-27
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0026.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-28
+FileChecksum: SHA1: 58c1c1800e6280ae18061f97120c3f61e873c450
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-28
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0027.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-29
+FileChecksum: SHA1: 0c9b063721870bb43f46b1bc19c8bcd5b1e7a102
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-29
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0028.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-30
+FileChecksum: SHA1: 7dd49bc5b4a16301f5007a80c424669ec5b9347b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-30
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0029.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-31
+FileChecksum: SHA1: d5338eb22322f5485ae038bce46b25125d7887f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-31
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0030.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-32
+FileChecksum: SHA1: 2bd85696c895799a23923359ef475b4f263612c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-32
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0031.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-33
+FileChecksum: SHA1: fe73e7459cea505b50c6010506c1e3263fc2bda6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-33
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0032.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-34
+FileChecksum: SHA1: 7720b07dec1f0e3b85c1e02ccf57f0e7861da168
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-34
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0033.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-35
+FileChecksum: SHA1: 1a97646578340054e9bffa7014fbc2cfd8aade51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-35
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0034.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-36
+FileChecksum: SHA1: 104d9e63630b014ec43cf99ee75a9d7f5a692a9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-36
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0035.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-37
+FileChecksum: SHA1: 5cab85a03445a9877adb042890fadf275a33a312
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-37
+
+
+FileName: /usr/share/plymouth/themes/spinner/animation-0036.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-38
+FileChecksum: SHA1: bffd86fa48fa8f8e92e4815a8da9ce465ec8ad9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-38
+
+
+FileName: /usr/share/plymouth/themes/spinner/bgrt-fallback.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-39
+FileChecksum: SHA1: 7adb58ad0f4e22bf2d0c561cd79f490598afa438
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-39
+
+
+FileName: /usr/share/plymouth/themes/spinner/bullet.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-40
+FileChecksum: SHA1: ae5d948dc94b57bfc2f6ecec7fe3c8553585063a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-40
+
+
+FileName: /usr/share/plymouth/themes/spinner/capslock.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-41
+FileChecksum: SHA1: 750d0230ba8740233261ce259f7e6eba13b18ca4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-41
+
+
+FileName: /usr/share/plymouth/themes/spinner/entry.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-42
+FileChecksum: SHA1: 4fca9df2f75a262eca666be148173f4aaecc3002
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-42
+
+
+FileName: /usr/share/plymouth/themes/spinner/keyboard.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-43
+FileChecksum: SHA1: c572312237a7fff592ffceea73e07ddaff5849e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-43
+
+
+FileName: /usr/share/plymouth/themes/spinner/keymap-render.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-44
+FileChecksum: SHA1: 0dd8a6d020063ccf14841661dcc1d2aceb9f135c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-44
+
+
+FileName: /usr/share/plymouth/themes/spinner/lock.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-45
+FileChecksum: SHA1: 2d01feb92dd66c9d6de2193140d283fa01be28f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-45
+
+
+FileName: /usr/share/plymouth/themes/spinner/spinner.plymouth
+SPDXID: SPDXRef-plymouth-theme-spinner-file-46
+FileChecksum: SHA1: fd991083d7ea6ff06f6ca3ecf6b5a443edb30456
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-46
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0001.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-47
+FileChecksum: SHA1: 5e853519d7286830087ce5e646fb5dc30e0ad40b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-47
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0002.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-48
+FileChecksum: SHA1: 2cee38235d52e0973613977e4cf7dbb938fe72eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-48
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0003.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-49
+FileChecksum: SHA1: 9d10e335247db20b7957c05a67afbff8fdc6e407
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-49
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0004.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-50
+FileChecksum: SHA1: 76757173b406fec83fc89ade4a2f3d4dfbf6330c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-50
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0005.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-51
+FileChecksum: SHA1: 52d27c5a552d6b6b7295a3ebcba1f8785b86ccc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-51
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0006.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-52
+FileChecksum: SHA1: 162f675d876823be613a4cb7760b5bae69b27ecc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-52
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0007.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-53
+FileChecksum: SHA1: 870348d93f1f085ba48d7169c43596bae1df4c17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-53
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0008.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-54
+FileChecksum: SHA1: 75f384e78083c03f50e07912974045495f2691e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-54
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0009.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-55
+FileChecksum: SHA1: 33a50db39184c3a69a87cf8b7ab071478080f9a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-55
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0010.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-56
+FileChecksum: SHA1: e61dbf598e50a973dc6b61320330a36dc64f86e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-56
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0011.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-57
+FileChecksum: SHA1: 2486ee33035d9be53733015a8c383b22dc4b50b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-57
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0012.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-58
+FileChecksum: SHA1: 9e75c14d450381a0ffbcced42e2d19002cad6919
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-58
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0013.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-59
+FileChecksum: SHA1: b355524d70dbcb3f91f398f897d71c72d83b8b37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-59
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0014.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-60
+FileChecksum: SHA1: e154efdf88cc49c4469085c44f96db6d305ccbd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-60
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0015.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-61
+FileChecksum: SHA1: c72d2776e8e3bdba5e72f6d87a7665071f7fc7fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-61
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0016.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-62
+FileChecksum: SHA1: 6d8d7b57080999110f6a175635dd01f70f7e4a1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-62
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0017.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-63
+FileChecksum: SHA1: 979810e3b51754c0910fdad3a1311670fe5d87ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-63
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0018.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-64
+FileChecksum: SHA1: d5a1136d6da45340c31f63d4baaeee26a5a84fc2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-64
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0019.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-65
+FileChecksum: SHA1: 459b4dd09008d9e80797307b4cac7b97bb1ac60f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-65
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0020.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-66
+FileChecksum: SHA1: a124ee83cb42ca480848d374c8725c632570be1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-66
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0021.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-67
+FileChecksum: SHA1: ea21a477fb955b5f7c199ba797ae3f794813588e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-67
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0022.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-68
+FileChecksum: SHA1: 959b2427f266906798aed041ad40521c9fb68971
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-68
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0023.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-69
+FileChecksum: SHA1: 2655106c5bfb4c217879b8f7235246810c1ce05a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-69
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0024.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-70
+FileChecksum: SHA1: 5386e466d2aa664e615f444bde5e17c00487c381
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-70
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0025.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-71
+FileChecksum: SHA1: ab6e4628eb2bcb39157ab4c61e30c51b4b2c0fec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-71
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0026.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-72
+FileChecksum: SHA1: ffcc713b06392ad22f71cb85268994dcb4ee2dd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-72
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0027.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-73
+FileChecksum: SHA1: 69bfa4edff2528f5121c59656dbe670e040afb87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-73
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0028.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-74
+FileChecksum: SHA1: 7f8453d772d53f3cdbe8c28ebbaac0489f6da657
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-74
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0029.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-75
+FileChecksum: SHA1: fc045689a7e4fe07ccb0bf261a791db29e87db65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-75
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber-0030.png
+SPDXID: SPDXRef-plymouth-theme-spinner-file-76
+FileChecksum: SHA1: 4bf82778799d0bb45ec880994b688467be8eb4e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-76
+
+
+FileName: /usr/share/plymouth/themes/spinner/throbber.svg
+SPDXID: SPDXRef-plymouth-theme-spinner-file-77
+FileChecksum: SHA1: fd7c19f043f0af8998f7e94684465a7eb54634e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-77
+
+
+FileName: /usr/share/doc/plymouth-theme-spinner/changelog.Debian.gz
+SPDXID: SPDXRef-plymouth-theme-spinner-file-78
+FileChecksum: SHA1: 1585e9bb6dd4508af240773c0bd7d9f2b7aa51a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-spinner CONTAINS SPDXRef-plymouth-theme-spinner-file-78
+
+
+FileName: /usr/share/doc/plymouth/copyright
+SPDXID: SPDXRef-plymouth-file-0
+FileChecksum: SHA1: 0d708645ddd8ae57ade598654b3c02ac4c475360
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright (c) 1999 Software in the Public Interest
+</text>
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-0
+
+
+FileName: /etc/init.d/plymouth
+SPDXID: SPDXRef-plymouth-file-1
+FileChecksum: SHA1: 132f871d34ef2ee76a84ec2bb8efce46829198f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-1
+
+
+FileName: /etc/init.d/plymouth-log
+SPDXID: SPDXRef-plymouth-file-2
+FileChecksum: SHA1: 4b56207a4c6ad6578083e22b76091246a656594e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-2
+
+
+FileName: /etc/logrotate.d/bootlog
+SPDXID: SPDXRef-plymouth-file-3
+FileChecksum: SHA1: 03dae30807dec6bd530f14d5a2c4f5a6630cc48c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-3
+
+
+FileName: /lib/lsb/init-functions.d/99-plymouth
+SPDXID: SPDXRef-plymouth-file-4
+FileChecksum: SHA1: e1a919fb7c340466979c4db2cb59e9786a729e69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-4
+
+
+FileName: /lib/systemd/system/plymouth-halt.service
+SPDXID: SPDXRef-plymouth-file-5
+FileChecksum: SHA1: acc318cc1e9f85001bd6da978c51201245fc8d88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-5
+
+
+FileName: /lib/systemd/system/plymouth-kexec.service
+SPDXID: SPDXRef-plymouth-file-6
+FileChecksum: SHA1: 7180929b391eb2a054805fd3e846099cfcedc3da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-6
+
+
+FileName: /lib/systemd/system/plymouth-poweroff.service
+SPDXID: SPDXRef-plymouth-file-7
+FileChecksum: SHA1: 88722c1492a18409bc49e7eeb668413314fcd117
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-7
+
+
+FileName: /lib/systemd/system/plymouth-quit-wait.service
+SPDXID: SPDXRef-plymouth-file-8
+FileChecksum: SHA1: 04865c98abb4a5a5adcf5b8667f22772b6988baf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-8
+
+
+FileName: /lib/systemd/system/plymouth-quit.service
+SPDXID: SPDXRef-plymouth-file-9
+FileChecksum: SHA1: f4f6eba2d0d280258f0d4446fca96b0f610309b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-9
+
+
+FileName: /lib/systemd/system/plymouth-read-write.service
+SPDXID: SPDXRef-plymouth-file-10
+FileChecksum: SHA1: 1c90d7662490817fee0991ce0f116858897a8aa9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-10
+
+
+FileName: /lib/systemd/system/plymouth-reboot.service
+SPDXID: SPDXRef-plymouth-file-11
+FileChecksum: SHA1: 34cf64757ea4592d2ae9cd10f9ff13d2d9675b57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-11
+
+
+FileName: /lib/systemd/system/plymouth-start.service
+SPDXID: SPDXRef-plymouth-file-12
+FileChecksum: SHA1: fc9271d28a8c855e536eb8847fb3bbc57e28e324
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-12
+
+
+FileName: /lib/systemd/system/plymouth-switch-root-initramfs.service
+SPDXID: SPDXRef-plymouth-file-13
+FileChecksum: SHA1: f959f60409592cc9882de819cb94d873eb2d6dd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-13
+
+
+FileName: /lib/systemd/system/plymouth-switch-root.service
+SPDXID: SPDXRef-plymouth-file-14
+FileChecksum: SHA1: b8b47888e8996ac553f7fc6a3910af5bf3b61baa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-14
+
+
+FileName: /lib/systemd/system/systemd-ask-password-plymouth.path
+SPDXID: SPDXRef-plymouth-file-15
+FileChecksum: SHA1: a25edb67d216b6f0ada4ecbd92fabbd04b0e2d08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-15
+
+
+FileName: /lib/systemd/system/systemd-ask-password-plymouth.service
+SPDXID: SPDXRef-plymouth-file-16
+FileChecksum: SHA1: 367a2bb23e513dfd8129a54d8fc48306d4528e4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-16
+
+
+FileName: /usr/bin/plymouth
+SPDXID: SPDXRef-plymouth-file-17
+FileChecksum: SHA1: 276c8325ba07317fa8e63607e7516ca26f0037c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-17
+
+
+FileName: /usr/lib/x86_64-linux-gnu/plymouth/details.so
+SPDXID: SPDXRef-plymouth-file-18
+FileChecksum: SHA1: 2ce78c540d5fbf5683ea1c6585b1291eedb6abc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-18
+
+
+FileName: /usr/lib/x86_64-linux-gnu/plymouth/renderers/drm.so
+SPDXID: SPDXRef-plymouth-file-19
+FileChecksum: SHA1: 4562fb61555fe15342f6b514c9502e1b930f9af7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-19
+
+
+FileName: /usr/lib/x86_64-linux-gnu/plymouth/renderers/frame-buffer.so
+SPDXID: SPDXRef-plymouth-file-20
+FileChecksum: SHA1: 10adf04df1d5637964886b4bda4e28e8823ed8f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-20
+
+
+FileName: /usr/lib/x86_64-linux-gnu/plymouth/script.so
+SPDXID: SPDXRef-plymouth-file-21
+FileChecksum: SHA1: a7d196d41c5798e80ca3b84574b7f6638d3248bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-21
+
+
+FileName: /usr/lib/x86_64-linux-gnu/plymouth/text.so
+SPDXID: SPDXRef-plymouth-file-22
+FileChecksum: SHA1: 2cb56eb120b5b42e6a636abbd1d9c8938719357e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-22
+
+
+FileName: /usr/lib/x86_64-linux-gnu/plymouth/tribar.so
+SPDXID: SPDXRef-plymouth-file-23
+FileChecksum: SHA1: cf7eab9a528a78d1b54586798812aac90ed73df0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-23
+
+
+FileName: /usr/libexec/plymouth/plymouth-generate-initrd
+SPDXID: SPDXRef-plymouth-file-24
+FileChecksum: SHA1: 6d84dce4c0d24d3888d12322280ddcbe49c0c322
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-24
+
+
+FileName: /usr/libexec/plymouth/plymouth-populate-initrd
+SPDXID: SPDXRef-plymouth-file-25
+FileChecksum: SHA1: 2b2b0ba6ba293ede96493416214955a4cb029350
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-25
+
+
+FileName: /usr/libexec/plymouth/plymouth-update-initrd
+SPDXID: SPDXRef-plymouth-file-26
+FileChecksum: SHA1: 69c88e03e0f5113d55c045f808adabec8613928f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-26
+
+
+FileName: /usr/libexec/plymouth/plymouthd-fd-escrow
+SPDXID: SPDXRef-plymouth-file-27
+FileChecksum: SHA1: e087cde9db31e0a9014f13c26e685694c5134b41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-27
+
+
+FileName: /usr/sbin/plymouthd
+SPDXID: SPDXRef-plymouth-file-28
+FileChecksum: SHA1: c45d153708c53195878137ea604669c6384f328b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-28
+
+
+FileName: /usr/share/apport/package-hooks/source_plymouth.py
+SPDXID: SPDXRef-plymouth-file-29
+FileChecksum: SHA1: 4c334b936918a5f5e4e08d6c9986b44819d45e73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-29
+
+
+FileName: /usr/share/doc/plymouth/NEWS.Debian.gz
+SPDXID: SPDXRef-plymouth-file-30
+FileChecksum: SHA1: 03c7437275884e9661505884fa2cf559ecc64ff2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-30
+
+
+FileName: /usr/share/doc/plymouth/README
+SPDXID: SPDXRef-plymouth-file-31
+FileChecksum: SHA1: 3ded925ed1fc0cebc04fce7dc5279d0d71cf12a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-31
+
+
+FileName: /usr/share/doc/plymouth/README.Debian
+SPDXID: SPDXRef-plymouth-file-32
+FileChecksum: SHA1: aababaf6e0fbdf58dd599bbec2674daac74f7ba0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-32
+
+
+FileName: /usr/share/doc/plymouth/TODO
+SPDXID: SPDXRef-plymouth-file-33
+FileChecksum: SHA1: 9b412f27acc77ff17286d28df573c162df1cbc41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-33
+
+
+FileName: /usr/share/doc/plymouth/TODO.Debian
+SPDXID: SPDXRef-plymouth-file-34
+FileChecksum: SHA1: 56b7da851e0c465e2c1261517ecd707460a89234
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-34
+
+
+FileName: /usr/share/initramfs-tools/hooks/plymouth
+SPDXID: SPDXRef-plymouth-file-35
+FileChecksum: SHA1: 2cbb2c8a6124d9e28c63f4fc92326f8185ff1a40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-35
+
+
+FileName: /usr/share/initramfs-tools/scripts/init-bottom/plymouth
+SPDXID: SPDXRef-plymouth-file-36
+FileChecksum: SHA1: d3cb0f270983d79b927f9e7d6affc63257c149ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-36
+
+
+FileName: /usr/share/initramfs-tools/scripts/init-premount/plymouth
+SPDXID: SPDXRef-plymouth-file-37
+FileChecksum: SHA1: 4751bc2d03c7b1a6648eb49bb2a97472b5a9f0d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-37
+
+
+FileName: /usr/share/initramfs-tools/scripts/panic/plymouth
+SPDXID: SPDXRef-plymouth-file-38
+FileChecksum: SHA1: 9fd292d65b13a237843c648d0f397ff27a87ff3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-38
+
+
+FileName: /usr/share/lintian/overrides/plymouth
+SPDXID: SPDXRef-plymouth-file-39
+FileChecksum: SHA1: 6754433088d582b8feb2314b3f69c6fe19ce33d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-39
+
+
+FileName: /usr/share/man/man1/plymouth.1.gz
+SPDXID: SPDXRef-plymouth-file-40
+FileChecksum: SHA1: 21797689accd310276e3e1f0404ed003dcc5201b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-40
+
+
+FileName: /usr/share/man/man8/plymouth.8.gz
+SPDXID: SPDXRef-plymouth-file-41
+FileChecksum: SHA1: 5c5f1ceadc8f37654914a52b1182942ee4709898
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-41
+
+
+FileName: /usr/share/man/man8/plymouthd.8.gz
+SPDXID: SPDXRef-plymouth-file-42
+FileChecksum: SHA1: a24cf38573fe04129ae1ef00abc156d2f12299f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-42
+
+
+FileName: /usr/share/plymouth/themes/details/details.plymouth
+SPDXID: SPDXRef-plymouth-file-43
+FileChecksum: SHA1: 658bfae356f1920b199fbe741b164895cb1006bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-43
+
+
+FileName: /usr/share/plymouth/themes/spinner/watermark.png
+SPDXID: SPDXRef-plymouth-file-44
+FileChecksum: SHA1: b82b02c665dc6a782eff8daa81105b653b2d0780
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-44
+
+
+FileName: /usr/share/plymouth/themes/text/text.plymouth
+SPDXID: SPDXRef-plymouth-file-45
+FileChecksum: SHA1: a4a1f8ee6460d7f60629661bebd557e75b3d9da7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-45
+
+
+FileName: /usr/share/plymouth/themes/tribar/tribar.plymouth
+SPDXID: SPDXRef-plymouth-file-46
+FileChecksum: SHA1: 0c759b7e66a345e6bb4563cdd7c98f7aa8663ded
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-46
+
+
+FileName: /usr/share/plymouth/ubuntu-logo.png
+SPDXID: SPDXRef-plymouth-file-47
+FileChecksum: SHA1: b82b02c665dc6a782eff8daa81105b653b2d0780
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-47
+
+
+FileName: /lib/systemd/system/halt.target.wants/plymouth-halt.service
+SPDXID: SPDXRef-plymouth-file-48
+FileChecksum: SHA1: acc318cc1e9f85001bd6da978c51201245fc8d88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-48
+
+
+FileName: /lib/systemd/system/halt.target.wants/plymouth-switch-root-initramfs.service
+SPDXID: SPDXRef-plymouth-file-49
+FileChecksum: SHA1: f959f60409592cc9882de819cb94d873eb2d6dd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-49
+
+
+FileName: /lib/systemd/system/initrd-switch-root.target.wants/plymouth-start.service
+SPDXID: SPDXRef-plymouth-file-50
+FileChecksum: SHA1: fc9271d28a8c855e536eb8847fb3bbc57e28e324
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-50
+
+
+FileName: /lib/systemd/system/initrd-switch-root.target.wants/plymouth-switch-root.service
+SPDXID: SPDXRef-plymouth-file-51
+FileChecksum: SHA1: b8b47888e8996ac553f7fc6a3910af5bf3b61baa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-51
+
+
+FileName: /lib/systemd/system/kexec.target.wants/plymouth-kexec.service
+SPDXID: SPDXRef-plymouth-file-52
+FileChecksum: SHA1: 7180929b391eb2a054805fd3e846099cfcedc3da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-52
+
+
+FileName: /lib/systemd/system/kexec.target.wants/plymouth-switch-root-initramfs.service
+SPDXID: SPDXRef-plymouth-file-53
+FileChecksum: SHA1: f959f60409592cc9882de819cb94d873eb2d6dd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-53
+
+
+FileName: /lib/systemd/system/multi-user.target.wants/plymouth-quit-wait.service
+SPDXID: SPDXRef-plymouth-file-54
+FileChecksum: SHA1: 04865c98abb4a5a5adcf5b8667f22772b6988baf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-54
+
+
+FileName: /lib/systemd/system/multi-user.target.wants/plymouth-quit.service
+SPDXID: SPDXRef-plymouth-file-55
+FileChecksum: SHA1: f4f6eba2d0d280258f0d4446fca96b0f610309b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-55
+
+
+FileName: /lib/systemd/system/plymouth-log.service
+SPDXID: SPDXRef-plymouth-file-56
+FileChecksum: SHA1: 1c90d7662490817fee0991ce0f116858897a8aa9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-56
+
+
+FileName: /lib/systemd/system/plymouth.service
+SPDXID: SPDXRef-plymouth-file-57
+FileChecksum: SHA1: f4f6eba2d0d280258f0d4446fca96b0f610309b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-57
+
+
+FileName: /lib/systemd/system/poweroff.target.wants/plymouth-poweroff.service
+SPDXID: SPDXRef-plymouth-file-58
+FileChecksum: SHA1: 88722c1492a18409bc49e7eeb668413314fcd117
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-58
+
+
+FileName: /lib/systemd/system/poweroff.target.wants/plymouth-switch-root-initramfs.service
+SPDXID: SPDXRef-plymouth-file-59
+FileChecksum: SHA1: f959f60409592cc9882de819cb94d873eb2d6dd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-59
+
+
+FileName: /lib/systemd/system/reboot.target.wants/plymouth-reboot.service
+SPDXID: SPDXRef-plymouth-file-60
+FileChecksum: SHA1: 34cf64757ea4592d2ae9cd10f9ff13d2d9675b57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-60
+
+
+FileName: /lib/systemd/system/reboot.target.wants/plymouth-switch-root-initramfs.service
+SPDXID: SPDXRef-plymouth-file-61
+FileChecksum: SHA1: f959f60409592cc9882de819cb94d873eb2d6dd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-61
+
+
+FileName: /lib/systemd/system/sysinit.target.wants/plymouth-read-write.service
+SPDXID: SPDXRef-plymouth-file-62
+FileChecksum: SHA1: 1c90d7662490817fee0991ce0f116858897a8aa9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-62
+
+
+FileName: /lib/systemd/system/sysinit.target.wants/plymouth-start.service
+SPDXID: SPDXRef-plymouth-file-63
+FileChecksum: SHA1: fc9271d28a8c855e536eb8847fb3bbc57e28e324
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-63
+
+
+FileName: /usr/share/doc/plymouth/changelog.Debian.gz
+SPDXID: SPDXRef-plymouth-file-64
+FileChecksum: SHA1: 1585e9bb6dd4508af240773c0bd7d9f2b7aa51a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth CONTAINS SPDXRef-plymouth-file-64
+
+
+FileName: /usr/share/doc/plymouth-theme-ubuntu-text/copyright
+SPDXID: SPDXRef-plymouth-theme-ubuntu-text-file-0
+FileChecksum: SHA1: 0d708645ddd8ae57ade598654b3c02ac4c475360
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright (c) 1999 Software in the Public Interest
+</text>
+Relationship: SPDXRef-plymouth-theme-ubuntu-text CONTAINS SPDXRef-plymouth-theme-ubuntu-text-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/plymouth/ubuntu-text.so
+SPDXID: SPDXRef-plymouth-theme-ubuntu-text-file-1
+FileChecksum: SHA1: 292adc1c789a88aea44cc6c5742a4363f753e361
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-ubuntu-text CONTAINS SPDXRef-plymouth-theme-ubuntu-text-file-1
+
+
+FileName: /usr/share/plymouth/themes/ubuntu-text/ubuntu-text.plymouth.in
+SPDXID: SPDXRef-plymouth-theme-ubuntu-text-file-2
+FileChecksum: SHA1: 908ae8def61bf3ea078b5361f2c6a354c34361ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-ubuntu-text CONTAINS SPDXRef-plymouth-theme-ubuntu-text-file-2
+
+
+FileName: /usr/share/doc/plymouth-theme-ubuntu-text/changelog.Debian.gz
+SPDXID: SPDXRef-plymouth-theme-ubuntu-text-file-3
+FileChecksum: SHA1: 1585e9bb6dd4508af240773c0bd7d9f2b7aa51a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-theme-ubuntu-text CONTAINS SPDXRef-plymouth-theme-ubuntu-text-file-3
+
+
+FileName: /usr/share/doc/plymouth-label/copyright
+SPDXID: SPDXRef-plymouth-label-file-0
+FileChecksum: SHA1: 0d708645ddd8ae57ade598654b3c02ac4c475360
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2006-2008 Red Hat, Inc. 2007-2008 Ray Strode <halfline@gmail.com> 2003 University of Southern California 2003 Charlie Brej <cbrej@cs.man.ac.uk>
+Copyright 2009-2014 Daniel Baumann <mail@daniel-baumann.ch>
+Copyright 1999 Software in the Public Interest, Inc.
+Copyright (c) 1999 Software in the Public Interest
+</text>
+Relationship: SPDXRef-plymouth-label CONTAINS SPDXRef-plymouth-label-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/plymouth/label.so
+SPDXID: SPDXRef-plymouth-label-file-1
+FileChecksum: SHA1: cae2ce2a48b51c019bd9aea3c1bcaeb4d7ed4bc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-label CONTAINS SPDXRef-plymouth-label-file-1
+
+
+FileName: /usr/share/doc/plymouth-label/changelog.Debian.gz
+SPDXID: SPDXRef-plymouth-label-file-2
+FileChecksum: SHA1: 1585e9bb6dd4508af240773c0bd7d9f2b7aa51a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-plymouth-label CONTAINS SPDXRef-plymouth-label-file-2
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

@@ -1,0 +1,280 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/python3-wheel_0.37.1-2-b8660957-c27f-56a6-b261-b13836cec0fb
+DocumentName: python3-wheel_0.37.1-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-wheel
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:06:29Z
+
+
+## Package
+
+PackageName: python3-wheel
+PackageVersion: 0.37.1-2
+SPDXID: SPDXRef-python3-wheel
+PackageHomePage: https://github.com/pypa/wheel
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9ec35e2b517d27d91feac3d3c7b314593a7df99b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 2012-2022, Daniel Holth <dholth@fastmail.fm> and contributors
+Copyright 2014, Barry A. Warsaw 2022, Stefano Rivera <stefanor@debian.org>
+</text>
+PackageComment: <text>built-package format for Python
+ A wheel is a ZIP-format archive with a specially formatted filename and the
+ `.whl` extension.  It is designed to contain all the files for a PEP 376
+ compatible install in a way that is very close to the on-disk format.
+ .
+ The wheel project provides a `bdist_wheel` command for setuptools.  Wheel
+ files can be installed with `pip`.
+ .
+ This is the Python 3 compatible package.</text>
+Relationship: SPDXRef-python3-wheel DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3-distutils
+Relationship: SPDXRef-python3-wheel DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-python3-wheel DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3-setuptools
+
+
+## File
+
+FileName: /usr/share/doc/python3-wheel/copyright
+SPDXID: SPDXRef-python3-wheel-file-0
+FileChecksum: SHA1: 7e968e5efc3e50d37e22cd97d2b28fdbf9102104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-3.0-only
+FileCopyrightText: <text>Copyright 2012-2022, Daniel Holth <dholth@fastmail.fm> and contributors
+Copyright 2014, Barry A. Warsaw 2022, Stefano Rivera <stefanor@debian.org>
+</text>
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-0
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/__init__.py
+SPDXID: SPDXRef-python3-wheel-file-1
+FileChecksum: SHA1: 0bf41aa7eb2ab30c1bdf5cd71f424c7ddb6475b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-1
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/__main__.py
+SPDXID: SPDXRef-python3-wheel-file-2
+FileChecksum: SHA1: 82ecec85e22f97afcc3fcce933c54cc72966f637
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-2
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/bdist_wheel.py
+SPDXID: SPDXRef-python3-wheel-file-3
+FileChecksum: SHA1: b083eaede96e0813a99d587bd13a75927fd60e3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-3
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/cli/__init__.py
+SPDXID: SPDXRef-python3-wheel-file-4
+FileChecksum: SHA1: ad4bf425ad230a5e1f066c3e242427ab78a409c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-4
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/cli/convert.py
+SPDXID: SPDXRef-python3-wheel-file-5
+FileChecksum: SHA1: aee8a627cd3300a23f1c03c654a36320a4acd712
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-5
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/cli/pack.py
+SPDXID: SPDXRef-python3-wheel-file-6
+FileChecksum: SHA1: 3a3392efd39a08b2d1580a3e547c3a7904c0e7e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-6
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/cli/unpack.py
+SPDXID: SPDXRef-python3-wheel-file-7
+FileChecksum: SHA1: 42f2ffa49d8d34d2da6a1b490890f8f394c08436
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-7
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/macosx_libfile.py
+SPDXID: SPDXRef-python3-wheel-file-8
+FileChecksum: SHA1: 283ad09db1a66986b3ef83cf9cd4dd1977c22c82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-8
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/metadata.py
+SPDXID: SPDXRef-python3-wheel-file-9
+FileChecksum: SHA1: b0d56a67d1e58b2eb3f0ef2a298f26815f5a1404
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-9
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/pkginfo.py
+SPDXID: SPDXRef-python3-wheel-file-10
+FileChecksum: SHA1: 58990d01c6a8bb343fcd6843c80628364c599b6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-10
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/util.py
+SPDXID: SPDXRef-python3-wheel-file-11
+FileChecksum: SHA1: 3d368f500fae11e60cf6e50e4b86732613c6c004
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-11
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/vendored/__init__.py
+SPDXID: SPDXRef-python3-wheel-file-12
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-12
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/vendored/packaging/__init__.py
+SPDXID: SPDXRef-python3-wheel-file-13
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-13
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/vendored/packaging/_typing.py
+SPDXID: SPDXRef-python3-wheel-file-14
+FileChecksum: SHA1: f521b39e0501e178412d557ac85d625626b85326
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-14
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/vendored/packaging/tags.py
+SPDXID: SPDXRef-python3-wheel-file-15
+FileChecksum: SHA1: f515a41263437b7bd677e7baaaaa492861004b8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-15
+
+
+FileName: /usr/lib/python3/dist-packages/wheel/wheelfile.py
+SPDXID: SPDXRef-python3-wheel-file-16
+FileChecksum: SHA1: 7c7421d1ca942180373ddae785cc161ec7233e43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-16
+
+
+FileName: /usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/PKG-INFO
+SPDXID: SPDXRef-python3-wheel-file-17
+FileChecksum: SHA1: 2b9381e7bfdfffd4ea073bdfc6cd5e71f2f110b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-17
+
+
+FileName: /usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/dependency_links.txt
+SPDXID: SPDXRef-python3-wheel-file-18
+FileChecksum: SHA1: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-18
+
+
+FileName: /usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/entry_points.txt
+SPDXID: SPDXRef-python3-wheel-file-19
+FileChecksum: SHA1: 8454c246d5a924cc6a13f5bfa188468e00f4d179
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-19
+
+
+FileName: /usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/not-zip-safe
+SPDXID: SPDXRef-python3-wheel-file-20
+FileChecksum: SHA1: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-20
+
+
+FileName: /usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/requires.txt
+SPDXID: SPDXRef-python3-wheel-file-21
+FileChecksum: SHA1: a08c2acb8d2acf94e0f39706ee14fc1b0efa41fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-21
+
+
+FileName: /usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/top_level.txt
+SPDXID: SPDXRef-python3-wheel-file-22
+FileChecksum: SHA1: 3ef6ee742b2e851dea1f754ce60a1fc222194799
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-22
+
+
+FileName: /usr/share/doc/python3-wheel/changelog.Debian.gz
+SPDXID: SPDXRef-python3-wheel-file-23
+FileChecksum: SHA1: ce6a98653ebc7eec65029ae64086d356e7d2675e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-wheel CONTAINS SPDXRef-python3-wheel-file-23
+
+
+## Extracted License
+

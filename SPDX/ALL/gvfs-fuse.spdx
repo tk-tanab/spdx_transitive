@@ -1,0 +1,125 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gvfs-fuse_1.48.2-0ubuntu1-87925785-8b62-5072-ad45-9147099f1fbc
+DocumentName: gvfs-fuse_1.48.2-0ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gvfs-fuse
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:18:03Z
+
+
+## Package
+
+PackageName: gvfs-fuse
+PackageVersion: 1.48.2-0ubuntu1
+SPDXID: SPDXRef-gvfs-fuse
+PackageHomePage: https://wiki.gnome.org/Projects/gvfs
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ce71e1c86ff18e78f7af69558b346f398dc48a55
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright (c) 2001,2002,2004 Red Hat, Inc.
+Copyright (c) 2002, 2003 CodeFactory AB
+Copyright (c) 2003, 2004 Red Hat, Inc.
+Copyright (c) 2006-2007 Red Hat, Inc.
+Copyright (c) 2007 David Zeuthen
+Copyright (c) 2007 Sebastien Bacher <seb128@canonical.com>
+Copyright 2008 Ryan Lortie
+</text>
+PackageComment: <text>userspace virtual filesystem - fuse server
+ gvfs is a userspace virtual filesystem where mounts run as separate
+ processes which you talk to via D-Bus. It also contains a gio module
+ that seamlessly adds gvfs support to all applications using the gio
+ API. It also supports exposing the gvfs mounts to non-gio applications
+ using fuse.
+ .
+ This package contains the gvfs-fuse server that exports gvfs mounts to
+ all applications using FUSE.</text>
+Relationship: SPDXRef-gvfs-fuse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-fuse3
+Relationship: SPDXRef-gvfs-fuse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gvfs
+Relationship: SPDXRef-gvfs-fuse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gvfs-fuse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libfuse3-3
+Relationship: SPDXRef-gvfs-fuse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+
+
+## File
+
+FileName: /usr/share/doc/gvfs-fuse/copyright
+SPDXID: SPDXRef-gvfs-fuse-file-0
+FileChecksum: SHA1: 7093787ca810a2714d116345de4884415c6b83af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright (c) 2002, 2003 CodeFactory AB
+Copyright (c) 2001,2002,2004 Red Hat, Inc.
+Copyright (c) 2003, 2004 Red Hat, Inc.
+Copyright (c) 2006-2007 Red Hat, Inc.
+Copyright (c) 2007 David Zeuthen
+Copyright 2008 Ryan Lortie
+Copyright (c) 2007 Sebastien Bacher <seb128@canonical.com>
+</text>
+Relationship: SPDXRef-gvfs-fuse CONTAINS SPDXRef-gvfs-fuse-file-0
+
+
+FileName: /usr/libexec/gvfsd-fuse
+SPDXID: SPDXRef-gvfs-fuse-file-1
+FileChecksum: SHA1: f2765f3698268e741f2966874f47ea9465d29dce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gvfs-fuse CONTAINS SPDXRef-gvfs-fuse-file-1
+
+
+FileName: /usr/share/doc/gvfs-fuse/changelog.Debian.gz
+SPDXID: SPDXRef-gvfs-fuse-file-2
+FileChecksum: SHA1: e4336631f7780885b211201c5b0736da3d1e3ec3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gvfs-fuse CONTAINS SPDXRef-gvfs-fuse-file-2
+
+
+FileName: /usr/share/lintian/overrides/gvfs-fuse
+SPDXID: SPDXRef-gvfs-fuse-file-3
+FileChecksum: SHA1: 1145625895a0e6e5ad7e8c693ec9ba7a2af096cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gvfs-fuse CONTAINS SPDXRef-gvfs-fuse-file-3
+
+
+FileName: /usr/lib/gvfs/gvfsd-fuse
+SPDXID: SPDXRef-gvfs-fuse-file-4
+FileChecksum: SHA1: f2765f3698268e741f2966874f47ea9465d29dce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gvfs-fuse CONTAINS SPDXRef-gvfs-fuse-file-4
+
+
+## Extracted License
+

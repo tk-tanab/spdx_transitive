@@ -1,0 +1,159 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgtkmm-3.0-1v5_3.24.5-1build1-c8fca787-1154-5e05-a00b-af25414dcf8c
+DocumentName: libgtkmm-3.0-1v5_3.24.5-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libglibmm-2.4-1v5 http://spdx.org/spdxdocs/libglibmm-2.4-1v5_2.66.2-2-61acc860-066d-59be-99a8-d4e418f83121 SHA1: bde91a070a4b3e6f36778f8dc3d77d5255507613
+ExternalDocumentRef: DocumentRef-libatkmm-1.6-1v5 http://spdx.org/spdxdocs/libatkmm-1.6-1v5_2.28.2-1build1-a5f7f5cb-2ed8-50c3-ae02-b684c9b87dee SHA1: 3693e94fe0c8b9b3f606e6053b24081f9dfb89f9
+ExternalDocumentRef: DocumentRef-libpangomm-1.4-1v5 http://spdx.org/spdxdocs/libpangomm-1.4-1v5_2.46.2-1-9bdc58f9-6511-590d-8c16-fc8d2943a168 SHA1: 10ac68af027e173f60ea48cc40e295cbd623a900
+ExternalDocumentRef: DocumentRef-libcairomm-1.0-1v5 http://spdx.org/spdxdocs/libcairomm-1.0-1v5_1.12.2-4build3-d7102b63-549c-5fc9-8bae-86f7c1441393 SHA1: b5a4ffbb9bca0964219b9842a9492bb96949a5c5
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgtkmm-3.0-1v5
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:12:31Z
+
+
+## Package
+
+PackageName: libgtkmm-3.0-1v5
+PackageVersion: 3.24.5-1build1
+SPDXID: SPDXRef-libgtkmm-3.0-1v5
+PackageHomePage: https://www.gtkmm.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: aae74b878cd61a103cfc4accef72c43060600bff
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 1998-2012, The gtkmm Development Team
+Copyright 2002, The gtkmm Development Team
+Copyright 2003-2009, Bradley Bell <btb@debian.org> 2007-2009, Deng Xiyue <manphiz-guest@users.alioth.debian.org>
+Copyright 2009, Openismus GmbH
+</text>
+PackageComment: <text>C++ wrappers for GTK+ (shared libraries)
+ Gtkmm is a C++ interface for the popular GUI library GTK+, API version 3.0.
+ Gtkmm provides a convenient interface for C++ programmers to create
+ graphical user interfaces with GTK+'s flexible OO framework. Highlights
+ include type safe callbacks, widgets extensible using inheritance and
+ over 180 classes that can be freely combined to quickly create complex
+ user interfaces.
+ .
+ This package contains shared libraries.</text>
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-libatkmm-1.6-1v5:SPDXRef-libatkmm-1.6-1v5
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-libcairomm-1.0-1v5:SPDXRef-libcairomm-1.0-1v5
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-libglibmm-2.4-1v5:SPDXRef-libglibmm-2.4-1v5
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-libpangomm-1.4-1v5:SPDXRef-libpangomm-1.4-1v5
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsigcPlusPlus-2.0-0v5
+Relationship: SPDXRef-libgtkmm-3.0-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+
+
+## File
+
+FileName: /usr/share/doc/libgtkmm-3.0-1v5/copyright
+SPDXID: SPDXRef-libgtkmm-3.0-1v5-file-0
+FileChecksum: SHA1: 9f6c71f5df1a201bebec7c42388e4e5356ed5c16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 1998-2012, The gtkmm Development Team
+Copyright 2002, The gtkmm Development Team
+Copyright 2009, Openismus GmbH
+Copyright 2003-2009, Bradley Bell <btb@debian.org> 2007-2009, Deng Xiyue <manphiz-guest@users.alioth.debian.org>
+</text>
+Relationship: SPDXRef-libgtkmm-3.0-1v5 CONTAINS SPDXRef-libgtkmm-3.0-1v5-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgdkmm-3.0.so.1.1.0
+SPDXID: SPDXRef-libgtkmm-3.0-1v5-file-1
+FileChecksum: SHA1: b5a7a32909748679560d7764d43e0de25422b336
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgtkmm-3.0-1v5 CONTAINS SPDXRef-libgtkmm-3.0-1v5-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgtkmm-3.0.so.1.1.0
+SPDXID: SPDXRef-libgtkmm-3.0-1v5-file-2
+FileChecksum: SHA1: 8665eff0085f3b0ddf94733c89b516ace72653bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgtkmm-3.0-1v5 CONTAINS SPDXRef-libgtkmm-3.0-1v5-file-2
+
+
+FileName: /usr/share/doc/libgtkmm-3.0-1v5/AUTHORS
+SPDXID: SPDXRef-libgtkmm-3.0-1v5-file-3
+FileChecksum: SHA1: 740cc8d4c1733ad6f9e1b00587cc64ad9b0cb1d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgtkmm-3.0-1v5 CONTAINS SPDXRef-libgtkmm-3.0-1v5-file-3
+
+
+FileName: /usr/share/doc/libgtkmm-3.0-1v5/NEWS.gz
+SPDXID: SPDXRef-libgtkmm-3.0-1v5-file-4
+FileChecksum: SHA1: 2a84780dcc7ecbfcefdf1a4b0ad1646f01af0d3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgtkmm-3.0-1v5 CONTAINS SPDXRef-libgtkmm-3.0-1v5-file-4
+
+
+FileName: /usr/share/doc/libgtkmm-3.0-1v5/README
+SPDXID: SPDXRef-libgtkmm-3.0-1v5-file-5
+FileChecksum: SHA1: 9d9238aa8721cf3bb29fa017368cb15d2dafbdcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgtkmm-3.0-1v5 CONTAINS SPDXRef-libgtkmm-3.0-1v5-file-5
+
+
+FileName: /usr/share/doc/libgtkmm-3.0-1v5/changelog.Debian.gz
+SPDXID: SPDXRef-libgtkmm-3.0-1v5-file-6
+FileChecksum: SHA1: f6f9a91d4c5187a36a91d66c06d02c02d21db694
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgtkmm-3.0-1v5 CONTAINS SPDXRef-libgtkmm-3.0-1v5-file-6
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgdkmm-3.0.so.1
+SPDXID: SPDXRef-libgtkmm-3.0-1v5-file-7
+FileChecksum: SHA1: b5a7a32909748679560d7764d43e0de25422b336
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgtkmm-3.0-1v5 CONTAINS SPDXRef-libgtkmm-3.0-1v5-file-7
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgtkmm-3.0.so.1
+SPDXID: SPDXRef-libgtkmm-3.0-1v5-file-8
+FileChecksum: SHA1: 8665eff0085f3b0ddf94733c89b516ace72653bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgtkmm-3.0-1v5 CONTAINS SPDXRef-libgtkmm-3.0-1v5-file-8
+
+
+## Extracted License
+

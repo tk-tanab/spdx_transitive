@@ -1,0 +1,196 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/xorg-docs-core_1:1.7.1-1.2-f0762bc1-92c4-5625-923b-0492a1fd4621
+DocumentName: xorg-docs-core_1:1.7.1-1.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xorg-docs-core
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:16:00Z
+
+
+## Package
+
+PackageName: xorg-docs-core
+PackageVersion: 1:1.7.1-1.2
+SPDXID: SPDXRef-xorg-docs-core
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 44b63195effa0742174f5709d34c52ff69ead2e8
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-4-Clause-UC
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: MIT-open-group
+PackageLicenseInfoFromFiles: SGI-B-2.0
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: XFree86-1.1
+PackageLicenseInfoFromFiles: LicenseRef-scancode-proprietary-license
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageLicenseInfoFromFiles: LicenseRef-scancode-xfree86-1.0
+PackageCopyrightText: <text>Berkeley-based copyrights General
+Copyright (c) 1991-2000 Silicon Graphics, Inc.
+Copyright (c) 1993 The Regents of the University of California
+Copyright (c) 1994-2003 The XFree86 Project, Inc.
+Copyright (c) 1995,1999 Theo de Raadt
+Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright (c) 2001-2002 Damien Miller
+Copyright (c) 2001-2004 Thomas Winischhofer
+Copyright (c) 2003 The NetBSD Foundation, Inc.
+Copyright (c) X Consortium
+Copyright The Open Group
+Copyright Theodore Ts'o, 1994, 1995, 1996, 1997, 1998, 1999
+Copyrights Berkeley-based copyrights
+Copyrights X Consortium
+copyright (c) 2001 by Bigelow & Holmes Inc.
+copyright (c) 2001 by URW++ GmbH.
+</text>
+PackageComment: <text>Core documentation for the X.org X Window System
+ This package contains core documentation for the X.org X Window
+ System. This currently includes only a set of manpages which are
+ standard for the system.</text>
+
+
+## File
+
+FileName: /usr/share/doc/xorg-docs-core/copyright
+SPDXID: SPDXRef-xorg-docs-core-file-0
+FileChecksum: SHA1: 8f5f3b002a41727413670ab55e29214b793700db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: XFree86-1.1
+LicenseInfoInFile: BSD-4-Clause-UC
+LicenseInfoInFile: LicenseRef-scancode-xfree86-1.0
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: SGI-B-2.0
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: MIT
+LicenseInfoInFile: ISC
+LicenseInfoInFile: X11
+LicenseInfoInFile: LicenseRef-scancode-proprietary-license
+LicenseInfoInFile: MIT-open-group
+FileCopyrightText: <text>Copyrights Berkeley-based copyrights
+Copyright (c) 1994-2003 The XFree86 Project, Inc.
+Copyrights X Consortium
+Copyright (c) X Consortium
+Copyright The Open Group
+Berkeley-based copyrights General
+Copyright (c) 1993 The Regents of the University of California
+Copyright (c) 2003 The NetBSD Foundation, Inc.
+Copyright Theodore Ts'o, 1994, 1995, 1996, 1997, 1998, 1999
+Copyright (c) 1995,1999 Theo de Raadt
+Copyright (c) 2001-2002 Damien Miller
+Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright (c) 2001-2004 Thomas Winischhofer
+Copyright (c) 1991-2000 Silicon Graphics, Inc.
+copyright (c) 2001 by Bigelow & Holmes Inc.
+copyright (c) 2001 by URW++ GmbH.
+</text>
+Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core-file-0
+
+
+FileName: /usr/share/doc/xorg-docs-core/changelog.Debian.gz
+SPDXID: SPDXRef-xorg-docs-core-file-1
+FileChecksum: SHA1: c9c72a97de9f254599c44bb0c23e26d70d1c50cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core-file-1
+
+
+FileName: /usr/share/man/man7/X.7.gz
+SPDXID: SPDXRef-xorg-docs-core-file-2
+FileChecksum: SHA1: fde1de38d835268395cddc2531f2f8689515b19f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core-file-2
+
+
+FileName: /usr/share/man/man7/XConsortium.7.gz
+SPDXID: SPDXRef-xorg-docs-core-file-3
+FileChecksum: SHA1: 741bea5bbda101b2f09f246649ad432989dfe4db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core-file-3
+
+
+FileName: /usr/share/man/man7/XOrgFoundation.7.gz
+SPDXID: SPDXRef-xorg-docs-core-file-4
+FileChecksum: SHA1: 8fe6323e75c8a395f291d5b7a9a9118c25c4e01a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core-file-4
+
+
+FileName: /usr/share/man/man7/XProjectTeam.7.gz
+SPDXID: SPDXRef-xorg-docs-core-file-5
+FileChecksum: SHA1: 1edcb3d8295b0a112295e8eaa0aadbefb9375852
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core-file-5
+
+
+FileName: /usr/share/man/man7/XStandards.7.gz
+SPDXID: SPDXRef-xorg-docs-core-file-6
+FileChecksum: SHA1: 342ef87f128ca16630b0de8a4b82f100d93d9bac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core-file-6
+
+
+FileName: /usr/share/man/man7/Xsecurity.7.gz
+SPDXID: SPDXRef-xorg-docs-core-file-7
+FileChecksum: SHA1: 660f0381d8ab0c91d996676f51e8e85fe9308dfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xorg-docs-core CONTAINS SPDXRef-xorg-docs-core-file-7
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-proprietary-license
+LicenseName: Proprietary License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-xfree86-1.0
+LicenseName: XFree86 License 1.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/xfree86-1.0.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/xfree86-1.0.yml
+</text>
+
+

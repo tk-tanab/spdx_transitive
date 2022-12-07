@@ -1,0 +1,1788 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libx11-data_2:1.7.5-1-6e4df69e-745b-588c-bd8a-fb827b1def63
+DocumentName: libx11-data_2:1.7.5-1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libx11-data
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:12:22Z
+
+
+## Package
+
+PackageName: libx11-data
+PackageVersion: 2:1.7.5-1
+SPDXID: SPDXRef-libx11-data
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 144774a029c740c0ce3c6233ce1394623fea6678
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>X11 client-side library
+ This package provides the locale data files for libx11.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11</text>
+
+
+## File
+
+FileName: /usr/share/X11/XErrorDB
+SPDXID: SPDXRef-libx11-data-file-0
+FileChecksum: SHA1: 7c040850c1d8a6b08d2270354a72b2dcc00c1ab4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-0
+
+
+FileName: /usr/share/X11/locale/C/Compose
+SPDXID: SPDXRef-libx11-data-file-1
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-1
+
+
+FileName: /usr/share/X11/locale/C/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-2
+FileChecksum: SHA1: 7740c3e2e54504e3735d505c062a54d20bb5d263
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-2
+
+
+FileName: /usr/share/X11/locale/C/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-3
+FileChecksum: SHA1: 60f500e0bda47c0bf3b525a5ebd004af7c7f159a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-3
+
+
+FileName: /usr/share/X11/locale/am_ET.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-4
+FileChecksum: SHA1: 0f0d6236fbe5495b311323595a0bfdf17908ed7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-4
+
+
+FileName: /usr/share/X11/locale/am_ET.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-5
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-5
+
+
+FileName: /usr/share/X11/locale/am_ET.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-6
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-6
+
+
+FileName: /usr/share/X11/locale/armscii-8/Compose
+SPDXID: SPDXRef-libx11-data-file-7
+FileChecksum: SHA1: aef20b43b168debb21a496a6f0126cce4afdb660
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-7
+
+
+FileName: /usr/share/X11/locale/armscii-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-8
+FileChecksum: SHA1: 335c0ca7f40f1dd2d6ca08aa7afb774feed687b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-8
+
+
+FileName: /usr/share/X11/locale/armscii-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-9
+FileChecksum: SHA1: 62219eb33bb20d90478f3b1a200db0e6f4093649
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-9
+
+
+FileName: /usr/share/X11/locale/compose.dir
+SPDXID: SPDXRef-libx11-data-file-10
+FileChecksum: SHA1: b2093bdd826f29bbdbfd881d78bd19e931baaf41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-10
+
+
+FileName: /usr/share/X11/locale/cs_CZ.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-11
+FileChecksum: SHA1: abf5be4f03a97e849499dc65dbb40287a7111911
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-11
+
+
+FileName: /usr/share/X11/locale/cs_CZ.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-12
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-12
+
+
+FileName: /usr/share/X11/locale/cs_CZ.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-13
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-13
+
+
+FileName: /usr/share/X11/locale/el_GR.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-14
+FileChecksum: SHA1: 64b72e5903eb47999c5afdfa5d0c6a9c116a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-14
+
+
+FileName: /usr/share/X11/locale/el_GR.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-15
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-15
+
+
+FileName: /usr/share/X11/locale/el_GR.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-16
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-16
+
+
+FileName: /usr/share/X11/locale/en_US.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-17
+FileChecksum: SHA1: 543ea6b59393d6f091b690da661f0a85febe20ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-17
+
+
+FileName: /usr/share/X11/locale/en_US.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-18
+FileChecksum: SHA1: 352e8018eeee8e781ab9ca506764d3df7fee8b5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-18
+
+
+FileName: /usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-19
+FileChecksum: SHA1: 235a284df781a6c118b28c50500b4ab6d15ad09e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-19
+
+
+FileName: /usr/share/X11/locale/fi_FI.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-20
+FileChecksum: SHA1: 9adbd1c84e6bf017d17e097255d5f200d609f0be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-20
+
+
+FileName: /usr/share/X11/locale/fi_FI.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-21
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-21
+
+
+FileName: /usr/share/X11/locale/fi_FI.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-22
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-22
+
+
+FileName: /usr/share/X11/locale/georgian-academy/Compose
+SPDXID: SPDXRef-libx11-data-file-23
+FileChecksum: SHA1: d9126634f4a590129c45f1f91786a2dc5df08b6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-23
+
+
+FileName: /usr/share/X11/locale/georgian-academy/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-24
+FileChecksum: SHA1: 43afc8d88eb9a1f9ebe8eccbb5ba25e564cbf1a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-24
+
+
+FileName: /usr/share/X11/locale/georgian-academy/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-25
+FileChecksum: SHA1: 752af6f38788075478647197e87c35eb29cfab91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-25
+
+
+FileName: /usr/share/X11/locale/georgian-ps/Compose
+SPDXID: SPDXRef-libx11-data-file-26
+FileChecksum: SHA1: 47d43bbd5f3f63207c35b7d7cadc80098591e363
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-26
+
+
+FileName: /usr/share/X11/locale/georgian-ps/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-27
+FileChecksum: SHA1: 87b60869342c5b086b316c4ccc65b4b4efd3598e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-27
+
+
+FileName: /usr/share/X11/locale/georgian-ps/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-28
+FileChecksum: SHA1: b3e19aa1f8fef576897c6016b3f0723019aa3f66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-28
+
+
+FileName: /usr/share/X11/locale/ibm-cp1133/Compose
+SPDXID: SPDXRef-libx11-data-file-29
+FileChecksum: SHA1: 1629eb5df57db46535fac6ba5c1f666218351913
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-29
+
+
+FileName: /usr/share/X11/locale/ibm-cp1133/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-30
+FileChecksum: SHA1: de8a21b0b0416af8324f4804c23cf86ae0c4925b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-30
+
+
+FileName: /usr/share/X11/locale/ibm-cp1133/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-31
+FileChecksum: SHA1: cb9afa4c95e5c2da0cc3c10fe832099355e03d8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-31
+
+
+FileName: /usr/share/X11/locale/iscii-dev/Compose
+SPDXID: SPDXRef-libx11-data-file-32
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-32
+
+
+FileName: /usr/share/X11/locale/iscii-dev/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-33
+FileChecksum: SHA1: 3ff05064f75a4e7779878c69c09a7b4610641fc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-33
+
+
+FileName: /usr/share/X11/locale/iscii-dev/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-34
+FileChecksum: SHA1: 2ad21d5df40f631e8ef1a4b2c8ac701b0ad1fef2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-34
+
+
+FileName: /usr/share/X11/locale/isiri-3342/Compose
+SPDXID: SPDXRef-libx11-data-file-35
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-35
+
+
+FileName: /usr/share/X11/locale/isiri-3342/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-36
+FileChecksum: SHA1: de1ff915af6cc6841be3b84ce939ee39f0f13fdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-36
+
+
+FileName: /usr/share/X11/locale/isiri-3342/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-37
+FileChecksum: SHA1: 36b79eede2ae0561d7139284b176b8c1a9c35d4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-37
+
+
+FileName: /usr/share/X11/locale/iso8859-1/Compose
+SPDXID: SPDXRef-libx11-data-file-38
+FileChecksum: SHA1: 4bfd86d04e37bc0cf8b280c07fb5ac0804a85f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-38
+
+
+FileName: /usr/share/X11/locale/iso8859-1/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-39
+FileChecksum: SHA1: 7740c3e2e54504e3735d505c062a54d20bb5d263
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-39
+
+
+FileName: /usr/share/X11/locale/iso8859-1/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-40
+FileChecksum: SHA1: b46738a4b6cf5fd7d49f0dba3ec2942148ca8b4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-40
+
+
+FileName: /usr/share/X11/locale/iso8859-10/Compose
+SPDXID: SPDXRef-libx11-data-file-41
+FileChecksum: SHA1: f62e32e8be68bf6706984b5460f49c7b0dbb2653
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-41
+
+
+FileName: /usr/share/X11/locale/iso8859-10/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-42
+FileChecksum: SHA1: 0c5856ba449fe132a0458ac260f50f7b90e67841
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-42
+
+
+FileName: /usr/share/X11/locale/iso8859-10/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-43
+FileChecksum: SHA1: 11b2941b8344273aa142aaa5add7d6db59c7e7dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-43
+
+
+FileName: /usr/share/X11/locale/iso8859-11/Compose
+SPDXID: SPDXRef-libx11-data-file-44
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-44
+
+
+FileName: /usr/share/X11/locale/iso8859-11/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-45
+FileChecksum: SHA1: af0ca22b56a421081a6710a00cbd76b34ca8c32a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-45
+
+
+FileName: /usr/share/X11/locale/iso8859-11/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-46
+FileChecksum: SHA1: 7b4849a5f4cc3591650868668021585c278c0218
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-46
+
+
+FileName: /usr/share/X11/locale/iso8859-13/Compose
+SPDXID: SPDXRef-libx11-data-file-47
+FileChecksum: SHA1: 5dc8f9063982f428dd04d691f810995a64affbf5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-47
+
+
+FileName: /usr/share/X11/locale/iso8859-13/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-48
+FileChecksum: SHA1: c77edc36f505f284455177a0abf04c7db4d9fccf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-48
+
+
+FileName: /usr/share/X11/locale/iso8859-13/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-49
+FileChecksum: SHA1: 1b2f2d7bffec4a34b9558bf28e4be7701e1631e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-49
+
+
+FileName: /usr/share/X11/locale/iso8859-14/Compose
+SPDXID: SPDXRef-libx11-data-file-50
+FileChecksum: SHA1: 7ff390652fbd3563b9cc3f94ea9cb0c89aa84a28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-50
+
+
+FileName: /usr/share/X11/locale/iso8859-14/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-51
+FileChecksum: SHA1: 926679e5251ec21597bc226036b4a41c449215a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-51
+
+
+FileName: /usr/share/X11/locale/iso8859-14/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-52
+FileChecksum: SHA1: 7b1f5a4c7d9e0a154842762c19e965dc72fcedd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-52
+
+
+FileName: /usr/share/X11/locale/iso8859-15/Compose
+SPDXID: SPDXRef-libx11-data-file-53
+FileChecksum: SHA1: 33fc478d0aa406fdac05b1dbbe4c8fe3552669dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-53
+
+
+FileName: /usr/share/X11/locale/iso8859-15/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-54
+FileChecksum: SHA1: 96491239292c83c15752d13a30068cf1eef94e6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-54
+
+
+FileName: /usr/share/X11/locale/iso8859-15/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-55
+FileChecksum: SHA1: 2cf83fbb259fa4a3969f17f0482c0d78ff5b7d8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-55
+
+
+FileName: /usr/share/X11/locale/iso8859-2/Compose
+SPDXID: SPDXRef-libx11-data-file-56
+FileChecksum: SHA1: ecf43e7fd3bc9c8675b3e25fc448116cde3df94a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-56
+
+
+FileName: /usr/share/X11/locale/iso8859-2/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-57
+FileChecksum: SHA1: c77edc36f505f284455177a0abf04c7db4d9fccf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-57
+
+
+FileName: /usr/share/X11/locale/iso8859-2/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-58
+FileChecksum: SHA1: 6cf3a7121c01cc9ebee1d19fc5c603b37b90d4ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-58
+
+
+FileName: /usr/share/X11/locale/iso8859-3/Compose
+SPDXID: SPDXRef-libx11-data-file-59
+FileChecksum: SHA1: af3fd44bf1111cf3ab7e5c9c7b05429372471c68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-59
+
+
+FileName: /usr/share/X11/locale/iso8859-3/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-60
+FileChecksum: SHA1: 57fe508636839e7ba3907e1f4314307f967b8ac8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-60
+
+
+FileName: /usr/share/X11/locale/iso8859-3/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-61
+FileChecksum: SHA1: d813a7e6a9a7ce632d5de326277e67ae4ccd4997
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-61
+
+
+FileName: /usr/share/X11/locale/iso8859-4/Compose
+SPDXID: SPDXRef-libx11-data-file-62
+FileChecksum: SHA1: b44bbd199603c9c4c3b17ebbb718ffde480cbf16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-62
+
+
+FileName: /usr/share/X11/locale/iso8859-4/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-63
+FileChecksum: SHA1: c8920c58a47af0e4ab8ce68bebe4f2bf21b56a36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-63
+
+
+FileName: /usr/share/X11/locale/iso8859-4/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-64
+FileChecksum: SHA1: fe1f59aeb0795660d5ac6dc70d8ce3095b837ee6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-64
+
+
+FileName: /usr/share/X11/locale/iso8859-5/Compose
+SPDXID: SPDXRef-libx11-data-file-65
+FileChecksum: SHA1: 09b73bd72076b90a0a5e97d173e266eb144649f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-65
+
+
+FileName: /usr/share/X11/locale/iso8859-5/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-66
+FileChecksum: SHA1: c77edc36f505f284455177a0abf04c7db4d9fccf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-66
+
+
+FileName: /usr/share/X11/locale/iso8859-5/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-67
+FileChecksum: SHA1: 989832ce6acf70576586701cae6c061e50fdf8a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-67
+
+
+FileName: /usr/share/X11/locale/iso8859-6/Compose
+SPDXID: SPDXRef-libx11-data-file-68
+FileChecksum: SHA1: 94778c82b2fb47dbc96daa16b72f0be385c2cd9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-68
+
+
+FileName: /usr/share/X11/locale/iso8859-6/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-69
+FileChecksum: SHA1: 74b70bb885248804a22c785976f3214cf9462e0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-69
+
+
+FileName: /usr/share/X11/locale/iso8859-6/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-70
+FileChecksum: SHA1: 9ee8c1e480b3a4079360990685ce97e0c88e64fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-70
+
+
+FileName: /usr/share/X11/locale/iso8859-7/Compose
+SPDXID: SPDXRef-libx11-data-file-71
+FileChecksum: SHA1: 93fe823461008827006b70669cdf4c1a5bab706f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-71
+
+
+FileName: /usr/share/X11/locale/iso8859-7/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-72
+FileChecksum: SHA1: c77edc36f505f284455177a0abf04c7db4d9fccf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-72
+
+
+FileName: /usr/share/X11/locale/iso8859-7/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-73
+FileChecksum: SHA1: b0f1ad6094887fc82225b59fc41211809acd6c14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-73
+
+
+FileName: /usr/share/X11/locale/iso8859-8/Compose
+SPDXID: SPDXRef-libx11-data-file-74
+FileChecksum: SHA1: 968e9c8e6b5f802498597cb07989a5dc85f8813f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-74
+
+
+FileName: /usr/share/X11/locale/iso8859-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-75
+FileChecksum: SHA1: a8c3ba11fb3b29e2f4820282d9f8ee671ab637d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-75
+
+
+FileName: /usr/share/X11/locale/iso8859-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-76
+FileChecksum: SHA1: c85ce8f33b6604c76bdbe1157ff9259eca544955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-76
+
+
+FileName: /usr/share/X11/locale/iso8859-9/Compose
+SPDXID: SPDXRef-libx11-data-file-77
+FileChecksum: SHA1: 984fa0ed460c3431573c1a7f29b2efea635411da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-77
+
+
+FileName: /usr/share/X11/locale/iso8859-9/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-78
+FileChecksum: SHA1: c77edc36f505f284455177a0abf04c7db4d9fccf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-78
+
+
+FileName: /usr/share/X11/locale/iso8859-9/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-79
+FileChecksum: SHA1: a12dd86dfef53d8545a548fe9215afbd2450a3aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-79
+
+
+FileName: /usr/share/X11/locale/iso8859-9e/Compose
+SPDXID: SPDXRef-libx11-data-file-80
+FileChecksum: SHA1: 927ccd560e19f1d25e83c094e1b74ff08b6ff334
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-80
+
+
+FileName: /usr/share/X11/locale/iso8859-9e/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-81
+FileChecksum: SHA1: 06872ada79a421e5b53775f99d1f14ae833d66ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-81
+
+
+FileName: /usr/share/X11/locale/iso8859-9e/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-82
+FileChecksum: SHA1: db5f940a5da2efd504a6404e2010f1310b2b3c6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-82
+
+
+FileName: /usr/share/X11/locale/ja/Compose
+SPDXID: SPDXRef-libx11-data-file-83
+FileChecksum: SHA1: 02d1d7682f1f227545d7793c8e2db4e9c62b03d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-83
+
+
+FileName: /usr/share/X11/locale/ja/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-84
+FileChecksum: SHA1: 4eddbf4af838acc7326be97c62e3cc1dae4b0228
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-84
+
+
+FileName: /usr/share/X11/locale/ja/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-85
+FileChecksum: SHA1: 81b1a8a3b8c07b826c53bf55086b237c73282d23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-85
+
+
+FileName: /usr/share/X11/locale/ja.JIS/Compose
+SPDXID: SPDXRef-libx11-data-file-86
+FileChecksum: SHA1: 7d619bb6bf283092af15bec177e29054980f69ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-86
+
+
+FileName: /usr/share/X11/locale/ja.JIS/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-87
+FileChecksum: SHA1: 5b8fb44b7492b58a0abdd3091ae67d26ad2e029d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-87
+
+
+FileName: /usr/share/X11/locale/ja.JIS/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-88
+FileChecksum: SHA1: cf63f610cf5b5702d3dc8e61ecca0d6a0174d71f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-88
+
+
+FileName: /usr/share/X11/locale/ja.SJIS/Compose
+SPDXID: SPDXRef-libx11-data-file-89
+FileChecksum: SHA1: 952b5b3a4455ac9fbf78cf8e238912d2dfa19572
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-89
+
+
+FileName: /usr/share/X11/locale/ja.SJIS/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-90
+FileChecksum: SHA1: dbc46926ac6b553a84448576ccbb77bc2ea38770
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-90
+
+
+FileName: /usr/share/X11/locale/ja.SJIS/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-91
+FileChecksum: SHA1: 190ecc918f1a3be22e606fe9ed4fe799425caabb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-91
+
+
+FileName: /usr/share/X11/locale/ja_JP.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-92
+FileChecksum: SHA1: 433d2b191f2665b1a6a4bd0eaf7921f84c2de195
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-92
+
+
+FileName: /usr/share/X11/locale/ja_JP.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-93
+FileChecksum: SHA1: 9779010d240c2231b5e9132bcd4db336ee393fa6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-93
+
+
+FileName: /usr/share/X11/locale/ja_JP.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-94
+FileChecksum: SHA1: 28658b6b6c963af817fe3c538616ffb1157e665c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-94
+
+
+FileName: /usr/share/X11/locale/km_KH.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-95
+FileChecksum: SHA1: be3ceff7a52c291e9b1bec64080197da6212721f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-95
+
+
+FileName: /usr/share/X11/locale/km_KH.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-96
+FileChecksum: SHA1: 5b17a76b48ade1e757adb632c079b741781bcba9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-96
+
+
+FileName: /usr/share/X11/locale/km_KH.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-97
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-97
+
+
+FileName: /usr/share/X11/locale/ko/Compose
+SPDXID: SPDXRef-libx11-data-file-98
+FileChecksum: SHA1: 7f2950ae3f9f8fd9f27c186ffb63f73f44e8b9ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-98
+
+
+FileName: /usr/share/X11/locale/ko/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-99
+FileChecksum: SHA1: ebbc01baf6a3116b7341c5fd7d74c9975ca711ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-99
+
+
+FileName: /usr/share/X11/locale/ko/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-100
+FileChecksum: SHA1: 6ba4df38e934d30f08e5a3fd63ae86b819121acb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-100
+
+
+FileName: /usr/share/X11/locale/ko_KR.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-101
+FileChecksum: SHA1: 433d2b191f2665b1a6a4bd0eaf7921f84c2de195
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-101
+
+
+FileName: /usr/share/X11/locale/ko_KR.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-102
+FileChecksum: SHA1: d261dcf34bb9a74218e69de79e0eb9bb43140681
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-102
+
+
+FileName: /usr/share/X11/locale/ko_KR.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-103
+FileChecksum: SHA1: 5197cef69aac1b6ba2f553fd38e8431ca2612181
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-103
+
+
+FileName: /usr/share/X11/locale/koi8-c/Compose
+SPDXID: SPDXRef-libx11-data-file-104
+FileChecksum: SHA1: e81edd32afadfcbd824027cd05eea00783f7e11d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-104
+
+
+FileName: /usr/share/X11/locale/koi8-c/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-105
+FileChecksum: SHA1: 553425f838328357514c6fb69c63cbeae82cdcad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-105
+
+
+FileName: /usr/share/X11/locale/koi8-c/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-106
+FileChecksum: SHA1: 1fb16fd70a6d97da06556e081be194ccfdec6da6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-106
+
+
+FileName: /usr/share/X11/locale/koi8-r/Compose
+SPDXID: SPDXRef-libx11-data-file-107
+FileChecksum: SHA1: b0ae53041bd02da85cdd62bdb372b2c83c68ff1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-107
+
+
+FileName: /usr/share/X11/locale/koi8-r/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-108
+FileChecksum: SHA1: d4c6c2593d2758a8c3096db1b02bca660da0e4df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-108
+
+
+FileName: /usr/share/X11/locale/koi8-r/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-109
+FileChecksum: SHA1: 537f6e60fcba96bfec08544c7bee57038a8a9259
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-109
+
+
+FileName: /usr/share/X11/locale/koi8-u/Compose
+SPDXID: SPDXRef-libx11-data-file-110
+FileChecksum: SHA1: 34439ff6287ed18eb5f6b41568aa17a0307f3c46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-110
+
+
+FileName: /usr/share/X11/locale/koi8-u/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-111
+FileChecksum: SHA1: 1d8f93cf0daafc78f3247da45a61e7edde33a9d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-111
+
+
+FileName: /usr/share/X11/locale/koi8-u/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-112
+FileChecksum: SHA1: e99db1b41281fa6df78ebc4c77eb125b784d6d94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-112
+
+
+FileName: /usr/share/X11/locale/locale.alias
+SPDXID: SPDXRef-libx11-data-file-113
+FileChecksum: SHA1: 61a5bf2284d89f3333bca7fcdb6e400a4068a6cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-113
+
+
+FileName: /usr/share/X11/locale/locale.dir
+SPDXID: SPDXRef-libx11-data-file-114
+FileChecksum: SHA1: 37bca038d43fc98d74a6a3fc8e1b08b22b1a30c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-114
+
+
+FileName: /usr/share/X11/locale/microsoft-cp1251/Compose
+SPDXID: SPDXRef-libx11-data-file-115
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-115
+
+
+FileName: /usr/share/X11/locale/microsoft-cp1251/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-116
+FileChecksum: SHA1: 143d79b2757de96f45947511943e1c7bea157f90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-116
+
+
+FileName: /usr/share/X11/locale/microsoft-cp1251/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-117
+FileChecksum: SHA1: b38242f326c24f29404eedb52a15b970459e56e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-117
+
+
+FileName: /usr/share/X11/locale/microsoft-cp1255/Compose
+SPDXID: SPDXRef-libx11-data-file-118
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-118
+
+
+FileName: /usr/share/X11/locale/microsoft-cp1255/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-119
+FileChecksum: SHA1: 713ecb649bc791104bc666d66b1ee97c194417ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-119
+
+
+FileName: /usr/share/X11/locale/microsoft-cp1255/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-120
+FileChecksum: SHA1: 33bced8acbad30abbda181f0be55c149828b9c00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-120
+
+
+FileName: /usr/share/X11/locale/microsoft-cp1256/Compose
+SPDXID: SPDXRef-libx11-data-file-121
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-121
+
+
+FileName: /usr/share/X11/locale/microsoft-cp1256/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-122
+FileChecksum: SHA1: 9ebec28f253f67e25a722327f230b2c40cc3c41b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-122
+
+
+FileName: /usr/share/X11/locale/microsoft-cp1256/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-123
+FileChecksum: SHA1: 407035ea041301ee6fc8c26fd76ca46a37e10bc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-123
+
+
+FileName: /usr/share/X11/locale/mulelao-1/Compose
+SPDXID: SPDXRef-libx11-data-file-124
+FileChecksum: SHA1: 9f90429a55ff8473f54825466cd564c705513ac7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-124
+
+
+FileName: /usr/share/X11/locale/mulelao-1/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-125
+FileChecksum: SHA1: a505f0a5b346e387597b91f748f009d12875464f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-125
+
+
+FileName: /usr/share/X11/locale/mulelao-1/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-126
+FileChecksum: SHA1: 278770e866d78f47d3cb78a4c220606e363425f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-126
+
+
+FileName: /usr/share/X11/locale/nokhchi-1/Compose
+SPDXID: SPDXRef-libx11-data-file-127
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-127
+
+
+FileName: /usr/share/X11/locale/nokhchi-1/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-128
+FileChecksum: SHA1: 0e1d5d64e0974712e3ed6674ac92511c464070bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-128
+
+
+FileName: /usr/share/X11/locale/nokhchi-1/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-129
+FileChecksum: SHA1: 9fbce0f991b5921ab18d4a84b4f9eb8611f2fa5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-129
+
+
+FileName: /usr/share/X11/locale/pt_BR.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-130
+FileChecksum: SHA1: 332f3e154f6805027f2b044153414ed4b874259b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-130
+
+
+FileName: /usr/share/X11/locale/pt_BR.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-131
+FileChecksum: SHA1: 2afa068957333b5003046631248447f6346f818f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-131
+
+
+FileName: /usr/share/X11/locale/pt_BR.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-132
+FileChecksum: SHA1: 00ab30b8dc609d715e0619cf595cfa3058eb8df2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-132
+
+
+FileName: /usr/share/X11/locale/pt_PT.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-133
+FileChecksum: SHA1: a9a4ff199c46a111f0dd00b7a368f2cbeeb23851
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-133
+
+
+FileName: /usr/share/X11/locale/pt_PT.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-134
+FileChecksum: SHA1: 12e8edd8d7469a2d2c1458f25bd8524be00b5cc3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-134
+
+
+FileName: /usr/share/X11/locale/pt_PT.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-135
+FileChecksum: SHA1: 0638aa612e76aeab35db9fd52ffcf0cdc85d728f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-135
+
+
+FileName: /usr/share/X11/locale/ru_RU.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-136
+FileChecksum: SHA1: 433d2b191f2665b1a6a4bd0eaf7921f84c2de195
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-136
+
+
+FileName: /usr/share/X11/locale/ru_RU.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-137
+FileChecksum: SHA1: 8fa8c4fe395863f6b1178a407219ad9c92a3ab30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-137
+
+
+FileName: /usr/share/X11/locale/ru_RU.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-138
+FileChecksum: SHA1: 713af992f43ecfbe6613fbea215767716ebe8183
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-138
+
+
+FileName: /usr/share/X11/locale/sr_RS.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-139
+FileChecksum: SHA1: 70a3b54491eec0ca0a859ec2c272d0f32cad6241
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-139
+
+
+FileName: /usr/share/X11/locale/sr_RS.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-140
+FileChecksum: SHA1: 5b17a76b48ade1e757adb632c079b741781bcba9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-140
+
+
+FileName: /usr/share/X11/locale/sr_RS.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-141
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-141
+
+
+FileName: /usr/share/X11/locale/tatar-cyr/Compose
+SPDXID: SPDXRef-libx11-data-file-142
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-142
+
+
+FileName: /usr/share/X11/locale/tatar-cyr/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-143
+FileChecksum: SHA1: d5cd806d3cae88bef2a0b76d5396dfc8ebb12c87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-143
+
+
+FileName: /usr/share/X11/locale/tatar-cyr/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-144
+FileChecksum: SHA1: 803edd0dc5a99181b7faafce421ec7a3710489cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-144
+
+
+FileName: /usr/share/X11/locale/th_TH/Compose
+SPDXID: SPDXRef-libx11-data-file-145
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-145
+
+
+FileName: /usr/share/X11/locale/th_TH/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-146
+FileChecksum: SHA1: 40bbc66486439f21fb2d0ff2cd30e7083fe0229e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-146
+
+
+FileName: /usr/share/X11/locale/th_TH/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-147
+FileChecksum: SHA1: bcdc577879c72320694304f1c00fca5ff35dae4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-147
+
+
+FileName: /usr/share/X11/locale/th_TH.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-148
+FileChecksum: SHA1: 433d2b191f2665b1a6a4bd0eaf7921f84c2de195
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-148
+
+
+FileName: /usr/share/X11/locale/th_TH.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-149
+FileChecksum: SHA1: eade596752ca8d98a0ec8635f16079e99f17b82d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-149
+
+
+FileName: /usr/share/X11/locale/th_TH.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-150
+FileChecksum: SHA1: 4e4f3ac8c8b5039a5db05858059c3d521f3ae617
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-150
+
+
+FileName: /usr/share/X11/locale/tscii-0/Compose
+SPDXID: SPDXRef-libx11-data-file-151
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-151
+
+
+FileName: /usr/share/X11/locale/tscii-0/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-152
+FileChecksum: SHA1: c6f47953c6134ea5e9aff4d8e6e3321d6cede88b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-152
+
+
+FileName: /usr/share/X11/locale/tscii-0/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-153
+FileChecksum: SHA1: 821b132f9932edc8e1840f241027851d7bfc811c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-153
+
+
+FileName: /usr/share/X11/locale/vi_VN.tcvn/Compose
+SPDXID: SPDXRef-libx11-data-file-154
+FileChecksum: SHA1: efc7dc0642dbd0763355f6ce659dfb568e43a5b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-154
+
+
+FileName: /usr/share/X11/locale/vi_VN.tcvn/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-155
+FileChecksum: SHA1: ac480d78ef21ec55c0c481141dc0e193ba73d320
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-155
+
+
+FileName: /usr/share/X11/locale/vi_VN.tcvn/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-156
+FileChecksum: SHA1: 32d60a1b6bfc01f5995217228ea299e570d536dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-156
+
+
+FileName: /usr/share/X11/locale/vi_VN.viscii/Compose
+SPDXID: SPDXRef-libx11-data-file-157
+FileChecksum: SHA1: e1828c215df7b55dff3f133cef7912a16ee7714d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-157
+
+
+FileName: /usr/share/X11/locale/vi_VN.viscii/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-158
+FileChecksum: SHA1: 808d68cd6b1ed54d6f799d290019aac638d784f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-158
+
+
+FileName: /usr/share/X11/locale/vi_VN.viscii/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-159
+FileChecksum: SHA1: 5b8ff6ee15d1005ba3524127b394e2ffe7474f52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-159
+
+
+FileName: /usr/share/X11/locale/zh_CN/Compose
+SPDXID: SPDXRef-libx11-data-file-160
+FileChecksum: SHA1: e4ed6deb42ff1ef96c7c335ff7ba379d58c919bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-160
+
+
+FileName: /usr/share/X11/locale/zh_CN/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-161
+FileChecksum: SHA1: f32ac3aed5f00750823368ffc8ca78b5a90003eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-161
+
+
+FileName: /usr/share/X11/locale/zh_CN/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-162
+FileChecksum: SHA1: 62f2b34b6c64e47153ffbcc51e3288e26c0a145f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-162
+
+
+FileName: /usr/share/X11/locale/zh_CN.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-163
+FileChecksum: SHA1: 433d2b191f2665b1a6a4bd0eaf7921f84c2de195
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-163
+
+
+FileName: /usr/share/X11/locale/zh_CN.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-164
+FileChecksum: SHA1: 657ae6dd461381e283e18370c4b6ce5db9059a0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-164
+
+
+FileName: /usr/share/X11/locale/zh_CN.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-165
+FileChecksum: SHA1: 1f5c89be689b5fa7a798ea083c9eff53ae582fdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-165
+
+
+FileName: /usr/share/X11/locale/zh_CN.gb18030/Compose
+SPDXID: SPDXRef-libx11-data-file-166
+FileChecksum: SHA1: 4016acaaaff86b5282ab9eb2176ecb6789873ab5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-166
+
+
+FileName: /usr/share/X11/locale/zh_CN.gb18030/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-167
+FileChecksum: SHA1: bbec2d2eee993d2d0fc1b4ba1e4c29105a14505e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-167
+
+
+FileName: /usr/share/X11/locale/zh_CN.gb18030/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-168
+FileChecksum: SHA1: de5d2c7db552d42b006297590eeaca9c9ebeed2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-168
+
+
+FileName: /usr/share/X11/locale/zh_CN.gbk/Compose
+SPDXID: SPDXRef-libx11-data-file-169
+FileChecksum: SHA1: 4ea787cbab55a4dd5652f2da395396c1640c3c24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-169
+
+
+FileName: /usr/share/X11/locale/zh_CN.gbk/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-170
+FileChecksum: SHA1: ca0d3cb5d0d5f40169b6982d2ad678b6a916163e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-170
+
+
+FileName: /usr/share/X11/locale/zh_CN.gbk/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-171
+FileChecksum: SHA1: c7816ec3ba351a80d0e772a386bb6c29fca0b513
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-171
+
+
+FileName: /usr/share/X11/locale/zh_HK.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-172
+FileChecksum: SHA1: 433d2b191f2665b1a6a4bd0eaf7921f84c2de195
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-172
+
+
+FileName: /usr/share/X11/locale/zh_HK.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-173
+FileChecksum: SHA1: 17461af94050975b5e1dd4ed84b518f59e7a1f9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-173
+
+
+FileName: /usr/share/X11/locale/zh_HK.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-174
+FileChecksum: SHA1: e7382976306515724d666fe5ab448a0ccc980c13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-174
+
+
+FileName: /usr/share/X11/locale/zh_HK.big5/Compose
+SPDXID: SPDXRef-libx11-data-file-175
+FileChecksum: SHA1: 9a44e5119df35376e179b34b4d74ff16a7f1dd6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-175
+
+
+FileName: /usr/share/X11/locale/zh_HK.big5/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-176
+FileChecksum: SHA1: 72799df42abba49d3a851240f96367b2f9469b4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-176
+
+
+FileName: /usr/share/X11/locale/zh_HK.big5/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-177
+FileChecksum: SHA1: c1398f9fa2f3fb3dde9ef39a1acb7ddc29e6cc48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-177
+
+
+FileName: /usr/share/X11/locale/zh_HK.big5hkscs/Compose
+SPDXID: SPDXRef-libx11-data-file-178
+FileChecksum: SHA1: b240281facd8f9b65d2041b2a0ba92b104dc9044
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-178
+
+
+FileName: /usr/share/X11/locale/zh_HK.big5hkscs/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-179
+FileChecksum: SHA1: cf62e8fd20af415dc9cd5e0c4e2f307fb055566b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-179
+
+
+FileName: /usr/share/X11/locale/zh_HK.big5hkscs/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-180
+FileChecksum: SHA1: f0ad4f965bdbb2f500747116bcd24bbd2e187f4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-180
+
+
+FileName: /usr/share/X11/locale/zh_TW/Compose
+SPDXID: SPDXRef-libx11-data-file-181
+FileChecksum: SHA1: 2639ca2775821966327bc553dadaddf32fbddfb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-181
+
+
+FileName: /usr/share/X11/locale/zh_TW/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-182
+FileChecksum: SHA1: 694496147baedcb4dbd1972702b88949c149da68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-182
+
+
+FileName: /usr/share/X11/locale/zh_TW/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-183
+FileChecksum: SHA1: fc0d6b37aaca76fa2d486335a8623d240e59f822
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-183
+
+
+FileName: /usr/share/X11/locale/zh_TW.UTF-8/Compose
+SPDXID: SPDXRef-libx11-data-file-184
+FileChecksum: SHA1: 433d2b191f2665b1a6a4bd0eaf7921f84c2de195
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-184
+
+
+FileName: /usr/share/X11/locale/zh_TW.UTF-8/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-185
+FileChecksum: SHA1: 21b726aba136dcb931191adcd6115873a844344b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-185
+
+
+FileName: /usr/share/X11/locale/zh_TW.UTF-8/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-186
+FileChecksum: SHA1: 239b1092fa7ff4f346f87436287a7730ad9aca81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-186
+
+
+FileName: /usr/share/X11/locale/zh_TW.big5/Compose
+SPDXID: SPDXRef-libx11-data-file-187
+FileChecksum: SHA1: e609653985e8a2bdafc399bdd2b8a368dd6a7d0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-187
+
+
+FileName: /usr/share/X11/locale/zh_TW.big5/XI18N_OBJS
+SPDXID: SPDXRef-libx11-data-file-188
+FileChecksum: SHA1: ae7f0cb65d12d400ece16c2a9b984cc627206851
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-188
+
+
+FileName: /usr/share/X11/locale/zh_TW.big5/XLC_LOCALE
+SPDXID: SPDXRef-libx11-data-file-189
+FileChecksum: SHA1: ecd1f3ae3dd4af94a0b37a1929832b8b89bf44ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-189
+
+
+FileName: /usr/share/doc/libx11-data/changelog.Debian.gz
+SPDXID: SPDXRef-libx11-data-file-190
+FileChecksum: SHA1: d94e98ba850712e2f1cc8e4d42c6fe58d166675d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-190
+
+
+FileName: /usr/share/doc/libx11-data/copyright
+SPDXID: SPDXRef-libx11-data-file-191
+FileChecksum: SHA1: 57a7ee03fc35bcdd4830cbc8eae815a96ae78f78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-191
+
+
+FileName: /usr/share/man/man5/Compose.5.gz
+SPDXID: SPDXRef-libx11-data-file-192
+FileChecksum: SHA1: 4e18eb9f141bfe1ea5aa4d913d9d59a0ba949163
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-192
+
+
+FileName: /usr/share/man/man5/XCompose.5.gz
+SPDXID: SPDXRef-libx11-data-file-193
+FileChecksum: SHA1: 4e18eb9f141bfe1ea5aa4d913d9d59a0ba949163
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libx11-data CONTAINS SPDXRef-libx11-data-file-193
+
+
+## Extracted License
+

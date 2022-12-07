@@ -1,0 +1,165 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/time_1.9-0.1build2-68171e66-2b12-5fcf-afb1-ddf17197408d
+DocumentName: time_1.9-0.1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-time
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:07:31Z
+
+
+## Package
+
+PackageName: time
+PackageVersion: 1.9-0.1build2
+SPDXID: SPDXRef-time
+PackageHomePage: https://www.gnu.org/software/time
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 5757281f4168c95d15a2d920e8a67d85c5083d9f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 1987-2018 Free Software Foundation, Inc.
+Copyright 1995 Peter Tobias <tobias@et-inf.fho-emden.de>
+Copyright 1995-2004 Dirk Eddelbuettel <edd@qed.econ.queensu.ca>
+Copyright 1996 Dirk Eddelbuettel <edd@miles.econ.queensu.ca>
+Copyright 2005, 2008 Tollef Fog Heen <tfheen@debian.org>
+Copyright 2010 Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
+Copyright 2012 Bob Proulx <bob@proulx.com>
+Copyright Dirk Eddelbuettel
+</text>
+PackageComment: <text>GNU time program for measuring CPU resource usage
+ The 'time' command runs another program, then displays information
+ about the resources used by that program, collected by the system while
+ the program was running.  You can select which information is reported
+ and the format in which it is shown, or have 'time' save the information
+ in a file instead of display it on the screen.
+ .
+ The resources that 'time' can report on fall into the general
+ categories of time, memory, I/O, and IPC calls.
+ .
+ The GNU version can format the output in arbitrary ways by using a
+ printf-style format string to include various resource measurements.</text>
+Relationship: SPDXRef-time DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/time/copyright
+SPDXID: SPDXRef-time-file-0
+FileChecksum: SHA1: 60526a2b7b04b40934da6647cd185f2f4be2b934
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 1987-2018 Free Software Foundation, Inc.
+Copyright 1995 Peter Tobias <tobias@et-inf.fho-emden.de>
+Copyright 1995-2004 Dirk Eddelbuettel <edd@qed.econ.queensu.ca>
+Copyright 2005, 2008 Tollef Fog Heen <tfheen@debian.org>
+Copyright 2010 Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
+Copyright 2012 Bob Proulx <bob@proulx.com>
+Copyright 1996 Dirk Eddelbuettel <edd@miles.econ.queensu.ca>
+Copyright Dirk Eddelbuettel
+</text>
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-0
+
+
+FileName: /usr/bin/time
+SPDXID: SPDXRef-time-file-1
+FileChecksum: SHA1: 349556312c1824ef1b1b190d28f1ee860119c794
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-1
+
+
+FileName: /usr/share/doc/time/AUTHORS
+SPDXID: SPDXRef-time-file-2
+FileChecksum: SHA1: 7951f4ceffdb030ec617eddf7bba22523cc1a67f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-2
+
+
+FileName: /usr/share/doc/time/NEWS.gz
+SPDXID: SPDXRef-time-file-3
+FileChecksum: SHA1: 25ea635e02619a44a1050461fac06af616d15997
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-3
+
+
+FileName: /usr/share/doc/time/README
+SPDXID: SPDXRef-time-file-4
+FileChecksum: SHA1: f87147d15b32b10d44a4df040037bb1cc15c87e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-4
+
+
+FileName: /usr/share/doc/time/changelog.Debian.gz
+SPDXID: SPDXRef-time-file-5
+FileChecksum: SHA1: 768f14f94eafc33fbeff22ffd02154582275b191
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-5
+
+
+FileName: /usr/share/doc/time/time.html
+SPDXID: SPDXRef-time-file-6
+FileChecksum: SHA1: d287c923d342fe538c94eadb91061f98791a4a9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-6
+
+
+FileName: /usr/share/doc-base/time.time
+SPDXID: SPDXRef-time-file-7
+FileChecksum: SHA1: 14069f4a788cb7fab656f3335434890fb352bfcf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-7
+
+
+FileName: /usr/share/info/time.info.gz
+SPDXID: SPDXRef-time-file-8
+FileChecksum: SHA1: ee7e09a3b00d36aae5179a5c4560c38e01978750
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-8
+
+
+FileName: /usr/share/man/man1/time.1.gz
+SPDXID: SPDXRef-time-file-9
+FileChecksum: SHA1: 72274eb29ae1be5b85bbe90c5422697811316452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-time CONTAINS SPDXRef-time-file-9
+
+
+## Extracted License
+

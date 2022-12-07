@@ -1,0 +1,236 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-tlwg-sawasdee_1:0.7.3-1-9fe49947-418a-5154-9f1c-546d701e404e
+DocumentName: fonts-tlwg-sawasdee_1:0.7.3-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-tlwg-sawasdee
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:02:23Z
+
+
+## Package
+
+PackageName: fonts-tlwg-sawasdee
+PackageVersion: 1:0.7.3-1
+SPDXID: SPDXRef-fonts-tlwg-sawasdee
+PackageHomePage: https://linux.thai.net/projects/fonts-tlwg
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 58714abfa20345769ba757f4383302a9e82afa86
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Bitstream-Vera
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LPPL-1.3c
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 Bitstream, Inc.
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+</text>
+PackageComment: <text>Thai Sawasdee font (dependency package)
+ This package provides Thai Sawasdee decorative font from TLWG.
+ .
+ The font provides round-shaped Thai glyphs for decoration. It can also
+ be used in stylish body text.
+ .
+ This is a dependency package for installing alternative font formats.</text>
+Relationship: SPDXRef-fonts-tlwg-sawasdee DEPENDS_ON SPDXRef-fonts-tlwg-sawasdee-ttf
+
+
+PackageName: fonts-tlwg-sawasdee-ttf
+PackageVersion: 1:0.7.3-1
+SPDXID: SPDXRef-fonts-tlwg-sawasdee-ttf
+PackageHomePage: https://linux.thai.net/projects/fonts-tlwg
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1568fa5dc7f05488ec6fa69effac90e356aaa031
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Bitstream-Vera
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LPPL-1.3c
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 Bitstream, Inc.
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+</text>
+PackageComment: <text>Thai Sawasdee TrueType font
+ This package provides Thai Sawasdee decorative font from TLWG, in TrueType
+ format.
+ .
+ The font provides round-shaped Thai glyphs for decoration. It can also
+ be used in stylish body text.</text>
+Relationship: SPDXRef-fonts-tlwg-sawasdee-ttf DEPENDS_ON SPDXRef-fonts-tlwg-sawasdee
+
+
+## File
+
+FileName: /usr/share/doc/fonts-tlwg-sawasdee/copyright
+SPDXID: SPDXRef-fonts-tlwg-sawasdee-file-0
+FileChecksum: SHA1: c3a1ccdec2d07abc6973606da3e5e779fa6c7385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LPPL-1.3c
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Bitstream-Vera
+FileCopyrightText: <text>Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2003 Bitstream, Inc.
+Copyright 1999 National Electronics and Computer Technology Center
+</text>
+Relationship: SPDXRef-fonts-tlwg-sawasdee CONTAINS SPDXRef-fonts-tlwg-sawasdee-file-0
+
+
+FileName: /usr/share/doc/fonts-tlwg-sawasdee/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-tlwg-sawasdee-file-1
+FileChecksum: SHA1: 25026a541b727e99363d5e87ff9d129165ffa547
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-sawasdee CONTAINS SPDXRef-fonts-tlwg-sawasdee-file-1
+
+
+FileName: /usr/share/doc/fonts-tlwg-sawasdee-ttf/copyright
+SPDXID: SPDXRef-fonts-tlwg-sawasdee-ttf-file-0
+FileChecksum: SHA1: c3a1ccdec2d07abc6973606da3e5e779fa6c7385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LPPL-1.3c
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Bitstream-Vera
+FileCopyrightText: <text>Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2003 Bitstream, Inc.
+Copyright 1999 National Electronics and Computer Technology Center
+</text>
+Relationship: SPDXRef-fonts-tlwg-sawasdee-ttf CONTAINS SPDXRef-fonts-tlwg-sawasdee-ttf-file-0
+
+
+FileName: /usr/share/doc/fonts-tlwg-sawasdee-ttf/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-tlwg-sawasdee-ttf-file-1
+FileChecksum: SHA1: 25026a541b727e99363d5e87ff9d129165ffa547
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-sawasdee-ttf CONTAINS SPDXRef-fonts-tlwg-sawasdee-ttf-file-1
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Sawasdee-Bold.ttf
+SPDXID: SPDXRef-fonts-tlwg-sawasdee-ttf-file-2
+FileChecksum: SHA1: 89d6018fe69de6571eb6aaa56d1a50f7e437ef0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-sawasdee-ttf CONTAINS SPDXRef-fonts-tlwg-sawasdee-ttf-file-2
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Sawasdee-BoldOblique.ttf
+SPDXID: SPDXRef-fonts-tlwg-sawasdee-ttf-file-3
+FileChecksum: SHA1: 121b2941c8ac6796cc3cb06ded79177ce32c853d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-sawasdee-ttf CONTAINS SPDXRef-fonts-tlwg-sawasdee-ttf-file-3
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Sawasdee-Oblique.ttf
+SPDXID: SPDXRef-fonts-tlwg-sawasdee-ttf-file-4
+FileChecksum: SHA1: 7952f7f1e309d019c1b62617b75241f7197b20c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-sawasdee-ttf CONTAINS SPDXRef-fonts-tlwg-sawasdee-ttf-file-4
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Sawasdee.ttf
+SPDXID: SPDXRef-fonts-tlwg-sawasdee-ttf-file-5
+FileChecksum: SHA1: c31d8f0f541bc5666b0cd123251750825777eecd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-sawasdee-ttf CONTAINS SPDXRef-fonts-tlwg-sawasdee-ttf-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

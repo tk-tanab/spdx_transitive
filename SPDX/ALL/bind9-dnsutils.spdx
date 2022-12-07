@@ -1,0 +1,243 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/bind9-dnsutils_1:9.18.1-1ubuntu1.2-7433a79c-f51a-5663-80b6-9e3697006c5c
+DocumentName: bind9-dnsutils_1:9.18.1-1ubuntu1.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bind9-dnsutils
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:42:45Z
+
+
+## Package
+
+PackageName: bind9-dnsutils
+PackageVersion: 1:9.18.1-1ubuntu1.2
+SPDXID: SPDXRef-bind9-dnsutils
+PackageHomePage: https://www.isc.org/downloads/bind/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 706c0521c98481360fecd50085f98f658e535517
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: FSFAP
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: MPL-2.0
+PackageLicenseInfoFromFiles: LicenseRef-scancode-fsf-unlimited-no-warranty
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain-disclaimer
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 2004-2017 Internet Systems Consortium, Inc.
+Copyright 2006-2007 g10 Code GmbH 2006 Andreas Jellinghaus 2017 Red Hat, Inc.
+Copyright 2007-2017 LaMont Jones 2013-2017 Michael Gilbert 2017-2019 Ondrej Sury 2008-2016 Jamie Strandboge
+Copyright 2018-2020 Internet Systems Consortium, Inc.
+</text>
+PackageComment: <text>Clients provided with BIND 9
+ The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
+ name server.  BIND 9 is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers various client programs related to DNS that are
+ derived from the BIND 9 source tree.
+ .
+  - dig - query the DNS in various ways
+  - nslookup - the older way to do it
+  - nsupdate - perform dynamic updates (See RFC2136)</text>
+Relationship: SPDXRef-bind9-dnsutils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bind9-host
+Relationship: SPDXRef-bind9-dnsutils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bind9-libs
+Relationship: SPDXRef-bind9-dnsutils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-bind9-dnsutils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libedit2
+Relationship: SPDXRef-bind9-dnsutils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libidn2-0
+Relationship: SPDXRef-bind9-dnsutils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libkrb5-3
+
+
+## File
+
+FileName: /usr/share/doc/bind9-dnsutils/copyright
+SPDXID: SPDXRef-bind9-dnsutils-file-0
+FileChecksum: SHA1: 4e64cb83f08b885e932e7f9259e49307dab9e210
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LicenseRef-scancode-public-domain-disclaimer
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: FSFAP
+LicenseInfoInFile: MPL-2.0
+LicenseInfoInFile: LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: ISC
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>Copyright 2004-2017 Internet Systems Consortium, Inc.
+Copyright 2018-2020 Internet Systems Consortium, Inc.
+Copyright 2018-2020 Internet Systems Consortium, Inc.
+Copyright 2018-2020 Internet Systems Consortium, Inc.
+Copyright 2006-2007 g10 Code GmbH 2006 Andreas Jellinghaus 2017 Red Hat, Inc.
+Copyright 2004-2017 Internet Systems Consortium, Inc.
+Copyright 2004-2017 Internet Systems Consortium, Inc.
+Copyright 2004-2017 Internet Systems Consortium, Inc.
+Copyright 2004-2017 Internet Systems Consortium, Inc.
+Copyright 2004-2017 Internet Systems Consortium, Inc.
+Copyright 2007-2017 LaMont Jones 2013-2017 Michael Gilbert 2017-2019 Ondrej Sury 2008-2016 Jamie Strandboge
+</text>
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-0
+
+
+FileName: /usr/bin/delv
+SPDXID: SPDXRef-bind9-dnsutils-file-1
+FileChecksum: SHA1: cedb4f7e7ac6d0d7b0e03b3d8d908801bf4e78d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-1
+
+
+FileName: /usr/bin/dig
+SPDXID: SPDXRef-bind9-dnsutils-file-2
+FileChecksum: SHA1: 935719448b90b897fd4997f13029684640b9aa6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-2
+
+
+FileName: /usr/bin/mdig
+SPDXID: SPDXRef-bind9-dnsutils-file-3
+FileChecksum: SHA1: fe91041a217d3eb35fc348f8be3803109c15aae7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-3
+
+
+FileName: /usr/bin/nslookup
+SPDXID: SPDXRef-bind9-dnsutils-file-4
+FileChecksum: SHA1: 48db3a2ae378bd186ce7cc2c3ad7adeab1a59a02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-4
+
+
+FileName: /usr/bin/nsupdate
+SPDXID: SPDXRef-bind9-dnsutils-file-5
+FileChecksum: SHA1: 1790305fca4413758b5dfd0bb595be018a24d809
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-5
+
+
+FileName: /usr/share/man/man1/delv.1.gz
+SPDXID: SPDXRef-bind9-dnsutils-file-6
+FileChecksum: SHA1: 285fac52395a8b14ef1e7ddbfa9c7d7af5dbc3b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-6
+
+
+FileName: /usr/share/man/man1/dig.1.gz
+SPDXID: SPDXRef-bind9-dnsutils-file-7
+FileChecksum: SHA1: 9a1a527db217649dcd07eaf2fd776b97da3072da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-7
+
+
+FileName: /usr/share/man/man1/mdig.1.gz
+SPDXID: SPDXRef-bind9-dnsutils-file-8
+FileChecksum: SHA1: 9666125fb52e1fe3c406e6b4d3d4884c063aea45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-8
+
+
+FileName: /usr/share/man/man1/nslookup.1.gz
+SPDXID: SPDXRef-bind9-dnsutils-file-9
+FileChecksum: SHA1: 38ccf8b9dd94b62e2e504d9bcbaa96cc7be6ff8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-9
+
+
+FileName: /usr/share/man/man1/nsupdate.1.gz
+SPDXID: SPDXRef-bind9-dnsutils-file-10
+FileChecksum: SHA1: f711fe3414d1513fe9a61fc8aaee5a7eebe195ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-10
+
+
+FileName: /usr/share/doc/bind9-dnsutils/NEWS.Debian.gz
+SPDXID: SPDXRef-bind9-dnsutils-file-11
+FileChecksum: SHA1: f4ef363dbdeea9a2e7e9b562e8aafcce96418201
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-11
+
+
+FileName: /usr/share/doc/bind9-dnsutils/changelog.Debian.gz
+SPDXID: SPDXRef-bind9-dnsutils-file-12
+FileChecksum: SHA1: 75ae0d0aefcef7420ac36fe56817801c68c04213
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-bind9-dnsutils CONTAINS SPDXRef-bind9-dnsutils-file-12
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseName: FSF Unlimited License No Warranty
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-unlimited-no-warranty.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-unlimited-no-warranty.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain-disclaimer
+LicenseName: Public Domain Disclaimer
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain-disclaimer.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain-disclaimer.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

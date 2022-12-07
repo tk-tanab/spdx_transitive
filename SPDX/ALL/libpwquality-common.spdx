@@ -1,0 +1,98 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libpwquality-common_1.4.4-1build2-96997201-04b6-5bdc-96f2-3c488781a0af
+DocumentName: libpwquality-common_1.4.4-1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpwquality-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:58:04Z
+
+
+## Package
+
+PackageName: libpwquality-common
+PackageVersion: 1.4.4-1build2
+SPDXID: SPDXRef-libpwquality-common
+PackageHomePage: https://github.com/libpwquality/libpwquality
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 33fcf328b1fd6a744b83143fbe3406e18f0ce3f4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1996 Cristian Gafton <gafton@redhat.com>
+Copyright (c) 2011 Red Hat, Inc
+Copyright (c) 2011 Tomas Mraz <tm@t8m.info>
+Copyright (c) 2012 Canonical Ltd
+Copyright (c) Philip W. Dalrymple III <pwd@mdtsoft.com>
+</text>
+PackageComment: <text>library for password quality checking and generation (data files)
+ libpwquality's purpose is to provide common functions for password
+ quality checking and also scoring them based on their apparent randomness. The
+ library also provides a function for generating random passwords with good
+ pronounceability.
+ .
+ This package contains the configuration file and man page for libpwquality.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libpwquality-common/copyright
+SPDXID: SPDXRef-libpwquality-common-file-0
+FileChecksum: SHA1: 6fd29174313518f92a714f0fd148bb15a6ee914f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright (c) 1996 Cristian Gafton <gafton@redhat.com>
+Copyright (c) 2011 Red Hat, Inc
+Copyright (c) 2011 Tomas Mraz <tm@t8m.info>
+Copyright (c) Philip W. Dalrymple III <pwd@mdtsoft.com>
+Copyright (c) 2012 Canonical Ltd
+</text>
+Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common-file-0
+
+
+FileName: /etc/security/pwquality.conf
+SPDXID: SPDXRef-libpwquality-common-file-1
+FileChecksum: SHA1: cad6399944f0f5459270952d971fa2dbec80e5d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common-file-1
+
+
+FileName: /usr/share/doc/libpwquality-common/changelog.Debian.gz
+SPDXID: SPDXRef-libpwquality-common-file-2
+FileChecksum: SHA1: f5fdda4fe6afe0f7ebefc86106e90484db9cf4e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common-file-2
+
+
+FileName: /usr/share/man/man5/pwquality.conf.5.gz
+SPDXID: SPDXRef-libpwquality-common-file-3
+FileChecksum: SHA1: d64bf85779440d1c1a974328ca5171ae4d9263ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpwquality-common CONTAINS SPDXRef-libpwquality-common-file-3
+
+
+## Extracted License
+

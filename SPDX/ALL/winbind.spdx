@@ -1,0 +1,91 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/winbind_2:4.15.9+dfsg-0ubuntu0.2-de2a2882-34cf-5694-a8d8-4896acbd17de
+DocumentName: winbind_2:4.15.9+dfsg-0ubuntu0.2
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-winbind
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:08:56Z
+
+
+## Package
+
+PackageName: winbind
+PackageVersion: 2:4.15.9+dfsg-0ubuntu0.2
+SPDXID: SPDXRef-winbind
+PackageHomePage: http://www.samba.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 376d98af289e8bca6a3d5ff25d6a8b780f5864ac
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>service to resolve user and group information from Windows NT servers
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package provides winbindd, a daemon which integrates authentication
+ and directory service (user/group lookup) mechanisms from a Windows
+ domain on a Linux system.
+ .
+ Winbind based user/group lookups via /etc/nsswitch.conf can be enabled via
+ the libnss-winbind package. Winbind based Windows domain authentication can
+ be enabled via the libpam-winbind package.</text>
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-samba-common
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-samba-common-bin
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libbsd0
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgnutls30
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libldap-2.5-0
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpopt0
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtalloc2
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtdb1
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtevent0
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libwbclient0
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-samba-libs
+Relationship: SPDXRef-winbind DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+
+
+## File
+
+FileName: /etc/default/winbind
+SPDXID: SPDXRef-winbind-file-0
+FileChecksum: SHA1: c17866c45607557ca125be43e33bde9e8da95e0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-winbind CONTAINS SPDXRef-winbind-file-0
+
+
+FileName: /etc/init.d/winbind
+SPDXID: SPDXRef-winbind-file-1
+FileChecksum: SHA1: b73011d3131b6c25f8f42b8cb549b60099af4b76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-winbind CONTAINS SPDXRef-winbind-file-1
+
+
+FileName: /etc/logrotate.d/winbind
+SPDXID: SPDXRef-winbind-file-2
+FileChecksum: SHA1: 5ac78c1cf40a83d652e47ef8b9c70265705ca1ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-winbind CONTAINS SPDXRef-winbind-file-2
+
+
+## Extracted License
+

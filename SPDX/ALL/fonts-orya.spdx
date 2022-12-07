@@ -1,0 +1,82 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-orya_2:1.3-0ea3005e-92ad-59fb-9fdc-075c77161523
+DocumentName: fonts-orya_2:1.3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-lohit-orya http://spdx.org/spdxdocs/fonts-lohit-orya_2.91.2-2-ee664379-7ce2-5edf-9a6b-498f6078f85b SHA1: 18c54ad76be31a38c6d56480d19b98755d3574a6
+ExternalDocumentRef: DocumentRef-fonts-orya-extra http://spdx.org/spdxdocs/fonts-orya-extra_2.0-6-43191d2e-2fdd-59e7-a5a5-031d3caf3175 SHA1: 6f955954031ebedab466127e3ce01965f9746238
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-orya
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:57:02Z
+
+
+## Package
+
+PackageName: fonts-orya
+PackageVersion: 2:1.3
+SPDXID: SPDXRef-fonts-orya
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 87bb3a1f39d7d7ebb03e0cc3db012054bb7a71d6
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: ISC
+PackageCopyrightText: <text>Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Meta package to install all Odia fonts
+ This package allows you to install all available Odia fonts
+ in Debian.
+ .
+ This package installs following fonts:
+   * fonts-lohit-orya
+   * fonts-orya-extra</text>
+Relationship: SPDXRef-fonts-orya DEPENDS_ON DocumentRef-fonts-lohit-orya:SPDXRef-fonts-lohit-orya
+Relationship: SPDXRef-fonts-orya DEPENDS_ON DocumentRef-fonts-orya-extra:SPDXRef-fonts-orya-extra
+
+
+## File
+
+FileName: /usr/share/doc/fonts-orya/copyright
+SPDXID: SPDXRef-fonts-orya-file-0
+FileChecksum: SHA1: 5f94f2d87117902be85044d47a4b31400184ed04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-orya CONTAINS SPDXRef-fonts-orya-file-0
+
+
+FileName: /usr/share/doc/fonts-orya/README.Debian
+SPDXID: SPDXRef-fonts-orya-file-1
+FileChecksum: SHA1: 55e4525289e7415f51109c81659b555fa5f84bf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-orya CONTAINS SPDXRef-fonts-orya-file-1
+
+
+FileName: /usr/share/doc/fonts-orya/changelog.gz
+SPDXID: SPDXRef-fonts-orya-file-2
+FileChecksum: SHA1: 9dcfcb02e66a17ce493fdeff7a95304b0fe32300
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-orya CONTAINS SPDXRef-fonts-orya-file-2
+
+
+## Extracted License
+

@@ -1,0 +1,132 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-deva-extra_3.0-5-16d0ece0-f096-5da1-9c0e-3f30b9493d94
+DocumentName: fonts-deva-extra_3.0-5
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-gargi http://spdx.org/spdxdocs/fonts-gargi_2.0-5-14e67a59-9914-5089-85da-e59174f3453b SHA1: 2b86c3df8bc1676000a7c3b0d689c9c2937b5ddf
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-fonts-sarai http://spdx.org/spdxdocs/fonts-sarai_1.0-3-7277e8a4-93ea-5a8e-a1fe-d42dde65c52a SHA1: e2eb973d0b64a0e7215d87ba7907880c2fd69df6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-deva-extra
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:51:56Z
+
+
+## Package
+
+PackageName: fonts-deva-extra
+PackageVersion: 3.0-5
+SPDXID: SPDXRef-fonts-deva-extra
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3657c344952bad054b09a7d6a85e5102da954830
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2005, Mihail Bayaryn
+Copyright 2012, Vasudev Kamath <kamathvasudev@gmail.com>
+Copyright 2012, Vasudev Kamath <kamathvasudev@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright Sanir Karmacharya
+</text>
+PackageComment: <text>Free fonts for Devanagari script
+ This package provides free fonts for Devanagari script. This script is used by
+ languages such as Hindi, Kashmiri, Konkani, Marathi, Maithili, Nepali,
+ Sanskrit, and Sindhi languages.</text>
+Relationship: SPDXRef-fonts-deva-extra DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+Relationship: SPDXRef-fonts-deva-extra DEPENDS_ON DocumentRef-fonts-gargi:SPDXRef-fonts-gargi
+Relationship: SPDXRef-fonts-deva-extra DEPENDS_ON DocumentRef-fonts-sarai:SPDXRef-fonts-sarai
+
+
+## File
+
+FileName: /usr/share/doc/fonts-deva-extra/copyright
+SPDXID: SPDXRef-fonts-deva-extra-file-0
+FileChecksum: SHA1: 2d7f91406574354fb53b8d2016ddf00149db356c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2005, Mihail Bayaryn
+Copyright Sanir Karmacharya
+Copyright 2012, Vasudev Kamath <kamathvasudev@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2012, Vasudev Kamath <kamathvasudev@gmail.com>
+</text>
+Relationship: SPDXRef-fonts-deva-extra CONTAINS SPDXRef-fonts-deva-extra-file-0
+
+
+FileName: /etc/fonts/conf.avail/65-0-fonts-deva-extra.conf
+SPDXID: SPDXRef-fonts-deva-extra-file-1
+FileChecksum: SHA1: 3e9ed644021cea38827ac066dd7c9a24a72c9add
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-deva-extra CONTAINS SPDXRef-fonts-deva-extra-file-1
+
+
+FileName: /usr/share/doc/fonts-deva-extra/NEWS.Debian.gz
+SPDXID: SPDXRef-fonts-deva-extra-file-2
+FileChecksum: SHA1: 4c49235acbc8d33e405dc3d08072a62794a7f8d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-deva-extra CONTAINS SPDXRef-fonts-deva-extra-file-2
+
+
+FileName: /usr/share/doc/fonts-deva-extra/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-deva-extra-file-3
+FileChecksum: SHA1: e8d8b6651742111744f8d2758b5a5d318029de88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-deva-extra CONTAINS SPDXRef-fonts-deva-extra-file-3
+
+
+FileName: /usr/share/fonts/truetype/fonts-deva-extra/chandas1-2.ttf
+SPDXID: SPDXRef-fonts-deva-extra-file-4
+FileChecksum: SHA1: 9dc4c5894915aac2145b5cfe1cf5ee8b4a08429d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-deva-extra CONTAINS SPDXRef-fonts-deva-extra-file-4
+
+
+FileName: /usr/share/fonts/truetype/fonts-deva-extra/kalimati.ttf
+SPDXID: SPDXRef-fonts-deva-extra-file-5
+FileChecksum: SHA1: 02abf1098b407d917694b6ad556699ff7f2a7e39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-deva-extra CONTAINS SPDXRef-fonts-deva-extra-file-5
+
+
+FileName: /usr/share/fonts/truetype/fonts-deva-extra/samanata.ttf
+SPDXID: SPDXRef-fonts-deva-extra-file-6
+FileChecksum: SHA1: c21d338d8a6efa48a67b9cc0cde6b0b493bafc6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-deva-extra CONTAINS SPDXRef-fonts-deva-extra-file-6
+
+
+FileName: /etc/fonts/conf.d/65-0-fonts-deva-extra.conf
+SPDXID: SPDXRef-fonts-deva-extra-file-7
+FileChecksum: SHA1: 3e9ed644021cea38827ac066dd7c9a24a72c9add
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-deva-extra CONTAINS SPDXRef-fonts-deva-extra-file-7
+
+
+## Extracted License
+

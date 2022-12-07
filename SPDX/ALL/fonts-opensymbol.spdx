@@ -1,0 +1,213 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-opensymbol_2:102.12+LibO7.3.7-0ubuntu0.22.04.1-9bc8ec1f-7e01-56f4-a06b-e48a0cb0cde7
+DocumentName: fonts-opensymbol_2:102.12+LibO7.3.7-0ubuntu0.22.04.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-opensymbol
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:59:55Z
+
+
+## Package
+
+PackageName: fonts-opensymbol
+PackageVersion: 2:102.12+LibO7.3.7-0ubuntu0.22.04.1
+SPDXID: SPDXRef-fonts-opensymbol
+PackageHomePage: http://www.libreoffice.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2ca592b1d639028cc47b4312e9301c5b7fe5b1af
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-only
+PackageLicenseInfoFromFiles: LGPL-3.0-only
+PackageLicenseInfoFromFiles: LGPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: MPL-1.1
+PackageLicenseInfoFromFiles: MPL-2.0
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>(c) 2010 Google Corporation
+(c) 2011 Julien Nabet
+(c) 2011 Olivier Hallot
+(c) 2013 Mathias Hasselmann
+(c) 2015 Khaled Hosny
+(c) 2016 Mike Kaganski
+Copyright (c) 1991, 2000, 2001 by Lucent Technologies
+Copyright (c) 1997-2000 Netscape Communications Corporation
+Copyright (c) 2000 See Beyond Communications Corporation
+Copyright (c) 2000, 2010 LibreOffice
+Copyright (c) 2001-2003 Vasil Yaroshevich
+Copyright (c) 2002-2009 Software in the Public Interest, Inc.
+Copyright (c) 2007-2013 Bernhard Haumacher (haui@haumacher.de)
+Copyright (c) 2009 Sun Microsystems Inc.
+Copyright (c) 2010 Raphael Hertzog
+Copyright (c) 2011 Google Inc.
+Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+Copyright (c) 2014 Rizal Muttaqin <sundaralinux@gmail.com>
+Copyright (c) 2015 Software in the Public Interest, Inc.
+Copyright (c) 2016 Canonical Ltd.
+Copyright (c) 2017 Software in the Public Interest, Inc.
+Copyright (c) 2018 Alfred Crosby <https://github.com/alfredcrosby>
+Copyright (c) 2018 Stephen Kamenar
+Copyright (c) 2019-2020 Rizal Muttaqin <riz_17_oke@yahoo.co.id>
+Copyright (c) Jeremy Ruston 2004-2007
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+Copyright (c) UnaMesa Association 2007-2012
+Copyright 2000, 2010 Oracle and/or its affiliates
+Copyright 2008 by Sun Microsystems, Inc.
+Copyright 2014 Uri Herrera <kaisergreymon99@gmail.com>
+Copyright 2014-2016 PDFium
+Copyright 2015 Andreas Kainz <kainz.a@gmail.com> and other contributors
+Copyright 2015 by Simon Steinbeiss <simon@xfce.org> , Pasi Lallinaho <pasi@shimmerproject.org>
+Copyright 2017-2018 Matthias Freund <matti_lx@mailbox.org>
+Copyright 2018 Andreas Kainz <kainz.a@gmail.com>
+Copyright Alexis Younes
+Copyright Jakub Steiner <jimmac@novell.com> Lapo Calamandrei <calamandrei@gmail.com> Hylke Bons <hylke.bons@intel.com>
+copyright 2014 Foxit Software Inc.
+</text>
+PackageComment: <text>OpenSymbol TrueType font
+ This package contains the OpenSymbol TrueType font included in
+ LibreOffice. This font contains symbols (like fonts as Wingdings(tm)),
+ bullets (needed for bullets in LibreOffice) and non-latin character</text>
+Relationship: SPDXRef-fonts-opensymbol DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-fontconfig
+
+
+## File
+
+FileName: /usr/share/doc/fonts-opensymbol/copyright
+SPDXID: SPDXRef-fonts-opensymbol-file-0
+FileChecksum: SHA1: c8a6f309a5b400317c50aa221fc445b57ac6f6a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-3.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: MPL-1.1
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: MPL-2.0
+LicenseInfoInFile: MIT
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: LGPL-2.0-only
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: CC-BY-SA-3.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2000, 2010 Oracle and/or its affiliates
+Copyright (c) 2000, 2010 LibreOffice
+Copyright (c) 2009 Sun Microsystems Inc.
+(c) 2010 Google Corporation
+(c) 2011 Julien Nabet
+(c) 2011 Olivier Hallot
+(c) 2013 Mathias Hasselmann
+(c) 2015 Khaled Hosny
+(c) 2016 Mike Kaganski
+Copyright (c) 2007-2013 Bernhard Haumacher (haui@haumacher.de)
+Copyright (c) 2016 Canonical Ltd.
+Copyright (c) 2017 Software in the Public Interest, Inc.
+Copyright 2014 Uri Herrera <kaisergreymon99@gmail.com>
+Copyright 2015 Andreas Kainz <kainz.a@gmail.com> and other contributors
+Copyright Jakub Steiner <jimmac@novell.com> Lapo Calamandrei <calamandrei@gmail.com> Hylke Bons <hylke.bons@intel.com>
+Copyright 2017-2018 Matthias Freund <matti_lx@mailbox.org>
+Copyright 2015 by Simon Steinbeiss <simon@xfce.org> , Pasi Lallinaho <pasi@shimmerproject.org>
+Copyright 2018 Andreas Kainz <kainz.a@gmail.com>
+Copyright (c) 2014 Rizal Muttaqin <sundaralinux@gmail.com>
+Copyright (c) 2019-2020 Rizal Muttaqin <riz_17_oke@yahoo.co.id>
+Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+Copyright (c) 2018 Alfred Crosby <https://github.com/alfredcrosby>
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+Copyright (c) 2018 Stephen Kamenar
+Copyright (c) 2002-2009 Software in the Public Interest, Inc.
+Copyright (c) 2015 Software in the Public Interest, Inc.
+Copyright (c) 2010 Raphael Hertzog
+Copyright Alexis Younes
+Copyright (c) 1991, 2000, 2001 by Lucent Technologies
+Copyright (c) 2011 Google Inc.
+Copyright (c) 1997-2000 Netscape Communications Corporation
+Copyright (c) 2000 See Beyond Communications Corporation
+Copyright (c) 2001-2003 Vasil Yaroshevich
+Copyright 2008 by Sun Microsystems, Inc.
+Copyright 2014-2016 PDFium
+copyright 2014 Foxit Software Inc.
+Copyright (c) Jeremy Ruston 2004-2007
+Copyright (c) UnaMesa Association 2007-2012
+</text>
+Relationship: SPDXRef-fonts-opensymbol CONTAINS SPDXRef-fonts-opensymbol-file-0
+
+
+FileName: /usr/share/bug/fonts-opensymbol/presubj
+SPDXID: SPDXRef-fonts-opensymbol-file-1
+FileChecksum: SHA1: 11d5cf6dcfbda585aa446cb206a1357a93cd4061
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-opensymbol CONTAINS SPDXRef-fonts-opensymbol-file-1
+
+
+FileName: /usr/share/doc/fonts-opensymbol/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-opensymbol-file-2
+FileChecksum: SHA1: dab2c19c75a7937da4103b40fa510187e9105580
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-opensymbol CONTAINS SPDXRef-fonts-opensymbol-file-2
+
+
+FileName: /usr/share/fontconfig/conf.avail/30-opensymbol.conf
+SPDXID: SPDXRef-fonts-opensymbol-file-3
+FileChecksum: SHA1: dc32f35261e588049dd1ff971dfa26373ba03e7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-opensymbol CONTAINS SPDXRef-fonts-opensymbol-file-3
+
+
+FileName: /usr/share/fonts/truetype/libreoffice/opens___.ttf
+SPDXID: SPDXRef-fonts-opensymbol-file-4
+FileChecksum: SHA1: 921b639d51915e33af1402801bc15472b36e8ce0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-opensymbol CONTAINS SPDXRef-fonts-opensymbol-file-4
+
+
+FileName: /etc/fonts/conf.d/30-opensymbol.conf
+SPDXID: SPDXRef-fonts-opensymbol-file-5
+FileChecksum: SHA1: dc32f35261e588049dd1ff971dfa26373ba03e7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-opensymbol CONTAINS SPDXRef-fonts-opensymbol-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

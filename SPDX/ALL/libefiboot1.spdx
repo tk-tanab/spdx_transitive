@@ -1,0 +1,102 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libefiboot1_37-6ubuntu2-cd11225d-6ab0-5a8b-ba85-b31df0d3c228
+DocumentName: libefiboot1_37-6ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-libefivar1 http://spdx.org/spdxdocs/libefivar1_37-6ubuntu2-d1b8e61a-ba3e-5a9b-b92b-da5577b48afd SHA1: 85ae212b9f2feab7d4937af4da2e4c27281093fa
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libefiboot1
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:49:55Z
+
+
+## Package
+
+PackageName: libefiboot1
+PackageVersion: 37-6ubuntu2
+SPDXID: SPDXRef-libefiboot1
+PackageHomePage: https://github.com/rhinstaller/efivar
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c31bafad1642057597361f3dc9d7ace906e8f2fc
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2013-2014 Peter Jones <pjones@redhat.com>
+Copyright 2014 Daniel Jared Dominguez <Jared_Dominguez@Dell.com>
+</text>
+PackageComment: <text>Library to manage UEFI variables
+ Library to allow for the manipulation of UEFI variables related to booting.</text>
+Relationship: SPDXRef-libefiboot1 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libefiboot1 DEPENDS_ON DocumentRef-libefivar1:SPDXRef-libefivar1
+
+
+## File
+
+FileName: /usr/share/doc/libefiboot1/copyright
+SPDXID: SPDXRef-libefiboot1-file-0
+FileChecksum: SHA1: beac88a287534e498d70ac0c57e78279913e5a6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2013-2014 Peter Jones <pjones@redhat.com>
+Copyright 2014 Daniel Jared Dominguez <Jared_Dominguez@Dell.com>
+</text>
+Relationship: SPDXRef-libefiboot1 CONTAINS SPDXRef-libefiboot1-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libefiboot.so.1.37
+SPDXID: SPDXRef-libefiboot1-file-1
+FileChecksum: SHA1: 48a2c93f81f7befc3d8bd92b0802f843df9f098c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libefiboot1 CONTAINS SPDXRef-libefiboot1-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libefiboot.so.1
+SPDXID: SPDXRef-libefiboot1-file-2
+FileChecksum: SHA1: 48a2c93f81f7befc3d8bd92b0802f843df9f098c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libefiboot1 CONTAINS SPDXRef-libefiboot1-file-2
+
+
+FileName: /usr/share/doc/libefiboot1/NEWS.Debian.gz
+SPDXID: SPDXRef-libefiboot1-file-3
+FileChecksum: SHA1: 4d46e5135c0a3fe7ad013ab0844fdf30889757ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libefiboot1 CONTAINS SPDXRef-libefiboot1-file-3
+
+
+FileName: /usr/share/doc/libefiboot1/changelog.Debian.gz
+SPDXID: SPDXRef-libefiboot1-file-4
+FileChecksum: SHA1: b5db386b937a40e86b9c2339b92623093f8b7138
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libefiboot1 CONTAINS SPDXRef-libefiboot1-file-4
+
+
+## Extracted License
+

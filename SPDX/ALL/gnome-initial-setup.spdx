@@ -1,0 +1,287 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-initial-setup_42.0.1-1ubuntu2-aea5084e-9529-5f1e-8109-43849aa06f34
+DocumentName: gnome-initial-setup_42.0.1-1ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libsysmetrics1 http://spdx.org/spdxdocs/libsysmetrics1_1.7.1-548be3d1-93b1-5089-8ec5-33753e0d0e0c SHA1: 6913eee8e2a8fb51998e0740cc98749c496e1557
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-initial-setup
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:08:38Z
+
+
+## Package
+
+PackageName: gnome-initial-setup
+PackageVersion: 42.0.1-1ubuntu2
+SPDXID: SPDXRef-gnome-initial-setup
+PackageHomePage: https://git.gnome.org/browse/gnome-initial-setup/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b64d74af85d42e6f0a52acb956aebf1a8b5ba0ef
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: <text>Copyright (c) 2020 Endless Mobile, Inc.
+Copyright 2009-2014, Red Hat, Inc
+Copyright 2009-2016 Red Hat 2012-2016 Mattias Clasen <mclasen@redhat.com> 2012-2015 Jasper St. Pierre <jstpierre@mecheye.net> 2012, 2015 Ray Strode <rstrode@redhat.com> 2011-2013 Giovanni Campagna <scampa.giovanni@gmail.com> 2010 Intel, Inc 2009 Canonical Ltd 2000-2001 Ximian, Inc William Jon McCann <jmccann@redhat.com> Jakub Steiner <jimmac@gmail.com>
+Copyright None Copied from tzdata https://www.iana.org/time-zones
+</text>
+PackageComment: <text>Initial GNOME system setup helper
+ After acquiring or installing a new system there are a few essential things
+ to set up before use. GNOME Initial Setup aims to provide a simple, easy,
+ and safe way to prepare a new system.
+ .
+ GNOME Initial Setup runs the first time you log in to the GNOME desktop
+ and lets you easily configure your language, keyboard layout, online accounts
+ integration, and more.
+ .
+ If you want to configure these things at any other time, run the Settings app.</text>
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libaccountsservice0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcheese-gtk25
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcheese8
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libfontconfig1
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdm1
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgeoclue-2-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgnome-desktop-4-1
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgoa-1.0-0b
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgoa-backend-1.0-1
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgweather-3-16
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libhandy-1-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libibus-1.0-5
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjson-glib-1.0-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libkrb5-3
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnm0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnma0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpangocairo-1.0-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpolkit-gobject-1-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpwquality1
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-librest-0.7-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsecret-1-0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsnapd-glib1
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsoup2.4-1
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-libsysmetrics1:SPDXRef-libsysmetrics1
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libwebkit2gtk-4.0-37
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-policykit-1
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-adduser
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-settings-daemon
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-control-center-data
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-accountsservice
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-geoclue-2.0
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-keyring
+Relationship: SPDXRef-gnome-initial-setup DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gdm3
+
+
+## File
+
+FileName: /usr/share/doc/gnome-initial-setup/copyright
+SPDXID: SPDXRef-gnome-initial-setup-file-0
+FileChecksum: SHA1: 016f629a84e910292d1fdac8da01c6b9a96db859
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: GPL-3.0-only
+FileCopyrightText: <text>Copyright 2009-2016 Red Hat 2012-2016 Mattias Clasen <mclasen@redhat.com> 2012-2015 Jasper St. Pierre <jstpierre@mecheye.net> 2012, 2015 Ray Strode <rstrode@redhat.com> 2011-2013 Giovanni Campagna <scampa.giovanni@gmail.com> 2010 Intel, Inc 2009 Canonical Ltd 2000-2001 Ximian, Inc William Jon McCann <jmccann@redhat.com> Jakub Steiner <jimmac@gmail.com>
+Copyright (c) 2020 Endless Mobile, Inc.
+Copyright 2009-2014, Red Hat, Inc
+Copyright None Copied from tzdata https://www.iana.org/time-zones
+</text>
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-0
+
+
+FileName: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop
+SPDXID: SPDXRef-gnome-initial-setup-file-1
+FileChecksum: SHA1: 290c77b8714c77a36d4b1abee0fe8501601e60aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-1
+
+
+FileName: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop
+SPDXID: SPDXRef-gnome-initial-setup-file-2
+FileChecksum: SHA1: c3bc5ab4a9144234612b5d404d283b1bb7ae8f81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-2
+
+
+FileName: /usr/lib/systemd/user/gnome-initial-setup-copy-worker.service
+SPDXID: SPDXRef-gnome-initial-setup-file-3
+FileChecksum: SHA1: 6fb93753d02a38d6c040606bec4fef3a12fdcafc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-3
+
+
+FileName: /usr/lib/systemd/user/gnome-initial-setup-first-login.service
+SPDXID: SPDXRef-gnome-initial-setup-file-4
+FileChecksum: SHA1: 404773812fbe96d6ea778a960e20158cd3756199
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-4
+
+
+FileName: /usr/lib/systemd/user/gnome-session@gnome-initial-setup.target.d/session.conf
+SPDXID: SPDXRef-gnome-initial-setup-file-5
+FileChecksum: SHA1: 6b97448c851d52de0c7c80484852d304aeb18c66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-5
+
+
+FileName: /usr/libexec/gnome-initial-setup
+SPDXID: SPDXRef-gnome-initial-setup-file-6
+FileChecksum: SHA1: 1990ce0b75c6e19169fccad941bf9708799de1bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-6
+
+
+FileName: /usr/libexec/gnome-initial-setup-copy-worker
+SPDXID: SPDXRef-gnome-initial-setup-file-7
+FileChecksum: SHA1: 1b9ee07c9d6a2b5c724c89b680f3e288914ee468
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-7
+
+
+FileName: /usr/share/applications/gnome-initial-setup.desktop
+SPDXID: SPDXRef-gnome-initial-setup-file-8
+FileChecksum: SHA1: 66102373b69d7cf5c31a96d45858c4562fe39551
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-8
+
+
+FileName: /usr/share/doc/gnome-initial-setup/NEWS.gz
+SPDXID: SPDXRef-gnome-initial-setup-file-9
+FileChecksum: SHA1: 722d736a647d0dafe864d4e569112efc31fca27c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-9
+
+
+FileName: /usr/share/doc/gnome-initial-setup/README.md
+SPDXID: SPDXRef-gnome-initial-setup-file-10
+FileChecksum: SHA1: 311bebe3393ebd8b0d023a88177cc7708cd26803
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-10
+
+
+FileName: /usr/share/doc/gnome-initial-setup/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-initial-setup-file-11
+FileChecksum: SHA1: 5b4a6fa09fbe65d9243d726c53008041cf5ef5e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-11
+
+
+FileName: /usr/share/gnome-initial-setup/vendor.conf
+SPDXID: SPDXRef-gnome-initial-setup-file-12
+FileChecksum: SHA1: f8896c93e7b3ba423ca4c209e243ecba47f882a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-12
+
+
+FileName: /usr/share/gnome-session/sessions/gnome-initial-setup.session
+SPDXID: SPDXRef-gnome-initial-setup-file-13
+FileChecksum: SHA1: 970d8829d00280816353cddadf5b73e3534d1957
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-13
+
+
+FileName: /usr/share/gnome-shell/modes/initial-setup.json
+SPDXID: SPDXRef-gnome-initial-setup-file-14
+FileChecksum: SHA1: 94c4467205e334b0387c208f429d019ca680fd50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-14
+
+
+FileName: /usr/share/polkit-1/actions/com.ubuntu.welcome.policy
+SPDXID: SPDXRef-gnome-initial-setup-file-15
+FileChecksum: SHA1: 0dd6760582ca9570f48a5876660b9236d87c58a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-15
+
+
+FileName: /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules
+SPDXID: SPDXRef-gnome-initial-setup-file-16
+FileChecksum: SHA1: 92df580dff85b9d6aad9df987072f53504891418
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-16
+
+
+FileName: /usr/lib/systemd/user/gnome-session.target.wants/gnome-initial-setup-copy-worker.service
+SPDXID: SPDXRef-gnome-initial-setup-file-17
+FileChecksum: SHA1: 6fb93753d02a38d6c040606bec4fef3a12fdcafc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-17
+
+
+FileName: /usr/lib/systemd/user/gnome-session.target.wants/gnome-initial-setup-first-login.service
+SPDXID: SPDXRef-gnome-initial-setup-file-18
+FileChecksum: SHA1: 404773812fbe96d6ea778a960e20158cd3756199
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-initial-setup CONTAINS SPDXRef-gnome-initial-setup-file-18
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

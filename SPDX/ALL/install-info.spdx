@@ -1,0 +1,177 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/install-info_6.8-4build1-2f08bd9f-482e-5dfb-a648-a43feff9e1b1
+DocumentName: install-info_6.8-4build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-install-info
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:29:13Z
+
+
+## Package
+
+PackageName: install-info
+PackageVersion: 6.8-4build1
+SPDXID: SPDXRef-install-info
+PackageHomePage: https://www.gnu.org/software/texinfo/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 49a16beece86a1f2980c01722ebfdc6d83e8a31c
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GFDL-1.3-only
+PackageLicenseInfoFromFiles: GFDL-1.3-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1988, 1990, 1991, 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2001, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Free Software Foundation, Inc.
+Copyright 1987-2019 Free Software Foundation, Inc.
+</text>
+PackageComment: <text>Manage installed documentation in info format
+ The install-info utility creates the index of all installed documentation
+ in info format and makes it available to info readers.</text>
+Relationship: SPDXRef-install-info DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-install-info DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+
+
+## File
+
+FileName: /usr/share/doc/install-info/copyright
+SPDXID: SPDXRef-install-info-file-0
+FileChecksum: SHA1: f6f582bbb3ce1ba2f79e0d4045f4627954b0b69a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: GFDL-1.3-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GFDL-1.3-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 1987-2019 Free Software Foundation, Inc.
+Copyright (c) 1988, 1990, 1991, 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2001, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-0
+
+
+FileName: /usr/bin/install-info
+SPDXID: SPDXRef-install-info-file-1
+FileChecksum: SHA1: d9dbf6e24699a0bb5b2a708b02cee985e78a11ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-1
+
+
+FileName: /usr/sbin/update-info-dir
+SPDXID: SPDXRef-install-info-file-2
+FileChecksum: SHA1: dde917f4ade9874ef68bb33816fb5d6146e21e5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-2
+
+
+FileName: /usr/share/doc/install-info/AUTHORS
+SPDXID: SPDXRef-install-info-file-3
+FileChecksum: SHA1: 08991366b06484c91252c6e23c812474daf6ab0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-3
+
+
+FileName: /usr/share/doc/install-info/NEWS.gz
+SPDXID: SPDXRef-install-info-file-4
+FileChecksum: SHA1: 7499afc2bcd2b625ae0092f2cf28b1631e111770
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-4
+
+
+FileName: /usr/share/doc/install-info/README.gz
+SPDXID: SPDXRef-install-info-file-5
+FileChecksum: SHA1: 0f3959eff07daecc622290ed73e78494f091947d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-5
+
+
+FileName: /usr/share/doc/install-info/TODO.gz
+SPDXID: SPDXRef-install-info-file-6
+FileChecksum: SHA1: d73b082322e98e6a86d9535134df96ebae6f70ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-6
+
+
+FileName: /usr/share/doc/install-info/changelog.Debian.gz
+SPDXID: SPDXRef-install-info-file-7
+FileChecksum: SHA1: 68ed054e4276c154adcc4c89a033d9ba3d236f0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-7
+
+
+FileName: /usr/share/man/man1/install-info.1.gz
+SPDXID: SPDXRef-install-info-file-8
+FileChecksum: SHA1: 9418a25cb866368a8c11e450cdc884b30c4d53f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-8
+
+
+FileName: /usr/share/man/man8/update-info-dir.8.gz
+SPDXID: SPDXRef-install-info-file-9
+FileChecksum: SHA1: e9de96eb82b792794b28add8f3455536960878c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-9
+
+
+FileName: /usr/bin/ginstall-info
+SPDXID: SPDXRef-install-info-file-10
+FileChecksum: SHA1: d9dbf6e24699a0bb5b2a708b02cee985e78a11ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-10
+
+
+FileName: /usr/share/man/man1/ginstall-info.1.gz
+SPDXID: SPDXRef-install-info-file-11
+FileChecksum: SHA1: 9418a25cb866368a8c11e450cdc884b30c4d53f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-install-info CONTAINS SPDXRef-install-info-file-11
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

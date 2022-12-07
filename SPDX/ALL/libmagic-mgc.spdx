@@ -1,0 +1,148 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libmagic-mgc_1:5.41-3-eff140ec-e284-59f7-b568-dea56597d61b
+DocumentName: libmagic-mgc_1:5.41-3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmagic-mgc
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:57:47Z
+
+
+## Package
+
+PackageName: libmagic-mgc
+PackageVersion: 1:5.41-3
+SPDXID: SPDXRef-libmagic-mgc
+PackageHomePage: https://www.darwinsys.com/file/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 81b819cf7cc2d7033eea0caa9ccfdce2d6905558
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-bsd-simplified-darwin
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: <text>Copyright 1985-1995 Ian F. Darwin 1994-2016 Christos Zoulas <christos@zoulas.com>
+Copyright 1990, 1993 The Regents of the University of California
+Copyright 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright 2000 The NetBSD Foundation, Inc.
+Copyright 2003 Christos Zoulas
+Copyright 2007-2013 Daniel Baumann <mail@daniel-baumann.ch> 2014-2022 Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+Copyright 2008 Christos Zoulas
+Copyright 2011 The NetBSD Foundation, Inc.
+Copyright Eberhard Mattes
+Copyright Ian F. Darwin 1986-1995
+</text>
+PackageComment: <text>File type determination library using "magic" numbers (compiled magic file)
+ This package provides the compiled magic file "magic.mgc". It has
+ been separated from libmagic1 in order to meet the multiarch
+ requirements without breaking applications that expect this file
+ at its absolute path.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libmagic-mgc/copyright
+SPDXID: SPDXRef-libmagic-mgc-file-0
+FileChecksum: SHA1: 7b01570fc9d22c5c0104f3c394ef48cf68766f0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-scancode-bsd-simplified-darwin
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: MIT
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 1985-1995 Ian F. Darwin 1994-2016 Christos Zoulas <christos@zoulas.com>
+Copyright Ian F. Darwin 1986-1995
+Copyright 2003 Christos Zoulas
+Copyright Eberhard Mattes
+Copyright 2008 Christos Zoulas
+Copyright 2011 The NetBSD Foundation, Inc.
+Copyright 2000 The NetBSD Foundation, Inc.
+Copyright 1990, 1993 The Regents of the University of California
+Copyright 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright 2007-2013 Daniel Baumann <mail@daniel-baumann.ch> 2014-2022 Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+</text>
+Relationship: SPDXRef-libmagic-mgc CONTAINS SPDXRef-libmagic-mgc-file-0
+
+
+FileName: /usr/lib/file/magic.mgc
+SPDXID: SPDXRef-libmagic-mgc-file-1
+FileChecksum: SHA1: 15a8fb86cd880ac7cb9ca3100e7213fc2fd49028
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmagic-mgc CONTAINS SPDXRef-libmagic-mgc-file-1
+
+
+FileName: /usr/share/doc/libmagic-mgc/README.Debian
+SPDXID: SPDXRef-libmagic-mgc-file-2
+FileChecksum: SHA1: 12fd991dd9bdb4ad1cfd43de6a70e81f98d69da3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmagic-mgc CONTAINS SPDXRef-libmagic-mgc-file-2
+
+
+FileName: /usr/share/doc/libmagic-mgc/changelog.Debian.gz
+SPDXID: SPDXRef-libmagic-mgc-file-3
+FileChecksum: SHA1: d4ff2effd0ab02230ac06d78ea262654affd3a02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmagic-mgc CONTAINS SPDXRef-libmagic-mgc-file-3
+
+
+FileName: /usr/share/file/magic.mgc
+SPDXID: SPDXRef-libmagic-mgc-file-4
+FileChecksum: SHA1: 15a8fb86cd880ac7cb9ca3100e7213fc2fd49028
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmagic-mgc CONTAINS SPDXRef-libmagic-mgc-file-4
+
+
+FileName: /usr/share/misc/magic.mgc
+SPDXID: SPDXRef-libmagic-mgc-file-5
+FileChecksum: SHA1: 15a8fb86cd880ac7cb9ca3100e7213fc2fd49028
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmagic-mgc CONTAINS SPDXRef-libmagic-mgc-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-bsd-simplified-darwin
+LicenseName: BSD Simplified Darwin
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-simplified-darwin.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-simplified-darwin.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

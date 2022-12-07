@@ -1,0 +1,67 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/lto-disabled-list_24-cf5ccc4e-56ba-5c8b-af5b-d7bc1ca644d2
+DocumentName: lto-disabled-list_24
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lto-disabled-list
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:13:40Z
+
+
+## Package
+
+PackageName: lto-disabled-list
+PackageVersion: 24
+SPDXID: SPDXRef-lto-disabled-list
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 17dd64e6ebfbae425b2721578340ff561d8bef7e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>list of packages not to build with LTO
+ A list of source packages not to build with link time
+ optimization (LTO).
+ .
+ Entries in this list should have a bug report filed with
+ the (user) tag 'lto'.</text>
+
+
+## File
+
+FileName: /usr/share/doc/lto-disabled-list/changelog.gz
+SPDXID: SPDXRef-lto-disabled-list-file-0
+FileChecksum: SHA1: 5b255ba1806fd94637c2910638c60c4a0331a716
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lto-disabled-list CONTAINS SPDXRef-lto-disabled-list-file-0
+
+
+FileName: /usr/share/doc/lto-disabled-list/copyright
+SPDXID: SPDXRef-lto-disabled-list-file-1
+FileChecksum: SHA1: 939d726e2a5d5cf8cb8cd3d5a7d560dc089ab104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lto-disabled-list CONTAINS SPDXRef-lto-disabled-list-file-1
+
+
+FileName: /usr/share/lto-disabled-list/lto-disabled-list
+SPDXID: SPDXRef-lto-disabled-list-file-2
+FileChecksum: SHA1: 7b195f931594ef6d1ed3647fe477c84837d30536
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-lto-disabled-list CONTAINS SPDXRef-lto-disabled-list-file-2
+
+
+## Extracted License
+

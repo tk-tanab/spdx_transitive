@@ -1,0 +1,112 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/mscompress_0.4-9build1-d6d62edb-fbf2-5875-ba71-96aef8d8d053
+DocumentName: mscompress_0.4-9build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mscompress
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:22:00Z
+
+
+## Package
+
+PackageName: mscompress
+PackageVersion: 0.4-9build1
+SPDXID: SPDXRef-mscompress
+PackageHomePage: https://github.com/stapelberg/mscompress
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 94289906dab441c22c19552ca77072cacc2050e3
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2000 Martin Hinner
+Copyright 2013 Michael Stapelberg, 2020 Patrick Matthai
+</text>
+PackageComment: <text>Microsoft "compress.exe/expand.exe" compatible (de)compressor
+ This package contains two programs:
+ .
+  * msexpand which decompresses files compressed by the Microsoft
+    compress.exe utility (e.g. Win 3.x installation files);
+  * mscompress which compresses files using the LZ77 compression
+    algorithm.
+ .
+ Files can be decompressed using Microsoft expand.exe or msexpand(1).</text>
+Relationship: SPDXRef-mscompress DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/mscompress/copyright
+SPDXID: SPDXRef-mscompress-file-0
+FileChecksum: SHA1: 5e3c4b4889939092032a57ccaa2cebf0127adf6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2000 Martin Hinner
+Copyright 2013 Michael Stapelberg, 2020 Patrick Matthai
+</text>
+Relationship: SPDXRef-mscompress CONTAINS SPDXRef-mscompress-file-0
+
+
+FileName: /usr/bin/mscompress
+SPDXID: SPDXRef-mscompress-file-1
+FileChecksum: SHA1: 29bf0ba39820ff42c69fcab84059160b3adb39f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mscompress CONTAINS SPDXRef-mscompress-file-1
+
+
+FileName: /usr/bin/msexpand
+SPDXID: SPDXRef-mscompress-file-2
+FileChecksum: SHA1: 7c280e132e44d38a51b1fb64677b301fabe5c60c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mscompress CONTAINS SPDXRef-mscompress-file-2
+
+
+FileName: /usr/share/doc/mscompress/changelog.Debian.gz
+SPDXID: SPDXRef-mscompress-file-3
+FileChecksum: SHA1: 307ce17f139213f2561225f60191520381bdf032
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mscompress CONTAINS SPDXRef-mscompress-file-3
+
+
+FileName: /usr/share/man/man1/mscompress.1.gz
+SPDXID: SPDXRef-mscompress-file-4
+FileChecksum: SHA1: e42c76b707a8ef91ac1c51b774e58e91a9b90291
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mscompress CONTAINS SPDXRef-mscompress-file-4
+
+
+FileName: /usr/share/man/man1/msexpand.1.gz
+SPDXID: SPDXRef-mscompress-file-5
+FileChecksum: SHA1: a21114120747914820297adf8ccf42e221317c8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mscompress CONTAINS SPDXRef-mscompress-file-5
+
+
+## Extracted License
+

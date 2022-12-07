@@ -1,0 +1,321 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgphoto2-l10n_2.5.27-1build2-1f3cfef8-4477-5d07-a7a5-565490d430b8
+DocumentName: libgphoto2-l10n_2.5.27-1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgphoto2-l10n
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:33:24Z
+
+
+## Package
+
+PackageName: libgphoto2-l10n
+PackageVersion: 2.5.27-1build2
+SPDXID: SPDXRef-libgphoto2-l10n
+PackageHomePage: https://github.com/gphoto/libgphoto2/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b510cf517ea885f88b740fb17cda6fda886fbec0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GFDL-1.1-or-later
+PackageLicenseInfoFromFiles: GPL-1.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: IJG
+PackageLicenseInfoFromFiles: LGPL-2.0-only
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: LGPL-3.0-only
+PackageLicenseInfoFromFiles: LGPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-proprietary-license
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain-disclaimer
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1986, Stephen Satchell 1986, Gary S. Brown
+Copyright 1986, Stephen Satchell 2002, Lutz Muller <lutz@users.sourceforge.net> 2003, Marcus Meissner <marcus@jet.franken.de>
+Copyright 1986, Stephen Satchell, Satchell Evaluations 1986, Chuck Forsberg, Omen Technology 2002, Jason Surprise <thesurprises1@attbi.com> 2002-2003, Enno Bartels <ennobartels@t-online.de> 2005, Marcus Meissner <marcus@jet.franken.de>
+Copyright 1991-1998, Thomas G. Lane
+Copyright 1994-1996, Thomas G. Lane 2010, Hans de Goede
+Copyright 1995, Spencer Kimball 1995, Peter Mattis
+Copyright 1997, Mamoru Ohno 1998, 2001, Matthew G. Martin <matt.martin@ieee.org> 2002, Lutz Mueller <lutz@users.sourceforge.net>
+Copyright 1997-1998, Michael Sweet <mike@easysw.com>
+Copyright 1999, Beat Christen <spiff@longstreet.ch> 1999, Scott Fritzinger <scottf@unr.edu> 1999-2000, Johannes Erdfelt <johannes@erdfelt.com> 2000, Philippe Marzouk <pmarzouk@bigfoot.com> 2000, Edouard Lafargue <Edouard.Lafargue@bigfoot.com> 2001-2002, Lutz Muller <lutz@users.sf.net> 2002, 2007, Hans Ulrich Niedermann <gp@n-dimensional.de> 2005, 2007, Hubert Figuiere <hub@figuiere.net> 2006-2015, Marcus Meissner <marcus@jet.franken.de> 2010-2012, Hans de Goede <hdegoede@redhat.com>
+Copyright 1999, Galen Brooks <galen@nine.com> 2000, Fredrik Roubert <roubert@df.lth.se> 2000, Mariusz Zynel <mariusz@mizar.org>
+Copyright 1999, Matthew G. Martin Edouard Lafargue
+Copyright 1999, Wolfgang G. Reissnegger 1999, Werner Almesberger 1999, J.A. Bezemer
+Copyright 1999-2000, Henning Zabel <henning@uni-paderborn.de>
+Copyright 1999-2000, Henning Zabel <henning@uni-paderborn.de> 2001, Marcus Meissner <marcus@jet.franken.de>
+Copyright 1999-2000, Johannes Erdfelt, VA
+Copyright 1999-2001, Johannes Erdfelt
+Copyright 1999-2001, Marcus Meissner <marcus@jet.franken.de>
+Copyright 2000, Adam Harrison <adam@antispin.org>
+Copyright 2000, Adam Harrison <adam@antispin.org> 2000, 2002, Vince Sanders <vince@kyllikki.org>
+Copyright 2000, Daniele Medri <madrid@linux.it> 2000, Andreas Hyden <a.hyden@cyberpoint.se> 2000-2002, Scott Fritzinger <scottf@unr.edu>
+Copyright 2000, James McKenzie 2001, Lutz Muller 2002, Marcus Meissner
+Copyright 2000, Keld Simonsen <keld@dkuug.dk> 2000, Mandelbaum <fabman@mandrakesoft.com> 2000, Lutz Muller <lutz@users.sf.net>
+Copyright 2000, Mark Davies <mdavies@dial.pipex.com> 2001-2002, 2004 Raymond Penners <raymond@dotsphinx.com>
+Copyright 2000, Scott Fritzinger 2001-2002, Lutz Mueller <lutz@users.sf.net> 2002, Hans Ulrich Niedermann <gp@n-dimensional.de> 2007-2008, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2000, Scott Fritzinger <scottf@unr.edu> 2000, Andreas Meyer <ahm@spies.com> 2000, Pete Zaitcev <zaitcev@metabyte.com>
+Copyright 2000, The Free Software Foundation
+Copyright 2000-2001, Brian Beattie <beattie@aracnet.com>
+Copyright 2000-2001, Gus Hartmann <gphoto-dimagev@gus-the-cat.org>
+Copyright 2000-2001, Scott Fritzinger 2001, Lutz Mueller <lutz@users.sf.net> 2002, Hans Ulrich Niedermann <gp@n-dimensional.de> 2008-2009, Marcus Meissner
+Copyright 2000-2002, Donn Morrison <dmorriso@gulf.uvic.ca>
+Copyright 2001 Chris Pinkham <cpinkham@infi.net>
+Copyright 2001, Benjamin Moos <benjamin@psnw.com>
+Copyright 2001, Chris Pinkham
+Copyright 2001, Hans Ulrich Niedermann <gp@n-dimensional.de> 2009
+Copyright 2001, Lutz Mueller <lutz@users.sf.net> 2005-2006, Hans Ulrich Niedermann <gp@n-dimensional.de>
+Copyright 2001, Lutz Muller 2004, Michael Haardt
+Copyright 2001, Lutz Muller <lutz@users.sf.net> 2005, Marcus Meissner <marcus@jet.franken.de> 2007, Hubert Figuiere <hub@figuiere.net>
+Copyright 2001, Lutz Muller <lutz@users.sourceforge.net> 2002, Hubert Figuiere <hfiguiere@teaser.fr>
+Copyright 2001, Lutz Muller <lutz@users.sourceforge.net> 2003, Marcus Meissner <marcus@jet.franken.de> 2003, Aurelien Croc (AP2C) <programming@ap2c.com>
+Copyright 2001, Lutz Muller <lutz@users.sourceforge.net> 2005, Hans Ulrich Niedermann <gp@n-dimensional.de>
+Copyright 2001, Michael Trawny 2005, 2007, Kilgore <kilgota@auburn.edu>
+Copyright 2001-2002, Hubert Figuiere <hfiguiere@teaser.fr> 2000-2002, Scott Fritzinger
+Copyright 2001-2002, Lutz Muller <lutz@users.sf.net> 2002, Patrick Mansfield <patman@aracnet.com>
+Copyright 2001-2005, Mariusz Woloszyn <emsi@ipartners.pl> 2003-2019, Marcus Meissner <marcus@jet.franken.de> 2005-2006, Hubert Figuiere <hfiguiere@teaser.fr> 2005-2007, Richard A. Low <richard@wentnet.com> 2005-2013, Linus Walleij <triad@df.lth.se> 2007, Ted Bullock 2007, Tero Saarni <tero.saarni@gmail.com>
+Copyright 2002, Dominik Kuhlen <dkuhlen@fhm.edu>
+Copyright 2002, Kurt Garloff <garloff@suse.de>
+Copyright 2002, Lutz Mueller <lutz@users.sourceforge.net> 2012-2013, Marcus Meissner <marcus@jet.franken.de>
+Copyright 2002, Lutz Muller <lutz@users.sourceforge.net>
+Copyright 2002, Lutz Muller <lutz@users.sourceforge.net> 2002,2005, Hans Ulrich Niedermann <hun@users.sourceforge.net> 2005, Julien BLACHE <jblache@debian.org>
+Copyright 2002, Michel Koltan <koltan@gmx.de>
+Copyright 2002, Vincent Sanders <vince@kyllikki.org> 2002-2003, Marcus Meissner <marcus@jet.franken.de>
+Copyright 2002-2003, Philipp Poeml 2002-2003, Dennis Noordsij
+Copyright 2002-2004, Till Adam <till@adam-lilienthal.de> Ian MacArthur <ian@imm.uklinux.net> John Maushammer <gphoto2@maushammer.com>
+Copyright 2002-2004, christophe barbe <christophe@debian.org> 2004-2007, Frederic Peters <fpeters@debian.org> 2005, Julien BLACHE <jblache@debian.org> 2005, Aigars Mahinovs <aigarius@debian.org> 2008-2009, Cyril Brulebois <kibi@debian.org> 2010-2012, David Paleino <dapal@debian.org> 2011, Ana Beatriz Guerrero Lopez <ana@debian.org> 2013, Markus Koschany <apo@gambaru.de>
+Copyright 2003, David Hogue <david@jawa.gotdns.org>
+Copyright 2003, Lee Benfield <lee@benf.org>
+Copyright 2003, Theodore Kilgore <kilgota@auburn.edu> 2005, Guillaume Bedot <littletux@zarb.org>
+Copyright 2003-2004, 2008, Theodore Kilgore <kilgota@auburn.edu> 2008, Amauri Magagna
+Copyright 2003-2007, Theodore Kilgore <kilgota@auburn.edu> 2009, Dan Fandrich <dan@coneharvesters.com>
+Copyright 2003-2010, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2004, Bucas Jean-Francois <jfbucas@tuxfamily.org>
+Copyright 2004, Jens Dreyer <jens.dreyer@udo.edu> 2008, Pontus Lidman <pontus@lysator.liu.se> 2011, Vincenc Podobnik <vincenc.podobnik@gmail.com> 2011-2019, Andras Salamon <andras.salamon@melda.info> 2012, Camilo Polymeris <cpolymeris@gmail.com> 2013, Ethan Queen <ethanqueen@gmail.com>
+Copyright 2004, Olivier Fauchon <olivier@aixmarseille.com>
+Copyright 2004, Peter Urbanec <toppy@urbanec.net> 2008, Marcus Meissner
+Copyright 2004, Theodore Kilgore <kilgota@auburn.edu> 2004, Stephen Pollei <stephen_pollei@comcast.net>
+Copyright 2005, Theodore Kilgore <kilgota@auburn.edu> 2008, Amauri Magagna
+Copyright 2005-2010, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2005-2012, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2006, Luc Saillard <luc@saillard.org> 2010, Hans de Goede <hdegoede@redhat.com>
+Copyright 2006, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2006-2007, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2006-2010, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2008
+Copyright 2008, Pontus Lidman <pontus@lysator.liu.se>
+Copyright 2010, Hans de Goede <hdegoede@redhat.com>
+Copyright 2010, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2010, Theodore Kilgore <kilgota@auburn.edu> 2010, Hans de Goede <hdegoede@redhat.com>
+Copyright 2010-2012, Hans de Goede <hdegoede@redhat.com>
+Copyright 2011, Hans de Goede <hdegoede@redhat.com>
+Copyright 2011,2017, Marcus Meissner <meissner@suse.de>
+Copyright 2012-2013, Marcus Meissner <marcus@jet.franken.de>
+Copyright 2014 Jeremie Miller
+Copyright 2018 Herbert Parentes Fortes Neto <hpfn@debian.org>
+Copyright ?, 2001, Dan Fandrich <dan@coneharvesters.com>
+Copyright Ken-ichi HAYASHI <xg2k-hys@asahi-net.or.jp> Jun-ichiro itojun Itoh <itojun@itojun.org>
+Copyright Lutz Muller <lutz@users.sourceforge.net> Scott Fritzinger <scottf@unr.edu> Hubert Figuiere <hfiguiere@teaser.fr>
+Copyright Peter Kajberg <pbk@odense.kollegienet.dk>
+Copyright Till Adam <till@adam-lilienthal.de> Miah Gregory <mace@darksilence.net>
+Copyright property of CompuServe Incorporated
+copyright (c) 1991-1998, Thomas G. Lane
+copyright by M.I.T.
+copyright by the Free Software Foundation
+copyright holder, Aladdin Enterprises of Menlo Park
+</text>
+PackageComment: <text>gphoto2 digital camera library - localized messages
+ The gphoto2 library can be used by applications to access various
+ digital camera models, via standard protocols such as USB Mass Storage
+ and PTP, or vendor-specific protocols.
+ .
+ This package contains the localized messages for the library.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libgphoto2-l10n/copyright
+SPDXID: SPDXRef-libgphoto2-l10n-file-0
+FileChecksum: SHA1: 90294ca0dc95af917e6c53c54c391dfd07eed286
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-3.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-public-domain-disclaimer
+LicenseInfoInFile: IJG
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: GFDL-1.1-or-later
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: GPL-1.0-only
+LicenseInfoInFile: MIT
+LicenseInfoInFile: LicenseRef-scancode-proprietary-license
+LicenseInfoInFile: LGPL-2.0-only
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright Lutz Muller <lutz@users.sourceforge.net> Scott Fritzinger <scottf@unr.edu> Hubert Figuiere <hfiguiere@teaser.fr>
+Copyright 2001, Benjamin Moos <benjamin@psnw.com>
+Copyright 2002-2003, Philipp Poeml 2002-2003, Dennis Noordsij
+Copyright 2003-2007, Theodore Kilgore <kilgota@auburn.edu> 2009, Dan Fandrich <dan@coneharvesters.com>
+Copyright 2010-2012, Hans de Goede <hdegoede@redhat.com>
+Copyright 1991-1998, Thomas G. Lane
+Copyright 1994-1996, Thomas G. Lane 2010, Hans de Goede
+Copyright 2006, Luc Saillard <luc@saillard.org> 2010, Hans de Goede <hdegoede@redhat.com>
+Copyright 2006, Luc Saillard <luc@saillard.org> 2010, Hans de Goede <hdegoede@redhat.com>
+Copyright 2000, Scott Fritzinger <scottf@unr.edu> 2000, Andreas Meyer <ahm@spies.com> 2000, Pete Zaitcev <zaitcev@metabyte.com>
+Copyright 1999, Wolfgang G. Reissnegger 1999, Werner Almesberger 1999, J.A. Bezemer
+Copyright 2001, Lutz Muller 2004, Michael Haardt
+Copyright Ken-ichi HAYASHI <xg2k-hys@asahi-net.or.jp> Jun-ichiro itojun Itoh <itojun@itojun.org>
+Copyright 2006, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2005-2012, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2005-2010, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2001, Michael Trawny 2005, 2007, Kilgore <kilgota@auburn.edu>
+Copyright 1999-2001, Johannes Erdfelt
+Copyright 2000-2001, Brian Beattie <beattie@aracnet.com>
+Copyright 2001, Lutz Muller <lutz@users.sf.net> 2005, Marcus Meissner <marcus@jet.franken.de> 2007, Hubert Figuiere <hub@figuiere.net>
+Copyright 2004, Olivier Fauchon <olivier@aixmarseille.com>
+Copyright 2002, Lutz Muller <lutz@users.sourceforge.net>
+Copyright 1997, Mamoru Ohno 1998, 2001, Matthew G. Martin <matt.martin@ieee.org> 2002, Lutz Mueller <lutz@users.sourceforge.net>
+Copyright 1986, Stephen Satchell, Satchell Evaluations 1986, Chuck Forsberg, Omen Technology 2002, Jason Surprise <thesurprises1@attbi.com> 2002-2003, Enno Bartels <ennobartels@t-online.de> 2005, Marcus Meissner <marcus@jet.franken.de>
+Copyright 2004, Theodore Kilgore <kilgota@auburn.edu> 2004, Stephen Pollei <stephen_pollei@comcast.net>
+Copyright 2001 Chris Pinkham <cpinkham@infi.net>
+Copyright 1999-2001, Marcus Meissner <marcus@jet.franken.de>
+Copyright 2006-2007, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2006-2010, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2010, Theodore Kilgore <kilgota@auburn.edu> 2010, Hans de Goede <hdegoede@redhat.com>
+Copyright 2010, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 1994-1996, Thomas G. Lane 2010, Hans de Goede
+Copyright 2002, Michel Koltan <koltan@gmx.de>
+Copyright 2001-2002, Hubert Figuiere <hfiguiere@teaser.fr> 2000-2002, Scott Fritzinger
+Copyright 2000-2002, Donn Morrison <dmorriso@gulf.uvic.ca>
+Copyright 2004, Bucas Jean-Francois <jfbucas@tuxfamily.org>
+Copyright 2001, Lutz Muller <lutz@users.sourceforge.net> 2003, Marcus Meissner <marcus@jet.franken.de> 2003, Aurelien Croc (AP2C) <programming@ap2c.com>
+Copyright 2001, Lutz Muller <lutz@users.sourceforge.net> 2002, Hubert Figuiere <hfiguiere@teaser.fr>
+Copyright 2003, Theodore Kilgore <kilgota@auburn.edu> 2005, Guillaume Bedot <littletux@zarb.org>
+Copyright 2003-2004, 2008, Theodore Kilgore <kilgota@auburn.edu> 2008, Amauri Magagna
+Copyright 2000-2001, Gus Hartmann <gphoto-dimagev@gus-the-cat.org>
+Copyright 1999-2000, Henning Zabel <henning@uni-paderborn.de>
+Copyright 1999-2000, Henning Zabel <henning@uni-paderborn.de> 2001, Marcus Meissner <marcus@jet.franken.de>
+Copyright 1999, Galen Brooks <galen@nine.com> 2000, Fredrik Roubert <roubert@df.lth.se> 2000, Mariusz Zynel <mariusz@mizar.org>
+Copyright 2001, Chris Pinkham
+Copyright Till Adam <till@adam-lilienthal.de> Miah Gregory <mace@darksilence.net>
+Copyright Peter Kajberg <pbk@odense.kollegienet.dk>
+Copyright 2008, Pontus Lidman <pontus@lysator.liu.se>
+Copyright 2011,2017, Marcus Meissner <meissner@suse.de>
+Copyright 2014 Jeremie Miller
+Copyright 2004, Jens Dreyer <jens.dreyer@udo.edu> 2008, Pontus Lidman <pontus@lysator.liu.se> 2011, Vincenc Podobnik <vincenc.podobnik@gmail.com> 2011-2019, Andras Salamon <andras.salamon@melda.info> 2012, Camilo Polymeris <cpolymeris@gmail.com> 2013, Ethan Queen <ethanqueen@gmail.com>
+Copyright 2001-2005, Mariusz Woloszyn <emsi@ipartners.pl> 2003-2019, Marcus Meissner <marcus@jet.franken.de> 2005-2006, Hubert Figuiere <hfiguiere@teaser.fr> 2005-2007, Richard A. Low <richard@wentnet.com> 2005-2013, Linus Walleij <triad@df.lth.se> 2007, Ted Bullock 2007, Tero Saarni <tero.saarni@gmail.com>
+Copyright 2012-2013, Marcus Meissner <marcus@jet.franken.de>
+Copyright 1986, Stephen Satchell 2002, Lutz Muller <lutz@users.sourceforge.net> 2003, Marcus Meissner <marcus@jet.franken.de>
+Copyright 1986, Stephen Satchell 1986, Gary S. Brown
+Copyright 2000, James McKenzie 2001, Lutz Muller 2002, Marcus Meissner
+Copyright 2001-2002, Lutz Muller <lutz@users.sf.net> 2002, Patrick Mansfield <patman@aracnet.com>
+Copyright 2002, Lutz Mueller <lutz@users.sourceforge.net> 2012-2013, Marcus Meissner <marcus@jet.franken.de>
+Copyright 2002, Vincent Sanders <vince@kyllikki.org> 2002-2003, Marcus Meissner <marcus@jet.franken.de>
+Copyright 2003, Lee Benfield <lee@benf.org>
+Copyright 2005, Theodore Kilgore <kilgota@auburn.edu> 2008, Amauri Magagna
+Copyright 2000, Mark Davies <mdavies@dial.pipex.com> 2001-2002, 2004 Raymond Penners <raymond@dotsphinx.com>
+Copyright 1999-2000, Johannes Erdfelt, VA
+Copyright 2002-2004, Till Adam <till@adam-lilienthal.de> Ian MacArthur <ian@imm.uklinux.net> John Maushammer <gphoto2@maushammer.com>
+Copyright 2003-2010, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 2010, Hans de Goede <hdegoede@redhat.com>
+Copyright 2000, Adam Harrison <adam@antispin.org> 2000, 2002, Vince Sanders <vince@kyllikki.org>
+Copyright 2000, Adam Harrison <adam@antispin.org>
+Copyright 2002, Kurt Garloff <garloff@suse.de>
+Copyright 1995, Spencer Kimball 1995, Peter Mattis
+Copyright 1997-1998, Michael Sweet <mike@easysw.com>
+Copyright 2002, Dominik Kuhlen <dkuhlen@fhm.edu>
+Copyright 2001, Lutz Muller <lutz@users.sourceforge.net> 2005, Hans Ulrich Niedermann <gp@n-dimensional.de>
+Copyright 2004, Peter Urbanec <toppy@urbanec.net> 2008, Marcus Meissner
+Copyright 2003, David Hogue <david@jawa.gotdns.org>
+Copyright 2011, Hans de Goede <hdegoede@redhat.com>
+Copyright 2000, The Free Software Foundation
+Copyright 2008
+Copyright 2000-2001, Scott Fritzinger 2001, Lutz Mueller <lutz@users.sf.net> 2002, Hans Ulrich Niedermann <gp@n-dimensional.de> 2008-2009, Marcus Meissner
+Copyright 2000, Scott Fritzinger 2001-2002, Lutz Mueller <lutz@users.sf.net> 2002, Hans Ulrich Niedermann <gp@n-dimensional.de> 2007-2008, Theodore Kilgore <kilgota@auburn.edu>
+Copyright 1999, Matthew G. Martin Edouard Lafargue
+Copyright 1999, Beat Christen <spiff@longstreet.ch> 1999, Scott Fritzinger <scottf@unr.edu> 1999-2000, Johannes Erdfelt <johannes@erdfelt.com> 2000, Philippe Marzouk <pmarzouk@bigfoot.com> 2000, Edouard Lafargue <Edouard.Lafargue@bigfoot.com> 2001-2002, Lutz Muller <lutz@users.sf.net> 2002, 2007, Hans Ulrich Niedermann <gp@n-dimensional.de> 2005, 2007, Hubert Figuiere <hub@figuiere.net> 2006-2015, Marcus Meissner <marcus@jet.franken.de> 2010-2012, Hans de Goede <hdegoede@redhat.com>
+Copyright 2010-2012, Hans de Goede <hdegoede@redhat.com>
+Copyright 2000, Daniele Medri <madrid@linux.it> 2000, Andreas Hyden <a.hyden@cyberpoint.se> 2000-2002, Scott Fritzinger <scottf@unr.edu>
+Copyright ?, 2001, Dan Fandrich <dan@coneharvesters.com>
+Copyright ?, 2001, Dan Fandrich <dan@coneharvesters.com>
+Copyright 2002, Lutz Muller <lutz@users.sourceforge.net> 2002,2005, Hans Ulrich Niedermann <hun@users.sourceforge.net> 2005, Julien BLACHE <jblache@debian.org>
+Copyright 2001, Hans Ulrich Niedermann <gp@n-dimensional.de> 2009
+Copyright 2001, Lutz Mueller <lutz@users.sf.net> 2005-2006, Hans Ulrich Niedermann <gp@n-dimensional.de>
+Copyright 2000, Keld Simonsen <keld@dkuug.dk> 2000, Mandelbaum <fabman@mandrakesoft.com> 2000, Lutz Muller <lutz@users.sf.net>
+Copyright 2002-2004, christophe barbe <christophe@debian.org> 2004-2007, Frederic Peters <fpeters@debian.org> 2005, Julien BLACHE <jblache@debian.org> 2005, Aigars Mahinovs <aigarius@debian.org> 2008-2009, Cyril Brulebois <kibi@debian.org> 2010-2012, David Paleino <dapal@debian.org> 2011, Ana Beatriz Guerrero Lopez <ana@debian.org> 2013, Markus Koschany <apo@gambaru.de>
+Copyright 2018 Herbert Parentes Fortes Neto <hpfn@debian.org>
+copyright (c) 1991-1998, Thomas G. Lane
+copyright holder, Aladdin Enterprises of Menlo Park
+copyright by the Free Software Foundation
+copyright by M.I.T.
+Copyright property of CompuServe Incorporated
+</text>
+Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n-file-0
+
+
+FileName: /usr/share/doc/libgphoto2-l10n/changelog.Debian.gz
+SPDXID: SPDXRef-libgphoto2-l10n-file-1
+FileChecksum: SHA1: 6cd29f7bac4891fa7e4c5e55e73b6a6c8cae4189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgphoto2-l10n CONTAINS SPDXRef-libgphoto2-l10n-file-1
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-proprietary-license
+LicenseName: Proprietary License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain-disclaimer
+LicenseName: Public Domain Disclaimer
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain-disclaimer.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain-disclaimer.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

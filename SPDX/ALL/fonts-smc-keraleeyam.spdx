@@ -1,0 +1,115 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-smc-keraleeyam_3.0.2-2-546b6efb-521b-5d4e-9794-afae1b7942ef
+DocumentName: fonts-smc-keraleeyam_3.0.2-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-smc-keraleeyam
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:56:02Z
+
+
+## Package
+
+PackageName: fonts-smc-keraleeyam
+PackageVersion: 3.0.2-2
+SPDXID: SPDXRef-fonts-smc-keraleeyam
+PackageHomePage: https://smc.org.in
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b298eb9c1e59a4525a35122f322a224666740aa8
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2015-2016 Hussain K
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+Copyright 2016 Rajeesh K Nambiar 2016 Swathanthra Malayalam Computing
+Copyright 2016 Santhosh Thottingal 2016 Swathanthra Malayalam Computing
+Copyright 2019 Swathanthra Malayalam Computing
+</text>
+PackageComment: <text>Keraleeyam malayalam font
+ This package provides Keraleeyam font for Malayalam script
+ which is primarily used in the state of Kerala. The font is
+ developed by SMC community</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-smc-keraleeyam/copyright
+SPDXID: SPDXRef-fonts-smc-keraleeyam-file-0
+FileChecksum: SHA1: b6e4ca758dbcdbbb53cddb5d9396ae5c68908bb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2016 Santhosh Thottingal 2016 Swathanthra Malayalam Computing
+Copyright 2015-2016 Hussain K
+Copyright 2016 Rajeesh K Nambiar 2016 Swathanthra Malayalam Computing
+Copyright 2019 Swathanthra Malayalam Computing
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+</text>
+Relationship: SPDXRef-fonts-smc-keraleeyam CONTAINS SPDXRef-fonts-smc-keraleeyam-file-0
+
+
+FileName: /etc/fonts/conf.avail/67-smc-keraleeyam.conf
+SPDXID: SPDXRef-fonts-smc-keraleeyam-file-1
+FileChecksum: SHA1: 40a6cf4debe25d1329c08381748d78219563df2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-keraleeyam CONTAINS SPDXRef-fonts-smc-keraleeyam-file-1
+
+
+FileName: /usr/share/doc/fonts-smc-keraleeyam/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-smc-keraleeyam-file-2
+FileChecksum: SHA1: dcda3b1d42867ecea83fe291e6cf3433d76ef86e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-keraleeyam CONTAINS SPDXRef-fonts-smc-keraleeyam-file-2
+
+
+FileName: /usr/share/fonts/truetype/malayalam/Keraleeyam-Regular.ttf
+SPDXID: SPDXRef-fonts-smc-keraleeyam-file-3
+FileChecksum: SHA1: 537b2a3b45c0663c6fb0a1f647363776f571f4f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-keraleeyam CONTAINS SPDXRef-fonts-smc-keraleeyam-file-3
+
+
+FileName: /usr/share/metainfo/in.org.smc.keraleeyam.metainfo.xml
+SPDXID: SPDXRef-fonts-smc-keraleeyam-file-4
+FileChecksum: SHA1: 904e6b47d7d134d1579c026ea0d18635b8cb5574
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-keraleeyam CONTAINS SPDXRef-fonts-smc-keraleeyam-file-4
+
+
+FileName: /etc/fonts/conf.d/67-smc-keraleeyam.conf
+SPDXID: SPDXRef-fonts-smc-keraleeyam-file-5
+FileChecksum: SHA1: 40a6cf4debe25d1329c08381748d78219563df2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-keraleeyam CONTAINS SPDXRef-fonts-smc-keraleeyam-file-5
+
+
+## Extracted License
+

@@ -1,0 +1,1186 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/grub-common_2.06-2ubuntu7-96637425-8f95-59fb-9b7a-a983e3964ee5
+DocumentName: grub-common_2.06-2ubuntu7
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libefiboot1 http://spdx.org/spdxdocs/libefiboot1_37-6ubuntu2-cd11225d-6ab0-5a8b-ba85-b31df0d3c228 SHA1: 68e1695c2ede5dd5fb8d8b0727759be1b2722470
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-libefivar1 http://spdx.org/spdxdocs/libefivar1_37-6ubuntu2-d1b8e61a-ba3e-5a9b-b92b-da5577b48afd SHA1: 85ae212b9f2feab7d4937af4da2e4c27281093fa
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-grub-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:14:04Z
+
+
+## Package
+
+PackageName: grub-common
+PackageVersion: 2.06-2ubuntu7
+SPDXID: SPDXRef-grub-common
+PackageHomePage: https://www.gnu.org/software/grub/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3b499d853961284da77bb5de99b389e83109c008
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc
+Copyright 2003, 2004, 2005, 2006, 2007, 2008, 2009, Robert Millan 2005, 2006, 2007, Otavio Salvador 2008, 2009, Felix Zielcke 2009, Jordi Mallach
+Copyright 2011 Daniel Tschudi
+Copyright 2012 Free Software Foundation, Inc
+Copyright Nathan Coulson 2003, 2007 Free Software Foundation, Inc 2003 NIIBE Yutaka
+</text>
+PackageComment: <text>GRand Unified Bootloader (common files)
+ This package contains common files shared by the distinct flavours of GRUB.
+ It is shared between GRUB Legacy and GRUB 2, although a number of files
+ specific to GRUB 2 are here as long as they do not break GRUB Legacy.
+ .
+ grub-mkrescue needs the suggested packages mtools (for UEFI targets) and
+ xorriso.</text>
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libdevmapper1.02.1
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-libefiboot1:SPDXRef-libefiboot1
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-libefivar1:SPDXRef-libefivar1
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libfreetype6
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libfuse3-3
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-liblzma5
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gettext-base
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+Relationship: SPDXRef-grub-common DEPENDS_ON SPDXRef-os-prober
+Relationship: SPDXRef-grub-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-console-setup
+
+
+PackageName: os-prober
+PackageVersion: 1.79ubuntu2
+SPDXID: SPDXRef-os-prober
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 7fce79e473665f94729022e73d9f0635f34c8d10
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 2004-2011 by Joshua Kwan, Joey Hess, Christian Perrier, Colin Watson and Otavio Salvador
+</text>
+PackageComment: <text>utility to detect other OSes on a set of drives
+ This package detects other OSes available on a system and outputs the
+ results in a generic machine-readable format.</text>
+Relationship: SPDXRef-os-prober DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-os-prober DEPENDS_ON SPDXRef-grub-common
+Relationship: SPDXRef-os-prober DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-mount
+
+
+## File
+
+FileName: /usr/share/doc/grub-common/copyright
+SPDXID: SPDXRef-grub-common-file-0
+FileChecksum: SHA1: 7270c57d84015d6ab0f44e44081939a73801840a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc
+Copyright 2003, 2004, 2005, 2006, 2007, 2008, 2009, Robert Millan 2005, 2006, 2007, Otavio Salvador 2008, 2009, Felix Zielcke 2009, Jordi Mallach
+Copyright Nathan Coulson 2003, 2007 Free Software Foundation, Inc 2003 NIIBE Yutaka
+Copyright 2012 Free Software Foundation, Inc
+Copyright 2011 Daniel Tschudi
+</text>
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-0
+
+
+FileName: /etc/default/grub.d/init-select.cfg
+SPDXID: SPDXRef-grub-common-file-1
+FileChecksum: SHA1: 4218b842c9b5b58ff76c695d200589d29ffa4fce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-1
+
+
+FileName: /etc/grub.d/00_header
+SPDXID: SPDXRef-grub-common-file-2
+FileChecksum: SHA1: c1d771dcc33c00cdf2ab427cd859287b8c220419
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-2
+
+
+FileName: /etc/grub.d/05_debian_theme
+SPDXID: SPDXRef-grub-common-file-3
+FileChecksum: SHA1: 2a7250cf0be431d31a44afa2f8e45d7adb5f85b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-3
+
+
+FileName: /etc/grub.d/10_linux
+SPDXID: SPDXRef-grub-common-file-4
+FileChecksum: SHA1: d03435c094eb4b1fbc379f762347182704cf4c01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-4
+
+
+FileName: /etc/grub.d/10_linux_zfs
+SPDXID: SPDXRef-grub-common-file-5
+FileChecksum: SHA1: 739afa79b7cc2faa28fdba15333315ffe86f36d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-5
+
+
+FileName: /etc/grub.d/20_linux_xen
+SPDXID: SPDXRef-grub-common-file-6
+FileChecksum: SHA1: 0d344385133800cdad362782554a403649aea3ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-6
+
+
+FileName: /etc/grub.d/30_os-prober
+SPDXID: SPDXRef-grub-common-file-7
+FileChecksum: SHA1: 486de4fabaaaf7d8ef48426204d2f412cc0e4e31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-7
+
+
+FileName: /etc/grub.d/30_uefi-firmware
+SPDXID: SPDXRef-grub-common-file-8
+FileChecksum: SHA1: 7115c5c37d6c587ebce2397c009468f26eee5e68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-8
+
+
+FileName: /etc/grub.d/40_custom
+SPDXID: SPDXRef-grub-common-file-9
+FileChecksum: SHA1: 5d989d09680d4b94fbcf39e66d778dcd11243e7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-9
+
+
+FileName: /etc/grub.d/41_custom
+SPDXID: SPDXRef-grub-common-file-10
+FileChecksum: SHA1: 99d98aab708190c0b27584cfeaa70fa562381dea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-10
+
+
+FileName: /etc/grub.d/README
+SPDXID: SPDXRef-grub-common-file-11
+FileChecksum: SHA1: 7330684105b8e3df69f7a7a0af1436610f254f58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-11
+
+
+FileName: /etc/init.d/grub-common
+SPDXID: SPDXRef-grub-common-file-12
+FileChecksum: SHA1: 93db75a3b83ab12a3cd8859d5417e8ba036f0241
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-12
+
+
+FileName: /etc/pm/sleep.d/10_grub-common
+SPDXID: SPDXRef-grub-common-file-13
+FileChecksum: SHA1: 3ffcc8543d6e37b560cc7e0e20877b425af9bfee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-13
+
+
+FileName: /lib/systemd/system/grub-common.service
+SPDXID: SPDXRef-grub-common-file-14
+FileChecksum: SHA1: 379afa9b7031636c6ad6cc454751aafba4642fc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-14
+
+
+FileName: /lib/systemd/system/grub-initrd-fallback.service
+SPDXID: SPDXRef-grub-common-file-15
+FileChecksum: SHA1: 907aa3a052c70dfcf757456c7aeba173c7e6f29d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-15
+
+
+FileName: /usr/bin/grub-editenv
+SPDXID: SPDXRef-grub-common-file-16
+FileChecksum: SHA1: edd8efd59998e4da7d7c64085ae62481743af642
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-16
+
+
+FileName: /usr/bin/grub-file
+SPDXID: SPDXRef-grub-common-file-17
+FileChecksum: SHA1: 7e68b561836671694a4da34ed48f9d9067855e83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-17
+
+
+FileName: /usr/bin/grub-fstest
+SPDXID: SPDXRef-grub-common-file-18
+FileChecksum: SHA1: 071a3b26a93cdce6a0fa5d2f86d215bf488f89e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-18
+
+
+FileName: /usr/bin/grub-glue-efi
+SPDXID: SPDXRef-grub-common-file-19
+FileChecksum: SHA1: 6da1c3368cd2d601affdac2be62537de7e1d972d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-19
+
+
+FileName: /usr/bin/grub-kbdcomp
+SPDXID: SPDXRef-grub-common-file-20
+FileChecksum: SHA1: 8bb67be2c880b831ddebc2226e5f3af1cf624855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-20
+
+
+FileName: /usr/bin/grub-menulst2cfg
+SPDXID: SPDXRef-grub-common-file-21
+FileChecksum: SHA1: d63abbeb0d8cea7e1d82d9168b94269c4bd4cb0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-21
+
+
+FileName: /usr/bin/grub-mkfont
+SPDXID: SPDXRef-grub-common-file-22
+FileChecksum: SHA1: 7e9507888538897c5dcf17cef2ba2537cfc2bd95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-22
+
+
+FileName: /usr/bin/grub-mkimage
+SPDXID: SPDXRef-grub-common-file-23
+FileChecksum: SHA1: 7485f28a26c6ce94b17857064b8ca357425382d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-23
+
+
+FileName: /usr/bin/grub-mklayout
+SPDXID: SPDXRef-grub-common-file-24
+FileChecksum: SHA1: dadb4da4431f7f1cdab3a9bf6455d8980ed45de6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-24
+
+
+FileName: /usr/bin/grub-mknetdir
+SPDXID: SPDXRef-grub-common-file-25
+FileChecksum: SHA1: 954cbc9c61f82804413715cd796ed0ed6659db22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-25
+
+
+FileName: /usr/bin/grub-mkpasswd-pbkdf2
+SPDXID: SPDXRef-grub-common-file-26
+FileChecksum: SHA1: 4904f2b8c886bd678bbe422c8475379e2e5d1f8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-26
+
+
+FileName: /usr/bin/grub-mkrelpath
+SPDXID: SPDXRef-grub-common-file-27
+FileChecksum: SHA1: bbbbb0ed83310483d2e78d0ec2488d9b6f76a0e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-27
+
+
+FileName: /usr/bin/grub-mkrescue
+SPDXID: SPDXRef-grub-common-file-28
+FileChecksum: SHA1: 0a07994088e978455862c9ee77fa9ed61e0d8e46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-28
+
+
+FileName: /usr/bin/grub-mkstandalone
+SPDXID: SPDXRef-grub-common-file-29
+FileChecksum: SHA1: 15d10ed23cf75fd3e4ae5ed54344d58adc23012f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-29
+
+
+FileName: /usr/bin/grub-mount
+SPDXID: SPDXRef-grub-common-file-30
+FileChecksum: SHA1: e3d8a127b96b98961eb9d13cf83cc54a30731770
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-30
+
+
+FileName: /usr/bin/grub-render-label
+SPDXID: SPDXRef-grub-common-file-31
+FileChecksum: SHA1: 196aa00355e3924224b4b581baec064ecf4002d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-31
+
+
+FileName: /usr/bin/grub-script-check
+SPDXID: SPDXRef-grub-common-file-32
+FileChecksum: SHA1: 96f8819157e52d708e86f36cbe073ba5bd4cea51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-32
+
+
+FileName: /usr/bin/grub-syslinux2cfg
+SPDXID: SPDXRef-grub-common-file-33
+FileChecksum: SHA1: 962c26c73ab6efa701d7858e2453158d8b24d7c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-33
+
+
+FileName: /usr/lib/grub/grub-multi-install
+SPDXID: SPDXRef-grub-common-file-34
+FileChecksum: SHA1: 66dc5f8299431a2af2947b8ca0b76403ca5a45ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-34
+
+
+FileName: /usr/sbin/grub-macbless
+SPDXID: SPDXRef-grub-common-file-35
+FileChecksum: SHA1: 9c6866b4d0159b5e8eccd347b592a39df47f645c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-35
+
+
+FileName: /usr/sbin/grub-mkconfig
+SPDXID: SPDXRef-grub-common-file-36
+FileChecksum: SHA1: f8ef7012fb796f91ab9aecb28d5f397263e4e1a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-36
+
+
+FileName: /usr/sbin/grub-mkdevicemap
+SPDXID: SPDXRef-grub-common-file-37
+FileChecksum: SHA1: ee21599fd195cce36debec670d7a995e9c97732c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-37
+
+
+FileName: /usr/sbin/grub-probe
+SPDXID: SPDXRef-grub-common-file-38
+FileChecksum: SHA1: bdb7fa3379ba3fc08f9cbf869e86601a2c18a396
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-38
+
+
+FileName: /usr/share/apport/package-hooks/source_grub2.py
+SPDXID: SPDXRef-grub-common-file-39
+FileChecksum: SHA1: a8e032beba83beedef0061f2c359c4e1264b0bc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-39
+
+
+FileName: /usr/share/bash-completion/completions/grub
+SPDXID: SPDXRef-grub-common-file-40
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-40
+
+
+FileName: /usr/share/bug/grub-common/presubj
+SPDXID: SPDXRef-grub-common-file-41
+FileChecksum: SHA1: 1140bc2b71c5c476bfeb3b2c270aa40a415e69cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-41
+
+
+FileName: /usr/share/bug/grub-common/script
+SPDXID: SPDXRef-grub-common-file-42
+FileChecksum: SHA1: 7b44a89a73ed32c36a2d1df73e55ad74a024d97f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-42
+
+
+FileName: /usr/share/doc/grub-common/AUTHORS
+SPDXID: SPDXRef-grub-common-file-43
+FileChecksum: SHA1: a04c225ce9f34e03d728c7c422b4907be6778622
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-43
+
+
+FileName: /usr/share/doc/grub-common/NEWS.Debian.gz
+SPDXID: SPDXRef-grub-common-file-44
+FileChecksum: SHA1: 01a11bdb655e136f2a03b5204a14cb3f78b3af05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-44
+
+
+FileName: /usr/share/doc/grub-common/NEWS.gz
+SPDXID: SPDXRef-grub-common-file-45
+FileChecksum: SHA1: 209c29f4eb4ea9d7f363338fd122565b47485471
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-45
+
+
+FileName: /usr/share/doc/grub-common/README
+SPDXID: SPDXRef-grub-common-file-46
+FileChecksum: SHA1: f5d7028d87cca34b34ade1d011677c1d11a952ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-46
+
+
+FileName: /usr/share/doc/grub-common/THANKS
+SPDXID: SPDXRef-grub-common-file-47
+FileChecksum: SHA1: 287e7870f66b22db16c332c9790ec9a04887f706
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-47
+
+
+FileName: /usr/share/doc/grub-common/TODO
+SPDXID: SPDXRef-grub-common-file-48
+FileChecksum: SHA1: 38127d6b87b4d8bfaf63c4eabc4d6e7ee4598861
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-48
+
+
+FileName: /usr/share/doc/grub-common/changelog.Debian.gz
+SPDXID: SPDXRef-grub-common-file-49
+FileChecksum: SHA1: 4dbe475e2875e010afd57538f2a09addb2e426ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-49
+
+
+FileName: /usr/share/doc/grub-common/examples/grub.cfg
+SPDXID: SPDXRef-grub-common-file-50
+FileChecksum: SHA1: 787f643a962a3a383c3d9ebb6fe4264b2295a80d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-50
+
+
+FileName: /usr/share/grub/ascii.h
+SPDXID: SPDXRef-grub-common-file-51
+FileChecksum: SHA1: 47545bf7345870a61f55d441f8f04cedd37cde0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-51
+
+
+FileName: /usr/share/grub/ascii.pf2
+SPDXID: SPDXRef-grub-common-file-52
+FileChecksum: SHA1: a6267d29c101cd0e70e34a6261d7567c683813c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-52
+
+
+FileName: /usr/share/grub/canonical-uefi-ca.crt
+SPDXID: SPDXRef-grub-common-file-53
+FileChecksum: SHA1: 8fe2d3a3782770a8d3a74af197e10883f31cb6b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-53
+
+
+FileName: /usr/share/grub/euro.pf2
+SPDXID: SPDXRef-grub-common-file-54
+FileChecksum: SHA1: bf5ddc0584cec63e5206d3783b983b0289b9a9c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-54
+
+
+FileName: /usr/share/grub/grub-check-signatures
+SPDXID: SPDXRef-grub-common-file-55
+FileChecksum: SHA1: dd3bdd3cc8df51f4363e6f2a5bfd27347161df9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-55
+
+
+FileName: /usr/share/grub/grub-mkconfig_lib
+SPDXID: SPDXRef-grub-common-file-56
+FileChecksum: SHA1: b48537ab7fe39903d6197afa6122f14a32bb4444
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-56
+
+
+FileName: /usr/share/grub/unicode.pf2
+SPDXID: SPDXRef-grub-common-file-57
+FileChecksum: SHA1: 02c5b67282607d3bffc68b9ec5c5b2079675ff04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-57
+
+
+FileName: /usr/share/grub/widthspec.h
+SPDXID: SPDXRef-grub-common-file-58
+FileChecksum: SHA1: b98473342605c34a6620ac948d99350a7b8a2965
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-58
+
+
+FileName: /usr/share/man/man1/grub-editenv.1.gz
+SPDXID: SPDXRef-grub-common-file-59
+FileChecksum: SHA1: aa4b37a5c88f6f25202819c64e6e13d2794215d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-59
+
+
+FileName: /usr/share/man/man1/grub-file.1.gz
+SPDXID: SPDXRef-grub-common-file-60
+FileChecksum: SHA1: f130fda9d0d335091def07a981bd1f5f98538575
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-60
+
+
+FileName: /usr/share/man/man1/grub-fstest.1.gz
+SPDXID: SPDXRef-grub-common-file-61
+FileChecksum: SHA1: 009a1a4dd734ea398fe948122274084ac1228735
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-61
+
+
+FileName: /usr/share/man/man1/grub-glue-efi.1.gz
+SPDXID: SPDXRef-grub-common-file-62
+FileChecksum: SHA1: cd4ffd5395fb967e74c97e6391051fb55dfef22a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-62
+
+
+FileName: /usr/share/man/man1/grub-kbdcomp.1.gz
+SPDXID: SPDXRef-grub-common-file-63
+FileChecksum: SHA1: dc09e0bc41cdec78bb7be4dc50eebec4dd7e2efd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-63
+
+
+FileName: /usr/share/man/man1/grub-menulst2cfg.1.gz
+SPDXID: SPDXRef-grub-common-file-64
+FileChecksum: SHA1: 08db66ae4c3737a2d8e22816e08f28cbf5a4e58c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-64
+
+
+FileName: /usr/share/man/man1/grub-mkfont.1.gz
+SPDXID: SPDXRef-grub-common-file-65
+FileChecksum: SHA1: e6eba907558595f41f0fc5bf78e5a52674fabaea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-65
+
+
+FileName: /usr/share/man/man1/grub-mkimage.1.gz
+SPDXID: SPDXRef-grub-common-file-66
+FileChecksum: SHA1: a93425a3a13697a33855217d64be5dc5a2677c2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-66
+
+
+FileName: /usr/share/man/man1/grub-mklayout.1.gz
+SPDXID: SPDXRef-grub-common-file-67
+FileChecksum: SHA1: 0445df3afbceffff1fccbf1997e1884d9674c715
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-67
+
+
+FileName: /usr/share/man/man1/grub-mknetdir.1.gz
+SPDXID: SPDXRef-grub-common-file-68
+FileChecksum: SHA1: e137391f349e909a30f4c3d1d09cebdf6732e8a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-68
+
+
+FileName: /usr/share/man/man1/grub-mkpasswd-pbkdf2.1.gz
+SPDXID: SPDXRef-grub-common-file-69
+FileChecksum: SHA1: 144340207705a0b8e481f577c9c52575b053c976
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-69
+
+
+FileName: /usr/share/man/man1/grub-mkrelpath.1.gz
+SPDXID: SPDXRef-grub-common-file-70
+FileChecksum: SHA1: bb9eb4d4d9c0fbd3e81645bf12ff6c5cba8d98b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-70
+
+
+FileName: /usr/share/man/man1/grub-mkrescue.1.gz
+SPDXID: SPDXRef-grub-common-file-71
+FileChecksum: SHA1: c0a61527c3eacd68d553e8bfaa312fdc0f492cf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-71
+
+
+FileName: /usr/share/man/man1/grub-mkstandalone.1.gz
+SPDXID: SPDXRef-grub-common-file-72
+FileChecksum: SHA1: e2cecff0584d52cceb7387a8d31bad8412fd5fb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-72
+
+
+FileName: /usr/share/man/man1/grub-mount.1.gz
+SPDXID: SPDXRef-grub-common-file-73
+FileChecksum: SHA1: 848e45bb4b6bfa5910c197787ebdfc2df9fc364e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-73
+
+
+FileName: /usr/share/man/man1/grub-render-label.1.gz
+SPDXID: SPDXRef-grub-common-file-74
+FileChecksum: SHA1: cf8db1a1f1f4c48bcdfd31edf91eea7baaa77d54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-74
+
+
+FileName: /usr/share/man/man1/grub-script-check.1.gz
+SPDXID: SPDXRef-grub-common-file-75
+FileChecksum: SHA1: 9f08b56d3634763e74ce8cd5ced14e2b34e4cf3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-75
+
+
+FileName: /usr/share/man/man1/grub-syslinux2cfg.1.gz
+SPDXID: SPDXRef-grub-common-file-76
+FileChecksum: SHA1: d9bd300499c0cc26c70eafaf19e064e3de4da995
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-76
+
+
+FileName: /usr/share/man/man8/grub-macbless.8.gz
+SPDXID: SPDXRef-grub-common-file-77
+FileChecksum: SHA1: bb2be4aa1a45c90d8fbbfd813f0b355f5a32ac66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-77
+
+
+FileName: /usr/share/man/man8/grub-mkconfig.8.gz
+SPDXID: SPDXRef-grub-common-file-78
+FileChecksum: SHA1: 91496819fe430602a8454492b50aad2c834802fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-78
+
+
+FileName: /usr/share/man/man8/grub-mkdevicemap.8.gz
+SPDXID: SPDXRef-grub-common-file-79
+FileChecksum: SHA1: 65a2d28b4b7db9eaf1c71d7056e25462b421ec45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-79
+
+
+FileName: /usr/share/man/man8/grub-probe.8.gz
+SPDXID: SPDXRef-grub-common-file-80
+FileChecksum: SHA1: 4b86b55635350842f577c995c6869e18bf6c0148
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-80
+
+
+FileName: /usr/lib/grub/grub-mkconfig_lib
+SPDXID: SPDXRef-grub-common-file-81
+FileChecksum: SHA1: b48537ab7fe39903d6197afa6122f14a32bb4444
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-81
+
+
+FileName: /usr/share/bash-completion/completions/grub-editenv
+SPDXID: SPDXRef-grub-common-file-82
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-82
+
+
+FileName: /usr/share/bash-completion/completions/grub-mkconfig
+SPDXID: SPDXRef-grub-common-file-83
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-83
+
+
+FileName: /usr/share/bash-completion/completions/grub-mkfont
+SPDXID: SPDXRef-grub-common-file-84
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-84
+
+
+FileName: /usr/share/bash-completion/completions/grub-mkimage
+SPDXID: SPDXRef-grub-common-file-85
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-85
+
+
+FileName: /usr/share/bash-completion/completions/grub-mkpasswd-pbkdf2
+SPDXID: SPDXRef-grub-common-file-86
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-86
+
+
+FileName: /usr/share/bash-completion/completions/grub-mkrescue
+SPDXID: SPDXRef-grub-common-file-87
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-87
+
+
+FileName: /usr/share/bash-completion/completions/grub-probe
+SPDXID: SPDXRef-grub-common-file-88
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-88
+
+
+FileName: /usr/share/bash-completion/completions/grub-script-check
+SPDXID: SPDXRef-grub-common-file-89
+FileChecksum: SHA1: f5ce8a28c90731ce61278eb15100ee16f58bb71b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-common CONTAINS SPDXRef-grub-common-file-89
+
+
+FileName: /usr/share/doc/os-prober/copyright
+SPDXID: SPDXRef-os-prober-file-0
+FileChecksum: SHA1: 32ed42d673151d77524a02a62ca612a41a0ef35a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2004-2011 by Joshua Kwan, Joey Hess, Christian Perrier, Colin Watson and Otavio Salvador
+</text>
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-0
+
+
+FileName: /usr/bin/linux-boot-prober
+SPDXID: SPDXRef-os-prober-file-1
+FileChecksum: SHA1: 28b4770b736caee0071af9beed9b35e1d84005bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-1
+
+
+FileName: /usr/bin/os-prober
+SPDXID: SPDXRef-os-prober-file-2
+FileChecksum: SHA1: f3a189ffabe36f5f9ad4fb5933f449b0dbe9c7ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-2
+
+
+FileName: /usr/lib/linux-boot-probes/50mounted-tests
+SPDXID: SPDXRef-os-prober-file-3
+FileChecksum: SHA1: 1b01c5e8589b3c901b030169433d57b97b8c5499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-3
+
+
+FileName: /usr/lib/linux-boot-probes/mounted/40grub
+SPDXID: SPDXRef-os-prober-file-4
+FileChecksum: SHA1: 9834820c8cf657e8b97bc1be27934365edff9b16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-4
+
+
+FileName: /usr/lib/linux-boot-probes/mounted/40grub2
+SPDXID: SPDXRef-os-prober-file-5
+FileChecksum: SHA1: 8b908ece2ba09732608e325722d68a6e1253de31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-5
+
+
+FileName: /usr/lib/linux-boot-probes/mounted/50lilo
+SPDXID: SPDXRef-os-prober-file-6
+FileChecksum: SHA1: 609db868a50e8931f5bec9b7d5e0c1e25bca4d94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-6
+
+
+FileName: /usr/lib/linux-boot-probes/mounted/90fallback
+SPDXID: SPDXRef-os-prober-file-7
+FileChecksum: SHA1: 16a5e0e6d10a2950ecac493fd04861c029f6a569
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-7
+
+
+FileName: /usr/lib/os-prober/newns
+SPDXID: SPDXRef-os-prober-file-8
+FileChecksum: SHA1: f93d5ba492ed58cd8dca75c7bc457877a94ddd65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-8
+
+
+FileName: /usr/lib/os-probes/50mounted-tests
+SPDXID: SPDXRef-os-prober-file-9
+FileChecksum: SHA1: 3dda1156e6d09c0c23f28cf1e14abc952aa387ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-9
+
+
+FileName: /usr/lib/os-probes/init/10filesystems
+SPDXID: SPDXRef-os-prober-file-10
+FileChecksum: SHA1: 0343baf7d925b7e3a0dab12a822d4ec641c7fe10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-10
+
+
+FileName: /usr/lib/os-probes/mounted/05efi
+SPDXID: SPDXRef-os-prober-file-11
+FileChecksum: SHA1: f29b9eba00106886926dea5f70aa2d19b9305992
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-11
+
+
+FileName: /usr/lib/os-probes/mounted/10freedos
+SPDXID: SPDXRef-os-prober-file-12
+FileChecksum: SHA1: 2f35a9001f20fb643f0b1b176f4590c8b1580371
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-12
+
+
+FileName: /usr/lib/os-probes/mounted/10qnx
+SPDXID: SPDXRef-os-prober-file-13
+FileChecksum: SHA1: e18d3bcd58e42f466d3a97905da4b0f8a4c43dd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-13
+
+
+FileName: /usr/lib/os-probes/mounted/20macosx
+SPDXID: SPDXRef-os-prober-file-14
+FileChecksum: SHA1: 1a09ff24256ddc910f0976fafdfab6cc8f0a8680
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-14
+
+
+FileName: /usr/lib/os-probes/mounted/20microsoft
+SPDXID: SPDXRef-os-prober-file-15
+FileChecksum: SHA1: 99dc41e5ce2188aaa9ca5c87df911b078174be98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-15
+
+
+FileName: /usr/lib/os-probes/mounted/30utility
+SPDXID: SPDXRef-os-prober-file-16
+FileChecksum: SHA1: 2322751507affa05bbb04b92c6b89c46d8059919
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-16
+
+
+FileName: /usr/lib/os-probes/mounted/40lsb
+SPDXID: SPDXRef-os-prober-file-17
+FileChecksum: SHA1: c9bc17f7e2927a874b475d417d17e8b832147c08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-17
+
+
+FileName: /usr/lib/os-probes/mounted/70hurd
+SPDXID: SPDXRef-os-prober-file-18
+FileChecksum: SHA1: 1e3de8790f34ca4e5948c53b4dac2e112de0b8ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-18
+
+
+FileName: /usr/lib/os-probes/mounted/80minix
+SPDXID: SPDXRef-os-prober-file-19
+FileChecksum: SHA1: c5612603159862defe3200819b855c5a2b75d483
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-19
+
+
+FileName: /usr/lib/os-probes/mounted/83haiku
+SPDXID: SPDXRef-os-prober-file-20
+FileChecksum: SHA1: ece8dbf715e8e88c55b65c206bbd9988f54eb173
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-20
+
+
+FileName: /usr/lib/os-probes/mounted/90linux-distro
+SPDXID: SPDXRef-os-prober-file-21
+FileChecksum: SHA1: 038e4e99e1d5933ab9aeab10502b73ed5a3182a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-21
+
+
+FileName: /usr/lib/os-probes/mounted/90solaris
+SPDXID: SPDXRef-os-prober-file-22
+FileChecksum: SHA1: 2989667a9a5ca52b5b3f2efac732c70365b49f78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-22
+
+
+FileName: /usr/lib/os-probes/mounted/efi/10elilo
+SPDXID: SPDXRef-os-prober-file-23
+FileChecksum: SHA1: 6ede852881a2f4adfb9e9be483e037da29f3000a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-23
+
+
+FileName: /usr/lib/os-probes/mounted/efi/20microsoft
+SPDXID: SPDXRef-os-prober-file-24
+FileChecksum: SHA1: 15040a42b3875b23b09c76d836205eed45b143f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-24
+
+
+FileName: /usr/share/doc/os-prober/README
+SPDXID: SPDXRef-os-prober-file-25
+FileChecksum: SHA1: f35d4b286eee8ec5cab571d4402985fbc3f2b18d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-25
+
+
+FileName: /usr/share/doc/os-prober/TODO
+SPDXID: SPDXRef-os-prober-file-26
+FileChecksum: SHA1: 36b706f001f3e2b8ef9aef32bb624aee7d1138a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-26
+
+
+FileName: /usr/share/doc/os-prober/changelog.gz
+SPDXID: SPDXRef-os-prober-file-27
+FileChecksum: SHA1: 5569c8ea3be420b3b3f903b48818beec43883508
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-27
+
+
+FileName: /usr/share/os-prober/common.sh
+SPDXID: SPDXRef-os-prober-file-28
+FileChecksum: SHA1: 0acac56d0f16d36519ebdc921398ddc53dcddf10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-os-prober CONTAINS SPDXRef-os-prober-file-28
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

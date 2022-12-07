@@ -1,0 +1,105 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/javascript-common_11+nmu1-1d95afef-922d-5430-91e9-e378019016b3
+DocumentName: javascript-common_11+nmu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-javascript-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:30:13Z
+
+
+## Package
+
+PackageName: javascript-common
+PackageVersion: 11+nmu1
+SPDXID: SPDXRef-javascript-common
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1e620bf5ce2d5886502765a4b06033d8178768f8
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2008 Marcelo Jorge Vieira <metal@alucinados.com>
+</text>
+PackageComment: <text>Base support for JavaScript library packages
+ Web applications that use JavaScript need to distribute it through HTTP. Using
+ a common path for every script avoids the need to enable this path in the HTTP
+ server for every package.
+ .
+ This is a helper package that creates /usr/share/javascript and enables it in
+ the Apache and Lighttpd webserver.</text>
+
+
+## File
+
+FileName: /usr/share/doc/javascript-common/copyright
+SPDXID: SPDXRef-javascript-common-file-0
+FileChecksum: SHA1: bcf50df04531e8e2b9053f4c006f0d5b02d52e10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 2008 Marcelo Jorge Vieira <metal@alucinados.com>
+</text>
+Relationship: SPDXRef-javascript-common CONTAINS SPDXRef-javascript-common-file-0
+
+
+FileName: /etc/apache2/conf-available/javascript-common.conf
+SPDXID: SPDXRef-javascript-common-file-1
+FileChecksum: SHA1: 59a25f628d8674b72c53c38426cacd46d1186dc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-javascript-common CONTAINS SPDXRef-javascript-common-file-1
+
+
+FileName: /etc/lighttpd/conf-available/90-javascript-alias.conf
+SPDXID: SPDXRef-javascript-common-file-2
+FileChecksum: SHA1: 9aaa5a49b8ce0d91c9ef03fbb81677d7f842e8d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-javascript-common CONTAINS SPDXRef-javascript-common-file-2
+
+
+FileName: /usr/share/doc/javascript-common/README.Debian
+SPDXID: SPDXRef-javascript-common-file-3
+FileChecksum: SHA1: 2d459e57143540a876ac95d39746f5384733849e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-javascript-common CONTAINS SPDXRef-javascript-common-file-3
+
+
+FileName: /usr/share/doc/javascript-common/changelog.gz
+SPDXID: SPDXRef-javascript-common-file-4
+FileChecksum: SHA1: b835d522b6a8de330239a165f7b882c4cf51c205
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-javascript-common CONTAINS SPDXRef-javascript-common-file-4
+
+
+FileName: /usr/share/lintian/overrides/javascript-common
+SPDXID: SPDXRef-javascript-common-file-5
+FileChecksum: SHA1: ab62761517c7e7b2c09eacdb5193c86dc33bbf76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-javascript-common CONTAINS SPDXRef-javascript-common-file-5
+
+
+## Extracted License
+

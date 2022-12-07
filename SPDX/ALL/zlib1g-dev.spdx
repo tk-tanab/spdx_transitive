@@ -1,0 +1,301 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/zlib1g-dev_1:1.2.11.dfsg-2ubuntu9.2-df01ff35-b4d7-5add-883e-cac7cf84a889
+DocumentName: zlib1g-dev_1:1.2.11.dfsg-2ubuntu9.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zlib1g-dev
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:59:14Z
+
+
+## Package
+
+PackageName: zlib1g-dev
+PackageVersion: 1:1.2.11.dfsg-2ubuntu9.2
+SPDXID: SPDXRef-zlib1g-dev
+PackageHomePage: http://zlib.net/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2fd1a1cc1618a00786344ae976dec2566f3a79ce
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Zlib
+PackageCopyrightText: <text>Copyright 1995-2013 Jean-loup Gailly and Mark Adler
+Copyright 1998 by Andreas R. Kleinert
+Copyright 1998-2010 Gilles Vollant 2007-2008 Even Rouault 2009-2010 Mathias Svensson
+Copyright 2000-2017 Mark Brown
+</text>
+PackageComment: <text>compression library - development
+ zlib is a library implementing the deflate compression method found
+ in gzip and PKZIP.  This package includes the development support
+ files.</text>
+Relationship: SPDXRef-zlib1g-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+Relationship: SPDXRef-zlib1g-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6-dev
+
+
+## File
+
+FileName: /usr/share/doc/zlib1g-dev/copyright
+SPDXID: SPDXRef-zlib1g-dev-file-0
+FileChecksum: SHA1: 39128d0780a010c6fa3b9002b383a98a7439dee5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Zlib
+FileCopyrightText: <text>Copyright 1995-2013 Jean-loup Gailly and Mark Adler
+Copyright 1998 by Andreas R. Kleinert
+Copyright 1998-2010 Gilles Vollant 2007-2008 Even Rouault 2009-2010 Mathias Svensson
+Copyright 2000-2017 Mark Brown
+</text>
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-0
+
+
+FileName: /usr/include/zconf.h
+SPDXID: SPDXRef-zlib1g-dev-file-1
+FileChecksum: SHA1: aa7295775671dc48baa541a4e97979ca0c432a73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-1
+
+
+FileName: /usr/include/zlib.h
+SPDXID: SPDXRef-zlib1g-dev-file-2
+FileChecksum: SHA1: b52783e97764088892ddb15cd78c5e97b21cb075
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libz.a
+SPDXID: SPDXRef-zlib1g-dev-file-3
+FileChecksum: SHA1: aa079183c96ae7e7d75774f8fd281a5d75184c2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/pkgconfig/zlib.pc
+SPDXID: SPDXRef-zlib1g-dev-file-4
+FileChecksum: SHA1: 55871dada5faad986d48d6bd15a586ebb3575a8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-4
+
+
+FileName: /usr/share/doc/zlib1g-dev/FAQ.gz
+SPDXID: SPDXRef-zlib1g-dev-file-5
+FileChecksum: SHA1: c1e046cd66db9efd2e541c2ec85106509014e5f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-5
+
+
+FileName: /usr/share/doc/zlib1g-dev/README.gz
+SPDXID: SPDXRef-zlib1g-dev-file-6
+FileChecksum: SHA1: c87b961377b762c5bf858b437702862dceff1398
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-6
+
+
+FileName: /usr/share/doc/zlib1g-dev/algorithm.txt.gz
+SPDXID: SPDXRef-zlib1g-dev-file-7
+FileChecksum: SHA1: f153371c58aee2df11ebaadee463bff9201584e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-7
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/README.examples
+SPDXID: SPDXRef-zlib1g-dev-file-8
+FileChecksum: SHA1: f793f7b378233d7e644754e603695966487576b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-8
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/crc32_test.c
+SPDXID: SPDXRef-zlib1g-dev-file-9
+FileChecksum: SHA1: efa3cff4137e7fd588553fdc2fa73bf8e49abd2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-9
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/enough.c
+SPDXID: SPDXRef-zlib1g-dev-file-10
+FileChecksum: SHA1: 1bcc3f9743bcfdfb77fb6736ece06c666dd1787e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-10
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/example.c
+SPDXID: SPDXRef-zlib1g-dev-file-11
+FileChecksum: SHA1: bde9391a495a7b962cc63aaf8288b02159a5f68a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-11
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/fitblk.c
+SPDXID: SPDXRef-zlib1g-dev-file-12
+FileChecksum: SHA1: b69d9b6eeadd680fe37ab8ba54d781f46fe80420
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-12
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/gun.c
+SPDXID: SPDXRef-zlib1g-dev-file-13
+FileChecksum: SHA1: 66c4ce6e2e4cc86dbe346a7cc1bc921002335929
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-13
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/gzappend.c
+SPDXID: SPDXRef-zlib1g-dev-file-14
+FileChecksum: SHA1: a22e75fe1bb392ce8516794d6e810fd0dfcf8dca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-14
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/gzjoin.c
+SPDXID: SPDXRef-zlib1g-dev-file-15
+FileChecksum: SHA1: 9c34287cf18b05b761daf6457fc5efbf501358d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-15
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/gzlog.c
+SPDXID: SPDXRef-zlib1g-dev-file-16
+FileChecksum: SHA1: 32d9e430fe8725def0a036f86a526e7b3214eaf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-16
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/gzlog.h
+SPDXID: SPDXRef-zlib1g-dev-file-17
+FileChecksum: SHA1: deab1fb6de11e3145dfea71254d0c363a3415e04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-17
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/infcover.c
+SPDXID: SPDXRef-zlib1g-dev-file-18
+FileChecksum: SHA1: fb9c00f02c0ed7d2ff4a45d2407e0f71afb3be11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-18
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/minigzip.c
+SPDXID: SPDXRef-zlib1g-dev-file-19
+FileChecksum: SHA1: a7b0bd30be5f743555ae759683f3aa65b717c0c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-19
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/zlib_how.html
+SPDXID: SPDXRef-zlib1g-dev-file-20
+FileChecksum: SHA1: 35f85759bc23add6a8507c76d05f73131823a9b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-20
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/zpipe.c
+SPDXID: SPDXRef-zlib1g-dev-file-21
+FileChecksum: SHA1: b59f2d5676cc135ac0af040d90c3e7b366fcce93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-21
+
+
+FileName: /usr/share/doc/zlib1g-dev/examples/zran.c
+SPDXID: SPDXRef-zlib1g-dev-file-22
+FileChecksum: SHA1: db2e8f8daa77cf6536bf516f194c422f5db8310d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-22
+
+
+FileName: /usr/share/doc/zlib1g-dev/txtvsbin.txt.gz
+SPDXID: SPDXRef-zlib1g-dev-file-23
+FileChecksum: SHA1: 5ff9d9f09fdd817a85d1ddc3a3f89971659fdc3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-23
+
+
+FileName: /usr/share/man/man3/zlib.3.gz
+SPDXID: SPDXRef-zlib1g-dev-file-24
+FileChecksum: SHA1: 561c337ec072d4ed62c92ca4e9aadf0decb96ae3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-24
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libz.so
+SPDXID: SPDXRef-zlib1g-dev-file-25
+FileChecksum: SHA1: 33659ffd12c109442120939bc4b5ef99fbac9170
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-25
+
+
+FileName: /usr/share/doc/zlib1g-dev/changelog.Debian.gz
+SPDXID: SPDXRef-zlib1g-dev-file-26
+FileChecksum: SHA1: a95bd0e67d1d39b96a611e5a66fadf381b0132c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-zlib1g-dev CONTAINS SPDXRef-zlib1g-dev-file-26
+
+
+## Extracted License
+

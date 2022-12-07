@@ -1,0 +1,708 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/strongswan_5.9.5-2ubuntu2.1-a6c6eb76-c9f4-5c06-8ee6-6b7f0b12fc6b
+DocumentName: strongswan_5.9.5-2ubuntu2.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-strongswan-charon.Cycle http://spdx.org/spdxdocs/strongswan-charon_5.9.5-2ubuntu2.1-f7ea7f09-237e-56a6-a7a9-21b7b31d7bbe SHA1: d4c6c957ffca05c4c4c35a7ebb368d61ebea209a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-strongswan
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:04:55Z
+
+
+## Package
+
+PackageName: strongswan
+PackageVersion: 5.9.5-2ubuntu2.1
+SPDXID: SPDXRef-strongswan
+PackageHomePage: http://www.strongswan.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3895877637f7e2e5437a018851c69984079bb227
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-fsf-unlimited-no-warranty
+PackageLicenseInfoFromFiles: LicenseRef-scancode-openssl-exception-gpl-2.0
+PackageLicenseInfoFromFiles: LicenseRef-scancode-ssleay-windows
+PackageLicenseInfoFromFiles: LicenseRef-scancode-strongswan-exception
+PackageCopyrightText: <text>Copyright 1984, 1989, 1990, 2000-2013, Free Software Foundation, Inc
+Copyright 1991, 1993
+Copyright 1995-1998, Eric Young (eay@cryptsoft.com)
+Copyright 1996-2001, 2003-2005, 2006
+Copyright 2001, 2002, Mathieu Lafon
+Copyright 2001, 2002, Mathieu Lafon - Arkoon Network Security
+Copyright 2001, Henry Spencer
+Copyright 2001-2015, Andreas Steffen
+Copyright 2003-2008, Andreas Steffen, Hochschule fuer Technik Rapperswil
+Copyright 2003-2008, Andreas Steffen, Hochschule fuer Technik Rapperswil 2003-2008, Andreas Steffen
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi 1990-1992, RSA Data Security, Inc.
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi 1991, 1992, RSA Data Security, Inc.
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi 2001, Dr B. R. Gladman <brg@gladman.uk.net>
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2005-2011, Martin Willi
+Copyright 2005-2011, Trusted Computing Group, Inc.
+Copyright 2006, 2007 g10 Code GmbH
+Copyright 2006, Martin Will 2000-2008, Andreas Steffen
+Copyright 2006, Martin Willi
+Copyright 2006, Martin Willi 2001, Jari Ruusu
+Copyright 2006, Tobias Brunner, Daniel Roethlisberger
+Copyright 2006, Tobias Brunner, Daniel Roethlisberger 2006, 2007, Martin Willi
+Copyright 2006-2008, Tobias Brunner 2006-2008, Martin Willi 2006, Daniel Roethlisberger
+Copyright 2006-2011 Rene Mayrhofer <rene@mayrhofer.eu.org> , 2012-2018 Yves-Alexis Perez <corsac@debian.org>
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2013, Martin Willi 2005, Jan Hutter
+Copyright 2007, Martin Willi 2006, 2007, Fabian Hartmann, Noah Heusser
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2008, 2009, Martin Willi 2002-2009, Andreas Steffen
+Copyright 2008, 2009, Martin Willi 2007-2014, Andreas Steffen 2003, Christoph Gysin, Simon Zwahlen
+Copyright 2008, 2013, Tobias Brunner 2008, 2009, Martin Willi 2000-2008, Andreas Steffen
+Copyright 2008, Martin Willi 2008-2009, Martin Willi 2009, Martin Willi
+Copyright 2008, Philip Boetschi, Adrian Doerig 2008, Martin Willi
+Copyright 2008, Thomas Kallenberg
+Copyright 2008, Thomas Kallenberg 2008, Martin Willi
+Copyright 2008, Tobias Brunner 2006-2009, Martin Willi 2002, Mario Strasser 2001, Marco Bertossa, Andreas Schleiss 2000-2006, Andreas Steffen 2000, Andreas Hess, Patric Lichtsteiner, Roger Wegmann
+Copyright 2008, Tobias Brunner 2008, Thomas Kallenberg 2008, Martin Willi
+Copyright 2008-2010, Martin Willi 2008-2012, Tobias Brunner
+Copyright 2009, Andreas Steffen
+Copyright 2009, Andreas Steffen 2005, Jan Hutter, Martin Willi
+Copyright 2009, Martin Willi
+Copyright 2009, Martin Willi 2003, Martin Berner, Lukas Suter 2002-2014, Andreas Steffen 2002, Ueli Galizzi, Ariane Seiler
+Copyright 2009, Martin Willi 2009, Andreas Steffen , JuanJo Ciarlante <jjo-ipsec@mendoza.gov.ar>
+Copyright 2009, Tobias Brunner 2006, Martin Willi 1995-1997, Eric Young (eay@cryptsoft.com)
+Copyright 2009-2015, Andreas Steffen 2005-2009, Martin Willi
+Copyright 2010, 2011, 2013, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil
+Copyright 2010, 2011, Andreas Steffen 2006, Mike McCauley
+Copyright 2010, 2011, HSR Hochschule fuer Technik Rapperswil 2010, 2011, Andreas Steffen
+Copyright 2010, 2011, Sansar Choinyambuu
+Copyright 2010, 2011, revosec AG 2007-2013, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2010, 2014, revosec AG 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2014, Martin Willi 2005, Jan Hutter
+Copyright 2010, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil 2006, Mike McCauley
+Copyright 2010, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil 2006, Mike McCauley (mikem@open.com.au)
+Copyright 2010, Herbert Xu <herbert@gondor.apana.org.au>
+Copyright 2010, Martin Willi 2010, revosec AG 2012, Martin Willi
+Copyright 2010, Martin Willi, revosec AG 2009, 2010, Andreas Steffen, HSR Hochschule
+Copyright 2010, Sansar Choinyanbuu 2010, Andreas Steffen
+Copyright 2010, Tobias Brunner 2005-2008, Martin Willi 2005, Jan Hutter 1999-2001, Henry Spencer 1998-2002, D. Hugh Redelmeier
+Copyright 2010, revosec AG 2005-2010, Martin Willi 2005, Jan Hutter
+Copyright 2010, revosec AG 2010, Martin Willi
+Copyright 2010, revosec AG 2010, Martin Willi 2009, Andreas Steffen
+Copyright 2010, secunet Security Networks AG 2010, revosec AG 2010, Thomas Egerer
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2010-2015, Andreas Steffen 2010, Sansar Choinyanbuu
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2011, 2012, 2014, revosec AG 2011, 2012, 2014, Martin Willi 2008, 2011-2013, Tobias Brunner
+Copyright 2011, 2012, Reto Guadagnini
+Copyright 2011, 2012, Sansar Choinyambuu, Andreas Steffen
+Copyright 2011, Duncan Salerno
+Copyright 2011-2014, Andreas Steffen 2011, 2012, Sansar Choinyambuu
+Copyright 2011-2015, Tobias Brunner 2010, revosec AG 2005-2010, Martin Willi 2005, Jan Hutter
+Copyright 2012, 2013, 2015, Tobias Brunner 2012-2014, Reto Buerki 2012, Adrian-Ken Rueegsegger
+Copyright 2012, 2013, Tobias Brunner
+Copyright 2012, 2014, Tobias Brunner 2006, 2008, 2014, Andreas Steffen
+Copyright 2012, Adrian-Ken Rueegsegger
+Copyright 2012, Aleksandr Grinberg
+Copyright 2012, Andreas Steffen 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2012, Ralf Sager 2012, Giuliano Grassi
+Copyright 2012, Ralf Sager 2012, Giuliano Grassi 2012, 2013, Tobias Brunner
+Copyright 2012, Tobias Brunner 2005, Jan Hutter, Martin Willi
+Copyright 2012, Tobias Brunner 2012, Aleksandr Grinberg
+Copyright 2012, Tobias Brunner 2012, Nanoteq Pty Ltd
+Copyright 2012, Tobias Brunner 2012, Ralf Sager 2012, Giuliano Grassi
+Copyright 2012, Tobias Brunner 2012, Ralf Sager 2012, Martin Willi
+Copyright 2012, Volker Rumelin 2006-2011, Tobias Brunner 2006, Daniel Roethlisberger 2006, 2007, Martin Willi
+Copyright 2012, Volker Rumelin 2012, Tobias Brunner 2011, revosec AG
+Copyright 2012, achelos GmbH 2010, revosec AG 2010, Martin Willi
+Copyright 2012, revosec AG 2012, Tobias Brunner 2012, Martin Willi
+Copyright 2012-2014, Reto Buerki 2012, 2013, Adrian-Ken Rueegsegger
+Copyright 2012-2014, Volker Rumelin 2012, 2013, Tobias Brunner 2009, Martin Willi
+Copyright 2013, Endian
+Copyright 2013, Oliver Smith 2011, revosec AG 2011, Martin Willi
+Copyright 2013, Ruslan Marchenko
+Copyright 2013, Technische Universitat Ilmenau 2013, Michael Rossberg 2011, Tobias Brunner
+Copyright 2013, Tobias Brunner 2012, Reto Guadagnini
+Copyright 2013, Tobias Brunner 2013, Ruslan Marchenko 2012, Reto Guadagnini
+Copyright 2013, Tobias Brunner 2014-2017, Tobias Brunner 2014-2018, Tobias Brunner 2017, Tobias Brunner
+Copyright 2013, Volker Rumelin 2011, revosec AG 2011, Martin Willi
+Copyright 2013, revosec AG 2013, Martin Willi 2002-2006, H. Peter Anvin
+Copyright 2013, revosec aG 2013, Martin Willi
+Copyright 2013-2015, Andreas Steffen 2010-2013, Martin Willi, revosec AG
+Copyright 2014, Andreas Steffen 2008, Hal Finney
+Copyright 2014, Andreas Steffen 2009-2013, Security Innovation
+Copyright 2014, Tobias Brunner 2001, 2002, Mathieu Lafon - Arkoon Network Security
+Copyright 2014, Volker Rumelin 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2014, Vyronas Tsingaras (vtsingaras@it.auth.gr)
+Copyright 2014, revosec AG 2014, Martin Willi
+Copyright 2014, revosec AG 2014, Vyronas Tsingaras (vtsingaras@it.auth.gr) 2014, Martin Willi
+Copyright 2015, Tobias Brunner 2014, Andreas Steffen 2007, Martin Willi
+Copyright Fred N. van Kempen, <waltje@uWalt.NL.Mugnet.ORG>
+Copyright Martin Willi, Tobias Brunner, Andreas Steffen
+holder is Tim Hudson (tjh@cryptsoft.com)
+</text>
+PackageComment: <text>IPsec VPN solution metapackage
+ The strongSwan VPN suite uses the native IPsec stack in the standard Linux
+ kernel. It supports both the IKEv1 and IKEv2 protocols.
+ .
+ This metapackage installs the packages required to maintain IKEv1 and IKEv2
+ connections via ipsec.conf or ipsec.secrets.</text>
+Relationship: SPDXRef-strongswan DEPENDS_ON DocumentRef-strongswan-charon.Cycle:SPDXRef-strongswan-charon
+Relationship: SPDXRef-strongswan DEPENDS_ON DocumentRef-strongswan-charon.Cycle:SPDXRef-strongswan-starter
+
+
+## File
+
+FileName: /usr/share/doc/strongswan/copyright
+SPDXID: SPDXRef-strongswan-file-0
+FileChecksum: SHA1: d1570fc725f93a624a3126d453d7e934ae0514a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-openssl-exception-gpl-2.0
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-ssleay-windows
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-strongswan-exception
+FileCopyrightText: <text>Copyright Martin Willi, Tobias Brunner, Andreas Steffen
+Copyright 2006-2011 Rene Mayrhofer <rene@mayrhofer.eu.org> , 2012-2018 Yves-Alexis Perez <corsac@debian.org>
+Copyright 2007-2015, Tobias Brunner
+Copyright 1996-2001, 2003-2005, 2006
+Copyright 2008, Martin Willi 2008-2009, Martin Willi 2009, Martin Willi
+Copyright 2013, Tobias Brunner 2014-2017, Tobias Brunner 2014-2018, Tobias Brunner 2017, Tobias Brunner
+Copyright 2010, Martin Willi 2010, revosec AG 2012, Martin Willi
+Copyright 2011, 2012, Reto Guadagnini
+Copyright 2001-2015, Andreas Steffen
+Copyright 2013, revosec aG 2013, Martin Willi
+Copyright 2001, Henry Spencer
+Copyright 2014, Andreas Steffen 2008, Hal Finney
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2013, Martin Willi 2005, Jan Hutter
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010, 2014, revosec AG 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2014, Martin Willi 2005, Jan Hutter
+Copyright 2012-2014, Reto Buerki 2012, 2013, Adrian-Ken Rueegsegger
+Copyright 2012, 2013, 2015, Tobias Brunner 2012-2014, Reto Buerki 2012, Adrian-Ken Rueegsegger
+Copyright 2012, 2013, 2015, Tobias Brunner 2012-2014, Reto Buerki 2012, Adrian-Ken Rueegsegger
+Copyright 2012, 2013, 2015, Tobias Brunner 2012-2014, Reto Buerki 2012, Adrian-Ken Rueegsegger
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2013, Martin Willi 2005, Jan Hutter
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2012, achelos GmbH 2010, revosec AG 2010, Martin Willi
+Copyright 2010, Herbert Xu <herbert@gondor.apana.org.au>
+Copyright Fred N. van Kempen, <waltje@uWalt.NL.Mugnet.ORG>
+Copyright 1991, 1993
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2005-2011, Martin Willi
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2013, Martin Willi 2005, Jan Hutter
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2010, 2014, revosec AG 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2014, Martin Willi 2005, Jan Hutter
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2013, Martin Willi 2005, Jan Hutter
+Copyright 2010, revosec AG 2005-2010, Martin Willi 2005, Jan Hutter
+Copyright 2010, 2011, revosec AG 2007-2013, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2011-2015, Tobias Brunner 2010, revosec AG 2005-2010, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010, 2014, revosec AG 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2014, Martin Willi 2005, Jan Hutter
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2013, Martin Willi 2005, Jan Hutter
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010, revosec AG 2010, Martin Willi 2009, Andreas Steffen
+Copyright 2010, Martin Willi, revosec AG 2009, 2010, Andreas Steffen, HSR Hochschule
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2008-2010, Martin Willi 2008-2012, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2013, Ruslan Marchenko
+Copyright 2013, Tobias Brunner 2013, Ruslan Marchenko 2012, Reto Guadagnini
+Copyright 2005-2011, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2005-2011, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2008-2010, Martin Willi 2008-2012, Tobias Brunner
+Copyright 2010, 2011, HSR Hochschule fuer Technik Rapperswil 2010, 2011, Andreas Steffen
+Copyright 2010, Martin Willi, revosec AG 2009, 2010, Andreas Steffen, HSR Hochschule
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2011, Duncan Salerno
+Copyright 2005-2011, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2010, 2011, HSR Hochschule fuer Technik Rapperswil 2010, 2011, Andreas Steffen
+Copyright 2010, Martin Willi, revosec AG 2009, 2010, Andreas Steffen, HSR Hochschule
+Copyright 2001-2015, Andreas Steffen
+Copyright 2014, Vyronas Tsingaras (vtsingaras@it.auth.gr)
+Copyright 2014, revosec AG 2014, Vyronas Tsingaras (vtsingaras@it.auth.gr) 2014, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2011, 2012, Reto Guadagnini
+Copyright 2013, Tobias Brunner 2012, Reto Guadagnini
+Copyright 2007-2015, Tobias Brunner
+Copyright 2005-2011, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2013, Martin Willi 2005, Jan Hutter
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2010, 2014, revosec AG 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2014, Martin Willi 2005, Jan Hutter
+Copyright 2005-2011, Martin Willi
+Copyright 2009-2015, Andreas Steffen 2005-2009, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2001-2015, Andreas Steffen
+Copyright 2008, Thomas Kallenberg 2008, Martin Willi
+Copyright 2008, Tobias Brunner 2008, Thomas Kallenberg 2008, Martin Willi
+Copyright 2008, Thomas Kallenberg
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2014, revosec AG 2014, Martin Willi
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner
+Copyright 2013, Endian
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2001-2015, Andreas Steffen
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2006, Tobias Brunner, Daniel Roethlisberger
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2013, Martin Willi 2005, Jan Hutter
+Copyright 2006-2008, Tobias Brunner 2006-2008, Martin Willi 2006, Daniel Roethlisberger
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2005-2011, Martin Willi
+Copyright 2014, Volker Rumelin 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2010, 2011, revosec AG 2007-2013, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2013, Volker Rumelin 2011, revosec AG 2011, Martin Willi
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2012, Volker Rumelin 2006-2011, Tobias Brunner 2006, Daniel Roethlisberger 2006, 2007, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2012-2014, Volker Rumelin 2012, 2013, Tobias Brunner 2009, Martin Willi
+Copyright 2011, 2012, 2014, revosec AG 2011, 2012, 2014, Martin Willi 2008, 2011-2013, Tobias Brunner
+Copyright 2013, Oliver Smith 2011, revosec AG 2011, Martin Willi
+Copyright 2012, Volker Rumelin 2012, Tobias Brunner 2011, revosec AG
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007, Martin Willi 2006, 2007, Fabian Hartmann, Noah Heusser
+Copyright 2007-2015, Tobias Brunner
+Copyright 2006, Tobias Brunner, Daniel Roethlisberger 2006, 2007, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2005-2011, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2010, 2011, 2013, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil
+Copyright 2011-2014, Andreas Steffen 2011, 2012, Sansar Choinyambuu
+Copyright 2011, 2012, Sansar Choinyambuu, Andreas Steffen
+Copyright 2010, 2011, Sansar Choinyambuu
+Copyright 2010, 2011, 2013, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil
+Copyright 2010, 2011, 2013, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil
+Copyright 2011-2014, Andreas Steffen 2011, 2012, Sansar Choinyambuu
+Copyright 2010, 2011, Sansar Choinyambuu
+Copyright 2011, 2012, Sansar Choinyambuu, Andreas Steffen
+Copyright 2010, 2011, 2013, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil
+Copyright 2010, 2011, Sansar Choinyambuu
+Copyright 2011, 2012, Sansar Choinyambuu, Andreas Steffen
+Copyright 2011, 2012, Sansar Choinyambuu, Andreas Steffen
+Copyright 2010, 2011, Sansar Choinyambuu
+Copyright 2011-2014, Andreas Steffen 2011, 2012, Sansar Choinyambuu
+Copyright 2010, 2011, Sansar Choinyambuu
+Copyright 2011-2014, Andreas Steffen 2011, 2012, Sansar Choinyambuu
+Copyright 2012, Tobias Brunner 2012, Ralf Sager 2012, Giuliano Grassi
+Copyright 2012, Ralf Sager 2012, Giuliano Grassi 2012, 2013, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner
+Copyright 2012, Ralf Sager 2012, Giuliano Grassi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2006, Martin Will 2000-2008, Andreas Steffen
+Copyright 2003-2008, Andreas Steffen, Hochschule fuer Technik Rapperswil
+Copyright 2003-2008, Andreas Steffen, Hochschule fuer Technik Rapperswil 2003-2008, Andreas Steffen
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2012, Tobias Brunner 2012, Ralf Sager 2012, Giuliano Grassi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2008, 2009, Martin Willi 2002-2009, Andreas Steffen
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2015, Tobias Brunner 2014, Andreas Steffen 2007, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner
+Copyright 2012, Adrian-Ken Rueegsegger
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2001-2015, Andreas Steffen
+Copyright 2012, Tobias Brunner 2012, Nanoteq Pty Ltd
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2006-2014, Tobias Brunner 2006, Daniel Roethlisberger 2005-2013, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2012, Tobias Brunner 2012, Ralf Sager 2012, Martin Willi
+Copyright 2012, Tobias Brunner 2012, Ralf Sager 2012, Giuliano Grassi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi 2001, Dr B. R. Gladman <brg@gladman.uk.net>
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2012, 2014, Tobias Brunner 2006, 2008, 2014, Andreas Steffen
+Copyright 1995-1998, Eric Young (eay@cryptsoft.com)
+Copyright 2009-2015, Andreas Steffen 2005-2009, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2008, 2009, Martin Willi 2002-2009, Andreas Steffen
+Copyright 2009, Tobias Brunner 2006, Martin Willi 1995-1997, Eric Young (eay@cryptsoft.com)
+Copyright 2001-2015, Andreas Steffen
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010, Tobias Brunner 2005-2008, Martin Willi 2005, Jan Hutter 1999-2001, Henry Spencer 1998-2002, D. Hugh Redelmeier
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2012, Andreas Steffen 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2008, 2009, Martin Willi 2002-2009, Andreas Steffen
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi 1990-1992, RSA Data Security, Inc.
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi 1991, 1992, RSA Data Security, Inc.
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2012, Adrian-Ken Rueegsegger
+Copyright 2001-2015, Andreas Steffen
+Copyright 2014, Andreas Steffen 2009-2013, Security Innovation
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010, secunet Security Networks AG 2010, revosec AG 2010, Thomas Egerer
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2008-2010, Martin Willi 2008-2012, Tobias Brunner
+Copyright 2012, Tobias Brunner 2012, Aleksandr Grinberg
+Copyright 2012, Aleksandr Grinberg
+Copyright 2005-2011, Martin Willi
+Copyright 2013, Technische Universitat Ilmenau 2013, Michael Rossberg 2011, Tobias Brunner
+Copyright 2008, Thomas Kallenberg 2008, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2008, 2013, Tobias Brunner 2008, 2009, Martin Willi 2000-2008, Andreas Steffen
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2008, 2009, Martin Willi 2002-2009, Andreas Steffen
+Copyright 2008, 2013, Tobias Brunner 2008, 2009, Martin Willi 2000-2008, Andreas Steffen
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2006, 2007 g10 Code GmbH
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2012, 2014, Tobias Brunner 2006, 2008, 2014, Andreas Steffen
+Copyright 2007-2015, Tobias Brunner
+Copyright 2012, revosec AG 2012, Tobias Brunner 2012, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010, revosec AG 2010, Martin Willi 2009, Andreas Steffen
+Copyright 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2005-2009, Martin Willi 2005, Jan Hutter
+Copyright 2006, Martin Willi 2001, Jari Ruusu
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2009, Martin Willi
+Copyright 2009, Andreas Steffen
+Copyright 2010, revosec AG 2010, Martin Willi
+Copyright 2012, 2013, Tobias Brunner
+Copyright 2009, Martin Willi 2009, Andreas Steffen , JuanJo Ciarlante <jjo-ipsec@mendoza.gov.ar>
+Copyright 2011, 2012, Reto Guadagnini
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2009, Martin Willi 2003, Martin Berner, Lukas Suter 2002-2014, Andreas Steffen 2002, Ueli Galizzi, Ariane Seiler
+Copyright 2008, Tobias Brunner 2006-2009, Martin Willi 2002, Mario Strasser 2001, Marco Bertossa, Andreas Schleiss 2000-2006, Andreas Steffen 2000, Andreas Hess, Patric Lichtsteiner, Roger Wegmann
+Copyright 2008, 2009, Martin Willi 2007-2014, Andreas Steffen 2003, Christoph Gysin, Simon Zwahlen
+Copyright 2009, Andreas Steffen 2005, Jan Hutter, Martin Willi
+Copyright 2009-2015, Andreas Steffen 2005-2009, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2010, 2011, revosec AG 2007-2013, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2011, 2012, Reto Guadagnini
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 1984, 1989, 1990, 2000-2013, Free Software Foundation, Inc
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2014, revosec AG 2009-2014, Tobias Brunner 2007-2014, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner
+Copyright 2008-2010, Martin Willi 2008-2012, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2011, 2012, 2014, revosec AG 2011, 2012, 2014, Martin Willi 2008, 2011-2013, Tobias Brunner
+Copyright 2010-2015, Tobias Brunner 2010-2013, revosec AG 2007-2013, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005, Jan Hutter 2005, 2006, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2011, Martin Willi 2005, Jan Hutter
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2007-2015, Tobias Brunner
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2013, revosec AG 2013, Martin Willi 2002-2006, H. Peter Anvin
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2010, 2011, HSR Hochschule fuer Technik Rapperswil 2010, 2011, Andreas Steffen
+Copyright 2001-2015, Andreas Steffen
+Copyright 2010, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil 2006, Mike McCauley
+Copyright 2010, 2011, Andreas Steffen 2006, Mike McCauley
+Copyright 2010, 2011, Andreas Steffen 2006, Mike McCauley
+Copyright 2010, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil 2006, Mike McCauley (mikem@open.com.au)
+Copyright 2001-2015, Andreas Steffen
+Copyright 2010, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil 2006, Mike McCauley (mikem@open.com.au)
+Copyright 2010, 2011, 2013, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil
+Copyright 2010-2015, Andreas Steffen 2010, Sansar Choinyanbuu
+Copyright 2010, 2011, Sansar Choinyambuu
+Copyright 2001-2015, Andreas Steffen
+Copyright 2010, Sansar Choinyanbuu 2010, Andreas Steffen
+Copyright 2010-2015, Andreas Steffen 2010, Sansar Choinyanbuu
+Copyright 2001-2015, Andreas Steffen
+Copyright 2005-2011, Trusted Computing Group, Inc.
+Copyright 2010, 2011, 2013, Andreas Steffen, HSR Hochschule fuer Technik Rapperswil
+Copyright 2008, Philip Boetschi, Adrian Doerig 2008, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2009-2015, Andreas Steffen 2005-2009, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2001-2015, Andreas Steffen
+Copyright 2005-2011, Martin Willi
+Copyright 2009-2015, Andreas Steffen 2005-2009, Martin Willi
+Copyright 2013-2015, Andreas Steffen 2010-2013, Martin Willi, revosec AG
+Copyright 2012, Tobias Brunner 2005, Jan Hutter, Martin Willi
+Copyright 2001, 2002, Mathieu Lafon - Arkoon Network Security
+Copyright 2012, 2014, Tobias Brunner 2006, 2008, 2014, Andreas Steffen
+Copyright 2001-2015, Andreas Steffen
+Copyright 2014, Tobias Brunner 2001, 2002, Mathieu Lafon - Arkoon Network Security
+Copyright 2001, 2002, Mathieu Lafon
+Copyright 2006, Martin Willi
+Copyright 1984, 1989, 1990, 2000-2013, Free Software Foundation, Inc
+Copyright 2007-2015, Tobias Brunner
+Copyright 2005-2011, Martin Willi
+Copyright 2007-2015, Tobias Brunner
+Copyright 2001-2015, Andreas Steffen
+Copyright 2007-2015, Tobias Brunner 2005-2013, Martin Willi
+Copyright 2005-2011, Martin Willi
+Copyright 2010-2015, revosec AG 2006-2015, Martin Willi
+Copyright 2005-2011, Martin Willi
+holder is Tim Hudson (tjh@cryptsoft.com)
+</text>
+Relationship: SPDXRef-strongswan CONTAINS SPDXRef-strongswan-file-0
+
+
+FileName: /usr/share/doc/strongswan/README.Debian.gz
+SPDXID: SPDXRef-strongswan-file-1
+FileChecksum: SHA1: d0c8cf9513906cb3ea83f900c7a9ef9ceb0049be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-strongswan CONTAINS SPDXRef-strongswan-file-1
+
+
+FileName: /usr/share/doc/strongswan/README.gz
+SPDXID: SPDXRef-strongswan-file-2
+FileChecksum: SHA1: 9b4d91c46d7876c9de59912f721b36a283b6597b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-strongswan CONTAINS SPDXRef-strongswan-file-2
+
+
+FileName: /usr/share/doc/strongswan/NEWS.Debian.gz
+SPDXID: SPDXRef-strongswan-file-3
+FileChecksum: SHA1: 0bd7afb7d1b5a734e1ca065a1c8cbd273967aaf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-strongswan CONTAINS SPDXRef-strongswan-file-3
+
+
+FileName: /usr/share/doc/strongswan/changelog.Debian.gz
+SPDXID: SPDXRef-strongswan-file-4
+FileChecksum: SHA1: cf3684ff13fb7834e58ad873f0b85e4477b7953d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-strongswan CONTAINS SPDXRef-strongswan-file-4
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseName: FSF Unlimited License No Warranty
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-unlimited-no-warranty.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-unlimited-no-warranty.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-openssl-exception-gpl-2.0
+LicenseName: OpenSSL exception to GPL 2.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/openssl-exception-gpl-2.0.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/openssl-exception-gpl-2.0.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-ssleay-windows
+LicenseName: Original SSLeay License with Windows Clause
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ssleay-windows.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ssleay-windows.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-strongswan-exception
+LicenseName: strongSwan exception to GPL
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/strongswan-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/strongswan-exception.yml
+</text>
+
+

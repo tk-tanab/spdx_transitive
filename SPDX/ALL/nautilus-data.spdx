@@ -1,0 +1,190 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/nautilus-data_1:42.2-0ubuntu1-de07c92b-b6cb-5523-b457-8f4feffd5df2
+DocumentName: nautilus-data_1:42.2-0ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-nautilus-data
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:09:54Z
+
+
+## Package
+
+PackageName: nautilus-data
+PackageVersion: 1:42.2-0ubuntu1
+SPDXID: SPDXRef-nautilus-data
+PackageHomePage: https://wiki.gnome.org/action/show/Apps/Nautilus
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 21f77252ec273cec1b9a925777e238d436cdb617
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+Copyright (c) 1997-2000, 2008 Free Software Foundation, Inc.
+Copyright (c) 1999, 2000, 2001 Eazel, Inc.
+Copyright (c) 1999-2017 Red Hat, Inc.
+Copyright (c) 2001 Maciej Stachowiak
+Copyright (c) 2001, 2002 Anders Carlsson
+Copyright (c) 2002 Bent Spoon Software
+Copyright (c) 2002 Christophe Fergeau
+Copyright (c) 2002 Darin Adler
+Copyright (c) 2002 Jan Arne Petersen
+Copyright (c) 2002 Sun Microsystems, Inc.
+Copyright (c) 2002, 2004 James Willcox
+Copyright (c) 2003, 2004 Marco Pesenti Gritti
+Copyright (c) 2003, 2004, 2005 Christian Persch
+Copyright (c) 2005 Jamie McCracken
+Copyright (c) 2005 Raffaele Sandrini
+Copyright (c) 2005 Roberto Majadas
+Copyright (c) 2005 Vincent Untz
+Copyright (c) 2006 Paolo Borelli
+Copyright (c) 2006 Zbigniew Chyla
+Copyright (c) 2007 Collabora Ltd.
+Copyright (c) 2007 Martin Wehner
+Copyright (c) 2007 Nokia Corporation
+Copyright (c) 2008-2010 Cosimo Cecchi
+Copyright (c) 2009 Alexander Larsson
+Copyright (c) 2010 Carlos Garcia Campos
+Copyright (c) 2011 Ignacio Casal Quinteiro
+Copyright (c) 2018 Canonical Ltd.
+Copyright (c) 2018 Ernestas Kulik
+</text>
+PackageComment: <text>data files for nautilus
+ Nautilus is the official file manager and graphical shell for the
+ GNOME desktop.
+ .
+ This package contains pictures, localization files and other data
+ needed by nautilus.</text>
+Relationship: SPDXRef-nautilus-data DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+
+
+## File
+
+FileName: /usr/share/doc/nautilus-data/copyright
+SPDXID: SPDXRef-nautilus-data-file-0
+FileChecksum: SHA1: 50f54f751eb58fd0932c27c559153930fef6ab72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright (c) 1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+Copyright (c) 1997-2000, 2008 Free Software Foundation, Inc.
+Copyright (c) 1999, 2000, 2001 Eazel, Inc.
+Copyright (c) 1999-2017 Red Hat, Inc.
+Copyright (c) 2001, 2002 Anders Carlsson
+Copyright (c) 2001 Maciej Stachowiak
+Copyright (c) 2002, 2004 James Willcox
+Copyright (c) 2002 Bent Spoon Software
+Copyright (c) 2002 Christophe Fergeau
+Copyright (c) 2002 Darin Adler
+Copyright (c) 2002 Jan Arne Petersen
+Copyright (c) 2002 Sun Microsystems, Inc.
+Copyright (c) 2003, 2004, 2005 Christian Persch
+Copyright (c) 2003, 2004 Marco Pesenti Gritti
+Copyright (c) 2005 Jamie McCracken
+Copyright (c) 2005 Raffaele Sandrini
+Copyright (c) 2005 Roberto Majadas
+Copyright (c) 2005 Vincent Untz
+Copyright (c) 2006 Paolo Borelli
+Copyright (c) 2006 Zbigniew Chyla
+Copyright (c) 2007 Collabora Ltd.
+Copyright (c) 2007 Martin Wehner
+Copyright (c) 2007 Nokia Corporation
+Copyright (c) 2008-2010 Cosimo Cecchi
+Copyright (c) 2009 Alexander Larsson
+Copyright (c) 2010 Carlos Garcia Campos
+Copyright (c) 2011 Ignacio Casal Quinteiro
+Copyright (c) 2018 Ernestas Kulik
+Copyright (c) 2018 Canonical Ltd.
+</text>
+Relationship: SPDXRef-nautilus-data CONTAINS SPDXRef-nautilus-data-file-0
+
+
+FileName: /usr/share/doc/nautilus-data/changelog.Debian.gz
+SPDXID: SPDXRef-nautilus-data-file-1
+FileChecksum: SHA1: 3926e9e3066d62bd32952ccf7fe0f3b312013ecc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-data CONTAINS SPDXRef-nautilus-data-file-1
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
+SPDXID: SPDXRef-nautilus-data-file-2
+FileChecksum: SHA1: 3e75bb7bfb068b29d867632cd71c70dc92696c6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-data CONTAINS SPDXRef-nautilus-data-file-2
+
+
+FileName: /usr/share/gnome-shell/search-providers/org.gnome.Nautilus.search-provider.ini
+SPDXID: SPDXRef-nautilus-data-file-3
+FileChecksum: SHA1: 9c4ad29f43d584ea85a0ad174ac161b5d6874c39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-data CONTAINS SPDXRef-nautilus-data-file-3
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.Nautilus.svg
+SPDXID: SPDXRef-nautilus-data-file-4
+FileChecksum: SHA1: e45468e01fbc6979dc3e2bfca6c650408c631921
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-data CONTAINS SPDXRef-nautilus-data-file-4
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.Nautilus-symbolic.svg
+SPDXID: SPDXRef-nautilus-data-file-5
+FileChecksum: SHA1: 43b191888cf98bc70d3226277896f1ac160beab7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-data CONTAINS SPDXRef-nautilus-data-file-5
+
+
+FileName: /usr/share/nautilus/ontology/nautilus.description
+SPDXID: SPDXRef-nautilus-data-file-6
+FileChecksum: SHA1: b7f84abc44c4c6a65d7d86f1ee9d3a053dd02506
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-data CONTAINS SPDXRef-nautilus-data-file-6
+
+
+FileName: /usr/share/nautilus/ontology/nautilus.ontology
+SPDXID: SPDXRef-nautilus-data-file-7
+FileChecksum: SHA1: f7fb9d0b91ea4052ccf431b27254cfbaa044fd3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-data CONTAINS SPDXRef-nautilus-data-file-7
+
+
+FileName: /usr/share/tracker3/domain-ontologies/org.gnome.Nautilus.domain.rule
+SPDXID: SPDXRef-nautilus-data-file-8
+FileChecksum: SHA1: c77e2b6215fb7e1b531b6734a4a1239270c25c77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nautilus-data CONTAINS SPDXRef-nautilus-data-file-8
+
+
+## Extracted License
+

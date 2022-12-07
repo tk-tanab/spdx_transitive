@@ -1,0 +1,170 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libjs-underscore_1.13.2~dfsg-2-9c3f185f-fa9e-5a9f-b2f2-01072dbed173
+DocumentName: libjs-underscore_1.13.2~dfsg-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libjs-jquery http://spdx.org/spdxdocs/libjs-jquery_3.6.0+dfsg+~3.5.13-1-a71adc11-0bd1-5f01-b508-83061be058b6 SHA1: 4103441a8482200b4f77a8839bff210fa5cc10ef
+ExternalDocumentRef: DocumentRef-javascript-common http://spdx.org/spdxdocs/javascript-common_11+nmu1-1d95afef-922d-5430-91e9-e378019016b3 SHA1: 5155aeb44d16168c227608c4587acbf20b23f8f6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libjs-underscore
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:32:59Z
+
+
+## Package
+
+PackageName: libjs-underscore
+PackageVersion: 1.13.2~dfsg-2
+SPDXID: SPDXRef-libjs-underscore
+PackageHomePage: https://underscorejs.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e27621a384486cc4f574ba1251ba63833d083865
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 2009-2018, Jeremy Ashkenas <jeremy@documentcloud.org> 2009-2014, DocumentCloud 2009-2014, Investigative Reporters & Editors
+Copyright 2010-2014,2019, Jonas Smedegaard <dr@jones.dk>
+Copyright Vasily Polovnyov <vast@whiteants.net>
+</text>
+PackageComment: <text>JavaScript's functional programming helper library
+ Underscore is a utility-belt library for JavaScript that provides a lot
+ of the functional programming support that you would expect in
+ Prototype.js (or Ruby), but without extending any of the built-in
+ JavaScript objects.  It's the tie to go along with jQuery's tux.
+ .
+ Underscore provides 60-odd functions that support both the usual
+ functional suspects: map, select, invoke - as well as more specialized
+ helpers: function binding, javascript templating, deep equality
+ testing, and so on.  It delegates to built-in functions, if present, so
+ modern browsers will use the native implementations of forEach, map,
+ reduce, filter, every, some and indexOf.</text>
+Relationship: SPDXRef-libjs-underscore DEPENDS_ON DocumentRef-javascript-common:SPDXRef-javascript-common
+Relationship: SPDXRef-libjs-underscore DEPENDS_ON DocumentRef-libjs-jquery:SPDXRef-libjs-jquery
+
+
+## File
+
+FileName: /usr/share/doc/libjs-underscore/copyright
+SPDXID: SPDXRef-libjs-underscore-file-0
+FileChecksum: SHA1: 38e94e089760b3c50f6d1886cc164ccf0c49ed8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: GPL-3.0-only
+FileCopyrightText: <text>Copyright 2009-2018, Jeremy Ashkenas <jeremy@documentcloud.org> 2009-2014, DocumentCloud 2009-2014, Investigative Reporters & Editors
+Copyright Vasily Polovnyov <vast@whiteants.net>
+Copyright 2010-2014,2019, Jonas Smedegaard <dr@jones.dk>
+</text>
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-0
+
+
+FileName: /usr/share/doc/libjs-underscore/README.md
+SPDXID: SPDXRef-libjs-underscore-file-1
+FileChecksum: SHA1: 4afd6abf9ac4b1ee89583a028002276af99c1763
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-1
+
+
+FileName: /usr/share/doc/libjs-underscore/changelog.Debian.gz
+SPDXID: SPDXRef-libjs-underscore-file-2
+FileChecksum: SHA1: 33a8fbce4c420dc3a016849971653fdc0980d680
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-2
+
+
+FileName: /usr/share/doc/libjs-underscore/index.html
+SPDXID: SPDXRef-libjs-underscore-file-3
+FileChecksum: SHA1: 1351463bf998562a72e422c155b211702fb4bfeb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-3
+
+
+FileName: /usr/share/javascript/underscore/underscore.js
+SPDXID: SPDXRef-libjs-underscore-file-4
+FileChecksum: SHA1: 0cc095f866383de0ee45bac6ddec16236c588649
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-4
+
+
+FileName: /usr/share/javascript/underscore/underscore.min.js
+SPDXID: SPDXRef-libjs-underscore-file-5
+FileChecksum: SHA1: 2055c1c683bd84f7e8cb1f8737b0d27b7e6e1ec0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-5
+
+
+FileName: /usr/share/javascript/underscore/underscore.min.js.br
+SPDXID: SPDXRef-libjs-underscore-file-6
+FileChecksum: SHA1: 93324576186e05a684b570151750e0f8eeb1c281
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-6
+
+
+FileName: /usr/share/javascript/underscore/underscore.min.js.gz
+SPDXID: SPDXRef-libjs-underscore-file-7
+FileChecksum: SHA1: 801b938d94b7433894dcc9aa966d56228f0227ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-7
+
+
+FileName: /usr/share/javascript/underscore/underscore.min.js.map
+SPDXID: SPDXRef-libjs-underscore-file-8
+FileChecksum: SHA1: bbf4d739100abce9e263dd34c2dd1c7586abe312
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-8
+
+
+FileName: /usr/share/javascript/underscore/underscore.min.js.map.br
+SPDXID: SPDXRef-libjs-underscore-file-9
+FileChecksum: SHA1: d7c7e4dee927a97b89a2cbd7e9b95f4a272b1134
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-9
+
+
+FileName: /usr/share/javascript/underscore/underscore.min.js.map.gz
+SPDXID: SPDXRef-libjs-underscore-file-10
+FileChecksum: SHA1: dfc071a64fe7ba672c63d3b6c8e345fe34c28dc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libjs-underscore CONTAINS SPDXRef-libjs-underscore-file-10
+
+
+## Extracted License
+

@@ -1,0 +1,91 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-gujr_2:1.4-60ae8b9b-42bb-5587-ae3b-cdbb6b330177
+DocumentName: fonts-gujr_2:1.4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-yrsa-rasa http://spdx.org/spdxdocs/fonts-yrsa-rasa_2.005-1-2b4e5cbf-3169-5e13-ac97-8cbb1f60513d SHA1: 148f53e2763c401ba7c127be3b287cdfe77c5075
+ExternalDocumentRef: DocumentRef-fonts-gujr-extra http://spdx.org/spdxdocs/fonts-gujr-extra_1.0.1-1-a7381f19-748c-5431-9387-738878e43c04 SHA1: 04438954370d5c49fcbf6cc64d391956a31a4407
+ExternalDocumentRef: DocumentRef-fonts-kalapi http://spdx.org/spdxdocs/fonts-kalapi_1.0-4-17793dfd-7a7e-50f7-b324-faa9b64b1a3b SHA1: 44e077854f19c3a46a2d918b4acc00fbb688742b
+ExternalDocumentRef: DocumentRef-fonts-samyak-gujr http://spdx.org/spdxdocs/fonts-samyak-gujr_1.2.2-5build1-01b5d78d-6bc5-5f40-8e0b-bec0a4546710 SHA1: cc38d33e6175ac553778ff037c136ee71d577bd8
+ExternalDocumentRef: DocumentRef-fonts-lohit-gujr http://spdx.org/spdxdocs/fonts-lohit-gujr_2.92.4-4-080f99e1-b663-5409-9bed-6aa84d517b73 SHA1: c294cbff231a7e033da0f3264c8f29c25cffcbb5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-gujr
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:52:59Z
+
+
+## Package
+
+PackageName: fonts-gujr
+PackageVersion: 2:1.4
+SPDXID: SPDXRef-fonts-gujr
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2de79bed5d76c428b17e0faff259bbeab6f59c7e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: ISC
+PackageCopyrightText: <text>Copyright 2011-2012, Debian-IN Team 2018, Debian Fonts Task Force
+</text>
+PackageComment: <text>Meta package to install all Gujarati fonts
+ This package allows you to install all available Gujarati
+ fonts in Debian.
+ .
+ This package installs following fonts:
+   * fonts-gujr-extra
+   * fonts-kalapi
+   * fonts-lohit-gujr
+   * fonts-samyak-gujr
+   * fonts-yrsa-rasa</text>
+Relationship: SPDXRef-fonts-gujr DEPENDS_ON DocumentRef-fonts-gujr-extra:SPDXRef-fonts-gujr-extra
+Relationship: SPDXRef-fonts-gujr DEPENDS_ON DocumentRef-fonts-kalapi:SPDXRef-fonts-kalapi
+Relationship: SPDXRef-fonts-gujr DEPENDS_ON DocumentRef-fonts-lohit-gujr:SPDXRef-fonts-lohit-gujr
+Relationship: SPDXRef-fonts-gujr DEPENDS_ON DocumentRef-fonts-samyak-gujr:SPDXRef-fonts-samyak-gujr
+Relationship: SPDXRef-fonts-gujr DEPENDS_ON DocumentRef-fonts-yrsa-rasa:SPDXRef-fonts-yrsa-rasa
+
+
+## File
+
+FileName: /usr/share/doc/fonts-gujr/copyright
+SPDXID: SPDXRef-fonts-gujr-file-0
+FileChecksum: SHA1: c4b17de30c69c5efef601eb6ea650df749964fe7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2011-2012, Debian-IN Team 2018, Debian Fonts Task Force
+</text>
+Relationship: SPDXRef-fonts-gujr CONTAINS SPDXRef-fonts-gujr-file-0
+
+
+FileName: /usr/share/doc/fonts-gujr/README.Debian
+SPDXID: SPDXRef-fonts-gujr-file-1
+FileChecksum: SHA1: f5a1d05a116c0bef2d7c3a897d98c5d989e9a200
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr CONTAINS SPDXRef-fonts-gujr-file-1
+
+
+FileName: /usr/share/doc/fonts-gujr/changelog.gz
+SPDXID: SPDXRef-fonts-gujr-file-2
+FileChecksum: SHA1: c27b1230e6a8dea54ea19f195f39d06bc4d82bed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gujr CONTAINS SPDXRef-fonts-gujr-file-2
+
+
+## Extracted License
+

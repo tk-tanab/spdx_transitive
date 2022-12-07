@@ -1,0 +1,98 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/linux-image-5.15.0-46-generic_5.15.0-46.49-a7066456-a654-5677-9e9a-19aa1ca68f3e
+DocumentName: linux-image-5.15.0-46-generic_5.15.0-46.49
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-grub-pc.Cycle http://spdx.org/spdxdocs/grub-pc_2.06-2ubuntu7-8b13debd-7562-57c1-865e-34830b192165 SHA1: 0082fc195ffc288b4a5b81abf29d8322b7c2f14c
+ExternalDocumentRef: DocumentRef-wireless-regdb http://spdx.org/spdxdocs/wireless-regdb_2022.06.06-0ubuntu1~22.04.1-f708e8ca-cac7-5e03-8654-b559490b359e SHA1: 8c4186339ac26972199c559ee60e9d0d49c89317
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-linux-image-5.15.0-46-generic
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:01:21Z
+
+
+## Package
+
+PackageName: linux-image-5.15.0-46-generic
+PackageVersion: 5.15.0-46.49
+SPDXID: SPDXRef-linux-image-5.15.0-46-generic
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: da39a3ee5e6b4b0d3255bfef95601890afd80709
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.</text>
+Relationship: SPDXRef-linux-image-5.15.0-46-generic DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-kmod
+Relationship: SPDXRef-linux-image-5.15.0-46-generic DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-linux-base
+Relationship: SPDXRef-linux-image-5.15.0-46-generic DEPENDS_ON SPDXRef-linux-modules-5.15.0-46-generic
+Relationship: SPDXRef-linux-image-5.15.0-46-generic DEPENDS_ON DocumentRef-grub-pc.Cycle:SPDXRef-grub-pc
+Relationship: SPDXRef-linux-image-5.15.0-46-generic DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-initramfs-tools
+Relationship: SPDXRef-linux-image-5.15.0-46-generic DEPENDS_ON SPDXRef-linux-modules-extra-5.15.0-46-generic
+
+
+PackageName: linux-modules-5.15.0-46-generic
+PackageVersion: 5.15.0-46.49
+SPDXID: SPDXRef-linux-modules-5.15.0-46-generic
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: da39a3ee5e6b4b0d3255bfef95601890afd80709
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Linux kernel extra modules for version 5.15.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.</text>
+Relationship: SPDXRef-linux-modules-5.15.0-46-generic DEPENDS_ON SPDXRef-linux-image-5.15.0-46-generic
+
+
+PackageName: linux-modules-extra-5.15.0-46-generic
+PackageVersion: 5.15.0-46.49
+SPDXID: SPDXRef-linux-modules-extra-5.15.0-46-generic
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: da39a3ee5e6b4b0d3255bfef95601890afd80709
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Linux kernel extra modules for version 5.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 5.15.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.</text>
+Relationship: SPDXRef-linux-modules-extra-5.15.0-46-generic DEPENDS_ON SPDXRef-linux-image-5.15.0-46-generic
+Relationship: SPDXRef-linux-modules-extra-5.15.0-46-generic DEPENDS_ON DocumentRef-wireless-regdb:SPDXRef-wireless-regdb
+
+
+## File
+
+## Extracted License
+

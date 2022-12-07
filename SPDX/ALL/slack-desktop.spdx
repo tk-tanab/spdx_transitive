@@ -1,0 +1,1894 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/slack-desktop_4.28.184-977d873a-1f28-53a1-91cc-b24afcbe60f6
+DocumentName: slack-desktop_4.28.184
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-slack-desktop
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:06:52Z
+
+
+## Package
+
+PackageName: slack-desktop
+PackageVersion: 4.28.184
+SPDXID: SPDXRef-slack-desktop
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 58db01aec91aef0ff08c2adef477a85b18496ff0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Slack Desktop</text>
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libayatana-appindicator3-1
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnotify4
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnss3
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxss1
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxtst6
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xdg-utils
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libatspi2.0-0
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libuuid1
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-bin
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-apt
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-pulseaudio
+Relationship: SPDXRef-slack-desktop DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-lsb-release
+
+
+## File
+
+FileName: /etc/cron.daily/slack
+SPDXID: SPDXRef-slack-desktop-file-0
+FileChecksum: SHA1: c35754545ba2e3f759cb4f09aec63638523da66f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-0
+
+
+FileName: /usr/lib/slack/LICENSE
+SPDXID: SPDXRef-slack-desktop-file-1
+FileChecksum: SHA1: b2ebbf5401e9ab0f8be82dda52f5ae0dc0842954
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-1
+
+
+FileName: /usr/lib/slack/LICENSES-linux.json
+SPDXID: SPDXRef-slack-desktop-file-2
+FileChecksum: SHA1: 61d7fb98e4c7e5de46f060b82c10469d5c91c7f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-2
+
+
+FileName: /usr/lib/slack/chrome-sandbox
+SPDXID: SPDXRef-slack-desktop-file-3
+FileChecksum: SHA1: 85707ddef90c4e8149d019946b15010860b231a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-3
+
+
+FileName: /usr/lib/slack/chrome_100_percent.pak
+SPDXID: SPDXRef-slack-desktop-file-4
+FileChecksum: SHA1: 5dc5a0b5e007d9b2dcb038f9f9408d9da6f6e02e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-4
+
+
+FileName: /usr/lib/slack/chrome_200_percent.pak
+SPDXID: SPDXRef-slack-desktop-file-5
+FileChecksum: SHA1: f21a7480dbd4dbd6418a1a4ef6dd24e94b90a73f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-5
+
+
+FileName: /usr/lib/slack/chrome_crashpad_handler
+SPDXID: SPDXRef-slack-desktop-file-6
+FileChecksum: SHA1: 74c0be81b0bd399803f33aa28a429971f2b2497e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-6
+
+
+FileName: /usr/lib/slack/icudtl.dat
+SPDXID: SPDXRef-slack-desktop-file-7
+FileChecksum: SHA1: 8017789bef98902cdc95c18e67b84378ddd293c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-7
+
+
+FileName: /usr/lib/slack/libEGL.so
+SPDXID: SPDXRef-slack-desktop-file-8
+FileChecksum: SHA1: 0bd46a6a39ef66a39119e51e9c9e2a05d85a8b95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-8
+
+
+FileName: /usr/lib/slack/libGLESv2.so
+SPDXID: SPDXRef-slack-desktop-file-9
+FileChecksum: SHA1: 6afd48882e166062e900688536008eb9a418b4dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-9
+
+
+FileName: /usr/lib/slack/libffmpeg.so
+SPDXID: SPDXRef-slack-desktop-file-10
+FileChecksum: SHA1: b481fe76c6d4cf91242ec87130365eaec5fb7c7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-10
+
+
+FileName: /usr/lib/slack/libvk_swiftshader.so
+SPDXID: SPDXRef-slack-desktop-file-11
+FileChecksum: SHA1: 2040c05e8b77fc85a80b4ceaad55062daee79bf6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-11
+
+
+FileName: /usr/lib/slack/libvulkan.so.1
+SPDXID: SPDXRef-slack-desktop-file-12
+FileChecksum: SHA1: 88208ec32d517e80e829801b28c5a4e9d5de12f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-12
+
+
+FileName: /usr/lib/slack/locales/af.pak
+SPDXID: SPDXRef-slack-desktop-file-13
+FileChecksum: SHA1: 1f5977779a92acc2240595540e5a30d5339d5404
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-13
+
+
+FileName: /usr/lib/slack/locales/am.pak
+SPDXID: SPDXRef-slack-desktop-file-14
+FileChecksum: SHA1: 6c43e09e85c48da9771486a24f94daae451ec1a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-14
+
+
+FileName: /usr/lib/slack/locales/ar.pak
+SPDXID: SPDXRef-slack-desktop-file-15
+FileChecksum: SHA1: f8ca36d88d0741a7e58589da58984a6406c95dde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-15
+
+
+FileName: /usr/lib/slack/locales/bg.pak
+SPDXID: SPDXRef-slack-desktop-file-16
+FileChecksum: SHA1: 270aba4e429cf6abe704142871423ca2723dd1f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-16
+
+
+FileName: /usr/lib/slack/locales/bn.pak
+SPDXID: SPDXRef-slack-desktop-file-17
+FileChecksum: SHA1: 2019c886d7411684fcd20ca31faedb772af37558
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-17
+
+
+FileName: /usr/lib/slack/locales/ca.pak
+SPDXID: SPDXRef-slack-desktop-file-18
+FileChecksum: SHA1: ca044648f979afd730938072b3069632e60c169e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-18
+
+
+FileName: /usr/lib/slack/locales/cs.pak
+SPDXID: SPDXRef-slack-desktop-file-19
+FileChecksum: SHA1: b9e0eeaae29b5904149146b288ef02d898a064ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-19
+
+
+FileName: /usr/lib/slack/locales/da.pak
+SPDXID: SPDXRef-slack-desktop-file-20
+FileChecksum: SHA1: 23e2f3b4be6b0c82372cdc9ee5103bb0dfece475
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-20
+
+
+FileName: /usr/lib/slack/locales/de.pak
+SPDXID: SPDXRef-slack-desktop-file-21
+FileChecksum: SHA1: 6b89da706f33eac575d699fcae0918d426204d4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-21
+
+
+FileName: /usr/lib/slack/locales/el.pak
+SPDXID: SPDXRef-slack-desktop-file-22
+FileChecksum: SHA1: a7bcecf2e592439d7f75221ede8716562b01fdc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-22
+
+
+FileName: /usr/lib/slack/locales/en-GB.pak
+SPDXID: SPDXRef-slack-desktop-file-23
+FileChecksum: SHA1: 22ad002f9ca5532f1e4031214d037ed094f70f2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-23
+
+
+FileName: /usr/lib/slack/locales/en-US.pak
+SPDXID: SPDXRef-slack-desktop-file-24
+FileChecksum: SHA1: b21a3f1539ce1313aacf1b9f3c4d6ab6ca8ac3d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-24
+
+
+FileName: /usr/lib/slack/locales/es-419.pak
+SPDXID: SPDXRef-slack-desktop-file-25
+FileChecksum: SHA1: e466866773b5b4270d6ae601d6fe403308a1afec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-25
+
+
+FileName: /usr/lib/slack/locales/es.pak
+SPDXID: SPDXRef-slack-desktop-file-26
+FileChecksum: SHA1: 09c5d425376d7a34de9e9770cbe8c786f362bb40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-26
+
+
+FileName: /usr/lib/slack/locales/et.pak
+SPDXID: SPDXRef-slack-desktop-file-27
+FileChecksum: SHA1: a194e1e5740f1826d8ab9864b9551635b39c11c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-27
+
+
+FileName: /usr/lib/slack/locales/fa.pak
+SPDXID: SPDXRef-slack-desktop-file-28
+FileChecksum: SHA1: e5efa1e563d3205ff0f42972265f2093b4dfd002
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-28
+
+
+FileName: /usr/lib/slack/locales/fi.pak
+SPDXID: SPDXRef-slack-desktop-file-29
+FileChecksum: SHA1: ec1eeba335b4f091dee0c53fb6c424ac08021876
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-29
+
+
+FileName: /usr/lib/slack/locales/fil.pak
+SPDXID: SPDXRef-slack-desktop-file-30
+FileChecksum: SHA1: 848267bb52f6a3ebd633828f29c2154d5a55c91c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-30
+
+
+FileName: /usr/lib/slack/locales/fr.pak
+SPDXID: SPDXRef-slack-desktop-file-31
+FileChecksum: SHA1: 83e33a276d187be8b61c828002628e4a2407c89f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-31
+
+
+FileName: /usr/lib/slack/locales/gu.pak
+SPDXID: SPDXRef-slack-desktop-file-32
+FileChecksum: SHA1: 53d9db6df956839581596ce42ac2b4f3a1251663
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-32
+
+
+FileName: /usr/lib/slack/locales/he.pak
+SPDXID: SPDXRef-slack-desktop-file-33
+FileChecksum: SHA1: c82cbe8b1b38a5f100a517341cb68b6e1a0f7cbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-33
+
+
+FileName: /usr/lib/slack/locales/hi.pak
+SPDXID: SPDXRef-slack-desktop-file-34
+FileChecksum: SHA1: f1f6bde6d7f03c3949a71df1708183c7a7a85a4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-34
+
+
+FileName: /usr/lib/slack/locales/hr.pak
+SPDXID: SPDXRef-slack-desktop-file-35
+FileChecksum: SHA1: 4a6697402ff27a42c1ebf957cf793d3610c54888
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-35
+
+
+FileName: /usr/lib/slack/locales/hu.pak
+SPDXID: SPDXRef-slack-desktop-file-36
+FileChecksum: SHA1: 91fbb10b450c0bbb37029dca228dceac6575abb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-36
+
+
+FileName: /usr/lib/slack/locales/id.pak
+SPDXID: SPDXRef-slack-desktop-file-37
+FileChecksum: SHA1: c64d57b45b3f5be515355e30de2fc21c6939603a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-37
+
+
+FileName: /usr/lib/slack/locales/it.pak
+SPDXID: SPDXRef-slack-desktop-file-38
+FileChecksum: SHA1: 9460ba5ee46e314b1ce9ebb6950ce7d684bb3f80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-38
+
+
+FileName: /usr/lib/slack/locales/ja.pak
+SPDXID: SPDXRef-slack-desktop-file-39
+FileChecksum: SHA1: 061000a5ee9f07db998078ae21334fd8f03c9537
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-39
+
+
+FileName: /usr/lib/slack/locales/kn.pak
+SPDXID: SPDXRef-slack-desktop-file-40
+FileChecksum: SHA1: f002d9c0a2acbac8ef0a5b69faf030d3bd8e4c0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-40
+
+
+FileName: /usr/lib/slack/locales/ko.pak
+SPDXID: SPDXRef-slack-desktop-file-41
+FileChecksum: SHA1: 76b6f2d460f7bf5f74e7b5cf9f409a0056c3489f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-41
+
+
+FileName: /usr/lib/slack/locales/lt.pak
+SPDXID: SPDXRef-slack-desktop-file-42
+FileChecksum: SHA1: 969e3314548979e70c948f7857475f7064d39213
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-42
+
+
+FileName: /usr/lib/slack/locales/lv.pak
+SPDXID: SPDXRef-slack-desktop-file-43
+FileChecksum: SHA1: c59ebb88cb78733245b08c16538c4892e7a5e75f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-43
+
+
+FileName: /usr/lib/slack/locales/ml.pak
+SPDXID: SPDXRef-slack-desktop-file-44
+FileChecksum: SHA1: e6ec42bf95bb2c2b7d1f586317af71f81786f479
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-44
+
+
+FileName: /usr/lib/slack/locales/mr.pak
+SPDXID: SPDXRef-slack-desktop-file-45
+FileChecksum: SHA1: 222a9fbcae6e08f1f5fa9019c5a1f2caf3ca0986
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-45
+
+
+FileName: /usr/lib/slack/locales/ms.pak
+SPDXID: SPDXRef-slack-desktop-file-46
+FileChecksum: SHA1: d64a8453d6bab90112a2ec149fe3e48ff2c579d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-46
+
+
+FileName: /usr/lib/slack/locales/nb.pak
+SPDXID: SPDXRef-slack-desktop-file-47
+FileChecksum: SHA1: 7bd3b45dca508ad15d4847f38a7cc39b7728b387
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-47
+
+
+FileName: /usr/lib/slack/locales/nl.pak
+SPDXID: SPDXRef-slack-desktop-file-48
+FileChecksum: SHA1: 699ce15fbdc774d3107c93e56ca1278d0eaa804c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-48
+
+
+FileName: /usr/lib/slack/locales/pl.pak
+SPDXID: SPDXRef-slack-desktop-file-49
+FileChecksum: SHA1: c0ebdd1597232858c02b00f0c13c2b966366bf82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-49
+
+
+FileName: /usr/lib/slack/locales/pt-BR.pak
+SPDXID: SPDXRef-slack-desktop-file-50
+FileChecksum: SHA1: 8b016f9606465930c5a80e0b38488f88d73c74f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-50
+
+
+FileName: /usr/lib/slack/locales/pt-PT.pak
+SPDXID: SPDXRef-slack-desktop-file-51
+FileChecksum: SHA1: 685a687c4fb0228d3e61072dc88d941b74c44a94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-51
+
+
+FileName: /usr/lib/slack/locales/ro.pak
+SPDXID: SPDXRef-slack-desktop-file-52
+FileChecksum: SHA1: 9aec6afd829e983b06663d130453f9fd73efccee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-52
+
+
+FileName: /usr/lib/slack/locales/ru.pak
+SPDXID: SPDXRef-slack-desktop-file-53
+FileChecksum: SHA1: 12fef692d5f11c64c874a5a7f65f95dc7d175795
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-53
+
+
+FileName: /usr/lib/slack/locales/sk.pak
+SPDXID: SPDXRef-slack-desktop-file-54
+FileChecksum: SHA1: 5ac020869a1d8498ec931504c1495a00f8eb3ca3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-54
+
+
+FileName: /usr/lib/slack/locales/sl.pak
+SPDXID: SPDXRef-slack-desktop-file-55
+FileChecksum: SHA1: b363c0bba8767e3610842c04f0b3c06333453ee6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-55
+
+
+FileName: /usr/lib/slack/locales/sr.pak
+SPDXID: SPDXRef-slack-desktop-file-56
+FileChecksum: SHA1: 9c4fe2215355661bf2cb6f6ba84d0cc88a40298c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-56
+
+
+FileName: /usr/lib/slack/locales/sv.pak
+SPDXID: SPDXRef-slack-desktop-file-57
+FileChecksum: SHA1: 622f961dc4750ded306a24298bab70c893419e62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-57
+
+
+FileName: /usr/lib/slack/locales/sw.pak
+SPDXID: SPDXRef-slack-desktop-file-58
+FileChecksum: SHA1: b6f564e337fec7967c1be67ea2ff29ffe7d5c2f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-58
+
+
+FileName: /usr/lib/slack/locales/ta.pak
+SPDXID: SPDXRef-slack-desktop-file-59
+FileChecksum: SHA1: a24a47e425dec3c65813dad0c589aa9ff4ac890d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-59
+
+
+FileName: /usr/lib/slack/locales/te.pak
+SPDXID: SPDXRef-slack-desktop-file-60
+FileChecksum: SHA1: 6e1372624218bd99901799d1d359f9e78a84a6d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-60
+
+
+FileName: /usr/lib/slack/locales/th.pak
+SPDXID: SPDXRef-slack-desktop-file-61
+FileChecksum: SHA1: 501eed4fe318c4c56362858cc0051e4916474e34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-61
+
+
+FileName: /usr/lib/slack/locales/tr.pak
+SPDXID: SPDXRef-slack-desktop-file-62
+FileChecksum: SHA1: 31d93e77b974fd78fc9343ee818f6e39d4619923
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-62
+
+
+FileName: /usr/lib/slack/locales/uk.pak
+SPDXID: SPDXRef-slack-desktop-file-63
+FileChecksum: SHA1: 0b33235bcf8a3277e35a02b1e554aca4df2c5a7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-63
+
+
+FileName: /usr/lib/slack/locales/ur.pak
+SPDXID: SPDXRef-slack-desktop-file-64
+FileChecksum: SHA1: 8005e52cf9816401469bb9b5e2723c856136e772
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-64
+
+
+FileName: /usr/lib/slack/locales/vi.pak
+SPDXID: SPDXRef-slack-desktop-file-65
+FileChecksum: SHA1: e15916208ec5ce34f1600945e25f720f2119def6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-65
+
+
+FileName: /usr/lib/slack/locales/zh-CN.pak
+SPDXID: SPDXRef-slack-desktop-file-66
+FileChecksum: SHA1: b20a8fb08a22d7676ba461c646bd3fea216b6025
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-66
+
+
+FileName: /usr/lib/slack/locales/zh-TW.pak
+SPDXID: SPDXRef-slack-desktop-file-67
+FileChecksum: SHA1: 8d31f3faab3f44316226f4d14b9ea15e05098e1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-67
+
+
+FileName: /usr/lib/slack/resources/animal_stick.mp3
+SPDXID: SPDXRef-slack-desktop-file-68
+FileChecksum: SHA1: 26e91de390caa839b9667008653215e3be12f918
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-68
+
+
+FileName: /usr/lib/slack/resources/app.asar
+SPDXID: SPDXRef-slack-desktop-file-69
+FileChecksum: SHA1: 0b53f44597b094a8b05d4a101bbe4cca107c9577
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-69
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/app-beta.ico
+SPDXID: SPDXRef-slack-desktop-file-70
+FileChecksum: SHA1: d4bca3036d049408a7b80ae0d9cd9d1cb6c36da7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-70
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/app-release.ico
+SPDXID: SPDXRef-slack-desktop-file-71
+FileChecksum: SHA1: 4624e7d7b09f2a016bafa21d37282f136dbd880d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-71
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/_metadata/verified_contents.json
+SPDXID: SPDXRef-slack-desktop-file-72
+FileChecksum: SHA1: 616b0f46ee44cb0d58421bf1ed52efe7feda2801
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-72
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/background.js
+SPDXID: SPDXRef-slack-desktop-file-73
+FileChecksum: SHA1: 6f8176bcd7eb0e0042f1e2b58e9df831ec0ba1ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-73
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/background.js.map
+SPDXID: SPDXRef-slack-desktop-file-74
+FileChecksum: SHA1: 7ffb22e5315096547bd0f841ae5f311ac2d9b4f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-74
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/contentScript.js
+SPDXID: SPDXRef-slack-desktop-file-75
+FileChecksum: SHA1: f7db937a24af4d9093632dd52c224016b6c0dfac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-75
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/contentScript.js.map
+SPDXID: SPDXRef-slack-desktop-file-76
+FileChecksum: SHA1: 9a6632c49c83a08a3c39630a6d871b1e75c73939
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-76
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/importFile.worker.worker.js
+SPDXID: SPDXRef-slack-desktop-file-77
+FileChecksum: SHA1: 32e5d7f7d6f7008ef4a40649c9fdb24ac8093378
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-77
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/importFile.worker.worker.js.map
+SPDXID: SPDXRef-slack-desktop-file-78
+FileChecksum: SHA1: cce1f54e9cd5f68291131a5492ab13736093abae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-78
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/injectGlobalHook.js
+SPDXID: SPDXRef-slack-desktop-file-79
+FileChecksum: SHA1: 429b2c075c18de6defe8cb3779276f78dbaf8208
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-79
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/injectGlobalHook.js.map
+SPDXID: SPDXRef-slack-desktop-file-80
+FileChecksum: SHA1: 42a988e9310fc60eade45a396ac5817e14fdd29f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-80
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/main.js
+SPDXID: SPDXRef-slack-desktop-file-81
+FileChecksum: SHA1: 80ed832df8c8453a15b92d89365908dfb4027167
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-81
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/main.js.map
+SPDXID: SPDXRef-slack-desktop-file-82
+FileChecksum: SHA1: fc2f827edf0a2a5359229f99e146c5a42b5dd643
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-82
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/panel.js
+SPDXID: SPDXRef-slack-desktop-file-83
+FileChecksum: SHA1: c6b6d00411d906e17dc2376ffa760979e9418b0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-83
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/panel.js.map
+SPDXID: SPDXRef-slack-desktop-file-84
+FileChecksum: SHA1: 326f2006a693a92beb9eaebaf9b3ad14f4c35fbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-84
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/parseHookNames.chunk.js
+SPDXID: SPDXRef-slack-desktop-file-85
+FileChecksum: SHA1: 560d30aa8f287b6922885b20679a0419bc6f7fea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-85
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/parseHookNames.chunk.js.map
+SPDXID: SPDXRef-slack-desktop-file-86
+FileChecksum: SHA1: d5a24460210d52b81a546003479d7c66681b9b62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-86
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/parseSourceAndMetadata.worker.worker.js
+SPDXID: SPDXRef-slack-desktop-file-87
+FileChecksum: SHA1: 2afca0e740c4a6b5d0ee62bcc817939130354040
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-87
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/parseSourceAndMetadata.worker.worker.js.map
+SPDXID: SPDXRef-slack-desktop-file-88
+FileChecksum: SHA1: f1f0fcf795f66db21fc0c7b7246ca5e368a58a12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-88
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/react_devtools_backend.js
+SPDXID: SPDXRef-slack-desktop-file-89
+FileChecksum: SHA1: 277c12eeefc4476dc8b26bb7b1641507ee8523b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-89
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/react_devtools_backend.js.map
+SPDXID: SPDXRef-slack-desktop-file-90
+FileChecksum: SHA1: 86e932a1978f72fd5c519eb82a44d6b5006bc29d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-90
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/renderer.js
+SPDXID: SPDXRef-slack-desktop-file-91
+FileChecksum: SHA1: a31258a976798df83b753891a62619523739a09e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-91
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/renderer.js.map
+SPDXID: SPDXRef-slack-desktop-file-92
+FileChecksum: SHA1: 5a76c9919338fd4fddb2fd31d3ca0f074e31ed15
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-92
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/vendors~parseHookNames.chunk.js
+SPDXID: SPDXRef-slack-desktop-file-93
+FileChecksum: SHA1: dc4566de1b852c2c734c3a3bfe7d08bb1749e344
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-93
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/vendors~parseHookNames.chunk.js.map
+SPDXID: SPDXRef-slack-desktop-file-94
+FileChecksum: SHA1: 1e3537063a3f9a12fc197c6d8691414a0d6a2393
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-94
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-deadcode.png
+SPDXID: SPDXRef-slack-desktop-file-95
+FileChecksum: SHA1: 964c06f2b50bd34c77ff760c939ccafccb8298da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-95
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-development.png
+SPDXID: SPDXRef-slack-desktop-file-96
+FileChecksum: SHA1: 964c06f2b50bd34c77ff760c939ccafccb8298da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-96
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-disabled.png
+SPDXID: SPDXRef-slack-desktop-file-97
+FileChecksum: SHA1: 1a72c6f1fea87fe8e79d14c72ad5da6ab6d9b761
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-97
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-outdated.png
+SPDXID: SPDXRef-slack-desktop-file-98
+FileChecksum: SHA1: d4cf9e07d303560cc3e892f4f289325121040773
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-98
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-production.png
+SPDXID: SPDXRef-slack-desktop-file-99
+FileChecksum: SHA1: 0e77dbc34ab1b74b8ec2839e0b1c0eac635b0bcd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-99
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-restricted.png
+SPDXID: SPDXRef-slack-desktop-file-100
+FileChecksum: SHA1: 1a72c6f1fea87fe8e79d14c72ad5da6ab6d9b761
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-100
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-unminified.png
+SPDXID: SPDXRef-slack-desktop-file-101
+FileChecksum: SHA1: 964c06f2b50bd34c77ff760c939ccafccb8298da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-101
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-deadcode.png
+SPDXID: SPDXRef-slack-desktop-file-102
+FileChecksum: SHA1: 232e5ea71cfa6276254862afdff99835136a4f31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-102
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-development.png
+SPDXID: SPDXRef-slack-desktop-file-103
+FileChecksum: SHA1: 232e5ea71cfa6276254862afdff99835136a4f31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-103
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-disabled.png
+SPDXID: SPDXRef-slack-desktop-file-104
+FileChecksum: SHA1: 7bf00b51cee062b2a6f0e7ba8e6fe892b2665e96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-104
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-outdated.png
+SPDXID: SPDXRef-slack-desktop-file-105
+FileChecksum: SHA1: b1ea804d41336c50cfd25bc788af01e32f0e8beb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-105
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-production.png
+SPDXID: SPDXRef-slack-desktop-file-106
+FileChecksum: SHA1: 721c9038db51193174e09f9bcd4280c8a629566c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-106
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-restricted.png
+SPDXID: SPDXRef-slack-desktop-file-107
+FileChecksum: SHA1: 7bf00b51cee062b2a6f0e7ba8e6fe892b2665e96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-107
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-unminified.png
+SPDXID: SPDXRef-slack-desktop-file-108
+FileChecksum: SHA1: 232e5ea71cfa6276254862afdff99835136a4f31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-108
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-deadcode.png
+SPDXID: SPDXRef-slack-desktop-file-109
+FileChecksum: SHA1: 2d147ca07846a5c33271a3cd9fee58be0b041088
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-109
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-development.png
+SPDXID: SPDXRef-slack-desktop-file-110
+FileChecksum: SHA1: 2d147ca07846a5c33271a3cd9fee58be0b041088
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-110
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-disabled.png
+SPDXID: SPDXRef-slack-desktop-file-111
+FileChecksum: SHA1: 8acf99866b257c7b5b38c5708870cd17d3d7b13a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-111
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-outdated.png
+SPDXID: SPDXRef-slack-desktop-file-112
+FileChecksum: SHA1: e823fceb72494b30e2472fec67e42717b7f72577
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-112
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-production.png
+SPDXID: SPDXRef-slack-desktop-file-113
+FileChecksum: SHA1: 9af4829c212270d3fb8088561dea5a9335b416b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-113
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-restricted.png
+SPDXID: SPDXRef-slack-desktop-file-114
+FileChecksum: SHA1: 8acf99866b257c7b5b38c5708870cd17d3d7b13a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-114
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-unminified.png
+SPDXID: SPDXRef-slack-desktop-file-115
+FileChecksum: SHA1: 2d147ca07846a5c33271a3cd9fee58be0b041088
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-115
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-deadcode.png
+SPDXID: SPDXRef-slack-desktop-file-116
+FileChecksum: SHA1: 55070782e7049bf2d6c45be7605d193630f22eb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-116
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-development.png
+SPDXID: SPDXRef-slack-desktop-file-117
+FileChecksum: SHA1: 55070782e7049bf2d6c45be7605d193630f22eb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-117
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-disabled.png
+SPDXID: SPDXRef-slack-desktop-file-118
+FileChecksum: SHA1: 5783485687ae3ab6bcbb07f203dcb92211ada979
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-118
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-outdated.png
+SPDXID: SPDXRef-slack-desktop-file-119
+FileChecksum: SHA1: 5df169f93fba20608702062be0b6e88ec88e341e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-119
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-production.png
+SPDXID: SPDXRef-slack-desktop-file-120
+FileChecksum: SHA1: 1071434d4ba0b14fc4ed4c432ed4db378e8319eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-120
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-restricted.png
+SPDXID: SPDXRef-slack-desktop-file-121
+FileChecksum: SHA1: 5783485687ae3ab6bcbb07f203dcb92211ada979
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-121
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-unminified.png
+SPDXID: SPDXRef-slack-desktop-file-122
+FileChecksum: SHA1: 55070782e7049bf2d6c45be7605d193630f22eb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-122
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/deadcode.svg
+SPDXID: SPDXRef-slack-desktop-file-123
+FileChecksum: SHA1: e8189f6545038616eca6ef33068093dbaeb66350
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-123
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/development.svg
+SPDXID: SPDXRef-slack-desktop-file-124
+FileChecksum: SHA1: e8189f6545038616eca6ef33068093dbaeb66350
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-124
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/disabled.svg
+SPDXID: SPDXRef-slack-desktop-file-125
+FileChecksum: SHA1: ec5c179569f1add1f0ea8a69d622b36013ba72ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-125
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/outdated.svg
+SPDXID: SPDXRef-slack-desktop-file-126
+FileChecksum: SHA1: 60f041643b0081c87e308b27241dd163bf98210a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-126
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/production.svg
+SPDXID: SPDXRef-slack-desktop-file-127
+FileChecksum: SHA1: 7d19b57873184287be40824dc4f1f5fa6eb39dfc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-127
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/restricted.svg
+SPDXID: SPDXRef-slack-desktop-file-128
+FileChecksum: SHA1: ec5c179569f1add1f0ea8a69d622b36013ba72ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-128
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/main.html
+SPDXID: SPDXRef-slack-desktop-file-129
+FileChecksum: SHA1: 4c532f098de2d911906b8ad1d04bf91368f0753d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-129
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/manifest.json
+SPDXID: SPDXRef-slack-desktop-file-130
+FileChecksum: SHA1: 5103f64de43818f51222a39de156322940e900d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-130
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/panel.html
+SPDXID: SPDXRef-slack-desktop-file-131
+FileChecksum: SHA1: 92260191cb09f61d8a44163a133ba642672587e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-131
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/deadcode.html
+SPDXID: SPDXRef-slack-desktop-file-132
+FileChecksum: SHA1: 252a6a807139924021487eb9b404105f5c07c2ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-132
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/development.html
+SPDXID: SPDXRef-slack-desktop-file-133
+FileChecksum: SHA1: 0b7b1c1bac155265fa930b977c6c7d7f33a9edc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-133
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/disabled.html
+SPDXID: SPDXRef-slack-desktop-file-134
+FileChecksum: SHA1: c68f144a2f7eed04f3510566062b96d9e341d938
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-134
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/outdated.html
+SPDXID: SPDXRef-slack-desktop-file-135
+FileChecksum: SHA1: 5777f3cd29720cdf9c7c23987d2ec4fc6e8ae6f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-135
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/production.html
+SPDXID: SPDXRef-slack-desktop-file-136
+FileChecksum: SHA1: 7037a0628030e454c8688d759cf4b2150f212b50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-136
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/restricted.html
+SPDXID: SPDXRef-slack-desktop-file-137
+FileChecksum: SHA1: dd62b97721105a5e872534a8d6fd18177a9f1202
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-137
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/shared.css
+SPDXID: SPDXRef-slack-desktop-file-138
+FileChecksum: SHA1: 6b5c6cf207bdf3c20ad884549c1b080536fdfca9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-138
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/shared.js
+SPDXID: SPDXRef-slack-desktop-file-139
+FileChecksum: SHA1: f1c54b476d80e8367a4f9671834a2f4c6116d55c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-139
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/shared.js.map
+SPDXID: SPDXRef-slack-desktop-file-140
+FileChecksum: SHA1: 7756e3e8fcdf3ecf5207d2d9a9f9cc77218ef970
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-140
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/unminified.html
+SPDXID: SPDXRef-slack-desktop-file-141
+FileChecksum: SHA1: 9b76e18116ff660379145c08314494860858cfb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-141
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/slack-taskbar-highlight.ico
+SPDXID: SPDXRef-slack-desktop-file-142
+FileChecksum: SHA1: 3438bac60ea8799dd5ede8513cef5c9ee2bd1cd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-142
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/slack-taskbar-rest.ico
+SPDXID: SPDXRef-slack-desktop-file-143
+FileChecksum: SHA1: f5acb7376feb2421b7faffd2b23f3c091345664f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-143
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/dist/resources/slack-taskbar-unread.ico
+SPDXID: SPDXRef-slack-desktop-file-144
+FileChecksum: SHA1: 837b87a40cf81f4d6da4085cd21088d4c72e8d23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-144
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.applicationmodel/bin/linux-x64-107/windows.applicationmodel.node
+SPDXID: SPDXRef-slack-desktop-file-145
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-145
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.applicationmodel/build/Release/binding.node
+SPDXID: SPDXRef-slack-desktop-file-146
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-146
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.data.xml.dom/bin/linux-x64-107/windows.data.xml.dom.node
+SPDXID: SPDXRef-slack-desktop-file-147
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-147
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.data.xml.dom/build/Release/binding.node
+SPDXID: SPDXRef-slack-desktop-file-148
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-148
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.foundation/bin/linux-x64-107/windows.foundation.node
+SPDXID: SPDXRef-slack-desktop-file-149
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-149
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.foundation/build/Release/binding.node
+SPDXID: SPDXRef-slack-desktop-file-150
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-150
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.notifications/bin/linux-x64-107/windows.ui.notifications.node
+SPDXID: SPDXRef-slack-desktop-file-151
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-151
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.notifications/build/Release/binding.node
+SPDXID: SPDXRef-slack-desktop-file-152
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-152
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.startscreen/bin/linux-x64-107/windows.ui.startscreen.node
+SPDXID: SPDXRef-slack-desktop-file-153
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-153
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.startscreen/build/Release/binding.node
+SPDXID: SPDXRef-slack-desktop-file-154
+FileChecksum: SHA1: 4ffdf0757824e9600c757c64a947fb3bf7c186f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-154
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/calls-desktop-interop/bin/linux-x64-107/calls-desktop-interop.node
+SPDXID: SPDXRef-slack-desktop-file-155
+FileChecksum: SHA1: 9da9c1530f6f91c24632b2fb90fbba2ab52fba30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-155
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/calls-desktop-interop/build/Release/CallsDesktopInterop.node
+SPDXID: SPDXRef-slack-desktop-file-156
+FileChecksum: SHA1: 9da9c1530f6f91c24632b2fb90fbba2ab52fba30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-156
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/native-keymap/bin/linux-x64-107/native-keymap.node
+SPDXID: SPDXRef-slack-desktop-file-157
+FileChecksum: SHA1: fb3ea7228e307dc49390f9d555bfe91ab79dd4e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-157
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/native-keymap/build/Release/keymapping.node
+SPDXID: SPDXRef-slack-desktop-file-158
+FileChecksum: SHA1: fb3ea7228e307dc49390f9d555bfe91ab79dd4e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-158
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/cf-prefs/bin/linux-x64-107/cf-prefs.node
+SPDXID: SPDXRef-slack-desktop-file-159
+FileChecksum: SHA1: 26c4920d786cb853568cd8bdffb93e51daae63f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-159
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/cf-prefs/build/Release/cf-prefs.node
+SPDXID: SPDXRef-slack-desktop-file-160
+FileChecksum: SHA1: 26c4920d786cb853568cd8bdffb93e51daae63f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-160
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/file-handler-info/bin/linux-x64-107/file-handler-info.node
+SPDXID: SPDXRef-slack-desktop-file-161
+FileChecksum: SHA1: 3c3e476b9339aaadc4641c7ce95ca639ea49bbe4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-161
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/file-handler-info/build/Release/file_handler_info.node
+SPDXID: SPDXRef-slack-desktop-file-162
+FileChecksum: SHA1: 3c3e476b9339aaadc4641c7ce95ca639ea49bbe4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-162
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/macos-notification-state/bin/linux-x64-107/macos-notification-state.node
+SPDXID: SPDXRef-slack-desktop-file-163
+FileChecksum: SHA1: 7272b8a7358a344ac1f20815b214fbce7c900daf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-163
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/macos-notification-state/build/Release/notificationstate.node
+SPDXID: SPDXRef-slack-desktop-file-164
+FileChecksum: SHA1: 7272b8a7358a344ac1f20815b214fbce7c900daf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-164
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/registry-js/bin/linux-x64-107/registry-js.node
+SPDXID: SPDXRef-slack-desktop-file-165
+FileChecksum: SHA1: befe7cb39dbcab9ef2353e480f763f5940824147
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-165
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/registry-js/build/Release/registry.node
+SPDXID: SPDXRef-slack-desktop-file-166
+FileChecksum: SHA1: befe7cb39dbcab9ef2353e480f763f5940824147
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-166
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-focus-assist/bin/linux-x64-107/windows-focus-assist.node
+SPDXID: SPDXRef-slack-desktop-file-167
+FileChecksum: SHA1: 0efcd0dc7ebfcdb39bedd8053daea7bdcc483ede
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-167
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-focus-assist/build/Release/focusassist.node
+SPDXID: SPDXRef-slack-desktop-file-168
+FileChecksum: SHA1: 0efcd0dc7ebfcdb39bedd8053daea7bdcc483ede
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-168
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-notification-state/bin/linux-x64-107/windows-notification-state.node
+SPDXID: SPDXRef-slack-desktop-file-169
+FileChecksum: SHA1: 276aeff8ad4a5acb01079d2441c6989b64e1a60c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-169
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-notification-state/build/Release/notificationstate.node
+SPDXID: SPDXRef-slack-desktop-file-170
+FileChecksum: SHA1: 276aeff8ad4a5acb01079d2441c6989b64e1a60c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-170
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-quiet-hours/bin/linux-x64-107/windows-quiet-hours.node
+SPDXID: SPDXRef-slack-desktop-file-171
+FileChecksum: SHA1: 44560a6449b33f616e1bc1904b35095345b1df7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-171
+
+
+FileName: /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-quiet-hours/build/Release/quiethours.node
+SPDXID: SPDXRef-slack-desktop-file-172
+FileChecksum: SHA1: 44560a6449b33f616e1bc1904b35095345b1df7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-172
+
+
+FileName: /usr/lib/slack/resources/b2.mp3
+SPDXID: SPDXRef-slack-desktop-file-173
+FileChecksum: SHA1: 57fd58af0742922ed0246644f2f4e32206460386
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-173
+
+
+FileName: /usr/lib/slack/resources/been_tree.mp3
+SPDXID: SPDXRef-slack-desktop-file-174
+FileChecksum: SHA1: 97c80b444d8adc10a95957354b12192aad13c3af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-174
+
+
+FileName: /usr/lib/slack/resources/boop.mp3
+SPDXID: SPDXRef-slack-desktop-file-175
+FileChecksum: SHA1: 78fded69f9c47cd1d1e5277b68f3f8317e3cca7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-175
+
+
+FileName: /usr/lib/slack/resources/calls_alert_v2.mp3
+SPDXID: SPDXRef-slack-desktop-file-176
+FileChecksum: SHA1: cef2d4fbc4183c8e2bcfc3c3e561a8267524baf1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-176
+
+
+FileName: /usr/lib/slack/resources/calls_confirmation_v2.mp3
+SPDXID: SPDXRef-slack-desktop-file-177
+FileChecksum: SHA1: 1d267fce7e90e3769fa452c00a54403c99c0c91a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-177
+
+
+FileName: /usr/lib/slack/resources/calls_incoming_ring_v2.mp3
+SPDXID: SPDXRef-slack-desktop-file-178
+FileChecksum: SHA1: 7a1a19825d50e8cdd7f65fde148b1f061259695a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-178
+
+
+FileName: /usr/lib/slack/resources/calls_outgoing_ring_v2.mp3
+SPDXID: SPDXRef-slack-desktop-file-179
+FileChecksum: SHA1: 4388cfd08608aee3d9d7ff53517568efcea5fc63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-179
+
+
+FileName: /usr/lib/slack/resources/calls_pop_v2.mp3
+SPDXID: SPDXRef-slack-desktop-file-180
+FileChecksum: SHA1: e881154040baff4c3a6446f827c623fa79092dc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-180
+
+
+FileName: /usr/lib/slack/resources/calls_they_joined_call_v2.mp3
+SPDXID: SPDXRef-slack-desktop-file-181
+FileChecksum: SHA1: a3e550fde27688c64b21539d4d9c1b54ee7ae350
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-181
+
+
+FileName: /usr/lib/slack/resources/calls_they_left_call_v2.mp3
+SPDXID: SPDXRef-slack-desktop-file-182
+FileChecksum: SHA1: 63413c0e093e40b239758071bfca1d9611c01045
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-182
+
+
+FileName: /usr/lib/slack/resources/calls_you_joined_call_v2.mp3
+SPDXID: SPDXRef-slack-desktop-file-183
+FileChecksum: SHA1: d99c460740059d56e62d7388b8cff397eebf703e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-183
+
+
+FileName: /usr/lib/slack/resources/calls_you_left_call_v2.mp3
+SPDXID: SPDXRef-slack-desktop-file-184
+FileChecksum: SHA1: ed8bf30c2e997f9ccca8f32591c91fc899ee7939
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-184
+
+
+FileName: /usr/lib/slack/resources/complete_quest_requirement.mp3
+SPDXID: SPDXRef-slack-desktop-file-185
+FileChecksum: SHA1: 7c68e4b83e4299d9ae6ddd9a4747db944f06a43c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-185
+
+
+FileName: /usr/lib/slack/resources/confirm_delivery.mp3
+SPDXID: SPDXRef-slack-desktop-file-186
+FileChecksum: SHA1: 6633f3c876423bcc584b306d3d89f7f5bb8d01f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-186
+
+
+FileName: /usr/lib/slack/resources/flitterbug.mp3
+SPDXID: SPDXRef-slack-desktop-file-187
+FileChecksum: SHA1: 530d0cdb7e7ab50869553021a63c00fe92f3c847
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-187
+
+
+FileName: /usr/lib/slack/resources/here_you_go_lighter.mp3
+SPDXID: SPDXRef-slack-desktop-file-188
+FileChecksum: SHA1: bbe14932113a2431f6d24d88c32ce6782bea1207
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-188
+
+
+FileName: /usr/lib/slack/resources/hi_flowers_hit.mp3
+SPDXID: SPDXRef-slack-desktop-file-189
+FileChecksum: SHA1: 40eb97338f35aadd47453c7902740e5c03f63ebe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-189
+
+
+FileName: /usr/lib/slack/resources/hummus.mp3
+SPDXID: SPDXRef-slack-desktop-file-190
+FileChecksum: SHA1: 32d054bd6d4dbb2f885ee928acf8102f050b3ef8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-190
+
+
+FileName: /usr/lib/slack/resources/item_pickup.mp3
+SPDXID: SPDXRef-slack-desktop-file-191
+FileChecksum: SHA1: f7c700f0126f41e6538e0a4fc8be345240951119
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-191
+
+
+FileName: /usr/lib/slack/resources/knock_brush.mp3
+SPDXID: SPDXRef-slack-desktop-file-192
+FileChecksum: SHA1: b5caa1bb1369b680f0b92da1c507305aa3e8fa51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-192
+
+
+FileName: /usr/lib/slack/resources/save_and_checkout.mp3
+SPDXID: SPDXRef-slack-desktop-file-193
+FileChecksum: SHA1: 25c2efb52634aa143c892825e26852ace94130e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-193
+
+
+FileName: /usr/lib/slack/resources.pak
+SPDXID: SPDXRef-slack-desktop-file-194
+FileChecksum: SHA1: 0c054e90a828f293437de695cb7067f18ab69a96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-194
+
+
+FileName: /usr/lib/slack/slack
+SPDXID: SPDXRef-slack-desktop-file-195
+FileChecksum: SHA1: 4a1b2f133c79e83af99cd40abefc61529e37d033
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-195
+
+
+FileName: /usr/lib/slack/snapshot_blob.bin
+SPDXID: SPDXRef-slack-desktop-file-196
+FileChecksum: SHA1: ec1e3410bfb8187aa7ea3961675e5f1dc1cb47f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-196
+
+
+FileName: /usr/lib/slack/v8_context_snapshot.bin
+SPDXID: SPDXRef-slack-desktop-file-197
+FileChecksum: SHA1: b8adcc2db8d9c18197141692d0ed063d6e7b9671
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-197
+
+
+FileName: /usr/lib/slack/version
+SPDXID: SPDXRef-slack-desktop-file-198
+FileChecksum: SHA1: 5a56fa6e2b3180aace1970196797e1892823983e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-198
+
+
+FileName: /usr/lib/slack/vk_swiftshader_icd.json
+SPDXID: SPDXRef-slack-desktop-file-199
+FileChecksum: SHA1: 08a83ab661feb866ab881fc7cf0e2b1dc4a5c43d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-199
+
+
+FileName: /usr/share/applications/slack.desktop
+SPDXID: SPDXRef-slack-desktop-file-200
+FileChecksum: SHA1: 69915a27fe8ba8a7ececba497f70205896c1b757
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-200
+
+
+FileName: /usr/share/doc/slack-desktop/OPEN_SOURCE_LICENSE_ATTRIBUTIONS
+SPDXID: SPDXRef-slack-desktop-file-201
+FileChecksum: SHA1: b2ebbf5401e9ab0f8be82dda52f5ae0dc0842954
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-201
+
+
+FileName: /usr/share/lintian/overrides/slack
+SPDXID: SPDXRef-slack-desktop-file-202
+FileChecksum: SHA1: 35b16bd4b7a00ca41a8de335f0d3ee1f5a609c5c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-202
+
+
+FileName: /usr/share/pixmaps/slack.png
+SPDXID: SPDXRef-slack-desktop-file-203
+FileChecksum: SHA1: 80f076d58f8fe49f951e8e6afd96854600e85cc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-203
+
+
+FileName: /usr/bin/slack
+SPDXID: SPDXRef-slack-desktop-file-204
+FileChecksum: SHA1: 4a1b2f133c79e83af99cd40abefc61529e37d033
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-slack-desktop CONTAINS SPDXRef-slack-desktop-file-204
+
+
+## Extracted License
+

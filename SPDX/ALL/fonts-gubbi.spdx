@@ -1,0 +1,100 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-gubbi_1.3-5build1-419fcc23-0f53-55ae-b78e-9b803f1b3c4d
+DocumentName: fonts-gubbi_1.3-5build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-gubbi
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:52:51Z
+
+
+## Package
+
+PackageName: fonts-gubbi
+PackageVersion: 1.3-5build1
+SPDXID: SPDXRef-fonts-gubbi
+PackageHomePage: https://github.com/aravindavk/Gubbi
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f951e11f1dfc18bcf519407dcbbe50ef7a7331cf
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2005-2011, IISC Bangalore 2011-2012, Aravinda V
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com>
+</text>
+PackageComment: <text>Gubbi free font for Kannada script
+ This package provides a font for Kannada script (kn) which is
+ primarily used in the Indian state of Karnataka.
+ .
+ This language is fork of old Kedage font with lots of improvements
+ and is now actively maintained by the upstream.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-gubbi/copyright
+SPDXID: SPDXRef-fonts-gubbi-file-0
+FileChecksum: SHA1: 3c6a445eba0eb737478b9f5e9c32bf8ef477530d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Font-exception-2.0
+FileCopyrightText: <text>Copyright 2005-2011, IISC Bangalore 2011-2012, Aravinda V
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com>
+</text>
+Relationship: SPDXRef-fonts-gubbi CONTAINS SPDXRef-fonts-gubbi-file-0
+
+
+FileName: /etc/fonts/conf.avail/65-0-fonts-gubbi.conf
+SPDXID: SPDXRef-fonts-gubbi-file-1
+FileChecksum: SHA1: ac6aeee9136d12a8369b89787bf251d83a99c405
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gubbi CONTAINS SPDXRef-fonts-gubbi-file-1
+
+
+FileName: /usr/share/doc/fonts-gubbi/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-gubbi-file-2
+FileChecksum: SHA1: 3c497a88d2c5d3432c086fa22f5180a503585053
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gubbi CONTAINS SPDXRef-fonts-gubbi-file-2
+
+
+FileName: /usr/share/fonts/truetype/Gubbi/Gubbi.ttf
+SPDXID: SPDXRef-fonts-gubbi-file-3
+FileChecksum: SHA1: 44cc14361bda8d1ac57fbbe873f4691384e1ecba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gubbi CONTAINS SPDXRef-fonts-gubbi-file-3
+
+
+FileName: /etc/fonts/conf.d/65-0-fonts-gubbi.conf
+SPDXID: SPDXRef-fonts-gubbi-file-4
+FileChecksum: SHA1: ac6aeee9136d12a8369b89787bf251d83a99c405
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-gubbi CONTAINS SPDXRef-fonts-gubbi-file-4
+
+
+## Extracted License
+

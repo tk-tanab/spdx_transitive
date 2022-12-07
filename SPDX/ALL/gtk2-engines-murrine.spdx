@@ -1,0 +1,95 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gtk2-engines-murrine_0.98.2-3build2-949f3743-4dc3-56cb-a429-45af20bc10de
+DocumentName: gtk2-engines-murrine_0.98.2-3build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gtk2-engines-murrine
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:24:06Z
+
+
+## Package
+
+PackageName: gtk2-engines-murrine
+PackageVersion: 0.98.2-3build2
+SPDXID: SPDXRef-gtk2-engines-murrine
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 395f1cd619ee7c9e9232cb5310480e3950687b9f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-only
+PackageCopyrightText: <text>Copyright 2006-2009 Andrea Cimitan
+</text>
+PackageComment: <text>cairo-based gtk+-2.0 theme engine
+ "Murrine" is an Italian word meaning the glass artworks done by Venicians
+ glass blowers. The Engine is cairo-based, and it's very fast compared to
+ clearlooks-cairo and ubuntulooks.
+ .
+ This package includes the Murrine engine.</text>
+Relationship: SPDXRef-gtk2-engines-murrine DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gtk2-engines-murrine DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-gtk2-engines-murrine DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-gtk2-engines-murrine DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gtk2-engines-murrine DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpangocairo-1.0-0
+Relationship: SPDXRef-gtk2-engines-murrine DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpixman-1-0
+
+
+## File
+
+FileName: /usr/share/doc/gtk2-engines-murrine/copyright
+SPDXID: SPDXRef-gtk2-engines-murrine-file-0
+FileChecksum: SHA1: d4da8f854cd21ce8af92efc42955b135a589095f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-only
+FileCopyrightText: <text>Copyright 2006-2009 Andrea Cimitan
+</text>
+Relationship: SPDXRef-gtk2-engines-murrine CONTAINS SPDXRef-gtk2-engines-murrine-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+SPDXID: SPDXRef-gtk2-engines-murrine-file-1
+FileChecksum: SHA1: 48a769d0b3427b2cb9bc7ecbe616e4287024a112
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gtk2-engines-murrine CONTAINS SPDXRef-gtk2-engines-murrine-file-1
+
+
+FileName: /usr/share/doc/gtk2-engines-murrine/changelog.Debian.gz
+SPDXID: SPDXRef-gtk2-engines-murrine-file-2
+FileChecksum: SHA1: 3368aa4e01d40e5b274af4bdd6f5366ee7cff465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gtk2-engines-murrine CONTAINS SPDXRef-gtk2-engines-murrine-file-2
+
+
+FileName: /usr/share/gtk-engines/murrine.xml
+SPDXID: SPDXRef-gtk2-engines-murrine-file-3
+FileChecksum: SHA1: dfb71059e63cf83371f750368e3b1de8afffe170
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gtk2-engines-murrine CONTAINS SPDXRef-gtk2-engines-murrine-file-3
+
+
+## Extracted License
+

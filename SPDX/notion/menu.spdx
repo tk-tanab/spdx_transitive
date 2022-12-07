@@ -1,0 +1,1650 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/menu_2.1.47ubuntu4-ae408414-9e98-5568-8dd6-962968007fd2
+DocumentName: menu_2.1.47ubuntu4
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-libc6.Cycle http://spdx.org/spdxdocs/libc6_2.35-0ubuntu3.1-81aed138-ef05-5528-8db8-5cca19557558 SHA1: a6a1cac1e1bc7cb4b3cf61f712e743e93c0bf08d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-menu
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:13:47Z
+
+
+## Package
+
+PackageName: menu
+PackageVersion: 2.1.47ubuntu4
+SPDXID: SPDXRef-menu
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 68c504445ffa0188dda024be3c4d859cd9674da1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>generates programs menu for all menu-aware applications
+ Debian menu keeps transparently the menus in the different
+ window-managers in sync with the list of installed programs.
+ .
+ Debian menu relies on a list of menu entries provided by programs
+ and a list of menu-methods provided by window-managers and other
+ menu-aware applications.
+ .
+ Menu provides system-level and user-level configuration and overrides
+ for both menu entries and menu-methods.</text>
+Relationship: SPDXRef-menu DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-menu DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-menu DEPENDS_ON DocumentRef-libc6.Cycle:SPDXRef-libstdcPlusPlus6
+
+
+## File
+
+FileName: /etc/menu/README
+SPDXID: SPDXRef-menu-file-0
+FileChecksum: SHA1: 570e151ab4bc00d1efcc630dcd0c567fd9424fb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-0
+
+
+FileName: /etc/menu-methods/README
+SPDXID: SPDXRef-menu-file-1
+FileChecksum: SHA1: 3178a52349d6a97d600801a305c684951b776455
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-1
+
+
+FileName: /etc/menu-methods/lang.h
+SPDXID: SPDXRef-menu-file-2
+FileChecksum: SHA1: c3d0d488df2167f54c35def44cd85c268976869c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-2
+
+
+FileName: /etc/menu-methods/menu.config
+SPDXID: SPDXRef-menu-file-3
+FileChecksum: SHA1: 4a1731cffb280c6fe0aba54b7d4cd3481e7819c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-3
+
+
+FileName: /etc/menu-methods/menu.h
+SPDXID: SPDXRef-menu-file-4
+FileChecksum: SHA1: bfad514254974a455ecf89c2b55d84da6f04e4f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-4
+
+
+FileName: /etc/menu-methods/translate_menus
+SPDXID: SPDXRef-menu-file-5
+FileChecksum: SHA1: 8b2f7f76cc94040fa146489cb22595b080163e55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-5
+
+
+FileName: /etc/su-to-rootrc
+SPDXID: SPDXRef-menu-file-6
+FileChecksum: SHA1: 16943afcfa34cfc8a06aad1fd2a1d6a9300a4373
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-6
+
+
+FileName: /usr/bin/install-menu
+SPDXID: SPDXRef-menu-file-7
+FileChecksum: SHA1: 0c5647c5e780c35d37684a38dc422993f59b8092
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-7
+
+
+FileName: /usr/bin/su-to-root
+SPDXID: SPDXRef-menu-file-8
+FileChecksum: SHA1: 0d02e029fd3b3275218c2119bab4c6a1fa380805
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-8
+
+
+FileName: /usr/bin/update-menus
+SPDXID: SPDXRef-menu-file-9
+FileChecksum: SHA1: 684ed5cc2ac1400b99c3b6e5ba71bad8856d9f8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-9
+
+
+FileName: /usr/share/bug/menu/presubj
+SPDXID: SPDXRef-menu-file-10
+FileChecksum: SHA1: 3b1ec4e3764b7df3bfac8686d93d5227cef7b335
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-10
+
+
+FileName: /usr/share/doc/menu/BUGS
+SPDXID: SPDXRef-menu-file-11
+FileChecksum: SHA1: 692029f5f5a4c97e3be25989f0d742456e9aa6e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-11
+
+
+FileName: /usr/share/doc/menu/README
+SPDXID: SPDXRef-menu-file-12
+FileChecksum: SHA1: 35378835add69264d48dfa23863b639466695fa8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-12
+
+
+FileName: /usr/share/doc/menu/README.translations
+SPDXID: SPDXRef-menu-file-13
+FileChecksum: SHA1: 5900384ec83cdaaccbd44cc87fe249e08a757b6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-13
+
+
+FileName: /usr/share/doc/menu/changelog.gz
+SPDXID: SPDXRef-menu-file-14
+FileChecksum: SHA1: beb6353f0543f8507d338e4568c6f8cbdef48a9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-14
+
+
+FileName: /usr/share/doc/menu/copyright
+SPDXID: SPDXRef-menu-file-15
+FileChecksum: SHA1: e0f805e99b56bddfe866e0e2e36ed273c837209e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-15
+
+
+FileName: /usr/share/doc/menu/examples/9wm
+SPDXID: SPDXRef-menu-file-16
+FileChecksum: SHA1: 4f8647df69b44e276c8b64bb3cc8e99d45c4d5b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-16
+
+
+FileName: /usr/share/doc/menu/examples/README
+SPDXID: SPDXRef-menu-file-17
+FileChecksum: SHA1: 4a854a801baa16c36c26fd52c0e90173adb51013
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-17
+
+
+FileName: /usr/share/doc/menu/examples/afterstep
+SPDXID: SPDXRef-menu-file-18
+FileChecksum: SHA1: 24abaf708993aecabd0963140360f05a13dc759f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-18
+
+
+FileName: /usr/share/doc/menu/examples/afterstep-joost
+SPDXID: SPDXRef-menu-file-19
+FileChecksum: SHA1: cf7addd121f513a201cf7545ce40ed8bcf7b5fd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-19
+
+
+FileName: /usr/share/doc/menu/examples/cat
+SPDXID: SPDXRef-menu-file-20
+FileChecksum: SHA1: 3e3e0c940e5dc4b15520925bbdff2ab113a9fd62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-20
+
+
+FileName: /usr/share/doc/menu/examples/ctwm
+SPDXID: SPDXRef-menu-file-21
+FileChecksum: SHA1: 269e39f6f1e2312c0cbd794b3577f68436a3c6db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-21
+
+
+FileName: /usr/share/doc/menu/examples/dwww
+SPDXID: SPDXRef-menu-file-22
+FileChecksum: SHA1: 7f9c3fa3c06db125faf2167bd31d1db4df81a630
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-22
+
+
+FileName: /usr/share/doc/menu/examples/example_executable_menufile
+SPDXID: SPDXRef-menu-file-23
+FileChecksum: SHA1: d130062a76cbc5d488303e47968c624aab6b9418
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-23
+
+
+FileName: /usr/share/doc/menu/examples/fvwm
+SPDXID: SPDXRef-menu-file-24
+FileChecksum: SHA1: 6e072ba9b38af6f270738455ea405d5f024bf88d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-24
+
+
+FileName: /usr/share/doc/menu/examples/fvwm2
+SPDXID: SPDXRef-menu-file-25
+FileChecksum: SHA1: e2d5971111a5053c9a0d404523806c4004747ed6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-25
+
+
+FileName: /usr/share/doc/menu/examples/fvwm95
+SPDXID: SPDXRef-menu-file-26
+FileChecksum: SHA1: dfafc312dbdf1d2243f6efdb6a8723a1c527edbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-26
+
+
+FileName: /usr/share/doc/menu/examples/gnome-panel
+SPDXID: SPDXRef-menu-file-27
+FileChecksum: SHA1: e0cab2d43c843c0fe5abfc26c0c1949c7380244c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-27
+
+
+FileName: /usr/share/doc/menu/examples/menu.config
+SPDXID: SPDXRef-menu-file-28
+FileChecksum: SHA1: 4a1731cffb280c6fe0aba54b7d4cd3481e7819c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-28
+
+
+FileName: /usr/share/doc/menu/examples/menu.h
+SPDXID: SPDXRef-menu-file-29
+FileChecksum: SHA1: bfad514254974a455ecf89c2b55d84da6f04e4f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-29
+
+
+FileName: /usr/share/doc/menu/examples/pdmenu
+SPDXID: SPDXRef-menu-file-30
+FileChecksum: SHA1: 49418b34d99620a10a7e36c9387c5631bf853e69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-30
+
+
+FileName: /usr/share/doc/menu/examples/system.9wmrc-menu
+SPDXID: SPDXRef-menu-file-31
+FileChecksum: SHA1: 52501824e6c415734de3ad32535763d78cda2dd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-31
+
+
+FileName: /usr/share/doc/menu/examples/system.ctwmrc-menu.gz
+SPDXID: SPDXRef-menu-file-32
+FileChecksum: SHA1: 5e923df3851e08944c8f58d33246adb107e80ac7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-32
+
+
+FileName: /usr/share/doc/menu/examples/system.fvwm2rc.gz
+SPDXID: SPDXRef-menu-file-33
+FileChecksum: SHA1: 1cd4af996313fa9ff619d33d263b0608c797a0b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-33
+
+
+FileName: /usr/share/doc/menu/examples/system.fvwm2rc95.gz
+SPDXID: SPDXRef-menu-file-34
+FileChecksum: SHA1: 9a05cbf543a91ac1e8439f3416fcb93dca6d3a91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-34
+
+
+FileName: /usr/share/doc/menu/examples/system.fvwmrc-menu.gz
+SPDXID: SPDXRef-menu-file-35
+FileChecksum: SHA1: 87b8ca1059c97890ad4d98b32874fc8bbf44f329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-35
+
+
+FileName: /usr/share/doc/menu/examples/system.steprc-menu.gz
+SPDXID: SPDXRef-menu-file-36
+FileChecksum: SHA1: c625c639879b43dc7426fb21902eba78b367d5f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-36
+
+
+FileName: /usr/share/doc/menu/examples/system.twmrc-menu
+SPDXID: SPDXRef-menu-file-37
+FileChecksum: SHA1: a0546b9f2303b6a5087b4e1e1bded2b5ab327f65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-37
+
+
+FileName: /usr/share/doc/menu/examples/translate_menus
+SPDXID: SPDXRef-menu-file-38
+FileChecksum: SHA1: 8b2f7f76cc94040fa146489cb22595b080163e55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-38
+
+
+FileName: /usr/share/doc/menu/examples/twm
+SPDXID: SPDXRef-menu-file-39
+FileChecksum: SHA1: fd12cfb0ea6ebeb6364583f6ac06bdc29e702b34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-39
+
+
+FileName: /usr/share/doc/menu/html/ch1.html
+SPDXID: SPDXRef-menu-file-40
+FileChecksum: SHA1: db263a38fa1b2eaf4bc109b0636e7da4a06f50a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-40
+
+
+FileName: /usr/share/doc/menu/html/ch2.html
+SPDXID: SPDXRef-menu-file-41
+FileChecksum: SHA1: 6dbedd7a044ab053052c79efb07a37a1d187e6d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-41
+
+
+FileName: /usr/share/doc/menu/html/ch3.html
+SPDXID: SPDXRef-menu-file-42
+FileChecksum: SHA1: 80e6c1e0baa1c299104d51b074dd53824ee23ff0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-42
+
+
+FileName: /usr/share/doc/menu/html/ch4.html
+SPDXID: SPDXRef-menu-file-43
+FileChecksum: SHA1: e5d69dffd577d47ac43bade2201fffe5a50a9db5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-43
+
+
+FileName: /usr/share/doc/menu/html/ch5.html
+SPDXID: SPDXRef-menu-file-44
+FileChecksum: SHA1: 2edd3c309aa67ca0f54c68eed14f90d3ac65c4e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-44
+
+
+FileName: /usr/share/doc/menu/html/ch6.html
+SPDXID: SPDXRef-menu-file-45
+FileChecksum: SHA1: 74085f69cd944be2647c9636acda78108c2881d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-45
+
+
+FileName: /usr/share/doc/menu/html/ch7.html
+SPDXID: SPDXRef-menu-file-46
+FileChecksum: SHA1: 053678fd85762036dd4352b025c72069e9fe0d4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-46
+
+
+FileName: /usr/share/doc/menu/html/ch8.html
+SPDXID: SPDXRef-menu-file-47
+FileChecksum: SHA1: 1f1bde05888228afe49e88218b8bb608353f6e03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-47
+
+
+FileName: /usr/share/doc/menu/html/index.html
+SPDXID: SPDXRef-menu-file-48
+FileChecksum: SHA1: 5683526d3a9d045549a120c49cf36c11e922a1ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-48
+
+
+FileName: /usr/share/doc/menu/menu.sgml.gz
+SPDXID: SPDXRef-menu-file-49
+FileChecksum: SHA1: dc226b6082197543b1358c35f0b938e44a29ee95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-49
+
+
+FileName: /usr/share/doc/menu/menu.txt.gz
+SPDXID: SPDXRef-menu-file-50
+FileChecksum: SHA1: d4a3d9b1fe1641202082b67609106a1dd4afcdb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-50
+
+
+FileName: /usr/share/doc-base/menu
+SPDXID: SPDXRef-menu-file-51
+FileChecksum: SHA1: 6f9d87655d3214ae8208a30f27a63996526ff297
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-51
+
+
+FileName: /usr/share/info/menu.info.gz
+SPDXID: SPDXRef-menu-file-52
+FileChecksum: SHA1: c23b4a28496e9596c560a47805a5b9fd642a9c83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-52
+
+
+FileName: /usr/share/lintian/overrides/menu
+SPDXID: SPDXRef-menu-file-53
+FileChecksum: SHA1: fabc5a01e760395c1690805d2448784d158f94a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-53
+
+
+FileName: /usr/share/locale/ar/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-54
+FileChecksum: SHA1: c3bca63cbcf118b8012953ad302b3b56f0ccdc32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-54
+
+
+FileName: /usr/share/locale/ar/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-55
+FileChecksum: SHA1: ac20ddebe752161257815b260a29b5c9a78764b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-55
+
+
+FileName: /usr/share/locale/ast/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-56
+FileChecksum: SHA1: dff53127a353aaef6ad15c50d7d48fd10577238f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-56
+
+
+FileName: /usr/share/locale/ast/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-57
+FileChecksum: SHA1: 52cd804c520b2f2dcbd1e4420af1be514d0faeda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-57
+
+
+FileName: /usr/share/locale/be/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-58
+FileChecksum: SHA1: a275e96dc3f38b45948b07d1106e82dcc0d5cb84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-58
+
+
+FileName: /usr/share/locale/bg/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-59
+FileChecksum: SHA1: 405e5138dd81b20a9473c539c88aaf2f973c725e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-59
+
+
+FileName: /usr/share/locale/bg/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-60
+FileChecksum: SHA1: ce260c90de3394e07ecd220112ab02f3aac55874
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-60
+
+
+FileName: /usr/share/locale/bn/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-61
+FileChecksum: SHA1: 310c4a56779317bee788eb3059618a64b98b6721
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-61
+
+
+FileName: /usr/share/locale/br/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-62
+FileChecksum: SHA1: 018f3ecd293341cb5eb0999ae9e0c62dc3ad38d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-62
+
+
+FileName: /usr/share/locale/bs/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-63
+FileChecksum: SHA1: 04bb006635da14af460ce967d231e34e315b85db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-63
+
+
+FileName: /usr/share/locale/ca/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-64
+FileChecksum: SHA1: 216d9f5b7e4ae273ccefe08fe836cdaa9cfa41cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-64
+
+
+FileName: /usr/share/locale/cs/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-65
+FileChecksum: SHA1: 88f201289b274e334957263072c74137ae83bd9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-65
+
+
+FileName: /usr/share/locale/cs/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-66
+FileChecksum: SHA1: 7fbd9991ca99664930b710203bba1fa1c4d89e77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-66
+
+
+FileName: /usr/share/locale/cs/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-67
+FileChecksum: SHA1: f24db4df6c813ae26533c806d79a3307d19cdcfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-67
+
+
+FileName: /usr/share/locale/da/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-68
+FileChecksum: SHA1: 3afd4ade58eb5716aa3e0a0f89e4f1204738e992
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-68
+
+
+FileName: /usr/share/locale/da/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-69
+FileChecksum: SHA1: d3ec600c5e167b7dc2d57b1a24fea51d9d9b34c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-69
+
+
+FileName: /usr/share/locale/de/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-70
+FileChecksum: SHA1: 7fe4f74e40e6b77d7316bae0c5801a8036a463cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-70
+
+
+FileName: /usr/share/locale/de/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-71
+FileChecksum: SHA1: 7bc7bd94bdcbcb621b3476f40b806c5ee424f0cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-71
+
+
+FileName: /usr/share/locale/de/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-72
+FileChecksum: SHA1: 33e09524625636524b13eb89a7d4733fac1af56f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-72
+
+
+FileName: /usr/share/locale/dz/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-73
+FileChecksum: SHA1: 99385da851aa7b0a2f11e60e48819f48101603c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-73
+
+
+FileName: /usr/share/locale/el/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-74
+FileChecksum: SHA1: 08e16a7dac316079e5a89c01da6e6dd52e620499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-74
+
+
+FileName: /usr/share/locale/el/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-75
+FileChecksum: SHA1: dcb9cd29a1ee84014126cd96184c1e37fe793f0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-75
+
+
+FileName: /usr/share/locale/eo/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-76
+FileChecksum: SHA1: 71ddbda3a9ad4459fbf10e0ab7715d945d94e2be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-76
+
+
+FileName: /usr/share/locale/eo/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-77
+FileChecksum: SHA1: beb7b185c4fd81580ed2ff3481126eb357ec35c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-77
+
+
+FileName: /usr/share/locale/es/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-78
+FileChecksum: SHA1: 0a0c647e8bc3c516ba9546a6de042f112c182fb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-78
+
+
+FileName: /usr/share/locale/es/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-79
+FileChecksum: SHA1: 3b7ad9948a6d59283d11e8582be363d5f4049f44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-79
+
+
+FileName: /usr/share/locale/es/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-80
+FileChecksum: SHA1: 3f2a2ece6142e5c215d140bb0fee826dc4bf26f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-80
+
+
+FileName: /usr/share/locale/et/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-81
+FileChecksum: SHA1: e78347665e74c941f663a35982f628f5be5b461a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-81
+
+
+FileName: /usr/share/locale/et/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-82
+FileChecksum: SHA1: 821b98a5d300883b08c0484d72e9fb9f5c3ae906
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-82
+
+
+FileName: /usr/share/locale/et/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-83
+FileChecksum: SHA1: 78302606d2eca72155ffde0d876273989f1b320d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-83
+
+
+FileName: /usr/share/locale/eu/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-84
+FileChecksum: SHA1: 0acc1c7fb33ced9185a6f23f37dab25160315d68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-84
+
+
+FileName: /usr/share/locale/eu/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-85
+FileChecksum: SHA1: 4d08963ce9d319a8485b6e89e0fd994afcf54911
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-85
+
+
+FileName: /usr/share/locale/eu/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-86
+FileChecksum: SHA1: 6ed7a48def1a97247fd29090fb8f282d8dce44fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-86
+
+
+FileName: /usr/share/locale/fi/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-87
+FileChecksum: SHA1: a090f6c8f1dae2f59b0f943bd212d445800955a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-87
+
+
+FileName: /usr/share/locale/fi/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-88
+FileChecksum: SHA1: 7c0cc5358c5d21be6d1dd606437e602d7cac7c37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-88
+
+
+FileName: /usr/share/locale/fr/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-89
+FileChecksum: SHA1: a1e14ab3d3dfc5446fd5dfd8f714c81b9999262e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-89
+
+
+FileName: /usr/share/locale/fr/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-90
+FileChecksum: SHA1: 1a71f9449c49de74d8817a48a91dd57f41c701fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-90
+
+
+FileName: /usr/share/locale/fr/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-91
+FileChecksum: SHA1: 57bacff3f47b6a9c8527958ee80763225f58e190
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-91
+
+
+FileName: /usr/share/locale/ga/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-92
+FileChecksum: SHA1: 9e2286443ec5f84001432f73df7819acfad1e83c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-92
+
+
+FileName: /usr/share/locale/gl/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-93
+FileChecksum: SHA1: b368d43569322a36ce7fb958f198ad439efe5d9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-93
+
+
+FileName: /usr/share/locale/gl/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-94
+FileChecksum: SHA1: aa29d7faf11050be4533e1abd13c28e766b4e4a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-94
+
+
+FileName: /usr/share/locale/gl/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-95
+FileChecksum: SHA1: 8168839c1bfd6f2c220f554c8f6970d97cf60a01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-95
+
+
+FileName: /usr/share/locale/gu/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-96
+FileChecksum: SHA1: 0a1f711e1f4751968e2f88a05a34d1e8ef70309a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-96
+
+
+FileName: /usr/share/locale/gu/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-97
+FileChecksum: SHA1: b22b32afb7f8e81200a5a2adb0bc3ad01a0f4a98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-97
+
+
+FileName: /usr/share/locale/he/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-98
+FileChecksum: SHA1: bd880b3cfa8f6eb9986206029bfec63ed2d0e267
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-98
+
+
+FileName: /usr/share/locale/hi/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-99
+FileChecksum: SHA1: f634c80be8ba7ce5966c81b9f05dc777b1ae0d8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-99
+
+
+FileName: /usr/share/locale/hr/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-100
+FileChecksum: SHA1: e928f5c1b84d620ec8985a031049d7dd5ca9ac52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-100
+
+
+FileName: /usr/share/locale/hu/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-101
+FileChecksum: SHA1: 82eac4e53d1425a87ef7d1dc57b5e127bdd4f880
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-101
+
+
+FileName: /usr/share/locale/hu/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-102
+FileChecksum: SHA1: 83194573ca8dca0f87a760fa43ca1ba837a2df60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-102
+
+
+FileName: /usr/share/locale/id/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-103
+FileChecksum: SHA1: 1093abeb8accf96cb7a5ed9793d94c892f7c4882
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-103
+
+
+FileName: /usr/share/locale/it/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-104
+FileChecksum: SHA1: b8a121b634f718cf48357d23b162aae24db76046
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-104
+
+
+FileName: /usr/share/locale/it/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-105
+FileChecksum: SHA1: 6c2680679137d3f2332b0a091a54745c86329793
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-105
+
+
+FileName: /usr/share/locale/ja/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-106
+FileChecksum: SHA1: 352ac44299216ff4f9373a38bbe12b8a5426dc5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-106
+
+
+FileName: /usr/share/locale/ja/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-107
+FileChecksum: SHA1: c0df1d1238f380c455a76f06ec2441488b9b4eb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-107
+
+
+FileName: /usr/share/locale/ja/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-108
+FileChecksum: SHA1: 37d3eb0e88955782e265cb517a1a3ed006d47da7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-108
+
+
+FileName: /usr/share/locale/ka/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-109
+FileChecksum: SHA1: 0bcb5174da1669fc02d6231f1b3bb2593dda35d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-109
+
+
+FileName: /usr/share/locale/kk/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-110
+FileChecksum: SHA1: 87a38a2655081698f640f9e2abae8845a020688d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-110
+
+
+FileName: /usr/share/locale/km/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-111
+FileChecksum: SHA1: bbda499e01ac5d444a78b90e6eb0d6cd7b51af79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-111
+
+
+FileName: /usr/share/locale/ko/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-112
+FileChecksum: SHA1: 54fc9d75eb8ca9302b072b0937988bde7705e36f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-112
+
+
+FileName: /usr/share/locale/ko/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-113
+FileChecksum: SHA1: 167ec1a8d80776f402471712df1aca545cd1f4dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-113
+
+
+FileName: /usr/share/locale/ku/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-114
+FileChecksum: SHA1: ed71a7c70636f582addb46c7b4f9f2c6db091ae7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-114
+
+
+FileName: /usr/share/locale/lt/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-115
+FileChecksum: SHA1: e1dd213e05ea367ad32878ec756307b23b5cadaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-115
+
+
+FileName: /usr/share/locale/lt/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-116
+FileChecksum: SHA1: 06d0139d230a63f2f14c34e7c859e00ce3623287
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-116
+
+
+FileName: /usr/share/locale/mk/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-117
+FileChecksum: SHA1: 8146d0f6f2053986c757ec75320288b785e7a542
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-117
+
+
+FileName: /usr/share/locale/ml/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-118
+FileChecksum: SHA1: 5a49bbd04a8a37a7136e61c0507d56b33c11d3ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-118
+
+
+FileName: /usr/share/locale/ml/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-119
+FileChecksum: SHA1: 72dbe7a898c49ad802065624aea1d76df825cb5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-119
+
+
+FileName: /usr/share/locale/mr/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-120
+FileChecksum: SHA1: 1a17cea57957218cd6b3d9c37009d967f21edc0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-120
+
+
+FileName: /usr/share/locale/nb/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-121
+FileChecksum: SHA1: 054ed13354322ac20d3c86d2448e0a130c1612e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-121
+
+
+FileName: /usr/share/locale/nb/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-122
+FileChecksum: SHA1: 666e208b3bdb3d0ac0f79fb8b5417f8e4879e3c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-122
+
+
+FileName: /usr/share/locale/nb/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-123
+FileChecksum: SHA1: 14d2ec54c8f118ae24b2fae96d2ffb9a452aa615
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-123
+
+
+FileName: /usr/share/locale/ne/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-124
+FileChecksum: SHA1: 13a3f3269c9fe5863365ab37b117a7ca718bb5c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-124
+
+
+FileName: /usr/share/locale/nl/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-125
+FileChecksum: SHA1: 6dda11ea014778858e602ccad24f1ef548f3d5ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-125
+
+
+FileName: /usr/share/locale/nl/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-126
+FileChecksum: SHA1: cbb883ff460cee483890c7cd06de3a76c6087fb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-126
+
+
+FileName: /usr/share/locale/nn/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-127
+FileChecksum: SHA1: 8f38e831614ec532b6a27c2d9f61fd1a53620436
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-127
+
+
+FileName: /usr/share/locale/nn/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-128
+FileChecksum: SHA1: d6c34a9e414aa09b6932a5e3e41dc87afc801b73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-128
+
+
+FileName: /usr/share/locale/pa/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-129
+FileChecksum: SHA1: 191186f190a9d84b3357c1afc652ba62425649fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-129
+
+
+FileName: /usr/share/locale/pl/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-130
+FileChecksum: SHA1: 0362dc276f474c264bbbeca474ddc420d498749d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-130
+
+
+FileName: /usr/share/locale/pl/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-131
+FileChecksum: SHA1: 3078bb0d54e4c5107b5d595144aa1ee6463adc88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-131
+
+
+FileName: /usr/share/locale/pt/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-132
+FileChecksum: SHA1: dd4d96c99dde6fcffd26aaceed55616a22c6bce5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-132
+
+
+FileName: /usr/share/locale/pt/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-133
+FileChecksum: SHA1: 717b54fedd550efd63dd90442d21373d336e59ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-133
+
+
+FileName: /usr/share/locale/pt/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-134
+FileChecksum: SHA1: ad7f9937e42d1bbb2ca8ad3eca4751f3e3498807
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-134
+
+
+FileName: /usr/share/locale/pt_BR/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-135
+FileChecksum: SHA1: 9cddac7b5d988392d657b5614a116d22c025bbf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-135
+
+
+FileName: /usr/share/locale/pt_BR/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-136
+FileChecksum: SHA1: b076e3575db4bf1d757beb30e2c9a3a046756d16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-136
+
+
+FileName: /usr/share/locale/pt_BR/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-137
+FileChecksum: SHA1: abcc15b2ef0358f7a2d5ae17623af30ac42b888a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-137
+
+
+FileName: /usr/share/locale/ro/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-138
+FileChecksum: SHA1: b4ee5b974d1e99cfe1373383abb0ce89caaffdeb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-138
+
+
+FileName: /usr/share/locale/ro/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-139
+FileChecksum: SHA1: 1971f0886595ea4ce491489fde3a017a3d0f2f73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-139
+
+
+FileName: /usr/share/locale/ro/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-140
+FileChecksum: SHA1: b100ba9825cae73f845f5ca51979aa87e5dab4d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-140
+
+
+FileName: /usr/share/locale/ru/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-141
+FileChecksum: SHA1: 7eef8335cde6ad1ea4d575101938dc9725f5c6bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-141
+
+
+FileName: /usr/share/locale/ru/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-142
+FileChecksum: SHA1: a7a96a5f4ad052ac41350f1e884976bbb4daa083
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-142
+
+
+FileName: /usr/share/locale/ru/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-143
+FileChecksum: SHA1: bab0f824e4ad948fdc5a94f7186382a49327d26e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-143
+
+
+FileName: /usr/share/locale/sk/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-144
+FileChecksum: SHA1: a52cd8f2e5b36e87e668f29d26d5f68947e7ee0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-144
+
+
+FileName: /usr/share/locale/sq/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-145
+FileChecksum: SHA1: 8f78b57574ed801b3eb729ce4c3c6bdea25610ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-145
+
+
+FileName: /usr/share/locale/sv/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-146
+FileChecksum: SHA1: e48338688d677178b2d7b9f5c8b715f1911698fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-146
+
+
+FileName: /usr/share/locale/sv/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-147
+FileChecksum: SHA1: f25a0b73f06f8dbb4c97cb727a8467deacff0755
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-147
+
+
+FileName: /usr/share/locale/sv/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-148
+FileChecksum: SHA1: a62b12762e8fe5e631ca4835aabdb45760e3f158
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-148
+
+
+FileName: /usr/share/locale/ta/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-149
+FileChecksum: SHA1: b8ca7043d56c25b32c3c18ccea16d00709dde9ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-149
+
+
+FileName: /usr/share/locale/ta/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-150
+FileChecksum: SHA1: f9222b0a9f3ee236ab8280eda3b0b1378956835d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-150
+
+
+FileName: /usr/share/locale/th/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-151
+FileChecksum: SHA1: e22be649f91c1e6a8d0e840e15b2323d88551c27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-151
+
+
+FileName: /usr/share/locale/th/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-152
+FileChecksum: SHA1: 95b376adf420d1d9ac6670dbd5fb0d3e4cfb65a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-152
+
+
+FileName: /usr/share/locale/th/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-153
+FileChecksum: SHA1: 20de24764b1c5f938b1617c85cb0bbfe198bf801
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-153
+
+
+FileName: /usr/share/locale/tl/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-154
+FileChecksum: SHA1: b7fdb9f592e60f0404af0ea21a7a85b7289ba74b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-154
+
+
+FileName: /usr/share/locale/tr/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-155
+FileChecksum: SHA1: 9281d2de1bedf9c502e5692f871e3f38252d0582
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-155
+
+
+FileName: /usr/share/locale/tr/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-156
+FileChecksum: SHA1: 114e11fe03386c447e76ea338451473f8b16bec9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-156
+
+
+FileName: /usr/share/locale/uk/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-157
+FileChecksum: SHA1: fa5df18801a4fe62ae3f0614993d23ac799c2b7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-157
+
+
+FileName: /usr/share/locale/uk/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-158
+FileChecksum: SHA1: fc6e82ae75eaa571ac11fdf588dbbd60ce0c1813
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-158
+
+
+FileName: /usr/share/locale/uk/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-159
+FileChecksum: SHA1: 583828a65e627e28752092f00675d08698ac1662
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-159
+
+
+FileName: /usr/share/locale/vi/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-160
+FileChecksum: SHA1: bc24dd6dd95e7a26812a232fd36fe2153be88c26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-160
+
+
+FileName: /usr/share/locale/vi/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-161
+FileChecksum: SHA1: c6d6ad6e6e424a1ca72c38d16ea413a5f48e521f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-161
+
+
+FileName: /usr/share/locale/vi/LC_MESSAGES/su-to-root.mo
+SPDXID: SPDXRef-menu-file-162
+FileChecksum: SHA1: f37a68c612ba8e0e6a0daa35c21ccdbe2beab4b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-162
+
+
+FileName: /usr/share/locale/wo/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-163
+FileChecksum: SHA1: d67840abfbb911eccee15e73299b943e08ad1295
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-163
+
+
+FileName: /usr/share/locale/zh_CN/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-164
+FileChecksum: SHA1: 631623c53376f9b8f4f2e77c05aa6ca1bebbb866
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-164
+
+
+FileName: /usr/share/locale/zh_CN/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-165
+FileChecksum: SHA1: ff0e558c48bb478c03742e071e3f5d018753ff01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-165
+
+
+FileName: /usr/share/locale/zh_TW/LC_MESSAGES/menu-sections.mo
+SPDXID: SPDXRef-menu-file-166
+FileChecksum: SHA1: 231911ca9d3b908379b94988b27e08b4088e6318
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-166
+
+
+FileName: /usr/share/locale/zh_TW/LC_MESSAGES/menu.mo
+SPDXID: SPDXRef-menu-file-167
+FileChecksum: SHA1: c5915c711caea8b4245b04c621bf043afefcf7e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-167
+
+
+FileName: /usr/share/man/fr/man1/su-to-root.1.gz
+SPDXID: SPDXRef-menu-file-168
+FileChecksum: SHA1: fb4557c680016b60d22e3075955f5a6df43707f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-168
+
+
+FileName: /usr/share/man/fr/man1/update-menus.1.gz
+SPDXID: SPDXRef-menu-file-169
+FileChecksum: SHA1: 750209359e1ad3e986de862891c33104971cb180
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-169
+
+
+FileName: /usr/share/man/fr/man5/menufile.5.gz
+SPDXID: SPDXRef-menu-file-170
+FileChecksum: SHA1: 0555dc5ba236e3e5160241f9a2526cabe7531749
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-170
+
+
+FileName: /usr/share/man/man1/install-menu.1.gz
+SPDXID: SPDXRef-menu-file-171
+FileChecksum: SHA1: fe544ec0f793a932c287846a04afc7468c1d933b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-171
+
+
+FileName: /usr/share/man/man1/su-to-root.1.gz
+SPDXID: SPDXRef-menu-file-172
+FileChecksum: SHA1: 1855e09f59117584c0903b1bad136faf02ce08ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-172
+
+
+FileName: /usr/share/man/man1/update-menus.1.gz
+SPDXID: SPDXRef-menu-file-173
+FileChecksum: SHA1: a700c69d23c514698e6863d140bb141a344447d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-173
+
+
+FileName: /usr/share/man/man5/menufile.5.gz
+SPDXID: SPDXRef-menu-file-174
+FileChecksum: SHA1: 3932501c640d978699a6e18a406001d42c9e0cae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-174
+
+
+FileName: /usr/share/menu/README
+SPDXID: SPDXRef-menu-file-175
+FileChecksum: SHA1: 429ffc6f727a1f98442a0151c8c7c372552fedb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-175
+
+
+FileName: /usr/sbin/install-menu
+SPDXID: SPDXRef-menu-file-176
+FileChecksum: SHA1: 0c5647c5e780c35d37684a38dc422993f59b8092
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-176
+
+
+FileName: /usr/sbin/su-to-root
+SPDXID: SPDXRef-menu-file-177
+FileChecksum: SHA1: 0d02e029fd3b3275218c2119bab4c6a1fa380805
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-menu CONTAINS SPDXRef-menu-file-177
+
+
+## Extracted License
+

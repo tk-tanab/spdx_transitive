@@ -1,0 +1,107 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-telu-extra_2.0-5-b8332b99-8056-5383-b50c-b55ec2fac616
+DocumentName: fonts-telu-extra_2.0-5
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-telu-extra
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:58:25Z
+
+
+## Package
+
+PackageName: fonts-telu-extra
+PackageVersion: 2.0-5
+SPDXID: SPDXRef-fonts-telu-extra
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 238f13045d88fc6f67976826d02096d1dc10058a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2000-2006, K. Desikachary
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net>
+</text>
+PackageComment: <text>Free fonts for Telugu script
+ This package provides free fonts for Telugu script (te) which is widely used
+ in the Indian state of Andhra Pradesh.
+ .
+ This package contains following fonts:
+ * Pothana2000
+ * Vemana2000</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-telu-extra/copyright
+SPDXID: SPDXRef-fonts-telu-extra-file-0
+FileChecksum: SHA1: 51fb086785de78ac54f0f7a84afbb1538c6a9a57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2000-2006, K. Desikachary
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net>
+</text>
+Relationship: SPDXRef-fonts-telu-extra CONTAINS SPDXRef-fonts-telu-extra-file-0
+
+
+FileName: /etc/fonts/conf.avail/65-0-fonts-telu-extra.conf
+SPDXID: SPDXRef-fonts-telu-extra-file-1
+FileChecksum: SHA1: 0811f4efc2511ce78e91eff1ff3c3fb0b2dc95cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-telu-extra CONTAINS SPDXRef-fonts-telu-extra-file-1
+
+
+FileName: /usr/share/doc/fonts-telu-extra/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-telu-extra-file-2
+FileChecksum: SHA1: f41b2ba6650ec77a59a91c4667884cacec9ad2ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-telu-extra CONTAINS SPDXRef-fonts-telu-extra-file-2
+
+
+FileName: /usr/share/fonts/truetype/fonts-telu-extra/Pothana2000.ttf
+SPDXID: SPDXRef-fonts-telu-extra-file-3
+FileChecksum: SHA1: 75adcdb1428eb380c94b7ffed4c159b2dd03bc00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-telu-extra CONTAINS SPDXRef-fonts-telu-extra-file-3
+
+
+FileName: /usr/share/fonts/truetype/fonts-telu-extra/vemana2000.ttf
+SPDXID: SPDXRef-fonts-telu-extra-file-4
+FileChecksum: SHA1: 87fb0be2ee88a4d637e9863da3f83f28e8f8d0d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-telu-extra CONTAINS SPDXRef-fonts-telu-extra-file-4
+
+
+FileName: /etc/fonts/conf.d/65-0-fonts-telu-extra.conf
+SPDXID: SPDXRef-fonts-telu-extra-file-5
+FileChecksum: SHA1: 0811f4efc2511ce78e91eff1ff3c3fb0b2dc95cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-telu-extra CONTAINS SPDXRef-fonts-telu-extra-file-5
+
+
+## Extracted License
+

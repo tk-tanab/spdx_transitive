@@ -1,0 +1,160 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-font-viewer_41.0-2-cf44ca74-7443-5361-b573-1c4def9a0167
+DocumentName: gnome-font-viewer_41.0-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-font-viewer
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:08:27Z
+
+
+## Package
+
+PackageName: gnome-font-viewer
+PackageVersion: 41.0-2
+SPDXID: SPDXRef-gnome-font-viewer
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 04dcd31369ce365047377fd5b2407512f0f3c8e1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2002-2003 James Henstridge <james@daa.com.au> 2010 Cosimo Cecchi <cosimoc@gnome.org>
+Copyright 2007 Bastien Nocera <hadess@hadess.net>
+</text>
+PackageComment: <text>font viewer for GNOME
+ This program can preview fonts and create thumbnails for fonts.</text>
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libfontconfig1
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libfreetype6
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgnome-desktop-3-19
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libhandy-1-0
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libharfbuzz0b
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-gnome-font-viewer DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpangocairo-1.0-0
+
+
+## File
+
+FileName: /usr/share/doc/gnome-font-viewer/copyright
+SPDXID: SPDXRef-gnome-font-viewer-file-0
+FileChecksum: SHA1: 286a168f917c6e39d3534bda3c6b4f669a999c37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2002-2003 James Henstridge <james@daa.com.au> 2010 Cosimo Cecchi <cosimoc@gnome.org>
+Copyright 2007 Bastien Nocera <hadess@hadess.net>
+</text>
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-0
+
+
+FileName: /usr/bin/gnome-font-viewer
+SPDXID: SPDXRef-gnome-font-viewer-file-1
+FileChecksum: SHA1: 2d3fb980f606c280ff3e59f02cf9c9392eb22115
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-1
+
+
+FileName: /usr/bin/gnome-thumbnail-font
+SPDXID: SPDXRef-gnome-font-viewer-file-2
+FileChecksum: SHA1: 35974250849122fdaf034a9eaf1e1220c8d4e647
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-2
+
+
+FileName: /usr/share/applications/org.gnome.font-viewer.desktop
+SPDXID: SPDXRef-gnome-font-viewer-file-3
+FileChecksum: SHA1: f114b63fcd84555f798df35ba7e1e77579bf99dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-3
+
+
+FileName: /usr/share/dbus-1/services/org.gnome.font-viewer.service
+SPDXID: SPDXRef-gnome-font-viewer-file-4
+FileChecksum: SHA1: a4eef2d00dedb240060dbe77f007c8381b573a62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-4
+
+
+FileName: /usr/share/doc/gnome-font-viewer/NEWS.gz
+SPDXID: SPDXRef-gnome-font-viewer-file-5
+FileChecksum: SHA1: 219b84debec7a7787fe74a9cc5c4b7b2cd2cd73d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-5
+
+
+FileName: /usr/share/doc/gnome-font-viewer/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-font-viewer-file-6
+FileChecksum: SHA1: 6b93b1fe6fde2fd3fea62f737e46e046ade23fc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-6
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.font-viewer.svg
+SPDXID: SPDXRef-gnome-font-viewer-file-7
+FileChecksum: SHA1: 2f2a1737c475ac3502bfd37084ebbfcd0086bdb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-7
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.font-viewer-symbolic.svg
+SPDXID: SPDXRef-gnome-font-viewer-file-8
+FileChecksum: SHA1: 14b21540fd8959a3447a0fb9a8271c123b39f13f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-8
+
+
+FileName: /usr/share/metainfo/org.gnome.font-viewer.appdata.xml
+SPDXID: SPDXRef-gnome-font-viewer-file-9
+FileChecksum: SHA1: d3df3dbc0d46fa997c8bdb59f4a8191542f1d189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-9
+
+
+FileName: /usr/share/thumbnailers/gnome-font-viewer.thumbnailer
+SPDXID: SPDXRef-gnome-font-viewer-file-10
+FileChecksum: SHA1: d22417ab60b47e56cac77b5abfad58ab0ba1c201
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-font-viewer CONTAINS SPDXRef-gnome-font-viewer-file-10
+
+
+## Extracted License
+

@@ -1,0 +1,116 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libsmbios-c2_2.4.3-1build1-1cd673e5-fcd3-5ecd-a76d-0a139caf0e65
+DocumentName: libsmbios-c2_2.4.3-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsmbios-c2
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:05:42Z
+
+
+## Package
+
+PackageName: libsmbios-c2
+PackageVersion: 2.4.3-1build1
+SPDXID: SPDXRef-libsmbios-c2
+PackageHomePage: https://github.com/dell/libsmbios/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: fba61c641812f887c5df631645d5019d0e6a1d68
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: OSL-2.1
+PackageLicenseInfoFromFiles: OSL-3.0
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 2001, 2002 Steve Mertz <steve@dragon-ware.com>
+Copyright (c) 2003-2004 Lawrence E. Rosen
+</text>
+PackageComment: <text>Provide access to (SM)BIOS information -- dynamic library
+ libsmbios aims towards providing access to as much BIOS information as
+ possible. It does this by providing a library of functions that can be used
+ as well as sample binaries.
+ .
+ It incorporates extensible access to SMBIOS information capabilities and
+ ability to perform unit tests across multiple systems without using physical
+ hardware. Moreover, centralized, data-driven exception handling for broken
+ BIOS tables is provided. Currently, full access to the SMBIOS table and its
+ items is implemented. Additionally, access and manipulation of Dell Indexed
+ IO Token (type 0xD4) is implemented. This token is a vendor-extention
+ SMBIOS structure which allows uniform access to manipulate the system CMOS
+ to enable, disable, or otherwise manipulate normal BIOS functions or features.</text>
+Relationship: SPDXRef-libsmbios-c2 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/libsmbios-c2/copyright
+SPDXID: SPDXRef-libsmbios-c2-file-0
+FileChecksum: SHA1: 91ae711b5bb5119d16aa4a696a0c0d28b5c23373
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: OSL-3.0
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: OSL-2.1
+FileCopyrightText: <text>Copyright (c) 2001, 2002 Steve Mertz <steve@dragon-ware.com>
+Copyright (c) 2003-2004 Lawrence E. Rosen
+</text>
+Relationship: SPDXRef-libsmbios-c2 CONTAINS SPDXRef-libsmbios-c2-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libsmbios_c.so.2.2.1
+SPDXID: SPDXRef-libsmbios-c2-file-1
+FileChecksum: SHA1: 76a1fc714ff3ef9842ff8f8205c1c4cfa5020319
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsmbios-c2 CONTAINS SPDXRef-libsmbios-c2-file-1
+
+
+FileName: /usr/share/doc/libsmbios-c2/changelog.Debian.gz
+SPDXID: SPDXRef-libsmbios-c2-file-2
+FileChecksum: SHA1: 19e57badbe521f3d1e128a73a7deeb8a91a8b31a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsmbios-c2 CONTAINS SPDXRef-libsmbios-c2-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libsmbios_c.so.2
+SPDXID: SPDXRef-libsmbios-c2-file-3
+FileChecksum: SHA1: 76a1fc714ff3ef9842ff8f8205c1c4cfa5020319
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsmbios-c2 CONTAINS SPDXRef-libsmbios-c2-file-3
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

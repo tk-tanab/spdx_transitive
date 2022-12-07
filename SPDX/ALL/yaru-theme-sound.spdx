@@ -1,0 +1,273 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/yaru-theme-sound_22.04.4-d4a76d28-605d-55cd-a8ab-04444f0047b2
+DocumentName: yaru-theme-sound_22.04.4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-yaru-theme-sound
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:24:25Z
+
+
+## Package
+
+PackageName: yaru-theme-sound
+PackageVersion: 22.04.4
+SPDXID: SPDXRef-yaru-theme-sound
+PackageHomePage: https://community.ubuntu.com/c/desktop/theme-refresh
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3df07c58e91329c0179a7246218a14f7b13d46a4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: CC-BY-SA-4.0
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: LGPL-3.0-only
+PackageLicenseInfoFromFiles: LGPL-3.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-copyleft
+PackageCopyrightText: <text>Copyright 2009-2015 Red Hat, Inc. 2009 Intel Corporation
+Copyright 2017-2018, Canonical 2009-2015, Red Hat, Inc. 2009, Intel Corporation 2015, Ruslan Izhbulatov <lrn1986@gmail.com>
+Copyright 2018, Mads Rosendahl <madsrh@gmail.com>
+Copyright 2018, Sam Hewitt <sam@snwh.org>
+</text>
+PackageComment: <text>Yaru sound theme from the Ubuntu Community
+ This is the theme, better than a burrito, that is shaped by the community
+ on the Ubuntu discourse.
+ .
+ This package contains the sound theme
+ .
+ If you want to follow development, more information here:
+ https://community.ubuntu.com/c/desktop/theme-refresh.</text>
+
+
+## File
+
+FileName: /usr/share/doc/yaru-theme-sound/copyright
+SPDXID: SPDXRef-yaru-theme-sound-file-0
+FileChecksum: SHA1: 18af6fd71d066b5caa949074bd32fdd142f8d59d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-3.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: LicenseRef-scancode-other-copyleft
+LicenseInfoInFile: CC-BY-SA-4.0
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LGPL-2.1-only
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright 2017-2018, Canonical 2009-2015, Red Hat, Inc. 2009, Intel Corporation 2015, Ruslan Izhbulatov <lrn1986@gmail.com>
+Copyright 2009-2015 Red Hat, Inc. 2009 Intel Corporation
+Copyright 2018, Sam Hewitt <sam@snwh.org>
+Copyright 2018, Sam Hewitt <sam@snwh.org>
+Copyright 2018, Mads Rosendahl <madsrh@gmail.com>
+</text>
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-0
+
+
+FileName: /usr/share/doc/yaru-theme-sound/changelog.gz
+SPDXID: SPDXRef-yaru-theme-sound-file-1
+FileChecksum: SHA1: b130c7a026700e4762e1592369f0485a8aa5792c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-1
+
+
+FileName: /usr/share/sounds/Yaru/index.theme
+SPDXID: SPDXRef-yaru-theme-sound-file-2
+FileChecksum: SHA1: f71e9d8d1c68a0ea35a9e660e8248b7a71f6b72d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-2
+
+
+FileName: /usr/share/sounds/Yaru/stereo/audio-volume-change.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-3
+FileChecksum: SHA1: 26b75c5bc9c7464a1fd1d911a527eff0ea6cfd86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-3
+
+
+FileName: /usr/share/sounds/Yaru/stereo/battery-low.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-4
+FileChecksum: SHA1: 3b5dd9b0658c86efb3202f71a6f822c6be6dccb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-4
+
+
+FileName: /usr/share/sounds/Yaru/stereo/bell.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-5
+FileChecksum: SHA1: 511dc75851751ce568663ba093bd9f35be0adb37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-5
+
+
+FileName: /usr/share/sounds/Yaru/stereo/complete.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-6
+FileChecksum: SHA1: ca8a74fb258eb31708891ee84838607926e14081
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-6
+
+
+FileName: /usr/share/sounds/Yaru/stereo/desktop-login.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-7
+FileChecksum: SHA1: 54081e117444da42a49554e4444d2a994049daf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-7
+
+
+FileName: /usr/share/sounds/Yaru/stereo/desktop-logoff.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-8
+FileChecksum: SHA1: eef054d5e933013acf85d480f48d78f4549dc5b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-8
+
+
+FileName: /usr/share/sounds/Yaru/stereo/device-added.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-9
+FileChecksum: SHA1: 9fcf48cdda6ba34435d094cfa3026183eff48a49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-9
+
+
+FileName: /usr/share/sounds/Yaru/stereo/device-removed.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-10
+FileChecksum: SHA1: d9b1ccaef32801df5c65588518ed9d224fcfb3c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-10
+
+
+FileName: /usr/share/sounds/Yaru/stereo/dialog-error.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-11
+FileChecksum: SHA1: 3c156cfbaed09cef57999155145aeeda5750b36a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-11
+
+
+FileName: /usr/share/sounds/Yaru/stereo/dialog-question.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-12
+FileChecksum: SHA1: c5f2dc5dff65fba185c8f8639ba3c8944e4e698c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-12
+
+
+FileName: /usr/share/sounds/Yaru/stereo/dialog-warning.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-13
+FileChecksum: SHA1: a53524cc948177e4ddff0f552c074b6cc8a161cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-13
+
+
+FileName: /usr/share/sounds/Yaru/stereo/message-new-email.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-14
+FileChecksum: SHA1: fbc4f8bef400d28f0c492517a5510849e90f9092
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-14
+
+
+FileName: /usr/share/sounds/Yaru/stereo/message-new-instant.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-15
+FileChecksum: SHA1: 168668bc58fc02e44489bd178254a6bc55c6b5f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-15
+
+
+FileName: /usr/share/sounds/Yaru/stereo/message.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-16
+FileChecksum: SHA1: fbc4f8bef400d28f0c492517a5510849e90f9092
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-16
+
+
+FileName: /usr/share/sounds/Yaru/stereo/power-plug.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-17
+FileChecksum: SHA1: 9fcf48cdda6ba34435d094cfa3026183eff48a49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-17
+
+
+FileName: /usr/share/sounds/Yaru/stereo/power-unplug.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-18
+FileChecksum: SHA1: d9b1ccaef32801df5c65588518ed9d224fcfb3c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-18
+
+
+FileName: /usr/share/sounds/Yaru/stereo/system-ready.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-19
+FileChecksum: SHA1: 54081e117444da42a49554e4444d2a994049daf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-19
+
+
+FileName: /usr/share/sounds/Yaru/stereo/trash-empty.oga
+SPDXID: SPDXRef-yaru-theme-sound-file-20
+FileChecksum: SHA1: 5a68bae4886bdd83ad5352e4ae1a376ef8acc1e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-sound CONTAINS SPDXRef-yaru-theme-sound-file-20
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-other-copyleft
+LicenseName: Other Copyleft Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+
+

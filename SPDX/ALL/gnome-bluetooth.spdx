@@ -1,0 +1,327 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-bluetooth_3.34.5-8-30d1abe8-82e5-5413-8a95-e89a3530f5ec
+DocumentName: gnome-bluetooth_3.34.5-8
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-bluetooth
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:07:36Z
+
+
+## Package
+
+PackageName: gnome-bluetooth
+PackageVersion: 3.34.5-8
+SPDXID: SPDXRef-gnome-bluetooth
+PackageHomePage: https://wiki.gnome.org/Projects/GnomeBluetooth
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 344cf60bc852110d1bb3ab0cb8316b6bd52f41e2
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2005-2008 Marcel Holtmann <marcel@holtmann.org> 2009 Bastien Nocera <hadess@hadess.net>
+Copyright 2005-2008 Marcel Holtmann <marcel@holtmann.org> 2013 Intel Corporation
+Copyright 2006-2013 Bastien Nocera <hadess@hadess.net> 2010 Giovanni Campagna <scampa.giovanni@gmail.com> 2005-2008 Marcel Holtmann <marcel@holtmann.org> 2013 Intel Corporation
+Copyright 2009 Bastien Nocera <hadess@hadess.net>
+</text>
+PackageComment: <text>GNOME Bluetooth Send To app
+ The GNOME Bluetooth Send To app is an easy way to send files
+ to a Bluetooth device.</text>
+Relationship: SPDXRef-gnome-bluetooth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bluez
+Relationship: SPDXRef-gnome-bluetooth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bluez-obexd
+Relationship: SPDXRef-gnome-bluetooth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-udev
+Relationship: SPDXRef-gnome-bluetooth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-bluetooth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-bluetooth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgnome-bluetooth13
+Relationship: SPDXRef-gnome-bluetooth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-gnome-bluetooth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-control-center
+Relationship: SPDXRef-gnome-bluetooth DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gvfs-backends
+
+
+## File
+
+FileName: /usr/share/doc/gnome-bluetooth/copyright
+SPDXID: SPDXRef-gnome-bluetooth-file-0
+FileChecksum: SHA1: 36c848744d00f82e1ecbf3de7bb765d45baf8f84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2006-2013 Bastien Nocera <hadess@hadess.net> 2010 Giovanni Campagna <scampa.giovanni@gmail.com> 2005-2008 Marcel Holtmann <marcel@holtmann.org> 2013 Intel Corporation
+Copyright 2005-2008 Marcel Holtmann <marcel@holtmann.org> 2013 Intel Corporation
+Copyright 2005-2008 Marcel Holtmann <marcel@holtmann.org> 2009 Bastien Nocera <hadess@hadess.net>
+Copyright 2009 Bastien Nocera <hadess@hadess.net>
+</text>
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-0
+
+
+FileName: /usr/bin/bluetooth-sendto
+SPDXID: SPDXRef-gnome-bluetooth-file-1
+FileChecksum: SHA1: 7ab607f300f72439f24eb0d785a8664da43988be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-1
+
+
+FileName: /usr/share/applications/bluetooth-sendto.desktop
+SPDXID: SPDXRef-gnome-bluetooth-file-2
+FileChecksum: SHA1: f3a74ed69829d4d047ca4286e253d6d46d4f780e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-2
+
+
+FileName: /usr/share/doc/gnome-bluetooth/AUTHORS
+SPDXID: SPDXRef-gnome-bluetooth-file-3
+FileChecksum: SHA1: aa3e1b677558570a4f7f39bb4f27c7f1eb0030e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-3
+
+
+FileName: /usr/share/doc/gnome-bluetooth/NEWS.gz
+SPDXID: SPDXRef-gnome-bluetooth-file-4
+FileChecksum: SHA1: 05064d2317afb2ef62af873fedeb4e348a9bf931
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-4
+
+
+FileName: /usr/share/doc/gnome-bluetooth/README.md
+SPDXID: SPDXRef-gnome-bluetooth-file-5
+FileChecksum: SHA1: a8b3cc40796e277e32f074e315a099289f857bf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-5
+
+
+FileName: /usr/share/icons/hicolor/16x16/apps/bluetooth.png
+SPDXID: SPDXRef-gnome-bluetooth-file-6
+FileChecksum: SHA1: bc038e1c8a3c3c5a0bcf7dfee4ba7388cdc8d1b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-6
+
+
+FileName: /usr/share/icons/hicolor/16x16/status/bluetooth-active.png
+SPDXID: SPDXRef-gnome-bluetooth-file-7
+FileChecksum: SHA1: c034ddd74eba5d6961b2fedd44a9ade05e2f0c74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-7
+
+
+FileName: /usr/share/icons/hicolor/16x16/status/bluetooth-disabled.png
+SPDXID: SPDXRef-gnome-bluetooth-file-8
+FileChecksum: SHA1: 4f4e691603b3a40d57cd74052589ffea550692e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-8
+
+
+FileName: /usr/share/icons/hicolor/16x16/status/bluetooth-paired.png
+SPDXID: SPDXRef-gnome-bluetooth-file-9
+FileChecksum: SHA1: d238d8928e5711dcfcfa0b72fb40c82760effe22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-9
+
+
+FileName: /usr/share/icons/hicolor/22x22/apps/bluetooth.png
+SPDXID: SPDXRef-gnome-bluetooth-file-10
+FileChecksum: SHA1: 2d094bb5e2c2e2118b9cf4787a772a0544a28a72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-10
+
+
+FileName: /usr/share/icons/hicolor/22x22/status/bluetooth-active.png
+SPDXID: SPDXRef-gnome-bluetooth-file-11
+FileChecksum: SHA1: 5a1fe1f5dda8dedc26837b53ffb816fd5b0f63e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-11
+
+
+FileName: /usr/share/icons/hicolor/22x22/status/bluetooth-disabled.png
+SPDXID: SPDXRef-gnome-bluetooth-file-12
+FileChecksum: SHA1: d7a38b68238d5adbd9a7edee143c9899d831ea3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-12
+
+
+FileName: /usr/share/icons/hicolor/22x22/status/bluetooth-paired.png
+SPDXID: SPDXRef-gnome-bluetooth-file-13
+FileChecksum: SHA1: c18a6e894bf3af3dbb1d530933125780a238726e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-13
+
+
+FileName: /usr/share/icons/hicolor/24x24/apps/bluetooth.png
+SPDXID: SPDXRef-gnome-bluetooth-file-14
+FileChecksum: SHA1: 0f63e2fe9db52b42757cee600a9f1b52452b6398
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-14
+
+
+FileName: /usr/share/icons/hicolor/24x24/status/bluetooth-active.png
+SPDXID: SPDXRef-gnome-bluetooth-file-15
+FileChecksum: SHA1: 5a1fe1f5dda8dedc26837b53ffb816fd5b0f63e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-15
+
+
+FileName: /usr/share/icons/hicolor/24x24/status/bluetooth-disabled.png
+SPDXID: SPDXRef-gnome-bluetooth-file-16
+FileChecksum: SHA1: 5baa11a044da90db4855239644043ea03d6b31d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-16
+
+
+FileName: /usr/share/icons/hicolor/24x24/status/bluetooth-paired.png
+SPDXID: SPDXRef-gnome-bluetooth-file-17
+FileChecksum: SHA1: c2cb9f310c9eafc366de47f19505a1cdf796082c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-17
+
+
+FileName: /usr/share/icons/hicolor/32x32/apps/bluetooth.png
+SPDXID: SPDXRef-gnome-bluetooth-file-18
+FileChecksum: SHA1: ac8b7fd6bc186ceaa6437361e77fc33d4be0dfbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-18
+
+
+FileName: /usr/share/icons/hicolor/32x32/status/bluetooth-active.png
+SPDXID: SPDXRef-gnome-bluetooth-file-19
+FileChecksum: SHA1: ad0003a27e094c09b4c41c7109662e5f65beaf80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-19
+
+
+FileName: /usr/share/icons/hicolor/32x32/status/bluetooth-disabled.png
+SPDXID: SPDXRef-gnome-bluetooth-file-20
+FileChecksum: SHA1: c918276e57e8c628f5b756a8d17fe31955facedf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-20
+
+
+FileName: /usr/share/icons/hicolor/32x32/status/bluetooth-paired.png
+SPDXID: SPDXRef-gnome-bluetooth-file-21
+FileChecksum: SHA1: 12d2375951f0b764e1352742a33d298e486e8202
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-21
+
+
+FileName: /usr/share/icons/hicolor/48x48/apps/bluetooth.png
+SPDXID: SPDXRef-gnome-bluetooth-file-22
+FileChecksum: SHA1: 97e91635a0b42c7f5257c362dfb4fd93fd5cacdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-22
+
+
+FileName: /usr/share/icons/hicolor/48x48/status/bluetooth-active.png
+SPDXID: SPDXRef-gnome-bluetooth-file-23
+FileChecksum: SHA1: 555030f84d4f37cfcf6bb0943b7d323898331137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-23
+
+
+FileName: /usr/share/icons/hicolor/48x48/status/bluetooth-disabled.png
+SPDXID: SPDXRef-gnome-bluetooth-file-24
+FileChecksum: SHA1: fde2922d9e29f9d69a113ba3ea2c7455718c4e4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-24
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/bluetooth.svg
+SPDXID: SPDXRef-gnome-bluetooth-file-25
+FileChecksum: SHA1: dc21bad83c80d5486f0657bae52158f26ce30d37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-25
+
+
+FileName: /usr/share/icons/hicolor/scalable/status/bluetooth-paired.svg
+SPDXID: SPDXRef-gnome-bluetooth-file-26
+FileChecksum: SHA1: 6b174280ebf0a0bf702d4dd834261f2f0613db7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-26
+
+
+FileName: /usr/share/man/man1/bluetooth-sendto.1.gz
+SPDXID: SPDXRef-gnome-bluetooth-file-27
+FileChecksum: SHA1: b90eacf027ae4ac92668094bdf15bb103b69593d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-27
+
+
+FileName: /usr/share/doc/gnome-bluetooth/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-bluetooth-file-28
+FileChecksum: SHA1: f5544d4246e170cb0d7617d193d090e48622f07c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-bluetooth CONTAINS SPDXRef-gnome-bluetooth-file-28
+
+
+## Extracted License
+

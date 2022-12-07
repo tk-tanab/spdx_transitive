@@ -1,0 +1,694 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/nano_6.2-1-18e53bfc-558c-5d03-b190-1ede610c2c28
+DocumentName: nano_6.2-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-nano
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:03:39Z
+
+
+## Package
+
+PackageName: nano
+PackageVersion: 6.2-1
+SPDXID: SPDXRef-nano
+PackageHomePage: https://www.nano-editor.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 253193ce90e69fea48239d9aee21ee2b35b61d21
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GFDL-1.1-or-later
+PackageLicenseInfoFromFiles: GFDL-1.2-only
+PackageLicenseInfoFromFiles: GFDL-1.2-or-later
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>(c) 2014-2016 The contributors
+Copyright (c) 1999-2011, 2013-2016 Free Software Foundation, Inc.
+Copyright Jordi Mallach <jordi@debian.org>
+</text>
+PackageComment: <text>small, friendly text editor inspired by Pico
+ GNU nano is an easy-to-use text editor originally designed as a replacement
+ for Pico, the ncurses-based editor from the non-free mailer package Pine
+ (itself now available under the Apache License as Alpine).
+ .
+ However, GNU nano also implements many features missing in Pico, including:
+  - undo/redo
+  - line numbering
+  - syntax coloring
+  - soft-wrapping of overlong lines
+  - selecting text by holding Shift
+  - interactive search and replace (with regular expression support)
+  - a go-to line (and column) command
+  - support for multiple file buffers
+  - auto-indentation
+  - tab completion of filenames and search terms
+  - toggling features while running
+  - and full internationalization support</text>
+Relationship: SPDXRef-nano DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-nano DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libncursesw6
+Relationship: SPDXRef-nano DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtinfo6
+
+
+## File
+
+FileName: /usr/share/doc/nano/copyright
+SPDXID: SPDXRef-nano-file-0
+FileChecksum: SHA1: 9be49113712ab41e66d9ceb5a2bcefbed3790af6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.2-only
+LicenseInfoInFile: GFDL-1.1-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GFDL-1.2-or-later
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright (c) 1999-2011, 2013-2016 Free Software Foundation, Inc.
+(c) 2014-2016 The contributors
+Copyright (c) 1999-2011, 2013-2016 Free Software Foundation, Inc.
+Copyright Jordi Mallach <jordi@debian.org>
+</text>
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-0
+
+
+FileName: /bin/nano
+SPDXID: SPDXRef-nano-file-1
+FileChecksum: SHA1: 1c464b9d650882dea0576dc2d4fb9934a27a5fa8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-1
+
+
+FileName: /etc/nanorc
+SPDXID: SPDXRef-nano-file-2
+FileChecksum: SHA1: 10c8a689ad57c7d052d3e174ce7fedac5dce0cd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-2
+
+
+FileName: /usr/share/doc/nano/AUTHORS
+SPDXID: SPDXRef-nano-file-3
+FileChecksum: SHA1: 338e9138bb14c1e757fe05e7aca0eefd51abe696
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-3
+
+
+FileName: /usr/share/doc/nano/IMPROVEMENTS.gz
+SPDXID: SPDXRef-nano-file-4
+FileChecksum: SHA1: f4562c229857a85747b19f2d2a261d540dc0318e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-4
+
+
+FileName: /usr/share/doc/nano/NEWS.gz
+SPDXID: SPDXRef-nano-file-5
+FileChecksum: SHA1: a70d9eef7db5f7ba08aad839625870aa3db0cb64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-5
+
+
+FileName: /usr/share/doc/nano/README.gz
+SPDXID: SPDXRef-nano-file-6
+FileChecksum: SHA1: 1dc808d4edacbb6f37964f693f9fa1567164e740
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-6
+
+
+FileName: /usr/share/doc/nano/THANKS.gz
+SPDXID: SPDXRef-nano-file-7
+FileChecksum: SHA1: eed54ebf8f75a6fdd8416ba46d3958ce56fbbb85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-7
+
+
+FileName: /usr/share/doc/nano/TODO
+SPDXID: SPDXRef-nano-file-8
+FileChecksum: SHA1: d49747b31454df92c52bf656c17a8a78c720f828
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-8
+
+
+FileName: /usr/share/doc/nano/changelog.Debian.gz
+SPDXID: SPDXRef-nano-file-9
+FileChecksum: SHA1: 73e75cc87413f5a62015c3fec668b316ff4646aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-9
+
+
+FileName: /usr/share/doc/nano/examples/sample.nanorc
+SPDXID: SPDXRef-nano-file-10
+FileChecksum: SHA1: a568fd27301ca01a50b26ad88fa2526b4a898747
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-10
+
+
+FileName: /usr/share/doc/nano/faq.html
+SPDXID: SPDXRef-nano-file-11
+FileChecksum: SHA1: 4de5dbd605ce818e634b6b0305ea0de91d26b283
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-11
+
+
+FileName: /usr/share/doc/nano/nano.html
+SPDXID: SPDXRef-nano-file-12
+FileChecksum: SHA1: 2e2b76f8b8118b9381ecfce27cd2da3d92d5c206
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-12
+
+
+FileName: /usr/share/doc-base/nano.nano
+SPDXID: SPDXRef-nano-file-13
+FileChecksum: SHA1: 8e55a9f6f77be745b070314272fedee970c16d77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-13
+
+
+FileName: /usr/share/doc-base/nano.nano-faq
+SPDXID: SPDXRef-nano-file-14
+FileChecksum: SHA1: ef72dd96c2d73fc6e03c61baade772ef099d370b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-14
+
+
+FileName: /usr/share/info/nano.info.gz
+SPDXID: SPDXRef-nano-file-15
+FileChecksum: SHA1: 683537395d306c0c10eb8efcfd8c98bfc302e1c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-15
+
+
+FileName: /usr/share/man/man1/nano.1.gz
+SPDXID: SPDXRef-nano-file-16
+FileChecksum: SHA1: f6fe8b6682a4a56e05d02331653e7ae75a620bf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-16
+
+
+FileName: /usr/share/man/man1/rnano.1.gz
+SPDXID: SPDXRef-nano-file-17
+FileChecksum: SHA1: 30f17e0b51150525a026792f9c105c77a5e2c894
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-17
+
+
+FileName: /usr/share/man/man5/nanorc.5.gz
+SPDXID: SPDXRef-nano-file-18
+FileChecksum: SHA1: 8f5d76ed5f2e8e8cd1a98bd9fa785116384c2c5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-18
+
+
+FileName: /usr/share/nano/asm.nanorc
+SPDXID: SPDXRef-nano-file-19
+FileChecksum: SHA1: e27c5d84fc7c4cb8bf47d3ca4caf5cb84bc1070e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-19
+
+
+FileName: /usr/share/nano/autoconf.nanorc
+SPDXID: SPDXRef-nano-file-20
+FileChecksum: SHA1: 52176ca6bd48d6661339d7591eb664d31e0ee5a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-20
+
+
+FileName: /usr/share/nano/awk.nanorc
+SPDXID: SPDXRef-nano-file-21
+FileChecksum: SHA1: cd514955ab35f577333af6a7af51fc535687ee91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-21
+
+
+FileName: /usr/share/nano/c.nanorc
+SPDXID: SPDXRef-nano-file-22
+FileChecksum: SHA1: 1435a077f213a010023b61c0dc1124daf2359655
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-22
+
+
+FileName: /usr/share/nano/changelog.nanorc
+SPDXID: SPDXRef-nano-file-23
+FileChecksum: SHA1: 3bb393a8210ef5950c552b6665ca172f6a2c7b4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-23
+
+
+FileName: /usr/share/nano/cmake.nanorc
+SPDXID: SPDXRef-nano-file-24
+FileChecksum: SHA1: ee383425b0fe2312266eb64325a52621ad339788
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-24
+
+
+FileName: /usr/share/nano/css.nanorc
+SPDXID: SPDXRef-nano-file-25
+FileChecksum: SHA1: 43fe738d6f61abc2204bf0fb6b858e15eaa5cffb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-25
+
+
+FileName: /usr/share/nano/debian/debian.nanorc
+SPDXID: SPDXRef-nano-file-26
+FileChecksum: SHA1: 0e31c85d5c1045de8564a902aaecabcdc41f1edc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-26
+
+
+FileName: /usr/share/nano/default.nanorc
+SPDXID: SPDXRef-nano-file-27
+FileChecksum: SHA1: 12967bf25b77ff717d622b169bda8a04268084ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-27
+
+
+FileName: /usr/share/nano/elisp.nanorc
+SPDXID: SPDXRef-nano-file-28
+FileChecksum: SHA1: 58d833ed1f5abe7cdc3f80652786286c4425e0c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-28
+
+
+FileName: /usr/share/nano/email.nanorc
+SPDXID: SPDXRef-nano-file-29
+FileChecksum: SHA1: b73553f209e364d22ef77b450458644438582af0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-29
+
+
+FileName: /usr/share/nano/extra/ada.nanorc
+SPDXID: SPDXRef-nano-file-30
+FileChecksum: SHA1: 75df76c7c9ce7eccef50b774e340c6741647d87b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-30
+
+
+FileName: /usr/share/nano/extra/fortran.nanorc
+SPDXID: SPDXRef-nano-file-31
+FileChecksum: SHA1: ecb0bd94480604f4195eeae1a2cc32799a431d03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-31
+
+
+FileName: /usr/share/nano/extra/haskell.nanorc
+SPDXID: SPDXRef-nano-file-32
+FileChecksum: SHA1: b0cbbe2dc6bcaef3abd55f40f6b851876f68a3c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-32
+
+
+FileName: /usr/share/nano/extra/povray.nanorc
+SPDXID: SPDXRef-nano-file-33
+FileChecksum: SHA1: d9e324614d1ff5787dc5b6f8f72371deb8441189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-33
+
+
+FileName: /usr/share/nano/extra/spec.nanorc
+SPDXID: SPDXRef-nano-file-34
+FileChecksum: SHA1: 7abd058af4f7d05c5fa9ecc9866a60dddf354f27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-34
+
+
+FileName: /usr/share/nano/go.nanorc
+SPDXID: SPDXRef-nano-file-35
+FileChecksum: SHA1: 303d12b77aa3cafd29c6d006758224dff22effa8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-35
+
+
+FileName: /usr/share/nano/groff.nanorc
+SPDXID: SPDXRef-nano-file-36
+FileChecksum: SHA1: 0b4061b07b45ef6a16e8d0558e8c05ec6d3d1146
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-36
+
+
+FileName: /usr/share/nano/guile.nanorc
+SPDXID: SPDXRef-nano-file-37
+FileChecksum: SHA1: 80afaa9115d090f0ee92821df8c9b00dd6fceb57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-37
+
+
+FileName: /usr/share/nano/html.nanorc
+SPDXID: SPDXRef-nano-file-38
+FileChecksum: SHA1: 862793b93fc425490201f99947674a9653a569ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-38
+
+
+FileName: /usr/share/nano/java.nanorc
+SPDXID: SPDXRef-nano-file-39
+FileChecksum: SHA1: 580f713ff24d265887671296c98788bccc4f0b33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-39
+
+
+FileName: /usr/share/nano/javascript.nanorc
+SPDXID: SPDXRef-nano-file-40
+FileChecksum: SHA1: ec882d72a6fb4daf38a384835e336b70d1602e95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-40
+
+
+FileName: /usr/share/nano/json.nanorc
+SPDXID: SPDXRef-nano-file-41
+FileChecksum: SHA1: a85895b05e4106dc84e9cfc8f1625beafa84bfb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-41
+
+
+FileName: /usr/share/nano/lua.nanorc
+SPDXID: SPDXRef-nano-file-42
+FileChecksum: SHA1: cb414020c30a5813f135c1a92b3e9c96a3442a66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-42
+
+
+FileName: /usr/share/nano/makefile.nanorc
+SPDXID: SPDXRef-nano-file-43
+FileChecksum: SHA1: 2dc930aae9293d7ede285d5126e3c8f3772e403f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-43
+
+
+FileName: /usr/share/nano/man.nanorc
+SPDXID: SPDXRef-nano-file-44
+FileChecksum: SHA1: 1f4d7306d845befa8dc4590ee8d92b8de87de129
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-44
+
+
+FileName: /usr/share/nano/markdown.nanorc
+SPDXID: SPDXRef-nano-file-45
+FileChecksum: SHA1: cbdb162ad8ed747571f38a6ac241022a8dbfb192
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-45
+
+
+FileName: /usr/share/nano/nanohelp.nanorc
+SPDXID: SPDXRef-nano-file-46
+FileChecksum: SHA1: 9e0f05f2e8fafc18c086f2762d63de4867600397
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-46
+
+
+FileName: /usr/share/nano/nanorc.nanorc
+SPDXID: SPDXRef-nano-file-47
+FileChecksum: SHA1: 84631b58a7f3cbddfdf8880a4d2bf0c4b92e2267
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-47
+
+
+FileName: /usr/share/nano/nftables.nanorc
+SPDXID: SPDXRef-nano-file-48
+FileChecksum: SHA1: 414d4e8375e048375cc3c4ff63e429690cc9344a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-48
+
+
+FileName: /usr/share/nano/objc.nanorc
+SPDXID: SPDXRef-nano-file-49
+FileChecksum: SHA1: e9c34d2ae810abba2b8425907016dba2c0eb604c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-49
+
+
+FileName: /usr/share/nano/ocaml.nanorc
+SPDXID: SPDXRef-nano-file-50
+FileChecksum: SHA1: 599acef9efbbaef9c8f47f675c6b3819af08e484
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-50
+
+
+FileName: /usr/share/nano/patch.nanorc
+SPDXID: SPDXRef-nano-file-51
+FileChecksum: SHA1: 6017c3ec715c6d20454b843a7cab148f5e1308e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-51
+
+
+FileName: /usr/share/nano/perl.nanorc
+SPDXID: SPDXRef-nano-file-52
+FileChecksum: SHA1: b2b8d633278c52cfe6f693172abc36092200031f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-52
+
+
+FileName: /usr/share/nano/php.nanorc
+SPDXID: SPDXRef-nano-file-53
+FileChecksum: SHA1: 40fd6da8918c2737de89e9901b769b84db08d70a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-53
+
+
+FileName: /usr/share/nano/po.nanorc
+SPDXID: SPDXRef-nano-file-54
+FileChecksum: SHA1: 4c495a90e1d4e3c5dec990fcc95141d2ce0d2d04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-54
+
+
+FileName: /usr/share/nano/python.nanorc
+SPDXID: SPDXRef-nano-file-55
+FileChecksum: SHA1: fcd10a1643ccca118b8b68d366133e0f61047e2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-55
+
+
+FileName: /usr/share/nano/ruby.nanorc
+SPDXID: SPDXRef-nano-file-56
+FileChecksum: SHA1: 7713c5248c05e0ff9c3dcf633aadb96045bd5f00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-56
+
+
+FileName: /usr/share/nano/rust.nanorc
+SPDXID: SPDXRef-nano-file-57
+FileChecksum: SHA1: a3c6b41aa8bc669144a49420e8f085b7905c3387
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-57
+
+
+FileName: /usr/share/nano/sh.nanorc
+SPDXID: SPDXRef-nano-file-58
+FileChecksum: SHA1: a9c2b96a9deecf74005fed771d259fd96df3051c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-58
+
+
+FileName: /usr/share/nano/sql.nanorc
+SPDXID: SPDXRef-nano-file-59
+FileChecksum: SHA1: a7c0d62b5962c9c9c384ce0cd2032d78ebbcc640
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-59
+
+
+FileName: /usr/share/nano/tcl.nanorc
+SPDXID: SPDXRef-nano-file-60
+FileChecksum: SHA1: 4930182dc942294c04489b89851af7cf29c22386
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-60
+
+
+FileName: /usr/share/nano/tex.nanorc
+SPDXID: SPDXRef-nano-file-61
+FileChecksum: SHA1: e474d26dca33069815176ce7ac37fa847bacf29c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-61
+
+
+FileName: /usr/share/nano/texinfo.nanorc
+SPDXID: SPDXRef-nano-file-62
+FileChecksum: SHA1: 78c116d88a82809780f158f8c104177dedc44d5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-62
+
+
+FileName: /usr/share/nano/xml.nanorc
+SPDXID: SPDXRef-nano-file-63
+FileChecksum: SHA1: a7d28d41ee026b2e1495c87d4a5d348ed1200268
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-63
+
+
+FileName: /usr/share/nano/yaml.nanorc
+SPDXID: SPDXRef-nano-file-64
+FileChecksum: SHA1: 6079e0c31df56c6a0336165a98ba9a9b7d45baa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-64
+
+
+FileName: /bin/rnano
+SPDXID: SPDXRef-nano-file-65
+FileChecksum: SHA1: 1c464b9d650882dea0576dc2d4fb9934a27a5fa8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-65
+
+
+FileName: /usr/share/nano/debian.nanorc
+SPDXID: SPDXRef-nano-file-66
+FileChecksum: SHA1: 0e31c85d5c1045de8564a902aaecabcdc41f1edc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-66
+
+
+FileName: /usr/share/nano/haskell.nanorc
+SPDXID: SPDXRef-nano-file-67
+FileChecksum: SHA1: b0cbbe2dc6bcaef3abd55f40f6b851876f68a3c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-nano CONTAINS SPDXRef-nano-file-67
+
+
+## Extracted License
+

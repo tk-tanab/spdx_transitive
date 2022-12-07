@@ -1,0 +1,232 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/usrmerge_25ubuntu2-1fbb4bfb-531f-5138-82c0-271f365e441b
+DocumentName: usrmerge_25ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-usrmerge
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:08:32Z
+
+
+## Package
+
+PackageName: usrmerge
+PackageVersion: 25ubuntu2
+SPDXID: SPDXRef-usrmerge
+PackageHomePage: https://wiki.debian.org/UsrMerge
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d2f5d87dc09ca168a6d6330ac333a72c20498340
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: OpenJDK-assembly-exception-1.0
+PackageLicenseInfoFromFiles: LicenseRef-scancode-oracle-openjdk-exception-2.0
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-copyleft
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-permissive
+PackageCopyrightText: <text>Copyright 2014 Marco d'Itri <md@linux.it>
+</text>
+PackageComment: <text>Convert the system to the merged /usr directories scheme
+ This package will automatically convert the system to the merged
+ /usr directory scheme, in which the /{bin,sbin,lib}/ directories are
+ symlinked to their counterparts in /usr/.
+ .
+ There is no automatic method to restore the precedent configuration, so
+ there is no going back once this package has been installed.</text>
+Relationship: SPDXRef-usrmerge DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-perl-base
+
+
+## File
+
+FileName: /usr/share/doc/usrmerge/copyright
+SPDXID: SPDXRef-usrmerge-file-0
+FileChecksum: SHA1: 88b255d175a6d82ec246a982c6fb7f7fbff8862d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OpenJDK-assembly-exception-1.0
+LicenseInfoInFile: LicenseRef-scancode-oracle-openjdk-exception-2.0
+LicenseInfoInFile: LicenseRef-scancode-other-permissive
+LicenseInfoInFile: LicenseRef-scancode-other-copyleft
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2014 Marco d'Itri <md@linux.it>
+</text>
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-0
+
+
+FileName: /usr/lib/usrmerge/convert-etc-shells
+SPDXID: SPDXRef-usrmerge-file-1
+FileChecksum: SHA1: fd4a5020dfde34ba61edb4802a19d985b8c906b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-1
+
+
+FileName: /usr/lib/usrmerge/convert-usrmerge
+SPDXID: SPDXRef-usrmerge-file-2
+FileChecksum: SHA1: ddc18b09fdc448c2d8aa2c94669501500482388e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-2
+
+
+FileName: /usr/lib/usrmerge/lib/Fatal.pm
+SPDXID: SPDXRef-usrmerge-file-3
+FileChecksum: SHA1: 129551d889c98abc8d23112a862aecec5e7f2659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-3
+
+
+FileName: /usr/lib/usrmerge/lib/File/Find/Rule.pm
+SPDXID: SPDXRef-usrmerge-file-4
+FileChecksum: SHA1: c3c16bdcb28f0ab3a42623e996a31ca7959e64ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-4
+
+
+FileName: /usr/lib/usrmerge/lib/File/Find.pm
+SPDXID: SPDXRef-usrmerge-file-5
+FileChecksum: SHA1: f19267b851078ee029d88967127bd7cb349f90a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-5
+
+
+FileName: /usr/lib/usrmerge/lib/Number/Compare.pm
+SPDXID: SPDXRef-usrmerge-file-6
+FileChecksum: SHA1: 33c5ee70085ac539f9b196ccfd47af5bcab248dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-6
+
+
+FileName: /usr/lib/usrmerge/lib/Text/Glob.pm
+SPDXID: SPDXRef-usrmerge-file-7
+FileChecksum: SHA1: 11f6d80273cd82e7ad22610bd978a076b5ca3b2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-7
+
+
+FileName: /usr/lib/usrmerge/lib/Tie/RefHash.pm
+SPDXID: SPDXRef-usrmerge-file-8
+FileChecksum: SHA1: 7c5eabc1820562086dfca93a2b0e593fab8dc02c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-8
+
+
+FileName: /usr/lib/usrmerge/lib/autodie/Scope/Guard.pm
+SPDXID: SPDXRef-usrmerge-file-9
+FileChecksum: SHA1: 2daac5a179bbdcd9dbab53b69e9ee167514c3333
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-9
+
+
+FileName: /usr/lib/usrmerge/lib/autodie/Scope/GuardStack.pm
+SPDXID: SPDXRef-usrmerge-file-10
+FileChecksum: SHA1: de6221a5963ef58712947f1d37ef5e05a8acc690
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-10
+
+
+FileName: /usr/lib/usrmerge/lib/autodie/Util.pm
+SPDXID: SPDXRef-usrmerge-file-11
+FileChecksum: SHA1: 17d448cf824c7e9447ea3fc8f6ef659c3a23693e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-11
+
+
+FileName: /usr/lib/usrmerge/lib/autodie.pm
+SPDXID: SPDXRef-usrmerge-file-12
+FileChecksum: SHA1: 287adfb72410a67c33eeddff9b00e028564e19f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-12
+
+
+FileName: /usr/lib/usrmerge/lib/if.pm
+SPDXID: SPDXRef-usrmerge-file-13
+FileChecksum: SHA1: ffa9a23d74a7f9e087b830adee2859bac8bdde90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-13
+
+
+FileName: /usr/share/doc/usrmerge/README.Debian
+SPDXID: SPDXRef-usrmerge-file-14
+FileChecksum: SHA1: 87a5d3c8b2a160050303b115554f65da4a80054b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-14
+
+
+FileName: /usr/share/doc/usrmerge/changelog.gz
+SPDXID: SPDXRef-usrmerge-file-15
+FileChecksum: SHA1: 34cd690d99333116c74af1de88389a758aee580f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-usrmerge CONTAINS SPDXRef-usrmerge-file-15
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-oracle-openjdk-exception-2.0
+LicenseName: Oracle OpenJDK classpath exception to GPL 2.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/oracle-openjdk-classpath-exception-2.0.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/oracle-openjdk-classpath-exception-2.0.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-other-copyleft
+LicenseName: Other Copyleft Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-other-permissive
+LicenseName: Other Permissive Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+
+

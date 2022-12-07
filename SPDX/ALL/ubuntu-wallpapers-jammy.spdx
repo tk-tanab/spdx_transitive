@@ -1,0 +1,245 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-wallpapers-jammy_22.04.4-0ubuntu1-0670024d-b989-5ab5-b0f2-1b512bdbaf53
+DocumentName: ubuntu-wallpapers-jammy_22.04.4-0ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-wallpapers-jammy
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:25:45Z
+
+
+## Package
+
+PackageName: ubuntu-wallpapers-jammy
+PackageVersion: 22.04.4-0ubuntu1
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy
+PackageHomePage: https://launchpad.net/ubuntu-wallpapers
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e1d91151083f053b0993c053de925ef969b517ee
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-2.0
+PackageLicenseInfoFromFiles: CC-BY-3.0
+PackageLicenseInfoFromFiles: CC-BY-NC-SA-2.0
+PackageLicenseInfoFromFiles: CC-BY-SA-2.0
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: CC-BY-SA-4.0
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: LicenseRef-scancode-proprietary-license
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unsplash
+PackageLicenseInfoFromFiles: LicenseRef-scancode-warranty-disclaimer
+PackageCopyrightText: <text>Copyright 2004, Nathaniel McCallum <npmccallum@gentoo.org> 2006, Daniel Holbach <daniel.holbach@ubuntu.com> 2010-2016 Ubuntu community
+Copyright 2016-2021 Canonical Ltd
+Copyright Abubakar NK Arman Esmaeili Artem Kavalerov
+Copyright Agostino Faedda Alberto Salvia Novella Alex Fazit
+Copyright Geza Radics
+Copyright Peter Apas Giorgos Arguropoulos Matt Bailey/Forsaken Media
+</text>
+PackageComment: <text>Ubuntu 22.04 Wallpapers
+ Alternative wallpapers for Ubuntu 22.04 and a Canonical-created greyscale
+ wallpaper.</text>
+
+
+## File
+
+FileName: /usr/share/doc/ubuntu-wallpapers-jammy/copyright
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-0
+FileChecksum: SHA1: e84fd34d617c89127efa8f037797d9e15aeb52ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: CC-BY-2.0
+LicenseInfoInFile: CC-BY-NC-SA-2.0
+LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
+LicenseInfoInFile: CC-BY-SA-4.0
+LicenseInfoInFile: LicenseRef-scancode-proprietary-license
+LicenseInfoInFile: CC-BY-3.0
+LicenseInfoInFile: LicenseRef-scancode-unsplash
+LicenseInfoInFile: CC-BY-SA-2.0
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright 2004, Nathaniel McCallum <npmccallum@gentoo.org> 2006, Daniel Holbach <daniel.holbach@ubuntu.com> 2010-2016 Ubuntu community
+Copyright Agostino Faedda Alberto Salvia Novella Alex Fazit
+Copyright Peter Apas Giorgos Arguropoulos Matt Bailey/Forsaken Media
+Copyright Geza Radics
+Copyright Abubakar NK Arman Esmaeili Artem Kavalerov
+Copyright 2016-2021 Canonical Ltd
+</text>
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-0
+
+
+FileName: /usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-1
+FileChecksum: SHA1: 3ebe3465005d14e41aa48b73ddf31772c4830b4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-1
+
+
+FileName: /usr/share/backgrounds/Cherry_Tree_in_Lakones_by_elenastravoravdi.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-2
+FileChecksum: SHA1: 0583f4a1711dc50161a1a9ce6ff484af2b231f2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-2
+
+
+FileName: /usr/share/backgrounds/DSC2943_by_kcpru.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-3
+FileChecksum: SHA1: b3990144759b4001a09b390ca57ff17f257e2f53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-3
+
+
+FileName: /usr/share/backgrounds/Jammy-Jellyfish_WP_4096x2304_Grey.png
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-4
+FileChecksum: SHA1: 9e2648d83d7eb50c28af69d5c2952f3638939b66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-4
+
+
+FileName: /usr/share/backgrounds/Mirror_by_Uday_Nakade.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-5
+FileChecksum: SHA1: e92f45d33614f76955e13936e20bb37ce79628ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-5
+
+
+FileName: /usr/share/backgrounds/Optical_Fibers_in_Dark_by_Elena_Stravoravdi.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-6
+FileChecksum: SHA1: dd45491ba04549250f31f4284ee11b59c8cef38e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-6
+
+
+FileName: /usr/share/backgrounds/canvas_by_roytanck.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-7
+FileChecksum: SHA1: ed657fdf380bd3126b26605b473a973586b11b03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-7
+
+
+FileName: /usr/share/backgrounds/contest/jammy.xml
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-8
+FileChecksum: SHA1: 38ee4bb708b1cb003bc519ab026aa97e12a09576
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-8
+
+
+FileName: /usr/share/backgrounds/jj_dark_by_Hiking93.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-9
+FileChecksum: SHA1: c74effe8a55aa10fecba4d58bea8fac16242f1bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-9
+
+
+FileName: /usr/share/backgrounds/jj_light_by_Hiking93.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-10
+FileChecksum: SHA1: 512109670fcc453d0baf905027196bbc5b16dc5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-10
+
+
+FileName: /usr/share/backgrounds/ubuntu2_by_arman1992.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-11
+FileChecksum: SHA1: 5142827fb6dc8b96a2b3bea1403f91dd38ab1df0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-11
+
+
+FileName: /usr/share/backgrounds/ubuntu_by_arman1992.jpg
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-12
+FileChecksum: SHA1: f9bb6f269bd804cb6bcc6070cab8bc6aed9c3b65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-12
+
+
+FileName: /usr/share/doc/ubuntu-wallpapers-jammy/changelog.Debian.gz
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-13
+FileChecksum: SHA1: b1e5eb70b764669ef04c7e365050a28d62f2305e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-13
+
+
+FileName: /usr/share/gnome-background-properties/jammy-wallpapers.xml
+SPDXID: SPDXRef-ubuntu-wallpapers-jammy-file-14
+FileChecksum: SHA1: 4b039926397b31c85409d3c51fef19a230003ba3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers-jammy CONTAINS SPDXRef-ubuntu-wallpapers-jammy-file-14
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-proprietary-license
+LicenseName: Proprietary License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unsplash
+LicenseName: Unsplash License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unsplash.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unsplash.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-warranty-disclaimer
+LicenseName: Generic Bare Warranty Disclaimer
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/warranty-disclaimer.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/warranty-disclaimer.yml
+</text>
+
+

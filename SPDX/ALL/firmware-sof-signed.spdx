@@ -1,0 +1,2316 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/firmware-sof-signed_2.0-1ubuntu3-3df000ea-cd4f-5d88-bc56-f5f594e5aeae
+DocumentName: firmware-sof-signed_2.0-1ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-firmware-sof-signed
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:51:08Z
+
+
+## Package
+
+PackageName: firmware-sof-signed
+PackageVersion: 2.0-1ubuntu3
+SPDXID: SPDXRef-firmware-sof-signed
+PackageHomePage: https://github.com/thesofproject/sof-bin
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8de29ba182df9c4fee6060036bc70af1cd4dbc5d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: Intel
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: SMLNJ
+PackageLicenseInfoFromFiles: Spencer-94
+PackageLicenseInfoFromFiles: LicenseRef-scancode-amd-historical
+PackageLicenseInfoFromFiles: LicenseRef-scancode-delorie-historical
+PackageLicenseInfoFromFiles: LicenseRef-scancode-intel-osl-1993
+PackageLicenseInfoFromFiles: LicenseRef-scancode-newlib-historical
+PackageLicenseInfoFromFiles: LicenseRef-scancode-nilsson-historical
+PackageLicenseInfoFromFiles: LicenseRef-scancode-osf-1990
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-copyleft
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-permissive
+PackageLicenseInfoFromFiles: LicenseRef-scancode-sunpro
+PackageLicenseInfoFromFiles: LicenseRef-scancode-x11-hanson
+PackageLicenseInfoFromFiles: LicenseRef-scancode-x11-lucent
+PackageCopyrightText: <text>(c) Copyright 1986 HEWLETT-PACKARD COMPANY
+(c) Copyright 2001,2006, International Business Machines Corporation, Sony Computer Entertainment, Incorporated
+Copyright (c) 1981-2000 The Regents of the University of California
+Copyright (c) 1984,2000 S.L. Moshier
+Copyright (c) 1990-1999, 2000, 2001 Free Software Foundation, Inc.
+Copyright (c) 1991 DJ Delorie
+Copyright (c) 1991 by AT&T.
+Copyright (c) 1993 Intel Corporation
+Copyright (c) 1993 by Sun Microsystems, Inc.
+Copyright (c) 1994-2009 Red Hat, Inc.
+Copyright (c) 1995 Alex Tatmanjants <alex@elvisti.kiev.ua> at Electronni Visti IA, Kiev, Ukraine
+Copyright (c) 1996 Xavier Leroy (Xavier.Leroy@inria.fr)
+Copyright (c) 1996 by Andrey A. Chernov, Moscow, Russia
+Copyright (c) 1996-1998 John D. Polstra
+Copyright (c) 1996-2010,2014 Texas Instruments Incorporated http://www.ti.com
+Copyright (c) 1997 by Andrey A. Chernov, Moscow, Russia
+Copyright (c) 1997-2002 FreeBSD Project
+Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright (c) 1998, M. Warner Losh <imp@freebsd.org>
+Copyright (c) 1998-2001 by Lucent Technologies
+Copyright (c) 1999 Citrus Project
+Copyright (c) 1999 Kungliga Tekniska Hogskolan (Royal Institute of Technology, Stockholm, Sweden)
+Copyright (c) 1999, 2000 Konstantin Chuguev
+Copyright (c) 1999, 2000, 2001, 2002 Stephane Carrez (stcarrez@nerim.fr)
+Copyright (c) 2000, 2001 Alexey Zelkin <phantom@FreeBSD.org>
+Copyright (c) 2001 Christopher G. Demetriou
+Copyright (c) 2001 Daniel Eischen <deischen@FreeBSD.org>
+Copyright (c) 2001 David E. O'Brien
+Copyright (c) 2001 Hans-Peter Nilsson
+Copyright (c) 2001 Mike Barcroft <mike@FreeBSD.org>
+Copyright (c) 2003 Altera Corporation
+Copyright (c) 2003, Artem B. Bityuckiy, SoftMine Corporation
+Copyright (c) 2003-2014 Cadence Design Systems, Inc.
+Copyright (c) 2004 National Semiconductor Corporation
+Copyright (c) 2004, 2009 Xilinx, Inc.
+Copyright (c) 2008 Ed Schouten <ed@FreeBSD.org>
+Copyright (c) 2009 ARM Ltd
+Copyright (c) 2011, Adapteva, Inc.
+Copyright (c) 2015-2019 Intel Corporation
+Copyright (c) 2015-2019, Intel Corporation
+Copyright 1989, 1990 Advanced Micro Devices, Inc.
+Copyright 1992, 1993, 1994 Henry Spencer
+Copyright 2002 SuperH, Inc.
+Copyright 2011-2018 Ulf Magnusson
+Copyright 2019-2020 NXP
+Copyright 2020 Mark Pearson <markpearson@lenovo.com>
+Portions Copyright 2009 The Go Authors
+</text>
+PackageComment: <text>Intel SOF firmware - signed
+ Provides the Intel SOF audio firmware and topology needed for audio
+ functionality on some Intel system.
+ .
+ This package contains the pre-built and signed binaries.</text>
+
+
+## File
+
+FileName: /usr/share/doc/firmware-sof-signed/copyright
+SPDXID: SPDXRef-firmware-sof-signed-file-0
+FileChecksum: SHA1: b95fa4f61b7f3a06f654c17ee0794a8b5ff26639
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: SMLNJ
+LicenseInfoInFile: LicenseRef-scancode-amd-historical
+LicenseInfoInFile: LicenseRef-scancode-intel-osl-1993
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: Intel
+LicenseInfoInFile: LicenseRef-scancode-nilsson-historical
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: LicenseRef-scancode-x11-lucent
+LicenseInfoInFile: ISC
+LicenseInfoInFile: Spencer-94
+LicenseInfoInFile: LicenseRef-scancode-newlib-historical
+LicenseInfoInFile: LicenseRef-scancode-osf-1990
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: LicenseRef-scancode-sunpro
+LicenseInfoInFile: LicenseRef-scancode-delorie-historical
+LicenseInfoInFile: LicenseRef-scancode-other-permissive
+LicenseInfoInFile: LicenseRef-scancode-other-copyleft
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: LicenseRef-scancode-x11-hanson
+FileCopyrightText: <text>Copyright (c) 2015-2019 Intel Corporation
+Copyright 2020 Mark Pearson <markpearson@lenovo.com>
+Copyright (c) 2015-2019 Intel Corporation
+Copyright (c) 2015-2019, Intel Corporation
+Copyright (c) 2003-2014 Cadence Design Systems, Inc.
+Copyright 2011-2018 Ulf Magnusson
+Copyright (c) 1996-1998 John D. Polstra
+Copyright (c) 2001 David E. O'Brien
+Portions Copyright 2009 The Go Authors
+Copyright (c) 1994-2009 Red Hat, Inc.
+Copyright (c) 1981-2000 The Regents of the University of California
+Copyright (c) 1991 by AT&T.
+Copyright (c) 1998-2001 by Lucent Technologies
+Copyright 1989, 1990 Advanced Micro Devices, Inc.
+Copyright (c) 1993 by Sun Microsystems, Inc.
+(c) Copyright 1986 HEWLETT-PACKARD COMPANY
+Copyright (c) 2001 Hans-Peter Nilsson
+Copyright (c) 1999, 2000, 2001, 2002 Stephane Carrez (stcarrez@nerim.fr)
+Copyright (c) 2001 Christopher G. Demetriou
+Copyright 2002 SuperH, Inc.
+Copyright (c) 1999 Kungliga Tekniska Hogskolan (Royal Institute of Technology, Stockholm, Sweden)
+Copyright (c) 2000, 2001 Alexey Zelkin <phantom@FreeBSD.org>
+Copyright (c) 1997 by Andrey A. Chernov, Moscow, Russia
+Copyright (c) 1997-2002 FreeBSD Project
+Copyright (c) 1984,2000 S.L. Moshier
+Copyright (c) 1999 Citrus Project
+Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright (c) 1991 DJ Delorie
+Copyright (c) 1990-1999, 2000, 2001 Free Software Foundation, Inc.
+Copyright (c) 1996 Xavier Leroy (Xavier.Leroy@inria.fr)
+Copyright (c) 1993 Intel Corporation
+(c) Copyright 1986 HEWLETT-PACKARD COMPANY
+Copyright 1992, 1993, 1994 Henry Spencer
+Copyright (c) 2001 Mike Barcroft <mike@FreeBSD.org>
+Copyright (c) 1999, 2000 Konstantin Chuguev
+Copyright (c) 2003, Artem B. Bityuckiy, SoftMine Corporation
+(c) Copyright 2001,2006, International Business Machines Corporation, Sony Computer Entertainment, Incorporated
+Copyright (c) 1995 Alex Tatmanjants <alex@elvisti.kiev.ua> at Electronni Visti IA, Kiev, Ukraine
+Copyright (c) 1998, M. Warner Losh <imp@freebsd.org>
+Copyright (c) 1996 by Andrey A. Chernov, Moscow, Russia
+Copyright (c) 2001 Daniel Eischen <deischen@FreeBSD.org>
+Copyright (c) 2009 ARM Ltd
+Copyright (c) 2004, 2009 Xilinx, Inc.
+Copyright (c) 1996-2010,2014 Texas Instruments Incorporated http://www.ti.com
+Copyright (c) 2004 National Semiconductor Corporation
+Copyright (c) 2011, Adapteva, Inc.
+Copyright (c) 2003 Altera Corporation
+Copyright (c) 2008 Ed Schouten <ed@FreeBSD.org>
+Copyright 2019-2020 NXP
+Copyright (c) 2003-2014 Cadence Design Systems, Inc.
+Copyright 2011-2018 Ulf Magnusson
+Copyright (c) 1996-1998 John D. Polstra
+Copyright (c) 2001 David E. O'Brien
+Portions Copyright 2009 The Go Authors
+Copyright (c) 1994-2009 Red Hat, Inc.
+Copyright (c) 1981-2000 The Regents of the University of California
+Copyright (c) 1991 by AT&T.
+Copyright (c) 1998-2001 by Lucent Technologies
+Copyright 1989, 1990 Advanced Micro Devices, Inc.
+Copyright (c) 1993 by Sun Microsystems, Inc.
+(c) Copyright 1986 HEWLETT-PACKARD COMPANY
+Copyright (c) 2001 Hans-Peter Nilsson
+Copyright (c) 1999, 2000, 2001, 2002 Stephane Carrez (stcarrez@nerim.fr)
+Copyright (c) 2001 Christopher G. Demetriou
+Copyright 2002 SuperH, Inc.
+Copyright (c) 1999 Kungliga Tekniska Hogskolan (Royal Institute of Technology, Stockholm, Sweden)
+Copyright (c) 2000, 2001 Alexey Zelkin <phantom@FreeBSD.org>
+Copyright (c) 1997 by Andrey A. Chernov, Moscow, Russia
+Copyright (c) 1997-2002 FreeBSD Project
+Copyright (c) 1984,2000 S.L. Moshier
+Copyright (c) 1999 Citrus Project
+Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright (c) 1991 DJ Delorie
+Copyright (c) 1990-1999, 2000, 2001 Free Software Foundation, Inc.
+Copyright (c) 1996 Xavier Leroy (Xavier.Leroy@inria.fr)
+Copyright (c) 1993 Intel Corporation
+(c) Copyright 1986 HEWLETT-PACKARD COMPANY
+Copyright 1992, 1993, 1994 Henry Spencer
+Copyright (c) 2001 Mike Barcroft <mike@FreeBSD.org>
+Copyright (c) 1999, 2000 Konstantin Chuguev
+Copyright (c) 2003, Artem B. Bityuckiy, SoftMine Corporation
+(c) Copyright 2001,2006, International Business Machines Corporation, Sony Computer Entertainment, Incorporated
+Copyright (c) 1995 Alex Tatmanjants <alex@elvisti.kiev.ua> at Electronni Visti IA, Kiev, Ukraine
+Copyright (c) 1998, M. Warner Losh <imp@freebsd.org>
+Copyright (c) 1996 by Andrey A. Chernov, Moscow, Russia
+Copyright (c) 2001 Daniel Eischen <deischen@FreeBSD.org>
+Copyright (c) 2009 ARM Ltd
+Copyright (c) 2004, 2009 Xilinx, Inc.
+Copyright (c) 1996-2010,2014 Texas Instruments Incorporated http://www.ti.com
+Copyright (c) 2004 National Semiconductor Corporation
+Copyright (c) 2011, Adapteva, Inc.
+Copyright (c) 2003 Altera Corporation
+Copyright (c) 2008 Ed Schouten <ed@FreeBSD.org>
+</text>
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-0
+
+
+FileName: /lib/firmware/intel/sof/community/sof-apl-zephyr.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-1
+FileChecksum: SHA1: d0687e27410f998d2a464b6e42710f1c3c819718
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-1
+
+
+FileName: /lib/firmware/intel/sof/community/sof-apl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-2
+FileChecksum: SHA1: b939831bce2308bde9e59425aa158001750bcdc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-2
+
+
+FileName: /lib/firmware/intel/sof/community/sof-cnl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-3
+FileChecksum: SHA1: 993c5cf9bb765e383a1d5c4e738ad45324fbcaf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-3
+
+
+FileName: /lib/firmware/intel/sof/community/sof-icl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-4
+FileChecksum: SHA1: 27b6a8a9ec542f66f2c07e81496823135461fcff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-4
+
+
+FileName: /lib/firmware/intel/sof/community/sof-jsl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-5
+FileChecksum: SHA1: e65c785453dfaaa46cae597bf56b65ccd3f4cded
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-5
+
+
+FileName: /lib/firmware/intel/sof/community/sof-tgl-h.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-6
+FileChecksum: SHA1: e77a4a39ecf718af39a76781b22859a3ce4e8632
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-6
+
+
+FileName: /lib/firmware/intel/sof/community/sof-tgl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-7
+FileChecksum: SHA1: 29ceafc80e36a39102855704ebac5b4f9cd870b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-7
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-adl-s.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-8
+FileChecksum: SHA1: ca3a1af788e2b7d210c3457b2aad9a4e3e717cf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-8
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-adl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-9
+FileChecksum: SHA1: 3396b4bde7d761201a2aa75d64df200402b8bd7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-9
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-apl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-10
+FileChecksum: SHA1: 711ba4cbf1ced666eaa49b3a0aa6b93d11c8666d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-10
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-cnl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-11
+FileChecksum: SHA1: 9c797cbb8efddaa18bf90f52ea194d802bfd972e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-11
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-ehl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-12
+FileChecksum: SHA1: 949a1c1c1d08e2d47aa5a04a3ad6fbadb21d21e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-12
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-icl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-13
+FileChecksum: SHA1: ff4379c76c57d201f74e4b44f22401ae69ac0ca1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-13
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-jsl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-14
+FileChecksum: SHA1: 6864a5af9422ae928f856052a61ec0e20e515e9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-14
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-tgl-h.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-15
+FileChecksum: SHA1: ddb18811118e84305151f80fbda9676defc41aff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-15
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-tgl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-16
+FileChecksum: SHA1: 11bf1e96195eb4d43e9a1f5272483ceb2feecd68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-16
+
+
+FileName: /lib/firmware/intel/sof/sof-apl.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-17
+FileChecksum: SHA1: 201344ac160e24a76b13f382454233d781ec58e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-17
+
+
+FileName: /lib/firmware/intel/sof/sof-bdw.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-18
+FileChecksum: SHA1: b04a613579643727c759215602d4739f3b21c91b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-18
+
+
+FileName: /lib/firmware/intel/sof/sof-bdw.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-19
+FileChecksum: SHA1: c3ab209d40f523713a9e735def33f7964f6ea7e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-19
+
+
+FileName: /lib/firmware/intel/sof/sof-byt.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-20
+FileChecksum: SHA1: fc74cec5159dbf7c18cb4d75709dc215e1461f89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-20
+
+
+FileName: /lib/firmware/intel/sof/sof-byt.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-21
+FileChecksum: SHA1: f69238ee82f8ab28e5d5dc598bafd5d4c9d33062
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-21
+
+
+FileName: /lib/firmware/intel/sof/sof-cht.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-22
+FileChecksum: SHA1: fc74cec5159dbf7c18cb4d75709dc215e1461f89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-22
+
+
+FileName: /lib/firmware/intel/sof/sof-cht.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-23
+FileChecksum: SHA1: d76088659364ccc022637f84c11ccb079d2ec1e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-23
+
+
+FileName: /lib/firmware/intel/sof/sof-cnl.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-24
+FileChecksum: SHA1: 2753b7e7739937ed55702d92841e9acc365a32b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-24
+
+
+FileName: /lib/firmware/intel/sof/sof-icl.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-25
+FileChecksum: SHA1: 06bc4c06ba6f72e93e777d34cceec9f6dba054d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-25
+
+
+FileName: /lib/firmware/intel/sof/sof-jsl.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-26
+FileChecksum: SHA1: 0d36cbb529145ebdf56a0e45464dc4e4ab5849e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-26
+
+
+FileName: /lib/firmware/intel/sof/sof-tgl-h.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-27
+FileChecksum: SHA1: 53d61bf8e444a7f0c8b3e5e354989e1ccbc9b845
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-27
+
+
+FileName: /lib/firmware/intel/sof/sof-tgl.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-28
+FileChecksum: SHA1: 53d61bf8e444a7f0c8b3e5e354989e1ccbc9b845
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-28
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-acp.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-29
+FileChecksum: SHA1: adca7aa3fb849fb0c0361679fdb67fd1e2eb2354
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-29
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-max98357a-rt5682-rtnr.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-30
+FileChecksum: SHA1: 033876e92d53e5d7a097201678e8ab95624f7e38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-30
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-max98357a-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-31
+FileChecksum: SHA1: 8cc728422ccfa7c8f1c6604f5b68f39eb2a9bb62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-31
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-max98360a-nau8825.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-32
+FileChecksum: SHA1: edf295acc5e3ba5c5b9cefba614766d3ab3d1f27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-32
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-max98360a-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-33
+FileChecksum: SHA1: f6eed21d72f1780e68ee63f37fdaf90a0b611512
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-33
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-max98373-nau8825.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-34
+FileChecksum: SHA1: 13160560949bef1af98d8a6b07c1a6155f341d16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-34
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-max98390-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-35
+FileChecksum: SHA1: 1767cf2c0424f2ffbf4941033a4d31718a4c28da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-35
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-max98390-ssp2-rt5682-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-36
+FileChecksum: SHA1: 129ca08eaa82434f8976a656e5468c7693dcc36a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-36
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-nau8825.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-37
+FileChecksum: SHA1: 5c338f755dc066c2e32b7f408bf11d68e4df1cb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-37
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-38
+FileChecksum: SHA1: 6f7212b1636ad0d7a586bd5bb77e991d3bed98c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-38
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt1019-nau8825.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-39
+FileChecksum: SHA1: 1d6e69823d09afe74a63124a78bac7d811dd4868
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-39
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt1316-l12-rt714-l0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-40
+FileChecksum: SHA1: b14e3034a68efb80b45a6567e89ed39453adb3ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-40
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt1316-l2-mono-rt714-l0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-41
+FileChecksum: SHA1: bb369cf47c878bfd6ac38149187f1e175a29fbee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-41
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt1316-l2-mono-rt714-l3.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-42
+FileChecksum: SHA1: 9ddf90c6efaaacf57434aec209cc0336edbfe723
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-42
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt711-4ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-43
+FileChecksum: SHA1: 5e1a8952dc293468ff5e6c9f440bf2ca2802a29e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-43
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt711-l0-rt1308-l12-rt715-l3.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-44
+FileChecksum: SHA1: 4ae45ce19b66ce68fc30beae2df6423935c5c4f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-44
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt711-l0-rt1316-l12-rt714-l3.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-45
+FileChecksum: SHA1: 4ae45ce19b66ce68fc30beae2df6423935c5c4f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-45
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt711-l0-rt1316-l13-rt714-l2.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-46
+FileChecksum: SHA1: fadbd9a2efc065d8514b380b50a11452161db6b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-46
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt711-l2-rt1316-l01-rt714-l3.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-47
+FileChecksum: SHA1: 7bc2e617fe6451e361d041d2ca9c440949e86cbb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-47
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt711-l2-rt1316-l01.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-48
+FileChecksum: SHA1: 1daa3ca49218624807b685dae87a4d8b37eb127e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-48
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-rt711.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-49
+FileChecksum: SHA1: abd96cfe4436c500a29e575622684d950399ef07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-49
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-adl-sdw-max98373-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-50
+FileChecksum: SHA1: 0f69e54c7e68cf51d2953edc921b137deee50ba5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-50
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-da7219.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-51
+FileChecksum: SHA1: 6ef10267ece8fe711723628a5698654d51e00d82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-51
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-demux-pcm512x.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-52
+FileChecksum: SHA1: 35355d3f0c7442b33c5835c7cca79b47c2f24a8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-52
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-es8336.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-53
+FileChecksum: SHA1: a5359c593c6a37491f3b0deec9d033313a135dcf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-53
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-keyword-detect.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-54
+FileChecksum: SHA1: 637fc2670eac64fc9068d631a9ba5d12c9fe1a7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-54
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-55
+FileChecksum: SHA1: 95bd7422d2749a9f876a4788350c5fa4330f4ba1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-55
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-pcm512x-master-44100.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-56
+FileChecksum: SHA1: af17001aebec6384f1e4eb020514514d573c2697
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-56
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-pcm512x-master.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-57
+FileChecksum: SHA1: 03242e713be2e83277e40a090d3c6a0e66815246
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-57
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-pcm512x.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-58
+FileChecksum: SHA1: 1c3d1506f55a1f646ef2355b0f2c08a69237545e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-58
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-rt298.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-59
+FileChecksum: SHA1: 0fc37c937caa225ec80c30951e7dfc12c452a776
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-59
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-tdf8532.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-60
+FileChecksum: SHA1: af37f152dca135be8c646be1eb7b041c01f49021
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-60
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-apl-wm8804.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-61
+FileChecksum: SHA1: 2eb278169ac523583c5a92c69399af0f4cd64056
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-61
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-bdw-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-62
+FileChecksum: SHA1: fbd564ad644a0dba16dcf8dd0c6bf309abb12467
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-62
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-bdw-rt286.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-63
+FileChecksum: SHA1: 48ebb3f9cded6ea0d3a5eefdf2133b1f918ba713
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-63
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-bdw-rt5640.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-64
+FileChecksum: SHA1: 48ebb3f9cded6ea0d3a5eefdf2133b1f918ba713
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-64
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-bdw-rt5677.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-65
+FileChecksum: SHA1: 48ebb3f9cded6ea0d3a5eefdf2133b1f918ba713
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-65
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-cx2072x-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-66
+FileChecksum: SHA1: d1735f13e86c02fa38037dd14fc8000a24f7a8bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-66
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-cx2072x.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-67
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-67
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-da7213-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-68
+FileChecksum: SHA1: d1735f13e86c02fa38037dd14fc8000a24f7a8bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-68
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-da7213.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-69
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-69
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-es8316-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-70
+FileChecksum: SHA1: d1735f13e86c02fa38037dd14fc8000a24f7a8bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-70
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-es8316.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-71
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-71
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-max98090.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-72
+FileChecksum: SHA1: 7e2f08cbb1801c333b3f92c45e7276d12912e74d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-72
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-73
+FileChecksum: SHA1: 475fa7a33a90e0d0f7c74ebe01fd6621a121c4a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-73
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5640-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-74
+FileChecksum: SHA1: d1735f13e86c02fa38037dd14fc8000a24f7a8bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-74
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5640.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-75
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-75
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5645-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-76
+FileChecksum: SHA1: d1735f13e86c02fa38037dd14fc8000a24f7a8bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-76
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5645.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-77
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-77
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5651-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-78
+FileChecksum: SHA1: d1735f13e86c02fa38037dd14fc8000a24f7a8bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-78
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5651.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-79
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-79
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5670-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-80
+FileChecksum: SHA1: d1735f13e86c02fa38037dd14fc8000a24f7a8bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-80
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5670.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-81
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-81
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5682-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-82
+FileChecksum: SHA1: d1735f13e86c02fa38037dd14fc8000a24f7a8bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-82
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-83
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-83
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-byt-wm5102-ssp0.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-84
+FileChecksum: SHA1: d1735f13e86c02fa38037dd14fc8000a24f7a8bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-84
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-cx2072x.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-85
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-85
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-da7213.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-86
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-86
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-es8316.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-87
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-87
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-max98090.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-88
+FileChecksum: SHA1: 7e2f08cbb1801c333b3f92c45e7276d12912e74d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-88
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-nau8824.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-89
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-89
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-90
+FileChecksum: SHA1: 475fa7a33a90e0d0f7c74ebe01fd6621a121c4a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-90
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-rt5640.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-91
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-91
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-rt5645.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-92
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-92
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-rt5651.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-93
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-93
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-rt5670.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-94
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-94
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cht-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-95
+FileChecksum: SHA1: cc8a2f572728aebb5611a9080c67e87bec420792
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-95
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-da7219-max98357a.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-96
+FileChecksum: SHA1: 124909bb54391017f4f9b4481ea217c17da6e249
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-96
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-da7219-max98390.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-97
+FileChecksum: SHA1: e3af4c0298e96afade04c32f90605e5c523f8f55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-97
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-demux-rt5682-max98357a.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-98
+FileChecksum: SHA1: 86553c3ab701961d5cbc703271b0d77d5ce9df66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-98
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-demux-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-99
+FileChecksum: SHA1: 266d363983966a0665242a49ecdd636a63439768
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-99
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-100
+FileChecksum: SHA1: d9cd7b3305e516f78ebf76ab7f76e44c31e69031
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-100
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-rt1011-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-101
+FileChecksum: SHA1: d353eb6f40f6af2463bd9258a4488424b07edce9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-101
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-rt5682-kwd.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-102
+FileChecksum: SHA1: d1b801eeab335b8a01bed497879bbbd0253371d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-102
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-rt5682-max98357a.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-103
+FileChecksum: SHA1: ab0e7c3cd62c050f774065cbb3b7a52308b5b3b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-103
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-104
+FileChecksum: SHA1: f19851af4d1cbbf4515be2bca1493feb389c22e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-104
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-rt700-2ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-105
+FileChecksum: SHA1: 23929cdf2619c3f9ede12a34d322c775153dbaac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-105
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-rt700-4ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-106
+FileChecksum: SHA1: db87f16428a81e34d9bcbce4c76037eafc0d9dbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-106
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-rt700.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-107
+FileChecksum: SHA1: db87f16428a81e34d9bcbce4c76037eafc0d9dbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-107
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-rt711-rt1308-mono-rt715.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-108
+FileChecksum: SHA1: 92a6b22bafffeafd51f76f127ec5be360155a7a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-108
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cml-rt711-rt1308-rt715.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-109
+FileChecksum: SHA1: 4ae45ce19b66ce68fc30beae2df6423935c5c4f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-109
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cnl-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-110
+FileChecksum: SHA1: d9cd7b3305e516f78ebf76ab7f76e44c31e69031
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-110
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cnl-rt274.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-111
+FileChecksum: SHA1: c99e23e043dffbe93a0ba578d8f31888a6728885
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-111
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-cnl-rt5682-sdw2.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-112
+FileChecksum: SHA1: fde861c5a25087cd2ec227c9bb45840efdabdba2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-112
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-ehl-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-113
+FileChecksum: SHA1: 6b1f9b7f8d917551859ddd6980e85e509fdbb0a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-113
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-ehl-rt5660-nohdmi.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-114
+FileChecksum: SHA1: 3f308f5af2075c0358275a7acaa9e7cea97d53c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-114
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-ehl-rt5660.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-115
+FileChecksum: SHA1: 1497d2ab349b4885fdcad85eaa02901ea65a2472
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-115
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-glk-cs42l42.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-116
+FileChecksum: SHA1: 9fea7e49f9fe96d4a2681dbdb7149549c6c299c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-116
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-glk-da7219-kwd.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-117
+FileChecksum: SHA1: 9055f4d53d6f8105ecbf967f78a5ccfefb8f10a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-117
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-glk-da7219.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-118
+FileChecksum: SHA1: a00662a180a324fcd2774a23414de3e89df14227
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-118
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-glk-es8336.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-119
+FileChecksum: SHA1: a5359c593c6a37491f3b0deec9d033313a135dcf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-119
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-glk-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-120
+FileChecksum: SHA1: 95bd7422d2749a9f876a4788350c5fa4330f4ba1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-120
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-glk-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-121
+FileChecksum: SHA1: 4e642504e480694b8fbb36b112c55e5b59ebbb56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-121
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic-1ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-122
+FileChecksum: SHA1: 989089108f096a419916cfca50eae73a3935cb7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-122
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic-2ch-kwd.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-123
+FileChecksum: SHA1: bbec378d785c97d982a33cc7726b9179ed728b83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-123
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic-2ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-124
+FileChecksum: SHA1: 989089108f096a419916cfca50eae73a3935cb7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-124
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic-3ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-125
+FileChecksum: SHA1: f964c93f8981187f42e0321fca9176a8ebf8f88c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-125
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic-4ch-kwd.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-126
+FileChecksum: SHA1: 8116bcab8f109a6cb906c6bdc748975a315fb221
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-126
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic-4ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-127
+FileChecksum: SHA1: f964c93f8981187f42e0321fca9176a8ebf8f88c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-127
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic-idisp-2ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-128
+FileChecksum: SHA1: 9671b04e8cfd3581c707eb2b96b75281d5ce09f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-128
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic-idisp-4ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-129
+FileChecksum: SHA1: ee43f78e97f9d6647cf612a693a8e460877cb8df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-129
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic-idisp.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-130
+FileChecksum: SHA1: ac2e2c732bfe89611b43fec64f4eea49311b44ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-130
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-hda-generic.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-131
+FileChecksum: SHA1: be2c7bbb8ecd5ce29843feb92cbe4328f836a8f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-131
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-icl-dmic-4ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-132
+FileChecksum: SHA1: 16e41ca274f4aa0189e32f06c0070e5cbd377622
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-132
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-icl-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-133
+FileChecksum: SHA1: 6b1f9b7f8d917551859ddd6980e85e509fdbb0a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-133
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-icl-rt5682-kwd.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-134
+FileChecksum: SHA1: 1ae1972a0e3f89abca6e05452253231cb7ca847f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-134
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-icl-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-135
+FileChecksum: SHA1: fad3c3c19cdc4e6294194f43b59bd50679e15bff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-135
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-icl-rt700-2ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-136
+FileChecksum: SHA1: 187d3da8fd8cf5208d46d4f43c692b634bc08d52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-136
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-icl-rt700-4ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-137
+FileChecksum: SHA1: e54ec9cda58a5c93fe30b1bbdcebad61ba33fb56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-137
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-icl-rt700.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-138
+FileChecksum: SHA1: e54ec9cda58a5c93fe30b1bbdcebad61ba33fb56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-138
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-icl-rt711-rt1308-rt715.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-139
+FileChecksum: SHA1: 4ae45ce19b66ce68fc30beae2df6423935c5c4f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-139
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-compr-wm8960-mixer.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-140
+FileChecksum: SHA1: 5397bbcab167ce3c83eb9e7b093d64da869d86fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-140
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-cs42888-mixer.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-141
+FileChecksum: SHA1: 076039edcd75641a90e9fea1e07c1caf1067e81e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-141
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-cs42888.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-142
+FileChecksum: SHA1: d82d6028b7be3a0d794a612c899e577d0caa736d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-142
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-drc-wm8960.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-143
+FileChecksum: SHA1: d836389f75419c2d58f3cc6b7128020c7e190f34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-143
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-eq-fir-wm8960.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-144
+FileChecksum: SHA1: ee5e91b92ac669432843d4b99ec70cebf22e0b9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-144
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-eq-iir-wm8960.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-145
+FileChecksum: SHA1: f1e16e170c3d461e3a30b95726f9f10f0f21d896
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-145
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-nocodec-sai.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-146
+FileChecksum: SHA1: 746174948a7301d9f4ca23777bc0f860b4ce7b19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-146
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-147
+FileChecksum: SHA1: eaf7e3980c9756f9b9b493402d9cbeee20046808
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-147
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-wm8960-kwd.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-148
+FileChecksum: SHA1: ccf95252ba4901a772b00a6a07781997d27a87e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-148
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-wm8960-mixer.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-149
+FileChecksum: SHA1: 94c0e7ed7814899b32716c5b3efd8699c8345ac8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-149
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8-wm8960.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-150
+FileChecksum: SHA1: f281aaac7d85de538431247607df58577e98313b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-150
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8mp-compr-wm8960-mixer.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-151
+FileChecksum: SHA1: 0aacac8d26cfcafe490d2e744c9e1f3e33b78154
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-151
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8mp-drc-wm8960.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-152
+FileChecksum: SHA1: 765febdf632da370cdfd98e634da2e4f2674290b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-152
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8mp-eq-fir-wm8960.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-153
+FileChecksum: SHA1: 747ac13dfafbc692736ec95dac8bbca443bfff65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-153
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8mp-eq-iir-wm8960.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-154
+FileChecksum: SHA1: 1aac2c5925ea3525cdbaad0d37442df39e705a07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-154
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8mp-wm8960-kwd.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-155
+FileChecksum: SHA1: ea56f399d17a53539c4106da7b23bf05ff960bff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-155
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8mp-wm8960-mixer.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-156
+FileChecksum: SHA1: 18f5996fdb26656e9c871afea4c4a9402e539b72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-156
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8mp-wm8960.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-157
+FileChecksum: SHA1: 3f09ca517bd8c837819fd38d29ada27016b4c7d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-157
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-imx8ulp-btsco.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-158
+FileChecksum: SHA1: 04d2c19301d97899e9d73a706a81abcbae9ca84e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-158
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-jsl-cs42l42-mx98360a.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-159
+FileChecksum: SHA1: 8aa3acacb3ec4d85d82ecba2678a3622e788c01c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-159
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-jsl-da7219-mx98360a.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-160
+FileChecksum: SHA1: 4eef54d2051fbc653b71ce7515c167cc1fa4245a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-160
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-jsl-da7219.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-161
+FileChecksum: SHA1: 5ec5cab076eed5cdc87a7c2b0735b71629997f25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-161
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-jsl-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-162
+FileChecksum: SHA1: 6b1f9b7f8d917551859ddd6980e85e509fdbb0a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-162
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-jsl-rt5682-mx98360a.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-163
+FileChecksum: SHA1: 8aa3acacb3ec4d85d82ecba2678a3622e788c01c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-163
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-jsl-rt5682-rt1015-xperi.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-164
+FileChecksum: SHA1: 9ccbb6a5077cfdbeb3bc208919d9831936645dfc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-164
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-jsl-rt5682-rt1015.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-165
+FileChecksum: SHA1: 4a851276129bda86369b8108529b0c098357541c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-165
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-mt8195-mt6359-rt1019-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-166
+FileChecksum: SHA1: 0643cc2d2d0018cad2118ce596edd153eaf353a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-166
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-smart-amplifier-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-167
+FileChecksum: SHA1: a4fe7486b5bff49b43f5b0ea97ed722feec51328
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-167
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-es8336.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-168
+FileChecksum: SHA1: a9d9404886a3e71c9685244063392198a9f71576
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-168
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-h-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-169
+FileChecksum: SHA1: 6b1f9b7f8d917551859ddd6980e85e509fdbb0a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-169
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-max98357a-rt5682-pdm1-drceq.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-170
+FileChecksum: SHA1: adbfd3267ca2682f62c8132a06ee9c66f84b9c21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-170
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-max98357a-rt5682-pdm1.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-171
+FileChecksum: SHA1: 5eb068e35d571bc2261eec94565dc793bc70ef1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-171
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-max98357a-rt5682-rtnr-16kHz.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-172
+FileChecksum: SHA1: b5fdcf933f5ebaffc92ce4f3b774ebf47ee3c118
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-172
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-max98357a-rt5682-rtnr.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-173
+FileChecksum: SHA1: 415ff12d0cf409118c566efc7aa90656ceaf79f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-173
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-max98357a-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-174
+FileChecksum: SHA1: b63f107667b4639ee4248ae841265ff5ffa876af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-174
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-max98373-rt5682-igonr.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-175
+FileChecksum: SHA1: dd0d3a66cfcaf13d5dd0de66d11e18680eefadf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-175
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-max98373-rt5682-xperi.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-176
+FileChecksum: SHA1: 6ca3d79f24afbe2a753113a62fd23abec65b80d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-176
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-max98373-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-177
+FileChecksum: SHA1: 4819562d46144e8455c669d6bc86293744cc5827
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-177
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-nocodec.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-178
+FileChecksum: SHA1: 6f7212b1636ad0d7a586bd5bb77e991d3bed98c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-178
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt1011-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-179
+FileChecksum: SHA1: 16c8362ce673a2a6167f003788ec5b500fafc81f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-179
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt5682-ssp0-max98373-ssp2-xperi.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-180
+FileChecksum: SHA1: f563cfad922781036ffaee8c7cb2c11d947a1e33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-180
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt5682-ssp0-max98373-ssp2.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-181
+FileChecksum: SHA1: 1c6938d78a1480b0fb58f68c2c44d574686a708f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-181
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt711-4ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-182
+FileChecksum: SHA1: 430c4e0a989fbd45dc59d45d881e48e47d73780b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-182
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt711-l0-rt1316-l1-mono-rt714-l3.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-183
+FileChecksum: SHA1: 92a6b22bafffeafd51f76f127ec5be360155a7a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-183
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt711-rt1308-2ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-184
+FileChecksum: SHA1: dd205980b5d8d2d8d317f0ab69505c0ca74bd173
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-184
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt711-rt1308-4ch.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-185
+FileChecksum: SHA1: 106b498657132cc72fc573d72a920554e543be5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-185
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt711-rt1308-mono-rt715.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-186
+FileChecksum: SHA1: 92a6b22bafffeafd51f76f127ec5be360155a7a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-186
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt711-rt1308-rt715.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-187
+FileChecksum: SHA1: 4ae45ce19b66ce68fc30beae2df6423935c5c4f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-187
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt711-rt1316-rt714.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-188
+FileChecksum: SHA1: 4ae45ce19b66ce68fc30beae2df6423935c5c4f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-188
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-rt715-rt711-rt1308-mono.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-189
+FileChecksum: SHA1: 8f4a4c6906593950e04984d325cc661e82b96c29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-189
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-tgl-sdw-max98373-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-190
+FileChecksum: SHA1: 8c10de1bd89b43f96c2cf13bae2692375df1e756
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-190
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-whl-demux-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-191
+FileChecksum: SHA1: 62d1572c1bf98b20a84fef4f452cc69a0e38d13b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-191
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-whl-rt5682-kwd.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-192
+FileChecksum: SHA1: 30df63ad438113abc4dbe0afab96601570aeaa17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-192
+
+
+FileName: /lib/firmware/intel/sof-tplg/sof-whl-rt5682.tplg
+SPDXID: SPDXRef-firmware-sof-signed-file-193
+FileChecksum: SHA1: 88584d515429f55914018551077b951504855797
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-193
+
+
+FileName: /usr/share/doc/firmware-sof-signed/changelog.Debian.gz
+SPDXID: SPDXRef-firmware-sof-signed-file-194
+FileChecksum: SHA1: 27266d7de5844c956b0f5c7b2fd93ac671f8b743
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-194
+
+
+FileName: /lib/firmware/intel/sof/community/sof-adl-s.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-195
+FileChecksum: SHA1: e77a4a39ecf718af39a76781b22859a3ce4e8632
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-195
+
+
+FileName: /lib/firmware/intel/sof/community/sof-adl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-196
+FileChecksum: SHA1: 29ceafc80e36a39102855704ebac5b4f9cd870b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-196
+
+
+FileName: /lib/firmware/intel/sof/community/sof-cfl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-197
+FileChecksum: SHA1: 993c5cf9bb765e383a1d5c4e738ad45324fbcaf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-197
+
+
+FileName: /lib/firmware/intel/sof/community/sof-cml.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-198
+FileChecksum: SHA1: 993c5cf9bb765e383a1d5c4e738ad45324fbcaf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-198
+
+
+FileName: /lib/firmware/intel/sof/community/sof-ehl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-199
+FileChecksum: SHA1: 29ceafc80e36a39102855704ebac5b4f9cd870b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-199
+
+
+FileName: /lib/firmware/intel/sof/community/sof-glk.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-200
+FileChecksum: SHA1: b939831bce2308bde9e59425aa158001750bcdc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-200
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-cfl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-201
+FileChecksum: SHA1: 9c797cbb8efddaa18bf90f52ea194d802bfd972e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-201
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-cml.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-202
+FileChecksum: SHA1: 9c797cbb8efddaa18bf90f52ea194d802bfd972e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-202
+
+
+FileName: /lib/firmware/intel/sof/intel-signed/sof-glk.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-203
+FileChecksum: SHA1: 711ba4cbf1ced666eaa49b3a0aa6b93d11c8666d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-203
+
+
+FileName: /lib/firmware/intel/sof/sof-adl-s.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-204
+FileChecksum: SHA1: 53d61bf8e444a7f0c8b3e5e354989e1ccbc9b845
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-204
+
+
+FileName: /lib/firmware/intel/sof/sof-adl-s.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-205
+FileChecksum: SHA1: ca3a1af788e2b7d210c3457b2aad9a4e3e717cf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-205
+
+
+FileName: /lib/firmware/intel/sof/sof-adl.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-206
+FileChecksum: SHA1: 53d61bf8e444a7f0c8b3e5e354989e1ccbc9b845
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-206
+
+
+FileName: /lib/firmware/intel/sof/sof-adl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-207
+FileChecksum: SHA1: 3396b4bde7d761201a2aa75d64df200402b8bd7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-207
+
+
+FileName: /lib/firmware/intel/sof/sof-apl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-208
+FileChecksum: SHA1: 711ba4cbf1ced666eaa49b3a0aa6b93d11c8666d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-208
+
+
+FileName: /lib/firmware/intel/sof/sof-cfl.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-209
+FileChecksum: SHA1: 2753b7e7739937ed55702d92841e9acc365a32b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-209
+
+
+FileName: /lib/firmware/intel/sof/sof-cfl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-210
+FileChecksum: SHA1: 9c797cbb8efddaa18bf90f52ea194d802bfd972e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-210
+
+
+FileName: /lib/firmware/intel/sof/sof-cml.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-211
+FileChecksum: SHA1: 2753b7e7739937ed55702d92841e9acc365a32b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-211
+
+
+FileName: /lib/firmware/intel/sof/sof-cml.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-212
+FileChecksum: SHA1: 9c797cbb8efddaa18bf90f52ea194d802bfd972e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-212
+
+
+FileName: /lib/firmware/intel/sof/sof-cnl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-213
+FileChecksum: SHA1: 9c797cbb8efddaa18bf90f52ea194d802bfd972e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-213
+
+
+FileName: /lib/firmware/intel/sof/sof-ehl.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-214
+FileChecksum: SHA1: 53d61bf8e444a7f0c8b3e5e354989e1ccbc9b845
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-214
+
+
+FileName: /lib/firmware/intel/sof/sof-ehl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-215
+FileChecksum: SHA1: 949a1c1c1d08e2d47aa5a04a3ad6fbadb21d21e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-215
+
+
+FileName: /lib/firmware/intel/sof/sof-glk.ldc
+SPDXID: SPDXRef-firmware-sof-signed-file-216
+FileChecksum: SHA1: 201344ac160e24a76b13f382454233d781ec58e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-216
+
+
+FileName: /lib/firmware/intel/sof/sof-glk.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-217
+FileChecksum: SHA1: 711ba4cbf1ced666eaa49b3a0aa6b93d11c8666d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-217
+
+
+FileName: /lib/firmware/intel/sof/sof-icl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-218
+FileChecksum: SHA1: ff4379c76c57d201f74e4b44f22401ae69ac0ca1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-218
+
+
+FileName: /lib/firmware/intel/sof/sof-jsl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-219
+FileChecksum: SHA1: 6864a5af9422ae928f856052a61ec0e20e515e9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-219
+
+
+FileName: /lib/firmware/intel/sof/sof-tgl-h.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-220
+FileChecksum: SHA1: ddb18811118e84305151f80fbda9676defc41aff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-220
+
+
+FileName: /lib/firmware/intel/sof/sof-tgl.ri
+SPDXID: SPDXRef-firmware-sof-signed-file-221
+FileChecksum: SHA1: 11bf1e96195eb4d43e9a1f5272483ceb2feecd68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-firmware-sof-signed CONTAINS SPDXRef-firmware-sof-signed-file-221
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-amd-historical
+LicenseName: AMD Historical License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/amd-historical.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/amd-historical.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-delorie-historical
+LicenseName: Delorie Historical License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/delorie-historical.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/delorie-historical.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-intel-osl-1993
+LicenseName: Intel Open Source License 1993
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/intel-osl-1993.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/intel-osl-1993.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-newlib-historical
+LicenseName: Newlib Historical License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/newlib-historical.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/newlib-historical.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-nilsson-historical
+LicenseName: Nilsson Historical License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/nilsson-historical.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/nilsson-historical.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-osf-1990
+LicenseName: OSF 1990 License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/osf-1990.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/osf-1990.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-other-copyleft
+LicenseName: Other Copyleft Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-copyleft.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-other-permissive
+LicenseName: Other Permissive Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-sunpro
+LicenseName: SunPro Attribution License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/sunpro.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/sunpro.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-x11-hanson
+LicenseName: X11-Style (David R. Hanson)
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-hanson.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-hanson.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-x11-lucent
+LicenseName: X11-Style (Lucent)
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-lucent.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-lucent.yml
+</text>
+
+

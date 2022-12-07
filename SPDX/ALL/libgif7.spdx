@@ -1,0 +1,116 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgif7_5.1.9-2build2-731c95e1-c191-5b0d-b1bf-fc3c2253496a
+DocumentName: libgif7_5.1.9-2build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgif7
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:11:09Z
+
+
+## Package
+
+PackageName: libgif7
+PackageVersion: 5.1.9-2build2
+SPDXID: SPDXRef-libgif7
+PackageHomePage: http://giflib.sourceforge.net/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 11abc98a0e7e21a8d55576fc057801099c38f13f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>(c) Copyright 1989 Gershon Elber
+(c) Copyright 1992 Eric Raymond
+Copyright (c) 1997 Eric S. Raymond <esr@thyrsus.com>
+Copyright (c) 2006-2009 Daniel Baumann <daniel@debian.org> 2019 David Suarez <david.sephirot@gmail.com>
+Copyright (c) 2008 Otto Moerbeek <otto@drijf.net>
+</text>
+PackageComment: <text>library for GIF images (library)
+ GIFLIB is a package of portable tools and library routines for working with GIF
+ images.
+ .
+ This package contains the library.</text>
+Relationship: SPDXRef-libgif7 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/libgif7/copyright
+SPDXID: SPDXRef-libgif7-file-0
+FileChecksum: SHA1: 70cd7062c4c259aa60a7c4b38e790fb0055aca18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright (c) 1997 Eric S. Raymond <esr@thyrsus.com>
+(c) Copyright 1992 Eric Raymond
+(c) Copyright 1989 Gershon Elber
+Copyright (c) 2008 Otto Moerbeek <otto@drijf.net>
+Copyright (c) 2006-2009 Daniel Baumann <daniel@debian.org> 2019 David Suarez <david.sephirot@gmail.com>
+</text>
+Relationship: SPDXRef-libgif7 CONTAINS SPDXRef-libgif7-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgif.so.7.1.0
+SPDXID: SPDXRef-libgif7-file-1
+FileChecksum: SHA1: d0dea5eb6b669ad66d25b1b6de3625ba99d7f84b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgif7 CONTAINS SPDXRef-libgif7-file-1
+
+
+FileName: /usr/share/doc/libgif7/NEWS.gz
+SPDXID: SPDXRef-libgif7-file-2
+FileChecksum: SHA1: 9b999a614bdc3323317db627ed5974806d591015
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgif7 CONTAINS SPDXRef-libgif7-file-2
+
+
+FileName: /usr/share/doc/libgif7/TODO
+SPDXID: SPDXRef-libgif7-file-3
+FileChecksum: SHA1: f9e8d8a0643dcb6ab5d931ce7ea4d5605ba0b26a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgif7 CONTAINS SPDXRef-libgif7-file-3
+
+
+FileName: /usr/share/doc/libgif7/changelog.Debian.gz
+SPDXID: SPDXRef-libgif7-file-4
+FileChecksum: SHA1: 92bfbaf44643f811420a9d211a9d9b7a14590384
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgif7 CONTAINS SPDXRef-libgif7-file-4
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgif.so.7
+SPDXID: SPDXRef-libgif7-file-5
+FileChecksum: SHA1: d0dea5eb6b669ad66d25b1b6de3625ba99d7f84b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgif7 CONTAINS SPDXRef-libgif7-file-5
+
+
+## Extracted License
+

@@ -1,0 +1,2806 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/yaru-theme-gnome-shell_22.04.4-e819b587-7325-5edb-a98b-50c03b4e1736
+DocumentName: yaru-theme-gnome-shell_22.04.4
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-yaru-theme-gnome-shell
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:13:10Z
+
+
+## Package
+
+PackageName: yaru-theme-gnome-shell
+PackageVersion: 22.04.4
+SPDXID: SPDXRef-yaru-theme-gnome-shell
+PackageHomePage: https://community.ubuntu.com/c/desktop/theme-refresh
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 94c871ee522f54f0ace66fd27c4bac26a9ebdbd0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Yaru GNOME Shell desktop theme from the Ubuntu Community
+ This is the theme, better than a burrito, that is shaped by the community
+ on the Ubuntu discourse.
+ .
+ This package contains the GNOME Shell theme part
+ .
+ If you want to follow development, more information here:
+ https://community.ubuntu.com/c/desktop/theme-refresh.</text>
+
+
+## File
+
+FileName: /usr/share/doc/yaru-theme-gnome-shell/changelog.gz
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-0
+FileChecksum: SHA1: 37ce231ecd6ed94b72b89ab9934cdb7bf71eb62f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-0
+
+
+FileName: /usr/share/doc/yaru-theme-gnome-shell/copyright
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-1
+FileChecksum: SHA1: 18af6fd71d066b5caa949074bd32fdd142f8d59d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-1
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-2
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-2
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-3
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-3
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/checkbox-focused-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-4
+FileChecksum: SHA1: 7fc9b342d55ae279c86270788db48c07cd1ec0bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-4
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/checkbox-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-5
+FileChecksum: SHA1: 809ee9f7750539e1889c490f4875a5c3a84f63df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-5
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/checkbox-off-focused-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-6
+FileChecksum: SHA1: bde96a3d8672855e12bf2837a016c031e45f3c51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-6
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/checkbox-off-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-7
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-7
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-8
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-8
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/gnome-shell-high-contrast.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-9
+FileChecksum: SHA1: 83d7304eaa550fd6824a04935d9601ce088cecb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-9
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/gnome-shell-icons.gresource
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-10
+FileChecksum: SHA1: c2cf6fcdc92473f60ea798fe3e238c5d9237fbec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-10
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-11
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-11
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-12
+FileChecksum: SHA1: b7745b0454b9d0c10598e1e4a2bf72713bf16163
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-12
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-13
+FileChecksum: SHA1: bd77f158f6937bacd69f69d0f7b8d7168c0233d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-13
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-14
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-14
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-15
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-15
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-16
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-16
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/toggle-off-hc-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-17
+FileChecksum: SHA1: 22fd71d48d3e7871631605a4c3d6dcc0287b1784
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-17
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/toggle-off-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-18
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-18
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/toggle-on-hc-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-19
+FileChecksum: SHA1: 4b76fa146f9ffe76bc1e8ef49c4d30af2554562c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-19
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/toggle-on-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-20
+FileChecksum: SHA1: 6195660c86bc438400425667cf2108b9c67e19dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-20
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-21
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-21
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-22
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-22
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-23
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-23
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/checkbox-bark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-24
+FileChecksum: SHA1: f3401c14a1b1c6683c041812230a04441a9be9af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-24
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/checkbox-focused-bark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-25
+FileChecksum: SHA1: 560aef439d9b2d9035682787504269e76503789b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-25
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/checkbox-off-bark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-26
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-26
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/checkbox-off-focused-bark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-27
+FileChecksum: SHA1: 8eec9865dfa39d1942e71486ef6db974a4239168
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-27
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-28
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-28
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-29
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-29
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-30
+FileChecksum: SHA1: b675d57922797c9b66aee142d23baecee4be65c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-30
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-31
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-31
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-32
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-32
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-33
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-33
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/toggle-off-bark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-34
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-34
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/toggle-on-bark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-35
+FileChecksum: SHA1: b1c8df161bb10e230fa6716cbc6d56d988e4ef79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-35
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-36
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-36
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-37
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-37
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-38
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-38
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/checkbox-bark-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-39
+FileChecksum: SHA1: f3401c14a1b1c6683c041812230a04441a9be9af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-39
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/checkbox-focused-bark-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-40
+FileChecksum: SHA1: a8d30ebbc542bedc81d4a44fe2558cda4e02747a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-40
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/checkbox-off-bark-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-41
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-41
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/checkbox-off-focused-bark-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-42
+FileChecksum: SHA1: 8d487c4eb9015ce0f7024bf3b8666aa4209e1c0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-42
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-43
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-43
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-44
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-44
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-45
+FileChecksum: SHA1: 0f3cdf8783ed968cd1d8d8a8cfc4af910205a076
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-45
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-46
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-46
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-47
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-47
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-48
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-48
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/toggle-off-bark-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-49
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-49
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/toggle-on-bark-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-50
+FileChecksum: SHA1: b1c8df161bb10e230fa6716cbc6d56d988e4ef79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-50
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-bark-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-51
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-51
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-52
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-52
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-53
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-53
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/checkbox-blue.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-54
+FileChecksum: SHA1: 794546648ae7798551c1010f8ad3bc58fc3505e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-54
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/checkbox-focused-blue.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-55
+FileChecksum: SHA1: 1e61ea26f7d18b41d5a16a4ab30f2d7c2572746c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-55
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/checkbox-off-blue.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-56
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-56
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/checkbox-off-focused-blue.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-57
+FileChecksum: SHA1: 7eb55b03c30f0aae38056104d325ef8b371723df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-57
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-58
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-58
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-59
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-59
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-60
+FileChecksum: SHA1: 0a51a4893b5f7d0faabaecf078ebe31aecfe0ee3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-60
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-61
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-61
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-62
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-62
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-63
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-63
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/toggle-off-blue.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-64
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-64
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/toggle-on-blue.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-65
+FileChecksum: SHA1: b10b2fdff7384aa3bf288484d46cf3d80cd2bf21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-65
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-66
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-66
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-67
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-67
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-68
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-68
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/checkbox-blue-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-69
+FileChecksum: SHA1: 794546648ae7798551c1010f8ad3bc58fc3505e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-69
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/checkbox-focused-blue-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-70
+FileChecksum: SHA1: 8857932091470643006dff4dfaf167b220add52c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-70
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/checkbox-off-blue-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-71
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-71
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/checkbox-off-focused-blue-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-72
+FileChecksum: SHA1: f61919558a5c6aa0424a6c33b614b9f285a4b7d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-72
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-73
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-73
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-74
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-74
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-75
+FileChecksum: SHA1: 85e34fb683e51572c6967be7dfe86afdbe191d6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-75
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-76
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-76
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-77
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-77
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-78
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-78
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/toggle-off-blue-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-79
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-79
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/toggle-on-blue-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-80
+FileChecksum: SHA1: b10b2fdff7384aa3bf288484d46cf3d80cd2bf21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-80
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-blue-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-81
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-81
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-82
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-82
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-83
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-83
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/checkbox-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-84
+FileChecksum: SHA1: 809ee9f7750539e1889c490f4875a5c3a84f63df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-84
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/checkbox-focused-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-85
+FileChecksum: SHA1: 4c8bf071df6258dbe687fedb4e02708de5e32398
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-85
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/checkbox-off-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-86
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-86
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/checkbox-off-focused-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-87
+FileChecksum: SHA1: b730e86d58faccafa022f2ca42119ebe4445d0c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-87
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-88
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-88
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-89
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-89
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-90
+FileChecksum: SHA1: 83f27de6eff850094728496a44d43aa0db6a0eab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-90
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-91
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-91
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-92
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-92
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-93
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-93
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/toggle-off-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-94
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-94
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/toggle-on-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-95
+FileChecksum: SHA1: 6195660c86bc438400425667cf2108b9c67e19dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-95
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-96
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-96
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-97
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-97
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-98
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-98
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/checkbox-focused-magenta.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-99
+FileChecksum: SHA1: 2980c683b9f6cdc067fdddf20453b2d80cf97807
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-99
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/checkbox-magenta.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-100
+FileChecksum: SHA1: a3d0fc031ec20aaa584ff9b86e88430e41b752c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-100
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/checkbox-off-focused-magenta.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-101
+FileChecksum: SHA1: 0399bc3b57b1805c30514d8705e4c96979c5398b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-101
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/checkbox-off-magenta.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-102
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-102
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-103
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-103
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-104
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-104
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-105
+FileChecksum: SHA1: ff98046e8543151be445012ba49c25e814b58a87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-105
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-106
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-106
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-107
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-107
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-108
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-108
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/toggle-off-magenta.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-109
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-109
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/toggle-on-magenta.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-110
+FileChecksum: SHA1: 1e3a022b8c77f4f98648dd225a290de71f98f294
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-110
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-111
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-111
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-112
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-112
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-113
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-113
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/checkbox-focused-magenta-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-114
+FileChecksum: SHA1: 4b8a08f761318c74783a23428e34d35a2a59e60d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-114
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/checkbox-magenta-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-115
+FileChecksum: SHA1: a3d0fc031ec20aaa584ff9b86e88430e41b752c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-115
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/checkbox-off-focused-magenta-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-116
+FileChecksum: SHA1: 54e9acd45cdc9a6cb2941d93a5346f407e6219fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-116
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/checkbox-off-magenta-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-117
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-117
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-118
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-118
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-119
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-119
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-120
+FileChecksum: SHA1: 4208fcd72df0e7e859484611065e87e6258ab5f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-120
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-121
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-121
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-122
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-122
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-123
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-123
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/toggle-off-magenta-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-124
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-124
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/toggle-on-magenta-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-125
+FileChecksum: SHA1: 1e3a022b8c77f4f98648dd225a290de71f98f294
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-125
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-magenta-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-126
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-126
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-127
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-127
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-128
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-128
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/checkbox-focused-olive.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-129
+FileChecksum: SHA1: a4bf5f9df928bdb46e92e32ce61c6c532f4ff6cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-129
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/checkbox-off-focused-olive.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-130
+FileChecksum: SHA1: 68fc52995da928f22420d8912139a8fbb5d27a23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-130
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/checkbox-off-olive.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-131
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-131
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/checkbox-olive.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-132
+FileChecksum: SHA1: 5e57802a72f6482e157c1ecd601cd57e9f2bf9b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-132
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-133
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-133
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-134
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-134
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-135
+FileChecksum: SHA1: 4ade7235a21a88823faa63ef5c19b93f34cf6c4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-135
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-136
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-136
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-137
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-137
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-138
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-138
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/toggle-off-olive.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-139
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-139
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/toggle-on-olive.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-140
+FileChecksum: SHA1: f788036b0f682663ab294c7938a3198756fe3775
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-140
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-141
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-141
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-142
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-142
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-143
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-143
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/checkbox-focused-olive-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-144
+FileChecksum: SHA1: 46b5e986e21e5051293c1320aca97a28e080eaa6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-144
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/checkbox-off-focused-olive-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-145
+FileChecksum: SHA1: 307def0b4a4a7e55130530625fcaf62f0e8e5b99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-145
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/checkbox-off-olive-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-146
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-146
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/checkbox-olive-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-147
+FileChecksum: SHA1: 5e57802a72f6482e157c1ecd601cd57e9f2bf9b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-147
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-148
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-148
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-149
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-149
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-150
+FileChecksum: SHA1: dd25d4ab179102e5c0a0455568bf621a3beb6e5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-150
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-151
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-151
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-152
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-152
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-153
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-153
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/toggle-off-olive-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-154
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-154
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/toggle-on-olive-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-155
+FileChecksum: SHA1: f788036b0f682663ab294c7938a3198756fe3775
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-155
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-olive-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-156
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-156
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-157
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-157
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-158
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-158
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/checkbox-focused-prussiangreen.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-159
+FileChecksum: SHA1: 350359262a83c06348e04e8fb40cd81a3024fb25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-159
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/checkbox-off-focused-prussiangreen.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-160
+FileChecksum: SHA1: c941bba43235e2bbf8b274ab92ffba96db7ca328
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-160
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/checkbox-off-prussiangreen.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-161
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-161
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/checkbox-prussiangreen.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-162
+FileChecksum: SHA1: 0c7e9e257bcf954cacea6059d052684aa74320e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-162
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-163
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-163
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-164
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-164
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-165
+FileChecksum: SHA1: 843b23ab483ff4b0a5792064d77b169361d97667
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-165
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-166
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-166
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-167
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-167
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-168
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-168
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/toggle-off-prussiangreen.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-169
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-169
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/toggle-on-prussiangreen.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-170
+FileChecksum: SHA1: 8c488829a9f5a2f85b8c2250107f745f234e6d4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-170
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-171
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-171
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-172
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-172
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-173
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-173
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/checkbox-focused-prussiangreen-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-174
+FileChecksum: SHA1: de8686c3cc79fa929a70092dfb15e6f671fd9d48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-174
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/checkbox-off-focused-prussiangreen-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-175
+FileChecksum: SHA1: 1e6a3c6ed9e0602c19bc2ad3df32f0a68efbab9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-175
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/checkbox-off-prussiangreen-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-176
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-176
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/checkbox-prussiangreen-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-177
+FileChecksum: SHA1: 0c7e9e257bcf954cacea6059d052684aa74320e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-177
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-178
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-178
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-179
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-179
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-180
+FileChecksum: SHA1: 99d41df614d79054b10661072e475348b1be5251
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-180
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-181
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-181
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-182
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-182
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-183
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-183
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/toggle-off-prussiangreen-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-184
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-184
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/toggle-on-prussiangreen-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-185
+FileChecksum: SHA1: 8c488829a9f5a2f85b8c2250107f745f234e6d4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-185
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-prussiangreen-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-186
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-186
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-187
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-187
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-188
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-188
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/checkbox-focused-purple.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-189
+FileChecksum: SHA1: e4621ff3f5767afd8b29e20351501327c17275d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-189
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/checkbox-off-focused-purple.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-190
+FileChecksum: SHA1: 4914c877a12663eb1ac8d4cf9b5c985c97315939
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-190
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/checkbox-off-purple.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-191
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-191
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/checkbox-purple.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-192
+FileChecksum: SHA1: 8febd8fb1fa2510aa41f21b204334054a4b3fb23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-192
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-193
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-193
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-194
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-194
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-195
+FileChecksum: SHA1: 18d366e99ad82072e4ff10414cecbd3d6b7bcf44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-195
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-196
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-196
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-197
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-197
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-198
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-198
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/toggle-off-purple.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-199
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-199
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/toggle-on-purple.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-200
+FileChecksum: SHA1: 5341e8dad87b486945d5a7a7b407b36fbd0ad2b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-200
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-201
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-201
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-202
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-202
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-203
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-203
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/checkbox-focused-purple-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-204
+FileChecksum: SHA1: 3d7ac90af02cba3744500a2a93252b71b47ad3cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-204
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/checkbox-off-focused-purple-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-205
+FileChecksum: SHA1: a39dce19129458f38d1b8aa18077ff40ecd61252
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-205
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/checkbox-off-purple-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-206
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-206
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/checkbox-purple-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-207
+FileChecksum: SHA1: 8febd8fb1fa2510aa41f21b204334054a4b3fb23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-207
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-208
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-208
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-209
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-209
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-210
+FileChecksum: SHA1: 254101012120c992bdeeb40e1aecd265b5a9e98c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-210
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-211
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-211
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-212
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-212
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-213
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-213
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/toggle-off-purple-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-214
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-214
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/toggle-on-purple-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-215
+FileChecksum: SHA1: 5341e8dad87b486945d5a7a7b407b36fbd0ad2b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-215
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-purple-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-216
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-216
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-217
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-217
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-218
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-218
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/checkbox-focused-red.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-219
+FileChecksum: SHA1: 7de5a9f309514b251581108d8cb4a9ef43e6b0ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-219
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/checkbox-off-focused-red.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-220
+FileChecksum: SHA1: 563bdf3515de33c55f51826a818b818fb2aebb5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-220
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/checkbox-off-red.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-221
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-221
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/checkbox-red.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-222
+FileChecksum: SHA1: 74299bd7a1b843f54cc9950025b726f9e6362b6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-222
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-223
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-223
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-224
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-224
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-225
+FileChecksum: SHA1: 2c9b73ef9036fb71a1c8c5742b216ec65d8b1754
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-225
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-226
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-226
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-227
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-227
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-228
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-228
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/toggle-off-red.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-229
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-229
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/toggle-on-red.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-230
+FileChecksum: SHA1: 1825f03fcc3f2b2a78276955b6bade33cdd2a70f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-230
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-231
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-231
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-232
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-232
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-233
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-233
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/checkbox-focused-red-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-234
+FileChecksum: SHA1: cbea98dfd601aba043072204505c836539803525
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-234
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/checkbox-off-focused-red-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-235
+FileChecksum: SHA1: 7303ac939a33f6d44c160287178a20aa5c3b40a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-235
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/checkbox-off-red-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-236
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-236
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/checkbox-red-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-237
+FileChecksum: SHA1: 74299bd7a1b843f54cc9950025b726f9e6362b6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-237
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-238
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-238
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-239
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-239
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-240
+FileChecksum: SHA1: d838908d18d9b118319639b71cb8f9c3559b4897
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-240
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-241
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-241
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-242
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-242
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-243
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-243
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/toggle-off-red-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-244
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-244
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/toggle-on-red-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-245
+FileChecksum: SHA1: 1825f03fcc3f2b2a78276955b6bade33cdd2a70f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-245
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-red-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-246
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-246
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-247
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-247
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-248
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-248
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/checkbox-focused-sage.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-249
+FileChecksum: SHA1: 3ef75ac1134338b0ccf61fda4c8cf6b4e8d7c256
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-249
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/checkbox-off-focused-sage.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-250
+FileChecksum: SHA1: 08e0090661d1be06b926f5d5697715d3431ec29b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-250
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/checkbox-off-sage.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-251
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-251
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/checkbox-sage.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-252
+FileChecksum: SHA1: f1e3b7584c5c2ff0bf8893f895ad6aa538811b0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-252
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-253
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-253
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-254
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-254
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-255
+FileChecksum: SHA1: fe6d3997a4582d1e956f105cedef6462ef4b6300
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-255
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-256
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-256
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-257
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-257
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-258
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-258
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/toggle-off-sage.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-259
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-259
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/toggle-on-sage.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-260
+FileChecksum: SHA1: 19c7a2a3e979ee8be0307b77dcc0ba5c1ac2d55b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-260
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-261
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-261
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-262
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-262
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-263
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-263
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/checkbox-focused-sage-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-264
+FileChecksum: SHA1: 9ea86fef9d7f8de3774432b96dcca9941311fd7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-264
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/checkbox-off-focused-sage-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-265
+FileChecksum: SHA1: 713ac61e9ae9f1c197ab8be69eb1f8b36a7892d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-265
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/checkbox-off-sage-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-266
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-266
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/checkbox-sage-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-267
+FileChecksum: SHA1: f1e3b7584c5c2ff0bf8893f895ad6aa538811b0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-267
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-268
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-268
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-269
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-269
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-270
+FileChecksum: SHA1: dee5b2468bad0f150ddba37e72ac9edf1cea0309
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-270
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-271
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-271
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-272
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-272
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-273
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-273
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/toggle-off-sage-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-274
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-274
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/toggle-on-sage-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-275
+FileChecksum: SHA1: 19c7a2a3e979ee8be0307b77dcc0ba5c1ac2d55b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-275
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-sage-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-276
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-276
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-277
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-277
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-278
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-278
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/checkbox-focused-viridian.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-279
+FileChecksum: SHA1: a48a92aca6c14f470ca568a704351d7938f33de0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-279
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/checkbox-off-focused-viridian.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-280
+FileChecksum: SHA1: ca6eb4c06ba59b57e52e240b364b058577fb8386
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-280
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/checkbox-off-viridian.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-281
+FileChecksum: SHA1: c99bba9de07bddc4928b68688c087347e86107e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-281
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/checkbox-viridian.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-282
+FileChecksum: SHA1: 2c93dbda738a979f7c0523456fc6c0f9dd0253f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-282
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-283
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-283
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-284
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-284
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-285
+FileChecksum: SHA1: 2e715870e9b7464e2931f9cfb454659ca1e58e82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-285
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-286
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-286
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-287
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-287
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-288
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-288
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/toggle-off-viridian.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-289
+FileChecksum: SHA1: 85dddf267c7bdf5b107a6f94b2ea1d194f71f40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-289
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/toggle-on-viridian.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-290
+FileChecksum: SHA1: 071dac1296563a5907a4b6a12ba3dc5e805a1905
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-290
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-291
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-291
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/calendar-today-light.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-292
+FileChecksum: SHA1: 5a0cd0606c0e57d6f66874099867f82b5d347e74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-292
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/calendar-today.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-293
+FileChecksum: SHA1: 520a2f9a640ad1b12fcf1154e79aa5c2f91673f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-293
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/checkbox-focused-viridian-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-294
+FileChecksum: SHA1: 80a4be32e0af5d5af6150a1bf673488f0559db50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-294
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/checkbox-off-focused-viridian-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-295
+FileChecksum: SHA1: 921bf8ee341bfbdccbc1abdf113d3030c0f13c38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-295
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/checkbox-off-viridian-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-296
+FileChecksum: SHA1: be5d39a814bd503029cb4b8f2cff2e133604182a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-296
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/checkbox-viridian-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-297
+FileChecksum: SHA1: 2c93dbda738a979f7c0523456fc6c0f9dd0253f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-297
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/dash-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-298
+FileChecksum: SHA1: 8be934880fb20b6b6aadb4d2b95fd5fe42bb675c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-298
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/gnome-shell-start.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-299
+FileChecksum: SHA1: dc9e6fca80a4641d4a7372a76491ff94e3a0b051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-299
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/gnome-shell.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-300
+FileChecksum: SHA1: 978076172438ba3da5c894911fabb0e2e3b22b8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-300
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/pad-osd.css
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-301
+FileChecksum: SHA1: 2fd19f366898d7be0185f28ea9aa853de2ec8a19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-301
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/process-working.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-302
+FileChecksum: SHA1: 534dff1842e0cbd862a3b6bb900bda85c4386745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-302
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/running-indicator.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-303
+FileChecksum: SHA1: 99eb5ef89316cdbafc23354136fec0aaad7b1255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-303
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/toggle-off-viridian-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-304
+FileChecksum: SHA1: ae9abcc9351899d20182d6ca1ea74ad0985dc4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-304
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/toggle-on-viridian-dark.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-305
+FileChecksum: SHA1: 071dac1296563a5907a4b6a12ba3dc5e805a1905
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-305
+
+
+FileName: /usr/share/gnome-shell/theme/Yaru-viridian-dark/workspace-placeholder.svg
+SPDXID: SPDXRef-yaru-theme-gnome-shell-file-306
+FileChecksum: SHA1: dd8483f168d9f632806e8c3f4309a1993bc37f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-yaru-theme-gnome-shell CONTAINS SPDXRef-yaru-theme-gnome-shell-file-306
+
+
+## Extracted License
+

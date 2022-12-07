@@ -1,0 +1,129 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-lohit-mlym_2.92.2-2-f183a727-2024-50f4-a679-06159b06c29e
+DocumentName: fonts-lohit-mlym_2.92.2-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-lohit-mlym
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:54:54Z
+
+
+## Package
+
+PackageName: fonts-lohit-mlym
+PackageVersion: 2.92.2-2
+SPDXID: SPDXRef-fonts-lohit-mlym
+PackageHomePage: https://pagure.io/lohit
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3bbc3e43cee334b4a86f1d5cb64d22c268baf17d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2006 Modular Infotech Pvt Ltd. 2009 Red Hat, Inc.
+Copyright 2011 Vasudev Kamath <kamathvasudev@gmail.com>
+Copyright 2017 Pravin Satpute
+</text>
+PackageComment: <text>Lohit TrueType font for Malayalam Language
+ This package provides Lohit TrueType font for Malayalam
+ language (ml), which is primarily spoken in the Indian
+ state of Kerala.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-lohit-mlym/copyright
+SPDXID: SPDXRef-fonts-lohit-mlym-file-0
+FileChecksum: SHA1: a89eb6173b0959082d3bb4e66bbcfce5c56ed3de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2006 Modular Infotech Pvt Ltd. 2009 Red Hat, Inc.
+Copyright 2011 Vasudev Kamath <kamathvasudev@gmail.com>
+Copyright 2017 Pravin Satpute
+</text>
+Relationship: SPDXRef-fonts-lohit-mlym CONTAINS SPDXRef-fonts-lohit-mlym-file-0
+
+
+FileName: /etc/fonts/conf.avail/67-lohit-malayalam.conf
+SPDXID: SPDXRef-fonts-lohit-mlym-file-1
+FileChecksum: SHA1: b4ef8fa2ad23e0c556f14c7839dfbbbdc794d1f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-mlym CONTAINS SPDXRef-fonts-lohit-mlym-file-1
+
+
+FileName: /usr/share/doc/fonts-lohit-mlym/AUTHORS
+SPDXID: SPDXRef-fonts-lohit-mlym-file-2
+FileChecksum: SHA1: 3bd42b90ab3cf946ba553c4ab651d98477a23864
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-mlym CONTAINS SPDXRef-fonts-lohit-mlym-file-2
+
+
+FileName: /usr/share/doc/fonts-lohit-mlym/README
+SPDXID: SPDXRef-fonts-lohit-mlym-file-3
+FileChecksum: SHA1: 48dae9c3f1a979c7dff31e2ecc1e831e612ac4fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-mlym CONTAINS SPDXRef-fonts-lohit-mlym-file-3
+
+
+FileName: /usr/share/doc/fonts-lohit-mlym/README.Debian
+SPDXID: SPDXRef-fonts-lohit-mlym-file-4
+FileChecksum: SHA1: 3a10ceae133874edcace944514b3789bee709897
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-mlym CONTAINS SPDXRef-fonts-lohit-mlym-file-4
+
+
+FileName: /usr/share/doc/fonts-lohit-mlym/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-lohit-mlym-file-5
+FileChecksum: SHA1: 9a43caca9d12b9369183f00ab23a360b686db151
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-mlym CONTAINS SPDXRef-fonts-lohit-mlym-file-5
+
+
+FileName: /usr/share/fonts/truetype/lohit-malayalam/Lohit-Malayalam.ttf
+SPDXID: SPDXRef-fonts-lohit-mlym-file-6
+FileChecksum: SHA1: 90812826ad8f6880ff09cf288e61e6596d71f2e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-mlym CONTAINS SPDXRef-fonts-lohit-mlym-file-6
+
+
+FileName: /usr/share/metainfo/io.pagure.lohit.malayalam.font.metainfo.xml
+SPDXID: SPDXRef-fonts-lohit-mlym-file-7
+FileChecksum: SHA1: 4faac36bed751c4464d055b74428c10b1c3312a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-mlym CONTAINS SPDXRef-fonts-lohit-mlym-file-7
+
+
+## Extracted License
+

@@ -1,0 +1,102 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libmono-rabbitmq4.0-cil_6.8.0.105+dfsg-3.2-3161ad92-ab21-5601-b5c7-773b4ebbb5eb
+DocumentName: libmono-rabbitmq4.0-cil_6.8.0.105+dfsg-3.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-ca-certificates-mono.Cycle http://spdx.org/spdxdocs/ca-certificates-mono_6.8.0.105+dfsg-3.2-c951f9c2-6361-534d-bcb4-c06bc84abd54 SHA1: 271b3673ebfed6a1e989dcd394aac0dd5752c4e0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmono-rabbitmq4.0-cil
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:40:20Z
+
+
+## Package
+
+PackageName: libmono-rabbitmq4.0-cil
+PackageVersion: 6.8.0.105+dfsg-3.2
+SPDXID: SPDXRef-libmono-rabbitmq4.0-cil
+PackageHomePage: http://mono-project.com/SystemMessaging
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f5595bcd447a7d0f8e25ac617876dd258e69909c
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: MPL-1.1
+PackageCopyrightText: <text>(c) 2007-2009 Cohesive Financial Technologies
+(c) 2007-2009 LShift Ltd., Cohesive Financial
+(c) 2007-2009 Rabbit Technologies Ltd
+Copyright (c) 2003 Ximian, Inc. http://www.ximian.com
+</text>
+PackageComment: <text>Mono RabbitMQ.Client library (for CLI 4.0)
+ Mono is a platform for running and developing applications based on the
+ ECMA/ISO Standards. Mono is an open source effort led by Xamarin.
+ Mono provides a complete CLR (Common Language Runtime) including compiler
+ and
+ runtime, which can produce and execute CIL (Common Intermediate Language)
+ bytecode (aka assemblies), and a class library.
+ .
+ This package contains the RabbitMQ.Client library for CLI 4.0.</text>
+Relationship: SPDXRef-libmono-rabbitmq4.0-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-corlib4.5-cil
+Relationship: SPDXRef-libmono-rabbitmq4.0-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system-xml4.0-cil
+Relationship: SPDXRef-libmono-rabbitmq4.0-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system4.0-cil
+
+
+## File
+
+FileName: /usr/share/doc/libmono-rabbitmq4.0-cil/copyright
+SPDXID: SPDXRef-libmono-rabbitmq4.0-cil-file-0
+FileChecksum: SHA1: 84f0074d22a9a299d13e2db31eb3fa2344678de2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MPL-1.1
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (c) 2003 Ximian, Inc. http://www.ximian.com
+(c) 2007-2009 Cohesive Financial Technologies
+(c) 2007-2009 LShift Ltd., Cohesive Financial
+(c) 2007-2009 Rabbit Technologies Ltd
+</text>
+Relationship: SPDXRef-libmono-rabbitmq4.0-cil CONTAINS SPDXRef-libmono-rabbitmq4.0-cil-file-0
+
+
+FileName: /usr/lib/mono/gac/RabbitMQ.Client/4.0.0.0__b03f5f7f11d50a3a/RabbitMQ.Client.dll
+SPDXID: SPDXRef-libmono-rabbitmq4.0-cil-file-1
+FileChecksum: SHA1: c42904051bd763645218a6e1c6429923f1a18436
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-rabbitmq4.0-cil CONTAINS SPDXRef-libmono-rabbitmq4.0-cil-file-1
+
+
+FileName: /usr/lib/mono/4.5/RabbitMQ.Client.dll
+SPDXID: SPDXRef-libmono-rabbitmq4.0-cil-file-2
+FileChecksum: SHA1: c42904051bd763645218a6e1c6429923f1a18436
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-rabbitmq4.0-cil CONTAINS SPDXRef-libmono-rabbitmq4.0-cil-file-2
+
+
+FileName: /usr/share/doc/libmono-rabbitmq4.0-cil/changelog.Debian.gz
+SPDXID: SPDXRef-libmono-rabbitmq4.0-cil-file-3
+FileChecksum: SHA1: 719d5eb5d0508ac8e85c489e2464a4d19b21b46a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmono-rabbitmq4.0-cil CONTAINS SPDXRef-libmono-rabbitmq4.0-cil-file-3
+
+
+## Extracted License
+

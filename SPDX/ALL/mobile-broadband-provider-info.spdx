@@ -1,0 +1,128 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/mobile-broadband-provider-info_20220315-1-5ae2e87b-6e0f-5124-bed0-2156d95dc3de
+DocumentName: mobile-broadband-provider-info_20220315-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mobile-broadband-provider-info
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:13:22Z
+
+
+## Package
+
+PackageName: mobile-broadband-provider-info
+PackageVersion: 20220315-1
+SPDXID: SPDXRef-mobile-broadband-provider-info
+PackageHomePage: https://wiki.gnome.org/Projects/NetworkManager/MobileBroadband/ServiceProviders
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 32aab17faf5fb457b5998c0bed8ccc8203dd66b7
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-PDDC
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: <text>Copyright 2008-2022 Antti Kaijanmaki <antti@kaijanmaki.net> , Dan Williams <dcbw@redhat.com> , Jiri Klimes <jklimes@redhat.com>
+Copyright 2009 Daniel Baumann <daniel@debian.org> 2009-2017 Bhavani Shankar <bhavi@ubuntu.com> 2016 W. Martin Borgert <debacle@debian.org> 2019-2022 Graham Inggs <ginggs@debian.org>
+</text>
+PackageComment: <text>database of mobile broadband service providers
+ This package contains a database of provider-specific settings of mobile
+ broadband providers in different countries. Its functioning through Network
+ Manager makes it easy for users to choose their mobile broadband service
+ provider.
+ .
+ The database contains information relevant to mobile networks access point
+ usage, such as APN (access point name), username, password, etc.</text>
+
+
+## File
+
+FileName: /usr/share/doc/mobile-broadband-provider-info/copyright
+SPDXID: SPDXRef-mobile-broadband-provider-info-file-0
+FileChecksum: SHA1: 90cfe984f8a2628f815dbe1db70307e5a1a5a547
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: CC-PDDC
+FileCopyrightText: <text>Copyright 2008-2022 Antti Kaijanmaki <antti@kaijanmaki.net> , Dan Williams <dcbw@redhat.com> , Jiri Klimes <jklimes@redhat.com>
+Copyright 2009 Daniel Baumann <daniel@debian.org> 2009-2017 Bhavani Shankar <bhavi@ubuntu.com> 2016 W. Martin Borgert <debacle@debian.org> 2019-2022 Graham Inggs <ginggs@debian.org>
+</text>
+Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-0
+
+
+FileName: /usr/share/doc/mobile-broadband-provider-info/README
+SPDXID: SPDXRef-mobile-broadband-provider-info-file-1
+FileChecksum: SHA1: 6a0e20da64ea36370d2ffa04fcb9a39554b9b1b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-1
+
+
+FileName: /usr/share/doc/mobile-broadband-provider-info/changelog.Debian.gz
+SPDXID: SPDXRef-mobile-broadband-provider-info-file-2
+FileChecksum: SHA1: b7fb15773dfd1304392e007ff864aec2f9568096
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-2
+
+
+FileName: /usr/share/mobile-broadband-provider-info/apns-conf.xml
+SPDXID: SPDXRef-mobile-broadband-provider-info-file-3
+FileChecksum: SHA1: ea89cdaf880157d8a908a6c7f07be9455f0d1271
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-3
+
+
+FileName: /usr/share/mobile-broadband-provider-info/serviceproviders.2.dtd
+SPDXID: SPDXRef-mobile-broadband-provider-info-file-4
+FileChecksum: SHA1: 1d11d7d3035a33b8d3cd014ef730d9f447686d0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-4
+
+
+FileName: /usr/share/mobile-broadband-provider-info/serviceproviders.xml
+SPDXID: SPDXRef-mobile-broadband-provider-info-file-5
+FileChecksum: SHA1: 06f2ff66ac39f56455b35ae77ab2be9bc4c256c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-5
+
+
+FileName: /usr/share/pkgconfig/mobile-broadband-provider-info.pc
+SPDXID: SPDXRef-mobile-broadband-provider-info-file-6
+FileChecksum: SHA1: dc87227c4f37a498c471889f9960e6349447fc33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mobile-broadband-provider-info CONTAINS SPDXRef-mobile-broadband-provider-info-file-6
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

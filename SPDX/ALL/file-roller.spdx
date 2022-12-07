@@ -1,0 +1,758 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/file-roller_3.42.0-1-8be7caba-cad5-5950-ab31-73ee5f2af47d
+DocumentName: file-roller_3.42.0-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-file-roller
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:50:35Z
+
+
+## Package
+
+PackageName: file-roller
+PackageVersion: 3.42.0-1
+SPDXID: SPDXRef-file-roller
+PackageHomePage: https://wiki.gnome.org/Apps/FileRoller
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: a85885849071f1bef28a08a65f13c355a8d39482
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2001, 2003-2008 Free Software Foundation, Inc.
+Copyright 2007 Mathias Hasselmann 2001 Ben Tea Spoons, Inc. 2005 Free Software Foundation, Inc.
+</text>
+PackageComment: <text>archive manager for GNOME
+ File-roller is an archive manager for the GNOME environment. It allows you to:
+ .
+  * Create and modify archives.
+  * View the content of an archive.
+  * View a file contained in an archive.
+  * Extract files from the archive.
+ .
+ File-roller supports the following formats:
+  * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+  * Zip archives (.zip)
+  * Jar archives (.jar, .ear, .war)
+  * 7z archives (.7z)
+  * iso9660 CD images (.iso)
+  * Lha archives (.lzh)
+  * Archiver archives (.ar)
+  * Comic book archives (.cbz)
+  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+ .
+ File-roller can extract following formats:
+  * Cabinet archives (.cab)
+  * Debian binary packages (.deb)
+  * Xar archives (.xar)
+ .
+ File-roller doesn't perform archive operations by itself, but relies on
+ standard tools for this.</text>
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-bzip2
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-unzip
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zip
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libarchive13
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libhandy-1-0
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjson-glib-1.0-0
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnautilus-extension1a
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnotify4
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gvfs
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-yelp
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xz-utils
+Relationship: SPDXRef-file-roller DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-squashfs-tools
+
+
+## File
+
+FileName: /usr/share/doc/file-roller/copyright
+SPDXID: SPDXRef-file-roller-file-0
+FileChecksum: SHA1: 36160de0c415fb8fbb2b9357b7fa81d8137244d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2001, 2003-2008 Free Software Foundation, Inc.
+Copyright 2007 Mathias Hasselmann 2001 Ben Tea Spoons, Inc. 2005 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-0
+
+
+FileName: /usr/bin/file-roller
+SPDXID: SPDXRef-file-roller-file-1
+FileChecksum: SHA1: 7c082bb0bae7ab2e25df8ce9301b88a3c6b1ef81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/nautilus/extensions-3.0/libnautilus-fileroller.so
+SPDXID: SPDXRef-file-roller-file-2
+FileChecksum: SHA1: 10a809479b265c9601102600ff30f754ce351301
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-2
+
+
+FileName: /usr/libexec/file-roller/isoinfo.sh
+SPDXID: SPDXRef-file-roller-file-3
+FileChecksum: SHA1: 497e477b8be9a9ea14173bb9c59f2ea5d1f3f0d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-3
+
+
+FileName: /usr/libexec/file-roller/rpm2cpio
+SPDXID: SPDXRef-file-roller-file-4
+FileChecksum: SHA1: 966b6b41e0ab4e1a749af580f9a0ed1e21cef342
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-4
+
+
+FileName: /usr/share/applications/org.gnome.FileRoller.desktop
+SPDXID: SPDXRef-file-roller-file-5
+FileChecksum: SHA1: b0502a8729b9ffae5d7af1a7e17248ea0dd0fb92
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-5
+
+
+FileName: /usr/share/dbus-1/services/org.gnome.ArchiveManager1.service
+SPDXID: SPDXRef-file-roller-file-6
+FileChecksum: SHA1: 15bdd0c50ebd1157035f71ac95b276418253d991
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-6
+
+
+FileName: /usr/share/dbus-1/services/org.gnome.FileRoller.service
+SPDXID: SPDXRef-file-roller-file-7
+FileChecksum: SHA1: 3b5a236b1a7409c781976a73ffedcf3db7c4c26b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-7
+
+
+FileName: /usr/share/doc/file-roller/AUTHORS
+SPDXID: SPDXRef-file-roller-file-8
+FileChecksum: SHA1: 9d7d33134063889a1119e03d535dc878e4419ab7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-8
+
+
+FileName: /usr/share/doc/file-roller/NEWS.gz
+SPDXID: SPDXRef-file-roller-file-9
+FileChecksum: SHA1: 21e17e537218da9be169262c2f5d52b2f11eb683
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-9
+
+
+FileName: /usr/share/doc/file-roller/README.md
+SPDXID: SPDXRef-file-roller-file-10
+FileChecksum: SHA1: 8d9fa57d663d68b75bb3e495b91bcd55553dc0e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-10
+
+
+FileName: /usr/share/doc/file-roller/changelog.Debian.gz
+SPDXID: SPDXRef-file-roller-file-11
+FileChecksum: SHA1: 6ebf97a3a9faa066f5fdd00e0a2007e26f5b1853
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-11
+
+
+FileName: /usr/share/file-roller/packages.match
+SPDXID: SPDXRef-file-roller-file-12
+FileChecksum: SHA1: 8a7d74cd3a6c51c7f16a47bd3faffdda02bab2b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-12
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.FileRoller.gschema.xml
+SPDXID: SPDXRef-file-roller-file-13
+FileChecksum: SHA1: 17747f8bd462b1357232a8eda2daad24dfc354f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-13
+
+
+FileName: /usr/share/help/C/file-roller/archive-create.page
+SPDXID: SPDXRef-file-roller-file-14
+FileChecksum: SHA1: ca25a358e8063a6c2dbedbe2f2063ddb5cf7bec7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-14
+
+
+FileName: /usr/share/help/C/file-roller/archive-edit.page
+SPDXID: SPDXRef-file-roller-file-15
+FileChecksum: SHA1: 84101a7affca9b0ebdef7a7be8192ca42d2e846e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-15
+
+
+FileName: /usr/share/help/C/file-roller/archive-extract-advanced-options.page
+SPDXID: SPDXRef-file-roller-file-16
+FileChecksum: SHA1: ed977344f527cdb06e6c27d8b849b72097393b85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-16
+
+
+FileName: /usr/share/help/C/file-roller/archive-extract.page
+SPDXID: SPDXRef-file-roller-file-17
+FileChecksum: SHA1: d98375972c06dcc34117e853ba0a0d6902155855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-17
+
+
+FileName: /usr/share/help/C/file-roller/archive-open.page
+SPDXID: SPDXRef-file-roller-file-18
+FileChecksum: SHA1: 6cc1633ea5f8160f3a5b2264581959b843abcba3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-18
+
+
+FileName: /usr/share/help/C/file-roller/archive-view.page
+SPDXID: SPDXRef-file-roller-file-19
+FileChecksum: SHA1: 924d4e0c732b0d24c6697dac1dc20f9eda08f44c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-19
+
+
+FileName: /usr/share/help/C/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-20
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-20
+
+
+FileName: /usr/share/help/C/file-roller/index.page
+SPDXID: SPDXRef-file-roller-file-21
+FileChecksum: SHA1: b89256baaf44791f51b435ab17c535402634f05d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-21
+
+
+FileName: /usr/share/help/C/file-roller/introduction.page
+SPDXID: SPDXRef-file-roller-file-22
+FileChecksum: SHA1: 824582153dda71dd044ce38bafdf145816e4e575
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-22
+
+
+FileName: /usr/share/help/C/file-roller/keyboard-shortcuts.page
+SPDXID: SPDXRef-file-roller-file-23
+FileChecksum: SHA1: 2086f693d8af13b4e9e5d3499e7bbf738229065b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-23
+
+
+FileName: /usr/share/help/C/file-roller/legal.xml
+SPDXID: SPDXRef-file-roller-file-24
+FileChecksum: SHA1: 36904afd6103363dc80cd1d968acf92d77c8d0cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-24
+
+
+FileName: /usr/share/help/C/file-roller/password-protection.page
+SPDXID: SPDXRef-file-roller-file-25
+FileChecksum: SHA1: e92490c6ec2937bb0bf0cc46e9ebd1660a55ad92
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-25
+
+
+FileName: /usr/share/help/C/file-roller/supported-formats.page
+SPDXID: SPDXRef-file-roller-file-26
+FileChecksum: SHA1: de611edafccdd4700df8e4974cc312012afc8c59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-26
+
+
+FileName: /usr/share/help/C/file-roller/test-integrity.page
+SPDXID: SPDXRef-file-roller-file-27
+FileChecksum: SHA1: d56361145f84e0869a920a64bc3c80d9e5b56f00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-27
+
+
+FileName: /usr/share/help/C/file-roller/troubleshooting-archive-open.page
+SPDXID: SPDXRef-file-roller-file-28
+FileChecksum: SHA1: 7cf0727c6a2f96987a3d9adaab3bd610b584f7f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-28
+
+
+FileName: /usr/share/help/C/file-roller/troubleshooting-password.page
+SPDXID: SPDXRef-file-roller-file-29
+FileChecksum: SHA1: 37916a3e4a5caed4c5394900878276655ed27a5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-29
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.ArchiveManager.Devel.svg
+SPDXID: SPDXRef-file-roller-file-30
+FileChecksum: SHA1: 81d9fb9ffeec5eba533c19d7eb8d2c423fa27682
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-30
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-31
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-31
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.ArchiveManager-symbolic.svg
+SPDXID: SPDXRef-file-roller-file-32
+FileChecksum: SHA1: 09d40f12c72357050671de320704a8a152fa93ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-32
+
+
+FileName: /usr/share/man/man1/file-roller.1.gz
+SPDXID: SPDXRef-file-roller-file-33
+FileChecksum: SHA1: f7d917f40ffa8030fda1ca518afb6dc42df9ab41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-33
+
+
+FileName: /usr/share/metainfo/org.gnome.FileRoller.appdata.xml
+SPDXID: SPDXRef-file-roller-file-34
+FileChecksum: SHA1: f2ce52858c7a33776b4ec12c7b5718b34d204f62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-34
+
+
+FileName: /usr/share/help/ca/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-35
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-35
+
+
+FileName: /usr/share/help/cs/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-36
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-36
+
+
+FileName: /usr/share/help/da/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-37
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-37
+
+
+FileName: /usr/share/help/de/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-38
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-38
+
+
+FileName: /usr/share/help/el/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-39
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-39
+
+
+FileName: /usr/share/help/es/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-40
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-40
+
+
+FileName: /usr/share/help/eu/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-41
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-41
+
+
+FileName: /usr/share/help/fi/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-42
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-42
+
+
+FileName: /usr/share/help/fr/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-43
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-43
+
+
+FileName: /usr/share/help/gl/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-44
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-44
+
+
+FileName: /usr/share/help/hu/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-45
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-45
+
+
+FileName: /usr/share/help/id/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-46
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-46
+
+
+FileName: /usr/share/help/ja/file-roller/archive-create.page
+SPDXID: SPDXRef-file-roller-file-47
+FileChecksum: SHA1: 8c1f86d7f14e3973e7334cd39e7e95c63352ccdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-47
+
+
+FileName: /usr/share/help/ja/file-roller/archive-edit.page
+SPDXID: SPDXRef-file-roller-file-48
+FileChecksum: SHA1: 987c878e31ff4d15db62c891352f9e02ce2f4720
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-48
+
+
+FileName: /usr/share/help/ja/file-roller/archive-extract-advanced-options.page
+SPDXID: SPDXRef-file-roller-file-49
+FileChecksum: SHA1: f6de334ea8300edabc5b7f78cb53236268921c98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-49
+
+
+FileName: /usr/share/help/ja/file-roller/archive-extract.page
+SPDXID: SPDXRef-file-roller-file-50
+FileChecksum: SHA1: 9ad9f20216939ba5404c2bf3c54227fcc4f9f83e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-50
+
+
+FileName: /usr/share/help/ja/file-roller/archive-open.page
+SPDXID: SPDXRef-file-roller-file-51
+FileChecksum: SHA1: 28667f0a4fcd66be3bba4a672e65ccea2ca7f16b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-51
+
+
+FileName: /usr/share/help/ja/file-roller/archive-view.page
+SPDXID: SPDXRef-file-roller-file-52
+FileChecksum: SHA1: 146ed5a01582542cd8b7a26e75a004951b1d464a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-52
+
+
+FileName: /usr/share/help/ja/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-53
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-53
+
+
+FileName: /usr/share/help/ja/file-roller/index.page
+SPDXID: SPDXRef-file-roller-file-54
+FileChecksum: SHA1: 0e3a6ae6a3c1cfce9bb7f51d89272722bc8165aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-54
+
+
+FileName: /usr/share/help/ja/file-roller/introduction.page
+SPDXID: SPDXRef-file-roller-file-55
+FileChecksum: SHA1: d34eedca68a478929f3e56ee9fbddd47208a70b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-55
+
+
+FileName: /usr/share/help/ja/file-roller/keyboard-shortcuts.page
+SPDXID: SPDXRef-file-roller-file-56
+FileChecksum: SHA1: 42b5f5d528d94937f03cea5713321dbe28edaa42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-56
+
+
+FileName: /usr/share/help/ja/file-roller/legal.xml
+SPDXID: SPDXRef-file-roller-file-57
+FileChecksum: SHA1: 8641d7970068853135be6a1606a677965ce42005
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-57
+
+
+FileName: /usr/share/help/ja/file-roller/password-protection.page
+SPDXID: SPDXRef-file-roller-file-58
+FileChecksum: SHA1: 2aca98b72b4200d0ab41ec3b253f8a2e45a8b15d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-58
+
+
+FileName: /usr/share/help/ja/file-roller/supported-formats.page
+SPDXID: SPDXRef-file-roller-file-59
+FileChecksum: SHA1: 9cae3a87d6a24cbc0ab7f97af9dbafb6183356df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-59
+
+
+FileName: /usr/share/help/ja/file-roller/test-integrity.page
+SPDXID: SPDXRef-file-roller-file-60
+FileChecksum: SHA1: 02f71a01ea0f069b9cbf774677d60fc6258e119b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-60
+
+
+FileName: /usr/share/help/ja/file-roller/troubleshooting-archive-open.page
+SPDXID: SPDXRef-file-roller-file-61
+FileChecksum: SHA1: e03dc82e2c8363bed80d7e1e5778e5b685221b81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-61
+
+
+FileName: /usr/share/help/ja/file-roller/troubleshooting-password.page
+SPDXID: SPDXRef-file-roller-file-62
+FileChecksum: SHA1: c572f919becdd80599fe94897b6034944e063666
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-62
+
+
+FileName: /usr/share/help/ko/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-63
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-63
+
+
+FileName: /usr/share/help/pl/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-64
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-64
+
+
+FileName: /usr/share/help/pt_BR/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-65
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-65
+
+
+FileName: /usr/share/help/ru/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-66
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-66
+
+
+FileName: /usr/share/help/sl/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-67
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-67
+
+
+FileName: /usr/share/help/sv/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-68
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-68
+
+
+FileName: /usr/share/help/te/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-69
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-69
+
+
+FileName: /usr/share/help/tr/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-70
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-70
+
+
+FileName: /usr/share/help/uk/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-71
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-71
+
+
+FileName: /usr/share/help/zh_CN/file-roller/figures/org.gnome.ArchiveManager.svg
+SPDXID: SPDXRef-file-roller-file-72
+FileChecksum: SHA1: b147bf1bb81ab3afc6e4d9e2e2926800a803fa3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-file-roller CONTAINS SPDXRef-file-roller-file-72
+
+
+## Extracted License
+

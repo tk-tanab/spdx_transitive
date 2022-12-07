@@ -1,0 +1,182 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/shim-signed_1.51+15.4-0ubuntu9-dfbdf03b-9c55-545d-bbf1-7a2b219fac47
+DocumentName: shim-signed_1.51+15.4-0ubuntu9
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-sbsigntool http://spdx.org/spdxdocs/sbsigntool_0.9.4-2ubuntu2-66987bca-041d-57b7-abd8-62efc64c3652 SHA1: 3ad1135a11eda62fc17067913e1870d201c30740
+ExternalDocumentRef: DocumentRef-grub-efi-amd64-bin.Cycle http://spdx.org/spdxdocs/grub-efi-amd64-bin_2.06-2ubuntu7-ab2647b4-b31f-54f5-945d-ff69ccddc596 SHA1: 1b328a655f4acfb2c8faebaa909016e2f1669522
+ExternalDocumentRef: DocumentRef-secureboot-db http://spdx.org/spdxdocs/secureboot-db_1.8-95189050-da56-507a-a578-43979a79199d SHA1: c9efecfd844951527b8954aa44807a97480886d8
+ExternalDocumentRef: DocumentRef-grub2-common http://spdx.org/spdxdocs/grub2-common_2.06-2ubuntu7-4d58a4e0-1ee4-5aca-b813-f41200e08666 SHA1: 56a5406fc1ae6432ed4e00be5d70070bdba26049
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-mokutil http://spdx.org/spdxdocs/mokutil_0.4.0-1ubuntu2-3dec36c5-1897-5a40-9560-12baa937291a SHA1: 9950206a86eb123ff473919be921637454aa30e4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-shim-signed
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:06:50Z
+
+
+## Package
+
+PackageName: shim-signed
+PackageVersion: 1.51+15.4-0ubuntu9
+SPDXID: SPDXRef-shim-signed
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 54e2430d74b749dcf915cf5fba9d3b3e44578244
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageCopyrightText: <text>Copyright 2012 Red Hat, Inc 2009-2012 Intel Corporation
+</text>
+PackageComment: <text>Secure Boot chain-loading bootloader (Microsoft-signed binary)
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+ .
+ This package contains the version of the bootloader binary signed by the
+ Microsoft UEFI CA.</text>
+Relationship: SPDXRef-shim-signed DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+Relationship: SPDXRef-shim-signed DEPENDS_ON DocumentRef-grub-efi-amd64-bin.Cycle:SPDXRef-grub-efi-amd64-signed
+Relationship: SPDXRef-shim-signed DEPENDS_ON DocumentRef-grub2-common:SPDXRef-grub2-common
+Relationship: SPDXRef-shim-signed DEPENDS_ON DocumentRef-mokutil:SPDXRef-mokutil
+Relationship: SPDXRef-shim-signed DEPENDS_ON DocumentRef-sbsigntool:SPDXRef-sbsigntool
+Relationship: SPDXRef-shim-signed DEPENDS_ON DocumentRef-secureboot-db:SPDXRef-secureboot-db
+
+
+## File
+
+FileName: /usr/share/doc/shim-signed/copyright
+SPDXID: SPDXRef-shim-signed-file-0
+FileChecksum: SHA1: b41fbe2d7b24639e75955908e9c22aa122eda23e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2012 Red Hat, Inc 2009-2012 Intel Corporation
+</text>
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-0
+
+
+FileName: /usr/lib/shim/BOOTX64.CSV
+SPDXID: SPDXRef-shim-signed-file-1
+FileChecksum: SHA1: 9f77c73907a0083f5b4b95d887ad217b7f0f05e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-1
+
+
+FileName: /usr/lib/shim/fbx64.efi
+SPDXID: SPDXRef-shim-signed-file-2
+FileChecksum: SHA1: 39a5e0900bd75cbbdf00b6e8953d5c30f58d2313
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-2
+
+
+FileName: /usr/lib/shim/mmx64.efi
+SPDXID: SPDXRef-shim-signed-file-3
+FileChecksum: SHA1: 343727f479043b80a2d0562b7e260cbe9ce667f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-3
+
+
+FileName: /usr/lib/shim/mok/openssl.cnf
+SPDXID: SPDXRef-shim-signed-file-4
+FileChecksum: SHA1: 3396ed99cb712e9210b017f8969a3126fdf9a5e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-4
+
+
+FileName: /usr/lib/shim/shimx64.efi
+SPDXID: SPDXRef-shim-signed-file-5
+FileChecksum: SHA1: 7e2087ff7a2d1d931dea3c89c82b3264d1136e28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-5
+
+
+FileName: /usr/lib/shim/shimx64.efi.dualsigned
+SPDXID: SPDXRef-shim-signed-file-6
+FileChecksum: SHA1: e9ae5bf2aab5ec24c9aa39cec506ee70f9937674
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-6
+
+
+FileName: /usr/lib/shim/shimx64.efi.signed
+SPDXID: SPDXRef-shim-signed-file-7
+FileChecksum: SHA1: 38f8048b2332bc46011413b2c319dda68f7e4fb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-7
+
+
+FileName: /usr/sbin/update-secureboot-policy
+SPDXID: SPDXRef-shim-signed-file-8
+FileChecksum: SHA1: 362eed36995b9a694578235b0bb047fc6444b771
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-8
+
+
+FileName: /usr/share/apport/package-hooks/source_shim-signed.py
+SPDXID: SPDXRef-shim-signed-file-9
+FileChecksum: SHA1: 9fb540da2744d791a7957b478fadb950a925ec53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-9
+
+
+FileName: /usr/share/doc/shim-signed/changelog.Debian.gz
+SPDXID: SPDXRef-shim-signed-file-10
+FileChecksum: SHA1: dabcefcc3dbc04c9caa8c3206ae436ef1729c4ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-10
+
+
+FileName: /usr/share/lintian/overrides/shim-signed
+SPDXID: SPDXRef-shim-signed-file-11
+FileChecksum: SHA1: 08446e6e4c3f552e20116be416e413c8536d9592
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-11
+
+
+FileName: /usr/share/apport/package-hooks/source_shim.py
+SPDXID: SPDXRef-shim-signed-file-12
+FileChecksum: SHA1: 9fb540da2744d791a7957b478fadb950a925ec53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-shim-signed CONTAINS SPDXRef-shim-signed-file-12
+
+
+## Extracted License
+

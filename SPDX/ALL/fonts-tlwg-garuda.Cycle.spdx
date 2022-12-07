@@ -1,0 +1,273 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-tlwg-garuda_1:0.7.3-1-71aedfcb-f4bb-5dda-b2c3-3c81e0c432db
+DocumentName: fonts-tlwg-garuda_1:0.7.3-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-tlwg-garuda
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:00:28Z
+
+
+## Package
+
+PackageName: fonts-tlwg-garuda
+PackageVersion: 1:0.7.3-1
+SPDXID: SPDXRef-fonts-tlwg-garuda
+PackageHomePage: https://linux.thai.net/projects/fonts-tlwg
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b457a90116e1754fdfe2b46f078d80d76a039f8d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Bitstream-Vera
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LPPL-1.3c
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 Bitstream, Inc.
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+</text>
+PackageComment: <text>Thai Garuda font (dependency package)
+ This package provides Thai Garuda font, code-named "NF2", from the
+ National Font Project.
+ .
+ The font provides Arial-compatible Thai monoweight glyphs traditionally
+ used in school books and official documents.
+ .
+ This is a dependency package for installing alternative font formats.</text>
+Relationship: SPDXRef-fonts-tlwg-garuda DEPENDS_ON SPDXRef-fonts-tlwg-garuda-ttf
+
+
+PackageName: fonts-tlwg-garuda-ttf
+PackageVersion: 1:0.7.3-1
+SPDXID: SPDXRef-fonts-tlwg-garuda-ttf
+PackageHomePage: https://linux.thai.net/projects/fonts-tlwg
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e973de9b3fbf9d18468918ec19ba562c2c0b2a1d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Bitstream-Vera
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LPPL-1.3c
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 Bitstream, Inc.
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+</text>
+PackageComment: <text>Thai Garuda TrueType font
+ This package provides Thai Garuda font, code-named "NF2", from the
+ National Font Project, in TrueType format.
+ .
+ The font provides Arial-compatible Thai monoweight glyphs traditionally
+ used in school books and official documents.</text>
+Relationship: SPDXRef-fonts-tlwg-garuda-ttf DEPENDS_ON SPDXRef-fonts-tlwg-garuda
+
+
+## File
+
+FileName: /usr/share/doc/fonts-tlwg-garuda/copyright
+SPDXID: SPDXRef-fonts-tlwg-garuda-file-0
+FileChecksum: SHA1: c3a1ccdec2d07abc6973606da3e5e779fa6c7385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LPPL-1.3c
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Bitstream-Vera
+FileCopyrightText: <text>Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2003 Bitstream, Inc.
+Copyright 1999 National Electronics and Computer Technology Center
+</text>
+Relationship: SPDXRef-fonts-tlwg-garuda CONTAINS SPDXRef-fonts-tlwg-garuda-file-0
+
+
+FileName: /usr/share/fontconfig/conf.avail/64-13-tlwg-garuda.conf
+SPDXID: SPDXRef-fonts-tlwg-garuda-file-1
+FileChecksum: SHA1: cb5c70bf2a50b1df01b55b2baeae1d6e3a47f9f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda CONTAINS SPDXRef-fonts-tlwg-garuda-file-1
+
+
+FileName: /usr/share/fontconfig/conf.avail/89-tlwg-garuda-synthetic.conf
+SPDXID: SPDXRef-fonts-tlwg-garuda-file-2
+FileChecksum: SHA1: d30376979b0eb2661973252c69d9e4a9724e97f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda CONTAINS SPDXRef-fonts-tlwg-garuda-file-2
+
+
+FileName: /etc/fonts/conf.d/64-13-tlwg-garuda.conf
+SPDXID: SPDXRef-fonts-tlwg-garuda-file-3
+FileChecksum: SHA1: cb5c70bf2a50b1df01b55b2baeae1d6e3a47f9f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda CONTAINS SPDXRef-fonts-tlwg-garuda-file-3
+
+
+FileName: /etc/fonts/conf.d/89-tlwg-garuda-synthetic.conf
+SPDXID: SPDXRef-fonts-tlwg-garuda-file-4
+FileChecksum: SHA1: d30376979b0eb2661973252c69d9e4a9724e97f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda CONTAINS SPDXRef-fonts-tlwg-garuda-file-4
+
+
+FileName: /usr/share/doc/fonts-tlwg-garuda/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-tlwg-garuda-file-5
+FileChecksum: SHA1: ae62939693a82df63afaa8d3cf50837f07191452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda CONTAINS SPDXRef-fonts-tlwg-garuda-file-5
+
+
+FileName: /usr/share/doc/fonts-tlwg-garuda-ttf/copyright
+SPDXID: SPDXRef-fonts-tlwg-garuda-ttf-file-0
+FileChecksum: SHA1: c3a1ccdec2d07abc6973606da3e5e779fa6c7385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LPPL-1.3c
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Bitstream-Vera
+FileCopyrightText: <text>Copyright 2003-2021 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Chanop Silpa-Anan <chanop@debian.org> 2004 Pattara Kiatisevi <ott@linux.thai.net> 2005-2021 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright 1999 Db Type 2007 National Electronics and Computer Technology Center
+Copyright 1999 The National Font Project 1999 Yannis Haralambous, Virach Sornlertlamvanich, Anutara Tantraporn
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2010-2011 Software Industry Promotion Agency (Public Organization) (SIPA) 2014-2015 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net> 2005-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>
+Copyright 2003, 2004 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+Copyright 2007 Pol Udomwittayanukul <webnaipol@gmail.com>
+Copyright 2003 National Electronics and Computer Technology Center
+Copyright 2007 Widhaya Trisarnwadhana <widhaya3@gmail.com>
+Copyright 2003 Bitstream, Inc.
+Copyright 1999 National Electronics and Computer Technology Center
+</text>
+Relationship: SPDXRef-fonts-tlwg-garuda-ttf CONTAINS SPDXRef-fonts-tlwg-garuda-ttf-file-0
+
+
+FileName: /usr/share/doc/fonts-tlwg-garuda-ttf/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-tlwg-garuda-ttf-file-1
+FileChecksum: SHA1: ae62939693a82df63afaa8d3cf50837f07191452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda-ttf CONTAINS SPDXRef-fonts-tlwg-garuda-ttf-file-1
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Garuda-Bold.ttf
+SPDXID: SPDXRef-fonts-tlwg-garuda-ttf-file-2
+FileChecksum: SHA1: 26f2c2304771c1060e695441171651572943d1f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda-ttf CONTAINS SPDXRef-fonts-tlwg-garuda-ttf-file-2
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Garuda-BoldOblique.ttf
+SPDXID: SPDXRef-fonts-tlwg-garuda-ttf-file-3
+FileChecksum: SHA1: e3d998006ebbfcdbdea86579bc394a372a1d213d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda-ttf CONTAINS SPDXRef-fonts-tlwg-garuda-ttf-file-3
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Garuda-Oblique.ttf
+SPDXID: SPDXRef-fonts-tlwg-garuda-ttf-file-4
+FileChecksum: SHA1: 3d282909ac0305d6a4987552c9f9b60d14dfe9c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda-ttf CONTAINS SPDXRef-fonts-tlwg-garuda-ttf-file-4
+
+
+FileName: /usr/share/fonts/truetype/tlwg/Garuda.ttf
+SPDXID: SPDXRef-fonts-tlwg-garuda-ttf-file-5
+FileChecksum: SHA1: 0efc8331fffd5de1ebb128d48a3b6f66c11e61e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-tlwg-garuda-ttf CONTAINS SPDXRef-fonts-tlwg-garuda-ttf-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

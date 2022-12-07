@@ -1,0 +1,284 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-characters_41.0-4-58e02e94-0d6e-5c1a-ac35-4d57b4f04c4b
+DocumentName: gnome-characters_41.0-4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-gjs http://spdx.org/spdxdocs/gjs_1.72.2-0ubuntu1-1ad660eb-4cfa-5db4-b37e-fc669bf9c337 SHA1: d8bca9089b96a332241bd7a2f5934be4d8753ce4
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-fonts-noto-color-emoji http://spdx.org/spdxdocs/fonts-noto-color-emoji_2.034-1-df8d30de-cb62-5afa-85f6-396db38dcbd1 SHA1: 47e7f7dd634904d2237f2d30b60af59f3212801a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-characters
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:08:01Z
+
+
+## Package
+
+PackageName: gnome-characters
+PackageVersion: 41.0-4
+SPDXID: SPDXRef-gnome-characters
+PackageHomePage: https://wiki.gnome.org/Design/Apps/CharacterMap
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9612cde4dc86c38c22592f7f9aa0880f61271eb5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-bsd-axis-nomod
+PackageCopyrightText: <text>Copyright 2012-2013 Giovanni Campagna <scampa.giovanni@gmail.com> 2014-2017 Daiki Ueno <dueno@src.gnome.org>
+Copyright 2013 Giovanni Campagna <scampa.giovanni@gmail.com>
+Copyright 2015 Andreas Henriksson <andreas@fatal.se>
+</text>
+PackageComment: <text>character map application
+ Characters is a simple utility application to find and
+ insert unusual characters.</text>
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-gdkpixbuf-2.0
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-glib-2.0
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-gnomedesktop-3.0
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-gtk-3.0
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-handy-1
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-pango-1.0
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-gjs:SPDXRef-gjs
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-bin
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libunistring2
+Relationship: SPDXRef-gnome-characters DEPENDS_ON DocumentRef-fonts-noto-color-emoji:SPDXRef-fonts-noto-color-emoji
+
+
+## File
+
+FileName: /usr/share/doc/gnome-characters/copyright
+SPDXID: SPDXRef-gnome-characters-file-0
+FileChecksum: SHA1: 607d1cb45a66984b4e4fec1e0ca85efb299caa46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-bsd-axis-nomod
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2012-2013 Giovanni Campagna <scampa.giovanni@gmail.com> 2014-2017 Daiki Ueno <dueno@src.gnome.org>
+Copyright 2013 Giovanni Campagna <scampa.giovanni@gmail.com>
+Copyright 2015 Andreas Henriksson <andreas@fatal.se>
+</text>
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/org.gnome.Characters/girepository-1.0/Gc-1.0.typelib
+SPDXID: SPDXRef-gnome-characters-file-1
+FileChecksum: SHA1: 0fae0fbdee5cd724dd269e5e34eb459bace5d189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/org.gnome.Characters/libgc.so
+SPDXID: SPDXRef-gnome-characters-file-2
+FileChecksum: SHA1: fffdd7e1374a7c3de17c9c3488167e7259da6704
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-2
+
+
+FileName: /usr/share/applications/org.gnome.Characters.desktop
+SPDXID: SPDXRef-gnome-characters-file-3
+FileChecksum: SHA1: 639cdd6296092686b01e3e8076cc076fbe4aa02f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-3
+
+
+FileName: /usr/share/dbus-1/services/org.gnome.Characters.BackgroundService.service
+SPDXID: SPDXRef-gnome-characters-file-4
+FileChecksum: SHA1: 3f0fd12bc789b92ab377daf39ba68e095de05756
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-4
+
+
+FileName: /usr/share/dbus-1/services/org.gnome.Characters.service
+SPDXID: SPDXRef-gnome-characters-file-5
+FileChecksum: SHA1: d56147b7bbfdd624218b55ec97e33ddae07f032d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-5
+
+
+FileName: /usr/share/doc/gnome-characters/NEWS.gz
+SPDXID: SPDXRef-gnome-characters-file-6
+FileChecksum: SHA1: 9429c56b634306e9e3a2ae2e3d0d7b971de6839f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-6
+
+
+FileName: /usr/share/doc/gnome-characters/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-characters-file-7
+FileChecksum: SHA1: cfedc0ff1207541f63ea522b1c9ad8e99c755375
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-7
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.Characters.gschema.xml
+SPDXID: SPDXRef-gnome-characters-file-8
+FileChecksum: SHA1: dfe4fea0d2b14b6daa3d97c4f14d30426583f1fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-8
+
+
+FileName: /usr/share/gnome-shell/search-providers/org.gnome.Characters.search-provider.ini
+SPDXID: SPDXRef-gnome-characters-file-9
+FileChecksum: SHA1: c2da10f29c676d029a239105b1b77eb63b48c68b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-9
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.Characters.svg
+SPDXID: SPDXRef-gnome-characters-file-10
+FileChecksum: SHA1: db846f04b7d60097fe9088a98ca0fbf1d1565f26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-10
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.Characters-symbolic.svg
+SPDXID: SPDXRef-gnome-characters-file-11
+FileChecksum: SHA1: db7b4e22c96095037b6acea509d695373ad4f9f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-11
+
+
+FileName: /usr/share/lintian/overrides/gnome-characters
+SPDXID: SPDXRef-gnome-characters-file-12
+FileChecksum: SHA1: 1f1741cc61b3c24bef743001c978cfd704cf1cbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-12
+
+
+FileName: /usr/share/metainfo/org.gnome.Characters.appdata.xml
+SPDXID: SPDXRef-gnome-characters-file-13
+FileChecksum: SHA1: 9c88526a816e5adcef99a218c327ed79efb9788d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-13
+
+
+FileName: /usr/share/org.gnome.Characters/gir-1.0/Gc-1.0.gir
+SPDXID: SPDXRef-gnome-characters-file-14
+FileChecksum: SHA1: d12e01e506bf2c802bdfb65010b4a75cc8dc292a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-14
+
+
+FileName: /usr/share/org.gnome.Characters/org.gnome.Characters
+SPDXID: SPDXRef-gnome-characters-file-15
+FileChecksum: SHA1: 90acf4ada22d5b40f85f073fe78aacc702c1ad11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-15
+
+
+FileName: /usr/share/org.gnome.Characters/org.gnome.Characters.BackgroundService
+SPDXID: SPDXRef-gnome-characters-file-16
+FileChecksum: SHA1: e21f2036d5b95f058aad2bee4867a6167207298a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-16
+
+
+FileName: /usr/share/org.gnome.Characters/org.gnome.Characters.BackgroundService.data.gresource
+SPDXID: SPDXRef-gnome-characters-file-17
+FileChecksum: SHA1: 4310171a78522a4075cb738d6019e9ee3ede99ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-17
+
+
+FileName: /usr/share/org.gnome.Characters/org.gnome.Characters.BackgroundService.src.gresource
+SPDXID: SPDXRef-gnome-characters-file-18
+FileChecksum: SHA1: 645cbd9396f73526333345ead71cb8fd1314fb31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-18
+
+
+FileName: /usr/share/org.gnome.Characters/org.gnome.Characters.data.gresource
+SPDXID: SPDXRef-gnome-characters-file-19
+FileChecksum: SHA1: 328d9a848e2f6fbbfd7346c104d308cd623deb8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-19
+
+
+FileName: /usr/share/org.gnome.Characters/org.gnome.Characters.src.gresource
+SPDXID: SPDXRef-gnome-characters-file-20
+FileChecksum: SHA1: 96aef3b683cb6ab113985d1f0446c0ae85175f49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-20
+
+
+FileName: /usr/bin/gnome-characters
+SPDXID: SPDXRef-gnome-characters-file-21
+FileChecksum: SHA1: 90acf4ada22d5b40f85f073fe78aacc702c1ad11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-characters CONTAINS SPDXRef-gnome-characters-file-21
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-bsd-axis-nomod
+LicenseName: BSD-Axis without modification
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-axis-nomod.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-axis-nomod.yml
+</text>
+
+

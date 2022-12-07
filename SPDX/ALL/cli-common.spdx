@@ -1,0 +1,262 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/cli-common_0.10-d3281068-e5b3-5068-b03a-e788f2d59408
+DocumentName: cli-common_0.10
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cli-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:46:24Z
+
+
+## Package
+
+PackageName: cli-common
+PackageVersion: 0.10
+SPDXID: SPDXRef-cli-common
+PackageHomePage: https://salsa.debian.org/dotnet-team/cli-common
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ebf289521c9815dea8e3c5dedbdc3246adb2f48b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageCopyrightText: NONE
+PackageComment: <text>common files between all CLI packages
+ This package must be installed if a CLI (Common Language Infrastructure)
+ runtime environment is desired.
+ .
+ It covers useful integration and information for CLI implementations in
+ Debian GNU/Linux, including:
+  * The CLI policy describes how CLI packages should behave and integrate.
+  * A FAQ for package maintainers of CLI/.NET applications.
+  * Integration for CLRs (Common Language Runtime):
+    + Installing libraries into existing GACs (Global Assembly Cache)</text>
+Relationship: SPDXRef-cli-common DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-perl
+
+
+## File
+
+FileName: /usr/share/doc/cli-common/copyright
+SPDXID: SPDXRef-cli-common-file-0
+FileChecksum: SHA1: b6cc0882c3a1db6dbee3fca0d570c907f3aa8b0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+FileCopyrightText: NONE
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-0
+
+
+FileName: /usr/share/cli-common/framework-install
+SPDXID: SPDXRef-cli-common-file-1
+FileChecksum: SHA1: 2313a9eb239b5896730103a75bb13a2ebb2d57b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-1
+
+
+FileName: /usr/share/cli-common/framework-package-install
+SPDXID: SPDXRef-cli-common-file-2
+FileChecksum: SHA1: e27609fb94cb1c433566a3a36745f4812038ea9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-2
+
+
+FileName: /usr/share/cli-common/framework-package-remove
+SPDXID: SPDXRef-cli-common-file-3
+FileChecksum: SHA1: 66a609826971b29be228e071e047dcfaa175e0e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-3
+
+
+FileName: /usr/share/cli-common/framework-remove
+SPDXID: SPDXRef-cli-common-file-4
+FileChecksum: SHA1: 12eeac325b7f21e4f8ee5cc9c833f6035eb07eb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-4
+
+
+FileName: /usr/share/cli-common/gac-install
+SPDXID: SPDXRef-cli-common-file-5
+FileChecksum: SHA1: ff08f8d48227034ce75c4bf55dece7c7da7df0c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-5
+
+
+FileName: /usr/share/cli-common/gac-package-install
+SPDXID: SPDXRef-cli-common-file-6
+FileChecksum: SHA1: ac376020c6627f07946ab62d7245cf4d8cb03549
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-6
+
+
+FileName: /usr/share/cli-common/gac-package-remove
+SPDXID: SPDXRef-cli-common-file-7
+FileChecksum: SHA1: dcb31b84b3d6d52ad101e6f7e08f16e93cfbef67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-7
+
+
+FileName: /usr/share/cli-common/gac-remove
+SPDXID: SPDXRef-cli-common-file-8
+FileChecksum: SHA1: a00729a88bc09af0a7ad9232c1cc7ab17208157f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-8
+
+
+FileName: /usr/share/cli-common/policy-install
+SPDXID: SPDXRef-cli-common-file-9
+FileChecksum: SHA1: 1e7d7fc8690ea9cd7365346341defabb859781fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-9
+
+
+FileName: /usr/share/cli-common/policy-remove
+SPDXID: SPDXRef-cli-common-file-10
+FileChecksum: SHA1: 8bc5f08528c8125029353c305711ad3700286b4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-10
+
+
+FileName: /usr/share/doc/cli-common/NEWS.Debian.gz
+SPDXID: SPDXRef-cli-common-file-11
+FileChecksum: SHA1: afdf2288af6afaedebe36d723c9153872d612787
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-11
+
+
+FileName: /usr/share/doc/cli-common/changelog.gz
+SPDXID: SPDXRef-cli-common-file-12
+FileChecksum: SHA1: 1156453539d77f9b5408f80e0d462b7fe04ab1f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-12
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.html/ch-appendix.html
+SPDXID: SPDXRef-cli-common-file-13
+FileChecksum: SHA1: 219680d945b86a7bc909088b46f79b5eb2af4eb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-13
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.html/ch-history.html
+SPDXID: SPDXRef-cli-common-file-14
+FileChecksum: SHA1: 537971685c689bd5674bd61f324fd7c598c54b4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-14
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.html/ch-mono.html
+SPDXID: SPDXRef-cli-common-file-15
+FileChecksum: SHA1: 9b0dae229ec91d59c123b990d7c5b1d061d90277
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-15
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.html/ch-packaging.html
+SPDXID: SPDXRef-cli-common-file-16
+FileChecksum: SHA1: a7330a03f1a23103c369a5b084511761c220e754
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-16
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.html/ch-pnet.html
+SPDXID: SPDXRef-cli-common-file-17
+FileChecksum: SHA1: e605e169d17bcd2b589e2686b5d40209fbe77b7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-17
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.html/ch-terms.html
+SPDXID: SPDXRef-cli-common-file-18
+FileChecksum: SHA1: d0d3b9f549f9ec0eed93b4192f5dd445233c15da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-18
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.html/index.html
+SPDXID: SPDXRef-cli-common-file-19
+FileChecksum: SHA1: 3e3033b7e2f0b4edafda7747f1dfb8d2ca899839
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-19
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.pdf.gz
+SPDXID: SPDXRef-cli-common-file-20
+FileChecksum: SHA1: 2d5d96240e72ef3a0f8840e7a948a0d7ad39a04f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-20
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.sgml.gz
+SPDXID: SPDXRef-cli-common-file-21
+FileChecksum: SHA1: 96d3939c5c9827a25fce1e27d130c47cef4df16a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-21
+
+
+FileName: /usr/share/doc/cli-common/cli-policy.txt.gz
+SPDXID: SPDXRef-cli-common-file-22
+FileChecksum: SHA1: ecb14c20cfaddec61b436815c5fb918452acedd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cli-common CONTAINS SPDXRef-cli-common-file-22
+
+
+## Extracted License
+

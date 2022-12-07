@@ -1,0 +1,81 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/init_1.62-fa60d29e-934c-5a07-877a-75639382c23e
+DocumentName: init_1.62
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-init
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:29:21Z
+
+
+## Package
+
+PackageName: init
+PackageVersion: 1.62
+SPDXID: SPDXRef-init
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f14d4921743ad8f9a536b73a48d44624362ab423
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2013 Michael Stapelberg
+Copyright 1997-2005 Miquel van Smoorenburg <miquels@cistron.nl> Members
+Copyright 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
+Copyright 2006 Red Hat, Inc 2008 Canonical Ltd
+Copyright 2013 Michael Stapelberg
+Copyright 2013 Michael Stapelberg <stapelberg@debian.org>
+</text>
+PackageComment: <text>metapackage ensuring an init system is installed
+ This package is a metapackage which allows you to select from the available
+ init systems while ensuring that one of these is available on the system at
+ all times.</text>
+Relationship: SPDXRef-init DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+Relationship: SPDXRef-init DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-systemd-sysv
+
+
+## File
+
+FileName: /usr/share/doc/init/copyright
+SPDXID: SPDXRef-init-file-0
+FileChecksum: SHA1: 72cc0ea56f3548cb5f649cd6d1428e53f19569b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2013 Michael Stapelberg
+Copyright 2013 Michael Stapelberg <stapelberg@debian.org>
+Copyright 2006 Red Hat, Inc 2008 Canonical Ltd
+Copyright 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
+Copyright 1997-2005 Miquel van Smoorenburg <miquels@cistron.nl> Members
+Copyright (c) 2013 Michael Stapelberg
+</text>
+Relationship: SPDXRef-init CONTAINS SPDXRef-init-file-0
+
+
+FileName: /usr/share/doc/init/changelog.gz
+SPDXID: SPDXRef-init-file-1
+FileChecksum: SHA1: 37b6f725dd9ffc2516cc1b8607d92e877ee7cfc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-init CONTAINS SPDXRef-init-file-1
+
+
+## Extracted License
+

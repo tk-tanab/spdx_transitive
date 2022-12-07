@@ -1,0 +1,81 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libsoup2.4-common_2.74.2-3-9ef683ff-6f97-5587-abc9-60d4197866c9
+DocumentName: libsoup2.4-common_2.74.2-3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsoup2.4-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:44:10Z
+
+
+## Package
+
+PackageName: libsoup2.4-common
+PackageVersion: 2.74.2-3
+SPDXID: SPDXRef-libsoup2.4-common
+PackageHomePage: https://wiki.gnome.org/Projects/libsoup
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 31f16825ce05349699b74baa09ecf969115c3202
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 1999-2003 Ximian, Inc. 2001-2007 Novell, Inc. 2007 OpenedHand Ltd. 2007-2016 Red Hat, Inc. 2008 Diego Escalante Urrelo 2009-2013 Guido Guenther 2009-2013 Gustavo Noronha Silva 2009-2015 Collabora Ltd. 2009-2019 Igalia, S.L. 2012 Nokia Corporation 2012-2018 Canonical Ltd. 2012-2019 Free Software Foundation, Inc. 2015 GNOME i18n Project for Vietnamese 2017-2018 Metrological Group B.V. 2018 Rosetta
+Copyright 2013-2014 Red Hat, Inc.
+Copyright 2017-2018 Tomas Popela
+</text>
+PackageComment: <text>HTTP library implementation in C -- Common files
+ It was originally part of a SOAP (Simple Object Access Protocol)
+ implementation called Soup, but the SOAP and non-SOAP parts have now been
+ split into separate packages.
+ .
+ This package contains architecture-independent files such as translations.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libsoup2.4-common/copyright
+SPDXID: SPDXRef-libsoup2.4-common-file-0
+FileChecksum: SHA1: c956bc1ac9078453438141c77e3927bd6b3ca0bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: LGPL-2.1-only
+FileCopyrightText: <text>Copyright 1999-2003 Ximian, Inc. 2001-2007 Novell, Inc. 2007 OpenedHand Ltd. 2007-2016 Red Hat, Inc. 2008 Diego Escalante Urrelo 2009-2013 Guido Guenther 2009-2013 Gustavo Noronha Silva 2009-2015 Collabora Ltd. 2009-2019 Igalia, S.L. 2012 Nokia Corporation 2012-2018 Canonical Ltd. 2012-2019 Free Software Foundation, Inc. 2015 GNOME i18n Project for Vietnamese 2017-2018 Metrological Group B.V. 2018 Rosetta
+Copyright 2013-2014 Red Hat, Inc.
+Copyright 2017-2018 Tomas Popela
+</text>
+Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common-file-0
+
+
+FileName: /usr/share/doc/libsoup2.4-common/changelog.Debian.gz
+SPDXID: SPDXRef-libsoup2.4-common-file-1
+FileChecksum: SHA1: 2bd95d6e7b348a26b7b0f4a2809680c183d3d80f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsoup2.4-common CONTAINS SPDXRef-libsoup2.4-common-file-1
+
+
+## Extracted License
+

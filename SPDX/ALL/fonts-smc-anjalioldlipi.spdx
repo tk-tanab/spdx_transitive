@@ -1,0 +1,124 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-smc-anjalioldlipi_7.1.2-2-f91f4f8f-780d-5782-8a4f-b3a20b4d8c25
+DocumentName: fonts-smc-anjalioldlipi_7.1.2-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-smc-anjalioldlipi
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:55:18Z
+
+
+## Package
+
+PackageName: fonts-smc-anjalioldlipi
+PackageVersion: 7.1.2-2
+SPDXID: SPDXRef-fonts-smc-anjalioldlipi
+PackageHomePage: http://smc.org.in
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e8f55d616cc32d5efab1b88309582d410fbb1037
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2004,2016 Kevin & Siji 2008 Hiran Venugopalan 2014 Rajeesh K Nambiar
+Copyright 2008-2016 Swathanthra Malayalam Computing
+Copyright 2014 Rajeesh K
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+Copyright 2019 Swathanthra Malayalam Computing
+</text>
+PackageComment: <text>AnjaliOldLipi malayalam font
+ This package provides AnjaliOldLipi font for Malayalam script
+ which is primarily used in the state of Kerala. The font is
+ developed by SMC community.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-smc-anjalioldlipi/copyright
+SPDXID: SPDXRef-fonts-smc-anjalioldlipi-file-0
+FileChecksum: SHA1: d043197bfaab17975144649aa3f568b9506c49b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2008-2016 Swathanthra Malayalam Computing
+Copyright 2004,2016 Kevin & Siji 2008 Hiran Venugopalan 2014 Rajeesh K Nambiar
+Copyright 2014 Rajeesh K
+Copyright 2019 Swathanthra Malayalam Computing
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+</text>
+Relationship: SPDXRef-fonts-smc-anjalioldlipi CONTAINS SPDXRef-fonts-smc-anjalioldlipi-file-0
+
+
+FileName: /etc/fonts/conf.avail/67-smc-anjalioldlipi.conf
+SPDXID: SPDXRef-fonts-smc-anjalioldlipi-file-1
+FileChecksum: SHA1: b1d34efb304dbc13adaf6e49f83969ef6a4793eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-anjalioldlipi CONTAINS SPDXRef-fonts-smc-anjalioldlipi-file-1
+
+
+FileName: /usr/share/doc/fonts-smc-anjalioldlipi/README.md
+SPDXID: SPDXRef-fonts-smc-anjalioldlipi-file-2
+FileChecksum: SHA1: 02020a5992c8f2a7f713ea0586a63a3c766c095e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-anjalioldlipi CONTAINS SPDXRef-fonts-smc-anjalioldlipi-file-2
+
+
+FileName: /usr/share/doc/fonts-smc-anjalioldlipi/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-smc-anjalioldlipi-file-3
+FileChecksum: SHA1: 83aebabf417ce56ce5686cf8c7b639cb23a9e726
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-anjalioldlipi CONTAINS SPDXRef-fonts-smc-anjalioldlipi-file-3
+
+
+FileName: /usr/share/fonts/truetype/malayalam/AnjaliOldLipi-Regular.ttf
+SPDXID: SPDXRef-fonts-smc-anjalioldlipi-file-4
+FileChecksum: SHA1: 4f3fe34b46d6e34856ba6b032463591d40c40f6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-anjalioldlipi CONTAINS SPDXRef-fonts-smc-anjalioldlipi-file-4
+
+
+FileName: /usr/share/metainfo/in.org.smc.anjalioldlipi.metainfo.xml
+SPDXID: SPDXRef-fonts-smc-anjalioldlipi-file-5
+FileChecksum: SHA1: bff0e85c500f43b76b73ec4bddbbb305a36a4310
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-anjalioldlipi CONTAINS SPDXRef-fonts-smc-anjalioldlipi-file-5
+
+
+FileName: /etc/fonts/conf.d/67-smc-anjalioldlipi.conf
+SPDXID: SPDXRef-fonts-smc-anjalioldlipi-file-6
+FileChecksum: SHA1: b1d34efb304dbc13adaf6e49f83969ef6a4793eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-anjalioldlipi CONTAINS SPDXRef-fonts-smc-anjalioldlipi-file-6
+
+
+## Extracted License
+

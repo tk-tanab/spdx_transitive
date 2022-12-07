@@ -1,0 +1,219 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/grep_3.7-1build1-d08156a4-2d06-5e8b-ab58-519d0b441f26
+DocumentName: grep_3.7-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-grep
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:13:51Z
+
+
+## Package
+
+PackageName: grep
+PackageVersion: 3.7-1build1
+SPDXID: SPDXRef-grep
+PackageHomePage: https://www.gnu.org/software/grep/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 16c678c0bb5952cab0d3f904710839d5c0f6f8d1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1992, 1997, 1998, 1999, 2000, 2001, 2002, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+Copyright 1992, 1997-2002, 2004-2012 Free Software Foundation, Inc. 2004, Stepan Kasal <kasal@ucw.cz> 2007, Tony Abou-Assaleh <taa@acm.org> 2009-2012, Jim Meyering <jim@meyering.net> and Paolo Bonzini <bonzini@gnu.org>
+Copyright 2005-2013 Anibal Monsalve Salazar <anibal@debian.org> and Santiago Ruano Rincon <santiago@debian.org> 2003-2004 Ryan M. Golbeck <rmgolbeck@debian.org> 2003, Jeff Bailey <jbailey@nisa.net> 2003, Clint Adams <schizo@debian.org>
+</text>
+PackageComment: <text>GNU grep, egrep and fgrep
+ 'grep' is a utility to search for text in files; it can be used from the
+ command line or in scripts.  Even if you don't want to use it, other packages
+ on your system probably will.
+ .
+ The GNU family of grep utilities may be the "fastest grep in the west".
+ GNU grep is based on a fast lazy-state deterministic matcher (about
+ twice as fast as stock Unix egrep) hybridized with a Boyer-Moore-Gosper
+ search for a fixed string that eliminates impossible text from being
+ considered by the full regexp matcher without necessarily having to
+ look at every character. The result is typically many times faster
+ than Unix grep or egrep. (Regular expressions containing backreferencing
+ will run more slowly, however.)</text>
+Relationship: SPDXRef-grep DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+Relationship: SPDXRef-grep DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-grep DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpcre3
+
+
+## File
+
+FileName: /usr/share/doc/grep/copyright
+SPDXID: SPDXRef-grep-file-0
+FileChecksum: SHA1: 07c64f0cfe0196aa7cd4cce2d949c2900d9dfc79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 1992, 1997-2002, 2004-2012 Free Software Foundation, Inc. 2004, Stepan Kasal <kasal@ucw.cz> 2007, Tony Abou-Assaleh <taa@acm.org> 2009-2012, Jim Meyering <jim@meyering.net> and Paolo Bonzini <bonzini@gnu.org>
+Copyright 2005-2013 Anibal Monsalve Salazar <anibal@debian.org> and Santiago Ruano Rincon <santiago@debian.org> 2003-2004 Ryan M. Golbeck <rmgolbeck@debian.org> 2003, Jeff Bailey <jbailey@nisa.net> 2003, Clint Adams <schizo@debian.org>
+Copyright (c) 1992, 1997, 1998, 1999, 2000, 2001, 2002, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-0
+
+
+FileName: /bin/egrep
+SPDXID: SPDXRef-grep-file-1
+FileChecksum: SHA1: 92ab8b62375eae26758b91d285ec24a39af1abe8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-1
+
+
+FileName: /bin/fgrep
+SPDXID: SPDXRef-grep-file-2
+FileChecksum: SHA1: ad12bd4526ae3f3172987179d850ad1077be0100
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-2
+
+
+FileName: /bin/grep
+SPDXID: SPDXRef-grep-file-3
+FileChecksum: SHA1: 4364e3437c75199361968b77f556d29c097b93e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-3
+
+
+FileName: /usr/bin/rgrep
+SPDXID: SPDXRef-grep-file-4
+FileChecksum: SHA1: af86e14387b692c347dcc6659508cef278f74edc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-4
+
+
+FileName: /usr/share/doc/grep/AUTHORS
+SPDXID: SPDXRef-grep-file-5
+FileChecksum: SHA1: 6ef7a1bc347661cbb2d385237dc73725c8b0ea06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-5
+
+
+FileName: /usr/share/doc/grep/NEWS.Debian.gz
+SPDXID: SPDXRef-grep-file-6
+FileChecksum: SHA1: b4999c0d4a93017215da55e3935826ae5c4eb83c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-6
+
+
+FileName: /usr/share/doc/grep/NEWS.gz
+SPDXID: SPDXRef-grep-file-7
+FileChecksum: SHA1: bdc2f09cd7d9901cfc4201654d4e9d912cc1fd76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-7
+
+
+FileName: /usr/share/doc/grep/README
+SPDXID: SPDXRef-grep-file-8
+FileChecksum: SHA1: bf0727b3b48551df73febff1ec87932a496f08d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-8
+
+
+FileName: /usr/share/doc/grep/THANKS.gz
+SPDXID: SPDXRef-grep-file-9
+FileChecksum: SHA1: f17fd32164bac4887a790a512b553a3841dbe281
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-9
+
+
+FileName: /usr/share/doc/grep/TODO.gz
+SPDXID: SPDXRef-grep-file-10
+FileChecksum: SHA1: 3702e6decb05cc63ad15257279c1ec48cb1285a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-10
+
+
+FileName: /usr/share/doc/grep/changelog.Debian.gz
+SPDXID: SPDXRef-grep-file-11
+FileChecksum: SHA1: 424a5365fb575b92091cf9b3bee5245707b595ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-11
+
+
+FileName: /usr/share/info/grep.info.gz
+SPDXID: SPDXRef-grep-file-12
+FileChecksum: SHA1: e058be45bd5faecbc89c6f84414e241d7f2f93de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-12
+
+
+FileName: /usr/share/man/man1/grep.1.gz
+SPDXID: SPDXRef-grep-file-13
+FileChecksum: SHA1: 670297a3144488a8babbfe93e10c936c2d1a4c75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-13
+
+
+FileName: /usr/share/man/man1/egrep.1.gz
+SPDXID: SPDXRef-grep-file-14
+FileChecksum: SHA1: 670297a3144488a8babbfe93e10c936c2d1a4c75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-14
+
+
+FileName: /usr/share/man/man1/fgrep.1.gz
+SPDXID: SPDXRef-grep-file-15
+FileChecksum: SHA1: 670297a3144488a8babbfe93e10c936c2d1a4c75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-15
+
+
+FileName: /usr/share/man/man1/rgrep.1.gz
+SPDXID: SPDXRef-grep-file-16
+FileChecksum: SHA1: 670297a3144488a8babbfe93e10c936c2d1a4c75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grep CONTAINS SPDXRef-grep-file-16
+
+
+## Extracted License
+

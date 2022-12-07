@@ -1,0 +1,131 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-nakula_1.0-4-a80a28b7-787f-566b-be24-ee13f6ec00bb
+DocumentName: fonts-nakula_1.0-4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-nakula
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:52:29Z
+
+
+## Package
+
+PackageName: fonts-nakula
+PackageVersion: 1.0-4
+SPDXID: SPDXRef-fonts-nakula
+PackageHomePage: https://bombay.indology.info/software/fonts/devanagari/index.html
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 67cd797207db29f703593d56a80511fc063b08ef
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2009-2011, John Smith <jds10@cam.ac.uk> 2006, University of Cambridge. 2001-2002, Valek Filippov <frob@df.ru> 1999, (URW)++ Design & Development
+Copyright 2012, Muneeb Shaikh <iammuneeb@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Free Unicode compliant Devanagari font
+ This package provides font for Devanagari script which is used for writing
+ Hindi, Marathi and Sanskrit languages.
+ .
+ Nakula follows the Mumbai style of Devanagari, with rounded glyphs and little
+ thin/thick variation.</text>
+Relationship: SPDXRef-fonts-nakula DEPENDS_ON SPDXRef-fonts-sahadeva
+
+
+PackageName: fonts-sahadeva
+PackageVersion: 1.0-5
+SPDXID: SPDXRef-fonts-sahadeva
+PackageHomePage: https://bombay.indology.info/software/fonts/devanagari/index.html
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 685e3450a8ec93efd1fd030fd7a7574589738aeb
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2009-2011, John Smith <jds10@cam.ac.uk> 2006, University of Cambridge. 2001-2002, Valek Filippov <frob@df.ru> 1999, (URW)++ Design & Development
+Copyright 2012, Muneeb Shaikh <iammuneeb@gmail.com> 2016, Vasudev Kamath <vasudev@copyninja.info> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Free Unicode compliant Devanagari font
+ This package provides font for Devanagari script which is used for writing
+ Hindi, Marathi and Sanskrit languages.
+ .
+ This font is in the Kolkata style, with more angular glyphs and greater
+ contrast between thin and thick strokes.</text>
+Relationship: SPDXRef-fonts-sahadeva DEPENDS_ON SPDXRef-fonts-nakula
+
+
+## File
+
+FileName: /usr/share/doc/fonts-nakula/copyright
+SPDXID: SPDXRef-fonts-nakula-file-0
+FileChecksum: SHA1: 92d1017302dbe3aa93bdfe69e8645024ddf33cae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2009-2011, John Smith <jds10@cam.ac.uk> 2006, University of Cambridge. 2001-2002, Valek Filippov <frob@df.ru> 1999, (URW)++ Design & Development
+Copyright 2012, Muneeb Shaikh <iammuneeb@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-nakula CONTAINS SPDXRef-fonts-nakula-file-0
+
+
+FileName: /usr/share/doc/fonts-nakula/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-nakula-file-1
+FileChecksum: SHA1: db318c8a3ecfe3aefbcb82e9a397c43ef4b127cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-nakula CONTAINS SPDXRef-fonts-nakula-file-1
+
+
+FileName: /usr/share/fonts/truetype/Nakula/nakula.ttf
+SPDXID: SPDXRef-fonts-nakula-file-2
+FileChecksum: SHA1: c3264c94871ff19cea6b233d5e3c1bcbb777cc39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-nakula CONTAINS SPDXRef-fonts-nakula-file-2
+
+
+FileName: /usr/share/doc/fonts-sahadeva/copyright
+SPDXID: SPDXRef-fonts-sahadeva-file-0
+FileChecksum: SHA1: 85af382acd1ea1cfc162bbd80d12a605f6848b9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2009-2011, John Smith <jds10@cam.ac.uk> 2006, University of Cambridge. 2001-2002, Valek Filippov <frob@df.ru> 1999, (URW)++ Design & Development
+Copyright 2012, Muneeb Shaikh <iammuneeb@gmail.com> 2016, Vasudev Kamath <vasudev@copyninja.info> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-sahadeva CONTAINS SPDXRef-fonts-sahadeva-file-0
+
+
+FileName: /usr/share/doc/fonts-sahadeva/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-sahadeva-file-1
+FileChecksum: SHA1: 6a054cb0269c7a764a50b9607f7e6fde18499e0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sahadeva CONTAINS SPDXRef-fonts-sahadeva-file-1
+
+
+FileName: /usr/share/fonts/truetype/Sahadeva/sahadeva.ttf
+SPDXID: SPDXRef-fonts-sahadeva-file-2
+FileChecksum: SHA1: 84248f6a502fe83fa779e7dcbc9e88ec23c78d65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sahadeva CONTAINS SPDXRef-fonts-sahadeva-file-2
+
+
+## Extracted License
+

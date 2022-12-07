@@ -1,0 +1,129 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libmd4c0_0.4.8-1-6a51a059-657e-5898-8f5b-190f8c86630b
+DocumentName: libmd4c0_0.4.8-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmd4c0
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:27:02Z
+
+
+## Package
+
+PackageName: libmd4c0
+PackageVersion: 0.4.8-1
+SPDXID: SPDXRef-libmd4c0
+PackageHomePage: https://github.com/mity/md4c
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: be20c0c6571198d252f8ddcf142e5d90a60c42a7
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: CC-BY-SA-4.0
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: <text>Copyright 2006 Brian Raiter
+Copyright 2014 John MacFarlane
+Copyright 2016-2020 Martin Mitas
+Copyright 2019 Lisandro Damian Nicanor Perez Meyer <lisandro@debian.org>
+</text>
+PackageComment: <text>Markdown for C
+ MD4C is C Markdown parser with the following features:
+ .
+ Compliance: Generally MD4C aims to be compliant to the latest version of
+ CommonMark specification. Right now fully compliant to CommonMark 0.28.
+ .
+ Extensions: MD4C supports some commonly requested and accepted extensions.
+ .
+ Compactness: MD4C is implemented in one source file and one header file.
+ .
+ Embedding: MD4C is easy to reuse in other projects, its API is very
+ straightforward: There is actually just one function, md_parse().
+ .
+ Push model: MD4C parses the complete document and calls callback functions
+ provided by the application for each start/end of block, start/end of a span,
+ and with any textual contents.
+ .
+ Portability: MD4C builds and works on Windows and Linux, and it should
+ be fairly simple to make it run also on most other systems.
+ .
+ Encoding: MD4C can be compiled to recognize ASCII-only control characters,
+ UTF-8 and, on Windows, also UTF-16, i.e. what is on Windows commonly
+ called just "Unicode". See more details below.
+ .
+ Permissive license: MD4C is available under the MIT license.</text>
+Relationship: SPDXRef-libmd4c0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/libmd4c0/copyright
+SPDXID: SPDXRef-libmd4c0-file-0
+FileChecksum: SHA1: 71740b3cd9ec15a977803a06096865b4d285238f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-SA-4.0
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2016-2020 Martin Mitas
+Copyright 2019 Lisandro Damian Nicanor Perez Meyer <lisandro@debian.org>
+Copyright 2006 Brian Raiter
+Copyright 2014 John MacFarlane
+Copyright 2014 John MacFarlane
+</text>
+Relationship: SPDXRef-libmd4c0 CONTAINS SPDXRef-libmd4c0-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libmd4c.so.0.4.8
+SPDXID: SPDXRef-libmd4c0-file-1
+FileChecksum: SHA1: db5dc1071e1167b46fc8fe86dcf05b9348158337
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmd4c0 CONTAINS SPDXRef-libmd4c0-file-1
+
+
+FileName: /usr/share/doc/libmd4c0/changelog.Debian.gz
+SPDXID: SPDXRef-libmd4c0-file-2
+FileChecksum: SHA1: 60c21b4025e8e977d6259367ff99a7fce63a0fdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmd4c0 CONTAINS SPDXRef-libmd4c0-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libmd4c.so.0
+SPDXID: SPDXRef-libmd4c0-file-3
+FileChecksum: SHA1: db5dc1071e1167b46fc8fe86dcf05b9348158337
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libmd4c0 CONTAINS SPDXRef-libmd4c0-file-3
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

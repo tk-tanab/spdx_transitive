@@ -1,0 +1,87 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/laptop-detect_0.16-bd7421ef-ecde-5b87-b18b-9e9529fa13f5
+DocumentName: laptop-detect_0.16
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-laptop-detect
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:18:32Z
+
+
+## Package
+
+PackageName: laptop-detect
+PackageVersion: 0.16
+SPDXID: SPDXRef-laptop-detect
+PackageHomePage: https://gitlab.com/debiants/laptop-detect
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 89064ef4f8866e7a652d1a97a887451f232c827b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageCopyrightText: <text>Copyright 2004-2007 Thom May <thom@canonical.com> 2005 Colin Watson <cjwatson@ubuntu.com> 2006 Franklin PIAT <fpiat@bigfoot.com> 2006-2008 Otavio Salvador <otavio@ossystems.com.br> 2007 Tormod Volden 2008 Joey Hess
+</text>
+PackageComment: <text>system chassis type checker
+ This package provides a simple shell script which attempts to determine
+ whether it is being run on a laptop (or similar portable machine). It is
+ mainly useful for installers.</text>
+Relationship: SPDXRef-laptop-detect DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dmidecode
+
+
+## File
+
+FileName: /usr/share/doc/laptop-detect/copyright
+SPDXID: SPDXRef-laptop-detect-file-0
+FileChecksum: SHA1: 0d0e6edac110ac39f5c62339a8fa8440e1f24f61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright 2004-2007 Thom May <thom@canonical.com> 2005 Colin Watson <cjwatson@ubuntu.com> 2006 Franklin PIAT <fpiat@bigfoot.com> 2006-2008 Otavio Salvador <otavio@ossystems.com.br> 2007 Tormod Volden 2008 Joey Hess
+</text>
+Relationship: SPDXRef-laptop-detect CONTAINS SPDXRef-laptop-detect-file-0
+
+
+FileName: /usr/bin/laptop-detect
+SPDXID: SPDXRef-laptop-detect-file-1
+FileChecksum: SHA1: e2b456910874e7eb582e1cf84dd8009ee0e3d247
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-laptop-detect CONTAINS SPDXRef-laptop-detect-file-1
+
+
+FileName: /usr/share/doc/laptop-detect/changelog.gz
+SPDXID: SPDXRef-laptop-detect-file-2
+FileChecksum: SHA1: de7bec27f50cafcc3798e45b6b45cf428395db4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-laptop-detect CONTAINS SPDXRef-laptop-detect-file-2
+
+
+FileName: /usr/share/man/man1/laptop-detect.1.gz
+SPDXID: SPDXRef-laptop-detect-file-3
+FileChecksum: SHA1: 396154e9452cb6598f9861f51ae07e3cb10e8807
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-laptop-detect CONTAINS SPDXRef-laptop-detect-file-3
+
+
+## Extracted License
+

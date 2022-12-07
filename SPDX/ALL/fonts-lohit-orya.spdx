@@ -1,0 +1,137 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-lohit-orya_2.91.2-2-ee664379-7ce2-5edf-9a6b-498f6078f85b
+DocumentName: fonts-lohit-orya_2.91.2-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-lohit-orya
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:57:11Z
+
+
+## Package
+
+PackageName: fonts-lohit-orya
+PackageVersion: 2.91.2-2
+SPDXID: SPDXRef-fonts-lohit-orya
+PackageHomePage: https://pagure.io/lohit
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3c7759e9fea5bdcfc5d1bafbb0e176905bcafea7
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc.
+Copyright 2011, Muneeb Shaikh <iammuneeb@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017, Pravin Satpute
+</text>
+PackageComment: <text>Lohit TrueType font for Oriya Language
+ This package provides Lohit TrueType font for Oriya language which is
+ primarily used in Indian state of Orissa.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-lohit-orya/copyright
+SPDXID: SPDXRef-fonts-lohit-orya-file-0
+FileChecksum: SHA1: 505605f751b98a1090cc7ebadb3f111cdd14657e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc.
+Copyright 2011, Muneeb Shaikh <iammuneeb@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017, Pravin Satpute
+</text>
+Relationship: SPDXRef-fonts-lohit-orya CONTAINS SPDXRef-fonts-lohit-orya-file-0
+
+
+FileName: /etc/fonts/conf.avail/66-lohit-odia.conf
+SPDXID: SPDXRef-fonts-lohit-orya-file-1
+FileChecksum: SHA1: 8b0be63663a3a7ec7a4764fed43e4daec4262ec7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-orya CONTAINS SPDXRef-fonts-lohit-orya-file-1
+
+
+FileName: /usr/share/doc/fonts-lohit-orya/AUTHORS
+SPDXID: SPDXRef-fonts-lohit-orya-file-2
+FileChecksum: SHA1: 3bd42b90ab3cf946ba553c4ab651d98477a23864
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-orya CONTAINS SPDXRef-fonts-lohit-orya-file-2
+
+
+FileName: /usr/share/doc/fonts-lohit-orya/README
+SPDXID: SPDXRef-fonts-lohit-orya-file-3
+FileChecksum: SHA1: 48dae9c3f1a979c7dff31e2ecc1e831e612ac4fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-orya CONTAINS SPDXRef-fonts-lohit-orya-file-3
+
+
+FileName: /usr/share/doc/fonts-lohit-orya/README.Debian
+SPDXID: SPDXRef-fonts-lohit-orya-file-4
+FileChecksum: SHA1: a998289b3a62ff3ec22758b6370b1fc075b394e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-orya CONTAINS SPDXRef-fonts-lohit-orya-file-4
+
+
+FileName: /usr/share/doc/fonts-lohit-orya/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-lohit-orya-file-5
+FileChecksum: SHA1: c2dec85baf38924271dd8efe51b63245eab95e02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-orya CONTAINS SPDXRef-fonts-lohit-orya-file-5
+
+
+FileName: /usr/share/fonts/truetype/lohit-oriya/Lohit-Odia.ttf
+SPDXID: SPDXRef-fonts-lohit-orya-file-6
+FileChecksum: SHA1: eace9cbe9ac69415dfbd26deb0619326fe1ceb9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-orya CONTAINS SPDXRef-fonts-lohit-orya-file-6
+
+
+FileName: /usr/share/metainfo/io.pagure.lohit.odia.font.metainfo.xml
+SPDXID: SPDXRef-fonts-lohit-orya-file-7
+FileChecksum: SHA1: d372586cc76dd9167d1d6d70711e27b46682931c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-orya CONTAINS SPDXRef-fonts-lohit-orya-file-7
+
+
+FileName: /etc/fonts/conf.d/66-lohit-odia.conf
+SPDXID: SPDXRef-fonts-lohit-orya-file-8
+FileChecksum: SHA1: 8b0be63663a3a7ec7a4764fed43e4daec4262ec7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-orya CONTAINS SPDXRef-fonts-lohit-orya-file-8
+
+
+## Extracted License
+

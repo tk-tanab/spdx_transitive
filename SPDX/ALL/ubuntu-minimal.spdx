@@ -1,0 +1,123 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-minimal_1.481-5579beae-4ad5-5906-87e3-aa61623fef36
+DocumentName: ubuntu-minimal_1.481
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-usrmerge http://spdx.org/spdxdocs/usrmerge_25ubuntu2-1fbb4bfb-531f-5138-82c0-271f365e441b SHA1: bb449bf054edf38f634113f56158963f3e811186
+ExternalDocumentRef: DocumentRef-netplan.io http://spdx.org/spdxdocs/netplan.io_0.104-0ubuntu2.1-66809a5a-ea73-5f17-bef1-544915ec28e4 SHA1: 5e042f054a8ac950c83d3e6d51566a4a0f5a1b5c
+ExternalDocumentRef: DocumentRef-ubuntu-keyring http://spdx.org/spdxdocs/ubuntu-keyring_2021.03.26-be0a6218-7f46-5fbc-bb75-27f47bf00921 SHA1: c96568d0d65889c2e37ba1bfe9171d5aa5112285
+ExternalDocumentRef: DocumentRef-sudo http://spdx.org/spdxdocs/sudo_1.9.9-1ubuntu2.1-4e280001-18d7-5eb7-89ea-00c190010cf8 SHA1: fab923bf69e8bf57fdaaf9f6e73bb846a3544583
+ExternalDocumentRef: DocumentRef-sensible-utils http://spdx.org/spdxdocs/sensible-utils_0.0.17-ed2b8d8c-10ea-5b7e-be9d-7532a6ad3a8d SHA1: b3885afd199ecc0b65ef25895f834b33fbadd6a4
+ExternalDocumentRef: DocumentRef-vim-tiny.Cycle http://spdx.org/spdxdocs/vim-tiny_2:8.2.3995-1ubuntu2.1-72cc40b2-66f7-5f89-ae61-367c2371db11 SHA1: 901338109e49718ea7727c7a8e847c2308c42845
+ExternalDocumentRef: DocumentRef-netbase http://spdx.org/spdxdocs/netbase_6.3-d75adb86-01cf-52b5-8fff-849f97189fb5 SHA1: d78d1527380f7ef88b0ce24974bccdeec024bf54
+ExternalDocumentRef: DocumentRef-init http://spdx.org/spdxdocs/init_1.62-fa60d29e-934c-5a07-877a-75639382c23e SHA1: 608e0d3ed41076a8c9c88a48c32ad20a6e01d7a5
+ExternalDocumentRef: DocumentRef-iputils-ping http://spdx.org/spdxdocs/iputils-ping_3:20211215-1-83f72165-af05-53f1-8045-1a3f9b145a6a SHA1: 2523ee5f72b955dec3690103795126ec74e14408
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-netcat-openbsd http://spdx.org/spdxdocs/netcat-openbsd_1.218-4ubuntu1-ef25de8a-c61e-552c-87a5-f9470bfdc83d SHA1: 1c510ec3dc0f0290b365bc3cd3133c90697823bc
+ExternalDocumentRef: DocumentRef-anacron.Cycle http://spdx.org/spdxdocs/anacron_2.3-31ubuntu2-a3911883-88a6-5b3f-bb4e-9175c9bc002b SHA1: 39297d5944af59ec97f258f114c0826fafda63ed
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-minimal
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:07:46Z
+
+
+## Package
+
+PackageName: ubuntu-minimal
+PackageVersion: 1.481
+SPDXID: SPDXRef-ubuntu-minimal
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0382db34857953a7b1161c4f6c036b461b33a0d7
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2004, Canonical Ltd.
+</text>
+PackageComment: <text>Minimal core of Ubuntu
+ This package depends on all of the packages in the Ubuntu minimal system,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boot
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.</text>
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-adduser
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-apt
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-apt-utils
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-console-setup
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf-i18n
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-e2fsprogs
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-eject
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-init:SPDXRef-init
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-iproute2
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-iputils-ping:SPDXRef-iputils-ping
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-isc-dhcp-client
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-kbd
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-kmod
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-less
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-locales
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-lsb-release
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-mawk
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-mount
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-netbase:SPDXRef-netbase
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-netcat-openbsd:SPDXRef-netcat-openbsd
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-netplan.io:SPDXRef-netplan.io
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-passwd
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-procps
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-sensible-utils:SPDXRef-sensible-utils
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-sudo:SPDXRef-sudo
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-tzdata
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ubuntu-advantage-tools
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-ubuntu-keyring:SPDXRef-ubuntu-keyring
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-udev
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-vim-tiny.Cycle:SPDXRef-vim-tiny
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-whiptail
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-anacron.Cycle:SPDXRef-rsyslog
+Relationship: SPDXRef-ubuntu-minimal DEPENDS_ON DocumentRef-usrmerge:SPDXRef-usrmerge
+
+
+## File
+
+FileName: /usr/share/doc/ubuntu-minimal/copyright
+SPDXID: SPDXRef-ubuntu-minimal-file-0
+FileChecksum: SHA1: 2d0d79d9b35884d2f91672dcbaf6dfe5d9f96cf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2004, Canonical Ltd.
+</text>
+Relationship: SPDXRef-ubuntu-minimal CONTAINS SPDXRef-ubuntu-minimal-file-0
+
+
+FileName: /usr/share/doc/ubuntu-minimal/changelog.gz
+SPDXID: SPDXRef-ubuntu-minimal-file-1
+FileChecksum: SHA1: 523641b94acae1259347c6040d970ad5facf0993
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-minimal CONTAINS SPDXRef-ubuntu-minimal-file-1
+
+
+## Extracted License
+

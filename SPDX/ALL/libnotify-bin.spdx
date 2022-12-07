@@ -1,0 +1,99 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libnotify-bin_0.7.9-3ubuntu5.22.04.1-05706708-99e3-5301-8024-717bf74fae21
+DocumentName: libnotify-bin_0.7.9-3ubuntu5.22.04.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libnotify-bin
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:15:43Z
+
+
+## Package
+
+PackageName: libnotify-bin
+PackageVersion: 0.7.9-3ubuntu5.22.04.1
+SPDXID: SPDXRef-libnotify-bin
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f6026b8bc4d92deb9d4472d6c378c15f42a0fa77
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2004-2006 Christian Hammond
+Copyright 2004-2006 Mike Hearn <mike@navi.cx>
+Copyright 2006 John Palmieri
+Copyright 2010 Christian Persch
+Copyright 2010 Red Hat, Inc
+</text>
+PackageComment: <text>sends desktop notifications to a notification daemon (Utilities)
+ A library that sends desktop notifications to a notification daemon, as
+ defined in the Desktop Notifications spec. These notifications can be
+ used to inform the user about an event or display some form of
+ information without getting in the user's way.
+ .
+ This package contains the binary which sends the notification.</text>
+Relationship: SPDXRef-libnotify-bin DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libnotify-bin DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libnotify-bin DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnotify4
+
+
+## File
+
+FileName: /usr/share/doc/libnotify-bin/copyright
+SPDXID: SPDXRef-libnotify-bin-file-0
+FileChecksum: SHA1: 24db6718fd6b607c2445a52dc106cbf3e86bd24d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2004-2006 Christian Hammond
+Copyright 2006 John Palmieri
+Copyright 2010 Christian Persch
+Copyright 2004-2006 Mike Hearn <mike@navi.cx>
+Copyright 2010 Red Hat, Inc
+</text>
+Relationship: SPDXRef-libnotify-bin CONTAINS SPDXRef-libnotify-bin-file-0
+
+
+FileName: /usr/bin/notify-send
+SPDXID: SPDXRef-libnotify-bin-file-1
+FileChecksum: SHA1: f7d27eab6928f2c8841c6154497d62a732738ad6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnotify-bin CONTAINS SPDXRef-libnotify-bin-file-1
+
+
+FileName: /usr/share/man/man1/notify-send.1.gz
+SPDXID: SPDXRef-libnotify-bin-file-2
+FileChecksum: SHA1: d465dba0bd01e67e75cc9afb0672d24ae3c2067a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnotify-bin CONTAINS SPDXRef-libnotify-bin-file-2
+
+
+FileName: /usr/share/doc/libnotify-bin/changelog.Debian.gz
+SPDXID: SPDXRef-libnotify-bin-file-3
+FileChecksum: SHA1: 7a51ef883d3515958932f3abc4d995934ace9b70
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnotify-bin CONTAINS SPDXRef-libnotify-bin-file-3
+
+
+## Extracted License
+

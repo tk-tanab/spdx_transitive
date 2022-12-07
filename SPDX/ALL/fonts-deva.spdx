@@ -1,0 +1,93 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-deva_2:1.3-b7134719-777f-5964-b468-cd01f89e08bc
+DocumentName: fonts-deva_2:1.3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-lohit-deva http://spdx.org/spdxdocs/fonts-lohit-deva_2.95.4-4-79f71d9e-5b21-5f6d-b832-2784cd4c6b9e SHA1: a40ea898a5c7818a9136155b4bd8816ada159aaf
+ExternalDocumentRef: DocumentRef-fonts-deva-extra http://spdx.org/spdxdocs/fonts-deva-extra_3.0-5-16d0ece0-f096-5da1-9c0e-3f30b9493d94 SHA1: 2a0c8a9ae5c17dc009233f261af500bef2230a31
+ExternalDocumentRef: DocumentRef-fonts-samyak-deva http://spdx.org/spdxdocs/fonts-samyak-deva_1.2.2-5build1-239f95d8-d60c-506e-9321-3932b1bdf170 SHA1: 23b5bf81e6bdd5a93c7094e83eb3b12d2e444e7a
+ExternalDocumentRef: DocumentRef-fonts-nakula.Cycle http://spdx.org/spdxdocs/fonts-nakula_1.0-4-a80a28b7-787f-566b-be24-ee13f6ec00bb SHA1: ae445366ffaf74bf278fbb8fa646fe927b7e8f1b
+ExternalDocumentRef: DocumentRef-fonts-gargi http://spdx.org/spdxdocs/fonts-gargi_2.0-5-14e67a59-9914-5089-85da-e59174f3453b SHA1: 2b86c3df8bc1676000a7c3b0d689c9c2937b5ddf
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-deva
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:51:49Z
+
+
+## Package
+
+PackageName: fonts-deva
+PackageVersion: 2:1.3
+SPDXID: SPDXRef-fonts-deva
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 410f62ddee2dfcce2474634f5e02174d675fb7f3
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: ISC
+PackageCopyrightText: <text>Copyright 2011-2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Meta package to install all Devanagari fonts
+ This package allows you to install all available Devanagari fonts
+ in Debian.
+ .
+ This package installs following fonts:
+   * fonts-deva-extra
+   * fonts-gargi
+   * fonts-lohit-deva
+   * fonts-nakula
+   * fonts-sahadeva
+   * fonts-samyak-deva</text>
+Relationship: SPDXRef-fonts-deva DEPENDS_ON DocumentRef-fonts-deva-extra:SPDXRef-fonts-deva-extra
+Relationship: SPDXRef-fonts-deva DEPENDS_ON DocumentRef-fonts-gargi:SPDXRef-fonts-gargi
+Relationship: SPDXRef-fonts-deva DEPENDS_ON DocumentRef-fonts-lohit-deva:SPDXRef-fonts-lohit-deva
+Relationship: SPDXRef-fonts-deva DEPENDS_ON DocumentRef-fonts-nakula.Cycle:SPDXRef-fonts-nakula
+Relationship: SPDXRef-fonts-deva DEPENDS_ON DocumentRef-fonts-nakula.Cycle:SPDXRef-fonts-sahadeva
+Relationship: SPDXRef-fonts-deva DEPENDS_ON DocumentRef-fonts-samyak-deva:SPDXRef-fonts-samyak-deva
+
+
+## File
+
+FileName: /usr/share/doc/fonts-deva/copyright
+SPDXID: SPDXRef-fonts-deva-file-0
+FileChecksum: SHA1: 932726575b0f28ec5d55cbbd0197f353a8984774
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2011-2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-deva CONTAINS SPDXRef-fonts-deva-file-0
+
+
+FileName: /usr/share/doc/fonts-deva/README.Debian
+SPDXID: SPDXRef-fonts-deva-file-1
+FileChecksum: SHA1: 08eb6ac0179803917c8e1a05b9b8befef9f44674
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-deva CONTAINS SPDXRef-fonts-deva-file-1
+
+
+FileName: /usr/share/doc/fonts-deva/changelog.gz
+SPDXID: SPDXRef-fonts-deva-file-2
+FileChecksum: SHA1: ec9a03bed7b14f0b67747c9d3c1a90a9c6326c0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-deva CONTAINS SPDXRef-fonts-deva-file-2
+
+
+## Extracted License
+

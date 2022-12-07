@@ -1,0 +1,204 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/python3-dev_3.10.6-1~22.04-800de648-dba1-50ea-8c33-4a6bdd258382
+DocumentName: python3-dev_3.10.6-1~22.04
+SPDXID: SPDXRef-DOCUMENT
+ExternalDocumentRef: DocumentRef-python3.10-dev http://spdx.org/spdxdocs/python3.10-dev_3.10.6-1~22.04.1-6aabf408-4925-5491-8c22-accbbe1ab49e SHA1: 2e5297861deb73ef66f1f20db463986d23c7e8d2
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-libpython3-dev http://spdx.org/spdxdocs/libpython3-dev_3.10.6-1~22.04-820fe79d-77f7-55aa-91f0-90b61f224d25 SHA1: 204b906a009f0744141192dfdd7941d0c480349e
+ExternalDocumentRef: DocumentRef-libjs-sphinxdoc http://spdx.org/spdxdocs/libjs-sphinxdoc_4.3.2-1-cc5ab841-179e-5945-99cb-a45ff0281435 SHA1: 7db8786fe0b9a41bb0416b95c5151386a1620333
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-python3-dev
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:06:08Z
+
+
+## Package
+
+PackageName: python3-dev
+PackageVersion: 3.10.6-1~22.04
+SPDXID: SPDXRef-python3-dev
+PackageHomePage: https://www.python.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 93b03b56ee1190601a4a4ce6d43f659525cf9402
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>header files and a static library for Python (default)
+ Header files, a static library and development tools for building
+ Python modules, extending the Python interpreter or embedding Python
+ in applications.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version's headers (currently v3.10).</text>
+Relationship: SPDXRef-python3-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-python3-dev DEPENDS_ON DocumentRef-libpython3-dev:SPDXRef-libpython3-dev
+Relationship: SPDXRef-python3-dev DEPENDS_ON DocumentRef-python3.10-dev:SPDXRef-python3.10-dev
+Relationship: SPDXRef-python3-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3-distutils
+Relationship: SPDXRef-python3-dev DEPENDS_ON DocumentRef-libjs-sphinxdoc:SPDXRef-libjs-sphinxdoc
+
+
+## File
+
+FileName: /usr/share/doc/python3/_static/basic.css
+SPDXID: SPDXRef-python3-dev-file-0
+FileChecksum: SHA1: 81daeb5c16af26db25991e06e49c9ca87acc23ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-0
+
+
+FileName: /usr/share/doc/python3/_static/documentation_options.js
+SPDXID: SPDXRef-python3-dev-file-1
+FileChecksum: SHA1: fd452d15af0ce8e47a8d467c676fbca8bf2a210f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-1
+
+
+FileName: /usr/share/doc/python3/_static/file.png
+SPDXID: SPDXRef-python3-dev-file-2
+FileChecksum: SHA1: 51fd2e4ec924e822c5d434fa98ccfc70c30380f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-2
+
+
+FileName: /usr/share/doc/python3/_static/minus.png
+SPDXID: SPDXRef-python3-dev-file-3
+FileChecksum: SHA1: 89f4178f1f917ad03726f307fe6d2e28d6a1706a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-3
+
+
+FileName: /usr/share/doc/python3/_static/nature.css
+SPDXID: SPDXRef-python3-dev-file-4
+FileChecksum: SHA1: 351279be2cafa3c494117de781d4113386c26ed7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-4
+
+
+FileName: /usr/share/doc/python3/_static/plus.png
+SPDXID: SPDXRef-python3-dev-file-5
+FileChecksum: SHA1: 365abe63de063ef2d97d3caacc43512415b5a835
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-5
+
+
+FileName: /usr/share/doc/python3/_static/pygments.css
+SPDXID: SPDXRef-python3-dev-file-6
+FileChecksum: SHA1: 28645bb531cf2f59af0a685483f7751e09603c4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-6
+
+
+FileName: /usr/share/doc/python3/python-policy.html
+SPDXID: SPDXRef-python3-dev-file-7
+FileChecksum: SHA1: 93a987575e8461ce8e6e49a10ba3f683dc3148ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-7
+
+
+FileName: /usr/share/doc/python3/searchindex.js
+SPDXID: SPDXRef-python3-dev-file-8
+FileChecksum: SHA1: 45980d9d3c470aba1191fab37b704bda401981ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-8
+
+
+FileName: /usr/bin/python3-config
+SPDXID: SPDXRef-python3-dev-file-9
+FileChecksum: SHA1: f46ebcad19e41750f9538e430d8e397802e108a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-9
+
+
+FileName: /usr/share/doc/python3/_static/doctools.js
+SPDXID: SPDXRef-python3-dev-file-10
+FileChecksum: SHA1: 473c28002b38004326f8359b9200a56ce0f29380
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-10
+
+
+FileName: /usr/share/doc/python3/_static/jquery.js
+SPDXID: SPDXRef-python3-dev-file-11
+FileChecksum: SHA1: f5a85e66258a44e9f61bbffcb464d047b55bd738
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-11
+
+
+FileName: /usr/share/doc/python3/_static/language_data.js
+SPDXID: SPDXRef-python3-dev-file-12
+FileChecksum: SHA1: 634d87670a2c91a86d3642787b6567f3f16d175f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-12
+
+
+FileName: /usr/share/doc/python3/_static/searchtools.js
+SPDXID: SPDXRef-python3-dev-file-13
+FileChecksum: SHA1: fd8a7f963aa7fbeeda1b3c7467f30e3ea61f7dad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-13
+
+
+FileName: /usr/share/doc/python3/_static/underscore.js
+SPDXID: SPDXRef-python3-dev-file-14
+FileChecksum: SHA1: 0cc095f866383de0ee45bac6ddec16236c588649
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-14
+
+
+FileName: /usr/share/doc/python3/index.html
+SPDXID: SPDXRef-python3-dev-file-15
+FileChecksum: SHA1: 93a987575e8461ce8e6e49a10ba3f683dc3148ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-15
+
+
+FileName: /usr/share/man/man1/python3-config.1.gz
+SPDXID: SPDXRef-python3-dev-file-16
+FileChecksum: SHA1: b610506b490632b4ec77768aac7fba98b15ef482
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-python3-dev CONTAINS SPDXRef-python3-dev-file-16
+
+
+## Extracted License
+

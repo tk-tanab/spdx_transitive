@@ -1,0 +1,128 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-lohit-telu_2.5.5-2build1-815bf7a3-4c40-5048-94c3-5a3eed5117c8
+DocumentName: fonts-lohit-telu_2.5.5-2build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-lohit-telu
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:58:17Z
+
+
+## Package
+
+PackageName: fonts-lohit-telu
+PackageVersion: 2.5.5-2build1
+SPDXID: SPDXRef-fonts-lohit-telu
+PackageHomePage: https://pagure.io/lohit
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 700b136566653f6c9ddea692c35b435a5c74302a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc
+Copyright 2011, Sana Khan <sanakhan2011@gmail.com> 2012, Debian-IN Team <debian-in-workers@lists.alioth.debian.org> 2013, 2015-16 Vasudev Kamath <vasudev@copyninja.info> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017, Pravin Satpute
+</text>
+PackageComment: <text>Lohit TrueType font for Telugu Language
+ This package provides Lohit TrueType font for Telugu language which
+ is primarily used in Indian state of Andhra Pradesh.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-lohit-telu/copyright
+SPDXID: SPDXRef-fonts-lohit-telu-file-0
+FileChecksum: SHA1: 239fd67ef60708687e6859660f4a25a074dfc058
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc
+Copyright 2011, Sana Khan <sanakhan2011@gmail.com> 2012, Debian-IN Team <debian-in-workers@lists.alioth.debian.org> 2013, 2015-16 Vasudev Kamath <vasudev@copyninja.info> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017, Pravin Satpute
+</text>
+Relationship: SPDXRef-fonts-lohit-telu CONTAINS SPDXRef-fonts-lohit-telu-file-0
+
+
+FileName: /etc/fonts/conf.avail/66-lohit-telugu.conf
+SPDXID: SPDXRef-fonts-lohit-telu-file-1
+FileChecksum: SHA1: 2844e0003d9870e8cdea28fbb7ca4c4a25be2f44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-telu CONTAINS SPDXRef-fonts-lohit-telu-file-1
+
+
+FileName: /usr/share/doc/fonts-lohit-telu/AUTHORS
+SPDXID: SPDXRef-fonts-lohit-telu-file-2
+FileChecksum: SHA1: 3bd42b90ab3cf946ba553c4ab651d98477a23864
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-telu CONTAINS SPDXRef-fonts-lohit-telu-file-2
+
+
+FileName: /usr/share/doc/fonts-lohit-telu/README
+SPDXID: SPDXRef-fonts-lohit-telu-file-3
+FileChecksum: SHA1: 48dae9c3f1a979c7dff31e2ecc1e831e612ac4fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-telu CONTAINS SPDXRef-fonts-lohit-telu-file-3
+
+
+FileName: /usr/share/doc/fonts-lohit-telu/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-lohit-telu-file-4
+FileChecksum: SHA1: 789af4bbcd42535ddb2a97b1f3f01400bba3660b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-telu CONTAINS SPDXRef-fonts-lohit-telu-file-4
+
+
+FileName: /usr/share/fonts/truetype/lohit-telugu/Lohit-Telugu.ttf
+SPDXID: SPDXRef-fonts-lohit-telu-file-5
+FileChecksum: SHA1: 117c19f7e37e1eaa992693c17779bbc3306d9fe1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-telu CONTAINS SPDXRef-fonts-lohit-telu-file-5
+
+
+FileName: /usr/share/metainfo/io.pagure.lohit.telugu.font.metainfo.xml
+SPDXID: SPDXRef-fonts-lohit-telu-file-6
+FileChecksum: SHA1: 028132636d56b431e7ea86154ead98fa0c9d46e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-telu CONTAINS SPDXRef-fonts-lohit-telu-file-6
+
+
+FileName: /etc/fonts/conf.d/66-lohit-telugu.conf
+SPDXID: SPDXRef-fonts-lohit-telu-file-7
+FileChecksum: SHA1: 2844e0003d9870e8cdea28fbb7ca4c4a25be2f44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-telu CONTAINS SPDXRef-fonts-lohit-telu-file-7
+
+
+## Extracted License
+

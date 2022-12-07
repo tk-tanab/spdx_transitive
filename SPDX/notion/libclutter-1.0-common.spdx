@@ -1,0 +1,59 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libclutter-1.0-common_1.26.4+dfsg-4build1-146e7247-d1b9-5a9b-b873-25ba3de94e77
+DocumentName: libclutter-1.0-common_1.26.4+dfsg-4build1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libclutter-1.0-common
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:12:50Z
+
+
+## Package
+
+PackageName: libclutter-1.0-common
+PackageVersion: 1.26.4+dfsg-4build1
+SPDXID: SPDXRef-libclutter-1.0-common
+PackageHomePage: https://blogs.gnome.org/clutter/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ed22558cfaad7a4e88a8f49b508c45e6b23d8579
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Open GL based interactive canvas library (common files)
+ Clutter is an Open GL based interactive canvas library, designed for creating
+ fast, mainly 2D single window applications such as media box UIs,
+ presentations, kiosk style applications and so on.
+ .
+ This package contains the common files, such as translations.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libclutter-1.0-common/changelog.Debian.gz
+SPDXID: SPDXRef-libclutter-1.0-common-file-0
+FileChecksum: SHA1: 6b5b4339ad9f1792d5b2e9bc636a6a6afa76d692
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libclutter-1.0-common CONTAINS SPDXRef-libclutter-1.0-common-file-0
+
+
+FileName: /usr/share/doc/libclutter-1.0-common/copyright
+SPDXID: SPDXRef-libclutter-1.0-common-file-1
+FileChecksum: SHA1: b806884466c50f1f152e6562f9571cb604042df0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libclutter-1.0-common CONTAINS SPDXRef-libclutter-1.0-common-file-1
+
+
+## Extracted License
+

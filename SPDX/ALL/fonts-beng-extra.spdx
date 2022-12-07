@@ -1,0 +1,158 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-beng-extra_3.2.1-1-e5ada876-4f37-5e43-9965-9be3d8a92dff
+DocumentName: fonts-beng-extra_3.2.1-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-lohit-beng-assamese.Cycle http://spdx.org/spdxdocs/fonts-lohit-beng-assamese_2.91.5-2-221a4de4-8765-50d1-8e59-e0e7dc315675 SHA1: 34c085a6e464e890178f4707c98d40356b05bc5c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-beng-extra
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:51:23Z
+
+
+## Package
+
+PackageName: fonts-beng-extra
+PackageVersion: 3.2.1-1
+SPDXID: SPDXRef-fonts-beng-extra
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e30361e1e75a7d2618a23ee82922f0096bb3bbf7
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2002-2022, Dr. Anirban Mitra
+Copyright 2003, Muktha Bangla Project 2002-2022, Dr Anirban Mitra
+Copyright 2011-2012, Vasudev Kamath <kamathvasudev@gmail.com> 2022, Kartik Mistry <kartik@debian.org>
+Copyright Deepayan Sarkar <deepayan@bengalinux.org>
+Copyright Deepayan Sarkar <deepayan@bengalinux.org> , Free Software Foundation Inc.
+</text>
+PackageComment: <text>TrueType fonts for Bengali language
+ This package provides TrueType fonts for Bengali language which is
+ primarily spoken in the Indian state of West Bengal, Assam, Tripura
+ and in the country Bangladesh.</text>
+Relationship: SPDXRef-fonts-beng-extra DEPENDS_ON DocumentRef-fonts-lohit-beng-assamese.Cycle:SPDXRef-fonts-lohit-beng-assamese
+Relationship: SPDXRef-fonts-beng-extra DEPENDS_ON DocumentRef-fonts-lohit-beng-assamese.Cycle:SPDXRef-fonts-lohit-beng-bengali
+
+
+## File
+
+FileName: /usr/share/doc/fonts-beng-extra/copyright
+SPDXID: SPDXRef-fonts-beng-extra-file-0
+FileChecksum: SHA1: f1634bb09079cfaaa33edd21a10bfd3e251e3f78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2011-2012, Vasudev Kamath <kamathvasudev@gmail.com> 2022, Kartik Mistry <kartik@debian.org>
+Copyright Deepayan Sarkar <deepayan@bengalinux.org>
+Copyright Deepayan Sarkar <deepayan@bengalinux.org> , Free Software Foundation Inc.
+Copyright 2002-2022, Dr. Anirban Mitra
+Copyright 2003, Muktha Bangla Project 2002-2022, Dr Anirban Mitra
+Copyright 2002-2022, Dr. Anirban Mitra
+</text>
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-0
+
+
+FileName: /etc/fonts/conf.avail/65-0-fonts-beng-extra.conf
+SPDXID: SPDXRef-fonts-beng-extra-file-1
+FileChecksum: SHA1: 9af73c3f6f3533f99d5f4946e4de8593a817e47e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-1
+
+
+FileName: /usr/share/doc/fonts-beng-extra/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-beng-extra-file-2
+FileChecksum: SHA1: 5604afd447dd61904c829d47b65b15e7a3255b43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-2
+
+
+FileName: /usr/share/fonts/truetype/fonts-beng-extra/Ani.ttf
+SPDXID: SPDXRef-fonts-beng-extra-file-3
+FileChecksum: SHA1: e362404f10af013b432aca3696dcef5d375ab871
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-3
+
+
+FileName: /usr/share/fonts/truetype/fonts-beng-extra/JamrulNormal.ttf
+SPDXID: SPDXRef-fonts-beng-extra-file-4
+FileChecksum: SHA1: 4baae400994236dc25d0756332d7e76c5a5cce47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-4
+
+
+FileName: /usr/share/fonts/truetype/fonts-beng-extra/LikhanNormal.ttf
+SPDXID: SPDXRef-fonts-beng-extra-file-5
+FileChecksum: SHA1: b6870dfe58d591fe71a13ba840a2ba5aa1199744
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-5
+
+
+FileName: /usr/share/fonts/truetype/fonts-beng-extra/MitraMono.ttf
+SPDXID: SPDXRef-fonts-beng-extra-file-6
+FileChecksum: SHA1: 3ab26ee04076ad315c490ed96c497b79d479b00f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-6
+
+
+FileName: /usr/share/fonts/truetype/fonts-beng-extra/Mukti.ttf
+SPDXID: SPDXRef-fonts-beng-extra-file-7
+FileChecksum: SHA1: 028d6f8ecf37b510cd19037d9201a4881d6d03bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-7
+
+
+FileName: /usr/share/fonts/truetype/fonts-beng-extra/Muktibold.ttf
+SPDXID: SPDXRef-fonts-beng-extra-file-8
+FileChecksum: SHA1: 0b17944aa8b66276c5e6643c712bc3c4d117572e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-8
+
+
+FileName: /etc/fonts/conf.d/65-0-fonts-beng-extra.conf
+SPDXID: SPDXRef-fonts-beng-extra-file-9
+FileChecksum: SHA1: 9af73c3f6f3533f99d5f4946e4de8593a817e47e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-beng-extra CONTAINS SPDXRef-fonts-beng-extra-file-9
+
+
+## Extracted License
+

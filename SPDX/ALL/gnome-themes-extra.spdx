@@ -1,0 +1,155 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-themes-extra_3.28-1ubuntu3-261c8987-d4bd-5a9a-852c-e1e2f220788f
+DocumentName: gnome-themes-extra_3.28-1ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-gnome-accessibility-themes http://spdx.org/spdxdocs/gnome-accessibility-themes_3.28-1ubuntu3-d76f414b-fa26-51e3-9f7b-4ab18cc5c74a SHA1: ede4e2abbb43c9c2c859acc7e4e6f581ee5b1146
+ExternalDocumentRef: DocumentRef-gnome-themes-extra-data http://spdx.org/spdxdocs/gnome-themes-extra-data_3.28-1ubuntu3-dcafa3d1-d64d-5b73-8660-67ba87d24528 SHA1: a2a81aaf2cddcc9f9557988c71650d8c2e3a9cf9
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-gtk2-engines-pixbuf http://spdx.org/spdxdocs/gtk2-engines-pixbuf_2.24.33-2ubuntu2-874a02ae-55c5-55f4-a912-e4ca63fd35d2 SHA1: 8982a5271e3e19b7480ed9ff5155626ae2a616b5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-themes-extra
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:13:12Z
+
+
+## Package
+
+PackageName: gnome-themes-extra
+PackageVersion: 3.28-1ubuntu3
+SPDXID: SPDXRef-gnome-themes-extra
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0312a8d6bb503d2a58edf455bbfa1b7cb7a3f542
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright (c) 2010 A S Alam <aalam@users.sf.net>
+Copyright (c) 2010 Aron Xu <aronxu@gnome.org>
+Copyright (c) 2010 Carlos Garnacho <carlosg@gnome.org>
+Copyright (c) 2010 Daniel Nylander <po@danielnylander.se>
+Copyright (c) 2010 Fran Dieguez <fran.dieguez@mabishu.com>
+Copyright (c) 2010 Gheyret T.Kenji <gheyret@gmail.com>
+Copyright (c) 2010 Hylke Bons
+Copyright (c) 2010 Ivar Smolin <okul@linux.ee>
+Copyright (c) 2010 Jakub Steiner <jimmac@gmail.com>
+Copyright (c) 2010 Jorge Gonzalez <jorgegonz@svn.gnome.org>
+Copyright (c) 2010 Kenneth Nielsen <k.nielsen81@gmail.com>
+Copyright (c) 2010 Kjartan Maraas <kmaraas@gnome.org>
+Copyright (c) 2010 Kris Thomsen <lakristho@gmail.com>
+Copyright (c) 2010 Lapo Calamandrei <calamandrei@gmail.com>
+Copyright (c) 2010 Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
+Copyright (c) 2010 Matej Urbancic <mateju@svn.gnome.org>
+Copyright (c) 2010 Matthias Clasen <mclasen@redhat.com>
+Copyright (c) 2010 Priit Laes <plaes@plaes.org>
+Copyright (c) 2010 Theodore Dimitriadis <liakoni@gmail.com>
+Copyright (c) 2010 Theppitak Karoonboonyanan <thep@linux.thai.net>
+Copyright (c) 2010 William Jon McCann <jmccann@redhat.com>
+Copyright (c) 2010 Yaron Shahrabani <sh.yaron@gmail.com>
+Copyright (c) 2012 Red Hat, Inc
+Copyright (c) Bill Haneman
+Copyright (c) T. Liebeck
+</text>
+PackageComment: <text>Adwaita GTK+ 2 theme — engine
+ This is the version of Adwaita, the standard GNOME theme, for the
+ GTK+ 2.x toolkit.
+ .
+ The GTK+ 3.x version is already included in libgtk-3-0.
+ .
+ This package contains the Adwaita theme engine.</text>
+Relationship: SPDXRef-gnome-themes-extra DEPENDS_ON DocumentRef-gnome-themes-extra-data:SPDXRef-gnome-themes-extra-data
+Relationship: SPDXRef-gnome-themes-extra DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-themes-extra DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-gnome-themes-extra DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-themes-extra DEPENDS_ON DocumentRef-gtk2-engines-pixbuf:SPDXRef-gtk2-engines-pixbuf
+Relationship: SPDXRef-gnome-themes-extra DEPENDS_ON DocumentRef-gnome-accessibility-themes:SPDXRef-gnome-accessibility-themes
+Relationship: SPDXRef-gnome-themes-extra DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-adwaita-icon-theme
+
+
+## File
+
+FileName: /usr/share/doc/gnome-themes-extra/copyright
+SPDXID: SPDXRef-gnome-themes-extra-file-0
+FileChecksum: SHA1: e45fb45c8a3b18a2c3107915be7159c6e5b48836
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright (c) 2010 Aron Xu <aronxu@gnome.org>
+Copyright (c) 2010 A S Alam <aalam@users.sf.net>
+Copyright (c) 2010 Carlos Garnacho <carlosg@gnome.org>
+Copyright (c) 2010 Daniel Nylander <po@danielnylander.se>
+Copyright (c) 2010 Fran Dieguez <fran.dieguez@mabishu.com>
+Copyright (c) 2010 Gheyret T.Kenji <gheyret@gmail.com>
+Copyright (c) 2010 Ivar Smolin <okul@linux.ee>
+Copyright (c) 2010 Jakub Steiner <jimmac@gmail.com>
+Copyright (c) 2010 Jorge Gonzalez <jorgegonz@svn.gnome.org>
+Copyright (c) 2010 Kenneth Nielsen <k.nielsen81@gmail.com>
+Copyright (c) 2010 Kjartan Maraas <kmaraas@gnome.org>
+Copyright (c) 2010 Kris Thomsen <lakristho@gmail.com>
+Copyright (c) 2010 Lapo Calamandrei <calamandrei@gmail.com>
+Copyright (c) 2010 Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
+Copyright (c) 2010 Matej Urbancic <mateju@svn.gnome.org>
+Copyright (c) 2010 Matthias Clasen <mclasen@redhat.com>
+Copyright (c) 2010 Priit Laes <plaes@plaes.org>
+Copyright (c) 2010 Theodore Dimitriadis <liakoni@gmail.com>
+Copyright (c) 2010 Theppitak Karoonboonyanan <thep@linux.thai.net>
+Copyright (c) 2010 William Jon McCann <jmccann@redhat.com>
+Copyright (c) 2010 Yaron Shahrabani <sh.yaron@gmail.com>
+Copyright (c) 2010 Hylke Bons
+Copyright (c) 2012 Red Hat, Inc
+Copyright (c) Bill Haneman
+Copyright (c) T. Liebeck
+</text>
+Relationship: SPDXRef-gnome-themes-extra CONTAINS SPDXRef-gnome-themes-extra-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libadwaita.so
+SPDXID: SPDXRef-gnome-themes-extra-file-1
+FileChecksum: SHA1: 2628643d7960a1db0af7c69d7ca48fa1c34e51c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra CONTAINS SPDXRef-gnome-themes-extra-file-1
+
+
+FileName: /usr/share/doc/gnome-themes-extra/NEWS.gz
+SPDXID: SPDXRef-gnome-themes-extra-file-2
+FileChecksum: SHA1: 7be1da1fe00d500fabd2aa3beb1325c40b08d477
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra CONTAINS SPDXRef-gnome-themes-extra-file-2
+
+
+FileName: /usr/share/doc/gnome-themes-extra/README.md
+SPDXID: SPDXRef-gnome-themes-extra-file-3
+FileChecksum: SHA1: ff9edfc3c029f1899b08a3879745b9e84b7bdf0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra CONTAINS SPDXRef-gnome-themes-extra-file-3
+
+
+FileName: /usr/share/doc/gnome-themes-extra/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-themes-extra-file-4
+FileChecksum: SHA1: 3ddf5b1985a4b3621e72504c894b5ff8c1fe5a74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra CONTAINS SPDXRef-gnome-themes-extra-file-4
+
+
+## Extracted License
+

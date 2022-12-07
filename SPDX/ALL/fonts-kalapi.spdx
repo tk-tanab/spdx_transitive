@@ -1,0 +1,82 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-kalapi_1.0-4-17793dfd-7a7e-50f7-b324-faa9b64b1a3b
+DocumentName: fonts-kalapi_1.0-4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-kalapi
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:53:15Z
+
+
+## Package
+
+PackageName: fonts-kalapi
+PackageVersion: 1.0-4
+SPDXID: SPDXRef-fonts-kalapi
+PackageHomePage: https://github.com/gujaratilexicon/font-kalapi
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ea4ff17c4f906673e10888748125d5445c822223
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2009-2012, GujaratiLexicon Team <info@gujaratilexicon.com>
+Copyright 2012, Kartik Mistry <kartik@debian.org>
+</text>
+PackageComment: <text>Kalapi Gujarati Unicode font
+ This package provides Kalapi Unicode font for Gujarati language which is
+ primarily used in Indian state of Gujarat. Currently, package includes
+ single font only.</text>
+Relationship: SPDXRef-fonts-kalapi DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+
+
+## File
+
+FileName: /usr/share/doc/fonts-kalapi/copyright
+SPDXID: SPDXRef-fonts-kalapi-file-0
+FileChecksum: SHA1: 97fbaff529a9305dea542c505f2fd241b5c827af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: OFL-1.1
+FileCopyrightText: <text>Copyright 2009-2012, GujaratiLexicon Team <info@gujaratilexicon.com>
+Copyright 2012, Kartik Mistry <kartik@debian.org>
+</text>
+Relationship: SPDXRef-fonts-kalapi CONTAINS SPDXRef-fonts-kalapi-file-0
+
+
+FileName: /usr/share/doc/fonts-kalapi/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-kalapi-file-1
+FileChecksum: SHA1: 2a67671c8f021762394597fc266e0eaf56d6e0c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kalapi CONTAINS SPDXRef-fonts-kalapi-file-1
+
+
+FileName: /usr/share/fonts/truetype/fonts-kalapi/Kalapi.ttf
+SPDXID: SPDXRef-fonts-kalapi-file-2
+FileChecksum: SHA1: bdc9226bbec2f495fc0ba4ad6982348c24a44fc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kalapi CONTAINS SPDXRef-fonts-kalapi-file-2
+
+
+## Extracted License
+

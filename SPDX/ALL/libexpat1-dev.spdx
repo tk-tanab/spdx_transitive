@@ -1,0 +1,284 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libexpat1-dev_2.4.7-1-99d3919e-2725-5d9d-807d-be3612703725
+DocumentName: libexpat1-dev_2.4.7-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libexpat1-dev
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:32:17Z
+
+
+## Package
+
+PackageName: libexpat1-dev
+PackageVersion: 2.4.7-1
+SPDXID: SPDXRef-libexpat1-dev
+PackageHomePage: https://libexpat.github.io/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 00c73bc20d710eac2012e758ab3febe7a1aa3d4b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright (c) 1998-2000 Adam Di Carlo <aph@debian.org>
+Copyright (c) 1998-2000 Thai Open Source Software Center Ltd and Clark Cooper
+Copyright (c) 2000-2007 Ardo van Rangelrooij <ardo@debian.org>
+Copyright (c) 2001-2017 Expat maintainers
+Copyright (c) 2008-2009 Daniel Leidert
+Copyright (c) 2013- Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Copyright (c) Expat maintainers
+</text>
+PackageComment: <text>XML parsing C library - development kit
+ This package contains the header file and development libraries of
+ expat, the C library for parsing XML.  Expat is a stream oriented XML
+ parser.  This means that you register handlers with the parser prior
+ to starting the parse.  These handlers are called when the parser
+ discovers the associated structures in the document being parsed.  A
+ start tag is an example of the kind of structures for which you may
+ register handlers.</text>
+Relationship: SPDXRef-libexpat1-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libexpat1
+Relationship: SPDXRef-libexpat1-dev DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6-dev
+
+
+## File
+
+FileName: /usr/share/doc/libexpat1-dev/copyright
+SPDXID: SPDXRef-libexpat1-dev-file-0
+FileChecksum: SHA1: 7e4b64a58ab4ed0fa530e149daf0e743955d40f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright (c) Expat maintainers
+Copyright (c) 1998-2000 Thai Open Source Software Center Ltd and Clark Cooper
+Copyright (c) 2001-2017 Expat maintainers
+Copyright (c) 1998-2000 Adam Di Carlo <aph@debian.org>
+Copyright (c) 2000-2007 Ardo van Rangelrooij <ardo@debian.org>
+Copyright (c) 2008-2009 Daniel Leidert
+Copyright (c) 2013- Laszlo Boszormenyi (GCS) <gcs@debian.org>
+</text>
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-0
+
+
+FileName: /usr/include/expat.h
+SPDXID: SPDXRef-libexpat1-dev-file-1
+FileChecksum: SHA1: 57d31da4c5d1e34d9ed778c0126e3c6d92eccf39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-1
+
+
+FileName: /usr/include/expat_external.h
+SPDXID: SPDXRef-libexpat1-dev-file-2
+FileChecksum: SHA1: 30909cde1fdd2e056f7335d3e42ea0d4209b7fec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-2
+
+
+FileName: /usr/include/x86_64-linux-gnu/expat_config.h
+SPDXID: SPDXRef-libexpat1-dev-file-3
+FileChecksum: SHA1: 7f7842f25207da6b0d67f317f3cbae69388e34de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/cmake/expat-2.4.7/expat-config-version.cmake
+SPDXID: SPDXRef-libexpat1-dev-file-4
+FileChecksum: SHA1: 95119a33426b6e97f7aaace9bd10400951bd2261
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-4
+
+
+FileName: /usr/lib/x86_64-linux-gnu/cmake/expat-2.4.7/expat-config.cmake
+SPDXID: SPDXRef-libexpat1-dev-file-5
+FileChecksum: SHA1: 36f2cbd0875c765f9a51cc5e95d7520ef086e648
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-5
+
+
+FileName: /usr/lib/x86_64-linux-gnu/cmake/expat-2.4.7/expat-noconfig.cmake
+SPDXID: SPDXRef-libexpat1-dev-file-6
+FileChecksum: SHA1: b4ef02e08b89b4d0da4ca0eebdb8d9034a8a3c7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-6
+
+
+FileName: /usr/lib/x86_64-linux-gnu/cmake/expat-2.4.7/expat.cmake
+SPDXID: SPDXRef-libexpat1-dev-file-7
+FileChecksum: SHA1: f1486a684ea577518b9bb3a5fad337ab5dd8e6a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-7
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libexpat.a
+SPDXID: SPDXRef-libexpat1-dev-file-8
+FileChecksum: SHA1: e4f964a63f6723186e6bd7e7ee6211ebedd89c3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-8
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libexpatw.a
+SPDXID: SPDXRef-libexpat1-dev-file-9
+FileChecksum: SHA1: 055cadb27cbe73c84b1bb0323ac7de7953acfa1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-9
+
+
+FileName: /usr/lib/x86_64-linux-gnu/pkgconfig/expat.pc
+SPDXID: SPDXRef-libexpat1-dev-file-10
+FileChecksum: SHA1: 15279ef727ea1a2bd302e465aa2cd7ae0c032e52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-10
+
+
+FileName: /usr/share/aclocal/expat.m4
+SPDXID: SPDXRef-libexpat1-dev-file-11
+FileChecksum: SHA1: 935cec749441d8ab933cbc79947d14a004eabf8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-11
+
+
+FileName: /usr/share/doc/libexpat1-dev/TODO.Debian
+SPDXID: SPDXRef-libexpat1-dev-file-12
+FileChecksum: SHA1: f68903c916874e4377ee933e2adb631bb459a696
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-12
+
+
+FileName: /usr/share/doc/libexpat1-dev/examples/elements.c
+SPDXID: SPDXRef-libexpat1-dev-file-13
+FileChecksum: SHA1: 3cbe0e2424e155920f7389b513e336b961224052
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-13
+
+
+FileName: /usr/share/doc/libexpat1-dev/examples/outline.c
+SPDXID: SPDXRef-libexpat1-dev-file-14
+FileChecksum: SHA1: 345fa81ada6edf88f36d7d9e134141f57ac19680
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-14
+
+
+FileName: /usr/share/doc/libexpat1-dev/expat.html/ok.min.css
+SPDXID: SPDXRef-libexpat1-dev-file-15
+FileChecksum: SHA1: cf8d32677c21fa7254e52f45a7935a013c0e9c49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-15
+
+
+FileName: /usr/share/doc/libexpat1-dev/expat.html/reference.html
+SPDXID: SPDXRef-libexpat1-dev-file-16
+FileChecksum: SHA1: 272f96b56001afd8da5925d4df322d5a364fc137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-16
+
+
+FileName: /usr/share/doc/libexpat1-dev/expat.html/style.css
+SPDXID: SPDXRef-libexpat1-dev-file-17
+FileChecksum: SHA1: f9b21f34f7c4795f37d46cd5d138df6a94a495a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-17
+
+
+FileName: /usr/share/doc/libexpat1-dev/expat.html/xmlwf.xml.gz
+SPDXID: SPDXRef-libexpat1-dev-file-18
+FileChecksum: SHA1: b30b79c6e145efaba81c6be6dfea3a50ce30162d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-18
+
+
+FileName: /usr/share/doc-base/libexpat1-dev.expat
+SPDXID: SPDXRef-libexpat1-dev-file-19
+FileChecksum: SHA1: 997e50674f6f73d97e4859c6946c610e5655ec62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-19
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libexpat.so
+SPDXID: SPDXRef-libexpat1-dev-file-20
+FileChecksum: SHA1: d42966bd72b8eb0465a4cd303703caa9d35ecbf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-20
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libexpatw.so
+SPDXID: SPDXRef-libexpat1-dev-file-21
+FileChecksum: SHA1: 9cda656ec99d230ce45278fe7704d75906f00dff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-21
+
+
+FileName: /usr/share/doc/libexpat1-dev/changelog.Debian.gz
+SPDXID: SPDXRef-libexpat1-dev-file-22
+FileChecksum: SHA1: 8bf29b0977dd3448e7fb3d2da99c1137151f5d26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-22
+
+
+FileName: /usr/share/doc/libexpat1-dev/expat.html/index.html
+SPDXID: SPDXRef-libexpat1-dev-file-23
+FileChecksum: SHA1: 272f96b56001afd8da5925d4df322d5a364fc137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexpat1-dev CONTAINS SPDXRef-libexpat1-dev-file-23
+
+
+## Extracted License
+

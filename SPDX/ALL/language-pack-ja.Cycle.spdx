@@ -1,0 +1,1832 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/language-pack-ja_1:22.04+20220721-b7244199-2500-59c5-b486-52c3d0950c37
+DocumentName: language-pack-ja_1:22.04+20220721
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-language-pack-ja
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:31:07Z
+
+
+## Package
+
+PackageName: language-pack-ja
+PackageVersion: 1:22.04+20220721
+SPDXID: SPDXRef-language-pack-ja
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 905fe7bcbad5b954ea34e68ac75ef233cf8e586b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2004 - 2008 Canonical Ltd.
+</text>
+PackageComment: <text>translation updates for language Japanese
+ Translation data updates for all supported packages for:
+ Japanese
+ .
+ language-pack-ja-base provides the bulk of translation data
+ and is updated only seldom. This package provides frequent translation
+ updates.</text>
+Relationship: SPDXRef-language-pack-ja DEPENDS_ON SPDXRef-language-pack-ja-base
+Relationship: SPDXRef-language-pack-ja DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+
+
+PackageName: language-pack-ja-base
+PackageVersion: 1:22.04+20220721
+SPDXID: SPDXRef-language-pack-ja-base
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 879e9caf7555370c1b6d9dcfdc26e3932b5c9936
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2004 - 2008 Canonical Ltd.
+</text>
+PackageComment: <text>translations for language Japanese
+ Translation data for all supported packages for:
+ Japanese
+ .
+ This package provides the bulk of translation data and is updated
+ only seldom. language-pack-ja provides frequent
+ translation updates, so you should install this as well.</text>
+Relationship: SPDXRef-language-pack-ja-base DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-locales
+Relationship: SPDXRef-language-pack-ja-base DEPENDS_ON SPDXRef-language-pack-ja
+Relationship: SPDXRef-language-pack-ja-base DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+
+
+## File
+
+FileName: /usr/share/doc/language-pack-ja/copyright
+SPDXID: SPDXRef-language-pack-ja-file-0
+FileChecksum: SHA1: 39c774b0b28ee0dec0471915ff98bc78ed51fa90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 2004 - 2008 Canonical Ltd.
+</text>
+Relationship: SPDXRef-language-pack-ja CONTAINS SPDXRef-language-pack-ja-file-0
+
+
+FileName: /usr/share/doc/language-pack-ja/changelog.gz
+SPDXID: SPDXRef-language-pack-ja-file-1
+FileChecksum: SHA1: 24f1865400e8777c280fb66b82d0636a68743d12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja CONTAINS SPDXRef-language-pack-ja-file-1
+
+
+FileName: /usr/share/doc/language-pack-ja-base/copyright
+SPDXID: SPDXRef-language-pack-ja-base-file-0
+FileChecksum: SHA1: 39c774b0b28ee0dec0471915ff98bc78ed51fa90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 2004 - 2008 Canonical Ltd.
+</text>
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-0
+
+
+FileName: /usr/share/doc/language-pack-ja-base/changelog.gz
+SPDXID: SPDXRef-language-pack-ja-base-file-1
+FileChecksum: SHA1: 253677d3d794daab86453ca6931426763325939d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-1
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/Linux-PAM.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-2
+FileChecksum: SHA1: 5797d13be37d623f10e8a6afea0d1b92a68ca1b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-2
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/NetworkManager.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-3
+FileChecksum: SHA1: 64b1cbc3e9f111b00670b9da6dd264a41f5b0924
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-3
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/acl.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-4
+FileChecksum: SHA1: ea3a4ba8e03e21ea1d61bc08286941316f950d6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-4
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/adduser.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-5
+FileChecksum: SHA1: 926136e82098254b9d003be99ce49e1e2d20ffb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-5
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/alsa-utils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-6
+FileChecksum: SHA1: f3305e9aeebeebb79ecb2d421e5562093904c861
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-6
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/app-install-data.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-7
+FileChecksum: SHA1: 8f22a547c722a8df7ee92cb02aaa053323c633f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-7
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/apparmor-parser.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-8
+FileChecksum: SHA1: a4ebc8dcf66fb4117e3185480af43164476471e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-8
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/apparmorapplet.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-9
+FileChecksum: SHA1: 910541cfa4b37e2baeb8e498db73b01490782c20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-9
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/apport.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-10
+FileChecksum: SHA1: 6421d9785c08b6e3bb77c514cdd97bbee4e5766f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-10
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/appstream.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-11
+FileChecksum: SHA1: 8ec9d9d1c2d0ad1393332e66032c5b4c55730676
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-11
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/apt-listchanges.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-12
+FileChecksum: SHA1: 08677529021fed4008136a466e32e7a14fca036c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-12
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/apt-utils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-13
+FileChecksum: SHA1: c73b02e2671a55ebbeb3341c67c19318d8e4eac9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-13
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/apt.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-14
+FileChecksum: SHA1: 4bead1a74f621abe849a815cd138b47aec889bdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-14
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/aptitude.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-15
+FileChecksum: SHA1: d61ef0170fcff3e113ca497583e3e2767a235880
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-15
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/apturl.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-16
+FileChecksum: SHA1: 54e5b06a2d6bf04c9a1543e44775c4b68103902e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-16
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/aspell.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-17
+FileChecksum: SHA1: 7f79213ca8a8a3af1cfc644bcd37cdd657ad12b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-17
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/at-spi2-core.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-18
+FileChecksum: SHA1: 8dc71b34215f38c76686303b76d9dd029d3dd18d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-18
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/attr.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-19
+FileChecksum: SHA1: ff7cf6e8d482d7305543f8f1908f4fe87bedfacc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-19
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/bash.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-20
+FileChecksum: SHA1: 49a0e5c5a4513f91efe645a2ff5d1853cc5bf10e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-20
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/bfd.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-21
+FileChecksum: SHA1: 4a3793878c305f701dd1c3474ea23df06f63f980
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-21
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/binutils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-22
+FileChecksum: SHA1: 1f646909ad9af18117965c1fca7343f8f2b11911
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-22
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/bison-gnulib.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-23
+FileChecksum: SHA1: 1f224e663ba871851434cb56baca537a286fa8bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-23
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/bison-runtime.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-24
+FileChecksum: SHA1: 6d32778b432f27748c3b5e10c9ea433650acd6b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-24
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/bison.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-25
+FileChecksum: SHA1: f1e644a20c350c86ac22fee1476b6e06df8b3c24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-25
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/byobu.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-26
+FileChecksum: SHA1: 582bf47f111c715545a9003b8b88d12b4fefaf80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-26
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/bzr.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-27
+FileChecksum: SHA1: 60744283ba5b158884dd4dcf1cff5b88725e6e5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-27
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/cinder.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-28
+FileChecksum: SHA1: 5ee160029e5c8aed4d0ace0345c95e5a00766d92
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-28
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/colord.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-29
+FileChecksum: SHA1: 73257fece23a47ccdb94f046dcf387f8d1f7fa00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-29
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/command-not-found.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-30
+FileChecksum: SHA1: 0886aeb9f3c41dac66a929ae85184fb12c42b2e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-30
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/coreutils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-31
+FileChecksum: SHA1: 492e9d9a398dfc37b20161cc151cb290d9860611
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-31
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/cpio.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-32
+FileChecksum: SHA1: 88c4d63050441b101bf2473b10b735f89befa24e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-32
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/cpplib.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-33
+FileChecksum: SHA1: 587f4b1587fc5c147052fa14d22c4b0946877f6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-33
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/cracklib.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-34
+FileChecksum: SHA1: 77dade5570c89eb7b03fcbe160f5d7e3092d565f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-34
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/cryptsetup.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-35
+FileChecksum: SHA1: d79b503b21636ea40ac4374ea95289ea968310e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-35
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/cups.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-36
+FileChecksum: SHA1: 1ead46f0f3ec11cc13825ef288810a3907564af2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-36
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/dctrl-tools.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-37
+FileChecksum: SHA1: 349dbd1b970f8be28774f3f416b8debb25a83f54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-37
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/debconf.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-38
+FileChecksum: SHA1: 48200657f3f37ee1b1a63bf86894f77641ae8d5c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-38
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/debian-tasks.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-39
+FileChecksum: SHA1: 35e4616c8329134a16906759a71f97c4f93d243a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-39
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/debianutils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-40
+FileChecksum: SHA1: bc95442cc624505d159be8658efa6c94bc413850
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-40
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/desktop_kubuntu-notification-helper.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-41
+FileChecksum: SHA1: 2baeb3157dd7f8689999d3372c76bb29d6a7c093
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-41
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/desktop_kubuntu-web-shortcuts.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-42
+FileChecksum: SHA1: 1e57f09a939cb80070e40b310111599c97e56979
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-42
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/diffutils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-43
+FileChecksum: SHA1: 2360d432f743e80b3d84413c1d2ed76e557d6ab9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-43
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/doc-base.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-44
+FileChecksum: SHA1: 137fc2dc062a4a30ab857c30f3f3b989ae15978f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-44
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/dpkg-dev.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-45
+FileChecksum: SHA1: 6e82652d5bd3a1ca666f937855e73669df66ac6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-45
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/dpkg.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-46
+FileChecksum: SHA1: 3ba961f635ffceb135a87a7554678feb92998686
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-46
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/dselect.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-47
+FileChecksum: SHA1: 8b582c805ccb228eb440b955dfce605c86b360e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-47
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/e2fsprogs.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-48
+FileChecksum: SHA1: 477a90f3c7afb3c890c9f7ff36e1f489156a5db7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-48
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ecryptfs-utils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-49
+FileChecksum: SHA1: d52ea1cf24e878ce276acc66b998148f84c5947e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-49
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/elfutils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-50
+FileChecksum: SHA1: a0db5981b3c8597496d1761613ef625c28e8fc02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-50
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/example-content.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-51
+FileChecksum: SHA1: c7b4c7eeaa3ece91f97eaa896dd01ae55397e2a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-51
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/fcitx-mozc.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-52
+FileChecksum: SHA1: ba0fd1edfe29f16698c76330b1f4b59004f33c29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-52
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/fcitx5-mozc.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-53
+FileChecksum: SHA1: dbfb4e3dcd6c76622d60d5f10c32eea965046fb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-53
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/fetchmail.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-54
+FileChecksum: SHA1: 75f64adb21c08267dba3a33e28deb5ce6373ed7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-54
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/findutils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-55
+FileChecksum: SHA1: 1bd59f85b005db6609929c5b0e1b3cdfd3c56f9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-55
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/flex.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-56
+FileChecksum: SHA1: 8092e8055f2db205030f53cc3a4a73277ef6640c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-56
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/fprintd.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-57
+FileChecksum: SHA1: 32503481ec784bba1d40064d8880a696a02901f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-57
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/friendly-recovery.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-58
+FileChecksum: SHA1: 605e8d6d012e20374f3463dbc4313d0294923a35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-58
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/fwupd.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-59
+FileChecksum: SHA1: 3e5cfcf5939764d33490741a025940b7bc7f8f74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-59
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gas.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-60
+FileChecksum: SHA1: 8db4426f601cbe8a36bdfcf4dcaf4b77f417a218
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-60
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gawk.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-61
+FileChecksum: SHA1: c9132cefc5f0a09d1182d28752fbf454854dd7df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-61
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gcc.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-62
+FileChecksum: SHA1: bbcdd9d56775ba40444883914903e99c2538bfdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-62
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gdbm.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-63
+FileChecksum: SHA1: 14c7fd8343e42b804207b54b74a5c2550af9ec7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-63
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gettext-runtime.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-64
+FileChecksum: SHA1: 4bea7530540a6c199c86b615748b316a87abac5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-64
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gettext-tools.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-65
+FileChecksum: SHA1: 1e2a5cd43f9da4a82afceed7b0bef6e71616a672
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-65
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/git-gui.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-66
+FileChecksum: SHA1: 80256e81482e138d6f85c68d5a9de518568adcdb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-66
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/git.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-67
+FileChecksum: SHA1: 4d7bd7e1d81754379ebefb4376cba7e2cb38e21b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-67
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/glance.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-68
+FileChecksum: SHA1: 86db0d7580ece429f3f4cbc9ce5d933819d79db2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-68
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gnupg2.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-69
+FileChecksum: SHA1: fe6ca0ac6ea707a23fe4f1bba89c512cca549203
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-69
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gold.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-70
+FileChecksum: SHA1: 48b2febccd8fa08296e66ae29b15fbb787d8ec98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-70
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gprof.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-71
+FileChecksum: SHA1: e58679ec4cf1289aa7b2beef8f4c2c77048d935b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-71
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/grep.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-72
+FileChecksum: SHA1: ce0ccc0b1116f69384159c036bde9c5791b83e35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-72
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/grilo.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-73
+FileChecksum: SHA1: ac3453e4a1504495fb919da62fa76728e2ace408
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-73
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/grub.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-74
+FileChecksum: SHA1: 2000e83ad60cac309ea37426e65dcb3f6b497082
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-74
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gst-plugins-base-1.0.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-75
+FileChecksum: SHA1: cac20dbb4eefad01f19e23d71d84c0b57d71d7b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-75
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gstreamer-1.0.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-76
+FileChecksum: SHA1: 3291cba20a501af96bfcff7cc6bd89bfa1cde3f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-76
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/gutenprint.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-77
+FileChecksum: SHA1: dea5f829d4f4c2c6938ea53a5a9eb495b422b44c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-77
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/hello.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-78
+FileChecksum: SHA1: 8533f4e89d932c1e43caee224adb1c4375a300a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-78
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/help2man.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-79
+FileChecksum: SHA1: c7943cf30cd922d3bb8ab9ea1f81c91f223b913b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-79
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ibus-chewing.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-80
+FileChecksum: SHA1: 9992bde7b5165a3f0b50809c152f7ca56fb7fb8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-80
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ibus-m17n.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-81
+FileChecksum: SHA1: 347265609e3d78e8d006b57bdec46b3b2b6f4bd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-81
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ibus-table.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-82
+FileChecksum: SHA1: 72d39f7a0b29d6854683a969f6c94e48fb9f2644
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-82
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ibus-unikey.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-83
+FileChecksum: SHA1: 5284fb9930a64fe6e8af7748f075c1de77915cd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-83
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/indent.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-84
+FileChecksum: SHA1: 9a21e56a25b763cd7d92d7efafb989d0c4d9e1c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-84
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/indicator-datetime.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-85
+FileChecksum: SHA1: 7683c002852a133e54cc007d5f5f6bfbefac5600
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-85
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/iputils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-86
+FileChecksum: SHA1: 1ad16921c5df44a88c1ada9b73b8616b0b2bd8eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-86
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/kcm-driver-manager.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-87
+FileChecksum: SHA1: 4fa5f74c9fd7bc125e9c7bf3f961d021057fd06b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-87
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/kcm-whoopsie.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-88
+FileChecksum: SHA1: d9f61993b9e084d8130f020f05bce7d0a181a800
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-88
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/kcm_notificationhelper.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-89
+FileChecksum: SHA1: dddba1873ec0bd7038603ad7e63a486d1b683105
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-89
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/kdesudo.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-90
+FileChecksum: SHA1: 1aa837743ec7e0cb80fa019bfb5a9f555f63cdad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-90
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/kerneloops.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-91
+FileChecksum: SHA1: d7c9dfc5384eb6d2ab7d78e14a52c02beae8278c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-91
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/keystone.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-92
+FileChecksum: SHA1: 7ac089ac383479a867c90deede9c666010a97128
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-92
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/kubuntu-debug-installer.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-93
+FileChecksum: SHA1: f595ad71614acd716b7b7dd6d960f75764b7311e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-93
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/kubuntu-patched-l10n.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-94
+FileChecksum: SHA1: cdc59ad2e64e114ab20b9a35f84cbcc13809b786
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-94
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/landscape-client.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-95
+FileChecksum: SHA1: 9eccb9af6af2deac9ceba246191168b523aea56e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-95
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/language-selector.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-96
+FileChecksum: SHA1: 29169643c288d1aeeab146bf4d6156300de8518a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-96
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ld.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-97
+FileChecksum: SHA1: 63cad3a997215ae3afa19f1849523b551ffab577
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-97
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/lftp.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-98
+FileChecksum: SHA1: 97717ee8f061d981f0da434d234e05f7364bb0f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-98
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libapt-inst2.0.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-99
+FileChecksum: SHA1: c4ab936c5bc661f68ea862067ca168edb0202af1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-99
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libapt-pkg5.0.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-100
+FileChecksum: SHA1: e1a7e6fa9ced2b70966e6078eadc1a00340dc239
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-100
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libapt-pkg6.0.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-101
+FileChecksum: SHA1: 34a86d555c44b192860ad42ee32105e8285cba92
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-101
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libc.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-102
+FileChecksum: SHA1: 8e4b12d02eeaaa5391dd67da99edcb7fa80e70b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-102
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libexif-12.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-103
+FileChecksum: SHA1: 6eb31b0445573c26fe12cca2b047481ad5c7edd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-103
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libgpg-error.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-104
+FileChecksum: SHA1: adc1fe228c3b10a63f1ad31466de7d5e60087cff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-104
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libgphoto2-2.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-105
+FileChecksum: SHA1: 856ad77ef1e1ca842a51963944048e7156cf8f0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-105
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libgphoto2_port-0.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-106
+FileChecksum: SHA1: 202403361e577c9acb13b0f14b18e78eb791bc92
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-106
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libgpod.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-107
+FileChecksum: SHA1: 722dc8d2e7f22bedd9ac7df4b9279e8e63340199
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-107
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libgsf.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-108
+FileChecksum: SHA1: cf9831b378427bf721009613249f47f022c9b5dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-108
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libidn.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-109
+FileChecksum: SHA1: eb58df5ef28a3514db26c5927a7c008aa43d47cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-109
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libidn2.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-110
+FileChecksum: SHA1: 318c8d8e9c3df13161dbff789a69173207e42210
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-110
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libnma.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-111
+FileChecksum: SHA1: b8ec0231a73b232b56c897d5f24ddf4dfbf07dfd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-111
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/libpwquality.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-112
+FileChecksum: SHA1: 3cf1a7d121fa8a4608429768c4dddcf82385e412
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-112
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ltsp-live.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-113
+FileChecksum: SHA1: ac2999b0e3e8982b45e5e92f515a84001a639d97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-113
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ltsp-login.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-114
+FileChecksum: SHA1: a0aa0227a0e07fcc3cf254bf01ef37f073dccb4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-114
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ltsp.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-115
+FileChecksum: SHA1: 6d177329930f584c57b974eba32a65a2a5e65192
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-115
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/luksformat.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-116
+FileChecksum: SHA1: 00c321f2122d16df41c215fda7589d64f4b593c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-116
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/m17n-db.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-117
+FileChecksum: SHA1: b4c72ff3aa10f31cb7f0a9868324a7dcc48186e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-117
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/make.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-118
+FileChecksum: SHA1: b66fb262d3ab3c8649cec401ec9b3cb437ef8495
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-118
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/man-db-gnulib.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-119
+FileChecksum: SHA1: 80547c8e1c2e4b10a3a651e99336d3388719e7a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-119
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/man-db.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-120
+FileChecksum: SHA1: e81492f6427e7a586d9750bcf99a461798b0dd19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-120
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/mutt.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-121
+FileChecksum: SHA1: 8d634d371ba4f4192aa16a9a3566cfecd59af7d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-121
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/nano.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-122
+FileChecksum: SHA1: c84ee1356eca9760950f02030fb683cb61ecfe0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-122
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ndisc6.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-123
+FileChecksum: SHA1: d7dc86a14c9d451e1b178be6b9274fa447ea3182
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-123
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/neon.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-124
+FileChecksum: SHA1: 040597fee7ca016b050d56269a438fd3e1d021a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-124
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/net-tools.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-125
+FileChecksum: SHA1: 5a9285dcc866b00225738df54480590c443a7ee2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-125
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/newt.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-126
+FileChecksum: SHA1: 23c5bef0f9c5cbd681f411cad0beda4a3478eadf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-126
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/notificationhelper.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-127
+FileChecksum: SHA1: 3b287a49930658488f051bbe88e06e691a30f957
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-127
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/p11-kit.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-128
+FileChecksum: SHA1: 2383ed3a81d49e7d5ac155762a98fba4478666ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-128
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/parted.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-129
+FileChecksum: SHA1: 350246ad31189e3ac8abb37faafbe064229f0995
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-129
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/pastebinit.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-130
+FileChecksum: SHA1: 3877ac7787811a38e4dc6e8c4c26797479f5e406
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-130
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/pipewire.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-131
+FileChecksum: SHA1: e1ef48d3c9b68e54b3d5cb2c79c9df2342e20a1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-131
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/polkit-1.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-132
+FileChecksum: SHA1: 2eed9dd011ae3819e25465c03496f8356723abc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-132
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/popt.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-133
+FileChecksum: SHA1: e8669640fe55c29484ff6ac90937a03a04902347
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-133
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/powertop.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-134
+FileChecksum: SHA1: 6613f56fa89142d872521e93f883409a68280189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-134
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/pppconfig.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-135
+FileChecksum: SHA1: 4b5905055e583f99a1ecdaa91116b9d4314291a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-135
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/pppoeconf.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-136
+FileChecksum: SHA1: decf0d8ecd9e77a68305eb9e31fa4f92d747c1c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-136
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/psmisc.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-137
+FileChecksum: SHA1: 0190608159ce1949912b34452c0938735a8d49e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-137
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/pulseaudio.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-138
+FileChecksum: SHA1: ea0ff2e496a5375c5f1d6ceaa7f94f1ff7353c55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-138
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/python-apt.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-139
+FileChecksum: SHA1: 54e883790cfc84e5a05f27b523d5c30a949ffc71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-139
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/quota.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-140
+FileChecksum: SHA1: 7d228630f14856d2f94ef459352531fa5ea45201
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-140
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/realmd.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-141
+FileChecksum: SHA1: eb1f2aa1d276c337c00b7f892ebe2646c80b9289
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-141
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/recode.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-142
+FileChecksum: SHA1: 30c3ffcbdbab5d920c9b5537883eaa9bdd37eeca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-142
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/sane-backends.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-143
+FileChecksum: SHA1: cc917b42372c1755dd2334fc9dfa37a4247a1e76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-143
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/screen-resolution-extra.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-144
+FileChecksum: SHA1: c97dc8e764f994221f3cd307e2e19881dd5dd8d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-144
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/sed.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-145
+FileChecksum: SHA1: e1ddf651235e4842eaaacc00e76b4b87b4c1f2d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-145
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/shadow.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-146
+FileChecksum: SHA1: 295fc38cf63f86b190432c6ef13f86376c1ccc77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-146
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/shared-mime-info.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-147
+FileChecksum: SHA1: 653486073f27bf655d493a2ee7cb12bbc7f5acfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-147
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/sharutils.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-148
+FileChecksum: SHA1: eae4cd8736f391f1bac8a433fd669da4feccec57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-148
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/slideshow-ubuntu-budgie.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-149
+FileChecksum: SHA1: 99a537acf0f9670d0cdf886897ccd1638b6b285a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-149
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/slideshow-ubuntu-mate.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-150
+FileChecksum: SHA1: d6fd350700ed5486d301d537a354d66340d5e7d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-150
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/slideshow-ubuntu.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-151
+FileChecksum: SHA1: 6af94ed669f7cf5908e6ee4924af750a05eb1ba8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-151
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/slideshow-ubuntustudio.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-152
+FileChecksum: SHA1: 70ab0c08a3b5d03265364b42a7a53eb3320492c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-152
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/snapd-glib.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-153
+FileChecksum: SHA1: be7f0b607f19e00649e01159b5238b0a01ffc768
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-153
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/sos.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-154
+FileChecksum: SHA1: 17e0589f33d89546f5acf3f3cab04aa60e6533e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-154
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/sssd-docs.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-155
+FileChecksum: SHA1: 2682990d017b03f2e275d237d916cd02238686a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-155
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/sssd.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-156
+FileChecksum: SHA1: 8f86bdc8c3c0e98b10d962b97507397b26f64b8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-156
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/subdomain_parser.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-157
+FileChecksum: SHA1: 35f07c82e1bd060352ecdafb8ff91543188adcfa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-157
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/sudo.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-158
+FileChecksum: SHA1: 2654075e4a351870e9dda55f2abe23ead50d051e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-158
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/sudoers.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-159
+FileChecksum: SHA1: 9a86714ce3d6febf017ff6c2abfbc25a01718ce0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-159
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/swift.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-160
+FileChecksum: SHA1: 0ce564361cb0a1ef987b67dcc13bb7bf508b45f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-160
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/synaptic-manual.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-161
+FileChecksum: SHA1: e448a28f6a0059468f83b6cc08572e275ea4ebb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-161
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/synaptic.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-162
+FileChecksum: SHA1: 85ddacfcd798959b05b96ff2b376b605d504272c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-162
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/sysstat.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-163
+FileChecksum: SHA1: d2812aafb5cb252622783cb70fda1a8b257728ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-163
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/systemd.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-164
+FileChecksum: SHA1: 92eb72bc97b78280b1de14028b26ad118d6dc2d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-164
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/tar.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-165
+FileChecksum: SHA1: 1a4e689da164dad12d3910b335041c4d810e9bbb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-165
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/tasksel.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-166
+FileChecksum: SHA1: 89a9ce9be57013a0e80018e58e280b840a018414
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-166
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/templates.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-167
+FileChecksum: SHA1: 01f46b242c064db8ec6e10c479e5a63e2b2c9959
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-167
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/texinfo.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-168
+FileChecksum: SHA1: bf06967ff6af5cdf2fc9d34b5cf1f514c56aa3d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-168
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ubiquity-debconf.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-169
+FileChecksum: SHA1: e4558f823d45f7fd78321faa2814912e2daf7ff0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-169
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ubiquity-desktop.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-170
+FileChecksum: SHA1: fa9623821e5834a95be199b1d500b5b4d9e2cd0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-170
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ubiquity-slideshow-kubuntu.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-171
+FileChecksum: SHA1: a5481a4decc60ac89137b1e30900f00c9a38dd31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-171
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ubiquity-slideshow-oem-config-ubuntu.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-172
+FileChecksum: SHA1: 6d32758060250c0579badf415492fb06ed0ba659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-172
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ubiquity-slideshow-xubuntu.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-173
+FileChecksum: SHA1: 995aa52be085641e17db8a95523a86ec6d78b8f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-173
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ubuntu-default-launchers.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-174
+FileChecksum: SHA1: 6f17e45fef9adb8a581cddf13d3118fa63af343e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-174
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ubuntu-wallpapers.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-175
+FileChecksum: SHA1: 93d890daa03a2d85469bd6ebc8e2aa570fc098ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-175
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/ufw.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-176
+FileChecksum: SHA1: fa3156137cca7706593a8f579a3d6c2ac894d9a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-176
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/unattended-upgrades.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-177
+FileChecksum: SHA1: 112eb4f1ca40880a440b4d14a6f769286b8bf423
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-177
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/usbcreator.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-178
+FileChecksum: SHA1: 9320c1a4dddcaca340e2c34a8479bbaf28b70ebd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-178
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/util-linux.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-179
+FileChecksum: SHA1: 968e3b202ca78724b8a6923d2a445f538c93b1d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-179
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/volume_key.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-180
+FileChecksum: SHA1: fa5fcbec328931cf9af74616349416f95ecf455d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-180
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/w3m.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-181
+FileChecksum: SHA1: fa42006de56eab4ed1e697d72b9cb60409978a46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-181
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/wdiff-gnulib.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-182
+FileChecksum: SHA1: f08193171913b5e7a2f2ee1a4cb47386be4cf07a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-182
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/wget.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-183
+FileChecksum: SHA1: 8735d3b83ff3f2903bbd66395426bafe4727cf38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-183
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/whois.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-184
+FileChecksum: SHA1: 083011efcf8f269c558c3f2b5793376fd098ee94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-184
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/whoopsie-preferences.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-185
+FileChecksum: SHA1: c7283e0ce73e08a72e84ab60e510fededa48a77c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-185
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/xdiagnose.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-186
+FileChecksum: SHA1: fd56ba70ad61d4e2c3f39081da1f129f1632f37f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-186
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/xen-xm.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-187
+FileChecksum: SHA1: 8654d247ba2094d4e6a9166583ccc436440e2757
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-187
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/xkeyboard-config.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-188
+FileChecksum: SHA1: 8f321b1e2fdc1c798c125fb2daa859041b2cb137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-188
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/xz.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-189
+FileChecksum: SHA1: 52d43d0f9520a59c64eea9169949b91718984ed3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-189
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/zeitgeist.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-190
+FileChecksum: SHA1: 00be6ebec9216bb544bbbbe264eddc6eb6ae314c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-190
+
+
+FileName: /usr/share/locale-langpack/ja/LC_MESSAGES/zenmap.mo
+SPDXID: SPDXRef-language-pack-ja-base-file-191
+FileChecksum: SHA1: 7b389f199649d647eeee1f058811418c8499bcd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-191
+
+
+FileName: /var/lib/locales/supported.d/ja
+SPDXID: SPDXRef-language-pack-ja-base-file-192
+FileChecksum: SHA1: 41fb9efed33f506b8e6f5077bbc8d1b46a0a6226
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-language-pack-ja-base CONTAINS SPDXRef-language-pack-ja-base-file-192
+
+
+## Extracted License
+

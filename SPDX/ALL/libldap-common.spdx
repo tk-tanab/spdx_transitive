@@ -1,0 +1,172 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1-1209af69-13f9-52a0-9a28-cd94cab4166d
+DocumentName: libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libldap-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T09:58:31Z
+
+
+## Package
+
+PackageName: libldap-common
+PackageVersion: 2.5.13+dfsg-0ubuntu0.22.04.1
+SPDXID: SPDXRef-libldap-common
+PackageHomePage: https://www.openldap.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8cb183a7de55aa0ff7e3d06cecfe53162cae37bc
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-4-Clause-UC
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: NTP
+PackageLicenseInfoFromFiles: OLDAP-2.8
+PackageLicenseInfoFromFiles: Spencer-94
+PackageLicenseInfoFromFiles: LicenseRef-scancode-bsd-original-uc-1986
+PackageLicenseInfoFromFiles: LicenseRef-scancode-bsla
+PackageLicenseInfoFromFiles: LicenseRef-scancode-fsf-unlimited-no-warranty
+PackageLicenseInfoFromFiles: LicenseRef-scancode-ibm-dhcp
+PackageLicenseInfoFromFiles: LicenseRef-scancode-ietf
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-permissive
+PackageCopyrightText: <text>Copyright (c) 1994, 1995-8, 1999, 2001 Free Software Foundation, Inc.
+Copyright (c) 1996, 1998 by Internet Software Consortium
+Copyright (c) 2000 Pierangelo Masarati, <ando@sys-net.it>
+Copyright (c) 2000, Mark Adamson, Carnegie Mellon
+Copyright (c) The Internet Society (1999)
+Copyright 1991 by the Massachusetts Institute of Technology
+Copyright 1998-2016 The OpenLDAP Foundation
+Copyright 1999 Computing Research Labs, New Mexico State University
+Copyright 1999-2001 The OpenLDAP Foundation, Redwood City, California, USA.
+Portions Copyright (c) 1995 by International Business Machines, Inc.
+</text>
+PackageComment: <text>OpenLDAP common files for libraries
+ These are common files for the run-time libraries for the OpenLDAP
+ (Lightweight Directory Access Protocol) servers and clients.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libldap-common/copyright
+SPDXID: SPDXRef-libldap-common-file-0
+FileChecksum: SHA1: dafbd159d68c2112925600499ef053994190dec0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-bsd-original-uc-1986
+LicenseInfoInFile: BSD-4-Clause-UC
+LicenseInfoInFile: LicenseRef-scancode-other-permissive
+LicenseInfoInFile: OLDAP-2.8
+LicenseInfoInFile: LicenseRef-scancode-bsla
+LicenseInfoInFile: LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseInfoInFile: NTP
+LicenseInfoInFile: MIT
+LicenseInfoInFile: ISC
+LicenseInfoInFile: LicenseRef-scancode-ibm-dhcp
+LicenseInfoInFile: LicenseRef-scancode-ietf
+LicenseInfoInFile: Spencer-94
+FileCopyrightText: <text>Copyright 1998-2016 The OpenLDAP Foundation
+Copyright 1999 Computing Research Labs, New Mexico State University
+Copyright (c) 1994, 1995-8, 1999, 2001 Free Software Foundation, Inc.
+Portions Copyright (c) 1995 by International Business Machines, Inc.
+Copyright (c) The Internet Society (1999)
+Copyright (c) 1996, 1998 by Internet Software Consortium
+Copyright (c) 2000, Mark Adamson, Carnegie Mellon
+Copyright 1991 by the Massachusetts Institute of Technology
+Copyright 1999-2001 The OpenLDAP Foundation, Redwood City, California, USA.
+Copyright (c) 2000 Pierangelo Masarati, <ando@sys-net.it>
+</text>
+Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common-file-0
+
+
+FileName: /etc/ldap/ldap.conf
+SPDXID: SPDXRef-libldap-common-file-1
+FileChecksum: SHA1: c1aa84a132bb8bc0546c66a12d37245e5cf55f9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common-file-1
+
+
+FileName: /usr/share/doc/libldap-common/changelog.Debian.gz
+SPDXID: SPDXRef-libldap-common-file-2
+FileChecksum: SHA1: 7f22dc33ce5bde434902c92a3358933105e76b07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common-file-2
+
+
+FileName: /usr/share/man/man5/ldap.conf.5.gz
+SPDXID: SPDXRef-libldap-common-file-3
+FileChecksum: SHA1: 784d6e6a94ff4df729ac54522bc53ff759b970d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libldap-common CONTAINS SPDXRef-libldap-common-file-3
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-bsd-original-uc-1986
+LicenseName: BSD-Original-UC-1986
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-original-uc-1986.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-original-uc-1986.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-bsla
+LicenseName: Berkeley Software License Agreement
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsla.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsla.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseName: FSF Unlimited License No Warranty
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-unlimited-no-warranty.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-unlimited-no-warranty.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-ibm-dhcp
+LicenseName: IBM DHCP License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ibm-dhcp.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ibm-dhcp.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-ietf
+LicenseName: Internet Engineering Task Force License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ietf.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/ietf.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-other-permissive
+LicenseName: Other Permissive Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+
+

@@ -1,0 +1,655 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/netplan.io_0.104-0ubuntu2.1-66809a5a-ea73-5f17-bef1-544915ec28e4
+DocumentName: netplan.io_0.104-0ubuntu2.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-python3-netifaces http://spdx.org/spdxdocs/python3-netifaces_0.11.0-1build2-f33a77c6-ae6d-593f-bfba-3e0084440c2d SHA1: 2368f6e9c6a2d1b8c1132e1f51577a4f54c56361
+ExternalDocumentRef: DocumentRef-libnetplan0 http://spdx.org/spdxdocs/libnetplan0_0.104-0ubuntu2.1-b6688664-bf59-5118-a4cd-34bf1c6bf49f SHA1: 97534282066f3a37253168697493be5a988f7f90
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-netplan.io
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:04:11Z
+
+
+## Package
+
+PackageName: netplan.io
+PackageVersion: 0.104-0ubuntu2.1
+SPDXID: SPDXRef-netplan.io
+PackageHomePage: https://netplan.io/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ee9278a585e25eba2cdb71e22df7467a7ff3c83f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageCopyrightText: <text>Copyright 2016--2020 Canonical Ltd.
+Copyright 2016--2020 Canonical Ltd. 2018--2020 Andrej Shadura <andrewsh@debian.org>
+</text>
+PackageComment: <text>YAML network configuration abstraction for various backends
+ netplan reads YAML network configuration files which are written
+ by administrators, installers, cloud image instantiations, or other OS
+ deployments. During early boot it then generates backend specific
+ configuration files in /run to hand off control of devices to a particular
+ networking daemon.
+ .
+ Currently supported backends are networkd and NetworkManager.</text>
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-libnetplan0:SPDXRef-libnetplan0
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-iproute2
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3-yaml
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-python3-netifaces:SPDXRef-python3-netifaces
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-systemd
+Relationship: SPDXRef-netplan.io DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-network-manager
+
+
+## File
+
+FileName: /usr/share/doc/netplan.io/copyright
+SPDXID: SPDXRef-netplan.io-file-0
+FileChecksum: SHA1: 38323c4af2570ea432f050a0282b829b371fe34f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+FileCopyrightText: <text>Copyright 2016--2020 Canonical Ltd.
+Copyright 2016--2020 Canonical Ltd. 2018--2020 Andrej Shadura <andrewsh@debian.org>
+</text>
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-0
+
+
+FileName: /lib/netplan/generate
+SPDXID: SPDXRef-netplan.io-file-1
+FileChecksum: SHA1: e5ad77a68f16998d102428070eaafcaff0fe90de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-1
+
+
+FileName: /lib/netplan/netplan-dbus
+SPDXID: SPDXRef-netplan.io-file-2
+FileChecksum: SHA1: 18c35dc85bc8de0ad8c0277d272cda5ebe06b786
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-2
+
+
+FileName: /usr/share/bash-completion/completions/netplan
+SPDXID: SPDXRef-netplan.io-file-3
+FileChecksum: SHA1: 1bb918874e4f291882d06ce7ef33a03fedce7cd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-3
+
+
+FileName: /usr/share/dbus-1/system-services/io.netplan.Netplan.service
+SPDXID: SPDXRef-netplan.io-file-4
+FileChecksum: SHA1: 6f9ccfeab13a2394b9e52df6aa71f1f9f99f5145
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-4
+
+
+FileName: /usr/share/dbus-1/system.d/io.netplan.Netplan.conf
+SPDXID: SPDXRef-netplan.io-file-5
+FileChecksum: SHA1: bcc60f372fa6f6fa4d5085af30ca0aeaa4706ba0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-5
+
+
+FileName: /usr/share/doc/netplan/examples/bonding.yaml
+SPDXID: SPDXRef-netplan.io-file-6
+FileChecksum: SHA1: 8c51dfee493107ea00e7ecd252c9ec2097810205
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-6
+
+
+FileName: /usr/share/doc/netplan/examples/bonding_router.yaml
+SPDXID: SPDXRef-netplan.io-file-7
+FileChecksum: SHA1: d65088767feb61ee652d7f1e0e657f01a691df98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-7
+
+
+FileName: /usr/share/doc/netplan/examples/bridge.yaml
+SPDXID: SPDXRef-netplan.io-file-8
+FileChecksum: SHA1: 59d68f69e9a0ef9b3493a6af6c72dfd4c86b14be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-8
+
+
+FileName: /usr/share/doc/netplan/examples/bridge_vlan.yaml
+SPDXID: SPDXRef-netplan.io-file-9
+FileChecksum: SHA1: fbd22b35e630dcbc72067282a5590c8c4136a064
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-9
+
+
+FileName: /usr/share/doc/netplan/examples/dhcp.yaml
+SPDXID: SPDXRef-netplan.io-file-10
+FileChecksum: SHA1: 59d25d119d10938ebc9c0ede9e319a05be6b967b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-10
+
+
+FileName: /usr/share/doc/netplan/examples/dhcp_wired8021x.yaml
+SPDXID: SPDXRef-netplan.io-file-11
+FileChecksum: SHA1: d418d8ca0844af9a92b465cb32359850d8594d10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-11
+
+
+FileName: /usr/share/doc/netplan/examples/direct_connect_gateway.yaml
+SPDXID: SPDXRef-netplan.io-file-12
+FileChecksum: SHA1: 28617dcb97e909984e850b86e6b6f32a54e6bc39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-12
+
+
+FileName: /usr/share/doc/netplan/examples/direct_connect_gateway_ipv6.yaml
+SPDXID: SPDXRef-netplan.io-file-13
+FileChecksum: SHA1: 04192d6138f1cb426beefffcc314e8f38de5521f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-13
+
+
+FileName: /usr/share/doc/netplan/examples/ipv6_tunnel.yaml
+SPDXID: SPDXRef-netplan.io-file-14
+FileChecksum: SHA1: e22e617e7f727304155d99b45aeeeacedcf54385
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-14
+
+
+FileName: /usr/share/doc/netplan/examples/loopback_interface.yaml
+SPDXID: SPDXRef-netplan.io-file-15
+FileChecksum: SHA1: f7e94cf408171de31a79ac40416e1e28ab150899
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-15
+
+
+FileName: /usr/share/doc/netplan/examples/modem.yaml
+SPDXID: SPDXRef-netplan.io-file-16
+FileChecksum: SHA1: 52e81a6157ec0ce7fd90bac47366827375495310
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-16
+
+
+FileName: /usr/share/doc/netplan/examples/network_manager.yaml
+SPDXID: SPDXRef-netplan.io-file-17
+FileChecksum: SHA1: 7317498c014742e6c7ca3f47d1f9c25262679325
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-17
+
+
+FileName: /usr/share/doc/netplan/examples/offload.yaml
+SPDXID: SPDXRef-netplan.io-file-18
+FileChecksum: SHA1: 2c51731150aba51fe43ba1d2f2241e0506f79fc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-18
+
+
+FileName: /usr/share/doc/netplan/examples/openvswitch.yaml
+SPDXID: SPDXRef-netplan.io-file-19
+FileChecksum: SHA1: 2bc3cf87b3cb6d1204672dd65eb75a836f3171d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-19
+
+
+FileName: /usr/share/doc/netplan/examples/route_metric.yaml
+SPDXID: SPDXRef-netplan.io-file-20
+FileChecksum: SHA1: 28b07671381a7f54a96ec93bd3f236b5802ef5c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-20
+
+
+FileName: /usr/share/doc/netplan/examples/source_routing.yaml
+SPDXID: SPDXRef-netplan.io-file-21
+FileChecksum: SHA1: a16b23f7a7d8a0d33a65e6fbcd7dcb0f81b6e86b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-21
+
+
+FileName: /usr/share/doc/netplan/examples/sriov.yaml
+SPDXID: SPDXRef-netplan.io-file-22
+FileChecksum: SHA1: 8428d4720c9a7dc8012afc5d0de4dbd23a528eb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-22
+
+
+FileName: /usr/share/doc/netplan/examples/sriov_vlan.yaml
+SPDXID: SPDXRef-netplan.io-file-23
+FileChecksum: SHA1: 7a79529d56bf16555e6598d4766f795a338131fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-23
+
+
+FileName: /usr/share/doc/netplan/examples/static.yaml
+SPDXID: SPDXRef-netplan.io-file-24
+FileChecksum: SHA1: 524b7a39a882d01d7a29b3d7fa94b91bccee9547
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-24
+
+
+FileName: /usr/share/doc/netplan/examples/static_multiaddress.yaml
+SPDXID: SPDXRef-netplan.io-file-25
+FileChecksum: SHA1: 499ebb23f8bc4cf4c699307138d5e7ea8aa45ca4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-25
+
+
+FileName: /usr/share/doc/netplan/examples/static_singlenic_multiip_multigateway.yaml
+SPDXID: SPDXRef-netplan.io-file-26
+FileChecksum: SHA1: 95b97029b453cdcdde4e1bf176ee0ca74ab58d86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-26
+
+
+FileName: /usr/share/doc/netplan/examples/vlan.yaml
+SPDXID: SPDXRef-netplan.io-file-27
+FileChecksum: SHA1: 4a540042c837b8ce5206157ec5c1bb041995f523
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-27
+
+
+FileName: /usr/share/doc/netplan/examples/windows_dhcp_server.yaml
+SPDXID: SPDXRef-netplan.io-file-28
+FileChecksum: SHA1: 4f086f8775d7bb095a0ea2b8852ce464640de26a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-28
+
+
+FileName: /usr/share/doc/netplan/examples/wireguard.yaml
+SPDXID: SPDXRef-netplan.io-file-29
+FileChecksum: SHA1: 4ec1e820d375139f6008845c9500470ac7984b26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-29
+
+
+FileName: /usr/share/doc/netplan/examples/wireless.yaml
+SPDXID: SPDXRef-netplan.io-file-30
+FileChecksum: SHA1: 0d0cc302b43dc456b6c66893d60709ab9552c306
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-30
+
+
+FileName: /usr/share/doc/netplan/examples/wpa_enterprise.yaml
+SPDXID: SPDXRef-netplan.io-file-31
+FileChecksum: SHA1: c22dd73aac0d55a010dce2e942b5adcdc6a69f63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-31
+
+
+FileName: /usr/share/doc/netplan/netplan.html
+SPDXID: SPDXRef-netplan.io-file-32
+FileChecksum: SHA1: a7174d7f4f638b256f03db368b3abfc03cc64e4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-32
+
+
+FileName: /usr/share/lintian/overrides/netplan.io
+SPDXID: SPDXRef-netplan.io-file-33
+FileChecksum: SHA1: 9c830e40af9b65fee1598e78efb6b3c884d56f1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-33
+
+
+FileName: /usr/share/man/man5/netplan.5.gz
+SPDXID: SPDXRef-netplan.io-file-34
+FileChecksum: SHA1: 9d9723e8052dd0a6cf69776b2228782d9d2bd0df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-34
+
+
+FileName: /usr/share/man/man8/netplan-apply.8.gz
+SPDXID: SPDXRef-netplan.io-file-35
+FileChecksum: SHA1: ba62b3128cd3f11dc20e79446e09482fddd82ead
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-35
+
+
+FileName: /usr/share/man/man8/netplan-dbus.8.gz
+SPDXID: SPDXRef-netplan.io-file-36
+FileChecksum: SHA1: defccfb27657338c081621bb40e42979da790add
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-36
+
+
+FileName: /usr/share/man/man8/netplan-generate.8.gz
+SPDXID: SPDXRef-netplan.io-file-37
+FileChecksum: SHA1: c71bcd9bc35e3ecd080d04ef9ca94e3349a6a4e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-37
+
+
+FileName: /usr/share/man/man8/netplan-get.8.gz
+SPDXID: SPDXRef-netplan.io-file-38
+FileChecksum: SHA1: a061ba799ebb1bbffe56b87c072e96d8c26c6d4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-38
+
+
+FileName: /usr/share/man/man8/netplan-set.8.gz
+SPDXID: SPDXRef-netplan.io-file-39
+FileChecksum: SHA1: 5f08054b6000c700a4bb788136d08ededf69d062
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-39
+
+
+FileName: /usr/share/man/man8/netplan-try.8.gz
+SPDXID: SPDXRef-netplan.io-file-40
+FileChecksum: SHA1: e58336ad3494c945177074c0921398ad296a2c09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-40
+
+
+FileName: /usr/share/netplan/netplan/__init__.py
+SPDXID: SPDXRef-netplan.io-file-41
+FileChecksum: SHA1: b56348c734068fb894369e94cf0f37750e678d67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-41
+
+
+FileName: /usr/share/netplan/netplan/_features.py
+SPDXID: SPDXRef-netplan.io-file-42
+FileChecksum: SHA1: d06b3f5ff2ded8b4d58b5ee1afd7fd8bd9f04c74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-42
+
+
+FileName: /usr/share/netplan/netplan/cli/__init__.py
+SPDXID: SPDXRef-netplan.io-file-43
+FileChecksum: SHA1: 8d52ca826cae5e198d476a28b62fe3681b0dfec6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-43
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/__init__.py
+SPDXID: SPDXRef-netplan.io-file-44
+FileChecksum: SHA1: f907bd9f58a1c96876874d677bba93a9d2baaf4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-44
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/apply.py
+SPDXID: SPDXRef-netplan.io-file-45
+FileChecksum: SHA1: 238b586f0d02def807401cf32ad1ce9745797685
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-45
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/generate.py
+SPDXID: SPDXRef-netplan.io-file-46
+FileChecksum: SHA1: b4af28b95f53b7377176ba6afa4c070736b70d23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-46
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/get.py
+SPDXID: SPDXRef-netplan.io-file-47
+FileChecksum: SHA1: dce244cd0ecd7454e46ae1b1af4266109745527c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-47
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/info.py
+SPDXID: SPDXRef-netplan.io-file-48
+FileChecksum: SHA1: 9e2bd2fba073e6a3ee8f0cb7ece576acf802939c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-48
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/ip.py
+SPDXID: SPDXRef-netplan.io-file-49
+FileChecksum: SHA1: 0c81fcf5ebc8df4c12b24036285dc0f6424220bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-49
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/migrate.py
+SPDXID: SPDXRef-netplan.io-file-50
+FileChecksum: SHA1: 783e3c165287d317717299db494a182bf9041056
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-50
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/set.py
+SPDXID: SPDXRef-netplan.io-file-51
+FileChecksum: SHA1: 6d3828be9eb3034e3fca6a39dcf55dbfd6b6a5ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-51
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/sriov_rebind.py
+SPDXID: SPDXRef-netplan.io-file-52
+FileChecksum: SHA1: a2e1fcfa81f0cbdc9e79cde2a4b43806acfdce10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-52
+
+
+FileName: /usr/share/netplan/netplan/cli/commands/try_command.py
+SPDXID: SPDXRef-netplan.io-file-53
+FileChecksum: SHA1: 96aec2667907bf9b1e7abb16342a66f197f70058
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-53
+
+
+FileName: /usr/share/netplan/netplan/cli/core.py
+SPDXID: SPDXRef-netplan.io-file-54
+FileChecksum: SHA1: 6c95e52df12ea12f2cbc8421f792894085eb840a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-54
+
+
+FileName: /usr/share/netplan/netplan/cli/ovs.py
+SPDXID: SPDXRef-netplan.io-file-55
+FileChecksum: SHA1: 3a62155a1fa8f112d7cf0dc0b0eca8b9e649d84b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-55
+
+
+FileName: /usr/share/netplan/netplan/cli/sriov.py
+SPDXID: SPDXRef-netplan.io-file-56
+FileChecksum: SHA1: 33d034b673af19294c3cd3ff144ae347884c8f80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-56
+
+
+FileName: /usr/share/netplan/netplan/cli/utils.py
+SPDXID: SPDXRef-netplan.io-file-57
+FileChecksum: SHA1: a7f76a6440a4bee0bbffd4df6422ff01638978a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-57
+
+
+FileName: /usr/share/netplan/netplan/configmanager.py
+SPDXID: SPDXRef-netplan.io-file-58
+FileChecksum: SHA1: d2af514a84a3f8752d6ff3cc0fe86f01611f0c43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-58
+
+
+FileName: /usr/share/netplan/netplan/libnetplan.py
+SPDXID: SPDXRef-netplan.io-file-59
+FileChecksum: SHA1: e99e565f0880eebec750d7fd84af2a0be5bcf2d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-59
+
+
+FileName: /usr/share/netplan/netplan/terminal.py
+SPDXID: SPDXRef-netplan.io-file-60
+FileChecksum: SHA1: b1d371cfc41362c42c853f0905e09e835010e8b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-60
+
+
+FileName: /usr/share/netplan/netplan.script
+SPDXID: SPDXRef-netplan.io-file-61
+FileChecksum: SHA1: b727c3be10e99460478e3502ef99c13a3634676e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-61
+
+
+FileName: /lib/systemd/system-generators/netplan
+SPDXID: SPDXRef-netplan.io-file-62
+FileChecksum: SHA1: e5ad77a68f16998d102428070eaafcaff0fe90de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-62
+
+
+FileName: /usr/sbin/netplan
+SPDXID: SPDXRef-netplan.io-file-63
+FileChecksum: SHA1: b727c3be10e99460478e3502ef99c13a3634676e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-63
+
+
+FileName: /usr/share/doc/netplan.io/changelog.Debian.gz
+SPDXID: SPDXRef-netplan.io-file-64
+FileChecksum: SHA1: 0f4919901ad0e3b246684c29968cf470ea1b1d8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-netplan.io CONTAINS SPDXRef-netplan.io-file-64
+
+
+## Extracted License
+

@@ -1,0 +1,96 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libwnck-3-common_40.1-1-3063cff3-9258-5dc6-8d07-7525bfefaa61
+DocumentName: libwnck-3-common_40.1-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libwnck-3-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:35:45Z
+
+
+## Package
+
+PackageName: libwnck-3-common
+PackageVersion: 40.1-1
+SPDXID: SPDXRef-libwnck-3-common
+PackageHomePage: https://gitlab.gnome.org/GNOME/libwnck
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f21ac6b159d24a6c364e02c577eee8e50e8f2aa2
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright (c) 2000 Helix Code, Inc.
+Copyright (c) 2001 Free Software Foundation, Inc.
+Copyright (c) 2001 Havoc Pennington
+Copyright (c) 2002, 2003 Sun Microsystems Inc.
+Copyright (c) 2003 Kim Woelders
+Copyright (c) 2003 Red Hat, Inc.
+Copyright (c) 2003 Ximian, Inc.
+Copyright (c) 2003, 2005-2007, 2009 Vincent Untz
+Copyright (c) 2011 Novell, Inc.
+Copyright (c) 2016, 2021 Alberts Muktupavels
+</text>
+PackageComment: <text>Window Navigator Construction Kit - common files
+ A library to use for writing pagers and task lists.
+ .
+ This package contains internationalization files.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libwnck-3-common/copyright
+SPDXID: SPDXRef-libwnck-3-common-file-0
+FileChecksum: SHA1: 8779a9f92945dfa2afbc26f4f0489321bf01eebc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright (c) 2000 Helix Code, Inc.
+Copyright (c) 2001 Free Software Foundation, Inc.
+Copyright (c) 2001 Havoc Pennington
+Copyright (c) 2002, 2003 Sun Microsystems Inc.
+Copyright (c) 2003 Kim Woelders
+Copyright (c) 2003 Red Hat, Inc.
+Copyright (c) 2003 Ximian, Inc.
+Copyright (c) 2003, 2005-2007, 2009 Vincent Untz
+Copyright (c) 2011 Novell, Inc.
+Copyright (c) 2016, 2021 Alberts Muktupavels
+</text>
+Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common-file-0
+
+
+FileName: /usr/share/doc/libwnck-3-common/NEWS.gz
+SPDXID: SPDXRef-libwnck-3-common-file-1
+FileChecksum: SHA1: a04c97b910567c674bf5fe5da2ab40da0a17b5b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common-file-1
+
+
+FileName: /usr/share/doc/libwnck-3-common/changelog.Debian.gz
+SPDXID: SPDXRef-libwnck-3-common-file-2
+FileChecksum: SHA1: e516f5c163d9fbdf1e65de7b3c2c20d7bb06ebbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libwnck-3-common CONTAINS SPDXRef-libwnck-3-common-file-2
+
+
+## Extracted License
+

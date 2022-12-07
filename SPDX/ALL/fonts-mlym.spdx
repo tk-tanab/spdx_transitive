@@ -1,0 +1,85 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-mlym_2:1.3-ebbc9c5e-8487-5d64-80be-878496074306
+DocumentName: fonts-mlym_2:1.3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-samyak-mlym http://spdx.org/spdxdocs/fonts-samyak-mlym_1.2.2-5build1-da16a4de-f315-55d9-8ee4-95ebeb3a94c0 SHA1: c1c8ea7aadbb3ec0f4c40fe4bea00265177be1c5
+ExternalDocumentRef: DocumentRef-fonts-smc http://spdx.org/spdxdocs/fonts-smc_1:7.2-20591508-e20d-5799-b0d8-cc089c4bdf48 SHA1: 5ac9eee9fa1ed037c64db589019f84620566dfc6
+ExternalDocumentRef: DocumentRef-fonts-lohit-mlym http://spdx.org/spdxdocs/fonts-lohit-mlym_2.92.2-2-f183a727-2024-50f4-a679-06159b06c29e SHA1: f130d282d70a5cad31edd6412a2ac951cfb5542a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-mlym
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:54:45Z
+
+
+## Package
+
+PackageName: fonts-mlym
+PackageVersion: 2:1.3
+SPDXID: SPDXRef-fonts-mlym
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d95f39c29c680f6262de6ea70aa2740c50bf623d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: ISC
+PackageCopyrightText: <text>Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Meta package to install all Malayalam fonts
+ This package allows you to install all available Malayalam fonts
+ in Debian.
+ .
+ This package installs following fonts:
+   * fonts-lohit-mlym
+   * fonts-smc
+   * fonts-samyak-mlym</text>
+Relationship: SPDXRef-fonts-mlym DEPENDS_ON DocumentRef-fonts-lohit-mlym:SPDXRef-fonts-lohit-mlym
+Relationship: SPDXRef-fonts-mlym DEPENDS_ON DocumentRef-fonts-samyak-mlym:SPDXRef-fonts-samyak-mlym
+Relationship: SPDXRef-fonts-mlym DEPENDS_ON DocumentRef-fonts-smc:SPDXRef-fonts-smc
+
+
+## File
+
+FileName: /usr/share/doc/fonts-mlym/copyright
+SPDXID: SPDXRef-fonts-mlym-file-0
+FileChecksum: SHA1: 83273a7980d70cba802a15c32e5571c6c4c7e94d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-mlym CONTAINS SPDXRef-fonts-mlym-file-0
+
+
+FileName: /usr/share/doc/fonts-mlym/README.Debian
+SPDXID: SPDXRef-fonts-mlym-file-1
+FileChecksum: SHA1: 573db46747453ad86f09a4eab9446157fa15d598
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-mlym CONTAINS SPDXRef-fonts-mlym-file-1
+
+
+FileName: /usr/share/doc/fonts-mlym/changelog.gz
+SPDXID: SPDXRef-fonts-mlym-file-2
+FileChecksum: SHA1: ebf7ea66ef5af58dc9388576037a6a6db9fad7ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-mlym CONTAINS SPDXRef-fonts-mlym-file-2
+
+
+## Extracted License
+

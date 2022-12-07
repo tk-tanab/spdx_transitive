@@ -1,0 +1,157 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/ubuntu-wallpapers_22.04.4-0ubuntu1-c9ecb195-1506-5a8b-bf40-6ce2e6b1d202
+DocumentName: ubuntu-wallpapers_22.04.4-0ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-ubuntu-wallpapers-jammy http://spdx.org/spdxdocs/ubuntu-wallpapers-jammy_22.04.4-0ubuntu1-0670024d-b989-5ab5-b0f2-1b512bdbaf53 SHA1: 9708c37c23b2eb5d501fe499190cda0c75e275e0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ubuntu-wallpapers
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:25:24Z
+
+
+## Package
+
+PackageName: ubuntu-wallpapers
+PackageVersion: 22.04.4-0ubuntu1
+SPDXID: SPDXRef-ubuntu-wallpapers
+PackageHomePage: https://launchpad.net/ubuntu-wallpapers
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ddee675ef5d20001e1c13444cf8934b3285260a4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-2.0
+PackageLicenseInfoFromFiles: CC-BY-3.0
+PackageLicenseInfoFromFiles: CC-BY-NC-SA-2.0
+PackageLicenseInfoFromFiles: CC-BY-SA-2.0
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: CC-BY-SA-4.0
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: LicenseRef-scancode-proprietary-license
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unsplash
+PackageLicenseInfoFromFiles: LicenseRef-scancode-warranty-disclaimer
+PackageCopyrightText: <text>Copyright 2004, Nathaniel McCallum <npmccallum@gentoo.org> 2006, Daniel Holbach <daniel.holbach@ubuntu.com> 2010-2016 Ubuntu community
+Copyright 2016-2021 Canonical Ltd
+Copyright Abubakar NK Arman Esmaeili Artem Kavalerov
+Copyright Agostino Faedda Alberto Salvia Novella Alex Fazit
+Copyright Geza Radics
+Copyright Peter Apas Giorgos Arguropoulos Matt Bailey/Forsaken Media
+</text>
+PackageComment: <text>Ubuntu Wallpapers
+ The default Ubuntu wallpaper. This is also a meta-package depending on the
+ other default wallpapers for the current Ubuntu release.</text>
+Relationship: SPDXRef-ubuntu-wallpapers DEPENDS_ON DocumentRef-ubuntu-wallpapers-jammy:SPDXRef-ubuntu-wallpapers-jammy
+
+
+## File
+
+FileName: /usr/share/doc/ubuntu-wallpapers/copyright
+SPDXID: SPDXRef-ubuntu-wallpapers-file-0
+FileChecksum: SHA1: e84fd34d617c89127efa8f037797d9e15aeb52ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: CC-BY-2.0
+LicenseInfoInFile: CC-BY-NC-SA-2.0
+LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
+LicenseInfoInFile: CC-BY-SA-4.0
+LicenseInfoInFile: LicenseRef-scancode-proprietary-license
+LicenseInfoInFile: CC-BY-3.0
+LicenseInfoInFile: LicenseRef-scancode-unsplash
+LicenseInfoInFile: CC-BY-SA-2.0
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright 2004, Nathaniel McCallum <npmccallum@gentoo.org> 2006, Daniel Holbach <daniel.holbach@ubuntu.com> 2010-2016 Ubuntu community
+Copyright Agostino Faedda Alberto Salvia Novella Alex Fazit
+Copyright Peter Apas Giorgos Arguropoulos Matt Bailey/Forsaken Media
+Copyright Geza Radics
+Copyright Abubakar NK Arman Esmaeili Artem Kavalerov
+Copyright 2016-2021 Canonical Ltd
+</text>
+Relationship: SPDXRef-ubuntu-wallpapers CONTAINS SPDXRef-ubuntu-wallpapers-file-0
+
+
+FileName: /usr/share/backgrounds/warty-final-ubuntu.png
+SPDXID: SPDXRef-ubuntu-wallpapers-file-1
+FileChecksum: SHA1: a2999244cecee720062e2790bcd5d1fcb99aff3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers CONTAINS SPDXRef-ubuntu-wallpapers-file-1
+
+
+FileName: /usr/share/gnome-background-properties/ubuntu-wallpapers.xml
+SPDXID: SPDXRef-ubuntu-wallpapers-file-2
+FileChecksum: SHA1: e6d9e6338232a240007232b157375f11d2720de4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers CONTAINS SPDXRef-ubuntu-wallpapers-file-2
+
+
+FileName: /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
+SPDXID: SPDXRef-ubuntu-wallpapers-file-3
+FileChecksum: SHA1: 9e2648d83d7eb50c28af69d5c2952f3638939b66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers CONTAINS SPDXRef-ubuntu-wallpapers-file-3
+
+
+FileName: /usr/share/doc/ubuntu-wallpapers/changelog.Debian.gz
+SPDXID: SPDXRef-ubuntu-wallpapers-file-4
+FileChecksum: SHA1: b1e5eb70b764669ef04c7e365050a28d62f2305e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ubuntu-wallpapers CONTAINS SPDXRef-ubuntu-wallpapers-file-4
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-proprietary-license
+LicenseName: Proprietary License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary-license.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unsplash
+LicenseName: Unsplash License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unsplash.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unsplash.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-warranty-disclaimer
+LicenseName: Generic Bare Warranty Disclaimer
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/warranty-disclaimer.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/warranty-disclaimer.yml
+</text>
+
+

@@ -1,0 +1,229 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libdjvulibre-text_3.5.28-2build2-52424936-bf99-5fda-aa7f-0d6f09cfd5ac
+DocumentName: libdjvulibre-text_3.5.28-2build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdjvulibre-text
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T11:04:08Z
+
+
+## Package
+
+PackageName: libdjvulibre-text
+PackageVersion: 3.5.28-2build2
+SPDXID: SPDXRef-libdjvulibre-text
+PackageHomePage: http://djvu.sourceforge.net/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 488f101301f6c10cbd4048b40bf3fb0195e7e4e1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: libtiff
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1999-2001 LizardTech, Inc.
+Copyright (c) 2001 AT&T
+Copyright (c) 2002 Leon Bottou and Yann Le Cun
+Copyright (c) 2003 Ross Finlayson
+</text>
+PackageComment: <text>Linguistic support files for libdjvulibre
+ Runtime linguistic support files for the libdjvulibre library.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libdjvulibre-text/copyright
+SPDXID: SPDXRef-libdjvulibre-text-file-0
+FileChecksum: SHA1: 91e08e8dd4d6c6f04f66099e2800ae3bc9286b60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: libtiff
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+FileCopyrightText: <text>Copyright (c) 2002 Leon Bottou and Yann Le Cun
+Copyright (c) 2001 AT&T
+Copyright (c) 1999-2001 LizardTech, Inc.
+Copyright (c) 2003 Ross Finlayson
+</text>
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-0
+
+
+FileName: /usr/share/djvu/osi/cs/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-1
+FileChecksum: SHA1: b23c9b47f073ef8d9b44cb2f35970c28200501bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-1
+
+
+FileName: /usr/share/djvu/osi/de/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-2
+FileChecksum: SHA1: eb6e097e1dfc2f84a28d0c7bb5b36a00897ac23e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-2
+
+
+FileName: /usr/share/djvu/osi/de/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-3
+FileChecksum: SHA1: 2014a7ed017190c0f504b076a5794430fe5cbd59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-3
+
+
+FileName: /usr/share/djvu/osi/en/djvutools-reference.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-4
+FileChecksum: SHA1: fae6bcd5b4c84ca4b29acb975cf497ea6b80229d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-4
+
+
+FileName: /usr/share/djvu/osi/en/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-5
+FileChecksum: SHA1: f1d3e9f5132000b843805093ead96693afb6d279
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-5
+
+
+FileName: /usr/share/djvu/osi/en/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-6
+FileChecksum: SHA1: b4fa30ebff895c3aa52b51c8535592be6a0b201d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-6
+
+
+FileName: /usr/share/djvu/osi/fr/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-7
+FileChecksum: SHA1: 16978f0cfa5daf8e09a4791b7438ece312e75583
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-7
+
+
+FileName: /usr/share/djvu/osi/fr/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-8
+FileChecksum: SHA1: 2014a7ed017190c0f504b076a5794430fe5cbd59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-8
+
+
+FileName: /usr/share/djvu/osi/ja/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-9
+FileChecksum: SHA1: c88d05f04fbc4459e9c02a3690f13b60b6ec7057
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-9
+
+
+FileName: /usr/share/djvu/osi/ja/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-10
+FileChecksum: SHA1: 2014a7ed017190c0f504b076a5794430fe5cbd59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-10
+
+
+FileName: /usr/share/djvu/osi/languages.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-11
+FileChecksum: SHA1: fc3daa1a31f90e4da4dde2e54066ca3b22c86363
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-11
+
+
+FileName: /usr/share/djvu/osi/zh/libdjvu++.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-12
+FileChecksum: SHA1: 274470f6621b879d06ab0eb6af25fb2da15bdc16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-12
+
+
+FileName: /usr/share/djvu/osi/zh/messages.xml
+SPDXID: SPDXRef-libdjvulibre-text-file-13
+FileChecksum: SHA1: 2014a7ed017190c0f504b076a5794430fe5cbd59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-13
+
+
+FileName: /usr/share/djvu/pubtext/DjVuMessages.dtd
+SPDXID: SPDXRef-libdjvulibre-text-file-14
+FileChecksum: SHA1: f109dd6a4138fb310afdfaecc7b7677c72439fda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-14
+
+
+FileName: /usr/share/djvu/pubtext/DjVuOCR.dtd
+SPDXID: SPDXRef-libdjvulibre-text-file-15
+FileChecksum: SHA1: b235a4e2b97b77014f4706efc2842f8c8a2c9b0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-15
+
+
+FileName: /usr/share/djvu/pubtext/DjVuXML-s.dtd
+SPDXID: SPDXRef-libdjvulibre-text-file-16
+FileChecksum: SHA1: a96afa9157e6d1b17165869169bf5b749ebfb4b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-16
+
+
+FileName: /usr/share/doc/libdjvulibre-text/changelog.Debian.gz
+SPDXID: SPDXRef-libdjvulibre-text-file-17
+FileChecksum: SHA1: f30f8d8d027f75b1216fb72451a4676c67a2aae5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdjvulibre-text CONTAINS SPDXRef-libdjvulibre-text-file-17
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

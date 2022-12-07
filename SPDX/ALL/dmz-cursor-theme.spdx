@@ -1,0 +1,1690 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/dmz-cursor-theme_0.4.5ubuntu1-5fedc735-4e3d-5083-9ac7-5292383aacdf
+DocumentName: dmz-cursor-theme_0.4.5ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dmz-cursor-theme
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:49:39Z
+
+
+## Package
+
+PackageName: dmz-cursor-theme
+PackageVersion: 0.4.5ubuntu1
+SPDXID: SPDXRef-dmz-cursor-theme
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3b5b162d9ca3530014bab978651c39d081de50ac
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2007-2010 Novell, Inc.
+</text>
+PackageComment: <text>Style neutral, scalable cursor theme
+ This package contains the DMZ cursor themes, which are derived from
+ the Industrial theme developed for the Ximian GNOME desktop. Black and
+ white cursors are provided, in scalable formats.</text>
+
+
+## File
+
+FileName: /usr/share/doc/dmz-cursor-theme/copyright
+SPDXID: SPDXRef-dmz-cursor-theme-file-0
+FileChecksum: SHA1: b2bf091cf16d026694e15b670d76b1fa4a354e08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright (c) 2007-2010 Novell, Inc.
+</text>
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-0
+
+
+FileName: /usr/share/doc/dmz-cursor-theme/changelog.gz
+SPDXID: SPDXRef-dmz-cursor-theme-file-1
+FileChecksum: SHA1: 76f8c965dc5ac440bfa3235b39aab22881628f00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-1
+
+
+FileName: /usr/share/icons/DMZ-Black/cursor.theme
+SPDXID: SPDXRef-dmz-cursor-theme-file-2
+FileChecksum: SHA1: 302ba0aa204d812d900f3d1c3aa61628873945d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-2
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/X_cursor
+SPDXID: SPDXRef-dmz-cursor-theme-file-3
+FileChecksum: SHA1: debfb1c156e45d354accf0da375d9914364e276e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-3
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/bd_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-4
+FileChecksum: SHA1: e89313bc7ccff2c1e25bfae668dcaa463d427d62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-4
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/bottom_left_corner
+SPDXID: SPDXRef-dmz-cursor-theme-file-5
+FileChecksum: SHA1: 39d305f91718f6cf5ce56f459cfd0fb88039cea5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-5
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/bottom_right_corner
+SPDXID: SPDXRef-dmz-cursor-theme-file-6
+FileChecksum: SHA1: f61173cbef9d3ff8973a2d9d514040189f8dd852
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-6
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/bottom_side
+SPDXID: SPDXRef-dmz-cursor-theme-file-7
+FileChecksum: SHA1: 956249e0d1bd1231dce4a7adf3b624dd2d785e0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-7
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/bottom_tee
+SPDXID: SPDXRef-dmz-cursor-theme-file-8
+FileChecksum: SHA1: 5696f690d1753b5134da64f47ef2467bc602cdde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-8
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/circle
+SPDXID: SPDXRef-dmz-cursor-theme-file-9
+FileChecksum: SHA1: 5af5390b3a3ee733013903b7088df183119523c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-9
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/color-picker
+SPDXID: SPDXRef-dmz-cursor-theme-file-10
+FileChecksum: SHA1: e2363af2039042186ba53273daf59116808ba55a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-10
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/copy
+SPDXID: SPDXRef-dmz-cursor-theme-file-11
+FileChecksum: SHA1: e5f199c8e461c5850a4e084dc29e560f0f93c2ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-11
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/cross
+SPDXID: SPDXRef-dmz-cursor-theme-file-12
+FileChecksum: SHA1: 5069c7b85ad28a411f2a51460722589deaea5037
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-12
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/crossed_circle
+SPDXID: SPDXRef-dmz-cursor-theme-file-13
+FileChecksum: SHA1: 09d6c9af6f61a366b928ec4ca2393d3463f9ee7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-13
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/crosshair
+SPDXID: SPDXRef-dmz-cursor-theme-file-14
+FileChecksum: SHA1: 93a1985e1345cc53300b31e073ee91d67a6bf71e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-14
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/dnd-ask
+SPDXID: SPDXRef-dmz-cursor-theme-file-15
+FileChecksum: SHA1: 9d106914261763aa7d635ea666e4ff49a6200ee4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-15
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/dnd-copy
+SPDXID: SPDXRef-dmz-cursor-theme-file-16
+FileChecksum: SHA1: 67238e7739cf0b799f7204d903e620c1e1036742
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-16
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/dnd-link
+SPDXID: SPDXRef-dmz-cursor-theme-file-17
+FileChecksum: SHA1: 47c3573f49b927bf66b3c7bf94f229f2460ae7c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-17
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/dnd-move
+SPDXID: SPDXRef-dmz-cursor-theme-file-18
+FileChecksum: SHA1: 3a2762ef6a5bd9451cc06e45f29acb1fae2c1274
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-18
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/dnd-none
+SPDXID: SPDXRef-dmz-cursor-theme-file-19
+FileChecksum: SHA1: bb9409b21abea5105654eb2fb42a1486c9ebbd6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-19
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/dotbox
+SPDXID: SPDXRef-dmz-cursor-theme-file-20
+FileChecksum: SHA1: 8adcbebb812727868e00aa1ff53a7860105064bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-20
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/fd_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-21
+FileChecksum: SHA1: c90db19897f7eb3d7cdbe83f3917219356251eaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-21
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/grabbing
+SPDXID: SPDXRef-dmz-cursor-theme-file-22
+FileChecksum: SHA1: 79de6830bff92eb1b9ce2f0285d2e62a9c44d5eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-22
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/hand2
+SPDXID: SPDXRef-dmz-cursor-theme-file-23
+FileChecksum: SHA1: 46a8a4626a5810746c30b786db99f6fdc0a71b53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-23
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/left_ptr
+SPDXID: SPDXRef-dmz-cursor-theme-file-24
+FileChecksum: SHA1: 065346fc22d14e7fa72b2e3ae2c83273f4d38ff0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-24
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/left_ptr_watch
+SPDXID: SPDXRef-dmz-cursor-theme-file-25
+FileChecksum: SHA1: e10c7333e25eadb8aacfaad1cce7a8e7b5485225
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-25
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/left_side
+SPDXID: SPDXRef-dmz-cursor-theme-file-26
+FileChecksum: SHA1: 75093d150f7799b6d99946df9993d7065ae0bfe7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-26
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/left_tee
+SPDXID: SPDXRef-dmz-cursor-theme-file-27
+FileChecksum: SHA1: 92864d9d382f1e1c79994b38ef88cc0106a6eccc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-27
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/link
+SPDXID: SPDXRef-dmz-cursor-theme-file-28
+FileChecksum: SHA1: 22ddae68ce7027e3d0047e8d95f017e89a00523e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-28
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/ll_angle
+SPDXID: SPDXRef-dmz-cursor-theme-file-29
+FileChecksum: SHA1: d50d9222a07fc65c6777b0b921ccda5c6f2eaae7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-29
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/lr_angle
+SPDXID: SPDXRef-dmz-cursor-theme-file-30
+FileChecksum: SHA1: 47fd06a083beb6bc8f2ab9deeb35080042c0bee7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-30
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/move
+SPDXID: SPDXRef-dmz-cursor-theme-file-31
+FileChecksum: SHA1: cfce9ce845b810cc9c9a529a0ff78bcb6696082e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-31
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/pencil
+SPDXID: SPDXRef-dmz-cursor-theme-file-32
+FileChecksum: SHA1: 6b557c81bbb0acffd79c0aa5db069232789bf654
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-32
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/plus
+SPDXID: SPDXRef-dmz-cursor-theme-file-33
+FileChecksum: SHA1: 050bf0a9e6fc342c89aaee1f1fbd685857b8ee18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-33
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/question_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-34
+FileChecksum: SHA1: 2e4ae6251b7dcfdc0e88ba9b04b9495b69a3f8a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-34
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/right_ptr
+SPDXID: SPDXRef-dmz-cursor-theme-file-35
+FileChecksum: SHA1: 11e0ac496902877542e27cc6016805c8ddc79bc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-35
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/right_side
+SPDXID: SPDXRef-dmz-cursor-theme-file-36
+FileChecksum: SHA1: e5360b6740dadc49ad4dd1111f9ca3acef58095e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-36
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/right_tee
+SPDXID: SPDXRef-dmz-cursor-theme-file-37
+FileChecksum: SHA1: fd7505eb3bb34aaf56de40b478a347319581184e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-37
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/sb_down_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-38
+FileChecksum: SHA1: f8f20ae1b72cf7c48d5a354c426fba115aca1a8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-38
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/sb_h_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-39
+FileChecksum: SHA1: 67ba8d5e885d751e55bf9babdbd3afabe3a7a4ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-39
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/sb_left_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-40
+FileChecksum: SHA1: 91371752baa33a4981206d8140c11a9de769a433
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-40
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/sb_right_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-41
+FileChecksum: SHA1: 2c5f3dfaec44ed5be1af3eeda03f6d15bf37a17e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-41
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/sb_up_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-42
+FileChecksum: SHA1: 5b184ca1760cbc50124849036aea21d0974926a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-42
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/sb_v_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-43
+FileChecksum: SHA1: a4a53e831455e27844680b300bcd81c622a95650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-43
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/tcross
+SPDXID: SPDXRef-dmz-cursor-theme-file-44
+FileChecksum: SHA1: 3c51c73f8a10818176c7725d5eea753772ba8c2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-44
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/top_left_corner
+SPDXID: SPDXRef-dmz-cursor-theme-file-45
+FileChecksum: SHA1: 693ebc47258b68b2a47f3048017b86db69cff4ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-45
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/top_right_corner
+SPDXID: SPDXRef-dmz-cursor-theme-file-46
+FileChecksum: SHA1: 35e84444ff22f65e1070c079c3fa4ac8cdf132dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-46
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/top_side
+SPDXID: SPDXRef-dmz-cursor-theme-file-47
+FileChecksum: SHA1: d0146923b2237a87ddce20b89c4487dea457f9fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-47
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/top_tee
+SPDXID: SPDXRef-dmz-cursor-theme-file-48
+FileChecksum: SHA1: 55f3e5b378adecd7b4e00e9e4e6463a730341c4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-48
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/ul_angle
+SPDXID: SPDXRef-dmz-cursor-theme-file-49
+FileChecksum: SHA1: 993b0463497b21d04dbcdc72303c63b5096c2efd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-49
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/ur_angle
+SPDXID: SPDXRef-dmz-cursor-theme-file-50
+FileChecksum: SHA1: aa207ed91df2c3acb4b69863f99f845f5b03c4eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-50
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/watch
+SPDXID: SPDXRef-dmz-cursor-theme-file-51
+FileChecksum: SHA1: 11839918c7aa0c2252ba2563de140162836bb5e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-51
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/xterm
+SPDXID: SPDXRef-dmz-cursor-theme-file-52
+FileChecksum: SHA1: 8c42f341c47329e6838b3fefafeb29094a8c2c3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-52
+
+
+FileName: /usr/share/icons/DMZ-Black/index.theme
+SPDXID: SPDXRef-dmz-cursor-theme-file-53
+FileChecksum: SHA1: 78bd632c60ade73bcf1e27d4e58b0b9a7e24425b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-53
+
+
+FileName: /usr/share/icons/DMZ-White/cursor.theme
+SPDXID: SPDXRef-dmz-cursor-theme-file-54
+FileChecksum: SHA1: 8218d8157394a3e579c3d2f5c409f7e04cb93989
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-54
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/X_cursor
+SPDXID: SPDXRef-dmz-cursor-theme-file-55
+FileChecksum: SHA1: dbfed865d4c42447d7c3084ff12a95723f0ff7bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-55
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/bd_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-56
+FileChecksum: SHA1: e568504120c220b350ebbe47e44508552c30b9ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-56
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/bottom_left_corner
+SPDXID: SPDXRef-dmz-cursor-theme-file-57
+FileChecksum: SHA1: 9c3591fc1a813f5a14dda14c786b5fa43a03caec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-57
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/bottom_right_corner
+SPDXID: SPDXRef-dmz-cursor-theme-file-58
+FileChecksum: SHA1: 7d9b96697023db3fef89437cebd05f32222596d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-58
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/bottom_side
+SPDXID: SPDXRef-dmz-cursor-theme-file-59
+FileChecksum: SHA1: 59856b6586515a0b133189710251618f3ce2fcc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-59
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/bottom_tee
+SPDXID: SPDXRef-dmz-cursor-theme-file-60
+FileChecksum: SHA1: 57c5c95a43ade612ec469850b1b65c0aeb563c81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-60
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/circle
+SPDXID: SPDXRef-dmz-cursor-theme-file-61
+FileChecksum: SHA1: 5acc5ff3cf3eda3e6022aa5735ebb3b20deaa707
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-61
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/color-picker
+SPDXID: SPDXRef-dmz-cursor-theme-file-62
+FileChecksum: SHA1: e2363af2039042186ba53273daf59116808ba55a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-62
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/copy
+SPDXID: SPDXRef-dmz-cursor-theme-file-63
+FileChecksum: SHA1: af483eb622fa5a5c159fa66aa38f5468506633bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-63
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/cross
+SPDXID: SPDXRef-dmz-cursor-theme-file-64
+FileChecksum: SHA1: 23cc36d39fac527147fe6d93c0b5e4ef9d086511
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-64
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/crossed_circle
+SPDXID: SPDXRef-dmz-cursor-theme-file-65
+FileChecksum: SHA1: e03af3db42e75e6c61034e50f9b5a2053378e198
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-65
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/crosshair
+SPDXID: SPDXRef-dmz-cursor-theme-file-66
+FileChecksum: SHA1: a2bcd327e91b0695be14cb340c7c4f97e980f14e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-66
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/dnd-ask
+SPDXID: SPDXRef-dmz-cursor-theme-file-67
+FileChecksum: SHA1: 9481a7f1aabbf6fcbec1f9491aa67c15d62c199e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-67
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/dnd-copy
+SPDXID: SPDXRef-dmz-cursor-theme-file-68
+FileChecksum: SHA1: 36c2535e3b3cf05e18732272e1ea39dd41de1d24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-68
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/dnd-link
+SPDXID: SPDXRef-dmz-cursor-theme-file-69
+FileChecksum: SHA1: 51016fa91e373cea522281f7cac025a4cfa1db7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-69
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/dnd-move
+SPDXID: SPDXRef-dmz-cursor-theme-file-70
+FileChecksum: SHA1: 83d570f23b5e4d2aa054db1e3b944af5d98107dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-70
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/dnd-none
+SPDXID: SPDXRef-dmz-cursor-theme-file-71
+FileChecksum: SHA1: 4993886211c6b1c82588842dff254a03d82e5c33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-71
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/dotbox
+SPDXID: SPDXRef-dmz-cursor-theme-file-72
+FileChecksum: SHA1: e809391ec1c1e3d1e6cbf183e909b676f9c9f659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-72
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/fd_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-73
+FileChecksum: SHA1: 716cb312000307d07b121970114bff165f1c01c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-73
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/grabbing
+SPDXID: SPDXRef-dmz-cursor-theme-file-74
+FileChecksum: SHA1: 3de9babcd07d79bc4b64ea66b26ac4e9db2c3434
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-74
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/hand2
+SPDXID: SPDXRef-dmz-cursor-theme-file-75
+FileChecksum: SHA1: 84a654fb9b07fe7ce5a85b648077d58fe8af6d57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-75
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/left_ptr
+SPDXID: SPDXRef-dmz-cursor-theme-file-76
+FileChecksum: SHA1: c25a1f1002891d52f88a83e7197f8e5dabb0dd3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-76
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/left_ptr_watch
+SPDXID: SPDXRef-dmz-cursor-theme-file-77
+FileChecksum: SHA1: 37e6a33a46b6fd75ddecdece39b0f29fc5278b52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-77
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/left_side
+SPDXID: SPDXRef-dmz-cursor-theme-file-78
+FileChecksum: SHA1: 8d0a88071b8b7183a7efebf815dddda100922687
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-78
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/left_tee
+SPDXID: SPDXRef-dmz-cursor-theme-file-79
+FileChecksum: SHA1: 09f796bd4367fd72c387bed1507e82d09ae7fd0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-79
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/link
+SPDXID: SPDXRef-dmz-cursor-theme-file-80
+FileChecksum: SHA1: 541d747f8f028ae60c5dc69012ba88de6ec990ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-80
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/ll_angle
+SPDXID: SPDXRef-dmz-cursor-theme-file-81
+FileChecksum: SHA1: 4f4e2a02081bbf73757a1554d11da2c5ca5481fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-81
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/lr_angle
+SPDXID: SPDXRef-dmz-cursor-theme-file-82
+FileChecksum: SHA1: 255c8c429c0f4ce8827ab650250ad9aca3234aa4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-82
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/move
+SPDXID: SPDXRef-dmz-cursor-theme-file-83
+FileChecksum: SHA1: 682e96fafc0d4576a50d1d4818996772eff80b6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-83
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/pencil
+SPDXID: SPDXRef-dmz-cursor-theme-file-84
+FileChecksum: SHA1: 4d3be2d32fbf0ad43a367bd8f73092d1674be365
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-84
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/plus
+SPDXID: SPDXRef-dmz-cursor-theme-file-85
+FileChecksum: SHA1: a03c3ece0fbf8364a2f12da87f0c53bc2fc90ed9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-85
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/question_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-86
+FileChecksum: SHA1: dea5520cd403b5bbeaf131c2e6004ba991f4ecd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-86
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/right_ptr
+SPDXID: SPDXRef-dmz-cursor-theme-file-87
+FileChecksum: SHA1: 0f4f2fd3bc2114a197fcf5af746cc32e68f4efb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-87
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/right_side
+SPDXID: SPDXRef-dmz-cursor-theme-file-88
+FileChecksum: SHA1: ec2ee793fdef154abb4b738d660b12f5239af193
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-88
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/right_tee
+SPDXID: SPDXRef-dmz-cursor-theme-file-89
+FileChecksum: SHA1: 55fe48fa954262787ed55a76b72f333a95f9fab3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-89
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/sb_down_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-90
+FileChecksum: SHA1: 2a3b8772c8c7de4d8a42cd916f383f03c35ba168
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-90
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/sb_h_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-91
+FileChecksum: SHA1: 6af34e0c63c1d5545c250dc06f5ca37dc114068d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-91
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/sb_left_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-92
+FileChecksum: SHA1: c8422ac659a8dbfeac235d4f4cdd5018c383c1a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-92
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/sb_right_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-93
+FileChecksum: SHA1: 5aa677234550c8465c9d1419b2c76c9751b89944
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-93
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/sb_up_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-94
+FileChecksum: SHA1: f87c9886522921c29c33e0ba2071d1a75e5c33d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-94
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/sb_v_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-95
+FileChecksum: SHA1: e5c6f4a74fc42fcf90a037f435cfb8c3efb4398e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-95
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/tcross
+SPDXID: SPDXRef-dmz-cursor-theme-file-96
+FileChecksum: SHA1: 691c38f35a93d95023856d6333f6e0fa7b532644
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-96
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/top_left_corner
+SPDXID: SPDXRef-dmz-cursor-theme-file-97
+FileChecksum: SHA1: fc8fe05859cef75532d46c4f9b9e2d64313be4f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-97
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/top_right_corner
+SPDXID: SPDXRef-dmz-cursor-theme-file-98
+FileChecksum: SHA1: b9fdc92318a24527c3b82e8c14737b1f1df7c0aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-98
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/top_side
+SPDXID: SPDXRef-dmz-cursor-theme-file-99
+FileChecksum: SHA1: 330b8ea0d775664d7715ef8838d59ab6742b2c56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-99
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/top_tee
+SPDXID: SPDXRef-dmz-cursor-theme-file-100
+FileChecksum: SHA1: ebfd0e678c0e83f4a0de484f056201ab4e8c9ef1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-100
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/ul_angle
+SPDXID: SPDXRef-dmz-cursor-theme-file-101
+FileChecksum: SHA1: b85014b27cff9a851f6f8bb66b05f9f20ee668ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-101
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/ur_angle
+SPDXID: SPDXRef-dmz-cursor-theme-file-102
+FileChecksum: SHA1: 9646b634e29c3ba46a28412f21bf5cc5dd455c05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-102
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/watch
+SPDXID: SPDXRef-dmz-cursor-theme-file-103
+FileChecksum: SHA1: 24364524a7a0cc482767c797c4e4b3ed766c1f35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-103
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/xterm
+SPDXID: SPDXRef-dmz-cursor-theme-file-104
+FileChecksum: SHA1: 6423f56e8b382c152f6296b3cafd16092a528f39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-104
+
+
+FileName: /usr/share/icons/DMZ-White/index.theme
+SPDXID: SPDXRef-dmz-cursor-theme-file-105
+FileChecksum: SHA1: 63bbf963c75409cd3cc086e46289fb8a68408e3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-105
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/00008160000006810000408080010102
+SPDXID: SPDXRef-dmz-cursor-theme-file-106
+FileChecksum: SHA1: a4a53e831455e27844680b300bcd81c622a95650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-106
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/028006030e0e7ebffc7f7070c0600140
+SPDXID: SPDXRef-dmz-cursor-theme-file-107
+FileChecksum: SHA1: 67ba8d5e885d751e55bf9babdbd3afabe3a7a4ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-107
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/03b6e0fcb3499374a867c041f52298f0
+SPDXID: SPDXRef-dmz-cursor-theme-file-108
+FileChecksum: SHA1: 09d6c9af6f61a366b928ec4ca2393d3463f9ee7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-108
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/08e8e1c95fe2fc01f976f1e063a24ccd
+SPDXID: SPDXRef-dmz-cursor-theme-file-109
+FileChecksum: SHA1: e10c7333e25eadb8aacfaad1cce7a8e7b5485225
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-109
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/1081e37283d90000800003c07f3ef6bf
+SPDXID: SPDXRef-dmz-cursor-theme-file-110
+FileChecksum: SHA1: e5f199c8e461c5850a4e084dc29e560f0f93c2ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-110
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/14fef782d02440884392942c11205230
+SPDXID: SPDXRef-dmz-cursor-theme-file-111
+FileChecksum: SHA1: 67ba8d5e885d751e55bf9babdbd3afabe3a7a4ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-111
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/2870a09082c103050810ffdffffe0204
+SPDXID: SPDXRef-dmz-cursor-theme-file-112
+FileChecksum: SHA1: a4a53e831455e27844680b300bcd81c622a95650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-112
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/3085a0e285430894940527032f8b26df
+SPDXID: SPDXRef-dmz-cursor-theme-file-113
+FileChecksum: SHA1: 22ddae68ce7027e3d0047e8d95f017e89a00523e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-113
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/3ecb610c1bf2410f44200f48c40d3599
+SPDXID: SPDXRef-dmz-cursor-theme-file-114
+FileChecksum: SHA1: e10c7333e25eadb8aacfaad1cce7a8e7b5485225
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-114
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/4498f0e0c1937ffe01fd06f973665830
+SPDXID: SPDXRef-dmz-cursor-theme-file-115
+FileChecksum: SHA1: cfce9ce845b810cc9c9a529a0ff78bcb6696082e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-115
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408
+SPDXID: SPDXRef-dmz-cursor-theme-file-116
+FileChecksum: SHA1: 2e4ae6251b7dcfdc0e88ba9b04b9495b69a3f8a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-116
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/6407b0e94181790501fd1e167b474872
+SPDXID: SPDXRef-dmz-cursor-theme-file-117
+FileChecksum: SHA1: e5f199c8e461c5850a4e084dc29e560f0f93c2ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-117
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/640fb0e74195791501fd1ed57b41487f
+SPDXID: SPDXRef-dmz-cursor-theme-file-118
+FileChecksum: SHA1: 22ddae68ce7027e3d0047e8d95f017e89a00523e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-118
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/9081237383d90e509aa00f00170e968f
+SPDXID: SPDXRef-dmz-cursor-theme-file-119
+FileChecksum: SHA1: cfce9ce845b810cc9c9a529a0ff78bcb6696082e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-119
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/9d800788f1b08800ae810202380a0822
+SPDXID: SPDXRef-dmz-cursor-theme-file-120
+FileChecksum: SHA1: 46a8a4626a5810746c30b786db99f6fdc0a71b53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-120
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-121
+FileChecksum: SHA1: 065346fc22d14e7fa72b2e3ae2c83273f4d38ff0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-121
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/c7088f0f3e6c8088236ef8e1e3e70000
+SPDXID: SPDXRef-dmz-cursor-theme-file-122
+FileChecksum: SHA1: e89313bc7ccff2c1e25bfae668dcaa463d427d62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-122
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/cross_reverse
+SPDXID: SPDXRef-dmz-cursor-theme-file-123
+FileChecksum: SHA1: 5069c7b85ad28a411f2a51460722589deaea5037
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-123
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/d9ce0ab605698f320427677b458ad60b
+SPDXID: SPDXRef-dmz-cursor-theme-file-124
+FileChecksum: SHA1: 2e4ae6251b7dcfdc0e88ba9b04b9495b69a3f8a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-124
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/diamond_cross
+SPDXID: SPDXRef-dmz-cursor-theme-file-125
+FileChecksum: SHA1: 5069c7b85ad28a411f2a51460722589deaea5037
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-125
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/dot_box_mask
+SPDXID: SPDXRef-dmz-cursor-theme-file-126
+FileChecksum: SHA1: 8adcbebb812727868e00aa1ff53a7860105064bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-126
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-127
+FileChecksum: SHA1: a4a53e831455e27844680b300bcd81c622a95650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-127
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/draft_large
+SPDXID: SPDXRef-dmz-cursor-theme-file-128
+FileChecksum: SHA1: 11e0ac496902877542e27cc6016805c8ddc79bc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-128
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/draft_small
+SPDXID: SPDXRef-dmz-cursor-theme-file-129
+FileChecksum: SHA1: 11e0ac496902877542e27cc6016805c8ddc79bc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-129
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/draped_box
+SPDXID: SPDXRef-dmz-cursor-theme-file-130
+FileChecksum: SHA1: 8adcbebb812727868e00aa1ff53a7860105064bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-130
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/e29285e634086352946a0e7090d73106
+SPDXID: SPDXRef-dmz-cursor-theme-file-131
+FileChecksum: SHA1: 46a8a4626a5810746c30b786db99f6fdc0a71b53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-131
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/fcf1c3c7cd4491d801f1e1c78f100000
+SPDXID: SPDXRef-dmz-cursor-theme-file-132
+FileChecksum: SHA1: c90db19897f7eb3d7cdbe83f3917219356251eaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-132
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/fleur
+SPDXID: SPDXRef-dmz-cursor-theme-file-133
+FileChecksum: SHA1: 79de6830bff92eb1b9ce2f0285d2e62a9c44d5eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-133
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/h_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-134
+FileChecksum: SHA1: 67ba8d5e885d751e55bf9babdbd3afabe3a7a4ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-134
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/hand
+SPDXID: SPDXRef-dmz-cursor-theme-file-135
+FileChecksum: SHA1: 46a8a4626a5810746c30b786db99f6fdc0a71b53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-135
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/hand1
+SPDXID: SPDXRef-dmz-cursor-theme-file-136
+FileChecksum: SHA1: 46a8a4626a5810746c30b786db99f6fdc0a71b53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-136
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/help
+SPDXID: SPDXRef-dmz-cursor-theme-file-137
+FileChecksum: SHA1: 2e4ae6251b7dcfdc0e88ba9b04b9495b69a3f8a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-137
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/icon
+SPDXID: SPDXRef-dmz-cursor-theme-file-138
+FileChecksum: SHA1: 8adcbebb812727868e00aa1ff53a7860105064bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-138
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/left_ptr_help
+SPDXID: SPDXRef-dmz-cursor-theme-file-139
+FileChecksum: SHA1: 2e4ae6251b7dcfdc0e88ba9b04b9495b69a3f8a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-139
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/pirate
+SPDXID: SPDXRef-dmz-cursor-theme-file-140
+FileChecksum: SHA1: debfb1c156e45d354accf0da375d9914364e276e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-140
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/target
+SPDXID: SPDXRef-dmz-cursor-theme-file-141
+FileChecksum: SHA1: 8adcbebb812727868e00aa1ff53a7860105064bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-141
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/top_left_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-142
+FileChecksum: SHA1: 065346fc22d14e7fa72b2e3ae2c83273f4d38ff0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-142
+
+
+FileName: /usr/share/icons/DMZ-Black/cursors/v_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-143
+FileChecksum: SHA1: a4a53e831455e27844680b300bcd81c622a95650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-143
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/00008160000006810000408080010102
+SPDXID: SPDXRef-dmz-cursor-theme-file-144
+FileChecksum: SHA1: e5c6f4a74fc42fcf90a037f435cfb8c3efb4398e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-144
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/028006030e0e7ebffc7f7070c0600140
+SPDXID: SPDXRef-dmz-cursor-theme-file-145
+FileChecksum: SHA1: 6af34e0c63c1d5545c250dc06f5ca37dc114068d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-145
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/03b6e0fcb3499374a867c041f52298f0
+SPDXID: SPDXRef-dmz-cursor-theme-file-146
+FileChecksum: SHA1: e03af3db42e75e6c61034e50f9b5a2053378e198
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-146
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/08e8e1c95fe2fc01f976f1e063a24ccd
+SPDXID: SPDXRef-dmz-cursor-theme-file-147
+FileChecksum: SHA1: 37e6a33a46b6fd75ddecdece39b0f29fc5278b52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-147
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/1081e37283d90000800003c07f3ef6bf
+SPDXID: SPDXRef-dmz-cursor-theme-file-148
+FileChecksum: SHA1: af483eb622fa5a5c159fa66aa38f5468506633bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-148
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/14fef782d02440884392942c11205230
+SPDXID: SPDXRef-dmz-cursor-theme-file-149
+FileChecksum: SHA1: 6af34e0c63c1d5545c250dc06f5ca37dc114068d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-149
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/2870a09082c103050810ffdffffe0204
+SPDXID: SPDXRef-dmz-cursor-theme-file-150
+FileChecksum: SHA1: e5c6f4a74fc42fcf90a037f435cfb8c3efb4398e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-150
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/3085a0e285430894940527032f8b26df
+SPDXID: SPDXRef-dmz-cursor-theme-file-151
+FileChecksum: SHA1: 541d747f8f028ae60c5dc69012ba88de6ec990ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-151
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/3ecb610c1bf2410f44200f48c40d3599
+SPDXID: SPDXRef-dmz-cursor-theme-file-152
+FileChecksum: SHA1: 37e6a33a46b6fd75ddecdece39b0f29fc5278b52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-152
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/4498f0e0c1937ffe01fd06f973665830
+SPDXID: SPDXRef-dmz-cursor-theme-file-153
+FileChecksum: SHA1: 682e96fafc0d4576a50d1d4818996772eff80b6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-153
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408
+SPDXID: SPDXRef-dmz-cursor-theme-file-154
+FileChecksum: SHA1: dea5520cd403b5bbeaf131c2e6004ba991f4ecd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-154
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/6407b0e94181790501fd1e167b474872
+SPDXID: SPDXRef-dmz-cursor-theme-file-155
+FileChecksum: SHA1: af483eb622fa5a5c159fa66aa38f5468506633bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-155
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/640fb0e74195791501fd1ed57b41487f
+SPDXID: SPDXRef-dmz-cursor-theme-file-156
+FileChecksum: SHA1: 541d747f8f028ae60c5dc69012ba88de6ec990ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-156
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/9081237383d90e509aa00f00170e968f
+SPDXID: SPDXRef-dmz-cursor-theme-file-157
+FileChecksum: SHA1: 682e96fafc0d4576a50d1d4818996772eff80b6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-157
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/9d800788f1b08800ae810202380a0822
+SPDXID: SPDXRef-dmz-cursor-theme-file-158
+FileChecksum: SHA1: 84a654fb9b07fe7ce5a85b648077d58fe8af6d57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-158
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-159
+FileChecksum: SHA1: c25a1f1002891d52f88a83e7197f8e5dabb0dd3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-159
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/c7088f0f3e6c8088236ef8e1e3e70000
+SPDXID: SPDXRef-dmz-cursor-theme-file-160
+FileChecksum: SHA1: e568504120c220b350ebbe47e44508552c30b9ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-160
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/cross_reverse
+SPDXID: SPDXRef-dmz-cursor-theme-file-161
+FileChecksum: SHA1: 23cc36d39fac527147fe6d93c0b5e4ef9d086511
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-161
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/d9ce0ab605698f320427677b458ad60b
+SPDXID: SPDXRef-dmz-cursor-theme-file-162
+FileChecksum: SHA1: dea5520cd403b5bbeaf131c2e6004ba991f4ecd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-162
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/diamond_cross
+SPDXID: SPDXRef-dmz-cursor-theme-file-163
+FileChecksum: SHA1: 23cc36d39fac527147fe6d93c0b5e4ef9d086511
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-163
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/dot_box_mask
+SPDXID: SPDXRef-dmz-cursor-theme-file-164
+FileChecksum: SHA1: e809391ec1c1e3d1e6cbf183e909b676f9c9f659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-164
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-165
+FileChecksum: SHA1: e5c6f4a74fc42fcf90a037f435cfb8c3efb4398e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-165
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/draft_large
+SPDXID: SPDXRef-dmz-cursor-theme-file-166
+FileChecksum: SHA1: 0f4f2fd3bc2114a197fcf5af746cc32e68f4efb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-166
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/draft_small
+SPDXID: SPDXRef-dmz-cursor-theme-file-167
+FileChecksum: SHA1: 0f4f2fd3bc2114a197fcf5af746cc32e68f4efb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-167
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/draped_box
+SPDXID: SPDXRef-dmz-cursor-theme-file-168
+FileChecksum: SHA1: e809391ec1c1e3d1e6cbf183e909b676f9c9f659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-168
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/e29285e634086352946a0e7090d73106
+SPDXID: SPDXRef-dmz-cursor-theme-file-169
+FileChecksum: SHA1: 84a654fb9b07fe7ce5a85b648077d58fe8af6d57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-169
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/fcf1c3c7cd4491d801f1e1c78f100000
+SPDXID: SPDXRef-dmz-cursor-theme-file-170
+FileChecksum: SHA1: 716cb312000307d07b121970114bff165f1c01c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-170
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/fleur
+SPDXID: SPDXRef-dmz-cursor-theme-file-171
+FileChecksum: SHA1: 3de9babcd07d79bc4b64ea66b26ac4e9db2c3434
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-171
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/h_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-172
+FileChecksum: SHA1: 6af34e0c63c1d5545c250dc06f5ca37dc114068d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-172
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/hand
+SPDXID: SPDXRef-dmz-cursor-theme-file-173
+FileChecksum: SHA1: 84a654fb9b07fe7ce5a85b648077d58fe8af6d57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-173
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/hand1
+SPDXID: SPDXRef-dmz-cursor-theme-file-174
+FileChecksum: SHA1: 84a654fb9b07fe7ce5a85b648077d58fe8af6d57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-174
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/help
+SPDXID: SPDXRef-dmz-cursor-theme-file-175
+FileChecksum: SHA1: dea5520cd403b5bbeaf131c2e6004ba991f4ecd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-175
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/icon
+SPDXID: SPDXRef-dmz-cursor-theme-file-176
+FileChecksum: SHA1: e809391ec1c1e3d1e6cbf183e909b676f9c9f659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-176
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/left_ptr_help
+SPDXID: SPDXRef-dmz-cursor-theme-file-177
+FileChecksum: SHA1: dea5520cd403b5bbeaf131c2e6004ba991f4ecd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-177
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/pirate
+SPDXID: SPDXRef-dmz-cursor-theme-file-178
+FileChecksum: SHA1: dbfed865d4c42447d7c3084ff12a95723f0ff7bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-178
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/target
+SPDXID: SPDXRef-dmz-cursor-theme-file-179
+FileChecksum: SHA1: e809391ec1c1e3d1e6cbf183e909b676f9c9f659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-179
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/top_left_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-180
+FileChecksum: SHA1: c25a1f1002891d52f88a83e7197f8e5dabb0dd3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-180
+
+
+FileName: /usr/share/icons/DMZ-White/cursors/v_double_arrow
+SPDXID: SPDXRef-dmz-cursor-theme-file-181
+FileChecksum: SHA1: e5c6f4a74fc42fcf90a037f435cfb8c3efb4398e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-dmz-cursor-theme CONTAINS SPDXRef-dmz-cursor-theme-file-181
+
+
+## Extracted License
+

@@ -1,0 +1,3110 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/eog_42.0-1-0cc5b229-5c54-544f-ba35-6bff82192578
+DocumentName: eog_42.0-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libexempi8 http://spdx.org/spdxdocs/libexempi8_2.5.2-1ubuntu0.22.04.1-7abd8593-5dec-595b-a27d-479dbc59dd28 SHA1: 0d7ef9dfdaa976440a5bcbe0f1a1dfd7e4b96f0b
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-eog
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:50:11Z
+
+
+## Package
+
+PackageName: eog
+PackageVersion: 42.0-1
+SPDXID: SPDXRef-eog
+PackageHomePage: https://wiki.gnome.org/Apps/EyeOfGnome
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f7e231853809e675f202d0075c6222b6b95ca73d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright (c) 1997 Thomas G. Lane
+Copyright (c) 1999 Michael Zucchi
+Copyright (c) 1999-2004 Red Hat, Inc
+Copyright (c) 2000-2008 The Free Software Foundation
+Copyright (c) 2003-2004 Marco Pesenti Gritti
+Copyright (c) 2003-2005 Christian Persch
+Copyright (c) 2004-2006 Bastien Nocera <hadess@hadess.net>
+Copyright (c) 2005 Raphael Slinckx
+Copyright eog-image-jpeg.c 1999 The Free Software Foundation, 1999 Michael Zucchi, 1999 Red Hat, Inc
+</text>
+PackageComment: <text>Eye of GNOME graphics viewer program
+ eog or the Eye of GNOME is a simple graphics viewer for the GNOME
+ desktop which uses the gdk-pixbuf library.  It can deal with large
+ images, and zoom and scroll with constant memory usage.  Its goals are
+ simplicity and standards compliance.</text>
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-libexempi8:SPDXRef-libexempi8
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libexif12
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgirepository-1.0-1
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgnome-desktop-3-19
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libhandy-1-0
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjpeg8
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-liblcms2-2
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpeas-1.0-0
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-librsvg2-2
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libx11-6
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-gtk-3.0
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-shared-mime-info
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gsettings-desktop-schemas
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gir1.2-peas-1.0
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-librsvg2-common
+Relationship: SPDXRef-eog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-yelp
+
+
+## File
+
+FileName: /usr/share/doc/eog/copyright
+SPDXID: SPDXRef-eog-file-0
+FileChecksum: SHA1: 08e336570e64db0fdfc281967ecabe28c11ae2a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright (c) 2000-2008 The Free Software Foundation
+Copyright (c) 1999 Michael Zucchi
+Copyright (c) 1999-2004 Red Hat, Inc
+Copyright (c) 2005 Raphael Slinckx
+Copyright (c) 1997 Thomas G. Lane
+Copyright (c) 2003-2004 Marco Pesenti Gritti
+Copyright (c) 2003-2005 Christian Persch
+Copyright (c) 2004-2006 Bastien Nocera <hadess@hadess.net>
+Copyright eog-image-jpeg.c 1999 The Free Software Foundation, 1999 Michael Zucchi, 1999 Red Hat, Inc
+</text>
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-0
+
+
+FileName: /usr/bin/eog
+SPDXID: SPDXRef-eog-file-1
+FileChecksum: SHA1: 161925cd2feabd4b0e0d8d30560191544d2cd7a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/eog/girepository-1.0/Eog-3.0.typelib
+SPDXID: SPDXRef-eog-file-2
+FileChecksum: SHA1: ff62dd466d6fe1485f1eb2e64a1bbd7e3d554a94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/eog/libeog.so
+SPDXID: SPDXRef-eog-file-3
+FileChecksum: SHA1: 67ba1b32c8fa87f6a1296b23a69e0b436d5b3094
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/eog/plugins/fullscreen.plugin
+SPDXID: SPDXRef-eog-file-4
+FileChecksum: SHA1: b36f70176af7b621a5a9cbb790e16dd6da0664db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-4
+
+
+FileName: /usr/lib/x86_64-linux-gnu/eog/plugins/libfullscreen.so
+SPDXID: SPDXRef-eog-file-5
+FileChecksum: SHA1: bea672e82fe7bda98ba83ecf4af82afb9a777a61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-5
+
+
+FileName: /usr/lib/x86_64-linux-gnu/eog/plugins/libreload.so
+SPDXID: SPDXRef-eog-file-6
+FileChecksum: SHA1: cbb89a4a3dd525718e8ac47b185898799f142047
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-6
+
+
+FileName: /usr/lib/x86_64-linux-gnu/eog/plugins/libstatusbar-date.so
+SPDXID: SPDXRef-eog-file-7
+FileChecksum: SHA1: ef36409ddb2acfc69e709dce792e530b2e0a41d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-7
+
+
+FileName: /usr/lib/x86_64-linux-gnu/eog/plugins/reload.plugin
+SPDXID: SPDXRef-eog-file-8
+FileChecksum: SHA1: a1e7139bb61d53acf05f19c3c5f1f6f616360ce6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-8
+
+
+FileName: /usr/lib/x86_64-linux-gnu/eog/plugins/statusbar-date.plugin
+SPDXID: SPDXRef-eog-file-9
+FileChecksum: SHA1: a8157d2738674aa220b16414c43d7319c9fc01d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-9
+
+
+FileName: /usr/share/GConf/gsettings/eog.convert
+SPDXID: SPDXRef-eog-file-10
+FileChecksum: SHA1: f832981e77a8d44f91f95ff52c6d3db2ecf4c348
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-10
+
+
+FileName: /usr/share/applications/org.gnome.eog.desktop
+SPDXID: SPDXRef-eog-file-11
+FileChecksum: SHA1: 79a79b16c9baeb6a5cb057ae8f82a648f74f4ec3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-11
+
+
+FileName: /usr/share/doc/eog/AUTHORS
+SPDXID: SPDXRef-eog-file-12
+FileChecksum: SHA1: 1956b40013df94779205e233c2e8bb6108e22b69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-12
+
+
+FileName: /usr/share/doc/eog/NEWS.gz
+SPDXID: SPDXRef-eog-file-13
+FileChecksum: SHA1: beea5db75cf5629dbd62d25f3ea34cb0f9524af3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-13
+
+
+FileName: /usr/share/doc/eog/README.md
+SPDXID: SPDXRef-eog-file-14
+FileChecksum: SHA1: 0f8c094e26cd85e65a533305d41a176b66019189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-14
+
+
+FileName: /usr/share/doc/eog/THANKS
+SPDXID: SPDXRef-eog-file-15
+FileChecksum: SHA1: 18bf89f6224383e37af24293083cdf94b163657c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-15
+
+
+FileName: /usr/share/doc/eog/changelog.Debian.gz
+SPDXID: SPDXRef-eog-file-16
+FileChecksum: SHA1: bfe5fa684f4b60bf3872d33752f329ec7e54084c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-16
+
+
+FileName: /usr/share/eog/icons/hicolor/16x16/actions/eog-plugin.png
+SPDXID: SPDXRef-eog-file-17
+FileChecksum: SHA1: ff8f0bf4b1a375f0a4c70727db3066cd5d88155b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-17
+
+
+FileName: /usr/share/eog/icons/hicolor/16x16/actions/slideshow-play.png
+SPDXID: SPDXRef-eog-file-18
+FileChecksum: SHA1: 70e8086aae32791b20098f53331af6df08de09c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-18
+
+
+FileName: /usr/share/eog/icons/hicolor/22x22/actions/eog-plugin.png
+SPDXID: SPDXRef-eog-file-19
+FileChecksum: SHA1: d5ecc1da46e6415f4d0c4cb20ecce5bc8bb9f55e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-19
+
+
+FileName: /usr/share/eog/icons/hicolor/22x22/actions/slideshow-play.png
+SPDXID: SPDXRef-eog-file-20
+FileChecksum: SHA1: ae2649b9f1dc4e8920103fb1c7bc322649ae76b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-20
+
+
+FileName: /usr/share/eog/icons/hicolor/24x24/actions/slideshow-play.png
+SPDXID: SPDXRef-eog-file-21
+FileChecksum: SHA1: 4a228bbc6f255d1316d22ba73227d47b8a1ecfe7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-21
+
+
+FileName: /usr/share/eog/icons/hicolor/32x32/actions/eog-plugin.png
+SPDXID: SPDXRef-eog-file-22
+FileChecksum: SHA1: 667fd546d401a45679005d71539c050247831fb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-22
+
+
+FileName: /usr/share/eog/icons/hicolor/32x32/actions/slideshow-play.png
+SPDXID: SPDXRef-eog-file-23
+FileChecksum: SHA1: 3c16e6ffaf0feeacbbe6e7919101398cc528e670
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-23
+
+
+FileName: /usr/share/eog/icons/hicolor/48x48/actions/slideshow-play.png
+SPDXID: SPDXRef-eog-file-24
+FileChecksum: SHA1: 905631e538dc562706c19b945075271c9f33cfbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-24
+
+
+FileName: /usr/share/eog/icons/hicolor/scalable/actions/eog-image-gallery-symbolic.svg
+SPDXID: SPDXRef-eog-file-25
+FileChecksum: SHA1: 3742d68a125923f2568663c16dda63090c79e47a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-25
+
+
+FileName: /usr/share/eog/icons/hicolor/scalable/actions/eog-plugin.svg
+SPDXID: SPDXRef-eog-file-26
+FileChecksum: SHA1: e245c171b4740e4ddbafa490d2f140b4c696edf6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-26
+
+
+FileName: /usr/share/eog/icons/hicolor/scalable/actions/slideshow-play.svg
+SPDXID: SPDXRef-eog-file-27
+FileChecksum: SHA1: e3acba22becb540ec67ec9471341a8dfaca8adb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-27
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.eog.enums.xml
+SPDXID: SPDXRef-eog-file-28
+FileChecksum: SHA1: 8dc01487b6a00888202791fb75e430f42aae71c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-28
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.eog.gschema.xml
+SPDXID: SPDXRef-eog-file-29
+FileChecksum: SHA1: 5b674ea833b74bb7940eca08d05810a90ede358a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-29
+
+
+FileName: /usr/share/help/C/eog/bug-filing.page
+SPDXID: SPDXRef-eog-file-30
+FileChecksum: SHA1: 643693a483d7eeb393b95666ba6a54df503b4ed7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-30
+
+
+FileName: /usr/share/help/C/eog/commandline.page
+SPDXID: SPDXRef-eog-file-31
+FileChecksum: SHA1: 4fe010542e9c9b31dc4d41327301aca664e8acd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-31
+
+
+FileName: /usr/share/help/C/eog/copy-paste.page
+SPDXID: SPDXRef-eog-file-32
+FileChecksum: SHA1: b18c0f79f981bfc970fafa41e01ca8914930ec39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-32
+
+
+FileName: /usr/share/help/C/eog/default.page
+SPDXID: SPDXRef-eog-file-33
+FileChecksum: SHA1: 86474ed18c455f3c3806027d619d892ccbdb2a71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-33
+
+
+FileName: /usr/share/help/C/eog/desktop-background.page
+SPDXID: SPDXRef-eog-file-34
+FileChecksum: SHA1: e5d3e1d9426c05cbb0e3541375106420385ade83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-34
+
+
+FileName: /usr/share/help/C/eog/develop.page
+SPDXID: SPDXRef-eog-file-35
+FileChecksum: SHA1: 3c3726c2abc5e7542ed217edabdaa7f1d76a1d0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-35
+
+
+FileName: /usr/share/help/C/eog/documentation.page
+SPDXID: SPDXRef-eog-file-36
+FileChecksum: SHA1: 0c5c7f96c21beba829e4bafe449a0c30fbde65df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-36
+
+
+FileName: /usr/share/help/C/eog/edit.page
+SPDXID: SPDXRef-eog-file-37
+FileChecksum: SHA1: f1fd7e1da861817a26aa294259bb4fd988226d67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-37
+
+
+FileName: /usr/share/help/C/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-38
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-38
+
+
+FileName: /usr/share/help/C/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-39
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-39
+
+
+FileName: /usr/share/help/C/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-40
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-40
+
+
+FileName: /usr/share/help/C/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-41
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-41
+
+
+FileName: /usr/share/help/C/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-42
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-42
+
+
+FileName: /usr/share/help/C/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-43
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-43
+
+
+FileName: /usr/share/help/C/eog/flip-rotate.page
+SPDXID: SPDXRef-eog-file-44
+FileChecksum: SHA1: e6aee50e8155c432ca542cb1627367b2400d5a4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-44
+
+
+FileName: /usr/share/help/C/eog/format-change.page
+SPDXID: SPDXRef-eog-file-45
+FileChecksum: SHA1: 1b3b60910b4ec6bb9e7558e0ff27adb5670c4d18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-45
+
+
+FileName: /usr/share/help/C/eog/formats-save.page
+SPDXID: SPDXRef-eog-file-46
+FileChecksum: SHA1: bfa978599de1af0063a17b805fda5d1374b8dc94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-46
+
+
+FileName: /usr/share/help/C/eog/formats-view.page
+SPDXID: SPDXRef-eog-file-47
+FileChecksum: SHA1: 7b5e76333de053aef77678ad80432e4c60c3ab5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-47
+
+
+FileName: /usr/share/help/C/eog/index.page
+SPDXID: SPDXRef-eog-file-48
+FileChecksum: SHA1: 76e231aafe133a178cc9f9132d0f1f7c4f1e9949
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-48
+
+
+FileName: /usr/share/help/C/eog/introduction.page
+SPDXID: SPDXRef-eog-file-49
+FileChecksum: SHA1: 24dd01241ad23f772fe13de72fa099783817ed42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-49
+
+
+FileName: /usr/share/help/C/eog/legal.xml
+SPDXID: SPDXRef-eog-file-50
+FileChecksum: SHA1: cb94c0d3d1a465a8e9cc38e623140987f90a1136
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-50
+
+
+FileName: /usr/share/help/C/eog/license.page
+SPDXID: SPDXRef-eog-file-51
+FileChecksum: SHA1: 99449fd3e6417f1f32dbe2a5b252880badb25704
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-51
+
+
+FileName: /usr/share/help/C/eog/open.page
+SPDXID: SPDXRef-eog-file-52
+FileChecksum: SHA1: 83a89be0fc95f64499b050f5c99c8bd45e37eed6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-52
+
+
+FileName: /usr/share/help/C/eog/plugin-exif-digital.page
+SPDXID: SPDXRef-eog-file-53
+FileChecksum: SHA1: 294fbdb287a9e28fd75271e604d4131af7a9274a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-53
+
+
+FileName: /usr/share/help/C/eog/plugin-fullscreen-background.page
+SPDXID: SPDXRef-eog-file-54
+FileChecksum: SHA1: ca9740a22f1913efa28f1b766bcf82fcd597772b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-54
+
+
+FileName: /usr/share/help/C/eog/plugin-fullscreen-double-click.page
+SPDXID: SPDXRef-eog-file-55
+FileChecksum: SHA1: 99a13c736f9218e71509874cc4b3debb8210231f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-55
+
+
+FileName: /usr/share/help/C/eog/plugin-python-console.page
+SPDXID: SPDXRef-eog-file-56
+FileChecksum: SHA1: 354f7cea1f1c48478821992f3f2f17bc598485b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-56
+
+
+FileName: /usr/share/help/C/eog/plugin-send-by-mail.page
+SPDXID: SPDXRef-eog-file-57
+FileChecksum: SHA1: 495dfc606045894c62eb38c7d340bac23eca934f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-57
+
+
+FileName: /usr/share/help/C/eog/plugin-slideshow-shuffle.page
+SPDXID: SPDXRef-eog-file-58
+FileChecksum: SHA1: a07119edb3e2e1f07ed792074b06769825d88427
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-58
+
+
+FileName: /usr/share/help/C/eog/plugin-zoom-width.page
+SPDXID: SPDXRef-eog-file-59
+FileChecksum: SHA1: 8d700e8802ac3c93a840335559dd19fcd53cd0f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-59
+
+
+FileName: /usr/share/help/C/eog/plugins.page
+SPDXID: SPDXRef-eog-file-60
+FileChecksum: SHA1: 092b16c8b9fe14ae21ffe5878593707bc146bd29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-60
+
+
+FileName: /usr/share/help/C/eog/preferences.page
+SPDXID: SPDXRef-eog-file-61
+FileChecksum: SHA1: 8c266394b31aa39efb9270bf05900b96c8bc79f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-61
+
+
+FileName: /usr/share/help/C/eog/print.page
+SPDXID: SPDXRef-eog-file-62
+FileChecksum: SHA1: 298409fda963a65823af64b5f9050b83a766dfb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-62
+
+
+FileName: /usr/share/help/C/eog/rename-multiple.page
+SPDXID: SPDXRef-eog-file-63
+FileChecksum: SHA1: 36e7b7703de66be17023591eec5fe7ad9b53fad7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-63
+
+
+FileName: /usr/share/help/C/eog/slideshow.page
+SPDXID: SPDXRef-eog-file-64
+FileChecksum: SHA1: edbea9811f49f2ec818afca9eb828bb04a6e646f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-64
+
+
+FileName: /usr/share/help/C/eog/translate.page
+SPDXID: SPDXRef-eog-file-65
+FileChecksum: SHA1: e9b652cb110e959b8a8aa15430fe5adffcd685d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-65
+
+
+FileName: /usr/share/help/C/eog/view.page
+SPDXID: SPDXRef-eog-file-66
+FileChecksum: SHA1: 3082e03f75b861c38dd55b9958d2ce15ccd986cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-66
+
+
+FileName: /usr/share/help/C/eog/zoom.page
+SPDXID: SPDXRef-eog-file-67
+FileChecksum: SHA1: 3001a7371c881fb6a7d27908ebbe6b6a691e3d06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-67
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.eog.Devel.svg
+SPDXID: SPDXRef-eog-file-68
+FileChecksum: SHA1: 1cde3f4083360400efdb3ed02632f4b61d413ba7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-68
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-69
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-69
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-70
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-70
+
+
+FileName: /usr/share/man/man1/eog.1.gz
+SPDXID: SPDXRef-eog-file-71
+FileChecksum: SHA1: fd7af5cde1cdfe6f96062e4f9659fa1845c6d7af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-71
+
+
+FileName: /usr/share/metainfo/eog.appdata.xml
+SPDXID: SPDXRef-eog-file-72
+FileChecksum: SHA1: 5337ce0cb401a85f919d269c51cb439c39fe4d5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-72
+
+
+FileName: /usr/share/help/ar/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-73
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-73
+
+
+FileName: /usr/share/help/ar/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-74
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-74
+
+
+FileName: /usr/share/help/ar/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-75
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-75
+
+
+FileName: /usr/share/help/ar/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-76
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-76
+
+
+FileName: /usr/share/help/ar/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-77
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-77
+
+
+FileName: /usr/share/help/ar/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-78
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-78
+
+
+FileName: /usr/share/help/ca/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-79
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-79
+
+
+FileName: /usr/share/help/ca/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-80
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-80
+
+
+FileName: /usr/share/help/ca/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-81
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-81
+
+
+FileName: /usr/share/help/ca/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-82
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-82
+
+
+FileName: /usr/share/help/ca/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-83
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-83
+
+
+FileName: /usr/share/help/ca/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-84
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-84
+
+
+FileName: /usr/share/help/cs/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-85
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-85
+
+
+FileName: /usr/share/help/cs/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-86
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-86
+
+
+FileName: /usr/share/help/cs/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-87
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-87
+
+
+FileName: /usr/share/help/cs/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-88
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-88
+
+
+FileName: /usr/share/help/cs/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-89
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-89
+
+
+FileName: /usr/share/help/cs/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-90
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-90
+
+
+FileName: /usr/share/help/da/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-91
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-91
+
+
+FileName: /usr/share/help/da/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-92
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-92
+
+
+FileName: /usr/share/help/da/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-93
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-93
+
+
+FileName: /usr/share/help/da/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-94
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-94
+
+
+FileName: /usr/share/help/da/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-95
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-95
+
+
+FileName: /usr/share/help/da/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-96
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-96
+
+
+FileName: /usr/share/help/de/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-97
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-97
+
+
+FileName: /usr/share/help/de/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-98
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-98
+
+
+FileName: /usr/share/help/de/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-99
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-99
+
+
+FileName: /usr/share/help/de/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-100
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-100
+
+
+FileName: /usr/share/help/de/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-101
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-101
+
+
+FileName: /usr/share/help/de/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-102
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-102
+
+
+FileName: /usr/share/help/el/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-103
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-103
+
+
+FileName: /usr/share/help/el/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-104
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-104
+
+
+FileName: /usr/share/help/el/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-105
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-105
+
+
+FileName: /usr/share/help/el/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-106
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-106
+
+
+FileName: /usr/share/help/el/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-107
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-107
+
+
+FileName: /usr/share/help/el/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-108
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-108
+
+
+FileName: /usr/share/help/en_GB/eog/bug-filing.page
+SPDXID: SPDXRef-eog-file-109
+FileChecksum: SHA1: 961979344578fb2ed991f803a3e937359bde716c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-109
+
+
+FileName: /usr/share/help/en_GB/eog/commandline.page
+SPDXID: SPDXRef-eog-file-110
+FileChecksum: SHA1: 507b9fe583a253dcf2939a75ffd425d7a4ad329b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-110
+
+
+FileName: /usr/share/help/en_GB/eog/copy-paste.page
+SPDXID: SPDXRef-eog-file-111
+FileChecksum: SHA1: 358815254e99f177da8dec6c3a15dd56a560f762
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-111
+
+
+FileName: /usr/share/help/en_GB/eog/default.page
+SPDXID: SPDXRef-eog-file-112
+FileChecksum: SHA1: 55362fcb9057c3454eb6d394ceb6713b9b56cdf6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-112
+
+
+FileName: /usr/share/help/en_GB/eog/desktop-background.page
+SPDXID: SPDXRef-eog-file-113
+FileChecksum: SHA1: 5a0e0c2f690de12911695a8b065005cb5b4a09f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-113
+
+
+FileName: /usr/share/help/en_GB/eog/develop.page
+SPDXID: SPDXRef-eog-file-114
+FileChecksum: SHA1: 56ced9d0a86eda8274ed284fac4fa0847cfccdc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-114
+
+
+FileName: /usr/share/help/en_GB/eog/documentation.page
+SPDXID: SPDXRef-eog-file-115
+FileChecksum: SHA1: b09e59e6ac6d3eb251015a830515a13b8beb361b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-115
+
+
+FileName: /usr/share/help/en_GB/eog/edit.page
+SPDXID: SPDXRef-eog-file-116
+FileChecksum: SHA1: 5fc8d4bcb14a2c79bfef27ee59859e4140b60114
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-116
+
+
+FileName: /usr/share/help/en_GB/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-117
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-117
+
+
+FileName: /usr/share/help/en_GB/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-118
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-118
+
+
+FileName: /usr/share/help/en_GB/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-119
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-119
+
+
+FileName: /usr/share/help/en_GB/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-120
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-120
+
+
+FileName: /usr/share/help/en_GB/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-121
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-121
+
+
+FileName: /usr/share/help/en_GB/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-122
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-122
+
+
+FileName: /usr/share/help/en_GB/eog/flip-rotate.page
+SPDXID: SPDXRef-eog-file-123
+FileChecksum: SHA1: 3c8ae475b7e3f8dbd07fdb5b1aaf431793837b6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-123
+
+
+FileName: /usr/share/help/en_GB/eog/format-change.page
+SPDXID: SPDXRef-eog-file-124
+FileChecksum: SHA1: a5811aa032fcc8d30c522c1bbcc5c7f482f9044a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-124
+
+
+FileName: /usr/share/help/en_GB/eog/formats-save.page
+SPDXID: SPDXRef-eog-file-125
+FileChecksum: SHA1: 1b666785d9e1c553fc2f46092d09fe09743d0703
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-125
+
+
+FileName: /usr/share/help/en_GB/eog/formats-view.page
+SPDXID: SPDXRef-eog-file-126
+FileChecksum: SHA1: ec52150bcc2d664ab2adb38a0f2543873c00625d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-126
+
+
+FileName: /usr/share/help/en_GB/eog/index.page
+SPDXID: SPDXRef-eog-file-127
+FileChecksum: SHA1: 8e4d0d9328bdef5897a82518a00df67536179bed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-127
+
+
+FileName: /usr/share/help/en_GB/eog/introduction.page
+SPDXID: SPDXRef-eog-file-128
+FileChecksum: SHA1: 18b0dda36ae878f9e6597c2972742937dbc1de99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-128
+
+
+FileName: /usr/share/help/en_GB/eog/legal.xml
+SPDXID: SPDXRef-eog-file-129
+FileChecksum: SHA1: 28cdf1c5dc34778bceba02440140648cfb89452b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-129
+
+
+FileName: /usr/share/help/en_GB/eog/license.page
+SPDXID: SPDXRef-eog-file-130
+FileChecksum: SHA1: 3054d9c38a4f1a0d23503051b482c0f775fe95cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-130
+
+
+FileName: /usr/share/help/en_GB/eog/open.page
+SPDXID: SPDXRef-eog-file-131
+FileChecksum: SHA1: a2de87d44fd9f5bf5ed24f2b6719d50e89bb1422
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-131
+
+
+FileName: /usr/share/help/en_GB/eog/plugin-exif-digital.page
+SPDXID: SPDXRef-eog-file-132
+FileChecksum: SHA1: b1ecb407a6b9f9f8151e097a5bad59c865c3be94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-132
+
+
+FileName: /usr/share/help/en_GB/eog/plugin-fullscreen-background.page
+SPDXID: SPDXRef-eog-file-133
+FileChecksum: SHA1: 280ad7199014dc7ae348f01b7721961ecfc529d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-133
+
+
+FileName: /usr/share/help/en_GB/eog/plugin-fullscreen-double-click.page
+SPDXID: SPDXRef-eog-file-134
+FileChecksum: SHA1: 059f5a7f9150d1249a859a5d9bf0636247e36361
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-134
+
+
+FileName: /usr/share/help/en_GB/eog/plugin-python-console.page
+SPDXID: SPDXRef-eog-file-135
+FileChecksum: SHA1: 719481f79e95dfb424895e1bd1d833d4e7f0045d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-135
+
+
+FileName: /usr/share/help/en_GB/eog/plugin-send-by-mail.page
+SPDXID: SPDXRef-eog-file-136
+FileChecksum: SHA1: c045603da3fcdf7a1d5657e6cb857285bdb487a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-136
+
+
+FileName: /usr/share/help/en_GB/eog/plugin-slideshow-shuffle.page
+SPDXID: SPDXRef-eog-file-137
+FileChecksum: SHA1: d2867bc22eab7d3c040e7d5ec6a69d586a25a94b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-137
+
+
+FileName: /usr/share/help/en_GB/eog/plugin-zoom-width.page
+SPDXID: SPDXRef-eog-file-138
+FileChecksum: SHA1: e1a27d60accff4b4184eb7fe2318449c3afca025
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-138
+
+
+FileName: /usr/share/help/en_GB/eog/plugins.page
+SPDXID: SPDXRef-eog-file-139
+FileChecksum: SHA1: 2de9f7de011cfede1c6684877e426d68e164f53e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-139
+
+
+FileName: /usr/share/help/en_GB/eog/preferences.page
+SPDXID: SPDXRef-eog-file-140
+FileChecksum: SHA1: 14c21aa98f4bfb624e909192775e1c39d63ff973
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-140
+
+
+FileName: /usr/share/help/en_GB/eog/print.page
+SPDXID: SPDXRef-eog-file-141
+FileChecksum: SHA1: 6002355460963afc946b9d2206050f592229964d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-141
+
+
+FileName: /usr/share/help/en_GB/eog/rename-multiple.page
+SPDXID: SPDXRef-eog-file-142
+FileChecksum: SHA1: 360bcbdf580cc7b5245733fe89d231474293cf9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-142
+
+
+FileName: /usr/share/help/en_GB/eog/slideshow.page
+SPDXID: SPDXRef-eog-file-143
+FileChecksum: SHA1: 2ecbe66d66007e4035d268b4bd023bf95d47c594
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-143
+
+
+FileName: /usr/share/help/en_GB/eog/translate.page
+SPDXID: SPDXRef-eog-file-144
+FileChecksum: SHA1: 6bf0934e9b0b07d7ddb3a32b549a7f5a8c038ed6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-144
+
+
+FileName: /usr/share/help/en_GB/eog/view.page
+SPDXID: SPDXRef-eog-file-145
+FileChecksum: SHA1: 468393916d8fa22b1ba6d0b790d00cc2b846ab10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-145
+
+
+FileName: /usr/share/help/en_GB/eog/zoom.page
+SPDXID: SPDXRef-eog-file-146
+FileChecksum: SHA1: ea1abffc393055061897b4b3027a6afe42a45d1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-146
+
+
+FileName: /usr/share/help/es/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-147
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-147
+
+
+FileName: /usr/share/help/es/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-148
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-148
+
+
+FileName: /usr/share/help/es/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-149
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-149
+
+
+FileName: /usr/share/help/es/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-150
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-150
+
+
+FileName: /usr/share/help/es/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-151
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-151
+
+
+FileName: /usr/share/help/es/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-152
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-152
+
+
+FileName: /usr/share/help/eu/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-153
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-153
+
+
+FileName: /usr/share/help/eu/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-154
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-154
+
+
+FileName: /usr/share/help/eu/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-155
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-155
+
+
+FileName: /usr/share/help/eu/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-156
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-156
+
+
+FileName: /usr/share/help/eu/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-157
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-157
+
+
+FileName: /usr/share/help/eu/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-158
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-158
+
+
+FileName: /usr/share/help/fi/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-159
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-159
+
+
+FileName: /usr/share/help/fi/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-160
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-160
+
+
+FileName: /usr/share/help/fi/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-161
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-161
+
+
+FileName: /usr/share/help/fi/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-162
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-162
+
+
+FileName: /usr/share/help/fi/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-163
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-163
+
+
+FileName: /usr/share/help/fi/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-164
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-164
+
+
+FileName: /usr/share/help/fr/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-165
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-165
+
+
+FileName: /usr/share/help/fr/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-166
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-166
+
+
+FileName: /usr/share/help/fr/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-167
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-167
+
+
+FileName: /usr/share/help/fr/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-168
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-168
+
+
+FileName: /usr/share/help/fr/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-169
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-169
+
+
+FileName: /usr/share/help/fr/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-170
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-170
+
+
+FileName: /usr/share/help/gl/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-171
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-171
+
+
+FileName: /usr/share/help/gl/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-172
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-172
+
+
+FileName: /usr/share/help/gl/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-173
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-173
+
+
+FileName: /usr/share/help/gl/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-174
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-174
+
+
+FileName: /usr/share/help/gl/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-175
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-175
+
+
+FileName: /usr/share/help/gl/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-176
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-176
+
+
+FileName: /usr/share/help/hu/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-177
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-177
+
+
+FileName: /usr/share/help/hu/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-178
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-178
+
+
+FileName: /usr/share/help/hu/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-179
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-179
+
+
+FileName: /usr/share/help/hu/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-180
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-180
+
+
+FileName: /usr/share/help/hu/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-181
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-181
+
+
+FileName: /usr/share/help/hu/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-182
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-182
+
+
+FileName: /usr/share/help/id/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-183
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-183
+
+
+FileName: /usr/share/help/id/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-184
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-184
+
+
+FileName: /usr/share/help/id/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-185
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-185
+
+
+FileName: /usr/share/help/id/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-186
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-186
+
+
+FileName: /usr/share/help/id/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-187
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-187
+
+
+FileName: /usr/share/help/id/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-188
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-188
+
+
+FileName: /usr/share/help/it/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-189
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-189
+
+
+FileName: /usr/share/help/it/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-190
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-190
+
+
+FileName: /usr/share/help/it/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-191
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-191
+
+
+FileName: /usr/share/help/it/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-192
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-192
+
+
+FileName: /usr/share/help/it/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-193
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-193
+
+
+FileName: /usr/share/help/it/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-194
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-194
+
+
+FileName: /usr/share/help/ja/eog/bug-filing.page
+SPDXID: SPDXRef-eog-file-195
+FileChecksum: SHA1: 5367f44de0ec1c2e0a846cf619bc09d820756dea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-195
+
+
+FileName: /usr/share/help/ja/eog/commandline.page
+SPDXID: SPDXRef-eog-file-196
+FileChecksum: SHA1: 2dd7dd53cf430bdeb308a1da019cf756d72de630
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-196
+
+
+FileName: /usr/share/help/ja/eog/copy-paste.page
+SPDXID: SPDXRef-eog-file-197
+FileChecksum: SHA1: ad6fa045251cbf1701284fd0da045428b8ff23cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-197
+
+
+FileName: /usr/share/help/ja/eog/default.page
+SPDXID: SPDXRef-eog-file-198
+FileChecksum: SHA1: f321ca4ff5feaac28b66ada9642d1d0c8777b1a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-198
+
+
+FileName: /usr/share/help/ja/eog/desktop-background.page
+SPDXID: SPDXRef-eog-file-199
+FileChecksum: SHA1: da38108ba019df47a2aebb256b536e338e6ba648
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-199
+
+
+FileName: /usr/share/help/ja/eog/develop.page
+SPDXID: SPDXRef-eog-file-200
+FileChecksum: SHA1: cfc50af44374e694ce3d479acb65993cf154f635
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-200
+
+
+FileName: /usr/share/help/ja/eog/documentation.page
+SPDXID: SPDXRef-eog-file-201
+FileChecksum: SHA1: 305eb408fd3e32614fde4b7d06e7b8a395e133f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-201
+
+
+FileName: /usr/share/help/ja/eog/edit.page
+SPDXID: SPDXRef-eog-file-202
+FileChecksum: SHA1: a80ab8d4705662566652845aac2e174572c317da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-202
+
+
+FileName: /usr/share/help/ja/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-203
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-203
+
+
+FileName: /usr/share/help/ja/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-204
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-204
+
+
+FileName: /usr/share/help/ja/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-205
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-205
+
+
+FileName: /usr/share/help/ja/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-206
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-206
+
+
+FileName: /usr/share/help/ja/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-207
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-207
+
+
+FileName: /usr/share/help/ja/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-208
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-208
+
+
+FileName: /usr/share/help/ja/eog/flip-rotate.page
+SPDXID: SPDXRef-eog-file-209
+FileChecksum: SHA1: a6dac38f5300aef20ab14ca0e2d598c6bf1bc465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-209
+
+
+FileName: /usr/share/help/ja/eog/format-change.page
+SPDXID: SPDXRef-eog-file-210
+FileChecksum: SHA1: ead6b6c43aa29cf170da7f8dd21b462e02ffa5d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-210
+
+
+FileName: /usr/share/help/ja/eog/formats-save.page
+SPDXID: SPDXRef-eog-file-211
+FileChecksum: SHA1: 9d41280864c26ca207d0e50a1ac61cb3f2250ca8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-211
+
+
+FileName: /usr/share/help/ja/eog/formats-view.page
+SPDXID: SPDXRef-eog-file-212
+FileChecksum: SHA1: a79c1c20b191d9899da228f34c2b87af0d4dc154
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-212
+
+
+FileName: /usr/share/help/ja/eog/index.page
+SPDXID: SPDXRef-eog-file-213
+FileChecksum: SHA1: 39d13418852c3cdbf3ed96ce36bf9b2ed696992f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-213
+
+
+FileName: /usr/share/help/ja/eog/introduction.page
+SPDXID: SPDXRef-eog-file-214
+FileChecksum: SHA1: eed246d241a0e274c61eca0d669bcab168cc1c88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-214
+
+
+FileName: /usr/share/help/ja/eog/legal.xml
+SPDXID: SPDXRef-eog-file-215
+FileChecksum: SHA1: 5f6e2cab6f99b2cb13ed5fa5e80daa6b1a7b56be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-215
+
+
+FileName: /usr/share/help/ja/eog/license.page
+SPDXID: SPDXRef-eog-file-216
+FileChecksum: SHA1: 1910976493441be016a5321cc7c8c14c3ec2e198
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-216
+
+
+FileName: /usr/share/help/ja/eog/open.page
+SPDXID: SPDXRef-eog-file-217
+FileChecksum: SHA1: c3123814a99640dfada2ac42187c4b640565dc25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-217
+
+
+FileName: /usr/share/help/ja/eog/plugin-exif-digital.page
+SPDXID: SPDXRef-eog-file-218
+FileChecksum: SHA1: 5e061fadeb62a5f71548e9e49d6f8e9b3afe1267
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-218
+
+
+FileName: /usr/share/help/ja/eog/plugin-fullscreen-background.page
+SPDXID: SPDXRef-eog-file-219
+FileChecksum: SHA1: 807efa255c176c73828dd89c3223a10c0e58ddff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-219
+
+
+FileName: /usr/share/help/ja/eog/plugin-fullscreen-double-click.page
+SPDXID: SPDXRef-eog-file-220
+FileChecksum: SHA1: 2940e46e4db66960ca5738d30e65e3f93214a04f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-220
+
+
+FileName: /usr/share/help/ja/eog/plugin-python-console.page
+SPDXID: SPDXRef-eog-file-221
+FileChecksum: SHA1: 955f2d57f6027eda085f7ade41bd0ae916665fd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-221
+
+
+FileName: /usr/share/help/ja/eog/plugin-send-by-mail.page
+SPDXID: SPDXRef-eog-file-222
+FileChecksum: SHA1: 15f8035823feeec2eb3779a4d2b8f144f817d748
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-222
+
+
+FileName: /usr/share/help/ja/eog/plugin-slideshow-shuffle.page
+SPDXID: SPDXRef-eog-file-223
+FileChecksum: SHA1: 3f8afcb6e89cc073cdcef5dbf867da046b092622
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-223
+
+
+FileName: /usr/share/help/ja/eog/plugin-zoom-width.page
+SPDXID: SPDXRef-eog-file-224
+FileChecksum: SHA1: 159c244094d6e40948da300f3a778bf5af59d658
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-224
+
+
+FileName: /usr/share/help/ja/eog/plugins.page
+SPDXID: SPDXRef-eog-file-225
+FileChecksum: SHA1: 05f9939870c5fe88cf856145cc17afbb31de0795
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-225
+
+
+FileName: /usr/share/help/ja/eog/preferences.page
+SPDXID: SPDXRef-eog-file-226
+FileChecksum: SHA1: 4f27b0361ec1658044bdcf5145f4279cbe7f260b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-226
+
+
+FileName: /usr/share/help/ja/eog/print.page
+SPDXID: SPDXRef-eog-file-227
+FileChecksum: SHA1: 0340ec06f9012ae73b0351aa3fec2ca3675605d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-227
+
+
+FileName: /usr/share/help/ja/eog/rename-multiple.page
+SPDXID: SPDXRef-eog-file-228
+FileChecksum: SHA1: d470047a105f9f4bdf4a69e3c7e601b477f6d7ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-228
+
+
+FileName: /usr/share/help/ja/eog/slideshow.page
+SPDXID: SPDXRef-eog-file-229
+FileChecksum: SHA1: e0388b661e81a4d3c5dd08f86f424aaf80681b4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-229
+
+
+FileName: /usr/share/help/ja/eog/translate.page
+SPDXID: SPDXRef-eog-file-230
+FileChecksum: SHA1: 106ddd6b149a9837d62b6c067da57379cad9c068
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-230
+
+
+FileName: /usr/share/help/ja/eog/view.page
+SPDXID: SPDXRef-eog-file-231
+FileChecksum: SHA1: 40e8557a0e006bcaebd63e0b225d630c6bd9be78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-231
+
+
+FileName: /usr/share/help/ja/eog/zoom.page
+SPDXID: SPDXRef-eog-file-232
+FileChecksum: SHA1: 7fc049593efd302632eb5ce19f59c74f0d8338ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-232
+
+
+FileName: /usr/share/help/ko/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-233
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-233
+
+
+FileName: /usr/share/help/ko/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-234
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-234
+
+
+FileName: /usr/share/help/ko/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-235
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-235
+
+
+FileName: /usr/share/help/ko/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-236
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-236
+
+
+FileName: /usr/share/help/ko/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-237
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-237
+
+
+FileName: /usr/share/help/ko/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-238
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-238
+
+
+FileName: /usr/share/help/lv/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-239
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-239
+
+
+FileName: /usr/share/help/lv/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-240
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-240
+
+
+FileName: /usr/share/help/lv/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-241
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-241
+
+
+FileName: /usr/share/help/lv/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-242
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-242
+
+
+FileName: /usr/share/help/lv/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-243
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-243
+
+
+FileName: /usr/share/help/lv/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-244
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-244
+
+
+FileName: /usr/share/help/ne/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-245
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-245
+
+
+FileName: /usr/share/help/ne/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-246
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-246
+
+
+FileName: /usr/share/help/ne/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-247
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-247
+
+
+FileName: /usr/share/help/ne/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-248
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-248
+
+
+FileName: /usr/share/help/ne/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-249
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-249
+
+
+FileName: /usr/share/help/ne/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-250
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-250
+
+
+FileName: /usr/share/help/oc/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-251
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-251
+
+
+FileName: /usr/share/help/oc/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-252
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-252
+
+
+FileName: /usr/share/help/oc/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-253
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-253
+
+
+FileName: /usr/share/help/oc/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-254
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-254
+
+
+FileName: /usr/share/help/oc/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-255
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-255
+
+
+FileName: /usr/share/help/oc/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-256
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-256
+
+
+FileName: /usr/share/help/pa/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-257
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-257
+
+
+FileName: /usr/share/help/pa/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-258
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-258
+
+
+FileName: /usr/share/help/pa/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-259
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-259
+
+
+FileName: /usr/share/help/pa/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-260
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-260
+
+
+FileName: /usr/share/help/pa/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-261
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-261
+
+
+FileName: /usr/share/help/pa/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-262
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-262
+
+
+FileName: /usr/share/help/pl/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-263
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-263
+
+
+FileName: /usr/share/help/pl/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-264
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-264
+
+
+FileName: /usr/share/help/pl/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-265
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-265
+
+
+FileName: /usr/share/help/pl/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-266
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-266
+
+
+FileName: /usr/share/help/pl/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-267
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-267
+
+
+FileName: /usr/share/help/pl/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-268
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-268
+
+
+FileName: /usr/share/help/pt/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-269
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-269
+
+
+FileName: /usr/share/help/pt/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-270
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-270
+
+
+FileName: /usr/share/help/pt/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-271
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-271
+
+
+FileName: /usr/share/help/pt/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-272
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-272
+
+
+FileName: /usr/share/help/pt/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-273
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-273
+
+
+FileName: /usr/share/help/pt/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-274
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-274
+
+
+FileName: /usr/share/help/pt_BR/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-275
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-275
+
+
+FileName: /usr/share/help/pt_BR/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-276
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-276
+
+
+FileName: /usr/share/help/pt_BR/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-277
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-277
+
+
+FileName: /usr/share/help/pt_BR/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-278
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-278
+
+
+FileName: /usr/share/help/pt_BR/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-279
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-279
+
+
+FileName: /usr/share/help/pt_BR/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-280
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-280
+
+
+FileName: /usr/share/help/ro/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-281
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-281
+
+
+FileName: /usr/share/help/ro/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-282
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-282
+
+
+FileName: /usr/share/help/ro/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-283
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-283
+
+
+FileName: /usr/share/help/ro/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-284
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-284
+
+
+FileName: /usr/share/help/ro/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-285
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-285
+
+
+FileName: /usr/share/help/ro/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-286
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-286
+
+
+FileName: /usr/share/help/ru/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-287
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-287
+
+
+FileName: /usr/share/help/ru/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-288
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-288
+
+
+FileName: /usr/share/help/ru/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-289
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-289
+
+
+FileName: /usr/share/help/ru/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-290
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-290
+
+
+FileName: /usr/share/help/ru/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-291
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-291
+
+
+FileName: /usr/share/help/ru/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-292
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-292
+
+
+FileName: /usr/share/help/sl/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-293
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-293
+
+
+FileName: /usr/share/help/sl/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-294
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-294
+
+
+FileName: /usr/share/help/sl/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-295
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-295
+
+
+FileName: /usr/share/help/sl/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-296
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-296
+
+
+FileName: /usr/share/help/sl/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-297
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-297
+
+
+FileName: /usr/share/help/sl/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-298
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-298
+
+
+FileName: /usr/share/help/sv/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-299
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-299
+
+
+FileName: /usr/share/help/sv/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-300
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-300
+
+
+FileName: /usr/share/help/sv/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-301
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-301
+
+
+FileName: /usr/share/help/sv/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-302
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-302
+
+
+FileName: /usr/share/help/sv/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-303
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-303
+
+
+FileName: /usr/share/help/sv/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-304
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-304
+
+
+FileName: /usr/share/help/te/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-305
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-305
+
+
+FileName: /usr/share/help/te/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-306
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-306
+
+
+FileName: /usr/share/help/te/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-307
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-307
+
+
+FileName: /usr/share/help/te/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-308
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-308
+
+
+FileName: /usr/share/help/te/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-309
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-309
+
+
+FileName: /usr/share/help/te/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-310
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-310
+
+
+FileName: /usr/share/help/th/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-311
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-311
+
+
+FileName: /usr/share/help/th/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-312
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-312
+
+
+FileName: /usr/share/help/th/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-313
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-313
+
+
+FileName: /usr/share/help/th/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-314
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-314
+
+
+FileName: /usr/share/help/th/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-315
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-315
+
+
+FileName: /usr/share/help/th/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-316
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-316
+
+
+FileName: /usr/share/help/uk/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-317
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-317
+
+
+FileName: /usr/share/help/uk/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-318
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-318
+
+
+FileName: /usr/share/help/uk/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-319
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-319
+
+
+FileName: /usr/share/help/uk/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-320
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-320
+
+
+FileName: /usr/share/help/uk/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-321
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-321
+
+
+FileName: /usr/share/help/uk/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-322
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-322
+
+
+FileName: /usr/share/help/zh_CN/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-323
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-323
+
+
+FileName: /usr/share/help/zh_CN/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-324
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-324
+
+
+FileName: /usr/share/help/zh_CN/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-325
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-325
+
+
+FileName: /usr/share/help/zh_CN/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-326
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-326
+
+
+FileName: /usr/share/help/zh_CN/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-327
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-327
+
+
+FileName: /usr/share/help/zh_CN/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-328
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-328
+
+
+FileName: /usr/share/help/zh_TW/eog/figures/multiple-convert.png
+SPDXID: SPDXRef-eog-file-329
+FileChecksum: SHA1: 98abbce8468306caea8821a80356a24d7f96ea9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-329
+
+
+FileName: /usr/share/help/zh_TW/eog/figures/multiple-rename-count.png
+SPDXID: SPDXRef-eog-file-330
+FileChecksum: SHA1: d56a44bcea3950e1ad817d233b5edc19ff7a6329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-330
+
+
+FileName: /usr/share/help/zh_TW/eog/figures/org.gnome.eog-symbolic.svg
+SPDXID: SPDXRef-eog-file-331
+FileChecksum: SHA1: b60c54c56a00f886c7bd61c83ae8ceed268a5b87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-331
+
+
+FileName: /usr/share/help/zh_TW/eog/figures/org.gnome.eog.svg
+SPDXID: SPDXRef-eog-file-332
+FileChecksum: SHA1: d240914d7f743c8bc29d39293afae3bc8ea40bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-332
+
+
+FileName: /usr/share/help/zh_TW/eog/figures/plugins-all.png
+SPDXID: SPDXRef-eog-file-333
+FileChecksum: SHA1: 095d574ccda9d7f604d27d28e89fc653b7fc78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-333
+
+
+FileName: /usr/share/help/zh_TW/eog/figures/prefs-plugins.png
+SPDXID: SPDXRef-eog-file-334
+FileChecksum: SHA1: 14ae1e900d6047a1a627a0185b04392ee52e8327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-eog CONTAINS SPDXRef-eog-file-334
+
+
+## Extracted License
+

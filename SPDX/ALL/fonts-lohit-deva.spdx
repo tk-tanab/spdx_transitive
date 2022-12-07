@@ -1,0 +1,156 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-lohit-deva_2.95.4-4-79f71d9e-5b21-5f6d-b832-2784cd4c6b9e
+DocumentName: fonts-lohit-deva_2.95.4-4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-lohit-deva
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:52:21Z
+
+
+## Package
+
+PackageName: fonts-lohit-deva
+PackageVersion: 2.95.4-4
+SPDXID: SPDXRef-fonts-lohit-deva
+PackageHomePage: https://pagure.io/lohit
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: dba8489bd04405a941e3b4ec8b3f8dd340956a60
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com>
+Copyright 2017 Pravin Satpute
+</text>
+PackageComment: <text>Lohit TrueType font for Devanagari script
+ This package provides Lohit TrueType font for Devanagari script which
+ is used for writing Hindi, Kashmiri, Konkani, Marathi, Maithili, Nepali,
+ Sanskrit, and Sindhi languages.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-lohit-deva/copyright
+SPDXID: SPDXRef-fonts-lohit-deva-file-0
+FileChecksum: SHA1: 75e5d28ac7a8f00304a17e82fad17c7f247fcaa4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com>
+Copyright 2017 Pravin Satpute
+</text>
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-0
+
+
+FileName: /etc/fonts/conf.avail/59-lohit-devanagari.conf
+SPDXID: SPDXRef-fonts-lohit-deva-file-1
+FileChecksum: SHA1: 9cee0181903ca382b599ae8b33ad66c2304d950f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-1
+
+
+FileName: /etc/fonts/conf.avail/66-lohit-devanagari.conf
+SPDXID: SPDXRef-fonts-lohit-deva-file-2
+FileChecksum: SHA1: f04f2b00bd29ce0f2aab3398611a1ef23edbf166
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-2
+
+
+FileName: /usr/share/doc/fonts-lohit-deva/AUTHORS
+SPDXID: SPDXRef-fonts-lohit-deva-file-3
+FileChecksum: SHA1: 3bd42b90ab3cf946ba553c4ab651d98477a23864
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-3
+
+
+FileName: /usr/share/doc/fonts-lohit-deva/README
+SPDXID: SPDXRef-fonts-lohit-deva-file-4
+FileChecksum: SHA1: 48dae9c3f1a979c7dff31e2ecc1e831e612ac4fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-4
+
+
+FileName: /usr/share/doc/fonts-lohit-deva/README.Debian
+SPDXID: SPDXRef-fonts-lohit-deva-file-5
+FileChecksum: SHA1: da961c8d432b9b820c4d9bb83d9cba7ba7ab91f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-5
+
+
+FileName: /usr/share/doc/fonts-lohit-deva/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-lohit-deva-file-6
+FileChecksum: SHA1: 4bd0dcb5e12b3c3130825994a89f7ff2ded8f77f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-6
+
+
+FileName: /usr/share/fonts/truetype/lohit-devanagari/Lohit-Devanagari.ttf
+SPDXID: SPDXRef-fonts-lohit-deva-file-7
+FileChecksum: SHA1: 6d93a67a1fbd79ec64d7aa8ead48f06c40d6122a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-7
+
+
+FileName: /usr/share/metainfo/io.pagure.lohit.devanagari.font.metainfo.xml
+SPDXID: SPDXRef-fonts-lohit-deva-file-8
+FileChecksum: SHA1: 28e3364259ac5be5c0e096591f2be8b457aff72b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-8
+
+
+FileName: /etc/fonts/conf.d/59-lohit-devanagari.conf
+SPDXID: SPDXRef-fonts-lohit-deva-file-9
+FileChecksum: SHA1: 9cee0181903ca382b599ae8b33ad66c2304d950f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-9
+
+
+FileName: /etc/fonts/conf.d/66-lohit-devanagari.conf
+SPDXID: SPDXRef-fonts-lohit-deva-file-10
+FileChecksum: SHA1: f04f2b00bd29ce0f2aab3398611a1ef23edbf166
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-deva CONTAINS SPDXRef-fonts-lohit-deva-file-10
+
+
+## Extracted License
+

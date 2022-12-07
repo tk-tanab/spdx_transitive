@@ -1,0 +1,450 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gstreamer1.0-plugins-base-apps_1.20.1-1-7ee71f89-6ed4-5151-ae0c-cf1716c13612
+DocumentName: gstreamer1.0-plugins-base-apps_1.20.1-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gstreamer1.0-plugins-base-apps
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:15:25Z
+
+
+## Package
+
+PackageName: gstreamer1.0-plugins-base-apps
+PackageVersion: 1.20.1-1
+SPDXID: SPDXRef-gstreamer1.0-plugins-base-apps
+PackageHomePage: https://gstreamer.freedesktop.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 33b77b19732f808f19be15b0af8a30769c7f6229
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-permissive
+PackageCopyrightText: <text>Copyright 1995-1998, 2000-2002, Free Software Foundation, Inc
+Copyright 1996-2001, 2003-2006
+Copyright 1999, Erik Walthinsen <omega@cse.ogi.edu> 1999-2000, Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 1999, Erik Walthinsen <omega@cse.ogi.edu> 2003-2004, David A. Schleef <ds@schleef.org> 2007-2008, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 1999, Erik Walthinsen <omega@cse.ogi.edu> 2004,2006, Thomas Vander Stichele
+Copyright 1999-2001, Erik Walthinsen <omega@cse.ogi.edu> 2005, Andy Wingo <wingo@pobox.com> 2010, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2001, CodeFactory AB 2001, Thomas Nyberg <thomas@codefactory.se> 2001-2002, Andy Wingo <apwingo@eos.ncsu.edu> 2003, Benjamin Otte <in7y118@public.uni-hamburg.de>
+Copyright 2001, CodeFactory AB 2001, Thomas Nyberg <thomas@codefactory.se> 2001-2002, Andy Wingo <apwingo@eos.ncsu.edu> 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2005, Tim-Philipp Muller
+Copyright 2002-2003, Scott Wheeler <wheeler@kde.org>
+Copyright 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2004, Benjamin Otte <in7y118@public.uni-hamburg.de>
+Copyright 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2005, Thomas Vander Stichele 2011, Wim Taymans <wim.taymans at gmail dot com>
+Copyright 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2005-2009, Tim-Philipp Muller 2009, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2006-2011, Tim-Philipp Muller
+Copyright 2003, Commonwealth Scientific and Industrial Research
+Copyright 2003, David A. Schleef <ds@schleef.org> 2003, Ronald Bultje <rbultje@ronald.bitfreak.net>
+Copyright 2003, Jean-Marc Valin 2004, Jean-Marc Valin
+Copyright 2003, Julien Moutte <julien@moutte.net>
+Copyright 2003, Julien Moutte <julien@moutte.net> 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2011, Tim-Philipp Muller <tim@centricular.net>
+Copyright 2003, Leif Johnson <leif@ambient.2y.net>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2004, Ronald Bultje <rbultje@ronald.bitfreak.net>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2007-2009, Jan Schmidt <thaytan@noraisin.net>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2010, David Schleef <ds@schleef.org> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2011, Tim-Philipp Muller <tim@centricular.net>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2003-2004, Mark Borgerding
+Copyright 2003-2004, Ronald Bultje <rbultje@ronald.bitfreak.net> 2004, Ronald Bultje <rbultje@ronald.bitfreak.net> 2005-2006, Tim-Philipp Muller 2006, Tim-Philipp Muller
+Copyright 2004, Andy Wingo
+Copyright 2004, Benjamin Otte <otte@gnome.org>
+Copyright 2004, Ronald Bultje <rbultje@ronald.bitfreak.net> 2008, Sebastian Droge <slomo@circular-chaos.org>
+Copyright 2004, Ronald S. Bultje <rbultje@ronald.bitfreak.net> 2006, Tim-Philipp Muller <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2004, Thomas Vander Stichele <thomas@apestaart.org>
+Copyright 2004, Wim Taymans <wim@fluendo.com> 2005, Wim Taymans <wim@fluendo.com> 2006, Wim Taymans <wim@fluendo.com>
+Copyright 2004, Wim Taymans <wim@fluendo.com> 2006, Thomas Vander Stichele
+Copyright 2004,2006, Thomas Vander Stichele <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2005, Analog Devices
+Copyright 2005, Andy Wingo <wingo@pobox.com>
+Copyright 2005, David A. Schleef <ds@schleef.org> 2005-2012, David A. Schleef <ds@schleef.org> 2011, David A. Schleef <ds@schleef.org>
+Copyright 2005, David A. Schleef <ds@schleef.org> 2009, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2005, David Schleef <ds@schleef.org> 2007, David Schleef <ds@schleef.org> 2009, David Schleef <ds@schleef.org>
+Copyright 2005, Jan Schmidt <thaytan@mad.scientist.com>
+Copyright 2005, Jan Schmidt <thaytan@mad.scientist.com> 2006, Tim-Philipp Muller 2006-2007, Tim-Philipp Muller
+Copyright 2005, Michael Smith <msmith@fluendo.com>
+Copyright 2005, Ross Burton <ross@burtonini.com> 2006-2008, Tim-Philipp Muller
+Copyright 2005, Stefan Kost <ensonic@users.sf.net> 2011, Stefan Kost <ensonic@users.sf.net>
+Copyright 2005, Tim-Philipp Muller 2005-2006, Tim-Philipp Muller 2006, Tim-Philipp Muller 2006-2008, Tim-Philipp Muller 2006-2011, Tim-Philipp Muller 2007, Tim-Philipp Muller 2009, Tim-Philipp Muller
+Copyright 2005, Tim-Philipp Muller 2010, Brandon Lewis <brandon.lewis@collabora.co.uk> 2010, Edward Hervey <edward.hervey@collabora.co.uk>
+Copyright 2005, Wim Taymans
+Copyright 2005, Wim Taymans <wim@fluendo.com> 2006, Tim-Philipp Muller
+Copyright 2005-2012, David Schleef <ds@schleef.org> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2006, Andy Wingo <wingo@pobox.com> <2004> Thomas Vander Stichele
+Copyright 2006, Christophe Fergeau <teuf@gnome.org> 2006, Sebastian Droge <slomo@circular-chaos.org> 2006, Tim-Philipp Muller
+Copyright 2006, Christophe Fergeau <teuf@gnome.org> 2006,2011, Tim-Philipp Muller 2009, Pioneers of the Inevitable <songbird@songbirdnest.com>
+Copyright 2006, Daniel Berrange
+Copyright 2006, James Livingston
+Copyright 2006, James Livingston <doclivingston@gmail.com>
+Copyright 2006, Kamil Pawlowski
+Copyright 2006, Nokia <stefan.kost@nokia.com>
+Copyright 2006, Nokia stefan.kost@nokia.com
+Copyright 2006, Ryan Lortie 2007, Tim-Philipp Muller
+Copyright 2006, Thomas Vander Stichele 2007, Thomas Vander Stichele
+Copyright 2006, Tim-Philipp Muller 2009, David Schleef <ds@schleef.org>
+Copyright 2006, Tim-Philipp Muller 2010, Sebastian Droge <sebastian.droege@collabora.co.uk> 2011, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2006, Tim-Philipp Muller 2011, Hewlett-Packard Development Company, L.P
+Copyright 2006, Wim Taymans
+Copyright 2006, Young-Ho Cha
+Copyright 2007, David A. Schleef <ds@schleef.org> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2007, David Schleef <ds@schleef.org> 2008, Wim Taymans <wim.taymans@gmail.com>
+Copyright 2007, Jan Schmidt <thaytan@noraisin.net> 2009, Jan Schmidt <thaytan@noraisin.net>
+Copyright 2007, Jean-Marc Valin
+Copyright 2007, Rene Stadler <mail@renestadler.de> 2007, Sebastian Droge <sebastian.droege@collabora.co.uk> 2007-2009, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2007, Rene Stadler <mail@renestadler.de> 2007, Sebastian Droge <slomo@circular-chaos.org> 2007-2009, Sebastian Droge <slomo@circular-chaos.org>
+Copyright 2007, Sebastian Droge <slomo@circular-chaos.org>
+Copyright 2007, Tim-Philipp Muller
+Copyright 2007, Wim Taymans <wim.taymans@gmail.com> 2008, Wim Taymans <wim.taymans@gmail.com> 2009, Wim Taymans <wim.taymans@gmail.com>
+Copyright 2007-2008, Jean-Marc Valin 2008, Thorvald Natvig
+Copyright 2007-2008, Sebastian Droge <sebastian.droege@collabora.co.uk> 2008, Sebastian Droge <sebastian.droege@collabora.co.uk> 2009, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2009, Axis Communications AB
+Copyright 2009, Edward Hervey <edward.hervey@collabora.co.uk> 2009, Nokia Corporation 2009-2010, Edward Hervey <edward.hervey@collabora.co.uk> 2009-2010, Nokia Corporation 2010, Edward Hervey <edward.hervey@collabora.co.uk> 2010, Nokia Corporation
+Copyright 2009, Edward Hervey <edward.hervey@collabora.co.uk> 2010, Edward Hervey <edward.hervey@collabora.co.uk>
+Copyright 2009, Igalia
+Copyright 2009, Maemo Multimedia
+Copyright 2009, Thiago Santos
+Copyright 2010, Andy Wingo <wingo@oblong.com>
+Copyright 2010, Arun Raghavan <arun.raghavan@collabora.co.uk>
+Copyright 2010, Collabora Multimedia
+Copyright 2010, David Schleef <ds@schleef.org> 2010, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2010, Mark Nauwelaerts <mark.nauwelaerts@collabora.co.uk> 2010, Nokia Corporation. 2011, Mark Nauwelaerts <mark.nauwelaerts@collabora.co.uk>
+Copyright 2010, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2010, Sebastian Droge <sebastian.droege@collabora.co.uk> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2010, Stefan Kost <stefan.kost@nokia.com> 2010, Thiago Santos <thiago.sousa.santos@collabora.co.uk>
+Copyright 2010, Thiago Santos <thiago.sousa.santos@collabora.co.uk> 2011, Thiago Santos <thiago.sousa.santos@collabora.co.uk>
+Copyright 2010, Wim Taymans <wim.taymans@collabora.co.uk>
+Copyright 2011, Intel Corporation
+Copyright 2011, Stefan Sauer <ensonic@users.sf.net>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2002> David A. Schleef <ds@schleef.org>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2003> David Schleef <ds@schleef.org>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2003> David Schleef <ds@schleef.org> <2006-2008> Tim-Philipp Muller
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2003> David Schleef <ds@schleef.org> <2007> Tim-Philipp Muller
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2003> David Schleef <ds@schleef.org> <2009> Young-Ho Cha <ganadist@gmail.com>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2004> Thomas Vander Stichele
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2004> Thomas Vander Stichele <2011> Collabora Ltd
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2005> Tim-Philipp Muller <tim@centricular.net>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2007-2008> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2007> Wim Taymans <wim.taymans@gmail.com>
+Copyright <2003> David A. Schleef <ds@schleef.org>
+Copyright <2003> David A. Schleef <ds@schleef.org> <2006> Jan Schmidt <thaytan@mad.scientist.com> <2008,2011> Tim-Philipp Muller
+Copyright <2003> Julien Moutte <julien@moutte.net>
+Copyright <2003> Julien Moutte <julien@moutte.net> <2009> Tim-Philipp Muller
+Copyright <2004> Thomas Vander Stichele
+Copyright <2005,2009> Wim Taymans <wim.taymans@gmail.com>
+Copyright <2005-2006> Wim Taymans <wim@fluendo.com>
+Copyright <2005-2007> Wim Taymans <wim@fluendo.com>
+Copyright <2005-2009> Wim Taymans <wim.taymans@gmail.com>
+Copyright <2005> Julien Moutte <julien@moutte.net>
+Copyright <2005> Nokia Corporation <kai.vehmanen@nokia.com> <2005> Philippe Khalaf <burger@speedy.org>
+Copyright <2005> Philippe Khalaf <burger@speedy.org>
+Copyright <2005> Philippe Khalaf <burger@speedy.org> <2006> Wim Taymans <wim@fluendo.com>
+Copyright <2005> Thomas Vander Stichele
+Copyright <2005> Thomas Vander Stichele <2006> Tim-Philipp Muller
+Copyright <2005> Thomas Vander Stichele <2007> Tim-Philipp Muller
+Copyright <2005> Tim-Philipp Muller
+Copyright <2005> Wim Taymans
+Copyright <2005> Wim Taymans <wim@fluendo.com>
+Copyright <2006> Edward Hervey <edward@fluendo.com> <2009> Sebastian Droge <sebastian.droege@collabora.co.uk> <2011> Hewlett-Packard Development Company, L.P
+Copyright <2006> James Livingston <doclivingston@gmail.com>
+Copyright <2006> Philippe Khalaf <philippe.kalaf@collabora.co.uk>
+Copyright <2007> Sebastian Droge <slomo@circular-chaos.org>
+Copyright <2007> Wim Taymans
+Copyright <2007> Wim Taymans <wim.taymans@gmail.com>
+Copyright <2007> Wim Taymans <wim.taymans@gmail.com> <2011> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright <2007> Wim Taymans <wim@fluendo.com>
+Copyright <2008> Stefan Kost <ensonic@users.sf.net>
+Copyright <2008> Wim Taymans
+Copyright <2009-2010> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright <2009> Edward Hervey <edward.hervey@collabora.co.uk>
+Copyright <2009> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright <2009> Wim Taymans
+Copyright <2010> Alexander Bokovoy <ab@samba.org>
+Copyright <2010> Edward Hervey <bilboed@bilboed.com>
+Copyright <2010> Edward Hervey <bilboed@gmail.com>
+Copyright <2010> Edward Hervey <edward.hervey@collabora.co.uk>
+Copyright <2010> Stefan Kost <ensonic@users.sf.net>
+Copyright <2011> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright <2011> Sebastian Droge <sebastian.droege@collabora.co.uk> <2011> Vincent Penquerc'h <vincent.penquerch@collabora.co.uk>
+Copyright <2011> Sebastian Droge <sebastian.droege@collabora.co.uk> <2011> Vincent Penquerch <vincent.penquerch@collabora.co.uk>
+Copyright <2011> Wim Taymans <wim.taymans@gmail.com>
+</text>
+PackageComment: <text>GStreamer helper programs from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains helper programs from the "base" set, an essential
+ exemplary set of elements.</text>
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgstreamer-plugins-base1.0-0
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgstreamer1.0-0
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gstreamer1.0-tools
+
+
+## File
+
+FileName: /usr/share/doc/gstreamer1.0-plugins-base-apps/copyright
+SPDXID: SPDXRef-gstreamer1.0-plugins-base-apps-file-0
+FileChecksum: SHA1: 8dbb5de83e2bcbd3027cd30eb39cb4ffd3ab8650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-other-permissive
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 2005, Tim-Philipp Muller 2005-2006, Tim-Philipp Muller 2006, Tim-Philipp Muller 2006-2008, Tim-Philipp Muller 2006-2011, Tim-Philipp Muller 2007, Tim-Philipp Muller 2009, Tim-Philipp Muller
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2004, Ronald Bultje <rbultje@ronald.bitfreak.net>
+Copyright 2007-2008, Sebastian Droge <sebastian.droege@collabora.co.uk> 2008, Sebastian Droge <sebastian.droege@collabora.co.uk> 2009, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2004, Wim Taymans <wim@fluendo.com> 2005, Wim Taymans <wim@fluendo.com> 2006, Wim Taymans <wim@fluendo.com>
+Copyright 1999, Erik Walthinsen <omega@cse.ogi.edu> 1999-2000, Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2003-2004, Mark Borgerding
+Copyright 2006, Thomas Vander Stichele 2007, Thomas Vander Stichele
+Copyright <2005-2006> Wim Taymans <wim@fluendo.com>
+Copyright 2007, Wim Taymans <wim.taymans@gmail.com> 2008, Wim Taymans <wim.taymans@gmail.com> 2009, Wim Taymans <wim.taymans@gmail.com>
+Copyright <2007> Sebastian Droge <slomo@circular-chaos.org>
+Copyright <2007> Wim Taymans <wim.taymans@gmail.com>
+Copyright 2009, Edward Hervey <edward.hervey@collabora.co.uk> 2009, Nokia Corporation 2009-2010, Edward Hervey <edward.hervey@collabora.co.uk> 2009-2010, Nokia Corporation 2010, Edward Hervey <edward.hervey@collabora.co.uk> 2010, Nokia Corporation
+Copyright <2005> Julien Moutte <julien@moutte.net>
+Copyright 2003, Leif Johnson <leif@ambient.2y.net>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2004> Thomas Vander Stichele
+Copyright <2011> Wim Taymans <wim.taymans@gmail.com>
+Copyright 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2004, Benjamin Otte <in7y118@public.uni-hamburg.de>
+Copyright 2007, Rene Stadler <mail@renestadler.de> 2007, Sebastian Droge <sebastian.droege@collabora.co.uk> 2007-2009, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2007, Rene Stadler <mail@renestadler.de> 2007, Sebastian Droge <slomo@circular-chaos.org> 2007-2009, Sebastian Droge <slomo@circular-chaos.org>
+Copyright 2010, Thiago Santos <thiago.sousa.santos@collabora.co.uk> 2011, Thiago Santos <thiago.sousa.santos@collabora.co.uk>
+Copyright 2005, David A. Schleef <ds@schleef.org> 2005-2012, David A. Schleef <ds@schleef.org> 2011, David A. Schleef <ds@schleef.org>
+Copyright <2005> Thomas Vander Stichele
+Copyright 2005, David Schleef <ds@schleef.org> 2007, David Schleef <ds@schleef.org> 2009, David Schleef <ds@schleef.org>
+Copyright 2003, Jean-Marc Valin 2004, Jean-Marc Valin
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2004> Thomas Vander Stichele <2011> Collabora Ltd
+Copyright 2009, Edward Hervey <edward.hervey@collabora.co.uk> 2010, Edward Hervey <edward.hervey@collabora.co.uk>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2005> Tim-Philipp Muller <tim@centricular.net>
+Copyright <2011> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2004, Andy Wingo
+Copyright 2010, Mark Nauwelaerts <mark.nauwelaerts@collabora.co.uk> 2010, Nokia Corporation. 2011, Mark Nauwelaerts <mark.nauwelaerts@collabora.co.uk>
+Copyright 2007, Sebastian Droge <slomo@circular-chaos.org>
+Copyright 2005, Stefan Kost <ensonic@users.sf.net> 2011, Stefan Kost <ensonic@users.sf.net>
+Copyright 2006, Daniel Berrange
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2002> David A. Schleef <ds@schleef.org>
+Copyright 2006, Andy Wingo <wingo@pobox.com> <2004> Thomas Vander Stichele
+Copyright <2009> Wim Taymans
+Copyright 2001, CodeFactory AB 2001, Thomas Nyberg <thomas@codefactory.se> 2001-2002, Andy Wingo <apwingo@eos.ncsu.edu> 2003, Benjamin Otte <in7y118@public.uni-hamburg.de>
+Copyright 2010, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2006, Wim Taymans
+Copyright <2003> Julien Moutte <julien@moutte.net>
+Copyright <2003> Julien Moutte <julien@moutte.net> <2009> Tim-Philipp Muller
+Copyright <2004> Thomas Vander Stichele
+Copyright <2005> Philippe Khalaf <burger@speedy.org>
+Copyright <2005> Wim Taymans <wim@fluendo.com>
+Copyright <2006> Philippe Khalaf <philippe.kalaf@collabora.co.uk>
+Copyright <2007> Wim Taymans <wim@fluendo.com>
+Copyright <2008> Stefan Kost <ensonic@users.sf.net>
+Copyright <2009> Edward Hervey <edward.hervey@collabora.co.uk>
+Copyright <2010> Alexander Bokovoy <ab@samba.org>
+Copyright <2010> Edward Hervey <edward.hervey@collabora.co.uk>
+Copyright <2010> Stefan Kost <ensonic@users.sf.net>
+Copyright 2010, Arun Raghavan <arun.raghavan@collabora.co.uk>
+Copyright 2007, David Schleef <ds@schleef.org> 2008, Wim Taymans <wim.taymans@gmail.com>
+Copyright 2009, Igalia
+Copyright 2011, Intel Corporation
+Copyright 2005, Jan Schmidt <thaytan@mad.scientist.com> 2006, Tim-Philipp Muller 2006-2007, Tim-Philipp Muller
+Copyright 2007, Jan Schmidt <thaytan@noraisin.net> 2009, Jan Schmidt <thaytan@noraisin.net>
+Copyright 2006, Kamil Pawlowski
+Copyright 2003-2004, Ronald Bultje <rbultje@ronald.bitfreak.net> 2004, Ronald Bultje <rbultje@ronald.bitfreak.net> 2005-2006, Tim-Philipp Muller 2006, Tim-Philipp Muller
+Copyright 2006, Ryan Lortie 2007, Tim-Philipp Muller
+Copyright 2006, Tim-Philipp Muller 2010, Sebastian Droge <sebastian.droege@collabora.co.uk> 2011, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2004, Wim Taymans <wim@fluendo.com> 2006, Thomas Vander Stichele
+Copyright 2005, Wim Taymans
+Copyright 2005, David A. Schleef <ds@schleef.org> 2009, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2005, Analog Devices
+Copyright 2003, Commonwealth Scientific and Industrial Research
+Copyright 2007-2008, Jean-Marc Valin 2008, Thorvald Natvig
+Copyright 2007, Jean-Marc Valin
+Copyright 2007-2008, Jean-Marc Valin 2008, Thorvald Natvig
+Copyright 1996-2001, 2003-2006
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2003> David Schleef <ds@schleef.org>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2003> David Schleef <ds@schleef.org> <2006-2008> Tim-Philipp Muller
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2003> David Schleef <ds@schleef.org> <2006-2008> Tim-Philipp Muller
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2003> David Schleef <ds@schleef.org> <2007> Tim-Philipp Muller
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2003> David Schleef <ds@schleef.org> <2009> Young-Ho Cha <ganadist@gmail.com>
+Copyright 2006, Wim Taymans
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2007-2008> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright <1999> Erik Walthinsen <omega@cse.ogi.edu> <2007> Wim Taymans <wim.taymans@gmail.com>
+Copyright 2007, David A. Schleef <ds@schleef.org> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2005-2012, David Schleef <ds@schleef.org> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2010, David Schleef <ds@schleef.org> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2004, Ronald S. Bultje <rbultje@ronald.bitfreak.net> 2006, Tim-Philipp Muller <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2010, Sebastian Droge <sebastian.droege@collabora.co.uk> <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright 2004,2006, Thomas Vander Stichele <1999> Erik Walthinsen <omega@cse.ogi.edu>
+Copyright <2003> David A. Schleef <ds@schleef.org>
+Copyright <2003> David A. Schleef <ds@schleef.org> <2006> Jan Schmidt <thaytan@mad.scientist.com> <2008,2011> Tim-Philipp Muller
+Copyright <2005> Nokia Corporation <kai.vehmanen@nokia.com> <2005> Philippe Khalaf <burger@speedy.org>
+Copyright <2005> Philippe Khalaf <burger@speedy.org> <2006> Wim Taymans <wim@fluendo.com>
+Copyright <2005> Thomas Vander Stichele <2006> Tim-Philipp Muller
+Copyright <2005> Thomas Vander Stichele <2006> Tim-Philipp Muller
+Copyright <2005> Thomas Vander Stichele <2007> Tim-Philipp Muller
+Copyright <2005> Tim-Philipp Muller
+Copyright <2005> Wim Taymans
+Copyright <2006> Edward Hervey <edward@fluendo.com> <2009> Sebastian Droge <sebastian.droege@collabora.co.uk> <2011> Hewlett-Packard Development Company, L.P
+Copyright <2006> James Livingston <doclivingston@gmail.com>
+Copyright <2007> Wim Taymans
+Copyright <2007> Wim Taymans <wim.taymans@gmail.com> <2011> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright <2008> Wim Taymans
+Copyright <2009-2010> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright <2009> Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright <2010> Edward Hervey <bilboed@bilboed.com>
+Copyright <2010> Edward Hervey <bilboed@gmail.com>
+Copyright <2011> Sebastian Droge <sebastian.droege@collabora.co.uk> <2011> Vincent Penquerc'h <vincent.penquerch@collabora.co.uk>
+Copyright <2011> Sebastian Droge <sebastian.droege@collabora.co.uk> <2011> Vincent Penquerch <vincent.penquerch@collabora.co.uk>
+Copyright 2001, CodeFactory AB 2001, Thomas Nyberg <thomas@codefactory.se> 2001-2002, Andy Wingo <apwingo@eos.ncsu.edu> 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2005, Tim-Philipp Muller
+Copyright 2010, Andy Wingo <wingo@oblong.com>
+Copyright 2005, Andy Wingo <wingo@pobox.com>
+Copyright 1999-2001, Erik Walthinsen <omega@cse.ogi.edu> 2005, Andy Wingo <wingo@pobox.com> 2010, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2009, Axis Communications AB
+Copyright 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2005-2009, Tim-Philipp Muller 2009, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2005, Thomas Vander Stichele 2011, Wim Taymans <wim.taymans at gmail dot com>
+Copyright 2003, Benjamin Otte <in7y118@public.uni-hamburg.de> 2006-2011, Tim-Philipp Muller
+Copyright 2004, Benjamin Otte <otte@gnome.org>
+Copyright 2005, Tim-Philipp Muller 2010, Brandon Lewis <brandon.lewis@collabora.co.uk> 2010, Edward Hervey <edward.hervey@collabora.co.uk>
+Copyright 2006, Christophe Fergeau <teuf@gnome.org> 2006, Sebastian Droge <slomo@circular-chaos.org> 2006, Tim-Philipp Muller
+Copyright 2006, Christophe Fergeau <teuf@gnome.org> 2006,2011, Tim-Philipp Muller 2009, Pioneers of the Inevitable <songbird@songbirdnest.com>
+Copyright 2010, Collabora Multimedia
+Copyright 1999, Erik Walthinsen <omega@cse.ogi.edu> 2003-2004, David A. Schleef <ds@schleef.org> 2007-2008, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2003, David A. Schleef <ds@schleef.org> 2003, Ronald Bultje <rbultje@ronald.bitfreak.net>
+Copyright 2010, David Schleef <ds@schleef.org> 2010, Sebastian Droge <sebastian.droege@collabora.co.uk>
+Copyright 2006, Tim-Philipp Muller 2009, David Schleef <ds@schleef.org>
+Copyright 1999, Erik Walthinsen <omega@cse.ogi.edu> 2004,2006, Thomas Vander Stichele
+Copyright 1995-1998, 2000-2002, Free Software Foundation, Inc
+Copyright 2006, Tim-Philipp Muller 2011, Hewlett-Packard Development Company, L.P
+Copyright 2006, James Livingston
+Copyright 2006, James Livingston <doclivingston@gmail.com>
+Copyright 2005, Jan Schmidt <thaytan@mad.scientist.com>
+Copyright 2002-2003, Scott Wheeler <wheeler@kde.org>
+Copyright 2002-2003, Scott Wheeler <wheeler@kde.org>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2007-2009, Jan Schmidt <thaytan@noraisin.net>
+Copyright 2003, Julien Moutte <julien@moutte.net>
+Copyright 2003, Julien Moutte <julien@moutte.net> 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2011, Tim-Philipp Muller <tim@centricular.net>
+Copyright 2009, Maemo Multimedia
+Copyright 2005, Michael Smith <msmith@fluendo.com>
+Copyright 2006, Nokia stefan.kost@nokia.com
+Copyright 2006, Nokia <stefan.kost@nokia.com>
+Copyright 2004, Ronald Bultje <rbultje@ronald.bitfreak.net> 2008, Sebastian Droge <slomo@circular-chaos.org>
+Copyright 2003, Ronald Bultje <rbultje@ronald.bitfreak.net> 2011, Tim-Philipp Muller <tim@centricular.net>
+Copyright 2005, Ross Burton <ross@burtonini.com> 2006-2008, Tim-Philipp Muller
+Copyright 2010, Stefan Kost <stefan.kost@nokia.com> 2010, Thiago Santos <thiago.sousa.santos@collabora.co.uk>
+Copyright 2011, Stefan Sauer <ensonic@users.sf.net>
+Copyright 2009, Thiago Santos
+Copyright 2009, Thiago Santos
+Copyright 2004, Thomas Vander Stichele <thomas@apestaart.org>
+Copyright 2007, Tim-Philipp Muller
+Copyright 2005, Wim Taymans <wim@fluendo.com> 2006, Tim-Philipp Muller
+Copyright 2010, Wim Taymans <wim.taymans@collabora.co.uk>
+Copyright 2006, Young-Ho Cha
+Copyright 2006, Young-Ho Cha
+Copyright <2005,2009> Wim Taymans <wim.taymans@gmail.com>
+Copyright <2005-2007> Wim Taymans <wim@fluendo.com>
+Copyright <2005-2009> Wim Taymans <wim.taymans@gmail.com>
+</text>
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps CONTAINS SPDXRef-gstreamer1.0-plugins-base-apps-file-0
+
+
+FileName: /usr/bin/gst-device-monitor-1.0
+SPDXID: SPDXRef-gstreamer1.0-plugins-base-apps-file-1
+FileChecksum: SHA1: 949dce9b0cf5f0e8b45cd15bafea89cb1da894ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps CONTAINS SPDXRef-gstreamer1.0-plugins-base-apps-file-1
+
+
+FileName: /usr/bin/gst-discoverer-1.0
+SPDXID: SPDXRef-gstreamer1.0-plugins-base-apps-file-2
+FileChecksum: SHA1: 42606840369674e3225ced4aed8524fa7faa8ff5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps CONTAINS SPDXRef-gstreamer1.0-plugins-base-apps-file-2
+
+
+FileName: /usr/bin/gst-play-1.0
+SPDXID: SPDXRef-gstreamer1.0-plugins-base-apps-file-3
+FileChecksum: SHA1: 089e0674da0f788972d9840d4ddcea17d665c843
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps CONTAINS SPDXRef-gstreamer1.0-plugins-base-apps-file-3
+
+
+FileName: /usr/share/man/man1/gst-device-monitor-1.0.1.gz
+SPDXID: SPDXRef-gstreamer1.0-plugins-base-apps-file-4
+FileChecksum: SHA1: 65dd17579b5399f73a7a6bd548a1d6851c08cc08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps CONTAINS SPDXRef-gstreamer1.0-plugins-base-apps-file-4
+
+
+FileName: /usr/share/man/man1/gst-discoverer-1.0.1.gz
+SPDXID: SPDXRef-gstreamer1.0-plugins-base-apps-file-5
+FileChecksum: SHA1: a07b40eb2e2f16db4e818f479591a7aba58019f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps CONTAINS SPDXRef-gstreamer1.0-plugins-base-apps-file-5
+
+
+FileName: /usr/share/man/man1/gst-play-1.0.1.gz
+SPDXID: SPDXRef-gstreamer1.0-plugins-base-apps-file-6
+FileChecksum: SHA1: 40de726489e21b035249228cfa5240072d8639b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps CONTAINS SPDXRef-gstreamer1.0-plugins-base-apps-file-6
+
+
+FileName: /usr/share/doc/gstreamer1.0-plugins-base-apps/changelog.Debian.gz
+SPDXID: SPDXRef-gstreamer1.0-plugins-base-apps-file-7
+FileChecksum: SHA1: d4e2e3789f179f17cd5baf600708f7796c170eb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gstreamer1.0-plugins-base-apps CONTAINS SPDXRef-gstreamer1.0-plugins-base-apps-file-7
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-other-permissive
+LicenseName: Other Permissive Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+
+

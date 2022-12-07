@@ -1,0 +1,155 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/ftp_20210827-4build1-1c21cd49-ad84-50e3-84c0-43e92871093a
+DocumentName: ftp_20210827-4build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-tnftp http://spdx.org/spdxdocs/tnftp_20210827-4build1-1173a425-0d03-539c-bd8f-db509142b8af SHA1: 1a2461dd9da73d5a8fa886604545e4614ed12f08
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ftp
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:04:31Z
+
+
+## Package
+
+PackageName: ftp
+PackageVersion: 20210827-4build1
+SPDXID: SPDXRef-ftp
+PackageHomePage: http://en.wikipedia.org/wiki/Tnftp
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0b9d09b130fdbcc0356843f4277c3cfe1d3b2d6b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-4-Clause
+PackageLicenseInfoFromFiles: FSFAP
+PackageLicenseInfoFromFiles: FSFULLR
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: Libtool-exception
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: Unlicense
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: LicenseRef-scancode-autoconf-simple-exception
+PackageLicenseInfoFromFiles: LicenseRef-scancode-snprintf
+PackageCopyrightText: <text>Copyright (c) 1996-2015 Free Software Foundation, Inc.
+Copyright 1985, 1993-1994, The Regents of the University of California. 1998-2004, Dag-Erling Coidan Smorgrav 2008, 2010, Joerg Sonnenberger <joerg@NetBSD.org> 2015, Thomas Klausner <wiz@NetBSD.org>
+Copyright 1985,1989,1993,1994 The Regents of the University of California. 1997-2021 The NetBSD Foundation, Inc. 1997,1998 WIDE Project. 1999-2021 Luke Mewburn
+Copyright 1987-1993, The Regents of the University of California
+Copyright 1989, 1993, The Regents of the University of California
+Copyright 1992-2018, Free Software Foundation, Inc.
+Copyright 1994, X Consortium
+Copyright 1994-2004, The NetBSD Foundation, Inc.
+Copyright 1995-1997, and 1998 WIDE Project
+Copyright 1996-1999, Internet Software Consortium. 2004, Internet Systems Consortium, Inc.
+Copyright 1996-2001, 2003-2015, Free Software Foundation, Inc.
+Copyright 1996-2015, Free Software Foundation, Inc.
+Copyright 1996-2018, Free Software Foundation, Inc.
+Copyright 1996-2021, The NetBSD Foundation, Inc.
+Copyright 1997-2020, Luke Mewburn <lukem@NetBSD.org>
+Copyright 1998, Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright 1999-2002,2004 Takuo KITAME <kitame@debian.org> 2006 Luk Claes <luk@debian.org> 2007 Bastian Venthur <venthur@debian.org>
+Copyright 2004, 2011-2015, Free Software Foundation, Inc.
+Copyright 2004-2015, Free Software
+Copyright 2007, Joerg Sonnenberger <joerg@NetBSD.org>
+Copyright 2009-2010, Dustin J. Mitchell <dustin@zmanda.com> 2009-2010, Zmanda Inc. <http://www.zmanda.com/>
+Copyright Patrick Powell 1995
+</text>
+PackageComment: <text>dummy transitional package for tnftp
+ This is a dummy transitional package transitioning ftp to tnftp.</text>
+Relationship: SPDXRef-ftp DEPENDS_ON DocumentRef-tnftp:SPDXRef-tnftp
+
+
+## File
+
+FileName: /usr/share/doc/ftp/copyright
+SPDXID: SPDXRef-ftp-file-0
+FileChecksum: SHA1: 0de5e20d31c4a1bdaeae76a1359ed96ab8deb6f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libtool-exception
+LicenseInfoInFile: BSD-4-Clause
+LicenseInfoInFile: Unlicense
+LicenseInfoInFile: LicenseRef-scancode-autoconf-simple-exception
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: FSFAP
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: MIT
+LicenseInfoInFile: ISC
+LicenseInfoInFile: X11
+LicenseInfoInFile: LicenseRef-scancode-snprintf
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 1985,1989,1993,1994 The Regents of the University of California. 1997-2021 The NetBSD Foundation, Inc. 1997,1998 WIDE Project. 1999-2021 Luke Mewburn
+Copyright 1999-2002,2004 Takuo KITAME <kitame@debian.org> 2006 Luk Claes <luk@debian.org> 2007 Bastian Venthur <venthur@debian.org>
+Copyright 1996-2018, Free Software Foundation, Inc.
+Copyright 2004-2015, Free Software
+Copyright 1992-2018, Free Software Foundation, Inc.
+Copyright 1996-2001, 2003-2015, Free Software Foundation, Inc.
+Copyright 1994, X Consortium
+Copyright 2009-2010, Dustin J. Mitchell <dustin@zmanda.com> 2009-2010, Zmanda Inc. <http://www.zmanda.com/>
+Copyright 2004, 2011-2015, Free Software Foundation, Inc.
+Copyright 1996-2015, Free Software Foundation, Inc.
+Copyright 1987-1993, The Regents of the University of California
+Copyright 1994-2004, The NetBSD Foundation, Inc.
+Copyright 1997-2020, Luke Mewburn <lukem@NetBSD.org>
+Copyright 1995-1997, and 1998 WIDE Project
+Copyright 1996-1999, Internet Software Consortium. 2004, Internet Systems Consortium, Inc.
+Copyright 1998, Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright 2007, Joerg Sonnenberger <joerg@NetBSD.org>
+Copyright 1989, 1993, The Regents of the University of California
+Copyright Patrick Powell 1995
+Copyright Patrick Powell 1995
+Copyright 1996-2021, The NetBSD Foundation, Inc.
+Copyright 1996-2021, The NetBSD Foundation, Inc.
+Copyright 1985, 1993-1994, The Regents of the University of California. 1998-2004, Dag-Erling Coidan Smorgrav 2008, 2010, Joerg Sonnenberger <joerg@NetBSD.org> 2015, Thomas Klausner <wiz@NetBSD.org>
+Copyright (c) 1996-2015 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-ftp CONTAINS SPDXRef-ftp-file-0
+
+
+FileName: /usr/share/doc/ftp/changelog.Debian.gz
+SPDXID: SPDXRef-ftp-file-1
+FileChecksum: SHA1: dbc3b5201e800722eb5eef0b0a4c7b4c6ae38508
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ftp CONTAINS SPDXRef-ftp-file-1
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-autoconf-simple-exception
+LicenseName: Autoconf simple exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-snprintf
+LicenseName: snprintf License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/snprintf.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/snprintf.yml
+</text>
+
+

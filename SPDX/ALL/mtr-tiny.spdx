@@ -1,0 +1,127 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/mtr-tiny_0.95-1-6f3ca059-7712-56c2-a927-01b6e14fdc02
+DocumentName: mtr-tiny_0.95-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mtr-tiny
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:03:30Z
+
+
+## Package
+
+PackageName: mtr-tiny
+PackageVersion: 0.95-1
+SPDXID: SPDXRef-mtr-tiny
+PackageHomePage: https://www.bitwizard.nl/mtr/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2ab1371a19fee232753cc964f23048c21e5111fe
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 1997-1998 Christoph Lameter <clameter@debian.org> 1998 Scott K. Ellis <scott@debian.org> 1998 J.H.M. Dassen
+Copyright 1997-1998 Matt Kimball 1998 Bertrand Leconte <B.Leconte@mail.dotcom.fr> 1998-2005 Roger Wolff <R.E.Wolff@BitWizard.nl>
+</text>
+PackageComment: <text>Full screen ncurses traceroute tool
+ mtr combines the functionality of the 'traceroute' and 'ping' programs
+ in a single network diagnostic tool.
+ .
+ As mtr starts, it investigates the network connection between the host
+ mtr runs on and a user-specified destination host.  After it
+ determines the address of each network hop between the machines,
+ it sends a sequence of ICMP ECHO requests to each one to determine the
+ quality of the link to each machine.  As it does this, it prints
+ running statistics about each machine.
+ .
+ mtr-tiny is compiled without support for X and conserves disk space.</text>
+Relationship: SPDXRef-mtr-tiny DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-mtr-tiny DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjansson4
+Relationship: SPDXRef-mtr-tiny DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libncurses6
+Relationship: SPDXRef-mtr-tiny DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtinfo6
+
+
+## File
+
+FileName: /usr/share/doc/mtr-tiny/copyright
+SPDXID: SPDXRef-mtr-tiny-file-0
+FileChecksum: SHA1: c8827b9c730d80136ec4b86eb81afd8816d8a152
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 1997-1998 Matt Kimball 1998 Bertrand Leconte <B.Leconte@mail.dotcom.fr> 1998-2005 Roger Wolff <R.E.Wolff@BitWizard.nl>
+Copyright 1997-1998 Christoph Lameter <clameter@debian.org> 1998 Scott K. Ellis <scott@debian.org> 1998 J.H.M. Dassen
+</text>
+Relationship: SPDXRef-mtr-tiny CONTAINS SPDXRef-mtr-tiny-file-0
+
+
+FileName: /usr/bin/mtr
+SPDXID: SPDXRef-mtr-tiny-file-1
+FileChecksum: SHA1: 1d9990e49e470e507485d0d94f12515392d2c904
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mtr-tiny CONTAINS SPDXRef-mtr-tiny-file-1
+
+
+FileName: /usr/bin/mtr-packet
+SPDXID: SPDXRef-mtr-tiny-file-2
+FileChecksum: SHA1: 6f782e974a0211baf912e96a5a2c4534e51208e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mtr-tiny CONTAINS SPDXRef-mtr-tiny-file-2
+
+
+FileName: /usr/share/bash-completion/completions/mtr
+SPDXID: SPDXRef-mtr-tiny-file-3
+FileChecksum: SHA1: 1ff5815cc73d4bdc51aec2f817fda64e68cc1b0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mtr-tiny CONTAINS SPDXRef-mtr-tiny-file-3
+
+
+FileName: /usr/share/doc/mtr-tiny/changelog.Debian.gz
+SPDXID: SPDXRef-mtr-tiny-file-4
+FileChecksum: SHA1: 926a0707aa8bb57e10606da4736dfbc1d7973488
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mtr-tiny CONTAINS SPDXRef-mtr-tiny-file-4
+
+
+FileName: /usr/share/man/man8/mtr-packet.8.gz
+SPDXID: SPDXRef-mtr-tiny-file-5
+FileChecksum: SHA1: 4c2cbe650fc257631fc341fdf2f78958cd2f25f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mtr-tiny CONTAINS SPDXRef-mtr-tiny-file-5
+
+
+FileName: /usr/share/man/man8/mtr.8.gz
+SPDXID: SPDXRef-mtr-tiny-file-6
+FileChecksum: SHA1: 1d8edb2c5771bf6dc0348634765f9655226b846c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mtr-tiny CONTAINS SPDXRef-mtr-tiny-file-6
+
+
+## Extracted License
+

@@ -1,0 +1,272 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/printer-driver-m2300w_0.51-15build1-ca9b0cc2-a4a1-5dad-bc49-985e06a323a0
+DocumentName: printer-driver-m2300w_0.51-15build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-printer-driver-m2300w
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:22:11Z
+
+
+## Package
+
+PackageName: printer-driver-m2300w
+PackageVersion: 0.51-15build1
+SPDXID: SPDXRef-printer-driver-m2300w
+PackageHomePage: http://m2300w.sf.net/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b999593dc88aaf3de69b486b0ffeac5d15d0c08d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 2007,2008,2009 Till Kamppeter <till.kamppeter@gmail.com>
+Copyright (c) 2011 Didier Raboud <odyx@debian.org>
+Copyright 2004 Leif Birkenfeld
+</text>
+PackageComment: <text>printer driver for Minolta magicolor 2300W/2400W color laser printers
+ The m2300w driver is a driver for the Konica Minolta magicolor 2300W and
+ 2400W color laser printers.
+ .
+ The driver is basically intended for being used in conjunction with
+ "foomatic" (see http://www.openprinting.org/foomatic.html), which
+ is a database-driven system for integrating free software printer
+ drivers with common spoolers under Unix, like CUPS, LPRng, LPD,
+ GNUlpr, PPR, PDQ, CPS, and direct printing.</text>
+Relationship: SPDXRef-printer-driver-m2300w DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-filters
+Relationship: SPDXRef-printer-driver-m2300w DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-printer-driver-m2300w DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xz-utils
+Relationship: SPDXRef-printer-driver-m2300w DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-printer-driver-m2300w DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-cups-ppdc
+
+
+## File
+
+FileName: /usr/share/doc/printer-driver-m2300w/copyright
+SPDXID: SPDXRef-printer-driver-m2300w-file-0
+FileChecksum: SHA1: d0183c28ddb3f90f83250c8eeb244ca3cf2ede8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+FileCopyrightText: <text>Copyright 2004 Leif Birkenfeld
+Copyright (c) 2007,2008,2009 Till Kamppeter <till.kamppeter@gmail.com>
+Copyright (c) 2011 Didier Raboud <odyx@debian.org>
+</text>
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-0
+
+
+FileName: /usr/bin/m2300w
+SPDXID: SPDXRef-printer-driver-m2300w-file-1
+FileChecksum: SHA1: cca0024439e99168864e1a63e432fde235299bdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-1
+
+
+FileName: /usr/bin/m2300w-wrapper
+SPDXID: SPDXRef-printer-driver-m2300w-file-2
+FileChecksum: SHA1: 1ea3e449dc8b7d29377c1b7172ba12ba3efc44e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-2
+
+
+FileName: /usr/bin/m2400w
+SPDXID: SPDXRef-printer-driver-m2300w-file-3
+FileChecksum: SHA1: 8a058505d481d10fbcd69a598f8d41992798c15c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-3
+
+
+FileName: /usr/lib/cups/driver/m2300w
+SPDXID: SPDXRef-printer-driver-m2300w-file-4
+FileChecksum: SHA1: 154b4da68cddb8b673653abb7cae6783f6a2d3b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-4
+
+
+FileName: /usr/share/apport/package-hooks/source_m2300w.py
+SPDXID: SPDXRef-printer-driver-m2300w-file-5
+FileChecksum: SHA1: eb8c4f864f9a9c640661663845c7c556f41b4334
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-5
+
+
+FileName: /usr/share/cups/ppd-updaters/printer-driver-m2300w.ppd-updater
+SPDXID: SPDXRef-printer-driver-m2300w-file-6
+FileChecksum: SHA1: 5e9ddb2585a8ef41f68982e3c283c60af2a4c0e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-6
+
+
+FileName: /usr/share/doc/printer-driver-m2300w/README.ghostscript.gz
+SPDXID: SPDXRef-printer-driver-m2300w-file-7
+FileChecksum: SHA1: dc1e22625d6c5d9e127bf8272319a6a69b004c34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-7
+
+
+FileName: /usr/share/doc/printer-driver-m2300w/README.gz
+SPDXID: SPDXRef-printer-driver-m2300w-file-8
+FileChecksum: SHA1: 247f3a74a09ab687c6a1c267ee2618df2aa957a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-8
+
+
+FileName: /usr/share/doc/printer-driver-m2300w/changelog.Debian.gz
+SPDXID: SPDXRef-printer-driver-m2300w-file-9
+FileChecksum: SHA1: cc88cca1c7a0202c6c9451bef2a9b6a726b652e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-9
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/CHP410-1200-AutoColor.crd
+SPDXID: SPDXRef-printer-driver-m2300w-file-10
+FileChecksum: SHA1: b55a2a97c389d722f6f0760150550b89c72716ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-10
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/CHP410-1200-Draft.crd
+SPDXID: SPDXRef-printer-driver-m2300w-file-11
+FileChecksum: SHA1: da0cc282c11238a660360e6a551219e6e26f3053
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-11
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/CHP410-1200-Photo-kh.crd
+SPDXID: SPDXRef-printer-driver-m2300w-file-12
+FileChecksum: SHA1: 66e16069f4648292e62993aaee0f44883605ab0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-12
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/CHP410-1200-Photo.crd
+SPDXID: SPDXRef-printer-driver-m2300w-file-13
+FileChecksum: SHA1: bb74078ae74423694aa40d17e56b3a444c9a433c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-13
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/defrgb-AdobeRGB.csa
+SPDXID: SPDXRef-printer-driver-m2300w-file-14
+FileChecksum: SHA1: c0d098a2b77699c74d13aa8da9df55ce6cd81b55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-14
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/defrgb-builtin.csa
+SPDXID: SPDXRef-printer-driver-m2300w-file-15
+FileChecksum: SHA1: 306e385e5a21f9fd0c0bc0883cae89f0e87120bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-15
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/defrgb-gimp-print.csa
+SPDXID: SPDXRef-printer-driver-m2300w-file-16
+FileChecksum: SHA1: 2b6d81e19051180df51f07bf08af35820286294d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-16
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/defrgb-sRGB.csa
+SPDXID: SPDXRef-printer-driver-m2300w-file-17
+FileChecksum: SHA1: 86e752000adbb2845751b2f1580f8018a50998f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-17
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/epilogue.ps
+SPDXID: SPDXRef-printer-driver-m2300w-file-18
+FileChecksum: SHA1: 1fef19da2c85de66496b69d3b90424dec1562fad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-18
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/prolog.ps
+SPDXID: SPDXRef-printer-driver-m2300w-file-19
+FileChecksum: SHA1: 54a3703ebcb19fa7b787ae4f6e1eda496026f875
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-19
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/screen1200.ps
+SPDXID: SPDXRef-printer-driver-m2300w-file-20
+FileChecksum: SHA1: 16651d6a095fd8143a70cdb0097c17563c335c14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-20
+
+
+FileName: /usr/share/m2300w/0.51/psfiles/screen2400.ps
+SPDXID: SPDXRef-printer-driver-m2300w-file-21
+FileChecksum: SHA1: f892f954d55584ec600376cd18a544178e7b9a35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-printer-driver-m2300w CONTAINS SPDXRef-printer-driver-m2300w-file-21
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

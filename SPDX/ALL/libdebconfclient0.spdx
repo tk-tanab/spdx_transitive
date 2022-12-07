@@ -1,0 +1,110 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libdebconfclient0_0.261ubuntu1-09122746-522e-53ef-a79a-0c16914c9ab9
+DocumentName: libdebconfclient0_0.261ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdebconfclient0
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:42:36Z
+
+
+## Package
+
+PackageName: libdebconfclient0
+PackageVersion: 0.261ubuntu1
+SPDXID: SPDXRef-libdebconfclient0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: aebbb76d292e024e880f112fe0d9a460eaebba52
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LicenseRef-scancode-bsd-unmodified
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: <text>(c) Jason Gunthorpe <jgg@debian.org>
+(c) Joey Hess <joeyh@debian.org>
+copyrighted (c) 2000-2009 by Randolph Chung <tausq@debian.org>
+</text>
+PackageComment: <text>Debian Configuration Management System (C-implementation library)
+ Debconf is a configuration management system for Debian packages. It is
+ used by some packages to prompt you for information before they are
+ installed. cdebconf is a reimplementation of the original debconf in C.
+ .
+ This library allows C programs to interface with cdebconf.</text>
+Relationship: SPDXRef-libdebconfclient0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/libdebconfclient0/copyright
+SPDXID: SPDXRef-libdebconfclient0-file-0
+FileChecksum: SHA1: 88f497736f11896da400269efd7d255d14bc2331
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-bsd-unmodified
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text>(c) Joey Hess <joeyh@debian.org>
+(c) Jason Gunthorpe <jgg@debian.org>
+copyrighted (c) 2000-2009 by Randolph Chung <tausq@debian.org>
+</text>
+Relationship: SPDXRef-libdebconfclient0 CONTAINS SPDXRef-libdebconfclient0-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libdebconfclient.so.0.0.0
+SPDXID: SPDXRef-libdebconfclient0-file-1
+FileChecksum: SHA1: c122faba234b7c569fb13827c9a358dcee28b1ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdebconfclient0 CONTAINS SPDXRef-libdebconfclient0-file-1
+
+
+FileName: /usr/share/doc/libdebconfclient0/changelog.gz
+SPDXID: SPDXRef-libdebconfclient0-file-2
+FileChecksum: SHA1: cb649cd20c89269594881cbad52a58a7623a3c9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdebconfclient0 CONTAINS SPDXRef-libdebconfclient0-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libdebconfclient.so.0
+SPDXID: SPDXRef-libdebconfclient0-file-3
+FileChecksum: SHA1: c122faba234b7c569fb13827c9a358dcee28b1ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdebconfclient0 CONTAINS SPDXRef-libdebconfclient0-file-3
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-bsd-unmodified
+LicenseName: BSD Simplified with Unmodified requirement
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-unmodified.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-unmodified.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

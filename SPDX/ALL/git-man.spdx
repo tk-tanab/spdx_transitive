@@ -1,0 +1,1767 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/git-man_1:2.34.1-1ubuntu1.5-466fe72b-9f71-5ba8-9a5d-2f8b2ed64ddd
+DocumentName: git-man_1:2.34.1-1ubuntu1.5
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-git-man
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:38:06Z
+
+
+## Package
+
+PackageName: git-man
+PackageVersion: 1:2.34.1-1ubuntu1.5
+SPDXID: SPDXRef-git-man
+PackageHomePage: https://git-scm.com/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: fba109bcb6d736b180e585a08b50d868990331e1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Artistic-1.0-Perl
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSL-1.0
+PackageLicenseInfoFromFiles: CC-PDDC
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: LGPL-2.0-only
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>(c) 1998-2007, Free Software Foundation, Inc.
+(c) 2002-2004, Oswald Buddenhagen <ossi@users.sf.net>
+(c) 2004, Theodore Y. Ts'o <tytso@mit.edu>
+(c) 2005-2006, Andres Salomon <dilinger@debian.org>
+(c) 2005-2012, Gerrit Pape <pape@smarden.org>
+(c) 2006, Christian Couder
+(c) 2006, Mike McCormack
+(c) 2007, Petr Baudis <pasky@suse.cz>
+(c) 2007, Trolltech ASA
+(c) 2008-2011, Jakub Narebski <jnareb@gmail.com>
+(c) 2009, Jimmy Angelakos
+(c) 2009-2013, Daniel Lemire, Cliff Moon, David McIntosh, Rober Becho, Google Inc. and Veronika Zenz
+(c) 2011, John Warthog9 Hawley <warthog9@eaglescrag.net>
+(c) 2012 Charles Roussel <charles.roussel@ensimag.imag.fr> Simon Cathebras <simon.cathebras@ensimag.imag.fr>
+(c) 2012, Philipp A. Hartmann <pah@qo.cx>
+(c) 2012-2015, Alexander Shopov <ash@kambanaria.org>
+(c) 2013 Benoit Person <benoit.person@ensimag.imag.fr> Celestin Matte <celestin.matte@ensimag.imag.fr>
+Copyright (c) 1985, 1989-93, 1995-2010, Free Software Foundation, Inc.
+Copyright (c) 1988-1994, 1996-2005, 2009, Free Software Foundation, Inc.
+Copyright (c) 1989, 1998, 2000, 2005, Free Software Foundation, Inc.
+Copyright (c) 1996-2001, Internet Software Consortium
+Copyright (c) 1997-8, Graham Barr <gbarr@ti.com>
+Copyright (c) 2000-2002, Michael R. Elkins <me@mutt.org>
+Copyright (c) 2001-2003, 2006-2011, Free Software Foundation, Inc.
+Copyright (c) 2003-2009, Davide Libenzi, Johannes E. Schindelin
+Copyright (c) 2005, Junio C Hamano
+Copyright (c) 2005, Sebastian Kuzminsky <seb@highlab.com>
+Copyright (c) 2005-2006 Niall Douglas
+Copyright (c) 2005-2010, Shawn Pearce
+Copyright (c) 2005-2016, Paul Mackerras
+Copyright (c) 2005-2021, Linus Torvalds and others
+Copyright (c) 2006 KJK::Hyperion <hackbunny@reactos.com>
+Copyright (c) 2006, Eric Wong <normalperson@yhbt.net>
+Copyright (c) 2006, KJK::Hyperion <hackbunny@reactos.com>
+Copyright (c) 2006, by Petr Baudis <pasky@suse.cz>
+Copyright (c) 2007, Fredrik Kuivinen <frekui@gmail.com>
+Copyright (c) 2007, Shawn Pearce
+Copyright (c) 2007, Simon Hausmann <simon@lst.de>
+Copyright (c) 2007, Stelian Pop <stelian@popies.net>
+Copyright (c) 2007-2008, Shawn Pearce
+Copyright (c) 2008, 2009, 2011 by Attractive Chaos <attractor@live.co.uk>
+Copyright (c) 2010, AEvar Arnfjord Bjarmason
+Copyright (c) 2010, Google Inc.
+Copyright (c) 2011 Jeremie Nikaes <jeremie.nikaes@ensimag.imag.fr> Arnaud Lacurie <arnaud.lacurie@ensimag.imag.fr>
+Copyright (c) 2011, John Szakmeister <john@szakmeister.net>
+Copyright (c) 2012, Google Inc.
+Copyright (c) 2013, GitHub Inc.
+Copyright (c) 2014, 2015, 2016, 2017, 2018 Alexander Shopov <ash@kambanaria.org>
+Copyright (c) 2017, Marc Stevens Cryptology Group
+</text>
+PackageComment: <text>fast, scalable, distributed revision control system (manual pages)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides reference documentation for use by the 'man'
+ utility and the 'git help' command.</text>
+
+
+## File
+
+FileName: /usr/share/doc/git-man/copyright
+SPDXID: SPDXRef-git-man-file-0
+FileChecksum: SHA1: 202fa09387cb9039596fc061ca72036061c76ee4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: CC-PDDC
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: BSL-1.0
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LGPL-2.0-only
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: ISC
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: Artistic-1.0-Perl
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (c) 2005-2021, Linus Torvalds and others
+Copyright (c) 2003-2009, Davide Libenzi, Johannes E. Schindelin
+Copyright (c) 2010, Google Inc.
+Copyright (c) 2013, GitHub Inc.
+(c) 2009-2013, Daniel Lemire, Cliff Moon, David McIntosh, Rober Becho, Google Inc. and Veronika Zenz
+Copyright (c) 2017, Marc Stevens Cryptology Group
+Copyright (c) 2005-2016, Paul Mackerras
+Copyright (c) 2014, 2015, 2016, 2017, 2018 Alexander Shopov <ash@kambanaria.org>
+Copyright (c) 2005-2010, Shawn Pearce
+Copyright (c) 2007-2008, Shawn Pearce
+(c) 2012-2015, Alexander Shopov <ash@kambanaria.org>
+Copyright (c) 2007, Shawn Pearce
+(c) 2009, Jimmy Angelakos
+Copyright (c) 2007, Fredrik Kuivinen <frekui@gmail.com>
+(c) 2007, Petr Baudis <pasky@suse.cz>
+(c) 2008-2011, Jakub Narebski <jnareb@gmail.com>
+(c) 2011, John Warthog9 Hawley <warthog9@eaglescrag.net>
+Copyright (c) 2007, Simon Hausmann <simon@lst.de>
+(c) 2007, Trolltech ASA
+Copyright (c) 2006, Eric Wong <normalperson@yhbt.net>
+Copyright (c) 2000-2002, Michael R. Elkins <me@mutt.org>
+(c) 2002-2004, Oswald Buddenhagen <ossi@users.sf.net>
+(c) 2004, Theodore Y. Ts'o <tytso@mit.edu>
+(c) 2006, Mike McCormack
+Copyright (c) 2006, by Petr Baudis <pasky@suse.cz>
+Copyright (c) 1997-8, Graham Barr <gbarr@ti.com>
+Copyright (c) 1989, 1998, 2000, 2005, Free Software Foundation, Inc.
+Copyright (c) 2008, 2009, 2011 by Attractive Chaos <attractor@live.co.uk>
+Copyright (c) 2000-2002, Michael R. Elkins <me@mutt.org>
+(c) 2002-2004, Oswald Buddenhagen <ossi@users.sf.net>
+(c) 2004, Theodore Y. Ts'o <tytso@mit.edu>
+(c) 2006, Mike McCormack
+(c) 2006, Christian Couder
+Copyright (c) 2010, AEvar Arnfjord Bjarmason
+(c) 1998-2007, Free Software Foundation, Inc.
+Copyright (c) 2005, Junio C Hamano
+Copyright (c) 1996-2001, Internet Software Consortium
+Copyright (c) 2001-2003, 2006-2011, Free Software Foundation, Inc.
+Copyright (c) 2005-2006 Niall Douglas
+Copyright (c) 2006, KJK::Hyperion <hackbunny@reactos.com>
+Copyright (c) 1985, 1989-93, 1995-2010, Free Software Foundation, Inc.
+Copyright (c) 1988-1994, 1996-2005, 2009, Free Software Foundation, Inc.
+Copyright (c) 2012, Google Inc.
+Copyright (c) 2011, John Szakmeister <john@szakmeister.net>
+(c) 2012, Philipp A. Hartmann <pah@qo.cx>
+Copyright (c) 2007, Stelian Pop <stelian@popies.net>
+Copyright (c) 2011 Jeremie Nikaes <jeremie.nikaes@ensimag.imag.fr> Arnaud Lacurie <arnaud.lacurie@ensimag.imag.fr>
+(c) 2012 Charles Roussel <charles.roussel@ensimag.imag.fr> Simon Cathebras <simon.cathebras@ensimag.imag.fr>
+(c) 2013 Benoit Person <benoit.person@ensimag.imag.fr> Celestin Matte <celestin.matte@ensimag.imag.fr>
+Copyright (c) 2005, Sebastian Kuzminsky <seb@highlab.com>
+(c) 2005-2006, Andres Salomon <dilinger@debian.org>
+(c) 2005-2012, Gerrit Pape <pape@smarden.org>
+Copyright (c) 2006 KJK::Hyperion <hackbunny@reactos.com>
+</text>
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-0
+
+
+FileName: /usr/share/doc/git-man/changelog.Debian.gz
+SPDXID: SPDXRef-git-man-file-1
+FileChecksum: SHA1: 9420e24b84aab2dd779443d8c28d82fbcbf329a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-1
+
+
+FileName: /usr/share/man/man1/git-add.1.gz
+SPDXID: SPDXRef-git-man-file-2
+FileChecksum: SHA1: 83f82ecd4ea0f6a37c0088acb158a8c9f150daff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-2
+
+
+FileName: /usr/share/man/man1/git-am.1.gz
+SPDXID: SPDXRef-git-man-file-3
+FileChecksum: SHA1: 05e27aafaa0c6f2bea5a4367d036b758a08e8367
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-3
+
+
+FileName: /usr/share/man/man1/git-annotate.1.gz
+SPDXID: SPDXRef-git-man-file-4
+FileChecksum: SHA1: 39726baaf1f9ce49e2a0086660897c6339ef91e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-4
+
+
+FileName: /usr/share/man/man1/git-apply.1.gz
+SPDXID: SPDXRef-git-man-file-5
+FileChecksum: SHA1: 83f48773b77dc3293df10ba0a34658fd0616ab05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-5
+
+
+FileName: /usr/share/man/man1/git-archive.1.gz
+SPDXID: SPDXRef-git-man-file-6
+FileChecksum: SHA1: 4cad7ee1cad17b77394706baf2b03b5bfb17ca83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-6
+
+
+FileName: /usr/share/man/man1/git-bisect.1.gz
+SPDXID: SPDXRef-git-man-file-7
+FileChecksum: SHA1: 9de383ccc88042644c9ff28061bfbd7966bc1c59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-7
+
+
+FileName: /usr/share/man/man1/git-blame.1.gz
+SPDXID: SPDXRef-git-man-file-8
+FileChecksum: SHA1: a9c64990e33837ae566e0297a756b3a2ac4f5769
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-8
+
+
+FileName: /usr/share/man/man1/git-branch.1.gz
+SPDXID: SPDXRef-git-man-file-9
+FileChecksum: SHA1: 1109d8f603f9a0fd45ebb42476a9c7d3567391ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-9
+
+
+FileName: /usr/share/man/man1/git-bugreport.1.gz
+SPDXID: SPDXRef-git-man-file-10
+FileChecksum: SHA1: 7de31605cb11990c1d6d2bea27b15b22de61f5c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-10
+
+
+FileName: /usr/share/man/man1/git-bundle.1.gz
+SPDXID: SPDXRef-git-man-file-11
+FileChecksum: SHA1: e81b93cb983052200acc2915608a57871f48a2c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-11
+
+
+FileName: /usr/share/man/man1/git-cat-file.1.gz
+SPDXID: SPDXRef-git-man-file-12
+FileChecksum: SHA1: 0b5e0f4eb49cb9c8c7ed1df602592f33effa392b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-12
+
+
+FileName: /usr/share/man/man1/git-check-attr.1.gz
+SPDXID: SPDXRef-git-man-file-13
+FileChecksum: SHA1: 6e1f0b5ea6f521772660cc31f98c8ad3a26db434
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-13
+
+
+FileName: /usr/share/man/man1/git-check-ignore.1.gz
+SPDXID: SPDXRef-git-man-file-14
+FileChecksum: SHA1: d53f06b70dbdd76f6c78c0549ebb45b0b8dec46c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-14
+
+
+FileName: /usr/share/man/man1/git-check-mailmap.1.gz
+SPDXID: SPDXRef-git-man-file-15
+FileChecksum: SHA1: 62b3b334ab377602181b764c4f97cd96f4fb2fe0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-15
+
+
+FileName: /usr/share/man/man1/git-check-ref-format.1.gz
+SPDXID: SPDXRef-git-man-file-16
+FileChecksum: SHA1: 4a3f57674fec961643a2161deac3c8ae5bb93508
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-16
+
+
+FileName: /usr/share/man/man1/git-checkout-index.1.gz
+SPDXID: SPDXRef-git-man-file-17
+FileChecksum: SHA1: b1c8be0fe335f0cab2db30114f53d7c5449b9ec6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-17
+
+
+FileName: /usr/share/man/man1/git-checkout.1.gz
+SPDXID: SPDXRef-git-man-file-18
+FileChecksum: SHA1: c6c1843209c09296bd900336e11a372313dafb10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-18
+
+
+FileName: /usr/share/man/man1/git-cherry-pick.1.gz
+SPDXID: SPDXRef-git-man-file-19
+FileChecksum: SHA1: 20e6c2959d8991d6241adb8a5a448dba7c327226
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-19
+
+
+FileName: /usr/share/man/man1/git-cherry.1.gz
+SPDXID: SPDXRef-git-man-file-20
+FileChecksum: SHA1: 1a5d3269dc6dafeb3617d413cebd218f1000112b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-20
+
+
+FileName: /usr/share/man/man1/git-clean.1.gz
+SPDXID: SPDXRef-git-man-file-21
+FileChecksum: SHA1: 47acf0993ab315cde39ad2a3e9f0a8fac7d0ed78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-21
+
+
+FileName: /usr/share/man/man1/git-clone.1.gz
+SPDXID: SPDXRef-git-man-file-22
+FileChecksum: SHA1: a3a39c2ce0b0066eb19771fff571220888994574
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-22
+
+
+FileName: /usr/share/man/man1/git-column.1.gz
+SPDXID: SPDXRef-git-man-file-23
+FileChecksum: SHA1: b57ce0c1b294c0819d5efe28710c9c2e67085174
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-23
+
+
+FileName: /usr/share/man/man1/git-commit-graph.1.gz
+SPDXID: SPDXRef-git-man-file-24
+FileChecksum: SHA1: 5b4310689d81177e584cb4692fc323891f465d5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-24
+
+
+FileName: /usr/share/man/man1/git-commit-tree.1.gz
+SPDXID: SPDXRef-git-man-file-25
+FileChecksum: SHA1: 4c3dda1de00e8b6572e3e518b608162208c3663c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-25
+
+
+FileName: /usr/share/man/man1/git-commit.1.gz
+SPDXID: SPDXRef-git-man-file-26
+FileChecksum: SHA1: b822aa5f5b6f28026ace7518897f0b59c3e489e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-26
+
+
+FileName: /usr/share/man/man1/git-config.1.gz
+SPDXID: SPDXRef-git-man-file-27
+FileChecksum: SHA1: 97cf2a1879594113bc2bc079c406f23a09a4c3bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-27
+
+
+FileName: /usr/share/man/man1/git-count-objects.1.gz
+SPDXID: SPDXRef-git-man-file-28
+FileChecksum: SHA1: b17d918b3e3580a1639a3ca76bc4e563f9855ba1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-28
+
+
+FileName: /usr/share/man/man1/git-credential-cache--daemon.1.gz
+SPDXID: SPDXRef-git-man-file-29
+FileChecksum: SHA1: e0586bde7447bd4cb772991a82edc44b47fd531f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-29
+
+
+FileName: /usr/share/man/man1/git-credential-cache.1.gz
+SPDXID: SPDXRef-git-man-file-30
+FileChecksum: SHA1: 4fe4e9c147cd08bf2adec14cbd69761828a94b82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-30
+
+
+FileName: /usr/share/man/man1/git-credential-store.1.gz
+SPDXID: SPDXRef-git-man-file-31
+FileChecksum: SHA1: 6948ec2a763110fb80e7831a70f002e5686a7b5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-31
+
+
+FileName: /usr/share/man/man1/git-credential.1.gz
+SPDXID: SPDXRef-git-man-file-32
+FileChecksum: SHA1: baaf8f53a2c6305ae074a55951fe013ca4e8fdd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-32
+
+
+FileName: /usr/share/man/man1/git-daemon.1.gz
+SPDXID: SPDXRef-git-man-file-33
+FileChecksum: SHA1: 946f2121273dfefc75b6b9401ad7ee409e6bd9c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-33
+
+
+FileName: /usr/share/man/man1/git-describe.1.gz
+SPDXID: SPDXRef-git-man-file-34
+FileChecksum: SHA1: 6b07622d14d6ba7e338b4f103a8aa8d1101dcc08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-34
+
+
+FileName: /usr/share/man/man1/git-diff-files.1.gz
+SPDXID: SPDXRef-git-man-file-35
+FileChecksum: SHA1: ed334ba5ea5e0f46f26f50207a918c88836a81ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-35
+
+
+FileName: /usr/share/man/man1/git-diff-index.1.gz
+SPDXID: SPDXRef-git-man-file-36
+FileChecksum: SHA1: 2e16bc3ed67ae81cd12116e623c42c426b22e12e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-36
+
+
+FileName: /usr/share/man/man1/git-diff-tree.1.gz
+SPDXID: SPDXRef-git-man-file-37
+FileChecksum: SHA1: 7da60821ad00061fd5242d8e3fc4570896138277
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-37
+
+
+FileName: /usr/share/man/man1/git-diff.1.gz
+SPDXID: SPDXRef-git-man-file-38
+FileChecksum: SHA1: 9f26185069290b87e49cca0eb5fe9ca20d48de43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-38
+
+
+FileName: /usr/share/man/man1/git-difftool.1.gz
+SPDXID: SPDXRef-git-man-file-39
+FileChecksum: SHA1: 34d13a24f15405aea7724bcc9a8769d7b1b90a9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-39
+
+
+FileName: /usr/share/man/man1/git-fast-export.1.gz
+SPDXID: SPDXRef-git-man-file-40
+FileChecksum: SHA1: a9c3a87100a9a5d7e125a31a76defe91fe629fb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-40
+
+
+FileName: /usr/share/man/man1/git-fast-import.1.gz
+SPDXID: SPDXRef-git-man-file-41
+FileChecksum: SHA1: 9e985da115260b03a4a6babc4d0ef3f6a69fb1f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-41
+
+
+FileName: /usr/share/man/man1/git-fetch-pack.1.gz
+SPDXID: SPDXRef-git-man-file-42
+FileChecksum: SHA1: 71b3794811c65ae0b2dbd4121b47ce5688991abc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-42
+
+
+FileName: /usr/share/man/man1/git-fetch.1.gz
+SPDXID: SPDXRef-git-man-file-43
+FileChecksum: SHA1: c4dac96cedc71d45e09ff5ea988ae9a9b98b5abc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-43
+
+
+FileName: /usr/share/man/man1/git-filter-branch.1.gz
+SPDXID: SPDXRef-git-man-file-44
+FileChecksum: SHA1: df11b096a5c42ff0ea9eed98927d00c6695dcf9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-44
+
+
+FileName: /usr/share/man/man1/git-fmt-merge-msg.1.gz
+SPDXID: SPDXRef-git-man-file-45
+FileChecksum: SHA1: 4a6e2f235aee9c68b37807f5a72b5e58664568df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-45
+
+
+FileName: /usr/share/man/man1/git-for-each-ref.1.gz
+SPDXID: SPDXRef-git-man-file-46
+FileChecksum: SHA1: c16d483ce1fc9ee46eaa483b1248edfc52046159
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-46
+
+
+FileName: /usr/share/man/man1/git-for-each-repo.1.gz
+SPDXID: SPDXRef-git-man-file-47
+FileChecksum: SHA1: 6800783505dc4edefdc79964494290e2c51d64a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-47
+
+
+FileName: /usr/share/man/man1/git-format-patch.1.gz
+SPDXID: SPDXRef-git-man-file-48
+FileChecksum: SHA1: e8a810d98dd5d9548f48c658e8313ec8491f9a0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-48
+
+
+FileName: /usr/share/man/man1/git-fsck-objects.1.gz
+SPDXID: SPDXRef-git-man-file-49
+FileChecksum: SHA1: e2dc4c6a78a4f23203c9d8df808b07ab2e5009d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-49
+
+
+FileName: /usr/share/man/man1/git-fsck.1.gz
+SPDXID: SPDXRef-git-man-file-50
+FileChecksum: SHA1: 1387481b7723140c61ff764ade9e6482a96ead1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-50
+
+
+FileName: /usr/share/man/man1/git-gc.1.gz
+SPDXID: SPDXRef-git-man-file-51
+FileChecksum: SHA1: db57420e234d7eb1445b0c3a374dfa8e9f56887c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-51
+
+
+FileName: /usr/share/man/man1/git-get-tar-commit-id.1.gz
+SPDXID: SPDXRef-git-man-file-52
+FileChecksum: SHA1: f028713a5f3504aea7806f245476d2d6e5dd3649
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-52
+
+
+FileName: /usr/share/man/man1/git-grep.1.gz
+SPDXID: SPDXRef-git-man-file-53
+FileChecksum: SHA1: beb82b9ac90cb3f26a81d579cdf2e6dca8d18c99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-53
+
+
+FileName: /usr/share/man/man1/git-hash-object.1.gz
+SPDXID: SPDXRef-git-man-file-54
+FileChecksum: SHA1: 40957491cc4571dba5e3d0b5a90fa4cb3cd60895
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-54
+
+
+FileName: /usr/share/man/man1/git-help.1.gz
+SPDXID: SPDXRef-git-man-file-55
+FileChecksum: SHA1: 2d910ea9f54b7364d39c8bc0981d0c84ddf3d11a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-55
+
+
+FileName: /usr/share/man/man1/git-http-backend.1.gz
+SPDXID: SPDXRef-git-man-file-56
+FileChecksum: SHA1: 7bfffb46b52d71add2123000cca3128eb743c53d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-56
+
+
+FileName: /usr/share/man/man1/git-http-fetch.1.gz
+SPDXID: SPDXRef-git-man-file-57
+FileChecksum: SHA1: 662ee6b58c04b598f0f88fb3a63972feaf1d5d20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-57
+
+
+FileName: /usr/share/man/man1/git-http-push.1.gz
+SPDXID: SPDXRef-git-man-file-58
+FileChecksum: SHA1: 8090c348a2e4819f01953db096bc7d8486315353
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-58
+
+
+FileName: /usr/share/man/man1/git-imap-send.1.gz
+SPDXID: SPDXRef-git-man-file-59
+FileChecksum: SHA1: d9f92f2a65fc463028c7d88c4ef2d23fe7a327fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-59
+
+
+FileName: /usr/share/man/man1/git-index-pack.1.gz
+SPDXID: SPDXRef-git-man-file-60
+FileChecksum: SHA1: c4602a57298bcf25266cf01a87f9b3d3646a34a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-60
+
+
+FileName: /usr/share/man/man1/git-init-db.1.gz
+SPDXID: SPDXRef-git-man-file-61
+FileChecksum: SHA1: ff9a2dd09a969871b9f83dc76a93216c714d467a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-61
+
+
+FileName: /usr/share/man/man1/git-init.1.gz
+SPDXID: SPDXRef-git-man-file-62
+FileChecksum: SHA1: ee3f454f68198234eaf64d7bdb272aaca64e70b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-62
+
+
+FileName: /usr/share/man/man1/git-instaweb.1.gz
+SPDXID: SPDXRef-git-man-file-63
+FileChecksum: SHA1: fb57fd1972c8416003a29e270b3f48608b69c632
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-63
+
+
+FileName: /usr/share/man/man1/git-interpret-trailers.1.gz
+SPDXID: SPDXRef-git-man-file-64
+FileChecksum: SHA1: d1ce4216552369c744371dacef645bce15f5d36e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-64
+
+
+FileName: /usr/share/man/man1/git-log.1.gz
+SPDXID: SPDXRef-git-man-file-65
+FileChecksum: SHA1: e808cec6fe5fe4b1e18762b083421406baa295ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-65
+
+
+FileName: /usr/share/man/man1/git-ls-files.1.gz
+SPDXID: SPDXRef-git-man-file-66
+FileChecksum: SHA1: 819c1a8e32544e5b77d7a53384426a17631b7449
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-66
+
+
+FileName: /usr/share/man/man1/git-ls-remote.1.gz
+SPDXID: SPDXRef-git-man-file-67
+FileChecksum: SHA1: 5ef6980395ac856af9cf6daae75ac7c9fe9dfda6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-67
+
+
+FileName: /usr/share/man/man1/git-ls-tree.1.gz
+SPDXID: SPDXRef-git-man-file-68
+FileChecksum: SHA1: fd3bba90c685e648d9e28d44ca7bb42e921aa638
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-68
+
+
+FileName: /usr/share/man/man1/git-mailinfo.1.gz
+SPDXID: SPDXRef-git-man-file-69
+FileChecksum: SHA1: 1d66664be0a994725da9623127be07fe689ce122
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-69
+
+
+FileName: /usr/share/man/man1/git-mailsplit.1.gz
+SPDXID: SPDXRef-git-man-file-70
+FileChecksum: SHA1: 7b7a21c475cc64966c571f9871af4ca6078ad8f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-70
+
+
+FileName: /usr/share/man/man1/git-maintenance.1.gz
+SPDXID: SPDXRef-git-man-file-71
+FileChecksum: SHA1: 633bef5f21e8440c695df04929d3224fc0c939d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-71
+
+
+FileName: /usr/share/man/man1/git-merge-base.1.gz
+SPDXID: SPDXRef-git-man-file-72
+FileChecksum: SHA1: 73ad4c632bb5bf6ec13c830c000906f7493153f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-72
+
+
+FileName: /usr/share/man/man1/git-merge-file.1.gz
+SPDXID: SPDXRef-git-man-file-73
+FileChecksum: SHA1: 1aa55752fa89dd8911a7f11106f155e7ef134b1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-73
+
+
+FileName: /usr/share/man/man1/git-merge-index.1.gz
+SPDXID: SPDXRef-git-man-file-74
+FileChecksum: SHA1: a5b96583a8202b4eb0ff1d8fdca8351b865f63cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-74
+
+
+FileName: /usr/share/man/man1/git-merge-one-file.1.gz
+SPDXID: SPDXRef-git-man-file-75
+FileChecksum: SHA1: 0366cadbaa48b5afd03c95e79460a5830f779d4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-75
+
+
+FileName: /usr/share/man/man1/git-merge-tree.1.gz
+SPDXID: SPDXRef-git-man-file-76
+FileChecksum: SHA1: 86fe9c783b6ac85f2ff449399e7d8fc8afa873b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-76
+
+
+FileName: /usr/share/man/man1/git-merge.1.gz
+SPDXID: SPDXRef-git-man-file-77
+FileChecksum: SHA1: 5c1805187e9430a8e6105607a2cd318ff607aef7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-77
+
+
+FileName: /usr/share/man/man1/git-mergetool--lib.1.gz
+SPDXID: SPDXRef-git-man-file-78
+FileChecksum: SHA1: 0b8aabc36875e82c6275347e9051b46359f9e530
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-78
+
+
+FileName: /usr/share/man/man1/git-mergetool.1.gz
+SPDXID: SPDXRef-git-man-file-79
+FileChecksum: SHA1: b3351929edd591a77039ff72d06e11fe8cbb18de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-79
+
+
+FileName: /usr/share/man/man1/git-mktag.1.gz
+SPDXID: SPDXRef-git-man-file-80
+FileChecksum: SHA1: ddf942452bb8a04962ee0ad570c87f823832b548
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-80
+
+
+FileName: /usr/share/man/man1/git-mktree.1.gz
+SPDXID: SPDXRef-git-man-file-81
+FileChecksum: SHA1: 1dfd6378ed40499d7b3af5026dc3c50201422d07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-81
+
+
+FileName: /usr/share/man/man1/git-multi-pack-index.1.gz
+SPDXID: SPDXRef-git-man-file-82
+FileChecksum: SHA1: e8170a26de12086f7e21a869fc639b3aea1a765c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-82
+
+
+FileName: /usr/share/man/man1/git-mv.1.gz
+SPDXID: SPDXRef-git-man-file-83
+FileChecksum: SHA1: 4ab958c7fa9605bb3e4060f989922e6e6416be6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-83
+
+
+FileName: /usr/share/man/man1/git-name-rev.1.gz
+SPDXID: SPDXRef-git-man-file-84
+FileChecksum: SHA1: fcd22589f15b79e199e6b3238ab802d7f20b355a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-84
+
+
+FileName: /usr/share/man/man1/git-notes.1.gz
+SPDXID: SPDXRef-git-man-file-85
+FileChecksum: SHA1: 034b8e64d9726c65a15167fe6fcc2b740fcc0319
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-85
+
+
+FileName: /usr/share/man/man1/git-pack-objects.1.gz
+SPDXID: SPDXRef-git-man-file-86
+FileChecksum: SHA1: 1aee0ec6696a91ab21874ca6da824d79064ba361
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-86
+
+
+FileName: /usr/share/man/man1/git-pack-redundant.1.gz
+SPDXID: SPDXRef-git-man-file-87
+FileChecksum: SHA1: 63079a06c0eb75a3dc6facf1999e5d558ef98a5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-87
+
+
+FileName: /usr/share/man/man1/git-pack-refs.1.gz
+SPDXID: SPDXRef-git-man-file-88
+FileChecksum: SHA1: e4715f903d60cacb6e7f6bd6424a517c8a01fdcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-88
+
+
+FileName: /usr/share/man/man1/git-patch-id.1.gz
+SPDXID: SPDXRef-git-man-file-89
+FileChecksum: SHA1: 09af267cbd675fbfd3b0d12ed3a55760c7417db8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-89
+
+
+FileName: /usr/share/man/man1/git-prune-packed.1.gz
+SPDXID: SPDXRef-git-man-file-90
+FileChecksum: SHA1: 1506213fc3b2c7ddf858a6685eee508bbaa494ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-90
+
+
+FileName: /usr/share/man/man1/git-prune.1.gz
+SPDXID: SPDXRef-git-man-file-91
+FileChecksum: SHA1: cd7b149e40afe4fd4838a38ec991544de06e47ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-91
+
+
+FileName: /usr/share/man/man1/git-pull.1.gz
+SPDXID: SPDXRef-git-man-file-92
+FileChecksum: SHA1: b871fffa97f562fca58f4382f5c30eabd194dced
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-92
+
+
+FileName: /usr/share/man/man1/git-push.1.gz
+SPDXID: SPDXRef-git-man-file-93
+FileChecksum: SHA1: 70f0747d79fc49287ec1980add1d0442b0db9ac1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-93
+
+
+FileName: /usr/share/man/man1/git-quiltimport.1.gz
+SPDXID: SPDXRef-git-man-file-94
+FileChecksum: SHA1: 980dc530585f5338f7116e1915d6d3cca7105abd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-94
+
+
+FileName: /usr/share/man/man1/git-range-diff.1.gz
+SPDXID: SPDXRef-git-man-file-95
+FileChecksum: SHA1: 8d2ed65a30d3d27e222852910fbce4481d57cf24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-95
+
+
+FileName: /usr/share/man/man1/git-read-tree.1.gz
+SPDXID: SPDXRef-git-man-file-96
+FileChecksum: SHA1: b2353a002b8c7d8f14ed28599a5b2ecf5072940b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-96
+
+
+FileName: /usr/share/man/man1/git-rebase.1.gz
+SPDXID: SPDXRef-git-man-file-97
+FileChecksum: SHA1: 002d500c5c91f61c88097c578121a10127c92245
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-97
+
+
+FileName: /usr/share/man/man1/git-receive-pack.1.gz
+SPDXID: SPDXRef-git-man-file-98
+FileChecksum: SHA1: 678dcdc3995fc6b9f85296e7b2281d63dda4f0b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-98
+
+
+FileName: /usr/share/man/man1/git-reflog.1.gz
+SPDXID: SPDXRef-git-man-file-99
+FileChecksum: SHA1: 42b81fdc5a360beceb7eae72611b6a3a94507605
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-99
+
+
+FileName: /usr/share/man/man1/git-remote-ext.1.gz
+SPDXID: SPDXRef-git-man-file-100
+FileChecksum: SHA1: eb870ece7a5b4c0b41b2a7f463f1d22ebcb24c85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-100
+
+
+FileName: /usr/share/man/man1/git-remote-fd.1.gz
+SPDXID: SPDXRef-git-man-file-101
+FileChecksum: SHA1: 7984707c6be9f4ba68b39a70e325e4ca78c1d994
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-101
+
+
+FileName: /usr/share/man/man1/git-remote.1.gz
+SPDXID: SPDXRef-git-man-file-102
+FileChecksum: SHA1: a426512c5549433a0dfea234c2e578c3aa5d4ff1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-102
+
+
+FileName: /usr/share/man/man1/git-repack.1.gz
+SPDXID: SPDXRef-git-man-file-103
+FileChecksum: SHA1: fa4dedd94cfecd1f218e2e377b7bfcd15917b806
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-103
+
+
+FileName: /usr/share/man/man1/git-replace.1.gz
+SPDXID: SPDXRef-git-man-file-104
+FileChecksum: SHA1: f3354448476e88b805487a3672d8d247fd029c2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-104
+
+
+FileName: /usr/share/man/man1/git-request-pull.1.gz
+SPDXID: SPDXRef-git-man-file-105
+FileChecksum: SHA1: e98d42d8ef71b2d072641045be998edea64628bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-105
+
+
+FileName: /usr/share/man/man1/git-rerere.1.gz
+SPDXID: SPDXRef-git-man-file-106
+FileChecksum: SHA1: ea60b83732636335aedbf679e071298441eb696f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-106
+
+
+FileName: /usr/share/man/man1/git-reset.1.gz
+SPDXID: SPDXRef-git-man-file-107
+FileChecksum: SHA1: ee1177ee9650239f4241ab4ee56c838a8755c209
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-107
+
+
+FileName: /usr/share/man/man1/git-restore.1.gz
+SPDXID: SPDXRef-git-man-file-108
+FileChecksum: SHA1: 64a37fdd84bf89f5fc08721fc0261cf49309d896
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-108
+
+
+FileName: /usr/share/man/man1/git-rev-list.1.gz
+SPDXID: SPDXRef-git-man-file-109
+FileChecksum: SHA1: 1799be5c62a3dfd934e6bfb365200d35d1dfb073
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-109
+
+
+FileName: /usr/share/man/man1/git-rev-parse.1.gz
+SPDXID: SPDXRef-git-man-file-110
+FileChecksum: SHA1: 258f40e9387095b0fe84d2425bfba5c3c3d0b3c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-110
+
+
+FileName: /usr/share/man/man1/git-revert.1.gz
+SPDXID: SPDXRef-git-man-file-111
+FileChecksum: SHA1: 38a6c31cf97456a02e06c3fae87a5e1e26816063
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-111
+
+
+FileName: /usr/share/man/man1/git-rm.1.gz
+SPDXID: SPDXRef-git-man-file-112
+FileChecksum: SHA1: 1d8d3ae08131f3a8a34c5389555440c7d2bac77b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-112
+
+
+FileName: /usr/share/man/man1/git-send-pack.1.gz
+SPDXID: SPDXRef-git-man-file-113
+FileChecksum: SHA1: 9c72cce9fa8f62eb17eca1ef58eff5a43fca9c47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-113
+
+
+FileName: /usr/share/man/man1/git-sh-i18n--envsubst.1.gz
+SPDXID: SPDXRef-git-man-file-114
+FileChecksum: SHA1: f53f1a7bc211f1ca453e2343b70b0e44e086513d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-114
+
+
+FileName: /usr/share/man/man1/git-sh-i18n.1.gz
+SPDXID: SPDXRef-git-man-file-115
+FileChecksum: SHA1: 2d1dca0ef302330600f2ba83b68a001722a1e71d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-115
+
+
+FileName: /usr/share/man/man1/git-sh-setup.1.gz
+SPDXID: SPDXRef-git-man-file-116
+FileChecksum: SHA1: 8a4a5ba2afa6c26192237ee91b1e734be6b795d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-116
+
+
+FileName: /usr/share/man/man1/git-shell.1.gz
+SPDXID: SPDXRef-git-man-file-117
+FileChecksum: SHA1: d4c77e8e6075c33d157132d8e25120b19ca620b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-117
+
+
+FileName: /usr/share/man/man1/git-shortlog.1.gz
+SPDXID: SPDXRef-git-man-file-118
+FileChecksum: SHA1: d5e1aed1eb1b4c5a3485a4ea5e814d53f7569ae7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-118
+
+
+FileName: /usr/share/man/man1/git-show-branch.1.gz
+SPDXID: SPDXRef-git-man-file-119
+FileChecksum: SHA1: 7242448ad0ef3757b1bd3ece4581fe9364b76919
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-119
+
+
+FileName: /usr/share/man/man1/git-show-index.1.gz
+SPDXID: SPDXRef-git-man-file-120
+FileChecksum: SHA1: 5d9a74c10c4163d94351690c4e9ea12b1d130af0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-120
+
+
+FileName: /usr/share/man/man1/git-show-ref.1.gz
+SPDXID: SPDXRef-git-man-file-121
+FileChecksum: SHA1: bdfb54e3e97f69bd05568fff04d2e6da38bb9223
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-121
+
+
+FileName: /usr/share/man/man1/git-show.1.gz
+SPDXID: SPDXRef-git-man-file-122
+FileChecksum: SHA1: 4d2dce7506627483c8d8e24b8c7c8f2b0d286ef5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-122
+
+
+FileName: /usr/share/man/man1/git-sparse-checkout.1.gz
+SPDXID: SPDXRef-git-man-file-123
+FileChecksum: SHA1: 845f5947fe12520617408f5c89ecab579d444795
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-123
+
+
+FileName: /usr/share/man/man1/git-stage.1.gz
+SPDXID: SPDXRef-git-man-file-124
+FileChecksum: SHA1: 2bf7fb87e4a9399c21fe27c7a060835159104b0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-124
+
+
+FileName: /usr/share/man/man1/git-stash.1.gz
+SPDXID: SPDXRef-git-man-file-125
+FileChecksum: SHA1: 27f0272ceafaceec12d0a7eb70410ab9102b08db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-125
+
+
+FileName: /usr/share/man/man1/git-status.1.gz
+SPDXID: SPDXRef-git-man-file-126
+FileChecksum: SHA1: e1c10c89bee845e4da9017fb6b1703d71c7bfc7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-126
+
+
+FileName: /usr/share/man/man1/git-stripspace.1.gz
+SPDXID: SPDXRef-git-man-file-127
+FileChecksum: SHA1: a60fcf352d300ca03611612265d3390a013e9aee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-127
+
+
+FileName: /usr/share/man/man1/git-submodule.1.gz
+SPDXID: SPDXRef-git-man-file-128
+FileChecksum: SHA1: fa46edb267fa515e17a2742c99595db67aaa816a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-128
+
+
+FileName: /usr/share/man/man1/git-subtree.1.gz
+SPDXID: SPDXRef-git-man-file-129
+FileChecksum: SHA1: 60858555e5fc5e2d38772f4ae7b0ea4d3a6ff243
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-129
+
+
+FileName: /usr/share/man/man1/git-switch.1.gz
+SPDXID: SPDXRef-git-man-file-130
+FileChecksum: SHA1: dd25c7b9031a4b04abf2ac9c642c6bba76d46067
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-130
+
+
+FileName: /usr/share/man/man1/git-symbolic-ref.1.gz
+SPDXID: SPDXRef-git-man-file-131
+FileChecksum: SHA1: 3c918068f9c11e924054063b4ac1f097d0f4dad3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-131
+
+
+FileName: /usr/share/man/man1/git-tag.1.gz
+SPDXID: SPDXRef-git-man-file-132
+FileChecksum: SHA1: 7c405002fc3de8b0a0700c583abb2c39ed8aa820
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-132
+
+
+FileName: /usr/share/man/man1/git-unpack-file.1.gz
+SPDXID: SPDXRef-git-man-file-133
+FileChecksum: SHA1: f8605c9248d7c2996318b38b9f105659cf44d2d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-133
+
+
+FileName: /usr/share/man/man1/git-unpack-objects.1.gz
+SPDXID: SPDXRef-git-man-file-134
+FileChecksum: SHA1: cb9ac3db5c149c0215df3f5b77558f89cd99c563
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-134
+
+
+FileName: /usr/share/man/man1/git-update-index.1.gz
+SPDXID: SPDXRef-git-man-file-135
+FileChecksum: SHA1: 02ba5f60f2e594114eeb368f9abc8360f8df36b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-135
+
+
+FileName: /usr/share/man/man1/git-update-ref.1.gz
+SPDXID: SPDXRef-git-man-file-136
+FileChecksum: SHA1: b127fdd6c865c560bd0de8bc2c3586b0007c45e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-136
+
+
+FileName: /usr/share/man/man1/git-update-server-info.1.gz
+SPDXID: SPDXRef-git-man-file-137
+FileChecksum: SHA1: 420d6cf7ab0f71642dd38470959ab10ed061dc16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-137
+
+
+FileName: /usr/share/man/man1/git-upload-archive.1.gz
+SPDXID: SPDXRef-git-man-file-138
+FileChecksum: SHA1: e903932703b46908fa363090edff993573f5cf2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-138
+
+
+FileName: /usr/share/man/man1/git-upload-pack.1.gz
+SPDXID: SPDXRef-git-man-file-139
+FileChecksum: SHA1: 9e0d556d831d024a1b87a4a81b4463669baf13a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-139
+
+
+FileName: /usr/share/man/man1/git-var.1.gz
+SPDXID: SPDXRef-git-man-file-140
+FileChecksum: SHA1: e07b732f2593f60de83f0bd149295cd237580588
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-140
+
+
+FileName: /usr/share/man/man1/git-verify-commit.1.gz
+SPDXID: SPDXRef-git-man-file-141
+FileChecksum: SHA1: cba08bbfbf549390f2093eae7fc2bb36ddeea606
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-141
+
+
+FileName: /usr/share/man/man1/git-verify-pack.1.gz
+SPDXID: SPDXRef-git-man-file-142
+FileChecksum: SHA1: aca30224062b823bc2cf7f160233f4afd68c4c35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-142
+
+
+FileName: /usr/share/man/man1/git-verify-tag.1.gz
+SPDXID: SPDXRef-git-man-file-143
+FileChecksum: SHA1: 9c4a9747dff24ca97a2e02a0a1222d56f8c1f4c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-143
+
+
+FileName: /usr/share/man/man1/git-version.1.gz
+SPDXID: SPDXRef-git-man-file-144
+FileChecksum: SHA1: 7f60997c376ba7894eae5b8ac4e9ec40d94b4da5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-144
+
+
+FileName: /usr/share/man/man1/git-web--browse.1.gz
+SPDXID: SPDXRef-git-man-file-145
+FileChecksum: SHA1: 55e9700fc42a87332991ca20c1b550373c5d86cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-145
+
+
+FileName: /usr/share/man/man1/git-whatchanged.1.gz
+SPDXID: SPDXRef-git-man-file-146
+FileChecksum: SHA1: b24fe9ed081100750905d7a4c58a6d3536aed830
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-146
+
+
+FileName: /usr/share/man/man1/git-worktree.1.gz
+SPDXID: SPDXRef-git-man-file-147
+FileChecksum: SHA1: 28efc880305f9d67d3824c9069cd3be1dedf4ba7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-147
+
+
+FileName: /usr/share/man/man1/git-write-tree.1.gz
+SPDXID: SPDXRef-git-man-file-148
+FileChecksum: SHA1: 16717182743543dc8d93bda693d1ecbc60cf994b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-148
+
+
+FileName: /usr/share/man/man1/git.1.gz
+SPDXID: SPDXRef-git-man-file-149
+FileChecksum: SHA1: 9a42bd377713613f08ee1631dc32b372c2c9ca17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-149
+
+
+FileName: /usr/share/man/man1/gitweb.1.gz
+SPDXID: SPDXRef-git-man-file-150
+FileChecksum: SHA1: 7825ee3abf4219887c4863456cca22c404c31d33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-150
+
+
+FileName: /usr/share/man/man3/Git.3pm.gz
+SPDXID: SPDXRef-git-man-file-151
+FileChecksum: SHA1: 3eafb7b6cc8b3e80114453fb353a59c9dfe98e09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-151
+
+
+FileName: /usr/share/man/man5/gitattributes.5.gz
+SPDXID: SPDXRef-git-man-file-152
+FileChecksum: SHA1: c4dd72da1c2920ed4d9a6d71002a883b050fb805
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-152
+
+
+FileName: /usr/share/man/man5/githooks.5.gz
+SPDXID: SPDXRef-git-man-file-153
+FileChecksum: SHA1: b4e6df78f3c509533303c518af6c2e3a9973e1dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-153
+
+
+FileName: /usr/share/man/man5/gitignore.5.gz
+SPDXID: SPDXRef-git-man-file-154
+FileChecksum: SHA1: 4c2833bf71e6557b08a00de52cd3563350f5e8c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-154
+
+
+FileName: /usr/share/man/man5/gitmailmap.5.gz
+SPDXID: SPDXRef-git-man-file-155
+FileChecksum: SHA1: 433fd1a49e9f4294d463c5fee6bb20d3edf70bd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-155
+
+
+FileName: /usr/share/man/man5/gitmodules.5.gz
+SPDXID: SPDXRef-git-man-file-156
+FileChecksum: SHA1: 3c42c170f216acef82485f9cdc642fc2dc50b404
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-156
+
+
+FileName: /usr/share/man/man5/gitrepository-layout.5.gz
+SPDXID: SPDXRef-git-man-file-157
+FileChecksum: SHA1: 2566fa9ac8a9cda28258e6865fb0ecd4696d6808
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-157
+
+
+FileName: /usr/share/man/man5/gitweb.conf.5.gz
+SPDXID: SPDXRef-git-man-file-158
+FileChecksum: SHA1: 07ba8dfafa6c2615b0e0ff4f3e31e82daae26e8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-158
+
+
+FileName: /usr/share/man/man7/gitcli.7.gz
+SPDXID: SPDXRef-git-man-file-159
+FileChecksum: SHA1: 3be146b9a05c64cfa86c315e69fa6853fde626df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-159
+
+
+FileName: /usr/share/man/man7/gitcore-tutorial.7.gz
+SPDXID: SPDXRef-git-man-file-160
+FileChecksum: SHA1: 1bf0f15111c3ca7d4b4cfd8607ca535379ac5764
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-160
+
+
+FileName: /usr/share/man/man7/gitcredentials.7.gz
+SPDXID: SPDXRef-git-man-file-161
+FileChecksum: SHA1: 64af4f67ee166a1037247d899510c14993328c84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-161
+
+
+FileName: /usr/share/man/man7/gitcvs-migration.7.gz
+SPDXID: SPDXRef-git-man-file-162
+FileChecksum: SHA1: 7c6f21fc69cf0cf8e9a245c6a0f01f0d6a3db78f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-162
+
+
+FileName: /usr/share/man/man7/gitdiffcore.7.gz
+SPDXID: SPDXRef-git-man-file-163
+FileChecksum: SHA1: 3cdcc3ebd056918c4a596f08267cb1ad84efdecb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-163
+
+
+FileName: /usr/share/man/man7/giteveryday.7.gz
+SPDXID: SPDXRef-git-man-file-164
+FileChecksum: SHA1: 865d43e0d66ac4ad1fe0bf8239f4152d924dff0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-164
+
+
+FileName: /usr/share/man/man7/gitfaq.7.gz
+SPDXID: SPDXRef-git-man-file-165
+FileChecksum: SHA1: 136162d5bde4bde0d32d4c94230956a0f24999a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-165
+
+
+FileName: /usr/share/man/man7/gitglossary.7.gz
+SPDXID: SPDXRef-git-man-file-166
+FileChecksum: SHA1: 779a17e4a53a427d5b267b7e753e6b5b76e5ddee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-166
+
+
+FileName: /usr/share/man/man7/gitnamespaces.7.gz
+SPDXID: SPDXRef-git-man-file-167
+FileChecksum: SHA1: 6f867b10a1b93cef131d2737c9838c70963fa036
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-167
+
+
+FileName: /usr/share/man/man7/gitremote-helpers.7.gz
+SPDXID: SPDXRef-git-man-file-168
+FileChecksum: SHA1: fe29180f9e2e9d45f44745c58776bd3bf246c83e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-168
+
+
+FileName: /usr/share/man/man7/gitrevisions.7.gz
+SPDXID: SPDXRef-git-man-file-169
+FileChecksum: SHA1: f305f3b70d5451399eb81119df597761a5a3d419
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-169
+
+
+FileName: /usr/share/man/man7/gitsubmodules.7.gz
+SPDXID: SPDXRef-git-man-file-170
+FileChecksum: SHA1: d2582bfb2747345319a0626cbfd23438c5741418
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-170
+
+
+FileName: /usr/share/man/man7/gittutorial-2.7.gz
+SPDXID: SPDXRef-git-man-file-171
+FileChecksum: SHA1: 538af6fd4646c4051ae55884787e3b5461890995
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-171
+
+
+FileName: /usr/share/man/man7/gittutorial.7.gz
+SPDXID: SPDXRef-git-man-file-172
+FileChecksum: SHA1: a7be92aed39f12f3d847df9af60f20b1c91fd49e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-172
+
+
+FileName: /usr/share/man/man7/gitworkflows.7.gz
+SPDXID: SPDXRef-git-man-file-173
+FileChecksum: SHA1: b1c123406116e823f73ab6d57bc7b08f0d90f94d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-git-man CONTAINS SPDXRef-git-man-file-173
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

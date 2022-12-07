@@ -1,0 +1,308 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/ncurses-bin_6.3-2-f443df7b-0ab1-554a-8aec-b27a555f6a0f
+DocumentName: ncurses-bin_6.3-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ncurses-bin
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:03:56Z
+
+
+## Package
+
+PackageName: ncurses-bin
+PackageVersion: 6.3-2
+SPDXID: SPDXRef-ncurses-bin
+PackageHomePage: https://invisible-island.net/ncurses/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 01ea39c989e2621e812529c0f02bee8024c4d87f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: X11-distribute-modifications-variant
+PackageCopyrightText: <text>Copyright 1980,1991,1992,1993 The Regents of the University of California
+Copyright 1994 X Consortium
+Copyright 1998-2017,2018 Free Software Foundation, Inc. 1996-2020,2021 Thomas E. Dickey 2001 Pradeep Padala
+</text>
+PackageComment: <text>terminal-related programs and man pages
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the programs used for manipulating the terminfo
+ database and individual terminfo entries, as well as some programs for
+ resetting terminals and such.</text>
+Relationship: SPDXRef-ncurses-bin DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-ncurses-bin DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtinfo6
+
+
+## File
+
+FileName: /usr/share/doc/ncurses-bin/copyright
+SPDXID: SPDXRef-ncurses-bin-file-0
+FileChecksum: SHA1: 5d0525d7a178a8f53f0ceab696dd5ec2c8eacace
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: X11-distribute-modifications-variant
+LicenseInfoInFile: X11
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 1998-2017,2018 Free Software Foundation, Inc. 1996-2020,2021 Thomas E. Dickey 2001 Pradeep Padala
+Copyright 1994 X Consortium
+Copyright 1980,1991,1992,1993 The Regents of the University of California
+</text>
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-0
+
+
+FileName: /usr/bin/clear
+SPDXID: SPDXRef-ncurses-bin-file-1
+FileChecksum: SHA1: 9306d28bdcadbbec563d52ee0c6b5b0da510a803
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-1
+
+
+FileName: /usr/bin/infocmp
+SPDXID: SPDXRef-ncurses-bin-file-2
+FileChecksum: SHA1: 1d66660a16898e7002aec24767f9bc31094dfe77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-2
+
+
+FileName: /usr/bin/tabs
+SPDXID: SPDXRef-ncurses-bin-file-3
+FileChecksum: SHA1: 20ef415fc7f1ab49c63cf46d8a86b6cc245c4e68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-3
+
+
+FileName: /usr/bin/tic
+SPDXID: SPDXRef-ncurses-bin-file-4
+FileChecksum: SHA1: 5a871d3d5710a8762be952bec995bc5e4e0739b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-4
+
+
+FileName: /usr/bin/toe
+SPDXID: SPDXRef-ncurses-bin-file-5
+FileChecksum: SHA1: d427f3d4bf46fe1b4e8588a9f3742e24dafb585b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-5
+
+
+FileName: /usr/bin/tput
+SPDXID: SPDXRef-ncurses-bin-file-6
+FileChecksum: SHA1: ec286107722b373099cc5c7d8cc750d119063891
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-6
+
+
+FileName: /usr/bin/tset
+SPDXID: SPDXRef-ncurses-bin-file-7
+FileChecksum: SHA1: 41f34223d7335c3907e793b1eaf8d30082c994b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-7
+
+
+FileName: /usr/share/man/man1/captoinfo.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-8
+FileChecksum: SHA1: bd13714d9c8f6edd1e233f6485399b336621f585
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-8
+
+
+FileName: /usr/share/man/man1/clear.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-9
+FileChecksum: SHA1: 6983d84ae95103782d64c8bd93df65fd0c1e1e04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-9
+
+
+FileName: /usr/share/man/man1/infocmp.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-10
+FileChecksum: SHA1: daafd6bfab68e2d1f021560ae7e1c227be8e411c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-10
+
+
+FileName: /usr/share/man/man1/infotocap.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-11
+FileChecksum: SHA1: 5eba8b5d2ae769fe736b3c9f4dc436c78a9ad3bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-11
+
+
+FileName: /usr/share/man/man1/tabs.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-12
+FileChecksum: SHA1: 01828de3de3719e242f53fc2e87c9c7c9d4ff756
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-12
+
+
+FileName: /usr/share/man/man1/tic.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-13
+FileChecksum: SHA1: 2ee05bfeaf71552a09488acf2c1d2f4db06144e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-13
+
+
+FileName: /usr/share/man/man1/toe.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-14
+FileChecksum: SHA1: 5677a01f78d6cd882ffd85723962d84cf27cf975
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-14
+
+
+FileName: /usr/share/man/man1/tput.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-15
+FileChecksum: SHA1: e87ba970758507956ad2d709f2fc837a14bdace8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-15
+
+
+FileName: /usr/share/man/man1/tset.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-16
+FileChecksum: SHA1: d931f4a109e07c7628d2edd0651e149e996857db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-16
+
+
+FileName: /usr/share/man/man5/scr_dump.5.gz
+SPDXID: SPDXRef-ncurses-bin-file-17
+FileChecksum: SHA1: ed74f5d822f43a7ffdb2c60432eca31ac44c68e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-17
+
+
+FileName: /usr/share/man/man5/term.5.gz
+SPDXID: SPDXRef-ncurses-bin-file-18
+FileChecksum: SHA1: e62b29fc4f6981ae1525dcf7e050beb3dfec0b40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-18
+
+
+FileName: /usr/share/man/man5/terminfo.5.gz
+SPDXID: SPDXRef-ncurses-bin-file-19
+FileChecksum: SHA1: d10c4a5d65bf5a4d65b82c116b5ea957f3043e56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-19
+
+
+FileName: /usr/share/man/man5/user_caps.5.gz
+SPDXID: SPDXRef-ncurses-bin-file-20
+FileChecksum: SHA1: 76d6be04a0fb520dc306feac24b9959d91c51f44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-20
+
+
+FileName: /usr/share/man/man7/term.7.gz
+SPDXID: SPDXRef-ncurses-bin-file-21
+FileChecksum: SHA1: dbfff261c3b9b8e4c146ab17f541c2ebdf13514d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-21
+
+
+FileName: /usr/bin/captoinfo
+SPDXID: SPDXRef-ncurses-bin-file-22
+FileChecksum: SHA1: 5a871d3d5710a8762be952bec995bc5e4e0739b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-22
+
+
+FileName: /usr/bin/infotocap
+SPDXID: SPDXRef-ncurses-bin-file-23
+FileChecksum: SHA1: 5a871d3d5710a8762be952bec995bc5e4e0739b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-23
+
+
+FileName: /usr/bin/reset
+SPDXID: SPDXRef-ncurses-bin-file-24
+FileChecksum: SHA1: 41f34223d7335c3907e793b1eaf8d30082c994b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-24
+
+
+FileName: /usr/share/doc/ncurses-bin/changelog.Debian.gz
+SPDXID: SPDXRef-ncurses-bin-file-25
+FileChecksum: SHA1: 39e468f5c93c23d99003e755b6f1b416d617581d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-25
+
+
+FileName: /usr/share/man/man1/reset.1.gz
+SPDXID: SPDXRef-ncurses-bin-file-26
+FileChecksum: SHA1: d931f4a109e07c7628d2edd0651e149e996857db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-bin CONTAINS SPDXRef-ncurses-bin-file-26
+
+
+## Extracted License
+

@@ -1,0 +1,294 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-kacst_2.01+mry-15-7e4a085c-d840-52fc-b1a3-7138ff5b0fed
+DocumentName: fonts-kacst_2.01+mry-15
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-kacst
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:58:41Z
+
+
+## Package
+
+PackageName: fonts-kacst
+PackageVersion: 2.01+mry-15
+SPDXID: SPDXRef-fonts-kacst
+PackageHomePage: https://www.kacst.edu.sa/eng/Pages/default.aspx
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: c950eebfc16fff229f5fd35f4fa8edaa126fbf11
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2002-2009, King Abdulaziz City for Science and Technology (KACST)
+Copyright 2004 Clint Adams <schizo@debian.org> 2006-2008, Mohammed Adnene Trojette <adn+deb@diwi.org> 2011 Christian Perrier <bubulle@debian.org> 2010-2017, Hideki Yamane <henrich@debian.org>
+Copyright 2006, Meor Ridzuan Meor Yahaya
+</text>
+PackageComment: <text>KACST free TrueType Arabic fonts
+ This is a set of TrueType Arabic fonts released by the King Abdulaziz
+ City for Science and Technology (KACST).</text>
+Relationship: SPDXRef-fonts-kacst DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+Relationship: SPDXRef-fonts-kacst DEPENDS_ON SPDXRef-fonts-kacst-one
+
+
+PackageName: fonts-kacst-one
+PackageVersion: 5.0+svn11846-10
+SPDXID: SPDXRef-fonts-kacst-one
+PackageHomePage: https://www.arabeyes.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ae0cde32e53cd664c0362e8aac8b380763c225b7
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Copyright 2009-2012, Khaled Hosny <khaledhosny@eglug.org> 2002, 2003, 2005, 2008, 2009, Free Software Foundation 2002, King Abdulaziz City
+Copyright 2010-2019, Hideki Yamane <henrich@debian.org>
+</text>
+PackageComment: <text>TrueType font designed for Arabic language
+ This package provides a TrueType font designed for Arabic by the
+ King Abdulaziz City for Science and Technology (KACST), Saudi Arabia.</text>
+Relationship: SPDXRef-fonts-kacst-one DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+Relationship: SPDXRef-fonts-kacst-one DEPENDS_ON SPDXRef-fonts-kacst
+
+
+## File
+
+FileName: /usr/share/doc/fonts-kacst/copyright
+SPDXID: SPDXRef-fonts-kacst-file-0
+FileChecksum: SHA1: ea1f6752242c1717d462d9fdb34ad33c1ee19387
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2002-2009, King Abdulaziz City for Science and Technology (KACST)
+Copyright 2006, Meor Ridzuan Meor Yahaya
+Copyright 2004 Clint Adams <schizo@debian.org> 2006-2008, Mohammed Adnene Trojette <adn+deb@diwi.org> 2011 Christian Perrier <bubulle@debian.org> 2010-2017, Hideki Yamane <henrich@debian.org>
+</text>
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-0
+
+
+FileName: /usr/share/doc/fonts-kacst/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-kacst-file-1
+FileChecksum: SHA1: a2a5710c0950a2f247338ec5b0e897d51cd36951
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-1
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstArt.ttf
+SPDXID: SPDXRef-fonts-kacst-file-2
+FileChecksum: SHA1: 2414b33de0b97f1065929f53564c7dadc32da439
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-2
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstBook.ttf
+SPDXID: SPDXRef-fonts-kacst-file-3
+FileChecksum: SHA1: ca4908ea24760b14bed8cce3a80b8938946bdc7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-3
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstDecorative.ttf
+SPDXID: SPDXRef-fonts-kacst-file-4
+FileChecksum: SHA1: aafca90e26859eceb8e64121a2d806ec269a0f0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-4
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstDigital.ttf
+SPDXID: SPDXRef-fonts-kacst-file-5
+FileChecksum: SHA1: 2ca7a2579cff51ec098922ec03f31f24c64ecbef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-5
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstFarsi.ttf
+SPDXID: SPDXRef-fonts-kacst-file-6
+FileChecksum: SHA1: c7339fc41d0be66eb29b87c9cd9dcd5da6e1a686
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-6
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstLetter.ttf
+SPDXID: SPDXRef-fonts-kacst-file-7
+FileChecksum: SHA1: 818227a7a2caf2531943a3aedf2622d58a9173ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-7
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstNaskh.ttf
+SPDXID: SPDXRef-fonts-kacst-file-8
+FileChecksum: SHA1: b0b34c84ec0121bb385cd95c3b9130abbe1c4d7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-8
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstOffice.ttf
+SPDXID: SPDXRef-fonts-kacst-file-9
+FileChecksum: SHA1: c9a47ca996fa6df961c6eb47decd6c73bc24c954
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-9
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstPen.ttf
+SPDXID: SPDXRef-fonts-kacst-file-10
+FileChecksum: SHA1: 74f8e2127522bb57879408ab0493e66198676848
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-10
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstPoster.ttf
+SPDXID: SPDXRef-fonts-kacst-file-11
+FileChecksum: SHA1: ae2cd3888e9a9c4dde0d245610225fed5d4aee21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-11
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstQurn.ttf
+SPDXID: SPDXRef-fonts-kacst-file-12
+FileChecksum: SHA1: 29fa5bfebfd8ab295bc2c288aeb410d5aceddafb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-12
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstScreen.ttf
+SPDXID: SPDXRef-fonts-kacst-file-13
+FileChecksum: SHA1: beacfd84a902c19de585aa3337fa4a1ba4f59740
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-13
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstTitle.ttf
+SPDXID: SPDXRef-fonts-kacst-file-14
+FileChecksum: SHA1: 262c15fa438b01f058278cb92409be7d5a73d91f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-14
+
+
+FileName: /usr/share/fonts/truetype/kacst/KacstTitleL.ttf
+SPDXID: SPDXRef-fonts-kacst-file-15
+FileChecksum: SHA1: 34176eab837d746e61089d0d9b271ebfb860665d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-15
+
+
+FileName: /usr/share/fonts/truetype/kacst/mry_KacstQurn.ttf
+SPDXID: SPDXRef-fonts-kacst-file-16
+FileChecksum: SHA1: 4a5253a8e033a2fd1573c55d32f214a558b515bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst CONTAINS SPDXRef-fonts-kacst-file-16
+
+
+FileName: /usr/share/doc/fonts-kacst-one/copyright
+SPDXID: SPDXRef-fonts-kacst-one-file-0
+FileChecksum: SHA1: d2badfd5b20a4fb80ae318fc815170e31c933cea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2009-2012, Khaled Hosny <khaledhosny@eglug.org> 2002, 2003, 2005, 2008, 2009, Free Software Foundation 2002, King Abdulaziz City
+Copyright 2010-2019, Hideki Yamane <henrich@debian.org>
+</text>
+Relationship: SPDXRef-fonts-kacst-one CONTAINS SPDXRef-fonts-kacst-one-file-0
+
+
+FileName: /usr/share/doc/fonts-kacst-one/BUGS
+SPDXID: SPDXRef-fonts-kacst-one-file-1
+FileChecksum: SHA1: a3e0b3c64a826fcd3d7aee95eaced80a176c19f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst-one CONTAINS SPDXRef-fonts-kacst-one-file-1
+
+
+FileName: /usr/share/doc/fonts-kacst-one/NEWS.gz
+SPDXID: SPDXRef-fonts-kacst-one-file-2
+FileChecksum: SHA1: c08ffa279da96ce04e951291b1732e4d5154b34a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst-one CONTAINS SPDXRef-fonts-kacst-one-file-2
+
+
+FileName: /usr/share/doc/fonts-kacst-one/README
+SPDXID: SPDXRef-fonts-kacst-one-file-3
+FileChecksum: SHA1: 9a75d33e9565b0ce339fe2f49144ff7615c35f9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst-one CONTAINS SPDXRef-fonts-kacst-one-file-3
+
+
+FileName: /usr/share/doc/fonts-kacst-one/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-kacst-one-file-4
+FileChecksum: SHA1: 2ed5b74408e3cce0775e857982744c6a36845d4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst-one CONTAINS SPDXRef-fonts-kacst-one-file-4
+
+
+FileName: /usr/share/fonts/truetype/kacst-one/KacstOne-Bold.ttf
+SPDXID: SPDXRef-fonts-kacst-one-file-5
+FileChecksum: SHA1: 180e7f873d6c4250c5099fd636a43c69ee91b86e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst-one CONTAINS SPDXRef-fonts-kacst-one-file-5
+
+
+FileName: /usr/share/fonts/truetype/kacst-one/KacstOne.ttf
+SPDXID: SPDXRef-fonts-kacst-one-file-6
+FileChecksum: SHA1: 3b4142c7f3d2583f29b30e4b6c70c9914b381300
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-kacst-one CONTAINS SPDXRef-fonts-kacst-one-file-6
+
+
+## Extracted License
+

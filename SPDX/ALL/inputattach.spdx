@@ -1,0 +1,166 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/inputattach_1:1.7.1-1build2-395630be-dfb6-5bf7-ab53-7303eaeb9b54
+DocumentName: inputattach_1:1.7.1-1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-inputattach
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:15:34Z
+
+
+## Package
+
+PackageName: inputattach
+PackageVersion: 1:1.7.1-1build2
+SPDXID: SPDXRef-inputattach
+PackageHomePage: https://sourceforge.net/projects/linuxconsole/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 118d733284b34e1403209490f5a2361fd55c853c
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageCopyrightText: <text>Copyright 1996-2000 Vojtech Pavlik 2008-2019, 2021 Stephen Kitt
+Copyright 1997-1998 Frederic Lepied 2000-2005 Edward Betts 2008-2021 Stephen Kitt
+Copyright 1999-2000 Vojtech Pavlik 2001 Arndt Schoenewald 2010-2017 Stephen Kitt
+Copyright 2001 Oliver Hamann
+Copyright 2001-2002 Johann Deneux
+Copyright 2015 Denilson Figueiredo de Sa Comment Copied
+</text>
+PackageComment: <text>utility to connect serial-attached peripherals to the input subsystem
+ inputattach connects legacy serial-attached input peripherals to the input
+ subsystem: keyboards, mice, joysticks, touch-screens...
+ .
+ Amongst other things this allows legacy mice to be accessed via the
+ /dev/input/mice multiplexer.
+ .
+ Supported devices include:
+  * Serial-attached keyboards including the Apple Newton keyboard, DEC LK201
+    / LK401 keyboards, the Stowaway keyboard, Sun type 4 and 5 keyboards,
+    standard PS/2 keyboards with a serial adapter
+  * Serial mice using Genius, Logitech, Microsoft or Mouse Systems protocols
+  * Serial-attached touchscreens including those manufactured by 3M, ELO,
+    Fujitsu, Penmount, Touchright, Touchwindow
+  * Serial-attached joysticks including I-Force, SpaceBall, SpaceOrb, Gravis
+    Stinger, WingMan Warrior
+  * The Handykey Twiddler used as a joystick or a chording keyboard</text>
+Relationship: SPDXRef-inputattach DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-inputattach DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+
+
+## File
+
+FileName: /usr/share/doc/inputattach/copyright
+SPDXID: SPDXRef-inputattach-file-0
+FileChecksum: SHA1: bce7b132aa8790e41af8ade7c733aca7a92d4551
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text>Copyright 1996-2000 Vojtech Pavlik 2008-2019, 2021 Stephen Kitt
+Copyright 2001 Oliver Hamann
+Copyright 2001-2002 Johann Deneux
+Copyright 1999-2000 Vojtech Pavlik 2001 Arndt Schoenewald 2010-2017 Stephen Kitt
+Copyright 1997-1998 Frederic Lepied 2000-2005 Edward Betts 2008-2021 Stephen Kitt
+Copyright 2015 Denilson Figueiredo de Sa Comment Copied
+</text>
+Relationship: SPDXRef-inputattach CONTAINS SPDXRef-inputattach-file-0
+
+
+FileName: /lib/udev/rules.d/60-inputattach.rules
+SPDXID: SPDXRef-inputattach-file-1
+FileChecksum: SHA1: d87731d72a078d481cf7869261134b377d32f7f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-inputattach CONTAINS SPDXRef-inputattach-file-1
+
+
+FileName: /usr/bin/inputattach
+SPDXID: SPDXRef-inputattach-file-2
+FileChecksum: SHA1: a53a1b40d15e326bc8892a783b4e4938d2d083ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-inputattach CONTAINS SPDXRef-inputattach-file-2
+
+
+FileName: /usr/lib/pm-utils/sleep.d/40inputattach
+SPDXID: SPDXRef-inputattach-file-3
+FileChecksum: SHA1: a1cc0eef695872d5fdbce1566d279ce5cd25822b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-inputattach CONTAINS SPDXRef-inputattach-file-3
+
+
+FileName: /usr/share/doc/inputattach/NEWS.gz
+SPDXID: SPDXRef-inputattach-file-4
+FileChecksum: SHA1: 166152ded74258a7c4b7d33487513c16490c9632
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-inputattach CONTAINS SPDXRef-inputattach-file-4
+
+
+FileName: /usr/share/doc/inputattach/README.Debian
+SPDXID: SPDXRef-inputattach-file-5
+FileChecksum: SHA1: f85cc73ca6fdff422df77b23107ec04bbcfa3e26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-inputattach CONTAINS SPDXRef-inputattach-file-5
+
+
+FileName: /usr/share/doc/inputattach/README.gz
+SPDXID: SPDXRef-inputattach-file-6
+FileChecksum: SHA1: e8d9dad0966255db9354582986a96cc9e1f4fd1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-inputattach CONTAINS SPDXRef-inputattach-file-6
+
+
+FileName: /usr/share/doc/inputattach/changelog.Debian.gz
+SPDXID: SPDXRef-inputattach-file-7
+FileChecksum: SHA1: dadfcaab342aa9ac33b318f1ff6b83fceabaf4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-inputattach CONTAINS SPDXRef-inputattach-file-7
+
+
+FileName: /usr/share/man/man1/inputattach.1.gz
+SPDXID: SPDXRef-inputattach-file-8
+FileChecksum: SHA1: ced29e71c53f446b0d0f5e0eb4604e3960b3d863
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-inputattach CONTAINS SPDXRef-inputattach-file-8
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

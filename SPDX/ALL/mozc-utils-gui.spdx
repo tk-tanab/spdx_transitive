@@ -1,0 +1,148 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/mozc-utils-gui_2.26.4220.100+dfsg-5.2-ff9454c3-9238-5031-838a-19c91d137ffd
+DocumentName: mozc-utils-gui_2.26.4220.100+dfsg-5.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libqt5core5a http://spdx.org/spdxdocs/libqt5core5a_5.15.3+dfsg-2ubuntu0.2-a2af3206-ae88-50d2-94f6-7bd29871d6c8 SHA1: dd1f5e4c32567beafc299d7f0732adf19cc5267f
+ExternalDocumentRef: DocumentRef-libqt5gui5.Cycle http://spdx.org/spdxdocs/libqt5gui5_5.15.3+dfsg-2ubuntu0.2-3b2e036f-b309-5e7e-b357-803578d46bb7 SHA1: 7a4cef4e0bda4c913f79eb40506c56059e4c77ef
+ExternalDocumentRef: DocumentRef-mozc-server http://spdx.org/spdxdocs/mozc-server_2.26.4220.100+dfsg-5.2-6069b2c7-2df2-56cc-9f43-ec937c442718 SHA1: 4bd14b9a5b151590c04d5e99f77316caf3a36100
+ExternalDocumentRef: DocumentRef-mozc-data http://spdx.org/spdxdocs/mozc-data_2.26.4220.100+dfsg-5.2-c3cdbfac-44fa-5ac8-b8d3-27f67d378f5f SHA1: e11e0395d7d823ad9fb7d504ad0432fc466aebb0
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mozc-utils-gui
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:25:44Z
+
+
+## Package
+
+PackageName: mozc-utils-gui
+PackageVersion: 2.26.4220.100+dfsg-5.2
+SPDXID: SPDXRef-mozc-utils-gui
+PackageHomePage: https://github.com/google/mozc.git
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 0947a69d666f8fc5613d0c632592efa11434e7d0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: NAIST-2003
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unicode
+PackageCopyrightText: <text>Copyright (c) 1991-2010 Unicode, Inc.
+Copyright 2000, 2001, 2002, 2003 Nara Institute of Science and Technology
+Copyright 2010 - 2018 Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Copyright 2010 Google Inc. 2010-2016 https://github.com/e-kato/macuim.git
+Copyright 2010-2018, Google Inc.
+Copyright 2012 CSSlayer Weng Xuetian <wengxt@gmail.com>
+Copyright Unicode, Inc.
+</text>
+PackageComment: <text>GUI utilities of the Mozc input method
+ Mozc is a Japanese Input Method Editor (IME) designed for multi-platform
+ such as Chromium OS, Windows, Mac and Linux.
+ .
+ mozc-server provides GUI uitilities of the Mozc input method.
+ This uses GUI and can set ibus-mozc and the user's dictionary.
+ .
+ This open-source project originates from Google Japanese Input.</text>
+Relationship: SPDXRef-mozc-utils-gui DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libabsl20210324
+Relationship: SPDXRef-mozc-utils-gui DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-mozc-utils-gui DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-mozc-utils-gui DEPENDS_ON DocumentRef-libqt5core5a:SPDXRef-libqt5core5a
+Relationship: SPDXRef-mozc-utils-gui DEPENDS_ON DocumentRef-libqt5gui5.Cycle:SPDXRef-libqt5gui5
+Relationship: SPDXRef-mozc-utils-gui DEPENDS_ON DocumentRef-libqt5gui5.Cycle:SPDXRef-libqt5widgets5
+Relationship: SPDXRef-mozc-utils-gui DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+Relationship: SPDXRef-mozc-utils-gui DEPENDS_ON DocumentRef-mozc-data:SPDXRef-mozc-data
+Relationship: SPDXRef-mozc-utils-gui DEPENDS_ON DocumentRef-mozc-server:SPDXRef-mozc-server
+
+
+## File
+
+FileName: /usr/share/doc/mozc-utils-gui/copyright
+SPDXID: SPDXRef-mozc-utils-gui-file-0
+FileChecksum: SHA1: 73a204f61f2b8585ccd76865ef15f95d8a5bb29a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: NAIST-2003
+LicenseInfoInFile: LicenseRef-scancode-unicode
+FileCopyrightText: <text>Copyright 2010-2018, Google Inc.
+Copyright Unicode, Inc.
+Copyright 2000, 2001, 2002, 2003 Nara Institute of Science and Technology
+Copyright 2010 - 2018 Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Copyright 2010 Google Inc. 2010-2016 https://github.com/e-kato/macuim.git
+Copyright 2012 CSSlayer Weng Xuetian <wengxt@gmail.com>
+Copyright (c) 1991-2010 Unicode, Inc.
+Copyright 2000, 2001, 2002, 2003 Nara Institute of Science and Technology
+</text>
+Relationship: SPDXRef-mozc-utils-gui CONTAINS SPDXRef-mozc-utils-gui-file-0
+
+
+FileName: /usr/lib/mozc/mozc_tool
+SPDXID: SPDXRef-mozc-utils-gui-file-1
+FileChecksum: SHA1: c2bc6bced1a9a4358c50261bf8c16d8ba36f5f26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-utils-gui CONTAINS SPDXRef-mozc-utils-gui-file-1
+
+
+FileName: /usr/share/applications/ibus-setup-mozc-jp.desktop
+SPDXID: SPDXRef-mozc-utils-gui-file-2
+FileChecksum: SHA1: ad4c1bd3e4909f1c4246ddb828d90c4d7cc4d28b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-utils-gui CONTAINS SPDXRef-mozc-utils-gui-file-2
+
+
+FileName: /usr/share/applications/setup-mozc.desktop
+SPDXID: SPDXRef-mozc-utils-gui-file-3
+FileChecksum: SHA1: 70624ffaeac7dcfcf642a0bf248e2004c44b233f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-utils-gui CONTAINS SPDXRef-mozc-utils-gui-file-3
+
+
+FileName: /usr/share/doc/mozc-utils-gui/README.Debian
+SPDXID: SPDXRef-mozc-utils-gui-file-4
+FileChecksum: SHA1: e35c6e69fbe2d5def884b9b5ec70c8d21a57c6fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-utils-gui CONTAINS SPDXRef-mozc-utils-gui-file-4
+
+
+FileName: /usr/share/doc/mozc-utils-gui/changelog.Debian.gz
+SPDXID: SPDXRef-mozc-utils-gui-file-5
+FileChecksum: SHA1: 29a86de5778c4e2c0122ab252f8c8f839cea7125
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mozc-utils-gui CONTAINS SPDXRef-mozc-utils-gui-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unicode
+LicenseName: Unicode Inc License Agreement
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unicode.yml
+</text>
+
+

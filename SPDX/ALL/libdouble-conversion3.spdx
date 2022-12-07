@@ -1,0 +1,108 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libdouble-conversion3_3.1.7-4-d740173a-1f5d-593e-b995-1febc6f0ed95
+DocumentName: libdouble-conversion3_3.1.7-4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libdouble-conversion3
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:26:12Z
+
+
+## Package
+
+PackageName: libdouble-conversion3
+PackageVersion: 3.1.7-4
+SPDXID: SPDXRef-libdouble-conversion3
+PackageHomePage: https://github.com/google/double-conversion
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 410e6f0b6fcd0584c00e1c9e08fc470c4633e255
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageCopyrightText: <text>Copyright 2006-2008, 2010-2012 The V8 project
+Copyright 2012-2013 Sebastien Villemot <sebastien@debian.org> 2018 Mo Zhou <cdluminate@gmail.com> 2019-2020 Mo Zhou <lumin@debian.org>
+</text>
+PackageComment: <text>routines to convert IEEE floats to and from strings
+ This library provides routines to convert IEEE single and double floats to and
+ from string representations. It offers at lot of flexibility with respect to
+ the conversion format: shortest, fixed, precision or exponential
+ representation; decimal, octal or hexadecimal basis; control over number of
+ digits, leading/trailing zeros and spaces.
+ .
+ The library consists of efficient conversion routines that have been
+ extracted from the V8 JavaScript engine. The code has been refactored
+ and improved so that it can be used more easily in other projects.
+ .
+ This package contains a shared version of the library.</text>
+Relationship: SPDXRef-libdouble-conversion3 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libdouble-conversion3 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-libdouble-conversion3 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+
+
+## File
+
+FileName: /usr/share/doc/libdouble-conversion3/copyright
+SPDXID: SPDXRef-libdouble-conversion3-file-0
+FileChecksum: SHA1: a7edbb9bef82c7673e9aaa9ce086c8c5a89a1c2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright 2006-2008, 2010-2012 The V8 project
+Copyright 2012-2013 Sebastien Villemot <sebastien@debian.org> 2018 Mo Zhou <cdluminate@gmail.com> 2019-2020 Mo Zhou <lumin@debian.org>
+</text>
+Relationship: SPDXRef-libdouble-conversion3 CONTAINS SPDXRef-libdouble-conversion3-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.3.1
+SPDXID: SPDXRef-libdouble-conversion3-file-1
+FileChecksum: SHA1: d870ebdfbd56b1f176d47b8278f8f5646a0568e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdouble-conversion3 CONTAINS SPDXRef-libdouble-conversion3-file-1
+
+
+FileName: /usr/share/doc/libdouble-conversion3/README.md
+SPDXID: SPDXRef-libdouble-conversion3-file-2
+FileChecksum: SHA1: db65349a0c399390f29c0ca85ad162366d49bd35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdouble-conversion3 CONTAINS SPDXRef-libdouble-conversion3-file-2
+
+
+FileName: /usr/share/doc/libdouble-conversion3/changelog.Debian.gz
+SPDXID: SPDXRef-libdouble-conversion3-file-3
+FileChecksum: SHA1: 84c5c9ba6d221b55c0c72d8fe1e63c9420b1a2b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdouble-conversion3 CONTAINS SPDXRef-libdouble-conversion3-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.3
+SPDXID: SPDXRef-libdouble-conversion3-file-4
+FileChecksum: SHA1: d870ebdfbd56b1f176d47b8278f8f5646a0568e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libdouble-conversion3 CONTAINS SPDXRef-libdouble-conversion3-file-4
+
+
+## Extracted License
+

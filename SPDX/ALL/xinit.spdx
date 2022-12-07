@@ -1,0 +1,137 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/xinit_1.4.1-0ubuntu4-69a58f54-67bb-5866-b11e-3dc2bf9e0d24
+DocumentName: xinit_1.4.1-0ubuntu4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-x11-common http://spdx.org/spdxdocs/x11-common_1:7.7+23ubuntu2-3c2a2291-5885-50c3-965d-168ff9a582c5 SHA1: 4b220352ef19f8ce8e2286135494055e0e222aef
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xinit
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:17:48Z
+
+
+## Package
+
+PackageName: xinit
+PackageVersion: 1.4.1-0ubuntu4
+SPDXID: SPDXRef-xinit
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b15fce77a924b11aa83ebcf5a3fc560bb7d21345
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: MIT-open-group
+PackageCopyrightText: <text>Copyright 1986, 1998 The Open Group
+</text>
+PackageComment: <text>X server initialisation tool
+ xinit and startx are programs which facilitate starting an X server, and
+ loading a base X session.</text>
+Relationship: SPDXRef-xinit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-xinit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libx11-6
+Relationship: SPDXRef-xinit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-coreutils
+Relationship: SPDXRef-xinit DEPENDS_ON DocumentRef-x11-common:SPDXRef-x11-common
+Relationship: SPDXRef-xinit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xauth
+Relationship: SPDXRef-xinit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-xserver-xorg
+Relationship: SPDXRef-xinit DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-terminal
+
+
+## File
+
+FileName: /usr/share/doc/xinit/copyright
+SPDXID: SPDXRef-xinit-file-0
+FileChecksum: SHA1: c6854195b9c8e79900af6d73fddaa78152c9426a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-open-group
+FileCopyrightText: <text>Copyright 1986, 1998 The Open Group
+</text>
+Relationship: SPDXRef-xinit CONTAINS SPDXRef-xinit-file-0
+
+
+FileName: /etc/X11/xinit/xinitrc
+SPDXID: SPDXRef-xinit-file-1
+FileChecksum: SHA1: b16ee319f2ee650d1fdc4dcc28091b09217fea02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xinit CONTAINS SPDXRef-xinit-file-1
+
+
+FileName: /etc/X11/xinit/xserverrc
+SPDXID: SPDXRef-xinit-file-2
+FileChecksum: SHA1: f825b6fa76fbb9e29447dcdb7064d967ed3354be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xinit CONTAINS SPDXRef-xinit-file-2
+
+
+FileName: /usr/bin/startx
+SPDXID: SPDXRef-xinit-file-3
+FileChecksum: SHA1: 5822f7d39764727a5be6f8df49f958f2dc708868
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xinit CONTAINS SPDXRef-xinit-file-3
+
+
+FileName: /usr/bin/xinit
+SPDXID: SPDXRef-xinit-file-4
+FileChecksum: SHA1: e1d953b07f567d833b2b38f5e6b2a09de3658e0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xinit CONTAINS SPDXRef-xinit-file-4
+
+
+FileName: /usr/share/doc/xinit/NEWS.Debian.gz
+SPDXID: SPDXRef-xinit-file-5
+FileChecksum: SHA1: 90f0c30d6279ddfb602f17e60a62a59730927490
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xinit CONTAINS SPDXRef-xinit-file-5
+
+
+FileName: /usr/share/doc/xinit/changelog.Debian.gz
+SPDXID: SPDXRef-xinit-file-6
+FileChecksum: SHA1: dba0d2621af2df5e9674c156f90368a497821319
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xinit CONTAINS SPDXRef-xinit-file-6
+
+
+FileName: /usr/share/man/man1/startx.1.gz
+SPDXID: SPDXRef-xinit-file-7
+FileChecksum: SHA1: 759b528cdbbc9e4b5c2046e2c6a9f934dd335edf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xinit CONTAINS SPDXRef-xinit-file-7
+
+
+FileName: /usr/share/man/man1/xinit.1.gz
+SPDXID: SPDXRef-xinit-file-8
+FileChecksum: SHA1: 875e3371f27b373f6b74365f87774a070fa89bbb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-xinit CONTAINS SPDXRef-xinit-file-8
+
+
+## Extracted License
+

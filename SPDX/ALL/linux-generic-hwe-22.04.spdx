@@ -1,0 +1,69 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/linux-generic-hwe-22.04_5.15.0.53.53-11d2fdd6-a99d-5483-a8b6-ec3449324874
+DocumentName: linux-generic-hwe-22.04_5.15.0.53.53
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-linux-headers-generic-hwe-22.04 http://spdx.org/spdxdocs/linux-headers-generic-hwe-22.04_5.15.0.53.53-385ff84d-c2b7-54e1-aa6d-401250450d42 SHA1: 6930c6c00cf78e5c550a1eacb30f67d20c91207c
+ExternalDocumentRef: DocumentRef-linux-image-generic-hwe-22.04 http://spdx.org/spdxdocs/linux-image-generic-hwe-22.04_5.15.0.53.53-3aa238d0-650e-59e9-9a07-d6bd4fc9f0bf SHA1: 851f630b54d6efffb0249746625c5107a63d4369
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-linux-generic-hwe-22.04
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:59:49Z
+
+
+## Package
+
+PackageName: linux-generic-hwe-22.04
+PackageVersion: 5.15.0.53.53
+SPDXID: SPDXRef-linux-generic-hwe-22.04
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 58263c6ddf3bb4d76897330eb4079bc3d276e93b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>copyrighted by Linus Torvalds and others
+</text>
+PackageComment: <text>Complete Generic Linux kernel and headers
+ This package will always depend on the latest complete generic Linux kernel
+ and headers.</text>
+Relationship: SPDXRef-linux-generic-hwe-22.04 DEPENDS_ON DocumentRef-linux-image-generic-hwe-22.04:SPDXRef-linux-image-generic-hwe-22.04
+Relationship: SPDXRef-linux-generic-hwe-22.04 DEPENDS_ON DocumentRef-linux-headers-generic-hwe-22.04:SPDXRef-linux-headers-generic-hwe-22.04
+
+
+## File
+
+FileName: /usr/share/doc/linux-generic-hwe-22.04/copyright
+SPDXID: SPDXRef-linux-generic-hwe-22.04-file-0
+FileChecksum: SHA1: 7f72d006f3fb3d44645981cab740d51b2aae34c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>copyrighted by Linus Torvalds and others
+</text>
+Relationship: SPDXRef-linux-generic-hwe-22.04 CONTAINS SPDXRef-linux-generic-hwe-22.04-file-0
+
+
+FileName: /usr/share/doc/linux-generic-hwe-22.04/changelog.gz
+SPDXID: SPDXRef-linux-generic-hwe-22.04-file-1
+FileChecksum: SHA1: 3c215fc6a26543720309ace885229f04661427a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-linux-generic-hwe-22.04 CONTAINS SPDXRef-linux-generic-hwe-22.04-file-1
+
+
+## Extracted License
+

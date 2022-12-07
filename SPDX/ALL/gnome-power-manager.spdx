@@ -1,0 +1,220 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-power-manager_3.32.0-2build2-08207694-90cf-5d1f-8ae3-67810e64aae0
+DocumentName: gnome-power-manager_3.32.0-2build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-power-manager
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:09:18Z
+
+
+## Package
+
+PackageName: gnome-power-manager
+PackageVersion: 3.32.0-2build2
+SPDXID: SPDXRef-gnome-power-manager
+PackageHomePage: https://projects.gnome.org/gnome-power-manager/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 75ac2941912568f486b16b322228c33d2db20451
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2006-2011 Richard Hughes <richard@hughsie.com>
+</text>
+PackageComment: <text>power management tool for the GNOME desktop
+ GNOME Power Manager is a session daemon for the GNOME desktop
+ that takes care of system or desktop events related to power, and
+ triggers actions accordingly. Its philosophy is to completely hide
+ these complex tasks and only show some settings important to the user.
+ .
+ GNOME power manager displays and manages battery status, power plug
+ events, display brightness, CPU, graphics card and hard disk drive
+ power saving, and can trigger suspend-to-RAM, hibernate or shutdown
+ events, all integrated to other components of the GNOME desktop.</text>
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpangocairo-1.0-0
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libupower-glib3
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dbus-user-session
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-settings-daemon-common
+Relationship: SPDXRef-gnome-power-manager DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-upower
+
+
+## File
+
+FileName: /usr/share/doc/gnome-power-manager/copyright
+SPDXID: SPDXRef-gnome-power-manager-file-0
+FileChecksum: SHA1: 0bf763a0b7212b28f4f333d826592abf9683257c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright 2006-2011 Richard Hughes <richard@hughsie.com>
+</text>
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-0
+
+
+FileName: /usr/bin/gnome-power-statistics
+SPDXID: SPDXRef-gnome-power-manager-file-1
+FileChecksum: SHA1: 170b4af0fbb3ba4f3d8dd87f2496d7b6d3d9b0d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-1
+
+
+FileName: /usr/share/applications/org.gnome.PowerStats.desktop
+SPDXID: SPDXRef-gnome-power-manager-file-2
+FileChecksum: SHA1: 6eb885a12bea01bcdb1a616854d39111c8519655
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-2
+
+
+FileName: /usr/share/doc/gnome-power-manager/AUTHORS
+SPDXID: SPDXRef-gnome-power-manager-file-3
+FileChecksum: SHA1: 1c5a9d37e2363a610cd2cf127ca64fe50255c990
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-3
+
+
+FileName: /usr/share/doc/gnome-power-manager/NEWS.gz
+SPDXID: SPDXRef-gnome-power-manager-file-4
+FileChecksum: SHA1: f7dfa53b662b288db09dc7d81d5ee46746aff47c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-4
+
+
+FileName: /usr/share/doc/gnome-power-manager/README
+SPDXID: SPDXRef-gnome-power-manager-file-5
+FileChecksum: SHA1: cc74c22f5b3f6cec286d36ff690a10148a7a33f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-5
+
+
+FileName: /usr/share/doc/gnome-power-manager/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-power-manager-file-6
+FileChecksum: SHA1: ab135b696f495c5ee1049879d991c7fd9d15c582
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-6
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.power-manager.gschema.xml
+SPDXID: SPDXRef-gnome-power-manager-file-7
+FileChecksum: SHA1: f55ba3c2b61afe9a226e073a91f03b98de7f1668
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-7
+
+
+FileName: /usr/share/icons/hicolor/16x16/apps/org.gnome.PowerStats.png
+SPDXID: SPDXRef-gnome-power-manager-file-8
+FileChecksum: SHA1: 5f2419f0495154d93f6ca7e6978a9c43a20c78c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-8
+
+
+FileName: /usr/share/icons/hicolor/22x22/apps/org.gnome.PowerStats.png
+SPDXID: SPDXRef-gnome-power-manager-file-9
+FileChecksum: SHA1: 6a98992b48ac9210bb7eac7beed499ef31161d20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-9
+
+
+FileName: /usr/share/icons/hicolor/24x24/apps/org.gnome.PowerStats.png
+SPDXID: SPDXRef-gnome-power-manager-file-10
+FileChecksum: SHA1: 3657bcecddaae7b9be86896c74db8c1b4af6a074
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-10
+
+
+FileName: /usr/share/icons/hicolor/32x32/apps/org.gnome.PowerStats.png
+SPDXID: SPDXRef-gnome-power-manager-file-11
+FileChecksum: SHA1: 09ae016c13bbaa78e0095c62b428c5cde7957dd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-11
+
+
+FileName: /usr/share/icons/hicolor/48x48/apps/org.gnome.PowerStats.png
+SPDXID: SPDXRef-gnome-power-manager-file-12
+FileChecksum: SHA1: 332a457e12f98534d099a3f768d58f96501cc4fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-12
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.PowerStats.svg
+SPDXID: SPDXRef-gnome-power-manager-file-13
+FileChecksum: SHA1: 6c98cf3cd343e648b07349f2d735285411936c22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-13
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.PowerStats-symbolic.svg
+SPDXID: SPDXRef-gnome-power-manager-file-14
+FileChecksum: SHA1: 30cb9593415b675d527454c92397fdcf62744df8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-14
+
+
+FileName: /usr/share/man/man1/gnome-power-statistics.1.gz
+SPDXID: SPDXRef-gnome-power-manager-file-15
+FileChecksum: SHA1: 656e44f527763abf29da63e1d0989f6bd8416c41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-15
+
+
+FileName: /usr/share/metainfo/org.gnome.PowerStats.appdata.xml
+SPDXID: SPDXRef-gnome-power-manager-file-16
+FileChecksum: SHA1: 9fb16c7814c3afbac8c0a400c126200748a9e9a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-power-manager CONTAINS SPDXRef-gnome-power-manager-file-16
+
+
+## Extracted License
+

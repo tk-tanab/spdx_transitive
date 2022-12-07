@@ -1,0 +1,104 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/publicsuffix_20211207.1025-1-467c3fec-0273-56f8-b7e6-d656c52c53a4
+DocumentName: publicsuffix_20211207.1025-1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-publicsuffix
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:12:32Z
+
+
+## Package
+
+PackageName: publicsuffix
+PackageVersion: 20211207.1025-1
+SPDXID: SPDXRef-publicsuffix
+PackageHomePage: https://publicsuffix.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: bf4166a5710c71523a2b94f6ceec10b7a3d6128a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>accurate, machine-readable list of domain name suffixes
+ A machine-readable list of domain name suffixes that accept public
+ registration.  Each suffix represents the part of a domain name which
+ is not under the control of the individual registrant, which makes
+ the list useful for grouping cookies, deciding same-origin policies,
+ collating spam, and other activities.</text>
+
+
+## File
+
+FileName: /usr/share/doc/publicsuffix/README.Debian
+SPDXID: SPDXRef-publicsuffix-file-0
+FileChecksum: SHA1: fe4f1fccd7943c21c9aea720912e56c18bb35546
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix-file-0
+
+
+FileName: /usr/share/doc/publicsuffix/changelog.Debian.gz
+SPDXID: SPDXRef-publicsuffix-file-1
+FileChecksum: SHA1: 6186d2cc0fec3345fed89f73e1c4a690439f2f63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix-file-1
+
+
+FileName: /usr/share/doc/publicsuffix/copyright
+SPDXID: SPDXRef-publicsuffix-file-2
+FileChecksum: SHA1: 818a5e9932c65571d76713d74ac907c8c34908bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix-file-2
+
+
+FileName: /usr/share/doc/publicsuffix/examples/test_psl.txt
+SPDXID: SPDXRef-publicsuffix-file-3
+FileChecksum: SHA1: d4a377c57d7199946caa4ad3b7e5a249c7aaa558
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix-file-3
+
+
+FileName: /usr/share/publicsuffix/public_suffix_list.dafsa
+SPDXID: SPDXRef-publicsuffix-file-4
+FileChecksum: SHA1: 3d0c604cba1a9407b1a18867d3af6533acdbf6fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix-file-4
+
+
+FileName: /usr/share/publicsuffix/public_suffix_list.dat
+SPDXID: SPDXRef-publicsuffix-file-5
+FileChecksum: SHA1: 80b551fe3a0b850cb78954fc4e2898feb0c57b16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix-file-5
+
+
+FileName: /usr/share/publicsuffix/effective_tld_names.dat
+SPDXID: SPDXRef-publicsuffix-file-6
+FileChecksum: SHA1: 80b551fe3a0b850cb78954fc4e2898feb0c57b16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-publicsuffix CONTAINS SPDXRef-publicsuffix-file-6
+
+
+## Extracted License
+

@@ -1,0 +1,234 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/acpid_1:2.0.33-1ubuntu1-6dc2f1be-6599-5ce9-9657-b9c8e5cfed0f
+DocumentName: acpid_1:2.0.33-1ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-acpid
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:40:17Z
+
+
+## Package
+
+PackageName: acpid
+PackageVersion: 1:2.0.33-1ubuntu1
+SPDXID: SPDXRef-acpid
+PackageHomePage: http://sourceforge.net/projects/acpid2/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 7073a7f25583b347c30936f9a723e260c2ca3000
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Copyright 2000 Andrew Henroid 2004 Tim Hockin (thockin@hockin.org) 2008-2011 Ted Felix (www.tedfelix.com)
+Copyright 2000 Wichert Akkerman <wakkerma@debian.org> 2001 Cajus Pollmeier <cajus@debian.org> 2008-2019 Michael Meskes <meskes@debian.org> 2019 Josue Ortega <josue@debian.org>
+</text>
+PackageComment: <text>Advanced Configuration and Power Interface event daemon
+ Modern computers support the Advanced Configuration and Power Interface (ACPI)
+ to allow intelligent power management on your system and to query battery and
+ configuration status.
+ .
+ ACPID is a completely flexible, totally extensible daemon for delivering
+ ACPI events. It listens on netlink interface (or on the deprecated file
+ /proc/acpi/event), and when an event occurs, executes programs to handle the
+ event. The programs it executes are configured through a set of configuration
+ files, which can be dropped into place by packages or by the admin.</text>
+Relationship: SPDXRef-acpid DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-acpid DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+Relationship: SPDXRef-acpid DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-kmod
+Relationship: SPDXRef-acpid DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+
+
+## File
+
+FileName: /usr/share/doc/acpid/copyright
+SPDXID: SPDXRef-acpid-file-0
+FileChecksum: SHA1: 63a1a8e6aaba72bf834521341084fd7de0f5fdd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2000 Andrew Henroid 2004 Tim Hockin (thockin@hockin.org) 2008-2011 Ted Felix (www.tedfelix.com)
+Copyright 2000 Wichert Akkerman <wakkerma@debian.org> 2001 Cajus Pollmeier <cajus@debian.org> 2008-2019 Michael Meskes <meskes@debian.org> 2019 Josue Ortega <josue@debian.org>
+</text>
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-0
+
+
+FileName: /etc/default/acpid
+SPDXID: SPDXRef-acpid-file-1
+FileChecksum: SHA1: ea7baf759206b4562b3439e5f6a95b9702e5a9f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-1
+
+
+FileName: /etc/init.d/acpid
+SPDXID: SPDXRef-acpid-file-2
+FileChecksum: SHA1: 2aac9677a1a8815cf504e95c4191efa4e8bf277c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-2
+
+
+FileName: /lib/systemd/system/acpid.path
+SPDXID: SPDXRef-acpid-file-3
+FileChecksum: SHA1: cb902dea5146e0ebe2e841fb45e54b1bcd8eed12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-3
+
+
+FileName: /lib/systemd/system/acpid.service
+SPDXID: SPDXRef-acpid-file-4
+FileChecksum: SHA1: efd866a3771d129f92acbe126bf0383378817acd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-4
+
+
+FileName: /lib/systemd/system/acpid.socket
+SPDXID: SPDXRef-acpid-file-5
+FileChecksum: SHA1: 482a56abc95f1ca26d29987c6cb9ac34a06cd75d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-5
+
+
+FileName: /usr/bin/acpi_listen
+SPDXID: SPDXRef-acpid-file-6
+FileChecksum: SHA1: 028f09287e848b5086c95166bd17173bf3e93692
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-6
+
+
+FileName: /usr/sbin/acpid
+SPDXID: SPDXRef-acpid-file-7
+FileChecksum: SHA1: 7e30067d898094c628a46325d3241cb569acbc0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-7
+
+
+FileName: /usr/share/doc/acpid/README
+SPDXID: SPDXRef-acpid-file-8
+FileChecksum: SHA1: c0a0de16ac7113d02c867e208036a38a25939359
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-8
+
+
+FileName: /usr/share/doc/acpid/README.Debian
+SPDXID: SPDXRef-acpid-file-9
+FileChecksum: SHA1: b03bbc0a0b4891b48399347679d6e20986e518d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-9
+
+
+FileName: /usr/share/doc/acpid/changelog.Debian.gz
+SPDXID: SPDXRef-acpid-file-10
+FileChecksum: SHA1: 5b1a624b750dde7e2af00be02103178744bdfe07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-10
+
+
+FileName: /usr/share/doc/acpid/examples/ac
+SPDXID: SPDXRef-acpid-file-11
+FileChecksum: SHA1: acfbdc16a0cde5dc188559c7d1a6e48177ed94fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-11
+
+
+FileName: /usr/share/doc/acpid/examples/ac.sh
+SPDXID: SPDXRef-acpid-file-12
+FileChecksum: SHA1: 07a4d7fa0da9691c719665056f8d6bb9a6d18776
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-12
+
+
+FileName: /usr/share/doc/acpid/examples/default
+SPDXID: SPDXRef-acpid-file-13
+FileChecksum: SHA1: dba1a45558c79c1f0dd75534cb09df717835ed00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-13
+
+
+FileName: /usr/share/doc/acpid/examples/default.sh
+SPDXID: SPDXRef-acpid-file-14
+FileChecksum: SHA1: e19d29b9f61d94db2dba816256b4b4edcab312b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-14
+
+
+FileName: /usr/share/doc/acpid/examples/powerbtn
+SPDXID: SPDXRef-acpid-file-15
+FileChecksum: SHA1: 920387bdae92781bed71c7bb5150c2059e22196b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-15
+
+
+FileName: /usr/share/doc/acpid/examples/powerbtn.sh
+SPDXID: SPDXRef-acpid-file-16
+FileChecksum: SHA1: 93a2855cfe0a3117410f961e6ec921e7ac255410
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-16
+
+
+FileName: /usr/share/man/man8/acpi_listen.8.gz
+SPDXID: SPDXRef-acpid-file-17
+FileChecksum: SHA1: aa4872e0f99ef93d37a14110ad206f0a6aec3de0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-17
+
+
+FileName: /usr/share/man/man8/acpid.8.gz
+SPDXID: SPDXRef-acpid-file-18
+FileChecksum: SHA1: d306c468af5bb066d4b1b0f0d6db26735f5cdbfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-acpid CONTAINS SPDXRef-acpid-file-18
+
+
+## Extracted License
+

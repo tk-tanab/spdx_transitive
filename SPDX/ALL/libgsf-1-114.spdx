@@ -1,0 +1,125 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgsf-1-114_1.14.47-1build2-adb459c5-33c4-5fde-a210-99a8c3e8eb01
+DocumentName: libgsf-1-114_1.14.47-1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libgsf-1-common http://spdx.org/spdxdocs/libgsf-1-common_1.14.47-1build2-6642914b-6345-565c-815a-c18498643129 SHA1: 125ef2957a78770e9406322c525f8712e0db5b8d
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgsf-1-114
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:11:17Z
+
+
+## Package
+
+PackageName: libgsf-1-114
+PackageVersion: 1.14.47-1build2
+SPDXID: SPDXRef-libgsf-1-114
+PackageHomePage: http://projects.gnome.org/libgsf/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 569ab00aeebe4d5ddb4548fae78f5f24e9b1883f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: FSFAP
+PackageLicenseInfoFromFiles: FSFULLR
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-autoconf-simple-exception-2.0
+PackageCopyrightText: <text>Copyright 1995-2003, 2005-2006, 2008-2014 Free Software Foundation, Inc.
+Copyright 2002-2007 Dom Lachowicz <cinamod@hotmail.com> 2004-2006 Frank Chiulli <fc-linux@cox.net> 2005-2006 INdT - Instituto Nokia de Tecnologia http://www.indt.org.br
+Copyright 2002-2013 J.H.M. Dassen
+Copyright 2004 Scott James Remnant <scott@netsplit.com> . 2012-2015 Dan Nicholson <dbn.lists@gmail.com>
+Copyright 2015 Philip Withnall <philip@tecnocode.co.uk>
+</text>
+PackageComment: <text>Structured File Library - runtime version
+ The GNOME Structured File Library aims to provide an efficient
+ extensible I/O abstraction for dealing with different structured file
+ formats.</text>
+Relationship: SPDXRef-libgsf-1-114 DEPENDS_ON DocumentRef-libgsf-1-common:SPDXRef-libgsf-1-common
+Relationship: SPDXRef-libgsf-1-114 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libbz2-1.0
+Relationship: SPDXRef-libgsf-1-114 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libgsf-1-114 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libgsf-1-114 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxml2
+Relationship: SPDXRef-libgsf-1-114 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+
+
+## File
+
+FileName: /usr/share/doc/libgsf-1-114/copyright
+SPDXID: SPDXRef-libgsf-1-114-file-0
+FileChecksum: SHA1: ef37b4dadba373993756d34cfce55939dd648465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: FSFAP
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseInfoInFile: LGPL-2.1-only
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2002-2007 Dom Lachowicz <cinamod@hotmail.com> 2004-2006 Frank Chiulli <fc-linux@cox.net> 2005-2006 INdT - Instituto Nokia de Tecnologia http://www.indt.org.br
+Copyright 2015 Philip Withnall <philip@tecnocode.co.uk>
+Copyright 1995-2003, 2005-2006, 2008-2014 Free Software Foundation, Inc.
+Copyright 2004 Scott James Remnant <scott@netsplit.com> . 2012-2015 Dan Nicholson <dbn.lists@gmail.com>
+Copyright 2002-2013 J.H.M. Dassen
+</text>
+Relationship: SPDXRef-libgsf-1-114 CONTAINS SPDXRef-libgsf-1-114-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgsf-1.so.114.0.47
+SPDXID: SPDXRef-libgsf-1-114-file-1
+FileChecksum: SHA1: 7dbc1f377a2bd9dc5e90053376556f34a9201a3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgsf-1-114 CONTAINS SPDXRef-libgsf-1-114-file-1
+
+
+FileName: /usr/share/doc/libgsf-1-114/changelog.Debian.gz
+SPDXID: SPDXRef-libgsf-1-114-file-2
+FileChecksum: SHA1: 02dd9e33cb854586936fecfa49a12e848bcb1fcf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgsf-1-114 CONTAINS SPDXRef-libgsf-1-114-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgsf-1.so.114
+SPDXID: SPDXRef-libgsf-1-114-file-3
+FileChecksum: SHA1: 7dbc1f377a2bd9dc5e90053376556f34a9201a3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgsf-1-114 CONTAINS SPDXRef-libgsf-1-114-file-3
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseName: Autoconf simple exception to GPL-2.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception-2.0.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception-2.0.yml
+</text>
+
+

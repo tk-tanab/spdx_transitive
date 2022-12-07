@@ -1,0 +1,363 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gtk2-engines-pixbuf_2.24.33-2ubuntu2-874a02ae-55c5-55f4-a912-e4ca63fd35d2
+DocumentName: gtk2-engines-pixbuf_2.24.33-2ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gtk2-engines-pixbuf
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:13:29Z
+
+
+## Package
+
+PackageName: gtk2-engines-pixbuf
+PackageVersion: 2.24.33-2ubuntu2
+SPDXID: SPDXRef-gtk2-engines-pixbuf
+PackageHomePage: http://www.gtk.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 729eeeb3bf6bd5d9fc34a45919b1c988fee340d4
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: FSFULLR
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: TCL
+PackageLicenseInfoFromFiles: LicenseRef-scancode-lcs-telegraphics
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright 1985, 1986, 1987, 1988, 1998 The Open Group
+Copyright 1987 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright 1991-1998
+Copyright 1991-2017 Free Software Foundation, Inc
+Copyright 1993, Robert Nation
+Copyright 1994-2007 Sun Microsystems, Inc
+Copyright 1995, 1996, 1997, 1998 by Steffen Beyer
+Copyright 1995-1999 Josh MacDonald
+Copyright 1995-2007 Peter Mattis
+Copyright 1995-2007 Spencer Kimball
+Copyright 1997 David Mosberger
+Copyright 1997 Paolo Molaro
+Copyright 1997-1998 Jay Painter
+Copyright 1997-1998 Owen Taylor
+Copyright 1997-2009 The GTK Team
+Copyright 1997-2013 Red Hat, Inc
+Copyright 1998 Cesar Miquel
+Copyright 1998 David Abilleira Freijeiro
+Copyright 1998 Elliot Lee
+Copyright 1998 Lars Hamann
+Copyright 1998 Mattias Groenlund
+Copyright 1998 Shawn T. Amundson
+Copyright 1998 Stefan Jeske
+Copyright 1998-2000 Tony Gale
+Copyright 1998-2003 James Henstridge
+Copyright 1998-2006 Tim Janik
+Copyright 1998-2007 Tor Lillqvist
+Copyright 1999 Mark Crichton, Larry Ewing
+Copyright 1999 Michael Zucchi
+Copyright 1999-2000 Jesus Bravo Alvarez
+Copyright 2000 Keith Packard
+Copyright 2000 SuSE Linux Ltd
+Copyright 2000,2001 Jonathan Blandford
+Copyright 2000-2004 Hans Breuer
+Copyright 2001 Archaeopteryx Software Inc
+Copyright 2001 CodeFactory AB
+Copyright 2001 Havoc Pennington
+Copyright 2001 Stefan Ondrejicka
+Copyright 2001-2002 convergence integrated media GmbH
+Copyright 2001-2004 Anders Carlsson
+Copyright 2001-2009 Hans Breuer
+Copyright 2001-2009 Kristian Rietveld
+Copyright 2002 Naba Kumar
+Copyright 2002 convergence GmbH
+Copyright 2002-2004 convergence GmbH
+Copyright 2002-2005 Sharif FarsiWeb, Inc.
+Copyright 2003 Alex Graveley
+Copyright 2003 Apple Computer, Inc.
+Copyright 2003 Kazuki IWAMOTO
+Copyright 2003 OpenMN team
+Copyright 2003 Ricardo Fernandez Pascual
+Copyright 2003 Takuro Ashie
+Copyright 2003, 2004 Dom Lachowicz
+Copyright 2003, 2004 Raymond Penners
+Copyright 2003, 2004 Soeren Sandmann
+Copyright 2003-2004 Kazuki IWAMOTO
+Copyright 2003-2005 Miloslav Trmac
+Copyright 2003-2009 Matthias Clasen
+Copyright 2004 Adam Weinberger
+Copyright 2004 Amir Hedayaty
+Copyright 2004 Gurban Muhemmet Tewekgeli
+Copyright 2004 James M. Cape
+Copyright 2004 Kakilik
+Copyright 2004 Lorenzo Gil Sanchez
+Copyright 2004 Morten Welinder
+Copyright 2004 Paolo Borelli
+Copyright 2004 Thierry Vignaud
+Copyright 2004 Zuza Software Foundation
+Copyright 2004-2006 Christian Hammond
+Copyright 2004-2008 Canonical Ltd.
+Copyright 2004-2008 Rosetta
+Copyright 2004-2009 GNOME Foundation
+Copyright 2004-2010 Nokia Corporation
+Copyright 2005 - Paolo Maggi
+Copyright 2005 Jamie McCracken
+Copyright 2005 Ronald S. Bultje
+Copyright 2005-2007 Free Software Foundation, Andhra Pradesh
+Copyright 2005-2007 Vincent Untz
+Copyright 2005-2007, Emmanuele Bassi
+Copyright 2005-2008 Carlos Garnacho
+Copyright 2005-2008 Imendio AB
+Copyright 2005-2008 Novell, Inc
+Copyright 2006 Alexander Larsson
+Copyright 2006 Hong Jen Yee
+Copyright 2006 John (J5) Palmieri
+Copyright 2006 Lukas Novotny
+Copyright 2006, 2007, 2008 Christian Persch
+Copyright 2006-2007
+Copyright 2006-2008 Jan Arne Petersen
+Copyright 2006-2009 Openismus GmbH
+Copyright 2007 John Stowers
+Copyright 2007 Neil Jagdish Patel
+Copyright 2007 Xan Lopez
+Copyright 2007-2009 Cody Russell
+Copyright 2008 Christian Kellner
+Copyright 2008 Cody Russell
+Copyright 2008 Jaap Haitsma
+Copyright 2008 Richard Hughes
+Copyright 2008 Tristan Van Berkom
+Copyright 2009 Bastien Nocera
+Copyright 2009 David Zeuthen
+Copyright 2009 Ghee Teo
+Copyright 2009 Johan Dahlin
+Copyright 2009 Stefan Walter
+Copyright 2010 Christian Dywan
+Copyright 2010 GNOME i18n Project for Vietnamese
+Copyright 2010 HZ
+Copyright 2011 Hiroyuki Yamamoto
+Copyright Croatiann team
+Copyright Federico Mena
+LCS/Telegraphics Copyright 1992-1994 The Regents of the University of California
+copyrighted by the Regents of the University of California, Sun Microsystems, Inc.
+</text>
+PackageComment: <text>pixbuf-based theme for GTK 2
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the pixbuf theme engine.</text>
+Relationship: SPDXRef-gtk2-engines-pixbuf DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gtk2-engines-pixbuf DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-gtk2-engines-pixbuf DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-gtk2-engines-pixbuf DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+
+
+## File
+
+FileName: /usr/share/doc/gtk2-engines-pixbuf/copyright
+SPDXID: SPDXRef-gtk2-engines-pixbuf-file-0
+FileChecksum: SHA1: e881a69d03d0cd9624081dc0aabb2c2a3bab3aa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: TCL
+LicenseInfoInFile: LicenseRef-scancode-lcs-telegraphics
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright 1985, 1986, 1987, 1988, 1998 The Open Group
+Copyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright 1987 by Digital Equipment Corporation, Maynard, Massachusetts
+Copyright 1991-2017 Free Software Foundation, Inc
+Copyright 1991-1998
+LCS/Telegraphics Copyright 1992-1994 The Regents of the University of California
+Copyright 1993, Robert Nation
+Copyright 1994-2007 Sun Microsystems, Inc
+Copyright 1995, 1996, 1997, 1998 by Steffen Beyer
+Copyright 1995-1999 Josh MacDonald
+Copyright 1995-2007 Peter Mattis
+Copyright 1995-2007 Spencer Kimball
+Copyright 1997-1998 Jay Painter
+Copyright 1997-2009 The GTK Team
+Copyright 1997 David Mosberger
+Copyright 1997-1998 Owen Taylor
+Copyright 1997 Paolo Molaro
+Copyright 1997-2013 Red Hat, Inc
+Copyright 1998-2003 James Henstridge
+Copyright 1998-2006 Tim Janik
+Copyright 1998-2007 Tor Lillqvist
+Copyright 1998 Cesar Miquel
+Copyright 1998 Mattias Groenlund
+Copyright 1998 David Abilleira Freijeiro
+Copyright 1998 Elliot Lee
+Copyright 1998 Lars Hamann
+Copyright 1998 Stefan Jeske
+Copyright 1998 Shawn T. Amundson
+Copyright 1999 Mark Crichton, Larry Ewing
+Copyright 1999 Michael Zucchi
+Copyright 2000,2001 Jonathan Blandford
+Copyright 2000-2004 Hans Breuer
+Copyright 2000 Keith Packard
+Copyright 2000 SuSE Linux Ltd
+Copyright 1998-2000 Tony Gale
+Copyright 1999-2000 Jesus Bravo Alvarez
+Copyright 2001-2004 Anders Carlsson
+Copyright 2001-2002 convergence integrated media GmbH
+Copyright 2001-2009 Kristian Rietveld
+Copyright 2001-2009 Hans Breuer
+Copyright 2001 Archaeopteryx Software Inc
+Copyright 2001 CodeFactory AB
+Copyright 2001 Havoc Pennington
+Copyright 2001 Stefan Ondrejicka
+Copyright 2002-2004 convergence GmbH
+Copyright 2002 convergence GmbH
+Copyright 2002 Naba Kumar
+Copyright 2002-2005 Sharif FarsiWeb, Inc.
+Copyright 2003, 2004 Dom Lachowicz
+Copyright 2003-2004 Kazuki IWAMOTO
+Copyright 2003-2009 Matthias Clasen
+Copyright 2003, 2004 Raymond Penners
+Copyright 2003, 2004 Soeren Sandmann
+Copyright 2003 Alex Graveley
+Copyright 2003 Apple Computer, Inc.
+Copyright 2003 Kazuki IWAMOTO
+Copyright 2003 Ricardo Fernandez Pascual
+Copyright 2003 Takuro Ashie
+Copyright 2003 OpenMN team
+Copyright 2003-2005 Miloslav Trmac
+Copyright 2004-2006 Christian Hammond
+Copyright 2004 James M. Cape
+Copyright 2004 Lorenzo Gil Sanchez
+Copyright 2004 Morten Welinder
+Copyright 2004 Paolo Borelli
+Copyright 2004-2008 Canonical Ltd.
+Copyright 2004-2008 Rosetta
+Copyright 2004 Adam Weinberger
+Copyright 2004 Gurban Muhemmet Tewekgeli
+Copyright 2004 Kakilik
+Copyright 2004 Zuza Software Foundation
+Copyright 2004 Amir Hedayaty
+Copyright 2004 Thierry Vignaud
+Copyright 2004-2009 GNOME Foundation
+Copyright 2005-2007, Emmanuele Bassi
+Copyright 2005-2007 Vincent Untz
+Copyright 2005-2007 Free Software Foundation, Andhra Pradesh
+Copyright 2005-2008 Imendio AB
+Copyright 2005 Jamie McCracken
+Copyright 2005-2008 Novell, Inc
+Copyright 2005 - Paolo Maggi
+Copyright 2005 Ronald S. Bultje
+Copyright 2006, 2007, 2008 Christian Persch
+Copyright 2006-2007
+Copyright 2006-2009 Openismus GmbH
+Copyright 2006 Alexander Larsson
+Copyright 2006 Hong Jen Yee
+Copyright 2006-2008 Jan Arne Petersen
+Copyright 2006 John (J5) Palmieri
+Copyright 2006 Lukas Novotny
+Copyright 2004-2010 Nokia Corporation
+Copyright 2005-2008 Carlos Garnacho
+Copyright 2007-2009 Cody Russell
+Copyright 2007 John Stowers
+Copyright 2007 Neil Jagdish Patel
+Copyright 2007 Xan Lopez
+Copyright 2008 Christian Kellner
+Copyright 2008 Cody Russell
+Copyright 2008 Jaap Haitsma
+Copyright 2008 Richard Hughes
+Copyright 2008 Tristan Van Berkom
+Copyright 2009 Bastien Nocera
+Copyright 2009 David Zeuthen
+Copyright 2009 Ghee Teo
+Copyright 2009 Stefan Walter
+Copyright 2009 Johan Dahlin
+Copyright 2010 Christian Dywan
+Copyright 2010 HZ
+Copyright 2010 GNOME i18n Project for Vietnamese
+Copyright 2011 Hiroyuki Yamamoto
+Copyright Federico Mena
+Copyright Croatiann team
+copyrighted by the Regents of the University of California, Sun Microsystems, Inc.
+</text>
+Relationship: SPDXRef-gtk2-engines-pixbuf CONTAINS SPDXRef-gtk2-engines-pixbuf-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libpixmap.so
+SPDXID: SPDXRef-gtk2-engines-pixbuf-file-1
+FileChecksum: SHA1: a80a95ebb1df371a2fbcf1ae6dd1a937a4e81053
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gtk2-engines-pixbuf CONTAINS SPDXRef-gtk2-engines-pixbuf-file-1
+
+
+FileName: /usr/share/doc/gtk2-engines-pixbuf/changelog.Debian.gz
+SPDXID: SPDXRef-gtk2-engines-pixbuf-file-2
+FileChecksum: SHA1: 8d6b0dcb62df30b82b5b5157d639b8d37fa99195
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gtk2-engines-pixbuf CONTAINS SPDXRef-gtk2-engines-pixbuf-file-2
+
+
+FileName: /usr/share/doc/gtk2-engines-pixbuf/AUTHORS
+SPDXID: SPDXRef-gtk2-engines-pixbuf-file-3
+FileChecksum: SHA1: abf75f70d53d49615c168c6c721e67ed09646335
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gtk2-engines-pixbuf CONTAINS SPDXRef-gtk2-engines-pixbuf-file-3
+
+
+FileName: /usr/share/doc/gtk2-engines-pixbuf/NEWS.gz
+SPDXID: SPDXRef-gtk2-engines-pixbuf-file-4
+FileChecksum: SHA1: dd674f2099bc3cf2396de2d8e59d962d7115f1ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gtk2-engines-pixbuf CONTAINS SPDXRef-gtk2-engines-pixbuf-file-4
+
+
+FileName: /usr/share/doc/gtk2-engines-pixbuf/README.gz
+SPDXID: SPDXRef-gtk2-engines-pixbuf-file-5
+FileChecksum: SHA1: 08921f8003e76d18737f0a0edbe772e6ace446e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gtk2-engines-pixbuf CONTAINS SPDXRef-gtk2-engines-pixbuf-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-lcs-telegraphics
+LicenseName: LCS-Telegraphics License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/lcs-telegraphics.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/lcs-telegraphics.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

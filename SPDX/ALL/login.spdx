@@ -1,0 +1,918 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/login_1:4.8.1-2ubuntu2-1a19424f-98eb-5ffc-bc99-553683d64978
+DocumentName: login_1:4.8.1-2ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-login
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:01:58Z
+
+
+## Package
+
+PackageName: login
+PackageVersion: 1:4.8.1-2ubuntu2
+SPDXID: SPDXRef-login
+PackageHomePage: https://github.com/shadow-maint/shadow
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 28c52337d960c5607629d8c5cddb9aefa0dfb830
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: TCP-wrappers
+PackageCopyrightText: <text>Copyright (c) 1992-2003 Free Software Foundation, Inc.
+Copyright 1995 by Wietse Venema
+copyright 1988 - 1994, Julianne Frances Haugh
+copyright 1997 - 2001, Marek Michalkiewicz
+copyright 2000 - 2007, Tomasz Kloczko
+copyright 2001 - 2004, Andrzej Krzysztofowicz
+</text>
+PackageComment: <text>system login tools
+ This package provides some required infrastructure for logins and for
+ changing effective user or group IDs, including:
+  * login, the program that invokes a user shell on a virtual terminal;
+  * nologin, a dummy shell for disabled user accounts;
+  * su, a basic tool for executing commands as root or another user.</text>
+Relationship: SPDXRef-login DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libaudit1
+Relationship: SPDXRef-login DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-login DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcrypt1
+Relationship: SPDXRef-login DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam0g
+Relationship: SPDXRef-login DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-runtime
+Relationship: SPDXRef-login DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-modules
+
+
+## File
+
+FileName: /usr/share/doc/login/copyright
+SPDXID: SPDXRef-login-file-0
+FileChecksum: SHA1: 6cf403ae824277b0dbf6424d83262997442be5ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: TCP-wrappers
+FileCopyrightText: <text>copyright 1988 - 1994, Julianne Frances Haugh
+copyright 1997 - 2001, Marek Michalkiewicz
+copyright 2001 - 2004, Andrzej Krzysztofowicz
+copyright 2000 - 2007, Tomasz Kloczko
+Copyright 1995 by Wietse Venema
+Copyright (c) 1992-2003 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-0
+
+
+FileName: /bin/login
+SPDXID: SPDXRef-login-file-1
+FileChecksum: SHA1: 3953e7a6bd01b7f9986ecf08a2b42638881c0462
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-1
+
+
+FileName: /etc/login.defs
+SPDXID: SPDXRef-login-file-2
+FileChecksum: SHA1: 52f7c15b2508a7135f96a25dfe42674ce5982452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-2
+
+
+FileName: /etc/pam.d/login
+SPDXID: SPDXRef-login-file-3
+FileChecksum: SHA1: f2de2855dad1eaa3f92c0ec207a63b50da6db49f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-3
+
+
+FileName: /usr/bin/faillog
+SPDXID: SPDXRef-login-file-4
+FileChecksum: SHA1: 2587467bb1d0089ab59eef928e00fd4fe282cff2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-4
+
+
+FileName: /usr/bin/lastlog
+SPDXID: SPDXRef-login-file-5
+FileChecksum: SHA1: ea1b6a468ad8019d760e8ff1106279ffc6efb92b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-5
+
+
+FileName: /usr/bin/newgrp
+SPDXID: SPDXRef-login-file-6
+FileChecksum: SHA1: 72a31920107cc2a6d49f547ad88472da37e1392b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-6
+
+
+FileName: /usr/sbin/nologin
+SPDXID: SPDXRef-login-file-7
+FileChecksum: SHA1: 0db117e372649da5a2ce91feb9e1d0829800cdba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-7
+
+
+FileName: /usr/share/apport/package-hooks/source_shadow.py
+SPDXID: SPDXRef-login-file-8
+FileChecksum: SHA1: 5400272687eb96228acd765c8a726a8b2a0d23d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-8
+
+
+FileName: /usr/share/doc/login/NEWS.Debian.gz
+SPDXID: SPDXRef-login-file-9
+FileChecksum: SHA1: 39381e9caeb542ea88ab0d1fc00eb63790f973a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-9
+
+
+FileName: /usr/share/doc/login/changelog.Debian.gz
+SPDXID: SPDXRef-login-file-10
+FileChecksum: SHA1: abea901a7a3ffa272bb51ee7d86a1cede1c319f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-10
+
+
+FileName: /usr/share/lintian/overrides/login
+SPDXID: SPDXRef-login-file-11
+FileChecksum: SHA1: c9a7439585dad96c1a783dadef3d2545c757b3c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-11
+
+
+FileName: /usr/share/man/cs/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-12
+FileChecksum: SHA1: cb350d014ee321c730536297021f6dcbaba9d8d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-12
+
+
+FileName: /usr/share/man/cs/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-13
+FileChecksum: SHA1: ae8a07b37cfa65d6cb6cd369b4c06525b800e10e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-13
+
+
+FileName: /usr/share/man/cs/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-14
+FileChecksum: SHA1: 3ceab8ee6e34594ba481d80ce42bf1c280df0228
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-14
+
+
+FileName: /usr/share/man/cs/man8/nologin.8.gz
+SPDXID: SPDXRef-login-file-15
+FileChecksum: SHA1: b6c987e1f3edb31d9141bc08f04b8abfc4754e85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-15
+
+
+FileName: /usr/share/man/da/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-16
+FileChecksum: SHA1: 23da74f01009e3ac62951bbd2371e982a4945ded
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-16
+
+
+FileName: /usr/share/man/da/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-17
+FileChecksum: SHA1: 3b2d079c0ddd242f70c624c4a7be54daee673e6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-17
+
+
+FileName: /usr/share/man/da/man8/nologin.8.gz
+SPDXID: SPDXRef-login-file-18
+FileChecksum: SHA1: 011cbfaa49035f5954bfab5ea22e97f4555a4692
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-18
+
+
+FileName: /usr/share/man/de/man1/login.1.gz
+SPDXID: SPDXRef-login-file-19
+FileChecksum: SHA1: 87de79a7b27b0429d1932f1e1568cb2947c66684
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-19
+
+
+FileName: /usr/share/man/de/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-20
+FileChecksum: SHA1: a6e22f66f4e44f20df9dba82c2a524a67c074e97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-20
+
+
+FileName: /usr/share/man/de/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-21
+FileChecksum: SHA1: 5e8627b514835c4c1013299a933283811fb5196f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-21
+
+
+FileName: /usr/share/man/de/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-22
+FileChecksum: SHA1: 58d03dfa74111ecde083fcdbca10db921de7e1fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-22
+
+
+FileName: /usr/share/man/de/man5/login.defs.5.gz
+SPDXID: SPDXRef-login-file-23
+FileChecksum: SHA1: 8ef815e5459d285f2826a3adaa591d04e2137153
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-23
+
+
+FileName: /usr/share/man/de/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-24
+FileChecksum: SHA1: 8af041d2cc5af12cc6122c9be2d3e64b9b8a4edd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-24
+
+
+FileName: /usr/share/man/de/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-25
+FileChecksum: SHA1: 3c8253307ff351a7556f28358fdbb474f593ed20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-25
+
+
+FileName: /usr/share/man/de/man8/nologin.8.gz
+SPDXID: SPDXRef-login-file-26
+FileChecksum: SHA1: 82252bdaa2e79683b52ab5013b89d2f4dc5e3a5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-26
+
+
+FileName: /usr/share/man/fr/man1/login.1.gz
+SPDXID: SPDXRef-login-file-27
+FileChecksum: SHA1: 770c281d3daee5e154a4a882fa2ceca51ebd1f23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-27
+
+
+FileName: /usr/share/man/fr/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-28
+FileChecksum: SHA1: eaebeb47b3b55ce8f15c1d1f4e98b96564944b91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-28
+
+
+FileName: /usr/share/man/fr/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-29
+FileChecksum: SHA1: 8a84e934bb949b3bcf67514364cc2659e5dc953a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-29
+
+
+FileName: /usr/share/man/fr/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-30
+FileChecksum: SHA1: a6c68a819f3cdb098a697d19a7cc898c858289f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-30
+
+
+FileName: /usr/share/man/fr/man5/login.defs.5.gz
+SPDXID: SPDXRef-login-file-31
+FileChecksum: SHA1: d1e4f64a69b0b6fcdedc2b7ac264a78ae8cd85ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-31
+
+
+FileName: /usr/share/man/fr/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-32
+FileChecksum: SHA1: 4771d0acc156d946193b810d58ca1a9efab1db00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-32
+
+
+FileName: /usr/share/man/fr/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-33
+FileChecksum: SHA1: 1f7064222e21b9f3ac902e9ba0745472e25488e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-33
+
+
+FileName: /usr/share/man/fr/man8/nologin.8.gz
+SPDXID: SPDXRef-login-file-34
+FileChecksum: SHA1: d139c6a6d46b313cc4a946073b0c53272ce2e838
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-34
+
+
+FileName: /usr/share/man/hu/man1/login.1.gz
+SPDXID: SPDXRef-login-file-35
+FileChecksum: SHA1: 08051cfbb6e04c0444d07224b1aca8a8b423b81c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-35
+
+
+FileName: /usr/share/man/hu/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-36
+FileChecksum: SHA1: 30b85a4ee9861b8549ae1af83cc597caca498705
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-36
+
+
+FileName: /usr/share/man/hu/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-37
+FileChecksum: SHA1: e04b7baa57d6f1cc70a352d6c55e7c8e7e961274
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-37
+
+
+FileName: /usr/share/man/id/man1/login.1.gz
+SPDXID: SPDXRef-login-file-38
+FileChecksum: SHA1: 293fbe74fa55b5e12f53c03106929f71690099c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-38
+
+
+FileName: /usr/share/man/it/man1/login.1.gz
+SPDXID: SPDXRef-login-file-39
+FileChecksum: SHA1: 13666639fd43cac08cc8d17d79dbb169c935984c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-39
+
+
+FileName: /usr/share/man/it/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-40
+FileChecksum: SHA1: badede418e5fb49ef99ac2f461743ab98fa0f210
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-40
+
+
+FileName: /usr/share/man/it/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-41
+FileChecksum: SHA1: a0b24eb8ce150a7f863a0cbc26d93faa5e220dc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-41
+
+
+FileName: /usr/share/man/it/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-42
+FileChecksum: SHA1: 913d5e7d942f4f9ecc4afc7a413aca0de5e00f32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-42
+
+
+FileName: /usr/share/man/it/man5/login.defs.5.gz
+SPDXID: SPDXRef-login-file-43
+FileChecksum: SHA1: b03bc9d55f0f439b4c976bfb98b294d69e0a805c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-43
+
+
+FileName: /usr/share/man/it/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-44
+FileChecksum: SHA1: 17746414c707de66efc082933c7ae30f377707ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-44
+
+
+FileName: /usr/share/man/it/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-45
+FileChecksum: SHA1: 0991420c4ecb95326af0ad601801edafa739134a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-45
+
+
+FileName: /usr/share/man/it/man8/nologin.8.gz
+SPDXID: SPDXRef-login-file-46
+FileChecksum: SHA1: 5fade16048b042d5ea4a777b45ff8508dd122c40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-46
+
+
+FileName: /usr/share/man/ja/man1/login.1.gz
+SPDXID: SPDXRef-login-file-47
+FileChecksum: SHA1: 0d52285f98d3bc754c74884bea64ef4ae6290e40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-47
+
+
+FileName: /usr/share/man/ja/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-48
+FileChecksum: SHA1: 095b93d7457488c4144486e2fca14a4e7683a193
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-48
+
+
+FileName: /usr/share/man/ja/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-49
+FileChecksum: SHA1: cf1e2745f05d1a596dcbe45129e3785084f744da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-49
+
+
+FileName: /usr/share/man/ja/man5/login.defs.5.gz
+SPDXID: SPDXRef-login-file-50
+FileChecksum: SHA1: 36c964bf615332788a357bbfc3b531538e2c0945
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-50
+
+
+FileName: /usr/share/man/ja/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-51
+FileChecksum: SHA1: ab1af0205589b979f5f5020fe519969bf97855e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-51
+
+
+FileName: /usr/share/man/ja/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-52
+FileChecksum: SHA1: 3441ebe51316f916e16e85ec99d62fd92bce7097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-52
+
+
+FileName: /usr/share/man/ko/man1/login.1.gz
+SPDXID: SPDXRef-login-file-53
+FileChecksum: SHA1: 5c679fc0adaf9344b56475290cac0a80d05727af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-53
+
+
+FileName: /usr/share/man/man1/login.1.gz
+SPDXID: SPDXRef-login-file-54
+FileChecksum: SHA1: dd66c18a94d7bce74875902d0d68a4214c79c16e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-54
+
+
+FileName: /usr/share/man/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-55
+FileChecksum: SHA1: b70c72ad8549a68e1294cb7bd43d185477159e81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-55
+
+
+FileName: /usr/share/man/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-56
+FileChecksum: SHA1: 5032d8c63df970e6a8c8bb49c73e9314d5ef7c66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-56
+
+
+FileName: /usr/share/man/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-57
+FileChecksum: SHA1: 14f330f0f4433ec7e18af4922428a3fb05814dd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-57
+
+
+FileName: /usr/share/man/man5/login.defs.5.gz
+SPDXID: SPDXRef-login-file-58
+FileChecksum: SHA1: 3e4598346c5f7bd4df14b35b49d1184ea467b6a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-58
+
+
+FileName: /usr/share/man/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-59
+FileChecksum: SHA1: f3da2d3234aad74559f37ff37f4dc5603ee26879
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-59
+
+
+FileName: /usr/share/man/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-60
+FileChecksum: SHA1: e2eab363e5e2bb523123ea1795d3bb51457d3e45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-60
+
+
+FileName: /usr/share/man/man8/nologin.8.gz
+SPDXID: SPDXRef-login-file-61
+FileChecksum: SHA1: c74c8972b8f1751abc9d03994033778cb1aa8c23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-61
+
+
+FileName: /usr/share/man/pl/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-62
+FileChecksum: SHA1: 3fab239773084b5fb3af10042cf1c1e48b823bc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-62
+
+
+FileName: /usr/share/man/pl/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-63
+FileChecksum: SHA1: 100c74f8eba0d78e7e7df378f0267ee0f82dccaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-63
+
+
+FileName: /usr/share/man/pl/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-64
+FileChecksum: SHA1: 52bedcddcfdc0bbabdae884ba5f3b90138e443b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-64
+
+
+FileName: /usr/share/man/pl/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-65
+FileChecksum: SHA1: f582b84a4aabca389d174300310f6f4119ef40f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-65
+
+
+FileName: /usr/share/man/pl/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-66
+FileChecksum: SHA1: 5d1fcf34504de146b6f1fe3f8dd943d1fc41b24c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-66
+
+
+FileName: /usr/share/man/ru/man1/login.1.gz
+SPDXID: SPDXRef-login-file-67
+FileChecksum: SHA1: 632ca56b2874e9e0b46205512d063750556f1908
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-67
+
+
+FileName: /usr/share/man/ru/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-68
+FileChecksum: SHA1: 55f2fcc362c406c7ba2db72d2a35a50da261113a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-68
+
+
+FileName: /usr/share/man/ru/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-69
+FileChecksum: SHA1: 1facee29898c7e75be1dc805750025ce997971c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-69
+
+
+FileName: /usr/share/man/ru/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-70
+FileChecksum: SHA1: ee3bef889eae8bb21755591b8fcfd5f40ff40248
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-70
+
+
+FileName: /usr/share/man/ru/man5/login.defs.5.gz
+SPDXID: SPDXRef-login-file-71
+FileChecksum: SHA1: 501fbd59d7987af6209a98811ce89c8b5abd7b1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-71
+
+
+FileName: /usr/share/man/ru/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-72
+FileChecksum: SHA1: 5049da2a9243c1019312bf963a4b50cc6461c9b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-72
+
+
+FileName: /usr/share/man/ru/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-73
+FileChecksum: SHA1: d1e3cf9352ff3385d57c26270d906cf23e5b5477
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-73
+
+
+FileName: /usr/share/man/ru/man8/nologin.8.gz
+SPDXID: SPDXRef-login-file-74
+FileChecksum: SHA1: 4039dac14fdbdeabe26c5d86a1bd38757a4a6bc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-74
+
+
+FileName: /usr/share/man/sv/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-75
+FileChecksum: SHA1: 271404787efa4944903c19f37a51e329acfb073e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-75
+
+
+FileName: /usr/share/man/sv/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-76
+FileChecksum: SHA1: 011c0d69519796db36a84df2b32a104f17a57520
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-76
+
+
+FileName: /usr/share/man/sv/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-77
+FileChecksum: SHA1: a951c71555aa4799341c325457bce6f3982bf201
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-77
+
+
+FileName: /usr/share/man/sv/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-78
+FileChecksum: SHA1: 7c411c19f8f036fcad1785b9fb468ca46fc8f7cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-78
+
+
+FileName: /usr/share/man/sv/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-79
+FileChecksum: SHA1: 225d617ceebb6a4d4c81c47fe76afa248e4beb02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-79
+
+
+FileName: /usr/share/man/sv/man8/nologin.8.gz
+SPDXID: SPDXRef-login-file-80
+FileChecksum: SHA1: 7bb8d00cde97b97ad6f868e9e4bebf014221ff61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-80
+
+
+FileName: /usr/share/man/tr/man1/login.1.gz
+SPDXID: SPDXRef-login-file-81
+FileChecksum: SHA1: c7818f4f8a6b23a56477431e119a30e51193d2da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-81
+
+
+FileName: /usr/share/man/zh_CN/man1/login.1.gz
+SPDXID: SPDXRef-login-file-82
+FileChecksum: SHA1: 40db79408a142831ca44759177de168605c9ae3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-82
+
+
+FileName: /usr/share/man/zh_CN/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-83
+FileChecksum: SHA1: f8d369e0044b9612329c46bb8f2bd2267f9633f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-83
+
+
+FileName: /usr/share/man/zh_CN/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-84
+FileChecksum: SHA1: 8d5c4699eab096cf4d6c797185529fc92232c6e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-84
+
+
+FileName: /usr/share/man/zh_CN/man5/faillog.5.gz
+SPDXID: SPDXRef-login-file-85
+FileChecksum: SHA1: c66154b9a00f9a000d8cab2b5b7b5c20a3318606
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-85
+
+
+FileName: /usr/share/man/zh_CN/man5/login.defs.5.gz
+SPDXID: SPDXRef-login-file-86
+FileChecksum: SHA1: 7406ae07ebc8504afd860b81fc09fb3bb2b0b168
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-86
+
+
+FileName: /usr/share/man/zh_CN/man8/faillog.8.gz
+SPDXID: SPDXRef-login-file-87
+FileChecksum: SHA1: db622ecf3f339001fd8a93c3b3954a414f50203b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-87
+
+
+FileName: /usr/share/man/zh_CN/man8/lastlog.8.gz
+SPDXID: SPDXRef-login-file-88
+FileChecksum: SHA1: 25f97162fd5edfc073da97636b3d4d6b7893ce71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-88
+
+
+FileName: /usr/share/man/zh_CN/man8/nologin.8.gz
+SPDXID: SPDXRef-login-file-89
+FileChecksum: SHA1: 4112dccccab6679f4d1582ab69a3d73a74a007c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-89
+
+
+FileName: /usr/share/man/zh_TW/man1/newgrp.1.gz
+SPDXID: SPDXRef-login-file-90
+FileChecksum: SHA1: 0390852c01568271ecb438bb6f2122175f1fb772
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-90
+
+
+FileName: /usr/bin/sg
+SPDXID: SPDXRef-login-file-91
+FileChecksum: SHA1: 72a31920107cc2a6d49f547ad88472da37e1392b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-91
+
+
+FileName: /usr/share/man/hu/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-92
+FileChecksum: SHA1: 30b85a4ee9861b8549ae1af83cc597caca498705
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-92
+
+
+FileName: /usr/share/man/ja/man1/sg.1.gz
+SPDXID: SPDXRef-login-file-93
+FileChecksum: SHA1: 095b93d7457488c4144486e2fca14a4e7683a193
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-login CONTAINS SPDXRef-login-file-93
+
+
+## Extracted License
+

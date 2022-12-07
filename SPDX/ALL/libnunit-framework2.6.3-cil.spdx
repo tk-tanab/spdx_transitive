@@ -1,0 +1,129 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libnunit-framework2.6.3-cil_2.6.4+dfsg-1.1-313e5a7a-523e-576e-9dd4-a27b373c4422
+DocumentName: libnunit-framework2.6.3-cil_2.6.4+dfsg-1.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-cli-common http://spdx.org/spdxdocs/cli-common_0.10-d3281068-e5b3-5068-b03a-e788f2d59408 SHA1: c6270a9a97ffc6cdfce98ae1605f4c90e20e09a0
+ExternalDocumentRef: DocumentRef-ca-certificates-mono.Cycle http://spdx.org/spdxdocs/ca-certificates-mono_6.8.0.105+dfsg-3.2-c951f9c2-6361-534d-bcb4-c06bc84abd54 SHA1: 271b3673ebfed6a1e989dcd394aac0dd5752c4e0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libnunit-framework2.6.3-cil
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:58:36Z
+
+
+## Package
+
+PackageName: libnunit-framework2.6.3-cil
+PackageVersion: 2.6.4+dfsg-1.1
+SPDXID: SPDXRef-libnunit-framework2.6.3-cil
+PackageHomePage: http://www.nunit.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 84e10fb9b650de6b548540ca1597048921207cad
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: zlib-acknowledgement
+PackageCopyrightText: <text>Copyright 2000-2002 Philip A. Craig
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2002-2008 Charlie Poole
+Portions Copyright 2002-2008 Charlie Poole
+</text>
+PackageComment: <text>Unit test framework for CLI - Assemblies
+ NUnit is a unit testing framework for all .NET languages. It serves the
+ same purpose as JUnit does in the Java world. It supports test
+ categories, testing for exceptions and writing test results in plain
+ text or XML.
+ .
+ This package contains the nunit.framework assembly</text>
+Relationship: SPDXRef-libnunit-framework2.6.3-cil DEPENDS_ON DocumentRef-cli-common:SPDXRef-cli-common
+Relationship: SPDXRef-libnunit-framework2.6.3-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-corlib4.5-cil
+Relationship: SPDXRef-libnunit-framework2.6.3-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system-xml4.0-cil
+Relationship: SPDXRef-libnunit-framework2.6.3-cil DEPENDS_ON DocumentRef-ca-certificates-mono.Cycle:SPDXRef-libmono-system4.0-cil
+
+
+## File
+
+FileName: /usr/share/doc/libnunit-framework2.6.3-cil/copyright
+SPDXID: SPDXRef-libnunit-framework2.6.3-cil-file-0
+FileChecksum: SHA1: 9758b425627e185fbfaaaad8267d09e6f8743cff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: zlib-acknowledgement
+FileCopyrightText: <text>Copyright 2002-2008 Charlie Poole
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2000-2002 Philip A. Craig
+Portions Copyright 2002-2008 Charlie Poole
+Copyright 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+Copyright 2000-2002 Philip A. Craig
+</text>
+Relationship: SPDXRef-libnunit-framework2.6.3-cil CONTAINS SPDXRef-libnunit-framework2.6.3-cil-file-0
+
+
+FileName: /usr/lib/cli/nunit.framework-2.6.3/nunit.framework.dll
+SPDXID: SPDXRef-libnunit-framework2.6.3-cil-file-1
+FileChecksum: SHA1: 419e82f76d2d7dcfda2b013724af5761f38215d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-framework2.6.3-cil CONTAINS SPDXRef-libnunit-framework2.6.3-cil-file-1
+
+
+FileName: /usr/share/cli-common/packages.d/libnunit-framework2.6.3-cil.installcligac
+SPDXID: SPDXRef-libnunit-framework2.6.3-cil-file-2
+FileChecksum: SHA1: 40029ac4755dfc1ed5846ea3080bfc63c73d8ed1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-framework2.6.3-cil CONTAINS SPDXRef-libnunit-framework2.6.3-cil-file-2
+
+
+FileName: /usr/share/cli-common/policies.d/010-2.6.nunit.framework
+SPDXID: SPDXRef-libnunit-framework2.6.3-cil-file-3
+FileChecksum: SHA1: 911c7489de23f3fcf9f83c87dc921fbdc8e619a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-framework2.6.3-cil CONTAINS SPDXRef-libnunit-framework2.6.3-cil-file-3
+
+
+FileName: /usr/share/cli-common/policies.d/libnunit-framework2.6.3-cil/policy.2.6.nunit.framework.config
+SPDXID: SPDXRef-libnunit-framework2.6.3-cil-file-4
+FileChecksum: SHA1: 76644b930092740d539224cdaf1652ced7299e16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-framework2.6.3-cil CONTAINS SPDXRef-libnunit-framework2.6.3-cil-file-4
+
+
+FileName: /usr/share/cli-common/policies.d/libnunit-framework2.6.3-cil/policy.2.6.nunit.framework.dll
+SPDXID: SPDXRef-libnunit-framework2.6.3-cil-file-5
+FileChecksum: SHA1: a64b34ba9e4f108c10f1b2973b162c419a4ac782
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-framework2.6.3-cil CONTAINS SPDXRef-libnunit-framework2.6.3-cil-file-5
+
+
+FileName: /usr/share/doc/libnunit-framework2.6.3-cil/changelog.Debian.gz
+SPDXID: SPDXRef-libnunit-framework2.6.3-cil-file-6
+FileChecksum: SHA1: c34de48d6eb12467f0886f062394f6d7c060b510
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libnunit-framework2.6.3-cil CONTAINS SPDXRef-libnunit-framework2.6.3-cil-file-6
+
+
+## Extracted License
+

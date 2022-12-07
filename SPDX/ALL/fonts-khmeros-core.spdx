@@ -1,0 +1,97 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-khmeros-core_5.0-9ubuntu1-b8bbd382-79f6-5697-9632-10928ee73813
+DocumentName: fonts-khmeros-core_5.0-9ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-khmeros-core
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:58:56Z
+
+
+## Package
+
+PackageName: fonts-khmeros-core
+PackageVersion: 5.0-9ubuntu1
+SPDXID: SPDXRef-fonts-khmeros-core
+PackageHomePage: http://www.khmeros.info
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9909636e9f7481a2415dc7a36b35f0c56ee73363
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2005 Paul Wise <pabs@debian.org> 2007 Soputtra San <ekenno@gmail.com> 2009-2013 Christian Perrier <bubulle@debian.org> 2021 Hideki Yamane <henrich@debian.org>
+Copyright 2005-2006 Danh Hong Open Forum of Cambodia
+</text>
+PackageComment: <text>KhmerOS Unicode fonts for the Khmer language of Cambodia
+ Free fonts for the Khmer language, used in Cambodia, developed by
+ the Khmer Software Iniative, part of the Open Forum of Cambodia.
+ .
+ This package provides Khmer OS fonts for use in the default Ubuntu desktop.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-khmeros-core/copyright
+SPDXID: SPDXRef-fonts-khmeros-core-file-0
+FileChecksum: SHA1: 35ac276648c13e27213b9f2f8f98123186a5c7f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2005-2006 Danh Hong Open Forum of Cambodia
+Copyright 2005 Paul Wise <pabs@debian.org> 2007 Soputtra San <ekenno@gmail.com> 2009-2013 Christian Perrier <bubulle@debian.org> 2021 Hideki Yamane <henrich@debian.org>
+</text>
+Relationship: SPDXRef-fonts-khmeros-core CONTAINS SPDXRef-fonts-khmeros-core-file-0
+
+
+FileName: /etc/fonts/conf.d/65-khmer.conf
+SPDXID: SPDXRef-fonts-khmeros-core-file-1
+FileChecksum: SHA1: dc75f959b4cadfc0320f860eff1e4efe064a2e5c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-khmeros-core CONTAINS SPDXRef-fonts-khmeros-core-file-1
+
+
+FileName: /usr/share/doc/fonts-khmeros-core/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-khmeros-core-file-2
+FileChecksum: SHA1: b011fdc0b0bd91a3432c77efb96bad3af86a8f0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-khmeros-core CONTAINS SPDXRef-fonts-khmeros-core-file-2
+
+
+FileName: /usr/share/fonts/truetype/ttf-khmeros-core/KhmerOS.ttf
+SPDXID: SPDXRef-fonts-khmeros-core-file-3
+FileChecksum: SHA1: afb9599d800fd0d1bd0b913ec6600a5987225c29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-khmeros-core CONTAINS SPDXRef-fonts-khmeros-core-file-3
+
+
+FileName: /usr/share/fonts/truetype/ttf-khmeros-core/KhmerOSsys.ttf
+SPDXID: SPDXRef-fonts-khmeros-core-file-4
+FileChecksum: SHA1: 56dd20f8983d5646c73ea8c1bb4e3c7aa5891d16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-khmeros-core CONTAINS SPDXRef-fonts-khmeros-core-file-4
+
+
+## Extracted License
+

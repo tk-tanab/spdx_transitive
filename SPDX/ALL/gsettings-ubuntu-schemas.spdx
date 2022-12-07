@@ -1,0 +1,151 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gsettings-ubuntu-schemas_0.0.7+21.10.20210712-0ubuntu2-c5a35fc1-3d33-5782-9ed2-e44195f0caa3
+DocumentName: gsettings-ubuntu-schemas_0.0.7+21.10.20210712-0ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gsettings-ubuntu-schemas
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:14:54Z
+
+
+## Package
+
+PackageName: gsettings-ubuntu-schemas
+PackageVersion: 0.0.7+21.10.20210712-0ubuntu2
+SPDXID: SPDXRef-gsettings-ubuntu-schemas
+PackageHomePage: https://launchpad.net/gsettings-ubuntu-touch-schemas
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 6cabaec3e399eb9cb2dbf192cd77011ea6fb43b8
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2010 Codethink Limited 2010 Vincent Untz <vuntz@gnome.org>
+Copyright 2010-2013 Canonical Ltd
+</text>
+PackageComment: <text>GSettings deskop-wide schemas for Ubuntu
+ gsettings-ubuntu-schemas contains a collection of GSettings schemas for
+ settings shared by various components of an Ubuntu environment.</text>
+Relationship: SPDXRef-gsettings-ubuntu-schemas DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+
+
+## File
+
+FileName: /usr/share/doc/gsettings-ubuntu-schemas/copyright
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-0
+FileChecksum: SHA1: eab1f1c218a39443ed36a73893e40a3d743f2236
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2010 Codethink Limited 2010 Vincent Untz <vuntz@gnome.org>
+Copyright 2010-2013 Canonical Ltd
+</text>
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-0
+
+
+FileName: /usr/share/doc/gsettings-ubuntu-schemas/changelog.Debian.gz
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-1
+FileChecksum: SHA1: d7ae5334eb68187c49753fece45ef97a09e6c28b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-1
+
+
+FileName: /usr/share/glib-2.0/schemas/com.canonical.unity.desktop.gschema.xml
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-2
+FileChecksum: SHA1: 93ec43e6fb28d6dee9eb9486b0735745e2287429
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-2
+
+
+FileName: /usr/share/glib-2.0/schemas/com.ubuntu.notifications.hub.gschema.xml
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-3
+FileChecksum: SHA1: ba8a854578ebff518b8e63ce8d71a0e2d5f5a3e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-3
+
+
+FileName: /usr/share/glib-2.0/schemas/com.ubuntu.notifications.settings.gschema.xml
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-4
+FileChecksum: SHA1: 75f2b59e9096d89fffa4c7adf1caab26240c507b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-4
+
+
+FileName: /usr/share/glib-2.0/schemas/com.ubuntu.phone.gschema.xml
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-5
+FileChecksum: SHA1: 9237895255dc184cac764cebafc012a7610e3f43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-5
+
+
+FileName: /usr/share/glib-2.0/schemas/com.ubuntu.sound.gschema.xml
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-6
+FileChecksum: SHA1: 9cd33f80ef65897c11e63ae7398abced81fc9c6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-6
+
+
+FileName: /usr/share/glib-2.0/schemas/com.ubuntu.touch.network.gschema.xml
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-7
+FileChecksum: SHA1: 7a3ca2d70367c4cfe9b484a7e619e8c3d9772e67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-7
+
+
+FileName: /usr/share/glib-2.0/schemas/com.ubuntu.touch.sound.gschema.xml
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-8
+FileChecksum: SHA1: a116f9c812fa59de34d80c63edf72f0913b2f928
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-8
+
+
+FileName: /usr/share/glib-2.0/schemas/com.ubuntu.touch.system.gschema.xml
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-9
+FileChecksum: SHA1: 9357a395427785075ce624f7fcba347fc6fd8e03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-9
+
+
+FileName: /usr/share/glib-2.0/schemas/com.ubuntu.user-interface.gschema.xml
+SPDXID: SPDXRef-gsettings-ubuntu-schemas-file-10
+FileChecksum: SHA1: 37b3d530d2aaffa0e992237d6a1c09d794158b9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsettings-ubuntu-schemas CONTAINS SPDXRef-gsettings-ubuntu-schemas-file-10
+
+
+## Extracted License
+

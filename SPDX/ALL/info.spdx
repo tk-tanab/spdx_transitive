@@ -1,0 +1,534 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/info_6.8-4build1-715e481b-96a2-5d67-9218-52a711c04c12
+DocumentName: info_6.8-4build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-install-info http://spdx.org/spdxdocs/install-info_6.8-4build1-2f08bd9f-482e-5dfb-a648-a43feff9e1b1 SHA1: 487a29c0120c420d918401790748457a951964d9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-info
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:29:05Z
+
+
+## Package
+
+PackageName: info
+PackageVersion: 6.8-4build1
+SPDXID: SPDXRef-info
+PackageHomePage: https://www.gnu.org/software/texinfo/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 22f02a4b7cd02d45ef59912c47ca7781e348aebf
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GFDL-1.3-only
+PackageLicenseInfoFromFiles: GFDL-1.3-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1988, 1990, 1991, 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2001, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Free Software Foundation, Inc.
+Copyright 1987-2019 Free Software Foundation, Inc.
+</text>
+PackageComment: <text>Standalone GNU Info documentation browser
+ The Info file format is an easily-parsable representation for online
+ documents. This program allows you to view Info documents, like the
+ ones stored in /usr/share/info.
+ .
+ Much of the software in Debian comes with its online documentation in
+ the form of Info files, so it is most likely you will want to install it.</text>
+Relationship: SPDXRef-info DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-info DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtinfo6
+Relationship: SPDXRef-info DEPENDS_ON DocumentRef-install-info:SPDXRef-install-info
+
+
+## File
+
+FileName: /usr/share/doc/info/copyright
+SPDXID: SPDXRef-info-file-0
+FileChecksum: SHA1: f6f582bbb3ce1ba2f79e0d4045f4627954b0b69a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: GFDL-1.3-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GFDL-1.3-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 1987-2019 Free Software Foundation, Inc.
+Copyright (c) 1988, 1990, 1991, 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2001, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-0
+
+
+FileName: /usr/bin/info
+SPDXID: SPDXRef-info-file-1
+FileChecksum: SHA1: 71f40aa9ed34b8f83c5767357f8840eccbe65171
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-1
+
+
+FileName: /usr/lib/mime/packages/info
+SPDXID: SPDXRef-info-file-2
+FileChecksum: SHA1: e802e13f8517bb478a684b850420b273985fbf29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-2
+
+
+FileName: /usr/share/applications/info.desktop
+SPDXID: SPDXRef-info-file-3
+FileChecksum: SHA1: efe52491de21048647392d09cd86fae03c4d5e73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-3
+
+
+FileName: /usr/share/doc/info/README.Debian
+SPDXID: SPDXRef-info-file-4
+FileChecksum: SHA1: 4912329e54abd8b800a10149c1986d32dc2696f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-4
+
+
+FileName: /usr/share/doc/info/html/Basic-Windows.html
+SPDXID: SPDXRef-info-file-5
+FileChecksum: SHA1: d8e60be998d4bc62c60e4020364db242ce2459f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-5
+
+
+FileName: /usr/share/doc/info/html/Colors-and-Styles.html
+SPDXID: SPDXRef-info-file-6
+FileChecksum: SHA1: 15c56832a331fdb9cf9fc2c0334425e933ccbca3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-6
+
+
+FileName: /usr/share/doc/info/html/Cursor-Commands.html
+SPDXID: SPDXRef-info-file-7
+FileChecksum: SHA1: b01a3198e3f7bb7cde9a2113dceadb248b01b870
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-7
+
+
+FileName: /usr/share/doc/info/html/Custom-Key-Bindings.html
+SPDXID: SPDXRef-info-file-8
+FileChecksum: SHA1: 42ea1892921aedde4b06d88bf12a5de55c6bd638
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-8
+
+
+FileName: /usr/share/doc/info/html/INFOPATH.html
+SPDXID: SPDXRef-info-file-9
+FileChecksum: SHA1: 10d939101b2c413b3ec6253ba596f0c0e45b94f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-9
+
+
+FileName: /usr/share/doc/info/html/Index-Commands.html
+SPDXID: SPDXRef-info-file-10
+FileChecksum: SHA1: 3f3ba68f8ca12b66406b3da7a6929f8b9cceccfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-10
+
+
+FileName: /usr/share/doc/info/html/Index.html
+SPDXID: SPDXRef-info-file-11
+FileChecksum: SHA1: 7f82b3d8c1621d21dafe6c8a3daa07e46ec07ffb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-11
+
+
+FileName: /usr/share/doc/info/html/Invoking-Info.html
+SPDXID: SPDXRef-info-file-12
+FileChecksum: SHA1: e2bb88b673700a203b06f897a93d12b23a8bd6f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-12
+
+
+FileName: /usr/share/doc/info/html/Miscellaneous-Commands.html
+SPDXID: SPDXRef-info-file-13
+FileChecksum: SHA1: 178c77a58fdb567cb40fb2d769307e7269de6e1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-13
+
+
+FileName: /usr/share/doc/info/html/Node-Commands.html
+SPDXID: SPDXRef-info-file-14
+FileChecksum: SHA1: 54657a9c033b3d7b299cb8c101d64a27024cd723
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-14
+
+
+FileName: /usr/share/doc/info/html/Parts-of-an-Xref.html
+SPDXID: SPDXRef-info-file-15
+FileChecksum: SHA1: 01e50331c0d30984dd6e935f41a4cff844cc05ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-15
+
+
+FileName: /usr/share/doc/info/html/Printing-Nodes.html
+SPDXID: SPDXRef-info-file-16
+FileChecksum: SHA1: 764ea73ec2e4bc30550253704786f0032f2f813a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-16
+
+
+FileName: /usr/share/doc/info/html/Scrolling-Commands.html
+SPDXID: SPDXRef-info-file-17
+FileChecksum: SHA1: 9b88a76528a12cecfadd1f6301ecf0d05c08bbed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-17
+
+
+FileName: /usr/share/doc/info/html/Searching-Commands.html
+SPDXID: SPDXRef-info-file-18
+FileChecksum: SHA1: 7ab69231e4532fe110299f9b4b446f8136af107c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-18
+
+
+FileName: /usr/share/doc/info/html/Selecting-Xrefs.html
+SPDXID: SPDXRef-info-file-19
+FileChecksum: SHA1: 16a9f482ac16d57304bd7c551ca59a7c8fca6166
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-19
+
+
+FileName: /usr/share/doc/info/html/Stand_002dalone-Info.html
+SPDXID: SPDXRef-info-file-20
+FileChecksum: SHA1: 7dc70d9f72e18d180095ff99e0f0205b7e681771
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-20
+
+
+FileName: /usr/share/doc/info/html/The-Echo-Area.html
+SPDXID: SPDXRef-info-file-21
+FileChecksum: SHA1: de567d9e3acd69cbbf98796c765beb50caf4b596
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-21
+
+
+FileName: /usr/share/doc/info/html/The-Mode-Line.html
+SPDXID: SPDXRef-info-file-22
+FileChecksum: SHA1: 47ec5d6f85a859259c614b19e38cf6c1e3378707
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-22
+
+
+FileName: /usr/share/doc/info/html/Variables.html
+SPDXID: SPDXRef-info-file-23
+FileChecksum: SHA1: cf7f6675f3cac440061682496c78af9ba092869c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-23
+
+
+FileName: /usr/share/doc/info/html/Window-Commands.html
+SPDXID: SPDXRef-info-file-24
+FileChecksum: SHA1: e95bdb667c36fecf87d4c8c63fc93f809c130679
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-24
+
+
+FileName: /usr/share/doc/info/html/Xref-Commands.html
+SPDXID: SPDXRef-info-file-25
+FileChecksum: SHA1: 45e8eb0cf6829061c4e9bd865e9bb1e3e720bac1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-25
+
+
+FileName: /usr/share/doc/info/html/_002d_002dall.html
+SPDXID: SPDXRef-info-file-26
+FileChecksum: SHA1: d887c4077651b5aa2090c22eb679fa78fc9e1d8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-26
+
+
+FileName: /usr/share/doc/info/html/_002d_002dapropos.html
+SPDXID: SPDXRef-info-file-27
+FileChecksum: SHA1: 6a54e343b343d570f57ff579b5f4118bb73d728f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-27
+
+
+FileName: /usr/share/doc/info/html/_002d_002dinit_002dfile.html
+SPDXID: SPDXRef-info-file-28
+FileChecksum: SHA1: 6eea8fff7f7a64374617b5c4611a0928471547be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-28
+
+
+FileName: /usr/share/doc/info/html/_002d_002draw_002descapes.html
+SPDXID: SPDXRef-info-file-29
+FileChecksum: SHA1: 213dfa0cc84f7494273ae29895201f40ccf74c0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-29
+
+
+FileName: /usr/share/doc/info/html/_002d_002dshow_002doptions.html
+SPDXID: SPDXRef-info-file-30
+FileChecksum: SHA1: bebe236fb312f552b329c0000fb159b976afa573
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-30
+
+
+FileName: /usr/share/doc/info/html/_002d_002dvi_002dkeys.html
+SPDXID: SPDXRef-info-file-31
+FileChecksum: SHA1: b308cbf93556f7383467da233a90c16bbcb33196
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-31
+
+
+FileName: /usr/share/doc/info/html/command_002dline-menu-items.html
+SPDXID: SPDXRef-info-file-32
+FileChecksum: SHA1: 7cbd67635f91a8861c095200dee6e0d14783e0eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-32
+
+
+FileName: /usr/share/doc/info/html/cursor_002dmovement_002dscrolls.html
+SPDXID: SPDXRef-info-file-33
+FileChecksum: SHA1: 360a7bffe3c51657c9463c407a03175bfd6a19cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-33
+
+
+FileName: /usr/share/doc/info/html/goto_002dinvocation.html
+SPDXID: SPDXRef-info-file-34
+FileChecksum: SHA1: 4bff6d3230598a4d11111d608d184b1254e68a06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-34
+
+
+FileName: /usr/share/doc/info/html/goto_002dnode.html
+SPDXID: SPDXRef-info-file-35
+FileChecksum: SHA1: b7bfa74ff3bed136cb080355d4f3bc93950fd4b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-35
+
+
+FileName: /usr/share/doc/info/html/index.html
+SPDXID: SPDXRef-info-file-36
+FileChecksum: SHA1: 624c8ae9fad8343b541f1aa8b112bf057289150a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-36
+
+
+FileName: /usr/share/doc/info/html/infokey-format.html
+SPDXID: SPDXRef-info-file-37
+FileChecksum: SHA1: 35f2c3a84c60d991fb23344c81ef0569ff2a0917
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-37
+
+
+FileName: /usr/share/doc/info/html/infopath_002dno_002ddefaults.html
+SPDXID: SPDXRef-info-file-38
+FileChecksum: SHA1: b0fa063d46794d1b97b7cf160e9ec9224a665944
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-38
+
+
+FileName: /usr/share/doc/info/html/min_002dsearch_002dlength.html
+SPDXID: SPDXRef-info-file-39
+FileChecksum: SHA1: 0bba8cd2e3d4f1ae0731a12a530e6b664a305553
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-39
+
+
+FileName: /usr/share/doc/info/html/repeated_002dsearch.html
+SPDXID: SPDXRef-info-file-40
+FileChecksum: SHA1: 472ad41e95b085847a53138d54637e38c591b588
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-40
+
+
+FileName: /usr/share/doc/info/html/scroll_002dbehavior.html
+SPDXID: SPDXRef-info-file-41
+FileChecksum: SHA1: 40cd896ff827a5f0b1699c5433f7277f3e29f741
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-41
+
+
+FileName: /usr/share/doc/info/html/variable_002dassignment.html
+SPDXID: SPDXRef-info-file-42
+FileChecksum: SHA1: 546a8a6ad30988148ad484ba19f6bff723f0b5ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-42
+
+
+FileName: /usr/share/info/info-stnd.info.gz
+SPDXID: SPDXRef-info-file-43
+FileChecksum: SHA1: 8af6e21208a13d3eca45b0bf6bbd01126ba0d721
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-43
+
+
+FileName: /usr/share/man/man1/info.1.gz
+SPDXID: SPDXRef-info-file-44
+FileChecksum: SHA1: 42d93b941e2341f93d682b98b41927529343f69f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-44
+
+
+FileName: /usr/share/man/man5/info.5.gz
+SPDXID: SPDXRef-info-file-45
+FileChecksum: SHA1: 63366423770106dbb89ff986df41ad48d9a3ffb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-45
+
+
+FileName: /usr/share/doc/info/AUTHORS
+SPDXID: SPDXRef-info-file-46
+FileChecksum: SHA1: 08991366b06484c91252c6e23c812474daf6ab0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-46
+
+
+FileName: /usr/share/doc/info/NEWS.gz
+SPDXID: SPDXRef-info-file-47
+FileChecksum: SHA1: 7499afc2bcd2b625ae0092f2cf28b1631e111770
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-47
+
+
+FileName: /usr/share/doc/info/README.gz
+SPDXID: SPDXRef-info-file-48
+FileChecksum: SHA1: 0f3959eff07daecc622290ed73e78494f091947d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-48
+
+
+FileName: /usr/share/doc/info/TODO.gz
+SPDXID: SPDXRef-info-file-49
+FileChecksum: SHA1: d73b082322e98e6a86d9535134df96ebae6f70ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-49
+
+
+FileName: /usr/share/doc/info/changelog.Debian.gz
+SPDXID: SPDXRef-info-file-50
+FileChecksum: SHA1: 68ed054e4276c154adcc4c89a033d9ba3d236f0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-info CONTAINS SPDXRef-info-file-50
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

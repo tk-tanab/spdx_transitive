@@ -1,0 +1,135 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-smc_1:7.2-20591508-e20d-5799-b0d8-cc089c4bdf48
+DocumentName: fonts-smc_1:7.2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-smc-suruma http://spdx.org/spdxdocs/fonts-smc-suruma_3.2.3-1-f3cdab1b-48e2-5bcf-8660-ecc8b0dfeaad SHA1: b207260272f675e5986ae39d1a251a50ea845c94
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-fonts-smc-meera http://spdx.org/spdxdocs/fonts-smc-meera_7.0.3-1-f53d0b8b-74e2-5777-bffc-83673f3372b1 SHA1: e7d8c5e84074d2965078685c0c93494e71b67988
+ExternalDocumentRef: DocumentRef-fonts-smc-manjari http://spdx.org/spdxdocs/fonts-smc-manjari_2.000-3-c2ef6c8e-3f76-56fd-b59e-3a924845a795 SHA1: eb3692e4c324d972ab3d758b993857df153d6b27
+ExternalDocumentRef: DocumentRef-fonts-smc-dyuthi http://spdx.org/spdxdocs/fonts-smc-dyuthi_3.0.2-2-0fa96b3b-97e4-53bf-8bd3-5dc286c146f1 SHA1: 3f8131d9192d77989682481d7c2adc081da3581c
+ExternalDocumentRef: DocumentRef-fonts-smc-karumbi http://spdx.org/spdxdocs/fonts-smc-karumbi_1.1.2-2-94de0560-d11d-51e3-aa46-b1a3fb77c056 SHA1: a0c453d4ccc28269f4174d4de808953a22a62023
+ExternalDocumentRef: DocumentRef-fonts-smc-keraleeyam http://spdx.org/spdxdocs/fonts-smc-keraleeyam_3.0.2-2-546b6efb-521b-5d4e-9794-afae1b7942ef SHA1: bb8da6d1e08bdfc44fb0bdac552fbb5a041b196f
+ExternalDocumentRef: DocumentRef-fonts-smc-uroob http://spdx.org/spdxdocs/fonts-smc-uroob_2.0.2-1-89c2cad5-87b7-5ac8-a3bc-75eb7960a533 SHA1: 7bd5d0021aa5c3f0ad02a04e7a91076cd7b5f2b5
+ExternalDocumentRef: DocumentRef-fonts-smc-rachana http://spdx.org/spdxdocs/fonts-smc-rachana_7.0.2-1build1-9212fc64-da7d-51e3-84f5-6536d8f25820 SHA1: 63cb49b5434dc4fa06a99293ca81478756a42da7
+ExternalDocumentRef: DocumentRef-fonts-smc-chilanka http://spdx.org/spdxdocs/fonts-smc-chilanka_1.540-1-8144de31-fb41-5310-8d0f-e9aa5d32bca0 SHA1: 40bdf6c63cd25ba73a3461cc40571fa0a722a3a6
+ExternalDocumentRef: DocumentRef-fonts-smc-gayathri http://spdx.org/spdxdocs/fonts-smc-gayathri_1.110-2-1-385227c3-e67a-5878-8bf7-b2fe78af4f5b SHA1: 559098d6ae7dab4fb48e74e7a41f9d928c2602b2
+ExternalDocumentRef: DocumentRef-fonts-smc-raghumalayalamsans http://spdx.org/spdxdocs/fonts-smc-raghumalayalamsans_2.2.1-1-063252f3-3034-5a86-bf6b-d2975f79776a SHA1: aa02955121160a849a6c585d5985c5480d882f64
+ExternalDocumentRef: DocumentRef-fonts-smc-anjalioldlipi http://spdx.org/spdxdocs/fonts-smc-anjalioldlipi_7.1.2-2-f91f4f8f-780d-5782-8a4f-b3a20b4d8c25 SHA1: ac5a22ef22aae1254f80fe1f640ce7257dc8ec07
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-smc
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:55:10Z
+
+
+## Package
+
+PackageName: fonts-smc
+PackageVersion: 1:7.2
+SPDXID: SPDXRef-fonts-smc
+PackageHomePage: https://smc.org.in
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 40fe4e6e1f62821b2ab0e47a283666155fdb9ee5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2017, Balasankar C <balasankarc@autistici.org>
+</text>
+PackageComment: <text>Metapackage for various TrueType fonts for Malayalam Language
+ This is a metapackage which provides various TrueType fonts for Malayalam
+ script which is primarily used in the state of Kerala.
+ .
+ These fonts are developed by SMC community. Following fonts are shipped with
+ this package:
+ .
+  * AnjaliOldLipi
+  * Chilanka
+  * Dyuti
+  * Gayathri
+  * Karumbi
+  * Keraleeyam
+  * Manjari
+  * Meera
+  * Rachana
+  * RaghuMalaylamSans
+  * Suruma
+  * Uroob</text>
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-anjalioldlipi:SPDXRef-fonts-smc-anjalioldlipi
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-chilanka:SPDXRef-fonts-smc-chilanka
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-dyuthi:SPDXRef-fonts-smc-dyuthi
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-gayathri:SPDXRef-fonts-smc-gayathri
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-karumbi:SPDXRef-fonts-smc-karumbi
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-keraleeyam:SPDXRef-fonts-smc-keraleeyam
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-manjari:SPDXRef-fonts-smc-manjari
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-meera:SPDXRef-fonts-smc-meera
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-rachana:SPDXRef-fonts-smc-rachana
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-raghumalayalamsans:SPDXRef-fonts-smc-raghumalayalamsans
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-suruma:SPDXRef-fonts-smc-suruma
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-fonts-smc-uroob:SPDXRef-fonts-smc-uroob
+Relationship: SPDXRef-fonts-smc DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dpkg
+
+
+## File
+
+FileName: /usr/share/doc/fonts-smc/copyright
+SPDXID: SPDXRef-fonts-smc-file-0
+FileChecksum: SHA1: ce2ba7a69b6059f9ff37526e527b6bd75f51484f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2012, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2017, Balasankar C <balasankarc@autistici.org>
+</text>
+Relationship: SPDXRef-fonts-smc CONTAINS SPDXRef-fonts-smc-file-0
+
+
+FileName: /usr/share/doc/fonts-smc/NEWS.Debian.gz
+SPDXID: SPDXRef-fonts-smc-file-1
+FileChecksum: SHA1: e94872d7ea95617b62229839d27ea367e6e9f376
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc CONTAINS SPDXRef-fonts-smc-file-1
+
+
+FileName: /usr/share/doc/fonts-smc/README.Debian
+SPDXID: SPDXRef-fonts-smc-file-2
+FileChecksum: SHA1: 64b4ce5b47c2cec5be8d2417623b778d0b45d5d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc CONTAINS SPDXRef-fonts-smc-file-2
+
+
+FileName: /usr/share/doc/fonts-smc/changelog.gz
+SPDXID: SPDXRef-fonts-smc-file-3
+FileChecksum: SHA1: 744ff74f8db4305f786788ba44f1df55ea38452f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc CONTAINS SPDXRef-fonts-smc-file-3
+
+
+FileName: /usr/share/lintian/overrides/fonts-smc
+SPDXID: SPDXRef-fonts-smc-file-4
+FileChecksum: SHA1: 661481f4ee864227b236f51b1879564a680efb81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc CONTAINS SPDXRef-fonts-smc-file-4
+
+
+## Extracted License
+

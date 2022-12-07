@@ -1,0 +1,218 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/mousetweaks_3.32.0-3build2-b3ab9f02-2e5f-51db-9c36-cf4efafec4f3
+DocumentName: mousetweaks_3.32.0-3build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mousetweaks
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:19:47Z
+
+
+## Package
+
+PackageName: mousetweaks
+PackageVersion: 3.32.0-3build2
+SPDXID: SPDXRef-mousetweaks
+PackageHomePage: https://wiki.gnome.org/Projects/Mousetweaks
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9c8a81a3dcd65dd08028b8e75d23f52e50d3a2d9
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: AGPL-3.0-only
+PackageLicenseInfoFromFiles: GFDL-1.1-or-later
+PackageLicenseInfoFromFiles: GFDL-1.3-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>(c) 2008, Josselin Mouette
+Copyright (c) 2007-2008 Francesco Fumanti
+Copyright (c) 2007-2008 Gerd Kohlberger
+Copyright 2003-2007 Lennart Poettering
+</text>
+PackageComment: <text>mouse accessibility enhancements for the GNOME desktop
+ This package contains a daemon and some panel applets to improve mouse
+ usability on the GNOME desktop. These enhancements are:
+ .
+  * The possibility to click without a button
+  * The ability to bring the context menu with a one-button mouse
+    (like MacOS does)
+  * An area to capture the mouse pointer until it is released with a
+    pre-defined key combination.</text>
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libx11-6
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxcursor1
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxfixes3
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxtst6
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-mousetweaks DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gsettings-desktop-schemas
+
+
+## File
+
+FileName: /usr/share/doc/mousetweaks/copyright
+SPDXID: SPDXRef-mousetweaks-file-0
+FileChecksum: SHA1: a45058dd665173a4438fd2b1208f8fcc4462c01c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: GFDL-1.3-only
+LicenseInfoInFile: AGPL-3.0-only
+LicenseInfoInFile: GFDL-1.1-or-later
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright (c) 2007-2008 Gerd Kohlberger
+Copyright (c) 2007-2008 Francesco Fumanti
+Copyright 2003-2007 Lennart Poettering
+(c) 2008, Josselin Mouette
+</text>
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-0
+
+
+FileName: /usr/bin/mousetweaks
+SPDXID: SPDXRef-mousetweaks-file-1
+FileChecksum: SHA1: a8258656a4f47e448395575d45a0e0259a6e2a42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-1
+
+
+FileName: /usr/share/GConf/gsettings/mousetweaks.convert
+SPDXID: SPDXRef-mousetweaks-file-2
+FileChecksum: SHA1: 9942d3e783a6b6f880b5da0cdf39f54812fd7515
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-2
+
+
+FileName: /usr/share/doc/mousetweaks/NEWS.gz
+SPDXID: SPDXRef-mousetweaks-file-3
+FileChecksum: SHA1: a3d37c59f43997f31e4cbe4239a36f2f9651de59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-3
+
+
+FileName: /usr/share/doc/mousetweaks/README
+SPDXID: SPDXRef-mousetweaks-file-4
+FileChecksum: SHA1: 795910866e034a7e4e8e59e35929f638578249f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-4
+
+
+FileName: /usr/share/doc/mousetweaks/changelog.Debian.gz
+SPDXID: SPDXRef-mousetweaks-file-5
+FileChecksum: SHA1: 403824dda92fcc5b0263adfae8f1d68d73db0c5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-5
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.mousetweaks.enums.xml
+SPDXID: SPDXRef-mousetweaks-file-6
+FileChecksum: SHA1: 9e3561a28408477533e6a5f8590f055c8aa1420b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-6
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.mousetweaks.gschema.xml
+SPDXID: SPDXRef-mousetweaks-file-7
+FileChecksum: SHA1: b544977e25c91fb8679ba78dc2ca75d6499a29d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-7
+
+
+FileName: /usr/share/man/man1/mousetweaks.1.gz
+SPDXID: SPDXRef-mousetweaks-file-8
+FileChecksum: SHA1: ddbaa1638dee3ea3aeb1b51a459b0d591591d1e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-8
+
+
+FileName: /usr/share/mousetweaks/double-click.png
+SPDXID: SPDXRef-mousetweaks-file-9
+FileChecksum: SHA1: 5aa31f6e19950a68f0e2d5bd188059ad172c33c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-9
+
+
+FileName: /usr/share/mousetweaks/drag-click.png
+SPDXID: SPDXRef-mousetweaks-file-10
+FileChecksum: SHA1: 43785fd69585253a4d4ccb9244ca69c81c0c2cf5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-10
+
+
+FileName: /usr/share/mousetweaks/mousetweaks.ui
+SPDXID: SPDXRef-mousetweaks-file-11
+FileChecksum: SHA1: 0101ac0f002663dc227df52b61fd7ad4539f4fc3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-11
+
+
+FileName: /usr/share/mousetweaks/right-click.png
+SPDXID: SPDXRef-mousetweaks-file-12
+FileChecksum: SHA1: bb818b032e102e9d8cd53048fcdb903944581305
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-12
+
+
+FileName: /usr/share/mousetweaks/single-click.png
+SPDXID: SPDXRef-mousetweaks-file-13
+FileChecksum: SHA1: 7f4a3e800fea7ecf3cc7930e7255eafce3b1eaf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mousetweaks CONTAINS SPDXRef-mousetweaks-file-13
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

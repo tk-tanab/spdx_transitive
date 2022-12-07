@@ -1,0 +1,80 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libsensors-config_1:3.6.0-7ubuntu1-419deb2d-eedb-5d78-afbc-2f603791e958
+DocumentName: libsensors-config_1:3.6.0-7ubuntu1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsensors-config
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:12:34Z
+
+
+## Package
+
+PackageName: libsensors-config
+PackageVersion: 1:3.6.0-7ubuntu1
+SPDXID: SPDXRef-libsensors-config
+PackageHomePage: https://hwmon.wiki.kernel.org/lm_sensors
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 04c9d2a0c085146ee32b3c7850e89765736b8987
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>lm-sensors configuration files
+ Lm-sensors is a hardware health monitoring package for Linux. It allows you
+ to access information from temperature, voltage, and fan speed sensors. It
+ works with most newer systems.
+ .
+ This library is only functional with a Linux kernel, it is provided on
+ non-Linux systems for portability reasons only.
+ .
+ This package contains the configuration files.</text>
+
+
+## File
+
+FileName: /etc/sensors.d/.placeholder
+SPDXID: SPDXRef-libsensors-config-file-0
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsensors-config CONTAINS SPDXRef-libsensors-config-file-0
+
+
+FileName: /etc/sensors3.conf
+SPDXID: SPDXRef-libsensors-config-file-1
+FileChecksum: SHA1: c58a79526a821d0704faa4bcb7af7dbc5bc1b006
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsensors-config CONTAINS SPDXRef-libsensors-config-file-1
+
+
+FileName: /usr/share/doc/libsensors-config/changelog.Debian.gz
+SPDXID: SPDXRef-libsensors-config-file-2
+FileChecksum: SHA1: 4a5111e6aa8a2ae377ead81fa1bb1e70a94210c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsensors-config CONTAINS SPDXRef-libsensors-config-file-2
+
+
+FileName: /usr/share/doc/libsensors-config/copyright
+SPDXID: SPDXRef-libsensors-config-file-3
+FileChecksum: SHA1: 82a87f97acd49f46edb8d22a4850cdcf8bc7ad32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsensors-config CONTAINS SPDXRef-libsensors-config-file-3
+
+
+## Extracted License
+

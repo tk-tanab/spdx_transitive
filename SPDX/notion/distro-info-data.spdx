@@ -1,0 +1,86 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/distro-info-data_0.52ubuntu0.2-31c49a9d-35ba-5c09-b81f-5c3078157662
+DocumentName: distro-info-data_0.52ubuntu0.2
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-distro-info-data
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:12:56Z
+
+
+## Package
+
+PackageName: distro-info-data
+PackageVersion: 0.52ubuntu0.2
+SPDXID: SPDXRef-distro-info-data
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: a0743343b655ebe953934c995e386bb38a8e598f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>information about the distributions' releases (data files)
+ Information about all releases of Debian and Ubuntu. The distro-info script
+ will give you the codename for e.g. the latest stable release of your
+ distribution. To get information about a specific distribution there are the
+ debian-distro-info and the ubuntu-distro-info scripts.
+ .
+ This package contains the data files.</text>
+
+
+## File
+
+FileName: /usr/share/distro-info/debian.csv
+SPDXID: SPDXRef-distro-info-data-file-0
+FileChecksum: SHA1: 65694293f2766427cea5b70ecab0e28376151469
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-distro-info-data CONTAINS SPDXRef-distro-info-data-file-0
+
+
+FileName: /usr/share/distro-info/ubuntu.csv
+SPDXID: SPDXRef-distro-info-data-file-1
+FileChecksum: SHA1: a34a32ae83c648ce0db85bca302703bcd57c6bfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-distro-info-data CONTAINS SPDXRef-distro-info-data-file-1
+
+
+FileName: /usr/share/doc/distro-info-data/README.Debian
+SPDXID: SPDXRef-distro-info-data-file-2
+FileChecksum: SHA1: 1d3457f5053824c219ea4ea6abd3fb770ef853d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-distro-info-data CONTAINS SPDXRef-distro-info-data-file-2
+
+
+FileName: /usr/share/doc/distro-info-data/changelog.gz
+SPDXID: SPDXRef-distro-info-data-file-3
+FileChecksum: SHA1: b6bba7e8c4f3fbb51776bf93a8be65ec5de8ff99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-distro-info-data CONTAINS SPDXRef-distro-info-data-file-3
+
+
+FileName: /usr/share/doc/distro-info-data/copyright
+SPDXID: SPDXRef-distro-info-data-file-4
+FileChecksum: SHA1: 82f1b4641fe10e03462fe45402552a013e0aed44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-distro-info-data CONTAINS SPDXRef-distro-info-data-file-4
+
+
+## Extracted License
+

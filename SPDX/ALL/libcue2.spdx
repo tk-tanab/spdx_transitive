@@ -1,0 +1,118 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libcue2_2.2.1-3build3-c817e102-e649-5797-afca-65b6d26472c3
+DocumentName: libcue2_2.2.1-3build3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libcue2
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:10:42Z
+
+
+## Package
+
+PackageName: libcue2
+PackageVersion: 2.2.1-3build3
+SPDXID: SPDXRef-libcue2
+PackageHomePage: https://github.com/lipnitsk/libcue
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1d303da1ec8217508425049f7948d90d4572f63d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: LicenseRef-scancode-autoconf-simple-exception-2.0
+PackageCopyrightText: <text>(c) 2009, Taylor LeMasurier-Wren <ripps818@gmail.com>
+Copyright (c) 2004, 2005, 2006, 2007, Svend Sorensen
+Copyright (c) 2009, Jochen Keil
+</text>
+PackageComment: <text>CUE Sheet Parser Library
+ Libcue is intended to parse a so called cue sheet from a
+ char string or a file pointer. For handling of the parsed
+ data a convenient API is available.</text>
+Relationship: SPDXRef-libcue2 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/libcue2/copyright
+SPDXID: SPDXRef-libcue2-file-0
+FileChecksum: SHA1: 0d4d21d5bb91df8d70b1d07ed121016a036a3058
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 2004, 2005, 2006, 2007, Svend Sorensen
+Copyright (c) 2009, Jochen Keil
+(c) 2009, Taylor LeMasurier-Wren <ripps818@gmail.com>
+</text>
+Relationship: SPDXRef-libcue2 CONTAINS SPDXRef-libcue2-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libcue.so.2.2.1
+SPDXID: SPDXRef-libcue2-file-1
+FileChecksum: SHA1: b9265dbc6001909260278c576bd8f7d09ccd53be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libcue2 CONTAINS SPDXRef-libcue2-file-1
+
+
+FileName: /usr/share/doc/libcue2/README.md
+SPDXID: SPDXRef-libcue2-file-2
+FileChecksum: SHA1: f0a48be00c3f8c274a6c8da0d4a0c066dffc4741
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libcue2 CONTAINS SPDXRef-libcue2-file-2
+
+
+FileName: /usr/share/doc/libcue2/changelog.Debian.gz
+SPDXID: SPDXRef-libcue2-file-3
+FileChecksum: SHA1: c03f6d886c885e502c0e5d5f8296fb36129b0825
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libcue2 CONTAINS SPDXRef-libcue2-file-3
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libcue.so.2
+SPDXID: SPDXRef-libcue2-file-4
+FileChecksum: SHA1: b9265dbc6001909260278c576bd8f7d09ccd53be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libcue2 CONTAINS SPDXRef-libcue2-file-4
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseName: Autoconf simple exception to GPL-2.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception-2.0.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception-2.0.yml
+</text>
+
+

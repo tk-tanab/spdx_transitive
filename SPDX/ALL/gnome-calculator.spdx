@@ -1,0 +1,1159 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-calculator_1:41.1-2ubuntu2-8b20a10a-c676-5363-b1bf-2c6c5473f392
+DocumentName: gnome-calculator_1:41.1-2ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-calculator
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:07:49Z
+
+
+## Package
+
+PackageName: gnome-calculator
+PackageVersion: 1:41.1-2ubuntu2
+SPDXID: SPDXRef-gnome-calculator
+PackageHomePage: https://wiki.gnome.org/Apps/Calculator
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e9fe25cb40ffd5bd11abc3f114dc69136788ee12
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright 2008 Free Software Foundation, Inc. Joan Duran <jodufi@gmail.com> , 2008, 2009. Sergi Morraja <sergi256@gmail.com> , 2011, 2012. Gil Forcada <gilforcada@guifi.net> , 2012. Lucas Lommer <llommer@svn.gnome.org> , 2009. Marek Cernocky <marek@manet.cz> , 2009, 2010, 2011. Mario Blattermann <mario.blaettermann@gmail.com> , 2010, 2012, 2013. Jakob Kramer <jakob.kramer@gmx.de> , 2010. Christian Kirbach <Christian.Kirbach@googlemail.com> , 2008-2010, 2011. Jennie Petoumenou <epetoumenou@gmail.com> , 2009. Marios Zindilis <m.zindilis@dmajor.org> , 2010. Dimitris Spingos
+Copyright 2008-2011 Robert Ancell 1987-2008 Sun Microsystems, Inc. 2004-2008 Sami Pietila
+</text>
+PackageComment: <text>GNOME desktop calculator
+ The GNOME calculator is a powerful graphical calculator with financial,
+ logical and scientific modes. It uses a multiple precision package to do its
+ arithmetic to give a high degree of accuracy.</text>
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libatk1.0-0
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgee-0.8-2
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtksourceview-4-0
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libhandy-1-0
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libmpc3
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libmpfr6
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsoup2.4-1
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxml2
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-yelp
+Relationship: SPDXRef-gnome-calculator DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gvfs
+
+
+## File
+
+FileName: /usr/share/doc/gnome-calculator/copyright
+SPDXID: SPDXRef-gnome-calculator-file-0
+FileChecksum: SHA1: 54ebeff0823b699fbfaca97061bd1fd9d9ec770b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright 2008-2011 Robert Ancell 1987-2008 Sun Microsystems, Inc. 2004-2008 Sami Pietila
+Copyright 2008 Free Software Foundation, Inc. Joan Duran <jodufi@gmail.com> , 2008, 2009. Sergi Morraja <sergi256@gmail.com> , 2011, 2012. Gil Forcada <gilforcada@guifi.net> , 2012. Lucas Lommer <llommer@svn.gnome.org> , 2009. Marek Cernocky <marek@manet.cz> , 2009, 2010, 2011. Mario Blattermann <mario.blaettermann@gmail.com> , 2010, 2012, 2013. Jakob Kramer <jakob.kramer@gmx.de> , 2010. Christian Kirbach <Christian.Kirbach@googlemail.com> , 2008-2010, 2011. Jennie Petoumenou <epetoumenou@gmail.com> , 2009. Marios Zindilis <m.zindilis@dmajor.org> , 2010. Dimitris Spingos
+</text>
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-0
+
+
+FileName: /usr/bin/gcalccmd
+SPDXID: SPDXRef-gnome-calculator-file-1
+FileChecksum: SHA1: cc9cd4bd0ced41dd8c4572a29370f18ec8c547e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-1
+
+
+FileName: /usr/bin/gnome-calculator
+SPDXID: SPDXRef-gnome-calculator-file-2
+FileChecksum: SHA1: 24f3ad8916f1887ee5ed509a6e230a769075c9fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-2
+
+
+FileName: /usr/include/gcalc-2/gcalc/gcalc.h
+SPDXID: SPDXRef-gnome-calculator-file-3
+FileChecksum: SHA1: 14bf697db6828729bebbc07056d2ed4a39f31d0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-3
+
+
+FileName: /usr/include/gci-2/gci/gci.h
+SPDXID: SPDXRef-gnome-calculator-file-4
+FileChecksum: SHA1: d8e0b1042548854364ae531e0b8c199cb121c116
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-4
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgcalc-2.so.1
+SPDXID: SPDXRef-gnome-calculator-file-5
+FileChecksum: SHA1: fc749c0c986ee8c1adbea5b2b470c4ea0f073347
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-5
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgci-1.so.0
+SPDXID: SPDXRef-gnome-calculator-file-6
+FileChecksum: SHA1: d8fe250771a4110bc4a3abc6491558449253aa3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-6
+
+
+FileName: /usr/lib/x86_64-linux-gnu/pkgconfig/gcalc-2.pc
+SPDXID: SPDXRef-gnome-calculator-file-7
+FileChecksum: SHA1: 4c11f212334de05e068a74efe045b5d3f1b444a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-7
+
+
+FileName: /usr/lib/x86_64-linux-gnu/pkgconfig/gci-1.pc
+SPDXID: SPDXRef-gnome-calculator-file-8
+FileChecksum: SHA1: c954d42b00465effbf127540a618a2cffa9ce900
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-8
+
+
+FileName: /usr/libexec/gnome-calculator-search-provider
+SPDXID: SPDXRef-gnome-calculator-file-9
+FileChecksum: SHA1: 24d8f71e996dc0dd1b0d33957f6b70a27819266d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-9
+
+
+FileName: /usr/share/applications/org.gnome.Calculator.desktop
+SPDXID: SPDXRef-gnome-calculator-file-10
+FileChecksum: SHA1: ff5429a7f7b4c52ef3d297696cf53d1161bd9df8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-10
+
+
+FileName: /usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service
+SPDXID: SPDXRef-gnome-calculator-file-11
+FileChecksum: SHA1: 11897c883ad18e2c3f28edb8e0f6ea8bfaa9151a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-11
+
+
+FileName: /usr/share/doc/gnome-calculator/NEWS.gz
+SPDXID: SPDXRef-gnome-calculator-file-12
+FileChecksum: SHA1: 63a9825aaf7d8f229e56e1bce1d54c096c4db281
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-12
+
+
+FileName: /usr/share/doc/gnome-calculator/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-calculator-file-13
+FileChecksum: SHA1: 284f7a53889b0b88fb35d691f02b0f180aca732a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-13
+
+
+FileName: /usr/share/gir-1.0/GCalc-2.gir
+SPDXID: SPDXRef-gnome-calculator-file-14
+FileChecksum: SHA1: 06d6fb876cfbc7134f931b09b12e67fa80f7a7e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-14
+
+
+FileName: /usr/share/gir-1.0/GCi-1.gir
+SPDXID: SPDXRef-gnome-calculator-file-15
+FileChecksum: SHA1: 81a9f3c29a7bd43cb6b5e286c73aa48ee35a9e81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-15
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.calculator.gschema.xml
+SPDXID: SPDXRef-gnome-calculator-file-16
+FileChecksum: SHA1: af6d0721c455485a12abd17b1379454a55e90a38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-16
+
+
+FileName: /usr/share/gnome-shell/search-providers/org.gnome.Calculator-search-provider.ini
+SPDXID: SPDXRef-gnome-calculator-file-17
+FileChecksum: SHA1: 92ac8159ec94ffa7c217720fb2e7adf0872d00d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-17
+
+
+FileName: /usr/share/help/C/gnome-calculator/absolute.page
+SPDXID: SPDXRef-gnome-calculator-file-18
+FileChecksum: SHA1: 6e38b72e7a102ebf761a2172835503616826bc5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-18
+
+
+FileName: /usr/share/help/C/gnome-calculator/base.page
+SPDXID: SPDXRef-gnome-calculator-file-19
+FileChecksum: SHA1: 440950ada785e7ba6c4947d3a47f8627f3c688f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-19
+
+
+FileName: /usr/share/help/C/gnome-calculator/boolean.page
+SPDXID: SPDXRef-gnome-calculator-file-20
+FileChecksum: SHA1: f242f507c0c04dddfd38489c0e720a071ecd981d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-20
+
+
+FileName: /usr/share/help/C/gnome-calculator/complex.page
+SPDXID: SPDXRef-gnome-calculator-file-21
+FileChecksum: SHA1: 7710147ed0ff1c13b2068706fcfd50107ab9b684
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-21
+
+
+FileName: /usr/share/help/C/gnome-calculator/conv-base.page
+SPDXID: SPDXRef-gnome-calculator-file-22
+FileChecksum: SHA1: 44f4a6d599f0d4ab19382debeacd59679fd0425c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-22
+
+
+FileName: /usr/share/help/C/gnome-calculator/conv-character.page
+SPDXID: SPDXRef-gnome-calculator-file-23
+FileChecksum: SHA1: 2bda0772d6c8d889643087219adfd7d2b898f4a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-23
+
+
+FileName: /usr/share/help/C/gnome-calculator/conv-currency.page
+SPDXID: SPDXRef-gnome-calculator-file-24
+FileChecksum: SHA1: 8f91070b7787a5309ebff1919701b687c7ab5fc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-24
+
+
+FileName: /usr/share/help/C/gnome-calculator/conv-length.page
+SPDXID: SPDXRef-gnome-calculator-file-25
+FileChecksum: SHA1: 467af802d70dc7dd0ad5f8bd0eb55ce5a1bbc8fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-25
+
+
+FileName: /usr/share/help/C/gnome-calculator/conv-time.page
+SPDXID: SPDXRef-gnome-calculator-file-26
+FileChecksum: SHA1: bcb2ba25d61ec009fbf7038e957c8f8884806b49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-26
+
+
+FileName: /usr/share/help/C/gnome-calculator/conv-weight.page
+SPDXID: SPDXRef-gnome-calculator-file-27
+FileChecksum: SHA1: ba0dc88390c12a325723bfe8271e4667c96f461c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-27
+
+
+FileName: /usr/share/help/C/gnome-calculator/equation.page
+SPDXID: SPDXRef-gnome-calculator-file-28
+FileChecksum: SHA1: 633e476f12716b6cca3e36541dc2176d516bc4aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-28
+
+
+FileName: /usr/share/help/C/gnome-calculator/factorial.page
+SPDXID: SPDXRef-gnome-calculator-file-29
+FileChecksum: SHA1: 7e00a8003bcc294cf72a03e260c0e0094a7a1292
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-29
+
+
+FileName: /usr/share/help/C/gnome-calculator/factorize.page
+SPDXID: SPDXRef-gnome-calculator-file-30
+FileChecksum: SHA1: f6003d00e41cd648543c5b2d91d8de6fe6b4c106
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-30
+
+
+FileName: /usr/share/help/C/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-31
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-31
+
+
+FileName: /usr/share/help/C/gnome-calculator/financial.page
+SPDXID: SPDXRef-gnome-calculator-file-32
+FileChecksum: SHA1: 95d3687e1250409579a8d95dac05a2d54107cc56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-32
+
+
+FileName: /usr/share/help/C/gnome-calculator/functions.page
+SPDXID: SPDXRef-gnome-calculator-file-33
+FileChecksum: SHA1: 614f27854e58e0defad49ed8e31425e8f9263c65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-33
+
+
+FileName: /usr/share/help/C/gnome-calculator/history.page
+SPDXID: SPDXRef-gnome-calculator-file-34
+FileChecksum: SHA1: 41589c146bfaf68941afd0ef8dc876d3767b4331
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-34
+
+
+FileName: /usr/share/help/C/gnome-calculator/index.page
+SPDXID: SPDXRef-gnome-calculator-file-35
+FileChecksum: SHA1: 6f603e789018f27ab26ee2f2d5edf69e242eb1b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-35
+
+
+FileName: /usr/share/help/C/gnome-calculator/keyboard.page
+SPDXID: SPDXRef-gnome-calculator-file-36
+FileChecksum: SHA1: c28284b08d2bc8fb22a48f83413c209d1d4a92d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-36
+
+
+FileName: /usr/share/help/C/gnome-calculator/legal.xml
+SPDXID: SPDXRef-gnome-calculator-file-37
+FileChecksum: SHA1: 776cbb3de293b148f176c1cea6dfb70fa985273f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-37
+
+
+FileName: /usr/share/help/C/gnome-calculator/logarithm.page
+SPDXID: SPDXRef-gnome-calculator-file-38
+FileChecksum: SHA1: 6298f422a510cf7abd6a3ef19c21fd19d201bbcb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-38
+
+
+FileName: /usr/share/help/C/gnome-calculator/modulus.page
+SPDXID: SPDXRef-gnome-calculator-file-39
+FileChecksum: SHA1: d8b472972b06ee9a15d1e816e1072c9089c063d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-39
+
+
+FileName: /usr/share/help/C/gnome-calculator/mouse.page
+SPDXID: SPDXRef-gnome-calculator-file-40
+FileChecksum: SHA1: 23c81ee502a198e40a22ef4e47b2a4f2937050b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-40
+
+
+FileName: /usr/share/help/C/gnome-calculator/number-display.page
+SPDXID: SPDXRef-gnome-calculator-file-41
+FileChecksum: SHA1: cd13656baa34a36af821347dad38efff2fcbd4c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-41
+
+
+FileName: /usr/share/help/C/gnome-calculator/percentage.page
+SPDXID: SPDXRef-gnome-calculator-file-42
+FileChecksum: SHA1: 54c19293e6074897d9bcd77d453e6a8a8075d6e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-42
+
+
+FileName: /usr/share/help/C/gnome-calculator/power.page
+SPDXID: SPDXRef-gnome-calculator-file-43
+FileChecksum: SHA1: 4c0eeba6bd80bdb59c54a9f3952af0fcda3dcbf5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-43
+
+
+FileName: /usr/share/help/C/gnome-calculator/scientific.page
+SPDXID: SPDXRef-gnome-calculator-file-44
+FileChecksum: SHA1: b2c3b45b5eaeb1c23a3f6fa5a9d19809d9c226e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-44
+
+
+FileName: /usr/share/help/C/gnome-calculator/superscript.page
+SPDXID: SPDXRef-gnome-calculator-file-45
+FileChecksum: SHA1: 1ec5341c3583fee22de00369a3e115fc54b55701
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-45
+
+
+FileName: /usr/share/help/C/gnome-calculator/trigonometry.page
+SPDXID: SPDXRef-gnome-calculator-file-46
+FileChecksum: SHA1: 111e13630c299e7bbbed74afb9b417d35e92f1a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-46
+
+
+FileName: /usr/share/help/C/gnome-calculator/variables.page
+SPDXID: SPDXRef-gnome-calculator-file-47
+FileChecksum: SHA1: 36c28e378e68dcf2ce6a140ed895592926f4371e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-47
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.Calculator.Devel.svg
+SPDXID: SPDXRef-gnome-calculator-file-48
+FileChecksum: SHA1: 7e31da9ef296a774b5cb45342a8adf23b5a5b2ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-48
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-49
+FileChecksum: SHA1: 42efcbe50206d27f200c07f162d73396a7330a2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-49
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.Calculator-symbolic.svg
+SPDXID: SPDXRef-gnome-calculator-file-50
+FileChecksum: SHA1: 4082c640c13d7c91d4182e6ed6803147bd55b581
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-50
+
+
+FileName: /usr/share/man/man1/gcalccmd.1.gz
+SPDXID: SPDXRef-gnome-calculator-file-51
+FileChecksum: SHA1: 62074a2b3dce58ace609c75228bd8639aa46e745
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-51
+
+
+FileName: /usr/share/man/man1/gnome-calculator.1.gz
+SPDXID: SPDXRef-gnome-calculator-file-52
+FileChecksum: SHA1: cfeff5f6958a892f1ea060a08eaab29ea57246c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-52
+
+
+FileName: /usr/share/metainfo/org.gnome.Calculator.appdata.xml
+SPDXID: SPDXRef-gnome-calculator-file-53
+FileChecksum: SHA1: 1f63e2299b36c0d5bb65b0cd624e9a974b3e966b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-53
+
+
+FileName: /usr/share/vala/vapi/gcalc-2.deps
+SPDXID: SPDXRef-gnome-calculator-file-54
+FileChecksum: SHA1: 7671f9ceaebadd956d5c2ec74eb28aedfcf6c571
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-54
+
+
+FileName: /usr/share/vala/vapi/gcalc-2.vapi
+SPDXID: SPDXRef-gnome-calculator-file-55
+FileChecksum: SHA1: 1dc05cf379a503d6bdfc92e1402dc407bca2d1f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-55
+
+
+FileName: /usr/share/vala/vapi/gci-1.deps
+SPDXID: SPDXRef-gnome-calculator-file-56
+FileChecksum: SHA1: bc9b5d5d4a838f952114e2a22e24f483c352b6a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-56
+
+
+FileName: /usr/share/vala/vapi/gci-1.vapi
+SPDXID: SPDXRef-gnome-calculator-file-57
+FileChecksum: SHA1: 3bade0f9fcbb9a482c387e0c5b373e8007a05dac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-57
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgcalc-2.so
+SPDXID: SPDXRef-gnome-calculator-file-58
+FileChecksum: SHA1: fc749c0c986ee8c1adbea5b2b470c4ea0f073347
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-58
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgcalc-2.so.1.0.1
+SPDXID: SPDXRef-gnome-calculator-file-59
+FileChecksum: SHA1: fc749c0c986ee8c1adbea5b2b470c4ea0f073347
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-59
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgci-1.so
+SPDXID: SPDXRef-gnome-calculator-file-60
+FileChecksum: SHA1: d8fe250771a4110bc4a3abc6491558449253aa3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-60
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgci-1.so.0.0.0
+SPDXID: SPDXRef-gnome-calculator-file-61
+FileChecksum: SHA1: d8fe250771a4110bc4a3abc6491558449253aa3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-61
+
+
+FileName: /usr/share/help/bg/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-62
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-62
+
+
+FileName: /usr/share/help/ca/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-63
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-63
+
+
+FileName: /usr/share/help/cs/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-64
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-64
+
+
+FileName: /usr/share/help/da/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-65
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-65
+
+
+FileName: /usr/share/help/de/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-66
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-66
+
+
+FileName: /usr/share/help/el/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-67
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-67
+
+
+FileName: /usr/share/help/es/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-68
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-68
+
+
+FileName: /usr/share/help/eu/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-69
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-69
+
+
+FileName: /usr/share/help/fi/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-70
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-70
+
+
+FileName: /usr/share/help/fr/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-71
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-71
+
+
+FileName: /usr/share/help/gl/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-72
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-72
+
+
+FileName: /usr/share/help/hu/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-73
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-73
+
+
+FileName: /usr/share/help/id/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-74
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-74
+
+
+FileName: /usr/share/help/it/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-75
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-75
+
+
+FileName: /usr/share/help/ja/gnome-calculator/absolute.page
+SPDXID: SPDXRef-gnome-calculator-file-76
+FileChecksum: SHA1: f18a86d548195f81f8f0de87ca18fc927d496620
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-76
+
+
+FileName: /usr/share/help/ja/gnome-calculator/base.page
+SPDXID: SPDXRef-gnome-calculator-file-77
+FileChecksum: SHA1: 03b5b8fa6554192cc025d21450fb8bf9c957a945
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-77
+
+
+FileName: /usr/share/help/ja/gnome-calculator/boolean.page
+SPDXID: SPDXRef-gnome-calculator-file-78
+FileChecksum: SHA1: 2bb7ca0f26725c4eb924d61ef78326a2438e2a1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-78
+
+
+FileName: /usr/share/help/ja/gnome-calculator/complex.page
+SPDXID: SPDXRef-gnome-calculator-file-79
+FileChecksum: SHA1: 6a4f9cb8467ab79715b0eed2af0c90877fde575c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-79
+
+
+FileName: /usr/share/help/ja/gnome-calculator/conv-base.page
+SPDXID: SPDXRef-gnome-calculator-file-80
+FileChecksum: SHA1: d419d737a5b72d6d1f55c3095e363ed9baad75cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-80
+
+
+FileName: /usr/share/help/ja/gnome-calculator/conv-character.page
+SPDXID: SPDXRef-gnome-calculator-file-81
+FileChecksum: SHA1: 5f3496ff0a4a8153ea1360e89dc957c3485068ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-81
+
+
+FileName: /usr/share/help/ja/gnome-calculator/conv-currency.page
+SPDXID: SPDXRef-gnome-calculator-file-82
+FileChecksum: SHA1: 8d0c45ac9b6c754f46b457b4115a3fb2a4a1431f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-82
+
+
+FileName: /usr/share/help/ja/gnome-calculator/conv-length.page
+SPDXID: SPDXRef-gnome-calculator-file-83
+FileChecksum: SHA1: 36e5544c3e5a45f64776a62d84e31b587a2289bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-83
+
+
+FileName: /usr/share/help/ja/gnome-calculator/conv-time.page
+SPDXID: SPDXRef-gnome-calculator-file-84
+FileChecksum: SHA1: 20620f347d14f5c55223e70543917298fbebfbf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-84
+
+
+FileName: /usr/share/help/ja/gnome-calculator/conv-weight.page
+SPDXID: SPDXRef-gnome-calculator-file-85
+FileChecksum: SHA1: cb2e6f44fc9c0286fdc99220f178a185b4a9a27d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-85
+
+
+FileName: /usr/share/help/ja/gnome-calculator/equation.page
+SPDXID: SPDXRef-gnome-calculator-file-86
+FileChecksum: SHA1: 263aa037fe246c8bce9ee83a900ab135e290b9b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-86
+
+
+FileName: /usr/share/help/ja/gnome-calculator/factorial.page
+SPDXID: SPDXRef-gnome-calculator-file-87
+FileChecksum: SHA1: 98b7d14ac428fbeec519a9230b9eeda38c9c3684
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-87
+
+
+FileName: /usr/share/help/ja/gnome-calculator/factorize.page
+SPDXID: SPDXRef-gnome-calculator-file-88
+FileChecksum: SHA1: ac359ca05aca1e1621b7a244297de19880d03279
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-88
+
+
+FileName: /usr/share/help/ja/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-89
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-89
+
+
+FileName: /usr/share/help/ja/gnome-calculator/financial.page
+SPDXID: SPDXRef-gnome-calculator-file-90
+FileChecksum: SHA1: afc12afc7a254928994905e078ae50d54e9647d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-90
+
+
+FileName: /usr/share/help/ja/gnome-calculator/functions.page
+SPDXID: SPDXRef-gnome-calculator-file-91
+FileChecksum: SHA1: cdd4e87712731b41a04837209aabc65e1480d148
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-91
+
+
+FileName: /usr/share/help/ja/gnome-calculator/history.page
+SPDXID: SPDXRef-gnome-calculator-file-92
+FileChecksum: SHA1: 549a0940912f8f0cf741fc7ff2991f947d78a511
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-92
+
+
+FileName: /usr/share/help/ja/gnome-calculator/index.page
+SPDXID: SPDXRef-gnome-calculator-file-93
+FileChecksum: SHA1: eee852369e50dc9d3e5a354ffdceec51713588d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-93
+
+
+FileName: /usr/share/help/ja/gnome-calculator/keyboard.page
+SPDXID: SPDXRef-gnome-calculator-file-94
+FileChecksum: SHA1: 2ebd24d33d4eb6ec19b2b1c4787bbb69b4a49647
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-94
+
+
+FileName: /usr/share/help/ja/gnome-calculator/legal.xml
+SPDXID: SPDXRef-gnome-calculator-file-95
+FileChecksum: SHA1: 05d7b5d300e3f6d9ecfb6060a92604dcc83ae29e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-95
+
+
+FileName: /usr/share/help/ja/gnome-calculator/logarithm.page
+SPDXID: SPDXRef-gnome-calculator-file-96
+FileChecksum: SHA1: b02cd15d7ee3e8804ec12b441970c65e437d526c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-96
+
+
+FileName: /usr/share/help/ja/gnome-calculator/modulus.page
+SPDXID: SPDXRef-gnome-calculator-file-97
+FileChecksum: SHA1: bd75eec2eecbece68f842bd0841afd28fd37af9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-97
+
+
+FileName: /usr/share/help/ja/gnome-calculator/mouse.page
+SPDXID: SPDXRef-gnome-calculator-file-98
+FileChecksum: SHA1: abcda7e5445585261109dffd3918203af8e20de9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-98
+
+
+FileName: /usr/share/help/ja/gnome-calculator/number-display.page
+SPDXID: SPDXRef-gnome-calculator-file-99
+FileChecksum: SHA1: 9ccc93fbef7e091b57153f5dd6d078cf6f871bad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-99
+
+
+FileName: /usr/share/help/ja/gnome-calculator/percentage.page
+SPDXID: SPDXRef-gnome-calculator-file-100
+FileChecksum: SHA1: f4f4917d2fe2f263c28963b2b2d7cb57eb2c500b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-100
+
+
+FileName: /usr/share/help/ja/gnome-calculator/power.page
+SPDXID: SPDXRef-gnome-calculator-file-101
+FileChecksum: SHA1: 74b25a1cf6664895a3dbe225e9975f8b680f6bda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-101
+
+
+FileName: /usr/share/help/ja/gnome-calculator/scientific.page
+SPDXID: SPDXRef-gnome-calculator-file-102
+FileChecksum: SHA1: 00ca61429f5173a53ad9fcca0346355a1ec61f2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-102
+
+
+FileName: /usr/share/help/ja/gnome-calculator/superscript.page
+SPDXID: SPDXRef-gnome-calculator-file-103
+FileChecksum: SHA1: 5cb9054e717ec44c1addbee02f8cdb959c29eefc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-103
+
+
+FileName: /usr/share/help/ja/gnome-calculator/trigonometry.page
+SPDXID: SPDXRef-gnome-calculator-file-104
+FileChecksum: SHA1: 12d1090859e4fc22f47e0bd27245aac9a4a1c6e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-104
+
+
+FileName: /usr/share/help/ja/gnome-calculator/variables.page
+SPDXID: SPDXRef-gnome-calculator-file-105
+FileChecksum: SHA1: ffabc65289f9f3d2def2769a53e78a0a5b65a397
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-105
+
+
+FileName: /usr/share/help/ko/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-106
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-106
+
+
+FileName: /usr/share/help/lv/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-107
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-107
+
+
+FileName: /usr/share/help/oc/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-108
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-108
+
+
+FileName: /usr/share/help/pl/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-109
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-109
+
+
+FileName: /usr/share/help/pt/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-110
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-110
+
+
+FileName: /usr/share/help/pt_BR/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-111
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-111
+
+
+FileName: /usr/share/help/ro/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-112
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-112
+
+
+FileName: /usr/share/help/ru/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-113
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-113
+
+
+FileName: /usr/share/help/sl/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-114
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-114
+
+
+FileName: /usr/share/help/sv/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-115
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-115
+
+
+FileName: /usr/share/help/te/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-116
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-116
+
+
+FileName: /usr/share/help/uk/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-117
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-117
+
+
+FileName: /usr/share/help/zh_CN/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-118
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-118
+
+
+FileName: /usr/share/help/zh_HK/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-119
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-119
+
+
+FileName: /usr/share/help/zh_TW/gnome-calculator/figures/org.gnome.Calculator.svg
+SPDXID: SPDXRef-gnome-calculator-file-120
+FileChecksum: SHA1: d7fbe4f15a348aed1ee4e24f8a04d8e011049739
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-calculator CONTAINS SPDXRef-gnome-calculator-file-120
+
+
+## Extracted License
+

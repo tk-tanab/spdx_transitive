@@ -1,0 +1,109 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libsemanage-common_3.3-1build2-66495785-b2bb-501c-9064-235446ac02e1
+DocumentName: libsemanage-common_3.3-1build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libsemanage-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:39:53Z
+
+
+## Package
+
+PackageName: libsemanage-common
+PackageVersion: 3.3-1build2
+SPDXID: SPDXRef-libsemanage-common
+PackageHomePage: https://selinuxproject.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1cc70a1a3ab5fc26956ea1efcc0a85314dec3b6e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>(c) 2005-2009, Manoj Srivastava <srivasta@debian.org>
+Copyright (c) 2004-2007 Tresys Technology, LLC
+Copyright (c) 2005 Red Hat, Inc.
+</text>
+PackageComment: <text>Common files for SELinux policy management libraries
+ This package provides the common files used by the shared libraries
+ for SELinux policy management.
+ .
+ Security-enhanced Linux is a patch of the Linux kernel and a
+ number of utilities with enhanced security functionality designed to
+ add mandatory access controls to Linux.  The Security-enhanced Linux
+ kernel contains new architectural components originally developed to
+ improve the security of the Flask operating system. These
+ architectural components provide general support for the enforcement
+ of many kinds of mandatory access control policies, including those
+ based on the concepts of Type Enforcement, Role-based Access
+ Control, and Multi-level Security.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libsemanage-common/copyright
+SPDXID: SPDXRef-libsemanage-common-file-0
+FileChecksum: SHA1: 80f13496ec787fb5b457c6cdd9b0fa4b284865be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright (c) 2004-2007 Tresys Technology, LLC
+Copyright (c) 2005 Red Hat, Inc.
+(c) 2005-2009, Manoj Srivastava <srivasta@debian.org>
+</text>
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-0
+
+
+FileName: /etc/selinux/semanage.conf
+SPDXID: SPDXRef-libsemanage-common-file-1
+FileChecksum: SHA1: a0a77875fc424ec2897acf5d2a642c325ffeb878
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-1
+
+
+FileName: /usr/share/doc/libsemanage-common/changelog.Debian.gz
+SPDXID: SPDXRef-libsemanage-common-file-2
+FileChecksum: SHA1: 81cd802a62adb4e76d507dca0e9ff3a6faa99a65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-2
+
+
+FileName: /usr/share/man/man5/semanage.conf.5.gz
+SPDXID: SPDXRef-libsemanage-common-file-3
+FileChecksum: SHA1: cf20d67c8a78d51d47febf0b6dae9fa2bd5a10dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-3
+
+
+FileName: /usr/share/man/ru/man5/semanage.conf.5.gz
+SPDXID: SPDXRef-libsemanage-common-file-4
+FileChecksum: SHA1: 2b2d8b2d6f76d059e0a23d5f2b071bbfa5d2e655
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libsemanage-common CONTAINS SPDXRef-libsemanage-common-file-4
+
+
+## Extracted License
+

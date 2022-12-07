@@ -1,0 +1,148 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libexempi8_2.5.2-1ubuntu0.22.04.1-7abd8593-5dec-595b-a27d-479dbc59dd28
+DocumentName: libexempi8_2.5.2-1ubuntu0.22.04.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libexempi8
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:50:20Z
+
+
+## Package
+
+PackageName: libexempi8
+PackageVersion: 2.5.2-1ubuntu0.22.04.1
+SPDXID: SPDXRef-libexempi8
+PackageHomePage: https://libopenraw.freedesktop.org/wiki/Exempi
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: b967b2f44302fac0e39c064d9024609edd24f9e5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: RSA-MD
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-permissive
+PackageCopyrightText: <text>Copyright (c) 1991-2, RSA Data Security, Inc.
+Copyright (c) 1999 - 2007, Adobe Systems Incorporated
+Copyright (c) 2007 Hubert Figuiere <hub@figuiere.net>
+</text>
+PackageComment: <text>library to parse XMP metadata (Library)
+ Exempi is a library to parse XMP metadata as defined by the
+ specification.
+ .
+ XMP (Extensible Metadata Platform) facilitates embedding metadata in files
+ using a subset of RDF. Most notably XMP supports embedding metadata in PDF
+ and many image formats, though it is designed to support nearly any file type.</text>
+Relationship: SPDXRef-libexempi8 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libexempi8 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libexpat1
+Relationship: SPDXRef-libexempi8 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-libexempi8 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+Relationship: SPDXRef-libexempi8 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+
+
+## File
+
+FileName: /usr/share/doc/libexempi8/copyright
+SPDXID: SPDXRef-libexempi8-file-0
+FileChecksum: SHA1: c5287758ea5988cb24a6023135c648aa096ac438
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: RSA-MD
+LicenseInfoInFile: LicenseRef-scancode-other-permissive
+FileCopyrightText: <text>Copyright (c) 2007 Hubert Figuiere <hub@figuiere.net>
+Copyright (c) 1999 - 2007, Adobe Systems Incorporated
+Copyright (c) 1991-2, RSA Data Security, Inc.
+Copyright (c) 1991-2, RSA Data Security, Inc.
+Copyright (c) 1999 - 2007, Adobe Systems Incorporated
+</text>
+Relationship: SPDXRef-libexempi8 CONTAINS SPDXRef-libexempi8-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libexempi.so.8.0.2
+SPDXID: SPDXRef-libexempi8-file-1
+FileChecksum: SHA1: 7210e9f4b1013c72a303e2db6ceb34314e534ca5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexempi8 CONTAINS SPDXRef-libexempi8-file-1
+
+
+FileName: /usr/share/doc/libexempi8/AUTHORS
+SPDXID: SPDXRef-libexempi8-file-2
+FileChecksum: SHA1: 6bdb6734e833b746cfcb45b27f8ec86d96b8e084
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexempi8 CONTAINS SPDXRef-libexempi8-file-2
+
+
+FileName: /usr/share/doc/libexempi8/NEWS.gz
+SPDXID: SPDXRef-libexempi8-file-3
+FileChecksum: SHA1: 7d04315e4447f76994611b7c2a97b7da219d76a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexempi8 CONTAINS SPDXRef-libexempi8-file-3
+
+
+FileName: /usr/share/doc/libexempi8/README
+SPDXID: SPDXRef-libexempi8-file-4
+FileChecksum: SHA1: ab6b1c3c4feed6c4ad50ab46b6314bb18e30d70c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexempi8 CONTAINS SPDXRef-libexempi8-file-4
+
+
+FileName: /usr/share/doc/libexempi8/TODO
+SPDXID: SPDXRef-libexempi8-file-5
+FileChecksum: SHA1: 698e21fbe21dc64eaa1216dac85facdaa324fc4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexempi8 CONTAINS SPDXRef-libexempi8-file-5
+
+
+FileName: /usr/share/doc/libexempi8/changelog.Debian.gz
+SPDXID: SPDXRef-libexempi8-file-6
+FileChecksum: SHA1: b2344e02a380f9a32c34d3e668c8a957f05966ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexempi8 CONTAINS SPDXRef-libexempi8-file-6
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libexempi.so.8
+SPDXID: SPDXRef-libexempi8-file-7
+FileChecksum: SHA1: 7210e9f4b1013c72a303e2db6ceb34314e534ca5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libexempi8 CONTAINS SPDXRef-libexempi8-file-7
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-other-permissive
+LicenseName: Other Permissive Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+
+

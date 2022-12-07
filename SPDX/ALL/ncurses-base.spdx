@@ -1,0 +1,548 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/ncurses-base_6.3-2-25e7a050-d91f-5c6d-9f88-d0754356bb91
+DocumentName: ncurses-base_6.3-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ncurses-base
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:03:48Z
+
+
+## Package
+
+PackageName: ncurses-base
+PackageVersion: 6.3-2
+SPDXID: SPDXRef-ncurses-base
+PackageHomePage: https://invisible-island.net/ncurses/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 4941aae7e8eff408a31aabcaafc20f3029acaeb9
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: X11-distribute-modifications-variant
+PackageCopyrightText: <text>Copyright 1980,1991,1992,1993 The Regents of the University of California
+Copyright 1994 X Consortium
+Copyright 1998-2017,2018 Free Software Foundation, Inc. 1996-2020,2021 Thomas E. Dickey 2001 Pradeep Padala
+</text>
+PackageComment: <text>basic terminal type definitions
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains terminfo data files to support the most common types of
+ terminal, including ansi, dumb, linux, rxvt, screen, sun, vt100, vt102, vt220,
+ vt52, and xterm.</text>
+
+
+## File
+
+FileName: /usr/share/doc/ncurses-base/copyright
+SPDXID: SPDXRef-ncurses-base-file-0
+FileChecksum: SHA1: 5d0525d7a178a8f53f0ceab696dd5ec2c8eacace
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: X11-distribute-modifications-variant
+LicenseInfoInFile: X11
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright 1998-2017,2018 Free Software Foundation, Inc. 1996-2020,2021 Thomas E. Dickey 2001 Pradeep Padala
+Copyright 1994 X Consortium
+Copyright 1980,1991,1992,1993 The Regents of the University of California
+</text>
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-0
+
+
+FileName: /etc/terminfo/README
+SPDXID: SPDXRef-ncurses-base-file-1
+FileChecksum: SHA1: 36fda0c2e04ae4003a9264876dd9a446f135ed53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-1
+
+
+FileName: /lib/terminfo/E/Eterm
+SPDXID: SPDXRef-ncurses-base-file-2
+FileChecksum: SHA1: 13ae917729f256b5a8c515299b74eaea38c72be0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-2
+
+
+FileName: /lib/terminfo/a/ansi
+SPDXID: SPDXRef-ncurses-base-file-3
+FileChecksum: SHA1: b5211ae4c20d69e9913b175c3645c5ce97837ce3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-3
+
+
+FileName: /lib/terminfo/c/cons25
+SPDXID: SPDXRef-ncurses-base-file-4
+FileChecksum: SHA1: 5d30eabb4bfd5cede3371101fb4580d398f293f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-4
+
+
+FileName: /lib/terminfo/c/cons25-debian
+SPDXID: SPDXRef-ncurses-base-file-5
+FileChecksum: SHA1: 584df3c48adc1db68f24a6543e7e29bb75ba00e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-5
+
+
+FileName: /lib/terminfo/c/cygwin
+SPDXID: SPDXRef-ncurses-base-file-6
+FileChecksum: SHA1: 76d9469b0fc8838dacfd5d3922bfc95a06a6ba1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-6
+
+
+FileName: /lib/terminfo/d/dumb
+SPDXID: SPDXRef-ncurses-base-file-7
+FileChecksum: SHA1: df4b4d8fa4137e85510ddb04c84cc7b0bfc518f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-7
+
+
+FileName: /lib/terminfo/h/hurd
+SPDXID: SPDXRef-ncurses-base-file-8
+FileChecksum: SHA1: a8e77b1e651fb48c82d4c55574928929596c8984
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-8
+
+
+FileName: /lib/terminfo/l/linux
+SPDXID: SPDXRef-ncurses-base-file-9
+FileChecksum: SHA1: cea0673243df18b6982de56f953cdaefda61d25d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-9
+
+
+FileName: /lib/terminfo/m/mach
+SPDXID: SPDXRef-ncurses-base-file-10
+FileChecksum: SHA1: 7670bb67294841b5f6259606990a2547ba1624d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-10
+
+
+FileName: /lib/terminfo/m/mach-bold
+SPDXID: SPDXRef-ncurses-base-file-11
+FileChecksum: SHA1: 641bddc0d0d1f7713efae4e7b0b6ec8b0eb7029e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-11
+
+
+FileName: /lib/terminfo/m/mach-color
+SPDXID: SPDXRef-ncurses-base-file-12
+FileChecksum: SHA1: fea92498574742214d61965c46f274a831b973b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-12
+
+
+FileName: /lib/terminfo/m/mach-gnu
+SPDXID: SPDXRef-ncurses-base-file-13
+FileChecksum: SHA1: bf9269b2a7a463c68e2ba9200b28ae3115f6b362
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-13
+
+
+FileName: /lib/terminfo/m/mach-gnu-color
+SPDXID: SPDXRef-ncurses-base-file-14
+FileChecksum: SHA1: 7e25b4b862ed0e44d0bd26787edd619e10417604
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-14
+
+
+FileName: /lib/terminfo/p/pcansi
+SPDXID: SPDXRef-ncurses-base-file-15
+FileChecksum: SHA1: 6867ac96a0cfed1d9df1e9a64f122c75cac71a99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-15
+
+
+FileName: /lib/terminfo/r/rxvt
+SPDXID: SPDXRef-ncurses-base-file-16
+FileChecksum: SHA1: 29482bcbbc7b2d724bc72488d19e4b708178bca1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-16
+
+
+FileName: /lib/terminfo/r/rxvt-basic
+SPDXID: SPDXRef-ncurses-base-file-17
+FileChecksum: SHA1: 02d9f8500642739d5a428ea68b9ad9bd37b900de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-17
+
+
+FileName: /lib/terminfo/r/rxvt-unicode
+SPDXID: SPDXRef-ncurses-base-file-18
+FileChecksum: SHA1: ed5b20e981296b3f500fd7416a67fd4977dd0a57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-18
+
+
+FileName: /lib/terminfo/r/rxvt-unicode-256color
+SPDXID: SPDXRef-ncurses-base-file-19
+FileChecksum: SHA1: 7e4f85a3aaaaed6b1a215daf987738f14b267d9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-19
+
+
+FileName: /lib/terminfo/s/screen
+SPDXID: SPDXRef-ncurses-base-file-20
+FileChecksum: SHA1: ae72fc57a69459885628f96cf46b8a8c55b293fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-20
+
+
+FileName: /lib/terminfo/s/screen-256color
+SPDXID: SPDXRef-ncurses-base-file-21
+FileChecksum: SHA1: df1d3a56010c9996a514c40e3b9f834a8c629bc2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-21
+
+
+FileName: /lib/terminfo/s/screen-256color-bce
+SPDXID: SPDXRef-ncurses-base-file-22
+FileChecksum: SHA1: d804850e9f4b4531d3be66f3fbcd9c8891e8414d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-22
+
+
+FileName: /lib/terminfo/s/screen-bce
+SPDXID: SPDXRef-ncurses-base-file-23
+FileChecksum: SHA1: 1eb460a7eda83bc32d255ead456e7af2a1999c06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-23
+
+
+FileName: /lib/terminfo/s/screen-s
+SPDXID: SPDXRef-ncurses-base-file-24
+FileChecksum: SHA1: ee2b52072b2bd735d852698e3a01bd3ccaf18f1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-24
+
+
+FileName: /lib/terminfo/s/screen-w
+SPDXID: SPDXRef-ncurses-base-file-25
+FileChecksum: SHA1: 5b0393ab82183e0b380ca9e21bcc1bd31494c79d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-25
+
+
+FileName: /lib/terminfo/s/screen.xterm-256color
+SPDXID: SPDXRef-ncurses-base-file-26
+FileChecksum: SHA1: a050bec1e3d60f7b1b09da987befc6e3519712c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-26
+
+
+FileName: /lib/terminfo/s/sun
+SPDXID: SPDXRef-ncurses-base-file-27
+FileChecksum: SHA1: faf6b1b33d6c3a6aae31f7b657810b6171d91a8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-27
+
+
+FileName: /lib/terminfo/t/tmux
+SPDXID: SPDXRef-ncurses-base-file-28
+FileChecksum: SHA1: 5dce89f95ed8f1253a105a887b54bf09822a91b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-28
+
+
+FileName: /lib/terminfo/t/tmux-256color
+SPDXID: SPDXRef-ncurses-base-file-29
+FileChecksum: SHA1: 602bb3f1c90195fdcecd0a1df7c01ba600633255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-29
+
+
+FileName: /lib/terminfo/v/vt100
+SPDXID: SPDXRef-ncurses-base-file-30
+FileChecksum: SHA1: fe6c5532a59ff71cdd18e23b0a005d0aeb665282
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-30
+
+
+FileName: /lib/terminfo/v/vt102
+SPDXID: SPDXRef-ncurses-base-file-31
+FileChecksum: SHA1: 993b583366768891f79985b77e9af469f77de66a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-31
+
+
+FileName: /lib/terminfo/v/vt220
+SPDXID: SPDXRef-ncurses-base-file-32
+FileChecksum: SHA1: bcb7e787a88bd0b13e3983639155074f296f831a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-32
+
+
+FileName: /lib/terminfo/v/vt52
+SPDXID: SPDXRef-ncurses-base-file-33
+FileChecksum: SHA1: 752389994dc8b1c9557f326dbee9e2cc3afd913b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-33
+
+
+FileName: /lib/terminfo/w/wsvt25
+SPDXID: SPDXRef-ncurses-base-file-34
+FileChecksum: SHA1: 6e544110ee387257fad3048674d0b6cb5e81291c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-34
+
+
+FileName: /lib/terminfo/w/wsvt25m
+SPDXID: SPDXRef-ncurses-base-file-35
+FileChecksum: SHA1: 74ef27fc6d81c6a43dd40f231777c0ffb485a559
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-35
+
+
+FileName: /lib/terminfo/x/xterm
+SPDXID: SPDXRef-ncurses-base-file-36
+FileChecksum: SHA1: 7f053bf8698b29cb8148133fab50b3d814f99000
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-36
+
+
+FileName: /lib/terminfo/x/xterm-256color
+SPDXID: SPDXRef-ncurses-base-file-37
+FileChecksum: SHA1: d4b486bc69dfb3f3928d9d4cd2139d6d21c63e72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-37
+
+
+FileName: /lib/terminfo/x/xterm-color
+SPDXID: SPDXRef-ncurses-base-file-38
+FileChecksum: SHA1: 4ed36bad309da59504a894aafbb0bd2fab0e6819
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-38
+
+
+FileName: /lib/terminfo/x/xterm-mono
+SPDXID: SPDXRef-ncurses-base-file-39
+FileChecksum: SHA1: 554f1f8aa440753daaae49b149a49b3e4c4cf848
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-39
+
+
+FileName: /lib/terminfo/x/xterm-r5
+SPDXID: SPDXRef-ncurses-base-file-40
+FileChecksum: SHA1: a4283a7cf44e9e4a4a9e5ac166328ba8d6ddf632
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-40
+
+
+FileName: /lib/terminfo/x/xterm-r6
+SPDXID: SPDXRef-ncurses-base-file-41
+FileChecksum: SHA1: 97bfc10103a98e54eb646a2e9b39d9e23a983336
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-41
+
+
+FileName: /lib/terminfo/x/xterm-vt220
+SPDXID: SPDXRef-ncurses-base-file-42
+FileChecksum: SHA1: 146fa628123c5645ced35e75dcd9043701072473
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-42
+
+
+FileName: /lib/terminfo/x/xterm-xfree86
+SPDXID: SPDXRef-ncurses-base-file-43
+FileChecksum: SHA1: 735e300eaa0b79dcb0f6683e9861565fd3f884da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-43
+
+
+FileName: /usr/share/doc/ncurses-base/TODO.Debian
+SPDXID: SPDXRef-ncurses-base-file-44
+FileChecksum: SHA1: b00225adda1768d83eacf172964c5430f6b1191a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-44
+
+
+FileName: /usr/share/doc/ncurses-base/changelog.Debian.gz
+SPDXID: SPDXRef-ncurses-base-file-45
+FileChecksum: SHA1: 832caa975bb0b7fe705ea7fc11fd6cf9ea2602b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-45
+
+
+FileName: /usr/share/lintian/overrides/ncurses-base
+SPDXID: SPDXRef-ncurses-base-file-46
+FileChecksum: SHA1: f081c011ce630bf3ae616ca00812c3232d9f63f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-46
+
+
+FileName: /usr/share/tabset/std
+SPDXID: SPDXRef-ncurses-base-file-47
+FileChecksum: SHA1: 0969b2c95d9430c81b0d4b05d81146a6cced5f31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-47
+
+
+FileName: /usr/share/tabset/stdcrt
+SPDXID: SPDXRef-ncurses-base-file-48
+FileChecksum: SHA1: e1fae2fc4bba672fc26554780be21d74106a064b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-48
+
+
+FileName: /usr/share/tabset/vt100
+SPDXID: SPDXRef-ncurses-base-file-49
+FileChecksum: SHA1: b84fb01263cd003588e9a164e80bd0b8ea2e56b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-49
+
+
+FileName: /usr/share/tabset/vt300
+SPDXID: SPDXRef-ncurses-base-file-50
+FileChecksum: SHA1: 5246984995036718d05516acefc59c8bbd17b3ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-50
+
+
+FileName: /lib/terminfo/E/Eterm-color
+SPDXID: SPDXRef-ncurses-base-file-51
+FileChecksum: SHA1: 13ae917729f256b5a8c515299b74eaea38c72be0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-51
+
+
+FileName: /lib/terminfo/r/rxvt-m
+SPDXID: SPDXRef-ncurses-base-file-52
+FileChecksum: SHA1: 02d9f8500642739d5a428ea68b9ad9bd37b900de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-52
+
+
+FileName: /lib/terminfo/x/xterm-debian
+SPDXID: SPDXRef-ncurses-base-file-53
+FileChecksum: SHA1: 7f053bf8698b29cb8148133fab50b3d814f99000
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ncurses-base CONTAINS SPDXRef-ncurses-base-file-53
+
+
+## Extracted License
+

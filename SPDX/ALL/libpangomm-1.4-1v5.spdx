@@ -1,0 +1,132 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libpangomm-1.4-1v5_2.46.2-1-9bdc58f9-6511-590d-8c16-fc8d2943a168
+DocumentName: libpangomm-1.4-1v5_2.46.2-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libglibmm-2.4-1v5 http://spdx.org/spdxdocs/libglibmm-2.4-1v5_2.66.2-2-61acc860-066d-59be-99a8-d4e418f83121 SHA1: bde91a070a4b3e6f36778f8dc3d77d5255507613
+ExternalDocumentRef: DocumentRef-libcairomm-1.0-1v5 http://spdx.org/spdxdocs/libcairomm-1.0-1v5_1.12.2-4build3-d7102b63-549c-5fc9-8bae-86f7c1441393 SHA1: b5a4ffbb9bca0964219b9842a9492bb96949a5c5
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpangomm-1.4-1v5
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:12:59Z
+
+
+## Package
+
+PackageName: libpangomm-1.4-1v5
+PackageVersion: 2.46.2-1
+SPDXID: SPDXRef-libpangomm-1.4-1v5
+PackageHomePage: http://gtkmm.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8884fa93cbde07e199aafd65d85c25f670933b05
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 1998, 2001, 2003, 2006, The pangomm Development Team 1998-2002, The gtkmm (Gtk ) Development Team 2001-2003, Free Software Foundation
+Copyright 2001, The Free Software Foundation
+Copyright 2008-2009, Michael Casadevall <sonicmctails@gmail.com> 2008-2009, Deng Xiyue <manphiz-guest@users.alioth.debian.org>
+</text>
+PackageComment: <text>C++ Wrapper for pango (shared libraries)
+ Pangomm is a C++ wrapper for the pango library. Originally part of
+ gtkmm, pangomm provides convenient C++ interfaces for handling both
+ the layout and internationalization of text in graphical applications.
+ .
+ This package contains the shared library.</text>
+Relationship: SPDXRef-libpangomm-1.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libpangomm-1.4-1v5 DEPENDS_ON DocumentRef-libcairomm-1.0-1v5:SPDXRef-libcairomm-1.0-1v5
+Relationship: SPDXRef-libpangomm-1.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-libpangomm-1.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libpangomm-1.4-1v5 DEPENDS_ON DocumentRef-libglibmm-2.4-1v5:SPDXRef-libglibmm-2.4-1v5
+Relationship: SPDXRef-libpangomm-1.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-libpangomm-1.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpangocairo-1.0-0
+Relationship: SPDXRef-libpangomm-1.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsigcPlusPlus-2.0-0v5
+Relationship: SPDXRef-libpangomm-1.4-1v5 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+
+
+## File
+
+FileName: /usr/share/doc/libpangomm-1.4-1v5/copyright
+SPDXID: SPDXRef-libpangomm-1.4-1v5-file-0
+FileChecksum: SHA1: 6ff09853eea025b2fe802bcd02d48ffb96d8ac23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 1998, 2001, 2003, 2006, The pangomm Development Team 1998-2002, The gtkmm (Gtk ) Development Team 2001-2003, Free Software Foundation
+Copyright 2001, The Free Software Foundation
+Copyright 2008-2009, Michael Casadevall <sonicmctails@gmail.com> 2008-2009, Deng Xiyue <manphiz-guest@users.alioth.debian.org>
+</text>
+Relationship: SPDXRef-libpangomm-1.4-1v5 CONTAINS SPDXRef-libpangomm-1.4-1v5-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libpangomm-1.4.so.1.0.30
+SPDXID: SPDXRef-libpangomm-1.4-1v5-file-1
+FileChecksum: SHA1: 6908d99af2d2ef05b8dfde070e92898a22fb88da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpangomm-1.4-1v5 CONTAINS SPDXRef-libpangomm-1.4-1v5-file-1
+
+
+FileName: /usr/share/doc/libpangomm-1.4-1v5/AUTHORS
+SPDXID: SPDXRef-libpangomm-1.4-1v5-file-2
+FileChecksum: SHA1: b1118e1d905620f72b290582b15054530d748be5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpangomm-1.4-1v5 CONTAINS SPDXRef-libpangomm-1.4-1v5-file-2
+
+
+FileName: /usr/share/doc/libpangomm-1.4-1v5/NEWS.gz
+SPDXID: SPDXRef-libpangomm-1.4-1v5-file-3
+FileChecksum: SHA1: e769bb63e34ebf60d5600879c878b59b22c671b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpangomm-1.4-1v5 CONTAINS SPDXRef-libpangomm-1.4-1v5-file-3
+
+
+FileName: /usr/share/doc/libpangomm-1.4-1v5/README
+SPDXID: SPDXRef-libpangomm-1.4-1v5-file-4
+FileChecksum: SHA1: 35f11b13d6ceb21087a50537a4ae4f03e6ecbad8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpangomm-1.4-1v5 CONTAINS SPDXRef-libpangomm-1.4-1v5-file-4
+
+
+FileName: /usr/share/doc/libpangomm-1.4-1v5/changelog.Debian.gz
+SPDXID: SPDXRef-libpangomm-1.4-1v5-file-5
+FileChecksum: SHA1: aa9d4f34931c3822af5d2fb7912bb73cdd14678f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpangomm-1.4-1v5 CONTAINS SPDXRef-libpangomm-1.4-1v5-file-5
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libpangomm-1.4.so.1
+SPDXID: SPDXRef-libpangomm-1.4-1v5-file-6
+FileChecksum: SHA1: 6908d99af2d2ef05b8dfde070e92898a22fb88da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpangomm-1.4-1v5 CONTAINS SPDXRef-libpangomm-1.4-1v5-file-6
+
+
+## Extracted License
+

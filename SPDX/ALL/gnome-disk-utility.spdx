@@ -1,0 +1,271 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-disk-utility_42.0-1ubuntu1-b0ab3bc2-0bc1-5930-bb54-528c9bec513a
+DocumentName: gnome-disk-utility_42.0-1ubuntu1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-disk-utility
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:08:15Z
+
+
+## Package
+
+PackageName: gnome-disk-utility
+PackageVersion: 42.0-1ubuntu1
+SPDXID: SPDXRef-gnome-disk-utility
+PackageHomePage: https://wiki.gnome.org/Apps/Disks
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2865a9481f18bef52f7375b40129bfadab73580f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-3.0-only
+PackageLicenseInfoFromFiles: LGPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2007-2012 David Zeuthen <davidz@redhat.com>
+Copyright 2011 Jakub Steiner <jimmac@gmail.com>
+</text>
+PackageComment: <text>manage and configure disk drives and media
+ GNOME Disks is a tool to manage disk drives and media:
+ .
+  * Format and partition drives.
+  * Mount and unmount partitions.
+  * Query S.M.A.R.T. attributes.
+ .
+ It utilizes udisks.</text>
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-udisks2
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libatk1.0-0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcanberra-gtk3-0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libhandy-1-0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-liblzma5
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnotify4
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpangocairo-1.0-0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpwquality1
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsecret-1-0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+Relationship: SPDXRef-gnome-disk-utility DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libudisks2-0
+
+
+## File
+
+FileName: /usr/share/doc/gnome-disk-utility/copyright
+SPDXID: SPDXRef-gnome-disk-utility-file-0
+FileChecksum: SHA1: a3353eca2233b1df695309dd7f965d4e24b5e94c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-3.0-or-later
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright 2007-2012 David Zeuthen <davidz@redhat.com>
+Copyright 2011 Jakub Steiner <jimmac@gmail.com>
+</text>
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-0
+
+
+FileName: /etc/xdg/autostart/org.gnome.SettingsDaemon.DiskUtilityNotify.desktop
+SPDXID: SPDXRef-gnome-disk-utility-file-1
+FileChecksum: SHA1: ee7c1e2c1e9e56dd986f4cbc77249db7d83e6ded
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-1
+
+
+FileName: /usr/bin/gnome-disk-image-mounter
+SPDXID: SPDXRef-gnome-disk-utility-file-2
+FileChecksum: SHA1: 6d53de9f0927f0a96ce37e91da46d125f034e9bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-2
+
+
+FileName: /usr/bin/gnome-disks
+SPDXID: SPDXRef-gnome-disk-utility-file-3
+FileChecksum: SHA1: d2649fc7d434d6ea97f482a661b85b51c60db422
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-3
+
+
+FileName: /usr/libexec/gsd-disk-utility-notify
+SPDXID: SPDXRef-gnome-disk-utility-file-4
+FileChecksum: SHA1: bb998e749a0073303768b4c0ab41c99097d1fc4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-4
+
+
+FileName: /usr/share/applications/gnome-disk-image-mounter.desktop
+SPDXID: SPDXRef-gnome-disk-utility-file-5
+FileChecksum: SHA1: 5639b7ee7e2f10ced157813665c41e735ff90064
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-5
+
+
+FileName: /usr/share/applications/gnome-disk-image-writer.desktop
+SPDXID: SPDXRef-gnome-disk-utility-file-6
+FileChecksum: SHA1: d166908ebc452127bf42e11fe49c8827861e9519
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-6
+
+
+FileName: /usr/share/applications/org.gnome.DiskUtility.desktop
+SPDXID: SPDXRef-gnome-disk-utility-file-7
+FileChecksum: SHA1: 1130fe61b040500fcf62d16a4bfacc738ff02c12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-7
+
+
+FileName: /usr/share/dbus-1/services/org.gnome.DiskUtility.service
+SPDXID: SPDXRef-gnome-disk-utility-file-8
+FileChecksum: SHA1: 37da1d9f7c9de0ebe26989fa4ca3a679253a8e75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-8
+
+
+FileName: /usr/share/doc/gnome-disk-utility/AUTHORS
+SPDXID: SPDXRef-gnome-disk-utility-file-9
+FileChecksum: SHA1: 86e813a2ac47bbda591e784b75bdfd20d1a5bc45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-9
+
+
+FileName: /usr/share/doc/gnome-disk-utility/NEWS.gz
+SPDXID: SPDXRef-gnome-disk-utility-file-10
+FileChecksum: SHA1: 710afe800a48805dd6bff6711b2390e4183d6a94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-10
+
+
+FileName: /usr/share/doc/gnome-disk-utility/README.md
+SPDXID: SPDXRef-gnome-disk-utility-file-11
+FileChecksum: SHA1: a232f5ba0b6d5196c669dcc9a223c4110ac4cd00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-11
+
+
+FileName: /usr/share/doc/gnome-disk-utility/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-disk-utility-file-12
+FileChecksum: SHA1: f61bb33aad16d0ec1b4140e108b6bd63d0ee7e68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-12
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.Disks.gschema.xml
+SPDXID: SPDXRef-gnome-disk-utility-file-13
+FileChecksum: SHA1: 6ec4bf3feea660d80a974c6cdcc7a878e6164493
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-13
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/gnome-disks-state-standby-symbolic.svg
+SPDXID: SPDXRef-gnome-disk-utility-file-14
+FileChecksum: SHA1: bf9a0858724aff23007558577ae041d5dad7853a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-14
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.DiskUtility-symbolic.svg
+SPDXID: SPDXRef-gnome-disk-utility-file-15
+FileChecksum: SHA1: 7ec21716527f340380aea17c862696838d5c33d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-15
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.DiskUtility.Devel.svg
+SPDXID: SPDXRef-gnome-disk-utility-file-16
+FileChecksum: SHA1: 7af403ca41d05383307675923bba9b4090d1b284
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-16
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.DiskUtility.svg
+SPDXID: SPDXRef-gnome-disk-utility-file-17
+FileChecksum: SHA1: ce00b91974912f82d934ea409fa26651354878c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-17
+
+
+FileName: /usr/share/man/man1/gnome-disk-image-mounter.1.gz
+SPDXID: SPDXRef-gnome-disk-utility-file-18
+FileChecksum: SHA1: 62cec4ee2b951774dec4f6c32a7919ec367bf8c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-18
+
+
+FileName: /usr/share/man/man1/gnome-disks.1.gz
+SPDXID: SPDXRef-gnome-disk-utility-file-19
+FileChecksum: SHA1: b3bb9b190e9d53354c0ac497c3b63fd366873226
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-19
+
+
+FileName: /usr/share/metainfo/org.gnome.DiskUtility.appdata.xml
+SPDXID: SPDXRef-gnome-disk-utility-file-20
+FileChecksum: SHA1: 8bec7d7dca52d61a27ac45bb1962a77028b2d569
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-disk-utility CONTAINS SPDXRef-gnome-disk-utility-file-20
+
+
+## Extracted License
+

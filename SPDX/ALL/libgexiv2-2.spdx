@@ -1,0 +1,111 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgexiv2-2_0.14.0-1build1-59ee13a2-d400-52a3-b7a3-8d66fc71fa3c
+DocumentName: libgexiv2-2_0.14.0-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-libexiv2-27 http://spdx.org/spdxdocs/libexiv2-27_0.27.5-3ubuntu1-ff381809-e427-5874-9f1e-62f939253c2b SHA1: c3ca509d17d7737c35176ef8936002e30eb01386
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgexiv2-2
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:10:51Z
+
+
+## Package
+
+PackageName: libgexiv2-2
+PackageVersion: 0.14.0-1build1
+SPDXID: SPDXRef-libgexiv2-2
+PackageHomePage: https://wiki.gnome.org/Projects/gexiv2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 084072cb7b3392c51673556bcb65b195771d05eb
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-only
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 2007-2011 Novell, Inc.
+Copyright 2009 Mike Gemuende <mike@gemuende.de> 2010-2016 Software Freedom Conservancy Inc 2015 Alan Pater <alan.pater@gmail.com> 2015 Roman Lebedev <lebedev.ri@gmail.com>
+Copyright 2012 Robert Park
+Copyright 2013 Robert Bruce Park <r@robru.ca>
+Copyright 2014 Alexandre Rossi <alexandre.rossi@gmail.com>
+Copyright 2016-2019 Jason Crain 2010-2015 Luca Falavigna 2010-2011 Devid Antonio Filoni
+</text>
+PackageComment: <text>GObject-based wrapper around the Exiv2 library
+ gexiv2 is a GObject-based wrapper around the Exiv2 library. It makes the basic
+ features of Exiv2 available to GNOME applications.
+ .
+ This package contains the shared library.</text>
+Relationship: SPDXRef-libgexiv2-2 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libgexiv2-2 DEPENDS_ON DocumentRef-libexiv2-27:SPDXRef-libexiv2-27
+Relationship: SPDXRef-libgexiv2-2 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-libgexiv2-2 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libgexiv2-2 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+
+
+## File
+
+FileName: /usr/share/doc/libgexiv2-2/copyright
+SPDXID: SPDXRef-libgexiv2-2-file-0
+FileChecksum: SHA1: 73d74992aff956e6388ec56562272142ffcad02c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: LGPL-2.1-only
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2009 Mike Gemuende <mike@gemuende.de> 2010-2016 Software Freedom Conservancy Inc 2015 Alan Pater <alan.pater@gmail.com> 2015 Roman Lebedev <lebedev.ri@gmail.com>
+Copyright 2014 Alexandre Rossi <alexandre.rossi@gmail.com>
+Copyright 2013 Robert Bruce Park <r@robru.ca>
+Copyright 2007-2011 Novell, Inc.
+Copyright 2012 Robert Park
+Copyright 2016-2019 Jason Crain 2010-2015 Luca Falavigna 2010-2011 Devid Antonio Filoni
+</text>
+Relationship: SPDXRef-libgexiv2-2 CONTAINS SPDXRef-libgexiv2-2-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgexiv2.so.2.14.0
+SPDXID: SPDXRef-libgexiv2-2-file-1
+FileChecksum: SHA1: 4e136ded76e939b7b910935c0b2693d123bfd995
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgexiv2-2 CONTAINS SPDXRef-libgexiv2-2-file-1
+
+
+FileName: /usr/share/doc/libgexiv2-2/changelog.Debian.gz
+SPDXID: SPDXRef-libgexiv2-2-file-2
+FileChecksum: SHA1: 8688aac826c708d4135b0fcd5c281c297f4d9aff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgexiv2-2 CONTAINS SPDXRef-libgexiv2-2-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libgexiv2.so.2
+SPDXID: SPDXRef-libgexiv2-2-file-3
+FileChecksum: SHA1: 4e136ded76e939b7b910935c0b2693d123bfd995
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgexiv2-2 CONTAINS SPDXRef-libgexiv2-2-file-3
+
+
+## Extracted License
+

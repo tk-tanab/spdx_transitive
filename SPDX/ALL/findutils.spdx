@@ -1,0 +1,192 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/findutils_4.8.0-1ubuntu3-8c15bd15-0ba3-52b9-9251-88e3baff514d
+DocumentName: findutils_4.8.0-1ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-findutils
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:50:48Z
+
+
+## Package
+
+PackageName: findutils
+PackageVersion: 4.8.0-1ubuntu3
+SPDXID: SPDXRef-findutils
+PackageHomePage: https://savannah.gnu.org/projects/findutils/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 990d5461412ba57b97f0e22c5787c59d1b0de954
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GFDL-1.3-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1990-2021 Free Software Foundation, Inc.
+Copyright (c) 1994-2021 Free Software Foundation, Inc.
+</text>
+PackageComment: <text>utilities for finding files--find, xargs
+ GNU findutils provides utilities to find files meeting specified
+ criteria and perform various actions on the files which are found.
+ This package contains 'find' and 'xargs'; however, 'locate' has
+ been split off into a separate package.</text>
+Relationship: SPDXRef-findutils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-findutils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libselinux1
+
+
+## File
+
+FileName: /usr/share/doc/findutils/copyright
+SPDXID: SPDXRef-findutils-file-0
+FileChecksum: SHA1: 6bc6be51d305688a74ff9b5557cb2e07b6089634
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright (c) 1990-2021 Free Software Foundation, Inc.
+Copyright (c) 1994-2021 Free Software Foundation, Inc.
+</text>
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-0
+
+
+FileName: /usr/bin/find
+SPDXID: SPDXRef-findutils-file-1
+FileChecksum: SHA1: 2b426aa840c55b44b8d86f644e7011d7f124ef17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-1
+
+
+FileName: /usr/bin/xargs
+SPDXID: SPDXRef-findutils-file-2
+FileChecksum: SHA1: d6c2af0d850c3f8cb0f31f9c3511bc2e4bd9367e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-2
+
+
+FileName: /usr/share/doc/findutils/NEWS.Debian.gz
+SPDXID: SPDXRef-findutils-file-3
+FileChecksum: SHA1: f529320bd42aabcf1842e279621749241a305c2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-3
+
+
+FileName: /usr/share/doc/findutils/NEWS.gz
+SPDXID: SPDXRef-findutils-file-4
+FileChecksum: SHA1: b56a58ea32dfb1417e26d2f48bc7a5f1e75b06fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-4
+
+
+FileName: /usr/share/doc/findutils/README.gz
+SPDXID: SPDXRef-findutils-file-5
+FileChecksum: SHA1: 3b1e8bf088762ca6695807fc7880f600824d9e34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-5
+
+
+FileName: /usr/share/doc/findutils/TODO
+SPDXID: SPDXRef-findutils-file-6
+FileChecksum: SHA1: a50629512060bae5e4f384ab80baf92f6e6d88ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-6
+
+
+FileName: /usr/share/doc/findutils/changelog.Debian.gz
+SPDXID: SPDXRef-findutils-file-7
+FileChecksum: SHA1: c75c15abd9fb651f8e048ff5b49c727c82fab3d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-7
+
+
+FileName: /usr/share/doc-base/findutils.findutils
+SPDXID: SPDXRef-findutils-file-8
+FileChecksum: SHA1: 2858e44bc9841dfbad3465e594198820819d396c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-8
+
+
+FileName: /usr/share/info/find-maint.info.gz
+SPDXID: SPDXRef-findutils-file-9
+FileChecksum: SHA1: 9817b738dfbec3d596b9983610a14f451a867b23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-9
+
+
+FileName: /usr/share/info/find.info-1.gz
+SPDXID: SPDXRef-findutils-file-10
+FileChecksum: SHA1: 9a7436cdd0676a6133d4759f305a61fe812cf664
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-10
+
+
+FileName: /usr/share/info/find.info-2.gz
+SPDXID: SPDXRef-findutils-file-11
+FileChecksum: SHA1: d0d3f9ebfc32a029a4f7d5a56e7dcb7a46fce2bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-11
+
+
+FileName: /usr/share/info/find.info.gz
+SPDXID: SPDXRef-findutils-file-12
+FileChecksum: SHA1: b1f60ab6659926a9755498cc3de4118407397e24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-12
+
+
+FileName: /usr/share/man/man1/find.1.gz
+SPDXID: SPDXRef-findutils-file-13
+FileChecksum: SHA1: 3504946a43486ffd7b7357dd68fde458bdadd2d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-13
+
+
+FileName: /usr/share/man/man1/xargs.1.gz
+SPDXID: SPDXRef-findutils-file-14
+FileChecksum: SHA1: e9515a84d2597b37e2c8d71284f7d18d938f52bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-findutils CONTAINS SPDXRef-findutils-file-14
+
+
+## Extracted License
+

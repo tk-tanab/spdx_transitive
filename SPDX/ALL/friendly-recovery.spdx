@@ -1,0 +1,209 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/friendly-recovery_0.2.42-032b6a65-c9f8-5da4-8439-1e2a0a9f3cb0
+DocumentName: friendly-recovery_0.2.42
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-friendly-recovery
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:04:20Z
+
+
+## Package
+
+PackageName: friendly-recovery
+PackageVersion: 0.2.42
+SPDXID: SPDXRef-friendly-recovery
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2e11495f43bdc725ca2c5a87b5e87f199c89c515
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>(c) 2007-2016 Canonical Ltd.
+Copyright (c) 2007 Allison Ryan Lortie <desrt@desrt.ca>
+</text>
+PackageComment: <text>Make recovery boot mode more user-friendly
+ Make the recovery boot mode more user-friendly by providing a menu
+ with pluggable options.</text>
+Relationship: SPDXRef-friendly-recovery DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-systemd-sysv
+Relationship: SPDXRef-friendly-recovery DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-whiptail
+Relationship: SPDXRef-friendly-recovery DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gettext-base
+Relationship: SPDXRef-friendly-recovery DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-update-manager-core
+
+
+## File
+
+FileName: /usr/share/doc/friendly-recovery/copyright
+SPDXID: SPDXRef-friendly-recovery-file-0
+FileChecksum: SHA1: 47c74c700cac64018c1a8a8eae941a2728f7c612
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 2007 Allison Ryan Lortie <desrt@desrt.ca>
+(c) 2007-2016 Canonical Ltd.
+</text>
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-0
+
+
+FileName: /lib/recovery-mode/l10n.sh
+SPDXID: SPDXRef-friendly-recovery-file-1
+FileChecksum: SHA1: 839fddda44654716a9fa493affee696abc54f72e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-1
+
+
+FileName: /lib/recovery-mode/options/apt-snapshots
+SPDXID: SPDXRef-friendly-recovery-file-2
+FileChecksum: SHA1: 5513b14bb78b24272925846f758da901175037d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-2
+
+
+FileName: /lib/recovery-mode/options/clean
+SPDXID: SPDXRef-friendly-recovery-file-3
+FileChecksum: SHA1: d482766bba5a8b5e6e36d782b39ebee918aad23e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-3
+
+
+FileName: /lib/recovery-mode/options/dpkg
+SPDXID: SPDXRef-friendly-recovery-file-4
+FileChecksum: SHA1: 565aa3c7be3a5efc5219df8ffcf21a5ea30b5998
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-4
+
+
+FileName: /lib/recovery-mode/options/failsafeX
+SPDXID: SPDXRef-friendly-recovery-file-5
+FileChecksum: SHA1: 0e5561a4fb11a0e21db4debf19e00777f5350600
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-5
+
+
+FileName: /lib/recovery-mode/options/fsck
+SPDXID: SPDXRef-friendly-recovery-file-6
+FileChecksum: SHA1: f38805c61b0461353911d80979dcc5c18c337c6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-6
+
+
+FileName: /lib/recovery-mode/options/grub
+SPDXID: SPDXRef-friendly-recovery-file-7
+FileChecksum: SHA1: 113a7db74f13e53334e149be89af0cd382ce30fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-7
+
+
+FileName: /lib/recovery-mode/options/network
+SPDXID: SPDXRef-friendly-recovery-file-8
+FileChecksum: SHA1: ac2052a4c99a9b2471a57675a51c1bc4d2383056
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-8
+
+
+FileName: /lib/recovery-mode/options/root
+SPDXID: SPDXRef-friendly-recovery-file-9
+FileChecksum: SHA1: 37d42da1fd9cfa2a1b52b905100d834b84317b5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-9
+
+
+FileName: /lib/recovery-mode/options/system-summary
+SPDXID: SPDXRef-friendly-recovery-file-10
+FileChecksum: SHA1: 3080bc8596b170a7988556802ab947eaf10192c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-10
+
+
+FileName: /lib/recovery-mode/recovery-menu
+SPDXID: SPDXRef-friendly-recovery-file-11
+FileChecksum: SHA1: d5d99b7092657919bc957dc17d57af7de85644d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-11
+
+
+FileName: /lib/systemd/system/friendly-recovery.service
+SPDXID: SPDXRef-friendly-recovery-file-12
+FileChecksum: SHA1: 3bfe5d34f1078a95670361e3c9418b95dbea03ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-12
+
+
+FileName: /lib/systemd/system/friendly-recovery.target
+SPDXID: SPDXRef-friendly-recovery-file-13
+FileChecksum: SHA1: 7f457918f2dd7edda1828310c06ec5dbac47b065
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-13
+
+
+FileName: /lib/systemd/system-generators/friendly-recovery
+SPDXID: SPDXRef-friendly-recovery-file-14
+FileChecksum: SHA1: f86c0f367c20e9abaf39057e5d848c4a48f5f351
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-14
+
+
+FileName: /usr/share/doc/friendly-recovery/README
+SPDXID: SPDXRef-friendly-recovery-file-15
+FileChecksum: SHA1: 1ed75b38f41612e43a35673cb9eaaf146ab9bf4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-15
+
+
+FileName: /usr/share/doc/friendly-recovery/changelog.gz
+SPDXID: SPDXRef-friendly-recovery-file-16
+FileChecksum: SHA1: 4d47ea9ff1a3a6d68d108b9e5b22b5db8da52b8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-friendly-recovery CONTAINS SPDXRef-friendly-recovery-file-16
+
+
+## Extracted License
+

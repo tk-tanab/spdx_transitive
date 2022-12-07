@@ -1,0 +1,103 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-pagul_1.0-8-3eafc4a2-185a-5177-849b-48911f19a3d0
+DocumentName: fonts-pagul_1.0-8
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-pagul
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:57:27Z
+
+
+## Package
+
+PackageName: fonts-pagul
+PackageVersion: 1.0-8
+SPDXID: SPDXRef-fonts-pagul
+PackageHomePage: https://sourceforge.net/projects/pagul/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ce6a31a7c342c8b2be9fa25299aa804d922c4d2d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2011, Prabu M Rengachari <mooreprabu@gmail.com>
+Copyright 2011-2012, Vasudev Kamath <kamathvasudev@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Free TrueType font for the Sourashtra language
+ Pagul TrueType font for the Sourashtra (saz_IN) language which is primarily
+ spoken in the Indian state of Tamil Nadu.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-pagul/copyright
+SPDXID: SPDXRef-fonts-pagul-file-0
+FileChecksum: SHA1: afaa58328153679c2be17b270e88fc8b98f8b7d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2011, Prabu M Rengachari <mooreprabu@gmail.com>
+Copyright 2011-2012, Vasudev Kamath <kamathvasudev@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-pagul CONTAINS SPDXRef-fonts-pagul-file-0
+
+
+FileName: /etc/fonts/conf.avail/65-0-fonts-pagul.conf
+SPDXID: SPDXRef-fonts-pagul-file-1
+FileChecksum: SHA1: 1f752f5247dddbd4458f3cf781ecfe69dc5263f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-pagul CONTAINS SPDXRef-fonts-pagul-file-1
+
+
+FileName: /usr/share/doc/fonts-pagul/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-pagul-file-2
+FileChecksum: SHA1: eb904941b5f840aa05b0dd0cf9c6ddf7245c4499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-pagul CONTAINS SPDXRef-fonts-pagul-file-2
+
+
+FileName: /usr/share/fonts/truetype/pagul/Pagul.ttf
+SPDXID: SPDXRef-fonts-pagul-file-3
+FileChecksum: SHA1: 1ed51ef515d419b73b74411f8ec2957ad78b91f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-pagul CONTAINS SPDXRef-fonts-pagul-file-3
+
+
+FileName: /etc/fonts/conf.d/65-0-fonts-pagul.conf
+SPDXID: SPDXRef-fonts-pagul-file-4
+FileChecksum: SHA1: 1f752f5247dddbd4458f3cf781ecfe69dc5263f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-pagul CONTAINS SPDXRef-fonts-pagul-file-4
+
+
+## Extracted License
+

@@ -1,0 +1,162 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/irqbalance_1.8.0-1build1-4d668bde-88ed-5c67-ac1d-861faff46624
+DocumentName: irqbalance_1.8.0-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-irqbalance
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:30:03Z
+
+
+## Package
+
+PackageName: irqbalance
+PackageVersion: 1.8.0-1build1
+SPDXID: SPDXRef-irqbalance
+PackageHomePage: https://github.com/Irqbalance/irqbalance
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 87eacde11d6b8b731f37d7d3bbf15e41d824595f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageCopyrightText: <text>Copyright 2003-2019, Eric Dorland <eric@debian.org> 2009-2019, Kyle McMartin <kyle@debian.org> 2009-2019, Anibal Monsalve Salazar <anibal@debian.org> 2019-2020, Paride Legovini <paride@debian.org>
+Copyright 2006, Intel Corporation 2003-2009, Red Hat, Inc. 2012-2019, Neil Horman <nhorman@tuxdriver.com>
+</text>
+PackageComment: <text>Daemon to balance interrupts for SMP systems
+ Daemon to balance interrupts across multiple CPUs, which can lead to better
+ performance and IO balance on SMP systems. This package is especially useful
+ on systems with multi-core processors, as interrupts will typically only be
+ serviced by the first core.
+ .
+ Note: irqbalance is not useful if you don't have more than one CPU core.</text>
+Relationship: SPDXRef-irqbalance DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-irqbalance DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcap-ng0
+Relationship: SPDXRef-irqbalance DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-irqbalance DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libncursesw6
+Relationship: SPDXRef-irqbalance DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libnuma1
+Relationship: SPDXRef-irqbalance DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+Relationship: SPDXRef-irqbalance DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtinfo6
+Relationship: SPDXRef-irqbalance DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+
+
+## File
+
+FileName: /usr/share/doc/irqbalance/copyright
+SPDXID: SPDXRef-irqbalance-file-0
+FileChecksum: SHA1: 916eec012d37874a1cf3c7da3b999867b09eb86a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2006, Intel Corporation 2003-2009, Red Hat, Inc. 2012-2019, Neil Horman <nhorman@tuxdriver.com>
+Copyright 2003-2019, Eric Dorland <eric@debian.org> 2009-2019, Kyle McMartin <kyle@debian.org> 2009-2019, Anibal Monsalve Salazar <anibal@debian.org> 2019-2020, Paride Legovini <paride@debian.org>
+</text>
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-0
+
+
+FileName: /etc/default/irqbalance
+SPDXID: SPDXRef-irqbalance-file-1
+FileChecksum: SHA1: e13b8f238a4a1d333e08792087207d4aa028c6f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-1
+
+
+FileName: /etc/init.d/irqbalance
+SPDXID: SPDXRef-irqbalance-file-2
+FileChecksum: SHA1: 8e456c0f596a11eb849340c5364474f4652d4f2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-2
+
+
+FileName: /lib/systemd/system/irqbalance.service
+SPDXID: SPDXRef-irqbalance-file-3
+FileChecksum: SHA1: e3218d7125be797f9d650526041a375e98d33e53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-3
+
+
+FileName: /usr/sbin/irqbalance
+SPDXID: SPDXRef-irqbalance-file-4
+FileChecksum: SHA1: efdd4cd9ce7cf2d09f7b201f7a3d6673f710fe54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-4
+
+
+FileName: /usr/sbin/irqbalance-ui
+SPDXID: SPDXRef-irqbalance-file-5
+FileChecksum: SHA1: eeaaa0705123b64f2786dccf337c9c711aca14ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-5
+
+
+FileName: /usr/share/doc/irqbalance/NEWS.Debian.gz
+SPDXID: SPDXRef-irqbalance-file-6
+FileChecksum: SHA1: f14008878278b61ebb2a7c9d6b42cde7ee8cde77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-6
+
+
+FileName: /usr/share/doc/irqbalance/changelog.Debian.gz
+SPDXID: SPDXRef-irqbalance-file-7
+FileChecksum: SHA1: cc2042bdacc8421fcc0388d702c0f26998835e92
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-7
+
+
+FileName: /usr/share/lintian/overrides/irqbalance
+SPDXID: SPDXRef-irqbalance-file-8
+FileChecksum: SHA1: b84b8df0010090726feda39592dc83d2e7df240e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-8
+
+
+FileName: /usr/share/man/man1/irqbalance-ui.1.gz
+SPDXID: SPDXRef-irqbalance-file-9
+FileChecksum: SHA1: 54bbd445e910d2283fbd19877d7a327648cdaec5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-9
+
+
+FileName: /usr/share/man/man1/irqbalance.1.gz
+SPDXID: SPDXRef-irqbalance-file-10
+FileChecksum: SHA1: 517c47c9ad3e0e1af9280e8040443074e3897736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-irqbalance CONTAINS SPDXRef-irqbalance-file-10
+
+
+## Extracted License
+

@@ -1,0 +1,126 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libpcre2-16-0_10.39-3ubuntu0.1-9fc4ec36-3220-5135-80f7-f5afb39a19d4
+DocumentName: libpcre2-16-0_10.39-3ubuntu0.1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libpcre2-16-0
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:26:21Z
+
+
+## Package
+
+PackageName: libpcre2-16-0
+PackageVersion: 10.39-3ubuntu0.1
+SPDXID: SPDXRef-libpcre2-16-0
+PackageHomePage: https://pcre.org/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: aa0628558c30064e856482bcf29e3e004fcbbc3b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: LicenseRef-scancode-pcre
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 1997-2015 University of Cambridge
+Copyright (c) 2009-2015 Zoltan Herczeg
+Copyright (c) 2010-2015 Zoltan Herczeg
+</text>
+PackageComment: <text>New Perl Compatible Regular Expression Library - 16 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 16 bit runtime library, which operates on
+ UTF-16 input.</text>
+Relationship: SPDXRef-libpcre2-16-0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+
+
+## File
+
+FileName: /usr/share/doc/libpcre2-16-0/copyright
+SPDXID: SPDXRef-libpcre2-16-0-file-0
+FileChecksum: SHA1: 5a936131c19880c617448c02bcbf54328432b553
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-scancode-pcre
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+FileCopyrightText: <text>Copyright (c) 1997-2015 University of Cambridge
+Copyright (c) 2010-2015 Zoltan Herczeg
+Copyright (c) 2009-2015 Zoltan Herczeg
+</text>
+Relationship: SPDXRef-libpcre2-16-0 CONTAINS SPDXRef-libpcre2-16-0-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libpcre2-16.so.0.10.4
+SPDXID: SPDXRef-libpcre2-16-0-file-1
+FileChecksum: SHA1: 6c820c040b7d8d06707dbdd9f8fbbba861daa87e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpcre2-16-0 CONTAINS SPDXRef-libpcre2-16-0-file-1
+
+
+FileName: /usr/share/doc/libpcre2-16-0/changelog.Debian.gz
+SPDXID: SPDXRef-libpcre2-16-0-file-2
+FileChecksum: SHA1: 49853e770b9e6adacea3d0999edb0e577e68f79d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpcre2-16-0 CONTAINS SPDXRef-libpcre2-16-0-file-2
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libpcre2-16.so.0
+SPDXID: SPDXRef-libpcre2-16-0-file-3
+FileChecksum: SHA1: 6c820c040b7d8d06707dbdd9f8fbbba861daa87e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libpcre2-16-0 CONTAINS SPDXRef-libpcre2-16-0-file-3
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-pcre
+LicenseName: PCRE License
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/pcre.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/pcre.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

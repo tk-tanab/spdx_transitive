@@ -1,0 +1,261 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/systemd-oomd_249.11-0ubuntu3.6-9650a286-c68e-5c06-8af8-e3d757d89926
+DocumentName: systemd-oomd_249.11-0ubuntu3.6
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-systemd-oomd
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:23:32Z
+
+
+## Package
+
+PackageName: systemd-oomd
+PackageVersion: 249.11-0ubuntu3.6
+SPDXID: SPDXRef-systemd-oomd
+PackageHomePage: https://www.freedesktop.org/wiki/Software/systemd
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 28c114ef30168b20bb4ff64088603eee981d5406
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageLicenseInfoFromFiles: Linux-syscall-note
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain-disclaimer
+PackageCopyrightText: <text>Copyright 2003-2012 Kay Sievers <kay@vrfy.org> 2003-2004 Greg Kroah-Hartman <greg@kroah.com> 2004 Chris Friesen <chris_friesen@sympatico.ca> 2004, 2009, 2010 David Zeuthen <david@fubar.dk> 2005, 2006
+Copyright 2004-2009 Red Hat, Inc. 2011-2014 PLUMgrid 2001-2003 Sistina Software (UK) Limited. 2008 Ian Kent <raven@themaw.net> 1998 David S. Miller
+Copyright 2008-2015 Kay Sievers <kay@vrfy.org> 2010-2015 Lennart Poettering 2012-2015 Zbigniew Jedrzejewski-Szmek <zbyszek@in.waw.pl> 2013-2015 Tom Gundersen <teg@jklm.no> 2013-2015 Daniel Mack 2010-2015 Harald Hoyer 2013-2015 David Herrmann 2013, 2014 Thomas H.P. Andersen 2013, 2014 Daniel Buch 2014 Susant Sahani 2009-2015 Intel Corporation 2000, 2005 Red Hat, Inc. 2009 Alan Jenkins <alan-jenkins@tuffmail.co.uk> 2010 ProFUSION
+Copyright 2010-2013 Tollef Fog Heen <tfheen@debian.org> 2013-2018 Michael Biebl <biebl@debian.org> 2013 Michael Stapelberg <stapelberg@debian.org>
+Copyright 2012 Jean-Philippe Aumasson <jeanphilippe.aumasson@gmail.com> 2012 Daniel J. Bernstein <djb@cr.yp.to>
+Copyright 2012 Josh Triplett <josh@joshtriplett.org>
+Copyright Jens Axboe <axboe@suse.de>
+copyrighted by me and others
+copyrighted by the Free Software Foundation
+</text>
+PackageComment: <text>Userspace out-of-memory (OOM) killer
+ systemd-oomd is a system service that uses cgroups-v2 and
+ pressure stall information (PSI) to monitor and take action on
+ processes before an OOM occurs in kernel space.</text>
+Relationship: SPDXRef-systemd-oomd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-systemd-oomd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-systemd
+Relationship: SPDXRef-systemd-oomd DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-adduser
+
+
+## File
+
+FileName: /usr/share/doc/systemd-oomd/copyright
+SPDXID: SPDXRef-systemd-oomd-file-0
+FileChecksum: SHA1: ba895ca61126ec643de4fbb1624da395c34f1069
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-public-domain-disclaimer
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: Linux-syscall-note
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright 2008-2015 Kay Sievers <kay@vrfy.org> 2010-2015 Lennart Poettering 2012-2015 Zbigniew Jedrzejewski-Szmek <zbyszek@in.waw.pl> 2013-2015 Tom Gundersen <teg@jklm.no> 2013-2015 Daniel Mack 2010-2015 Harald Hoyer 2013-2015 David Herrmann 2013, 2014 Thomas H.P. Andersen 2013, 2014 Daniel Buch 2014 Susant Sahani 2009-2015 Intel Corporation 2000, 2005 Red Hat, Inc. 2009 Alan Jenkins <alan-jenkins@tuffmail.co.uk> 2010 ProFUSION
+Copyright 2012 Jean-Philippe Aumasson <jeanphilippe.aumasson@gmail.com> 2012 Daniel J. Bernstein <djb@cr.yp.to>
+Copyright Jens Axboe <axboe@suse.de>
+Copyright 2004-2009 Red Hat, Inc. 2011-2014 PLUMgrid 2001-2003 Sistina Software (UK) Limited. 2008 Ian Kent <raven@themaw.net> 1998 David S. Miller
+Copyright 2012 Josh Triplett <josh@joshtriplett.org>
+Copyright 2003-2012 Kay Sievers <kay@vrfy.org> 2003-2004 Greg Kroah-Hartman <greg@kroah.com> 2004 Chris Friesen <chris_friesen@sympatico.ca> 2004, 2009, 2010 David Zeuthen <david@fubar.dk> 2005, 2006
+Copyright 2010-2013 Tollef Fog Heen <tfheen@debian.org> 2013-2018 Michael Biebl <biebl@debian.org> 2013 Michael Stapelberg <stapelberg@debian.org>
+copyrighted by the Free Software Foundation
+copyrighted by me and others
+</text>
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-0
+
+
+FileName: /etc/systemd/oomd.conf
+SPDXID: SPDXRef-systemd-oomd-file-1
+FileChecksum: SHA1: 2048ead58a79df145814d9b8bab3e3a09b059272
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-1
+
+
+FileName: /lib/systemd/system/systemd-oomd.service
+SPDXID: SPDXRef-systemd-oomd-file-2
+FileChecksum: SHA1: 75997cd772791924148570607efce86747796f63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-2
+
+
+FileName: /lib/systemd/systemd-oomd
+SPDXID: SPDXRef-systemd-oomd-file-3
+FileChecksum: SHA1: 142b2d8c188c3fa21c005a0a19e60299fc5efd6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-3
+
+
+FileName: /usr/bin/oomctl
+SPDXID: SPDXRef-systemd-oomd-file-4
+FileChecksum: SHA1: 0fc9d4f6f5cb9501d7319f1868777a770cc59c31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-4
+
+
+FileName: /usr/lib/systemd/oomd.conf.d/10-oomd-defaults.conf
+SPDXID: SPDXRef-systemd-oomd-file-5
+FileChecksum: SHA1: a6bcae307326b75385616b0a1da4af608a890fd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-5
+
+
+FileName: /usr/lib/systemd/system/-.slice.d/10-oomd-root-slice-defaults.conf
+SPDXID: SPDXRef-systemd-oomd-file-6
+FileChecksum: SHA1: 2ec8dcb7efd6184f3ccfdad05c5f487d6e3bc151
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-6
+
+
+FileName: /usr/lib/systemd/system/user@.service.d/10-oomd-user-service-defaults.conf
+SPDXID: SPDXRef-systemd-oomd-file-7
+FileChecksum: SHA1: 78cd57bffc380f5cd199605948b27777d619703f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-7
+
+
+FileName: /usr/lib/sysusers.d/systemd-oom.conf
+SPDXID: SPDXRef-systemd-oomd-file-8
+FileChecksum: SHA1: f755ff8974d4eeb0b0f8bcd50e59cf44a7c493cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-8
+
+
+FileName: /usr/share/dbus-1/system-services/org.freedesktop.oom1.service
+SPDXID: SPDXRef-systemd-oomd-file-9
+FileChecksum: SHA1: 61a3135ee20aee8efee04ed0495c052743891772
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-9
+
+
+FileName: /usr/share/dbus-1/system.d/org.freedesktop.oom1.conf
+SPDXID: SPDXRef-systemd-oomd-file-10
+FileChecksum: SHA1: 7d37934d2f26be28c26dc70836b0b3079facdd65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-10
+
+
+FileName: /usr/share/man/man1/oomctl.1.gz
+SPDXID: SPDXRef-systemd-oomd-file-11
+FileChecksum: SHA1: 168cbe3425ec0a3e9e06a876f45decbafbe3a7ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-11
+
+
+FileName: /usr/share/man/man5/oomd.conf.5.gz
+SPDXID: SPDXRef-systemd-oomd-file-12
+FileChecksum: SHA1: d969ed0e338201d21a0cbf121adc37641c7ba5ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-12
+
+
+FileName: /usr/share/man/man5/org.freedesktop.oom1.5.gz
+SPDXID: SPDXRef-systemd-oomd-file-13
+FileChecksum: SHA1: 2bdc95ec8fe793d45038ec1b152ecde66381d4bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-13
+
+
+FileName: /usr/share/man/man8/systemd-oomd.service.8.gz
+SPDXID: SPDXRef-systemd-oomd-file-14
+FileChecksum: SHA1: c33cdcb09ea860b9a418f3c7cf914bb7f1f3a7ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-14
+
+
+FileName: /usr/share/doc/systemd-oomd/changelog.Debian.gz
+SPDXID: SPDXRef-systemd-oomd-file-15
+FileChecksum: SHA1: 9c8f9d17255b7b13f811557058f1e74856d15149
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-15
+
+
+FileName: /usr/share/man/man5/oomd.conf.d.5.gz
+SPDXID: SPDXRef-systemd-oomd-file-16
+FileChecksum: SHA1: d969ed0e338201d21a0cbf121adc37641c7ba5ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-16
+
+
+FileName: /usr/share/man/man8/systemd-oomd.8.gz
+SPDXID: SPDXRef-systemd-oomd-file-17
+FileChecksum: SHA1: c33cdcb09ea860b9a418f3c7cf914bb7f1f3a7ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-systemd-oomd CONTAINS SPDXRef-systemd-oomd-file-17
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain-disclaimer
+LicenseName: Public Domain Disclaimer
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain-disclaimer.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain-disclaimer.yml
+</text>
+
+

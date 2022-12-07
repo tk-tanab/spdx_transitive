@@ -1,0 +1,298 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/x11-session-utils_7.7+4build2-8d1edb98-028c-50ec-9853-f04987a7a6b6
+DocumentName: x11-session-utils_7.7+4build2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-x11-session-utils
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:17:37Z
+
+
+## Package
+
+PackageName: x11-session-utils
+PackageVersion: 7.7+4build2
+SPDXID: SPDXRef-x11-session-utils
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 06c54090f8307f67cab4d6001d03a9db82792074
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: MIT-open-group
+PackageLicenseInfoFromFiles: LicenseRef-scancode-x11-quarterdeck
+PackageCopyrightText: <text>Copyright (c) 1993 Quarterdeck Office Systems
+Copyright 1994, 1998 The Open Group
+</text>
+PackageComment: <text>X session utilities
+ This package provides the X session manager and related tools:
+  - rstart;
+  - smproxy, a session manager proxy for X clients that do not use the X
+    session manager protocol;
+  - xsm, a session manager for X sessions;
+ Installation of an rsh or ssh daemon (server) is necessary if rstartd is
+ to be used, and installation of an rsh or ssh client is necessary if
+ rstart is to be used.</text>
+Relationship: SPDXRef-x11-session-utils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-x11-session-utils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libice6
+Relationship: SPDXRef-x11-session-utils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsm6
+Relationship: SPDXRef-x11-session-utils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libx11-6
+Relationship: SPDXRef-x11-session-utils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxaw7
+Relationship: SPDXRef-x11-session-utils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxmuu1
+Relationship: SPDXRef-x11-session-utils DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxt6
+
+
+## File
+
+FileName: /usr/share/doc/x11-session-utils/copyright
+SPDXID: SPDXRef-x11-session-utils-file-0
+FileChecksum: SHA1: 1eda20030c1b8d2e855c0337b74372c60af715c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-open-group
+LicenseInfoInFile: LicenseRef-scancode-x11-quarterdeck
+FileCopyrightText: <text>Copyright (c) 1993 Quarterdeck Office Systems
+Copyright 1994, 1998 The Open Group
+</text>
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-0
+
+
+FileName: /etc/X11/app-defaults/XSm
+SPDXID: SPDXRef-x11-session-utils-file-1
+FileChecksum: SHA1: 6fb3313e2e3a9aa505258180c861c42faeafa5ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-1
+
+
+FileName: /etc/X11/xsm/system.xsm
+SPDXID: SPDXRef-x11-session-utils-file-2
+FileChecksum: SHA1: 625af056078084401e6f548d3af0add135eac3a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-2
+
+
+FileName: /usr/bin/rstart
+SPDXID: SPDXRef-x11-session-utils-file-3
+FileChecksum: SHA1: 05a00e03ec108a5c8fc180edef875b94453a7937
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-3
+
+
+FileName: /usr/bin/rstartd
+SPDXID: SPDXRef-x11-session-utils-file-4
+FileChecksum: SHA1: 8455dd6cdfc30f0415e8255ecd15e8d23e9d616b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-4
+
+
+FileName: /usr/bin/smproxy
+SPDXID: SPDXRef-x11-session-utils-file-5
+FileChecksum: SHA1: 565f1aca56f37addae3b4d73ed0466a15bdef467
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-5
+
+
+FileName: /usr/bin/xsm
+SPDXID: SPDXRef-x11-session-utils-file-6
+FileChecksum: SHA1: a36cc79f553ebf75c0c15bcb9a72eecb5dbadf86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-6
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/commands/@List
+SPDXID: SPDXRef-x11-session-utils-file-7
+FileChecksum: SHA1: 073838e127e69778cd941142431d6ab5b4cf2441
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-7
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/commands/ListContexts
+SPDXID: SPDXRef-x11-session-utils-file-8
+FileChecksum: SHA1: fdf7347bb5c08d762fa5e17d94a2f041a6a519a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-8
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/commands/ListGenericCommands
+SPDXID: SPDXRef-x11-session-utils-file-9
+FileChecksum: SHA1: b669702678735e95e45c7765c19821a03a53d641
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-9
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/commands/x11r6/@List
+SPDXID: SPDXRef-x11-session-utils-file-10
+FileChecksum: SHA1: e6258884fbcaa87c0cf2c6efb600fcfcfdab8d16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-10
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/commands/x11r6/LoadMonitor
+SPDXID: SPDXRef-x11-session-utils-file-11
+FileChecksum: SHA1: 6f2feb8660ee1e255b577dcb9181d5cdbda4ed51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-11
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/commands/x11r6/Terminal
+SPDXID: SPDXRef-x11-session-utils-file-12
+FileChecksum: SHA1: 471d4c8bc44ef4e8bcc7b93b54f6721335f2a7f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-12
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/config
+SPDXID: SPDXRef-x11-session-utils-file-13
+FileChecksum: SHA1: ac09920ab91a92ba64f5259621c62c0703b53a37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-13
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/contexts/@List
+SPDXID: SPDXRef-x11-session-utils-file-14
+FileChecksum: SHA1: 144e704cda667da605c23354ac19959527da760e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-14
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/contexts/default
+SPDXID: SPDXRef-x11-session-utils-file-15
+FileChecksum: SHA1: de1ec60ac13132f6564ac85379a302d5482dd018
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-15
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/contexts/x11r6
+SPDXID: SPDXRef-x11-session-utils-file-16
+FileChecksum: SHA1: b67b9477b0824e400e4d3289c8b9b73fc129ca65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-16
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/rstartd.real
+SPDXID: SPDXRef-x11-session-utils-file-17
+FileChecksum: SHA1: f26f8a85ffc93b6ffbf4629efbcecdcb45519a15
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-17
+
+
+FileName: /usr/share/doc/x11-session-utils/changelog.gz
+SPDXID: SPDXRef-x11-session-utils-file-18
+FileChecksum: SHA1: d10cca23d5f6330dd56fb20ce05bcca442a6bec6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-18
+
+
+FileName: /usr/share/man/man1/rstart.1.gz
+SPDXID: SPDXRef-x11-session-utils-file-19
+FileChecksum: SHA1: 89a5a830e52b3d231f75b73d2f33c9d29e7c65c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-19
+
+
+FileName: /usr/share/man/man1/rstartd.1.gz
+SPDXID: SPDXRef-x11-session-utils-file-20
+FileChecksum: SHA1: fe88da838fa60ff2e036078aa0f052540b3abcd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-20
+
+
+FileName: /usr/share/man/man1/smproxy.1.gz
+SPDXID: SPDXRef-x11-session-utils-file-21
+FileChecksum: SHA1: 850b2a45d9d5f8b1bfa4b8fbf8a3d44195aa1788
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-21
+
+
+FileName: /usr/share/man/man1/xsm.1.gz
+SPDXID: SPDXRef-x11-session-utils-file-22
+FileChecksum: SHA1: 011033671db03eacc7fff49936b4d6c0e2987b13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-22
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/contexts/x
+SPDXID: SPDXRef-x11-session-utils-file-23
+FileChecksum: SHA1: b67b9477b0824e400e4d3289c8b9b73fc129ca65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-23
+
+
+FileName: /usr/lib/x86_64-linux-gnu/X11/rstart/contexts/x11
+SPDXID: SPDXRef-x11-session-utils-file-24
+FileChecksum: SHA1: b67b9477b0824e400e4d3289c8b9b73fc129ca65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-x11-session-utils CONTAINS SPDXRef-x11-session-utils-file-24
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-x11-quarterdeck
+LicenseName: X11-Style (Quarterdeck)
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-quarterdeck.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/x11-quarterdeck.yml
+</text>
+
+

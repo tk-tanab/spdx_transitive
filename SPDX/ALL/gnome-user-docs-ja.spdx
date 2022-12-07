@@ -1,0 +1,3931 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-user-docs-ja_41.5-1ubuntu2-ee73eec2-4007-5e10-b333-1b6ade398b94
+DocumentName: gnome-user-docs-ja_41.5-1ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-user-docs-ja
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:13:41Z
+
+
+## Package
+
+PackageName: gnome-user-docs-ja
+PackageVersion: 41.5-1ubuntu2
+SPDXID: SPDXRef-gnome-user-docs-ja
+PackageHomePage: https://help.gnome.org/users/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 812154c5ba5c0ed0aca4af56cbe0966c2cbd0fe1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageCopyrightText: <text>Copyright (c) 2010 - 2014 Shaun McCance
+</text>
+PackageComment: <text>GNOME Help (Japanese)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Japanese.</text>
+Relationship: SPDXRef-gnome-user-docs-ja DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-user-docs
+
+
+## File
+
+FileName: /usr/share/doc/gnome-user-docs-ja/copyright
+SPDXID: SPDXRef-gnome-user-docs-ja-file-0
+FileChecksum: SHA1: f278f8b92fbff01b92a04f156a3e5c80b106cf8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright (c) 2010 - 2014 Shaun McCance
+</text>
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-0
+
+
+FileName: /usr/share/doc/gnome-user-docs-ja/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-user-docs-ja-file-1
+FileChecksum: SHA1: aa4a2280a420988ce7348e5a30e1b3d2957f45c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-1
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-bouncekeys.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-2
+FileChecksum: SHA1: 7410f54fa023518ac822b0fa21e394f8f7eed263
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-2
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-braille.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-3
+FileChecksum: SHA1: 2b1c72625a3fb8e16818feb6759cd2b580b3ce3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-3
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-contrast.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-4
+FileChecksum: SHA1: c1a7f7f13773a702db8313996a4471454036ab29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-4
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-dwellclick.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-5
+FileChecksum: SHA1: 0f130a35edb3565c203eaa20adde04a8788787ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-5
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-font-size.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-6
+FileChecksum: SHA1: 3c99223ac293c19792a6c5d20658d96665e81014
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-6
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-icon.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-7
+FileChecksum: SHA1: 8e64913843a3ca7625ed06c8a2b88c766efc659f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-7
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-mag.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-8
+FileChecksum: SHA1: 708048d087f377bb5f162a45725459ae3cc68d54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-8
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-right-click.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-9
+FileChecksum: SHA1: 541f8108b88b343e2a0d9d9042ec62946db6f94d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-9
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-screen-reader.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-10
+FileChecksum: SHA1: c2795753a87a67886889bed34478f18f540c8ea3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-10
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-slowkeys.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-11
+FileChecksum: SHA1: 503894215e060baf9bdacc0b5db144bf66f2a855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-11
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-stickykeys.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-12
+FileChecksum: SHA1: a0b27f94fd0ac288b1b27486be3f7790be6586f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-12
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y-visualalert.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-13
+FileChecksum: SHA1: dd1f223313f68b341933c21bf94770103f19a1d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-13
+
+
+FileName: /usr/share/help/ja/gnome-help/a11y.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-14
+FileChecksum: SHA1: 49567f1f088e3663c903bc407293b34e12944dd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-14
+
+
+FileName: /usr/share/help/ja/gnome-help/accounts-add.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-15
+FileChecksum: SHA1: c48a0b5a058a508b7ce4b312c3499d91bb819f98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-15
+
+
+FileName: /usr/share/help/ja/gnome-help/accounts-disable-service.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-16
+FileChecksum: SHA1: 3464073dca7a25b3d385d6bb38cf6a34bbcf336b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-16
+
+
+FileName: /usr/share/help/ja/gnome-help/accounts-provider-not-available.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-17
+FileChecksum: SHA1: bbdb83e1a1869f820bfe46aafc54dfebb4c05f22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-17
+
+
+FileName: /usr/share/help/ja/gnome-help/accounts-remove.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-18
+FileChecksum: SHA1: 4556c52ec34afba82621dd46ae743bdc4f4a45c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-18
+
+
+FileName: /usr/share/help/ja/gnome-help/accounts-which-application.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-19
+FileChecksum: SHA1: bde3d300a93596eb8c18555a65569da82cf89008
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-19
+
+
+FileName: /usr/share/help/ja/gnome-help/accounts-whyadd.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-20
+FileChecksum: SHA1: 8fcf864ffb747c8d4a41957f8b56ca5c73494eb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-20
+
+
+FileName: /usr/share/help/ja/gnome-help/accounts.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-21
+FileChecksum: SHA1: f8a8c7f40304e311e6244d94720986127b60fc99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-21
+
+
+FileName: /usr/share/help/ja/gnome-help/backup-check.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-22
+FileChecksum: SHA1: 67126677e96227011f0b9a131311e601c00bdeb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-22
+
+
+FileName: /usr/share/help/ja/gnome-help/backup-frequency.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-23
+FileChecksum: SHA1: 93b3e4e94c1eb319cd818fdd4c6df91c4a81313a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-23
+
+
+FileName: /usr/share/help/ja/gnome-help/backup-how.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-24
+FileChecksum: SHA1: fa7df608b3fd727ac6d9ca067ff9cd6a34625346
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-24
+
+
+FileName: /usr/share/help/ja/gnome-help/backup-restore.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-25
+FileChecksum: SHA1: eb46b6d1a4f3f3d418d9ec399b34a3ca4beb8238
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-25
+
+
+FileName: /usr/share/help/ja/gnome-help/backup-thinkabout.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-26
+FileChecksum: SHA1: f8515c94dbb52272b82ddd967f1d93d51b158170
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-26
+
+
+FileName: /usr/share/help/ja/gnome-help/backup-what.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-27
+FileChecksum: SHA1: 9df6c2b32fde56d2a5720e9a879c3976362c7da6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-27
+
+
+FileName: /usr/share/help/ja/gnome-help/backup-where.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-28
+FileChecksum: SHA1: e1ae19f310f0aa82eedeaf05cf6c17070d4d8bbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-28
+
+
+FileName: /usr/share/help/ja/gnome-help/backup-why.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-29
+FileChecksum: SHA1: 1013dfe5d8b2bb15bf8a5db8bf188cdbadf05ab1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-29
+
+
+FileName: /usr/share/help/ja/gnome-help/bluetooth-connect-device.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-30
+FileChecksum: SHA1: d07fef5e241b76ccb191241d4ae9f2af165492da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-30
+
+
+FileName: /usr/share/help/ja/gnome-help/bluetooth-device-specific-pairing.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-31
+FileChecksum: SHA1: 16390e3c36c1f67bb2d25ea1ba3bffdb17264b53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-31
+
+
+FileName: /usr/share/help/ja/gnome-help/bluetooth-problem-connecting.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-32
+FileChecksum: SHA1: e5b17f41c181be886db343888f0b4fcf8a302c83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-32
+
+
+FileName: /usr/share/help/ja/gnome-help/bluetooth-remove-connection.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-33
+FileChecksum: SHA1: d91834e68e37f287a60da8886e51c510516fc6ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-33
+
+
+FileName: /usr/share/help/ja/gnome-help/bluetooth-send-file.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-34
+FileChecksum: SHA1: 0d56b189f249bba3e666f13859a931ec94ccb2ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-34
+
+
+FileName: /usr/share/help/ja/gnome-help/bluetooth-turn-on-off.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-35
+FileChecksum: SHA1: b54b9a2b4e02518ea9c8292796cedac1e8e76935
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-35
+
+
+FileName: /usr/share/help/ja/gnome-help/bluetooth-visibility.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-36
+FileChecksum: SHA1: 57da8c0f1ecc76d9674d875857ce6614856fb895
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-36
+
+
+FileName: /usr/share/help/ja/gnome-help/bluetooth.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-37
+FileChecksum: SHA1: 51ad0146f113eddc7446e18187090aeae575914d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-37
+
+
+FileName: /usr/share/help/ja/gnome-help/clock-calendar.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-38
+FileChecksum: SHA1: f8d3a7ef421993bc645465a10200a1518dc96239
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-38
+
+
+FileName: /usr/share/help/ja/gnome-help/clock-set.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-39
+FileChecksum: SHA1: 7672bc7265cade17a0e46f17dfad35516250138a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-39
+
+
+FileName: /usr/share/help/ja/gnome-help/clock-timezone.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-40
+FileChecksum: SHA1: c4bfab1ea37f5fd80bfadc628e0fc1d696c82a68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-40
+
+
+FileName: /usr/share/help/ja/gnome-help/clock-world.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-41
+FileChecksum: SHA1: fd5a1f5991de2e493af847c6b7addaa8a3b58743
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-41
+
+
+FileName: /usr/share/help/ja/gnome-help/clock.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-42
+FileChecksum: SHA1: 0cf38efc826659b7c8d44734d67b54b6dbc28a93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-42
+
+
+FileName: /usr/share/help/ja/gnome-help/color-assignprofiles.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-43
+FileChecksum: SHA1: 33f344e9342f0bdce4cf9269767bb1eca69db8d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-43
+
+
+FileName: /usr/share/help/ja/gnome-help/color-calibrate-camera.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-44
+FileChecksum: SHA1: 2d33d6849e367b4daf998b783cfb5b0cc344989b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-44
+
+
+FileName: /usr/share/help/ja/gnome-help/color-calibrate-printer.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-45
+FileChecksum: SHA1: 290b432ef44b416ba56980417929ae2d6f93d028
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-45
+
+
+FileName: /usr/share/help/ja/gnome-help/color-calibrate-scanner.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-46
+FileChecksum: SHA1: c890af6d83df934a5423a8bc22f2478c5e8d180d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-46
+
+
+FileName: /usr/share/help/ja/gnome-help/color-calibrate-screen.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-47
+FileChecksum: SHA1: 19c56a15f477965f8eedee2c038fc456c8e91a9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-47
+
+
+FileName: /usr/share/help/ja/gnome-help/color-calibrationcharacterization.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-48
+FileChecksum: SHA1: deab14f7debb2adb6d44aff49d49b9bb1cf9ad60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-48
+
+
+FileName: /usr/share/help/ja/gnome-help/color-calibrationdevices.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-49
+FileChecksum: SHA1: 4a75fa0955b8bbb1ca1fb6741b19a170dffc6e0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-49
+
+
+FileName: /usr/share/help/ja/gnome-help/color-calibrationtargets.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-50
+FileChecksum: SHA1: 007a1783dfd7bd2585e871bf92bbba643439101f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-50
+
+
+FileName: /usr/share/help/ja/gnome-help/color-canshareprofiles.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-51
+FileChecksum: SHA1: 3121faadf19f9888f297117a41080161504cb934
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-51
+
+
+FileName: /usr/share/help/ja/gnome-help/color-gettingprofiles.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-52
+FileChecksum: SHA1: 410bf27ebbd1b263a6f4cde51f137e8ab5072eeb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-52
+
+
+FileName: /usr/share/help/ja/gnome-help/color-howtoimport.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-53
+FileChecksum: SHA1: 58204f0e0e1ce976d8c8b6cdaa62e5ff02d252c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-53
+
+
+FileName: /usr/share/help/ja/gnome-help/color-missingvcgt.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-54
+FileChecksum: SHA1: 71b563d832b345fa9f00e811015c7c5ffbc82140
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-54
+
+
+FileName: /usr/share/help/ja/gnome-help/color-notifications.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-55
+FileChecksum: SHA1: 721e1bd8c1aea26ed3e2964f872d19a65ea134cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-55
+
+
+FileName: /usr/share/help/ja/gnome-help/color-notspecifiededid.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-56
+FileChecksum: SHA1: e08214c2416518c4e0aa63381da528c23a11e094
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-56
+
+
+FileName: /usr/share/help/ja/gnome-help/color-testing.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-57
+FileChecksum: SHA1: 65ab8c614076d29c09b3c87f307e0a100aef6033
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-57
+
+
+FileName: /usr/share/help/ja/gnome-help/color-whatisprofile.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-58
+FileChecksum: SHA1: db6d260edcaad760316fa7db4942a24bced7a33f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-58
+
+
+FileName: /usr/share/help/ja/gnome-help/color-whatisspace.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-59
+FileChecksum: SHA1: f61d573a140c4fdc84a2a4f9d45b18da2f9672b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-59
+
+
+FileName: /usr/share/help/ja/gnome-help/color-why-calibrate.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-60
+FileChecksum: SHA1: 6d0f7e8d77f692e0bddd19da77f86908c8cd1d4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-60
+
+
+FileName: /usr/share/help/ja/gnome-help/color-whyimportant.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-61
+FileChecksum: SHA1: af816238c277906233eef6bd3e74ef31029cc918
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-61
+
+
+FileName: /usr/share/help/ja/gnome-help/color.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-62
+FileChecksum: SHA1: 57ef174bc74f215463f97a11abc3c37bb2083ff8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-62
+
+
+FileName: /usr/share/help/ja/gnome-help/contacts-add-remove.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-63
+FileChecksum: SHA1: 18babd45714dcde35e0c9207503e3fea3d7c7a6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-63
+
+
+FileName: /usr/share/help/ja/gnome-help/contacts-connect.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-64
+FileChecksum: SHA1: 343c783c1c73e7aa82fffb4cedae82527724ba09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-64
+
+
+FileName: /usr/share/help/ja/gnome-help/contacts-edit-details.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-65
+FileChecksum: SHA1: a7f4f6c06be446b47bd17b86e0cfcb800222c5a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-65
+
+
+FileName: /usr/share/help/ja/gnome-help/contacts-link-unlink.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-66
+FileChecksum: SHA1: da6e25d8118dc964d6629fe83ffd41afca97808f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-66
+
+
+FileName: /usr/share/help/ja/gnome-help/contacts-search.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-67
+FileChecksum: SHA1: f4fa4c67bf0e507b27c8d5b029637219f8970f83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-67
+
+
+FileName: /usr/share/help/ja/gnome-help/contacts-setup.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-68
+FileChecksum: SHA1: abbd084c1b6f7413d27c765e8022363a19ca4c6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-68
+
+
+FileName: /usr/share/help/ja/gnome-help/contacts.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-69
+FileChecksum: SHA1: 91eeaf49fd67d3e8dbec75f132dda19aada8ae19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-69
+
+
+FileName: /usr/share/help/ja/gnome-help/disk-benchmark.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-70
+FileChecksum: SHA1: cea64e73e5f17fcd5f544927218c2b02ef2292f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-70
+
+
+FileName: /usr/share/help/ja/gnome-help/disk-capacity.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-71
+FileChecksum: SHA1: 6e8dcec058cc7762d8855be30d53541f4bdc52cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-71
+
+
+FileName: /usr/share/help/ja/gnome-help/disk-check.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-72
+FileChecksum: SHA1: 0ccd119a4be27ea1837c0d2610df9a441604a369
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-72
+
+
+FileName: /usr/share/help/ja/gnome-help/disk-format.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-73
+FileChecksum: SHA1: 6f903878891fd81ad7d109231c8005eca3a4cacb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-73
+
+
+FileName: /usr/share/help/ja/gnome-help/disk-partitions.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-74
+FileChecksum: SHA1: bbd80556d444b35864db00469f4d86057790dd1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-74
+
+
+FileName: /usr/share/help/ja/gnome-help/disk-repair.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-75
+FileChecksum: SHA1: b980a489d5b95dfcdb281dae07c61fbd99e38a57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-75
+
+
+FileName: /usr/share/help/ja/gnome-help/disk-resize.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-76
+FileChecksum: SHA1: 376fc2d921fef703986b603eb5e212180402b33e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-76
+
+
+FileName: /usr/share/help/ja/gnome-help/disk.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-77
+FileChecksum: SHA1: cad8c92258b742949c0bb16611df4c40a9ec9137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-77
+
+
+FileName: /usr/share/help/ja/gnome-help/display-blank.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-78
+FileChecksum: SHA1: 13950a05feb2e522647978c2e33846e105c408ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-78
+
+
+FileName: /usr/share/help/ja/gnome-help/display-brightness.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-79
+FileChecksum: SHA1: 37383f097c4b096060a9312e01479b7f029dda5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-79
+
+
+FileName: /usr/share/help/ja/gnome-help/display-dual-monitors.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-80
+FileChecksum: SHA1: 7c275307ebbcfe3a61bec500341cb19aa84d7e57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-80
+
+
+FileName: /usr/share/help/ja/gnome-help/display-night-light.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-81
+FileChecksum: SHA1: deaf1f62f26f8bf54b59682eeab3476648315ea1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-81
+
+
+FileName: /usr/share/help/ja/gnome-help/files-autorun.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-82
+FileChecksum: SHA1: f8e7b1b269c349f080d67c6180f76ebd766b66f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-82
+
+
+FileName: /usr/share/help/ja/gnome-help/files-browse.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-83
+FileChecksum: SHA1: 268da8bb4dfcf66caff34ffeb5495d739a7df4e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-83
+
+
+FileName: /usr/share/help/ja/gnome-help/files-copy.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-84
+FileChecksum: SHA1: d8af724f11d081ccc64e9bbc0862b411aeee6843
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-84
+
+
+FileName: /usr/share/help/ja/gnome-help/files-delete.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-85
+FileChecksum: SHA1: 12d758c72264ab70f63a3870afc04a35b5c65aec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-85
+
+
+FileName: /usr/share/help/ja/gnome-help/files-disc-write.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-86
+FileChecksum: SHA1: 20ccce6ec1df73a68e9e17e8404e24dd148f8760
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-86
+
+
+FileName: /usr/share/help/ja/gnome-help/files-hidden.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-87
+FileChecksum: SHA1: 3b800af5c801953d98198c4122b9a298fddb0db3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-87
+
+
+FileName: /usr/share/help/ja/gnome-help/files-lost.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-88
+FileChecksum: SHA1: b680ef0a782461c4e19adc7c1b927519e3911d87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-88
+
+
+FileName: /usr/share/help/ja/gnome-help/files-open.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-89
+FileChecksum: SHA1: 920556609635a7ff2263742e2fddade48fae6fcf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-89
+
+
+FileName: /usr/share/help/ja/gnome-help/files-preview.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-90
+FileChecksum: SHA1: c6838d5d68481524f108d46445efabf4419e6a8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-90
+
+
+FileName: /usr/share/help/ja/gnome-help/files-recover.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-91
+FileChecksum: SHA1: c6b3c77c74dcdfa58b782525264609abe315bdc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-91
+
+
+FileName: /usr/share/help/ja/gnome-help/files-removedrive.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-92
+FileChecksum: SHA1: 9e6b1da01fcbecd8fa44ba5aa34520a62cd55762
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-92
+
+
+FileName: /usr/share/help/ja/gnome-help/files-rename.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-93
+FileChecksum: SHA1: bf1ff07e618fee065f0dd70815f12b1aa978a3f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-93
+
+
+FileName: /usr/share/help/ja/gnome-help/files-search.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-94
+FileChecksum: SHA1: 410f2172f7211cf6e4fd8f06bb503f266db72473
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-94
+
+
+FileName: /usr/share/help/ja/gnome-help/files-select.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-95
+FileChecksum: SHA1: 0041426a99a17f40a06c0bfdbe9c13f17b6533f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-95
+
+
+FileName: /usr/share/help/ja/gnome-help/files-share.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-96
+FileChecksum: SHA1: 801132cc6e1186a3bc0ba46f64b329a00cb6dc5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-96
+
+
+FileName: /usr/share/help/ja/gnome-help/files-sort.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-97
+FileChecksum: SHA1: f0dd24f2ec1572b9fc4161b6e3bb7458dbee7723
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-97
+
+
+FileName: /usr/share/help/ja/gnome-help/files-templates.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-98
+FileChecksum: SHA1: 95ff4c7f459b6920017e526667c48a0f21f0a31e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-98
+
+
+FileName: /usr/share/help/ja/gnome-help/files-tilde.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-99
+FileChecksum: SHA1: 768129845298bc419e35dbd82ff7c3bb6f965cdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-99
+
+
+FileName: /usr/share/help/ja/gnome-help/files.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-100
+FileChecksum: SHA1: 319c396c9661f41a931af3e8ce0223c0d42ad522
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-100
+
+
+FileName: /usr/share/help/ja/gnome-help/gnome-classic.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-101
+FileChecksum: SHA1: f394a4dd5e239ea7ec90e3193b456783c87cfee2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-101
+
+
+FileName: /usr/share/help/ja/gnome-help/gnome-version.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-102
+FileChecksum: SHA1: f63c29c1434ae50b5b0ac9ccd6760024abb342ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-102
+
+
+FileName: /usr/share/help/ja/gnome-help/hardware-auth.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-103
+FileChecksum: SHA1: 82520112060dabe7aae62ee73931493e103e637c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-103
+
+
+FileName: /usr/share/help/ja/gnome-help/hardware-cardreader.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-104
+FileChecksum: SHA1: 2bfc4e76ee42a5dd3b405585371df55f36a12420
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-104
+
+
+FileName: /usr/share/help/ja/gnome-help/hardware-driver.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-105
+FileChecksum: SHA1: ce8815e700c65163832a91544c5b4bca45c75d40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-105
+
+
+FileName: /usr/share/help/ja/gnome-help/hardware-problems-graphics.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-106
+FileChecksum: SHA1: eca8d4d4d234c620ce1673179d57b0ce054b009b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-106
+
+
+FileName: /usr/share/help/ja/gnome-help/hardware.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-107
+FileChecksum: SHA1: 6b7bd70696ee06b6e449185c0d6421df57d5904c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-107
+
+
+FileName: /usr/share/help/ja/gnome-help/keyboard-cursor-blink.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-108
+FileChecksum: SHA1: 9a41baebbcb12bf57707c2a9fa89cb888b5b0a58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-108
+
+
+FileName: /usr/share/help/ja/gnome-help/keyboard-key-menu.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-109
+FileChecksum: SHA1: 32a23d7fce5c4a584a8d72d743a2654704db1da4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-109
+
+
+FileName: /usr/share/help/ja/gnome-help/keyboard-key-super.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-110
+FileChecksum: SHA1: 8491e0e6be35fed69e4506d7a714334be6631511
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-110
+
+
+FileName: /usr/share/help/ja/gnome-help/keyboard-layouts.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-111
+FileChecksum: SHA1: 1dd1c46731ac2666f55503ae4914efeac45f27a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-111
+
+
+FileName: /usr/share/help/ja/gnome-help/keyboard-nav.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-112
+FileChecksum: SHA1: da14f85b4bcaf5c3293d2f2cdc27a41c7cafa62b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-112
+
+
+FileName: /usr/share/help/ja/gnome-help/keyboard-osk.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-113
+FileChecksum: SHA1: 226298c6a8af47bf4f67ba661db1ad87fe8acf32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-113
+
+
+FileName: /usr/share/help/ja/gnome-help/keyboard-repeat-keys.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-114
+FileChecksum: SHA1: ac5650ad4d95207fa00556d44bc12d4355d5fd13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-114
+
+
+FileName: /usr/share/help/ja/gnome-help/keyboard-shortcuts-set.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-115
+FileChecksum: SHA1: 43808bd7dd467da5c47a2d74e90517a20cca368d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-115
+
+
+FileName: /usr/share/help/ja/gnome-help/keyboard.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-116
+FileChecksum: SHA1: fd8de1ca13b7fb6605ccd839cf535d41c4ebcab2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-116
+
+
+FileName: /usr/share/help/ja/gnome-help/legal.xml
+SPDXID: SPDXRef-gnome-user-docs-ja-file-117
+FileChecksum: SHA1: ff43f913192e82548babe40e6eb7073b2dee7250
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-117
+
+
+FileName: /usr/share/help/ja/gnome-help/look-background.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-118
+FileChecksum: SHA1: 442bc19e73cc6686b4268a4e82c7dea0c8e8ff69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-118
+
+
+FileName: /usr/share/help/ja/gnome-help/look-display-fuzzy.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-119
+FileChecksum: SHA1: 29a9e28904b842fe02eff440e35fa112f45783a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-119
+
+
+FileName: /usr/share/help/ja/gnome-help/look-resolution.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-120
+FileChecksum: SHA1: ad9d3be880f1d456f9e98e257bb37932064c5026
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-120
+
+
+FileName: /usr/share/help/ja/gnome-help/media.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-121
+FileChecksum: SHA1: 18913a718ac2e8834d23cc15f7492e530c48e8f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-121
+
+
+FileName: /usr/share/help/ja/gnome-help/mouse-doubleclick.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-122
+FileChecksum: SHA1: 1d3708baf4e2e3482be9291c408b06c2cd2a0cfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-122
+
+
+FileName: /usr/share/help/ja/gnome-help/mouse-lefthanded.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-123
+FileChecksum: SHA1: e26273a83060940812312b6a96360dd316dca5fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-123
+
+
+FileName: /usr/share/help/ja/gnome-help/mouse-middleclick.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-124
+FileChecksum: SHA1: 64815150cb1181acd0d683e7fc609b7ed237ee6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-124
+
+
+FileName: /usr/share/help/ja/gnome-help/mouse-mousekeys.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-125
+FileChecksum: SHA1: 77c1323dc26ccdfcaed8353fe0d891f363a6ba46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-125
+
+
+FileName: /usr/share/help/ja/gnome-help/mouse-problem-notmoving.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-126
+FileChecksum: SHA1: ee529286a21b2e30e7b58c90842a09cef82c4778
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-126
+
+
+FileName: /usr/share/help/ja/gnome-help/mouse-sensitivity.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-127
+FileChecksum: SHA1: be2ef0b0c4e2e25af2a7de604e1200d268b89530
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-127
+
+
+FileName: /usr/share/help/ja/gnome-help/mouse-touchpad-click.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-128
+FileChecksum: SHA1: 835e968668b506f1a739451ad616261e522d472b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-128
+
+
+FileName: /usr/share/help/ja/gnome-help/mouse-wakeup.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-129
+FileChecksum: SHA1: 98203373b2ca51e54b945440b8bce54d0ebdfa6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-129
+
+
+FileName: /usr/share/help/ja/gnome-help/mouse.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-130
+FileChecksum: SHA1: 6d889f6f111620dfb0ec2771bde5283eefdaff42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-130
+
+
+FileName: /usr/share/help/ja/gnome-help/music-cantplay-drm.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-131
+FileChecksum: SHA1: 06b4549e569efee09d6e0545f7971335bfc27619
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-131
+
+
+FileName: /usr/share/help/ja/gnome-help/music-player-ipodtransfer.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-132
+FileChecksum: SHA1: e929a158171d8915e1557f73a72c98da7d7f310f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-132
+
+
+FileName: /usr/share/help/ja/gnome-help/music-player-newipod.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-133
+FileChecksum: SHA1: b047c6e4fd4db56db3b53d24fc74fc2b1bbedf4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-133
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-behavior.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-134
+FileChecksum: SHA1: 2d902f5bdd10f87468dd20c68d73b96658b5cd63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-134
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-bookmarks-edit.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-135
+FileChecksum: SHA1: b36711a64b4a383281d8390327cf0e6f4cad93fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-135
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-connect.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-136
+FileChecksum: SHA1: f9b36f59298b4cd4e70f947303d1a47a55df472f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-136
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-display.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-137
+FileChecksum: SHA1: 36f784db7db979fcf0e7bb8de607ab6c21bcc7f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-137
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-file-properties-basic.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-138
+FileChecksum: SHA1: 30085cb0c5da79482485c5b38eeb486724890a0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-138
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-file-properties-permissions.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-139
+FileChecksum: SHA1: 6a1d3d2806d341c775df1401acde4c8892c6ef34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-139
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-list.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-140
+FileChecksum: SHA1: ca34c529dd5a9378ba76e2dbd642ceb6f0492a0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-140
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-prefs.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-141
+FileChecksum: SHA1: 2cd7955ab0a5edc5dd0a8be128c24ef53b222293
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-141
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-preview.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-142
+FileChecksum: SHA1: 0acf99b25415af6cb5c2993d415900b8139ac8b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-142
+
+
+FileName: /usr/share/help/ja/gnome-help/nautilus-views.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-143
+FileChecksum: SHA1: 00a1f8c56e8f8577ae0ccb2fd4eac2f36cc40eda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-143
+
+
+FileName: /usr/share/help/ja/gnome-help/net-antivirus.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-144
+FileChecksum: SHA1: 15d4e1ab5a5630f472e9db95438e6b836e62017c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-144
+
+
+FileName: /usr/share/help/ja/gnome-help/net-browser.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-145
+FileChecksum: SHA1: efb489236b25db6b5e55ffc1bae954853f59dcbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-145
+
+
+FileName: /usr/share/help/ja/gnome-help/net-default-browser.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-146
+FileChecksum: SHA1: 66063dae0c1338656ceeafa3caf9bad671e8a0df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-146
+
+
+FileName: /usr/share/help/ja/gnome-help/net-default-email.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-147
+FileChecksum: SHA1: 49d8e6df6e5cf60aa882d56b760c3cce034bfbe5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-147
+
+
+FileName: /usr/share/help/ja/gnome-help/net-email-virus.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-148
+FileChecksum: SHA1: a5cfee78ec95b595e5e3bfa6db8dd495dd9d6802
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-148
+
+
+FileName: /usr/share/help/ja/gnome-help/net-email.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-149
+FileChecksum: SHA1: e84d978866dab51ff7ac56e033c0bbbfe4969bae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-149
+
+
+FileName: /usr/share/help/ja/gnome-help/net-findip.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-150
+FileChecksum: SHA1: 3738efd8f22bd3d8b609b774e51122eb1d1e6b96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-150
+
+
+FileName: /usr/share/help/ja/gnome-help/net-firewall-on-off.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-151
+FileChecksum: SHA1: 550af4ddb572bce2eab8e66d4a5d29b5ea7d6113
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-151
+
+
+FileName: /usr/share/help/ja/gnome-help/net-firewall-ports.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-152
+FileChecksum: SHA1: 39a97484fb07e62a097c893d2ae594862202d87b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-152
+
+
+FileName: /usr/share/help/ja/gnome-help/net-fixed-ip-address.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-153
+FileChecksum: SHA1: f7995ed4f618df38fe723eeba74ba89024652895
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-153
+
+
+FileName: /usr/share/help/ja/gnome-help/net-general.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-154
+FileChecksum: SHA1: 220d591b7bcffee1b4c1195e88376358e413511c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-154
+
+
+FileName: /usr/share/help/ja/gnome-help/net-macaddress.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-155
+FileChecksum: SHA1: 58c35feeb08ffb19135b5154a1ddb28756dd45c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-155
+
+
+FileName: /usr/share/help/ja/gnome-help/net-manual.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-156
+FileChecksum: SHA1: 7108fc8dbe9ffb0274923a8a591f236bc67f23e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-156
+
+
+FileName: /usr/share/help/ja/gnome-help/net-mobile.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-157
+FileChecksum: SHA1: 80cb38c266124b6307dd625cf09013af2af05237
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-157
+
+
+FileName: /usr/share/help/ja/gnome-help/net-othersconnect.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-158
+FileChecksum: SHA1: 787e183962894ab77e3b9bd147920b0e91e630a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-158
+
+
+FileName: /usr/share/help/ja/gnome-help/net-othersedit.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-159
+FileChecksum: SHA1: 93e6e16f78cdc62a4bb160f0dd92ed31b04c706d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-159
+
+
+FileName: /usr/share/help/ja/gnome-help/net-problem.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-160
+FileChecksum: SHA1: 2a28cab6cd31ec6717dc2020b9700b1c34e1e819
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-160
+
+
+FileName: /usr/share/help/ja/gnome-help/net-proxy.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-161
+FileChecksum: SHA1: 461decc347df9e7b2689ee9d18b6a2a5786c97a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-161
+
+
+FileName: /usr/share/help/ja/gnome-help/net-security-tips.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-162
+FileChecksum: SHA1: caf48b2942c27c8911ef457b5e07ae5d36ec6f9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-162
+
+
+FileName: /usr/share/help/ja/gnome-help/net-security.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-163
+FileChecksum: SHA1: bde2820b96d7c175e3e664b064b8b5e26615a509
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-163
+
+
+FileName: /usr/share/help/ja/gnome-help/net-slow.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-164
+FileChecksum: SHA1: cf75988a9f30009dcdacb1869877184b888c8487
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-164
+
+
+FileName: /usr/share/help/ja/gnome-help/net-vpn-connect.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-165
+FileChecksum: SHA1: a1cd750748dc5faf06a8a1b4a4103740b013d7c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-165
+
+
+FileName: /usr/share/help/ja/gnome-help/net-what-is-ip-address.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-166
+FileChecksum: SHA1: fdd538aeba3a1368424638d3b0e4530a952a3c3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-166
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wired-connect.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-167
+FileChecksum: SHA1: 091b49960707c30e80673abf93265b14ec189aa6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-167
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wired.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-168
+FileChecksum: SHA1: 49f0bbfaf21d9f2b1c9ff0aacc37a6d789c84f50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-168
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-adhoc.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-169
+FileChecksum: SHA1: b0fd2b247bf15af09ec7113d19b0935e80537c4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-169
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-airplane.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-170
+FileChecksum: SHA1: 94dae4619c3bb35dd83b15a48d17a49d05135eb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-170
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-connect.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-171
+FileChecksum: SHA1: d9ed63086acd00eb211b40caac5b5f5f72bd20bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-171
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-disconnecting.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-172
+FileChecksum: SHA1: 86300f5330a1757f53ba6d2b8d36f119c13ce67a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-172
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-find.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-173
+FileChecksum: SHA1: ac952c68ff15531b91d99e74885749464ac74f99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-173
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-hidden.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-174
+FileChecksum: SHA1: ada4fbf310b0e300f52766123042458787f731b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-174
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-noconnection.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-175
+FileChecksum: SHA1: 24b3460b86900bf9af810d8e6e43e2ae9e394abd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-175
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-troubleshooting-device-drivers.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-176
+FileChecksum: SHA1: 1c1f3fab9644890d3f49665ee352912644a2e0d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-176
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-troubleshooting-hardware-check.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-177
+FileChecksum: SHA1: ce7740ddd0f821eb97d5748acc842fe5d53453b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-177
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-troubleshooting-hardware-info.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-178
+FileChecksum: SHA1: 353a5afa03ef9793e08e4b7309be3d0928c7cd93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-178
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-troubleshooting-initial-check.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-179
+FileChecksum: SHA1: a13d7932b8173d12e092ab8fe44ab81b9a694fb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-179
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-troubleshooting.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-180
+FileChecksum: SHA1: 8a7a53beb9701ff319b5651e43a7141f98a2d96a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-180
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless-wepwpa.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-181
+FileChecksum: SHA1: 40a656e4650e314f24b8e471b269c3d9157a8243
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-181
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wireless.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-182
+FileChecksum: SHA1: a3f2cdb9988d41b17c7a000b5b301ac81ac9b578
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-182
+
+
+FileName: /usr/share/help/ja/gnome-help/net-wrongnetwork.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-183
+FileChecksum: SHA1: 4f64925301f80dfd01fc37d0c76603148573532d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-183
+
+
+FileName: /usr/share/help/ja/gnome-help/net.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-184
+FileChecksum: SHA1: d501034baf567dbfe9763eff5e8953ca349f3ca4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-184
+
+
+FileName: /usr/share/help/ja/gnome-help/power-autobrightness.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-185
+FileChecksum: SHA1: 92657eaee20f1ed69ec9f99cf52cb9fef7a67c93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-185
+
+
+FileName: /usr/share/help/ja/gnome-help/power-autosuspend.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-186
+FileChecksum: SHA1: 0ba91c44cc920db07f4b0e47814c4887382e4ae5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-186
+
+
+FileName: /usr/share/help/ja/gnome-help/power-batteryestimate.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-187
+FileChecksum: SHA1: d75f5ff4258d5a751c6fb9de6be80c5946bd3266
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-187
+
+
+FileName: /usr/share/help/ja/gnome-help/power-batterylife.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-188
+FileChecksum: SHA1: 26c5b99a2a831bfa19c00dd2e0060f08a706248f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-188
+
+
+FileName: /usr/share/help/ja/gnome-help/power-batteryoptimal.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-189
+FileChecksum: SHA1: 2de0605d9955a7de5cd6c135a5d29771b9a2669c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-189
+
+
+FileName: /usr/share/help/ja/gnome-help/power-batteryslow.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-190
+FileChecksum: SHA1: f799e4ce241f151de8ce18b52c70e53a20e88fab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-190
+
+
+FileName: /usr/share/help/ja/gnome-help/power-batterywindows.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-191
+FileChecksum: SHA1: 02b352c70a4ce7959c6949c104d0766f277d7886
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-191
+
+
+FileName: /usr/share/help/ja/gnome-help/power-closelid.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-192
+FileChecksum: SHA1: 3932d09f16460b8ad8a0b47a03d149e59fe2d85d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-192
+
+
+FileName: /usr/share/help/ja/gnome-help/power-constantfan.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-193
+FileChecksum: SHA1: a2b80c51250f7a0a537fc3527b6fd3bcd30d8252
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-193
+
+
+FileName: /usr/share/help/ja/gnome-help/power-hotcomputer.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-194
+FileChecksum: SHA1: 935461081a84153f7077b4137470ff1f1573acf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-194
+
+
+FileName: /usr/share/help/ja/gnome-help/power-lowpower.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-195
+FileChecksum: SHA1: f075380003b96631d532184df530344f06b0c883
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-195
+
+
+FileName: /usr/share/help/ja/gnome-help/power-nowireless.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-196
+FileChecksum: SHA1: 0dd8f0d7b4f954a4e426a49be5c1361272b614f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-196
+
+
+FileName: /usr/share/help/ja/gnome-help/power-othercountry.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-197
+FileChecksum: SHA1: 99410037c12bb3cdf96c64d932154c760e034336
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-197
+
+
+FileName: /usr/share/help/ja/gnome-help/power-percentage.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-198
+FileChecksum: SHA1: ff804aed61831841ad7e53d16dba07df259089c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-198
+
+
+FileName: /usr/share/help/ja/gnome-help/power-profile.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-199
+FileChecksum: SHA1: 6554eac14e7749ceb940f555baa80a735d08ea09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-199
+
+
+FileName: /usr/share/help/ja/gnome-help/power-status.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-200
+FileChecksum: SHA1: 9d2fc19b341c93823406309fe7aea70f47954bff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-200
+
+
+FileName: /usr/share/help/ja/gnome-help/power-suspend.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-201
+FileChecksum: SHA1: 4b54f084e5105666fe7e0ba3686686d8e753b241
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-201
+
+
+FileName: /usr/share/help/ja/gnome-help/power-suspendfail.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-202
+FileChecksum: SHA1: ee42d5b8b626ad226baa5e65c2c03bbeeec03ba1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-202
+
+
+FileName: /usr/share/help/ja/gnome-help/power-whydim.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-203
+FileChecksum: SHA1: d01e1f5cb9d7f162949c3732266adb1f7055c7a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-203
+
+
+FileName: /usr/share/help/ja/gnome-help/power-willnotturnon.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-204
+FileChecksum: SHA1: b539d58177dcf22dcd14900bf5bbb46444fcb380
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-204
+
+
+FileName: /usr/share/help/ja/gnome-help/power-wireless.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-205
+FileChecksum: SHA1: f5bbb9f6858ffb77c1e456498b37bc97f92005e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-205
+
+
+FileName: /usr/share/help/ja/gnome-help/power.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-206
+FileChecksum: SHA1: 657c9ce25f80e4b217a6725be1abb48fb5d9aa88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-206
+
+
+FileName: /usr/share/help/ja/gnome-help/prefs-display.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-207
+FileChecksum: SHA1: 15d3853293fa6452d9dab12fd1e69c6d17f0c096
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-207
+
+
+FileName: /usr/share/help/ja/gnome-help/prefs-language.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-208
+FileChecksum: SHA1: 6d4bd2aea6b1ca78c76858680a0283f4374f93da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-208
+
+
+FileName: /usr/share/help/ja/gnome-help/prefs-sharing.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-209
+FileChecksum: SHA1: 5648bb648820796f85c270b141e054fbdf306bcd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-209
+
+
+FileName: /usr/share/help/ja/gnome-help/prefs.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-210
+FileChecksum: SHA1: ebade4313098a0312e99f9d1abeeaec8ef4d0d00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-210
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-2sided.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-211
+FileChecksum: SHA1: 1cbaea04a44b05c6ad98a900e37e74080bcd897a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-211
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-booklet-duplex.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-212
+FileChecksum: SHA1: 346349045deede296b86db727942a05f52add93b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-212
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-booklet-singlesided.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-213
+FileChecksum: SHA1: 909b361a2c9b0565f47351159eace6886fc23d09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-213
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-booklet.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-214
+FileChecksum: SHA1: a698caa936f1ba02542cbb4740628d38156d8956
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-214
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-cancel-job.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-215
+FileChecksum: SHA1: 92fe5be0d62a35dafaab94304d0794b7992986a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-215
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-differentsize.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-216
+FileChecksum: SHA1: 3fb10132da36208837dd1c7328fbafaa3754af1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-216
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-envelopes.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-217
+FileChecksum: SHA1: 0ad16e40826eed87cd048a5e144cdb3790a27c5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-217
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-inklevel.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-218
+FileChecksum: SHA1: f9a77407c2843a19a53063cf8387e4dfa72c120d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-218
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-name-location.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-219
+FileChecksum: SHA1: 96b5aec98b33a8c7b65b335bca40401512214fc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-219
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-order.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-220
+FileChecksum: SHA1: fff0a6ec92627bc9ee5811840b2daf6e6b8ffe34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-220
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-paperjam.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-221
+FileChecksum: SHA1: d27b92254a721498856ffa783d77bd3fe49b0246
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-221
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-select.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-222
+FileChecksum: SHA1: 590bc08b2748f90b48996808d20105185d153c35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-222
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-setup-default-printer.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-223
+FileChecksum: SHA1: b43454721e1d98fc8008ffaa6171676b7757b30d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-223
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-setup.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-224
+FileChecksum: SHA1: 2f88cce5fcb3b90bb2e67bb9ce2710a2164f08e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-224
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-streaks.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-225
+FileChecksum: SHA1: 0b0b9f740bfe2929a94c695bd9ca86dffb9655e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-225
+
+
+FileName: /usr/share/help/ja/gnome-help/printing-to-file.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-226
+FileChecksum: SHA1: b9aeb488d63508b9c89535475ee2b5f9823450f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-226
+
+
+FileName: /usr/share/help/ja/gnome-help/printing.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-227
+FileChecksum: SHA1: 7bfc6125a2b8accd413458777a460c574301c525
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-227
+
+
+FileName: /usr/share/help/ja/gnome-help/privacy-history-recent-off.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-228
+FileChecksum: SHA1: 7e47114f8166d3d0e16b9e612c8f855a3bdb12c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-228
+
+
+FileName: /usr/share/help/ja/gnome-help/privacy-location.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-229
+FileChecksum: SHA1: 0a999cec7817b1401ac4491a5962fce9b2fac64a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-229
+
+
+FileName: /usr/share/help/ja/gnome-help/privacy-purge.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-230
+FileChecksum: SHA1: f2f6091b3dbd45c7c135759910ffc8277637fe47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-230
+
+
+FileName: /usr/share/help/ja/gnome-help/privacy-screen-lock.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-231
+FileChecksum: SHA1: 8966acbff7572f10e5818e91e6129f6f8a3e436f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-231
+
+
+FileName: /usr/share/help/ja/gnome-help/privacy.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-232
+FileChecksum: SHA1: 913a2482b636534ae49d9596056dd7f723c3cf29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-232
+
+
+FileName: /usr/share/help/ja/gnome-help/screen-shot-record.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-233
+FileChecksum: SHA1: f84fcba1b1eecdd12f76fbd25b4565e35db8af1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-233
+
+
+FileName: /usr/share/help/ja/gnome-help/session-fingerprint.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-234
+FileChecksum: SHA1: 463cbd245e43fb73c027de2b4cb8dda990b3c86d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-234
+
+
+FileName: /usr/share/help/ja/gnome-help/session-formats.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-235
+FileChecksum: SHA1: 71fe2b37b803313c79b32a61d1653f801a4a9b86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-235
+
+
+FileName: /usr/share/help/ja/gnome-help/session-language.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-236
+FileChecksum: SHA1: 823c154c44f9f4cc49160e90cd76b8f0bc656a55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-236
+
+
+FileName: /usr/share/help/ja/gnome-help/session-screenlocks.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-237
+FileChecksum: SHA1: cad28ea182af033ad9f92932df440a6bc8bdf212
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-237
+
+
+FileName: /usr/share/help/ja/gnome-help/sharing-bluetooth.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-238
+FileChecksum: SHA1: 478615caea450ffafb9c2ebc5601e1ac438068ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-238
+
+
+FileName: /usr/share/help/ja/gnome-help/sharing-desktop.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-239
+FileChecksum: SHA1: c9048c679856d674a384670b0aa933093a4b8861
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-239
+
+
+FileName: /usr/share/help/ja/gnome-help/sharing-displayname.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-240
+FileChecksum: SHA1: d4b6d96dd2bb8b83f2bef8b64eec3347422c5188
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-240
+
+
+FileName: /usr/share/help/ja/gnome-help/sharing-media.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-241
+FileChecksum: SHA1: 1b8fe88177fa58fb1aea0fd85e6329525b437576
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-241
+
+
+FileName: /usr/share/help/ja/gnome-help/sharing-personal.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-242
+FileChecksum: SHA1: 32147a0696ec2cef94fcc827f772085d8269a44b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-242
+
+
+FileName: /usr/share/help/ja/gnome-help/sharing.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-243
+FileChecksum: SHA1: 9c159f982b517f3d1692c2dbab111ebfcb4cabd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-243
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-apps-favorites.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-244
+FileChecksum: SHA1: 1209d939c7b7d75375dcaa49069e45f053060860
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-244
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-apps-open.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-245
+FileChecksum: SHA1: 93bc03957fbc37708ba3a8eae5cda6c723e4f4bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-245
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-exit.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-246
+FileChecksum: SHA1: 9bcbe55603e14c4815382bb82ab5940730287f43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-246
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-introduction.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-247
+FileChecksum: SHA1: adc30fafa9362d6b5380b7dccac07714a4462104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-247
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-keyboard-shortcuts.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-248
+FileChecksum: SHA1: 17bd67c003302dac46bae346f54b9fe70af4e791
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-248
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-lockscreen.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-249
+FileChecksum: SHA1: 8069a94b5113e211b4e26366fd8ba04a05d571da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-249
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-notifications.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-250
+FileChecksum: SHA1: 3799a4ba31870725a9ddc3121dabce088ad93109
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-250
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-overview.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-251
+FileChecksum: SHA1: 0849be23f93e91f9ae71046de2b4cb587268d35e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-251
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-windows-lost.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-252
+FileChecksum: SHA1: 89ccb4858f4148362a423b42bfc1566c7f9d8416
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-252
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-windows-maximize.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-253
+FileChecksum: SHA1: 6e2610f09eb683636b28a50dc7c2ac0152423e35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-253
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-windows-states.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-254
+FileChecksum: SHA1: 8e73deb7c92f632fccd6947b34ced9be34f1b2e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-254
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-windows-switching.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-255
+FileChecksum: SHA1: 32520a71ef3ed08d8034749aad39f928cada3435
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-255
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-windows-tiled.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-256
+FileChecksum: SHA1: ff623c521e08b82fe76fe3361aac9103582a70aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-256
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-windows.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-257
+FileChecksum: SHA1: 3abd061ca659fe7ba25e2658facfaa6259c68eda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-257
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-workspaces-movewindow.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-258
+FileChecksum: SHA1: a45cd940a69b913829950d4b23aaa15969dc88c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-258
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-workspaces-switch.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-259
+FileChecksum: SHA1: 6efabe70e40c380a150ee78c496a803f646b35ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-259
+
+
+FileName: /usr/share/help/ja/gnome-help/shell-workspaces.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-260
+FileChecksum: SHA1: 72943125871fd4c761ea44e7cb6054c262f4da2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-260
+
+
+FileName: /usr/share/help/ja/gnome-help/sound-alert.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-261
+FileChecksum: SHA1: b5ee5ddf759a8174482686db74515da85fa43bb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-261
+
+
+FileName: /usr/share/help/ja/gnome-help/sound-broken.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-262
+FileChecksum: SHA1: 2246b5a3873132b8e0a882824cc5384304e8d75e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-262
+
+
+FileName: /usr/share/help/ja/gnome-help/sound-crackle.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-263
+FileChecksum: SHA1: b49788f8546385159becae82934bdc365bdb4cfa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-263
+
+
+FileName: /usr/share/help/ja/gnome-help/sound-nosound.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-264
+FileChecksum: SHA1: fca1d348489a8b3acf0c7330fb7a8ab1a76bf461
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-264
+
+
+FileName: /usr/share/help/ja/gnome-help/sound-usemic.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-265
+FileChecksum: SHA1: 530c6084328d4ccb2591e1cd08c81d30b06c71f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-265
+
+
+FileName: /usr/share/help/ja/gnome-help/sound-usespeakers.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-266
+FileChecksum: SHA1: 6b9c92a6c8dafdce0ae20e8c283cff344350130f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-266
+
+
+FileName: /usr/share/help/ja/gnome-help/sound-volume.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-267
+FileChecksum: SHA1: 68b2ee8fd33d54b0ed8e09631b381f94933b4adc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-267
+
+
+FileName: /usr/share/help/ja/gnome-help/status-icons.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-268
+FileChecksum: SHA1: 3a48650ff1c25f2b244c6a21d41cee4fa878f097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-268
+
+
+FileName: /usr/share/help/ja/gnome-help/tips-specialchars.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-269
+FileChecksum: SHA1: 371a88bcbd37337997457629db6427a56066603b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-269
+
+
+FileName: /usr/share/help/ja/gnome-help/tips.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-270
+FileChecksum: SHA1: fb4a25ba8ece8ed5d246ef45421e926e480bc7ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-270
+
+
+FileName: /usr/share/help/ja/gnome-help/touchscreen-gestures.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-271
+FileChecksum: SHA1: 91b6c8cd24abe06808c1f2fd2d63fe28fb08c9c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-271
+
+
+FileName: /usr/share/help/ja/gnome-help/user-accounts.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-272
+FileChecksum: SHA1: 352c74fed7f4e5110480d1b784ff4e54f5cccff7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-272
+
+
+FileName: /usr/share/help/ja/gnome-help/user-add.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-273
+FileChecksum: SHA1: faad22ceef2680465844dcfd0f4117451803bf4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-273
+
+
+FileName: /usr/share/help/ja/gnome-help/user-admin-change.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-274
+FileChecksum: SHA1: 43b45740308ca3895cafa376c2982b7cba0be5e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-274
+
+
+FileName: /usr/share/help/ja/gnome-help/user-admin-explain.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-275
+FileChecksum: SHA1: c8305a018489287859c63996b3fa6912349272e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-275
+
+
+FileName: /usr/share/help/ja/gnome-help/user-admin-problems.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-276
+FileChecksum: SHA1: 3aba7ab453aa1cb3e98d9573c5cda7c8a3680493
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-276
+
+
+FileName: /usr/share/help/ja/gnome-help/user-autologin.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-277
+FileChecksum: SHA1: 7f817c80d762892d29569d995edf87eef050a6e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-277
+
+
+FileName: /usr/share/help/ja/gnome-help/user-changepassword.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-278
+FileChecksum: SHA1: 24a94304a125fcfe101b7cfcc184cdebabf2ad02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-278
+
+
+FileName: /usr/share/help/ja/gnome-help/user-changepicture.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-279
+FileChecksum: SHA1: c92667d642c50502819c1317574f3dc100d62512
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-279
+
+
+FileName: /usr/share/help/ja/gnome-help/user-delete.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-280
+FileChecksum: SHA1: 1eefc4457c3a19eccfe7f80738a9ef826112003f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-280
+
+
+FileName: /usr/share/help/ja/gnome-help/user-goodpassword.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-281
+FileChecksum: SHA1: f314557a52ca0f9e49519c3cf685c2ef141991de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-281
+
+
+FileName: /usr/share/help/ja/gnome-help/video-dvd.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-282
+FileChecksum: SHA1: 10a929a3b78e7c9e5d487d2ee1d1e74372f1d669
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-282
+
+
+FileName: /usr/share/help/ja/gnome-help/video-sending.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-283
+FileChecksum: SHA1: afe0a3bb4e790a6774c7ccdf68ea3b0f867414b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-283
+
+
+FileName: /usr/share/help/ja/gnome-help/wacom-left-handed.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-284
+FileChecksum: SHA1: 07f3fe0993ae5a2eb28e03189aa6049fcd8abb89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-284
+
+
+FileName: /usr/share/help/ja/gnome-help/wacom-mode.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-285
+FileChecksum: SHA1: c8245ae49037e887e11d15d0ecc01bb5aad585d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-285
+
+
+FileName: /usr/share/help/ja/gnome-help/wacom-multi-monitor.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-286
+FileChecksum: SHA1: 396001d66fc5d9c8fd33188a2a56be9b52ab3f3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-286
+
+
+FileName: /usr/share/help/ja/gnome-help/wacom-stylus.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-287
+FileChecksum: SHA1: ccdb67dab24f9bc6f706739ce0b4043f39455dbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-287
+
+
+FileName: /usr/share/help/ja/gnome-help/wacom.page
+SPDXID: SPDXRef-gnome-user-docs-ja-file-288
+FileChecksum: SHA1: 22ecb17fc29ded4d676fcac2dc841532d0045c6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-288
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/bluetooth-active-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-289
+FileChecksum: SHA1: 93b8979cefb1590ffd53ea40f71dcc2d1fca8c73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-289
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/bluetooth-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-290
+FileChecksum: SHA1: 7bd92de7edb71716e0bbe8089e7dc902a470d964
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-290
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-accessibility.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-291
+FileChecksum: SHA1: 419b964103c1ef9464d72256c5a8d97f24f9e5d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-291
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-airplane-mode.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-292
+FileChecksum: SHA1: f2b49d0530c01ba845a38c427a226f59b3c8e324
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-292
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-audio-volume-muted.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-293
+FileChecksum: SHA1: 9b279b666bcbb850145786523ef230fc8b734ed9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-293
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-audio-volume.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-294
+FileChecksum: SHA1: fbeed8756c74b823c2eb9ac4c84ba063b137c4c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-294
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-battery-charging.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-295
+FileChecksum: SHA1: c3444d02992b7737a6be80a6c09711e0ba6c16c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-295
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-battery-discharging.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-296
+FileChecksum: SHA1: ff1f53d7491d2368a1f09620035e6f36d8b04300
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-296
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-battery-level-100-charged.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-297
+FileChecksum: SHA1: 02a2beaf40684594038e9d1876fd8b8d09e0f54a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-297
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-battery-level-100.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-298
+FileChecksum: SHA1: ddaf2cf1117ecbc81ad0a784d1258d5aa0b9008d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-298
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-bluetooth-active.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-299
+FileChecksum: SHA1: 2c98361032f50f6734ffc9b0bdc6cc1fc0ee1be9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-299
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-find-location.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-300
+FileChecksum: SHA1: e64cb419a3b8e199c1940bb41b54de95cc1afb0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-300
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-input-method.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-301
+FileChecksum: SHA1: 55d6b1b73b8bfd5a97f99cf3f0c2a2d4259d48b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-301
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-media-record.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-302
+FileChecksum: SHA1: abb09a5e817bfbe4454a0230d004e58eae7577a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-302
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-microphone-sensitivity-muted.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-303
+FileChecksum: SHA1: 26064118442e7c97328caf738bbba6d1367be494
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-303
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-microphone-sensitivity.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-304
+FileChecksum: SHA1: 95829aef0ab863870d3498f68d1b7e93dffab434
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-304
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-cellular-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-305
+FileChecksum: SHA1: 312d3c66eb110eb0c980e6cb94a30e1c3cd04729
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-305
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-cellular-connected.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-306
+FileChecksum: SHA1: fce0fa41ed9df0fa37818ac468c0286fe744d6a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-306
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-cellular-signal-none.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-307
+FileChecksum: SHA1: 08a7f2eb81ee49f519a98e3fce6ac1b6c2b9ba17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-307
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-cellular-signal.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-308
+FileChecksum: SHA1: 071e06c4e49898b3c4d8ac71bc45f123aca1e27d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-308
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-vpn-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-309
+FileChecksum: SHA1: 7e20304f251d0b6889deae6c6c75d21c31f04daa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-309
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-vpn.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-310
+FileChecksum: SHA1: e68be63281fa7b3685fafe74607f3703041e3c9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-310
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wired-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-311
+FileChecksum: SHA1: 9009aaaaae46471c4c29a812aa3bba43d5e71b01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-311
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wired-disconnected.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-312
+FileChecksum: SHA1: 5c69fc48eadc1f0d45629c6bc8064f770f6559ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-312
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wired-no-route.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-313
+FileChecksum: SHA1: afe4a9473d1078455464e7a4e0e797f730728c60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-313
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wired.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-314
+FileChecksum: SHA1: 052824a41eae944c91eb8bd062bc54963a6873e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-314
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wireless-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-315
+FileChecksum: SHA1: 5894d164d01ff5dcf30646951b38c6fe4c07be84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-315
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wireless-connected.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-316
+FileChecksum: SHA1: 2892b9a6e2ba9834c3217b89c146ab0ad6e8f85f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-316
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wireless-no-route.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-317
+FileChecksum: SHA1: ee442f7dd7a88c99084d1cf2b31699de66c29fa1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-317
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wireless-strength-excellent.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-318
+FileChecksum: SHA1: 95dff468ba7701b0eeb468143824958820ee8d7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-318
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wireless-strength-none.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-319
+FileChecksum: SHA1: 750bd405adf437fdba8df16c48444b9934164e6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-319
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-network-wireless-strength.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-320
+FileChecksum: SHA1: 22a547779bd7e7d9b4210f94d414a9c6bd33eba3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-320
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-night-light.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-321
+FileChecksum: SHA1: 6c93ef084e4c132e70474f3eba1ada30441da3fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-321
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-pointer.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-322
+FileChecksum: SHA1: b017cf7e8f2fe2a21a5b789e96471d5f380eb65c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-322
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-screen-shared.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-323
+FileChecksum: SHA1: 8ddcce409ed1159e68078ba520784ba68550a5bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-323
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-system-shutdown.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-324
+FileChecksum: SHA1: 2ccf20c69946910922ffd9a7119297efedf4bea9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-324
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/classic-topbar-thunderbolt-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-325
+FileChecksum: SHA1: 45ce9ae25cf21073fa47a929c2d6ce71b55e6701
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-325
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/color-average.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-326
+FileChecksum: SHA1: 2e27396fc95bfc8abe0d0a6db2d228453ab4d843
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-326
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/color-camera.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-327
+FileChecksum: SHA1: 6ae90599f0b176ed5b1fe1811175ec59d5c014a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-327
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/color-display.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-328
+FileChecksum: SHA1: 6d936990c3e37b8930892cf8d4c153357a8dabb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-328
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/color-printer.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-329
+FileChecksum: SHA1: b495b1caaa5800eab6ba8d303f2ba4359f8d013b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-329
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/color-space.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-330
+FileChecksum: SHA1: 442a7c9d4495ad53778bc01a1a30a0777125d017
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-330
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/display-dual-monitors.webm
+SPDXID: SPDXRef-gnome-user-docs-ja-file-331
+FileChecksum: SHA1: d3a0c05aea195f7ea8b89cb3909a0c69e1e0b543
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-331
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/edit-find-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-332
+FileChecksum: SHA1: 8c3d0e24b3a3d3fefda58bbad233d67cd79040bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-332
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/emblem-system-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-333
+FileChecksum: SHA1: a19de6ea5155f8b40aef60f7063baa9f1c74effb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-333
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/emoji-flags-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-334
+FileChecksum: SHA1: d99593e2290a1e3f1fc69a0d8b8d9ad58234a412
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-334
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/gnome.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-335
+FileChecksum: SHA1: 26871ad4f3bfbce780e788234a3184f831105d83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-335
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/go-down-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-336
+FileChecksum: SHA1: 16e22fbe1df3706a1eac7bc04fa650dabef166b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-336
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/input-keyboard-symbolic.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-337
+FileChecksum: SHA1: 3fc670e432103b9b5ade00f72aef7620ffa185a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-337
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/input-methods-switcher.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-338
+FileChecksum: SHA1: 6d0f1e9f85c9609a41d631bfcc782787712c9cce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-338
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-calculator.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-339
+FileChecksum: SHA1: ae6cc616ccd2d880fbf7593566f1ad8353edac33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-339
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-computer.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-340
+FileChecksum: SHA1: 628102f41a866982a9d65b32b3395a5c14bc20b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-340
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-eject.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-341
+FileChecksum: SHA1: 1ca1b3351d75001f5184e87713fd4a1e27d0642e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-341
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-folder.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-342
+FileChecksum: SHA1: 9a35eff049a0f8fe38e5ec27f976243602ea834e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-342
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-home.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-343
+FileChecksum: SHA1: b82742f813b444285ea768e0347f2f8e12eea40a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-343
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-mail.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-344
+FileChecksum: SHA1: 2749c9c1ddb63fcfd70d042aa9f7265b41a7c480
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-344
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-media.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-345
+FileChecksum: SHA1: 5ef0ed586e91bfaa94f5f8be5917d14dee8e8b8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-345
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-menu.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-346
+FileChecksum: SHA1: c5c87de2ffbd4cad236f1f51d644a1626857769c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-346
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-mute.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-347
+FileChecksum: SHA1: ddf6167544d56ac97f5c1a7d515cad0a7a591e12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-347
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-next.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-348
+FileChecksum: SHA1: 2ba99b5391bf458ee9b797729c68e229cd573c81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-348
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-pause.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-349
+FileChecksum: SHA1: 95121dc57bbea58c45a9279c0ee7d6cd9dfe9b64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-349
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-play.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-350
+FileChecksum: SHA1: b73ba688387ca98dd4a9d257e2661fbe9c266686
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-350
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-previous.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-351
+FileChecksum: SHA1: e3da4af6761e1891fb6a8d5192a87c97587f6702
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-351
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-search.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-352
+FileChecksum: SHA1: 8d1d528bc8a2a8079356ab0e32ebe91f2428b725
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-352
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-stop.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-353
+FileChecksum: SHA1: 59c031bf5806f854bbb4920ec7b448feb558d6e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-353
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-voldown.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-354
+FileChecksum: SHA1: 5b6ef0bf8d6263445003125be72bbe6e83ccabc3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-354
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-volup.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-355
+FileChecksum: SHA1: bc732a38c7f25ce42f81430ef77114bfce67dca2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-355
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/keyboard-key-world.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-356
+FileChecksum: SHA1: 1ec731b56e01d764e9423ecc6d0159bfa6c2d733
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-356
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/nautilus-icons.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-357
+FileChecksum: SHA1: c4444ad5c952aa55f68b5dfabfb72ea24218673a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-357
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/net-wired-ethernet-diagram.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-358
+FileChecksum: SHA1: 1cc9a21b04f94f0fd2a2a420aca9a07573847a3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-358
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/network-wired-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-359
+FileChecksum: SHA1: ce2fbee80e01cebdd46612cc448b871196b551f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-359
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/preferences-desktop-accessibility-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-360
+FileChecksum: SHA1: 98100a067eb625e67cbc736ac5a703b822d22885
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-360
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/printing-select.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-361
+FileChecksum: SHA1: eea0c0cd19584b4f3f4ed5d0de79316d9bd35e6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-361
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/rotation-allowed-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-362
+FileChecksum: SHA1: b6bab4c162800191b56f9074bc60e7eaf523f5a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-362
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/rotation-locked-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-363
+FileChecksum: SHA1: 4c5a86647e9964f1eb054d49585b9320ac752d3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-363
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-activities-dash.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-364
+FileChecksum: SHA1: 84da0e52a11799c612ba26a0cb47c41cbaa04283
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-364
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-appmenu-classic.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-365
+FileChecksum: SHA1: 63e503c0f23a55e85bdcc91d530a001ac3e9575d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-365
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-appmenu-shell.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-366
+FileChecksum: SHA1: dd5870531ad9bcae68dac001951c0753fbbc3723
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-366
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-appts-classic.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-367
+FileChecksum: SHA1: d34af8744fad43276e88cdbed9853b39b78bc0ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-367
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-appts.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-368
+FileChecksum: SHA1: 8a02d59bc19ec46be6e9470e867a2ae0a260c72b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-368
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-exit-classic.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-369
+FileChecksum: SHA1: 60d59d4e79bb07d9856585994ce75d0bd9b6db2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-369
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-exit.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-370
+FileChecksum: SHA1: 2f804c987e25291065496cc954a41746d93401c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-370
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-top-bar-classic.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-371
+FileChecksum: SHA1: 40b3a5f70d964fb30c68deafc6692a59d9934b06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-371
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-top-bar.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-372
+FileChecksum: SHA1: b6b37ca1ccc1881f2c85d51afd82a348fdef379b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-372
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-window-list-classic.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-373
+FileChecksum: SHA1: 294fdbdc0976c187998a00592376dc67dd32af56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-373
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/shell-workspaces.png
+SPDXID: SPDXRef-gnome-user-docs-ja-file-374
+FileChecksum: SHA1: 8b117f60341713f44e52ce19ca8861b0d225ab17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-374
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/system-run-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-375
+FileChecksum: SHA1: e1ea2653ba682101b969c977844d75a5d9925f77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-375
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/tile-a11y.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-376
+FileChecksum: SHA1: 94ec645cec5cb18c25864c818a907e007bc790f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-376
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/tile-files.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-377
+FileChecksum: SHA1: 378b3fcf08e6487ccd51b321d769b85b91fa060a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-377
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/tile-hardware.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-378
+FileChecksum: SHA1: 3c4ad34eeb16f57926e26581760ca2168ddc7ae3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-378
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/tile-help.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-379
+FileChecksum: SHA1: ede05fdb032e581bbf393b1c19b544358b38a37b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-379
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/tile-home.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-380
+FileChecksum: SHA1: 2aeabd1de8684e1d955bb7a61001c2a0c2b7dfb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-380
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/tile-media.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-381
+FileChecksum: SHA1: 28712a8523ebb3fc8c6a4783bf1d1c4f0fe30791
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-381
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/tile-net.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-382
+FileChecksum: SHA1: 19e0aa0cb276c202aa7506c3375c5bcbbff329fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-382
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/tile-settings.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-383
+FileChecksum: SHA1: 0f0d1e41800f36b6b7cf6df0b2831edbb2a9ce69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-383
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/tile-tips.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-384
+FileChecksum: SHA1: 1145cc44df16db1e0c315ab234647ac8f1407610
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-384
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-accessibility.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-385
+FileChecksum: SHA1: 4d7e6d38a23f6a13d3d7c787361bb387951db95d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-385
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-airplane-mode.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-386
+FileChecksum: SHA1: 50803d4332f73400d2d2ec841300bf62c7606600
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-386
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-audio-volume-muted.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-387
+FileChecksum: SHA1: 60312895b54311e1c58593172fb2c338d7c3e348
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-387
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-audio-volume.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-388
+FileChecksum: SHA1: 091b7e0123f0d69cc094501cdcd093fa05752bdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-388
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-battery-charging.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-389
+FileChecksum: SHA1: 349fcddf48e19939bc625d6db9781e95598e15db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-389
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-battery-discharging.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-390
+FileChecksum: SHA1: 2dc19d6687a95bbdb9be0ea9b346d19355078367
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-390
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-battery-level-100-charged.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-391
+FileChecksum: SHA1: 4723b88a352c5bd6634b3c941559c3593a1f3c47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-391
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-battery-level-100.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-392
+FileChecksum: SHA1: f7b9a69a7a913ec264515185d8da57c948933e1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-392
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-bluetooth-active.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-393
+FileChecksum: SHA1: ab885dd15ddfdad843d6d873f5f9d1d227d33d66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-393
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-find-location.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-394
+FileChecksum: SHA1: 3d920b03f3ad969e1c40f16e1817a8213f83a127
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-394
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-input-method.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-395
+FileChecksum: SHA1: f72e6d7b64c5bf56661bed3154344e8a778ca426
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-395
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-media-record.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-396
+FileChecksum: SHA1: 0869e1baf547a2da4fc1bd86af0ea9d764069607
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-396
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-microphone-sensitivity-muted.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-397
+FileChecksum: SHA1: 4f50282687978ac2fa0e6d1006c92ea00d75df3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-397
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-microphone-sensitivity.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-398
+FileChecksum: SHA1: 4cf33f7cf835e8b3d26608a75cbce05f226a6835
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-398
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-cellular-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-399
+FileChecksum: SHA1: 6cee06fb8d0fc7a07daa6236753cad3306c075df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-399
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-cellular-connected.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-400
+FileChecksum: SHA1: 6ee60c628b42bed670a58b072f4edda0f20937eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-400
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-cellular-signal-none.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-401
+FileChecksum: SHA1: 1c369f3174ac6d9fcc82993a43ba53da0c739c19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-401
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-cellular-signal.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-402
+FileChecksum: SHA1: 9a43cda9f3d8fe1b01a19f32f4a0e0c7514c0198
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-402
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-vpn-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-403
+FileChecksum: SHA1: f433b34721260b69bc6b24748e8c096e16ecf452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-403
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-vpn.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-404
+FileChecksum: SHA1: 778e1a97dcb57a57e58168e6c841485cc38fc4ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-404
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wired-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-405
+FileChecksum: SHA1: 4f12651f1941d45247490bd63e08c68a9caa5775
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-405
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wired-disconnected.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-406
+FileChecksum: SHA1: b69687c790c471ff8872ffd04108dbe10f6378bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-406
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wired-no-route.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-407
+FileChecksum: SHA1: b44c1b3cf6d872cb231f24e57e5bd1d3ebd20a21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-407
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wired.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-408
+FileChecksum: SHA1: 6a1085b36a307255714d1257335d1b96725e3b5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-408
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wireless-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-409
+FileChecksum: SHA1: ffe37ceecd9411e71c20bab11e67b17e706e48db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-409
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wireless-connected.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-410
+FileChecksum: SHA1: 0d98487c2b6b78d8655ff177241b267262a9a455
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-410
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wireless-no-route.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-411
+FileChecksum: SHA1: 7e66d469f89342184a32169bb050487b98168624
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-411
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wireless-strength-excellent.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-412
+FileChecksum: SHA1: 0326f117474097a42a98906f502e0d1b06c0418b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-412
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wireless-strength-none.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-413
+FileChecksum: SHA1: d508d39e1b7136f3e44ff45f949bc8aaaeaf8b3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-413
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-network-wireless-strength.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-414
+FileChecksum: SHA1: d62adf2618bf373bb598897abad9af073c8b5eec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-414
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-night-light.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-415
+FileChecksum: SHA1: 063331030b509927ba7c83691ea9d6a577710f9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-415
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-pointer.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-416
+FileChecksum: SHA1: dcddafc8b7acbf836609e00205743b3e605e773a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-416
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-screen-shared.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-417
+FileChecksum: SHA1: 04398c2f61dcd67a18aa207f9a70b5869b45a56c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-417
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-system-shutdown.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-418
+FileChecksum: SHA1: 4705b0d639c799b6c43b5b2e8321d7532ece82ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-418
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/topbar-thunderbolt-acquiring.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-419
+FileChecksum: SHA1: 74ff10f8333268e219db9f193ca22aca4f3d22a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-419
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/touch-hold.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-420
+FileChecksum: SHA1: 46423291686867d8c654ae77d1bd699da2c69447
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-420
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/touch-osk.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-421
+FileChecksum: SHA1: 3b5af2b92e756e4fe5ac27c3034dfb391687462b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-421
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/touch-overview.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-422
+FileChecksum: SHA1: 033e74837558e2848b96cc2c1b5db22cfd617b99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-422
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/touch-pinch-to-zoom.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-423
+FileChecksum: SHA1: fd3bffdd6443a0dda48e6fa62ec415c39d8b1ad1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-423
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/touch-rotate.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-424
+FileChecksum: SHA1: cff5570390c0213acc92c2378d063d72e7e09162
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-424
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/touch-scroll.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-425
+FileChecksum: SHA1: 9d60180d54fe81ac22bea1b1fed468ae5ab7e74e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-425
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/touch-tap.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-426
+FileChecksum: SHA1: 0e9e7c7d8be92747a057804028265fc6b8c9fe90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-426
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/touch-unfullscreen.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-427
+FileChecksum: SHA1: 312b9ca2a362e668a6311721074a2b9b19ae1a61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-427
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/touch-workspaces.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-428
+FileChecksum: SHA1: dd7f8b00ff6d832e429b5d307c9108056fa3a590
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-428
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/view-more-symbolic.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-429
+FileChecksum: SHA1: c1e109d0163595d3b14f312c0463f268b739e8cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-429
+
+
+FileName: /usr/share/help/ja/gnome-help/figures/yelp-icon-big.svg
+SPDXID: SPDXRef-gnome-user-docs-ja-file-430
+FileChecksum: SHA1: ce1bc51467cbdf890bf40e3126fcf7a8e935981f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-user-docs-ja CONTAINS SPDXRef-gnome-user-docs-ja-file-430
+
+
+## Extracted License
+

@@ -1,0 +1,1037 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gsfonts_1:8.11+urwcyr1.0.7~pre44-4.5-c6c61125-7c5b-5e1e-ad27-14bb1b0ee817
+DocumentName: gsfonts_1:8.11+urwcyr1.0.7~pre44-4.5
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gsfonts
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:13:23Z
+
+
+## Package
+
+PackageName: gsfonts
+PackageVersion: 1:8.11+urwcyr1.0.7~pre44-4.5
+SPDXID: SPDXRef-gsfonts
+PackageHomePage: http://www.ghostscript.com/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 014fe43b0e534bfe25b9ddd71d86183817f896f1
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>Fonts for the Ghostscript interpreter(s)
+ These are free look-alike fonts of the Adobe PostScript fonts.
+ Recommended for all flavors of Ghostscript (gs-gpl, gs-afpl and gs-esp).</text>
+
+
+## File
+
+FileName: /etc/ghostscript/fontmap.d/10gsfonts.conf
+SPDXID: SPDXRef-gsfonts-file-0
+FileChecksum: SHA1: d504cbc55a907c98c3690f30e9a87e50944eaa8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-0
+
+
+FileName: /usr/share/doc/gsfonts/README
+SPDXID: SPDXRef-gsfonts-file-1
+FileChecksum: SHA1: 475ea295ebb90c6b7012eb593a42c3e3c2b48960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-1
+
+
+FileName: /usr/share/doc/gsfonts/README.tweaks
+SPDXID: SPDXRef-gsfonts-file-2
+FileChecksum: SHA1: 109742dee35de2b87371a4cff281f6a6ffab5d73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-2
+
+
+FileName: /usr/share/doc/gsfonts/TODO
+SPDXID: SPDXRef-gsfonts-file-3
+FileChecksum: SHA1: afeb6b2be3a5007d896fb430844c3d05a262001f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-3
+
+
+FileName: /usr/share/doc/gsfonts/changelog.Debian.gz
+SPDXID: SPDXRef-gsfonts-file-4
+FileChecksum: SHA1: 72443a7daad58dc7693d45a161531ea542bdeb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-4
+
+
+FileName: /usr/share/doc/gsfonts/copyright
+SPDXID: SPDXRef-gsfonts-file-5
+FileChecksum: SHA1: 627046b0bd5cb82bca317092368df0cfefe92367
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-5
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010013l.afm
+SPDXID: SPDXRef-gsfonts-file-6
+FileChecksum: SHA1: 01bedde514cc40649ab992019478e3c7cd8fdbc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-6
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010013l.pfb
+SPDXID: SPDXRef-gsfonts-file-7
+FileChecksum: SHA1: 7cf2ac5c7c9c4ca80d3f02c05eec1280a4a895a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-7
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010013l.pfm
+SPDXID: SPDXRef-gsfonts-file-8
+FileChecksum: SHA1: d8ecec4238c647eca7530017f4ae97d4f7ff081c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-8
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010015l.afm
+SPDXID: SPDXRef-gsfonts-file-9
+FileChecksum: SHA1: e6483c5b063400ee30a16a3eb2b3f4771b69dc46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-9
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010015l.pfb
+SPDXID: SPDXRef-gsfonts-file-10
+FileChecksum: SHA1: 69e9002560511e928963baf6b5754c5e146cdb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-10
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010015l.pfm
+SPDXID: SPDXRef-gsfonts-file-11
+FileChecksum: SHA1: 7af37b53770f8aca549ac6bcaa6a9e6ddf8be9cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-11
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010033l.afm
+SPDXID: SPDXRef-gsfonts-file-12
+FileChecksum: SHA1: 8da487278c533c03e66bfdab6b8af7740060aff1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-12
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010033l.pfb
+SPDXID: SPDXRef-gsfonts-file-13
+FileChecksum: SHA1: 4b1d0bde18d497a0756e6b5c31c8273443005db7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-13
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010033l.pfm
+SPDXID: SPDXRef-gsfonts-file-14
+FileChecksum: SHA1: a24d525d2f9011608b74d400d9bc95cefbca9e2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-14
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010035l.afm
+SPDXID: SPDXRef-gsfonts-file-15
+FileChecksum: SHA1: 32eaf687d33124948b2f03e08b32b30c93bffe19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-15
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010035l.pfb
+SPDXID: SPDXRef-gsfonts-file-16
+FileChecksum: SHA1: 0bc6092bcc4e79f0ec310b9598ce5815e74f4919
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-16
+
+
+FileName: /usr/share/fonts/type1/gsfonts/a010035l.pfm
+SPDXID: SPDXRef-gsfonts-file-17
+FileChecksum: SHA1: 523ac9cca7b20497f845b756d47c0c1cfdba65b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-17
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018012l.afm
+SPDXID: SPDXRef-gsfonts-file-18
+FileChecksum: SHA1: 638da3c7132424ff406f4410016ea388a16ffa23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-18
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018012l.pfb
+SPDXID: SPDXRef-gsfonts-file-19
+FileChecksum: SHA1: 6226cbe611b4e1afe4631e6fc9d57f43c549e465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-19
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018012l.pfm
+SPDXID: SPDXRef-gsfonts-file-20
+FileChecksum: SHA1: d2e3679f40b8b2c2533b99a1778ff9f2022df204
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-20
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018015l.afm
+SPDXID: SPDXRef-gsfonts-file-21
+FileChecksum: SHA1: b1ee1b7ab689bed71f93f6198ce4e41159472a30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-21
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018015l.pfb
+SPDXID: SPDXRef-gsfonts-file-22
+FileChecksum: SHA1: 1770c3634d90dca6d36a5fcecc00ddab6986b7ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-22
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018015l.pfm
+SPDXID: SPDXRef-gsfonts-file-23
+FileChecksum: SHA1: 97a529a629a6a263a5a81bf6ac533608540a8283
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-23
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018032l.afm
+SPDXID: SPDXRef-gsfonts-file-24
+FileChecksum: SHA1: bbb4b5196b4cad0a37dc173818452565189136b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-24
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018032l.pfb
+SPDXID: SPDXRef-gsfonts-file-25
+FileChecksum: SHA1: ddd96fee4856a1b6f48c78d5db752bf3a50fd5b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-25
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018032l.pfm
+SPDXID: SPDXRef-gsfonts-file-26
+FileChecksum: SHA1: 148c7bca07a1a4eecd1bdf609cdb32368f668c45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-26
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018035l.afm
+SPDXID: SPDXRef-gsfonts-file-27
+FileChecksum: SHA1: ae9be654a35a9e1fdef97e104f632bc35cdfac81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-27
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018035l.pfb
+SPDXID: SPDXRef-gsfonts-file-28
+FileChecksum: SHA1: 1431d35cb64970f29c49d34d546377ac3c7f6583
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-28
+
+
+FileName: /usr/share/fonts/type1/gsfonts/b018035l.pfm
+SPDXID: SPDXRef-gsfonts-file-29
+FileChecksum: SHA1: 30de855472436f887d06cecc4cbd4221bc89018a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-29
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059013l.afm
+SPDXID: SPDXRef-gsfonts-file-30
+FileChecksum: SHA1: e50e8d8b2d36a27f90027177c5270013e54ebe24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-30
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059013l.pfb
+SPDXID: SPDXRef-gsfonts-file-31
+FileChecksum: SHA1: 0fa0160a09c6b17b5a29cfa6e85b232c2a8f8641
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-31
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059013l.pfm
+SPDXID: SPDXRef-gsfonts-file-32
+FileChecksum: SHA1: ad2b199332fbf811ee2e650f44f5a0d29cec3f28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-32
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059016l.afm
+SPDXID: SPDXRef-gsfonts-file-33
+FileChecksum: SHA1: f7b1fbe655cc0d9c55405dbe600f7907ae3406c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-33
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059016l.pfb
+SPDXID: SPDXRef-gsfonts-file-34
+FileChecksum: SHA1: 94669e97996c31b26ec10d05972d9fbd6015eb96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-34
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059016l.pfm
+SPDXID: SPDXRef-gsfonts-file-35
+FileChecksum: SHA1: f59aafbc23e202a1cff40e037aab9d71515b5a62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-35
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059033l.afm
+SPDXID: SPDXRef-gsfonts-file-36
+FileChecksum: SHA1: b65b95213e9d419e2750641267b82d483fb57858
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-36
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059033l.pfb
+SPDXID: SPDXRef-gsfonts-file-37
+FileChecksum: SHA1: 9324f51fd6577ca6c3a2630539f812e3ed334ccb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-37
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059033l.pfm
+SPDXID: SPDXRef-gsfonts-file-38
+FileChecksum: SHA1: d9622ad7334e0ab08b7cf9888f02fc8d58e1fd35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-38
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059036l.afm
+SPDXID: SPDXRef-gsfonts-file-39
+FileChecksum: SHA1: 97548ed4c593f1b841a29aaef2dabdd8b52b6575
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-39
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059036l.pfb
+SPDXID: SPDXRef-gsfonts-file-40
+FileChecksum: SHA1: 60e6ddaba1b03d16891d0af22ffc02f84ae4a6e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-40
+
+
+FileName: /usr/share/fonts/type1/gsfonts/c059036l.pfm
+SPDXID: SPDXRef-gsfonts-file-41
+FileChecksum: SHA1: 1344c66de3f4456e9b3c14c950d732abf1b21f28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-41
+
+
+FileName: /usr/share/fonts/type1/gsfonts/d050000l.afm
+SPDXID: SPDXRef-gsfonts-file-42
+FileChecksum: SHA1: f3fdd4392e026cb8aa72fdc72bb0d7785deda32b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-42
+
+
+FileName: /usr/share/fonts/type1/gsfonts/d050000l.pfb
+SPDXID: SPDXRef-gsfonts-file-43
+FileChecksum: SHA1: c0a5a91281f38149b0abe84e578fa48f4ef2d4d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-43
+
+
+FileName: /usr/share/fonts/type1/gsfonts/d050000l.pfm
+SPDXID: SPDXRef-gsfonts-file-44
+FileChecksum: SHA1: 1af7d7eace53a7cd18c1ebe01e443c76e751e3d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-44
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019003l.afm
+SPDXID: SPDXRef-gsfonts-file-45
+FileChecksum: SHA1: 465c08080f64cec3d755146186ca931c1a5096df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-45
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019003l.pfb
+SPDXID: SPDXRef-gsfonts-file-46
+FileChecksum: SHA1: 557e77495bee4977b1ee1c6d67b3eb941ba21865
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-46
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019003l.pfm
+SPDXID: SPDXRef-gsfonts-file-47
+FileChecksum: SHA1: 34fa2a1c79e06a75ef3b6feab602133ab9ff522f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-47
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019004l.afm
+SPDXID: SPDXRef-gsfonts-file-48
+FileChecksum: SHA1: 9831c1b21f446ee8a2a6bf138735814ba822dd1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-48
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019004l.pfb
+SPDXID: SPDXRef-gsfonts-file-49
+FileChecksum: SHA1: eb42dd5d4264945c4eebbaa544c18b424e83d8c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-49
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019004l.pfm
+SPDXID: SPDXRef-gsfonts-file-50
+FileChecksum: SHA1: 0016784c0e96aba42fa7efdc3cc9d57f450a6f6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-50
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019023l.afm
+SPDXID: SPDXRef-gsfonts-file-51
+FileChecksum: SHA1: 7a5ac3b39ca83e8c99a3c0257e3d977eea16c0d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-51
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019023l.pfb
+SPDXID: SPDXRef-gsfonts-file-52
+FileChecksum: SHA1: 634a81fbe6dfe7cd489da79ea74bb9ee15068e68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-52
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019023l.pfm
+SPDXID: SPDXRef-gsfonts-file-53
+FileChecksum: SHA1: e77ae8a6422fb9bd55741bd068140dda1600ae15
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-53
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019024l.afm
+SPDXID: SPDXRef-gsfonts-file-54
+FileChecksum: SHA1: f98a6a52cda65fea8517c5091c5dabd2ca3c198e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-54
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019024l.pfb
+SPDXID: SPDXRef-gsfonts-file-55
+FileChecksum: SHA1: abc6d8b835c0886e80eb58bcf68adfc76f18861b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-55
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019024l.pfm
+SPDXID: SPDXRef-gsfonts-file-56
+FileChecksum: SHA1: 5690ce3aa68e62ac712466795681043095ff1a67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-56
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019043l.afm
+SPDXID: SPDXRef-gsfonts-file-57
+FileChecksum: SHA1: 3c8673702e1aa3525741813bf596d5f44704343a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-57
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019043l.pfb
+SPDXID: SPDXRef-gsfonts-file-58
+FileChecksum: SHA1: 5c608679284563bd730f7ca9f9e2fafb7cb6470c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-58
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019043l.pfm
+SPDXID: SPDXRef-gsfonts-file-59
+FileChecksum: SHA1: c1744c855b5c2b138e4320b5a19cd69103c80a4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-59
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019044l.afm
+SPDXID: SPDXRef-gsfonts-file-60
+FileChecksum: SHA1: 37afab3cfb6ced8bbb5cb958614b33e1c90c9a57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-60
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019044l.pfb
+SPDXID: SPDXRef-gsfonts-file-61
+FileChecksum: SHA1: 1cbff1a1279904f29458c347b3425ca3119f444f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-61
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019044l.pfm
+SPDXID: SPDXRef-gsfonts-file-62
+FileChecksum: SHA1: 7cf45c8fe67e592f44989e9b0ef23c7d35a8eb64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-62
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019063l.afm
+SPDXID: SPDXRef-gsfonts-file-63
+FileChecksum: SHA1: e9b706bae72497aa9fca99c354c0643c7ffc3fd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-63
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019063l.pfb
+SPDXID: SPDXRef-gsfonts-file-64
+FileChecksum: SHA1: 7234629dad92e9ea1586ccbf2d55b94628495e2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-64
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019063l.pfm
+SPDXID: SPDXRef-gsfonts-file-65
+FileChecksum: SHA1: 9b5e6cdb04c68d5d1aee50a29d6df98c32d31ee8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-65
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019064l.afm
+SPDXID: SPDXRef-gsfonts-file-66
+FileChecksum: SHA1: 2debe9f4dd8a249e7c0ef54d47a38f822194f8c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-66
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019064l.pfb
+SPDXID: SPDXRef-gsfonts-file-67
+FileChecksum: SHA1: 707e09903f35dbbf03c0bb1a721d4f0f5a527032
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-67
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n019064l.pfm
+SPDXID: SPDXRef-gsfonts-file-68
+FileChecksum: SHA1: e701a7c35ca47980f1d2aaa70ec2ee8bba334a0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-68
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021003l.afm
+SPDXID: SPDXRef-gsfonts-file-69
+FileChecksum: SHA1: ea255426c92ec1325e392ea666837c4caeec9802
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-69
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021003l.pfb
+SPDXID: SPDXRef-gsfonts-file-70
+FileChecksum: SHA1: 9c790d943e1041725502064d8c269f57c727354e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-70
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021003l.pfm
+SPDXID: SPDXRef-gsfonts-file-71
+FileChecksum: SHA1: 4f1f2302d3ec148028c8a19f8706d77f4145c595
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-71
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021004l.afm
+SPDXID: SPDXRef-gsfonts-file-72
+FileChecksum: SHA1: 544aea7f09604bed732a1d5c863f229d608ac2fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-72
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021004l.pfb
+SPDXID: SPDXRef-gsfonts-file-73
+FileChecksum: SHA1: e9fe264aed2d25b0e443b5bd58f233bc46e9de47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-73
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021004l.pfm
+SPDXID: SPDXRef-gsfonts-file-74
+FileChecksum: SHA1: 7851fc00523589214f7ca110f4bd8c375b7797df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-74
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021023l.afm
+SPDXID: SPDXRef-gsfonts-file-75
+FileChecksum: SHA1: 2b40eb868d0d44358b89a8e093f526895354ccf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-75
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021023l.pfb
+SPDXID: SPDXRef-gsfonts-file-76
+FileChecksum: SHA1: b4c3196613f84f618dd8d36b8a20562b2fb6bf9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-76
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021023l.pfm
+SPDXID: SPDXRef-gsfonts-file-77
+FileChecksum: SHA1: 3cf72f605f6f44295e5efa267187450738341fbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-77
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021024l.afm
+SPDXID: SPDXRef-gsfonts-file-78
+FileChecksum: SHA1: a7ec40754d9c47dd28fd1bec55ede10f2e772055
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-78
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021024l.pfb
+SPDXID: SPDXRef-gsfonts-file-79
+FileChecksum: SHA1: d5810ef13a34cb3d951d3d8fae6517696fe1df7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-79
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n021024l.pfm
+SPDXID: SPDXRef-gsfonts-file-80
+FileChecksum: SHA1: 8dd0e4d1138660657332bbbbd646516cfea56cd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-80
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022003l.afm
+SPDXID: SPDXRef-gsfonts-file-81
+FileChecksum: SHA1: 9b9ccee05f396606f533314e338aa91b720ea9b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-81
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022003l.pfb
+SPDXID: SPDXRef-gsfonts-file-82
+FileChecksum: SHA1: 804d8b429a9ba0c6695a9919accbb2411c660061
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-82
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022003l.pfm
+SPDXID: SPDXRef-gsfonts-file-83
+FileChecksum: SHA1: c3bfa5c2bb0a7e14b20cc083e62a21abf7fd51c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-83
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022004l.afm
+SPDXID: SPDXRef-gsfonts-file-84
+FileChecksum: SHA1: f855f1a72e5aaa50ffdc39caf3db568b85553020
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-84
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022004l.pfb
+SPDXID: SPDXRef-gsfonts-file-85
+FileChecksum: SHA1: f4024b82d84e21fc6cc96dd982435c118544e382
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-85
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022004l.pfm
+SPDXID: SPDXRef-gsfonts-file-86
+FileChecksum: SHA1: 529914722c05ac5bfa9bd60dd79e07cd5f843c34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-86
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022023l.afm
+SPDXID: SPDXRef-gsfonts-file-87
+FileChecksum: SHA1: db903ddc3f79495a4af3e3f1a183d4abb3d262b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-87
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022023l.pfb
+SPDXID: SPDXRef-gsfonts-file-88
+FileChecksum: SHA1: c407e374a099f7fd11b42a3b12eeebdf08ea5986
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-88
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022023l.pfm
+SPDXID: SPDXRef-gsfonts-file-89
+FileChecksum: SHA1: 760e33958fa5114ff57273d4f78a4002c33b6f9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-89
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022024l.afm
+SPDXID: SPDXRef-gsfonts-file-90
+FileChecksum: SHA1: cd4b19eb8b9323bbada6612772dd7c16eb3ca367
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-90
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022024l.pfb
+SPDXID: SPDXRef-gsfonts-file-91
+FileChecksum: SHA1: 6520b89e11ee3a96dd375aafb35aba4b11939192
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-91
+
+
+FileName: /usr/share/fonts/type1/gsfonts/n022024l.pfm
+SPDXID: SPDXRef-gsfonts-file-92
+FileChecksum: SHA1: 8ad8ed1997306722eb3e1e98eb806bbab11398c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-92
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052003l.afm
+SPDXID: SPDXRef-gsfonts-file-93
+FileChecksum: SHA1: 805dc9aa0f0bfb979b4c6d54f76883724204b6b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-93
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052003l.pfb
+SPDXID: SPDXRef-gsfonts-file-94
+FileChecksum: SHA1: 98ebffb7e6a3ac75fee724f13fecb9b18990b00c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-94
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052003l.pfm
+SPDXID: SPDXRef-gsfonts-file-95
+FileChecksum: SHA1: c6b413585f64578f307af085fba1c74bac4071b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-95
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052004l.afm
+SPDXID: SPDXRef-gsfonts-file-96
+FileChecksum: SHA1: 160149dd89ac0e41390cf6c1397942e9487f0be8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-96
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052004l.pfb
+SPDXID: SPDXRef-gsfonts-file-97
+FileChecksum: SHA1: a0f22f777fa60c5c3b75bb0374635308a56c09fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-97
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052004l.pfm
+SPDXID: SPDXRef-gsfonts-file-98
+FileChecksum: SHA1: 78d269af2bbd511c613b9d27cf2c683c4bb841ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-98
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052023l.afm
+SPDXID: SPDXRef-gsfonts-file-99
+FileChecksum: SHA1: 36a24996a9e401fdeeb616a19b794105e857efd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-99
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052023l.pfb
+SPDXID: SPDXRef-gsfonts-file-100
+FileChecksum: SHA1: e9774f4358d7959d4bdbff49bd3914ddd7e2709f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-100
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052023l.pfm
+SPDXID: SPDXRef-gsfonts-file-101
+FileChecksum: SHA1: b1322d68a8261bd8e3b49c1eec280399625bbec3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-101
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052024l.afm
+SPDXID: SPDXRef-gsfonts-file-102
+FileChecksum: SHA1: 315e58fb5da93b864c1b4b15fa6219c76552817f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-102
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052024l.pfb
+SPDXID: SPDXRef-gsfonts-file-103
+FileChecksum: SHA1: 02fd77c0b7630b3aac3bb865b0dfa4b7777a7553
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-103
+
+
+FileName: /usr/share/fonts/type1/gsfonts/p052024l.pfm
+SPDXID: SPDXRef-gsfonts-file-104
+FileChecksum: SHA1: 9b4dfc0ac22754e02e0f6f2508afced1c709a7d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-104
+
+
+FileName: /usr/share/fonts/type1/gsfonts/s050000l.afm
+SPDXID: SPDXRef-gsfonts-file-105
+FileChecksum: SHA1: ed1ffd4acbf0199a1315a473819f1965c59fd6d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-105
+
+
+FileName: /usr/share/fonts/type1/gsfonts/s050000l.pfb
+SPDXID: SPDXRef-gsfonts-file-106
+FileChecksum: SHA1: 6d14eaf0cc924d680d4b711995173e420a47b52f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-106
+
+
+FileName: /usr/share/fonts/type1/gsfonts/s050000l.pfm
+SPDXID: SPDXRef-gsfonts-file-107
+FileChecksum: SHA1: 32deda6e8e86ec0d03c892e4af56027304e97d55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-107
+
+
+FileName: /usr/share/fonts/type1/gsfonts/z003034l.afm
+SPDXID: SPDXRef-gsfonts-file-108
+FileChecksum: SHA1: aefc6265bcece582042db360c0499a4be1539c03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-108
+
+
+FileName: /usr/share/fonts/type1/gsfonts/z003034l.pfb
+SPDXID: SPDXRef-gsfonts-file-109
+FileChecksum: SHA1: 6b1efd0104e7f3a2ca78a02e03e64e39d389a86c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-109
+
+
+FileName: /usr/share/fonts/type1/gsfonts/z003034l.pfm
+SPDXID: SPDXRef-gsfonts-file-110
+FileChecksum: SHA1: f70a95d13b44b7050ef6bbf6fcf96c678fa372bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gsfonts CONTAINS SPDXRef-gsfonts-file-110
+
+
+## Extracted License
+

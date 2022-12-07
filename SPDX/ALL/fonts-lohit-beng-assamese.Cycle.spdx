@@ -1,0 +1,245 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-lohit-beng-assamese_2.91.5-2-221a4de4-8765-50d1-8e59-e0e7dc315675
+DocumentName: fonts-lohit-beng-assamese_2.91.5-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-lohit-beng-assamese
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:51:32Z
+
+
+## Package
+
+PackageName: fonts-lohit-beng-assamese
+PackageVersion: 2.91.5-2
+SPDXID: SPDXRef-fonts-lohit-beng-assamese
+PackageHomePage: https://pagure.io/lohit
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3ab7184d9b9e6f6fbc0cf0812c2df978238a3d79
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc.
+Copyright 2011, Muneeb Shaikh <iammuneeb@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017 Pravin Satpute
+</text>
+PackageComment: <text>Lohit TrueType font for Assamese Language
+ This package provides Lohit TrueType font for Assamese language which is
+ primarily used in Indian state of Assam.</text>
+Relationship: SPDXRef-fonts-lohit-beng-assamese DEPENDS_ON SPDXRef-fonts-lohit-beng-bengali
+
+
+PackageName: fonts-lohit-beng-bengali
+PackageVersion: 2.91.5-2
+SPDXID: SPDXRef-fonts-lohit-beng-bengali
+PackageHomePage: https://pagure.io/lohit
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 10c9e087e95ce477a9d3f3ec669d1429d1985a9e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc.
+Copyright 2011, AbdulKarim Memon <abdulkarimmemon@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017, Pravin Satpute
+</text>
+PackageComment: <text>Lohit TrueType font for Bengali Language
+ This package provides Lohit TrueType font for Bengali language which is
+ primarily used in Indian state of Bengal.</text>
+Relationship: SPDXRef-fonts-lohit-beng-bengali DEPENDS_ON SPDXRef-fonts-lohit-beng-assamese
+
+
+## File
+
+FileName: /usr/share/doc/fonts-lohit-beng-assamese/copyright
+SPDXID: SPDXRef-fonts-lohit-beng-assamese-file-0
+FileChecksum: SHA1: 534e9d573044a336bb48c0994cc4a5cf912df589
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc.
+Copyright 2011, Muneeb Shaikh <iammuneeb@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017 Pravin Satpute
+</text>
+Relationship: SPDXRef-fonts-lohit-beng-assamese CONTAINS SPDXRef-fonts-lohit-beng-assamese-file-0
+
+
+FileName: /etc/fonts/conf.avail/66-lohit-assamese.conf
+SPDXID: SPDXRef-fonts-lohit-beng-assamese-file-1
+FileChecksum: SHA1: fab1d258ad180d0cc1401b20878a7dc87756d296
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-assamese CONTAINS SPDXRef-fonts-lohit-beng-assamese-file-1
+
+
+FileName: /usr/share/doc/fonts-lohit-beng-assamese/AUTHORS
+SPDXID: SPDXRef-fonts-lohit-beng-assamese-file-2
+FileChecksum: SHA1: 3bd42b90ab3cf946ba553c4ab651d98477a23864
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-assamese CONTAINS SPDXRef-fonts-lohit-beng-assamese-file-2
+
+
+FileName: /usr/share/doc/fonts-lohit-beng-assamese/README
+SPDXID: SPDXRef-fonts-lohit-beng-assamese-file-3
+FileChecksum: SHA1: 48dae9c3f1a979c7dff31e2ecc1e831e612ac4fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-assamese CONTAINS SPDXRef-fonts-lohit-beng-assamese-file-3
+
+
+FileName: /usr/share/doc/fonts-lohit-beng-assamese/README.Debian
+SPDXID: SPDXRef-fonts-lohit-beng-assamese-file-4
+FileChecksum: SHA1: c2acf066c5e1af45203ea09e7d83de457c87163d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-assamese CONTAINS SPDXRef-fonts-lohit-beng-assamese-file-4
+
+
+FileName: /usr/share/doc/fonts-lohit-beng-assamese/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-lohit-beng-assamese-file-5
+FileChecksum: SHA1: f76a39488c9004d4c9c195cb85a1f3236bed654a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-assamese CONTAINS SPDXRef-fonts-lohit-beng-assamese-file-5
+
+
+FileName: /usr/share/fonts/truetype/lohit-assamese/Lohit-Assamese.ttf
+SPDXID: SPDXRef-fonts-lohit-beng-assamese-file-6
+FileChecksum: SHA1: 1b6eb974f7cca99a285a17bffadf78a86a9f10af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-assamese CONTAINS SPDXRef-fonts-lohit-beng-assamese-file-6
+
+
+FileName: /usr/share/metainfo/io.pagure.lohit.assamese.font.metainfo.xml
+SPDXID: SPDXRef-fonts-lohit-beng-assamese-file-7
+FileChecksum: SHA1: 6115798a368091b79f3a3e8d63a5cfe5ce3f817e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-assamese CONTAINS SPDXRef-fonts-lohit-beng-assamese-file-7
+
+
+FileName: /etc/fonts/conf.d/66-lohit-assamese.conf
+SPDXID: SPDXRef-fonts-lohit-beng-assamese-file-8
+FileChecksum: SHA1: fab1d258ad180d0cc1401b20878a7dc87756d296
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-assamese CONTAINS SPDXRef-fonts-lohit-beng-assamese-file-8
+
+
+FileName: /usr/share/doc/fonts-lohit-beng-bengali/copyright
+SPDXID: SPDXRef-fonts-lohit-beng-bengali-file-0
+FileChecksum: SHA1: a19252e114e02d3c51ab0efdb30ecae486513694
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc.
+Copyright 2011, AbdulKarim Memon <abdulkarimmemon@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017, Pravin Satpute
+</text>
+Relationship: SPDXRef-fonts-lohit-beng-bengali CONTAINS SPDXRef-fonts-lohit-beng-bengali-file-0
+
+
+FileName: /etc/fonts/conf.avail/66-lohit-bengali.conf
+SPDXID: SPDXRef-fonts-lohit-beng-bengali-file-1
+FileChecksum: SHA1: 36f5fcfd8b95367e2573cca1389d34c45cd432a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-bengali CONTAINS SPDXRef-fonts-lohit-beng-bengali-file-1
+
+
+FileName: /usr/share/doc/fonts-lohit-beng-bengali/AUTHORS
+SPDXID: SPDXRef-fonts-lohit-beng-bengali-file-2
+FileChecksum: SHA1: 3bd42b90ab3cf946ba553c4ab651d98477a23864
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-bengali CONTAINS SPDXRef-fonts-lohit-beng-bengali-file-2
+
+
+FileName: /usr/share/doc/fonts-lohit-beng-bengali/README
+SPDXID: SPDXRef-fonts-lohit-beng-bengali-file-3
+FileChecksum: SHA1: 48dae9c3f1a979c7dff31e2ecc1e831e612ac4fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-bengali CONTAINS SPDXRef-fonts-lohit-beng-bengali-file-3
+
+
+FileName: /usr/share/doc/fonts-lohit-beng-bengali/README.Debian
+SPDXID: SPDXRef-fonts-lohit-beng-bengali-file-4
+FileChecksum: SHA1: 09aa773704dbfb74cdc0cb10f86a6f837e86d22f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-bengali CONTAINS SPDXRef-fonts-lohit-beng-bengali-file-4
+
+
+FileName: /usr/share/doc/fonts-lohit-beng-bengali/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-lohit-beng-bengali-file-5
+FileChecksum: SHA1: 46af678da933607323e85acb5007b07dd2c01c6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-bengali CONTAINS SPDXRef-fonts-lohit-beng-bengali-file-5
+
+
+FileName: /usr/share/fonts/truetype/lohit-bengali/Lohit-Bengali.ttf
+SPDXID: SPDXRef-fonts-lohit-beng-bengali-file-6
+FileChecksum: SHA1: f5f260f0bcc2caea917ac7fdec22e639b0b474ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-bengali CONTAINS SPDXRef-fonts-lohit-beng-bengali-file-6
+
+
+FileName: /usr/share/metainfo/io.pagure.lohit.bengali.font.metainfo.xml
+SPDXID: SPDXRef-fonts-lohit-beng-bengali-file-7
+FileChecksum: SHA1: e2cc932c17bca7634b12fcbc4479350ed1691aa7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-bengali CONTAINS SPDXRef-fonts-lohit-beng-bengali-file-7
+
+
+FileName: /etc/fonts/conf.d/66-lohit-bengali.conf
+SPDXID: SPDXRef-fonts-lohit-beng-bengali-file-8
+FileChecksum: SHA1: 36f5fcfd8b95367e2573cca1389d34c45cd432a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-beng-bengali CONTAINS SPDXRef-fonts-lohit-beng-bengali-file-8
+
+
+## Extracted License
+

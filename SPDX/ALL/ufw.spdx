@@ -1,0 +1,866 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/ufw_0.36.1-4build1-93390f39-e45b-5823-acef-4611828a93f2
+DocumentName: ufw_0.36.1-4build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+ExternalDocumentRef: DocumentRef-anacron.Cycle http://spdx.org/spdxdocs/anacron_2.3-31ubuntu2-a3911883-88a6-5b3f-bb4e-9175c9bc002b SHA1: 39297d5944af59ec97f258f114c0826fafda63ed
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ufw
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:08:53Z
+
+
+## Package
+
+PackageName: ufw
+PackageVersion: 0.36.1-4build1
+SPDXID: SPDXRef-ufw
+PackageHomePage: https://launchpad.net/ufw
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 135737d91169440b6eeb4c9d6c5457eaa8362dd9
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageCopyrightText: <text>Copyright 2007-2015, Canonical Ltd.
+Copyright 2010-2015, Rosetta
+</text>
+PackageComment: <text>program for managing a Netfilter firewall
+ The Uncomplicated FireWall is a front-end for iptables, to make managing a
+ Netfilter firewall easier. It provides a command line interface with syntax
+ similar to OpenBSD's Packet Filter. It is particularly well-suited as a
+ host-based firewall.</text>
+Relationship: SPDXRef-ufw DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-iptables
+Relationship: SPDXRef-ufw DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+Relationship: SPDXRef-ufw DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ucf
+Relationship: SPDXRef-ufw DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-python3
+Relationship: SPDXRef-ufw DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debconf
+Relationship: SPDXRef-ufw DEPENDS_ON DocumentRef-anacron.Cycle:SPDXRef-rsyslog
+
+
+## File
+
+FileName: /usr/share/doc/ufw/copyright
+SPDXID: SPDXRef-ufw-file-0
+FileChecksum: SHA1: 5b01344fd3c51797c5a990906a552e990531fa6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-3.0-only
+FileCopyrightText: <text>Copyright 2007-2015, Canonical Ltd.
+Copyright 2010-2015, Rosetta
+</text>
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-0
+
+
+FileName: /etc/default/ufw
+SPDXID: SPDXRef-ufw-file-1
+FileChecksum: SHA1: 52edf3a6ff5762434d76b48cef5800229418ebc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-1
+
+
+FileName: /etc/init.d/ufw
+SPDXID: SPDXRef-ufw-file-2
+FileChecksum: SHA1: f70925b017b133e308dd28655aecb7a355e03940
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-2
+
+
+FileName: /etc/logrotate.d/ufw
+SPDXID: SPDXRef-ufw-file-3
+FileChecksum: SHA1: 046a26843773c3c10f45244785ceb7c4c79659c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-3
+
+
+FileName: /etc/rsyslog.d/20-ufw.conf
+SPDXID: SPDXRef-ufw-file-4
+FileChecksum: SHA1: 96ed5c046b9b4ba784e2099b93ef5aaa0b55571c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-4
+
+
+FileName: /etc/ufw/sysctl.conf
+SPDXID: SPDXRef-ufw-file-5
+FileChecksum: SHA1: 4d78ce1104e5400ec6d83f64ef1868ca2c5c7fa7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-5
+
+
+FileName: /lib/systemd/system/ufw.service
+SPDXID: SPDXRef-ufw-file-6
+FileChecksum: SHA1: b045cc5b73c02a59f3e0b8e020f7b7d527f6ecc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-6
+
+
+FileName: /lib/ufw/ufw-init
+SPDXID: SPDXRef-ufw-file-7
+FileChecksum: SHA1: d415f69db2a5c2a39dfb71917375027efafac6ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-7
+
+
+FileName: /lib/ufw/ufw-init-functions
+SPDXID: SPDXRef-ufw-file-8
+FileChecksum: SHA1: 070c3463677ae0d050fbb818d9cce172bb9a8317
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-8
+
+
+FileName: /usr/lib/python3/dist-packages/ufw/__init__.py
+SPDXID: SPDXRef-ufw-file-9
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-9
+
+
+FileName: /usr/lib/python3/dist-packages/ufw/applications.py
+SPDXID: SPDXRef-ufw-file-10
+FileChecksum: SHA1: a3609cb395f778af339f7074904ed20fb4a5b101
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-10
+
+
+FileName: /usr/lib/python3/dist-packages/ufw/backend.py
+SPDXID: SPDXRef-ufw-file-11
+FileChecksum: SHA1: 4651732b88b8cc464389d104ef531248cf79ed97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-11
+
+
+FileName: /usr/lib/python3/dist-packages/ufw/backend_iptables.py
+SPDXID: SPDXRef-ufw-file-12
+FileChecksum: SHA1: de4967b5114005441e92b52eb389a88d4416cd60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-12
+
+
+FileName: /usr/lib/python3/dist-packages/ufw/common.py
+SPDXID: SPDXRef-ufw-file-13
+FileChecksum: SHA1: f6bb3f43a5a00d4e80768829f32c15eb8cb8e116
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-13
+
+
+FileName: /usr/lib/python3/dist-packages/ufw/frontend.py
+SPDXID: SPDXRef-ufw-file-14
+FileChecksum: SHA1: 872e8c7b0bf01663f0ad48c2e0cde55565d68cc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-14
+
+
+FileName: /usr/lib/python3/dist-packages/ufw/parser.py
+SPDXID: SPDXRef-ufw-file-15
+FileChecksum: SHA1: 4026d51fc447920bc38563b986f5720d192fcee8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-15
+
+
+FileName: /usr/lib/python3/dist-packages/ufw/util.py
+SPDXID: SPDXRef-ufw-file-16
+FileChecksum: SHA1: e19086992243ff9543ac8e6a4aa6b92ca0f449ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-16
+
+
+FileName: /usr/lib/python3/dist-packages/ufw-0.36.1.egg-info
+SPDXID: SPDXRef-ufw-file-17
+FileChecksum: SHA1: 4bda757cec8ce5bb0caf7132f236eb7c894b2729
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-17
+
+
+FileName: /usr/sbin/ufw
+SPDXID: SPDXRef-ufw-file-18
+FileChecksum: SHA1: 495b2ef32d6c961a8bd3c8ebd327c89fd83a497f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-18
+
+
+FileName: /usr/share/bash-completion/completions/ufw
+SPDXID: SPDXRef-ufw-file-19
+FileChecksum: SHA1: 187be3e97c92f45736d690974dee1760a8b1463a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-19
+
+
+FileName: /usr/share/doc/ufw/README.Debian
+SPDXID: SPDXRef-ufw-file-20
+FileChecksum: SHA1: 452b9dabe8db6f0023b698a72881e3c53c954e2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-20
+
+
+FileName: /usr/share/doc/ufw/README.gz
+SPDXID: SPDXRef-ufw-file-21
+FileChecksum: SHA1: 04a400215382e1ef2f7c92703920612ad241b13b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-21
+
+
+FileName: /usr/share/doc/ufw/changelog.Debian.gz
+SPDXID: SPDXRef-ufw-file-22
+FileChecksum: SHA1: a04077f21679b6067531d5313648828129b13eab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-22
+
+
+FileName: /usr/share/doc/ufw/examples/skel-ui.example
+SPDXID: SPDXRef-ufw-file-23
+FileChecksum: SHA1: 2f1569b1020de793d74a551ec73b4f6944d79686
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-23
+
+
+FileName: /usr/share/lintian/overrides/ufw
+SPDXID: SPDXRef-ufw-file-24
+FileChecksum: SHA1: 1692ba655a551c7f2504c5cc908b50c4fba7fce9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-24
+
+
+FileName: /usr/share/man/man8/ufw-framework.8.gz
+SPDXID: SPDXRef-ufw-file-25
+FileChecksum: SHA1: c239ae5804da9e5db1d95aa850a34734fd4ba6d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-25
+
+
+FileName: /usr/share/man/man8/ufw.8.gz
+SPDXID: SPDXRef-ufw-file-26
+FileChecksum: SHA1: 14464b8f8c148868ea5d04542fa288dad9fcfbcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-26
+
+
+FileName: /usr/share/ufw/after.init
+SPDXID: SPDXRef-ufw-file-27
+FileChecksum: SHA1: d31368ecf4b42de60b010bfcfadf44d7814c978a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-27
+
+
+FileName: /usr/share/ufw/after.rules.md5sum
+SPDXID: SPDXRef-ufw-file-28
+FileChecksum: SHA1: 1b3b72fa83c8081a19f3e4785dc16511e9ebdd9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-28
+
+
+FileName: /usr/share/ufw/after6.rules.md5sum
+SPDXID: SPDXRef-ufw-file-29
+FileChecksum: SHA1: d2c0d239f36d4d4e4e56e7aa3405a40da2b5fbf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-29
+
+
+FileName: /usr/share/ufw/before.init
+SPDXID: SPDXRef-ufw-file-30
+FileChecksum: SHA1: 006fc57819170c47629e6560f675619361eb126d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-30
+
+
+FileName: /usr/share/ufw/before.rules.md5sum
+SPDXID: SPDXRef-ufw-file-31
+FileChecksum: SHA1: ed4077a539575f125456afac41405103cc8ea712
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-31
+
+
+FileName: /usr/share/ufw/before6.rules.md5sum
+SPDXID: SPDXRef-ufw-file-32
+FileChecksum: SHA1: 132884cc6c78428f1c31b2b9a4c3ee3214ad8410
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-32
+
+
+FileName: /usr/share/ufw/check-requirements
+SPDXID: SPDXRef-ufw-file-33
+FileChecksum: SHA1: 24a5f6d8452ffe18028878ce2f35b2d50a11f80f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-33
+
+
+FileName: /usr/share/ufw/iptables/after.rules
+SPDXID: SPDXRef-ufw-file-34
+FileChecksum: SHA1: ca53012cb5f66c5bec2f19827b1a5c8d4486aff4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-34
+
+
+FileName: /usr/share/ufw/iptables/after6.rules
+SPDXID: SPDXRef-ufw-file-35
+FileChecksum: SHA1: 889fbec14ea2d6788dfb2a79e3addfbdacdc7757
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-35
+
+
+FileName: /usr/share/ufw/iptables/before.rules
+SPDXID: SPDXRef-ufw-file-36
+FileChecksum: SHA1: d9b86c4f27d5039b14b5d9dcc9e437b788e1d561
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-36
+
+
+FileName: /usr/share/ufw/iptables/before6.rules
+SPDXID: SPDXRef-ufw-file-37
+FileChecksum: SHA1: 35a0172ecf7ef3ed1619ba1dd704ff78883cf323
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-37
+
+
+FileName: /usr/share/ufw/iptables/user.rules
+SPDXID: SPDXRef-ufw-file-38
+FileChecksum: SHA1: f1f32a5a9ecb6c01b2cefd230847c90386487678
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-38
+
+
+FileName: /usr/share/ufw/iptables/user6.rules
+SPDXID: SPDXRef-ufw-file-39
+FileChecksum: SHA1: c5ba6486b1daf14a6bac82125bb2352abc144e94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-39
+
+
+FileName: /usr/share/ufw/messages/ar.mo
+SPDXID: SPDXRef-ufw-file-40
+FileChecksum: SHA1: dbb091d45c73d4d91d10ca79780e6b471c7da6fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-40
+
+
+FileName: /usr/share/ufw/messages/ast.mo
+SPDXID: SPDXRef-ufw-file-41
+FileChecksum: SHA1: fd74048c93f680a520f0afa083f54b4d2329b6e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-41
+
+
+FileName: /usr/share/ufw/messages/bg.mo
+SPDXID: SPDXRef-ufw-file-42
+FileChecksum: SHA1: 1bf311e82447b632ee31eb52c5e8e2e1f7b7e3d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-42
+
+
+FileName: /usr/share/ufw/messages/bs.mo
+SPDXID: SPDXRef-ufw-file-43
+FileChecksum: SHA1: c1973d25e9b1f435f7e4bc44c9eebb76995cd817
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-43
+
+
+FileName: /usr/share/ufw/messages/ca.mo
+SPDXID: SPDXRef-ufw-file-44
+FileChecksum: SHA1: 7cdc007e5e03bb74c6f30ac6b6d283b065bfe78d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-44
+
+
+FileName: /usr/share/ufw/messages/ce.mo
+SPDXID: SPDXRef-ufw-file-45
+FileChecksum: SHA1: 9a36a5fc83fbe8c09a98dd84b74b65b20239c77d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-45
+
+
+FileName: /usr/share/ufw/messages/cs.mo
+SPDXID: SPDXRef-ufw-file-46
+FileChecksum: SHA1: 170ab1e073278a19acecdeb0d9adf6803270346d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-46
+
+
+FileName: /usr/share/ufw/messages/da.mo
+SPDXID: SPDXRef-ufw-file-47
+FileChecksum: SHA1: 9964a14c1373e35ae90b71cac38b860c884117b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-47
+
+
+FileName: /usr/share/ufw/messages/de.mo
+SPDXID: SPDXRef-ufw-file-48
+FileChecksum: SHA1: a1d591b685e136e800c06a5921c1df9b01541980
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-48
+
+
+FileName: /usr/share/ufw/messages/el.mo
+SPDXID: SPDXRef-ufw-file-49
+FileChecksum: SHA1: 6d2e160e39ef18df8160d6a71f671184e1d87251
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-49
+
+
+FileName: /usr/share/ufw/messages/en_AU.mo
+SPDXID: SPDXRef-ufw-file-50
+FileChecksum: SHA1: 3de6e0cd74c3fe96df6e81da2d9428e7ea2879c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-50
+
+
+FileName: /usr/share/ufw/messages/en_GB.mo
+SPDXID: SPDXRef-ufw-file-51
+FileChecksum: SHA1: 11bea18fa5093baf5f3edac67335ddbcbb5bdf94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-51
+
+
+FileName: /usr/share/ufw/messages/es.mo
+SPDXID: SPDXRef-ufw-file-52
+FileChecksum: SHA1: 538699acf7d67d403f879a62356bccbcd30c0ebf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-52
+
+
+FileName: /usr/share/ufw/messages/et.mo
+SPDXID: SPDXRef-ufw-file-53
+FileChecksum: SHA1: 7957bfa642b2067418582a3bdb9455eb325064b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-53
+
+
+FileName: /usr/share/ufw/messages/fi.mo
+SPDXID: SPDXRef-ufw-file-54
+FileChecksum: SHA1: e6c03f8fe90702570ddf19ed398c2f5c751fdba5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-54
+
+
+FileName: /usr/share/ufw/messages/fr.mo
+SPDXID: SPDXRef-ufw-file-55
+FileChecksum: SHA1: e3f8cc0b54ff41a9140314fef7175461f16b0350
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-55
+
+
+FileName: /usr/share/ufw/messages/he.mo
+SPDXID: SPDXRef-ufw-file-56
+FileChecksum: SHA1: 77e858a7c2fb5f7f62e5c88416086fc8b8dfddd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-56
+
+
+FileName: /usr/share/ufw/messages/hu.mo
+SPDXID: SPDXRef-ufw-file-57
+FileChecksum: SHA1: 77ee0373949ae67d661951094235df448ca32006
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-57
+
+
+FileName: /usr/share/ufw/messages/id.mo
+SPDXID: SPDXRef-ufw-file-58
+FileChecksum: SHA1: cd1a5a14e1d81590faa17f7f1e01f88a69fc1cd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-58
+
+
+FileName: /usr/share/ufw/messages/it.mo
+SPDXID: SPDXRef-ufw-file-59
+FileChecksum: SHA1: 9fcbcb950a63d2cb3c0ca48bccccc723d77258e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-59
+
+
+FileName: /usr/share/ufw/messages/ja.mo
+SPDXID: SPDXRef-ufw-file-60
+FileChecksum: SHA1: 4bdc2bd207aaa1e063ab063eb83dc958a40849f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-60
+
+
+FileName: /usr/share/ufw/messages/ko.mo
+SPDXID: SPDXRef-ufw-file-61
+FileChecksum: SHA1: bd6f05429177029dff60b9887bb070c77c7ab8ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-61
+
+
+FileName: /usr/share/ufw/messages/lv.mo
+SPDXID: SPDXRef-ufw-file-62
+FileChecksum: SHA1: b712b1d5255a4246667edeccb5d9d2454485fad3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-62
+
+
+FileName: /usr/share/ufw/messages/nb.mo
+SPDXID: SPDXRef-ufw-file-63
+FileChecksum: SHA1: 1687def18ca5648fd326bd92ec0b682fd71ca819
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-63
+
+
+FileName: /usr/share/ufw/messages/nl.mo
+SPDXID: SPDXRef-ufw-file-64
+FileChecksum: SHA1: 4955cee548040086ff96de50068d5117fb205cd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-64
+
+
+FileName: /usr/share/ufw/messages/pl.mo
+SPDXID: SPDXRef-ufw-file-65
+FileChecksum: SHA1: c06d7af28e123a97dc4551f9841dd8c2479a08f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-65
+
+
+FileName: /usr/share/ufw/messages/pt.mo
+SPDXID: SPDXRef-ufw-file-66
+FileChecksum: SHA1: 09d4a43455d94c82a6f06bf8b913d97f882cbb80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-66
+
+
+FileName: /usr/share/ufw/messages/pt_BR.mo
+SPDXID: SPDXRef-ufw-file-67
+FileChecksum: SHA1: 073536d72d96ba8997cea17547a96828d3dad734
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-67
+
+
+FileName: /usr/share/ufw/messages/ru.mo
+SPDXID: SPDXRef-ufw-file-68
+FileChecksum: SHA1: 8ab623b2357b05cd9c2438042abca6b8e4c8307d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-68
+
+
+FileName: /usr/share/ufw/messages/se.mo
+SPDXID: SPDXRef-ufw-file-69
+FileChecksum: SHA1: 53e9e5c35395e864559e1e3ec9d1f7e4e48e7d3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-69
+
+
+FileName: /usr/share/ufw/messages/sk.mo
+SPDXID: SPDXRef-ufw-file-70
+FileChecksum: SHA1: d48d9cc88f4d890b2400ff0d63fa787dbda5ac43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-70
+
+
+FileName: /usr/share/ufw/messages/sl.mo
+SPDXID: SPDXRef-ufw-file-71
+FileChecksum: SHA1: 66b4b05af1e2a21c009667013bab360badb6c126
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-71
+
+
+FileName: /usr/share/ufw/messages/sr.mo
+SPDXID: SPDXRef-ufw-file-72
+FileChecksum: SHA1: bc8da2f2af233a8493c03b0263fec651de031a31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-72
+
+
+FileName: /usr/share/ufw/messages/sv.mo
+SPDXID: SPDXRef-ufw-file-73
+FileChecksum: SHA1: 5908ec708912b629eab2a68caf159d220a036176
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-73
+
+
+FileName: /usr/share/ufw/messages/tl.mo
+SPDXID: SPDXRef-ufw-file-74
+FileChecksum: SHA1: 2acd8bc8cc139695475a6192ca2b0535415c32f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-74
+
+
+FileName: /usr/share/ufw/messages/tr.mo
+SPDXID: SPDXRef-ufw-file-75
+FileChecksum: SHA1: 65d6effad24afa2f20db39810f37066ed685292c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-75
+
+
+FileName: /usr/share/ufw/messages/uk.mo
+SPDXID: SPDXRef-ufw-file-76
+FileChecksum: SHA1: 29b07b381b0a5e15486d64ae024fc3462f5edf50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-76
+
+
+FileName: /usr/share/ufw/messages/ur.mo
+SPDXID: SPDXRef-ufw-file-77
+FileChecksum: SHA1: 2edeb5e741c5aafb61abe6116d53003ad0dfd819
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-77
+
+
+FileName: /usr/share/ufw/messages/zh_CN.mo
+SPDXID: SPDXRef-ufw-file-78
+FileChecksum: SHA1: ff1c39eb25e593274e19fb5cab7f53d4e10ae49f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-78
+
+
+FileName: /usr/share/ufw/messages/zh_TW.mo
+SPDXID: SPDXRef-ufw-file-79
+FileChecksum: SHA1: 01a7a63f3a56c3da2366665ecbfde7b1dc5208e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-79
+
+
+FileName: /usr/share/ufw/ufw.conf
+SPDXID: SPDXRef-ufw-file-80
+FileChecksum: SHA1: 314fc2510a05b6c05c72a7053af453bf578bc0a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-80
+
+
+FileName: /usr/share/ufw/user.rules.md5sum
+SPDXID: SPDXRef-ufw-file-81
+FileChecksum: SHA1: 956201a1e78285241b80d653d7644232a262cc7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-81
+
+
+FileName: /usr/share/ufw/user6.rules.md5sum
+SPDXID: SPDXRef-ufw-file-82
+FileChecksum: SHA1: 6c57bb680df6fc45b2684fdc8da7e424137e18c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-82
+
+
+FileName: /usr/share/ufw/after.rules
+SPDXID: SPDXRef-ufw-file-83
+FileChecksum: SHA1: ca53012cb5f66c5bec2f19827b1a5c8d4486aff4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-83
+
+
+FileName: /usr/share/ufw/after6.rules
+SPDXID: SPDXRef-ufw-file-84
+FileChecksum: SHA1: 889fbec14ea2d6788dfb2a79e3addfbdacdc7757
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-84
+
+
+FileName: /usr/share/ufw/before.rules
+SPDXID: SPDXRef-ufw-file-85
+FileChecksum: SHA1: d9b86c4f27d5039b14b5d9dcc9e437b788e1d561
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-85
+
+
+FileName: /usr/share/ufw/before6.rules
+SPDXID: SPDXRef-ufw-file-86
+FileChecksum: SHA1: 35a0172ecf7ef3ed1619ba1dd704ff78883cf323
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-86
+
+
+FileName: /usr/share/ufw/user.rules
+SPDXID: SPDXRef-ufw-file-87
+FileChecksum: SHA1: f1f32a5a9ecb6c01b2cefd230847c90386487678
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-87
+
+
+FileName: /usr/share/ufw/user6.rules
+SPDXID: SPDXRef-ufw-file-88
+FileChecksum: SHA1: c5ba6486b1daf14a6bac82125bb2352abc144e94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-ufw CONTAINS SPDXRef-ufw-file-88
+
+
+## Extracted License
+

@@ -1,0 +1,121 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/command-not-found_22.04.0-9f0c744d-c660-5437-8eb1-bc44ad2e55e1
+DocumentName: command-not-found_22.04.0
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-python3-commandnotfound http://spdx.org/spdxdocs/python3-commandnotfound_22.04.0-3daad82c-397a-5a19-95ae-8ca44183abff SHA1: 6c43b7c074f8a987921fda0c0ff0ddf7d509f09b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-command-not-found
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:48:25Z
+
+
+## Package
+
+PackageName: command-not-found
+PackageVersion: 22.04.0
+SPDXID: SPDXRef-command-not-found
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 67c67f6629424de87499762da9ffac2a34cf2015
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>(c) 2005-2008 Michael Vogt <michael.vogt@ubuntu.com>
+(c) 2008 Julian Andres Klode <jak@debian.org>
+Copyright (c) 2005-2008 Zygmunt Krynicki <zkrynicki@gmail.com>
+</text>
+PackageComment: <text>Suggest installation of packages in interactive bash sessions
+ This package will install a handler for command_not_found that looks up
+ programs not currently installed but available from the repositories.</text>
+Relationship: SPDXRef-command-not-found DEPENDS_ON DocumentRef-python3-commandnotfound:SPDXRef-python3-commandnotfound
+Relationship: SPDXRef-command-not-found DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-snapd
+
+
+## File
+
+FileName: /usr/share/doc/command-not-found/copyright
+SPDXID: SPDXRef-command-not-found-file-0
+FileChecksum: SHA1: b490e5715c093cf18a72fc1bb7251c97bf839c68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright (c) 2005-2008 Zygmunt Krynicki <zkrynicki@gmail.com>
+Copyright (c) 2005-2008 Zygmunt Krynicki <zkrynicki@gmail.com>
+(c) 2005-2008 Michael Vogt <michael.vogt@ubuntu.com>
+(c) 2008 Julian Andres Klode <jak@debian.org>
+</text>
+Relationship: SPDXRef-command-not-found CONTAINS SPDXRef-command-not-found-file-0
+
+
+FileName: /etc/apt/apt.conf.d/50command-not-found
+SPDXID: SPDXRef-command-not-found-file-1
+FileChecksum: SHA1: 39b44ba78fe1a1c9c691fb4df09aeb59ee2a7b97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-command-not-found CONTAINS SPDXRef-command-not-found-file-1
+
+
+FileName: /etc/zsh_command_not_found
+SPDXID: SPDXRef-command-not-found-file-2
+FileChecksum: SHA1: 110fd8dde0e7d78a7a0b9d25476f7210b10ac88b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-command-not-found CONTAINS SPDXRef-command-not-found-file-2
+
+
+FileName: /usr/lib/cnf-update-db
+SPDXID: SPDXRef-command-not-found-file-3
+FileChecksum: SHA1: 39eea0bdabe0decf472c580d023279e09a6f6f36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-command-not-found CONTAINS SPDXRef-command-not-found-file-3
+
+
+FileName: /usr/lib/command-not-found
+SPDXID: SPDXRef-command-not-found-file-4
+FileChecksum: SHA1: 3eab6dfccd6d98ea7662440bc0ab0eb36081c04d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-command-not-found CONTAINS SPDXRef-command-not-found-file-4
+
+
+FileName: /usr/share/doc/command-not-found/README.md
+SPDXID: SPDXRef-command-not-found-file-5
+FileChecksum: SHA1: a1786c2808e9d656c6f3764f0bca0e73c54cffb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-command-not-found CONTAINS SPDXRef-command-not-found-file-5
+
+
+FileName: /usr/share/doc/command-not-found/changelog.gz
+SPDXID: SPDXRef-command-not-found-file-6
+FileChecksum: SHA1: 48932f026ca7d51a695b90d1f32b3d8b2e9b42e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-command-not-found CONTAINS SPDXRef-command-not-found-file-6
+
+
+## Extracted License
+

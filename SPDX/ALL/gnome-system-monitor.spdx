@@ -1,0 +1,682 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-system-monitor_42.0-1-9a64c372-9c38-53c3-9ea3-97d686157dd2
+DocumentName: gnome-system-monitor_42.0-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libglibmm-2.4-1v5 http://spdx.org/spdxdocs/libglibmm-2.4-1v5_2.66.2-2-61acc860-066d-59be-99a8-d4e418f83121 SHA1: bde91a070a4b3e6f36778f8dc3d77d5255507613
+ExternalDocumentRef: DocumentRef-libgtkmm-3.0-1v5 http://spdx.org/spdxdocs/libgtkmm-3.0-1v5_3.24.5-1build1-c8fca787-1154-5e05-a00b-af25414dcf8c SHA1: 1d98fd0ecceb53de51516eb6b5f73220c90f3ec5
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-system-monitor
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:12:12Z
+
+
+## Package
+
+PackageName: gnome-system-monitor
+PackageVersion: 42.0-1
+SPDXID: SPDXRef-gnome-system-monitor
+PackageHomePage: https://wiki.gnome.org/Apps/SystemMonitor
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: d1c7622e6daccd3a0d04ed1d0f25cec6ca6b356c
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-SA-4.0
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.0-or-later
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright (c) 2001-2004 Kevin Vandersloot <kfv101@psu.edu>
+Copyright (c) 2005-2007 Benoit Dejean <TazForEver@dlfp.org>
+Copyright (c) 2011 Chris Kuhl 2001-2018 Free Software Foundation, Inc. 2010 Krishnan
+Copyright 2007 Karl Lattimer
+Copyright Sam Hewitt
+</text>
+PackageComment: <text>Process viewer and system resource monitor for GNOME
+ This package allows you to graphically view and manipulate the running
+ processes on your system.  It also provides an overview of available
+ resources such as CPU and memory.</text>
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcc-s1
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-libglibmm-2.4-1v5:SPDXRef-libglibmm-2.4-1v5
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-libgtkmm-3.0-1v5:SPDXRef-libgtkmm-3.0-1v5
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtop-2.0-11
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libhandy-1-0
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpangocairo-1.0-0
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-librsvg2-2
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsigcPlusPlus-2.0-0v5
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libstdcPlusPlus6
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+Relationship: SPDXRef-gnome-system-monitor DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gvfs
+
+
+## File
+
+FileName: /usr/share/doc/gnome-system-monitor/copyright
+SPDXID: SPDXRef-gnome-system-monitor-file-0
+FileChecksum: SHA1: c45ffb96f0a4a4a53029d5a06aecf5844995079b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.0-or-later
+LicenseInfoInFile: LGPL-2.1-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: CC-BY-SA-4.0
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 2001-2004 Kevin Vandersloot <kfv101@psu.edu>
+Copyright (c) 2005-2007 Benoit Dejean <TazForEver@dlfp.org>
+Copyright (c) 2011 Chris Kuhl 2001-2018 Free Software Foundation, Inc. 2010 Krishnan
+Copyright 2007 Karl Lattimer
+Copyright Sam Hewitt
+</text>
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-0
+
+
+FileName: /usr/bin/gnome-system-monitor
+SPDXID: SPDXRef-gnome-system-monitor-file-1
+FileChecksum: SHA1: b4afde2f0414f743e36e82a03c2c4b9d47c9dab7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-1
+
+
+FileName: /usr/libexec/gnome-system-monitor/gsm-kill
+SPDXID: SPDXRef-gnome-system-monitor-file-2
+FileChecksum: SHA1: 3e7647aa475e7fe81acb48dd18fe62bc98b2c0f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-2
+
+
+FileName: /usr/libexec/gnome-system-monitor/gsm-renice
+SPDXID: SPDXRef-gnome-system-monitor-file-3
+FileChecksum: SHA1: 8b6b48826a297bca28e57e30dc6e39a51b6ea085
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-3
+
+
+FileName: /usr/libexec/gnome-system-monitor/gsm-taskset
+SPDXID: SPDXRef-gnome-system-monitor-file-4
+FileChecksum: SHA1: d61c2b940dfce8f325875fbc5e5edb3711b2e7bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-4
+
+
+FileName: /usr/share/applications/gnome-system-monitor-kde.desktop
+SPDXID: SPDXRef-gnome-system-monitor-file-5
+FileChecksum: SHA1: 61958be088aed3545c597791e641fce746a02e3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-5
+
+
+FileName: /usr/share/applications/gnome-system-monitor.desktop
+SPDXID: SPDXRef-gnome-system-monitor-file-6
+FileChecksum: SHA1: 1afb5ee287eb480a681f4af664c3135775b12d59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-6
+
+
+FileName: /usr/share/doc/gnome-system-monitor/NEWS.gz
+SPDXID: SPDXRef-gnome-system-monitor-file-7
+FileChecksum: SHA1: 431fa5dbc7e09864277f41d425d02a8545175b78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-7
+
+
+FileName: /usr/share/doc/gnome-system-monitor/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-system-monitor-file-8
+FileChecksum: SHA1: 2f492922c6463effeffd2c3014a3450d75a98480
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-8
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.gnome-system-monitor.enums.xml
+SPDXID: SPDXRef-gnome-system-monitor-file-9
+FileChecksum: SHA1: a19471aa05b7b83893fa11b69b6e9cf2b20b0155
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-9
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.gnome-system-monitor.gschema.xml
+SPDXID: SPDXRef-gnome-system-monitor-file-10
+FileChecksum: SHA1: 25947b610659683b37dd1fb10cb88907e630e942
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-10
+
+
+FileName: /usr/share/gnome-system-monitor/gsm.gresource
+SPDXID: SPDXRef-gnome-system-monitor-file-11
+FileChecksum: SHA1: 28249c02ad912250ecfd1e0143d7c6d5007724d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-11
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/commandline.page
+SPDXID: SPDXRef-gnome-system-monitor-file-12
+FileChecksum: SHA1: 090852baa1b81513c2733cf731d0d0c0df3eae03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-12
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/cpu-check.page
+SPDXID: SPDXRef-gnome-system-monitor-file-13
+FileChecksum: SHA1: 1b268e712960c875f32a5c5b192589ae96774d90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-13
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/cpu-mem-normal.page
+SPDXID: SPDXRef-gnome-system-monitor-file-14
+FileChecksum: SHA1: 4e8a2edf90a2ee1aee26c6517fd78e300656f29e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-14
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/cpu-multicore.page
+SPDXID: SPDXRef-gnome-system-monitor-file-15
+FileChecksum: SHA1: d2a1a50ee692cb58106d60ceee754a2afbeb1ab4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-15
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-16
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-16
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/fs-device.page
+SPDXID: SPDXRef-gnome-system-monitor-file-17
+FileChecksum: SHA1: 4f9e05d0a3a39ed8e007164abeeb0b6e0bbb39f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-17
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/fs-diskusage.page
+SPDXID: SPDXRef-gnome-system-monitor-file-18
+FileChecksum: SHA1: 19e6a0a4557ace594589ca84de288629ab6cd429
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-18
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/fs-info.page
+SPDXID: SPDXRef-gnome-system-monitor-file-19
+FileChecksum: SHA1: f17e15f01d7657e13bc4de7e8598ef6c971da64a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-19
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/fs-showall.page
+SPDXID: SPDXRef-gnome-system-monitor-file-20
+FileChecksum: SHA1: 06c68f3fe35df04a6ae32021e987152ca751215f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-20
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/index.page
+SPDXID: SPDXRef-gnome-system-monitor-file-21
+FileChecksum: SHA1: 3f11922f313c3d62ae9d4068b798cd8e708b8aff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-21
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/legal.xml
+SPDXID: SPDXRef-gnome-system-monitor-file-22
+FileChecksum: SHA1: 36904afd6103363dc80cd1d968acf92d77c8d0cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-22
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/mem-check.page
+SPDXID: SPDXRef-gnome-system-monitor-file-23
+FileChecksum: SHA1: 5b26f376a60e8f4cb0d28158d610931fc5ac6779
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-23
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/mem-swap.page
+SPDXID: SPDXRef-gnome-system-monitor-file-24
+FileChecksum: SHA1: 010bb8e8dd9e9d5ab0c785f28e4a3f5b45db7f0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-24
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/memory-map-use.page
+SPDXID: SPDXRef-gnome-system-monitor-file-25
+FileChecksum: SHA1: 77826eda029d4a1e92e792d11ca834cf2d1559e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-25
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/memory-map-what.page
+SPDXID: SPDXRef-gnome-system-monitor-file-26
+FileChecksum: SHA1: 39d7277567886dafb7c55914101309821cb3f07d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-26
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/net-bits.page
+SPDXID: SPDXRef-gnome-system-monitor-file-27
+FileChecksum: SHA1: 85a3889e6cf76816b8dc9260d2046401ef4b926d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-27
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-explain.page
+SPDXID: SPDXRef-gnome-system-monitor-file-28
+FileChecksum: SHA1: c629903ab426be59a80309a49bba5da22992df53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-28
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-files.page
+SPDXID: SPDXRef-gnome-system-monitor-file-29
+FileChecksum: SHA1: cf867e86e1518fb4a1dbe21c8ba69e7c9fd800a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-29
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-identify-file.page
+SPDXID: SPDXRef-gnome-system-monitor-file-30
+FileChecksum: SHA1: 62fd4d2f34c86a92f779c74768f59cc4db532c2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-30
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-identify-hog.page
+SPDXID: SPDXRef-gnome-system-monitor-file-31
+FileChecksum: SHA1: eee3c034c05012c87e8d86023c4d48a0217d7eb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-31
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-kill.page
+SPDXID: SPDXRef-gnome-system-monitor-file-32
+FileChecksum: SHA1: ad03c3fb41076f78e946013df133898a597a05b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-32
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-many.page
+SPDXID: SPDXRef-gnome-system-monitor-file-33
+FileChecksum: SHA1: b0e80bb4fbefeef2249274fd5d73b26faf37b8ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-33
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-priority-change.page
+SPDXID: SPDXRef-gnome-system-monitor-file-34
+FileChecksum: SHA1: 308762a448e4b5b2cc54fa9325b243572c19757a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-34
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-priority-what.page
+SPDXID: SPDXRef-gnome-system-monitor-file-35
+FileChecksum: SHA1: deee0f5ce310dd3578ccb2492e0806e6d3e0ae99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-35
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-status.page
+SPDXID: SPDXRef-gnome-system-monitor-file-36
+FileChecksum: SHA1: fd2f1814da14e816810c2e7acc3033c27efa34b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-36
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/process-update-speed.page
+SPDXID: SPDXRef-gnome-system-monitor-file-37
+FileChecksum: SHA1: 58a2883f79361c82f4f66946650d783139d27ab0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-37
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/solaris-mode.page
+SPDXID: SPDXRef-gnome-system-monitor-file-38
+FileChecksum: SHA1: 66d00bd223cc5d0a11f3d28a442e42bd5e0064ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-38
+
+
+FileName: /usr/share/help/C/gnome-system-monitor/units.page
+SPDXID: SPDXRef-gnome-system-monitor-file-39
+FileChecksum: SHA1: 0cc5f69412743eb346e9c15d35e53027998f36a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-39
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.SystemMonitor.Devel.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-40
+FileChecksum: SHA1: f091f335815304c3f3ec8b7375a9d46a1567812e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-40
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-41
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-41
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.SystemMonitor-symbolic.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-42
+FileChecksum: SHA1: 35c667b14cf8cab9d0a3d13098d80aabc2a1926b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-42
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/speedometer-symbolic.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-43
+FileChecksum: SHA1: e560a0184fc7068f13200b9e8fc5685253980df7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-43
+
+
+FileName: /usr/share/man/man1/gnome-system-monitor.1.gz
+SPDXID: SPDXRef-gnome-system-monitor-file-44
+FileChecksum: SHA1: a0aa5e4d1942b7e2c0522de9bba7cebfaa60ef4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-44
+
+
+FileName: /usr/share/metainfo/gnome-system-monitor.appdata.xml
+SPDXID: SPDXRef-gnome-system-monitor-file-45
+FileChecksum: SHA1: 60a221e493d4525208bd69776f7a88a519cafbff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-45
+
+
+FileName: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy
+SPDXID: SPDXRef-gnome-system-monitor-file-46
+FileChecksum: SHA1: 551556ba3d5b27a9a9abbb28e841094d1caf5ee1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-46
+
+
+FileName: /usr/share/help/ca/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-47
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-47
+
+
+FileName: /usr/share/help/cs/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-48
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-48
+
+
+FileName: /usr/share/help/da/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-49
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-49
+
+
+FileName: /usr/share/help/de/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-50
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-50
+
+
+FileName: /usr/share/help/el/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-51
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-51
+
+
+FileName: /usr/share/help/es/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-52
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-52
+
+
+FileName: /usr/share/help/eu/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-53
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-53
+
+
+FileName: /usr/share/help/fr/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-54
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-54
+
+
+FileName: /usr/share/help/gl/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-55
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-55
+
+
+FileName: /usr/share/help/hu/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-56
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-56
+
+
+FileName: /usr/share/help/id/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-57
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-57
+
+
+FileName: /usr/share/help/ko/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-58
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-58
+
+
+FileName: /usr/share/help/pl/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-59
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-59
+
+
+FileName: /usr/share/help/pt/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-60
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-60
+
+
+FileName: /usr/share/help/pt_BR/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-61
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-61
+
+
+FileName: /usr/share/help/ro/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-62
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-62
+
+
+FileName: /usr/share/help/ru/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-63
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-63
+
+
+FileName: /usr/share/help/sv/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-64
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-64
+
+
+FileName: /usr/share/help/uk/gnome-system-monitor/figures/org.gnome.SystemMonitor.svg
+SPDXID: SPDXRef-gnome-system-monitor-file-65
+FileChecksum: SHA1: 1d8ed975fb50fc218dbee17cb8e80536a0673a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-system-monitor CONTAINS SPDXRef-gnome-system-monitor-file-65
+
+
+## Extracted License
+

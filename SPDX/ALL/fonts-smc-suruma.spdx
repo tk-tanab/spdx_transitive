@@ -1,0 +1,128 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-smc-suruma_3.2.3-1-f3cdab1b-48e2-5bcf-8660-ecc8b0dfeaad
+DocumentName: fonts-smc-suruma_3.2.3-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-smc-suruma
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:56:46Z
+
+
+## Package
+
+PackageName: fonts-smc-suruma
+PackageVersion: 3.2.3-1
+SPDXID: SPDXRef-fonts-smc-suruma
+PackageHomePage: https://smc.org.in
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: ed20111bfa73e05d591aeb3ca9a11b03b7973224
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2007-2016 Suresh P 2007-2016 Swathanthra Malayalam Computing
+Copyright 2014 Rajeesh K
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+Copyright 2016 Santhosh Thottingal 2016 Swathanthra Malayalam Computing
+Copyright 2019 Swathanthra Malayalam Computing
+</text>
+PackageComment: <text>Suruma malayalam font
+ This package provides Suruma font for Malayalam script
+ which is primarily used in the state of Kerala. The font is
+ developed by SMC community</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-smc-suruma/copyright
+SPDXID: SPDXRef-fonts-smc-suruma-file-0
+FileChecksum: SHA1: c737c4f831d16b618b5b770931fe8ca899f59896
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2016 Santhosh Thottingal 2016 Swathanthra Malayalam Computing
+Copyright 2007-2016 Suresh P 2007-2016 Swathanthra Malayalam Computing
+Copyright 2014 Rajeesh K
+Copyright 2019 Swathanthra Malayalam Computing
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+</text>
+Relationship: SPDXRef-fonts-smc-suruma CONTAINS SPDXRef-fonts-smc-suruma-file-0
+
+
+FileName: /etc/fonts/conf.avail/67-smc-suruma.conf
+SPDXID: SPDXRef-fonts-smc-suruma-file-1
+FileChecksum: SHA1: 9b4dae8638dab24b91b0279e326a52c56747aa62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-suruma CONTAINS SPDXRef-fonts-smc-suruma-file-1
+
+
+FileName: /usr/share/doc/fonts-smc-suruma/README
+SPDXID: SPDXRef-fonts-smc-suruma-file-2
+FileChecksum: SHA1: 32b095d437fe91f574a2786c9f322f897dcc753b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-suruma CONTAINS SPDXRef-fonts-smc-suruma-file-2
+
+
+FileName: /usr/share/doc/fonts-smc-suruma/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-smc-suruma-file-3
+FileChecksum: SHA1: 99895006690aa8e95ac90d6bb6dad5c81d88d992
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-suruma CONTAINS SPDXRef-fonts-smc-suruma-file-3
+
+
+FileName: /usr/share/fonts/truetype/malayalam/Suruma.ttf
+SPDXID: SPDXRef-fonts-smc-suruma-file-4
+FileChecksum: SHA1: beb56b422caf7c717996f278b7482178874e748f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-suruma CONTAINS SPDXRef-fonts-smc-suruma-file-4
+
+
+FileName: /usr/share/metainfo/in.org.smc.suruma.metainfo.xml
+SPDXID: SPDXRef-fonts-smc-suruma-file-5
+FileChecksum: SHA1: 929efa982bf882697be222de161a107ea2572062
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-suruma CONTAINS SPDXRef-fonts-smc-suruma-file-5
+
+
+FileName: /etc/fonts/conf.d/67-smc-suruma.conf
+SPDXID: SPDXRef-fonts-smc-suruma-file-6
+FileChecksum: SHA1: 9b4dae8638dab24b91b0279e326a52c56747aa62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-suruma CONTAINS SPDXRef-fonts-smc-suruma-file-6
+
+
+## Extracted License
+

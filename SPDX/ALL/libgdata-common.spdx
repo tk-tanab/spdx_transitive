@@ -1,0 +1,69 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgdata-common_0.18.1-2build1-6f8837c1-cb63-5a24-98d0-944b3ec580d5
+DocumentName: libgdata-common_0.18.1-2build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdata-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:48:16Z
+
+
+## Package
+
+PackageName: libgdata-common
+PackageVersion: 0.18.1-2build1
+SPDXID: SPDXRef-libgdata-common
+PackageHomePage: https://wiki.gnome.org/Projects/libgdata
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: fad0d6e204da10e32421f8fbdd8c7d980b6d24a5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright 2008-2010 Philip Withnall <philip@tecnocode.co.uk> 2009-2010 Richard Schwarting <aquarichy@gmail.com> 2009 Thibault Saunier <saunierthibault@gmail.com>
+</text>
+PackageComment: <text>Library for accessing GData webservices - common data files
+ libgdata is a GLib-based library for accessing online service APIs using
+ the GData protocol — most notably, Google's services. It provides APIs
+ to access the common Google services, and has full asynchronous support.
+ .
+ This package contains the common data files for libgdata.</text>
+
+
+## File
+
+FileName: /usr/share/doc/libgdata-common/copyright
+SPDXID: SPDXRef-libgdata-common-file-0
+FileChecksum: SHA1: fb043d19b1e1e7fe4236b5d99635eb3983d91463
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright 2008-2010 Philip Withnall <philip@tecnocode.co.uk> 2009-2010 Richard Schwarting <aquarichy@gmail.com> 2009 Thibault Saunier <saunierthibault@gmail.com>
+</text>
+Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common-file-0
+
+
+FileName: /usr/share/doc/libgdata-common/changelog.Debian.gz
+SPDXID: SPDXRef-libgdata-common-file-1
+FileChecksum: SHA1: 054c709d7f4f412f371ccee3208702070d58cbec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgdata-common CONTAINS SPDXRef-libgdata-common-file-1
+
+
+## Extracted License
+

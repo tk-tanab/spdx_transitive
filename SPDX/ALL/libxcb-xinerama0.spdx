@@ -1,0 +1,106 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libxcb-xinerama0_1.14-3ubuntu3-c5256164-5c93-5983-8790-3badcc595cef
+DocumentName: libxcb-xinerama0_1.14-3ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libxcb-xinerama0
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:27:56Z
+
+
+## Package
+
+PackageName: libxcb-xinerama0
+PackageVersion: 1.14-3ubuntu3
+SPDXID: SPDXRef-libxcb-xinerama0
+PackageHomePage: https://xcb.freedesktop.org
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 017ff33b61388b2f60aebbcb1b0280c67bd19a42
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LicenseRef-scancode-xfree86-1.0
+PackageCopyrightText: <text>Copyright (c) 2001-2006 Bart Massey, Jamey Sharp, and Josh Triplett
+</text>
+PackageComment: <text>X C Binding, xinerama extension
+ This package contains the library files needed to run software using
+ libxcb-xinerama, the xinerama extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions</text>
+Relationship: SPDXRef-libxcb-xinerama0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libxcb-xinerama0 DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libxcb1
+
+
+## File
+
+FileName: /usr/share/doc/libxcb-xinerama0/copyright
+SPDXID: SPDXRef-libxcb-xinerama0-file-0
+FileChecksum: SHA1: cfb7674b53e14f7d7e86f4360b0b2cc604c6be59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-xfree86-1.0
+FileCopyrightText: <text>Copyright (c) 2001-2006 Bart Massey, Jamey Sharp, and Josh Triplett
+</text>
+Relationship: SPDXRef-libxcb-xinerama0 CONTAINS SPDXRef-libxcb-xinerama0-file-0
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libxcb-xinerama.so.0.0.0
+SPDXID: SPDXRef-libxcb-xinerama0-file-1
+FileChecksum: SHA1: 80cd2aa4179fcaea7c223f0331f0459459024f3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libxcb-xinerama0 CONTAINS SPDXRef-libxcb-xinerama0-file-1
+
+
+FileName: /usr/lib/x86_64-linux-gnu/libxcb-xinerama.so.0
+SPDXID: SPDXRef-libxcb-xinerama0-file-2
+FileChecksum: SHA1: 80cd2aa4179fcaea7c223f0331f0459459024f3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libxcb-xinerama0 CONTAINS SPDXRef-libxcb-xinerama0-file-2
+
+
+FileName: /usr/share/doc/libxcb-xinerama0/changelog.Debian.gz
+SPDXID: SPDXRef-libxcb-xinerama0-file-3
+FileChecksum: SHA1: 8138e821c3139dc98a43c4ab7d10c2c07c693c41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libxcb-xinerama0 CONTAINS SPDXRef-libxcb-xinerama0-file-3
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-xfree86-1.0
+LicenseName: XFree86 License 1.0
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/xfree86-1.0.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/xfree86-1.0.yml
+</text>
+
+

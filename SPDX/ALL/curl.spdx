@@ -1,0 +1,189 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/curl_7.81.0-1ubuntu1.6-25079f90-005d-50a8-8cf0-73cd89e4b98e
+DocumentName: curl_7.81.0-1ubuntu1.6
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-curl
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:48:53Z
+
+
+## Package
+
+PackageName: curl
+PackageVersion: 7.81.0-1ubuntu1.6
+SPDXID: SPDXRef-curl
+PackageHomePage: https://curl.haxx.se
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 373a2efbf73aa82cc88848ee08e63b83bef0239d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-4-Clause
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: OpenSSL
+PackageLicenseInfoFromFiles: Spencer-86
+PackageLicenseInfoFromFiles: curl
+PackageLicenseInfoFromFiles: LicenseRef-scancode-other-permissive
+PackageLicenseInfoFromFiles: LicenseRef-scancode-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 2001 Alexander Peslyak
+Copyright 1983 Regents of the University of California
+Copyright 1996-2001 Internet Software Consortium
+Copyright 1996-2015, Daniel Stenberg <daniel@haxx.se>
+Copyright 2000-2009, EdelWeb for EdelKey and OpenEvidence
+Copyright 2000-2010, Domenico Andreoli <cavok@debian.org> 2010-2011, Ramakrishnan Muthukrishnan <rkrishnan@debian.org> 2011, Alessandro Ghedini <ghedo@debian.org>
+Copyright 2001, Eric Lavigne
+Copyright 2001, Solar Designer <solar@openwall.com>
+Copyright 2003, Simtec Electronics
+Copyright 2003, The OpenEvidence Project
+Copyright 2004-2015 Daniel Stenberg 1995-1999 Kungliga Tekniska Hogskolan
+Copyright 2009, 2011, Markus Moeller, <markus_moeller@compuserve.com> 2012-2015, Daniel Stenberg, <daniel@haxx.se>
+Copyright 2010, Howard Chu <hyc@highlandsun.com>
+Copyright 2010, Mandy Wu <mandy.wu@intel.com> 2011-2013, Daniel Stenberg <daniel@haxx.se>
+Copyright 2010-2011, Hoi-Ho Chan <hoiho.chan@gmail.com> 2012-2020, Daniel Stenberg <daniel@haxx.se>
+Copyright 2011, Jim Hollinger
+Copyright 2011-2015, Daniel Stenberg <daniel@haxx.se> 2010, Howard Chu <hyc@openldap.org>
+Copyright 2012-2014, Marc Hoersken <info@marc-hoersken.de> 2012, Mark Salisbury <mark.salisbury@hp.com> 2012-2015, Daniel Stenberg <daniel@haxx.se>
+Copyright 2012-2014, Nick Zitzmann <nickzman@gmail.com> 2012-2019, Daniel Stenberg <daniel@haxx.se>
+</text>
+PackageComment: <text>command line tool for transferring data with URL syntax
+ curl is a command line tool for transferring data with URL syntax, supporting
+ DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3,
+ POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+ .
+ curl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form
+ based upload, proxies, cookies, user+password authentication (Basic, Digest,
+ NTLM, Negotiate, kerberos...), file transfer resume, proxy tunneling and a
+ busload of other useful tricks.</text>
+Relationship: SPDXRef-curl DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-curl DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcurl4
+Relationship: SPDXRef-curl DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+
+
+## File
+
+FileName: /usr/share/doc/curl/copyright
+SPDXID: SPDXRef-curl-file-0
+FileChecksum: SHA1: 4d8ae505fad826197ce99d38f81d591c89d06227
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: BSD-4-Clause
+LicenseInfoInFile: curl
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-scancode-other-permissive
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: OpenSSL
+LicenseInfoInFile: ISC
+LicenseInfoInFile: Spencer-86
+FileCopyrightText: <text>Copyright 1996-2015, Daniel Stenberg <daniel@haxx.se>
+Copyright 2012-2014, Nick Zitzmann <nickzman@gmail.com> 2012-2019, Daniel Stenberg <daniel@haxx.se>
+Copyright 2010, Howard Chu <hyc@highlandsun.com>
+Copyright 2012-2014, Marc Hoersken <info@marc-hoersken.de> 2012, Mark Salisbury <mark.salisbury@hp.com> 2012-2015, Daniel Stenberg <daniel@haxx.se>
+Copyright 1996-2001 Internet Software Consortium
+Copyright 2004-2015 Daniel Stenberg 1995-1999 Kungliga Tekniska Hogskolan
+Copyright 2001, Solar Designer <solar@openwall.com>
+Copyright 2011-2015, Daniel Stenberg <daniel@haxx.se> 2010, Howard Chu <hyc@openldap.org>
+Copyright 2010-2011, Hoi-Ho Chan <hoiho.chan@gmail.com> 2012-2020, Daniel Stenberg <daniel@haxx.se>
+Copyright 2009, 2011, Markus Moeller, <markus_moeller@compuserve.com> 2012-2015, Daniel Stenberg, <daniel@haxx.se>
+Copyright 2000-2009, EdelWeb for EdelKey and OpenEvidence
+Copyright 1983 Regents of the University of California
+Copyright 2010, Mandy Wu <mandy.wu@intel.com> 2011-2013, Daniel Stenberg <daniel@haxx.se>
+Copyright 2003, Simtec Electronics
+Copyright 2011, Jim Hollinger
+Copyright 2003, The OpenEvidence Project
+Copyright 2003, The OpenEvidence Project
+Copyright 2001, Eric Lavigne
+Copyright 2000-2010, Domenico Andreoli <cavok@debian.org> 2010-2011, Ramakrishnan Muthukrishnan <rkrishnan@debian.org> 2011, Alessandro Ghedini <ghedo@debian.org>
+Copyright (c) 2001 Alexander Peslyak
+</text>
+Relationship: SPDXRef-curl CONTAINS SPDXRef-curl-file-0
+
+
+FileName: /usr/bin/curl
+SPDXID: SPDXRef-curl-file-1
+FileChecksum: SHA1: dd771e54bbdb593021bb8febd0445306e499be09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-curl CONTAINS SPDXRef-curl-file-1
+
+
+FileName: /usr/share/man/man1/curl.1.gz
+SPDXID: SPDXRef-curl-file-2
+FileChecksum: SHA1: 38f04d5452b8a0840af7f09e45bedd4d5bbf613d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-curl CONTAINS SPDXRef-curl-file-2
+
+
+FileName: /usr/share/zsh/vendor-completions/_curl
+SPDXID: SPDXRef-curl-file-3
+FileChecksum: SHA1: 293f546a19dd845a4643a07851372d28717abea0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-curl CONTAINS SPDXRef-curl-file-3
+
+
+FileName: /usr/share/doc/curl/NEWS.Debian.gz
+SPDXID: SPDXRef-curl-file-4
+FileChecksum: SHA1: 79f0b8dec438bdd43920e20faed50c0f83d621b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-curl CONTAINS SPDXRef-curl-file-4
+
+
+FileName: /usr/share/doc/curl/changelog.Debian.gz
+SPDXID: SPDXRef-curl-file-5
+FileChecksum: SHA1: 4c9cc7eec8beeefc5b0dd7ac91f584b87a53b474
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-curl CONTAINS SPDXRef-curl-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-other-permissive
+LicenseName: Other Permissive Licenses
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/other-permissive.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

@@ -1,0 +1,137 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-lohit-guru_2.91.2-2build1-295028ef-2bb6-5267-9b47-d68e02381811
+DocumentName: fonts-lohit-guru_2.91.2-2build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-lohit-guru
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:54:05Z
+
+
+## Package
+
+PackageName: fonts-lohit-guru
+PackageVersion: 2.91.2-2build1
+SPDXID: SPDXRef-fonts-lohit-guru
+PackageHomePage: https://pagure.io/lohit
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 4a7c4bc946968c6968f005f7d199bc09e82dbd61
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc.
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017 Pravin Satpute
+</text>
+PackageComment: <text>Lohit TrueType font for Punjabi Language
+ This package provides Lohit TrueType font for Punjabi language which
+ is primarily used in Indian and Pakistani state of Punjab.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-lohit-guru/copyright
+SPDXID: SPDXRef-fonts-lohit-guru-file-0
+FileChecksum: SHA1: 49d634beda85e5f5c230cc755a4b5b2d6af124b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2006, Modular Infotech Pvt Ltd. 2009, Red Hat, Inc.
+Copyright 2011, Vasudev Kamath <kamathvasudev@gmail.com> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Copyright 2017 Pravin Satpute
+</text>
+Relationship: SPDXRef-fonts-lohit-guru CONTAINS SPDXRef-fonts-lohit-guru-file-0
+
+
+FileName: /etc/fonts/conf.avail/66-lohit-gurmukhi.conf
+SPDXID: SPDXRef-fonts-lohit-guru-file-1
+FileChecksum: SHA1: f4cc1269d41790e7bccb87fe01fea207961aec31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-guru CONTAINS SPDXRef-fonts-lohit-guru-file-1
+
+
+FileName: /usr/share/doc/fonts-lohit-guru/AUTHORS
+SPDXID: SPDXRef-fonts-lohit-guru-file-2
+FileChecksum: SHA1: 3bd42b90ab3cf946ba553c4ab651d98477a23864
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-guru CONTAINS SPDXRef-fonts-lohit-guru-file-2
+
+
+FileName: /usr/share/doc/fonts-lohit-guru/README
+SPDXID: SPDXRef-fonts-lohit-guru-file-3
+FileChecksum: SHA1: 48dae9c3f1a979c7dff31e2ecc1e831e612ac4fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-guru CONTAINS SPDXRef-fonts-lohit-guru-file-3
+
+
+FileName: /usr/share/doc/fonts-lohit-guru/README.Debian
+SPDXID: SPDXRef-fonts-lohit-guru-file-4
+FileChecksum: SHA1: 77cfdbad133fa970394475bb94af231a5b28496e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-guru CONTAINS SPDXRef-fonts-lohit-guru-file-4
+
+
+FileName: /usr/share/doc/fonts-lohit-guru/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-lohit-guru-file-5
+FileChecksum: SHA1: 02b309dc81227c258fd113ce227584ce73041957
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-guru CONTAINS SPDXRef-fonts-lohit-guru-file-5
+
+
+FileName: /usr/share/fonts/truetype/lohit-punjabi/Lohit-Gurmukhi.ttf
+SPDXID: SPDXRef-fonts-lohit-guru-file-6
+FileChecksum: SHA1: 8fef08619bbd25414ca8944d76ff3f9807710ee8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-guru CONTAINS SPDXRef-fonts-lohit-guru-file-6
+
+
+FileName: /usr/share/metainfo/io.pagure.lohit.gurmukhi.font.metainfo.xml
+SPDXID: SPDXRef-fonts-lohit-guru-file-7
+FileChecksum: SHA1: 9a7a9aab51fa014ca33d13f4ce24f59d018eb6f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-guru CONTAINS SPDXRef-fonts-lohit-guru-file-7
+
+
+FileName: /etc/fonts/conf.d/66-lohit-gurmukhi.conf
+SPDXID: SPDXRef-fonts-lohit-guru-file-8
+FileChecksum: SHA1: f4cc1269d41790e7bccb87fe01fea207961aec31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-lohit-guru CONTAINS SPDXRef-fonts-lohit-guru-file-8
+
+
+## Extracted License
+

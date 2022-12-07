@@ -1,0 +1,108 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-indic_2:1.4-74956f2a-474c-51f1-9b25-e9c8d103176f
+DocumentName: fonts-indic_2:1.4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-fonts-gujr http://spdx.org/spdxdocs/fonts-gujr_2:1.4-60ae8b9b-42bb-5587-ae3b-cdbb6b330177 SHA1: 8eb092cf0005a7426bb35c83d94e3c19014337ef
+ExternalDocumentRef: DocumentRef-fonts-taml http://spdx.org/spdxdocs/fonts-taml_2:1.4-720b7835-e000-5557-8c09-23631930a388 SHA1: dab51b9fc6af198d348e8190bb53996d8ab0b405
+ExternalDocumentRef: DocumentRef-fonts-mlym http://spdx.org/spdxdocs/fonts-mlym_2:1.3-ebbc9c5e-8487-5d64-80be-878496074306 SHA1: 292932e91671d2ac483f7aa6cebdc1f467cfad44
+ExternalDocumentRef: DocumentRef-fonts-beng http://spdx.org/spdxdocs/fonts-beng_2:1.3-b1da1417-a39a-5dfc-a99a-3931380a6e2b SHA1: 29ffb73dfdf41c5dfe7427f8f17691a0feb7fc6c
+ExternalDocumentRef: DocumentRef-fonts-guru http://spdx.org/spdxdocs/fonts-guru_2:1.3-cc22d024-d4ff-5ffe-bec9-70ad37fbc3be SHA1: 1919f3a65c63e0745470e78ac5c20186f4712b09
+ExternalDocumentRef: DocumentRef-fonts-telu http://spdx.org/spdxdocs/fonts-telu_2:1.3-511324c0-8cd0-5ea0-bdc6-7cac7726fa56 SHA1: b848ea73878c616d85117ecadbdd5abd103212b4
+ExternalDocumentRef: DocumentRef-fonts-pagul http://spdx.org/spdxdocs/fonts-pagul_1.0-8-3eafc4a2-185a-5177-849b-48911f19a3d0 SHA1: a16b5e0bba84d9aee6d53c19e6e91268874a52a3
+ExternalDocumentRef: DocumentRef-fonts-orya http://spdx.org/spdxdocs/fonts-orya_2:1.3-0ea3005e-92ad-59fb-9fdc-075c77161523 SHA1: 1159471b26c412052ea59856778ef00b44a042e5
+ExternalDocumentRef: DocumentRef-fonts-deva http://spdx.org/spdxdocs/fonts-deva_2:1.3-b7134719-777f-5964-b468-cd01f89e08bc SHA1: 5960c9dac4450464144b993b820eccd22b13c335
+ExternalDocumentRef: DocumentRef-fonts-knda http://spdx.org/spdxdocs/fonts-knda_2:1.3-b2a43462-2683-5c85-a65a-d1d431920464 SHA1: 5931300d7e26b615eae67aae88d7b80d64a847cd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-indic
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:54:13Z
+
+
+## Package
+
+PackageName: fonts-indic
+PackageVersion: 2:1.4
+SPDXID: SPDXRef-fonts-indic
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 015cfe08907e4f059e21717df6975877619cac6b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: ISC
+PackageCopyrightText: <text>Copyright 2011-2018, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+PackageComment: <text>Meta package to install all Indian language fonts
+ This metapackage merely depends on the various free Indian language font
+ packages available in Debian. Use this if you want fonts for every Indian
+ language.
+ .
+ The following metapackages will be pulled down as dependency which
+ will in turn pull down real font packages.
+   * fonts-beng
+   * fonts-deva
+   * fonts-gujr
+   * fonts-guru
+   * fonts-knda
+   * fonts-mlym
+   * fonts-orya
+   * fonts-pagul
+   * fonts-taml
+   * fonts-telu</text>
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-beng:SPDXRef-fonts-beng
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-deva:SPDXRef-fonts-deva
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-gujr:SPDXRef-fonts-gujr
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-guru:SPDXRef-fonts-guru
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-knda:SPDXRef-fonts-knda
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-mlym:SPDXRef-fonts-mlym
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-orya:SPDXRef-fonts-orya
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-pagul:SPDXRef-fonts-pagul
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-taml:SPDXRef-fonts-taml
+Relationship: SPDXRef-fonts-indic DEPENDS_ON DocumentRef-fonts-telu:SPDXRef-fonts-telu
+
+
+## File
+
+FileName: /usr/share/doc/fonts-indic/copyright
+SPDXID: SPDXRef-fonts-indic-file-0
+FileChecksum: SHA1: b170692701a8cf682491c0416ca2629eea69cd10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright 2011-2018, Debian-IN Team <debian-in-workers@alioth-lists.debian.net> 2020, Debian Fonts Task Force <debian-fonts@lists.debian.org>
+</text>
+Relationship: SPDXRef-fonts-indic CONTAINS SPDXRef-fonts-indic-file-0
+
+
+FileName: /usr/share/doc/fonts-indic/README.Debian
+SPDXID: SPDXRef-fonts-indic-file-1
+FileChecksum: SHA1: 6552b500fbe19af2d23e1e2504cc31c5f5d2f6c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-indic CONTAINS SPDXRef-fonts-indic-file-1
+
+
+FileName: /usr/share/doc/fonts-indic/changelog.gz
+SPDXID: SPDXRef-fonts-indic-file-2
+FileChecksum: SHA1: b48b936a1876aa0ed7009d2167b44b5168b15ab3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-indic CONTAINS SPDXRef-fonts-indic-file-2
+
+
+## Extracted License
+

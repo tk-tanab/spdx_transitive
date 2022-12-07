@@ -1,0 +1,173 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/emacsen-common_3.0.4-2f1f5b5f-e496-51f2-a347-94d361237318
+DocumentName: emacsen-common_3.0.4
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-emacsen-common
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T10:56:46Z
+
+
+## Package
+
+PackageName: emacsen-common
+PackageVersion: 3.0.4
+SPDXID: SPDXRef-emacsen-common
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: a62a64dd7d9daa00ef64ce94c64584a4906fc5ca
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageCopyrightText: <text>Copyright Robert Browning, 1998-2012
+</text>
+PackageComment: <text>Common facilities for all emacsen
+ This package contains code that is needed by all the (x)emacs
+ packages.  It will be automatically installed when needed.</text>
+
+
+## File
+
+FileName: /usr/share/doc/emacsen-common/copyright
+SPDXID: SPDXRef-emacsen-common-file-0
+FileChecksum: SHA1: 0cada759c07a4856580d3a4ff06eb93e558b6749
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+FileCopyrightText: <text>Copyright Robert Browning, 1998-2012
+</text>
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-0
+
+
+FileName: /usr/lib/emacsen-common/emacs-install
+SPDXID: SPDXRef-emacsen-common-file-1
+FileChecksum: SHA1: f3b8e3c113a07cb0cc70e3673b81e807b5c4205e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-1
+
+
+FileName: /usr/lib/emacsen-common/emacs-package-install
+SPDXID: SPDXRef-emacsen-common-file-2
+FileChecksum: SHA1: 3a4f511c72b0641e4bde8d51d9d004d5d4cfb896
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-2
+
+
+FileName: /usr/lib/emacsen-common/emacs-package-remove
+SPDXID: SPDXRef-emacsen-common-file-3
+FileChecksum: SHA1: 92d6cdddb5f8e8660ca52631d83f3f2ccddbaa28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-3
+
+
+FileName: /usr/lib/emacsen-common/emacs-remove
+SPDXID: SPDXRef-emacsen-common-file-4
+FileChecksum: SHA1: db88e9c2a93bd12d2d68f55b59a26625117fb882
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-4
+
+
+FileName: /usr/lib/emacsen-common/lib.pl
+SPDXID: SPDXRef-emacsen-common-file-5
+FileChecksum: SHA1: 26bc80b005158cd2fb178d922819d9569abc995a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-5
+
+
+FileName: /usr/lib/emacsen-common/packages/compat/emacsen-common
+SPDXID: SPDXRef-emacsen-common-file-6
+FileChecksum: SHA1: 09d2af8dd22201dd8d48e5dcfcaed281ff9422c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-6
+
+
+FileName: /usr/lib/emacsen-common/packages/install/emacsen-common
+SPDXID: SPDXRef-emacsen-common-file-7
+FileChecksum: SHA1: f76fa6dffc23ba852cac725cc8a0f601aee42090
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-7
+
+
+FileName: /usr/lib/emacsen-common/packages/remove/emacsen-common
+SPDXID: SPDXRef-emacsen-common-file-8
+FileChecksum: SHA1: da34819e3f05f7cff89e788784306cb8eb6ee87a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-8
+
+
+FileName: /usr/share/doc/emacsen-common/changelog.gz
+SPDXID: SPDXRef-emacsen-common-file-9
+FileChecksum: SHA1: af27b42c586f9d587b94b9aec072d647e024547a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-9
+
+
+FileName: /usr/share/doc/emacsen-common/debian-emacs-policy.gz
+SPDXID: SPDXRef-emacsen-common-file-10
+FileChecksum: SHA1: de5f3816ca4c4c62f1e8d5d1e934c09bb74849b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-10
+
+
+FileName: /usr/share/doc/emacsen-common/sample-package-install-foo
+SPDXID: SPDXRef-emacsen-common-file-11
+FileChecksum: SHA1: c764271de718bf2d122596b5307a5e70b8c457e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-11
+
+
+FileName: /usr/share/doc/emacsen-common/sample-package-remove-foo
+SPDXID: SPDXRef-emacsen-common-file-12
+FileChecksum: SHA1: 141837f03a4f106d3df188237a1c343e029b7b24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-12
+
+
+FileName: /usr/share/emacsen-common/debian-startup.el
+SPDXID: SPDXRef-emacsen-common-file-13
+FileChecksum: SHA1: bdb58e5ad044cb2da2d45886a0dc090034a7806c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-emacsen-common CONTAINS SPDXRef-emacsen-common-file-13
+
+
+## Extracted License
+

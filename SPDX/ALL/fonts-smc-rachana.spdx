@@ -1,0 +1,141 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-smc-rachana_7.0.2-1build1-9212fc64-da7d-51e3-84f5-6536d8f25820
+DocumentName: fonts-smc-rachana_7.0.2-1build1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-smc-rachana
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:56:29Z
+
+
+## Package
+
+PackageName: fonts-smc-rachana
+PackageVersion: 7.0.2-1build1
+SPDXID: SPDXRef-fonts-smc-rachana
+PackageHomePage: https://smc.org.in
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 73fe5f6c91027d7ea097975143ac1f277d36cc56
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: Font-exception-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageCopyrightText: <text>Copyright 2004-2005 Rachana Aksharavedi 2004-2005 Chitrajakumar R 2004-2005 Rajeev Sebastian 2004-2005 Gangadharan N 2004-2005 Vijayakumaran Nair 2004-2005 Subash Kuriakose 2004-2016 Hussain K
+Copyright 2014 Rajeesh K
+Copyright 2014-2019 Rajeesh K
+Copyright 2015-2016 Hussain K
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+Copyright 2016 Santhosh Thottingal 2016 Swathanthra Malayalam Computing
+</text>
+PackageComment: <text>Rachana malayalam font
+ This package provides Rachana font for Malayalam script
+ which is primarily used in the state of Kerala. The font is
+ developed by SMC community.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-smc-rachana/copyright
+SPDXID: SPDXRef-fonts-smc-rachana-file-0
+FileChecksum: SHA1: 3a98849c8617309894b0241825bb887d81069826
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Font-exception-2.0
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2016 Santhosh Thottingal 2016 Swathanthra Malayalam Computing
+Copyright 2004-2005 Rachana Aksharavedi 2004-2005 Chitrajakumar R 2004-2005 Rajeev Sebastian 2004-2005 Gangadharan N 2004-2005 Vijayakumaran Nair 2004-2005 Subash Kuriakose 2004-2016 Hussain K
+Copyright 2015-2016 Hussain K
+Copyright 2014 Rajeesh K
+Copyright 2014-2019 Rajeesh K
+Copyright 2016 Balasankar C <balasankarc@autistici.org>
+</text>
+Relationship: SPDXRef-fonts-smc-rachana CONTAINS SPDXRef-fonts-smc-rachana-file-0
+
+
+FileName: /etc/fonts/conf.avail/65-0-smc-rachana.conf
+SPDXID: SPDXRef-fonts-smc-rachana-file-1
+FileChecksum: SHA1: a6f2e5a9fa4bbba47bb5a1e6dc9ba9beded73bb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-rachana CONTAINS SPDXRef-fonts-smc-rachana-file-1
+
+
+FileName: /usr/share/doc/fonts-smc-rachana/README.md.gz
+SPDXID: SPDXRef-fonts-smc-rachana-file-2
+FileChecksum: SHA1: 5ecee93a2f1297fa830a25443791a06e6b3b560f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-rachana CONTAINS SPDXRef-fonts-smc-rachana-file-2
+
+
+FileName: /usr/share/doc/fonts-smc-rachana/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-smc-rachana-file-3
+FileChecksum: SHA1: 7e7bdd7c453279964e7143f5faf625ad676f7481
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-rachana CONTAINS SPDXRef-fonts-smc-rachana-file-3
+
+
+FileName: /usr/share/fonts/truetype/malayalam/Rachana-Bold.ttf
+SPDXID: SPDXRef-fonts-smc-rachana-file-4
+FileChecksum: SHA1: 89e49a3aacfbbd5bcc9b718b0474abf8a7b7bb2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-rachana CONTAINS SPDXRef-fonts-smc-rachana-file-4
+
+
+FileName: /usr/share/fonts/truetype/malayalam/Rachana-Regular.ttf
+SPDXID: SPDXRef-fonts-smc-rachana-file-5
+FileChecksum: SHA1: eb726936c3329ea8aba9db17704b17d49e037abe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-rachana CONTAINS SPDXRef-fonts-smc-rachana-file-5
+
+
+FileName: /usr/share/metainfo/in.org.smc.rachana.metainfo.xml
+SPDXID: SPDXRef-fonts-smc-rachana-file-6
+FileChecksum: SHA1: 61b4bd6128572209987de11a641ad391b9c4fcdb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-rachana CONTAINS SPDXRef-fonts-smc-rachana-file-6
+
+
+FileName: /etc/fonts/conf.d/65-0-smc-rachana.conf
+SPDXID: SPDXRef-fonts-smc-rachana-file-7
+FileChecksum: SHA1: a6f2e5a9fa4bbba47bb5a1e6dc9ba9beded73bb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-smc-rachana CONTAINS SPDXRef-fonts-smc-rachana-file-7
+
+
+## Extracted License
+

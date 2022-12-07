@@ -1,0 +1,3258 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-themes-extra-data_3.28-1ubuntu3-dcafa3d1-d64d-5b73-8660-67ba87d24528
+DocumentName: gnome-themes-extra-data_3.28-1ubuntu3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-themes-extra-data
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:13:19Z
+
+
+## Package
+
+PackageName: gnome-themes-extra-data
+PackageVersion: 3.28-1ubuntu3
+SPDXID: SPDXRef-gnome-themes-extra-data
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 7594282295382fc241a91ff6c3c60680826bfc66
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: LGPL-2.1-or-later
+PackageCopyrightText: <text>Copyright (c) 2010 A S Alam <aalam@users.sf.net>
+Copyright (c) 2010 Aron Xu <aronxu@gnome.org>
+Copyright (c) 2010 Carlos Garnacho <carlosg@gnome.org>
+Copyright (c) 2010 Daniel Nylander <po@danielnylander.se>
+Copyright (c) 2010 Fran Dieguez <fran.dieguez@mabishu.com>
+Copyright (c) 2010 Gheyret T.Kenji <gheyret@gmail.com>
+Copyright (c) 2010 Hylke Bons
+Copyright (c) 2010 Ivar Smolin <okul@linux.ee>
+Copyright (c) 2010 Jakub Steiner <jimmac@gmail.com>
+Copyright (c) 2010 Jorge Gonzalez <jorgegonz@svn.gnome.org>
+Copyright (c) 2010 Kenneth Nielsen <k.nielsen81@gmail.com>
+Copyright (c) 2010 Kjartan Maraas <kmaraas@gnome.org>
+Copyright (c) 2010 Kris Thomsen <lakristho@gmail.com>
+Copyright (c) 2010 Lapo Calamandrei <calamandrei@gmail.com>
+Copyright (c) 2010 Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
+Copyright (c) 2010 Matej Urbancic <mateju@svn.gnome.org>
+Copyright (c) 2010 Matthias Clasen <mclasen@redhat.com>
+Copyright (c) 2010 Priit Laes <plaes@plaes.org>
+Copyright (c) 2010 Theodore Dimitriadis <liakoni@gmail.com>
+Copyright (c) 2010 Theppitak Karoonboonyanan <thep@linux.thai.net>
+Copyright (c) 2010 William Jon McCann <jmccann@redhat.com>
+Copyright (c) 2010 Yaron Shahrabani <sh.yaron@gmail.com>
+Copyright (c) 2012 Red Hat, Inc
+Copyright (c) Bill Haneman
+Copyright (c) T. Liebeck
+</text>
+PackageComment: <text>Adwaita GTK+ 2 theme — common files
+ This is the version of Adwaita, the standard GNOME theme, for the
+ GTK+ 2.x toolkit.
+ .
+ The GTK+ 3.x version is already included in libgtk-3-0.
+ .
+ This package contains the common architecture-independent files.</text>
+
+
+## File
+
+FileName: /usr/share/doc/gnome-themes-extra-data/copyright
+SPDXID: SPDXRef-gnome-themes-extra-data-file-0
+FileChecksum: SHA1: e45fb45c8a3b18a2c3107915be7159c6e5b48836
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LGPL-2.1-or-later
+FileCopyrightText: <text>Copyright (c) 2010 Aron Xu <aronxu@gnome.org>
+Copyright (c) 2010 A S Alam <aalam@users.sf.net>
+Copyright (c) 2010 Carlos Garnacho <carlosg@gnome.org>
+Copyright (c) 2010 Daniel Nylander <po@danielnylander.se>
+Copyright (c) 2010 Fran Dieguez <fran.dieguez@mabishu.com>
+Copyright (c) 2010 Gheyret T.Kenji <gheyret@gmail.com>
+Copyright (c) 2010 Ivar Smolin <okul@linux.ee>
+Copyright (c) 2010 Jakub Steiner <jimmac@gmail.com>
+Copyright (c) 2010 Jorge Gonzalez <jorgegonz@svn.gnome.org>
+Copyright (c) 2010 Kenneth Nielsen <k.nielsen81@gmail.com>
+Copyright (c) 2010 Kjartan Maraas <kmaraas@gnome.org>
+Copyright (c) 2010 Kris Thomsen <lakristho@gmail.com>
+Copyright (c) 2010 Lapo Calamandrei <calamandrei@gmail.com>
+Copyright (c) 2010 Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
+Copyright (c) 2010 Matej Urbancic <mateju@svn.gnome.org>
+Copyright (c) 2010 Matthias Clasen <mclasen@redhat.com>
+Copyright (c) 2010 Priit Laes <plaes@plaes.org>
+Copyright (c) 2010 Theodore Dimitriadis <liakoni@gmail.com>
+Copyright (c) 2010 Theppitak Karoonboonyanan <thep@linux.thai.net>
+Copyright (c) 2010 William Jon McCann <jmccann@redhat.com>
+Copyright (c) 2010 Yaron Shahrabani <sh.yaron@gmail.com>
+Copyright (c) 2010 Hylke Bons
+Copyright (c) 2012 Red Hat, Inc
+Copyright (c) Bill Haneman
+Copyright (c) T. Liebeck
+</text>
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-0
+
+
+FileName: /usr/share/doc/gnome-themes-extra-data/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-themes-extra-data-file-1
+FileChecksum: SHA1: f3d1de3e452c22e36055de59ef451abf0a548a76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-1
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/apps.rc
+SPDXID: SPDXRef-gnome-themes-extra-data-file-2
+FileChecksum: SHA1: f7d69cdc212489a67fbc053072791ef55339818d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-2
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/border.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-3
+FileChecksum: SHA1: 507ad82d0e390596b54cfa653fd3474429ac21ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-3
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/button-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-4
+FileChecksum: SHA1: 319c23a186845ffd1ea35960775738df732e0d38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-4
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/button-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-5
+FileChecksum: SHA1: 9363791a3cca9da4fcc78744aad194b8f6e179b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-5
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/button-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-6
+FileChecksum: SHA1: 134e84f62eb7bb53fc49fb2d2831b94b08b1119c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-6
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/button.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-7
+FileChecksum: SHA1: 140edc64ac9e8fa627577205a23338def799fb96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-7
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-checked-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-8
+FileChecksum: SHA1: 8ef7490fde99d62710ee7b91cc77ca25ee021c25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-8
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-checked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-9
+FileChecksum: SHA1: 9afef02196b217a5d3d016b43264a068cbc34c1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-9
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-checked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-10
+FileChecksum: SHA1: c18fc8dd70d1d55e24f1744dea56e99e6092efde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-10
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-checked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-11
+FileChecksum: SHA1: 69891603cded816948c5e8b7ebd8428012f22077
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-11
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-mixed-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-12
+FileChecksum: SHA1: 77a58a1be758cbc6e284694d4cde7a0994415947
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-12
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-mixed-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-13
+FileChecksum: SHA1: 7d19bd8897b6c0a1baca024ac078e5dcfebcfd22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-13
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-mixed-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-14
+FileChecksum: SHA1: 586d7a42d8f3e698be2426f245db2d3ec4ff1571
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-14
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-mixed.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-15
+FileChecksum: SHA1: 20f3307a30f8ee89e1f039f142df9df333d3372a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-15
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-unchecked-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-16
+FileChecksum: SHA1: 8c2b1c281fcc752200ac20abb2565b3d49e0a7e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-16
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-unchecked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-17
+FileChecksum: SHA1: 5d21cdd689a36008ee5338602051583dab10f1c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-17
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-unchecked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-18
+FileChecksum: SHA1: 36d017e9d4077332b408d9e41de38f019d7f2970
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-18
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/checkbox-unchecked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-19
+FileChecksum: SHA1: 2b3d01b6c5acfc5d288e07f3ed079dffc9c9b95f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-19
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-ltr-button-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-20
+FileChecksum: SHA1: f220d074fbe99fc064cbc8c4b3f6c45dc95a23a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-20
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-ltr-button-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-21
+FileChecksum: SHA1: f2384a28d09afa7511367bc772680f2860c06e79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-21
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-ltr-button-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-22
+FileChecksum: SHA1: 1d7a63f0c134956ca028730f245a92d4c7bc68d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-22
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-ltr-button.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-23
+FileChecksum: SHA1: dd6db351463b3d746f05fcb5a93e1f0eb60a1949
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-23
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-ltr-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-24
+FileChecksum: SHA1: f78848bd831fe7a67379491345fb7e046cf4de45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-24
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-ltr-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-25
+FileChecksum: SHA1: 43df05eeef5abd1f17569d95aa3ad385e35ceb29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-25
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-ltr-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-26
+FileChecksum: SHA1: 902e5009e688d6e8ab2d2469db11f4c2a18843e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-26
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-rtl-button-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-27
+FileChecksum: SHA1: e0f05b8acae1eaabcefb4cab3e5773bd22c12ac2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-27
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-rtl-button-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-28
+FileChecksum: SHA1: b8ab0c73ad028f3015fad6e3581d33e20fd33e76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-28
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-rtl-button-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-29
+FileChecksum: SHA1: debaae1523158eb7776636d8b5f55bd950e11899
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-29
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-rtl-button.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-30
+FileChecksum: SHA1: 5917b6f9d9e3cb5bf5bf627c39133039f18eb6bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-30
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-rtl-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-31
+FileChecksum: SHA1: f30bc690aa6b2a5ca00dc5e8ef4e68b5801f0a0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-31
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-rtl-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-32
+FileChecksum: SHA1: a97d412fe85f99e60fbbd88b5edd68dbf19bb290
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-32
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/combo-entry-rtl-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-33
+FileChecksum: SHA1: 11fb3fec43a9fd698341987954be0bc091de25db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-33
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-34
+FileChecksum: SHA1: b682d807e878251ce4a890065505fa76b67b8c53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-34
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/entry-background-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-35
+FileChecksum: SHA1: 3720f41e72b358ebd67b7fe55dc3a295da474b76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-35
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/entry-background.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-36
+FileChecksum: SHA1: ed2bfa1183cd7f818a4a0cfdc5d3370bd22c33d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-36
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-37
+FileChecksum: SHA1: 554b247b1274effc701c4cbb2f375780c28a4b78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-37
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-38
+FileChecksum: SHA1: 827c31253abb15f8de2b8907c5cdd284c36545f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-38
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/focus.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-39
+FileChecksum: SHA1: 677df178332d332958ece327c2e89fab2004aa72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-39
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/frame-inline.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-40
+FileChecksum: SHA1: e4118ea54689b4bc483682481007d85eda19e033
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-40
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/frame-notebook.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-41
+FileChecksum: SHA1: 6192d88c987ab5a7466ecaefea52d17a9a8eae80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-41
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/frame.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-42
+FileChecksum: SHA1: 6193f237e34d75eda5759f38520631446a251c5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-42
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/handle-horz.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-43
+FileChecksum: SHA1: d9fe5dbecbaee04b80d9d975e11afb0280a41892
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-43
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/handle-vert.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-44
+FileChecksum: SHA1: 28cdf1161625a46322091bd7ffd5ea15d1aeb677
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-44
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/handle.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-45
+FileChecksum: SHA1: f7943a9f530e2281a5fd54aaa9d2cf47378318a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-45
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/line.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-46
+FileChecksum: SHA1: 1e20b57b6e20a7126ae9e2270154e37d1b09b3a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-46
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-border.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-47
+FileChecksum: SHA1: 6193f237e34d75eda5759f38520631446a251c5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-47
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-checkbox-checked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-48
+FileChecksum: SHA1: 503874dd3b88cc2932fecac3bf3b5a53cdc8111e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-48
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-checkbox-checked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-49
+FileChecksum: SHA1: c79f92eb1e61dc8c0a1c7916072f85456203e4f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-49
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-checkbox-checked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-50
+FileChecksum: SHA1: 9a01f6a9cdf0967e765ce41bf61975d4b9d9595d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-50
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-checkbox-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-51
+FileChecksum: SHA1: a88966889981bce32ef3c4ee15297927abb41150
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-51
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-checkbox-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-52
+FileChecksum: SHA1: 4d0a1635b2666f6f74626cea09d14dc872091217
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-52
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-checkbox-mixed-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-53
+FileChecksum: SHA1: 044751f3f41c1e9b58c02d3e3197a73460e4e59b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-53
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-checkbox-mixed-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-54
+FileChecksum: SHA1: 07a118b94a1844d4873066e5b763fa18739cb9e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-54
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-checkbox-mixed.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-55
+FileChecksum: SHA1: b6578940beb81005f0b4f75c474ea59cd07d2ab4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-55
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-checkbox.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-56
+FileChecksum: SHA1: cfd83ee48ddd3486a1789640aee4e9f5aa407703
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-56
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-57
+FileChecksum: SHA1: 84dc68cfd58d9e4205ca5514a0d643b275fae741
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-57
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-58
+FileChecksum: SHA1: fc76b203c19dcc9458760ab28db61ec8aa96eb0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-58
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-left-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-59
+FileChecksum: SHA1: 75b4e9999cb035dca0bf2687907ef2b325204ef0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-59
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-left-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-60
+FileChecksum: SHA1: cb1da8da2fd0630c03f40228e2db1b260815c112
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-60
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-left.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-61
+FileChecksum: SHA1: 4484e8cba62873b3d2c41d60d3cfdc73078cbeaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-61
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-right-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-62
+FileChecksum: SHA1: 627c086359494fb135034ccf8c0cdd95e28333f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-62
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-right-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-63
+FileChecksum: SHA1: b1a6238f8a3ef7e434813eecb8541a5809ea02e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-63
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-right.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-64
+FileChecksum: SHA1: 9101e96aa50cf4ab625e2be211ec566e6a620bb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-64
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-65
+FileChecksum: SHA1: eaa19271a98ad0788067b1371ca059e6306a8ded
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-65
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-pan-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-66
+FileChecksum: SHA1: 77e8fd1e7e65376cf170da3b72f788a9d4eb48d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-66
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-radio-checked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-67
+FileChecksum: SHA1: ebfc024f0beac17d3815cd4ffe2cad058bb0f171
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-67
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-radio-checked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-68
+FileChecksum: SHA1: b52af12a27a749e0c76d2973543b75a533a9b3c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-68
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-radio-checked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-69
+FileChecksum: SHA1: 0c4ec948c2a1d8a1a88498930bab951b185fb7e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-69
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-radio-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-70
+FileChecksum: SHA1: 1d9546ca0d4ccca0fa08c377f16ac32eb7b1950d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-70
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-radio-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-71
+FileChecksum: SHA1: fb6bfa49f2bf8fc0b08bea24a0f3679fbe975fad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-71
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-radio-mixed-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-72
+FileChecksum: SHA1: f14a15283a7d6d9b2104c988476b19e556966c38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-72
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-radio-mixed-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-73
+FileChecksum: SHA1: 467ec6d5e3b2257b487506acf6a06b2eef5db81e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-73
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-radio-mixed.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-74
+FileChecksum: SHA1: 27bd8b206084f83616ff2a6cf0c1592ec0019d9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-74
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menu-radio.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-75
+FileChecksum: SHA1: 9db50007bd2e7d778c4a97ad0aeb6cc23ad9e88c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-75
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/menubar-item-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-76
+FileChecksum: SHA1: ccbb5e724f35dcf17f5ab7f0a837993f7d4bd748
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-76
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/notebook-combo-entry-ltr-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-77
+FileChecksum: SHA1: cc7af735c239c33d93652839a9d771cf8a5dcb5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-77
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/notebook-combo-entry-ltr-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-78
+FileChecksum: SHA1: 1acd729d10a7de1e6b262c4bc27bc53915566db1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-78
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/notebook-combo-entry-ltr-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-79
+FileChecksum: SHA1: fed204d93cbee844253ca7ec3456f7474eb287ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-79
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/notebook-combo-entry-rtl-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-80
+FileChecksum: SHA1: 2d698f64ee79ca82ca1be7a360d4efe276701407
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-80
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/notebook-combo-entry-rtl-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-81
+FileChecksum: SHA1: e467d9ec3a1c9b38ac012e02ac3a28575530d1a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-81
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/notebook-combo-entry-rtl-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-82
+FileChecksum: SHA1: 2b2c9cfde48e580e4a9261b624a5ed0286045573
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-82
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/notebook-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-83
+FileChecksum: SHA1: ea7e7b022406ece2d492688aa74a93d5e82ebdb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-83
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/notebook-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-84
+FileChecksum: SHA1: 183e5c0ec7e6265db1391bb33c3a0a41978ea12a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-84
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/notebook-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-85
+FileChecksum: SHA1: 35b4afe7676dd938b3c45c1837a57dadb9bb5d46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-85
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-86
+FileChecksum: SHA1: 84dc68cfd58d9e4205ca5514a0d643b275fae741
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-86
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-87
+FileChecksum: SHA1: fc76b203c19dcc9458760ab28db61ec8aa96eb0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-87
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-left-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-88
+FileChecksum: SHA1: 478c361f4095b058b95f5c4f1a3dd104b6633322
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-88
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-left-semi.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-89
+FileChecksum: SHA1: fd24e29bcc599bd08bb23a60d95acee699d33a97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-89
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-left.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-90
+FileChecksum: SHA1: 1d8683d236a3b2fe54d68aa724245aee9db12f0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-90
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-right-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-91
+FileChecksum: SHA1: 5a8dc0e10d4172157bbb21f329734112e15ad139
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-91
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-right-semi.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-92
+FileChecksum: SHA1: da1a6481ca6a756bc915c26f520a4a6401a4e462
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-92
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-right.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-93
+FileChecksum: SHA1: 90954899e39a9751d9d13bc59deaf41487515559
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-93
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-94
+FileChecksum: SHA1: eaa19271a98ad0788067b1371ca059e6306a8ded
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-94
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/pan-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-95
+FileChecksum: SHA1: 77e8fd1e7e65376cf170da3b72f788a9d4eb48d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-95
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/progressbar-horz-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-96
+FileChecksum: SHA1: c55545dc6b9a0d7548b08263d323b623d49e5bfd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-96
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/progressbar-horz.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-97
+FileChecksum: SHA1: 40c5f790fe2293c84b314ff13fe2b05819a3db6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-97
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/progressbar-vert-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-98
+FileChecksum: SHA1: abc7a75cd7fb395967c4dbc2b8f5d724c7f1d16e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-98
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/progressbar-vert.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-99
+FileChecksum: SHA1: 97ddc24befdb2af58d212cfd92d51c429aa0e7a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-99
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-checked-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-100
+FileChecksum: SHA1: 766b1c5f14dae7b184f4067097296826671dd5fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-100
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-checked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-101
+FileChecksum: SHA1: 4ec016060423f53bd46ce9f0dc87f8e5b1ca2c1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-101
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-checked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-102
+FileChecksum: SHA1: a2b16e2c22c00242523605d4f00c822d1f6ebcf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-102
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-checked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-103
+FileChecksum: SHA1: ed532546dcb1b86f0951c574f198f99f547c10b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-103
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-mixed-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-104
+FileChecksum: SHA1: db27541a256d9b390f5b4e9c9d84cb9e6c4922fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-104
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-mixed-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-105
+FileChecksum: SHA1: f4db997ddcc785b5206530cfbf3ec4afe98a27f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-105
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-mixed-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-106
+FileChecksum: SHA1: 39444624f353608868388aed223ea4be15220390
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-106
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-mixed.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-107
+FileChecksum: SHA1: 041cc0374312a50779de3d4119556e7e015169aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-107
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-unchecked-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-108
+FileChecksum: SHA1: 96119feba87f1d55eb7e2e1f4a83db452454c3ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-108
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-unchecked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-109
+FileChecksum: SHA1: 434cbfa3ddbd55a70e8ac5abd02accd5d38b7731
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-109
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-unchecked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-110
+FileChecksum: SHA1: 82fbd136804fb54705c25df7d92f84e838b9defc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-110
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/radio-unchecked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-111
+FileChecksum: SHA1: a6e700a3b2ec8fbcd63d3a6ab6b292e4c2971e99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-111
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scale-horz-focus.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-112
+FileChecksum: SHA1: bcd642c0b94ad89a7a12376c2c282e5920d77ab4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-112
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scale-horz-trough-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-113
+FileChecksum: SHA1: b3f9434a71c3ff8f32e0c7f5920a16ca8432b50f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-113
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scale-horz-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-114
+FileChecksum: SHA1: 6af781db60275e3f81bca662d87f9c209f5bc1af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-114
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scale-slider-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-115
+FileChecksum: SHA1: bb50cd534e4e18202b8c940eaa4acc3e8538618e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-115
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scale-slider-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-116
+FileChecksum: SHA1: aacbdbafd3e852ad34c5d4027d7015350ae466c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-116
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scale-slider-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-117
+FileChecksum: SHA1: 740eeaab03cf0ed4a4fc2fda9b4dec4578ea1b12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-117
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scale-slider.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-118
+FileChecksum: SHA1: 786da0f369de3578976333545ad2e4e7e5aaec17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-118
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scale-vert-trough-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-119
+FileChecksum: SHA1: b1751707b1fa301eca8fb093d762eb0c98439bd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-119
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scale-vert-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-120
+FileChecksum: SHA1: 722f6f4b58c060d350dca14c20f86e364c1bc4d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-120
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-horz-slider-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-121
+FileChecksum: SHA1: b50d23b0bf1d91782bfbddd409def83bbf88fe78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-121
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-horz-slider-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-122
+FileChecksum: SHA1: a54a86eb578c20d7e0bd9cad4fc81a7f8b855ccb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-122
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-horz-slider.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-123
+FileChecksum: SHA1: 2d2c6caa03147756dff32e4ce2d7f5086f0feac3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-123
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-horz-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-124
+FileChecksum: SHA1: 66f6ca91aef777ef5a974d2728dc913fd7c58cd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-124
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-vert-slider-active-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-125
+FileChecksum: SHA1: 7ef81429d273bb99ba7b0d6b94d220c6d6841451
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-125
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-vert-slider-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-126
+FileChecksum: SHA1: 11aaf30c484a24cfcb99fcac8057a7facfb8cc9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-126
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-vert-slider-hover-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-127
+FileChecksum: SHA1: f2d432c4a87c0795d0225053dd96809a765495d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-127
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-vert-slider-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-128
+FileChecksum: SHA1: b8a8b6ea8425995d7c39665b8f89f9382d818b74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-128
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-vert-slider-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-129
+FileChecksum: SHA1: 386c328db40fb125276133ee763942e9257b6122
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-129
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-vert-slider.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-130
+FileChecksum: SHA1: a7e29aaff6bc543d41e99a200cd1e370fdd172c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-130
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-vert-trough-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-131
+FileChecksum: SHA1: 02d30e0136fee6bdb4e8d9b91a932b35d9858e3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-131
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/scrollbar-vert-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-132
+FileChecksum: SHA1: beee84b7d6043f90f837af2ac3e064973348e333
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-132
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-133
+FileChecksum: SHA1: f9fee56f81006f5de761e329d7fba448fc7c22a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-133
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-134
+FileChecksum: SHA1: 2767507d2afded4671b71565edac173609455904
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-134
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-ltr-down-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-135
+FileChecksum: SHA1: f33f4ae08a7ceaaf64f9a1ed327a016c883f36a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-135
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-ltr-down-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-136
+FileChecksum: SHA1: 1dc9e2409f23bc71706c8cd10bb7011e887c3a52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-136
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-ltr-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-137
+FileChecksum: SHA1: 6c780ffa318efef7a0bb34a90a6be381282bb52b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-137
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-ltr-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-138
+FileChecksum: SHA1: ccdf6c8a51ff230a5c3295ec8ba5ed876ec725e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-138
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-ltr-up-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-139
+FileChecksum: SHA1: b770557d6f73bd6d4159835bdd6dba49c387efee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-139
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-ltr-up-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-140
+FileChecksum: SHA1: ae659b5a1d8ea6b3cc2f4d601b8b831eeebeadcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-140
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-ltr-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-141
+FileChecksum: SHA1: e02e466426a5a790ab1ce783288a7469f7f41bec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-141
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-ltr-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-142
+FileChecksum: SHA1: 66fa478a0f5202cc22e819f3f945bd3d4ccf2b19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-142
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-rtl-down-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-143
+FileChecksum: SHA1: 8bd24ebe8806ee3ff459a3b4f436d84e435fae67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-143
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-rtl-down-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-144
+FileChecksum: SHA1: c19cf8a09d0278cc147f74febe12ce9a8bcf8db2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-144
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-rtl-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-145
+FileChecksum: SHA1: f394f87e658e25f94ea3fafebb5391cec2f86fc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-145
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-rtl-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-146
+FileChecksum: SHA1: 593bc7b65c724107bdb5d87941b7dc56a4c28e6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-146
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-rtl-up-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-147
+FileChecksum: SHA1: f4542459666bbc718ba15048b3aa03a67844315f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-147
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-rtl-up-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-148
+FileChecksum: SHA1: 90f8b5933416353eaf20094eaded0d8008d52329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-148
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-rtl-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-149
+FileChecksum: SHA1: 05ab5da62d79fb27e3cf2a66b36d430b144ef74f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-149
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-rtl-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-150
+FileChecksum: SHA1: eb9d17a1b087f366c6c700b1bcabadd480a7f31a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-150
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-151
+FileChecksum: SHA1: ec355e44fa4770cecd8e2577eefccd0a48535833
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-151
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/spin-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-152
+FileChecksum: SHA1: 0cf3497bc4b855f89dfbe7eba2608ea1b002b02e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-152
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-down-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-153
+FileChecksum: SHA1: 747df27e6af92b00e9ccbd85bf5f10957894b679
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-153
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-154
+FileChecksum: SHA1: 5a1c7652fb77c8a744c6b71f635ff9592d26579d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-154
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-horz-gap.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-155
+FileChecksum: SHA1: 3423fef7c7d9542374f706f1ae4cc5f43a1fd944
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-155
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-left-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-156
+FileChecksum: SHA1: a26704886dda9f36b105361937c535f77feea0fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-156
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-left.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-157
+FileChecksum: SHA1: dd1a33da26e4462411e5f691f213e9b6b9f71159
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-157
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-right-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-158
+FileChecksum: SHA1: 52669963b3ff6fc89ee58185c46798895b36d414
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-158
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-right.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-159
+FileChecksum: SHA1: 7e72b25b7340c52e0f5b2d59d2e0b2745e78f1e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-159
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-up-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-160
+FileChecksum: SHA1: 7dfd024332c8fd67a11d41ea3f05bf26d840332d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-160
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-161
+FileChecksum: SHA1: 7e8c95c6b54bb853cb45d8c3a5c23a591e56a0da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-161
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/tab-vert-gap.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-162
+FileChecksum: SHA1: f3ee15e3511c22ce682e65755570e73d0443493e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-162
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/treeview-pan-down-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-163
+FileChecksum: SHA1: fc76b203c19dcc9458760ab28db61ec8aa96eb0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-163
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/treeview-pan-down-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-164
+FileChecksum: SHA1: da4456860893a1f2acf8d875954c1a42a9eb6c36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-164
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/treeview-pan-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-165
+FileChecksum: SHA1: ebf5bd99b1cbc94b706b9877b65bf93b16c1a48c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-165
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/treeview-pan-up-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-166
+FileChecksum: SHA1: 77e8fd1e7e65376cf170da3b72f788a9d4eb48d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-166
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/treeview-pan-up-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-167
+FileChecksum: SHA1: 258d464ec6045a3e7fd30adbe5aaa58ad7b66a2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-167
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/treeview-pan-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-168
+FileChecksum: SHA1: ef1c78868b0a13c7e1cda76d9ffdc29af3e2586c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-168
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/treeview-separator-ltr.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-169
+FileChecksum: SHA1: 2ccdeb53d386954583ce6e36e175253aebbe493c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-169
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/assets/treeview-separator-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-170
+FileChecksum: SHA1: 4b6d686c9bd99b5dee3457a7a641a436037a49c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-170
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/gtkrc
+SPDXID: SPDXRef-gnome-themes-extra-data-file-171
+FileChecksum: SHA1: 89732ac48c55203711a1f547c336c7aef9845a1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-171
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/hacks.rc
+SPDXID: SPDXRef-gnome-themes-extra-data-file-172
+FileChecksum: SHA1: 0881a5149220bdd906e51053d8d662f3d39e5b72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-172
+
+
+FileName: /usr/share/themes/Adwaita/gtk-2.0/main.rc
+SPDXID: SPDXRef-gnome-themes-extra-data-file-173
+FileChecksum: SHA1: 3c67d33de54fc4bfea54235b8422778348219f62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-173
+
+
+FileName: /usr/share/themes/Adwaita/gtk-3.0/gtk.css
+SPDXID: SPDXRef-gnome-themes-extra-data-file-174
+FileChecksum: SHA1: c952c3e993d71a3fcce5db66789200c1d8d1a540
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-174
+
+
+FileName: /usr/share/themes/Adwaita/index.theme
+SPDXID: SPDXRef-gnome-themes-extra-data-file-175
+FileChecksum: SHA1: 65783f48eaebd94ba4d0d32a0120be3d2c12180a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-175
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/apps.rc
+SPDXID: SPDXRef-gnome-themes-extra-data-file-176
+FileChecksum: SHA1: f7d69cdc212489a67fbc053072791ef55339818d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-176
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/border.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-177
+FileChecksum: SHA1: 6800008398229035eb0c09e019824b86f3b1c930
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-177
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/button-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-178
+FileChecksum: SHA1: 8929ff8c3d677dfad0f5b18f85ef1939582f1313
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-178
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/button-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-179
+FileChecksum: SHA1: 4b4cfef2b2ee1a1bfcb609a32d6d5051f9b98d28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-179
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/button-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-180
+FileChecksum: SHA1: 064e4de2310a5ef26fdc033ee3b30ace22444aca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-180
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/button.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-181
+FileChecksum: SHA1: a3c1429a3054755f82a19fb15c01065dff338798
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-181
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-checked-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-182
+FileChecksum: SHA1: c0123120428e715961bf0f63b781319e891d1222
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-182
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-checked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-183
+FileChecksum: SHA1: 63dbbb6e5c3e1d24d031472bf9be5c2032a7e764
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-183
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-checked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-184
+FileChecksum: SHA1: 62c2fd8f543c3ca7ea4d1532f73ebb0f8640de64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-184
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-checked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-185
+FileChecksum: SHA1: 5b0a0e8690956ace74f1e7c8d8af2732e1438b08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-185
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-mixed-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-186
+FileChecksum: SHA1: ffbd2d331cc339ed3bbad3c4dd90651a552b06e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-186
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-mixed-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-187
+FileChecksum: SHA1: 5edf198dacc038d15211db7bfd18ea31a02fa831
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-187
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-mixed-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-188
+FileChecksum: SHA1: 0ca5fb1d2b8fc7ff36bbeff7e0db90f6f32bd4ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-188
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-mixed.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-189
+FileChecksum: SHA1: 1a1ed183ab663881d3b08dd5f84ef1e2cf01fd41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-189
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-unchecked-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-190
+FileChecksum: SHA1: 83eb1fa96c13d0c907f478c1f71569ab35c650e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-190
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-unchecked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-191
+FileChecksum: SHA1: ef638797b29c2d98af12ad9ee46ff3f8581c6ceb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-191
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-unchecked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-192
+FileChecksum: SHA1: 36dcc1a24dbf8111cf587534024a1e060f47939c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-192
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/checkbox-unchecked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-193
+FileChecksum: SHA1: 1ff829f0f0024f4c6ee2acbfbf82aec0de88ec78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-193
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-ltr-button-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-194
+FileChecksum: SHA1: e9bb320becbd4d7bdcd2a7c49fb7465630081478
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-194
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-ltr-button-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-195
+FileChecksum: SHA1: 5b6302a990c74cfa575cb087381289aa6ee51ee7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-195
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-ltr-button-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-196
+FileChecksum: SHA1: 6ef1a61b89f0983ca13af270fbda386ebd3e9685
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-196
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-ltr-button.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-197
+FileChecksum: SHA1: ea34c5db70b7dc7fae0d09c15c048baaeea7b97e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-197
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-ltr-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-198
+FileChecksum: SHA1: 7ba61fa32df4dae17db132d1540410477754f8ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-198
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-ltr-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-199
+FileChecksum: SHA1: cff075790faf6e71674077c51e74253960cccf21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-199
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-ltr-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-200
+FileChecksum: SHA1: 3ad65b6779b35db6d2f9349aba82e35f0da7089a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-200
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-rtl-button-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-201
+FileChecksum: SHA1: 168fd5c9365931b895b59071dad22639053de92c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-201
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-rtl-button-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-202
+FileChecksum: SHA1: 8ad295b19c598212984050b2742b0f2741c15c79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-202
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-rtl-button-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-203
+FileChecksum: SHA1: 4e8cce204f43b2fab70a6f2bce2dbc8eb27a0988
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-203
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-rtl-button.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-204
+FileChecksum: SHA1: a0137ff874cf95fb877c2699e5feef7aa6c85fac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-204
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-rtl-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-205
+FileChecksum: SHA1: 2ab4dbea35a845e1919c5793d8c4380045acc4cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-205
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-rtl-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-206
+FileChecksum: SHA1: ad8e8148a9f16f6595a2d71efb0b2a73bdb016b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-206
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/combo-entry-rtl-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-207
+FileChecksum: SHA1: a5576c6bb5be7f911d7151b72c05ffaf877d4f03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-207
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-208
+FileChecksum: SHA1: 891d26dc55609b767a3ce8aa83217afb60572c76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-208
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/entry-background-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-209
+FileChecksum: SHA1: 06027cca5a50c7effd75d5833a6ce4075147b938
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-209
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/entry-background.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-210
+FileChecksum: SHA1: 5e1c6639d3c873d53fc3108e858a262d008daebe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-210
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-211
+FileChecksum: SHA1: b9f1c099c223fefdcea3b872fec82384c1853cd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-211
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-212
+FileChecksum: SHA1: 6292af1378807ed25625f0b7ad6dc1555d0778b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-212
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/focus.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-213
+FileChecksum: SHA1: 3c278a73a7d0945a7ea11cdd1055367f204268f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-213
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/frame-inline.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-214
+FileChecksum: SHA1: 5c22f1223b560fbfd34cc44a5b6e3bfe95dfb473
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-214
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/frame-notebook.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-215
+FileChecksum: SHA1: aa8d58636f958bef2b2f3dc123dbce5f977ae874
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-215
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/frame.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-216
+FileChecksum: SHA1: 80d3fb922b0561dd05a3efa9a4b6cc171de26932
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-216
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/handle-horz.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-217
+FileChecksum: SHA1: fef0c742b841601591e81282963857ef52992848
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-217
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/handle-vert.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-218
+FileChecksum: SHA1: c6700a02f903d1fe4af9f61083a1046158edc812
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-218
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/handle.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-219
+FileChecksum: SHA1: 0dfa953faed763b719b4f83c25c8c9e81a501230
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-219
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/line.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-220
+FileChecksum: SHA1: 1e20b57b6e20a7126ae9e2270154e37d1b09b3a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-220
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-border.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-221
+FileChecksum: SHA1: 80d3fb922b0561dd05a3efa9a4b6cc171de26932
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-221
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-checkbox-checked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-222
+FileChecksum: SHA1: 503874dd3b88cc2932fecac3bf3b5a53cdc8111e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-222
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-checkbox-checked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-223
+FileChecksum: SHA1: 54112adbddee66432ba3a9b9f8260b5afe82c6e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-223
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-checkbox-checked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-224
+FileChecksum: SHA1: 503874dd3b88cc2932fecac3bf3b5a53cdc8111e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-224
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-checkbox-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-225
+FileChecksum: SHA1: a88966889981bce32ef3c4ee15297927abb41150
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-225
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-checkbox-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-226
+FileChecksum: SHA1: 0017f7fa6724d16359ffea33080685ff4caa37cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-226
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-checkbox-mixed-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-227
+FileChecksum: SHA1: 044751f3f41c1e9b58c02d3e3197a73460e4e59b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-227
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-checkbox-mixed-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-228
+FileChecksum: SHA1: 42d335e2616f60748c8a022ca0deb5723080b2f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-228
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-checkbox-mixed.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-229
+FileChecksum: SHA1: 044751f3f41c1e9b58c02d3e3197a73460e4e59b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-229
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-checkbox.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-230
+FileChecksum: SHA1: a88966889981bce32ef3c4ee15297927abb41150
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-230
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-231
+FileChecksum: SHA1: 4ee7049344cadb45129aa12bfd16fb6f8b872439
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-231
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-232
+FileChecksum: SHA1: 607b402d30afeaaf6c4f4cee5a82edc1bb1287f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-232
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-left-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-233
+FileChecksum: SHA1: 75b4e9999cb035dca0bf2687907ef2b325204ef0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-233
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-left-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-234
+FileChecksum: SHA1: 42d3a1d0fe3cf3bf72c9bef65fdad6781d631496
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-234
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-left.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-235
+FileChecksum: SHA1: 75b4e9999cb035dca0bf2687907ef2b325204ef0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-235
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-right-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-236
+FileChecksum: SHA1: 627c086359494fb135034ccf8c0cdd95e28333f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-236
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-right-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-237
+FileChecksum: SHA1: 34ad19f9c89e34ee604a50b33227d9750f2a5f53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-237
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-right.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-238
+FileChecksum: SHA1: 627c086359494fb135034ccf8c0cdd95e28333f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-238
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-239
+FileChecksum: SHA1: ad2fd3a6eb3cc0cf3f9eab719d69f35a99ed3a4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-239
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-pan-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-240
+FileChecksum: SHA1: 58ecb76d54a8d9b481a554d2bf9c10024dedd61a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-240
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-radio-checked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-241
+FileChecksum: SHA1: ebfc024f0beac17d3815cd4ffe2cad058bb0f171
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-241
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-radio-checked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-242
+FileChecksum: SHA1: 21cb6fdca145ab3647ea246ff216e7c6177d971d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-242
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-radio-checked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-243
+FileChecksum: SHA1: ebfc024f0beac17d3815cd4ffe2cad058bb0f171
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-243
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-radio-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-244
+FileChecksum: SHA1: 1d9546ca0d4ccca0fa08c377f16ac32eb7b1950d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-244
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-radio-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-245
+FileChecksum: SHA1: 8814bcded177099373b1e8384c83a7f646dac4c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-245
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-radio-mixed-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-246
+FileChecksum: SHA1: f14a15283a7d6d9b2104c988476b19e556966c38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-246
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-radio-mixed-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-247
+FileChecksum: SHA1: 16e75b7e7b43f5d834282df4851db3bd9892193d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-247
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-radio-mixed.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-248
+FileChecksum: SHA1: f14a15283a7d6d9b2104c988476b19e556966c38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-248
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menu-radio.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-249
+FileChecksum: SHA1: 1d9546ca0d4ccca0fa08c377f16ac32eb7b1950d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-249
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/menubar-item-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-250
+FileChecksum: SHA1: 35b717d2c133cd22e0b64a9b91f422d6f3c97b5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-250
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/notebook-combo-entry-ltr-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-251
+FileChecksum: SHA1: 234cb764c53245f45340856bc176f365f47d6ca1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-251
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/notebook-combo-entry-ltr-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-252
+FileChecksum: SHA1: e2fca99dab2686a505ef634152849c5b067dea40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-252
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/notebook-combo-entry-ltr-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-253
+FileChecksum: SHA1: ee8efd046927a7d53b6f68cc0b5d23dc868ceb72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-253
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/notebook-combo-entry-rtl-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-254
+FileChecksum: SHA1: 87505569617f7e3faa518e407635724dfe298bdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-254
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/notebook-combo-entry-rtl-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-255
+FileChecksum: SHA1: 3294cf5e4d4dc13e34013edf7357d332f2e5b15c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-255
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/notebook-combo-entry-rtl-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-256
+FileChecksum: SHA1: 01a289241fbed68d363072e9901b1e47a2ec5d5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-256
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/notebook-entry-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-257
+FileChecksum: SHA1: 37fad8434044761494a56f9c7ceb682755238b30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-257
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/notebook-entry-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-258
+FileChecksum: SHA1: 99ffb30d84966320466a44a3d39087000af09ac1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-258
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/notebook-entry.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-259
+FileChecksum: SHA1: 2326ca5be0f5daf12e9b8207d4eedd32b65af5a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-259
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-260
+FileChecksum: SHA1: 4ee7049344cadb45129aa12bfd16fb6f8b872439
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-260
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-261
+FileChecksum: SHA1: 607b402d30afeaaf6c4f4cee5a82edc1bb1287f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-261
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-left-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-262
+FileChecksum: SHA1: d92d2dd4d0bfc56416b7ac1e7a57035d0affd457
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-262
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-left-semi.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-263
+FileChecksum: SHA1: 27d0d772d25490292d22761031a5e6b5a1ad3edb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-263
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-left.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-264
+FileChecksum: SHA1: 6a76572cdaafef3b7622f52f87e2b15625186455
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-264
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-right-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-265
+FileChecksum: SHA1: e978c2cf8e1848a2c4e738d3cdc3fa0898e407f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-265
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-right-semi.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-266
+FileChecksum: SHA1: 564120bb4510c99a5dea8655db02d34693921ecf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-266
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-right.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-267
+FileChecksum: SHA1: 3f98e9d02ae891c1e44181a699a55728707caf2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-267
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-268
+FileChecksum: SHA1: ad2fd3a6eb3cc0cf3f9eab719d69f35a99ed3a4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-268
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/pan-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-269
+FileChecksum: SHA1: 58ecb76d54a8d9b481a554d2bf9c10024dedd61a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-269
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/progressbar-horz-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-270
+FileChecksum: SHA1: b76e91d4f8cf31343c34d2caa47f86bb9ef86447
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-270
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/progressbar-horz.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-271
+FileChecksum: SHA1: f5604be9824bde35c4d96fe30a1419c7f9146564
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-271
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/progressbar-vert-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-272
+FileChecksum: SHA1: f6407a306e4ae2272057b2b67ffbdcac368eac5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-272
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/progressbar-vert.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-273
+FileChecksum: SHA1: 7db97c67fb9e83116e8db3c0203e490411dcb6bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-273
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-checked-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-274
+FileChecksum: SHA1: ab924eb4357a9897766de3e0d23c50350095a992
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-274
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-checked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-275
+FileChecksum: SHA1: 80ef37cac18653e0c988c83aa7d8fe9b1c3a00f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-275
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-checked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-276
+FileChecksum: SHA1: 64eaf4f608685cfc4d2eaed8c85ce919526a5505
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-276
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-checked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-277
+FileChecksum: SHA1: d91ae330e3c96af419dcb166e5ba6ecd7c5c5374
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-277
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-mixed-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-278
+FileChecksum: SHA1: ea91cc4ad591a1dd12b19289c16828db8ac4244d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-278
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-mixed-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-279
+FileChecksum: SHA1: 5678f5ba708b5142c4cd089bf13a692e4ef77ffe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-279
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-mixed-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-280
+FileChecksum: SHA1: cf70038ae905e4e0c159eec7a0ca3666bf199cf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-280
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-mixed.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-281
+FileChecksum: SHA1: ad13c94aa62f78a834f04d864a58330fbe8ccd53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-281
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-unchecked-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-282
+FileChecksum: SHA1: 2a34efa8b34eec30302636d751f1a2f2f84ba0e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-282
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-unchecked-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-283
+FileChecksum: SHA1: f75b5aad7e7f71f0b91246d004a2917f119b0412
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-283
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-unchecked-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-284
+FileChecksum: SHA1: e22975acc13bdee06e6bbc0a7815f795cc9551d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-284
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/radio-unchecked.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-285
+FileChecksum: SHA1: f7dcb73b0a93bad063c5dafda03620b171ae1371
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-285
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scale-horz-focus.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-286
+FileChecksum: SHA1: bcd642c0b94ad89a7a12376c2c282e5920d77ab4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-286
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scale-horz-trough-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-287
+FileChecksum: SHA1: 0cd0fc2f9f40dd9d18bfe0c1bc2f9e27a6c771a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-287
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scale-horz-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-288
+FileChecksum: SHA1: 8d239642e14c2165f7f867156f082e265de20c7c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-288
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scale-slider-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-289
+FileChecksum: SHA1: 913b8e8ac8b447a28f935389570d3aa135f3a93e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-289
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scale-slider-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-290
+FileChecksum: SHA1: 6308f32cbb9c3aff43901ee6506af30df51d1d95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-290
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scale-slider-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-291
+FileChecksum: SHA1: b465c38414602117c15de32ef72481d10facbdba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-291
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scale-slider.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-292
+FileChecksum: SHA1: 0ed27ef460f9fde07ed4b7a9cffafa9468e749cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-292
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scale-vert-trough-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-293
+FileChecksum: SHA1: 22f6c946acdbe76d3a6d26bc45ea7f7a19ea336d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-293
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scale-vert-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-294
+FileChecksum: SHA1: 064d89fb7033087a23072ca3981cd25f8c287bc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-294
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-horz-slider-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-295
+FileChecksum: SHA1: b50d23b0bf1d91782bfbddd409def83bbf88fe78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-295
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-horz-slider-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-296
+FileChecksum: SHA1: d13077f76aaccf5ddf5411dd37729dd0c5134af4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-296
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-horz-slider.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-297
+FileChecksum: SHA1: 998b6628589e2ff3649c8dff3c16b43e84a6dff3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-297
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-horz-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-298
+FileChecksum: SHA1: 976bbca9976efb3c56e50aa1258bbc2858fa770a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-298
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-vert-slider-active-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-299
+FileChecksum: SHA1: 7ef81429d273bb99ba7b0d6b94d220c6d6841451
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-299
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-vert-slider-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-300
+FileChecksum: SHA1: 11aaf30c484a24cfcb99fcac8057a7facfb8cc9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-300
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-vert-slider-hover-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-301
+FileChecksum: SHA1: 69a1a48276f40d4f67c7e9eeb7cb000efc46cbc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-301
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-vert-slider-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-302
+FileChecksum: SHA1: c3151e150dbe3174f38024c29e55794f9a61c033
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-302
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-vert-slider-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-303
+FileChecksum: SHA1: daf41a3aed7e89a442cf3db4bbec8e141c5e07b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-303
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-vert-slider.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-304
+FileChecksum: SHA1: ef2b960e7f33360fd7cc141a8be10336486c0eea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-304
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-vert-trough-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-305
+FileChecksum: SHA1: 6feb2d508c39ce7589b25101e47598057828670f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-305
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/scrollbar-vert-trough.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-306
+FileChecksum: SHA1: 6bad1f693479cc7faac23c83e6bbf48cb35c2c2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-306
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-307
+FileChecksum: SHA1: 2c74357e3808348b0f7fadd219c586e80109ebe2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-307
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-308
+FileChecksum: SHA1: 98b9b436f5eeb67ed37bdf71571b6685cbcc29ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-308
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-ltr-down-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-309
+FileChecksum: SHA1: cc7a51eca101eea5ecbe998f4c67a5d7f448ecf1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-309
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-ltr-down-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-310
+FileChecksum: SHA1: 05245d71bd2e0de57764b01b0e68e9a0b4610737
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-310
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-ltr-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-311
+FileChecksum: SHA1: 6186ab18cb3791b8075691a346cb989dd06aee62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-311
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-ltr-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-312
+FileChecksum: SHA1: 5c2220efa97416eaad9363596efe86a3f256ecba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-312
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-ltr-up-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-313
+FileChecksum: SHA1: ca6ca19296fe96c5c04afd63f1961628a43aec0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-313
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-ltr-up-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-314
+FileChecksum: SHA1: 408ea23801a9e8e47e6185e6fcf98d5bb0039555
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-314
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-ltr-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-315
+FileChecksum: SHA1: ada8116b75698f63a23a26b775ede1db9c516e99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-315
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-ltr-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-316
+FileChecksum: SHA1: 69d84b7ff399035f39a5ea21254b600699b05978
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-316
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-rtl-down-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-317
+FileChecksum: SHA1: 02b7b3d7a5113d13913c27010633e267701dea09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-317
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-rtl-down-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-318
+FileChecksum: SHA1: c322f892fd346742f4c48cc86de5e3ae3e21ccd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-318
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-rtl-down-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-319
+FileChecksum: SHA1: fc61e04241afc7ea0a3633befe33d9d461be292c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-319
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-rtl-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-320
+FileChecksum: SHA1: b87c8092250a99d573bbb26857e39741c64e4433
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-320
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-rtl-up-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-321
+FileChecksum: SHA1: a05f43e33177e1736a2f066b3edc869a0f8db29a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-321
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-rtl-up-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-322
+FileChecksum: SHA1: aef1fabd89719625e91d13ddb3d58c8722ad40fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-322
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-rtl-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-323
+FileChecksum: SHA1: 3fe45d28d4d7cd9b40052a3786dd16e48132fad4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-323
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-rtl-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-324
+FileChecksum: SHA1: 1e7f1e92e7401940deac976ec16ac571fe92bb0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-324
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-up-insensitive.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-325
+FileChecksum: SHA1: 2de8c88317dc252d22bdf55c848b16f7c2e8a147
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-325
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/spin-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-326
+FileChecksum: SHA1: c97ea0785fcec1a333e9dff349450d66b751215c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-326
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-down-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-327
+FileChecksum: SHA1: f40c0465589ea7a3f5a3e9043d346297ab80ee4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-327
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-328
+FileChecksum: SHA1: 1983cd92014d3f8ecb7bedd623d22fdb478004e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-328
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-horz-gap.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-329
+FileChecksum: SHA1: 44ed1bb3863491d5ba5f4274fac61c5abe5af9a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-329
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-left-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-330
+FileChecksum: SHA1: d00e7bcbcfc7e7092857bb5b6f5588c1e4b22064
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-330
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-left.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-331
+FileChecksum: SHA1: 020e4657528847a3298e3d8ffefeeb6498ab1edd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-331
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-right-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-332
+FileChecksum: SHA1: a2a06a572f2a05a7ef6d74d2ebd7c38de30ed7b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-332
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-right.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-333
+FileChecksum: SHA1: fc45425d8fc1736f268a267333239c368c81bcf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-333
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-up-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-334
+FileChecksum: SHA1: 6a197421149d740994049011d30f5bc63f494ba5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-334
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-335
+FileChecksum: SHA1: efdb3775ec715308b84831c0f10aad5bfa5a9d51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-335
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/tab-vert-gap.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-336
+FileChecksum: SHA1: 8d99debb3db8d67aa58d119b34e370f53150d700
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-336
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/treeview-pan-down-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-337
+FileChecksum: SHA1: 311ca5225308791bb263d573f1da5061351603ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-337
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/treeview-pan-down-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-338
+FileChecksum: SHA1: 609bb26568321863439c09a6a0c0ea97e9528205
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-338
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/treeview-pan-down.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-339
+FileChecksum: SHA1: 7076b84b2f5e02729ae4d0e7295fee9662b1fc78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-339
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/treeview-pan-up-active.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-340
+FileChecksum: SHA1: 5a4099f7aa54e6fabb912080b7ba7eaea6975bd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-340
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/treeview-pan-up-hover.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-341
+FileChecksum: SHA1: 972e00aef666a178060680c6059c48f1caa9b9c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-341
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/treeview-pan-up.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-342
+FileChecksum: SHA1: 2f894336fdad86a4f85574c4b31f56942445dd03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-342
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/treeview-separator-ltr.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-343
+FileChecksum: SHA1: 82ec868c59c7076345b7ab6491cb4b260a2476b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-343
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/assets/treeview-separator-rtl.png
+SPDXID: SPDXRef-gnome-themes-extra-data-file-344
+FileChecksum: SHA1: 4160d8e7393a8440621e6fd016e2f08b32201e48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-344
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/gtkrc
+SPDXID: SPDXRef-gnome-themes-extra-data-file-345
+FileChecksum: SHA1: a7135789348310c2e0d593db22b77185f24a020b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-345
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/hacks-dark.rc
+SPDXID: SPDXRef-gnome-themes-extra-data-file-346
+FileChecksum: SHA1: 7fbdfee700cbf086191592ac5946c4d95d64c4de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-346
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/hacks.rc
+SPDXID: SPDXRef-gnome-themes-extra-data-file-347
+FileChecksum: SHA1: 0881a5149220bdd906e51053d8d662f3d39e5b72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-347
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-2.0/main.rc
+SPDXID: SPDXRef-gnome-themes-extra-data-file-348
+FileChecksum: SHA1: 3c67d33de54fc4bfea54235b8422778348219f62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-348
+
+
+FileName: /usr/share/themes/Adwaita-dark/gtk-3.0/gtk.css
+SPDXID: SPDXRef-gnome-themes-extra-data-file-349
+FileChecksum: SHA1: 7a6c008eec7521b567da8260e09ace8ab5d24234
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-349
+
+
+FileName: /usr/share/themes/Adwaita-dark/index.theme
+SPDXID: SPDXRef-gnome-themes-extra-data-file-350
+FileChecksum: SHA1: 61baae64fd9f091cc4d273c8398cf52451f268a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-themes-extra-data CONTAINS SPDXRef-gnome-themes-extra-data-file-350
+
+
+## Extracted License
+

@@ -1,0 +1,1029 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/seahorse_41.0-2-1e555ce5-7b86-5b99-85d4-19798e73021b
+DocumentName: seahorse_41.0-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-seahorse
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:23:17Z
+
+
+## Package
+
+PackageName: seahorse
+PackageVersion: 41.0-2
+SPDXID: SPDXRef-seahorse
+PackageHomePage: https://wiki.gnome.org/Apps/Seahorse
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f8a9a1cb92bff5ce889e3d164f74933a3d2a1669
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GFDL-1.1-only
+PackageLicenseInfoFromFiles: GFDL-1.1-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 2001, 2002 Jose Carlos Garcia Sogo
+Copyright (c) 2002, 2003 Jacob Perkins
+Copyright (c) 2004, 2006 Nate Nielsen, Adam Schreiber
+Copyright (c) 2005-2011 Stef Walter
+</text>
+PackageComment: <text>GNOME front end for GnuPG
+ Seahorse is a front end for GnuPG - the GNU Privacy Guard program -
+ that integrates to the GNOME desktop. It is a tool for secure
+ communications and data storage.  Data encryption and digital signature
+ creation can easily be performed through a GUI and Key Management
+ operations can easily be carried out through an intuitive interface.</text>
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libavahi-client3
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libavahi-common3
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libavahi-glib1
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgck-1-0
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcr-base-3-1
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgcr-ui-3-1
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgdk-pixbuf-2.0-0
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgpgme11
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libhandy-1-0
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libldap-2.5-0
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpwquality1
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsecret-1-0
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsoup2.4-1
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gcr
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnome-keyring
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gnupg
+Relationship: SPDXRef-seahorse DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-openssh-client
+
+
+## File
+
+FileName: /usr/share/doc/seahorse/copyright
+SPDXID: SPDXRef-seahorse-file-0
+FileChecksum: SHA1: 6392122c55ec59b6758b07b866794378cdc98927
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GFDL-1.1-only
+LicenseInfoInFile: GFDL-1.1-or-later
+FileCopyrightText: <text>Copyright (c) 2001, 2002 Jose Carlos Garcia Sogo
+Copyright (c) 2002, 2003 Jacob Perkins
+Copyright (c) 2004, 2006 Nate Nielsen, Adam Schreiber
+Copyright (c) 2005-2011 Stef Walter
+Copyright (c) 2005-2011 Stef Walter
+</text>
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-0
+
+
+FileName: /usr/bin/seahorse
+SPDXID: SPDXRef-seahorse-file-1
+FileChecksum: SHA1: b941acd3c26a82d95fe9d5443430827faeb007c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-1
+
+
+FileName: /usr/libexec/seahorse/ssh-askpass
+SPDXID: SPDXRef-seahorse-file-2
+FileChecksum: SHA1: d02122d7b929ba69064d79764df42a07dea7ab0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-2
+
+
+FileName: /usr/libexec/seahorse/xloadimage
+SPDXID: SPDXRef-seahorse-file-3
+FileChecksum: SHA1: 1d79b197209c080699983b679e1f2293df6cff6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-3
+
+
+FileName: /usr/share/applications/org.gnome.seahorse.Application.desktop
+SPDXID: SPDXRef-seahorse-file-4
+FileChecksum: SHA1: 2d708d160212dd964a0e5b63e82c53f816ac792b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-4
+
+
+FileName: /usr/share/dbus-1/services/org.gnome.seahorse.Application.service
+SPDXID: SPDXRef-seahorse-file-5
+FileChecksum: SHA1: 2150269877a13a8507b15e422f29f65900aa6b65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-5
+
+
+FileName: /usr/share/doc/seahorse/AUTHORS
+SPDXID: SPDXRef-seahorse-file-6
+FileChecksum: SHA1: e2b2a886288e0c8cc0a7577c1926168bd666d6ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-6
+
+
+FileName: /usr/share/doc/seahorse/NEWS.gz
+SPDXID: SPDXRef-seahorse-file-7
+FileChecksum: SHA1: 191eb50a11c16f2c1508e61f1d4cd29a46d632e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-7
+
+
+FileName: /usr/share/doc/seahorse/README.md
+SPDXID: SPDXRef-seahorse-file-8
+FileChecksum: SHA1: f9e5189973685370e677089265ee97e552e09899
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-8
+
+
+FileName: /usr/share/doc/seahorse/changelog.Debian.gz
+SPDXID: SPDXRef-seahorse-file-9
+FileChecksum: SHA1: e4772ed60ae8e72e31b9ba500a3121407d63ab8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-9
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.seahorse.gschema.xml
+SPDXID: SPDXRef-seahorse-file-10
+FileChecksum: SHA1: 1387ff86323bd52053b611e86284225ec26849d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-10
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.seahorse.manager.gschema.xml
+SPDXID: SPDXRef-seahorse-file-11
+FileChecksum: SHA1: 2f0d3b21fd970d38adda162a7451afd1c9acc726
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-11
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.seahorse.window.gschema.xml
+SPDXID: SPDXRef-seahorse-file-12
+FileChecksum: SHA1: 994ee7956c94b355cdf2449ff897888993a82cc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-12
+
+
+FileName: /usr/share/gnome-shell/search-providers/seahorse-search-provider.ini
+SPDXID: SPDXRef-seahorse-file-13
+FileChecksum: SHA1: c32eee48c3f93f2888a4fdfd9871df83a02953c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-13
+
+
+FileName: /usr/share/help/C/seahorse/about-diff-private-public.page
+SPDXID: SPDXRef-seahorse-file-14
+FileChecksum: SHA1: 84d25341fc28c14cb79ad1b8b50e612d23f1d560
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-14
+
+
+FileName: /usr/share/help/C/seahorse/about-pgp.page
+SPDXID: SPDXRef-seahorse-file-15
+FileChecksum: SHA1: 5472034f2d3564b2879c86e73f66c9cabc226bd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-15
+
+
+FileName: /usr/share/help/C/seahorse/about-ssh.page
+SPDXID: SPDXRef-seahorse-file-16
+FileChecksum: SHA1: a50b43e77a68ff167647f0f43eb97bb89e796cbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-16
+
+
+FileName: /usr/share/help/C/seahorse/concepts.page
+SPDXID: SPDXRef-seahorse-file-17
+FileChecksum: SHA1: 2a4a17f6b302b415d97cbf0564798d9023634ab3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-17
+
+
+FileName: /usr/share/help/C/seahorse/glossary.page
+SPDXID: SPDXRef-seahorse-file-18
+FileChecksum: SHA1: fd8ae984e577e2e8f3640cc4578a53bb607af013
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-18
+
+
+FileName: /usr/share/help/C/seahorse/index.page
+SPDXID: SPDXRef-seahorse-file-19
+FileChecksum: SHA1: 3bd8a4ba6e14c735570d506f870063be819fa3a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-19
+
+
+FileName: /usr/share/help/C/seahorse/introduction.page
+SPDXID: SPDXRef-seahorse-file-20
+FileChecksum: SHA1: 70ebe337089c6253b05d2a742855ae07e8208e73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-20
+
+
+FileName: /usr/share/help/C/seahorse/key-servers-add.page
+SPDXID: SPDXRef-seahorse-file-21
+FileChecksum: SHA1: 9b9f094b28d6fe3005b5bb15b46ab93dd1bfb1ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-21
+
+
+FileName: /usr/share/help/C/seahorse/keyring-change-default.page
+SPDXID: SPDXRef-seahorse-file-22
+FileChecksum: SHA1: 78d979451ad51830d0423280288dde220a37c910
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-22
+
+
+FileName: /usr/share/help/C/seahorse/keyring-create.page
+SPDXID: SPDXRef-seahorse-file-23
+FileChecksum: SHA1: ff1624035787e52d3e0ed892e6af0e37070b4d2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-23
+
+
+FileName: /usr/share/help/C/seahorse/keyring-lock.page
+SPDXID: SPDXRef-seahorse-file-24
+FileChecksum: SHA1: 3c67a166b9216ab72f59b158ee4977d7ae1d9805
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-24
+
+
+FileName: /usr/share/help/C/seahorse/keyring-unlock.page
+SPDXID: SPDXRef-seahorse-file-25
+FileChecksum: SHA1: 6289b3fd764d3e8e4c2fa13d0f8e528383431a60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-25
+
+
+FileName: /usr/share/help/C/seahorse/keyring-update-password.page
+SPDXID: SPDXRef-seahorse-file-26
+FileChecksum: SHA1: 9f70d718898a73840d85d8a2c1d35fb4e2759e66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-26
+
+
+FileName: /usr/share/help/C/seahorse/keyring.page
+SPDXID: SPDXRef-seahorse-file-27
+FileChecksum: SHA1: 9efa8a9df98c31966b6285a031b073199fc460b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-27
+
+
+FileName: /usr/share/help/C/seahorse/legal.xml
+SPDXID: SPDXRef-seahorse-file-28
+FileChecksum: SHA1: a34dd9be4928f85b9b2f6c7830562981807dace6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-28
+
+
+FileName: /usr/share/help/C/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-29
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-29
+
+
+FileName: /usr/share/help/C/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-30
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-30
+
+
+FileName: /usr/share/help/C/seahorse/misc-key-backup.page
+SPDXID: SPDXRef-seahorse-file-31
+FileChecksum: SHA1: 4a0e5bdca9d7cd036ceee135041f7c7b935179e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-31
+
+
+FileName: /usr/share/help/C/seahorse/misc-key-fingerprint.page
+SPDXID: SPDXRef-seahorse-file-32
+FileChecksum: SHA1: 799cf09c32bb41907c7116263fe77debb01e2e18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-32
+
+
+FileName: /usr/share/help/C/seahorse/passwords-stored-create.page
+SPDXID: SPDXRef-seahorse-file-33
+FileChecksum: SHA1: d7dbc2daf3cf8852f399fcd98b674914733689d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-33
+
+
+FileName: /usr/share/help/C/seahorse/passwords-view.page
+SPDXID: SPDXRef-seahorse-file-34
+FileChecksum: SHA1: 6fded5f6ea516848d16304bc72cb9dee31733f62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-34
+
+
+FileName: /usr/share/help/C/seahorse/pgp-create.page
+SPDXID: SPDXRef-seahorse-file-35
+FileChecksum: SHA1: d307ea148458de448f9d8cc741c33a6d178c9255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-35
+
+
+FileName: /usr/share/help/C/seahorse/pgp-delete.page
+SPDXID: SPDXRef-seahorse-file-36
+FileChecksum: SHA1: 15f579b2e68037a53e66240d6149ab04f57317fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-36
+
+
+FileName: /usr/share/help/C/seahorse/pgp-expiration-change.page
+SPDXID: SPDXRef-seahorse-file-37
+FileChecksum: SHA1: 5e0b4b2fafc10935acb41e99e24e85a654611555
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-37
+
+
+FileName: /usr/share/help/C/seahorse/pgp-expired.page
+SPDXID: SPDXRef-seahorse-file-38
+FileChecksum: SHA1: 8a67f8290f5600c006ac83e0f4b9ade6a0d854f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-38
+
+
+FileName: /usr/share/help/C/seahorse/pgp-export.page
+SPDXID: SPDXRef-seahorse-file-39
+FileChecksum: SHA1: ccc04ab3de2d6d970e51a7569d777e7e9ecf32ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-39
+
+
+FileName: /usr/share/help/C/seahorse/pgp-import.page
+SPDXID: SPDXRef-seahorse-file-40
+FileChecksum: SHA1: 5dbfe66b15ae267c493e25801b169249be478099
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-40
+
+
+FileName: /usr/share/help/C/seahorse/pgp-photoid.page
+SPDXID: SPDXRef-seahorse-file-41
+FileChecksum: SHA1: b15eaabf8b2cc1079e0aaebb33b013b882e0c8c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-41
+
+
+FileName: /usr/share/help/C/seahorse/pgp-publish.page
+SPDXID: SPDXRef-seahorse-file-42
+FileChecksum: SHA1: 131fd33ff08bfb11c42caff4dc4576b6dd580de0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-42
+
+
+FileName: /usr/share/help/C/seahorse/pgp-retrieve-remote.page
+SPDXID: SPDXRef-seahorse-file-43
+FileChecksum: SHA1: cfa2061c98dc58799e077d6c5d3ee7b55bbcaf42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-43
+
+
+FileName: /usr/share/help/C/seahorse/pgp-sign.page
+SPDXID: SPDXRef-seahorse-file-44
+FileChecksum: SHA1: 8d1bcf56ba288a8ed21bcae289cac92a6d86c367
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-44
+
+
+FileName: /usr/share/help/C/seahorse/pgp-subkeys.page
+SPDXID: SPDXRef-seahorse-file-45
+FileChecksum: SHA1: fab2009e3d42a6591d224c9a411325e8f6f53659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-45
+
+
+FileName: /usr/share/help/C/seahorse/pgp-sync.page
+SPDXID: SPDXRef-seahorse-file-46
+FileChecksum: SHA1: 026023cac6cdae58f4559b621bcaaf29b0964e85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-46
+
+
+FileName: /usr/share/help/C/seahorse/pgp-userid-add.page
+SPDXID: SPDXRef-seahorse-file-47
+FileChecksum: SHA1: bb33b799560102be0bf94ec0dbd48f5eed85c857
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-47
+
+
+FileName: /usr/share/help/C/seahorse/pgp-userid-primary.page
+SPDXID: SPDXRef-seahorse-file-48
+FileChecksum: SHA1: 20017f3f57da189e39bd3f1e6f0687dc975c8d7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-48
+
+
+FileName: /usr/share/help/C/seahorse/pgp-userid-remove.page
+SPDXID: SPDXRef-seahorse-file-49
+FileChecksum: SHA1: 45f2925ebedfe2bd32e521189ab4ff8ca2045363
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-49
+
+
+FileName: /usr/share/help/C/seahorse/pgp-userid.page
+SPDXID: SPDXRef-seahorse-file-50
+FileChecksum: SHA1: 38bc14657a446aca306000bb5b130dab42a7f793
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-50
+
+
+FileName: /usr/share/help/C/seahorse/ssh-connect-remote.page
+SPDXID: SPDXRef-seahorse-file-51
+FileChecksum: SHA1: 6d0d074702a1a8315bd33627dce86009be0dc769
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-51
+
+
+FileName: /usr/share/help/C/seahorse/ssh-create.page
+SPDXID: SPDXRef-seahorse-file-52
+FileChecksum: SHA1: 2b6d65b20784bbf62fe8f4f760590349ed46b1ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-52
+
+
+FileName: /usr/share/help/C/seahorse/ssh-export.page
+SPDXID: SPDXRef-seahorse-file-53
+FileChecksum: SHA1: fff12b27486b0e967480c62ff4fe92b07981d451
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-53
+
+
+FileName: /usr/share/help/C/seahorse/ssh-import.page
+SPDXID: SPDXRef-seahorse-file-54
+FileChecksum: SHA1: 23b22b8a2ec8cecbcb65dcf5a46c24ed3d708e1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-54
+
+
+FileName: /usr/share/help/C/seahorse/subkeys-add.page
+SPDXID: SPDXRef-seahorse-file-55
+FileChecksum: SHA1: f1ee756ca773bd3509c4cf4a85456fc6b8afbe02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-55
+
+
+FileName: /usr/share/help/C/seahorse/subkeys-examine.page
+SPDXID: SPDXRef-seahorse-file-56
+FileChecksum: SHA1: 559499bf1765e284613eec347cff1307b2ff0a8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-56
+
+
+FileName: /usr/share/help/C/seahorse/subkeys-revoke.page
+SPDXID: SPDXRef-seahorse-file-57
+FileChecksum: SHA1: 8a82c0fa79ead70fb298bc7a6631959594232a02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-57
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-58
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-58
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.seahorse.Application-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-59
+FileChecksum: SHA1: 384de7ded45a551ed001ee378ec6d5e3380d871f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-59
+
+
+FileName: /usr/share/man/man1/seahorse.1.gz
+SPDXID: SPDXRef-seahorse-file-60
+FileChecksum: SHA1: 843891f673c2700e4773876281f81396354a2818
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-60
+
+
+FileName: /usr/share/metainfo/org.gnome.seahorse.Application.appdata.xml
+SPDXID: SPDXRef-seahorse-file-61
+FileChecksum: SHA1: 0261fab443173dca68443bf6168210b56028833d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-61
+
+
+FileName: /usr/share/seahorse/icons/hicolor/22x22/apps/seahorse-key-personal.png
+SPDXID: SPDXRef-seahorse-file-62
+FileChecksum: SHA1: cf2c4a584ee80ac47bfe38e10f34b39d2595c164
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-62
+
+
+FileName: /usr/share/seahorse/icons/hicolor/22x22/apps/seahorse-key-ssh.png
+SPDXID: SPDXRef-seahorse-file-63
+FileChecksum: SHA1: fcd232a41d8e4620899ca7af4f76f472adb2fca5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-63
+
+
+FileName: /usr/share/seahorse/icons/hicolor/22x22/apps/seahorse-key.png
+SPDXID: SPDXRef-seahorse-file-64
+FileChecksum: SHA1: a0c026b15356783c4906a010f51264ed6d1f31e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-64
+
+
+FileName: /usr/share/seahorse/icons/hicolor/22x22/status/seahorse-sign-bad.png
+SPDXID: SPDXRef-seahorse-file-65
+FileChecksum: SHA1: 9c8069a4d77143b19db997da9001d69c8f5481bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-65
+
+
+FileName: /usr/share/seahorse/icons/hicolor/22x22/status/seahorse-sign-ok.png
+SPDXID: SPDXRef-seahorse-file-66
+FileChecksum: SHA1: 3b1ed98567c1aa12e0776559b84133b7ac9aa1a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-66
+
+
+FileName: /usr/share/seahorse/icons/hicolor/22x22/status/seahorse-sign.png
+SPDXID: SPDXRef-seahorse-file-67
+FileChecksum: SHA1: ab51feb3bb1f3f2ba8e566854ebc8f0a0fd5f397
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-67
+
+
+FileName: /usr/share/seahorse/icons/hicolor/48x48/apps/seahorse-key-personal.png
+SPDXID: SPDXRef-seahorse-file-68
+FileChecksum: SHA1: 9b0a4eeb4448faa7fe8cf91523c697076004ea9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-68
+
+
+FileName: /usr/share/seahorse/icons/hicolor/48x48/apps/seahorse-key-ssh.png
+SPDXID: SPDXRef-seahorse-file-69
+FileChecksum: SHA1: 0114ccbdffd31c631a592873a1bef0dd29d6a4ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-69
+
+
+FileName: /usr/share/seahorse/icons/hicolor/48x48/apps/seahorse-key.png
+SPDXID: SPDXRef-seahorse-file-70
+FileChecksum: SHA1: 9774459ae09109041c5a6f7cb4bb1c8357188cc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-70
+
+
+FileName: /usr/share/seahorse/icons/hicolor/48x48/status/seahorse-sign-bad.png
+SPDXID: SPDXRef-seahorse-file-71
+FileChecksum: SHA1: f4981349f95c14d05a2cdaf1f49dca2b518b15b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-71
+
+
+FileName: /usr/share/seahorse/icons/hicolor/48x48/status/seahorse-sign-ok.png
+SPDXID: SPDXRef-seahorse-file-72
+FileChecksum: SHA1: 44678b78d99ae85bfa03011a5a8838d39fb8e5ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-72
+
+
+FileName: /usr/share/seahorse/icons/hicolor/48x48/status/seahorse-sign-unknown.png
+SPDXID: SPDXRef-seahorse-file-73
+FileChecksum: SHA1: ecfeee54f59b3dfaa3921de89ad7433710da1e1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-73
+
+
+FileName: /usr/share/seahorse/icons/hicolor/48x48/status/seahorse-sign.png
+SPDXID: SPDXRef-seahorse-file-74
+FileChecksum: SHA1: d13363c9b4d576122663bb8a46ba9e9ff7cec0f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-74
+
+
+FileName: /usr/share/help/ca/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-75
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-75
+
+
+FileName: /usr/share/help/ca/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-76
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-76
+
+
+FileName: /usr/share/help/cs/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-77
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-77
+
+
+FileName: /usr/share/help/cs/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-78
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-78
+
+
+FileName: /usr/share/help/de/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-79
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-79
+
+
+FileName: /usr/share/help/de/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-80
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-80
+
+
+FileName: /usr/share/help/el/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-81
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-81
+
+
+FileName: /usr/share/help/el/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-82
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-82
+
+
+FileName: /usr/share/help/es/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-83
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-83
+
+
+FileName: /usr/share/help/es/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-84
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-84
+
+
+FileName: /usr/share/help/eu/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-85
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-85
+
+
+FileName: /usr/share/help/eu/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-86
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-86
+
+
+FileName: /usr/share/help/fr/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-87
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-87
+
+
+FileName: /usr/share/help/fr/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-88
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-88
+
+
+FileName: /usr/share/help/gl/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-89
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-89
+
+
+FileName: /usr/share/help/gl/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-90
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-90
+
+
+FileName: /usr/share/help/hu/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-91
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-91
+
+
+FileName: /usr/share/help/hu/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-92
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-92
+
+
+FileName: /usr/share/help/id/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-93
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-93
+
+
+FileName: /usr/share/help/id/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-94
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-94
+
+
+FileName: /usr/share/help/pl/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-95
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-95
+
+
+FileName: /usr/share/help/pl/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-96
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-96
+
+
+FileName: /usr/share/help/pt_BR/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-97
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-97
+
+
+FileName: /usr/share/help/pt_BR/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-98
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-98
+
+
+FileName: /usr/share/help/ru/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-99
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-99
+
+
+FileName: /usr/share/help/ru/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-100
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-100
+
+
+FileName: /usr/share/help/sv/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-101
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-101
+
+
+FileName: /usr/share/help/sv/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-102
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-102
+
+
+FileName: /usr/share/help/uk/seahorse/media/dialog-password-symbolic.svg
+SPDXID: SPDXRef-seahorse-file-103
+FileChecksum: SHA1: ecbce67a48b61dacca7723deaa1fccb03968f8ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-103
+
+
+FileName: /usr/share/help/uk/seahorse/media/org.gnome.seahorse.Application.svg
+SPDXID: SPDXRef-seahorse-file-104
+FileChecksum: SHA1: c2b4c398f0acdc38206525770ab583e6456a44e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-seahorse CONTAINS SPDXRef-seahorse-file-104
+
+
+## Extracted License
+

@@ -1,0 +1,110 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/mokutil_0.4.0-1ubuntu2-3dec36c5-1897-5a40-9560-12baa937291a
+DocumentName: mokutil_0.4.0-1ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+ExternalDocumentRef: DocumentRef-libefivar1 http://spdx.org/spdxdocs/libefivar1_37-6ubuntu2-d1b8e61a-ba3e-5a9b-b92b-da5577b48afd SHA1: 85ae212b9f2feab7d4937af4da2e4c27281093fa
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mokutil
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T14:02:25Z
+
+
+## Package
+
+PackageName: mokutil
+PackageVersion: 0.4.0-1ubuntu2
+SPDXID: SPDXRef-mokutil
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 79ec8531e377b34f320c27648bd3f05d52cc8d0c
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LicenseRef-scancode-generic-exception
+PackageCopyrightText: <text>Copyright 2012-2013 Gary Lin <glin@suse.com> 2012 Matthew Garrett <mjg@redhat.com>
+</text>
+PackageComment: <text>tools for manipulating machine owner keys
+ This program provides the means to enroll and erase the machine owner
+ keys (MOK) stored in the database of shim.</text>
+Relationship: SPDXRef-mokutil DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-mokutil DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcrypt1
+Relationship: SPDXRef-mokutil DEPENDS_ON DocumentRef-libefivar1:SPDXRef-libefivar1
+Relationship: SPDXRef-mokutil DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libssl3
+
+
+## File
+
+FileName: /usr/share/doc/mokutil/copyright
+SPDXID: SPDXRef-mokutil-file-0
+FileChecksum: SHA1: 5512b9be92f6317ca114fdc2202c6543e1fe4874
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-scancode-generic-exception
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 2012-2013 Gary Lin <glin@suse.com> 2012 Matthew Garrett <mjg@redhat.com>
+</text>
+Relationship: SPDXRef-mokutil CONTAINS SPDXRef-mokutil-file-0
+
+
+FileName: /usr/bin/mokutil
+SPDXID: SPDXRef-mokutil-file-1
+FileChecksum: SHA1: e627cb00a4c064c5ab4c44b96ee00ad9cd636345
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mokutil CONTAINS SPDXRef-mokutil-file-1
+
+
+FileName: /usr/share/bash-completion/completions/mokutil
+SPDXID: SPDXRef-mokutil-file-2
+FileChecksum: SHA1: 11b4d6e1e25d90c338a4627feb89a7cca7d77ec4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mokutil CONTAINS SPDXRef-mokutil-file-2
+
+
+FileName: /usr/share/doc/mokutil/changelog.Debian.gz
+SPDXID: SPDXRef-mokutil-file-3
+FileChecksum: SHA1: ec33b9e7ff8c6278b212480d06679345d5a32ada
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mokutil CONTAINS SPDXRef-mokutil-file-3
+
+
+FileName: /usr/share/man/man1/mokutil.1.gz
+SPDXID: SPDXRef-mokutil-file-4
+FileChecksum: SHA1: 15ab1dd6c409797b82dfd577a306848c7770176e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-mokutil CONTAINS SPDXRef-mokutil-file-4
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-generic-exception
+LicenseName: Generic Exception Notice
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/generic-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/generic-exception.yml
+</text>
+
+

@@ -1,0 +1,1251 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/anacron_2.3-31ubuntu2-a3911883-88a6-5b3f-bb4e-9175c9bc002b
+DocumentName: anacron_2.3-31ubuntu2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-sensible-utils http://spdx.org/spdxdocs/sensible-utils_0.0.17-ed2b8d8c-10ea-5b7e-be9d-7532a6ad3a8d SHA1: b3885afd199ecc0b65ef25895f834b33fbadd6a4
+ExternalDocumentRef: DocumentRef-libfastjson4 http://spdx.org/spdxdocs/libfastjson4_0.99.9-1build2-6bee8a7d-b5ba-5745-b877-fb9f2fc58c89 SHA1: 2a6e8aab9525e4bfea0244f340ae4e2444ead63f
+ExternalDocumentRef: DocumentRef-libestr0 http://spdx.org/spdxdocs/libestr0_0.1.10-2.1build3-22be9af3-af9b-570a-92d1-2b571a3e9273 SHA1: 8e6ec73592429c24144a109a3d7f911cb13be714
+ExternalDocumentRef: DocumentRef-powermgmt-base http://spdx.org/spdxdocs/powermgmt-base_1.36-8a6309f0-db69-5130-ac46-5dc17bd2deeb SHA1: 6dd949d2b70105ad810f352366359dcb04b02699
+ExternalDocumentRef: DocumentRef-lsb-base http://spdx.org/spdxdocs/lsb-base_11.1.0ubuntu4-7475f67d-2cab-59ea-9d4f-e00004ef5c08 SHA1: 195b016e59427af64d0ed886134f136120dba265
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-anacron
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T12:40:51Z
+
+
+## Package
+
+PackageName: anacron
+PackageVersion: 2.3-31ubuntu2
+SPDXID: SPDXRef-anacron
+PackageHomePage: http://sourceforge.net/projects/anacron/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 855ead66d1185879572132928340afa776c2b7c2
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageCopyrightText: <text>Copyright (c) 1998 Itai Tzur <itzur@actcom.co.il>
+Copyright (c) 1999 Sean Shaleh Perry <shaleh@debian.org>
+</text>
+PackageComment: <text>cron-like program that doesn't go by time
+ Anacron (like "anac(h)ronistic") is a periodic command scheduler.  It
+ executes commands at intervals specified in days.  Unlike cron, it
+ does not assume that the system is running continuously.  It can
+ therefore be used to control the execution of daily, weekly, and
+ monthly jobs (or anything with a period of n days), on systems that
+ don't run 24 hours a day.  When installed and configured properly,
+ Anacron will make sure that the commands are run at the specified
+ intervals as closely as machine uptime permits.
+ .
+ This package is pre-configured to execute the daily jobs of the
+ Debian system.  You should install this program if your system isn't
+ powered on 24 hours a day to make sure the maintenance jobs of other
+ Debian packages are executed each day.</text>
+Relationship: SPDXRef-anacron DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debianutils
+Relationship: SPDXRef-anacron DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+Relationship: SPDXRef-anacron DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-anacron DEPENDS_ON SPDXRef-cron
+Relationship: SPDXRef-anacron DEPENDS_ON SPDXRef-rsyslog
+Relationship: SPDXRef-anacron DEPENDS_ON DocumentRef-powermgmt-base:SPDXRef-powermgmt-base
+
+
+PackageName: cron
+PackageVersion: 3.0pl1-137ubuntu3
+SPDXID: SPDXRef-cron
+PackageHomePage: https://ftp.isc.org/isc/cron/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: a907d0cc901f700e10d4cc65170f8299082cf46e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Artistic-1.0
+PackageLicenseInfoFromFiles: Artistic-1.0-Perl
+PackageLicenseInfoFromFiles: Artistic-2.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: LicenseRef-scancode-warranty-disclaimer
+PackageCopyrightText: <text>Copyright 1988, 1990, 1993, 1994 Paul Vixie <paul@vix.com> 1996-2005, Steve Greenland <stevegr@debian.org> 2003, Clint Adams <schizo@debian.org> 2010-2011, Christian Kastner <ckk@debian.org> 2011, Red Hat, Inc.
+Copyright 1988, 1990, 1993, 1994, Paul Vixie <paul@vix.com> 1994, Ian Jackson <ian@davenant.greenend.org.uk> 1996-2005, Steve Greenland <stevegr@debian.org> 2005-2014, Javier Fernandez-Sanguino Pena <jfs@debian.org> 2010-2016, Christian Kastner <ckk@debian.org>
+Copyright 2001, Sean M. Burke
+Copyright 2006, Javier Fernandez-Sanguino Pena <jfs@debian.org>
+Copyright 2011, Javier Fernandez-Sanguino Pena <jfs@debian.org>
+</text>
+PackageComment: <text>process scheduling daemon
+ The cron daemon is a background process that runs particular programs at
+ particular times (for example, every minute, day, week, or month), as
+ specified in a crontab. By default, users may also create crontabs of
+ their own so that processes are run on their behalf.
+ .
+ Output from the commands is usually mailed to the system administrator
+ (or to the user in question); you should probably install a mail system
+ as well so that you can receive these messages.
+ .
+ This cron package does not provide any system maintenance tasks. Basic
+ periodic maintenance tasks are provided by other packages, such
+ as checksecurity.</text>
+Relationship: SPDXRef-cron DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-cron DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam0g
+Relationship: SPDXRef-cron DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libselinux1
+Relationship: SPDXRef-cron DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-debianutils
+Relationship: SPDXRef-cron DEPENDS_ON DocumentRef-sensible-utils:SPDXRef-sensible-utils
+Relationship: SPDXRef-cron DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-adduser
+Relationship: SPDXRef-cron DEPENDS_ON DocumentRef-lsb-base:SPDXRef-lsb-base
+Relationship: SPDXRef-cron DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpam-runtime
+Relationship: SPDXRef-cron DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-init-system-helpers
+Relationship: SPDXRef-cron DEPENDS_ON SPDXRef-anacron
+Relationship: SPDXRef-cron DEPENDS_ON SPDXRef-logrotate
+
+
+PackageName: logrotate
+PackageVersion: 3.19.0-1ubuntu1.1
+SPDXID: SPDXRef-logrotate
+PackageHomePage: https://github.com/logrotate/logrotate
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2876f7734db0d67f98b9cf413c624d49b88291ab
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 1991-1993, The Regents of the University of California
+Copyright 1999, Joseph Carter ?-2017, Paul Martin <pm@debian.org> 2018-2022, Christian Gottsche <cgzones@googlemail.com>
+Copyright 1999-2022, Erik Troan, Preston Brown, Elliot Lee, Miloslav Trmac, Dan Walsh, Peter Vrabec, Jesse Keating, Tomas Smetana, Christian Gottsche and Kamil Dudka
+Copyright 2007-2017, Free Software Foundation, Inc.
+</text>
+PackageComment: <text>Log rotation utility
+ The logrotate utility is designed to simplify the administration of
+ log files on a system which generates a lot of log files.  Logrotate
+ allows for the automatic rotation compression, removal and mailing of
+ log files.  Logrotate can be set to handle a log file daily, weekly,
+ monthly or when the log file gets to a certain size.  Normally, logrotate
+ runs as a daily cron job.</text>
+Relationship: SPDXRef-logrotate DEPENDS_ON SPDXRef-cron
+Relationship: SPDXRef-logrotate DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libacl1
+Relationship: SPDXRef-logrotate DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-logrotate DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpopt0
+Relationship: SPDXRef-logrotate DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libselinux1
+
+
+PackageName: rsyslog
+PackageVersion: 8.2112.0-2ubuntu2.2
+SPDXID: SPDXRef-rsyslog
+PackageHomePage: https://www.rsyslog.com/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: fbfdd5a0d69f0f0fba104693e0ec87d83fbe9f1a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: LGPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2002, 2004 Christopher Clark
+Copyright 2003-2012 Rainer Gerhards and Adiscon GmbH
+Copyright 2007-2012 Michael Biebl <biebl@debian.org>
+</text>
+PackageComment: <text>reliable system and kernel logging daemon
+ Rsyslog is a multi-threaded implementation of syslogd (a system utility
+ providing support for message logging), with features that include:
+  * reliable syslog over TCP, SSL/TLS and RELP
+  * on-demand disk buffering
+  * email alerting
+  * writing to MySQL or PostgreSQL databases (via separate output plugins)
+  * permitted sender lists
+  * filtering on any part of the syslog message
+  * on-the-wire message compression
+  * fine-grained output format control
+  * failover to backup destinations
+  * enterprise-class encrypted syslog relaying
+ .
+ It is the default syslogd on Debian systems.</text>
+Relationship: SPDXRef-rsyslog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-rsyslog DEPENDS_ON DocumentRef-libestr0:SPDXRef-libestr0
+Relationship: SPDXRef-rsyslog DEPENDS_ON DocumentRef-libfastjson4:SPDXRef-libfastjson4
+Relationship: SPDXRef-rsyslog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+Relationship: SPDXRef-rsyslog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libuuid1
+Relationship: SPDXRef-rsyslog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-zlib1g
+Relationship: SPDXRef-rsyslog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-adduser
+Relationship: SPDXRef-rsyslog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-ucf
+Relationship: SPDXRef-rsyslog DEPENDS_ON SPDXRef-logrotate
+Relationship: SPDXRef-rsyslog DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-apparmor
+
+
+## File
+
+FileName: /usr/share/doc/anacron/copyright
+SPDXID: SPDXRef-anacron-file-0
+FileChecksum: SHA1: fa5fa5d5c96f9d96060d4d9d97caf071de572924
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998 Itai Tzur <itzur@actcom.co.il>
+Copyright (c) 1999 Sean Shaleh Perry <shaleh@debian.org>
+</text>
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-0
+
+
+FileName: /etc/anacrontab
+SPDXID: SPDXRef-anacron-file-1
+FileChecksum: SHA1: dfd2bc4a2f1065ffa6550eb240f2aef3112ea805
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-1
+
+
+FileName: /etc/cron.d/anacron
+SPDXID: SPDXRef-anacron-file-2
+FileChecksum: SHA1: 5a2bf7ddd13122fb411e788716f770cf8769aee3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-2
+
+
+FileName: /etc/cron.daily/0anacron
+SPDXID: SPDXRef-anacron-file-3
+FileChecksum: SHA1: 500f4d46ec164f6f89e6fd62f9fb97121c4dcb32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-3
+
+
+FileName: /etc/cron.monthly/0anacron
+SPDXID: SPDXRef-anacron-file-4
+FileChecksum: SHA1: eabfc127c2bc6c042ae30f8fc7a57d2a3c9056dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-4
+
+
+FileName: /etc/cron.weekly/0anacron
+SPDXID: SPDXRef-anacron-file-5
+FileChecksum: SHA1: 002c6972752ceea62b29171ffbf300f769861396
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-5
+
+
+FileName: /etc/default/anacron
+SPDXID: SPDXRef-anacron-file-6
+FileChecksum: SHA1: 5a89110d6b53fc91f76657516362ca89998c98ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-6
+
+
+FileName: /etc/init.d/anacron
+SPDXID: SPDXRef-anacron-file-7
+FileChecksum: SHA1: 6eebd5ca9b3428e2d225fb9b2d4268072b806f3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-7
+
+
+FileName: /lib/systemd/system/anacron.service
+SPDXID: SPDXRef-anacron-file-8
+FileChecksum: SHA1: 78ac57daa0f1aa9b130741a4007d7b8a47831ea6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-8
+
+
+FileName: /lib/systemd/system/anacron.timer
+SPDXID: SPDXRef-anacron-file-9
+FileChecksum: SHA1: 255c27e47f8c3c90c33cd99774b0105ae9e15109
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-9
+
+
+FileName: /usr/sbin/anacron
+SPDXID: SPDXRef-anacron-file-10
+FileChecksum: SHA1: 12185ae4cceaa84f3997bf211996646a3459e188
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-10
+
+
+FileName: /usr/share/doc/anacron/README.Debian
+SPDXID: SPDXRef-anacron-file-11
+FileChecksum: SHA1: e59554183573a212fce71e5367c68a3baf9cd689
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-11
+
+
+FileName: /usr/share/doc/anacron/README.gz
+SPDXID: SPDXRef-anacron-file-12
+FileChecksum: SHA1: e5f2788d7d2dc513b0384014ccfac60d990f032b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-12
+
+
+FileName: /usr/share/doc/anacron/TODO
+SPDXID: SPDXRef-anacron-file-13
+FileChecksum: SHA1: abbfd4f0029908c21269e694721e39f0d1765eef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-13
+
+
+FileName: /usr/share/doc/anacron/changelog.Debian.gz
+SPDXID: SPDXRef-anacron-file-14
+FileChecksum: SHA1: 791e697a081fc23478da21f7df9fb1bac9e24444
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-14
+
+
+FileName: /usr/share/man/man5/anacrontab.5.gz
+SPDXID: SPDXRef-anacron-file-15
+FileChecksum: SHA1: c7426df8c0fa0ce637980d48c6c8df755ae5d604
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-15
+
+
+FileName: /usr/share/man/man8/anacron.8.gz
+SPDXID: SPDXRef-anacron-file-16
+FileChecksum: SHA1: 67552ed7f48528815c657c0507e1fe9d9dd37a05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-anacron CONTAINS SPDXRef-anacron-file-16
+
+
+FileName: /usr/share/doc/cron/copyright
+SPDXID: SPDXRef-cron-file-0
+FileChecksum: SHA1: 336c7684621f815bc4dbd4d7faede4b906ff26e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Artistic-1.0
+LicenseInfoInFile: ISC
+LicenseInfoInFile: Artistic-2.0
+LicenseInfoInFile: Artistic-1.0-Perl
+FileCopyrightText: <text>Copyright 1988, 1990, 1993, 1994, Paul Vixie <paul@vix.com> 1994, Ian Jackson <ian@davenant.greenend.org.uk> 1996-2005, Steve Greenland <stevegr@debian.org> 2005-2014, Javier Fernandez-Sanguino Pena <jfs@debian.org> 2010-2016, Christian Kastner <ckk@debian.org>
+Copyright 1988, 1990, 1993, 1994 Paul Vixie <paul@vix.com> 1996-2005, Steve Greenland <stevegr@debian.org> 2003, Clint Adams <schizo@debian.org> 2010-2011, Christian Kastner <ckk@debian.org> 2011, Red Hat, Inc.
+Copyright 2006, Javier Fernandez-Sanguino Pena <jfs@debian.org>
+Copyright 2011, Javier Fernandez-Sanguino Pena <jfs@debian.org>
+Copyright 2001, Sean M. Burke
+</text>
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-0
+
+
+FileName: /etc/cron.d/.placeholder
+SPDXID: SPDXRef-cron-file-1
+FileChecksum: SHA1: 8163bdb537ae25675b9e5be5c767d97a26a596fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-1
+
+
+FileName: /etc/cron.daily/.placeholder
+SPDXID: SPDXRef-cron-file-2
+FileChecksum: SHA1: 8163bdb537ae25675b9e5be5c767d97a26a596fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-2
+
+
+FileName: /etc/cron.hourly/.placeholder
+SPDXID: SPDXRef-cron-file-3
+FileChecksum: SHA1: 8163bdb537ae25675b9e5be5c767d97a26a596fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-3
+
+
+FileName: /etc/cron.monthly/.placeholder
+SPDXID: SPDXRef-cron-file-4
+FileChecksum: SHA1: 8163bdb537ae25675b9e5be5c767d97a26a596fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-4
+
+
+FileName: /etc/cron.weekly/.placeholder
+SPDXID: SPDXRef-cron-file-5
+FileChecksum: SHA1: 8163bdb537ae25675b9e5be5c767d97a26a596fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-5
+
+
+FileName: /etc/crontab
+SPDXID: SPDXRef-cron-file-6
+FileChecksum: SHA1: 835d38771a0c5b112596ab8841a7904f41c266ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-6
+
+
+FileName: /etc/default/cron
+SPDXID: SPDXRef-cron-file-7
+FileChecksum: SHA1: 2a00d9159e81751d2bfd8e47b920b9906cdbde20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-7
+
+
+FileName: /etc/init.d/cron
+SPDXID: SPDXRef-cron-file-8
+FileChecksum: SHA1: bf3ad10cb617db05b073ce73ca02d8c548497c06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-8
+
+
+FileName: /etc/pam.d/cron
+SPDXID: SPDXRef-cron-file-9
+FileChecksum: SHA1: d2ac62a1ec1cd39320342dded5835e575268fb73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-9
+
+
+FileName: /lib/systemd/system/cron.service
+SPDXID: SPDXRef-cron-file-10
+FileChecksum: SHA1: 6898bb088d41799d653c8f505c94c4bb44f63534
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-10
+
+
+FileName: /usr/bin/crontab
+SPDXID: SPDXRef-cron-file-11
+FileChecksum: SHA1: a1509e02d80f15765a91f305a1e9f57f08722f95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-11
+
+
+FileName: /usr/sbin/cron
+SPDXID: SPDXRef-cron-file-12
+FileChecksum: SHA1: 3077c51fa9a742089c5384089a5141f895306e76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-12
+
+
+FileName: /usr/share/bug/cron/control
+SPDXID: SPDXRef-cron-file-13
+FileChecksum: SHA1: ca5c45b6c973e450dabc6aa498a54ebe2717ec81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-13
+
+
+FileName: /usr/share/bug/cron/script
+SPDXID: SPDXRef-cron-file-14
+FileChecksum: SHA1: 99ac4932b27663443d2e8b65e82b7c7ca522d1ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-14
+
+
+FileName: /usr/share/doc/cron/FEATURES
+SPDXID: SPDXRef-cron-file-15
+FileChecksum: SHA1: b80cca27897d0954a321bf6c15cdc8c96c374e0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-15
+
+
+FileName: /usr/share/doc/cron/NEWS.Debian.gz
+SPDXID: SPDXRef-cron-file-16
+FileChecksum: SHA1: 9036b73d49df4b6a5e960960b718cb2c383cb1ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-16
+
+
+FileName: /usr/share/doc/cron/README
+SPDXID: SPDXRef-cron-file-17
+FileChecksum: SHA1: 0be5be6cad08fb34182ac01e5afabb59f4b1f9ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-17
+
+
+FileName: /usr/share/doc/cron/README.Debian
+SPDXID: SPDXRef-cron-file-18
+FileChecksum: SHA1: 7c9226ee521df9a9e206810236405dd54ac869f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-18
+
+
+FileName: /usr/share/doc/cron/README.anacron
+SPDXID: SPDXRef-cron-file-19
+FileChecksum: SHA1: 3d64c16576eb2e63e0c1defacc231f41fe5a77d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-19
+
+
+FileName: /usr/share/doc/cron/THANKS
+SPDXID: SPDXRef-cron-file-20
+FileChecksum: SHA1: 7b64f1aae4d9df6707cf43a8f10fc73ed2cc2af0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-20
+
+
+FileName: /usr/share/doc/cron/TODO.Debian
+SPDXID: SPDXRef-cron-file-21
+FileChecksum: SHA1: 596474cd292e86506b40ca398661137021ce1d50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-21
+
+
+FileName: /usr/share/doc/cron/changelog.Debian.gz
+SPDXID: SPDXRef-cron-file-22
+FileChecksum: SHA1: 67f0d83c13051fef2504b4aef1e7d6d26e828c1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-22
+
+
+FileName: /usr/share/doc/cron/examples/cron-stats.pl
+SPDXID: SPDXRef-cron-file-23
+FileChecksum: SHA1: 10df47dec3d0c4249de0814fd5e00bfc8351260b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-23
+
+
+FileName: /usr/share/doc/cron/examples/cron-tasks-review.sh
+SPDXID: SPDXRef-cron-file-24
+FileChecksum: SHA1: f317e05b5c58a9987945c2daac316fbc3e3a787f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-24
+
+
+FileName: /usr/share/doc/cron/examples/crontab2english.pl
+SPDXID: SPDXRef-cron-file-25
+FileChecksum: SHA1: de3367e4b73932558b28c983e0886b816d0c5d82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-25
+
+
+FileName: /usr/share/man/man1/crontab.1.gz
+SPDXID: SPDXRef-cron-file-26
+FileChecksum: SHA1: 45c4d05758c82d73266dc88466cdec0a5a5c3a2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-26
+
+
+FileName: /usr/share/man/man5/crontab.5.gz
+SPDXID: SPDXRef-cron-file-27
+FileChecksum: SHA1: e659baf8f369d87737fc67e7202eff01364a3074
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-27
+
+
+FileName: /usr/share/man/man8/cron.8.gz
+SPDXID: SPDXRef-cron-file-28
+FileChecksum: SHA1: 79b91aac7029904c6d8588619892585620e8be3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-cron CONTAINS SPDXRef-cron-file-28
+
+
+FileName: /usr/share/doc/logrotate/copyright
+SPDXID: SPDXRef-logrotate-file-0
+FileChecksum: SHA1: c39e8ef0b5d45d92ba683b72e62ceb695be8c752
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 1999-2022, Erik Troan, Preston Brown, Elliot Lee, Miloslav Trmac, Dan Walsh, Peter Vrabec, Jesse Keating, Tomas Smetana, Christian Gottsche and Kamil Dudka
+Copyright 2007-2017, Free Software Foundation, Inc.
+Copyright 1991-1993, The Regents of the University of California
+Copyright 1999, Joseph Carter ?-2017, Paul Martin <pm@debian.org> 2018-2022, Christian Gottsche <cgzones@googlemail.com>
+</text>
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-0
+
+
+FileName: /etc/cron.daily/logrotate
+SPDXID: SPDXRef-logrotate-file-1
+FileChecksum: SHA1: 50218a70765b407bdd938087f35dfce1eaaececf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-1
+
+
+FileName: /etc/logrotate.conf
+SPDXID: SPDXRef-logrotate-file-2
+FileChecksum: SHA1: 260a7430b643cc79702b711a1cb786c3e290bd06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-2
+
+
+FileName: /etc/logrotate.d/btmp
+SPDXID: SPDXRef-logrotate-file-3
+FileChecksum: SHA1: b625ba4d252ec851f8a3a55c2af59a0b2e970ff1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-3
+
+
+FileName: /etc/logrotate.d/wtmp
+SPDXID: SPDXRef-logrotate-file-4
+FileChecksum: SHA1: 93d805505cf27700ee05425271db044f130e126e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-4
+
+
+FileName: /lib/systemd/system/logrotate.service
+SPDXID: SPDXRef-logrotate-file-5
+FileChecksum: SHA1: c16e78c11baf49dc4852e7167252917d308e397f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-5
+
+
+FileName: /lib/systemd/system/logrotate.timer
+SPDXID: SPDXRef-logrotate-file-6
+FileChecksum: SHA1: e3eb1ece4217a7e6fcaa32146b616232c4360e5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-6
+
+
+FileName: /usr/sbin/logrotate
+SPDXID: SPDXRef-logrotate-file-7
+FileChecksum: SHA1: 505c32364044ef095ee5956064aa20a1dcd4bdce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-7
+
+
+FileName: /usr/share/bug/logrotate/script
+SPDXID: SPDXRef-logrotate-file-8
+FileChecksum: SHA1: b8d0a44abebf54d6af147c48c050b9b69158b2c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-8
+
+
+FileName: /usr/share/doc/logrotate/NEWS.Debian.gz
+SPDXID: SPDXRef-logrotate-file-9
+FileChecksum: SHA1: 399b548f5a9b241f5d81090570e8f0fe527108cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-9
+
+
+FileName: /usr/share/doc/logrotate/changelog.Debian.gz
+SPDXID: SPDXRef-logrotate-file-10
+FileChecksum: SHA1: 302eb0a9b0426be36077780704791a83999710de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-10
+
+
+FileName: /usr/share/man/man8/logrotate.8.gz
+SPDXID: SPDXRef-logrotate-file-11
+FileChecksum: SHA1: 9d6d904dbed658b33d78d674a7e1110afd5138e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-11
+
+
+FileName: /usr/share/man/man5/logrotate.conf.5.gz
+SPDXID: SPDXRef-logrotate-file-12
+FileChecksum: SHA1: 9d6d904dbed658b33d78d674a7e1110afd5138e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-logrotate CONTAINS SPDXRef-logrotate-file-12
+
+
+FileName: /usr/share/doc/rsyslog/copyright
+SPDXID: SPDXRef-rsyslog-file-0
+FileChecksum: SHA1: bc8613f6a9fad23780ab19547f325f8f391d1ccd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LGPL-3.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2003-2012 Rainer Gerhards and Adiscon GmbH
+Copyright 2003-2012 Rainer Gerhards and Adiscon GmbH
+Copyright 2002, 2004 Christopher Clark
+Copyright 2007-2012 Michael Biebl <biebl@debian.org>
+</text>
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-0
+
+
+FileName: /etc/apparmor.d/usr.sbin.rsyslogd
+SPDXID: SPDXRef-rsyslog-file-1
+FileChecksum: SHA1: b4784d010bbdd7c466a3be6b57e0b1296f20d369
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-1
+
+
+FileName: /etc/logcheck/ignore.d.server/rsyslog
+SPDXID: SPDXRef-rsyslog-file-2
+FileChecksum: SHA1: bbd4f99b1965a54f3287b0194e03cfbd1263b848
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-2
+
+
+FileName: /etc/logrotate.d/rsyslog
+SPDXID: SPDXRef-rsyslog-file-3
+FileChecksum: SHA1: 19a6c90757cf1b5e80dffc828dce928d1377e746
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-3
+
+
+FileName: /etc/rsyslog.conf
+SPDXID: SPDXRef-rsyslog-file-4
+FileChecksum: SHA1: 1a4ae6ca64f737a1dedbf32724006c8974e2165e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-4
+
+
+FileName: /lib/systemd/system/dmesg.service
+SPDXID: SPDXRef-rsyslog-file-5
+FileChecksum: SHA1: 4969da8bf494b9ad54fffba732e1a9dd038a2d05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-5
+
+
+FileName: /lib/systemd/system/rsyslog.service
+SPDXID: SPDXRef-rsyslog-file-6
+FileChecksum: SHA1: 7a0a7c74371d0b620648d90184f92d67ebd84cbb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-6
+
+
+FileName: /usr/lib/rsyslog/rsyslog-rotate
+SPDXID: SPDXRef-rsyslog-file-7
+FileChecksum: SHA1: 1c37229db32c5dd784a9469ccfdd477625ce5ccb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-7
+
+
+FileName: /usr/lib/tmpfiles.d/00rsyslog.conf
+SPDXID: SPDXRef-rsyslog-file-8
+FileChecksum: SHA1: 61a6c380f755daf3b3fbddef8159f33749d9d237
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-8
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/fmhash.so
+SPDXID: SPDXRef-rsyslog-file-9
+FileChecksum: SHA1: 9c2cf7c03f9fed554fcdee3e6bc05ff0e199732f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-9
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/imfile.so
+SPDXID: SPDXRef-rsyslog-file-10
+FileChecksum: SHA1: e88ae8415c1a99ab9b47906f62d7a14586698350
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-10
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/imjournal.so
+SPDXID: SPDXRef-rsyslog-file-11
+FileChecksum: SHA1: cff9ff7342a82e5bba2c029136e1ff0f19a84864
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-11
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/imklog.so
+SPDXID: SPDXRef-rsyslog-file-12
+FileChecksum: SHA1: 72f473c9fab3e18aad54bbda7377f555492e11ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-12
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/imkmsg.so
+SPDXID: SPDXRef-rsyslog-file-13
+FileChecksum: SHA1: 4177e18c8daa76be03260c1ae303fbdb2cbb7e4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-13
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/immark.so
+SPDXID: SPDXRef-rsyslog-file-14
+FileChecksum: SHA1: ee19a042bde79bd2540cf5b40170029ffc84b12c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-14
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/impstats.so
+SPDXID: SPDXRef-rsyslog-file-15
+FileChecksum: SHA1: a6c77501dfcd1d548394a74bd6d8f3d91f143204
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-15
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/imptcp.so
+SPDXID: SPDXRef-rsyslog-file-16
+FileChecksum: SHA1: 9dcb9494d7a8b31f146b934d2525ce6046a12132
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-16
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/imtcp.so
+SPDXID: SPDXRef-rsyslog-file-17
+FileChecksum: SHA1: d97eb089aeff83a8cbf80a9596023d4fa19f36b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-17
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/imudp.so
+SPDXID: SPDXRef-rsyslog-file-18
+FileChecksum: SHA1: ff6d006cf5d11fbf8523b1ce6b96399a7ae64a0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-18
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/imuxsock.so
+SPDXID: SPDXRef-rsyslog-file-19
+FileChecksum: SHA1: 1f7acf45cb818012f11841a39b6b89464a898a94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-19
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/lmnet.so
+SPDXID: SPDXRef-rsyslog-file-20
+FileChecksum: SHA1: a5a94f045d34a3f6745d6a134b699aa97680eb84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-20
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/lmnetstrms.so
+SPDXID: SPDXRef-rsyslog-file-21
+FileChecksum: SHA1: 471bc67172307c9c9ff89df4e7b3093fb832e12f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-21
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/lmnsd_ptcp.so
+SPDXID: SPDXRef-rsyslog-file-22
+FileChecksum: SHA1: c63ec84ecfabfd6ab8dfacbc765726a454c6077f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-22
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/lmregexp.so
+SPDXID: SPDXRef-rsyslog-file-23
+FileChecksum: SHA1: 4b1295382846855eaacd1138a9e0cee2907d14ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-23
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/lmtcpclt.so
+SPDXID: SPDXRef-rsyslog-file-24
+FileChecksum: SHA1: 5642d62be0a727a3489a68752b31093017b463b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-24
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/lmtcpsrv.so
+SPDXID: SPDXRef-rsyslog-file-25
+FileChecksum: SHA1: a998bce5d25c9cd7934f3710dcaa08241f0b5482
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-25
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/lmzlibw.so
+SPDXID: SPDXRef-rsyslog-file-26
+FileChecksum: SHA1: 9bf0749e8cd6e82ae5d579a3f64f9ed9928610d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-26
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/mmanon.so
+SPDXID: SPDXRef-rsyslog-file-27
+FileChecksum: SHA1: ec5a63e11d165d5a7c088efc01244e516779941f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-27
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/mmexternal.so
+SPDXID: SPDXRef-rsyslog-file-28
+FileChecksum: SHA1: 45f6086635c8ffdeb3d53fc551b35b2151783df9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-28
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/mmfields.so
+SPDXID: SPDXRef-rsyslog-file-29
+FileChecksum: SHA1: 64600c0094e3976a6b5a86d193ed76e6edcc6acd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-29
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/mmjsonparse.so
+SPDXID: SPDXRef-rsyslog-file-30
+FileChecksum: SHA1: e73a3d0182e7bca1e56e1ce2a1320f3b002565a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-30
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/mmpstrucdata.so
+SPDXID: SPDXRef-rsyslog-file-31
+FileChecksum: SHA1: 7d03934145e4ff1c89c0389b6276926513a31c60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-31
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/mmrm1stspace.so
+SPDXID: SPDXRef-rsyslog-file-32
+FileChecksum: SHA1: 0afc125169eb011d8a122cce1660e238a73f801b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-32
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/mmsequence.so
+SPDXID: SPDXRef-rsyslog-file-33
+FileChecksum: SHA1: e1662c3adffbfe8defd4bc39be04ca2b3883825d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-33
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/mmutf8fix.so
+SPDXID: SPDXRef-rsyslog-file-34
+FileChecksum: SHA1: 611c8b1d53bc3bf18c94c628af3911b7b6a39778
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-34
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/omjournal.so
+SPDXID: SPDXRef-rsyslog-file-35
+FileChecksum: SHA1: 450d98b871670f8ee36cc01aad008cec1a9ca4ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-35
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/ommail.so
+SPDXID: SPDXRef-rsyslog-file-36
+FileChecksum: SHA1: 2bb8eeb9e7e3324950c2c117c4b5b82df37ea065
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-36
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/omprog.so
+SPDXID: SPDXRef-rsyslog-file-37
+FileChecksum: SHA1: a460ea91ef1c95b9c02ced17aab06e5e96e35237
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-37
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/omuxsock.so
+SPDXID: SPDXRef-rsyslog-file-38
+FileChecksum: SHA1: 732dcbe6ae06cde55195ac0179ede5b80861abc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-38
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/pmaixforwardedfrom.so
+SPDXID: SPDXRef-rsyslog-file-39
+FileChecksum: SHA1: e7178cd47eeaa8076443eb67e85ee3f29742a1f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-39
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/pmciscoios.so
+SPDXID: SPDXRef-rsyslog-file-40
+FileChecksum: SHA1: c61ed6deaab29e4b15d1c0fd2d0f40e96dbffc07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-40
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/pmcisconames.so
+SPDXID: SPDXRef-rsyslog-file-41
+FileChecksum: SHA1: 2dca6f40efb314d8406d9afcc4fb76815c848f8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-41
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/pmlastmsg.so
+SPDXID: SPDXRef-rsyslog-file-42
+FileChecksum: SHA1: 6d0b68b01e2d401b01ef143328e7aec025ccb23d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-42
+
+
+FileName: /usr/lib/x86_64-linux-gnu/rsyslog/pmsnare.so
+SPDXID: SPDXRef-rsyslog-file-43
+FileChecksum: SHA1: b8ab0081bfcf10415dcb342d294c4cee5234802f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-43
+
+
+FileName: /usr/sbin/rsyslogd
+SPDXID: SPDXRef-rsyslog-file-44
+FileChecksum: SHA1: edc8461de6a0f82336accbd2eb577b881b250bbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-44
+
+
+FileName: /usr/share/doc/rsyslog/AUTHORS
+SPDXID: SPDXRef-rsyslog-file-45
+FileChecksum: SHA1: 2d1eeed592be7355e62c81c7d5925fae0ffb7d2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-45
+
+
+FileName: /usr/share/doc/rsyslog/NEWS.Debian.gz
+SPDXID: SPDXRef-rsyslog-file-46
+FileChecksum: SHA1: 840913bb74f9abdda48ca880e750c4bf08fc0be1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-46
+
+
+FileName: /usr/share/doc/rsyslog/README.Debian
+SPDXID: SPDXRef-rsyslog-file-47
+FileChecksum: SHA1: c5cfc36db9f43dcbd524ff473196e2d781485c06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-47
+
+
+FileName: /usr/share/doc/rsyslog/changelog.Debian.gz
+SPDXID: SPDXRef-rsyslog-file-48
+FileChecksum: SHA1: 1e8125ef27153e297a9b40fb5d1eebc80b3e4c0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-48
+
+
+FileName: /usr/share/doc/rsyslog/examples/rsyslog.d/console.conf
+SPDXID: SPDXRef-rsyslog-file-49
+FileChecksum: SHA1: fa4fea0c954b421a351109950318778fa502bc77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-49
+
+
+FileName: /usr/share/doc/rsyslog/examples/rsyslog.d/xconsole.conf
+SPDXID: SPDXRef-rsyslog-file-50
+FileChecksum: SHA1: cc9b753ba1a4bbbb1a6a2edf3e248310d0a2219c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-50
+
+
+FileName: /usr/share/doc/rsyslog/examples/tmpfiles.d/xconsole.conf
+SPDXID: SPDXRef-rsyslog-file-51
+FileChecksum: SHA1: eef6926937987f5a2e7e2b9431860c18d2533001
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-51
+
+
+FileName: /usr/share/man/man5/rsyslog.conf.5.gz
+SPDXID: SPDXRef-rsyslog-file-52
+FileChecksum: SHA1: e8942340f9c1179a5a532bb0211b3d0d151eb5b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-52
+
+
+FileName: /usr/share/man/man8/rsyslogd.8.gz
+SPDXID: SPDXRef-rsyslog-file-53
+FileChecksum: SHA1: ccd4bc44cf0a32b84a15f0279ef86d7abbe0e852
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-53
+
+
+FileName: /usr/share/rsyslog/50-default.conf
+SPDXID: SPDXRef-rsyslog-file-54
+FileChecksum: SHA1: 7ce40a196c130dccedad3bfdc2bb91e06cf8a2f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-rsyslog CONTAINS SPDXRef-rsyslog-file-54
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-warranty-disclaimer
+LicenseName: Generic Bare Warranty Disclaimer
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/warranty-disclaimer.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/warranty-disclaimer.yml
+</text>
+
+

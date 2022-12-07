@@ -1,0 +1,2755 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/grub-efi-amd64-bin_2.06-2ubuntu7-ab2647b4-b31f-54f5-945d-ff69ccddc596
+DocumentName: grub-efi-amd64-bin_2.06-2ubuntu7
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-secureboot-db http://spdx.org/spdxdocs/secureboot-db_1.8-95189050-da56-507a-a578-43979a79199d SHA1: c9efecfd844951527b8954aa44807a97480886d8
+ExternalDocumentRef: DocumentRef-efibootmgr http://spdx.org/spdxdocs/efibootmgr_17-1ubuntu2-fda7542f-1269-523f-9632-b9b38959a38b SHA1: 00c7f3308c8827085dfa774af35850ac6f3529f5
+ExternalDocumentRef: DocumentRef-grub2-common http://spdx.org/spdxdocs/grub2-common_2.06-2ubuntu7-4d58a4e0-1ee4-5aca-b813-f41200e08666 SHA1: 56a5406fc1ae6432ed4e00be5d70070bdba26049
+ExternalDocumentRef: DocumentRef-grub-common.Cycle http://spdx.org/spdxdocs/grub-common_2.06-2ubuntu7-96637425-8f95-59fb-9b7a-a983e3964ee5 SHA1: 0e51f3abee7dadc223733e0d9990ce77e598ef9a
+ExternalDocumentRef: DocumentRef-grub-pc.Cycle http://spdx.org/spdxdocs/grub-pc_2.06-2ubuntu7-8b13debd-7562-57c1-865e-34830b192165 SHA1: 0082fc195ffc288b4a5b81abf29d8322b7c2f14c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-grub-efi-amd64-bin
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:14:28Z
+
+
+## Package
+
+PackageName: grub-efi-amd64-bin
+PackageVersion: 2.06-2ubuntu7
+SPDXID: SPDXRef-grub-efi-amd64-bin
+PackageHomePage: https://www.gnu.org/software/grub/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 996c1bc23a363e930c2770b0e433cb81a1409ff5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-only
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: <text>Copyright 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc
+Copyright 2003, 2004, 2005, 2006, 2007, 2008, 2009, Robert Millan 2005, 2006, 2007, Otavio Salvador 2008, 2009, Felix Zielcke 2009, Jordi Mallach
+Copyright 2011 Daniel Tschudi
+Copyright 2012 Free Software Foundation, Inc
+Copyright Nathan Coulson 2003, 2007 Free Software Foundation, Inc 2003 NIIBE Yutaka
+</text>
+PackageComment: <text>GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with the
+ EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-amd64 is also
+ installed.</text>
+Relationship: SPDXRef-grub-efi-amd64-bin DEPENDS_ON DocumentRef-grub-common.Cycle:SPDXRef-grub-common
+Relationship: SPDXRef-grub-efi-amd64-bin DEPENDS_ON SPDXRef-grub-efi-amd64-signed
+Relationship: SPDXRef-grub-efi-amd64-bin DEPENDS_ON DocumentRef-efibootmgr:SPDXRef-efibootmgr
+
+
+PackageName: grub-efi-amd64-signed
+PackageVersion: 1.180+2.06-2ubuntu7
+SPDXID: SPDXRef-grub-efi-amd64-signed
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e7a884500dee052b5b49d1ce2b48530875b7415b
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc
+Copyright 2012 Canonical Ltd.
+</text>
+PackageComment: <text>GRand Unified Bootloader, version 2 (EFI-AMD64 version, signed)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains a version of GRUB built for use with the EFI-AMD64
+ architecture, signed with Canonical's UEFI signing key.</text>
+Relationship: SPDXRef-grub-efi-amd64-signed DEPENDS_ON SPDXRef-grub-efi-amd64-bin
+Relationship: SPDXRef-grub-efi-amd64-signed DEPENDS_ON DocumentRef-grub-pc.Cycle:SPDXRef-grub-pc
+Relationship: SPDXRef-grub-efi-amd64-signed DEPENDS_ON DocumentRef-grub2-common:SPDXRef-grub2-common
+Relationship: SPDXRef-grub-efi-amd64-signed DEPENDS_ON DocumentRef-secureboot-db:SPDXRef-secureboot-db
+
+
+## File
+
+FileName: /usr/share/doc/grub-efi-amd64-bin/copyright
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-0
+FileChecksum: SHA1: 7270c57d84015d6ab0f44e44081939a73801840a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc
+Copyright 2003, 2004, 2005, 2006, 2007, 2008, 2009, Robert Millan 2005, 2006, 2007, Otavio Salvador 2008, 2009, Felix Zielcke 2009, Jordi Mallach
+Copyright Nathan Coulson 2003, 2007 Free Software Foundation, Inc 2003 NIIBE Yutaka
+Copyright 2012 Free Software Foundation, Inc
+Copyright 2011 Daniel Tschudi
+</text>
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-0
+
+
+FileName: /usr/lib/grub/x86_64-efi/acpi.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-1
+FileChecksum: SHA1: 23644f9c2ce95f742c081bf456f24c08ce6ea5cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-1
+
+
+FileName: /usr/lib/grub/x86_64-efi/adler32.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-2
+FileChecksum: SHA1: 14db1d6c6ac4402089218b8ce550b0e7c769e2b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-2
+
+
+FileName: /usr/lib/grub/x86_64-efi/affs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-3
+FileChecksum: SHA1: 4bd61919551a3f5ff2654327dde6ff2d808a2435
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-3
+
+
+FileName: /usr/lib/grub/x86_64-efi/afs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-4
+FileChecksum: SHA1: e9bc459ef08b4e44a88826daaeb54608f4e0112c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-4
+
+
+FileName: /usr/lib/grub/x86_64-efi/afsplitter.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-5
+FileChecksum: SHA1: a21a0161735d2452bcaecaa7df6db739436398ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-5
+
+
+FileName: /usr/lib/grub/x86_64-efi/ahci.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-6
+FileChecksum: SHA1: 7a3b9570679d3641dfdafca6a5b64c91197dc91c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-6
+
+
+FileName: /usr/lib/grub/x86_64-efi/all_video.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-7
+FileChecksum: SHA1: c07e59031b6364f3fa0d74b89a2855c412df3be2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-7
+
+
+FileName: /usr/lib/grub/x86_64-efi/aout.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-8
+FileChecksum: SHA1: 3c862c9184bc546a2fa1d3448e1d166ec8719ae4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-8
+
+
+FileName: /usr/lib/grub/x86_64-efi/appleldr.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-9
+FileChecksum: SHA1: 1af7ba54254690081f9e2da1ce9aee7d5b6e061c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-9
+
+
+FileName: /usr/lib/grub/x86_64-efi/archelp.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-10
+FileChecksum: SHA1: 6f064944eb7d7e8ca28e22290efdfdd3444a9b08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-10
+
+
+FileName: /usr/lib/grub/x86_64-efi/at_keyboard.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-11
+FileChecksum: SHA1: 7aa90f262c0d6bb3799eaa4d664f1e4c98ab4136
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-11
+
+
+FileName: /usr/lib/grub/x86_64-efi/ata.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-12
+FileChecksum: SHA1: ebcc98404e5e86270f653db19029957ab8ac94c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-12
+
+
+FileName: /usr/lib/grub/x86_64-efi/backtrace.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-13
+FileChecksum: SHA1: 571cefcded144f611feb50f328b3c7a9f54b2091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-13
+
+
+FileName: /usr/lib/grub/x86_64-efi/bfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-14
+FileChecksum: SHA1: 5bc29451e8d2c8957b71e3d9c2fa5a3d660065e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-14
+
+
+FileName: /usr/lib/grub/x86_64-efi/bitmap.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-15
+FileChecksum: SHA1: 03065545cff465d08505fb9e5a128031149473e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-15
+
+
+FileName: /usr/lib/grub/x86_64-efi/bitmap_scale.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-16
+FileChecksum: SHA1: 0f974decf6c3d09c5f3f71ee8dd435a0c0f60889
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-16
+
+
+FileName: /usr/lib/grub/x86_64-efi/blocklist.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-17
+FileChecksum: SHA1: 114d00dc5b0f88a7ad4947b0524ef181b9e028d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-17
+
+
+FileName: /usr/lib/grub/x86_64-efi/boot.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-18
+FileChecksum: SHA1: e3df77cd1880ed563d94a4d6fb327a056a886fb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-18
+
+
+FileName: /usr/lib/grub/x86_64-efi/bsd.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-19
+FileChecksum: SHA1: 6cef53155552fda1e32c5565508ba8ec3dd0f5fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-19
+
+
+FileName: /usr/lib/grub/x86_64-efi/bswap_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-20
+FileChecksum: SHA1: 93db086a3e1b0bc2ef9e251a1cd8120bbbe335b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-20
+
+
+FileName: /usr/lib/grub/x86_64-efi/btrfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-21
+FileChecksum: SHA1: 779db1ab18537870e4ec91a4b46671b9293b9ec8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-21
+
+
+FileName: /usr/lib/grub/x86_64-efi/bufio.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-22
+FileChecksum: SHA1: c75079a61ade350482aa5760f3fbe4f5e2f05deb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-22
+
+
+FileName: /usr/lib/grub/x86_64-efi/cat.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-23
+FileChecksum: SHA1: fe8e66da6a14ed795bc552bb829e0c575fbf3164
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-23
+
+
+FileName: /usr/lib/grub/x86_64-efi/cbfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-24
+FileChecksum: SHA1: c7be003b8da020ed960edde88efc4858b541c1f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-24
+
+
+FileName: /usr/lib/grub/x86_64-efi/cbls.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-25
+FileChecksum: SHA1: da26d0c67abb5eadf7ef684d9e3d6be691744d9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-25
+
+
+FileName: /usr/lib/grub/x86_64-efi/cbmemc.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-26
+FileChecksum: SHA1: aefc05ade126d192d4a5f03c17fb6fbc0965963e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-26
+
+
+FileName: /usr/lib/grub/x86_64-efi/cbtable.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-27
+FileChecksum: SHA1: 3f99d433688d58a1ce8b951a904897874e1b6a46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-27
+
+
+FileName: /usr/lib/grub/x86_64-efi/cbtime.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-28
+FileChecksum: SHA1: ff4fce9190cab5102dc6bc03f84fd20a6becfb4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-28
+
+
+FileName: /usr/lib/grub/x86_64-efi/chain.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-29
+FileChecksum: SHA1: cb4390029eb4b7cbdd7e81dffe5fda920c3c0025
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-29
+
+
+FileName: /usr/lib/grub/x86_64-efi/cmdline_cat_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-30
+FileChecksum: SHA1: 05d7fefa2f2a38b44e07c94ec7bf0ccc99969a90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-30
+
+
+FileName: /usr/lib/grub/x86_64-efi/cmp.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-31
+FileChecksum: SHA1: 72ce3b02422487ff1bbcf019d0cb3aa05da6d009
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-31
+
+
+FileName: /usr/lib/grub/x86_64-efi/cmp_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-32
+FileChecksum: SHA1: e8cf1e70395504573b7a58b424a047546173167f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-32
+
+
+FileName: /usr/lib/grub/x86_64-efi/command.lst
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-33
+FileChecksum: SHA1: 7f7e85909fb37d150f57822c0ad3b636e7853aff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-33
+
+
+FileName: /usr/lib/grub/x86_64-efi/config.h
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-34
+FileChecksum: SHA1: f0a936a097732ee799337b9d279f96961add2c3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-34
+
+
+FileName: /usr/lib/grub/x86_64-efi/configfile.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-35
+FileChecksum: SHA1: 1c127dd7c9b49245e26fede017391c21c6c623f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-35
+
+
+FileName: /usr/lib/grub/x86_64-efi/cpio.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-36
+FileChecksum: SHA1: 7ebd7cd4beee209a3285e7451de3371e0ab4cb9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-36
+
+
+FileName: /usr/lib/grub/x86_64-efi/cpio_be.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-37
+FileChecksum: SHA1: 2742b1ada38526c7b6cc494be405f7fc1249df53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-37
+
+
+FileName: /usr/lib/grub/x86_64-efi/cpuid.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-38
+FileChecksum: SHA1: 08b9cbb56521f00be84bdba54c444ae90183bbcd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-38
+
+
+FileName: /usr/lib/grub/x86_64-efi/crc64.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-39
+FileChecksum: SHA1: 8e670421405baf781028755959cc1122475cb22d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-39
+
+
+FileName: /usr/lib/grub/x86_64-efi/crypto.lst
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-40
+FileChecksum: SHA1: ff00d28114398cf1a052329494d63aceeb8ff29a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-40
+
+
+FileName: /usr/lib/grub/x86_64-efi/crypto.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-41
+FileChecksum: SHA1: 0b28e278e91615d21672513d4acf9ebcf02dd075
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-41
+
+
+FileName: /usr/lib/grub/x86_64-efi/cryptodisk.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-42
+FileChecksum: SHA1: 22a448a5860136465d364d41a284c89ff8fd3648
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-42
+
+
+FileName: /usr/lib/grub/x86_64-efi/cs5536.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-43
+FileChecksum: SHA1: 4b5a5896ddce74d89f498bde8f3f4edbded435e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-43
+
+
+FileName: /usr/lib/grub/x86_64-efi/ctz_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-44
+FileChecksum: SHA1: a746b2ee9518d5324463af6f0626a3fdfa0f248c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-44
+
+
+FileName: /usr/lib/grub/x86_64-efi/date.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-45
+FileChecksum: SHA1: f7388e3fa5c774d5cdb0c6a148c253854701ba88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-45
+
+
+FileName: /usr/lib/grub/x86_64-efi/datehook.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-46
+FileChecksum: SHA1: 1a707988e2ae5f163675fba00da757757ab984ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-46
+
+
+FileName: /usr/lib/grub/x86_64-efi/datetime.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-47
+FileChecksum: SHA1: 9b4d6866686d46552ac7433686b19ccfdacc4919
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-47
+
+
+FileName: /usr/lib/grub/x86_64-efi/disk.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-48
+FileChecksum: SHA1: 210a0e0f400ea74ed5206bbd0423a35064762eab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-48
+
+
+FileName: /usr/lib/grub/x86_64-efi/diskfilter.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-49
+FileChecksum: SHA1: b4c34038ea3599cdc8ec4cb3f23b963961303826
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-49
+
+
+FileName: /usr/lib/grub/x86_64-efi/div.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-50
+FileChecksum: SHA1: 998d151063abad86feccb5880eb9cc78ab14a40e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-50
+
+
+FileName: /usr/lib/grub/x86_64-efi/div_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-51
+FileChecksum: SHA1: 1e19243efd44534ff41f1369b3131a914673f52b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-51
+
+
+FileName: /usr/lib/grub/x86_64-efi/dm_nv.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-52
+FileChecksum: SHA1: b4bf0fd285903a3c47e5167f7127ae96bb58fe42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-52
+
+
+FileName: /usr/lib/grub/x86_64-efi/echo.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-53
+FileChecksum: SHA1: 438c4e4a84a6502885c1c385e26c6913cdb5e621
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-53
+
+
+FileName: /usr/lib/grub/x86_64-efi/efi_gop.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-54
+FileChecksum: SHA1: 987709d65aceabc37a3276e7483f98e49e1eb2a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-54
+
+
+FileName: /usr/lib/grub/x86_64-efi/efi_uga.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-55
+FileChecksum: SHA1: 468659fdd38e0958cdcc03d6ba6cbd5a48a30715
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-55
+
+
+FileName: /usr/lib/grub/x86_64-efi/efifwsetup.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-56
+FileChecksum: SHA1: b9ac8edb84119b93e70989d24eacd239e2435af0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-56
+
+
+FileName: /usr/lib/grub/x86_64-efi/efinet.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-57
+FileChecksum: SHA1: b3694cbd11918e43c8bacb551c27e21697fc08bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-57
+
+
+FileName: /usr/lib/grub/x86_64-efi/ehci.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-58
+FileChecksum: SHA1: efc78204322496b5fe06fb73a666863e7e248662
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-58
+
+
+FileName: /usr/lib/grub/x86_64-efi/elf.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-59
+FileChecksum: SHA1: 623d12d8daf8de4ed713fee792463ec583b5eea1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-59
+
+
+FileName: /usr/lib/grub/x86_64-efi/eval.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-60
+FileChecksum: SHA1: cb89ed18a5e01f2b2e6c98a27f3394904b67ffad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-60
+
+
+FileName: /usr/lib/grub/x86_64-efi/exfat.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-61
+FileChecksum: SHA1: 5356a21d8991d7944b2f08badb2317ee09a09270
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-61
+
+
+FileName: /usr/lib/grub/x86_64-efi/exfctest.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-62
+FileChecksum: SHA1: ff5318507f106055321be1737121f5125f7a41a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-62
+
+
+FileName: /usr/lib/grub/x86_64-efi/ext2.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-63
+FileChecksum: SHA1: 58a6d3bd8d42215d17a306ab99e58585ea03538e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-63
+
+
+FileName: /usr/lib/grub/x86_64-efi/extcmd.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-64
+FileChecksum: SHA1: b7a80d16ceae7b441973b52a532656fdb94bd240
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-64
+
+
+FileName: /usr/lib/grub/x86_64-efi/f2fs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-65
+FileChecksum: SHA1: 234049623bade6d990ffde78f8a5158c9e9c1fb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-65
+
+
+FileName: /usr/lib/grub/x86_64-efi/fat.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-66
+FileChecksum: SHA1: 46ce4f106f36e8e8005a024a62a5bfa59bc34cd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-66
+
+
+FileName: /usr/lib/grub/x86_64-efi/fdt.lst
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-67
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-67
+
+
+FileName: /usr/lib/grub/x86_64-efi/file.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-68
+FileChecksum: SHA1: b5b3d51f2c4438f1e14b69888d5b8837c8a23cf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-68
+
+
+FileName: /usr/lib/grub/x86_64-efi/fixvideo.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-69
+FileChecksum: SHA1: 633870fcfa5296cc5f927efa5487aad8f1e906b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-69
+
+
+FileName: /usr/lib/grub/x86_64-efi/font.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-70
+FileChecksum: SHA1: 7b8c7aa5065aa3be1cd94ccd4524690dc17f8902
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-70
+
+
+FileName: /usr/lib/grub/x86_64-efi/fs.lst
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-71
+FileChecksum: SHA1: f091655c7ac7314eb0df21931415de47628d621f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-71
+
+
+FileName: /usr/lib/grub/x86_64-efi/fshelp.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-72
+FileChecksum: SHA1: d82066bc5104ca3cfae35564f6d902dcccac32af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-72
+
+
+FileName: /usr/lib/grub/x86_64-efi/functional_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-73
+FileChecksum: SHA1: 620dd5c351cb38e7655a247908466043ba6b5b5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-73
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_arcfour.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-74
+FileChecksum: SHA1: 857efe92b672f6cb769dbcececd55ac171928699
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-74
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_blowfish.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-75
+FileChecksum: SHA1: 9c9090b81344e9bbe6b463a7abb5c048e5dae330
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-75
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_camellia.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-76
+FileChecksum: SHA1: 0c31fe507b72e82153d3618eea2df88ba5f1f844
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-76
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_cast5.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-77
+FileChecksum: SHA1: 17206659a27959d04d4eddc50f809fbf006a1fde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-77
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_crc.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-78
+FileChecksum: SHA1: 5fba60373961635b4871dfceb8aa34296178bd79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-78
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_des.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-79
+FileChecksum: SHA1: 93b1d15d2a0ad50058b3a4c87e99d7499b0d715b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-79
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_dsa.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-80
+FileChecksum: SHA1: 12414a88a60d2b7d53d9529c65e25c3eedd20ae7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-80
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_idea.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-81
+FileChecksum: SHA1: 63504dc2c1ab48261af4a998b9208d194b76b329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-81
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_md4.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-82
+FileChecksum: SHA1: 7434d4886ad498b3233ef43652b6a42ca0055f1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-82
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_md5.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-83
+FileChecksum: SHA1: db6f056228de0818b93a21452495365311630e4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-83
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_rfc2268.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-84
+FileChecksum: SHA1: be81ecde91c3ce4c06fdb7688e7743f260a997df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-84
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_rijndael.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-85
+FileChecksum: SHA1: efdcee85c49809eb50e7642f4f8f07e97dabf893
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-85
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_rmd160.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-86
+FileChecksum: SHA1: ad77d52f740d22c49c42b94c17ba0ad1a90a0f94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-86
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_rsa.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-87
+FileChecksum: SHA1: 313c651179fcf0ecd29e2a6e76b522267f117b1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-87
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_seed.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-88
+FileChecksum: SHA1: ce86f03155adfda15e9608e6665f90e8ebc985b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-88
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_serpent.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-89
+FileChecksum: SHA1: 218a61f48b58b766169849ddf65defef198453ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-89
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_sha1.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-90
+FileChecksum: SHA1: c1f222b87e32d928ccc33b6706bc01f8afd444ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-90
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_sha256.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-91
+FileChecksum: SHA1: 0c5ea655a68f420be381c340293193eeb53ada43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-91
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_sha512.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-92
+FileChecksum: SHA1: b8f634963b320fe4b99ca73a2826e29da313c71d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-92
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_tiger.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-93
+FileChecksum: SHA1: e974712bb9ff58976a16376c56e7d6370550cc12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-93
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_twofish.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-94
+FileChecksum: SHA1: 7444c468c57d6bb93e14b97d667601a16c3e94b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-94
+
+
+FileName: /usr/lib/grub/x86_64-efi/gcry_whirlpool.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-95
+FileChecksum: SHA1: 9c40ce5ffc12e40345a0489016b83b81ae766c1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-95
+
+
+FileName: /usr/lib/grub/x86_64-efi/geli.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-96
+FileChecksum: SHA1: bf1cd526b7859ea8b20b629bd8eb85bacff67789
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-96
+
+
+FileName: /usr/lib/grub/x86_64-efi/gettext.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-97
+FileChecksum: SHA1: 18cd829b1209cb97a6eb9d410c12f8e10dc84541
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-97
+
+
+FileName: /usr/lib/grub/x86_64-efi/gfxmenu.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-98
+FileChecksum: SHA1: 27f115229ba6ec63837a234c0ad1640639c41764
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-98
+
+
+FileName: /usr/lib/grub/x86_64-efi/gfxterm.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-99
+FileChecksum: SHA1: 2d53595db4c2e08517029ec19e2d124aa2cb6b0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-99
+
+
+FileName: /usr/lib/grub/x86_64-efi/gfxterm_background.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-100
+FileChecksum: SHA1: 2b7faa299fa3d6865fadea8405e35ceca7c6cc3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-100
+
+
+FileName: /usr/lib/grub/x86_64-efi/gfxterm_menu.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-101
+FileChecksum: SHA1: 98ee132ccce490a935724615472912790693a8f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-101
+
+
+FileName: /usr/lib/grub/x86_64-efi/gptsync.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-102
+FileChecksum: SHA1: 06665f86c7ed44055139529f607b9026992ed1e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-102
+
+
+FileName: /usr/lib/grub/x86_64-efi/gzio.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-103
+FileChecksum: SHA1: ef23fadfd80892caef53d4d6f32ce5759c8beb0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-103
+
+
+FileName: /usr/lib/grub/x86_64-efi/halt.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-104
+FileChecksum: SHA1: b970080c88364b9662c6dce34121a32da2286ca5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-104
+
+
+FileName: /usr/lib/grub/x86_64-efi/hashsum.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-105
+FileChecksum: SHA1: 756f569b45c64ad5ba0ef3d1b36c0b8b970aeb8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-105
+
+
+FileName: /usr/lib/grub/x86_64-efi/hdparm.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-106
+FileChecksum: SHA1: 9ecfbc36a336b67c4e0a1a66a1a480ff39850b5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-106
+
+
+FileName: /usr/lib/grub/x86_64-efi/hello.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-107
+FileChecksum: SHA1: c80577615d057ba5cd1a1016bd38e6170268d54d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-107
+
+
+FileName: /usr/lib/grub/x86_64-efi/help.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-108
+FileChecksum: SHA1: bd6b2e0ef98266cb14b54b86d95e06ae3f89c607
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-108
+
+
+FileName: /usr/lib/grub/x86_64-efi/hexdump.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-109
+FileChecksum: SHA1: 5a9104d38b4820171673692f0ab216a4867692e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-109
+
+
+FileName: /usr/lib/grub/x86_64-efi/hfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-110
+FileChecksum: SHA1: 3759fcc3c509f2ee15985feeceb5a58ffe366686
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-110
+
+
+FileName: /usr/lib/grub/x86_64-efi/hfsplus.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-111
+FileChecksum: SHA1: 9570a58afaf00b7e90d0fefdfdb235cef2cc4ce7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-111
+
+
+FileName: /usr/lib/grub/x86_64-efi/hfspluscomp.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-112
+FileChecksum: SHA1: 86709a8ab8c0665d54254a4fdf9bf52ce39ec6e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-112
+
+
+FileName: /usr/lib/grub/x86_64-efi/http.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-113
+FileChecksum: SHA1: 20b273461d4488820bf429505cb6a1b154bffb06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-113
+
+
+FileName: /usr/lib/grub/x86_64-efi/iorw.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-114
+FileChecksum: SHA1: 4f80578ff9592e92eae8c823786274059a3c5e4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-114
+
+
+FileName: /usr/lib/grub/x86_64-efi/iso9660.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-115
+FileChecksum: SHA1: 275639b0912c0360dc46189751db971b6034ab28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-115
+
+
+FileName: /usr/lib/grub/x86_64-efi/jfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-116
+FileChecksum: SHA1: 6791aa355e26b0bef0894fd0604edb033341da7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-116
+
+
+FileName: /usr/lib/grub/x86_64-efi/jpeg.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-117
+FileChecksum: SHA1: dd442509034704012c6b92d5ac03af36fccea396
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-117
+
+
+FileName: /usr/lib/grub/x86_64-efi/json.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-118
+FileChecksum: SHA1: 0d14275f6a420e9c33f6216b0a46bcf5be2e5bae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-118
+
+
+FileName: /usr/lib/grub/x86_64-efi/kernel.img
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-119
+FileChecksum: SHA1: 4acc3a17fce51bbeab19e694f81d5c2077bffd0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-119
+
+
+FileName: /usr/lib/grub/x86_64-efi/keylayouts.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-120
+FileChecksum: SHA1: 33b55e4ded4bdd16c327142cbb02886fd3b97cc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-120
+
+
+FileName: /usr/lib/grub/x86_64-efi/keystatus.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-121
+FileChecksum: SHA1: 91de2ce758f7325287cfa791af071060f24981a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-121
+
+
+FileName: /usr/lib/grub/x86_64-efi/ldm.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-122
+FileChecksum: SHA1: adfd36c911a583ca39e3137335f5cd6e0c7c2224
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-122
+
+
+FileName: /usr/lib/grub/x86_64-efi/legacy_password_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-123
+FileChecksum: SHA1: 70b8e2c33dac502f0ce70d05df8f64183b2af69d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-123
+
+
+FileName: /usr/lib/grub/x86_64-efi/legacycfg.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-124
+FileChecksum: SHA1: 0ad09c7b1e0b768dc0f47f2e1663ff4b1d440ec7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-124
+
+
+FileName: /usr/lib/grub/x86_64-efi/linux.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-125
+FileChecksum: SHA1: d8cab5bf5fa325b83043c964b8988a09f5f9194e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-125
+
+
+FileName: /usr/lib/grub/x86_64-efi/linux16.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-126
+FileChecksum: SHA1: 87310fe4d591e3e4dd1fddde5c59bbedd4fda911
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-126
+
+
+FileName: /usr/lib/grub/x86_64-efi/linuxefi.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-127
+FileChecksum: SHA1: fbd507b57fde52ad5be3a13411566302340dde05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-127
+
+
+FileName: /usr/lib/grub/x86_64-efi/loadbios.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-128
+FileChecksum: SHA1: 238058842dcbf250a9a9ea10d4588be00d8ff450
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-128
+
+
+FileName: /usr/lib/grub/x86_64-efi/loadenv.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-129
+FileChecksum: SHA1: d98baf55e2548ae14fcf28c6360a54fe5cc896b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-129
+
+
+FileName: /usr/lib/grub/x86_64-efi/loopback.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-130
+FileChecksum: SHA1: c5da3eade97d35a7716c3116a16fdeb7b3827352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-130
+
+
+FileName: /usr/lib/grub/x86_64-efi/ls.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-131
+FileChecksum: SHA1: 4fa614752d5523a6447565d209968c977ed814b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-131
+
+
+FileName: /usr/lib/grub/x86_64-efi/lsacpi.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-132
+FileChecksum: SHA1: b80c4ffe8ad5d99cef988061f517c90d6f8fc115
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-132
+
+
+FileName: /usr/lib/grub/x86_64-efi/lsefi.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-133
+FileChecksum: SHA1: c2f58d7673c46a3408a0ef672e9ed13bea45cc24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-133
+
+
+FileName: /usr/lib/grub/x86_64-efi/lsefimmap.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-134
+FileChecksum: SHA1: 0ae952a221f9ff44b9bc673291f5b2717e37cb1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-134
+
+
+FileName: /usr/lib/grub/x86_64-efi/lsefisystab.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-135
+FileChecksum: SHA1: 9f5b52e6f3f3b4416b4e3792e90e6d8ddcd0e8ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-135
+
+
+FileName: /usr/lib/grub/x86_64-efi/lsmmap.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-136
+FileChecksum: SHA1: 27088ce78b2af2ba39c05b6db96c01e98fc649e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-136
+
+
+FileName: /usr/lib/grub/x86_64-efi/lspci.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-137
+FileChecksum: SHA1: c6550316ab529c3476ae7fa84381ed24d3befe07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-137
+
+
+FileName: /usr/lib/grub/x86_64-efi/lssal.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-138
+FileChecksum: SHA1: d11aeb29a42c8c58bb554e26ddad6108342fafbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-138
+
+
+FileName: /usr/lib/grub/x86_64-efi/luks.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-139
+FileChecksum: SHA1: 077db4b65877479ce35a2ff9a3846f4091a2e0e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-139
+
+
+FileName: /usr/lib/grub/x86_64-efi/luks2.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-140
+FileChecksum: SHA1: 3e1573792ffe116f1c67719bcf35c5c04dc6de3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-140
+
+
+FileName: /usr/lib/grub/x86_64-efi/lvm.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-141
+FileChecksum: SHA1: 8d55c387c4687e9bc41a58b4320d7acf4ee60b88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-141
+
+
+FileName: /usr/lib/grub/x86_64-efi/lzopio.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-142
+FileChecksum: SHA1: 9adcef6507ca169021b83729b7f666795c9b2305
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-142
+
+
+FileName: /usr/lib/grub/x86_64-efi/macbless.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-143
+FileChecksum: SHA1: 03356c8f35b697663bb62005c4418b9126934d57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-143
+
+
+FileName: /usr/lib/grub/x86_64-efi/macho.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-144
+FileChecksum: SHA1: 5ce7a703fb705c52992d8f150aec7b112f0e13db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-144
+
+
+FileName: /usr/lib/grub/x86_64-efi/mdraid09.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-145
+FileChecksum: SHA1: b8899d2e0550952d275402068de9902c0156386e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-145
+
+
+FileName: /usr/lib/grub/x86_64-efi/mdraid09_be.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-146
+FileChecksum: SHA1: ca844f479b2e168d3bb30df47310fb6408f62a5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-146
+
+
+FileName: /usr/lib/grub/x86_64-efi/mdraid1x.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-147
+FileChecksum: SHA1: 31f16162fa35c35b2d31434ff897955bbead92ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-147
+
+
+FileName: /usr/lib/grub/x86_64-efi/memdisk.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-148
+FileChecksum: SHA1: c246c839d9f00cea85fd669c80179e70873aa2ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-148
+
+
+FileName: /usr/lib/grub/x86_64-efi/memrw.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-149
+FileChecksum: SHA1: 773da7fa5b87015df5ef43e148494993ee57e1f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-149
+
+
+FileName: /usr/lib/grub/x86_64-efi/minicmd.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-150
+FileChecksum: SHA1: 557425f47b967ee7244cd0c3ad6d6d65857be5c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-150
+
+
+FileName: /usr/lib/grub/x86_64-efi/minix.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-151
+FileChecksum: SHA1: bb73db37d1a5ba244d4fdf450e04f1dce4c9ee20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-151
+
+
+FileName: /usr/lib/grub/x86_64-efi/minix2.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-152
+FileChecksum: SHA1: 749729045a71bc696e7eaad09008d285ee02d07e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-152
+
+
+FileName: /usr/lib/grub/x86_64-efi/minix2_be.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-153
+FileChecksum: SHA1: 81ec2f384fd47e002ed2f7bc0ff036668eebf13e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-153
+
+
+FileName: /usr/lib/grub/x86_64-efi/minix3.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-154
+FileChecksum: SHA1: 7096f5e14cd1a2dae7884a55b0319778ca5ee1a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-154
+
+
+FileName: /usr/lib/grub/x86_64-efi/minix3_be.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-155
+FileChecksum: SHA1: 532e4605320774679f8f535a11e49d488f38eba5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-155
+
+
+FileName: /usr/lib/grub/x86_64-efi/minix_be.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-156
+FileChecksum: SHA1: 7c34a075dad056c854029bcd13febc06073f00b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-156
+
+
+FileName: /usr/lib/grub/x86_64-efi/mmap.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-157
+FileChecksum: SHA1: 3bc9b260858c8f49d20fc510c5bf483b4d623527
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-157
+
+
+FileName: /usr/lib/grub/x86_64-efi/moddep.lst
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-158
+FileChecksum: SHA1: b26491440929fff55087b61243b21f83a4d2c5e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-158
+
+
+FileName: /usr/lib/grub/x86_64-efi/modinfo.sh
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-159
+FileChecksum: SHA1: 39ada6260545ad6c40398cf42065f662f4c28379
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-159
+
+
+FileName: /usr/lib/grub/x86_64-efi/monolithic/gcdx64.efi
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-160
+FileChecksum: SHA1: ee7c93fb3a454fa183950041bfc3e557521192bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-160
+
+
+FileName: /usr/lib/grub/x86_64-efi/monolithic/grubnetx64.efi
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-161
+FileChecksum: SHA1: 615d6093360db28574764421943f0f73f10a1de1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-161
+
+
+FileName: /usr/lib/grub/x86_64-efi/monolithic/grubx64.efi
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-162
+FileChecksum: SHA1: d3388e77b3e691f3658e0f7669a54f3351a4dcb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-162
+
+
+FileName: /usr/lib/grub/x86_64-efi/morse.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-163
+FileChecksum: SHA1: a5ef63f6e89f412f38bca3eab05a4facfec0a389
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-163
+
+
+FileName: /usr/lib/grub/x86_64-efi/mpi.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-164
+FileChecksum: SHA1: cf6c64df7a81304972b817ee746989406a9de6d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-164
+
+
+FileName: /usr/lib/grub/x86_64-efi/msdospart.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-165
+FileChecksum: SHA1: 89cb84e301f254fe7c5ae76bcd7834554ebc8ade
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-165
+
+
+FileName: /usr/lib/grub/x86_64-efi/mul_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-166
+FileChecksum: SHA1: 1979331660c5646ffbea1de92c416730effce225
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-166
+
+
+FileName: /usr/lib/grub/x86_64-efi/multiboot.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-167
+FileChecksum: SHA1: b4571c7f9a46e9051253a1bcd6c9f34951571a9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-167
+
+
+FileName: /usr/lib/grub/x86_64-efi/multiboot2.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-168
+FileChecksum: SHA1: 2ed73578fc93c538bfb70460393b1ed068c76b8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-168
+
+
+FileName: /usr/lib/grub/x86_64-efi/nativedisk.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-169
+FileChecksum: SHA1: 19cf3e8b4c483373a63bd31ac83f3f66056c3684
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-169
+
+
+FileName: /usr/lib/grub/x86_64-efi/net.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-170
+FileChecksum: SHA1: 90f303417ef14bcf82bb3bd394e789103d5667b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-170
+
+
+FileName: /usr/lib/grub/x86_64-efi/newc.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-171
+FileChecksum: SHA1: 94437ce884d5787d536e678c1db79bcb14dde0e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-171
+
+
+FileName: /usr/lib/grub/x86_64-efi/nilfs2.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-172
+FileChecksum: SHA1: ebe1a24963017f7d6b3820f1557d2342a81c69d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-172
+
+
+FileName: /usr/lib/grub/x86_64-efi/normal.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-173
+FileChecksum: SHA1: f541382f19d27929bb51fc9fe6add37c2333e9c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-173
+
+
+FileName: /usr/lib/grub/x86_64-efi/ntfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-174
+FileChecksum: SHA1: db6279f24df6fb3d4c9860ab6c6d3887e45d12a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-174
+
+
+FileName: /usr/lib/grub/x86_64-efi/ntfscomp.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-175
+FileChecksum: SHA1: fbee247e8fa5e9e894a81330877036170f0cf658
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-175
+
+
+FileName: /usr/lib/grub/x86_64-efi/odc.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-176
+FileChecksum: SHA1: dd71e95d5f919ce86d3fd0d437155aa00cbd963a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-176
+
+
+FileName: /usr/lib/grub/x86_64-efi/offsetio.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-177
+FileChecksum: SHA1: 9920a7de18dec70b8f3e095011a24050c9067d07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-177
+
+
+FileName: /usr/lib/grub/x86_64-efi/ohci.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-178
+FileChecksum: SHA1: 06f60086af130fe6207fdfa51b0b635e126ba126
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-178
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_acorn.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-179
+FileChecksum: SHA1: a60227c1539be0d9a4236b787160455296cff637
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-179
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_amiga.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-180
+FileChecksum: SHA1: 2ac4568287193690ba7434d7ff360b48e06cdeaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-180
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_apple.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-181
+FileChecksum: SHA1: 90da5d24c2bd3238f165da2d86ce2dbe6c78100a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-181
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_bsd.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-182
+FileChecksum: SHA1: fe05fe2e4ad222eaa5e6a519f71b2a796571afb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-182
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_dfly.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-183
+FileChecksum: SHA1: 37b5de7af1fad0630ef017c551f251ea673dffb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-183
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_dvh.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-184
+FileChecksum: SHA1: ea7af409e58e61989aa207f3122328b35f24aff4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-184
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_gpt.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-185
+FileChecksum: SHA1: cbb12874da804a866ef13a491e6914241571db4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-185
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_msdos.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-186
+FileChecksum: SHA1: 4a19aa92e79ebf8773d4816b55d8a2c2afedc6c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-186
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_plan.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-187
+FileChecksum: SHA1: 4cd52e11db8d709d0bbd6bdcce290f24d5b4a72a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-187
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_sun.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-188
+FileChecksum: SHA1: 7548d61039a8695714dc09e05c0bed211310fcc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-188
+
+
+FileName: /usr/lib/grub/x86_64-efi/part_sunpc.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-189
+FileChecksum: SHA1: ffcf4dce122d8bb9bc22a33571de75259a5092d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-189
+
+
+FileName: /usr/lib/grub/x86_64-efi/partmap.lst
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-190
+FileChecksum: SHA1: b5a777a9c9d1d484b9f133987047bca324a9c01e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-190
+
+
+FileName: /usr/lib/grub/x86_64-efi/parttool.lst
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-191
+FileChecksum: SHA1: 408f07c267ffdb9554b69138616a472fe4207026
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-191
+
+
+FileName: /usr/lib/grub/x86_64-efi/parttool.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-192
+FileChecksum: SHA1: 3f2d120d9f2956dbb19353e496bc1d453b066d8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-192
+
+
+FileName: /usr/lib/grub/x86_64-efi/password.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-193
+FileChecksum: SHA1: 25937b7a533e0de7d776f6d0bcae0ea140ba5d60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-193
+
+
+FileName: /usr/lib/grub/x86_64-efi/password_pbkdf2.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-194
+FileChecksum: SHA1: 6575c5ba7977a3106dc1d835ea85bdf2446b8300
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-194
+
+
+FileName: /usr/lib/grub/x86_64-efi/pata.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-195
+FileChecksum: SHA1: a5d7d018292531b4c812c2d8bbba915ef55bdd2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-195
+
+
+FileName: /usr/lib/grub/x86_64-efi/pbkdf2.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-196
+FileChecksum: SHA1: 7335483be4570fc2db89969b4bc9d6ea48a236f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-196
+
+
+FileName: /usr/lib/grub/x86_64-efi/pbkdf2_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-197
+FileChecksum: SHA1: 6cededaf294d6c931ef677db2fa707bba5bf26d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-197
+
+
+FileName: /usr/lib/grub/x86_64-efi/pcidump.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-198
+FileChecksum: SHA1: 3de9573ca04ff4ad55e717097528b79aadd20f9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-198
+
+
+FileName: /usr/lib/grub/x86_64-efi/pgp.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-199
+FileChecksum: SHA1: 066aac58a42c30676c197cf78f6f4a022f4caed1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-199
+
+
+FileName: /usr/lib/grub/x86_64-efi/play.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-200
+FileChecksum: SHA1: 10913292f9af5c1c82b0b668baf6c03d7781909e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-200
+
+
+FileName: /usr/lib/grub/x86_64-efi/png.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-201
+FileChecksum: SHA1: 53019819c19b0da40df36e20491e188213b1b139
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-201
+
+
+FileName: /usr/lib/grub/x86_64-efi/priority_queue.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-202
+FileChecksum: SHA1: 0a79c16918bddbbbbc163562e9dcd09b8705975f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-202
+
+
+FileName: /usr/lib/grub/x86_64-efi/probe.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-203
+FileChecksum: SHA1: 95c22243e138db2bf070735b2f9f857a8d4be981
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-203
+
+
+FileName: /usr/lib/grub/x86_64-efi/procfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-204
+FileChecksum: SHA1: 264a1346c47715c25f455dbea68d161c5c2f195d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-204
+
+
+FileName: /usr/lib/grub/x86_64-efi/progress.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-205
+FileChecksum: SHA1: d2aee91245924872a775314a92e345819c9d1c54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-205
+
+
+FileName: /usr/lib/grub/x86_64-efi/raid5rec.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-206
+FileChecksum: SHA1: b28443dac54567de83e67ad060698ceae0bc7fec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-206
+
+
+FileName: /usr/lib/grub/x86_64-efi/raid6rec.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-207
+FileChecksum: SHA1: 3e1194038d3e363309f79bd275eb17983509f6b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-207
+
+
+FileName: /usr/lib/grub/x86_64-efi/random.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-208
+FileChecksum: SHA1: a0dff7cdd29345e6c3dec6603c7329cd7cc679ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-208
+
+
+FileName: /usr/lib/grub/x86_64-efi/rdmsr.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-209
+FileChecksum: SHA1: 03f26e254d33799a1a275ad0b252fe13d0f20670
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-209
+
+
+FileName: /usr/lib/grub/x86_64-efi/read.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-210
+FileChecksum: SHA1: d129a0aa335022812f6be31d4cefc5a574a856ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-210
+
+
+FileName: /usr/lib/grub/x86_64-efi/reboot.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-211
+FileChecksum: SHA1: fe1769dce742cb59382693909c84abf9f954e496
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-211
+
+
+FileName: /usr/lib/grub/x86_64-efi/regexp.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-212
+FileChecksum: SHA1: 645bd00244a67a90ea09adcd46a03d1f8361e13e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-212
+
+
+FileName: /usr/lib/grub/x86_64-efi/reiserfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-213
+FileChecksum: SHA1: 3bdeb6d884513938520820b27b08f524f2993956
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-213
+
+
+FileName: /usr/lib/grub/x86_64-efi/relocator.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-214
+FileChecksum: SHA1: bf6f947e2fbb1e48eab6650958e6c4d2a20b27b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-214
+
+
+FileName: /usr/lib/grub/x86_64-efi/romfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-215
+FileChecksum: SHA1: 03f967eed6610fdf5f3b3a0c65fc444280e4cbc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-215
+
+
+FileName: /usr/lib/grub/x86_64-efi/scsi.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-216
+FileChecksum: SHA1: cae45fbb2ee2c39e59f199a8bc8a470d06f722a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-216
+
+
+FileName: /usr/lib/grub/x86_64-efi/search.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-217
+FileChecksum: SHA1: fa0bc3ba8aaeba6bb8cd7e65f050e8197628e669
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-217
+
+
+FileName: /usr/lib/grub/x86_64-efi/search_fs_file.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-218
+FileChecksum: SHA1: dae25a54c49dcdc5d24de4c6005d918650f8fa26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-218
+
+
+FileName: /usr/lib/grub/x86_64-efi/search_fs_uuid.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-219
+FileChecksum: SHA1: 45dc47da243116e2e63bc7577912814f9f1bba47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-219
+
+
+FileName: /usr/lib/grub/x86_64-efi/search_label.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-220
+FileChecksum: SHA1: ef4607f1676469425fb741381c5b1299f518fc46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-220
+
+
+FileName: /usr/lib/grub/x86_64-efi/serial.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-221
+FileChecksum: SHA1: 7ac54c910564955ca1f6ed12110ae99a92dbd2df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-221
+
+
+FileName: /usr/lib/grub/x86_64-efi/setjmp.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-222
+FileChecksum: SHA1: 719c3f1ca25aa98093138968c59c8629f78d553f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-222
+
+
+FileName: /usr/lib/grub/x86_64-efi/setjmp_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-223
+FileChecksum: SHA1: 8fcb528f1841c84ee1d617bd6adaf94755806f74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-223
+
+
+FileName: /usr/lib/grub/x86_64-efi/setpci.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-224
+FileChecksum: SHA1: 5837a0ac89736f4c1ca36763d06c7a5d2213bc6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-224
+
+
+FileName: /usr/lib/grub/x86_64-efi/sfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-225
+FileChecksum: SHA1: 3a741d6e4ba363740d0d81ec413cd5cee5498e6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-225
+
+
+FileName: /usr/lib/grub/x86_64-efi/shift_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-226
+FileChecksum: SHA1: 380a39b5eb0ae8ad8651ff300f325c81fcaa5432
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-226
+
+
+FileName: /usr/lib/grub/x86_64-efi/signature_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-227
+FileChecksum: SHA1: 2d7dd560e8607d1a136fdbf2a02ec1581d9a0b13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-227
+
+
+FileName: /usr/lib/grub/x86_64-efi/sleep.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-228
+FileChecksum: SHA1: 6fa78796f2c73091795100426ff11ed0176be692
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-228
+
+
+FileName: /usr/lib/grub/x86_64-efi/sleep_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-229
+FileChecksum: SHA1: a8b01abcceda253345b21b4d4ea88a6f68793802
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-229
+
+
+FileName: /usr/lib/grub/x86_64-efi/smbios.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-230
+FileChecksum: SHA1: 443e5bb9409ef25ad99feb353ec0511e04ebb969
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-230
+
+
+FileName: /usr/lib/grub/x86_64-efi/spkmodem.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-231
+FileChecksum: SHA1: b1631933711e2bcabf9528efcbbc516bb3d594ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-231
+
+
+FileName: /usr/lib/grub/x86_64-efi/squash4.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-232
+FileChecksum: SHA1: 466bb99c3fe766ecacdfb41e9967516ceeb92094
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-232
+
+
+FileName: /usr/lib/grub/x86_64-efi/strtoull_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-233
+FileChecksum: SHA1: 0afe31b0409ef4429f497b98f2fde1a68b15152a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-233
+
+
+FileName: /usr/lib/grub/x86_64-efi/syslinuxcfg.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-234
+FileChecksum: SHA1: 066837fe31e4077bb97475b0c5d74eee102d7b19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-234
+
+
+FileName: /usr/lib/grub/x86_64-efi/tar.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-235
+FileChecksum: SHA1: b8d012cd8ec3b82d297a5244b785a2d8c214e4dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-235
+
+
+FileName: /usr/lib/grub/x86_64-efi/terminal.lst
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-236
+FileChecksum: SHA1: 66b726c6d64bc109d3948a9528f502ea94938ef4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-236
+
+
+FileName: /usr/lib/grub/x86_64-efi/terminal.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-237
+FileChecksum: SHA1: 53169a46f0197e3cc58990c425c847d5fb83eb88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-237
+
+
+FileName: /usr/lib/grub/x86_64-efi/terminfo.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-238
+FileChecksum: SHA1: 5fdb4d9044605e4acca7f5996c4ec5a840f51bc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-238
+
+
+FileName: /usr/lib/grub/x86_64-efi/test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-239
+FileChecksum: SHA1: 93ebc19b33b73699b940770670e44e36feca576c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-239
+
+
+FileName: /usr/lib/grub/x86_64-efi/test_blockarg.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-240
+FileChecksum: SHA1: 0d9c503c008f2b584ac8c700bd5bdc69ac22baa6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-240
+
+
+FileName: /usr/lib/grub/x86_64-efi/testload.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-241
+FileChecksum: SHA1: dcd8b63882eef0caf496036f944e9b86cdfbd3eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-241
+
+
+FileName: /usr/lib/grub/x86_64-efi/testspeed.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-242
+FileChecksum: SHA1: d90dbd1858439e6df1e0e155401f6101fef376fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-242
+
+
+FileName: /usr/lib/grub/x86_64-efi/tftp.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-243
+FileChecksum: SHA1: e911440c0f2fa3fed5e9160065e4cdd7cb55b30b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-243
+
+
+FileName: /usr/lib/grub/x86_64-efi/tga.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-244
+FileChecksum: SHA1: 15717bf260fea5fcc0448c36c63fc63d8a0bed70
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-244
+
+
+FileName: /usr/lib/grub/x86_64-efi/time.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-245
+FileChecksum: SHA1: 113894803951ff186e87e88be5c60fbfb4f6f852
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-245
+
+
+FileName: /usr/lib/grub/x86_64-efi/tpm.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-246
+FileChecksum: SHA1: e03e04b027284fc6f871cf1578b8669bf1b37338
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-246
+
+
+FileName: /usr/lib/grub/x86_64-efi/tr.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-247
+FileChecksum: SHA1: f15382e8d0e8f1dbce6ca57c5ca0a8fe9bd2f95e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-247
+
+
+FileName: /usr/lib/grub/x86_64-efi/trig.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-248
+FileChecksum: SHA1: 92fef4d4864d0655640e174afc2e81fe0a90a855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-248
+
+
+FileName: /usr/lib/grub/x86_64-efi/true.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-249
+FileChecksum: SHA1: a98b7f97c3846abb890465bcb697f91de1cfbf45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-249
+
+
+FileName: /usr/lib/grub/x86_64-efi/udf.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-250
+FileChecksum: SHA1: e90081451abb110523343b3ad26641acc07e8f2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-250
+
+
+FileName: /usr/lib/grub/x86_64-efi/ufs1.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-251
+FileChecksum: SHA1: 9c83054da6f72f4f5483b68d26935b3945b09e71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-251
+
+
+FileName: /usr/lib/grub/x86_64-efi/ufs1_be.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-252
+FileChecksum: SHA1: 4272b56f306041cf85eb88988890ff95f62e67eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-252
+
+
+FileName: /usr/lib/grub/x86_64-efi/ufs2.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-253
+FileChecksum: SHA1: f1dfac12182980b66ebec2b6c38f56ce82571027
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-253
+
+
+FileName: /usr/lib/grub/x86_64-efi/uhci.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-254
+FileChecksum: SHA1: 29bcb7c6bb87420591775e18fe444b06534e0bb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-254
+
+
+FileName: /usr/lib/grub/x86_64-efi/usb.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-255
+FileChecksum: SHA1: 1f9c394f0806b8917c5a616d7d1a1c679b32781d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-255
+
+
+FileName: /usr/lib/grub/x86_64-efi/usb_keyboard.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-256
+FileChecksum: SHA1: 783b47a248fbdf6e8e2283ce9531a664fd666f63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-256
+
+
+FileName: /usr/lib/grub/x86_64-efi/usbms.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-257
+FileChecksum: SHA1: 7cae6ca3f5a08f3497f486a910a05e1364ce4fed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-257
+
+
+FileName: /usr/lib/grub/x86_64-efi/usbserial_common.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-258
+FileChecksum: SHA1: 2d834e7c02d1842d8c80762d2be75fa6ad25bf99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-258
+
+
+FileName: /usr/lib/grub/x86_64-efi/usbserial_ftdi.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-259
+FileChecksum: SHA1: a427645c930ec160753f943c265f7ce193fb6b8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-259
+
+
+FileName: /usr/lib/grub/x86_64-efi/usbserial_pl2303.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-260
+FileChecksum: SHA1: 9249f4e6b57e434ae80b88a4e692cb5f0e8beb75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-260
+
+
+FileName: /usr/lib/grub/x86_64-efi/usbserial_usbdebug.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-261
+FileChecksum: SHA1: e5f7799b9b2340d07a2923a94644be23e1903ded
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-261
+
+
+FileName: /usr/lib/grub/x86_64-efi/usbtest.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-262
+FileChecksum: SHA1: 5e23044643f254df31fb65c885e3f8c928b72f1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-262
+
+
+FileName: /usr/lib/grub/x86_64-efi/video.lst
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-263
+FileChecksum: SHA1: 97f4e097d2ac7d54d0108f00d9a090b474c4f8f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-263
+
+
+FileName: /usr/lib/grub/x86_64-efi/video.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-264
+FileChecksum: SHA1: 549986b23c7064308ac702b3b85764e2aaddf04b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-264
+
+
+FileName: /usr/lib/grub/x86_64-efi/video_bochs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-265
+FileChecksum: SHA1: 74ec9286e741ab09248014e0e6b300fd6bab7e77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-265
+
+
+FileName: /usr/lib/grub/x86_64-efi/video_cirrus.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-266
+FileChecksum: SHA1: 02d5306e2670c199094e8d24d71b2a0b38fc7e93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-266
+
+
+FileName: /usr/lib/grub/x86_64-efi/video_colors.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-267
+FileChecksum: SHA1: c60c33ae01c0410ebbcf83fb2670ae87caa99464
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-267
+
+
+FileName: /usr/lib/grub/x86_64-efi/video_fb.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-268
+FileChecksum: SHA1: 41126578a32e0e136c0636cad5c06589f679b823
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-268
+
+
+FileName: /usr/lib/grub/x86_64-efi/videoinfo.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-269
+FileChecksum: SHA1: ebfcd9c210737eeb700b8a7e2a3e3f7560127338
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-269
+
+
+FileName: /usr/lib/grub/x86_64-efi/videotest.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-270
+FileChecksum: SHA1: 99a576d3a9da02b9afcf8f5b0e43bc8697272286
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-270
+
+
+FileName: /usr/lib/grub/x86_64-efi/videotest_checksum.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-271
+FileChecksum: SHA1: 438113d7498ffeaf85cc1504e64b12421863b75f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-271
+
+
+FileName: /usr/lib/grub/x86_64-efi/wrmsr.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-272
+FileChecksum: SHA1: 28a83d31fb9770ac583d705898fc700c3bb3adb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-272
+
+
+FileName: /usr/lib/grub/x86_64-efi/xfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-273
+FileChecksum: SHA1: 16a56db6ced434d6788b0a2200a379fb6db10913
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-273
+
+
+FileName: /usr/lib/grub/x86_64-efi/xnu.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-274
+FileChecksum: SHA1: 7c6bc567f6ece4c8499c9e540bda7d62767f73ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-274
+
+
+FileName: /usr/lib/grub/x86_64-efi/xnu_uuid.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-275
+FileChecksum: SHA1: 12cb19bbb2dbedb37f049a3957ad7ad4aea3cdcd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-275
+
+
+FileName: /usr/lib/grub/x86_64-efi/xnu_uuid_test.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-276
+FileChecksum: SHA1: 8132c1e2df7fee1c7cafedb794fff29d0584c638
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-276
+
+
+FileName: /usr/lib/grub/x86_64-efi/xzio.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-277
+FileChecksum: SHA1: a1045b5bdff1d075284d6e78b041ecb37f033771
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-277
+
+
+FileName: /usr/lib/grub/x86_64-efi/zfs.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-278
+FileChecksum: SHA1: 3847f5c7155dcb2666e434cb2e37c8eeeb602ffa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-278
+
+
+FileName: /usr/lib/grub/x86_64-efi/zfscrypt.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-279
+FileChecksum: SHA1: 76b7d4ddef235dd518bec8196e71179bd0271191
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-279
+
+
+FileName: /usr/lib/grub/x86_64-efi/zfsinfo.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-280
+FileChecksum: SHA1: e4271c00716c9a4c2857ec6d17ae726799cb0c68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-280
+
+
+FileName: /usr/lib/grub/x86_64-efi/zstd.mod
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-281
+FileChecksum: SHA1: 812c147cff2d3cfedaa4b58e240650bf1285ccb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-281
+
+
+FileName: /usr/share/bug/grub-efi-amd64-bin/presubj
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-282
+FileChecksum: SHA1: 1140bc2b71c5c476bfeb3b2c270aa40a415e69cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-282
+
+
+FileName: /usr/share/bug/grub-efi-amd64-bin/script
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-283
+FileChecksum: SHA1: 7b44a89a73ed32c36a2d1df73e55ad74a024d97f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-283
+
+
+FileName: /usr/share/doc/grub-efi-amd64-bin/NEWS.Debian.gz
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-284
+FileChecksum: SHA1: 01a11bdb655e136f2a03b5204a14cb3f78b3af05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-284
+
+
+FileName: /usr/share/doc/grub-efi-amd64-bin/changelog.Debian.gz
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-285
+FileChecksum: SHA1: 9639458ae16a734ebbf786ac2118aec8af0e8432
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-285
+
+
+FileName: /usr/share/lintian/overrides/grub-efi-amd64-bin
+SPDXID: SPDXRef-grub-efi-amd64-bin-file-286
+FileChecksum: SHA1: d21f3b46bcb3e3c7a36b10a2ac6f21304d60add5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-bin CONTAINS SPDXRef-grub-efi-amd64-bin-file-286
+
+
+FileName: /usr/share/doc/grub-efi-amd64-signed/copyright
+SPDXID: SPDXRef-grub-efi-amd64-signed-file-0
+FileChecksum: SHA1: e4dcf06a4149f2ad531edc76d959404f5ba83bf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: <text>Copyright 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc
+Copyright 2012 Canonical Ltd.
+</text>
+Relationship: SPDXRef-grub-efi-amd64-signed CONTAINS SPDXRef-grub-efi-amd64-signed-file-0
+
+
+FileName: /usr/lib/grub/x86_64-efi-signed/gcdx64.efi.signed
+SPDXID: SPDXRef-grub-efi-amd64-signed-file-1
+FileChecksum: SHA1: f67029996d70069f4d9e4abd2184273124027cb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-signed CONTAINS SPDXRef-grub-efi-amd64-signed-file-1
+
+
+FileName: /usr/lib/grub/x86_64-efi-signed/grubnetx64.efi.signed
+SPDXID: SPDXRef-grub-efi-amd64-signed-file-2
+FileChecksum: SHA1: b7d92ad13bf7adb6fc5ef57d0d8ba544a0238b79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-signed CONTAINS SPDXRef-grub-efi-amd64-signed-file-2
+
+
+FileName: /usr/lib/grub/x86_64-efi-signed/grubx64.efi.signed
+SPDXID: SPDXRef-grub-efi-amd64-signed-file-3
+FileChecksum: SHA1: d50c3468f35df014169ef6c2b968fb26995684a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-signed CONTAINS SPDXRef-grub-efi-amd64-signed-file-3
+
+
+FileName: /usr/lib/grub/x86_64-efi-signed/version
+SPDXID: SPDXRef-grub-efi-amd64-signed-file-4
+FileChecksum: SHA1: 882fb929e9d10adb7efc82bdbda7f85d8c66dcd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-signed CONTAINS SPDXRef-grub-efi-amd64-signed-file-4
+
+
+FileName: /usr/share/doc/grub-efi-amd64-signed/changelog.Debian.gz
+SPDXID: SPDXRef-grub-efi-amd64-signed-file-5
+FileChecksum: SHA1: 58ee8a5fc24fe2d2671d47564faf6064915012f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-grub-efi-amd64-signed CONTAINS SPDXRef-grub-efi-amd64-signed-file-5
+
+
+## Extracted License
+

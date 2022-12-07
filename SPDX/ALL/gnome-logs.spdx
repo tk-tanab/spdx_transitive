@@ -1,0 +1,683 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/gnome-logs_42.0-1-117afd1d-a5b2-58d0-a661-58407398a602
+DocumentName: gnome-logs_42.0-1
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-gnome-logs
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:09:09Z
+
+
+## Package
+
+PackageName: gnome-logs
+PackageVersion: 42.0-1
+SPDXID: SPDXRef-gnome-logs
+PackageHomePage: https://wiki.gnome.org/Apps/Logs
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2084bbb8a9a065a2ff595dd0b368a9fb3e64bfc9
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: CC-BY-SA-3.0
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageCopyrightText: <text>Copyright 2013 Red Hat, Inc
+Copyright 2014 Andreas Henriksson <andreas@fatal.se>
+Copyright 2014, Benjamin Steinwender <b@stbe.at> 2014, Daniel Mustieles <daniel.mustieles@gmail.com> 2014, David King <davidk@gnome.org>
+Copyright 2014, David King <davidk@gnome.org>
+</text>
+PackageComment: <text>viewer for the systemd journal
+ The GNOME Logs application is an application to view system logs
+ (from the systemd journal) for the GNOME Desktop environment.</text>
+Relationship: SPDXRef-gnome-logs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-gnome-logs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-gnome-logs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libgtk-3-0
+Relationship: SPDXRef-gnome-logs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libhandy-1-0
+Relationship: SPDXRef-gnome-logs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpango-1.0-0
+Relationship: SPDXRef-gnome-logs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libsystemd0
+Relationship: SPDXRef-gnome-logs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-dconf-gsettings-backend
+Relationship: SPDXRef-gnome-logs DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-gsettings-desktop-schemas
+
+
+## File
+
+FileName: /usr/share/doc/gnome-logs/copyright
+SPDXID: SPDXRef-gnome-logs-file-0
+FileChecksum: SHA1: b0cebc2f762c6a457608a2c55e3f58792e9a305b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: CC-BY-SA-3.0
+FileCopyrightText: <text>Copyright 2013 Red Hat, Inc
+Copyright 2014, Benjamin Steinwender <b@stbe.at> 2014, Daniel Mustieles <daniel.mustieles@gmail.com> 2014, David King <davidk@gnome.org>
+Copyright 2014, David King <davidk@gnome.org>
+Copyright 2014 Andreas Henriksson <andreas@fatal.se>
+</text>
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-0
+
+
+FileName: /usr/bin/gnome-logs
+SPDXID: SPDXRef-gnome-logs-file-1
+FileChecksum: SHA1: 50471bfa40d2baa64086feabe2e920ecb78394d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-1
+
+
+FileName: /usr/share/applications/org.gnome.Logs.desktop
+SPDXID: SPDXRef-gnome-logs-file-2
+FileChecksum: SHA1: 7d9a0d0100fe354eeed7fb2ece1c58785e90eda4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-2
+
+
+FileName: /usr/share/dbus-1/services/org.gnome.Logs.service
+SPDXID: SPDXRef-gnome-logs-file-3
+FileChecksum: SHA1: 2cd98894a37f3e2e8128a67c048f7d3d0c0ebc85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-3
+
+
+FileName: /usr/share/doc/gnome-logs/NEWS.gz
+SPDXID: SPDXRef-gnome-logs-file-4
+FileChecksum: SHA1: 3cb957a4921b50c9a3e300487bba8f3605c1783b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-4
+
+
+FileName: /usr/share/doc/gnome-logs/README
+SPDXID: SPDXRef-gnome-logs-file-5
+FileChecksum: SHA1: 7748ddac5a387148accdc3d0c3d8bb33541d1831
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-5
+
+
+FileName: /usr/share/doc/gnome-logs/changelog.Debian.gz
+SPDXID: SPDXRef-gnome-logs-file-6
+FileChecksum: SHA1: ed945679466a59057fcbfdab214ed0c2e9e27bf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-6
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.Logs.enums.xml
+SPDXID: SPDXRef-gnome-logs-file-7
+FileChecksum: SHA1: 133807b7a143c5a5f37d2e2e0dc0ce4a6e297fbb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-7
+
+
+FileName: /usr/share/glib-2.0/schemas/org.gnome.Logs.gschema.xml
+SPDXID: SPDXRef-gnome-logs-file-8
+FileChecksum: SHA1: d5ea090744339b38564882571a268d64f117c2d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-8
+
+
+FileName: /usr/share/gnome-logs/gl-style.css
+SPDXID: SPDXRef-gnome-logs-file-9
+FileChecksum: SHA1: b403263803eef958fac507102277253ba8346963
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-9
+
+
+FileName: /usr/share/help/C/gnome-logs/index.page
+SPDXID: SPDXRef-gnome-logs-file-10
+FileChecksum: SHA1: 1047f89c0df8ce100c56c5ca3a9e2b15886d66a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-10
+
+
+FileName: /usr/share/help/C/gnome-logs/introduction.page
+SPDXID: SPDXRef-gnome-logs-file-11
+FileChecksum: SHA1: d83ef0cb12b51ce72be9dc1152c0f6d4249b270f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-11
+
+
+FileName: /usr/share/help/C/gnome-logs/legal.xml
+SPDXID: SPDXRef-gnome-logs-file-12
+FileChecksum: SHA1: 36904afd6103363dc80cd1d968acf92d77c8d0cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-12
+
+
+FileName: /usr/share/help/C/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-13
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-13
+
+
+FileName: /usr/share/help/C/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-14
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-14
+
+
+FileName: /usr/share/help/C/gnome-logs/permissions.page
+SPDXID: SPDXRef-gnome-logs-file-15
+FileChecksum: SHA1: 4a1f73ddbd2e3a635407a85aecafa401d0fa7641
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-15
+
+
+FileName: /usr/share/icons/hicolor/scalable/apps/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-16
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-16
+
+
+FileName: /usr/share/icons/hicolor/symbolic/apps/org.gnome.Logs-symbolic.svg
+SPDXID: SPDXRef-gnome-logs-file-17
+FileChecksum: SHA1: 7a3d965228467a79aed51873842347b72c3cb6d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-17
+
+
+FileName: /usr/share/man/man1/gnome-logs.1.gz
+SPDXID: SPDXRef-gnome-logs-file-18
+FileChecksum: SHA1: 4114c854a6a82bf3912de7e50feb8dbbcd517eb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-18
+
+
+FileName: /usr/share/metainfo/org.gnome.Logs.appdata.xml
+SPDXID: SPDXRef-gnome-logs-file-19
+FileChecksum: SHA1: 4de511e5d9530587c029b1b79f1dd51a07a5a6a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-19
+
+
+FileName: /usr/share/help/ca/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-20
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-20
+
+
+FileName: /usr/share/help/ca/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-21
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-21
+
+
+FileName: /usr/share/help/cs/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-22
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-22
+
+
+FileName: /usr/share/help/cs/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-23
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-23
+
+
+FileName: /usr/share/help/da/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-24
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-24
+
+
+FileName: /usr/share/help/da/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-25
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-25
+
+
+FileName: /usr/share/help/de/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-26
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-26
+
+
+FileName: /usr/share/help/de/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-27
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-27
+
+
+FileName: /usr/share/help/el/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-28
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-28
+
+
+FileName: /usr/share/help/el/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-29
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-29
+
+
+FileName: /usr/share/help/en_GB/gnome-logs/index.page
+SPDXID: SPDXRef-gnome-logs-file-30
+FileChecksum: SHA1: 6be509ae56fb3cd0bc424d0afaed80da4e3d9e8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-30
+
+
+FileName: /usr/share/help/en_GB/gnome-logs/introduction.page
+SPDXID: SPDXRef-gnome-logs-file-31
+FileChecksum: SHA1: 5235ee2cbab5e1dbf93a66d84f0bf83dfcd8e7a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-31
+
+
+FileName: /usr/share/help/en_GB/gnome-logs/legal.xml
+SPDXID: SPDXRef-gnome-logs-file-32
+FileChecksum: SHA1: 10ab994412e092d269ec4cb39ff71fd9cbff4681
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-32
+
+
+FileName: /usr/share/help/en_GB/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-33
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-33
+
+
+FileName: /usr/share/help/en_GB/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-34
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-34
+
+
+FileName: /usr/share/help/en_GB/gnome-logs/permissions.page
+SPDXID: SPDXRef-gnome-logs-file-35
+FileChecksum: SHA1: b31f16210dc1454931eecdb5ab21e48a97283b73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-35
+
+
+FileName: /usr/share/help/es/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-36
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-36
+
+
+FileName: /usr/share/help/es/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-37
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-37
+
+
+FileName: /usr/share/help/eu/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-38
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-38
+
+
+FileName: /usr/share/help/eu/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-39
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-39
+
+
+FileName: /usr/share/help/fr/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-40
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-40
+
+
+FileName: /usr/share/help/fr/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-41
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-41
+
+
+FileName: /usr/share/help/gl/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-42
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-42
+
+
+FileName: /usr/share/help/gl/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-43
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-43
+
+
+FileName: /usr/share/help/hu/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-44
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-44
+
+
+FileName: /usr/share/help/hu/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-45
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-45
+
+
+FileName: /usr/share/help/id/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-46
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-46
+
+
+FileName: /usr/share/help/id/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-47
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-47
+
+
+FileName: /usr/share/help/ko/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-48
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-48
+
+
+FileName: /usr/share/help/ko/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-49
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-49
+
+
+FileName: /usr/share/help/nl/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-50
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-50
+
+
+FileName: /usr/share/help/nl/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-51
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-51
+
+
+FileName: /usr/share/help/pl/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-52
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-52
+
+
+FileName: /usr/share/help/pl/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-53
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-53
+
+
+FileName: /usr/share/help/pt/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-54
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-54
+
+
+FileName: /usr/share/help/pt/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-55
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-55
+
+
+FileName: /usr/share/help/pt_BR/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-56
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-56
+
+
+FileName: /usr/share/help/pt_BR/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-57
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-57
+
+
+FileName: /usr/share/help/ru/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-58
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-58
+
+
+FileName: /usr/share/help/ru/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-59
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-59
+
+
+FileName: /usr/share/help/sv/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-60
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-60
+
+
+FileName: /usr/share/help/sv/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-61
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-61
+
+
+FileName: /usr/share/help/tr/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-62
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-62
+
+
+FileName: /usr/share/help/tr/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-63
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-63
+
+
+FileName: /usr/share/help/uk/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-64
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-64
+
+
+FileName: /usr/share/help/uk/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-65
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-65
+
+
+FileName: /usr/share/help/zh_CN/gnome-logs/media/gnome-logs-3-34.png
+SPDXID: SPDXRef-gnome-logs-file-66
+FileChecksum: SHA1: 0d7170c9dbb906f35e7d33c7f92d502840488849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-66
+
+
+FileName: /usr/share/help/zh_CN/gnome-logs/media/org.gnome.Logs.svg
+SPDXID: SPDXRef-gnome-logs-file-67
+FileChecksum: SHA1: 9f8631bb7758f028e4e8fb1af3656875d5078ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-gnome-logs CONTAINS SPDXRef-gnome-logs-file-67
+
+
+## Extracted License
+

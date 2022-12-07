@@ -1,0 +1,67 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/pci.ids_0.0~2022.01.22-1-0f532df5-f941-5198-86a3-f3d4915af2e1
+DocumentName: pci.ids_0.0~2022.01.22-1
+SPDXID: SPDXRef-DOCUMENT
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-pci.ids
+
+
+## Creation Information
+
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-05T23:12:34Z
+
+
+## Package
+
+PackageName: pci.ids
+PackageVersion: 0.0~2022.01.22-1
+SPDXID: SPDXRef-pci.ids
+PackageHomePage: https://pci-ids.ucw.cz/
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 8c5c9dd86eb582ac8d9a74ac33c58942f1d67122
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageComment: <text>PCI ID Repository
+ This package contains the pci.ids file, a public repository of all known
+ ID's used in PCI devices: ID's of vendors, devices, subsystems and device
+ classes. It is used in various programs to display full human-readable
+ names instead of cryptic numeric codes.</text>
+
+
+## File
+
+FileName: /usr/share/doc/pci.ids/changelog.Debian.gz
+SPDXID: SPDXRef-pci.ids-file-0
+FileChecksum: SHA1: f376072df6364b8f1be16c856cce690d36078a88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids-file-0
+
+
+FileName: /usr/share/doc/pci.ids/copyright
+SPDXID: SPDXRef-pci.ids-file-1
+FileChecksum: SHA1: 3c62e38955a562c2fddc73a987809aba3a5b4871
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids-file-1
+
+
+FileName: /usr/share/misc/pci.ids
+SPDXID: SPDXRef-pci.ids-file-2
+FileChecksum: SHA1: 23f1217465519470a24e20d94de595d7831c3bb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-pci.ids CONTAINS SPDXRef-pci.ids-file-2
+
+
+## Extracted License
+

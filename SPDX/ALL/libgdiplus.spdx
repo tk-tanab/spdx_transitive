@@ -1,0 +1,125 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/libgdiplus_6.0.4+dfsg-2-4fe0b54c-74f4-5a46-a1eb-fbfe2e3265ae
+DocumentName: libgdiplus_6.0.4+dfsg-2
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+ExternalDocumentRef: DocumentRef-libgif7 http://spdx.org/spdxdocs/libgif7_5.1.9-2build2-731c95e1-c191-5b0d-b1bf-fc3c2253496a SHA1: 9c05c15a5c0d3ad902f07ca64bcd9e79fb4ebaf9
+ExternalDocumentRef: DocumentRef-accountsservice.Cycle http://spdx.org/spdxdocs/accountsservice_22.07.5-2ubuntu1.3-cc6e0d93-60fb-5f72-8fe6-147d52063133 SHA1: 20638ecb91efacd1979afd33717c88886ada60b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libgdiplus
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:32:27Z
+
+
+## Package
+
+PackageName: libgdiplus
+PackageVersion: 6.0.4+dfsg-2
+SPDXID: SPDXRef-libgdiplus
+PackageHomePage: http://www.mono-project.com/Libgdiplus
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 546257d5e53b1e93eac23da68c823a3c366b95dc
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseInfoFromFiles: LicenseRef-scancode-unknown-license-reference
+PackageCopyrightText: <text>Copyright (c) 2001-2004 Novell
+</text>
+PackageComment: <text>interface library for System.Drawing of Mono
+ This package contains a GDI+ API compatible implementation needed by the
+ System.Drawing library of Mono.</text>
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libc6
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libcairo2
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libexif12
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libfontconfig1
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libfreetype6
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-libgif7:SPDXRef-libgif7
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libglib2.0-0
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libjpeg8
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libpng16-16
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libtiff5
+Relationship: SPDXRef-libgdiplus DEPENDS_ON DocumentRef-accountsservice.Cycle:SPDXRef-libx11-6
+
+
+## File
+
+FileName: /usr/share/doc/libgdiplus/copyright
+SPDXID: SPDXRef-libgdiplus-file-0
+FileChecksum: SHA1: 3c521b1f2030ad7284ec5740fc2885d818d6ab66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: MIT
+FileCopyrightText: <text>Copyright (c) 2001-2004 Novell
+</text>
+Relationship: SPDXRef-libgdiplus CONTAINS SPDXRef-libgdiplus-file-0
+
+
+FileName: /usr/lib/libgdiplus.so.0.0.0
+SPDXID: SPDXRef-libgdiplus-file-1
+FileChecksum: SHA1: e822bdea95acbaeacb7d158d5cf3c9c168dbd3a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgdiplus CONTAINS SPDXRef-libgdiplus-file-1
+
+
+FileName: /usr/lib/pkgconfig/libgdiplus.pc
+SPDXID: SPDXRef-libgdiplus-file-2
+FileChecksum: SHA1: a7317e5926573c3c4137f72a3a1eaf8135998b6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgdiplus CONTAINS SPDXRef-libgdiplus-file-2
+
+
+FileName: /usr/share/doc/libgdiplus/changelog.Debian.gz
+SPDXID: SPDXRef-libgdiplus-file-3
+FileChecksum: SHA1: 56cb20fcc0ac02251af6a217ca732a8ac670369a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgdiplus CONTAINS SPDXRef-libgdiplus-file-3
+
+
+FileName: /usr/lib/libgdiplus.so
+SPDXID: SPDXRef-libgdiplus-file-4
+FileChecksum: SHA1: e822bdea95acbaeacb7d158d5cf3c9c168dbd3a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgdiplus CONTAINS SPDXRef-libgdiplus-file-4
+
+
+FileName: /usr/lib/libgdiplus.so.0
+SPDXID: SPDXRef-libgdiplus-file-5
+FileChecksum: SHA1: e822bdea95acbaeacb7d158d5cf3c9c168dbd3a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-libgdiplus CONTAINS SPDXRef-libgdiplus-file-5
+
+
+## Extracted License
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/unknown-license-reference.yml
+</text>
+
+

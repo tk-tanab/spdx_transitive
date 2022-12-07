@@ -1,0 +1,248 @@
+## Document Information
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/fonts-sil-abyssinica_2.100-3-ec9afd70-0e4c-5501-ac71-cdf22d37f508
+DocumentName: fonts-sil-abyssinica_2.100-3
+LicenseListVersion: 3.17
+SPDXID: SPDXRef-DOCUMENT
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fonts-sil-abyssinica
+
+
+## Creation Information
+
+Creator: Tool: scancode-toolkit 31.1.1
+Creator: Tool: spdx_transitive
+Creator: Person: Taketo
+Created: 2022-12-07T13:00:04Z
+
+
+## Package
+
+PackageName: fonts-sil-abyssinica
+PackageVersion: 2.100-3
+SPDXID: SPDXRef-fonts-sil-abyssinica
+PackageHomePage: https://software.sil.org/abyssinica
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f44fbf02ac916c70016b2be7041000fc5089c681
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageLicenseInfoFromFiles: OFL-1.1-RFN
+PackageCopyrightText: <text>Copyright (c) 2000-2021, SIL International (http://www.sil.org/)
+Copyright (c) 2010-2021 Nicolas Spalinger, Bobby de Vos
+Copyright (c) 2014-2021, SIL International (http://www.sil.org/)
+</text>
+PackageComment: <text>Ethiopic script font designed in a calligraphic style
+ Abyssinica SIL has a single face - regular.
+ .
+ The goal for this product was to provide a single Unicode-based font
+ that would contain a comprehensive inventory of glyphs needed for almost any
+ Ethiopic-based writing system. In addition, there is provision for other
+ Latin characters and symbols. This font makes use of state-of-the-art font
+ technologies to support the need to position arbitrary combinations of
+ *Ethiopic* base glyphs and combining marks optimally. It also supports
+ almost 200 kerning pairs. This version of the font also supports Stylistic
+ Sets and Character Variants (OpenType) or Features (Graphite) which make
+ glyph alternates available for a number of Ethiopic and punctuation
+ characters. See the AbyssinicaSILOpenTypeFontFeatures.pdf,
+ AbyssinicaSILGraphiteFontFeatures.pdf and AbyssinicaSILTypeTunerGuide.pdf
+ for details on applications which support Stylistic Sets and how to access
+ them.
+ .
+ One font from this typeface family is included in this release:
+ .
+     * Abyssinica SIL Regular
+ .
+ Webfont versions and HTML/CSS examples are also available.
+ .
+ The full font sources are publicly available at
+ https://github.com/silnrsi/font-abyssinica
+ An open workflow is used for building, testing and releasing.</text>
+
+
+## File
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/copyright
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-0
+FileChecksum: SHA1: a1c903d4b264894daa82cef717191f6299cdf642
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1-RFN
+LicenseInfoInFile: OFL-1.1
+FileCopyrightText: <text>Copyright (c) 2000-2021, SIL International (http://www.sil.org/)
+Copyright (c) 2010-2021 Nicolas Spalinger, Bobby de Vos
+Copyright (c) 2014-2021, SIL International (http://www.sil.org/)
+</text>
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-0
+
+
+FileName: /usr/share/bug/fonts-sil-abyssinica/presubj
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-1
+FileChecksum: SHA1: b177725a8aa4f174e8adacb1447071a8b0d18ef3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-1
+
+
+FileName: /usr/share/bug/fonts-sil-abyssinica/script
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-2
+FileChecksum: SHA1: 2c397f31db65ab66735b1606e59d0c9c9324271d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-2
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/OFL-FAQ.txt.gz
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-3
+FileChecksum: SHA1: 45d9ad3aab43a9de8903e091520332e3225944d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-3
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/README.Debian
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-4
+FileChecksum: SHA1: e1dc04f69ee3674d83c7ff518c909dff650381a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-4
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/README.txt
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-5
+FileChecksum: SHA1: ba9cc60278e8ce98f851b32cd67b70813cb7e640
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-5
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/changelog.Debian.gz
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-6
+FileChecksum: SHA1: 59c8e56b12b14e032dc306fea3f564dcfbca03ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-6
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/documentation/AbyssinicaSILFontFeatures.odt
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-7
+FileChecksum: SHA1: e7c5e16610922eb17660e345ccc9d63519522b73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-7
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/documentation/AbyssinicaSILFontFeatures.pdf.gz
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-8
+FileChecksum: SHA1: 132ec725cb689511516173a52b5fc7d7201ab25a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-8
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/documentation/AbyssinicaSILTypeSample.doc.gz
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-9
+FileChecksum: SHA1: e2cc60fb3a4b83c881485e52560f687ed618dce5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-9
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/documentation/AbyssinicaSILTypeSample.pdf.gz
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-10
+FileChecksum: SHA1: a32c8aca973985bc67ac464d613c1381435979b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-10
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/documentation/DOCUMENTATION.txt
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-11
+FileChecksum: SHA1: 0e6c8272f129571c449a517b42fa912371d0b2a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-11
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/web/AbyssinicaSIL-webfont-example.css
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-12
+FileChecksum: SHA1: f5bbdfe74eec6aaf6f94b0e95746327521847059
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-12
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/web/AbyssinicaSIL-webfont-example.html
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-13
+FileChecksum: SHA1: fa4162db72e5d1d068e3967ed75c90f665dd244c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-13
+
+
+FileName: /usr/share/doc-base/fonts-sil-abyssinica.fonts-sil-abyssinica-features
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-14
+FileChecksum: SHA1: 87c1798a3ae043f2ec2ee4da25f8f9dcb64d7a59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-14
+
+
+FileName: /usr/share/fonts/truetype/abyssinica/AbyssinicaSIL-Regular.ttf
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-15
+FileChecksum: SHA1: bdfa16a78c2e117a628fab3a528129fcd2a47dc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-15
+
+
+FileName: /usr/share/fonts-sil-abyssinica/woff/AbyssinicaSIL-Regular.woff
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-16
+FileChecksum: SHA1: afd3d71552fece35f07df13c0988dd7ea51bc3cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-16
+
+
+FileName: /usr/share/fonts-sil-abyssinica/woff2/AbyssinicaSIL-Regular.woff2
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-17
+FileChecksum: SHA1: 9b13d6e33aec82d6cd283140d413c263e404e145
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-17
+
+
+FileName: /usr/share/doc/fonts-sil-abyssinica/web/AbyssinicaSIL-Regular.woff2
+SPDXID: SPDXRef-fonts-sil-abyssinica-file-18
+FileChecksum: SHA1: 9b13d6e33aec82d6cd283140d413c263e404e145
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+Relationship: SPDXRef-fonts-sil-abyssinica CONTAINS SPDXRef-fonts-sil-abyssinica-file-18
+
+
+## Extracted License
+
